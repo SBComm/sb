@@ -10,6 +10,7 @@
     $content     = "content/";
         $social  = "social/";
         $test    = "test/";
+        $secLv   = "second-level/";
 
     $header          = "header.php";
     $quick_nav       = "quick-nav.php";
@@ -20,7 +21,7 @@
     $footerbar       = "footerbar.php";
 
     /* Meta Variables Defaults */
-    $page_type         = 'default';
+    $page_type         = 'default';     //Options are default, second-level, social-hub
     $page_title        = 'Stony Brook University, Stony Brook, New York';
     $page_description  = 'From its beginnings a half-century ago, Stony Brook University has been characterized by innovation, energy, and progress, transforming the lives of people who earn degrees, work, and make groundbreaking discoveries here. A dramatic trajectory of growth has turned what was once a small teacher preparation college into an internationally recognized research institution that is changing the world.';
     $page_title_sub    = '';
@@ -37,7 +38,7 @@
     /* Page Include Controls */
     $page_to_top_link = false; // speed is defined in main.js click function
 
-    $page_loader      = true;
+    $page_loader      = false;
     //$page_loader_text = '';
     //to-do: var for preloader text
 

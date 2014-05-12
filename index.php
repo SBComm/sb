@@ -13,8 +13,8 @@
 		<?php
 		    $page_to_top_link = true;
 		    $page_footerbar = true;
-		    $main_nav_selected_tab = 1;
-		    $audience_nav_selected_tab = 1;
+		    $main_nav_selected_tab = 0;
+		    $audience_nav_selected_tab = 0;
 		?>
 
 	<!-- <head> -->
