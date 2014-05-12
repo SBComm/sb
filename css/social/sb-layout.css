@@ -1,0 +1,305 @@
+
+/*-----------------------------------------------------------------------------------*/
+/*	RESET
+/*-----------------------------------------------------------------------------------*/
+/*
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, acronym, address, big, cite, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent
+}
+ol, ul {
+	list-style:none
+}
+blockquote, q {
+	quotes:none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none
+}
+:focus {
+	outline:0
+}
+ins {
+	text-decoration:none
+}
+del {
+	text-decoration:line-through
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+.clearfix:after {
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	line-height:0;
+	visibility:hidden;
+	width:0;
+	height:0
+}
+.clearfix {
+	display:inline-block
+}
+* html .clearfix {
+	height:1%
+}
+.clearfix {
+	display:block
+}
+th, td {
+	margin:0;
+	padding:0
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+.clear, .push {
+	clear: both;
+}
+.both {
+	clear: both;
+}
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner {
+ border : 0px;
+}
+input[type="submit"]:focus, input[type="button"]:focus {
+	outline : none;
+}
+a {
+	text-decoration: none;
+}
+*/
+/* LAYOUT */
+/* ----------------------------------------- */
+body {
+	background: #dfdfdf url(../images/noize.png) repeat 100% 0;
+	color: #343434;
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+/* General button style (reset) */
+.sbu-cta {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 5px 15px;
+	outline: none;
+	position: relative;
+	border-radius: 3px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	text-decoration: none !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-weight: normal;
+	box-shadow: 0 -10px 20px #fff;
+}
+
+.sbu-cta:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* sbu-cta 1 */
+.sbu-cta-1 {
+	border: 2px solid #990000 !important;
+	color: #990000;
+	background:	#f8f8f8;
+	background: rgba(255,255,255,.8);
+}
+
+/* sbu-cta 1a */
+.sbu-cta-1a:hover,
+.sbu-cta-1a:active,
+.sbu-cta-1a.active,
+.sbu-cta-1a.active:hover {
+	color: #FFF;
+	background: #990000;
+	border: 2px solid #660000 !important;
+	text-shadow: 0 1px 0 #000000;
+	box-shadow: 0 0 7px #333 inset;
+}
+
+.sbu-cta-1a:active,
+.sbu-cta-1a.active:hover {
+	box-shadow: 0 0 25px #333 inset;
+}
+
+.sbu-cta-2 {
+	background: #990000;
+	text-shadow: 0 1px 0 #000000;
+	border: 2px solid #660000 !important;
+	color: #FFFFFF;
+}
+
+/* sbu-cta 1a */
+.sbu-cta-2a:hover,
+.sbu-cta-2a:active,
+.sbu-cta-2a.active {
+	color: #FFFFFF;
+	background: #AA0000;
+	text-shadow: 0 1px 0 #000000;
+	box-shadow: 0 0 1px #550000 inset;
+}
+
+a.sbu-link,
+a.sbu-link:link,
+a.sbu-link:visited,
+a.sbu-link:active {
+	color: #990000;
+	text-decoration: none;
+	border-bottom: 1px dashed #aa0000;
+}
+a.sbu-link:hover {
+	border-bottom: 1px solid #aa0000;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	LAYOUT
+/*-----------------------------------------------------------------------------------*/
+
+#wrapper, .wrap {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#wrapper h1,
+#wrapper h2 {
+	font-family:'ITCFranklinGothicW01-Md 812695';
+	font-weight: 200;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+	-moz-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+	text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+	color: #444;
+	cursor: default;
+	width: 100%;
+	display: block;
+}
+
+#wrapper .darker {
+	color: #000;
+}
+
+#wrapper .grey {
+	color: #444;
+}
+
+#wrapper .red {
+	color: #990000;
+}
+
+#wrapper .youtube-red,
+.fa-youtube:hover,
+.fa-youtube-square:hover {
+	color: #DF1F1C;
+}
+
+#wrapper .pinterest-red,
+.fa-pinterest:hover,
+.fa-pinterest-square:hover {
+	color: #CB2528;
+}
+
+#wrapper .facebook-blue,
+.fa-facebook:hover,
+.fa-facebook-square:hover {
+	color: #3b5998;
+}
+
+#wrapper .twitter-blue,
+.fa-twitter:hover,
+.fa-twitter-square:hover {
+	color: #4ec2dc;
+}
+
+#wrapper .flickr-pink,
+.fa-flickr:hover,
+.fa-flickr-square:hover {
+	color: #f90784;
+}
+
+#wrapper .instagram-blue,
+.fa-instagram:hover,
+.fa-instagram-square:hover {
+	color: #427097;
+}
+
+#wrapper .subtitle {
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin: 10px 0 15px;
+	font-family:'CenturySchlbkW15-Italic';
+	font-weight: 400;
+	cursor: default;
+	line-height: 1.25em;
+}
+
+.sbu-text-shadow {
+	-webkit-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #aaa;
+	-moz-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #aaa;
+	text-shadow: -1px 1px 0 #eee, -2px 2px 2px #aaa;
+}
+
+.sbu-border-bottom {
+	border-bottom: 1px solid #EEE;
+	-webkit-box-shadow: 0px 2px 6px -5px #333;
+	-moz-box-shadow: 0px 2px 6px -5px #333;
+	box-shadow: 0px 2px 6px -5px #333;
+}
+
+.social {
+	float: right;
+	position: absolute;
+	bottom: 25px;
+	right: 0;
+}
+.social ul li {
+	float: left;
+	margin-left: 1px;
+	background: none;
+	padding: 0;
+}
+#container {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	padding-top: 10px;
+	
+}
+#wrapper .clear {
+	clear: both; /* Safari */
+}
+
+/*
+.opacity {
+	padding: 30px 30px 10px 30px;
+	background: #fff;
+	margin-bottom: 15px;
+	-webkit-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.6);
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.6);
+}*/

@@ -1,0 +1,70 @@
+body {
+    overflow: hidden;
+}
+
+/* Preloader */
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:9999999; /* makes sure it stays on top */
+    background: #dfdfdf;
+}
+
+#status {
+    width:300px;
+    height:300px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../images/sbu-loader-2.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:50% 20%;
+    margin:-150px 0 0 -150px; /* is width and height divided by two */
+}
+
+.preload-message {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'ITCFranklinGothicW01-Md 812695';
+    text-transform: uppercase;
+    height: 160px;
+
+}
+
+.preload-message span {
+    display: block;
+    margin: 4px 0;;;
+
+}
+
+.preload-title {
+    font-family: 'ITCFranklinGothicW01-Md 812695';
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+    -moz-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+    text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+    color: #444;
+    cursor: default;
+    width: 100%;
+    display: block;
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+}
+
+.preload-title .red {
+    color: #a00;
+}
+
+.preload-title .darker {
+    color: #111;
+}

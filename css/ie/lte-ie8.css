@@ -1,0 +1,7 @@
+.site-nav .search-container input {
+	line-height: 30px;
+}
+
+.cd-dropdown ul li:nth-child(1) {
+	top: 40px !important;
+}

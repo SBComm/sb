@@ -1,0 +1,50 @@
+.totop-fixed-container {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 999999;
+	text-align: center;
+	border: 1px solid #777;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	padding: 10px 0 0 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #e7e7e7;
+	background: rgba( 240,240,240,.8);
+	box-shadow: -1px -1px 2px #eee;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	opacity: .3;
+}
+
+.totop-fixed-container.invisible {
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	opacity: 0;
+}
+
+.totop-fixed-container span {
+	font-family:'CenturySchlbkW15-Italic';
+	font-weight: 400;
+	cursor: default;
+	line-height: 1.25em;
+	margin: 2px 0 0 0;
+	font-size: 1.34em;
+}
+
+.totop-fixed-container .fa,
+.totop-fixed-container span {
+	display: block;
+	color: #555;
+	cursor: pointer;
+}
+
+.totop-fixed-container:hover {
+	opacity: 1;
+}

@@ -1,0 +1,109 @@
+.dropdown-nav {
+	color: #333;
+	font-size: 15px;
+}
+
+.dropdown-nav *,
+.dropdown-nav *:after,
+.dropdown-nav *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.cd-dropdown,
+.cd-select {
+	position: relative;
+	width: 300px;
+	display: block;
+	margin: 5px auto;
+    z-index: 200000;
+}
+
+.cd-dropdown > span {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	background: #f4f4f4;
+	display: block;
+	padding: 0 50px 0 30px;
+	position: relative;
+	cursor: pointer;
+}
+
+.cd-dropdown > span > a {
+	color: #333;
+	text-decoration: none;
+}
+
+.cd-dropdown > span:after {
+	font-family: FontAwesome;
+	content: '\f0d7';
+	position: absolute;
+	right: 0px;
+	top: 15%;
+	width: 50px;
+	text-align: center;
+	font-size: 18px;
+	padding: 10px;
+	height: 70%;
+	line-height: 6px;
+	border-left: 1px solid #ddd;
+}
+
+.cd-dropdown.cd-active > span:after {
+	content: '\f0d8';
+}
+
+.cd-dropdown ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	box-shadow: 0 0px 8px rgba(30,30,30,.1);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+
+}
+
+.cd-dropdown ul li {
+	display: block;
+}
+
+.cd-dropdown ul li a {
+	background: #fff;
+	background: rgba(255,255,255,.975);
+	line-height: 40px;
+	padding: 0 30px 0 30px;
+	display: block;
+	color: #999;
+	cursor: pointer;
+	text-decoration: none;
+	width: 100%;
+}
+
+.cd-dropdown > span,
+.cd-dropdown > a,
+.cd-dropdown ul li a {
+	-webkit-backface-visibility: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.cd-dropdown > span span[class^="icon-"],
+.cd-dropdown > span span[class*=" icon-"]{
+	padding: 0 30px 0 45px;
+}
+
+/* Select fallback styling */
+.cd-select {
+	border: 1px solid #ddd;
+}

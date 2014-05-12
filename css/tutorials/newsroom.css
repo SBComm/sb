@@ -1,0 +1,163 @@
+/* ==========================================================================
+   2014.05.01 Continuing SBU styles working off SBU Newsroom tutorial
+   Josh Palmeri
+   To be consolidated with new styles
+   ========================================================================== */
+
+.sbu-text li {
+    margin: 10px 0;
+    display: block;
+}
+.tutorial li {
+    padding: 0 0 0 18px;
+    position: relative;
+    clear: both;
+    vertical-align: top;
+}
+.tutorial li:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f138";
+    margin-right: 0px;
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    z-index: 1;
+    font-size: .7em;
+    color: #800;
+}
+.tutorial li.no-bullet:before {
+    content: '';
+    display: none;
+}
+
+.tutorial li.tip,
+.tutorial li.comment,
+.tutorial li.alert,
+.tutorial li.warning {
+    padding: 11px 22px 14px 48px;
+    position: relative;
+    border: 1px solid #bbb;
+    margin: 10px 18px 22px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px #ccc;
+    display: block;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+.tutorial li.tip:before,
+.tutorial li.comment:before,
+.tutorial li.alert:before,
+.tutorial li.warning-block {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 0px;
+    position: absolute;
+    z-index: 1;
+}
+.tutorial li.tip:before {
+    content: "\f0eb";
+    font-size: 2.4em;
+    top: 14%;
+    left: 16px;
+    color: #444;
+}
+.tutorial li.comment:before {
+    content: "\f075";
+    font-size: 1.6em;
+    top: 18%;
+    left: 14px;
+    color: #444;
+}
+.tutorial li.alert:before {
+    content: "\f06a";
+    font-size: 1.8em;
+    top: 18%;
+    left: 14px;
+    color: #a00;
+}
+.tutorial li.warning:before {
+    content: "\f071";
+    font-size: 1.8em;
+    top: 18%;
+    left: 14px;
+    color: #800;
+}
+/* Image Caption Card */
+.sbu-img-caption {
+    display: block;
+    float: left;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*note the max-width on the image item is causing the extra padding on each side despite border-box*/
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-shadow: 0 0 8px #aaa;
+    background-color: #eee;
+    margin: 10px;
+}
+    .sbu-img-caption.left {
+        float: left;
+        margin-left: 0;
+    }
+    .sbu-img-caption.right {
+        float: right;
+        margin-right: 0;
+    }
+.sbu-img-caption .image {
+    display: block;
+}
+.sbu-img-caption .image img {
+    width: 100%;
+    border: 1px solid #BBB;
+    box-shadow: 0 0 4px #ccc;
+    margin: 0 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+    .sbu-img-caption .image .small {
+        max-width: 300px;
+    }
+    .sbu-img-caption .image .medium {
+        max-width: 600px;
+    }
+    .sbu-img-caption .image .large {
+        max-width: 900px;
+    }
+.sbu-img-caption .caption {
+    display: block;
+    padding: 0 0 0 16px;
+    position: relative;
+}
+.sbu-img-caption .caption:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f005";
+    margin-right: 0px;
+    position: absolute;
+    top: 4px;
+    left: 1px;
+    z-index: 1;
+    font-size: .7em;
+    color: #800;
+}

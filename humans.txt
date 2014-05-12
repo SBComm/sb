@@ -1,0 +1,37 @@
+# TEAM
+
+    Web designer, developer, photographer, freelancer, professional,
+    singer, songwriter, musician, leader, Jesus-follower, husbandÉ
+    OK, you get the picture.
+    -> Josh Palmeri
+
+    Twitter: @JoshPalmeri
+    Email: palmerijosh(_at_)gmail(_dot_)com
+
+# THANKS
+
+    To my Lord and Savior, Jesus Christ, for loving me unconditionally, in every situation, and despite it all; and for loving us all and giving us Your great grace. Thank You, Father.
+
+    To my wife and best friend, my companion and "study/work buddy". My support, encourager and uplifter. You enable me to be great. I love you.
+
+    To my family, for helping me to become who I am today. Thanks, Mom and Dad, Matt, Aunt Di, Nana, Papa, and Buddy.
+
+    TO my church family and friends. Your encouragement has meant the world to my life and lifted me when I needed it most. Bless you.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5 Boilerplate
+    HTML5, CSS3
+    javascript, jQuery, Modernizr
+
+# SITE
+
+    Last update: 2013/11/17
+    Language: English
+    Doctype: HTML5
+    IDE: Aptana Studio, FileZilla, Photoshop, XnRetro
+    Media Queries by: Josh Palmeri
+
+# EXTRA STUFF
+
+    If you're actually reading this and you made it this far, congratulations! You get a genuine high-5 from me! Woohoo!! And, if you're looking for a website, or know someone who is, email me and let me know! Let's make the most of every opportunity. #enjoylife #livelaughlove #doit
