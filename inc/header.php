@@ -39,6 +39,7 @@
         <link rel="stylesheet" type="text/css" href="css/elements/cd-dropdown/cd-dropdown.css" />
         <!--<link rel="stylesheet" href="fonts/icomoon/style.css">-->
         <link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
     <!--END CSS Style Includes-->
 
         <?php if($page_type=='social-hub') { ?>
