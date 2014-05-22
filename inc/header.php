@@ -37,6 +37,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" type="text/css" href="css/elements/cd-dropdown/cd-dropdown.css" />
+        <link rel="stylesheet" href="css/elements/tables/responsive-table.css">
         <!--<link rel="stylesheet" href="fonts/icomoon/style.css">-->
         <link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
@@ -49,6 +50,24 @@
 			<!--[if lt IE 9]>
 	            <link rel="stylesheet" type="text/css" href="css/social/ie/sb-dcsns_wall-ie8.css" media="all" />
 	        <![endif]-->
+        <?php } ?>
+
+        <?php if($page_type=='bulletin') { ?>
+            <link rel="stylesheet" type="text/css" href="css/page-types/bulletin.css" media="all" />
+        <?php } ?>
+
+        <?php if($tabbed_nav==true) { ?>
+            <link rel="stylesheet" type="text/css" href="css/elements/tabs/tabbed-nav.css" media="all" />
+            <!--[if lt IE 9]>
+                <link rel="stylesheet" type="text/css" href="css/elements/tabs/tabbed-nav-ie8.css" media="all" />
+            <![endif]-->
+        <?php } ?>
+
+        <?php if($accordian_nav==true) { ?>
+            <link rel="stylesheet" type="text/css" href="css/elements/accordians/accordian-nav.css" media="all" />
+            <!--[if lt IE 9]>
+                <link rel="stylesheet" type="text/css" href="css/elements/accordians/accordian-nav-ie8.css" media="all" />
+            <![endif]-->
         <?php } ?>
 
         <?php if($page_to_top_link) { ?>

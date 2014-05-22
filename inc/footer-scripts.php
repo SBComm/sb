@@ -112,7 +112,22 @@
         	<script type="text/javascript" src="js/social/custom.js"></script>
 
         <?php } ?>
+
+		<?php if($page_type=='bulletin') { ?>
+			<script src="js/vendor/jquery.fastLiveFilter.js"></script>
+			<script>
+			    $(function() {
+			        $('#all-courses').fastLiveFilter('#all-courses-list');
+			    });
+			</script>
+        <?php } ?>
         <!-- END Page Specific Includes -->
+
+        <!-- BEGIN Element Specific Includes -->
+        <?php if($accordian_nav==true) { ?>
+        	<script type="text/javascript" src="js/elements/accordian-nav/accordian-nav.js"></script>
+        <?php } ?>
+        <!-- END Element Specific Includes -->
 
         <!-- window.load() -->
         <script type="text/javascript">

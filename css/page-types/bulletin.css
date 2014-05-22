@@ -1,0 +1,122 @@
+/* ==========================================================================
+   Styles for bulletin page type
+   ========================================================================== */
+
+.main-container {
+	background: #fff;
+	padding-bottom: 60px;
+}
+
+h3, section, ul.courses {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+section {
+	background: #fdfdfd;
+	overflow: hidden;
+	padding: 10px 15px;
+	border: 1px solid #ddd;
+	border-bottom: 1px solid #aaa;
+	width: 95%;
+}
+
+h3 {
+	padding: 0 2.5%;
+	display: block !important;
+}
+
+ul, ol {
+	margin-bottom: 2em;
+	padding: 0 0 0 40px
+}
+
+ul li {
+	list-style: disc;
+}
+
+ol li {
+	list-style: decimal;
+}
+
+.courses article + article,
+.courses li + li {
+	border-top: 1px solid #ddd;
+	margin-top: 15px;
+}
+
+.courses span,
+.courses span:hover {
+	cursor: default !important;
+	background: #eee !important;
+	padding: 4px 8px !important;
+	color: #333 !important;
+	border-color: #aaa !important;
+}
+.courses span:before {
+	display: none !important;
+}
+
+input.course-filter {
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #333;
+	width: 100%;
+	border-radius: 4px;
+	display: block !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-shadow: none;
+}
+
+input.course-filter.active {
+
+}
+
+#all-courses::-webkit-input-placeholder {
+   color: #555;
+   font-weight: normal;
+   text-shadow: none;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #999;
+   font-weight: normal;
+   text-shadow: none;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #999;
+   font-weight: normal;
+   text-shadow: none;
+}
+
+:-ms-input-placeholder {  
+   color: #999;
+   font-weight: normal;
+   text-shadow: none;
+}
+
+@media only screen and (max-width: 560px) {
+	.courses span + span {
+		border-top: 0 none !important;
+	}
+}
+
+
+@media only screen and (min-width: 1022px) {
+	h3, section {
+		width: 1022px;
+	}
+	h3 {
+		padding: 0;
+	}
+	input.course-filter {
+		width: 50%;
+	}
+}

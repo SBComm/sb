@@ -1,0 +1,154 @@
+/* Accordian to Tabs Style
+   See http://codepen.io/joshpalmeri/pen/KbnjC */
+
+#accordian-nav {
+  margin: 24px auto;
+  width: 95%;
+  font-size: 14px;
+}
+
+ul#accordian-nav {
+  padding: 0;
+}
+
+#accordian-nav li.tab {
+  list-style: none;
+  clear: both;
+}
+
+#accordian-nav li.tab span {
+  display: block;
+  padding: 10px 15px 10px 30px;
+  background: #ddd;
+  border: 1px solid #bbb;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+}
+
+#accordian-nav li.tab span:before,
+#accordian-nav li.tab span.active:before {
+  font-family: "FontAwesome";
+  font-size: .8em;
+  display: inline-block;
+  padding: 0 5px 0 0;
+  width: 10px;
+  position: absolute;
+  top: 11px;
+  left: 15px;
+}
+
+#accordian-nav li.tab span.active:after {
+  width: 15px;
+  height: 15px;
+  content: "";
+  background: #900;
+  display: block;
+  position: absolute;
+  bottom: -8px;
+  left: 5%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  transform:         rotate(45deg);
+  border-bottom: 1px solid #700;
+  border-right: 1px solid #700;
+}
+
+#accordian-nav li.tab span:before {
+  content: "\f0da";
+}
+
+#accordian-nav li.tab span.active:before {
+  content: "\f0d7";
+}
+
+#accordian-nav li.tab span + span {
+  border-top: 0 none;
+}
+
+#accordian-nav li.tab span:hover,
+#accordian-nav li.tab span.active {
+  background: #900;
+  color: #F2F2F2;
+  border-color: #800;
+}
+
+#accordian-nav section {
+  display: none;
+  /* I NEED TO FIX THIS */
+  float: left;
+  background: #fdfdfd;
+  overflow: hidden;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #aaa;
+  width: 100%;
+}
+
+.no-js #accordian-nav section {
+  display: block;
+  /* I NEED TO FIX THIS */
+}
+
+#accordian-nav li.tab ul li span {
+  padding: 10px 25px;
+  border-bottom: 1px dotted #ccc;
+}
+
+#accordian-nav h3 {
+  font-weight: normal;
+  line-height: 1.1;
+  padding-bottom: 0.6em;
+  border-bottom: 1px solid #ccc;
+  margin: 0.4em 0 0.6em;
+}
+
+#accordian-nav p {
+  margin: 0 0 1.8em;
+}
+
+@media only screen and (min-width: 560px) {
+  #accordian-nav {
+    position: relative;
+    border: none;
+  }
+
+  #accordian-nav li.tab {
+    display: inline;
+  }
+
+  #accordian-nav li.tab span {
+    display: inline-block;
+    margin: 0 0 4px;
+  }
+
+  #accordian-nav li.tab span.active:after {
+    width: 0;
+    height: 0;
+    background: #900;
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    bottom: -99999px;
+    left: -99999px;
+  }
+  
+  #accordian-nav li.tab span + span {
+    border-top: 1px solid #bbb;
+  }
+
+  #accordian-nav section {
+    position: absolute;
+    top: 42px;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 1022px) {
+  #accordian-nav {
+    width: 1022px;
+  }
+}
