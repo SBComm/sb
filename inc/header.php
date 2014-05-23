@@ -74,6 +74,13 @@
         	<link rel="stylesheet" type="text/css" href="css/elements/to-top-link/to-top.css" media="all" />
         <?php } ?>
 
+        <?php if($text_filter==true) { ?>
+            <link rel="stylesheet" type="text/css" href="css/elements/filter/text-filter.css" media="all" />
+            <!--[if lt IE 9]>
+                <link rel="stylesheet" type="text/css" href="css/elements/accordians/accordian-nav-ie8.css" media="all" />
+            <![endif]-->
+        <?php } ?>
+
     <!--BEGIN IE Specific CSS Includes and Polyfills-->
         <!--[if IE 11]>
             <link rel="stylesheet" href="css/ie/ie11.css">

@@ -61,47 +61,6 @@ ol li {
 	display: none !important;
 }
 
-input.course-filter {
-	border: 1px solid #ccc;
-	padding: 10px;
-	color: #333;
-	width: 100%;
-	border-radius: 4px;
-	display: block !important;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	text-shadow: none;
-}
-
-input.course-filter.active {
-
-}
-
-#all-courses::-webkit-input-placeholder {
-   color: #555;
-   font-weight: normal;
-   text-shadow: none;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #999;
-   font-weight: normal;
-   text-shadow: none;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #999;
-   font-weight: normal;
-   text-shadow: none;
-}
-
-:-ms-input-placeholder {  
-   color: #999;
-   font-weight: normal;
-   text-shadow: none;
-}
-
 @media only screen and (max-width: 560px) {
 	.courses span + span {
 		border-top: 0 none !important;
@@ -115,8 +74,5 @@ input.course-filter.active {
 	}
 	h3 {
 		padding: 0;
-	}
-	input.course-filter {
-		width: 50%;
 	}
 }

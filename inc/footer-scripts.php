@@ -46,7 +46,7 @@
         <script src="js/vendor/jquery.fittext.js"></script>
 		<script type="text/javascript">
 		    //<![CDATA[
-				$("#fittextdemo").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+				$(".site-name").fitText({ minFontSize: '20px', maxFontSize: '27px' });
 		    //]]>
 		</script>
 
@@ -126,6 +126,10 @@
         <!-- BEGIN Element Specific Includes -->
         <?php if($accordian_nav==true) { ?>
         	<script type="text/javascript" src="js/elements/accordian-nav/accordian-nav.js"></script>
+        <?php } ?>
+
+        <?php if($text_filter==true) { ?>
+        	<script type="text/javascript" src="js/elements/filter/text-filter.js"></script>
         <?php } ?>
         <!-- END Element Specific Includes -->
 

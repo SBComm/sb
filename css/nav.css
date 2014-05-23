@@ -181,7 +181,7 @@
 	font-size: 16px;
 }
 
-
+/* Primary styles for logo container on $page_cat='main' */
 
 .logo-container {
 	background-color: #fff;
@@ -210,6 +210,48 @@
 .logo-wrapper .site-tagline span {
 	font-family:'Trade Gothic W01 Bold';
 }
+
+	/* Override styles for other $page_cat's e.g. 'sub' */
+
+	.page-cat-sub.logo-container {
+		background-color: #fff;
+		padding: 16px 0 0;
+		box-shadow: 0px 8px 11px -12px #555 inset, 0px -8px 11px -11px #333 inset;
+		width: 100%;
+	}
+
+	.page-cat-sub.logo-container .logo {
+		max-width: 357px;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.page-cat-sub.logo-container h1.site-name {
+		width: 100%;
+		font-size: 2.2em;
+		text-align: center;
+		border-top: 1px solid #ddd;
+		margin: 15px 0 0 0;
+		padding: 15px 0 20px 0;
+		box-shadow: 0px 8px 11px -12px #555 inset;
+		background: #f9f9f9;
+		text-shadow: 0 1px 0 #fff;
+	}
+
+	.page-cat-sub .logo-wrapper img {
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+		padding-right: 10px;
+	}
+
+	.page-cat-sub .logo-wrapper .site-tagline {
+		display: none;
+	}
+
+	.page-cat-sub .logo-wrapper .site-tagline span {
+		font-family:'Trade Gothic W01 Bold';
+	}
 
 
 
@@ -494,6 +536,7 @@
 	.more-nav ul li {
 		width: 50%;
 	}
+
 	.logo-wrapper .site-tagline {
 		width: 100%;
 		text-align: center;
@@ -740,6 +783,37 @@
 		width: 100%;
 		padding-right: 10px;
 	}
+		.page-cat-sub.logo-container {
+			padding: 16px 10px 16px;
+		}
+
+		.page-cat-sub.logo-container .logo {
+			width: 318px;
+			display: inline-block;
+			float: left;
+		}
+
+		.page-cat-sub .logo-wrapper img {
+			width: 100%;
+			padding-right: 10px;
+		}
+		.page-cat-sub.logo-container h1.site-name {
+			width: 607px;
+			font-size: 1.9em;
+			text-align: left;
+			border-top: 0 none;
+			margin: 13px 0 0 15px;
+			padding: 0 0 0 15px;
+			box-shadow: none;
+			background: #fff;
+			text-shadow: none;
+			float: left;
+			display: inline-block;
+			border-left: 1px solid #555;
+			-webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		}
 
 	.logo-wrapper .site-tagline {
 		width: auto;
@@ -832,6 +906,9 @@
 	    width: auto;
 	    float: left;
 	}
+		.page-cat-sub.logo-container h1.site-name {
+			width: 669px;
+		}
 
 	.site-nav {
 		min-height: 44px;

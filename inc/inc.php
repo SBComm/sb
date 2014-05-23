@@ -23,6 +23,7 @@
 
     /* Meta Variables Defaults */
     $page_type         = 'default';     //Options are default, second-level, social-hub, bulletin
+    $page_cat          = 'main';        //Options are main (for first and second level), sub (for sites)
     $page_title        = 'Stony Brook University, Stony Brook, New York';
     $page_description  = 'From its beginnings a half-century ago, Stony Brook University has been characterized by innovation, energy, and progress, transforming the lives of people who earn degrees, work, and make groundbreaking discoveries here. A dramatic trajectory of growth has turned what was once a small teacher preparation college into an internationally recognized research institution that is changing the world.';
     $page_title_sub    = '';
@@ -47,6 +48,7 @@
 
     $tabbed_nav       = false;
     $accordian_nav    = false;
+    $text_filter      = false;
 
     /* Display Configurations, Default Highlights */
 

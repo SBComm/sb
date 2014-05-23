@@ -1,5 +1,9 @@
 $(document).ready(function () {
     
+    $('#accordian-nav').children('li').children('span').next().each(function() {
+      $(this).addClass('hide');
+    });
+
     //Show first item
     /*
     $('#accordian-nav').children('li').first().children('span').addClass('active')
@@ -10,13 +14,13 @@ $(document).ready(function () {
         
       if (!$(this).hasClass('active')) {
 
-        $('#accordian-nav .is-open').removeClass('is-open').hide();
-        $(this).next().toggleClass('is-open').toggle();
+        $('#accordian-nav .is-open').removeClass('is-open').addClass('hide');
+        $(this).next().toggleClass('is-open').toggleClass('hide');
           
         $('#accordian-nav').find('.active').removeClass('active');
         $(this).addClass('active');
       } else {
-        $('#accordian-nav .is-open').removeClass('is-open').hide();
+        $('#accordian-nav .is-open').removeClass('is-open').addClass('hide');
         $(this).removeClass('active');
       }
 
@@ -27,7 +31,8 @@ $(document).ready(function () {
         $('#accordian-nav').css('margin-bottom',theHeight);
       }
 
-   });
+    });
+    
 });
 
 

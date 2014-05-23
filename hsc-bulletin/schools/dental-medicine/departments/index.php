@@ -12,7 +12,8 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'bulletin';
-			$page_title_sub  = 'HSC Buletin';
+    		$page_cat        = 'sub'; // for site tagline logo container
+			$page_title_sub  = 'Health Sciences Bulletin';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;

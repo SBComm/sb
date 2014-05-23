@@ -12,7 +12,11 @@
     <li class="tab"><span aria-role="tab">All Courses</span>
       <section id="all-courses-list" class="courses">
         <h3>All Courses</h3>
-        <input id="all-courses" class="course-filter" placeholder="Search courses..." />
+        <input type="search" id="all-courses" class="text-filter" placeholder="Search courses..." />
+        <div class="filter-controls clearfix">
+          <div class="filter-status"></div>
+          <div class="clear-filter hide">View all courses</div>
+        </div>
         <article>
           <h4>CRS 101 - Course Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur nice adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>

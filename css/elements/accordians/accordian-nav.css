@@ -1,6 +1,12 @@
 /* Accordian to Tabs Style
    See http://codepen.io/joshpalmeri/pen/KbnjC */
 
+.hide {
+  position: absolute;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
 #accordian-nav {
   margin: 24px auto;
   width: 95%;
@@ -77,7 +83,6 @@ ul#accordian-nav {
 }
 
 #accordian-nav section {
-  display: none;
   /* I NEED TO FIX THIS */
   float: left;
   background: #fdfdfd;
