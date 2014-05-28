@@ -281,7 +281,8 @@ body {
 
     h1,
     h2,
-    h3 {
+    h3,
+    h5 {
         font-family: 'ITCFranklinGothicW01-Md 812695', Helvetica, Helvetica Neue, Arial, sans-serif;
         font-weight: 200;
         text-transform: uppercase;
@@ -334,6 +335,10 @@ body {
 
     h4 {
         font-size: 1.4em;
+    }
+
+    h5 {
+        font-size: 1.1em;
     }
 
     .subtitle {

@@ -96,3 +96,9 @@
       </section>
     </li>
   </ul>
+
+  <div class="choose-category">
+    <div class="choose-category-image">
+      
+    </div>
+  </div>

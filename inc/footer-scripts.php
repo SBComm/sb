@@ -217,8 +217,19 @@
 		            }
 
 		        <?php } ?>
+
+		        <?php if($accordian_default_tab) { ?>
+		        	$(document).ready(function($){
+		        		$('#accordian-nav').children('li').first().children('span').addClass('active')
+        				.next().addClass('is-open').removeClass('hide');
+
+        				if($(window).width()<560) {
+						$('#accordian-nav').css('margin-bottom','60px');
+							} else {
+						var theHeight = $('#accordian-nav .is-open').height() + 60;
+							$('#accordian-nav').css('margin-bottom',theHeight);
+						}
+		        	});
+		        <?php } ?>
 	        })
 		</script>
-
-
-       

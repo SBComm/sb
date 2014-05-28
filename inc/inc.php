@@ -63,6 +63,8 @@
                                         //3 Alumni and Friencs          4 Parents
                                         //5 Neighbors                   6 Economic Development
 
+    $accordian_default_tab      = false;    //if first accordion tab should open by default, set to true
+
     /* Default Scroll Controls */
     $page_scroll      = false;
     $page_scroll_el   = '';     //Options are audience-nav, logo, main-nav, bottom

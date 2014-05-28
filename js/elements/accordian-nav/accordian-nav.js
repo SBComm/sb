@@ -32,6 +32,10 @@ $(document).ready(function () {
       }
 
     });
+
+    $('.choose-category-image').on('click',function() {
+      $('body').scrollTo( '.main', 1200 );
+    });
     
 });
 
@@ -40,7 +44,6 @@ $(window).load(function(){
   /*console.log("ww: "+$(window).width());*/
   var theHeight = $('#accordian-nav').height();
   $('#accordian-nav section').each(function() {
-    console.log(theHeight);
     $(this).css('top',theHeight);
   });
   if($(window).width()<560) {
@@ -54,7 +57,6 @@ $(window).resize(function(){
   /*console.log("ww: "+$(window).width());*/
   var theHeight = $('#accordian-nav').height();
   $('#accordian-nav section').each(function() {
-    console.log(theHeight);
     $(this).css('top',theHeight);
   });
   if($(window).width()<560) {

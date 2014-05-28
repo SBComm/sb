@@ -26,6 +26,9 @@
 
 		    $tabbed_nav       = true;
     		$accordian_nav    = true;
+    		$text_filter      = true;
+
+    		$accordian_default_tab = true;
 
 		?>
 
@@ -77,7 +80,7 @@
 
 		                <!-- <hsc-content> -->
 							<?php 
-								$file = "dental-medicine-degrees.php";
+								$file = "nursing-courses.php";
 								include($path . $content . $sites . 'hsc-bulletin/' . $file);
 							?>
 						<!-- </hsc-content> -->

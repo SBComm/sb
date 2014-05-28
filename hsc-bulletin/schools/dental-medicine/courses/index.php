@@ -77,12 +77,12 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <economic-development> -->
+		                <!-- <hsc-content> -->
 							<?php 
 								$file = "dental-medicine-courses.php";
 								include($path . $content . $sites . 'hsc-bulletin/' . $file);
 							?>
-						<!-- </economic-development> -->
+						<!-- </hsc-content> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->

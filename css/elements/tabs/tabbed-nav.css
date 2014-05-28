@@ -53,8 +53,14 @@
 
 @media only screen and (min-width: 560px) {
   #tabbed-nav {
-    border-bottom: 1px solid #ccc;
     width: 95%;
+  }
+}
+
+@media only screen and (min-width: 1022px) {
+  #tabbed-nav {
+    border-bottom: 1px solid #ccc;
+    width: 1022px;
   }
 
   #tabbed-nav li {
@@ -97,11 +103,5 @@
     background: #900;
     border: 1px solid #800;
     border-bottom: 0 none;
-  }
-}
-
-@media only screen and (min-width: 1022px) {
-  #tabbed-nav {
-    width: 1022px;
   }
 }

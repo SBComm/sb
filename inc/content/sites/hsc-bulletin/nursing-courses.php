@@ -1,10 +1,10 @@
-<h3 class="serif">School of Dental Medicine</h3>
+<h3 class="serif">School of Nursing</h3>
 
   <ul id="tabbed-nav">
-    <li><a href="hsc-bulletin/schools/dental-medicine/overview">Overview</a></li>
-    <li><a href="hsc-bulletin/schools/dental-medicine/degrees-and-programs">Degrees &amp; Programs</a></li>
-    <li><a href="hsc-bulletin/schools/dental-medicine/departments">Departments</a></li>
-    <li class="selected"><a href="hsc-bulletin/schools/dental-medicine/courses">Courses</a></li>
+    <li><a href="hsc-bulletin/schools/nursing/overview">Overview</a></li>
+    <li><a href="hsc-bulletin/schools/nursing/degrees-and-programs">Degrees &amp; Programs</a></li>
+    <li class="selected"><a href="hsc-bulletin/schools/nursing/courses">Courses</a></li>
+    <li><a href="hsc-bulletin/schools/nursing/faculty">Faculty</a></li>
   </ul>
 
   <ul id="accordian-nav">
@@ -69,9 +69,9 @@
     </li>
     <!-- END First Course Designator -->
     <!-- BEGIN Second Course Designator -->
-    <li class="tab"><span aria-role="tab">Basic Sciences</span>
+    <li class="tab"><span aria-role="tab">BS: Upper-Division Required Courses</span>
       <section class="courses">
-        <h3>Basic Sciences</h3>
+        <h3>BS: Upper-Division Required Courses</h3>
         <article>
           <h4>BSC 201 - Course Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras great tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
@@ -124,9 +124,9 @@
     </li>
     <!-- END Second Course Designator -->
     <!-- BEGIN Third Course Designator -->
-    <li class="tab"><span aria-role="tab">Department of Dental Medicine</span>
+    <li class="tab"><span aria-role="tab">BS: Electives</span>
       <section class="courses">
-        <h3>Department of Dental Medicine</h3>
+        <h3>BS: Electives</h3>
         <article>
           <h4>DNT 201 - Course Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
@@ -179,9 +179,9 @@
     </li>
     <!-- END Third Course Designator -->
     <!-- BEGIN Fourth Course Designator -->
-    <li class="tab"><span aria-role="tab">Department of General Dentistry</span>
+    <li class="tab"><span aria-role="tab">BS RN: Upper-Division Required Courses</span>
       <section class="courses">
-        <h3>Department of General Dentistry</h3>
+        <h3>BS RN: Upper-Division Required Courses</h3>
         <article>
           <h4>DNT 201 - Course Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
@@ -234,9 +234,9 @@
     </li>
     <!-- END Fourth Course Designator -->
     <!-- BEGIN Fifth Course Designator -->
-    <li class="tab"><span aria-role="tab">Department of Hospital Dentistry and Dental Anesthesiology</span>
+    <li class="tab"><span aria-role="tab">MS: Core Courses (All Tracks)</span>
       <section class="courses">
-        <h3>Department of Hospital Dentistry and Dental Anesthesiology</h3>
+        <h3>MS: Core Courses (All Tracks)</h3>
         <article>
           <h4>DNT 201 - Course Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
@@ -288,10 +288,10 @@
       </section>
     </li>
     <!-- END Fifth Course Designator -->
-    <!-- BEGIN Fifth Course Designator -->
-    <li class="tab"><span aria-role="tab">Department of Etc...</span>
+    <!-- BEGIN Sixth Course Designator -->
+    <li class="tab"><span aria-role="tab">MS: Child Health Nursing</span>
       <section class="courses">
-        <h3>Department of Etc...</h3>
+        <h3>MS: Child Health Nursing</h3>
         <article>
           <h4>DNT 201 - Course Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
@@ -342,7 +342,117 @@
         </article>
       </section>
     </li>
-    <!-- END Fifth Course Designator -->
+    <!-- END Sixth Course Designator -->
+    <!-- BEGIN Seventh Course Designator -->
+    <li class="tab"><span aria-role="tab">MS: Adult Health Nursing (On-Site and Blended)</span>
+      <section class="courses">
+        <h3>MS: Adult Health Nursing (On-Site and Blended)</h3>
+        <article>
+          <h4>DNT 201 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 202 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 203 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 204 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 205 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 206 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+      </section>
+    </li>
+    <!-- END Seventh Course Designator -->
+    <!-- BEGIN Eighth Course Designator -->
+    <li class="tab"><span aria-role="tab">Post-Master’s: All Tracks</span>
+      <section class="courses">
+        <h3>Post-Master’s: All Tracks</h3>
+        <article>
+          <h4>DNT 201 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 202 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 203 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 204 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 205 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+        <article>
+          <h4>DNT 206 - Course Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span>94 course hours</span>
+          <span>Dr. Professor Name</span>
+          <span>Pre-requisite</span>
+          <span>Other notes, etc...</span>
+        </article>
+      </section>
+    </li>
+    <!-- END Eighth Course Designator -->
   </ul>
 
   <div class="choose-category">
