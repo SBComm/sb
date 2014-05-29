@@ -28,8 +28,6 @@
     		$accordian_nav    = true;
     		$text_filter      = true;
 
-    		$accordian_default_tab = true;
-
 		?>
 
 	<!-- <head> -->
@@ -71,7 +69,7 @@
 		        <div class="main-nav-container">
 		        	<!-- <site-nav> -->
 						<?php 
-							include($path . $site_nav);
+							include($path . $sub_nav);
 						?>
 					<!-- </site-nav> -->
 		        </div>

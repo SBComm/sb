@@ -68,7 +68,7 @@
 		        <div class="main-nav-container">
 		        	<!-- <site-nav> -->
 						<?php 
-							include($path . $site_nav);
+							include($path . $sub_nav);
 						?>
 					<!-- </site-nav> -->
 		        </div>

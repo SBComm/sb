@@ -9,7 +9,7 @@
 
   <ul id="accordian-nav">
     <!-- BEGIN First Accordian Item -->
-    <li class="tab"><span aria-role="tab">Basic Baccalaureate Program</span>
+    <li class="tab"><span aria-role="tab" data-hash="basic-baccalaureate-program">Basic Baccalaureate Program</span>
       <section id="all-courses-list" class="courses">
         <h3>Basic Baccalaureate Program</h3>
         <h4>Two-Year Program</h4>
@@ -79,7 +79,7 @@
     </li>
     <!-- END First Accordian Item -->
     <!-- BEGIN Second Accordian Item -->
-    <li class="tab"><span aria-role="tab">Registered Nurse, Baccalaureate Program</span>
+    <li class="tab"><span aria-role="tab" data-hash="registered-nurse-baccalaureate-program">Registered Nurse, Baccalaureate Program</span>
       <section class="courses">
         <h3>Registered Nurse, Baccalaureate Program</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
@@ -133,7 +133,7 @@
     </li>
     <!-- END Second Accordian Item -->
     <!-- BEGIN Third Accordian Item -->
-    <li class="tab"><span aria-role="tab">Registered Nurse, BS/MS Program</span>
+    <li class="tab"><span aria-role="tab" data-hash="registered-nurse-bs-ms-program">Registered Nurse, BS/MS Program</span>
       <section class="courses">
         <h3>Registered Nurse, BS/MS Program</h3>
         <h4>Admission Requirements</h4>
@@ -156,7 +156,7 @@
     </li>
     <!-- END Third Accordian Item -->
     <!-- BEGIN Fourth Accordian Item -->
-    <li class="tab"><span aria-role="tab">Advanced Practice Registered Nurse, MS</span>
+    <li class="tab"><span aria-role="tab" data-hash="advanced-practice-registered-nurse-ms">Advanced Practice Registered Nurse, MS</span>
       <section class="courses">
         <h3>Advanced Practice Registered Nurse, MS</h3>
         <h4>Admission Requirements</h4>
@@ -179,7 +179,7 @@
     </li>
     <!-- END Fourth Accordian Item -->
     <!-- BEGIN Fifth Accordian Item -->
-    <li class="tab"><span aria-role="tab">Post-Master’s Advanced Certificate</span>
+    <li class="tab"><span aria-role="tab" data-hash="post-masters-advanced-certificate">Post-Master’s Advanced Certificate</span>
       <section class="courses">
         <h3>Post-Master’s Advanced Certificate</h3>
         <h4>Admission Requirements</h4>
@@ -202,7 +202,7 @@
     </li>
     <!-- END Fifth Accordian Item -->
     <!-- BEGIN Sixth Accordian Item -->
-    <li class="tab"><span aria-role="tab">Doctor of Nursing Practice, DNP</span>
+    <li class="tab"><span aria-role="tab" data-hash="doctor-of-nursing-practice-dnp">Doctor of Nursing Practice, DNP</span>
       <section class="courses">
         <h3>Doctor of Nursing Practice, DNP</h3>
         <h4>Admission Requirements</h4>

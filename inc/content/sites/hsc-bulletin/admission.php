@@ -1,17 +1,20 @@
-<h3 class="serif">School of Nursing</h3>
+<h3 class="serif">Admissions</h3>
 
   <ul id="tabbed-nav">
-    <li class="selected"><a href="hsc-bulletin/schools/nursing/overview">Overview</a></li>
-    <li><a href="hsc-bulletin/schools/nursing/degrees-and-programs">Degrees &amp; Programs</a></li>
-    <li><a href="hsc-bulletin/schools/nursing/courses">Courses</a></li>
-    <li><a href="hsc-bulletin/schools/nursing/faculty">Faculty</a></li>
+    <li><a href="hsc-bulletin/admission">Pre-Application</a></li>
+    <li><a href="hsc-bulletin/admission">Application Fees</a></li>
+    <li><a href="hsc-bulletin/admission">Transfer Credits</a></li>
+    <li><a href="hsc-bulletin/admission">Special Admissions</a></li>
+    <li><a href="hsc-bulletin/admission">Student Health Policy</a></li>
+    <li><a href="hsc-bulletin/admission">Background Checks</a></li>
+    <li class="selected"><a href="hsc-bulletin/admission">Financial Information</a></li>
   </ul>
 
   <ul id="accordian-nav">
     <!-- BEGIN First Accordian Item -->
-    <li class="tab"><span aria-role="tab" data-hash="mission-vision-and-goals">Mission, Vision and Goals</span>
+    <li class="tab"><span aria-role="tab" data-hash="tuition">Tuition</span>
       <section id="all-courses-list" class="courses">
-        <h3>Mission, Vision and Goals</h3>
+        <h3>Tuition</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
@@ -19,9 +22,9 @@
     </li>
     <!-- END First Accordian Item -->
     <!-- BEGIN Second Accordian Item -->
-    <li class="tab"><span aria-role="tab" data-hash="program-objectives">Program Objectives</span>
+    <li class="tab"><span aria-role="tab" data-hash="fees">Fees</span>
       <section class="courses">
-        <h3>Program Objectives</h3>
+        <h3>Fees</h3>
         <h4>Bachelor of Science Program</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
         <h4>Master of Science Program</h4>
@@ -32,9 +35,9 @@
     </li>
     <!-- END Second Accordian Item -->
     <!-- BEGIN Third Accordian Item -->
-    <li class="tab"><span aria-role="tab" data-hash="program-information">Program Information</span>
+    <li class="tab"><span aria-role="tab" data-hash="payment-procedures">Payment Procedures</span>
       <section class="courses">
-        <h3>Program Information</h3>
+        <h3>Payment Procedures</h3>
         <h4>Pre-Admission</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
         <h4>Applications</h4>
@@ -47,9 +50,9 @@
     </li>
     <!-- END Third Accordian Item -->
     <!-- BEGIN Fourth Accordian Item -->
-    <li class="tab"><span aria-role="tab" data-hash="academic-requirements">Academic Requirements</span>
+    <li class="tab"><span aria-role="tab" data-hash="insurance-programs">Insurance Programs</span>
       <section class="courses">
-        <h3>Academic Requirements</h3>
+        <h3>Insurance Programs</h3>
         <h4>Bachelor of Science Program</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
         <h4>Academic Sanctions</h4>
@@ -62,9 +65,9 @@
     </li>
     <!-- END Fourth Accordian Item -->
     <!-- BEGIN Fifth Accordian Item -->
-    <li class="tab"><span aria-role="tab" data-hash="financial-information">Financial Information</span>
+    <li class="tab"><span aria-role="tab" data-hash="living-expenses">Living Expenses</span>
       <section class="courses">
-        <h3>Financial Information</h3>
+        <h3>Living Expenses</h3>
         <h4>Tuition and Fees</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
         <h4>Financial Aid</h4>
@@ -73,9 +76,9 @@
     </li>
     <!-- END Fifth Accordian Item -->
     <!-- BEGIN Sixth Accordian Item -->
-    <li class="tab"><span aria-role="tab" data-hash="requirements-and-responsibilities">Requirements and Responsibilities</span>
+    <li class="tab"><span aria-role="tab" data-hash="refund-policy">Refund Policy</span>
       <section class="courses">
-        <h3>Requirements and Responsibilities</h3>
+        <h3>Refund Policy</h3>
         <h4>Clinical Practice Responsibilities</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
         <h4>Clinical Placement</h4>
@@ -101,9 +104,9 @@
     </li>
     <!-- END Sixth Accordian Item -->
     <!-- BEGIN Seventh Accordian Item -->
-    <li class="tab"><span aria-role="tab" data-hash="honors-and-awards">Honors and Awards</span>
+    <li class="tab"><span aria-role="tab" data-hash="financial-assistance">Financial Assistance</span>
       <section class="courses">
-        <h3>Honors and Awards</h3>
+        <h3>Financial Assistance</h3>
         <h4>Dean’s List</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
         <h4>Degrees with Distinction</h4>
@@ -121,9 +124,9 @@
     </li>
     <!-- END Seventh Accordian Item -->
     <!-- BEGIN Eighth Accordian Item -->
-    <li class="tab"><span aria-role="tab" data-hash="clubs-and-organizations">Clubs and Organizations</span>
+    <li class="tab"><span aria-role="tab" data-hash="employment">Employment</span>
       <section class="courses">
-        <h3>Clubs and Organizations</h3>
+        <h3>Employment</h3>
         <h4>NSNA: SBU Chapter</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
         <h4>NY PNS</h4>
@@ -131,6 +134,17 @@
       </section>
     </li>
     <!-- END Eighth Accordian Item -->
+    <!-- BEGIN Ninth Accordian Item -->
+    <li class="tab"><span aria-role="tab" data-hash="loans">Loans</span>
+      <section class="courses">
+        <h3>Loans</h3>
+        <h4>NSNA: SBU Chapter</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+        <h4>NY PNS</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+      </section>
+    </li>
+    <!-- END Ninth Accordian Item -->
   </ul>
 
   <div class="choose-category">

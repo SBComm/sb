@@ -77,7 +77,7 @@
 
 		                <!-- <hsc-content> -->
 							<?php 
-								$file = "dental-medicine-degrees.php";
+								$file = "admission.php";
 								include($path . $content . $sites . 'hsc-bulletin/' . $file);
 							?>
 						<!-- </hsc-content> -->
