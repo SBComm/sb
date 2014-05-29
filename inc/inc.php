@@ -19,6 +19,7 @@
     $audience_nav    = "audience-nav.php";
     $logo_container  = "logo-container.php";
     $site_nav        = "site-nav.php";
+    $sub_nav         = "sub-nav.php";
     $footerbar       = "footerbar.php";
 
     /* Meta Variables Defaults */
@@ -62,8 +63,6 @@
                                         //1 Current students            2 Faculty and Staff
                                         //3 Alumni and Friencs          4 Parents
                                         //5 Neighbors                   6 Economic Development
-
-    $accordian_default_tab      = false;    //if first accordion tab should open by default, set to true
 
     /* Default Scroll Controls */
     $page_scroll      = false;

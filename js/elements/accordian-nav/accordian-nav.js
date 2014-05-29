@@ -1,3 +1,46 @@
+$(function () {
+
+  var hashElement;
+
+  $(window).bind('hashchange', function () {
+
+    //strip off the #
+    var hash = window.location.hash.substring(1);
+    console.log("hash is "+hash);
+
+    //get the element that has data-hash value of hash in URL
+    hashElement = $('[data-hash="'+hash+'"]');
+
+    if (!$(hashElement).hasClass('active')) {
+
+      $('#accordian-nav .is-open').removeClass('is-open').addClass('hide');
+      $(hashElement).next().toggleClass('is-open').toggleClass('hide');
+        
+      $('#accordian-nav').find('.active').removeClass('active');
+      $(hashElement).addClass('active');
+    } else {
+      $('#accordian-nav .is-open').removeClass('is-open').addClass('hide');
+      $(hashElement).removeClass('active');
+    }
+
+    if($(window).width()<560) {
+      $('#accordian-nav').css('margin-bottom','60px');
+      var scrollTo;
+      if(hash!='') {
+        scrollTo = hashElement;
+      } else {
+        scrollTo = '#accordian-nav';
+      }
+      $('body').scrollTo( scrollTo, 500 );
+    } else {
+      var theHeight = $('#accordian-nav .is-open').height() + 60;
+      $('#accordian-nav').css('margin-bottom',theHeight);
+    }
+
+  });
+
+});
+
 $(document).ready(function () {
     
     $('#accordian-nav').children('li').children('span').next().each(function() {
@@ -11,24 +54,13 @@ $(document).ready(function () {
     */
         
     $('#accordian-nav').on('click', 'li > span', function() {
-        
-      if (!$(this).hasClass('active')) {
-
-        $('#accordian-nav .is-open').removeClass('is-open').addClass('hide');
-        $(this).next().toggleClass('is-open').toggleClass('hide');
-          
-        $('#accordian-nav').find('.active').removeClass('active');
-        $(this).addClass('active');
+      
+      var thisHash = $(this).data('hash');
+      if(window.location.hash.substring(1) == thisHash) {
+        history.pushState('', document.title, window.location.pathname);
+        $(window).trigger("hashchange");
       } else {
-        $('#accordian-nav .is-open').removeClass('is-open').addClass('hide');
-        $(this).removeClass('active');
-      }
-
-      if($(window).width()<560) {
-        $('#accordian-nav').css('margin-bottom','60px');
-      } else {
-        var theHeight = $('#accordian-nav .is-open').height() + 60;
-        $('#accordian-nav').css('margin-bottom',theHeight);
+        window.location.hash = $(this).data('hash');
       }
 
     });
@@ -36,6 +68,8 @@ $(document).ready(function () {
     $('.choose-category-image').on('click',function() {
       $('body').scrollTo( '.main', 1200 );
     });
+
+    $(window).trigger("hashchange");
     
 });
 
