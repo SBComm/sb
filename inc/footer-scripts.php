@@ -126,6 +126,20 @@
         <!-- BEGIN Element Specific Includes -->
         <?php if($accordian_nav==true) { ?>
         	<script type="text/javascript" src="js/elements/accordian-nav/accordian-nav.js"></script>
+
+        	<script type="text/javascript">
+        		$(document).ready(function($) {
+					
+
+				});
+/*
+				$(function () {
+				  $(window).bind('hashchange', function () {
+				    var hash = window.location.hash;
+				    $('[data-hash="'+hash+'"]').click();
+				});
+*/
+			</script>
         <?php } ?>
 
         <?php if($text_filter==true) { ?>
@@ -188,6 +202,7 @@
 		            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
 
 				<?php } ?>
+
 				<?php if($page_type=='social-hub') { ?>
 					//on pages where body is default visibility:hidden
 		            $('body').delay(350).css({'overflow':'visible'});
@@ -216,20 +231,6 @@
 		           		$('body').scrollTo( scrollToTarget, <?php echo $page_scroll_time; ?> );
 		            }
 
-		        <?php } ?>
-
-		        <?php if($accordian_default_tab) { ?>
-		        	$(document).ready(function($){
-		        		$('#accordian-nav').children('li').first().children('span').addClass('active')
-        				.next().addClass('is-open').removeClass('hide');
-
-        				if($(window).width()<560) {
-						$('#accordian-nav').css('margin-bottom','60px');
-							} else {
-						var theHeight = $('#accordian-nav .is-open').height() + 60;
-							$('#accordian-nav').css('margin-bottom',theHeight);
-						}
-		        	});
 		        <?php } ?>
 	        })
 		</script>
