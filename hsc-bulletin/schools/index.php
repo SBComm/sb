@@ -26,6 +26,7 @@
 
 		    $tabbed_nav       = true;
     		$accordian_nav    = true;
+    		$sub_nav_selected_tab = 4;
 
 		?>
 
@@ -77,7 +78,7 @@
 
 		                <!-- <hsc-content> -->
 							<?php 
-								$file = "nursing-overview.php";
+								$file = "schools.php";
 								include($path . $content . $sites . 'hsc-bulletin/' . $file);
 							?>
 						<!-- </hsc-content> -->

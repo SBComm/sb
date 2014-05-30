@@ -63,6 +63,7 @@
                                         //1 Current students            2 Faculty and Staff
                                         //3 Alumni and Friencs          4 Parents
                                         //5 Neighbors                   6 Economic Development
+    $sub_nav_selected_tab       = 0;     
 
     /* Default Scroll Controls */
     $page_scroll      = false;

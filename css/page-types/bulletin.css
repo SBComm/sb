@@ -75,15 +75,96 @@ ol li {
 	width: 100%;
 }
 
+/* Listing boxes */
+
+ul.listing-boxes {
+	padding: 0;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul.listing-boxes li {
+	display: block;
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 15px 0 0 0;
+}
+
+ul.listing-boxes a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #000;
+	text-decoration: none;
+	border-radius: 4px;
+	background: #fcfcfc;
+	padding: 15px 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	box-shadow: 0 0 6px rgba(150,0,0,.2) inset;
+	border: 1px solid #200;
+}
+
+ul.listing-boxes a:hover {
+	background: #fff;
+	box-shadow: 0 0 12px rgba(150,0,0,.2) inset;
+	border: 1px solid #900;
+}
+
+ul.listing-boxes .fa {
+	color: #000;
+	font-size: 1.7em;
+	margin-right: 16px;
+	position: absolute;
+	top: 30%;
+	left: 12px;
+	width: 30px;
+	text-align: center;
+}
+
+ul.listing-boxes .text {
+	display: block;
+	color: #a00;
+	font-family: 'CenturyExpandedLTW01-Ro';
+	font-size: 1.3em;
+	margin: 5px 0 0 29px;
+}
+
+ul.listing-boxes .text span {
+	font-family:'CenturyExpandedLTW01-It';
+}
+
 @media only screen and (max-width: 560px) {
 	.courses span + span {
 		border-top: 0 none !important;
 	}
 }
 
+@media only screen and (min-width: 720px) {
+
+	ul.listing-boxes li {
+		width: 49%;
+		float: left;
+	}
+	ul.listing-boxes li:nth-child(even) {
+		margin-left: 1%;
+	}
+	ul.listing-boxes li:nth-child(odd) {
+		margin-right: 1%;
+	}
+}
+
 
 @media only screen and (min-width: 1022px) {
-	h3, section {
+	h3, section, ul.listing-boxes {
 		width: 1022px;
 	}
 	h3 {

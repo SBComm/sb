@@ -78,7 +78,7 @@
 
 		                <!-- <hsc-content> -->
 							<?php 
-								$file = "nursing-faculty.php";
+								$file = "nursing-overview.php";
 								include($path . $content . $sites . 'hsc-bulletin/' . $file);
 							?>
 						<!-- </hsc-content> -->

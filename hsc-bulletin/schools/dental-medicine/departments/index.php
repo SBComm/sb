@@ -26,6 +26,7 @@
 
 		    $tabbed_nav       = true;
     		$accordian_nav    = true;
+    		$sub_nav_selected_tab = 4;
 
 		?>
 
