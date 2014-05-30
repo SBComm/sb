@@ -1,10 +1,11 @@
 <h3 class="serif">School of Dental Medicine</h3>
 
 <ul id="tabbed-nav">
-    <li class="selected"><a href="hsc-bulletin/schools/dental-medicine/overview">Overview</a></li>
+    <li class="selected"><a href="hsc-bulletin/schools/dental-medicine/">Overview</a></li>
     <li><a href="hsc-bulletin/schools/dental-medicine/degrees-and-programs">Degrees &amp; Programs</a></li>
     <li><a href="hsc-bulletin/schools/dental-medicine/departments">Departments</a></li>
-    <li><a href="hsc-bulletin/schools/dental-medicine/courses">Courses</a></li>
+    <li><a href="hsc-bulletin/schools/dental-medicine/courses/#all-courses">Courses</a></li>
+    <li><a href="hsc-bulletin/schools/dental-medicine/faculty">Faculty</a></li>
   </ul>
 
       <section>

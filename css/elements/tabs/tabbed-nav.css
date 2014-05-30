@@ -60,7 +60,8 @@
 @media only screen and (min-width: 1022px) {
   #tabbed-nav {
     border-bottom: 1px solid #ccc;
-    width: 1022px;
+    width: 100%;
+    max-width: 1022px;
   }
 
   #tabbed-nav li {

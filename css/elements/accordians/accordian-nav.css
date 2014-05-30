@@ -154,6 +154,7 @@ ul#accordian-nav {
 
 @media only screen and (min-width: 1022px) {
   #accordian-nav {
-    width: 1022px;
+    width: 100%;
+    max-width: 1022px;
   }
 }

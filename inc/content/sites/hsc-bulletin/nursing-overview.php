@@ -1,9 +1,9 @@
 <h3 class="serif">School of Nursing</h3>
 
   <ul id="tabbed-nav">
-    <li class="selected"><a href="hsc-bulletin/schools/nursing/overview">Overview</a></li>
+    <li class="selected"><a href="hsc-bulletin/schools/nursing/">Overview</a></li>
     <li><a href="hsc-bulletin/schools/nursing/degrees-and-programs">Degrees &amp; Programs</a></li>
-    <li><a href="hsc-bulletin/schools/nursing/courses">Courses</a></li>
+    <li><a href="hsc-bulletin/schools/nursing/courses/#all-courses">Courses</a></li>
     <li><a href="hsc-bulletin/schools/nursing/faculty">Faculty</a></li>
   </ul>
 

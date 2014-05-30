@@ -27,6 +27,11 @@
 		                        		<span class="label clearfix">Resources</span>
 		                        	</a>
 		                        </li>
+		            			<li class="clearfix<?php if($sub_nav_selected_tab==6) echo(' selected'); ?>">
+		                        	<a href="hsc-bulletin/overview/" class="clearfix">
+		                        		<span class="label clearfix">Course Search</span>
+		                        	</a>
+		                        </li>
 		            		</ul>
 			            	<div class="search-container border-box">
 			            		<div class="search-wrapper">

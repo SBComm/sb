@@ -30,6 +30,10 @@ h3 {
 	display: block !important;
 }
 
+section h3 {
+	padding: 0;
+}
+
 ul, ol {
 	margin-bottom: 2em;
 	padding: 0 0 0 40px
@@ -164,8 +168,15 @@ ul.listing-boxes .text span {
 
 
 @media only screen and (min-width: 1022px) {
+	.main {
+		margin: 0 2%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
 	h3, section, ul.listing-boxes {
-		width: 1022px;
+		width: 100%;
+		max-width: 1022px;
 	}
 	h3 {
 		padding: 0;

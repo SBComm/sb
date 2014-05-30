@@ -5,3 +5,15 @@
 .cd-dropdown ul li:nth-child(1) {
 	top: 40px !important;
 }
+
+#accordian-nav li.tab span.active:after {
+  width: 0;
+  height: 0;
+  background: transparent;
+  display: none;
+  position: absolute;
+  bottom: -9999px;
+  left: 9999px;
+  border-bottom: 0 none;
+  border-right: 0 none;
+}

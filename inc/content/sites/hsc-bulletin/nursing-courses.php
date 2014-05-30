@@ -1,9 +1,9 @@
 <h3 class="serif">School of Nursing</h3>
 
   <ul id="tabbed-nav">
-    <li><a href="hsc-bulletin/schools/nursing/overview">Overview</a></li>
+    <li><a href="hsc-bulletin/schools/nursing/">Overview</a></li>
     <li><a href="hsc-bulletin/schools/nursing/degrees-and-programs">Degrees &amp; Programs</a></li>
-    <li class="selected"><a href="hsc-bulletin/schools/nursing/courses">Courses</a></li>
+    <li class="selected"><a href="hsc-bulletin/schools/nursing/courses/#all-courses">Courses</a></li>
     <li><a href="hsc-bulletin/schools/nursing/faculty">Faculty</a></li>
   </ul>
 
@@ -12,7 +12,7 @@
     <li class="tab"><span aria-role="tab" data-hash="all-courses">All Courses</span>
       <section id="all-courses-list" class="courses">
         <h3>All Courses</h3>
-        <input type="search" id="all-courses" class="text-filter" placeholder="Search courses..." />
+        <input type="search" id="all-courses-search" class="text-filter" placeholder="Search courses..." />
         <div class="filter-controls clearfix">
           <div class="filter-status"></div>
           <div class="clear-filter hide">View all courses</div>

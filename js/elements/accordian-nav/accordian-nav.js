@@ -6,7 +6,6 @@ $(function () {
 
     //strip off the #
     var hash = window.location.hash.substring(1);
-    console.log("hash is "+hash);
 
     //get the element that has data-hash value of hash in URL
     hashElement = $('[data-hash="'+hash+'"]');
@@ -57,8 +56,7 @@ $(document).ready(function () {
       
       var thisHash = $(this).data('hash');
       if(window.location.hash.substring(1) == thisHash) {
-        history.pushState('', document.title, window.location.pathname);
-        $(window).trigger("hashchange");
+        window.location.hash = 'overview';
       } else {
         window.location.hash = $(this).data('hash');
       }

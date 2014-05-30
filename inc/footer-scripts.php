@@ -32,6 +32,7 @@
 		<script src="js/vendor/jquery.easing.compatibility.js"></script>
 		<script src="js/vendor/jquery.scrollTo.min.js"></script>
 		<script src="js/vendor/jquery.localScroll.min.js"></script>
+		<script src="js/vendor/jquery.ba-bbq.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/vendor/fastclick.js"></script>
@@ -49,6 +50,7 @@
 				$(".site-name").fitText({ minFontSize: '20px', maxFontSize: '27px' });
 		    //]]>
 		</script>
+		<script src="js/vendor/selectivizr-min.js"></script>
 
 		<!-- BEGIN Page Specific Includes -->
 		<?php if($page_type=='social-hub') { ?>
@@ -117,7 +119,7 @@
 			<script src="js/vendor/jquery.fastLiveFilter.js"></script>
 			<script>
 			    $(function() {
-			        $('#all-courses').fastLiveFilter('#all-courses-list');
+			        $('#all-courses-search').fastLiveFilter('#all-courses-list');
 			    });
 			</script>
         <?php } ?>
@@ -126,20 +128,6 @@
         <!-- BEGIN Element Specific Includes -->
         <?php if($accordian_nav==true) { ?>
         	<script type="text/javascript" src="js/elements/accordian-nav/accordian-nav.js"></script>
-
-        	<script type="text/javascript">
-        		$(document).ready(function($) {
-					
-
-				});
-/*
-				$(function () {
-				  $(window).bind('hashchange', function () {
-				    var hash = window.location.hash;
-				    $('[data-hash="'+hash+'"]').click();
-				});
-*/
-			</script>
         <?php } ?>
 
         <?php if($text_filter==true) { ?>
