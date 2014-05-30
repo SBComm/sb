@@ -3,7 +3,7 @@
 <ul class="listing-boxes">
 	<li>
 		<a href="hsc-bulletin/schools/dental-medicine">
-			<i class="fa fa-hospital-o"></i>
+			<i class="fa fa-plus-square"></i>
 			<span class="text">School <span>of</span> Dental Medicine</span>
 		</a>
 	</li>
@@ -21,7 +21,7 @@
 	</li>
 	<li>
 		<a href="hsc-bulletin/schools/nursing">
-			<i class="fa fa-plus-square"></i>
+			<i class="fa fa-hospital-o"></i>
 			<span class="text">School <span>of</span> Nursing</span>
 		</a>
 	</li>
