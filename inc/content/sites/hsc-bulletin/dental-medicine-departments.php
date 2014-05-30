@@ -8,7 +8,7 @@
     <li><a href="hsc-bulletin/schools/dental-medicine/faculty">Faculty</a></li>
   </ul>
     
-  <ul id="accordian-nav">
+  <ul id="accordion-nav">
     <li class="tab"><span aria-role="tab" data-hash="dental-medicine">Dental Medicine</span>
       <section>
         <h3>Admission Requirements - A first level header, h3</h3>

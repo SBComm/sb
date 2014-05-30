@@ -48,7 +48,7 @@
     $page_footerbar   = false;
 
     $tabbed_nav       = false;
-    $accordian_nav    = false;
+    $accordion_nav    = false;
     $text_filter      = false;
 
     /* Display Configurations, Default Highlights */

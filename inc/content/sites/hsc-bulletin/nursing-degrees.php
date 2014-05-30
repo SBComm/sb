@@ -7,8 +7,8 @@
     <li><a href="hsc-bulletin/schools/nursing/faculty">Faculty</a></li>
   </ul>
 
-  <ul id="accordian-nav">
-    <!-- BEGIN First Accordian Item -->
+  <ul id="accordion-nav">
+    <!-- BEGIN First accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="basic-baccalaureate-program">Basic Baccalaureate Program</span>
       <section id="all-courses-list" class="courses">
         <h3>Basic Baccalaureate Program</h3>
@@ -77,8 +77,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END First Accordian Item -->
-    <!-- BEGIN Second Accordian Item -->
+    <!-- END First accordion Item -->
+    <!-- BEGIN Second accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="registered-nurse-baccalaureate-program">Registered Nurse, Baccalaureate Program</span>
       <section class="courses">
         <h3>Registered Nurse, Baccalaureate Program</h3>
@@ -131,8 +131,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Second Accordian Item -->
-    <!-- BEGIN Third Accordian Item -->
+    <!-- END Second accordion Item -->
+    <!-- BEGIN Third accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="registered-nurse-bs-ms-program">Registered Nurse, BS/MS Program</span>
       <section class="courses">
         <h3>Registered Nurse, BS/MS Program</h3>
@@ -154,8 +154,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Third Accordian Item -->
-    <!-- BEGIN Fourth Accordian Item -->
+    <!-- END Third accordion Item -->
+    <!-- BEGIN Fourth accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="advanced-practice-registered-nurse-ms">Advanced Practice Registered Nurse, MS</span>
       <section class="courses">
         <h3>Advanced Practice Registered Nurse, MS</h3>
@@ -177,8 +177,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Fourth Accordian Item -->
-    <!-- BEGIN Fifth Accordian Item -->
+    <!-- END Fourth accordion Item -->
+    <!-- BEGIN Fifth accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="post-masters-advanced-certificate">Post-Master’s Advanced Certificate</span>
       <section class="courses">
         <h3>Post-Master’s Advanced Certificate</h3>
@@ -200,8 +200,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Fifth Accordian Item -->
-    <!-- BEGIN Sixth Accordian Item -->
+    <!-- END Fifth accordion Item -->
+    <!-- BEGIN Sixth accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="doctor-of-nursing-practice-dnp">Doctor of Nursing Practice, DNP</span>
       <section class="courses">
         <h3>Doctor of Nursing Practice, DNP</h3>
@@ -223,7 +223,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Sixth Accordian Item -->
+    <!-- END Sixth accordion Item -->
   </ul>
 
   <div class="choose-category">

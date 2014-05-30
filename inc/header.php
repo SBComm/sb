@@ -63,10 +63,10 @@
             <![endif]-->
         <?php } ?>
 
-        <?php if($accordian_nav==true) { ?>
-            <link rel="stylesheet" type="text/css" href="css/elements/accordians/accordian-nav.css" media="all" />
+        <?php if($accordion_nav==true) { ?>
+            <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav.css" media="all" />
             <!--[if lt IE 9]>
-                <link rel="stylesheet" type="text/css" href="css/elements/accordians/accordian-nav-ie8.css" media="all" />
+                <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav-ie8.css" media="all" />
             <![endif]-->
         <?php } ?>
 
@@ -77,7 +77,7 @@
         <?php if($text_filter==true) { ?>
             <link rel="stylesheet" type="text/css" href="css/elements/filter/text-filter.css" media="all" />
             <!--[if lt IE 9]>
-                <link rel="stylesheet" type="text/css" href="css/elements/accordians/accordian-nav-ie8.css" media="all" />
+                <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav-ie8.css" media="all" />
             <![endif]-->
         <?php } ?>
 

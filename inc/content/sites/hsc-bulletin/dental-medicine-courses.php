@@ -8,7 +8,7 @@
     <li><a href="hsc-bulletin/schools/dental-medicine/faculty">Faculty</a></li>
   </ul>
 
-  <ul id="accordian-nav">
+  <ul id="accordion-nav">
     <!-- BEGIN First Course Designator -->
     <li class="tab"><span aria-role="tab" data-hash="all-courses">All Courses</span>
       <section id="all-courses-list" class="courses">

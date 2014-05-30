@@ -126,8 +126,8 @@
         <!-- END Page Specific Includes -->
 
         <!-- BEGIN Element Specific Includes -->
-        <?php if($accordian_nav==true) { ?>
-        	<script type="text/javascript" src="js/elements/accordian-nav/accordian-nav.js"></script>
+        <?php if($accordion_nav==true) { ?>
+        	<script type="text/javascript" src="js/elements/accordion-nav/accordion-nav.js"></script>
         <?php } ?>
 
         <?php if($text_filter==true) { ?>

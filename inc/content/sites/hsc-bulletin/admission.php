@@ -10,8 +10,8 @@
     <li class="selected"><a href="hsc-bulletin/admission">Financial Information</a></li>
   </ul>
 
-  <ul id="accordian-nav">
-    <!-- BEGIN First Accordian Item -->
+  <ul id="accordion-nav">
+    <!-- BEGIN First accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="tuition">Tuition</span>
       <section id="all-courses-list" class="courses">
         <h3>Tuition</h3>
@@ -20,8 +20,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END First Accordian Item -->
-    <!-- BEGIN Second Accordian Item -->
+    <!-- END First accordion Item -->
+    <!-- BEGIN Second accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="fees">Fees</span>
       <section class="courses">
         <h3>Fees</h3>
@@ -33,8 +33,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Second Accordian Item -->
-    <!-- BEGIN Third Accordian Item -->
+    <!-- END Second accordion Item -->
+    <!-- BEGIN Third accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="payment-procedures">Payment Procedures</span>
       <section class="courses">
         <h3>Payment Procedures</h3>
@@ -48,8 +48,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Third Accordian Item -->
-    <!-- BEGIN Fourth Accordian Item -->
+    <!-- END Third accordion Item -->
+    <!-- BEGIN Fourth accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="insurance-programs">Insurance Programs</span>
       <section class="courses">
         <h3>Insurance Programs</h3>
@@ -63,8 +63,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Fourth Accordian Item -->
-    <!-- BEGIN Fifth Accordian Item -->
+    <!-- END Fourth accordion Item -->
+    <!-- BEGIN Fifth accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="living-expenses">Living Expenses</span>
       <section class="courses">
         <h3>Living Expenses</h3>
@@ -74,8 +74,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Fifth Accordian Item -->
-    <!-- BEGIN Sixth Accordian Item -->
+    <!-- END Fifth accordion Item -->
+    <!-- BEGIN Sixth accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="refund-policy">Refund Policy</span>
       <section class="courses">
         <h3>Refund Policy</h3>
@@ -102,8 +102,8 @@
         </ul>
       </section>
     </li>
-    <!-- END Sixth Accordian Item -->
-    <!-- BEGIN Seventh Accordian Item -->
+    <!-- END Sixth accordion Item -->
+    <!-- BEGIN Seventh accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="financial-assistance">Financial Assistance</span>
       <section class="courses">
         <h3>Financial Assistance</h3>
@@ -122,8 +122,8 @@
         </ul>
       </section>
     </li>
-    <!-- END Seventh Accordian Item -->
-    <!-- BEGIN Eighth Accordian Item -->
+    <!-- END Seventh accordion Item -->
+    <!-- BEGIN Eighth accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="employment">Employment</span>
       <section class="courses">
         <h3>Employment</h3>
@@ -133,8 +133,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Eighth Accordian Item -->
-    <!-- BEGIN Ninth Accordian Item -->
+    <!-- END Eighth accordion Item -->
+    <!-- BEGIN Ninth accordion Item -->
     <li class="tab"><span aria-role="tab" data-hash="loans">Loans</span>
       <section class="courses">
         <h3>Loans</h3>
@@ -144,7 +144,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
       </section>
     </li>
-    <!-- END Ninth Accordian Item -->
+    <!-- END Ninth accordion Item -->
   </ul>
 
   <div class="choose-category">
