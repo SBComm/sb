@@ -48,7 +48,7 @@
         <div id="wrapper">
             <div id="container"> 
             
-                <h1>We&#8217;re <span class="darker">Social</span><br /> at <span class="red">SBU</span>!</h1>
+                <h1>We&#8217;re <span class="darker">Social</span></h1>
                 <div class="subtitle sbu-text-shadow">Get the latest in <br /><span class="red">Stony Brook University</span> <br />social media!</div>
                 <div id="wall">
                     
