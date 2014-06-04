@@ -645,7 +645,7 @@ body {
 
 .mobile {
     display: block !important;
-    visibility: visible; !important;
+    visibility: visible !important;
 }
 
 .tablet {
@@ -717,6 +717,10 @@ body {
     .mobile {
         display: none !important;
         visibility: hidden !important;
+    }
+    .no-tablet {
+        display: block !important;
+        visibility: visible !important;
     }
     .desktop {
         display: block !important;

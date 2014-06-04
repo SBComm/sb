@@ -14,8 +14,8 @@
         $sites   = "sites/";
 
     $header          = "header.php";
-    $quick_nav       = "quick-nav.php";
-    $more_nav        = "more-nav.php";
+    $quick_nav       = "quick-nav-v2.php";
+    $more_nav        = "more-nav-v2.php";
     $audience_nav    = "audience-nav.php";
     $logo_container  = "logo-container.php";
     $site_nav        = "site-nav.php";
