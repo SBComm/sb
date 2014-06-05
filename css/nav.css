@@ -225,7 +225,7 @@
 	.page-cat-sub.logo-container {
 		background-color: #fff;
 		padding: 16px 0 0;
-		box-shadow: 0px 8px 11px -12px #555 inset, 0px -8px 11px -11px #333 inset;
+		box-shadow: 0px -8px 11px -11px #333 inset;
 		width: 100%;
 	}
 
@@ -276,11 +276,11 @@
 	background: #900;
 	width: 100%;
 	display: block;
-	position: relative;
 	color: #eee;
 	text-shadow: 0 1px 0 #500;
 	min-height: 48px;
 	z-index: 100000;
+	position: relative;
 	box-shadow: 0px 8px 11px -10px #333;
 }
 
@@ -495,7 +495,20 @@
     border-top: 1px solid #800;
 }
 
-.site-nav a,
+.site-nav a {
+	text-decoration: none;
+	border: 0 none;
+	color: #eeeeee;
+	display: block;
+	padding: 14px 5px 14px 15px;
+	text-shadow: 0 1px 0 #000;
+	font-size: 14px;
+	font-family:'Trade Gothic Next W01';
+	font-weight: normal;
+	text-transform: uppercase;
+	text-shadow: 0 0 5px #700;
+}
+
 .sub-nav a {
 	text-decoration: none;
 	border: 0 none;
@@ -504,8 +517,9 @@
 	padding: 14px 5px 14px 15px;
 	text-shadow: 0 1px 0 #000;
 	font-size: 14px;
-	font-family:'Trade Gothic W01 Cn 18';
 	font-family:'Trade Gothic W01 Light';
+	font-weight: normal;
+	text-shadow: 0 1px 0 #000;
 }
 
 .site-nav a:hover,
@@ -830,7 +844,7 @@
 		padding-right: 10px;
 	}
 		.page-cat-sub.logo-container {
-			padding: 16px 10px 16px;
+			padding: 4px 10px 21px;
 		}
 
 		.page-cat-sub.logo-container .logo {
@@ -890,6 +904,7 @@
 		display: none;
 		box-shadow: 0px 12px 20px -16px #000 inset, 0px -12px 20px -12px #000 inset;
 		background-color: #292929;
+		text-shadow: 0 1px 0 #000;
 	}
 
 	.cd-dropdown ul li a {
@@ -922,12 +937,14 @@
 		border-radius: 0 0 18px 18px;
 		border: 1px solid #ccc;
 		border-top: 0 none;
+		height: 38px;
 	}
 
 	.quick-nav ul li {
 		float: left;
 		width: auto;
 		background: #fff;
+		height: 100%;
 	}
 	.quick-nav ul li .label {
 		border-right: 1px solid #900;
@@ -976,7 +993,7 @@
 	.quick-nav ul li:first-child {
 	}
 
-	.quick-nav ul li:last-child {
+	.quick-nav ul li.for-info {
 		margin-right: 165px;
 	}
 
@@ -1053,6 +1070,11 @@
 		top: -9px;
 	}
 
+	.quick-nav .label .icon.fa-caret-up {
+		left: -3px;
+		top: -1px;
+	}
+
 	.more-nav ul {
 	    padding-left: 5%;
     }
@@ -1088,15 +1110,13 @@
 	}
 		.page-cat-sub.logo-container h1.site-name {
 			width: 640px;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 
 	.site-nav,
 	.sub-nav {
 		min-height: 44px;
-	}
-
-	.site-nav .no-pad-wrapper {
-		position: relative;
 	}
 
 	.site-nav .menu-trigger,
@@ -1118,8 +1138,8 @@
 		display: block !important;
 	}
 
-	.site-nav .search-container {
-		top: -126px;
+	.site-nav .search-container,
+	.sub-nav .search-container {
 		margin: 0;
 		position: absolute;
 		width: 155px;
@@ -1127,33 +1147,42 @@
 		display: block;
 		left: 861px;
 		background: transparent;
+		top: -126px;
 	}
 
-	.site-nav .search-container ::-webkit-input-placeholder {
+	.sub-nav .search-container {
+	}
+
+	.site-nav .search-container ::-webkit-input-placeholder,
+	.sub-nav .search-container ::-webkit-input-placeholder {
 		color: #333;
 		text-shadow: none;
 		font-size: 11px;
 	}
 
-	.site-nav .search-container :-moz-placeholder { /* Firefox 18- */
+	.site-nav .search-container :-moz-placeholder,
+	.sub-nav .search-container :-moz-placeholder { /* Firefox 18- */
 		color: #333;
 		text-shadow: none;
 		font-size: 11px;
 	}
 
-	.site-nav .search-container ::-moz-placeholder {  /* Firefox 19+ */
+	.site-nav .search-container ::-moz-placeholder,
+	.sub-nav .search-container ::-moz-placeholder {  /* Firefox 19+ */
 		color: #333;
 		text-shadow: none;
 		font-size: 11px;
 	}
 
-	.site-nav .search-container :-ms-input-placeholder {
+	.site-nav .search-container :-ms-input-placeholder,
+	.sub-nav .search-container :-ms-input-placeholder {
 		color: #333;
 		text-shadow: none;
 		font-size: 11px;
 	}
 
-	.site-nav .search-container input[type="text"] {
+	.site-nav .search-container input[type="text"],
+	.sub-nav .search-container input[type="text"] {
 		font-size: 11px;
 		/*border-right: 1px solid #800;*/
 		height: 21px;
@@ -1164,33 +1193,38 @@
 		border-radius: 20px;
 		width: 137px;
 	}
-
+/*)
 	.sub-nav .search-container input[type="text"] {
 		font-size: 14px;
-		/*border-right: 1px solid #800;*/
+			//border-right: 1px solid #800;
 		width: 100px;
 		padding: 0 4px 0 8px;
 		height: 29px;
 		margin: 7px 1% 6px 9%;
 	}
-
-	.site-nav .search-container input[type="text"]:focus {
+*/
+	.site-nav .search-container input[type="text"]:focus,
+	.sub-nav .search-container input[type="text"]:focus {
 		box-shadow: 0 0 5px #ccc inset;
 	}
 
 	.site-nav .search-container input[type="text"]:focus,
-	.site-nav .search-container input[type="text"].focus {
+	.site-nav .search-container input[type="text"].focus,
+	.sub-nav .search-container input[type="text"]:focus,
+	.sub-nav .search-container input[type="text"].focus {
 		width: 137px;
 		padding-right: 31px;
 	}
 
-
+/*
 	.sub-nav .search-container input[type="text"]:focus,
 	.sub-nav .search-container input[type="text"].focus {
 		width: 70%;
 	}
+*/
 
-	.site-nav .search-container button[type="submit"] {
+	.site-nav .search-container button[type="submit"],
+	.sub-nav .search-container button[type="submit"] {
 		height: 29px;
 		width: 20%;
 		margin: 6px 0 4px 0;;
@@ -1208,7 +1242,7 @@
 		right: 5px;
 		z-index: 99;
 	}
-
+/*
 	.sub-nav .search-container button[type="submit"] {
 		height: 29px;
 		width: 20%;
@@ -1221,7 +1255,7 @@
 		border: 0 none;
 		box-shadow: none;
 	}
-
+*/
 	.site-nav .search-container button .icon,
 	.sub-nav .search-container button .icon {
 		margin-top: -2px;
@@ -1235,14 +1269,14 @@
 		margin: 0;
 		display: block !important;
 	}
-
+/*
 	.sub-nav .search-container {
 		width: 16%;
 		height: 100%;
 		margin: 0;
 		position: relative;;
 	}
-
+*/
 	.site-nav a {
 		padding: 14px 5px;
 	}
@@ -1285,6 +1319,26 @@
 		width: 13.111%;
 	}
 
+	.site-nav ul li.medicine {
+		position: absolute;
+		right: 0;
+		background: url("../img/logo/sbu-shield-21x26-white.png") no-repeat scroll 0 42%;
+		height: 100%;
+	}
+
+	.site-nav ul li.medicine:hover {
+		background: url("../img/logo/sbu-shield-21x26-white.png") no-repeat scroll 0 42%;
+	}
+
+	.site-nav ul li.medicine:hover a {
+		background: none
+	}
+
+	.site-nav ul li.medicine span {
+		font-family: 'CenturyExpandedLTW01-Ro';
+		text-transform: none;
+		font-size: 1.1em
+	}
 
 
 }

@@ -3,4 +3,10 @@
         margin: 0 auto;
         width: 1008px;
     }
+
+	.site-nav .search-container,
+	.sub-nav .search-container {
+		left: 848px;
+		top: -126px;
+	}
 }

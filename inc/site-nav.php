@@ -2,9 +2,9 @@
 		            	<div class="no-pad-wrapper clearfix">
 			            	<div class="menu-trigger border-box"><i class="icon fa fa-bars"></i></div>
 		            		<ul class="main-nav-list border-box clearfix">
-		            			<li class="clearfix<?php if($main_nav_selected_tab==1) echo(' selected'); ?>">
+		            			<li class="clearfix smaller<?php if($main_nav_selected_tab==1) echo(' selected'); ?>">
 		                        	<a href="http://www.stonybrook.edu/sb/aboutsb.shtml" class="clearfix">
-		                        		<span class="label clearfix">About SB</span>
+		                        		<span class="label clearfix">About</span>
 		                        	</a>
 		                        </li>
 		            			<li class="clearfix<?php if($main_nav_selected_tab==2) echo(' selected'); ?>">
@@ -22,11 +22,6 @@
 		                        		<span class="label clearfix">Research</span>
 		                        	</a>
 		                        </li>
-		            			<li class="clearfix<?php if($main_nav_selected_tab==5) echo(' selected'); ?>">
-		                        	<a href="http://www.stonybrookmedicine.edu/" class="clearfix">
-		                        		<span class="label clearfix">Medicine</span>
-		                        	</a>
-		                        </li>
 		            			<li class="clearfix<?php if($main_nav_selected_tab==6) echo(' selected'); ?>">
 		                        	<a href="http://www.library.stonybrook.edu/" class="clearfix">
 		                        		<span class="label clearfix">Libraries</span>
@@ -37,14 +32,19 @@
 		                        		<span class="label clearfix">Athletics</span>
 		                        	</a>
 		                        </li>
-		            			<li class="clearfix larger<?php if($main_nav_selected_tab==8) echo(' selected'); ?>">
+		            			<li class="clearfix smaller<?php if($main_nav_selected_tab==8) echo(' selected'); ?>">
 		                        	<a href="http://www.stonybrook.edu/sb/arts.shtml" class="clearfix">
-		                        		<span class="label clearfix">Arts &amp; Culture</span>
+		                        		<span class="label clearfix">Arts</span>
 		                        	</a>
 		                        </li>
 		            			<li class="clearfix smaller<?php if($main_nav_selected_tab==9) echo(' selected'); ?>">
 		                        	<a href="http://www.stonybrook.edu/sb/giving" class="clearfix">
 		                        		<span class="label clearfix">Giving</span>
+		                        	</a>
+		                        </li>
+		            			<li class="clearfix medicine larger<?php if($main_nav_selected_tab==5) echo(' selected'); ?>">
+		                        	<a href="http://www.stonybrookmedicine.edu/" class="clearfix">
+		                        		<span class="label clearfix">Medicine</span>
 		                        	</a>
 		                        </li>
 		            		</ul>

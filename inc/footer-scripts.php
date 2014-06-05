@@ -19,10 +19,20 @@
 				}
 			});
 			$(window).resize(function(){
-				/*console.log("ww: "+$(window).width());*/
+				console.log("ww: "+$(window).width());
 				if($(window).width()>=1022) {
 					if ($('.sticky-wrapper').length == 0) { 
 					    $(".site-nav").sticky({ topSpacing: 0 });
+					}
+					configureSearchPosition();
+				} else {
+					if ( $moreNav.is( ":visible" ) ) {
+						//$('.more-trigger').click();
+					}
+					if(configuredSearch && !$('html').hasClass('ie9')) {
+						resetSearchPosition();
+						//$moreNav.height('auto');
+						//moreNavHeight = $moreNav.height();
 					}
 				}
 			});

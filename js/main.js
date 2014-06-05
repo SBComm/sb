@@ -1,4 +1,61 @@
+/* fix for search-container position */
+/* since the y-position of the .site-nav or the .sub-nav can vary due to possibility of double-lined site titles
+// 1) get the height of the above .header-container */
+
+var timeoutID;
+var searchContainer = $('.search-container');
+var configuredSearch = false;
+
+function setSearchPosition() {
+	timeoutID = window.setTimeout(configureSearchPosition, 750);
+}
+
+function configureSearchPosition() {
+	if(!$('html').hasClass('ie9')) {
+		console.log('ie9');
+	}
+	if(configuredSearch || !$('html').hasClass('ie9')) {
+		console.log('here');
+		searchContainer.removeClass('set-top-0');
+		return;
+	}
+
+	var headerContainer = $('.header-container');
+	var headerContainerHeight = headerContainer.height();
+	
+	//formula is top = h - 2h - 2
+	searchContainerTop = headerContainerHeight - (headerContainerHeight * 2) - 2;
+	var cssFriendlyTop = searchContainerTop + "px";
+
+	searchContainer.css( { top : cssFriendlyTop } );
+
+	configuredSearch = true;
+}
+
+function resetSearchPosition() {
+	console.log('reset...');
+	searchContainer.addClass('set-top-0');
+}
+
+function clearSearchPositionTimer() {
+	console.log('clear...');
+	window.clearTimeout(timeoutID);
+}
+
+/* reset height of .more-nav to prevent padding jump on slideDown() */
+var $moreNav = $('.more-nav');
+//var moreNavHeight = $moreNav.height();
+/*$moreNav.hide().css('height',0);*/
+
+var $audienceNav = $('.audience-nav');
+
+/* ready! */
+
 $(document).ready(function() {
+
+	if($(window).width()>=1022) {
+		setSearchPosition();
+	}
 
 	/* totop scroller */
 	var didScroll = false;
@@ -26,16 +83,21 @@ $(document).ready(function() {
 	$('.more-trigger').on('click',function(){
 
 		if($(window).width()>=1022) {
-			if ( $('.audience-nav').is( ":visible" ) && $('.more-nav').is( ":hidden" ) ) {
+			if ( $audienceNav.is( ":visible" ) && $moreNav.is( ":hidden" ) ) {
 				$('.audience-trigger').click();
 			}
 		}
 
-		if ( $('.more-nav').is( ":hidden" ) ) {
-			$('.more-nav').slideDown();
+		if ( $moreNav.is( ":hidden" ) ) {
+			$moreNav.slideDown();
+			//$moreNav.show().animate({ height : moreNavHeight }, { duration: 600 });
 			$(this).addClass('selected');
 		} else {
-			$('.more-nav').slideUp();
+			$moreNav.slideUp();
+			/*$moreNav.animate({ height: 0 }, { duration: 600, complete: function () {
+		        $moreNav.hide();
+		      } 
+		    });*/
 			$(this).removeClass('selected');
 		}
 	});
@@ -43,19 +105,19 @@ $(document).ready(function() {
 	$('.audience-trigger').on('click',function(){
 
 		if($(window).width()>=1022) {
-			if ( $('.more-nav').is( ":visible" ) && $('.audience-nav').is( ":hidden" ) ) {
+			if ( $moreNav.is( ":visible" ) && $audienceNav.is( ":hidden" ) ) {
 				$('.more-trigger').click();
 			}
 		}
 
-		if ( $('.audience-nav').is( ":hidden" ) ) {
-			$(this).find('.fa-caret-right').addClass('rotate-left90');
+		if ( $audienceNav.is( ":hidden" ) ) {
+			$(this).find('.fa-caret-right').addClass('fa-caret-up').removeClass('fa-caret-right');
 			$(this).closest('li').prev().addClass('before-selected');
-			$('.audience-nav').slideDown();
+			$audienceNav.slideDown();
 			$(this).addClass('selected');
 		} else {
-			$(this).find('.fa-caret-right').removeClass('rotate-left90');
-			$('.audience-nav').slideUp();
+			$(this).find('.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-right');
+			$audienceNav.slideUp();
 			$(this).removeClass('selected');
 		}
 	});

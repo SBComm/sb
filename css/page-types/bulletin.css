@@ -7,7 +7,7 @@
 	padding-bottom: 60px;
 }
 
-h3, section, ul.courses {
+.main h3, section, ul.courses {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,7 +16,7 @@ h3, section, ul.courses {
 	box-sizing: border-box;
 }
 
-section {
+.main section {
 	background: #fdfdfd;
 	overflow: hidden;
 	padding: 10px 15px;
@@ -25,25 +25,25 @@ section {
 	width: 95%;
 }
 
-h3 {
+.main h3 {
 	padding: 0 2.5%;
 	display: block !important;
 }
 
-section h3 {
+.main section h3 {
 	padding: 0;
 }
 
-ul, ol {
+.main ul, ol {
 	margin-bottom: 2em;
 	padding: 0 0 0 40px
 }
 
-ul li {
+.main ul li {
 	list-style: disc;
 }
 
-ol li {
+.main ol li {
 	list-style: decimal;
 }
 
