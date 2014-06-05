@@ -30,7 +30,7 @@ $(function () {
       } else {
         scrollTo = '#accordion-nav';
       }
-      $('body').scrollTo( scrollTo, 500 );
+      $('body').scrollTo( scrollTo, 500, {axis: 'y'} );
     } else {
       var theHeight = $('#accordion-nav .is-open').height() + 60;
       $('#accordion-nav').css('margin-bottom',theHeight);
@@ -64,7 +64,7 @@ $(document).ready(function () {
     });
 
     $('.choose-category-image').on('click',function() {
-      $('body').scrollTo( '.main', 1200 );
+      $('body').scrollTo( '.main', 1200, {axis: 'y'} );
     });
 
     $(window).trigger("hashchange");
