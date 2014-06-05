@@ -14,7 +14,7 @@ function configureSearchPosition() {
 	if(!$('html').hasClass('ie9')) {
 		console.log('ie9');
 	}
-	if(configuredSearch || !$('html').hasClass('ie9')) {
+	if(configuredSearch) {
 		console.log('here');
 		searchContainer.removeClass('set-top-0');
 		return;
