@@ -46,21 +46,23 @@
         	<div class="sbu-sub-wrapper">
 
 		        <div class="header-container">
-		        	<!-- <quick-nav> -->
-						<?php
-							/* include($path . $quick_nav); */
-						?>
-					<!-- </quick-nav> -->
-		            <!-- <more-nav> -->
-						<?php 
-							/* include($path . $more_nav); */
-						?>
-					<!-- </more-nav> -->
-		            <!-- <audience-nav> -->
-						<?php 
-							/* include($path . $audience_nav); */
-						?>
-					<!-- </audience-nav> -->
+		        	<div class="nav-elements-container">
+			        	<!-- <quick-nav> -->
+							<?php
+								include($path . $quick_nav);
+							?>
+						<!-- </quick-nav> -->
+			            <!-- <more-nav> -->
+							<?php 
+								include($path . $more_nav);
+							?>
+						<!-- </more-nav> -->
+			            <!-- <audience-nav> -->
+							<?php 
+								include($path . $audience_nav);
+							?>
+						<!-- </audience-nav> -->
+					</div>
 					<!-- <logo-container> -->
 						<?php 
 							include($path . $logo_container);

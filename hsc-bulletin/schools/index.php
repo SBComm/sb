@@ -13,7 +13,7 @@
 		<?php
 			$page_type       = 'bulletin';
     		$page_cat        = 'sub'; // for site tagline logo container
-			$page_title_sub  = 'Health Sciences Bulletin';
+			$page_title_sub  = 'Health Sciences BulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealth Sciences BulletinHealth Sciences Bulletin';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
@@ -45,21 +45,23 @@
         	<div class="sbu-sub-wrapper">
 
 		        <div class="header-container">
-		        	<!-- <quick-nav> -->
-						<?php
-							/* include($path . $quick_nav); */
-						?>
-					<!-- </quick-nav> -->
-		            <!-- <more-nav> -->
-						<?php 
-							/* include($path . $more_nav); */
-						?>
-					<!-- </more-nav> -->
-		            <!-- <audience-nav> -->
-						<?php 
-							/* include($path . $audience_nav); */
-						?>
-					<!-- </audience-nav> -->
+		        	<div class="nav-elements-container">
+			        	<!-- <quick-nav> -->
+							<?php
+								include($path . $quick_nav);
+							?>
+						<!-- </quick-nav> -->
+			            <!-- <more-nav> -->
+							<?php 
+								include($path . $more_nav);
+							?>
+						<!-- </more-nav> -->
+			            <!-- <audience-nav> -->
+							<?php 
+								include($path . $audience_nav);
+							?>
+						<!-- </audience-nav> -->
+					</div>
 					<!-- <logo-container> -->
 						<?php 
 							include($path . $logo_container);
