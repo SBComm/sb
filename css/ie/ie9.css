@@ -9,4 +9,11 @@
 		left: 848px;
 		top: -126px;
 	}
+
+	.site-nav .search-container input[type="text"]:focus,
+	.site-nav .search-container input[type="text"].focus,
+	.sub-nav .search-container input[type="text"]:focus,
+	.sub-nav .search-container input[type="text"].focus {
+		width: 137px !important;
+	}
 }

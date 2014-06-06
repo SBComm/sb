@@ -26,9 +26,9 @@
 					}
 					configureSearchPosition();
 				} else {
-					if ( $moreNav.is( ":visible" ) ) {
-						//$('.more-trigger').click();
-					}
+					/*if ( $moreNav.is( ":visible" ) ) {
+						$('.more-trigger').click();
+					}*/
 					if(configuredSearch && !$('html').hasClass('ie9')) {
 						resetSearchPosition();
 						//$moreNav.height('auto');

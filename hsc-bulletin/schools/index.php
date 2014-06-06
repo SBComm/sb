@@ -13,7 +13,7 @@
 		<?php
 			$page_type       = 'bulletin';
     		$page_cat        = 'sub'; // for site tagline logo container
-			$page_title_sub  = 'Health Sciences BulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealthBulletinHealth Sciences BulletinHealth Sciences Bulletin';
+			$page_title_sub  = 'Health Sciences Bulletin';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
@@ -37,8 +37,8 @@
 		?>
 	<!-- </head> -->
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <!--[if lt IE 8]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience. Thanks!</p>
         <![endif]-->
 
         <div class="sbu-wrapper clearfix">

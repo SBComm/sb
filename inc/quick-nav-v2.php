@@ -2,13 +2,13 @@
 						<div class="quick-nav-wrapper">
 		                    <ul class="no-pad-wrapper border-box clearfix">
 		                        <li>
-		                        	<a href="http://www.stonybrook.edu/sb/calendars/" class="clearfix">
+		                        	<a href="http://www.stonybrook.edu/sb/calendars.shtml" class="clearfix">
 		                        		<i class="icon fa fa-calendar clearfix"></i>
 		                        		<span class="label clearfix">Calendars</span>
 		                        	</a>
 		                        </li>
 		                        <li>
-		                        	<a href="http://www.stonybrook.edu/sb/directories/">
+		                        	<a href="http://www.stonybrook.edu/sb/directories.shtml">
 		                        		<i class="icon fa fa-users clearfix"></i>
 		                        		<span class="label clearfix">Directory</span>
 		                        	</a>
@@ -20,7 +20,7 @@
 		                        	</a>
 		                        </li>-->
 		                        <li class="mobile">
-		                        	<a href="http://www.stonybrook.edu/sb/jobs/">
+		                        	<a href="http://www.stonybrook.edu/sb/jobs.shtml">
 		                        		<i class="icon fa fa-briefcase clearfix"></i>
 		                        		<span class="label clearfix">Jobs</span>
 		                        	</a>

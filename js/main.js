@@ -81,9 +81,11 @@ $(document).ready(function() {
 
 	/* nav */
 	$('.more-trigger').on('click',function(){
+		console.log('clicked more-trigger');
 
-		if($(window).width()>=1022) {
+		if($(window).width()>=1008) {
 			if ( $audienceNav.is( ":visible" ) && $moreNav.is( ":hidden" ) ) {
+				console.log('audienceNav:visible and moreNav:hidden');
 				$('.audience-trigger').click();
 			}
 		}
@@ -103,9 +105,10 @@ $(document).ready(function() {
 	});
 
 	$('.audience-trigger').on('click',function(){
-
-		if($(window).width()>=1022) {
+console.log('clicked audience-trigger');
+		if($(window).width()>=1008) {
 			if ( $moreNav.is( ":visible" ) && $audienceNav.is( ":hidden" ) ) {
+				console.log('audienceNav:hidden and moreNav:visible');
 				$('.more-trigger').click();
 			}
 		}
