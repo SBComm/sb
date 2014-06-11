@@ -51,6 +51,8 @@
     $accordion_nav    = false;
     $text_filter      = false;
 
+    $carousel         = false;
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;    //Options are

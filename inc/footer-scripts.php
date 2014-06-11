@@ -46,6 +46,29 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/vendor/fastclick.js"></script>
+
+        <?php if($carousel) { ?>
+	        <script src="js/elements/owl-carousel/owl.carousel.min.js"></script>
+	        <script>
+	            $(document).ready(function() {
+	                var owl = $("#the-carousel");
+	                owl.owlCarousel({
+	                    autoPlay: 320000,
+	                    navigation : false, // Show next and prev buttons
+	                    slideSpeed : 300,
+	                    paginationSpeed : 400,
+	                    singleItem: true
+	                });
+	                $('.owl-prev').on('click', function() {
+	                    owl.trigger('owl.prev');
+	                });
+	                $('.owl-next').on('click', function() {
+	                    owl.trigger('owl.next');
+	                });
+	            });
+	        </script>
+        <?php } ?>
+
         <script type="text/javascript">
 		    //<![CDATA[
 		        $(function() {
@@ -58,6 +81,7 @@
 		<script type="text/javascript">
 		    //<![CDATA[
 				$(".site-name").fitText({ minFontSize: '20px', maxFontSize: '27px' });
+				$(".page-title h1").fitText(1, { minFontSize: '20px', maxFontSize: '46px' });
 		    //]]>
 		</script>
 		<script src="js/vendor/selectivizr-min.js"></script>

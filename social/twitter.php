@@ -1,4 +1,8 @@
 <?php
+// allow script on stonybrook.edu
+header('Access-Control-Allow-Origin: http://www.stonybrook.edu');
+header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
+
 // SET YOUR TWITTER API DETAILS HERE
 $consumer_key = "XSThanJAGRciUcxRsSCezWCst"; 
 $consumer_secret = "XDjeSMcT8viIk9Xhg7TtXxuqLhSTV9IGNmiA6ccspBTlOI59QF";

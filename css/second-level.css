@@ -1,0 +1,259 @@
+/* Main */
+
+.main {
+    background: #fff;
+}
+
+/* Page Title */
+
+.no-space,
+.page-title .hide-text {
+    font-size: 0;
+}
+
+.page-title .at-text:before {
+    content: "@";
+    display: inline-block;
+    color: #000;
+    margin: 0 0 0 2px;>
+}
+
+.page-title h1 {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 25px;
+}
+
+/* Carousel */
+
+.carousel-image[data-image='01'] {
+    background-image: url("../jobs/images/carousel-01.jpg");
+}
+
+.carousel-image[data-image='02'] {
+    background-image: url("../jobs/images/carousel-02.jpg");
+}
+
+.carousel-image[data-image='03'] {
+    background-image: url("../jobs/images/carousel-03.jpg");
+}
+
+.carousel-image[data-image='04'] {
+    background-image: url("../jobs/images/carousel-04.jpg");
+}
+
+.carousel-image[data-image='05'] {
+    background-image: url("../jobs/images/carousel-05.jpg");
+}
+
+.carousel-image:after {
+    background-image: url("../jobs/images/carousel-fade.jpg");
+    background-repeat: no-repeat;
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: 120%;
+
+}
+
+.carousel-text {
+    position: absolute;
+    max-width: 100%;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 10px #000, 0 1px 0 #000, 0 0 3px #000;
+    font-family:'Trade Gothic W01 Light';
+    z-index: 100;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.top-left {
+    top: 30px;
+    left: 70px;
+    text-align: left;
+    padding: 0 70px 0 0;
+}
+
+.top-right {
+    top: 30px;
+    right: 70px;
+    text-align: right;
+    padding: 0 0 0 70px;
+}
+
+.bottom-left {
+    bottom: 30px;
+    left: 70px;
+    text-align: left;
+    padding: 0 70px 0 0;
+}
+
+.bottom-right {
+    bottom: 30px;
+    right: 70px;
+    text-align: right;
+    padding: 0 0 0 70px;
+}
+
+.centered {
+    top: 30px;
+    left: 70px;
+    text-align: left;
+    padding: 0 70px 0 0;
+}
+
+.carousel-title {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    width: 100%;
+}
+
+.carousel-subtitle {
+    font-size: .85em;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    border-top: 1px solid #fff;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.small-title-1 {
+    text-align: center;
+    padding: 20px 0;
+    margin: 25px 0;
+}
+
+
+/* Sections */
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 340px) {
+
+}
+
+@media only screen and (min-width: 380px) {
+
+}
+
+@media only screen and (min-width: 481px) {
+
+    .carousel-title {
+        font-size: 1.55em;
+        line-height: 1.3em;
+    }
+
+    .carousel-subtitle {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+    
+}
+
+@media only screen and (min-width: 560px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-text {
+        max-width: 50%;
+    }
+    .centered {
+        top: 10%;
+        left: 30%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+@media only screen and (min-width: 1022px) {
+
+    .page-title .at-text:before {
+        font-size: 46px;
+    }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* wrapper */
+
+    .carousel-text {
+        max-width: 40%;
+    }
+
+    .top-left {
+        left: 35px;
+    }
+
+    .top-right {
+        right: 35px;
+    }
+
+    .bottom-left {
+        left: 35px;
+    }
+
+    .bottom-right {
+        right: 35px;
+    }
+
+    .centered {
+        top: 25%;
+        left: 34%;
+    }
+
+    .owl-next,
+    .owl-prev {
+        background: rgba(30,30,30,.2);
+        color: #333;
+    }
+
+    .owl-next:hover,
+    .owl-prev:hover {
+        background: rgba(30,30,30,.25);
+        box-shadow: none;
+    }
+
+    .owl-prev {
+        left: -60px;
+    }
+
+    .owl-next {
+        right: -60px;
+    }
+
+}
+
+@media only screen and (min-width: 1460px) {
+    
+}
+
+@media only screen and (min-width: 1800px) {
+  
+}
+
+@media only screen and (min-width: 2880px) {
+/* ===============
+    This is just nuts...
+   =============== */
+}
+
+@media only screen and (min-width: 3640px) {
+/* ===============
+    Really? You're joking... right?
+    ;-)
+   =============== */
+}

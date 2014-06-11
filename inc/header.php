@@ -43,6 +43,13 @@
 		<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
     <!--END CSS Style Includes-->
 
+        <?php if($carousel) { ?>
+            <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.carousel.css" media="all" />
+            <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.theme.css" media="all" />
+            <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.custom.css" media="all" />
+            <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.transitions.css" media="all" />
+        <?php } ?>
+
         <?php if($page_type=='social-hub') { ?>
         	<link rel="stylesheet" type="text/css" href="css/social/sb-layout.css" media="all" />
 			<link rel="stylesheet" type="text/css" href="css/social/sb-dcsns_wall.css" media="all" />
@@ -52,18 +59,22 @@
 	        <![endif]-->
         <?php } ?>
 
+        <?php if($page_type=='second-level') { ?>
+            <link rel="stylesheet" type="text/css" href="css/second-level.css" media="all" />
+        <?php } ?>
+
         <?php if($page_type=='bulletin') { ?>
             <link rel="stylesheet" type="text/css" href="css/page-types/bulletin.css" media="all" />
         <?php } ?>
 
-        <?php if($tabbed_nav==true) { ?>
+        <?php if($tabbed_nav) { ?>
             <link rel="stylesheet" type="text/css" href="css/elements/tabs/tabbed-nav.css" media="all" />
             <!--[if lt IE 9]>
                 <link rel="stylesheet" type="text/css" href="css/elements/tabs/tabbed-nav-ie8.css" media="all" />
             <![endif]-->
         <?php } ?>
 
-        <?php if($accordion_nav==true) { ?>
+        <?php if($accordion_nav) { ?>
             <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav.css" media="all" />
             <!--[if lt IE 9]>
                 <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav-ie8.css" media="all" />
@@ -74,12 +85,51 @@
         	<link rel="stylesheet" type="text/css" href="css/elements/to-top-link/to-top.css" media="all" />
         <?php } ?>
 
-        <?php if($text_filter==true) { ?>
+        <?php if($text_filter) { ?>
             <link rel="stylesheet" type="text/css" href="css/elements/filter/text-filter.css" media="all" />
             <!--[if lt IE 9]>
                 <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav-ie8.css" media="all" />
             <![endif]-->
         <?php } ?>
+
+<!--
+        <?php
+            //localhost fix for port 8888
+            if($_SERVER['SERVER_NAME'] == 'localhost') {
+                $theServerName = 'localhost:8888';
+            } else {
+                $theServerName = $_SERVER['SERVER_NAME'];
+            }
+
+            $url  = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
+            $url .= $theServerName;
+            $url .= $_SERVER['REQUEST_URI'];
+
+            $theImgDir          = $url . 'images/';
+
+            echo ($theImgDir);
+
+
+
+            // all files in current directory (excluding'.' and '..')
+            $dir = new DirectoryIterator(dirname(__PATH__));
+            foreach ($dir as $fileinfo) {
+                if (!$fileinfo->isDot()) {
+                    //var_dump($fileinfo->getFilename());
+                }
+            }
+        ?>
+        <style type="text/css">
+
+            .carousel-image[data-image='01'] {
+                background-image: url( <?php echo($theImgDir . 'carousel-01.jpg') ?> );
+            }
+
+        </style>
+        <?php
+
+        ?>
+-->
 
     <!--BEGIN IE Specific CSS Includes and Polyfills-->
         <!--[if IE 11]>
