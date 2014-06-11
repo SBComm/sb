@@ -36,7 +36,13 @@
     $og_url            = 'http://www.stonybrook.edu/';
     $og_image          = 'http://www.stonybrook.edu/sb/images/newlogohomepage.gif';
 
-    $css_base_url      = 'http://localhost:8888/sbu-template-2014/';
+    $isLocalhost = strpos($root,'localhost');
+
+    if($_SERVER['SERVER_NAME'] == 'localhost') {
+        $css_base_url  = 'http://localhost:8888/sbu-template-2014/';
+    } else {
+        $css_base_url  = 'http://sb.cc.stonybrook.edu/sb/';
+    }
 
     /* Page Include Controls */
     $page_to_top_link = false; // speed is defined in main.js click function

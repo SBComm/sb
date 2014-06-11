@@ -6,7 +6,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
-    		$inc = $_SERVER['DOCUMENT_ROOT'] . "/sbu-template-2014/inc/inc.php";
+			if($_SERVER['SERVER_NAME'] == 'localhost') {
+		        $inc = $_SERVER['DOCUMENT_ROOT'] . "/sbu-template-2014/inc/inc.php";
+		    } else {
+		        $inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
+		    }
 			include($inc);
 		?>
 	<!-- </inc> -->
