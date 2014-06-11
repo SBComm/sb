@@ -1,11 +1,18 @@
 <?php 
     /* Include Variables */
     $root        = $_SERVER['DOCUMENT_ROOT'];
-    $site        = 'sbu-template-2014';
     $inc_loc     = 'inc';
-    $path        = $root . '/' . 
-                 $site . '/' . 
-                 $inc_loc . '/';
+    
+
+    if($_SERVER['SERVER_NAME'] == 'localhost') {
+        $site          = 'sbu-template-2014';
+        $css_base_url  = 'http://localhost:8888/sbu-template-2014/';
+        $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+    } else {
+        $site          = 'sb';
+        $css_base_url  = 'http://sb.cc.stonybrook.edu/sb/';
+        $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+    }
 
     $content     = "content/";
         $social  = "social/";
@@ -35,14 +42,6 @@
     $og_type           = 'website';
     $og_url            = 'http://www.stonybrook.edu/';
     $og_image          = 'http://www.stonybrook.edu/sb/images/newlogohomepage.gif';
-
-    $isLocalhost = strpos($root,'localhost');
-
-    if($_SERVER['SERVER_NAME'] == 'localhost') {
-        $css_base_url  = 'http://localhost:8888/sbu-template-2014/';
-    } else {
-        $css_base_url  = 'http://sb.cc.stonybrook.edu/sb/';
-    }
 
     /* Page Include Controls */
     $page_to_top_link = false; // speed is defined in main.js click function
