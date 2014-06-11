@@ -11,11 +11,7 @@ function setSearchPosition() {
 }
 
 function configureSearchPosition() {
-	if(!$('html').hasClass('ie9')) {
-		console.log('ie9');
-	}
 	if(configuredSearch) {
-		console.log('here');
 		searchContainer.removeClass('set-top-0');
 		return;
 	}
@@ -33,12 +29,10 @@ function configureSearchPosition() {
 }
 
 function resetSearchPosition() {
-	console.log('reset...');
 	searchContainer.addClass('set-top-0');
 }
 
 function clearSearchPositionTimer() {
-	console.log('clear...');
 	window.clearTimeout(timeoutID);
 }
 

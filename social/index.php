@@ -121,9 +121,9 @@
 		<!-- </scripts> -->
 
 		<!-- <googleanalytics> -->
-			<?php /*
+			<?php 
 				$file = "site-analytics.php";
-				include($path . $file); */
+				include($path . $file);
 			?>
 		<!-- </googleanalytics> -->
     </body>
