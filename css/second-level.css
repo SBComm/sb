@@ -15,7 +15,7 @@
     content: "@";
     display: inline-block;
     color: #000;
-    margin: 0 0 0 2px;>
+    margin: 0 0 0 2px;
 }
 
 .page-title h1 {
@@ -25,6 +25,13 @@
 }
 
 /* Carousel */
+
+.owl-carousel .owl-wrapper-outer {
+    border: 1px solid #000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 .carousel-image[data-image='01'] {
     background-image: url("../jobs/images/carousel-01.jpg");
@@ -47,8 +54,7 @@
 }
 
 .carousel-image:after {
-    background-image: url("../jobs/images/carousel-fade.jpg");
-    background-repeat: no-repeat;
+    background: rgba(0,0,10,0.4);
     content: " ";
     position: absolute;
     top: 0;
@@ -57,7 +63,6 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-size: 120%;
 
 }
 
@@ -165,12 +170,39 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .carousel-image:after {
+        background-color: transparent;
+        background-image: url("../jobs/images/carousel-fade.jpg");
+        background-repeat: no-repeat;
+        background-size: 120%;
+    }
     .carousel-text {
         max-width: 50%;
     }
     .centered {
         top: 10%;
         left: 30%;
+    }
+
+    .dual-tone-cards-1 .card,
+    .dual-tone-cards-1 .link {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 31.333%;
+        float: left;
+        margin: 0 1%;
+    }
+
+    .dual-tone-cards-1 .card span,
+    .dual-tone-cards-1 .link span {
+        padding: 15px 0 0 0;
+    }
+
+    .dual-tone-cards-1 .card span:after,
+    .dual-tone-cards-1 .link span:after {
+        margin: 15px 0 0 0;
+        padding: 10px 0 13px;
     }
 }
 
@@ -182,6 +214,11 @@
 
     .page-title .at-text:before {
         font-size: 46px;
+    }
+
+    .dual-tone-cards-1 .card span,
+    .dual-tone-cards-1 .link span {
+        padding: 25px 0 0 0;
     }
 
 }

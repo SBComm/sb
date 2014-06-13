@@ -9,7 +9,7 @@
 		                        </li>
 		                        <li>
 		                        	<a href="http://www.stonybrook.edu/sb/directories.shtml">
-		                        		<i class="icon fa fa-users clearfix"></i>
+		                        		<i class="icon fa fa-book clearfix"></i>
 		                        		<span class="label clearfix">Directory</span>
 		                        	</a>
 		                        </li><!--

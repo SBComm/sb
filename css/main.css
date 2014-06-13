@@ -304,6 +304,13 @@ li {
     margin-bottom: 0;
 }
 
+li.sbu-text {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding: 0;
+    margin: 4px 20px;
+}
+
 body {
     font-family: 'Arial', Helvetica, Helvetica Neue, sans-serif;
     font-size: 14px;
@@ -629,7 +636,8 @@ body {
         border-bottom: 1px solid #aa0000;
     }
 
-    a.external-link:after {
+    a.external-link:after,
+    a.email-link:after { 
         display: inline-block;
         font-family: FontAwesome;
         font-style: normal;
@@ -637,11 +645,18 @@ body {
         line-height: 1;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        content: "\f08e";
-        margin-left: 5px;
         position: relative;
         z-index: 1;
         font-size: .9em;
+        margin-left: 5px;
+    }
+
+    a.external-link:after {
+        content: "\f08e";
+    }
+
+    a.email-link:after {
+        content: "\f003";
     }
 
     /* large button - taken from social style */

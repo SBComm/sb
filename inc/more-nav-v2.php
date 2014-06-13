@@ -19,7 +19,7 @@
 	                        	</a>
 	                        </li>
 	                        <li class="clearfix">
-	                        	<a href="http://www.stonybrook.edu/sb/maps/" class="clearfix">
+	                        	<a href="http://www.stonybrook.edu/sb/maps" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-map-marker clearfix"></i></span>
 	                        		<span class="label clearfix">Campus Maps</span>
 	                        	</a>
@@ -79,7 +79,7 @@
 	                        	</a>
 	                        </li>
 	                        <li class="clearfix">
-	                        	<a href="http://www.stonybrook.edu/sb/jobs/" class="clearfix">
+	                        	<a href="http://www.stonybrook.edu/sb/jobs" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-briefcase clearfix"></i></span>
 	                        		<span class="label clearfix">Jobs</span>
 	                        	</a>
@@ -97,9 +97,15 @@
 	                        	</a>
 	                        </li>
 	                        <li class="clearfix">
-	                        	<a href="http://www.stonybrook.edu/sb/majors/" class="clearfix">
+	                        	<a href="http://www.stonybrook.edu/sb/majors" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-list clearfix"></i></span>
 	                        		<span class="label clearfix">Majors &amp; Minors</span>
+	                        	</a>
+	                        </li>
+	                        <li class="clearfix">
+	                        	<a href="http://www.stonybrook.edu/parking/" class="clearfix">
+	                        		<span class="icon-wrapper"><i class="icon fa fa-car clearfix"></i></span>
+	                        		<span class="label clearfix">Parking</span>
 	                        	</a>
 	                        </li>
 	                        <li class="clearfix">

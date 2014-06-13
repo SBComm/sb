@@ -74,10 +74,11 @@ Headline Will Go Here and Can </div>
         <div class="wrapper border-box clearfix">
             <h2 class="white-fade-background red cap small-title-1">Learn about current career opportunities in your area of interest.</h2>
             <div class="dual-tone-cards-1 clearfix">
-                <a href="#" class="card"><span>Stony Brook University</span></a>
-                <a href="#" class="card"><span>Stony Brook University Hospital</span></a>
-                <a href="#" class="card"><span>Long Island State Veterans Home</span></a>
-                <a href="#" class="link"><span>View all jobs</span></a>
+                <a href="#" class="card"><span>HR @ Stony Brook University</span></a>
+                <a href="#" class="card"><span>HR @ Stony Brook University Hospital</span></a>
+                <a href="#" class="card"><span>HR @ SLong Island State Veterans Home</span></a>
+                <a href="#" class="link"><span>Faculty jobs</span></a>
+                <a href="#" class="link"><span>All other jobs</span></a>
             </div>
         </div>
     </section>

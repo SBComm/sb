@@ -1,11 +1,11 @@
 <?php 
     /* Include Variables */
     $root        = $_SERVER['DOCUMENT_ROOT'];
-    $inc_loc     = 'inc';
+    $inc_loc     = 'inc';   //include folder
     
 
     if($_SERVER['SERVER_NAME'] == 'localhost') {
-        $site          = 'sbu-template-2014';
+        $site          = 'sbu-template-2014'; //site folder inside the root dir
         $css_base_url  = 'http://localhost:8888/sbu-template-2014/';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
     } else {
