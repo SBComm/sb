@@ -157,6 +157,35 @@
 			    });
 			</script>
         <?php } ?>
+
+        <?php if($page_type=='search') { ?>
+	        <script>
+	            $(document).ready(function() {
+
+	            	function doesExist(el) {
+		            	if(el.length) {
+							return true;
+		            	}
+		            	return false;
+		            }
+
+		            function setPlaceholder(el) {
+		            	cseSearchEl = $('input.gsc-input');
+		            	if(doesExist(el)) {
+		            		el.attr('placeholder','Search...');
+		            	} else {
+		            		
+		            		setTimeout( function() { 
+		            			setPlaceholder(cseSearchEl);
+		            		}, 500);
+		            	}
+		            }
+					
+	            	var cseSearchEl = $('input.gsc-input');
+		            setPlaceholder(cseSearchEl);
+	            });
+	        </script>
+        <?php } ?>
         <!-- END Page Specific Includes -->
 
         <!-- BEGIN Element Specific Includes -->

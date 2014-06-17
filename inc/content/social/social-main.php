@@ -128,7 +128,10 @@
                             <div class="social-other-label-container sbu-text-shadow">Athletic Bands</div>
                             <div class="social-channels-container">
                                 <a href="https://www.facebook.com/SBUAthleticBands" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/SBUMarchingBand" target="_blank"><i class="fa fa-twitter"></i></a>
                                 <a href="https://www.youtube.com/user/SBUAthleticBands" target="_blank"><i class="fa fa-youtube"></i></a>
+                                <a href="https://www.flickr.com/photos/spiritofstonybrook/sets/" target="_blank"><i class="fa fa-flickr"></i></a>
+                                <a href="http://instagram.com/sbumarchingband" target="_blank"><i class="fa fa-instagram"></i></a>
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
