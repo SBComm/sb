@@ -148,8 +148,7 @@ console.log('clicked audience-trigger');
 			inputEl.focus();
 		} else {
 		   var queryString = inputEl.val();
-		   var searchUrl = "http://search.stonybrook.edu/search?proxyreload=1&client=default_frontend&proxystylesheet=default_frontend&site=default_collection&col=sb&ht=0&qp=&qs=&q="
-				+ queryString + "&submit.x=0&submit.y=0&submit=%BB&searchType=0";
+		   var searchUrl = "http://localhost:8888/sbu-template-2014/search/?search="+queryString;
 		   inputEl.val('').focusout();
 	       window.open(searchUrl, '_blank');
 		}
@@ -163,8 +162,7 @@ console.log('clicked audience-trigger');
 				inputEl.focus();
 			} else {
 			   var queryString = inputEl.val();
-			   var searchUrl = "http://search.stonybrook.edu/search?proxyreload=1&client=default_frontend&proxystylesheet=default_frontend&site=default_collection&col=sb&ht=0&qp=&qs=&q="
-					+ queryString + "&submit.x=0&submit.y=0&submit=%BB&searchType=0";
+			   var searchUrl = "http://localhost:8888/sbu-template-2014/search/?search="+queryString;
 		       event.preventDefault();
 		       event.stopPropagation();
 		       inputEl.val('').focusout();

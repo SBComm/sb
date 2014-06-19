@@ -72,4 +72,16 @@ $.urlParam = function(name){
     else{
        return results[1] || 0;
     }
-}
+};
+
+function RegexTest(value, type) {
+  var pattern;
+  if(type=="url") {
+    pattern = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
+    if(value.match(pattern)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+};
