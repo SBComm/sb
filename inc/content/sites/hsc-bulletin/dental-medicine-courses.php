@@ -10,7 +10,7 @@
 
   <ul id="accordion-nav">
     <!-- BEGIN First Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="all-courses">All Courses</span>
+    <li class="tab"><span role="tab" data-hash="all-courses">All Courses</span>
       <section id="all-courses-list" class="courses">
         <h3>All Courses</h3>
         <input type="search" id="all-courses-search" class="text-filter" placeholder="Search courses..." />
@@ -70,7 +70,7 @@
     </li>
     <!-- END First Course Designator -->
     <!-- BEGIN Second Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="basic-sciences">Basic Sciences</span>
+    <li class="tab"><span role="tab" data-hash="basic-sciences">Basic Sciences</span>
       <section class="courses">
         <h3>Basic Sciences</h3>
         <article>
@@ -125,7 +125,7 @@
     </li>
     <!-- END Second Course Designator -->
     <!-- BEGIN Third Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="department-of-dental-medicine">Department of Dental Medicine</span>
+    <li class="tab"><span role="tab" data-hash="department-of-dental-medicine">Department of Dental Medicine</span>
       <section class="courses">
         <h3>Department of Dental Medicine</h3>
         <article>
@@ -180,7 +180,7 @@
     </li>
     <!-- END Third Course Designator -->
     <!-- BEGIN Fourth Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="department-of-general-dentistry">Department of General Dentistry</span>
+    <li class="tab"><span role="tab" data-hash="department-of-general-dentistry">Department of General Dentistry</span>
       <section class="courses">
         <h3>Department of General Dentistry</h3>
         <article>
@@ -235,7 +235,7 @@
     </li>
     <!-- END Fourth Course Designator -->
     <!-- BEGIN Fifth Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="department-of-hospital-dentistry-and-dental-anesthesiology">Department of Hospital Dentistry and Dental Anesthesiology</span>
+    <li class="tab"><span role="tab" data-hash="department-of-hospital-dentistry-and-dental-anesthesiology">Department of Hospital Dentistry and Dental Anesthesiology</span>
       <section class="courses">
         <h3>Department of Hospital Dentistry and Dental Anesthesiology</h3>
         <article>
@@ -290,7 +290,7 @@
     </li>
     <!-- END Fifth Course Designator -->
     <!-- BEGIN Fifth Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="department-of-etc">Department of Etc...</span>
+    <li class="tab"><span role="tab" data-hash="department-of-etc">Department of Etc...</span>
       <section class="courses">
         <h3>Department of Etc...</h3>
         <article>

@@ -9,7 +9,7 @@
 
   <ul id="accordion-nav">
     <!-- BEGIN First Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="all-courses">All Courses</span>
+    <li class="tab"><span role="tab" data-hash="all-courses">All Courses</span>
       <section id="all-courses-list" class="courses">
         <h3>All Courses</h3>
         <input type="search" id="all-courses-search" class="text-filter" placeholder="Search courses..." />
@@ -69,7 +69,7 @@
     </li>
     <!-- END First Course Designator -->
     <!-- BEGIN Second Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="bs-upper-division-required-courses">BS: Upper-Division Required Courses</span>
+    <li class="tab"><span role="tab" data-hash="bs-upper-division-required-courses">BS: Upper-Division Required Courses</span>
       <section class="courses">
         <h3>BS: Upper-Division Required Courses</h3>
         <article>
@@ -124,7 +124,7 @@
     </li>
     <!-- END Second Course Designator -->
     <!-- BEGIN Third Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="bs-electives">BS: Electives</span>
+    <li class="tab"><span role="tab" data-hash="bs-electives">BS: Electives</span>
       <section class="courses">
         <h3>BS: Electives</h3>
         <article>
@@ -179,7 +179,7 @@
     </li>
     <!-- END Third Course Designator -->
     <!-- BEGIN Fourth Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="bs-rn-upper-division-required-courses">BS RN: Upper-Division Required Courses</span>
+    <li class="tab"><span role="tab" data-hash="bs-rn-upper-division-required-courses">BS RN: Upper-Division Required Courses</span>
       <section class="courses">
         <h3>BS RN: Upper-Division Required Courses</h3>
         <article>
@@ -234,7 +234,7 @@
     </li>
     <!-- END Fourth Course Designator -->
     <!-- BEGIN Fifth Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="ms-core-courses-(all-tracks)">MS: Core Courses (All Tracks)</span>
+    <li class="tab"><span role="tab" data-hash="ms-core-courses-(all-tracks)">MS: Core Courses (All Tracks)</span>
       <section class="courses">
         <h3>MS: Core Courses (All Tracks)</h3>
         <article>
@@ -289,7 +289,7 @@
     </li>
     <!-- END Fifth Course Designator -->
     <!-- BEGIN Sixth Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="ms-child-health-nursing">MS: Child Health Nursing</span>
+    <li class="tab"><span role="tab" data-hash="ms-child-health-nursing">MS: Child Health Nursing</span>
       <section class="courses">
         <h3>MS: Child Health Nursing</h3>
         <article>
@@ -344,7 +344,7 @@
     </li>
     <!-- END Sixth Course Designator -->
     <!-- BEGIN Seventh Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="ms-adult-health-nursing-(on-site-and-blended)">MS: Adult Health Nursing (On-Site and Blended)</span>
+    <li class="tab"><span role="tab" data-hash="ms-adult-health-nursing-(on-site-and-blended)">MS: Adult Health Nursing (On-Site and Blended)</span>
       <section class="courses">
         <h3>MS: Adult Health Nursing (On-Site and Blended)</h3>
         <article>
@@ -399,7 +399,7 @@
     </li>
     <!-- END Seventh Course Designator -->
     <!-- BEGIN Eighth Course Designator -->
-    <li class="tab"><span aria-role="tab" data-hash="post-masters-all-tracks">Post-Master’s: All Tracks</span>
+    <li class="tab"><span role="tab" data-hash="post-masters-all-tracks">Post-Master’s: All Tracks</span>
       <section class="courses">
         <h3>Post-Master’s: All Tracks</h3>
         <article>

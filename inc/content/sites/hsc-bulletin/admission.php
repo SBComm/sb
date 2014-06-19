@@ -12,7 +12,7 @@
 
   <ul id="accordion-nav">
     <!-- BEGIN First accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="tuition">Tuition</span>
+    <li class="tab"><span role="tab" data-hash="tuition">Tuition</span>
       <section id="all-courses-list" class="courses">
         <h3>Tuition</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
@@ -22,7 +22,7 @@
     </li>
     <!-- END First accordion Item -->
     <!-- BEGIN Second accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="fees">Fees</span>
+    <li class="tab"><span role="tab" data-hash="fees">Fees</span>
       <section class="courses">
         <h3>Fees</h3>
         <h4>Bachelor of Science Program</h4>
@@ -35,7 +35,7 @@
     </li>
     <!-- END Second accordion Item -->
     <!-- BEGIN Third accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="payment-procedures">Payment Procedures</span>
+    <li class="tab"><span role="tab" data-hash="payment-procedures">Payment Procedures</span>
       <section class="courses">
         <h3>Payment Procedures</h3>
         <h4>Pre-Admission</h4>
@@ -50,7 +50,7 @@
     </li>
     <!-- END Third accordion Item -->
     <!-- BEGIN Fourth accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="insurance-programs">Insurance Programs</span>
+    <li class="tab"><span role="tab" data-hash="insurance-programs">Insurance Programs</span>
       <section class="courses">
         <h3>Insurance Programs</h3>
         <h4>Bachelor of Science Program</h4>
@@ -65,7 +65,7 @@
     </li>
     <!-- END Fourth accordion Item -->
     <!-- BEGIN Fifth accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="living-expenses">Living Expenses</span>
+    <li class="tab"><span role="tab" data-hash="living-expenses">Living Expenses</span>
       <section class="courses">
         <h3>Living Expenses</h3>
         <h4>Tuition and Fees</h4>
@@ -76,7 +76,7 @@
     </li>
     <!-- END Fifth accordion Item -->
     <!-- BEGIN Sixth accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="refund-policy">Refund Policy</span>
+    <li class="tab"><span role="tab" data-hash="refund-policy">Refund Policy</span>
       <section class="courses">
         <h3>Refund Policy</h3>
         <h4>Clinical Practice Responsibilities</h4>
@@ -104,7 +104,7 @@
     </li>
     <!-- END Sixth accordion Item -->
     <!-- BEGIN Seventh accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="financial-assistance">Financial Assistance</span>
+    <li class="tab"><span role="tab" data-hash="financial-assistance">Financial Assistance</span>
       <section class="courses">
         <h3>Financial Assistance</h3>
         <h4>Dean’s List</h4>
@@ -124,7 +124,7 @@
     </li>
     <!-- END Seventh accordion Item -->
     <!-- BEGIN Eighth accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="employment">Employment</span>
+    <li class="tab"><span role="tab" data-hash="employment">Employment</span>
       <section class="courses">
         <h3>Employment</h3>
         <h4>NSNA: SBU Chapter</h4>
@@ -135,7 +135,7 @@
     </li>
     <!-- END Eighth accordion Item -->
     <!-- BEGIN Ninth accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="loans">Loans</span>
+    <li class="tab"><span role="tab" data-hash="loans">Loans</span>
       <section class="courses">
         <h3>Loans</h3>
         <h4>NSNA: SBU Chapter</h4>

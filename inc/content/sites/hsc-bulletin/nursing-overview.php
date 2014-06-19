@@ -9,7 +9,7 @@
 
   <ul id="accordion-nav">
     <!-- BEGIN First accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="mission-vision-and-goals">Mission, Vision and Goals</span>
+    <li class="tab"><span role="tab" data-hash="mission-vision-and-goals">Mission, Vision and Goals</span>
       <section id="all-courses-list" class="courses">
         <h3>Mission, Vision and Goals</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
@@ -19,7 +19,7 @@
     </li>
     <!-- END First accordion Item -->
     <!-- BEGIN Second accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="program-objectives">Program Objectives</span>
+    <li class="tab"><span role="tab" data-hash="program-objectives">Program Objectives</span>
       <section class="courses">
         <h3>Program Objectives</h3>
         <h4>Bachelor of Science Program</h4>
@@ -32,7 +32,7 @@
     </li>
     <!-- END Second accordion Item -->
     <!-- BEGIN Third accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="program-information">Program Information</span>
+    <li class="tab"><span role="tab" data-hash="program-information">Program Information</span>
       <section class="courses">
         <h3>Program Information</h3>
         <h4>Pre-Admission</h4>
@@ -47,7 +47,7 @@
     </li>
     <!-- END Third accordion Item -->
     <!-- BEGIN Fourth accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="academic-requirements">Academic Requirements</span>
+    <li class="tab"><span role="tab" data-hash="academic-requirements">Academic Requirements</span>
       <section class="courses">
         <h3>Academic Requirements</h3>
         <h4>Bachelor of Science Program</h4>
@@ -62,7 +62,7 @@
     </li>
     <!-- END Fourth accordion Item -->
     <!-- BEGIN Fifth accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="financial-information">Financial Information</span>
+    <li class="tab"><span role="tab" data-hash="financial-information">Financial Information</span>
       <section class="courses">
         <h3>Financial Information</h3>
         <h4>Tuition and Fees</h4>
@@ -73,7 +73,7 @@
     </li>
     <!-- END Fifth accordion Item -->
     <!-- BEGIN Sixth accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="requirements-and-responsibilities">Requirements and Responsibilities</span>
+    <li class="tab"><span role="tab" data-hash="requirements-and-responsibilities">Requirements and Responsibilities</span>
       <section class="courses">
         <h3>Requirements and Responsibilities</h3>
         <h4>Clinical Practice Responsibilities</h4>
@@ -101,7 +101,7 @@
     </li>
     <!-- END Sixth accordion Item -->
     <!-- BEGIN Seventh accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="honors-and-awards">Honors and Awards</span>
+    <li class="tab"><span role="tab" data-hash="honors-and-awards">Honors and Awards</span>
       <section class="courses">
         <h3>Honors and Awards</h3>
         <h4>Dean’s List</h4>
@@ -121,7 +121,7 @@
     </li>
     <!-- END Seventh accordion Item -->
     <!-- BEGIN Eighth accordion Item -->
-    <li class="tab"><span aria-role="tab" data-hash="clubs-and-organizations">Clubs and Organizations</span>
+    <li class="tab"><span role="tab" data-hash="clubs-and-organizations">Clubs and Organizations</span>
       <section class="courses">
         <h3>Clubs and Organizations</h3>
         <h4>NSNA: SBU Chapter</h4>
