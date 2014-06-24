@@ -1,0 +1,191 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #111;
+	background: #fff;
+	font-family: 'Arial', Helvetica, Helvetica Neue, sans-serif;
+    font-size: 14px;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+html {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #000;
+}
+
+::-moz-selection {
+    background: #ffb7b7;
+    color: #000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #ffb7b7;
+    color: #000;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.people-results-message {
+	text-align: left;
+	color: #676767;
+	font-size: 13px;
+	padding: 22px 0 18px 8px;
+	margin: 0;
+	font-size: 13px;
+	font-family: 'arial', sans-serif;
+	font-weight: normal;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #E9E9E9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* each people record */
+
+.record {
+	margin: 0;
+	border-bottom: 1px solid #E9E9E9;
+	padding: 10px 10px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+.record:nth-child(odd) {
+	background: #f7f7f7;
+}
+
+.record .name {
+	display: block;
+	width: 100%;
+	margin: 0 0 5px;
+}
+
+.record h2 {
+	font-size: 19px;
+	color: #111;
+	text-decoration: none;
+	font-family: 'TradeGothicNextW01-Ligh 693250';
+	line-height: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	color: #900;
+	display: inline-block;
+}
+.record .status {
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'CenturySchoolbookW01-It 927458';
+	margin-left: 4px;
+	padding-left: 8px;
+	border-left: 1px solid #FFF;
+	line-height: normal;
+
+}
+
+.record .data {
+	display: block;
+	font-family: 'CenturySchoolbookW01-It 927458';
+	margin: 0;
+	font-size: 1.1em;
+	padding: 0 0 2px;
+	min-height: 24px;
+	vertical-align: top;
+}
+
+.record .data i {
+    width: 30px;
+}
+
+.record .data a {
+	font-family: 'Arial', Helvetica, Helvetica Neue, sans-serif;
+	color: #a00;
+	padding: 3px 3px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	text-decoration: underline;
+	display: none;
+	font-size: 12px;
+	margin: -4px 0 0 0;
+	float: left;
+}
+
+.record:hover .data a {
+	display: inline-block;
+}
+
+.record .data a:hover {
+	color: #fff;
+	background: #900;
+    text-decoration: none !important;
+}
+
+.record .data a:hover:after {
+    content: "\f054";
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: 1em;
+    margin: 0 0 0 6px;
+    text-decoration: none !important;
+}
+
+.record .data td.label span {
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+	font-size: 1px;
+	color: #fff;
+}
+
+.record .data td.label {
+	text-align: center;
+	vertical-align: top;
+}
+
+.record .data td span.email,
+.record .data td span.address {
+	margin: 0 6px 0 0;
+	display: inline-block;
+	float: left;
+}
+
+
+.long-search-message {
+	display: block;
+	font-size: 12px;
+	padding: 0 0 0 10px;
+}

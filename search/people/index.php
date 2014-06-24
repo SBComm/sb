@@ -83,11 +83,16 @@
 		                <!-- <search-results> -->
 							<article>
 							    <section>
-							        <div class="cse-input-wrapper wrapper border-box">
+							        <div class="site-input-wrapper wrapper border-box">
 							            <h1 class="serif">Search</h1>
 
-							            <div id="cse-search-input">
-							                <gcse:searchbox></gcse:searchbox>
+							            <div id="site-search-input" class="clearfix">
+								            <div class="site-input-box">
+								            	<div class="site-input">
+								                	<input autocomplete="off" type="search" size="10" name="search" title="search" placeholder="Search directories...">
+								            	</div>
+								            </div>
+								            <div id="people-search-btn" class="search-button" title="search">Search</div>
 							            </div>
 
 							            <div id="site-search-message">
@@ -95,8 +100,8 @@
 							            </div>
 
 							            <ul id="tabbed-nav">
-							                <li class="selected"><a href="search">Pages</a></li>
-							                <li><a href="search/people">People</a></li>
+							                <li><a href="search">Pages</a></li>
+							                <li class="selected"><a href="search/people">People</a></li>
 							            </ul>
 
 							        </div>
@@ -104,7 +109,10 @@
 							        <div class="cse-wrapper border-box">
 
 							            <div id="cse-search-results" class="wrapper">
-							                <gcse:searchresults>Loading search results...</gcse:searchresults>
+							                
+							            <iframe id="people-frame" class="people-search-results" src="search/people/people-search.php" frameborder="0" scrolling="no"></iframe>
+										
+
 							            </div>
 
 							        </div>

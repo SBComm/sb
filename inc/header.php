@@ -60,23 +60,14 @@
 	        <![endif]-->
         <?php } ?>
 
-        <?php if($page_type=='second-level') { ?>
-            <link rel="stylesheet" type="text/css" href="css/second-level.css" media="all" />
-        <?php } ?>
-
-        <?php if($page_type=='bulletin') { ?>
-            <link rel="stylesheet" type="text/css" href="css/page-types/bulletin.css" media="all" />
-        <?php } ?>
-
-        <?php if($page_type=='search') { ?>
-            <link rel="stylesheet" type="text/css" href="css/search.css" media="all" />
-        <?php } ?>
-
         <?php if($tabbed_nav) { ?>
             <link rel="stylesheet" type="text/css" href="css/elements/tabs/tabbed-nav.css" media="all" />
             <!--[if lt IE 9]>
                 <link rel="stylesheet" type="text/css" href="css/elements/tabs/tabbed-nav-ie8.css" media="all" />
             <![endif]-->
+            <?php if($mobile_tabs) { ?>
+                <link rel="stylesheet" type="text/css" href="css/elements/tabs/mobile-tabs.css" media="all" />
+            <?php } ?>
         <?php } ?>
 
         <?php if($accordion_nav) { ?>
@@ -95,6 +86,18 @@
             <!--[if lt IE 9]>
                 <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav-ie8.css" media="all" />
             <![endif]-->
+        <?php } ?>
+
+        <?php if($page_type=='second-level') { ?>
+            <link rel="stylesheet" type="text/css" href="css/second-level.css" media="all" />
+        <?php } ?>
+
+        <?php if($page_type=='bulletin') { ?>
+            <link rel="stylesheet" type="text/css" href="css/page-types/bulletin.css" media="all" />
+        <?php } ?>
+
+        <?php if($page_type=='search') { ?>
+            <link rel="stylesheet" type="text/css" href="css/search.css" media="all" />
         <?php } ?>
 
 <!--

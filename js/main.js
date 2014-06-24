@@ -150,7 +150,7 @@ console.log('clicked audience-trigger');
 		   var queryString = inputEl.val();
 		   var searchUrl = "http://localhost:8888/sbu-template-2014/search/?search="+queryString;
 		   inputEl.val('').focusout();
-	       window.open(searchUrl, '_blank');
+	       window.open(searchUrl, '_self');
 		}
 	});
 
@@ -166,7 +166,7 @@ console.log('clicked audience-trigger');
 		       event.preventDefault();
 		       event.stopPropagation();
 		       inputEl.val('').focusout();
-		       window.open(searchUrl, '_blank');
+		       window.open(searchUrl, '_self');
 			}
 		}
 	});

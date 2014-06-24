@@ -19,7 +19,6 @@
 				}
 			});
 			$(window).resize(function(){
-				console.log("ww: "+$(window).width());
 				if($(window).width()>=1022) {
 					if ($('.sticky-wrapper').length == 0) { 
 					    $(".site-nav").sticky({ topSpacing: 0 });
@@ -85,6 +84,7 @@
 		    //]]>
 		</script>
 		<script src="js/vendor/selectivizr-min.js"></script>
+        <script src="js/vendor/iframeResizer.min.js"></script>
 
 		<!-- BEGIN Page Specific Includes -->
 		<?php if($page_type=='social-hub') { ?>
@@ -152,6 +152,10 @@
 		<?php if($page_type=='bulletin') { ?>
 			<script src="js/vendor/jquery.fastLiveFilter.js"></script>
 			<script>
+
+
+
+			   7
 			    $(function() {
 			        $('#all-courses-search').fastLiveFilter('#all-courses-list');
 			    });
@@ -159,32 +163,7 @@
         <?php } ?>
 
         <?php if($page_type=='search') { ?>
-	        <script>
-	            $(document).ready(function() {
-
-	            	function doesExist(el) {
-		            	if(el.length) {
-							return true;
-		            	}
-		            	return false;
-		            }
-
-		            function setPlaceholder(el) {
-		            	cseSearchEl = $('input.gsc-input');
-		            	if(doesExist(el)) {
-		            		el.attr('placeholder','Search...');
-		            	} else {
-		            		
-		            		setTimeout( function() { 
-		            			setPlaceholder(cseSearchEl);
-		            		}, 500);
-		            	}
-		            }
-					
-	            	var cseSearchEl = $('input.gsc-input');
-		            setPlaceholder(cseSearchEl);
-	            });
-	        </script>
+	        <script type="text/javascript" src="js/search/search.js"></script>
         <?php } ?>
         <!-- END Page Specific Includes -->
 

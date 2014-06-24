@@ -20,19 +20,3 @@
                                 </div>
                             </section>
                         </article>
-
-                        <div id="cse-search-input">
-                        <script>
-                            (function() {
-                            var cx = '005124310102344715141:zer6ki_efgi';
-                            var gcse = document.createElement('script');
-                            gcse.type = 'text/javascript';
-                            gcse.async = true;
-                            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                                '//www.google.com/cse/cse.js?cx=' + cx;
-                            var s = document.getElementsByTagName('script')[0];
-                            s.parentNode.insertBefore(gcse, s);
-                            })();
-                        </script>
-                        <gcse:searchbox-only resultsUrl="http://localhost:8888/sbu-template-2014/search/" newWindow="true" queryParameterName="search">
-                    </div>

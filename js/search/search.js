@@ -1,7 +1,7 @@
 /* custom: get site to search from URL */
 var siteToSearch = $.urlParam('site');
 var siteSearchMessage, googleInputCode, googleResultsCode, searchInputValue;
-	console.log(siteToSearch);
+
 if(siteToSearch!=null &&siteToSearch!=0 &&siteToSearch!='') {
 	if(RegexTest(siteToSearch,'url')) {
 
@@ -36,6 +36,22 @@ var s = document.getElementsByTagName('script')[0];
 s.parentNode.insertBefore(gcse, s);
 })();
 
+/* people search */
+function doPeopleSearch(peopleInputVal) {
+
+    var peopleSrc      = 'http://adam.cc.sunysb.edu/acc/new-dirsearch.cgi';
+    var peopleQuery, peopleFrame, peopleInputVal, peopleLink;
+    console.log(peopleInputVal);
+    if(peopleInputVal!='') {
+        peopleQuery = '?name_string='+peopleInputVal+'&status=Any';
+        peopleLink = peopleSrc + peopleQuery;
+        peopleFrame = $('#people-frame');
+        peopleFrame.attr('src',peopleLink);
+        peopleFrame.iFrameResize({});
+    }
+    
+}
+
 /* Set placeholder on the Google Search input element */
 $(document).ready(function() {
 
@@ -61,7 +77,7 @@ $(document).ready(function() {
     function setPlaceholder(el) {
     	cseSearchEl = $('input.gsc-input');
     	if(doesExist(el)) {
-    		el.attr('placeholder','Search...');
+    		el.attr('placeholder','Search the website...');
     	} else {
     		
     		setTimeout( function() { 
@@ -77,4 +93,19 @@ $(document).ready(function() {
     	window.location.href = getSearchTarget();
 
     });
+
+    $('.site-input input').keypress(function(event){
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        console.log(keycode);
+        if(keycode == '13'){
+            doPeopleSearch($(this).val());
+        }
+    });
+
+    $('#people-search-btn').click(function() {
+        doPeopleSearch($('.site-input input').val());
+    });
+
+    $('#people-frame').iFrameResize({});
+
 });
