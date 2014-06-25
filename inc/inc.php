@@ -5,12 +5,12 @@
     
 
     if($_SERVER['SERVER_NAME'] == 'localhost') {
-        $site          = 'sbu-template-2014'; //site folder inside the root dir
-        $css_base_url  = 'http://localhost:8888/sbu-template-2014/';
+        $site          = 'sb'; //site folder inside the root dir
+        $css_base_url  = 'http://localhost:8888/sb/';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
     } else {
         $site          = 'sb';
-        $css_base_url  = 'http://sb.cc.stonybrook.edu/sb/';
+        $css_base_url  = 'http://mobile.cc.stonybrook.edu/sb/';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
     }
 

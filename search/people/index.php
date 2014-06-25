@@ -6,11 +6,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
-			if($_SERVER['SERVER_NAME'] == 'localhost') {
-		        $inc = $_SERVER['DOCUMENT_ROOT'] . "/sbu-template-2014/inc/inc.php";
-		    } else {
-		        $inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
-		    }
+			$inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
 			include($inc);
 		?>
 	<!-- </inc> -->
@@ -110,7 +106,7 @@
 
 							            <div id="cse-search-results" class="wrapper">
 							                
-							            <iframe id="people-frame" class="people-search-results" src="search/people/people-search.php" frameborder="0" scrolling="no"></iframe>
+							            <iframe id="people-frame" class="people-search-results" src="search/people/people-search.html" frameborder="0" scrolling="no"></iframe>
 										
 
 							            </div>
