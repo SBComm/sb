@@ -246,6 +246,12 @@ a.sbu-link:hover {
 	color: #427097;
 }
 
+#wrapper .linkedin-blue,
+.fa-linkedin:hover,
+.fa-linkedin-square:hover {
+	color: #007bb6;
+}
+
 #wrapper .subtitle {
 	text-align: center;
 	width: 100%;

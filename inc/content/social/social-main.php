@@ -103,6 +103,16 @@
                                 <a href="http://instagram.com/stonybrooku?ref=badge" target="_blank" class="ig-b- ig-b-v-24"><img src="img/instagram/ig-badge-view-24.png" alt="Instagram" /></a>
                             </div>
                         </div>
+
+                        <div class="linkedin-container social-follow-container">
+                            <div class="social-label-container"><span class="darker">Connect</span> <span class="grey">on</span> <span class="linkedin-blue">LinkedIn</span></div>
+                            <div class="social-button-container">
+                                <script src="//platform.linkedin.com/in.js" type="text/javascript">
+                                  lang: en_US
+                                </script>
+                                <script type="IN/FollowCompany" data-id="7201" data-counter="right"></script>
+                            </div>
+                        </div>
                     </div>
 
                     <h2>More <span class="red">SBU</span> <span class="darker">Social</span></h2>
@@ -112,7 +122,8 @@
                             <div class="social-channels-container">
                                 <a href="http://www.facebook.com/stonybrookalumni" target="_blank"><i class="fa fa-facebook-square"></i></a>
                                 <a href="http://twitter.com/stonybrookalum" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="http://instagram.com/stonybrookalum" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="http://www.flickr.com/photos/sbuadvancement/sets/" target="_blank"><i class="fa fa-flickr"></i></a>
+                                <a href="http://www.linkedin.com/groups?home=&gid=108294&trk=anet_ug_hm" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">

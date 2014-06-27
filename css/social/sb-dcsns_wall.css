@@ -1145,6 +1145,10 @@ ul.stream {
 		display: inline-block;
 	}
 
+	.social-follow-container.linkedin-container {
+		width: 100%;
+	}
+
 	.social-button-container {
 		display: block;
 		height: 30px;
