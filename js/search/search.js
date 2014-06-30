@@ -47,7 +47,7 @@ function doPeopleSearch(peopleInputVal) {
         peopleLink = peopleSrc + peopleQuery;
         peopleFrame = $('#people-frame');
         peopleFrame.attr('src',peopleLink);
-        peopleFrame.iFrameResize({});
+        peopleFrame.iFrameResize({log:true});
     }
     
 }

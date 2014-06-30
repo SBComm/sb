@@ -152,10 +152,6 @@
 		<?php if($page_type=='bulletin') { ?>
 			<script src="js/vendor/jquery.fastLiveFilter.js"></script>
 			<script>
-
-
-
-			   7
 			    $(function() {
 			        $('#all-courses-search').fastLiveFilter('#all-courses-list');
 			    });
@@ -174,6 +170,14 @@
 
         <?php if($text_filter==true) { ?>
         	<script type="text/javascript" src="js/elements/filter/text-filter.js"></script>
+        <?php } ?>
+
+        <?php if($equal_col==true) { ?>
+			<script type="text/javascript">
+				$(window).load(function() {
+					equalheight('.equal-height-col');
+			   	});
+			</script>
         <?php } ?>
         <!-- END Element Specific Includes -->
 

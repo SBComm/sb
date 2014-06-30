@@ -58,6 +58,8 @@
 
     $carousel         = false;
 
+    $equal_col        = false;
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;    //Options are
