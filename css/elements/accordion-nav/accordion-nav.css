@@ -1,0 +1,53 @@
+.float-left-wrapper {
+    display: inline-block;
+    float: left;
+}
+
+.float-left-wrapper > div {
+    display: inline-block;
+    float: left;
+    margin: 10px 0 10px 10px;
+}
+
+#accordion-nav li.tab {
+    font-size: 13px;
+}
+
+h3 {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: normal;
+    line-height: 1.1;
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 20px 0;
+    padding: 10px 0 0;
+    font-family: Arial, Verdana, sans-serif;
+    color: #333;
+    font-size: 22px;
+    clear: both;
+}
+
+.person-wrapper {
+    border: 1px solid #ccc;
+    margin: 0 12px 15px 0;
+    padding: 0 20px 0 0;
+    max-width: 400px;
+    background: #f7f7f7;
+    border-radius: 3px;
+    box-shadow: 0 6px 7px -4px #999;
+}
+
+.person-wrapper a {
+    color: #900;
+    text-decoration: none;
+}
+
+.person-wrapper .data {
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 280px;
+}
