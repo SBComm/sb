@@ -78,7 +78,7 @@
 
 		                <!-- <search-results> -->
 							<article>
-							    <section>
+							    <section class="search-wrapper">
 							        <div class="cse-input-wrapper wrapper border-box">
 							            <h1 class="serif">Search</h1>
 
@@ -91,8 +91,8 @@
 							            </div>
 
 							            <ul id="tabbed-nav">
-							                <li class="selected"><a href="search">Pages</a></li>
-							                <li><a href="search/people">People</a></li>
+							                <li class="selected search-pages-link"><a href="search">Pages</a></li>
+							                <li class="search-people-link"><a href="search/people">People</a></li>
 							            </ul>
 
 							        </div>
@@ -100,7 +100,8 @@
 							        <div class="cse-wrapper border-box">
 
 							            <div id="cse-search-results" class="wrapper">
-							                <gcse:searchresults>Loading search results...</gcse:searchresults>
+							            	<div class="search-default-message">To search the website, enter a term above.</div>
+							                <gcse:searchresults></gcse:searchresults>
 							            </div>
 
 							        </div>

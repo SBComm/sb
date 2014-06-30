@@ -78,14 +78,14 @@
 
 		                <!-- <search-results> -->
 							<article>
-							    <section>
+							    <section class="search-wrapper">
 							        <div class="site-input-wrapper wrapper border-box">
 							            <h1 class="serif">Search</h1>
 
 							            <div id="site-search-input" class="clearfix">
 								            <div class="site-input-box">
 								            	<div class="site-input">
-								                	<input autocomplete="off" type="search" size="10" name="search" title="search" placeholder="Search directories...">
+								                	<input autocomplete="off" type="search" size="10" name="search" title="search" placeholder="Search directory...">
 								            	</div>
 								            </div>
 								            <div id="people-search-btn" class="search-button" title="search">Search</div>
@@ -96,8 +96,8 @@
 							            </div>
 
 							            <ul id="tabbed-nav">
-							                <li><a href="search">Pages</a></li>
-							                <li class="selected"><a href="search/people">People</a></li>
+							                <li class="search-pages-link"><a href="search">Pages</a></li>
+							                <li class="selected search-people-link"><a href="search/people">People</a></li>
 							            </ul>
 
 							        </div>
@@ -105,9 +105,9 @@
 							        <div class="cse-wrapper border-box">
 
 							            <div id="cse-search-results" class="wrapper">
-							                
-							            <iframe id="people-frame" class="people-search-results" src="search/people/people-search.html" frameborder="0" scrolling="no"></iframe>
-										
+							               
+							            <div class="search-default-message">To search faculty and staff, enter a name above.</div>
+							            <iframe id="people-frame" class="people-search-results" src="" frameborder="0" scrolling="no"></iframe>
 
 							            </div>
 

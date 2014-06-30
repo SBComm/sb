@@ -13,16 +13,18 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$page_title_sub  = 'Economic Development';
+			$page_title_sub  = 'Jobs';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
+		    //$og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
 		    $og_url          = 'http://www.stonybrook.edu/economic-development';
 
 		    $page_to_top_link = true;
 
 		    $page_footerbar   = true;
+
+		    $carousel 		  = true;
 		?>
 
 	<!-- <head> -->
@@ -75,7 +77,7 @@
 
 		                <!-- <economic-development> -->
 							<?php 
-								$file = "economic-development.php";
+								$file = "jobs.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </economic-development> -->

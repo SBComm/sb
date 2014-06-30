@@ -39,21 +39,43 @@ s.parentNode.insertBefore(gcse, s);
 /* people search */
 function doPeopleSearch(peopleInputVal) {
 
-    var peopleSrc      = 'http://adam.cc.sunysb.edu/acc/new-dirsearch.cgi';
+    var peopleSrc      = 'http://adam.cc.sunysb.edu/acc/test-div-dirsearch.cgi';
     var peopleQuery, peopleFrame, peopleInputVal, peopleLink;
-    console.log(peopleInputVal);
+    var defaultMessage = $('.search-default-message');
+    //console.log(peopleInputVal);
     if(peopleInputVal!='') {
+        if(defaultMessage.length) {
+            $(defaultMessage).remove();
+        }
         peopleQuery = '?name_string='+peopleInputVal+'&status=Any';
         peopleLink = peopleSrc + peopleQuery;
         peopleFrame = $('#people-frame');
         peopleFrame.attr('src',peopleLink);
-        peopleFrame.iFrameResize({log:true});
+        //peopleFrame.iFrameResize({log:true});
     }
     
 }
 
 /* Set placeholder on the Google Search input element */
 $(document).ready(function() {
+
+    //if there is a value for url parameter 'name', use it on people search
+    var queryParam = $.urlParam('q');
+
+    if(queryParam!=null &&queryParam!=0 &&queryParam!='') {
+        $('.site-input input').val(queryParam);
+        doPeopleSearch($('.site-input input').val());
+    }
+
+
+    var defaultMessage = $('.search-default-message');
+    var queryTerm = $.urlParam('q');
+
+    if(queryTerm!=''&&queryTerm!=0&&queryTerm!=null) {
+        defaultMessage.remove();
+    } else {
+        defaultMessage.delay(3500).fadeOut(2200);   
+    }
 
 	function doesExist(el) {
     	if(el.length) {
@@ -65,7 +87,6 @@ $(document).ready(function() {
     function getSearchTarget() {
     	var searchInputValue = $('input.gsc-input').val();
     	var searchHref = "search"; //update link;
-		console.log('val: '+searchInputValue);
 
     	if(searchInputValue!=null && searchInputValue!='') {
     		searchHref += "?search="+searchInputValue;
@@ -79,7 +100,6 @@ $(document).ready(function() {
     	if(doesExist(el)) {
     		el.attr('placeholder','Search the website...');
     	} else {
-    		
     		setTimeout( function() { 
     			setPlaceholder(cseSearchEl);
     		}, 500);
@@ -96,7 +116,6 @@ $(document).ready(function() {
 
     $('.site-input input').keypress(function(event){
         var keycode = (event.keyCode ? event.keyCode : event.which);
-        console.log(keycode);
         if(keycode == '13'){
             doPeopleSearch($(this).val());
         }
@@ -107,5 +126,26 @@ $(document).ready(function() {
     });
 
     $('#people-frame').iFrameResize({});
+
+    //intercept links for people and pages, append the current search term querystring, then do search
+    $('.search-pages-link a').click(function(e){
+        e.preventDefault();
+        var goToHref = $(this).attr('href');
+        var queryTerm = $('.site-input input').val();
+        if(queryTerm!='') {
+            goToHref += '?q=' + queryTerm;
+        }
+        window.location.href = goToHref;
+    });
+
+    $('.search-people-link a').click(function(e){
+        e.preventDefault();
+        var goToHref = $(this).attr('href');
+        var queryTerm = $('input.gsc-input').val();
+        if(queryTerm!='') {
+            goToHref += '?q=' + queryTerm;
+        }
+        window.location.href = goToHref;
+    });
 
 });

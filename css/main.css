@@ -458,6 +458,16 @@ body {
         font-size: 1em;
     }
 
+    /* Search pages */
+
+    .search-default-message {
+        font-size: 13px;
+        color: #676767;
+        display: block;
+        padding: 22px 0 18px 8px;
+
+    }
+
     /* Fontawesome icon - use with the css content property on an pseudoelement. Don't forget to set the font-size
         content: "\f08e";
     */
