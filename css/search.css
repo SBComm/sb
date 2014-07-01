@@ -225,7 +225,7 @@ input.gsc-search-button {
     background-color: #aa0000 !important;
     background-image: none;
     filter: none;
-    height: 100% !important;
+    height: 37px !important;
     width: 80px !important;
   }
   input.gsc-search-button:hover, input.gsc-search-button:focus {
@@ -233,7 +233,7 @@ input.gsc-search-button {
     background-color: #990000 !important;
     background-image: none;
     filter: none;
-    height: 100% !important;
+    height: 37px !important;
     width: 80px !important;
   }
   .gsc-tabHeader.gsc-tabhInactive {
@@ -425,6 +425,8 @@ input.gsc-search-button {
 }
 
 #cse-search-input input.gsc-search-button {
+  width: 13px;
+  height: 13px;
   padding: 11px 32px 11px 33px;
 }
 
@@ -772,7 +774,7 @@ input.gsc-search-button {
     width: 100%;
     border: 0 none;
     overflow-y: auto;
-    height: 3000px;
+    height: 400px;
   }
 
 @media only screen and (min-width: 480px) {

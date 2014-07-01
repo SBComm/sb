@@ -65,6 +65,8 @@ $(document).ready(function() {
     if(queryParam!=null &&queryParam!=0 &&queryParam!='') {
         $('.site-input input').val(queryParam);
         doPeopleSearch($('.site-input input').val());
+    } else {
+        $('.site-input input').focus();
     }
 
 
@@ -74,7 +76,7 @@ $(document).ready(function() {
     if(queryTerm!=''&&queryTerm!=0&&queryTerm!=null) {
         defaultMessage.remove();
     } else {
-        defaultMessage.delay(3500).fadeOut(2200);   
+        defaultMessage.delay(4500).fadeOut(2200);   
     }
 
 	function doesExist(el) {
@@ -102,6 +104,10 @@ $(document).ready(function() {
     	} else {
     		setTimeout( function() { 
     			setPlaceholder(cseSearchEl);
+                var queryTerm = $.urlParam('q');
+                if(queryTerm==''||queryTerm==null) {
+                    $(cseSearchEl).focus();
+                }
     		}, 500);
     	}
     }
@@ -132,7 +138,7 @@ $(document).ready(function() {
         e.preventDefault();
         var goToHref = $(this).attr('href');
         var queryTerm = $('.site-input input').val();
-        if(queryTerm!='') {
+        if(queryTerm!=''&&queryTerm!=null) {
             goToHref += '?q=' + queryTerm;
         }
         window.location.href = goToHref;
@@ -142,7 +148,7 @@ $(document).ready(function() {
         e.preventDefault();
         var goToHref = $(this).attr('href');
         var queryTerm = $('input.gsc-input').val();
-        if(queryTerm!='') {
+        if(queryTerm!=''&&queryTerm!=null) {
             goToHref += '?q=' + queryTerm;
         }
         window.location.href = goToHref;

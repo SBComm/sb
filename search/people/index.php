@@ -96,8 +96,8 @@
 							            </div>
 
 							            <ul id="tabbed-nav">
-							                <li class="search-pages-link"><a href="search">Pages</a></li>
-							                <li class="selected search-people-link"><a href="search/people">People</a></li>
+							                <li class="search-pages-link"><a href="http://mobile.cc.stonybrook.edu/sb/search">Pages</a></li>
+							                <li class="selected search-people-link"><a href="http://mobile.cc.stonybrook.edu/sb/search/people">People</a></li>
 							            </ul>
 
 							        </div>

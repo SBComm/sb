@@ -148,7 +148,7 @@ console.log('clicked audience-trigger');
 			inputEl.focus();
 		} else {
 		   var queryString = inputEl.val();
-		   var searchUrl = "http://localhost:8888/sb/search/?search="+queryString;
+		   var searchUrl = "http://mobile.cc.stonybrook.edu/sb/search/?q="+queryString;
 		   inputEl.val('').focusout();
 	       window.open(searchUrl, '_self');
 		}
@@ -162,7 +162,7 @@ console.log('clicked audience-trigger');
 				inputEl.focus();
 			} else {
 			   var queryString = inputEl.val();
-			   var searchUrl = "http://localhost:8888/sb/search/?search="+queryString;
+			   var searchUrl = "http://mobile.cc.stonybrook.edu/sb/search/?q="+queryString;
 		       event.preventDefault();
 		       event.stopPropagation();
 		       inputEl.val('').focusout();
