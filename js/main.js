@@ -75,7 +75,7 @@ $(document).ready(function() {
 
 	/* nav */
 	$('.more-trigger').on('click',function(){
-		console.log('clicked more-trigger');
+		//console.log('clicked more-trigger');
 
 		if($(window).width()>=1008) {
 			if ( $audienceNav.is( ":visible" ) && $moreNav.is( ":hidden" ) ) {
@@ -99,10 +99,10 @@ $(document).ready(function() {
 	});
 
 	$('.audience-trigger').on('click',function(){
-console.log('clicked audience-trigger');
+//console.log('clicked audience-trigger');
 		if($(window).width()>=1008) {
 			if ( $moreNav.is( ":visible" ) && $audienceNav.is( ":hidden" ) ) {
-				console.log('audienceNav:hidden and moreNav:visible');
+				//console.log('audienceNav:hidden and moreNav:visible');
 				$('.more-trigger').click();
 			}
 		}
@@ -148,7 +148,7 @@ console.log('clicked audience-trigger');
 			inputEl.focus();
 		} else {
 		   var queryString = inputEl.val();
-		   var searchUrl = "http://mobile.cc.stonybrook.edu/sb/search/?q="+queryString;
+		   var searchUrl = "http://www.stonybrook.edu/search/?q="+queryString;
 		   inputEl.val('').focusout();
 	       window.open(searchUrl, '_self');
 		}
@@ -162,7 +162,7 @@ console.log('clicked audience-trigger');
 				inputEl.focus();
 			} else {
 			   var queryString = inputEl.val();
-			   var searchUrl = "http://mobile.cc.stonybrook.edu/sb/search/?q="+queryString;
+			   var searchUrl = "http://www.stonybrook.edu/search/?q="+queryString;
 		       event.preventDefault();
 		       event.stopPropagation();
 		       inputEl.val('').focusout();
@@ -170,5 +170,12 @@ console.log('clicked audience-trigger');
 			}
 		}
 	});
+
+	/* Eco dev */
+	$('.show-center-info').click(function(event) {
+		event.preventDefault();
+		$('.center-info').slideToggle();
+		$(this).toggleClass('selected');
+	})
 
 });

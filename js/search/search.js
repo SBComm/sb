@@ -39,7 +39,7 @@ s.parentNode.insertBefore(gcse, s);
 /* people search */
 function doPeopleSearch(peopleInputVal) {
 
-    var peopleSrc      = 'http://adam.cc.sunysb.edu/acc/test-div-dirsearch.cgi';
+    var peopleSrc      = 'http://adam.cc.sunysb.edu/acc/new-dirsearch.cgi';
     var peopleQuery, peopleFrame, peopleInputVal, peopleLink;
     var defaultMessage = $('.search-default-message');
     //console.log(peopleInputVal);
@@ -88,10 +88,10 @@ $(document).ready(function() {
 
     function getSearchTarget() {
     	var searchInputValue = $('input.gsc-input').val();
-    	var searchHref = "search"; //update link;
+    	var searchHref = "http://www.stonybrook.edu/search/"; //update link;
 
     	if(searchInputValue!=null && searchInputValue!='') {
-    		searchHref += "?search="+searchInputValue;
+    		searchHref += "?q="+searchInputValue;
     	}
 
     	return searchHref;
