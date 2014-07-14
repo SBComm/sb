@@ -185,7 +185,11 @@
                         <li class="social-other-item sbu-border-bottom">
                             <div class="social-other-label-container sbu-text-shadow">Campus Residences</div>
                             <div class="social-channels-container">
-                                <a href="https://www.facebook.com/CampRes" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://www.facebook.com/stonybrook.campusresidences" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/SBUCampRes" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/channel/UCvBXKhiz-TJWRrtDh0B5ndw" target="_blank"><i class="fa fa-youtube"></i></a>
+                                <a href="http://instagram.com/sbucampres" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/groups/Campus-Residences-8116224" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
@@ -242,7 +246,7 @@
                         <li class="social-other-item sbu-border-bottom">
                             <div class="social-other-label-container sbu-text-shadow">Emergency Management</div>
                             <div class="social-channels-container">
-                                <a href="http://twitter.com/SBUBursarSA" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://twitter.com/SBUEM" target="_blank"><i class="fa fa-twitter"></i></a>
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">

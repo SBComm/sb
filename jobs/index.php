@@ -13,6 +13,7 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
+			$second_level    = 'jobs';
 			$page_title_sub  = 'Jobs';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 

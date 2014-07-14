@@ -13,7 +13,8 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$page_title_sub  = 'Jobs';
+			$second_level    = 'economic-development';
+			$page_title_sub  = 'Economic Development';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
@@ -23,8 +24,12 @@
 		    $page_to_top_link = true;
 
 		    $page_footerbar   = true;
+		    $page_footer      = true;
+
+		    $audience_nav_selected_tab = 6;
 
 		    $carousel 		  = true;
+		    $carousel_2       = true;
 		?>
 
 	<!-- <head> -->
@@ -77,7 +82,7 @@
 
 		                <!-- <economic-development> -->
 							<?php 
-								$file = "jobs.php";
+								$file = "economic-development.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </economic-development> -->
@@ -85,6 +90,10 @@
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
+		        	<?php if($page_footer) {
+						$file = "footers/eco-dev-footer.php";
+						include($path . $file);
+					} ?>
 					<?php if($page_footerbar) {
 						$file = "footerbar.php";
 						include($path . $file);

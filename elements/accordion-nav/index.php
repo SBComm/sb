@@ -86,6 +86,9 @@
 								      <section class="courses">
 								      	<h3>Executive</h3>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Dexter A. Bailey, Jr.<br />
 												Vice President<br />
@@ -94,6 +97,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Greg Duyck<br />
 												Senior Associate Vice President for Advancement<br />
@@ -102,6 +108,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 								      			Deborah Lowen-Klein<br />
 												Assistant Vice President for Advancement, Marine and Atmospheric Sciences<br />
@@ -111,6 +120,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Edward Testa<br />
 												Associate Vice President for Advancement Services<br />
@@ -120,6 +132,9 @@
 								      	</div>
 								      	<h3>Administration</h3>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Jolie Bua<br />
 												Assistant to the Senior Associate Vice President<br />
@@ -128,6 +143,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Marianne Celerin<br />
 												Administrative Assistant<br />
@@ -136,6 +154,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Katherine Hasard<br />
 												Assistant to the AVP<br />
@@ -144,6 +165,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Jeanine Maniscalco<br />
 												Executive Assistant to the VP for Advancement<br />
@@ -157,6 +181,9 @@
 								      <section class="courses">
 								      	<h3>Medicine</h3>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Danielle Holton<br />
 												Stony Brook Children's Hospital and University Hospital<br />
@@ -165,6 +192,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Kate Kaming<br />
 												Cancer Center<br />
@@ -173,6 +203,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Rachel Schnabl<br />
 												School of Dental Medicine<br />
@@ -181,6 +214,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Jennifer Fleming<br />
 												Heart Center<br />
@@ -189,6 +225,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Christina Rosa-Ragona<br />
 												Development Coordinator<br />
@@ -198,6 +237,9 @@
 								      	</div>
 								      	<h3>Administration</h3>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Victoria Irwin<br />
 												Administrative Assistant<br />
@@ -207,6 +249,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Yasemin Tansel<br />
 												Administrative Assistant<br />
@@ -216,6 +261,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Diane Van Tronk<br />
 												Administrative Assistant<br />
@@ -226,6 +274,9 @@
 								      	</div>
 								      	<h3>University</h3>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Jane MacArthur<br />
 												Arts &amp; Sciences<br />
@@ -234,6 +285,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Rob Emmerich<br />
 												Athletics<br />
@@ -242,6 +296,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Joseph Barry<br />
 												Business<br />
@@ -250,6 +307,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Dawn McBrearty<br />
 												Development Officer, CAS<br />
@@ -258,6 +318,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Diane Van Tronk<br />
 												Administrative Assistant<br />
@@ -267,6 +330,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Katie Stockhammer<br />
 												Staller Center for the Arts<br />
@@ -275,6 +341,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Alan Greene<br />
 												Engineering &amp; Applied Sciences<br />
@@ -283,6 +352,9 @@
 								      		</div>
 								      	</div>
 								      	<div class="float-left-wrapper person-wrapper equal-height-col">
+								      		<div class="img-wrapper">
+								      			<img src="http://placehold.it/100x125" />
+								      		</div>
 								      		<div class="data">
 												Sarah Abruzzi<br />
 												Turkana Basin Institute<br />

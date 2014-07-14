@@ -35,7 +35,7 @@ h3 {
     border: 1px solid #ccc;
     margin: 0 12px 15px 0;
     padding: 0 20px 0 0;
-    max-width: 400px;
+    width: 340px;
     background: #f7f7f7;
     border-radius: 3px;
     box-shadow: 0 6px 7px -4px #999;
@@ -49,5 +49,5 @@ h3 {
 .person-wrapper .data {
     font-size: 12px;
     line-height: 18px;
-    max-width: 280px;
+    max-width: 220px;
 }

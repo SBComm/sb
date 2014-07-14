@@ -1,0 +1,24 @@
+.carousel-image[data-image='01'] {
+    background-image: url("../../jobs/images/carousel-01.jpg");
+}
+
+.carousel-image[data-image='02'] {
+    background-image: url("../../jobs/images/carousel-02.jpg");
+}
+
+.carousel-image[data-image='03'] {
+    background-image: url("../../jobs/images/carousel-03.jpg");
+}
+
+.carousel-image[data-image='04'] {
+    background-image: url("../../jobs/images/carousel-04.jpg");
+}
+
+.carousel-image[data-image='05'] {
+    background-image: url("../../jobs/images/carousel-05.jpg");
+}
+
+.startup-ny {
+    max-width: 329px;
+    position: absolute;
+}

@@ -8,7 +8,7 @@
     <section>
         <div class="no-pad-wrapper border-box">
             <div class="carousel-wrapper">
-                <div id="the-carousel" class="owl-carousel">
+                <div id="the-carousel" class="owl-carousel carousel-style-01">
                     <div class="item">
                         <a href="#">
                             <div class="carousel-image" data-image="01">

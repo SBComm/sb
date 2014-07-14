@@ -90,6 +90,7 @@
 
         <?php if($page_type=='second-level') { ?>
             <link rel="stylesheet" type="text/css" href="css/second-level.css" media="all" />
+            <link rel="stylesheet" type="text/css" href="css/second-level/<?php echo $second_level; ?>.css" media="all" />
         <?php } ?>
 
         <?php if($page_type=='bulletin') { ?>

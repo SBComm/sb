@@ -50,20 +50,56 @@
 	        <script src="js/elements/owl-carousel/owl.carousel.min.js"></script>
 	        <script>
 	            $(document).ready(function() {
-	                var owl = $("#the-carousel");
+
+	                var owl = $("#the-carousel-1");
 	                owl.owlCarousel({
-	                    autoPlay: 320000,
-	                    navigation : false, // Show next and prev buttons
+	                    autoPlay: 10000,
+	                    navigation : false, // Show default next and prev buttons
 	                    slideSpeed : 300,
 	                    paginationSpeed : 400,
 	                    singleItem: true
 	                });
-	                $('.owl-prev').on('click', function() {
+	                $('.owl-prev-1').on('click', function() {
 	                    owl.trigger('owl.prev');
 	                });
-	                $('.owl-next').on('click', function() {
+	                $('.owl-next-1').on('click', function() {
 	                    owl.trigger('owl.next');
 	                });
+
+	            	<?php if($carousel_2) { ?>
+	            		var owl2 = $("#the-carousel-2");
+		                owl2.owlCarousel({
+		                	itemsCustom: [[0,1],[800,2]],
+		                    autoPlay: false,
+		                    navigation : false, // Show default next and prev buttons
+		                    slideSpeed : 1000,
+		                    paginationSpeed : 1000
+		                });
+		                $('.owl-prev-2').on('click', function() {
+		                    owl2.trigger('owl.prev');
+		                });
+		                $('.owl-next-2').on('click', function() {
+		                    owl2.trigger('owl.next');
+		                });
+		            <?php } ?>
+	                
+	            	<?php if($carousel_3) { ?>
+	            		var owl3 = $("#the-carousel-3");
+		                owl3.owlCarousel({
+		                    autoPlay: 320000,
+		                    navigation : false, // Show next and prev buttons
+		                    slideSpeed : 300,
+		                    paginationSpeed : 400,
+		                    singleItem: true
+		                });
+		                $('.owl-prev-3').on('click', function() {
+		                    owl3.trigger('owl.prev');
+		                });
+		                $('.owl-next-3').on('click', function() {
+		                    owl3.trigger('owl.next');
+		                });
+		            <?php } ?>
+
 	            });
 	        </script>
         <?php } ?>
@@ -80,7 +116,7 @@
 		<script type="text/javascript">
 		    //<![CDATA[
 				$(".site-name").fitText({ minFontSize: '20px', maxFontSize: '27px' });
-				$(".page-title h1").fitText(1, { minFontSize: '20px', maxFontSize: '46px' });
+				$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '46px' });
 		    //]]>
 		</script>
 		<script src="js/vendor/selectivizr-min.js"></script>
@@ -160,6 +196,19 @@
 
         <?php if($page_type=='search') { ?>
 	        <script type="text/javascript" src="js/search/search.js"></script>
+        <?php } ?>
+
+        <?php if($page_type=='second-level' && $second_level=='economic-development') { ?>
+			<script type="text/javascript">
+				$(window).load(function() {
+					equalheight('.numbers-wrapper .owl-item');
+					equalheight('footer.site-footer .equal-col');
+			   	});
+			   	$(window).resize(function(){
+					equalheight('.numbers-wrapper .owl-item');
+					equalheight('footer.site-footer .equal-col');
+			   	});
+			</script>
         <?php } ?>
         <!-- END Page Specific Includes -->
 

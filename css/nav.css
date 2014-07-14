@@ -772,7 +772,7 @@
 	.dropdown-nav[data-selected-tab="4"] ul li[data-value="4"] a,
 	.dropdown-nav[data-selected-tab="5"] ul li[data-value="5"] a,
 	.dropdown-nav[data-selected-tab="6"] ul li[data-value="6"] a {
-		background-color: #eee !important;
+		background-color: #900 !important;
 		color: #a00;
 	}
 	.dropdown-nav[data-selected-tab="1"] ul li[data-value="1"] a:before,
@@ -781,9 +781,9 @@
 	.dropdown-nav[data-selected-tab="4"] ul li[data-value="4"] a:before,
 	.dropdown-nav[data-selected-tab="5"] ul li[data-value="5"] a:before,
 	.dropdown-nav[data-selected-tab="6"] ul li[data-value="6"] a:before {
-		color: #a00;
+		color: #fff;
 	}
-
+/*
 	.dropdown-nav[data-selected-tab="1"] ul:hover li[data-value="1"] a,
 	.dropdown-nav[data-selected-tab="2"] ul:hover li[data-value="2"] a,
 	.dropdown-nav[data-selected-tab="3"] ul:hover li[data-value="3"] a,
@@ -809,7 +809,7 @@
 	.dropdown-nav[data-selected-tab="5"] ul:hover li[data-value="5"] a:hover,
 	.dropdown-nav[data-selected-tab="6"] ul:hover li[data-value="6"] a:hover {
 		background-color: #eee !important;
-		color: #a00;
+		color: #a00 !important;
 	}
 	.dropdown-nav[data-selected-tab="1"] ul:hover li[data-value="1"] a:hover:before,
 	.dropdown-nav[data-selected-tab="2"] ul:hover li[data-value="2"] a:hover:before,
@@ -819,7 +819,7 @@
 	.dropdown-nav[data-selected-tab="6"] ul:hover li[data-value="6"] a:hover:before {
 		color: #a00;
 	}
-
+*/
 
 
 	.cd-dropdown ul li a {

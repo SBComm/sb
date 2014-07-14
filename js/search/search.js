@@ -26,7 +26,7 @@ if(siteToSearch!=null &&siteToSearch!=0 &&siteToSearch!='') {
 
 /* Google Custom Search init */
 (function() {
-var cx = '005124310102344715141:zer6ki_efgi';
+var cx = '005124310102344715141:3nlcacoyxzc';
 var gcse = document.createElement('script');
 gcse.type = 'text/javascript';
 gcse.async = true;

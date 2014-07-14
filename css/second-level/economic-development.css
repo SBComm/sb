@@ -1,0 +1,530 @@
+.carousel-wrapper {
+    padding-bottom: 10px;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 20px;
+}
+
+.carousel-image[data-image='01'] {
+    background-image: url("../../economic-development/images/carousel-01.jpg");
+}
+
+.carousel-image[data-image='02'] {
+    background-image: url("../../economic-development/images/carousel-02.jpg");
+}
+
+.carousel-image[data-image='03'] {
+    background-image: url("../../economic-development/images/carousel-03.jpg");
+}
+
+.title-link-box-wrapper {
+    background: #fff;
+}
+
+.startup-ny {
+    width: 80%;
+    max-width: 329px;
+    margin: 30px auto 0;
+    display: block;
+    position: relative;
+}
+
+img.university-advantage {
+    display: none;
+    visibility: hidden;
+}
+
+.position-title {
+    font-size: 1em;
+    display: block;
+    line-height: 1.2em;
+    margin: 2px 0 3px
+}
+
+img.bio {
+    float: left;
+    display: inline-block;
+    margin: 0 10px 4px 0;
+    width: 135px;
+}
+
+a.startup-ny-thumb {
+    border-radius: 10px;
+    display: block;
+    max-height: 350px;
+    clear: both;
+    overflow: hidden;
+    margin: 0 0 10px
+}
+
+.startup-ny-thumb img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-box .more-buton {
+    display: block;
+    clear: both;
+}
+
+section.lightbulb-wrapper {
+    background: #000;
+    color: #fff;
+}
+
+.lightbulb-wrapper h2 {
+    text-align: center;
+}
+
+.lightbulb-wrapper .text {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.lightbulb-wrapper p {
+    font-family:'Trade Gothic W01 Light';
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.lightbulb-wrapper strong,
+.lightbulb-wrapper strong a,
+.lightbulb-wrapper strong a:active,
+.lightbulb-wrapper strong a:visited {
+    color: #6ec0f3;
+    font-weight: normal;
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+.lightbulb-wrapper strong a {
+    text-decoration: underline;
+}
+
+.lightbulb-wrapper img {
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 336px;
+    display: block;
+    padding: 0 0 0 6px;
+}
+
+section.resources-wrapper {
+    background-image: url("../../economic-development/images/sb-landscape.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 20%;
+    padding-top: 70px;
+}
+
+.resources-wrapper .white-fade-bottom {
+    padding-bottom: 50px;
+}
+
+.resources-wrapper .cat {
+    display: block;
+    margin: 0 0 35px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 3px rgba(255,255,255,.4);
+}
+
+.resources-wrapper .col {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.resources-wrapper a {
+    display: block;
+    font-family: 'Trade Gothic Next W01';
+    width: auto;
+    margin: 0 0 12px 0;
+    padding: 0;
+    height: auto;
+    font-size: 1.1em;
+    color: #111;
+    text-decoration: underline;
+}
+.resources-wrapper .star-link:hover,
+.resources-wrapper .star-link.selected,
+.resources-wrapper a.selected, 
+.resources-wrapper a:hover {
+    background: transparent;
+    color: #900;
+}
+.resources-wrapper .star-link {
+    display: block;
+    cursor: pointer;
+}
+.resources-wrapper .indent,
+.resources-wrapper a.indent {
+    font-family:'CenturySchoolbookW01-It 927458';
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+.resources-wrapper .indent:before,
+.resources-wrapper a.indent:before {
+    display: inline-block;
+    content: "\f005";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: .7em;
+    margin: 0 6px 0;
+}
+
+.resources-wrapper .center-info {
+    font-family:'Trade Gothic W01 Light';
+    font-size: 1em;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0 0 30px 0;
+    display: none;
+    clear: both;
+    width: 100%;
+}
+
+.numbers-wrapper h2 {
+    text-align: center;
+    color: #fff;
+    width: auto;
+    border-bottom: 1px solid #fff;
+    padding: 0 0 20px;
+    margin: 0 10% 50px;
+    font-size: 1.6em;
+}
+
+.numbers-wrapper h2 span {
+    font-size: 1.3em;
+    display: block;
+    margin: 8px 0 0;
+}
+
+.numbers-wrapper .item {
+    padding: 0 15%;
+    text-align: center;
+    height: auto;
+}
+
+.numbers-wrapper .owl-item {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #eee;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.numbers-wrapper .owl-item:first-child {
+    border-left: 1px solid #fff;
+}
+
+.numbers-wrapper .owl-next,
+.numbers-wrapper .owl-prev {
+    top: 40%;
+}
+
+.numbers-wrapper .owl-next em,
+.numbers-wrapper .owl-prev em {
+    text-shadow: 0 -1px 0 #900, 0 1px 0 #900, 1px 0 0 #900, -1px 0 0 #900;
+}
+
+.numbers-wrapper .owl-next:hover,
+.numbers-wrapper .owl-prev:hover {
+    box-shadow: none;
+    background: rgba(0,0,0,.3);
+}
+
+.numbers-wrapper .icon {
+    margin: 0 auto;
+    max-width: 110px;
+    display: block;
+}
+
+.numbers-wrapper p {
+    font-weight: normal;
+    font-family: 'Trade Gothic W01 Light';
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin: 0;
+    color: #fff;
+}
+
+.numbers-wrapper p .steel-blue {
+    font-weight: normal;
+    font-family: 'Trade Gothic Next W01';
+}
+
+.numbers-wrapper a {
+    background: #910000;
+    text-decoration: none;
+    border-radius: 3px;
+    padding-bottom: 5px;
+}
+
+.numbers-wrapper p em {
+    font-weight: normal;
+    font-family:'TradeGothicNextW02-Ligh 694374';
+    font-style: normal;
+}
+
+.numbers-wrapper p strong {
+    font-weight: normal;
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+}
+
+.numbers-wrapper p strong.small {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    display: block;
+    letter-spacing: -0.015em;
+}
+
+.numbers-wrapper p strong.med {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-weight: normal;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    display: block;
+    letter-spacing: -0.015em;
+}
+
+.numbers-wrapper p strong.large {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-weight: normal;
+    font-size: 2.6em;
+    line-height: 1.2em;
+    display: block;
+    letter-spacing: -0.015em;
+}
+
+.promo-box-wrapper {
+    margin: 40px 0;
+}
+
+.promo-box-wrapper a.bnl {
+    background-image: url('../../img/buildings/bnl.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 30%;
+}
+
+.promo-box-wrapper a.cewit {
+    background-image: url('../../img/buildings/cewit.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 80%;
+}
+
+.promo-box-wrapper a.aertc {
+    background-image: url('../../img/buildings/aertc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a .external-link {
+    padding-left: 16px;
+}
+
+.promo-box-wrapper a .external-link:after {
+    content: " ";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    width: 12px;
+    margin-left: 4px;
+}
+
+.promo-box-wrapper a:hover .external-link:after {
+    content: "\f08e";
+}
+
+
+@media only screen and (min-width: 480px) {
+    .numbers-wrapper .item {
+        padding: 0 10%;
+    }
+    .numbers-wrapper h2 {
+        margin: 0 auto 50px;
+        padding: 0 0 30px;
+        width: 80%;
+    }
+    .numbers-wrapper p {
+        font-size: 2.3em;
+        line-height: 1.6em;
+    }
+    .numbers-wrapper p strong.med {
+        font-size: 1.8em;
+        line-height: 1.2em;
+        letter-spacing: -0.015em;
+    }
+    .numbers-wrapper p strong.large {
+        font-size: 3em;
+        line-height: 1em;
+        letter-spacing: -0.015em
+    }
+}
+
+@media only screen and (min-width: 560px) {
+    .overview-box a.more-button {
+        display: inline-block;
+        width: 50%;
+        font-family: 'Trade Gothic Next W01';
+        font-size: 1em;
+        background: transparent;
+        color: #900;
+        border: 0 none;
+        box-shadow: none;
+        width: auto;
+        text-align: left;
+        padding: 0;
+        margin: 0 0 0 4px;
+        text-decoration: underline;
+    }
+    .overview-box a.more-button:after {
+        display: none;
+    }
+    .lightbulb-wrapper p {
+        font-size: 1.3em;
+        line-height: 1.7em;
+    }
+
+    .numbers-wrapper h2 {
+        font-size: 2em;
+    }
+
+    .promo-box-wrapper {
+        margin: 60px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .startup-ny {
+        margin: 14px 16px;
+        float: right;
+    }
+    .numbers-wrapper .item {
+        padding: 0 7.5%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    img.bio {
+        width: 86px;
+    }
+    img.university-advantage {
+        visibility: visible;
+        display: block;
+        width: 90%;
+        margin: 5%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .title-link-box-1 h2,
+    .title-link-box-1 h3 {
+        margin-left: 20px;
+    }
+    .title-link-box-1 {
+        border: 1px solid #900;
+    }
+    .left-link-box {
+        width: 31% !important;
+        padding-bottom: 40px;
+    }
+    .center-link-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 38% !important;
+    }
+    .right-link-box {
+        padding-left: 20px;
+        width: 31% !important;
+    }
+    .title-link-box-2 .text {
+        font-family:'Trade Gothic W01 Light';
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+    section.title-link-box-wrapper {
+        width: 96%;
+        margin: 0 auto;
+        max-width: 1022px;
+        padding-bottom: 40px;
+    }
+
+    .lightbulb-wrapper h2 {
+        font-size: 44px;
+        margin-bottom: 30px;
+    }
+
+    .lightbulb-wrapper .text {
+        display: inline-block;
+        width: 60%;
+        float: left;
+        margin-bottom: 50px;
+        margin-top: 0;
+    }
+
+    .lightbulb-wrapper p {
+        font-size: 1.4em;
+        line-height: 1.8em;
+    }
+
+    .lightbulb-wrapper img {
+        margin: 15px 0 70px;
+        width: 336px;
+        float: right;
+    }
+
+    .resources-wrapper .col {
+        float: left;
+        width: 33.333%;
+        display: inline-block;
+        padding: 0 10px 0 0;
+    }
+
+    .resources-wrapper a,
+    .resources-wrapper .indent {
+        text-align: left;
+    }
+
+    .resources-wrapper .center-info {
+        margin: 0 0 30px 23px;
+        text-align: left;
+        float: left;
+    }
+
+    .numbers-wrapper h2 {
+        font-size: 2.4em;
+        width: auto;
+    }   
+
+    .promo-box-wrapper {
+        padding: 0 15px;
+    }
+}
+@media only screen and (min-width: 1220px) {
+    .numbers-wrapper .owl-next {
+        right: -90px;
+    }
+    .numbers-wrapper .owl-prev {
+        left: -90px;
+    }
+}

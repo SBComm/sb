@@ -3,7 +3,6 @@
 .main {
     background: #fff;
 }
-
 /* Page Title */
 
 .no-space,
@@ -26,54 +25,12 @@
 
 /* Carousel */
 
+.owl-wrapper-outer {
+    background: #000;
+}
+
 .owl-carousel .owl-wrapper-outer {
     border: 1px solid #000;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.carousel-image[data-image='01'] {
-    background-image: url("../jobs/images/carousel-01.jpg");
-}
-
-.carousel-image[data-image='02'] {
-    background-image: url("../jobs/images/carousel-02.jpg");
-}
-
-.carousel-image[data-image='03'] {
-    background-image: url("../jobs/images/carousel-03.jpg");
-}
-
-.carousel-image[data-image='04'] {
-    background-image: url("../jobs/images/carousel-04.jpg");
-}
-
-.carousel-image[data-image='05'] {
-    background-image: url("../jobs/images/carousel-05.jpg");
-}
-
-.carousel-image:after {
-    background: rgba(0,0,10,0.4);
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-
-}
-
-.carousel-text {
-    position: absolute;
-    max-width: 100%;
-    color: #fff;
-    text-decoration: none;
-    text-shadow: 0 0 10px #000, 0 1px 0 #000, 0 0 3px #000;
-    font-family:'Trade Gothic W01 Light';
-    z-index: 100;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -114,13 +71,40 @@
     padding: 0 70px 0 0;
 }
 
-.carousel-title {
+/* Carousel style 1 */
+
+.carousel-style-01 .carousel-image:after {
+    background: rgba(0,0,10,0.4);
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-style-01 .carousel-text {
+    position: absolute;
+    max-width: 100%;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 10px #000, 0 1px 0 #000, 0 0 3px #000;
+    font-family:'Trade Gothic W01 Light';
+    z-index: 100;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.carousel-style-01 .carousel-title {
     font-size: 1.1em;
     line-height: 1.3em;
     width: 100%;
 }
 
-.carousel-subtitle {
+.carousel-style-01 .carousel-subtitle {
     font-size: .85em;
     text-transform: uppercase;
     line-height: 1.6em;
@@ -130,10 +114,118 @@
     padding-top: 10px;
 }
 
+/* Carousel Style 2 */
+
+.carousel-style-02 .carousel-text {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Trade Gothic W01 Light';
+    z-index: 100;
+    border-top: 1px solid #fff;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.carousel-style-02 .carousel-title {
+    display: inline-block;
+    font-size: 1.2em;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-style-02 .carousel-subtitle {
+    display: inline-block;
+    font-size: 1.1em;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0 0;
+}
+
+.carousel-style-02 .carousel-subtitle:after {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    content: "\f105";
+    margin: 0 0 0 6px;
+}
+
+.carousel-style-02 .item {
+    height: auto;
+}
+
+/* Carousel Style 3 */
+
+.carousel-style-03 .owl-wrapper-outer,
+.carousel-style-03 .owl-item {
+    background: transparent;
+    border: 0 none;
+}
+
+.carousel-style-03 ~ .owl-prev,
+.carousel-style-03 ~ .owl-next {
+    border: 0 none;
+    background: transparent;
+    font-size: 5em;
+    color: #fff;
+}
+
+/* Continue second level page styles */
+
 .small-title-1 {
     text-align: center;
     padding: 20px 0;
     margin: 25px 0;
+}
+
+/* Fonts and elements */
+
+.small-title-2,
+.medium-title-2 {
+    text-align: center;
+}
+
+h2.small-title-2 {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+h3.medium-title-2 {
+   font-size: 1.75em;
+   margin: 0 0 15px;
+}
+
+.intro-text {
+    display: block;
+    margin: 0 0 10px;
+}
+
+.intro-text strong {
+    font-weight: normal;
+    font-family: 'Trade Gothic Next W01';
+}
+
+h4 {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer */
+
+.footer-container {
+    background: #111;
 }
 
 
@@ -153,12 +245,12 @@
 
 @media only screen and (min-width: 481px) {
 
-    .carousel-title {
+    .carousel-style-01 .carousel-title {
         font-size: 1.55em;
         line-height: 1.3em;
     }
 
-    .carousel-subtitle {
+    .carousel-style-01 .carousel-subtitle {
         font-size: 1em;
         line-height: 1.6em;
     }
@@ -170,14 +262,20 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .carousel-image:after {
+    .carousel-style-01 .carousel-image:after {
         background-color: transparent;
         background-image: url("../jobs/images/carousel-fade.jpg");
         background-repeat: no-repeat;
         background-size: 120%;
     }
-    .carousel-text {
+    .carousel-style-01 .carousel-text {
         max-width: 50%;
+    }
+    .carousel-style-02 .carousel-title {
+        text-align: left;
+    }
+    .carousel-style-02 .carousel-subtitle {
+        text-align: right;
     }
     .centered {
         top: 10%;
@@ -209,7 +307,17 @@
 }
 
 @media only screen and (min-width: 960px) {
+    h2.small-title-2 {
+        font-size: 1.3em;
+        margin: 0;
+        text-align: left;
+    }
 
+    h3.medium-title-2 {
+       font-size: 1.6em;
+       margin: 0 0 15px;
+       text-align: left;
+    }
 }
 
 @media only screen and (min-width: 1022px) {
@@ -221,6 +329,38 @@
     .dual-tone-cards-1 .card span,
     .dual-tone-cards-1 .link span {
         padding: 25px 0 0 0;
+    }    
+
+    .carousel-style-02  .carousel-image {
+        height: 335px;
+    }
+
+    .carousel-style-02 .carousel-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 24px;
+        border: 1px solid #eee;
+        background: rgba(0,0,0,.7);
+        padding: 12px;
+    }
+
+    .carousel-style-02 .carousel-title {
+        display: inline-block;
+        float: left;
+        width: auto;
+        max-width: 85%;
+        font-size: 1.6em;
+    }
+
+    .carousel-style-02 .carousel-subtitle {
+        display: inline-block;
+        float: right;
+        width: auto;
+        max-width: 15%;
+        font-size: 1em;
+        margin: 9px 0 0;
     }
 
 }
@@ -229,7 +369,7 @@
 
 /* wrapper */
 
-    .carousel-text {
+    .carousel-style-01 .carousel-text {
         max-width: 40%;
     }
 

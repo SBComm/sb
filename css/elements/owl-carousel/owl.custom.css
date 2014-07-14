@@ -1,3 +1,17 @@
+.owl-carousel:before,
+.owl-carousel:after {
+    content: " ";
+    display: table;
+}
+
+.owl-carousel:after {
+    clear: both;
+}
+
+.owl-carousel {
+    *zoom: 1;
+}
+
 .owl-theme .owl-controls {
 	margin-bottom: 8px;
 }
@@ -60,6 +74,10 @@
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	box-shadow: 200px 0px 90px 0px rgba(0,0,0,.3) inset;
+}
+
+.owl-carousel .item a {
+	display: block;
 }
 
 @media only screen and (min-width: 590px) {
