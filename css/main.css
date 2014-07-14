@@ -391,7 +391,7 @@ body {
 
     .less-spacing {
         letter-spacing: -0.075em;
-}   }
+}
 
     /* Headers */
 
@@ -706,6 +706,7 @@ body {
 
     .promo-box-round-title-1:hover {
         box-shadow: 0 0 10px rgba(103, 87, 87, .2), 0 0 15px rgba(103, 87, 87, .3) inset;
+        background-size: 120% !important;
     }
 
     .promo-box-round-title-1:hover span {
