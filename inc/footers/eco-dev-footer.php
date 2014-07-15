@@ -19,7 +19,7 @@
                     		</span>
                     	</div>
                     	<div class="col col-3 social">
-                    		<h5>We're Social</h5>
+                    		<h5>We’re Social</h5>
                     		<div class="social-links">
                     			<a class="facebook-blue-bkg" href="https://www.facebook.com/stonybrooku" title="Stony Brook Facebook" target="_blank"><em class="fa fa-facebook"></em></a>
                     			<a class="youtube-red-bkg" href="https://www.youtube.com/user/sbcomm" title="Stony Brook YouTube" target="_blank"><em class="fa fa-youtube-play"></em></a>

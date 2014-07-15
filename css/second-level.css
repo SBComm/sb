@@ -207,7 +207,7 @@ h3.medium-title-2 {
 
 .intro-text {
     display: block;
-    margin: 0 0 10px;
+    margin: 0 0 25px;
 }
 
 .intro-text strong {
@@ -396,22 +396,26 @@ h4 {
 
     .owl-next,
     .owl-prev {
-        background: rgba(30,30,30,.2);
+        background: transparent;
         color: #333;
+        border: 0 none;
+        font-size: 5em;
     }
 
     .owl-next:hover,
     .owl-prev:hover {
-        background: rgba(30,30,30,.25);
+        background: rgba(30,30,30,.1);
         box-shadow: none;
     }
 
     .owl-prev {
-        left: -60px;
+        top: 130px;
+        left: -70px;
     }
 
     .owl-next {
-        right: -60px;
+        top: 130px;
+        right: -70px;
     }
 
 }

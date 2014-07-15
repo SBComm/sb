@@ -39,7 +39,7 @@ img.university-advantage {
     font-size: 1em;
     display: block;
     line-height: 1.2em;
-    margin: 2px 0 3px
+    margin: 6px 0 3px
 }
 
 img.bio {
@@ -262,7 +262,6 @@ section.resources-wrapper {
 }
 
 .numbers-wrapper a {
-    background: #910000;
     text-decoration: none;
     border-radius: 3px;
     padding-bottom: 5px;
@@ -361,7 +360,7 @@ section.resources-wrapper {
         padding: 0 10%;
     }
     .numbers-wrapper h2 {
-        margin: 0 auto 50px;
+        margin: 20px auto 50px;
         padding: 0 0 30px;
         width: 80%;
     }
@@ -418,6 +417,7 @@ section.resources-wrapper {
     .startup-ny {
         margin: 14px 16px;
         float: right;
+        width: 329px;
     }
     .numbers-wrapper .item {
         padding: 0 7.5%;
@@ -445,8 +445,9 @@ section.resources-wrapper {
         border: 1px solid #900;
     }
     .left-link-box {
-        width: 31% !important;
         padding-bottom: 40px;
+        width: 30% !important;
+        margin-right: 1% !important;
     }
     .center-link-box {
         padding-left: 20px;
@@ -461,6 +462,10 @@ section.resources-wrapper {
         font-family:'Trade Gothic W01 Light';
         font-size: 1em;
         line-height: 1.4em;
+    }
+    .title-link-box-2 h4 {
+        font-family:'Trade Gothic Next W01';
+
     }
     section.title-link-box-wrapper {
         width: 96%;

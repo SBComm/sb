@@ -80,7 +80,7 @@
                 <h2 class="red small-title-2">Featured Video:</h2>
                 <h3 class="red medium-title-2">Introducing START-UP NY</h3>
                 <a class="startup-ny-thumb video-thumb" href="http://www.livestream.com/newyorkstateofficeofthegovernor/video?clipId=pla_490f973b-8f33-4878-8712-c42f75f0ae5a" target="_blank" title="Start-Up NY Video with Governor Cuomo"><img src="economic-development/images/startup-ny-thumb.jpg" /></a>
-                <a class="more-button fa-arrow-after" href="http://www.livestream.com/newyorkstateofficeofthegovernor/folder" target="_blank" title="View more videos of NY Gov">More Videos</a>
+                <a class="more-button fa-arrow-after" href="https://www.youtube.com/user/sbcomm" target="_blank" title="View more videos">More Videos</a>
             </div>
         </div>
     </section>
@@ -90,7 +90,7 @@
             <div class="text">
                 <p>At Stony Brook, we’re all business about <strong>taking care of your business.</strong></p>
                 <p>We assist firms of all sizes and in various stages of growth, with a focus on <strong>innovation</strong> and <strong>entrepreneurship</strong>. We have the resources to help ensure the success of your business, including one of the nation’s most comprehensive suites of economic development programs, and offer you access to the <strong>knowledge</strong>, <strong>world-class facilities</strong> and <strong>human capital</strong> that only a leading university can provide.</p>
-                <p><strong><a href="http://www.stonybrook.edu/sb/impact.shtml" title="Stony Brook">Generating more than $4.65 billion annually</a></strong> in regional economic impact, Stony Brook is a crucial asset to the Long Island economy and the businesses it supports. Find out what hundreds of companies have discovered: <strong>Stony Brook University is <em>the</em> place to grow your business.</strong></p>
+                <p><strong>Generating more than $4.65 billion annually</strong> in regional economic impact, Stony Brook is a crucial asset to the Long Island economy and the businesses it supports. Find out what hundreds of companies have discovered: <strong>Stony Brook University is <em>the</em> place to grow your business.</strong></p>
             </div>
             <img class="lightbulb" src="economic-development/images/lightbulb.jpg" /></a>
         </div>

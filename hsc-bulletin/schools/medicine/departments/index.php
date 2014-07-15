@@ -12,24 +12,23 @@
 	<!-- </inc> -->
 	<!--site variables-->
 		<?php
-			$page_type       = 'second-level';
-			$second_level    = 'economic-development';
-			$page_title_sub  = 'Economic Development';
+			$page_type       = 'bulletin';
+    		$page_cat        = 'sub'; // for site tagline logo container
+			$page_title_sub  = 'Health Sciences Bulletin';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    //$og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
-		    $og_url          = 'http://www.stonybrook.edu/economic-development';
+		    $og_description  = 'Stony Brook Health Sciences Bulletin';
+		    $og_url          = 'http://www.stonybrook.edu/';
 
 		    $page_to_top_link = true;
 
 		    $page_footerbar   = true;
-		    $page_footer      = true;
 
-		    //$audience_nav_selected_tab = 6;
+		    $tabbed_nav       = true;
+    		$accordion_nav    = true;
+    		$sub_nav_selected_tab = 4;
 
-		    $carousel 		  = true;
-		    $carousel_2       = true;
 		?>
 
 	<!-- <head> -->
@@ -73,27 +72,23 @@
 		        <div class="main-nav-container">
 		        	<!-- <site-nav> -->
 						<?php 
-							include($path . $site_nav);
+							include($path . $sub_nav);
 						?>
 					<!-- </site-nav> -->
 		        </div>
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <economic-development> -->
+		                <!-- <hsc-content> -->
 							<?php 
-								$file = "economic-development.php";
-								include($path . $content . $secLv . $file);
+								$file = "dental-medicine-departments.php";
+								include($path . $content . $sites . 'hsc-bulletin/' . $file);
 							?>
-						<!-- </economic-development> -->
+						<!-- </hsc-content> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
-		        	<?php if($page_footer) {
-						$file = "footers/eco-dev-footer.php";
-						include($path . $file);
-					} ?>
 					<?php if($page_footerbar) {
 						$file = "footerbar.php";
 						include($path . $file);

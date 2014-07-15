@@ -207,7 +207,7 @@
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
-                            <div class="social-other-label-container sbu-text-shadow">Stony Brook Childen's</div>
+                            <div class="social-other-label-container sbu-text-shadow">Stony Brook Children's</div>
                             <div class="social-channels-container">
                                 <a href="http://www.facebook.com/stonybrookchildrens" target="_blank"><i class="fa fa-facebook-square"></i></a>
                                 <a href="http://www.youtube.com/user/stonybrookchildrens" target="_blank"><i class="fa fa-twitter"></i></a>
