@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <meta name="description" content="">
         <meta name="keywords" content="Stony Brook University, SUNY Stony Brook, SUNY-SB, SUNYSB, U of Stony Brook, research university, summer session, University of Stony Brook, University at Stony Brook, Stonybrook, Admissions, College, Undergraduate, Sciences, Liberal Arts, New York, Long Island">
-        <meta name="format-detection" content="telephone=no">
+        <!--<meta name="format-detection" content="telephone=no">-->
 
     <!--BEGIN Open Graph Meta Tags-->
     <!--See http://davidwalsh.name/facebook-meta-tags-->

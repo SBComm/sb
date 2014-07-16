@@ -49,7 +49,7 @@ img.bio {
     width: 135px;
 }
 
-a.startup-ny-thumb {
+a.video-thumb {
     border-radius: 10px;
     display: block;
     max-height: 350px;
@@ -58,7 +58,7 @@ a.startup-ny-thumb {
     margin: 0 0 10px
 }
 
-.startup-ny-thumb img {
+.video-thumb img {
     width: 100%;
     border-radius: 10px;
 }

@@ -67,7 +67,7 @@
                     </span>
                     <span class="text bold-text">
                         <img class="bio" src="economic-development/images/yshamash.jpg" />
-                        <h4>Yakov Shamash</h4>
+                        <h4>Yacov Shamash</h4>
                         <span class="position-title serif-italic">Vice President for Economic Development</span>
                     </span>
                     <span class="text">
@@ -79,7 +79,7 @@
             <div class="title-link-box-2 right-link-box video-box wrapper">
                 <h2 class="red small-title-2">Featured Video:</h2>
                 <h3 class="red medium-title-2">Introducing START-UP NY</h3>
-                <a class="startup-ny-thumb video-thumb" href="http://www.livestream.com/newyorkstateofficeofthegovernor/video?clipId=pla_490f973b-8f33-4878-8712-c42f75f0ae5a" target="_blank" title="Start-Up NY Video with Governor Cuomo"><img src="economic-development/images/startup-ny-thumb.jpg" /></a>
+                <a class="video-thumb" href="http://www.livestream.com/newyorkstateofficeofthegovernor/video?clipId=pla_490f973b-8f33-4878-8712-c42f75f0ae5a" target="_blank" title="Start-Up NY Video with Governor Cuomo"><img src="economic-development/images/video-thumb.jpg" /></a>
                 <a class="more-button fa-arrow-after" href="https://www.youtube.com/user/sbcomm" target="_blank" title="View more videos">More Videos</a>
             </div>
         </div>
