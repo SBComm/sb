@@ -18,7 +18,7 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    //$og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
+		    $og_description  = 'Located at 100 Engineering in Stony Brook University, this office works closely with business organizations and state and municipal economic development agencies to promote Industry-University collaboration.';
 		    $og_url          = 'http://www.stonybrook.edu/economic-development';
 
 		    $page_to_top_link = true;
@@ -126,9 +126,9 @@
 		<!-- </scripts> -->
 
 		<!-- <googleanalytics> -->
-			<?php /*
+			<?php 
 				$file = "site-analytics.php";
-				include($path . $file); */
+				include($path . $file); 
 			?>
 		<!-- </googleanalytics> -->
     </body>

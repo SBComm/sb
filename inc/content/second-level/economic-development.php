@@ -57,6 +57,7 @@
                     <a class="link-box" href="http://www.stonybrook.edu/research/vpr/r-d-park.shtml" title="Research Facilities">Access to key research facilities</a>
                     <a class="link-box" href="http://www.stonybrook.edu/commcms/sbdc/" title="Small Business Center">Small Business Development Center</a>
                 </div>
+                <a class="more-button fa-arrow-after" href="http://www.stonybrook.edu/commcms/startupny/" title="Learn about StartUp New York">About StartUp NY</a>
             </div>
             <div class="title-link-box-2 center-link-box overview-box wrapper">
                 <h2 class="red small-title-2">Where to Begin:</h2>

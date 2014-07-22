@@ -35,6 +35,11 @@ img.university-advantage {
     visibility: hidden;
 }
 
+.left-link-box .more-button {
+    width: 90%;
+    margin: 25px 5% 0;
+}
+
 .position-title {
     font-size: 1em;
     display: block;
@@ -445,9 +450,13 @@ section.resources-wrapper {
         border: 1px solid #900;
     }
     .left-link-box {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         width: 30% !important;
         margin-right: 1% !important;
+    }
+    .left-link-box .more-button {
+        width: 90%;
+        margin: 5px 5% 0;
     }
     .center-link-box {
         padding-left: 20px;
