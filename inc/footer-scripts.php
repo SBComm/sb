@@ -42,6 +42,7 @@
 		<script src="js/vendor/jquery.scrollTo.min.js"></script>
 		<script src="js/vendor/jquery.localScroll.min.js"></script>
 		<script src="js/vendor/jquery.ba-bbq.min.js"></script>
+		<script src="js/vendor/jquery.motio.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/vendor/fastclick.js"></script>
@@ -86,11 +87,11 @@
 	            	<?php if($carousel_3) { ?>
 	            		var owl3 = $("#the-carousel-3");
 		                owl3.owlCarousel({
+		                	itemsCustom: [[0,1],[480,2],[620,3],[760,4],[960,5],[1022,6]],
 		                    autoPlay: 320000,
-		                    navigation : false, // Show next and prev buttons
-		                    slideSpeed : 300,
-		                    paginationSpeed : 400,
-		                    singleItem: true
+		                    navigation : true, // Show next and prev buttons
+		                    slideSpeed : 800,
+		                    paginationSpeed : 400
 		                });
 		                $('.owl-prev-3').on('click', function() {
 		                    owl3.trigger('owl.prev');
@@ -100,6 +101,23 @@
 		                });
 		            <?php } ?>
 
+	            	<?php if($carousel_4) { ?>
+	            		var owl4 = $("#the-carousel-4");
+		                owl4.owlCarousel({
+		                    autoPlay: 60000,
+		                    navigation : false, // Show default next and prev buttons
+		                    slideSpeed : 1200,
+		                    paginationSpeed : 2000,
+		                    singleItem: true
+		                });
+		                $('.owl-prev-4').on('click', function() {
+		                    owl4.trigger('owl.prev');
+		                });
+		                $('.owl-next-4').on('click', function() {
+		                    owl4.trigger('owl.next');
+		                });
+		            <?php } ?>
+					
 	            });
 	        </script>
         <?php } ?>
@@ -114,10 +132,13 @@
 		<script src="js/vendor/placeholders.jquery.min.js"></script>
         <script src="js/vendor/jquery.fittext.js"></script>
 		<script type="text/javascript">
-		    //<![CDATA[
-				$(".site-name").fitText({ minFontSize: '20px', maxFontSize: '27px' });
-				$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '46px' });
-		    //]]>
+			$(document).ready(function() {
+			    //<![CDATA[
+					$(".site-name").fitText({ minFontSize: '20px', maxFontSize: '27px' });
+					$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '46px' });
+					$(".site-carousel h1").fitText(1, { minFontSize: '30px', maxFontSize: '100px' });
+			    //]]>
+			});
 		</script>
 		<script src="js/vendor/selectivizr-min.js"></script>
         <script src="js/vendor/iframeResizer.min.js"></script>
@@ -210,7 +231,49 @@
 			   	});
 			</script>
         <?php } ?>
+
+        <?php if($page_type=='second-level' && $second_level=='undergrad-admissions') { ?>
+			<script src="js/admissions.js"></script>
+			<script type="text/javascript">
+				$(window).load(function() {
+					equalheight('.numbers-wrapper .owl-item');
+					equalheight('.numbers-wrapper .equal-col');
+			   	});
+			   	$(window).resize(function(){
+					equalheight('.numbers-wrapper .owl-item');
+					equalheight('.numbers-wrapper .equal-col');
+			   	});
+			   	<?php if($motio==true) { ?>
+				   	$(document).ready(function() {
+						var panning = new Motio(document.getElementById('panning'), {
+						    fps: 30, // Frames per second. More fps = higher CPU load.
+						    speedX: -15 // Negative horizontal speed = panning to left.
+						});
+						panning.play(); // Start playing animation
+					});
+				<?php } ?>
+			</script>
+        <?php } ?>
+
+        <?php if($admissions_program_detail==true) { ?>
+			<script src="js/admissions/program-detail.js"></script>
+		<?php } ?>
         <!-- END Page Specific Includes -->
+
+        <!-- BEGIN Element Specific Includes -->
+        <?php if($map==true) { ?>
+			<script src="plugins/map/js/raphael.js"></script>
+			<script src="plugins/map/js/scale.raphael.js"></script>
+			<script src="plugins/map/js/paths.js"></script>
+			<script src="plugins/map/js/init.js"></script>
+        <?php } ?>
+
+        <?php if($live_filter==true) { ?>
+			<script src="js/vendor/jquery.fastLiveFilter.js"></script>
+			<script>
+				$('#live-filter-search').fastLiveFilter('#live-filter-list ul');
+			</script>
+        <?php } ?>
 
         <!-- BEGIN Element Specific Includes -->
         <?php if($accordion_nav==true) { ?>

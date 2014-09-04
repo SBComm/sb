@@ -3,7 +3,7 @@
 // 1) get the height of the above .header-container */
 
 var timeoutID;
-var searchContainer = $('.search-container');
+var searchContainer = $('.search-container.default');
 var configuredSearch = false;
 
 function setSearchPosition() {
@@ -140,7 +140,7 @@ $(document).ready(function() {
 			$(this).removeClass('focus');
 		}
 	});
-
+/*
 	$('.search-container button').on('click',function(event) {
 		var inputEl = $(this).closest('.search-container').find('input');
 		if($(inputEl).val().length == 0) {
@@ -170,12 +170,11 @@ $(document).ready(function() {
 			}
 		}
 	});
-
+*/
 	/* Eco dev */
 	$('.show-center-info').click(function(event) {
 		event.preventDefault();
 		$('.center-info').slideToggle();
 		$(this).toggleClass('selected');
 	});
-
 });

@@ -1,3 +1,8 @@
+.side-title-links-wrapper .side-title span {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0) !important;
+    filter: none !important;
+}
+
 @media only screen and (min-width: 1022px) {
     .no-pad-wrapper {
         margin: 0 auto;

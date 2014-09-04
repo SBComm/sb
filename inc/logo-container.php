@@ -13,7 +13,7 @@
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
 				            	<div class="logo"><a href="http://www.stonybrook.edu/"><img src="img/stony-brook-university-logo.jpg" /></a></div>
-				            	<h1 class="site-name serif"><?php echo $page_title_sub; ?></h1>
+				            	<h1 class="site-name serif"><a href="<?php echo $og_url; ?>"><?php echo $page_title_sub; ?></a></h1>
 				            </div>
 			            </header>
 		            </div>

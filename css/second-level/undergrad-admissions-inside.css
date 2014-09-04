@@ -1,0 +1,1557 @@
+.site-carousel.inside-header .carousel-wrapper .item,
+.site-carousel.inside-header .carousel-image,
+.full-width-banner-image .wrapper {
+    height: 150px;
+}
+
+.site-carousel.freshman-criteria .carousel-image[data-image='01'] {
+    background-image: url("../../img/students/pair-on-bench.jpg");
+    background-position: 30% 20%;
+}
+
+.site-carousel.students-walking .carousel-image[data-image='01'] {
+    background-image: url("../../img/student-life/students-walking.jpg");
+    background-position: 30% 40%;
+}
+
+.site-carousel.pano-sbu .carousel-image[data-image='01'] {
+    background-image: url("../../img/university/panorama-sbu.jpg");
+    background-position: 30% 40%;
+}
+
+.site-carousel.academics-img .carousel-image[data-image='01'] {
+    background-image: url("../../img/university/marine.jpg");
+    background-position: 30% 40%;
+}
+
+.site-carousel.students-studying .carousel-image[data-image='01'] {
+    background-image: url("../../img/students/students-studying-banner-1600.jpg");
+    background-position: 30% 40%;
+}
+
+.site-carousel.visit-img .carousel-image[data-image='01'] {
+    background-image: url("../../img/students/outdoor-lecture-banner-1600.jpg");
+    background-position: 30% 40%;
+}
+
+section.full-width-banner-image {
+    padding: 0;
+}
+
+    .baseball-field-1 {
+        background-image: url("../../img/student-life/baseball-field-01.jpg");
+        background-size: 100%;
+        background-position: 50% 40%;
+    }
+
+    .campus-living {
+        background-image: url("../../img/student-life/students-in-dorm.jpg");
+        background-size: 100%;
+        background-position: 50% 40%;
+    }
+
+    .campus-eating {
+        background-image: url("../../img/student-life/students-at-table.jpg");
+        background-size: 100%;
+        background-position: 50% 50%;
+    }
+
+    .commuting-to-campus {
+        background-image: url("../../img/student-life/students-at-fountain.jpg");
+        background-size: 100%;
+        background-position: 50% 40%;
+    }
+
+    .student-club {
+        background-image: url("../../img/student-life/student-club.jpg");
+        background-size: 100%;
+        background-position: 50% 40%;
+    }
+
+    .arts-at-sb {
+        background-image: url("../../img/student-life/autumn-tree.jpg");
+        background-size: 100%;
+        background-position: 50% 40%;
+    }
+
+    .campus-safety {
+        background-image: url("../../img/student-life/students-walking.jpg");
+        background-size: 100%;
+        background-position: 50% 40%;
+    }
+
+    .beyond-sb {
+        background-image: url("../../img/student-life/brook-leaves.jpg");
+        background-size: 100%;
+        background-position: 50% 40%;
+    }
+
+    .usa-map {
+        background-image: url("../../img/maps/usa-map-1.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 200px;
+        border-top: 15px solid #900;
+        padding: 30px 0 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .suny-korea {
+        background-image: url("../../img/university/suny-korea-768.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 537px;
+        padding: 60px 0 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+.full-width-banner-image .wrapper {
+    position: relative;
+}
+
+.full-width-banner-image h4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.7), 1px -1px 1px rgba(0,0,0,.7), -1px 1px 1px rgba(0,0,0,.7), -1px -1px 1px rgba(0,0,0,.7);
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+}
+
+.social-sidebar {
+    margin: 20px 0;
+}
+
+.social-sidebar a:hover {
+    box-shadow: 0 0 12px #ddd inset;
+}
+
+.freshman-stats {
+    background-image: url("../../img/students/staller-lawn-768.jpg");
+    background-size: cover;
+    background-position: 35% top;
+    height: 520px;
+}
+
+.freshman-stats h2 {
+    width: 90%;
+    text-align: center;
+    margin: 40px 5% 20px;
+    font-family: 'Trade Gothic W01 Bold';
+}
+
+.freshman-stats h2 em {
+    font-style: normal;
+    opacity: .5;
+}
+
+.freshman-stats .item {
+    width: 200px;
+    margin: 0 auto;
+    height: 120px;
+}
+
+.freshman-stats .item .stat,
+.freshman-stats .item .label {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.freshman-stats .item .stat {
+    font-family:'Trade Gothic W01 Cn 18';
+    color: #288a9e;
+    font-size: 3em;
+}
+
+.freshman-stats .item .label {
+    font-family: 'CenturyExpandedLTW01-Ro';
+    font-size: 1.1em;
+    text-shadow: 0 1px 2px #fff, 0 1px 5px #fff, 0 1px 10px #fff, 0 1px 15px #fff;
+}
+
+.freshman-stats .item .stat:after {
+    display: block;
+    width: 46px;
+    margin: 4px auto 12px;
+    content: " ";
+    height: 1px;
+    background: #000;
+}
+
+.freshman-stats .owl-prev,
+.freshman-stats .owl-next {
+    color: #000;
+    opacity: .75;
+    text-shadow: 0 1px 2px #fff;
+    top: 15px;
+    z-index: 100;
+}
+
+.freshman-stats .owl-prev:hover,
+.freshman-stats .owl-next:hover {
+    background: rgba(10,20,60,.15);
+    box-shadow: none;
+}
+
+.freshman-stats .subline {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0;
+    font-family:'Trade Gothic Next W01';
+    font-size: 1.1em;
+    color: #fff;
+    text-shadow: 0 1px 5px #000;
+}
+
+/* Application Details / Procedure */
+
+.application-items strong {
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal;
+}
+
+.application-items .instruction {
+    margin: 0 0 10px;
+    display: block;
+}
+
+.freshman-apply .content.application-details {
+    margin: 30px 0;
+}
+
+
+.application-items .instruction .phone,
+.application-items .instruction .address {
+    display: block;
+    margin: 10px 0;
+}
+
+/* international */
+
+.international .check-button {
+    box-shadow: 3px 3px 7px #999;
+}
+
+.international.student-body {
+    padding: 40px 0 0;
+}
+
+.international.student-body ul {
+    margin: 0 0 20px;
+}
+
+.international.student-body .note {
+    display: block;
+    width: 100%;
+    font-family:'Trade Gothic Next W01';
+    text-align: center;
+    margin: 0 0 40px;
+    font-size: 1.05em;
+    color: #900;
+}
+
+
+.suny-callout {
+    display: block;
+    width: 272px;
+    height: 420px;
+    border: 3px solid #900;
+    background: rgba(255,255,255,.85);
+    box-shadow: 3px 3px 20px #555;
+    padding: 20px 25px;
+    color: #111;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.suny-callout .logo {
+    display: block;
+    padding: 10px 0 35px;
+    margin: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.suny-callout p {
+    display: block;
+    margin: 0;
+    font-family: 'Trade Gothic W01 Light';
+    font-family:'TradeGothicNextW01-Ligh 693250';
+    font-size: 1.15em;
+    line-height: 1.6em;
+}
+
+/* Counselors */
+
+.counselor-container {
+    position: relative;
+}
+
+.counselor-container .button-wrapper {
+    position: absolute;
+    top: 100px;
+}
+
+.counselor-container .all-btn {
+    right: 0;
+}
+
+.counselor-container .intl-btn {
+    right: 200px;
+}
+
+.counselor-container .profile-info-wrapper {
+    background: #900;
+    border-top: 2px solid #fff;
+    color: #fff;
+    display: block;
+    padding: 14px 12px;
+}
+
+.counselor-container .profile-info-wrapper span {
+    font-family:'TradeGothicNextW01-Ligh 693250';
+    display: block;
+    line-height: 1.5em;
+}
+
+.counselor-container .profile-info-wrapper span em {
+    font-style: normal;
+}
+
+.counselor-container .profile-info-wrapper .name,
+.counselor-container .profile-info-wrapper .territory,
+.counselor-container .profile-info-wrapper .email  {
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal;
+    letter-spacing: .01em;
+}
+
+.counselor-container .profile-info-wrapper .title,
+.counselor-container .profile-info-wrapper .location  {
+    margin: 0 0 8px;
+}
+
+.counselor-container .profile-info-wrapper .title {
+    font-family:'TradeGothicNextW02-Ligh 694374';
+}
+
+.counselor-container .profile-info-wrapper .territory  {
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+.counselor-list .person-info {
+    height: 100px;
+
+}
+
+.counselor-list img {
+    display: block;
+    margin: 0 0 10px;
+    border-bottom: 10px solid #900;
+}
+
+.counselor-list li {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 30px;
+}
+
+.counselor-list a {
+    color: #000 !important;
+    text-align: center;
+}
+
+.counselor-list a span {
+    display: block;
+    font-size: 1.1em;
+    margin: 0 0 4px;
+}
+
+.counselor-list .person-info .name {
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+.counselor-list .person-info .title {
+    font-family:'TradeGothicNextW02-Ligh 694374';
+}
+
+.counselor-list .person-info .title:after {
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: #000;
+    content: " ";
+    margin: 9px auto 6px;
+}
+
+.counselor-list .person-info .location {
+    font-family:'TradeGothicNextW01-Ligh 693250';
+}
+
+.counselors-back-link .icon {
+    margin: 0 6px 0 0;
+}
+
+/*cost and aid*/
+
+section.cost-and-aid {
+    padding: 0;
+}
+
+.costs-stat-bar {
+    padding: 40px 0;
+}
+
+
+.net-price-wrapper {
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('../../img/misc/calculator-tilt-right.png') 50% 50% no-repeat transparent;
+}
+
+.net-price-container {
+    display: block;
+    background: rgba(153, 0, 0, .8);
+    width: 100%;
+    border-radius: 15px;
+}
+
+.net-price-container .label {
+    color: #fff;
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-size: 1.6em;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, .45);
+}
+
+.net-stat-wrapper {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 30px 0 0 0;
+}
+
+.net-stat-wrapper img {
+    display: block;
+    width: 110px;
+    height: 95px;
+    margin: 0 auto 10px;
+}
+
+.net-stat-wrapper .label {
+    display: inline-block;
+    float: left;
+    line-height: 1.6em;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+}
+
+.net-stat-wrapper .stat-text {
+    color: #fff;
+    font-family:'TradeGothicNextW01-Ligh 693250';
+}
+
+.net-stat-wrapper .stat {
+    color: #47c2c8;
+    font-family:'TradeGothicNextW01-Ligh 693250';
+    font-family: 'Trade Gothic W01 Bold 2';
+    display: block;
+    font-size: 1.2em;
+}
+
+section.cost-of-attendance {
+    background: url("../../img/students/graduation-768.jpg") 0 bottom no-repeat #dadde6;
+    background-size: 100%;
+    height: 1030px;
+    padding: 30px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section.cost-of-attendance .amount,
+section.cost-comparison .amount {
+    display: inline-block;
+}
+
+section.cost-of-attendance .amount:before,
+section.cost-comparison .amount:before {
+    display: inline-block;
+    content: "$";
+    margin-right: 2px;
+
+}
+
+.cost-of-attendance h3 {
+    border-bottom: 0 none;
+    margin-bottom: 10px;
+}
+
+.cost-of-attendance h4 {
+    font-family: 'Trade Gothic W01 Bold 2';
+    color: #000;
+    font-size: 1em;
+    margin: 4px 0 0 4px;
+}
+
+.cost-stats {
+    border: 2px solid #bbb;
+    padding: 8px 8px 18px;
+    background: #dadde6;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cost-stats .responsive-table {
+    margin: 10px 0 0;
+}
+
+.cost-stats .responsive-table,
+.cost-stats .responsive-table td,
+.cost-stats .responsive-table th {
+    border: 0 none;
+    background: transparent;
+    color: #000;
+    font-size: .95em;
+}
+
+.cost-stats .responsive-table th.label {
+    font-family: 'TradeGothicNextW01-Bold 693235';
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #900;
+}
+
+.cost-stats .responsive-table th.label .note {
+    text-transform: none;
+    font-family:'TradeGothicNextW02-Ital';
+    font-size: .95em;
+    display: inline-block;
+    margin: 0 0 0 3px;
+}
+
+.cost-stats .responsive-table td.label {
+    color: #000;
+    text-transform: uppercase;
+    width: 45%;
+}
+
+.cost-stats .responsive-table th {
+    border-bottom: 1px solid #900;
+}
+
+.cost-stats .responsive-table td {
+    border-bottom: 1px solid #900;
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+.cost-notes.content {
+    border: 2px solid #bbb;
+    padding: 12px;
+    background: #dadde6;
+    margin-top: 0;
+    border-top: 0 none;
+    font-size: .8em;
+}
+
+section.cost-comparison {
+    padding: 60px 0 70px;
+}
+
+section.cost-comparison h3 {
+    color: #fff;
+    text-align: center;
+    border-bottom: 0 none;
+    margin: 0 0 10px;
+}
+
+.cost-comparison {
+    
+}
+
+.cost-comparison .comparison-table-wrapper {
+    background: #ccc;
+    border: 2px solid #424242;
+    border-bottom: 0 none;
+}
+
+.cost-comparison .responsive-table th {
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-size: 1em;
+    font-weight: normal;
+    color: #000;
+    background: transparent;
+    border: 0 none;
+    padding: 10px 5px;
+}
+
+.cost-comparison .responsive-table th.label.first {
+    padding: 10px 0 10px 10px;
+}
+
+.cost-comparison .responsive-table th .note {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+}
+
+.cost-comparison .responsive-table td {
+    font-family: 'Trade Gothic W01 Light';
+    font-size: 1em;
+    font-weight: normal;
+    color: #000;
+    background: transparent;
+    border: 0 none;
+}
+
+.cost-comparison .responsive-table tr.sb-red td {
+    font-family: 'Trade Gothic W01 Bold 2';
+    color: #900;
+}
+
+.cost-comparison .responsive-table tr.bottom-border {
+    border-bottom: 2px solid #424242;
+}
+
+.cost-comparison .responsive-table td.label {
+    padding: 10px 0 10px 10px;
+}
+
+.cost-comparison .responsive-table td,
+.cost-comparison .responsive-table th.label {
+    width: 30%;
+}
+
+.cost-comparison .responsive-table td.label,
+.cost-comparison .responsive-table th.label.first {
+    width: 40%;
+}
+
+.cost-comparison .responsive-table tr:nth-child(even) {
+    background: #fff;
+}
+
+.cost-comparison .view-more {
+    width: 100%;
+    background: #ccc;
+    color: #900;
+    font-family: 'Trade Gothic W01 Bold 2';
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: .9em;
+    border-bottom: 2px solid #424242;
+    position: relative;
+}
+
+.cost-comparison .view-more:hover,
+.cost-comparison .view-more:hover .view-more-arrow .icon {
+    background: #ddd;
+    color: #a00;
+}
+
+.cost-comparison .view-more-arrow {
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 70px;
+    height: 34px;
+    bottom: -34px;
+}
+
+.cost-comparison .view-more-arrow .icon {
+    display: block;
+    width: 100%;
+    background: #ccc;
+    margin-left: -50%;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #424242;
+    border-top: 0 none;
+    font-size: 2.6em;
+    line-height: .5em;
+    border-radius: 0 0 80px 80px;
+}
+
+section.fin-aid-stats {
+    padding: 60px 0 10px;
+}
+
+.fin-aid-stats h3 {
+    margin: 0;
+    border-bottom: 0 none;
+    text-align: center;
+}
+
+.fin-aid-stats .note {
+    font-family: 'Trade Gothic W01 Light';
+    color: #f3f3f3;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.fin-aid-stats li {
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    margin: 20px 0 10px;
+    padding: 20px 0;
+    font-size: 2em;
+    font-family: 'Trade Gothic W01 Light';
+    border-bottom: 1px solid #47c2c8;
+    width: 260px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fin-aid-stats li:last-child {
+    border-bottom: 0 none;
+}
+
+.fin-aid-stats .stat {
+    font-family: 'Trade Gothic W01 Bold 2';
+    color: #47c2c8;
+    display: block;
+    margin-top: 3px;
+}
+
+.fin-aid-stats .nowrap {
+    display: block;
+}
+
+section.student-loan-rates {
+    padding: 60px 0 100px;
+}
+
+.student-loan-rates h3 {
+    width: 85%;
+    margin: 0 7.5%;
+    text-align: center;
+    padding: 0 0 40px;
+    border-bottom: 1px solid #000;
+}
+
+.student-loan-rates ul {
+    display: block;
+    margin: 30px 0 0;
+    border-bottom: 1px solid #000;
+}
+
+.student-loan-rates ul:last-child {
+    border: 0 none;
+}
+
+.student-loan-rates li {
+    font-family: 'Trade Gothic W01 Light';
+    width: 100%;
+    text-align: center;
+}
+
+.student-loan-rates li.label {
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-size: 2em;
+    color: #900;
+}
+
+.student-loan-rates li.label .note {
+    font-family: 'Trade Gothic W01 Light';
+    font-size: .7em;
+}
+
+.student-loan-rates ul.light li.usa {
+    background: url('../../img/icons/red-usa.jpg') 50% 50% no-repeat transparent;
+}
+
+.student-loan-rates ul.dark li.usa {
+    background: url('../../img/icons/dark-red-usa.jpg') 50% 50% no-repeat transparent;
+}
+
+.student-loan-rates ul.light li.newyork {
+    background: url('../../img/icons/red-new-york.jpg') 50% 50% no-repeat transparent;
+}
+
+.student-loan-rates ul.dark li.newyork {
+    background: url('../../img/icons/dark-red-new-york.jpg') 50% 50% no-repeat transparent;
+}
+
+.student-loan-rates ul.light li.shield {
+    background: url('../../img/icons/red-shield.jpg') 50% 50% no-repeat transparent;
+}
+
+.student-loan-rates ul.dark li.shield {
+    background: url('../../img/icons/dark-red-shield.jpg') 50% 50% no-repeat transparent;
+}
+
+.student-loan-rates ul.light li.usa,
+.student-loan-rates ul.dark li.usa,
+.student-loan-rates ul.light li.newyork,
+.student-loan-rates ul.dark li.newyork {
+    background-size: 100%;
+}
+
+.student-loan-rates ul li.usa,
+.student-loan-rates ul li.newyork,
+.student-loan-rates ul li.shield {
+    height: 280px;
+}
+
+.student-loan-rates ul li .stat {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    display: block;
+    font-size: 3em;
+    color: #fff;
+}
+
+.student-loan-rates ul li.usa .stat {
+    margin: 110px 0 0;
+}
+
+.student-loan-rates ul li.newyork .stat {
+    margin: 110px 0 0 30px;
+}
+
+.student-loan-rates ul li.shield .stat {
+    margin: 80px 0 0;
+}
+
+.student-loan-rates ul li .label {
+    color: #fff;
+    font-size: 1.5em;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.majors-minors {
+
+}
+
+section.majors-minors .major,
+section.majors-minors .minor {
+    text-align: center;
+    font-size: .7em;
+    line-height: 1;
+    padding: 2px 3px 2px 2px;
+}
+
+section.majors-minors .major {
+    padding: 2px 3px 2px 2px;
+}
+
+section.majors-minors .minor {
+    font-size: .7em;
+    padding: 2px 3px 3px 3px;
+}
+
+.majors-minors .key {
+
+}
+
+.majors-minors .key .key-item {
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+
+.majors-minors #live-filter-search {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.three-col-list-wrapper {
+    margin: 15px 0 0;
+}
+
+ul.three-col-list {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.three-col-list li {
+    border-top: 1px solid #ccc;
+    display: block;
+    position: relative;
+    padding: 8px 0;
+}
+
+.three-col-list li a {
+    display: inline-block;
+    width: 85%;
+}
+
+.three-col-list li .major,
+.three-col-list li .minor {
+    position: absolute;
+}
+
+.three-col-list li .major {
+    right: 20px;
+    top: 10px;
+}
+
+.three-col-list li .minor {
+    right: 2px;
+    top: 10px;
+}
+
+.three-col-list li ul {
+    margin: 4px 0 0 15px;
+    padding: 0;
+}
+
+.three-col-list li li {
+    border: 0 none;
+    font-size: .85em;
+    padding: 0;
+    color: #555
+}
+
+.visit-content .tour-btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section.program-details {
+
+}
+
+.program-details .program-nav {
+    margin: 0 0 30px;
+    display: block;
+}
+
+.program-details .program-nav a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 5px 4px 2px;
+    margin: 3px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    display: block;
+    text-align: center;
+
+    background: #ddd;
+    color: #000;
+    border: 1px solid #aaa;
+}
+
+.program-details .program-nav a:before {
+    display: inline-block;
+    margin: 0 8px 0 3px;
+    content: "\f0da";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: .9em;
+}
+
+.program-details .program-nav a.active:before {
+    content: "\f0d7";
+    margin: 0 10px 0 0px;
+}
+
+.program-details .program-nav a .fa {
+    display: inline-block;
+    margin: 0 0 0 4px;
+}
+
+.program-details .program-nav a.active,
+.program-details .program-nav a:hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.program-details .description img {
+    width: 225px;
+    margin: 0 auto 20px;
+    display: block;
+}
+.program-details h3 {
+    margin: 0px 0 10px;
+    padding: 0 0 10px;
+}
+
+.program-details .program-content h2,
+.program-details .program-content h3 {
+    font-family: 'Trade Gothic W01 Light' !important;
+    font-size: 1.3em !important;
+    margin: 10px 0 0 !important;
+    display: block !important;
+    color: #555 !important;
+    text-transform: capitalize !important;
+}
+
+.program-details .program-content {
+    overflow: auto;
+}
+
+.campus-interactive-map,
+.campus-google-map {
+    width: 100%;
+    margin: 0;
+    height: 400px;
+}
+
+.admissions-group-form {
+    width: 100%;
+    height: 1980px;
+}
+
+/* apply button */
+
+.apply-button {
+    margin: 30px auto;
+    width: 195px;
+    background-color: #fff;
+    color: #900;
+}
+
+.how-to-apply {
+    width: 225px;
+}
+
+
+@media only screen and (min-width: 360px) {
+    .student-loan-rates ul.light li.usa,
+    .student-loan-rates ul.dark li.usa,
+    .student-loan-rates ul.light li.newyork,
+    .student-loan-rates ul.dark li.newyork {
+        background-size: auto;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .site-carousel.inside-header .carousel-wrapper .item,
+    .site-carousel.inside-header .carousel-image {
+        height: 200px;
+    }
+
+    .freshman-stats .item {
+        width: auto;
+        border-right: 2px dotted #900;
+    }
+
+    .freshman-stats .item.first {
+        border-left: 2px dotted #900;
+    }
+
+    .student-loan-rates li.label {
+        font-size: 2.5em;
+    }
+
+    .admissions-group-form {
+        width: 100%;
+        height: 1700px;
+    }
+}
+
+@media only screen and (min-width: 560px) {
+
+    .freshman-stats {
+        height: 400px;
+    }
+
+    .counselor-container .profile-image {
+        position: relative;
+    }
+
+    .counselor-container .profile-info-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        border-top: 0 none;
+        padding: 8% 20px 0 25px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 185px;
+        background: rgba(153, 0, 0, .85);
+    }
+
+    .counselor-container .profile-info-wrapper.fix-right {
+        left: auto;
+        right: 0;
+    }
+
+    .counselor-container .profile-info {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding: 8% 0 9%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .site-carousel.inside-header .carousel-wrapper .item,
+    .site-carousel.inside-header .carousel-image {
+        height: 250px;
+    }
+
+    .full-width-banner-image .wrapper {
+        height: 200px;
+    }
+
+    .freshman-stats {
+        background-image: url("../../img/students/staller-lawn-1600.jpg");
+        background-size: cover;
+        height: 600px;
+    }
+
+    .freshman-stats h2 {
+        font-size: 3em;
+    }
+
+    .freshman-stats .item .stat {
+        font-size: 2.6em;
+    }
+
+    .freshman-stats .item .label {
+        font-family: 'CenturyExpandedLTW01-Ro';
+        font-size: 1em;
+    }
+
+    .freshman-stats .subline {
+        color: #900;
+        text-shadow: 0 1px 5px #fff;
+    }
+
+    .application-details h4 {
+        float: left;
+        display: inline-block;
+    }
+
+    .application-details img {
+        float: right;
+        display: inline-block;
+        width: 30%;
+    }
+
+    .application-details table {
+        float: left;
+        display: inline-block;
+        width: 70%;
+    }
+
+    .apply-button-right {
+        float: right;
+        margin-right: 1%;
+        margin-top: 20px;
+    }
+
+    .suny-korea {
+        background-image: url("../../img/university/suny-korea-1600.jpg");
+        background-position: 50% 67%;
+    }
+
+    .suny-korea .suny-callout {
+        float: left;
+        margin: 0;
+    }
+
+    .counselor-container .profile-info-wrapper {
+        padding: 80px 35px 0 35px;
+        width: 255px;
+    }
+
+    .counselor-container .profile-info {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding: 8% 0 9%;
+    }
+
+    .counselor-container .profile-info-wrapper span {
+        font-size: 1.2em;
+    }
+
+    .counselor-container .profile-info-wrapper .title,
+    .counselor-container .profile-info-wrapper .location  {
+        font-size: 1.15em;
+    }
+
+    .counselor-container .profile-info-wrapper .territory  {
+        text-transform: uppercase;
+        font-size: 1.10em;
+    }
+
+    .counselor-list li {
+        width: 47%;
+        float: left;
+        margin: 0 1.5% 40px;
+    }
+
+    .counselor-list a span {
+        display: block;
+        font-size: 1.2em;
+        margin: 0 0 4px;
+    }
+
+    .net-price-wrapper {
+        float: left;
+        width: 24%;
+        margin: 0 7% 0 0;
+        background: url('../../img/misc/calculator-tilt-right.png') 30% 30% no-repeat transparent;
+        background-size: 88%;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .net-price-wrapper:hover {
+        background-size: 98%;
+    }
+
+    .net-price-container .label {
+        font-size: 2em;
+        margin: 30px 0;
+    }
+
+    .net-price-container .label span {
+        display: block;
+        font-size: .925em;
+    }
+
+    .net-stat-wrapper {
+        width: 69%;
+        margin: 0 0 0 0%;
+        float: left;
+    }
+
+    .net-stat-wrapper img,
+    .net-stat-wrapper .label {
+        display: inline-block;
+        float: left;
+        margin: 0;
+        width: auto;
+    }
+
+    .net-stat-wrapper img {
+        display: block;
+        width: 150px;
+        height: 130px;
+        margin: 0 auto 10px;
+    }
+
+    .net-stat-wrapper .label {
+        font-size: 1.6em;
+        padding-top: 10px;
+    }
+
+    .net-stat-wrapper .label .stat {
+        font-size: 1.1em;
+    }
+
+    section.cost-of-attendance {
+        background: url("../../img/students/graduation-1600.jpg") 0 bottom no-repeat #dadde6;
+        background-size: 100%;
+        height: 920px;
+    }
+
+    .cost-comparison .comparison-table-wrapper {
+        font-size: 1.2em;
+    }
+
+    .cost-comparison .responsive-table td.label,
+    .cost-comparison .responsive-table th.label.first {
+        padding: 10px 0 10px 30px;
+    }
+
+    .cost-comparison .responsive-table th,
+    .cost-comparison .responsive-table th.label.first {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 90px;
+    }
+
+    .cost-comparison .responsive-table th .note {
+        position: static;
+        top: auto;
+        left: auto;
+    }
+
+    section.fin-aid-stats {
+        padding: 60px 0 60px;
+    }
+
+    .fin-aid-stats li {
+        border-right: 1px solid #47c2c8;
+        border-bottom: 0 none;
+        margin: 0;
+        width: 33.333%;
+        float: left;
+    }
+
+    .fin-aid-stats li:last-child {
+        border-bottom: 0 none;
+        border-right: 0 none;
+    }
+
+    .program-details .description img {
+        float: left;
+        margin: 0 30px 15px 0;
+    }
+
+    .program-details h3 {
+        margin: 20px 0 30px;
+        padding: 0 0 30px;
+    }
+
+    .campus-interactive-map {
+        height: 640px;
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+    .site-carousel.inside-header .carousel-wrapper .item,
+    .site-carousel.inside-header .carousel-image {
+        height: 300px;
+    }
+
+    .freshman-stats h2 {
+        font-size: 3.4em;
+        margin-bottom: 40px;
+    }
+
+    .freshman-stats .subline {
+        color: #fff;
+        text-shadow: 0 1px 5px #000;
+    }
+
+    .apply-button-right {
+        margin-right: 5%;
+    }
+
+    .net-stat-wrapper .label {
+        font-size: 2em;
+        padding-top: 0;
+    }
+
+    .net-stat-wrapper .label .stat {
+        font-size: 1.1em;
+    }
+
+    .cost-stats,
+    .cost-notes {
+        float: left;
+    }
+
+    .cost-stats {
+        width: 45%;
+        border: 0 none;
+        border-right: 2px solid #bbb;
+    }
+
+    .cost-notes.content {
+        width: 55%;
+        border: 0 none;
+        padding: 20px 30px 10px;
+    }
+
+    .cost-table-wrapper {
+        border: 2px solid #bbb;
+    }
+
+    .fin-aid-stats .note {
+        margin: 5px 0 30px;
+        font-size: 1.7em;
+    }
+
+    .fin-aid-stats li {
+        font-size: 2.4em;
+        line-height: 1.2em;
+    }
+
+    .fin-aid-stats .stat {
+        margin: 6px 0 0;
+    }
+
+    .student-loan-rates ul {
+        float: left;
+        width: 50%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .student-loan-rates ul {
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+    }
+
+    .student-loan-rates ul {
+        border-bottom: 0 none;
+    }
+
+    .student-loan-rates ul:last-child {
+        border-left: 0 none;
+        border-right: 1px solid #000;
+    }
+
+    ul.three-col-list {
+        width: 31.333%;
+        float: left;
+        margin: 0 1%;
+        display: inline-block;
+    }
+
+    .majors-minors .content {
+        position: relative;
+    }
+
+    .majors-minors #live-filter-search {
+        display: inline-block;
+        width: 260px;
+        margin: 10px 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .program-details .program-nav a {
+        display: inline-block;
+        float: left;
+        padding: 6px 18px;
+        margin: 0 4px 0 0;
+    }
+
+    .program-details .program-content {
+        margin: 35px 0 0 0;
+    }
+
+    .campus-map-container {
+        border: 1px solid #bbb;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        width: 89.5%;
+        margin: 0 5% 20px;
+    }
+
+    .campus-interactive-map,
+    .campus-google-map {
+        height: 640px;
+        width: 99.96%;
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 1022px) {
+    .freshman-stats {
+        height: 800px;
+    }
+    .freshman-stats .owl-prev,
+    .freshman-stats .owl-next {
+        top: -99999px;
+        left: -99999px;
+        color: #fff;
+    }
+
+    .apply-button-right {
+        margin-right: 5.5%;
+    }
+
+    .freshman-stats .subline {
+        color: #900;
+        text-shadow: 0 1px 5px #fff;
+    }
+
+    .counselor-container .profile-info-wrapper {
+        padding-top: 155px;
+    }
+
+    .counselor-list li {
+        width: 29.333%;
+        float: left;
+        margin: 0 2% 40px;
+    }
+
+    .counselor-list a span {
+        display: block;
+        font-size: 1.2em;
+        margin: 0 0 4px;
+    }
+
+    .net-price-wrapper {
+        width: 22%;
+        margin: 0 9% 0 0;
+    }
+
+    .net-stat-wrapper {
+        width: 61%;
+        margin: 0 0 0 8%;
+    }
+
+    .cost-stats {
+        width: 60%;
+    }
+
+    .cost-notes.content {
+        width: 40%;
+        font-size: .75em;
+        line-height: 1.25em;
+        padding: 20px 30px 0;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    
+}

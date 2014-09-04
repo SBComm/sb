@@ -113,6 +113,13 @@
                                 <script type="IN/FollowCompany" data-id="7201" data-counter="right"></script>
                             </div>
                         </div>
+
+                        <div class="tumblr-container social-follow-container">
+                            <div class="social-label-container"><span class="darker">Follow</span> <span class="grey">on</span> <span class="tumblr-blue">tumblr</span></div>
+                            <div class="social-button-container">
+                                <iframe class="btn" frameborder="0" border="0" scrolling="no" allowtransparency="true" height="25" width="114" src="http://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=stonybrooku&color_scheme=dark"></iframe>
+                            </div>
+                        </div>
                     </div>
 
                     <h2>More <span class="red">SBU</span> <span class="darker">Social</span></h2>

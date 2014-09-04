@@ -1,4 +1,4 @@
-					<nav class="site-nav border-box clearfix">
+					<nav class="site-nav <?php echo $nav_type ?> border-box clearfix">
 		            	<div class="no-pad-wrapper clearfix">
 			            	<div class="menu-trigger border-box"><i class="icon fa fa-bars"></i></div>
 		            		<ul class="main-nav-list border-box clearfix">
@@ -48,12 +48,12 @@
 		                        	</a>
 		                        </li>
 		            		</ul>
-			            	<div class="search-container border-box">
-			            		<div class="search-wrapper">
+			            	<div class="search-container <?php echo $search_style ?> border-box">
+			            		<form class="search-wrapper">
 				            		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search..."><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Do search">
 						                <i class="icon fa fa-search"></i>
 						            </button>
-					            </div>
+					            </form>
 			            	</div>
 		            	</div>
 		            </nav>

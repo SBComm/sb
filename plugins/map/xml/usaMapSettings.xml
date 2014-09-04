@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+<mapSettings 
+
+mapWidth = "1000"
+mapHeight = "700"
+
+offColor = "222222"
+strokeColor = "ffffff"
+offStrokeColor = "000000"
+abbreviationColor = "f2f2f2"
+
+useText = "false"
+useTextAtBottom = "false"
+useParameterInUrl = "false"
+textAreaWidth = "300"
+textAreaHeight = "300"
+textAreaPadding = "10"
+
+pinSize = "10"
+
+/>
+
+<defaultSideText>
+</defaultSideText>
+
+<stateData stateName="Alabama" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Alaska" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Arizona" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Arkansas" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="California" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Colorado" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Connecticut" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Delaware" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="District of Columbia" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Florida" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Georgia" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Hawaii" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Idaho" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Illinois" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Indiana" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Iowa" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Kansas" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>ta>
+
+<stateData stateName="Kentucky" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Louisiana" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Maine" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Maryland" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Massachusetts" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=mills" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Michigan" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Minnesota" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Mississippi" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Missouri" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Montana" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Nebraska" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Nevada" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="New Hampshire" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="New Jersey" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=mcfarland" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="New Mexico" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="New York" url = "undergraduate-admissions/contact/meet-your-counselor/view/?region=ny" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="North Carolina" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="North Dakota" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Ohio" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Oklahoma" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Oregon" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Pennsylvania" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Rhode Island" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="South Carolina" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="South Dakota"  url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Tennessee" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Texas" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Utah" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Vermont" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Virginia" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Washington" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="West Virginia" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Wisconsin" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<stateData stateName="Wyoming" url = "undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino" stateMode = "ON" initialStateColor= "981a1e" stateOverColor = "bb0000" stateSelectedColor = "880000">
+</stateData>
+
+<!--<pinData pinName="Stony Brook, NY" pinX="860" pinY="198" initialPinColor= "aa0000" pinOverColor = "cc0000" pinSelectedColor = "770000"></pinData>-->
+
+
+</data>

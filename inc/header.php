@@ -91,6 +91,9 @@
         <?php if($page_type=='second-level') { ?>
             <link rel="stylesheet" type="text/css" href="css/second-level.css" media="all" />
             <link rel="stylesheet" type="text/css" href="css/second-level/<?php echo $second_level; ?>.css" media="all" />
+            <?php if($inside_page==true) { ?>
+                <link rel="stylesheet" type="text/css" href="css/second-level/<?php echo $second_level; ?>-inside.css" media="all" />
+            <?php } ?>
         <?php } ?>
 
         <?php if($page_type=='bulletin') { ?>
@@ -99,6 +102,10 @@
 
         <?php if($page_type=='search') { ?>
             <link rel="stylesheet" type="text/css" href="css/search.css" media="all" />
+        <?php } ?>
+
+        <?php if($map==true) { ?>
+            <link href="plugins/map/css/map.css" rel="stylesheet" type="text/css" />
         <?php } ?>
 
 <!--

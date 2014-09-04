@@ -1,4 +1,4 @@
-					<nav class="sub-nav border-box clearfix">
+					<nav class="sub-nav <?php echo $nav_type ?> border-box clearfix">
 		            	<div class="no-pad-wrapper clearfix">
 			            	<div class="menu-trigger border-box"><i class="icon fa fa-bars"></i></div>
 		            		<ul class="main-nav-list border-box clearfix">
@@ -34,11 +34,22 @@
 		                        </li>
 		            		</ul>
 			            	<div class="search-container border-box">
-			            		<div class="search-wrapper">
-				            		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search..."><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Do search">
-						                <i class="icon fa fa-search"></i>
-						            </button>
-					            </div>
+				            	<?php if($search_type=='default') { ?>
+				            		<form name="site-search" class="search-wrapper" action="http://www.stonybrook.edu/search/?" method="get">
+					            		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search...">
+					            		<button type="submit" class="btn btn-success" id="search-form-submit1" alt="Do search">
+							                <i class="icon fa fa-search"></i>
+							            </button>
+						            </form>
+				            	<?php } ?>
+				            	<?php if($search_type=='admissions') { ?>
+					            	<form name="ae" action="http://sunysb.askadmissions.net/ask.aspx?" method="get">
+										<label for="quser"><input class="vasearch" name="quser" type="text" placeholder="Ask a Question" size="30" maxlength="300"></label>
+										<button type="submit" class="btn btn-success" id="btnask" alt="Search Button">
+							                <i class="icon fa fa-search"></i>
+							            </button>
+									</form>
+				            	<?php } ?>
 			            	</div>
 		            	</div>
 		            </nav>

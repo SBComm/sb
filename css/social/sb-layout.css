@@ -252,6 +252,12 @@ a.sbu-link:hover {
 	color: #007bb6;
 }
 
+#wrapper .tumblr-blue,
+.fa-tumblr:hover,
+.fa-tumblr-square:hover {
+	color: #32506d;
+}
+
 #wrapper .subtitle {
 	text-align: center;
 	width: 100%;

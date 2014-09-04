@@ -1,0 +1,1217 @@
+.carousel-wrapper {
+}
+
+.big-n-bold .search-container.stay-in-nav input[type="text"] {
+    width: 150px;
+}
+
+.owl-theme .owl-controls {
+    display: none !important;
+}
+
+.site-carousel .carousel-wrapper .item,
+.site-carousel .carousel-image {
+    height: 250px;
+}
+
+.carousel-image[data-image='01'] {
+    background-image: url("../../undergraduate-admissions/images/carousel-01.jpg");
+    background-position: 50% 20%;
+}
+
+.carousel-image[data-image='02'] {
+    background-image: url("../../undergraduate-admissions/images/carousel-02.jpg");
+}
+
+.carousel-image[data-image='03'] {
+    background-image: url("../../undergraduate-admissions/images/carousel-03.jpg");
+}
+
+.site-carousel h1 {
+    font-family: 'ITCFranklinGothicW01-Md 812695';
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+    -moz-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+    text-shadow: -1px 1px 0 #000, -2px 2px 0 #900, -3px 3px 0 #000, 0px 0px 15px #000;
+    color: #fff;
+    cursor: default;
+    width: 100%;
+    display: block;
+    opacity: .85;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.site-carousel h1 em {
+    font-style: normal;
+}
+
+.site-carousel h1 em:before {
+    content: "#";
+}
+
+.item-within-carousel {
+    width: 80%;
+    max-width: 329px;
+    margin: 30px auto 0;
+    display: block;
+    position: relative;
+}
+
+section.main-cta {
+    background: url('../../img/bkg/sbu-shield-grey-35-opac.png') 55% 35% no-repeat #000;
+}
+
+.side-title-links-wrapper {
+    color: #fff;
+    height: 230px;
+    font-family: 'Trade Gothic W01 Light';
+    padding: 20px 0;
+}
+
+.side-title-links-wrapper .side-title {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: 60px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    white-space: nowrap;
+    letter-spacing: .05em;
+    color: #00ffff;
+    padding: 70px 0 0 0;
+}
+
+.side-title-links-wrapper .side-title span {
+    display: block;
+    text-align: center;
+    width: 120px;
+    text-align: center;
+    padding: 0px 0px 62px 29px;
+
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    height: 50px;
+}
+
+.side-title-links-wrapper .links-wrapper {
+    float: left;
+    display: inline-block;
+    width: 75%;
+    height: 100%;
+    z-index: 50;
+    position: relative;
+    padding: 0 0 0 14px;
+    border-left: 2px solid #00ffff;
+}
+
+.side-title-links-wrapper .links-wrapper a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    height: 20%;
+    width: 100%;
+    padding: 12px 0 0 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.3em;
+    color: #d7d7d7;
+}
+
+.side-title-links-wrapper .links-wrapper a:hover {
+    color: #fff;
+}
+
+.side-title-links-wrapper .links-wrapper a .label {
+    text-transform: uppercase;
+}
+
+.side-title-links-wrapper .links-wrapper a .after-text {
+    font-family: 'CenturySchoolbookW01-It 927458';
+    font-size: .9em;
+    display: inline-block;
+    margin: 0 0 0 12px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #000;
+    display: none;
+}
+
+.side-title-links-wrapper .links-wrapper em {
+    display: inline-block;
+    margin: 0 0 0 12px;
+}
+
+.virtual-tour {
+    margin: 0 0 60px;
+    padding: 40px 0;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+.virtual-tour .button-wrapper {
+    display: block;
+    border: 3px solid #fff;
+    width: auto;
+    border-radius: 25px;
+    width: 210px;
+    position: relative;
+    margin: 0 auto;
+    color: #00ffff;
+    font-family: 'Trade Gothic W01 Light';
+    font-size: 1.4em;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    letter-spacing: .1em;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.virtual-tour .top-half {
+    height: 70px;
+    width: 100%;
+    padding: 10px 40% 8px 14px;
+    border-radius: 21px 21px 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.virtual-tour .bottom-half {
+    height: 60px;
+    background: #900;
+    border-radius: 0 0 21px 21px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 0 0 35px;
+    font-size: 1.8em;
+    color: #fff;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.virtual-tour .button-wrapper:hover .top-half {
+    color: #fff;
+    background: #900;
+}
+
+.virtual-tour .button-wrapper:hover .bottom-half {
+    background: #000;
+    color: #00ffff;
+}
+
+.virtual-tour .converse {
+    background-image: url("../../img/misc/converse.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50px -25px;
+    height: 181px;
+    width: 180px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 21px 0 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.virtual-tour .button-wrapper:hover .converse {
+    background-size: 92%;
+    background-position: 47px -25px;
+}
+
+.cost-calculator {
+    display: block;
+    margin: 0 auto;
+    color: #00ffff;
+    font-family: 'Trade Gothic W01 Light';
+    font-size: 1.4em;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    letter-spacing: .1em;
+    width: 300px;
+    margin: 0 auto 55px;
+}
+
+.cost-calculator a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.cost-calculator:hover a {
+    text-decoration: 
+}
+
+.cost-calculator .left {
+    float: left;
+    display: inline-block;
+    text-align: right;
+    width: 135px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 24px 0 0;
+}
+
+.cost-calculator .right {
+    float: left;
+    display: inline-block;
+    margin: 0 0 0 16px;
+    padding: 0 0 0 20px;
+    border-left: 2px #00ffff solid;
+}
+
+.cost-calculator img {
+    width: 90px;
+}
+
+section.discover-students {
+    padding: 80px 0 70px !important;
+}
+
+.discover-students h2 {
+    font-family: 'Trade Gothic W01 Bold';
+    width: 100%;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.discover-students h3 {
+    font-family: 'Trade Gothic W01 Light';
+    color: #000;
+    text-transform: none;
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 24px;
+}
+
+.discover-students h3 em {
+    color: #900;
+    font-style: normal;
+    font-family: 'Trade Gothic W01 Bold';
+}
+
+.discover-students img.student {
+    width: 70%;
+    margin: 0 15%;
+    border-radius: 50%;
+    border: 4px solid #900;
+    box-shadow: 6px 6px 10px rgba(0,0,0,.20);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.discover-students .blurb {
+    font-family: 'Trade Gothic W01 Light';
+    width: 70%;
+    margin: 15px 15% 20px;
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#the-carousel-3 {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.discover-students .carousel-wrapper .item,
+.discover-students .carousel-image {
+    height: auto;
+}
+
+.discover-students .owl-prev {
+    left: 0;
+    padding: 0 10px 0 10px;
+}
+
+.discover-students .owl-next {
+    right: 0;
+    padding: 0 10px 0 10px;
+}
+
+.discover-students .owl-next,
+.discover-students .owl-prev {
+    position: absolute;
+    top: 33%;
+    color: #333;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.discover-students .owl-next:hover,
+.discover-students .owl-prev:hover {
+    box-shadow: none;
+}
+
+section.cta-items {
+    background-image: url("../../undergraduate-admissions/images/sb-landscape.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 20%;
+    padding-top: 70px;
+    height: 545px;
+}
+
+.cta-items a {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    background: #687983;
+    background: rgba(104, 121, 131, .8);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.6em;
+    font-family:'Trade Gothic W01 Light';
+    color: #fff;
+    letter-spacing: .02em;
+    border: 3px solid #fff;
+    margin: 20px 0;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    box-shadow: 6px 6px 10px rgba(0,0,0,.20), 5px 5px 10px rgba(0,0,0,.15) inset;
+}
+
+.cta-items a:first-child {
+    margin-top: 0;
+}
+
+.cta-items a:hover {
+    background: rgba(104,121,131,.9);
+    box-shadow: 2px 2px 10px rgba(0,0,0,.20), 5px 5px 10px rgba(0,0,0,.3) inset;
+}
+
+.numbers-wrapper {
+    text-align: center;
+    background: url('../../img/bkg/thin-diagonal-stripe-pattern.png') repeat #900;
+}
+
+.numbers-wrapper p {
+    display: block;
+    font-family:'Trade Gothic W01 Light';
+    font-size: 2.4em;
+    color: #fff;
+}
+
+.numbers-wrapper p em {
+    font-family: 'Trade Gothic W01 Bold 2';
+    text-transform: uppercase;
+    font-style: normal;
+    display: block;
+    white-space: nowrap;
+}
+
+.numbers-wrapper p .stat {
+    display: block;
+}
+
+.numbers-wrapper p .source {
+    font-size: .45em;
+    padding: 20px 0 0;
+}
+
+.numbers-wrapper .last {
+    padding: 0 0 20px;
+}
+
+.numbers-wrapper .last img {
+    display: none;
+}
+
+section.student-quotes {
+    padding-bottom: 10px;
+}
+
+.student-quotes .person-wrapper,
+.student-quotes .text-wrapper {
+    width: 100%;
+}
+
+.student-quotes .text-wrapper {
+    font-size: 1.6em;
+    color: #fff;
+    font-family: 'Trade Gothic W01 Cn 18';
+    display: inline-block;
+    line-height: 1.6em;
+    padding: 0 0 20px;
+}
+
+.student-quotes .text-wrapper:before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: 2.6em;
+    display: block;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.student-quotes .text-wrapper em {
+    font-style: normal;
+    text-transform: uppercase;
+    color: #00ffff;
+    font-family:'TradeGothicNextW02-Bold 694368';
+}
+
+.student-quotes .person-wrapper img {
+    margin: 0 auto;
+    display: block;
+    max-width: 300px
+}
+
+.student-quotes p {
+    margin: 0;
+}
+
+.student-quotes .carousel-wrapper .item, 
+.student-quotes .carousel-image {
+    height: auto;
+}
+
+.student-quotes .owl-prev {
+    left: 0px;
+    padding: 0 10px 0 10px;
+}
+
+.student-quotes .owl-next {
+    right: 0;
+    padding: 0 10px 0 10px;
+}
+
+.student-quotes .owl-next,
+.student-quotes .owl-prev {
+    top: auto;
+    bottom: 80px;
+    color: #111;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.student-quotes .owl-next:hover,
+.student-quotes .owl-prev:hover {
+    color: #fff;
+    box-shadow: none;
+}
+
+section.student-body {
+
+}
+
+.student-body h2 {
+    font-family:'Trade Gothic Next W01';
+    text-transform: none;
+    color: #900;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin: 5px 0 20px;
+}
+
+.student-body img {
+    max-width: 100%;
+    margin: 0 0 30px;
+}
+
+.student-body ul {
+    display: block;
+    width: 100%;
+    margin: 0 0 50px;
+}
+
+.student-body ul li {
+    display: block;
+    width: 100%;
+    font-family:'Trade Gothic Next W01';
+    font-size: 1.3em;
+    line-height: 1.7em;
+    clear: both;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+
+}
+
+.student-body ul li span,
+.student-body ul li em,
+.student-body ul li {
+    background-color: #f7f7f7;
+}
+
+.student-body ul li:nth-child(odd) span,
+.student-body ul li:nth-child(odd) em,
+.student-body ul li:nth-child(odd) {
+    background-color: #e7e7e7;
+}
+
+.student-body ul li span {
+    display: inline-block;
+    font-family: 'Trade Gothic W01 Bold 2';
+    color: #900;
+    margin-right: 0px;
+    float: left;
+    max-width: 30%;
+    padding: 5px 2px 5px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.student-body ul li span:after {
+    display: inline-block;
+    content: "";
+    margin-left: 0px;
+}
+
+.student-body ul li em {
+    display: inline;
+    float: right;
+    font-style: normal;
+    max-width: 70%;
+    text-align: right;
+    padding: 5px 10px 5px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section.social {
+
+}
+
+section.social h2 {
+    font-family: 'ITCFranklinGothicW01-Md 812695';
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+    -moz-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+    text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+    color: #444;
+    cursor: default;
+    width: 100%;
+    display: block;
+    font-size: 2.6em;
+}
+
+section.social h3 {
+    text-transform: none;
+    text-align: center;
+}
+
+section.social h3 .nowrap {
+    display: block;
+}
+
+section.social {
+
+}
+
+section.social .social-posts {
+    display: block;
+    width: 100%;
+    height: 351px;
+    background: url("../../img/social-posts/social-collab.png") 0 0 repeat-x;
+    margin: 20px 0 20px;
+}
+
+section.social img {
+    display: inline;
+    float: left;
+}
+
+section.social .button {
+    font-size: 24px;
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-weight: normal;
+    width: 240px;
+    display: block;
+    cursor: pointer;
+    margin: 100px auto;
+    text-transform: uppercase;
+}
+
+section.social .button .sbu-cta {
+    width: 100%;
+    text-align: center;
+}
+
+footer.site-footer {
+    background-color: #252525;
+    background: url('../../img/bkg/sbu-shield-black-9-opac.png') 70% 50% no-repeat #252525;
+}
+
+/* Major minor badges */
+
+.major-minor-badges .major {
+    display: inline-block;
+    color: #fff;
+    background: #900;
+}
+
+.major-minor-badges .minor {
+    display: inline-block;
+    color: #fff;
+    background: #00acc6;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 360px) {
+    section.social h3 {
+        font-size: 1.4em;
+    }
+
+    section.social h3 .nowrap {
+        display: inline-block;
+    }
+
+    .side-title-links-wrapper {
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 358px;
+    }
+
+    .side-title-links-wrapper {
+        padding-left: 20%;
+    }
+
+    .discover-students img.student {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .student-body h2 {
+        font-size: 2.4em;
+        margin: 5px 0 20px;
+    }
+
+    .student-body ul li {
+        font-size: 1.4em;
+        background: url('../../img/bkg/single-ellipsis-black.png') 1px 27px repeat-x;
+        background-size: 14px 2px;
+        background-color: #f7f7f7;
+    }
+
+}
+
+@media only screen and (min-width: 560px) {
+
+    .side-title-links-wrapper {
+        padding-left: 5%;
+    }
+
+    .side-title-links-wrapper .links-wrapper {
+        float: left;
+        display: inline-block;
+        width: 80%;
+    }
+
+    .side-title-links-wrapper .links-wrapper a .after-text {
+        display: inline-block;
+        color: #eee;
+        opacity: .4;
+    }
+
+    .side-title-links-wrapper .links-wrapper a:hover .after-text {
+        color: #fff;
+        opacity: 1;
+    }
+
+    .discover-students h2 {
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .discover-students h3 {
+        font-size: 1.7em;
+        margin: 14px 0 24px;
+    }
+
+    .discover-students .blurb {
+        font-size: 1.1em;
+        width: 80%;
+        margin: 15px 10% 20px;
+    }
+
+    .numbers-wrapper .item {
+        display: block;
+    }
+
+    .numbers-wrapper .item .text-wrapper {
+        width: 50%;
+        float: left;
+    }
+
+    .numbers-wrapper .item .image-wrapper {
+        width: 50%;
+        float: left;
+    }
+
+    .numbers-wrapper .item.rtl .text-wrapper,
+    .numbers-wrapper .item.rtl .image-wrapper {
+        float: right;
+    }
+
+    .numbers-wrapper .item img {
+        display: block;
+        margin: 50px auto 0;
+    }
+
+    .numbers-wrapper p {
+        font-size: 2.4em;
+    }
+
+    .student-quotes .text-wrapper {
+        font-size: 1.9em;
+        padding: 0 0 30px;
+    }
+
+    section.social h2 {
+        font-size: 2.9em;
+    }
+
+    section.social h3 {
+        font-size: 1.6em;
+    }
+
+    footer.site-footer {
+        background-position: -50% 50%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 420px;
+    }
+    .item-within-carousel {
+        margin: 14px 16px;
+        float: right;
+        width: 329px;
+    }
+
+    .side-title-links-wrapper {
+        padding-left: 20%;
+    }
+
+    .virtual-tour {
+        width: 50%;
+        float: left;
+        min-height: 144px;
+        border-bottom: 0 none;
+        margin-bottom: 0;
+    }
+
+    .cost-calculator {
+        width: 50%;
+        float: left;
+        margin: 0 0 0;
+        padding: 40px 0;
+        border-top: 1px solid #222;
+        border-bottom: 0 none;
+        min-height: 144px;
+    }
+
+    .cta-items a:first-child,
+    .cta-items a {
+        float: left;
+        width: 48%;
+        margin: 1%;
+    }
+
+    .numbers-wrapper .item {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+
+    .numbers-wrapper .item.rtl .text-wrapper,
+    .numbers-wrapper .item.rtl .image-wrapper {
+        float: left;
+    }
+
+    .numbers-wrapper .item.rtl2 .text-wrapper,
+    .numbers-wrapper .item.rtl2 .image-wrapper {
+        float: right;
+    }
+
+    section.social h2 {
+        font-size: 3.1em;
+    }
+
+
+    footer.site-footer {
+        background-position: -15% 50%;
+        background-size: 60%;
+    }
+
+    footer.site-footer .col-1,
+    footer.site-footer .col-2,
+    footer.site-footer .col-3 {
+        display: inline-block;
+        float: left;
+        width: 33.333%;
+        margin: 0 0 30px !important;
+        text-align: left;
+        padding: 0 0 0 7%;
+    }
+
+    footer.site-footer .col-2 {
+        padding: 4px 0 0 5%;
+    }
+
+    footer.site-footer .col-3 {
+        padding: 4px 0 0 7%;
+    }
+
+    footer.site-footer .col-3 .phone {
+        margin: 18px 0 0;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 550px;
+    }
+
+    .site-carousel h1 {
+        -webkit-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+        -moz-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+        text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+        text-align: right;
+        padding-right: 80px;
+    }
+
+    section.main-cta {
+        padding-bottom: 20px;
+        background: url('../../img/bkg/sbu-shield-grey-35-opac.png') 12% 52% no-repeat #000;
+    }
+
+    .side-title-links-wrapper,
+    .virtual-tour,
+    .cost-calculator {
+        float: left;
+        width: 33.333%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 0 none;
+        margin: 0;
+    }
+
+    .side-title-links-wrapper {
+        padding-left: 20px;
+        height: 200px;
+    }
+
+    .side-title-links-wrapper .links-wrapper {
+        width: auto;
+        margin-top: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .side-title-links-wrapper .links-wrapper a {
+        font-size: 1em;
+    }
+
+    .side-title-links-wrapper .links-wrapper a .after-text {
+        display: block;
+        font-size: 1em;
+        position: absolute;
+        left: -10000px;
+        top: -10000px;
+    }
+
+    .side-title-links-wrapper .side-title span {
+        width: 110px;
+        padding: 0px 0px 32px 39px;
+        height: 80px;
+        letter-spacing: .2em;
+    }
+
+
+    .discover-students h2 {
+        font-size: 4.2em;
+    }
+
+    .discover-students h3 {
+        font-size: 2.2em;
+        margin: 14px 0 28px;
+    }
+
+    section.social h2 {
+        font-size: 3.3em;
+    }
+
+}
+
+@media only screen and (min-width: 1022px) {
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 600px;
+    }
+
+    .discover-students .owl-next,
+    .discover-students .owl-prev {
+        display: none;
+    }
+
+    #the-carousel-3 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .cta-items a:first-child,
+    .cta-items a {
+        float: left;
+        width: 23%;
+        margin: 1%;
+        font-size: 2em;
+        padding-top: 32px;
+        padding-bottom: 33px;
+    }
+
+    .cta-items a:last-child {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    section.numbers-wrapper {
+        padding: 70px 0 30px 0;
+    }
+
+    .numbers-wrapper .item {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+
+    .numbers-wrapper .item .text-wrapper,
+    .numbers-wrapper .item .image-wrapper {
+        width: 100%;
+        float: none;
+    }
+
+    .numbers-wrapper .item p {
+        margin-bottom: 25px;
+    }
+
+    .numbers-wrapper .item p:after {
+        display: block;
+        width: 85px;
+        content: " ";
+        border-bottom: 1px solid #fff;
+        margin: 20px auto 0;
+    }
+
+    .numbers-wrapper .item p,
+    .numbers-wrapper .item img {
+        display: block;
+        float: none;
+    }
+
+    .numbers-wrapper .item img {
+        margin: 0 auto;
+    }
+
+    .numbers-wrapper .item.rtl2 .text-wrapper,
+    .numbers-wrapper .item.rtl2 .image-wrapper {
+        float: left;
+    }
+
+    section.student-quotes {
+        padding-bottom: 0;
+        padding-top: 60px;
+    }
+
+    section.student-quotes .wrapper {
+        overflow: visible;
+    }
+
+    .student-quotes .text-wrapper:before {
+        display: none;
+    }
+
+    .student-quotes .text-wrapper {
+        width: 66%;
+        float: left;
+        display: inline-block;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 30px;
+        line-height: 2em;
+        min-height: 300px;
+    }
+
+    .student-quotes .text-wrapper p {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 6%;
+    }
+    
+    .student-quotes .person-wrapper {
+        width: 34%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        position: relative;
+        height: 260px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .student-quotes .person-wrapper img {
+        margin: 0 0 0 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .student-quotes .owl-prev {
+        left: -30px
+    }
+
+    .student-quotes .owl-next {
+        right: -30px;
+    }
+
+    .student-body h2 {
+        font-size: 2.8em;
+        text-align: left;
+    }
+
+    .student-body ul {
+        text-align: center;
+    }
+
+    .student-body ul li span,
+    .student-body ul li em,
+    .student-body ul li,
+    .student-body ul li:nth-child(odd) span,
+    .student-body ul li:nth-child(odd) em,
+    .student-body ul li:nth-child(odd) {
+        background: transparent;
+    }
+
+    .student-body ul li {
+        display: inline-block;
+        width: auto;
+        font-size: 1.5em;
+        line-height: 1.7em;
+        clear: none;
+        background-color: transparent;
+        float: none;
+        margin-right: 10px
+    }
+
+    .student-body ul li:before {
+        width: 12px;
+        height: 12px;
+        background: #00ffff;
+        display: inline-block;
+        margin: 0 12px 2px 0
+    }
+
+    .student-body ul li.none-before:before {
+        display: none;
+    }
+
+    .student-body ul li span {
+        display: inline-block;
+        float: none;
+        max-width: auto;
+        padding: 0;
+        max-width: 1000px;
+    }
+
+    .student-body ul li span:after {
+        display: inline-block;
+        content: "";
+        margin-left: 0px;
+    }
+
+    .student-body ul li em {
+        display: inline-block;
+        float: none;
+        max-width: 1000px;
+        text-align: left;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    section.social h2 {
+        font-size: 3.5em;
+    }
+
+    footer.site-footer {
+        background-position: -5% 50%;
+        background-size: 50%;
+    }
+
+    footer.site-footer .col-1 {
+        padding: 0 0 0 7%;
+    }
+
+    footer.site-footer .col-2 {
+        padding: 4px 0 0 5%;
+    }
+
+    footer.site-footer .col-3 {
+        padding: 4px 0 0 7%;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 650px;
+    }
+}
