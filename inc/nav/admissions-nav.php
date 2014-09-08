@@ -1,7 +1,7 @@
 <nav class="sub-nav <?php echo $nav_type ?> border-box clearfix">
 	<div class="no-pad-wrapper clearfix">
     	<div class="menu-trigger border-box"><i class="icon fa fa-bars"></i></div>
-		<ul class="main-nav-list border-box clearfix">
+		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
 			<li class="clearfix<?php if($sub_nav_selected_tab==1) echo(' selected'); ?>">
             	<a href="undergraduate-admissions/apply" class="clearfix" data-drop-nav-id="1">
             		<span class="label clearfix">Apply</span>
@@ -12,7 +12,7 @@
             		<span class="label clearfix">Academics</span>
             	</a>
             </li>
-			<li class="clearfix larger<?php if($sub_nav_selected_tab==3) echo(' selected'); ?>">
+			<li class="clearfix no-dropdown larger<?php if($sub_nav_selected_tab==3) echo(' selected'); ?>">
             	<a href="undergraduate-admissions/cost-and-financial-aid" class="clearfix" data-drop-nav-id="0">
             		<span class="label clearfix">Costs &amp; Aid</span>
             	</a>
@@ -22,7 +22,7 @@
             		<span class="label clearfix">Visit</span>
             	</a>
             </li>
-			<li class="clearfix<?php if($sub_nav_selected_tab==5) echo(' selected'); ?>">
+			<li class="clearfix no-dropdown<?php if($sub_nav_selected_tab==5) echo(' selected'); ?>">
             	<a href="undergraduate-admissions/campus-life" class="clearfix" data-drop-nav-id="0">
             		<span class="label clearfix">Campus Life</span>
             	</a>
@@ -210,7 +210,7 @@
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==34) echo('selected'); ?>" data-li-order="04">
 				<a href="undergraduate-admissions/contact/brochures" class="clearfix">
-					<span class="label clearfix">Download Brochures</span>
+					<span class="label clearfix">Brochures</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="05" data-last-child="true" data-image="iphone">

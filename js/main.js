@@ -122,15 +122,26 @@ $(document).ready(function() {
 	$('.menu-trigger').on('click',function(event){
 		$(this).toggleClass('selected');
 		var icon = $(this).find('.icon');
-		if ( $('.main-nav-list').is( ":hidden" ) ) {
-			$('.main-nav-list').slideDown();
-			icon.removeClass('fa-bars');
-			icon.addClass('fa-times');
-		} else {
-			$('.main-nav-list').slideUp();
+		$mainNavList = $('.main-nav-list');
+
+        if($mainNavList.hasClass('open')) {
 			icon.removeClass('fa-times');
 			icon.addClass('fa-bars');
-		}
+            $mainNavList.fadeIn(0,function(){
+		      $mainNavList.removeClass('open')
+		        .slideUp('fast',function() {
+		            $mainNavList.addClass('hide-accessible-mobile')
+		        });
+		    });
+        } else {
+			icon.removeClass('fa-bars');
+			icon.addClass('fa-times');
+            $mainNavList.fadeOut(0,function(){
+		      $mainNavList.removeClass('hide-accessible-mobile').addClass('open')
+		        .slideDown('fast');
+		    });
+        }
+
 	});
 
 	$('input[type="text"]').on('focus',function() {

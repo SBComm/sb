@@ -27,19 +27,16 @@
             <div class="content">
                 <h4>Stony Brook is for Scholars</h4>
                 <p>You’ll find what you’re looking for at Stony Brook University. We recognize that a single program cannot meet the expectations of all of our most gifted students. Hence, we offer a variety of experiences and programs that will challenge, inspire, and sustain our most academically talented students.</p>
-                <!--<h4>Our programs include:</h4>
+                <h4>Our programs include:</h4>
                 <ul class="default-bullets">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/uscholars.shtml" target="_blank">University Scholars</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/honors.shtml" target="_blank">The Honors College</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/wise.shtml" target="_blank">Women in Science and Engineering (WISE)</a></li>
+                    <li><a class="external-link" href="" target="_blank">Scholars for Medicine</a></li>
+                    <li><a class="external-link" href="" target="_blank">Scholars for Dental Medicine</a></li>
+                    <li><a class="external-link" href="" target="_blank">Computer Science Honors</a></li>
+                    <li><a class="external-link" href="" target="_blank">Majors with Honors Components</a></li>
                 </ul>
-                -->
-                <h4>More Information</h4>
-                <p><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/" target="_blank">Explore Honors Programs at Stony Brook.</a></p>
             </div>
         </div>
     </section>

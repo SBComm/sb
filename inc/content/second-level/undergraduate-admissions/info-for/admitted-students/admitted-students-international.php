@@ -1,5 +1,5 @@
 <article>
-    <section class="clearfix site-carousel inside-header freshman-criteria white-background">
+    <section class="clearfix site-carousel inside-header info-for white-background">
         <div class="border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
@@ -31,7 +31,7 @@
                 <h4>Receiving Your I-20</h4>
                 <p>In order to receive your Certiﬁcate of Visa Eligibility (I-20), you must fully document your ability to meet all educational and living expenses for your entire period of intended study in <a href="https://vis.stonybrook.edu/istart/controllers/admission/AdmissionEngine.cfm" class="external-link" target="_blank">accessVIS</a>, Stony Brook's portal for visa and immigration services. If you are unable to provide proof of financial support for the entire length of your degree program, you will not be eligible to receive an I-20 or to enroll at Stony Brook University.</p>
                 <ul class="default-bullets">
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/forms/accessvis15.pdf" target="_blank">How to use accessVIS</a></li>
+                    <li><a href="downloads/pdf/admissions/accessvis15.pdf" target="_blank">How to use accessVIS</a></li>
                     <li><a href="https://vis.stonybrook.edu/istart/controllers/admission/AdmissionEngine.cfm" class="external-link" target="_blank">Login to accessVIS</a></li>
                 </ul>
                 <p><strong>After you have paid your $150 tuition deposit</strong>, our Office of Visa and Immigration Services will begin processing your financial documentation and preparing your I-20. Admitted students who do not fully document proof of financial support after they submit their deposits should be aware of our deposit refund policies.  Do not schedule an appointment with your consulate or schedule travel plans until you have received your I-20.</p>

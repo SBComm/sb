@@ -4,11 +4,34 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
                     <div class="item">
-                        <a href="#" title="See yourself at SBU!">
-                            <div class="carousel-image clearfix" data-image="01">
-                                <h1 class="admissions-tagline">Be <span>a</span> <em>Seawolf</em></h1>
-                            </div>
-                        </a>
+                        <div class="carousel-image clearfix" data-image="01">
+                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-image clearfix" data-image="02">
+                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-image clearfix" data-image="03">
+                            <h1 class="admissions-tagline top">We <span>are</span> <em>Seawolves</em></h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-image clearfix" data-image="04">
+                            <h1 class="admissions-tagline top">We <span>are</span> <em>Seawolves</em></h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-image clearfix" data-image="05">
+                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-image clearfix" data-image="06">
+                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -28,7 +51,7 @@
             </div>
 
             <div class="virtual-tour">
-                <a href="#" class="button-wrapper clearfix">
+                <a href="undergraduate-admissions/virtual-tour/" class="button-wrapper clearfix">
                     <div class="top-half">
                         Virtual Tour
                     </div>
@@ -54,34 +77,46 @@
 
     <section class="clearfix white-background discover-students arrow-below arrow-below-white">
         <div class="border-box no-pad-wrapper">
-            <h2 class="red">I want to discover <span class="nowrap">who I am.</span></h2>
-            <h3>See yourself in <span class="nowrap">Stony Brook <em>Red</em></span></h3>
+            <h2 class="red">A Great Education with a <span class="nowrap">Great Future</span></h2>
+            <h3>This is where <span class="nowrap">I want to be</span></h3>
             <div class="carousel-wrapper">
                 <div id="the-carousel-3" class="owl-carousel carousel-style-03">
-                    <div class="item">
-                        <img class="student" src="undergraduate-admissions/images/student-1.jpg" />
-                        <span class="blurb">Connor has an internship at NASA</span>
-                    </div>
-                    <div class="item">
-                        <img class="student" src="undergraduate-admissions/images/student-1.jpg" />
-                        <span class="blurb">Connor has an internship at NASA</span>
-                    </div>
-                    <div class="item">
-                        <img class="student" src="undergraduate-admissions/images/student-1.jpg" />
-                        <span class="blurb">Connor has an internship at NASA</span>
-                    </div>
-                    <div class="item">
-                        <img class="student" src="undergraduate-admissions/images/student-1.jpg" />
-                        <span class="blurb">Connor has an internship at NASA</span>
-                    </div>
-                    <div class="item">
-                        <img class="student" src="undergraduate-admissions/images/student-1.jpg" />
-                        <span class="blurb">Connor has an internship at NASA</span>
-                    </div>
-                    <div class="item">
-                        <img class="student" src="undergraduate-admissions/images/student-1.jpg" />
-                        <span class="blurb">Connor has an internship at NASA</span>
-                    </div>
+                    <a class="item nivo-lightbox" href="https://www.youtube.com/watch?v=L9szn1QQfas" data-lightbox-gallery="student-video-gallery">
+                        <div class="student-wrapper ruchi clearfix">
+                            <img class="student" src="img/students/profile/Circle-Ruchi-BW.jpg" />
+                        </div>
+                        <span class="blurb"><em>Ruchi</em> interned at Fox News as a health reporter</span>
+                    </a>
+                    <a class="item nivo-lightbox" href="https://www.youtube.com/watch?v=L9szn1QQfas" data-lightbox-gallery="student-video-gallery">
+                        <div class="student-wrapper neha clearfix">
+                            <img class="student" src="img/students/profile/Circle-Neha-BW.jpg" />
+                        </div>
+                        <span class="blurb"><em>Neha</em> is Stony Brook's first Gates Cambridge scholar</span>
+                    </a>
+                    <a class="item nivo-lightbox" href="https://www.youtube.com/watch?v=L9szn1QQfas" data-lightbox-gallery="student-video-gallery">
+                        <div class="student-wrapper jamie clearfix">
+                            <img class="student" src="img/students/profile/Circle-Jamie-BW.jpg" />
+                        </div>
+                        <span class="blurb"><em>Jamie</em> helped start Camp Kesem for children impacted by cancer</span>
+                    </a>
+                    <a class="item nivo-lightbox" href="https://www.youtube.com/watch?v=L9szn1QQfas" data-lightbox-gallery="student-video-gallery">
+                        <div class="student-wrapper mai clearfix">
+                            <img class="student" src="img/students/profile/Circle-Mai-BW.jpg" />
+                        </div>
+                        <span class="blurb"><em>Mai</em> studied with Dr. Patricia Wright in Madagascar</span>
+                    </a>
+                    <a class="item nivo-lightbox" href="https://www.youtube.com/watch?v=L9szn1QQfas" data-lightbox-gallery="student-video-gallery">
+                        <div class="student-wrapper alejandro clearfix">
+                            <img class="student" src="img/students/profile/Circle-Alejandro-BW.jpg" />
+                        </div>
+                        <span class="blurb"><em>Alejandro</em> is the midfielder for the Seawolves' soccer team</span>
+                    </a>
+                    <a class="item nivo-lightbox" href="https://www.youtube.com/watch?v=L9szn1QQfas" data-lightbox-gallery="student-video-gallery">
+                        <div class="student-wrapper cooper clearfix">
+                            <img class="student" src="img/students/profile/Circle-Cooper-BW.jpg" />
+                        </div>
+                        <span class="blurb"><em>Cooper</em> received a URECA research grant</span>
+                    </a>
                 </div>
                 <div class="owl-prev owl-prev-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-left"></em></div>
                 <div class="owl-next owl-next-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-right"></em></div>
@@ -157,7 +192,7 @@
         </div>
     </section>
 
-    <section class="black-background student-quotes arrow-below arrow-below-black clearfix">
+    <section class="black-background student-quotes clearfix">
         <div class="wrapper border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-4" class="owl-carousel carousel-style-03">
@@ -165,24 +200,52 @@
                         <div class="text-wrapper">
                             <p>I want a university that rewards the <em>successful</em> student that <span class="nowrap">I am</span>. One that brings out the <em>best</em> in me and offers unparalleled classes and <em>experiences</em>. I want to be in a place where I will have that <em class="nowrap">aha moment</em> that shows me what my <em>life</em> is about.</p>
                         </div>
-                        <div class="person-wrapper clearfix">
-                            <img class="student clearfix" src="undergraduate-admissions/images/student-1.jpg" />
+                        <div class="person-wrapper">
+                            <div class="table-cell">
+                                <img class="student renae clearfix" src="img/students/profile/Quotes-Renae-Silo.png" />
+                            </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="text-wrapper">
-                            <p>I want a university that rewards the <em>successful</em> student that <span class="nowrap">I am</span>. One that brings out the <em>best</em> in me and offers unparalleled classes and <em>experiences</em>. I want to be in a place where I will have that <em class="nowrap">aha moment</em> that shows me what my <em>life</em> is about.</p>
+                            <p>I'm from Fort Wayne, Indiana... whenever I have a free moment, I love to go into New York City.<br /><em>&#8211;Taylor</em></p>
                         </div>
-                        <div class="person-wrapper clearfix">
-                            <img class="student clearfix" src="undergraduate-admissions/images/student-1.jpg" />
+                        <div class="person-wrapper">
+                            <div class="table-cell">
+                                <img class="student taylor clearfix" src="img/students/profile/Quotes-Taylor-Silo.png" />
+                            </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="text-wrapper">
-                            <p>I want a university that rewards the <em>successful</em> student that <span class="nowrap">I am</span>. One that brings out the <em>best</em> in me and offers unparalleled classes and <em>experiences</em>. I want to be in a place where I will have that <em class="nowrap">aha moment</em> that shows me what my <em>life</em> is about.</p>
+                            <p>I think there's a lot of value to a Stony Brook degree right now. Stony Brook offers an Ivy League-level education at a SUNY-level cost.<br /><em>&#8211;Vinny</em></p>
                         </div>
-                        <div class="person-wrapper clearfix">
-                            <img class="student clearfix" src="undergraduate-admissions/images/student-1.jpg" />
+                        <div class="person-wrapper">
+                            <div class="table-cell">
+                                <img class="student vinnie clearfix" src="img/students/profile/Quotes-Vinny-Silo.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text-wrapper">
+                            <p>I’ve been able to study abroad during winter and summers and also have been able to complete all my courses during the semesters to graduate in four years.<br /><em>&#8211;Ariana</em></p>
+                        </div>
+                        <div class="person-wrapper">
+                            <div class="table-cell">
+                                <img class="student ariana clearfix" src="img/students/profile/Quotes-Ariana-Silo.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text-wrapper">
+                            <div class="table-cell">
+                                <p>Never take any experience for granted. Everything is a learning experience, because you’re always going to get better.<br /><em>&#8211;Michael</em></p>
+                            </div>
+                        </div>
+                        <div class="person-wrapper">
+                            <div class="table-cell">
+                                <img class="student michael clearfix" src="img/students/profile/Quotes-Michael-Silo.png" />
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -2,10 +2,6 @@ jQuery(document).ready(function($){
 //Josh Palmeri
 	//2014.03.26
 
-	$(".sbu-cta").click(function(e) {
-		alert();
-	});
-
 	// menu
 	$('.menu ul').superfish({
 		autoArrows	: false

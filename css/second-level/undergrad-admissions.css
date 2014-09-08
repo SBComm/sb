@@ -15,22 +15,34 @@
 }
 
 .carousel-image[data-image='01'] {
-    background-image: url("../../undergraduate-admissions/images/carousel-01.jpg");
+    background-image: url("../../img/student-life/marquee-graduation-768.jpg");
     background-position: 50% 20%;
 }
 
 .carousel-image[data-image='02'] {
-    background-image: url("../../undergraduate-admissions/images/carousel-02.jpg");
+    background-image: url("../../img/student-life/marquee-journalism-768.jpg");
+    background-position: 20% 20%;
 }
 
 .carousel-image[data-image='03'] {
-    background-image: url("../../undergraduate-admissions/images/carousel-03.jpg");
+    background-image: url("../../img/student-life/marquee-stadium-768.jpg");
 }
 
-.site-carousel h1 {
+.carousel-image[data-image='04'] {
+    background-image: url("../../img/students/staller-lawn-768.jpg");
+}
+
+.carousel-image[data-image='05'] {
+    background-image: url("../../img/student-life/marquee-audience-768.jpg");
+}
+
+.carousel-image[data-image='06'] {
+    background-image: url("../../img/student-life/marquee-regatta-768.jpg");
+}
+
+.site-carousel h1.special {
     font-family: 'ITCFranklinGothicW01-Md 812695';
     font-weight: 200;
-    text-align: center;
     text-transform: uppercase;
     -webkit-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
     -moz-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
@@ -41,10 +53,33 @@
     display: block;
     opacity: .85;
     position: absolute;
-    bottom: 0;
-    right: 0;
     text-align: center;
     white-space: nowrap;
+}
+
+.site-carousel h1.bottom {
+    bottom: 0;
+}
+
+.site-carousel h1.top {
+    top: 0;
+}
+
+.site-carousel h1 {
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trade Gothic W01 Light';
+    -webkit-text-shadow: 0 0 10px rgba(0,0,0,.7);
+    -moz-text-shadow: 0 0 10px rgba(0,0,0,.7);
+    text-shadow: 0 0 10px rgba(0,0,0,.7), 0 0 15px rgba(0,0,0,.7), 0 0 15px rgba(100,0,0,.7), 0 0 15px rgba(0,0,0,.7);
+    opacity: .9;
+    color: #fff;
+    cursor: default;
+    width: 100%;
+    display: block;
+    position: absolute;
+    font-size: 2em;
 }
 
 .site-carousel h1 em {
@@ -314,7 +349,8 @@ section.discover-students {
     font-family: 'Trade Gothic W01 Bold';
 }
 
-.discover-students img.student {
+.discover-students .student-wrapper {
+    display: block;
     width: 70%;
     margin: 0 15%;
     border-radius: 50%;
@@ -325,6 +361,68 @@ section.discover-students {
     box-sizing: border-box;
 }
 
+.discover-students .ruchi {
+    background-image: url("../../img/students/profile/Circle-Ruchi-Color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.discover-students .neha {
+    background-image: url("../../img/students/profile/Circle-Neha-Color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.discover-students .jamie {
+    background-image: url("../../img/students/profile/Circle-Jamie-Color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.discover-students .mai {
+    background-image: url("../../img/students/profile/Circle-Mai-Color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.discover-students .alejandro {
+    background-image: url("../../img/students/profile/Circle-Alejandro-Color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.discover-students .cooper {
+    background-image: url("../../img/students/profile/Circle-Cooper-Color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.discover-students img.student {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.discover-students a:hover img.student {
+    opacity: 0;
+}
+
+.discover-students a:hover .student-wrapper {
+
+}
+
 .discover-students .blurb {
     font-family: 'Trade Gothic W01 Light';
     width: 70%;
@@ -332,6 +430,13 @@ section.discover-students {
     display: block;
     text-align: center;
     font-size: 1.3em;
+    color: #000;
+}
+.discover-students .blurb em {
+    color: #900;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: 'Trade Gothic W01 Bold';
 }
 
 #the-carousel-3 {
@@ -446,7 +551,11 @@ section.cta-items {
 }
 
 section.student-quotes {
-    padding-bottom: 10px;
+    
+}
+
+.student-quotes .item {
+    display: table;
 }
 
 .student-quotes .person-wrapper,
@@ -454,13 +563,63 @@ section.student-quotes {
     width: 100%;
 }
 
+.student-quotes .person-wrapper {
+    /*position: absolute;
+    bottom: 0;*/
+    display: table-row;
+}
+
+.student-quotes .person-wrapper .table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.student-quotes .person-wrapper .table-cell {
+    display: table-cell;
+    vertical-align: bottom;
+    width: 100%;
+    text-align: center;
+}
+
+.student-quotes .person-wrapper img {
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.student-quotes .person-wrapper img.michael {
+    max-width: 600px;
+}
+
+.student-quotes .person-wrapper img.taylor {
+    max-width: 260px;
+}
+
+.student-quotes .person-wrapper img.renae {
+    max-width: 160px;
+    margin-right: 30px;
+}
+
+.student-quotes .person-wrapper img.vinnie {
+    max-width: 200px;
+    margin-right: 30px;
+}
+
+.student-quotes .person-wrapper img.ariana {
+    max-width: 260px;
+}
+
 .student-quotes .text-wrapper {
+    display: table-row;
     font-size: 1.6em;
     color: #fff;
     font-family: 'Trade Gothic W01 Cn 18';
-    display: inline-block;
     line-height: 1.6em;
     padding: 0 0 20px;
+    z-index: 2;
+    position: relative;
 }
 
 .student-quotes .text-wrapper:before {
@@ -484,12 +643,6 @@ section.student-quotes {
     text-transform: uppercase;
     color: #00ffff;
     font-family:'TradeGothicNextW02-Bold 694368';
-}
-
-.student-quotes .person-wrapper img {
-    margin: 0 auto;
-    display: block;
-    max-width: 300px
 }
 
 .student-quotes p {
@@ -526,7 +679,7 @@ section.student-quotes {
 }
 
 section.student-body {
-
+    padding: 50px 0 0;
 }
 
 .student-body h2 {
@@ -713,7 +866,7 @@ footer.site-footer {
         padding-left: 20%;
     }
 
-    .discover-students img.student {
+    .discover-students .student-wrapper {
         width: 80%;
         margin: 0 10%;
     }
@@ -733,6 +886,10 @@ footer.site-footer {
 }
 
 @media only screen and (min-width: 560px) {
+
+    .site-carousel h1 {
+        font-size: 2.4em;
+    }
 
     .side-title-links-wrapper {
         padding-left: 5%;
@@ -801,7 +958,7 @@ footer.site-footer {
 
     .student-quotes .text-wrapper {
         font-size: 1.9em;
-        padding: 0 0 30px;
+        padding: 0;
     }
 
     section.social h2 {
@@ -819,6 +976,37 @@ footer.site-footer {
 }
 
 @media only screen and (min-width: 768px) {
+
+    .site-carousel h1 {
+        font-size: 3.3em;
+    }
+
+    .carousel-image[data-image='01'] {
+        background-image: url("../../img/student-life/marquee-graduation-2000.jpg");
+        background-position: 50% 20%;
+    }
+
+    .carousel-image[data-image='02'] {
+        background-image: url("../../img/student-life/marquee-journalism-2000.jpg");
+        background-position: 50% 20%;
+    }
+
+    .carousel-image[data-image='03'] {
+        background-image: url("../../img/student-life/marquee-stadium-2000.jpg");
+    }
+
+    .carousel-image[data-image='04'] {
+        background-image: url("../../img/students/staller-lawn-1600.jpg");
+    }
+
+    .carousel-image[data-image='05'] {
+        background-image: url("../../img/student-life/marquee-audience-2000.jpg");
+    }
+
+    .carousel-image[data-image='06'] {
+        background-image: url("../../img/student-life/marquee-regatta-2000.jpg");
+    }
+
     .site-carousel .carousel-wrapper .item,
     .site-carousel .carousel-image {
         height: 420px;
@@ -914,12 +1102,17 @@ footer.site-footer {
         height: 550px;
     }
 
-    .site-carousel h1 {
+    .site-carousel h1.special {
         -webkit-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
         -moz-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
         text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
         text-align: right;
         padding-right: 80px;
+    }
+
+    .site-carousel h1 {
+        font-size: 4.9em;
+        margin: 40px auto;
     }
 
     section.main-cta {
@@ -973,7 +1166,7 @@ footer.site-footer {
 
 
     .discover-students h2 {
-        font-size: 4.2em;
+        font-size: 3.7em;
     }
 
     .discover-students h3 {
@@ -1063,7 +1256,7 @@ footer.site-footer {
 
     section.student-quotes {
         padding-bottom: 0;
-        padding-top: 60px;
+        padding-top: 50px;
     }
 
     section.student-quotes .wrapper {
@@ -1095,22 +1288,58 @@ footer.site-footer {
     
     .student-quotes .person-wrapper {
         width: 34%;
-        float: left;
         display: inline-block;
-        height: 100%;
         position: relative;
-        height: 260px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+        height: 100%;
+    }
+
+
+    .student-quotes .person-wrapper .table-cell {
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 100%;
     }
     
     .student-quotes .person-wrapper img {
-        margin: 0 0 0 20px;
+        margin: 0;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         width: 100%;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .student-quotes .person-wrapper img.michael {
+        width: 500px;
+        max-width: 500px;
+    }
+
+    .student-quotes .person-wrapper img.taylor {
+        width: 340px;
+        max-width: 340px;
+    }
+
+    .student-quotes .person-wrapper img.renae {
+        width: 260px;
+        max-width: 260px;
+    }
+
+    .student-quotes .person-wrapper img.ariana {
+        width: 260px;
+        max-width: 260px;
+    }
+
+    .student-quotes .person-wrapper img.vinnie {
+        width: 260px;
+        max-width: 260px;
+        margin-right: 70px;
     }
 
     .student-quotes .owl-prev {

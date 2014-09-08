@@ -47,8 +47,17 @@
         <script src="js/main.js"></script>
         <script src="js/vendor/fastclick.js"></script>
 
+        <?php if($lightbox) { ?>
+        	<script src="plugins/nivo-lightbox/nivo-lightbox.min.js"></script>
+        	<script>
+				$(document).ready(function(){
+				    $('.nivo-lightbox').nivoLightbox();
+				});
+			</script>
+        <?php } ?>
+
         <?php if($carousel) { ?>
-	        <script src="js/elements/owl-carousel/owl.carousel.min.js"></script>
+	        <script src="js/elements/owl-carousel/owl.carousel.js"></script>
 	        <script>
 	            $(document).ready(function() {
 
@@ -58,7 +67,8 @@
 	                    navigation : false, // Show default next and prev buttons
 	                    slideSpeed : 300,
 	                    paginationSpeed : 400,
-	                    singleItem: true
+	                    singleItem: true/*,
+	                    transitionStyle : "fade"*/
 	                });
 	                $('.owl-prev-1').on('click', function() {
 	                    owl.trigger('owl.prev');
@@ -136,7 +146,7 @@
 			    //<![CDATA[
 					$(".site-name").fitText({ minFontSize: '20px', maxFontSize: '27px' });
 					$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '46px' });
-					$(".site-carousel h1").fitText(1, { minFontSize: '30px', maxFontSize: '100px' });
+					/*$(".site-carousel h1").fitText(1, { minFontSize: '30px', maxFontSize: '100px' });*/
 			    //]]>
 			});
 		</script>
@@ -157,7 +167,7 @@
 					$('#social-stream').dcSocialStream({
 						feeds: {
 							twitter: {
-								id: 'stonybrooku,sbubuzz,sbudoit',
+								id: 'stonybrooku,sbubuzz,sbudoit,sbunewsdesk',
 								thumb: true
 							},
 							rss: {
@@ -178,7 +188,7 @@
 								id: '37984249@N06,101383158@N02'
 							},
 							instagram: {
-								id: '!46695629,!584430024,!320497946',
+								id: '!46695629,!320497946',
 								accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
 								clientId: '992187b36560494abe8ea63eebf2c9c3',
 								thumb: 'thumbnail',
@@ -238,10 +248,12 @@
 				$(window).load(function() {
 					equalheight('.numbers-wrapper .owl-item');
 					equalheight('.numbers-wrapper .equal-col');
+					equalheight('.student-quotes .owl-item .item');
 			   	});
 			   	$(window).resize(function(){
 					equalheight('.numbers-wrapper .owl-item');
 					equalheight('.numbers-wrapper .equal-col');
+					equalheight('.student-quotes .owl-item .item');
 			   	});
 			   	<?php if($motio==true) { ?>
 				   	$(document).ready(function() {
@@ -287,6 +299,9 @@
         <?php if($equal_col==true) { ?>
 			<script type="text/javascript">
 				$(window).load(function() {
+					equalheight('.equal-height-col');
+			   	});
+			   	$(window).resize(function(){
 					equalheight('.equal-height-col');
 			   	});
 			</script>

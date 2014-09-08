@@ -1,5 +1,5 @@
 <article>
-    <section class="clearfix site-carousel inside-header freshman-criteria white-background">
+    <section class="clearfix site-carousel inside-header info-for white-background">
         <div class="border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
@@ -39,8 +39,8 @@
 
                 <h4>Resources</h4>
                 <ul class="default-bullets">
-                    <li><a href="undergraduate-admissions/brochures" target="_blank">View Downloadable Brochures</a>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/forms/parents.pdf" target="_blank">8 Reasons Why Parents Love Stony Brook University</a>
+                    <li><a href="undergraduate-admissions/contact/brochures">View Downloadable Brochures</a>
+                    <li><a href="downloads/pdf/admissions/Stony-Brook-For-Parents.pdf" target="_blank">8 Reasons Why Parents Love Stony Brook University</a>
                 </li>
             </div>
         </div>

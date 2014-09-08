@@ -53,8 +53,7 @@
             <div class="content clearfix">
                 <h4>More Information for second-degrees</h4>
                 <ul class="default-bullets">
-                    <li><a class="external-link" href="http://www.stonybrook.edu/commcms/advising/_second-degreeinfo/course_eqiv.html" target="_blank">View Course Equivalency Information</a></li>
-                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/forms/math-second-degrees.pdf" target="_blank">Math Expectations</a></li>
+                    <!--<li><a class="external-link" href="http://www.stonybrook.edu/commcms/advising/_second-degreeinfo/course_eqiv.html" target="_blank">View Course Equivalency Information</a></li>-->
                     <li><a href="undergraduate-admissions/apply/international">International Applicants</a></li>
                 </ul>
             </div>

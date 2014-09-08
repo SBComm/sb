@@ -34,6 +34,16 @@
     background-position: 30% 40%;
 }
 
+.site-carousel.info-for .carousel-image[data-image='01'] {
+    background-image: url("../../img/student-life/marquee-campus-autumn-2000.jpg");
+    background-position: 67% 50%;
+}
+
+.site-carousel.campus-life .carousel-image[data-image='01'] {
+    background-image: url("../../img/student-life/campus-life-1600.jpg");
+    background-position: 20% 50%;
+}
+
 section.full-width-banner-image {
     padding: 0;
 }
@@ -1053,6 +1063,69 @@ section.program-details {
     height: 1980px;
 }
 
+.brochures-grid {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.brochures-grid li {
+    display: block;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+.brochures-grid li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.brochures-grid li a:after {
+    content: "";
+    display: none;
+}
+
+.brochures-grid .img-wrapper {
+    width: 90%;
+    margin: 0 5%;
+    display: block;
+}
+
+.brochures-grid img {
+    display: block;
+    border: 1px solid #000;
+    box-shadow: 3px 3px 6px #bbb;
+}
+
+.brochures-grid .label {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mobile-form iframe {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    height: 600px;
+}
+
+.desktop-content {
+    display: none;
+}
+
 /* apply button */
 
 .apply-button {
@@ -1099,6 +1172,14 @@ section.program-details {
         width: 100%;
         height: 1700px;
     }
+
+    .desktop-content {
+        display: block;
+    }
+
+    .mobile-form iframe {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 560px) {
@@ -1136,6 +1217,13 @@ section.program-details {
         padding: 8% 0 9%;
     }
 
+}
+
+
+@media only screen and (min-width: 680px) {
+    .brochures-grid li {
+        width: 25%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -1354,6 +1442,11 @@ section.program-details {
 
     .campus-interactive-map {
         height: 640px;
+    }
+
+    .brochures-grid li .img-wrapper {
+        width: 70%;
+        margin: 30px 15% 0;
     }
 
 }

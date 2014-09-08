@@ -23,11 +23,130 @@
     </section>
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix">
-            <h3>Brochures</h3>
+            <h3>Download Application &amp; Brochures</h3>
             <div class="content">
-                <h4>Yeah</h4>
-                <ul class="default-bullets">
-                    <li>God's love is amazing!!</li>
+                <h4>Application &amp; University Publications</h4>
+                <ul class="brochures-grid clearfix">
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/SUNY-Application.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/apply-suny.jpg" />
+                            </div>
+                            <div class="label">SUNY Application</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/14070062-Stony-Brook-Application-Checklist.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/application-checklist.jpg" />
+                            </div>
+                            <div class="label">Application Checklist</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/14020931-Stony-Brook-Viewbook.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/viewbook.jpg" />
+                            </div>
+                            <div class="label">Viewbook</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/14010798-Why-Stony-Brook.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/why-sb.jpg" />
+                            </div>
+                            <div class="label">Why Stony Brook</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/14020938-SB-At-a-Glance.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/at-a-glance.jpg" />
+                            </div>
+                            <div class="label">At a Glance</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/Stony-Brook-Student-Life.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/student-life.jpg" />
+                            </div>
+                            <div class="label">Student Life</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/14020935-Stony-Brook-Honors-College.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/honors-programs.jpg" />
+                            </div>
+                            <div class="label">Honors Programs</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/Stony-Brook-Campus-Housing.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/living-on-campus.jpg" />
+                            </div>
+                            <div class="label">Campus Housing</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/14051425-Stony-Brook-Majors-Minors.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/degrees-that-deliver.jpg" />
+                            </div>
+                            <div class="label">Majors &amp; Minors</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/14020936-Traditions-Booklet-Seawolves Country.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/seawolves-country.jpg" />
+                            </div>
+                            <div class="label">Seawolves Country</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/Stony-Brook-Claims-to-fame.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/claims-to-fame.jpg" />
+                            </div>
+                            <div class="label">Claims to Fame</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="no-icon-after" href="downloads/pdf/admissions/Stony-Brook-Notable-Alumni.pdf">
+                            <div class="equal-height-col img-wrapper">
+                                <img src="img/brochures/notable-alumni.jpg" />
+                            </div>
+                            <div class="label">Notable Alumni</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <h4>Academic Program Brochures</h4>
+                <ul class="arrow-bullets content col-2 no-margin">
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Business.pdf">College of Business</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Engineering-and-Applied-Sciences.pdf">College of Engineering and Applied Sciences</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Foreign-Languages.pdf">Foreign Languages</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Health-Sciences.pdf">Health Sciences Degree Programs for Undergraduates</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Humanities-Fine-Arts.pdf">Humanities &amp; Fine Arts</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/14020930-InternationalRecrutiment_Z-Card_LR.pdf">International Students</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Journalism.pdf">Journalism</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/13100550-SemesterByTheSea_MarineSciences_Flyer_LR.pdf">Marine Sciences at Stony Brook</a></li>
+                </ul>
+                <ul class="arrow-bullets content col-2 no-margin">
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Music.pdf">Music</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Pharmacology.pdf">Pharmacology</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Pre-Law.pdf">Pre-Law Studies</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Pre-Med.pdf">Pre-Medical Studies</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/14020934-Science-and-Engineering-Brochure.pdf">Science and Engineering at Stony Brook</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Social-Behavioral-Sciences.pdf">Social &amp; Behavioral Sciences</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-SOMAS.pdf">School of Marine &amp; Atmospheric Sciences</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Sustainability.pdf">Sustainability Studies</a></li>
+                    <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Teacher-Preparation.pdf">Teacher Education</a></li>
                 </ul>
             </div>
         </div>

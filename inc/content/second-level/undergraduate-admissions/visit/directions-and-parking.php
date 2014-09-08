@@ -45,6 +45,7 @@
                 <h4>Parking at Stony Brook</h4>
                 <p>Parking is available for prospective students and family members attending campus tours and information sessions in the Administration Garage, located adjacent to the Administration Building. The Garage charges a nominal fee on weekdays and is free on weekends.</p>
                 <p><a class="external-link" href="http://www.stonybrook.edu/parking" target="_blank">Get more information about parking at Stony Brook.</a></p>
+                <p><a href="downloads/pdf/PRKD0006-Stony-Brook-Parking-Map.pdf">Download Parking Map</a></p>
             </div>
         </div>
     </section>

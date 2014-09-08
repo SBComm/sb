@@ -801,7 +801,8 @@ if (typeof Object.create !== "function") {
                                   "; transform:"         + translate3D;
             regex = /translate3d\(0px, 0px, 0px\)/g;
             asSupport = tempElem.style.cssText.match(regex);
-            support3d = (asSupport !== null && asSupport.length === 1);
+            //support3d = (asSupport !== null && asSupport.length === 1);
+            support3d = (asSupport !== null && asSupport.length !== 0);
 
             isTouch = "ontouchstart" in window || window.navigator.msMaxTouchPoints;
 
@@ -1284,43 +1285,48 @@ if (typeof Object.create !== "function") {
                 outClass = base.outClass,
                 inClass = base.inClass,
                 $currentItem = base.$owlItems.eq(base.currentItem),
-                $prevItem = base.$owlItems.eq(base.prevItem),
+                $prevItem = base.$owlItems.q(base.prevItem),
                 prevPos = Math.abs(base.positionsInArray[base.currentItem]) + base.positionsInArray[base.prevItem],
                 origin = Math.abs(base.positionsInArray[base.currentItem]) + base.itemWidth / 2,
                 animEnd = 'webkitAnimationEnd oAnimationEnd MSAnimationEnd animationend';
 
-            base.isTransition = true;
+            if(base.itemsAmount>1) {
 
-            base.$owlWrapper
-                .addClass('owl-origin')
-                .css({
-                    "-webkit-transform-origin" : origin + "px",
-                    "-moz-perspective-origin" : origin + "px",
-                    "perspective-origin" : origin + "px"
-                });
-            function transStyles(prevPos) {
-                return {
-                    "position" : "relative",
-                    "left" : prevPos + "px"
-                };
+                base.isTransition = true;
+
+                base.$owlWrapper
+                    .addClass('owl-origin')
+                    .css({
+                        "-webkit-transform-origin" : origin + "px",
+                        "-moz-perspective-origin" : origin + "px",
+                        "perspective-origin" : origin + "px"
+                    });
+                function transStyles(prevPos) {
+                    return {
+                        "position" : "relative",
+                        "left" : prevPos + "px"
+                    };
+                }
+
+                $prevItem
+                    .css(transStyles(prevPos, 10))
+                    .addClass(outClass)
+                    .on(animEnd, function () {
+                        base.endPrev = true;
+                        $prevItem.off(animEnd);
+                        base.clearTransStyle($prevItem, outClass);
+                    });
+
+                $currentItem
+                    .addClass(inClass)
+                    .on(animEnd, function () {
+                        base.endCurrent = true;
+                        $currentItem.off(animEnd);
+                        base.clearTransStyle($currentItem, inClass);
+                    });
+
             }
-
-            $prevItem
-                .css(transStyles(prevPos, 10))
-                .addClass(outClass)
-                .on(animEnd, function () {
-                    base.endPrev = true;
-                    $prevItem.off(animEnd);
-                    base.clearTransStyle($prevItem, outClass);
-                });
-
-            $currentItem
-                .addClass(inClass)
-                .on(animEnd, function () {
-                    base.endCurrent = true;
-                    $currentItem.off(animEnd);
-                    base.clearTransStyle($currentItem, inClass);
-                });
+            
         },
 
         clearTransStyle : function (item, classToRemove) {

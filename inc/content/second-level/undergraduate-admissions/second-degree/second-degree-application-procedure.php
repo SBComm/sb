@@ -39,7 +39,7 @@
                         <td>
                             <ul class="default-bullets">
                                 <li>SUNY Supplement (includes an essay of at least 250 words)</li>
-                                <li><a href="http://www.stonybrook.edu/ugadmissions/forms/sbletterrec.pdf" target="_blank">Teacher/Counselor Evaluation</a></li>
+                                <li><a href="downloads/pdf/admissions/Teacher-Evaluation-Form.pdf" target="_blank">Teacher/Counselor Evaluation</a></li>
                             </ul>
                         </td>
                     </tr>

@@ -33,7 +33,7 @@ $(document).ready(function() {
         subNavLi;
 
     $('.close-the-drop-nav').click(function(event) {
-        $('.main-nav-list li').removeClass('selected');
+        $('.main-nav-list li').removeClass('active');
         dropNavId = $(this).closest('.drop-nav').data('drop-nav-id');
         hideDropNav(dropNavId);
     });
@@ -54,13 +54,13 @@ $(document).ready(function() {
 
             if($(dropNav).hasClass('open')) {
                 console.log('open');
-                $(subNavLi).removeClass('selected');
+                $(subNavLi).removeClass('active');
                 hideDropNav(dropNavId);
             } else {
                 console.log('closed');
-                $('.main-nav-list li').removeClass('selected');
+                $('.main-nav-list li').removeClass('active');
                 hideAllDropNav();
-                $(subNavLi).addClass('selected');
+                $(subNavLi).addClass('active');
                 showDropNav(dropNavId);
             }
         }

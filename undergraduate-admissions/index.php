@@ -33,6 +33,8 @@
 		    $carousel_3       = true;
 		    $carousel_4       = true;
 
+		    $lightbox 	      = true;
+
     		$search_type      = 'admissions';
     		$search_style 	  = 'stay-in-nav';
     		$nav_type		  = 'big-n-bold';

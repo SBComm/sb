@@ -6,7 +6,7 @@
 
         <meta name="author" content="Joshua Palmeri">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <meta name="description" content="">
+        <meta name="description" content="<?php echo $og_description; ?>">
         <meta name="keywords" content="Stony Brook University, SUNY Stony Brook, SUNY-SB, SUNYSB, U of Stony Brook, research university, summer session, University of Stony Brook, University at Stony Brook, Stonybrook, Admissions, College, Undergraduate, Sciences, Liberal Arts, New York, Long Island">
         <!--<meta name="format-detection" content="telephone=no">-->
 
@@ -49,6 +49,11 @@
             <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.theme.css" media="all" />
             <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.custom.css" media="all" />
             <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.transitions.css" media="all" />
+        <?php } ?>
+
+        <?php if($lightbox) { ?>
+            <link rel="stylesheet" type="text/css" href="plugins/nivo-lightbox/nivo-lightbox.css" media="all" />
+            <link rel="stylesheet" type="text/css" href="plugins/nivo-lightbox/themes/default/custom.css" media="all" />
         <?php } ?>
 
         <?php if($page_type=='social-hub') { ?>

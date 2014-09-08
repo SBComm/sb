@@ -1,5 +1,5 @@
 <article>
-    <section class="clearfix site-carousel inside-header freshman-criteria white-background">
+    <section class="clearfix site-carousel inside-header info-for white-background">
         <div class="border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
@@ -30,8 +30,8 @@
                 <p>Pay your deposits and fee, and complete your New Student Preferences by logging on to Stony Brook’s secure <a href="http://it.stonybrook.edu/services/solar" class="external-link" target="_blank">SOLAR System</a>, using your <strong>Stony Brook ID number</strong> and <strong>password</strong>. <em>Your ID number and your original password are printed on the upper right of your letter of admission. If you logged into the SOLAR System in the past, you were already prompted to change your password. If you do not remember your password, go to the SOLAR login page, select "SOLAR Password Help," and follow the instructions to reset it.</em></p>
                 <p>If you prefer to mail your payments, you may print out PDF’s of the Admission Acceptance/Deposit Form and Orientation Fee Payment Form.</p>
                 <ul class="default-bullets">
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/DepositForm.pdf" target="_blank">Admission Acceptance/Deposit Form</a></li>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/OrientationForm.pdf" target="_blank">Orientation Fee Payment Form</a></li>
+                    <li><a href="downloads/pdf/admissions/DepositForm.pdf" target="_blank">Admission Acceptance/Deposit Form</a></li>
+                    <li><a href="downloads/pdf/admissions/OrientationForm.pdf" target="_blank">Orientation Fee Payment Form</a></li>
                 </ul>
                 <p>Here is a list of the deposits:</p>
                 <ul class="arrow-bullets">
@@ -52,15 +52,15 @@
                     <li>
                         <strong>Health Forms.</strong>
                         <ul class="default-bullets">
-                            <li>The <a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/ImmunizationForm.pdf" target="_blank">Immunization Form</a> must be submitted at least two weeks prior to your Orientation date.</li>
-                            <li>The <a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/MeningitisForm.pdf" target="_blank">Meningitis Form</a> must be submitted at least two weeks prior to your Orientation date. If you are 18 years of age or older, this requirement can be met by logging on to your SOLAR account and submitting your response electronically under "Holds."</li>
-                            <li>The <a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/Health.PDF" target="_blank">Health Form</a> must be submitted before the first day of classes.</li>
+                            <li>The <a href="downloads/pdf/admissions/ImmunizationForm.pdf" target="_blank">Immunization Form</a> must be submitted at least two weeks prior to your Orientation date.</li>
+                            <li>The <a href="downloads/pdf/admissions/MeningitisForm.pdf" target="_blank">Meningitis Form</a> must be submitted at least two weeks prior to your Orientation date. If you are 18 years of age or older, this requirement can be met by logging on to your SOLAR account and submitting your response electronically under "Holds."</li>
+                            <li>The <a href="downloads/pdf/admissions/Health.pdf" target="_blank">Health Form</a> must be submitted before the first day of classes.</li>
                         </ul>
                     </li>
                     <li>
                         <strong>Disability Dervices Form </strong>(optional).
                         <ul class="default-bullets">
-                            <li>If you are a student with a disability that may impact your coursework, complete the <a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/DisabilitySupportForm.pdf" target="_blank">Voluntary Disclosure Form</a>.</li>
+                            <li>If you are a student with a disability that may impact your coursework, complete the <a href="downloads/pdf/admissions/DisabilitySupportForm.pdf" target="_blank">Voluntary Disclosure Form</a>.</li>
                         </ul>
                     </li>
                     <li>

@@ -1,7 +1,7 @@
 					<nav class="site-nav <?php echo $nav_type ?> border-box clearfix">
 		            	<div class="no-pad-wrapper clearfix">
 			            	<div class="menu-trigger border-box"><i class="icon fa fa-bars"></i></div>
-		            		<ul class="main-nav-list border-box clearfix">
+		            		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
 		            			<li class="clearfix smaller<?php if($main_nav_selected_tab==1) echo(' selected'); ?>">
 		                        	<a href="http://www.stonybrook.edu/sb/aboutsb.shtml" class="clearfix">
 		                        		<span class="label clearfix">About</span>

@@ -1,5 +1,5 @@
 <article>
-    <section class="clearfix site-carousel inside-header freshman-criteria white-background">
+    <section class="clearfix site-carousel inside-header info-for white-background">
         <div class="border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
@@ -38,7 +38,7 @@
                     <li><a class="external-link" href="http://sat.collegeboard.org/scores/send-sat-scores" target="_blank">SAT (College Board)</a></li>
                     <li><a class="external-link" href="http://www.actstudent.org/scores/send/" target="_blank">ACT</a></li>
                     <li><a class="external-link" href="http://www.ets.org/toefl/" target="_blank">TOEFL</a></li>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/forms/math.pdf" target="_blank">Stony Brook Math Expectations</a></li>
+                    <li><a href="downloads/pdf/admissions/Stony-Brook-Math-Expectations-Freshman.pdf" target="_blank">Stony Brook Math Expectations</a></li>
 
                 </ul>
 
@@ -64,7 +64,6 @@
                 <h4>Resources</h4>
                 <ul class="default-bullets">
                     <li><a href="undergraduate-admissions/contact/brochures" target="_blank">View Downloadable Brochures</a>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/forms/glance.pdf" target="_blank">Download the "Stony Brook at a Glance" Brochure</a>
                 </li>
             </div>
         </div>

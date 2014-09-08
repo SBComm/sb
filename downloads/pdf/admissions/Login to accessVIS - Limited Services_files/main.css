@@ -1,0 +1,1023 @@
+/**** General Site styling ****/
+
+html {overflow-y: scroll}
+
+body, div {
+	margin: 0px;
+	padding: 0px;
+	border: 0px none}
+
+body {
+	font: 12px verdana,sans-serif;
+	color: #333}
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: underline}
+
+*.bold {font-weight: bold}
+
+li {margin: .5em 0}
+
+div.content p {
+	line-height: 1.3em;
+	padding: .5em 0px;
+	margin: 0em}
+
+.italics {
+	font-style: italic;	
+}
+
+div.content h2 {
+	font-weight: bold;
+	font-size: 1.3em}
+
+div.content h3 {
+	font-size: 1em}
+
+h3.center {text-align: center}
+
+div.content a,
+div.popup a {
+	color: #333;
+	text-decoration: underline
+}
+
+/**** Other institutions' branding bar ****/
+
+div.branding_bar {
+	margin: auto;
+	width: 720px}
+
+/**** Branding Bar ****/
+
+div.identity {
+	width: auto;
+	overflow: hidden;
+	margin: 0px auto}
+
+/**** Main page layout graphics ****/
+
+img {border: none}
+
+div.page {
+	margin: 0px auto;
+	width: 800px}
+
+div.istartbar {
+	margin: 0 auto;
+	width: 760px;
+	height: 85px;
+	position: relative;
+}
+
+div.istartbar h1 {
+	position: absolute;
+	left: 46%;
+	color: #120c7d;
+	font: normal 60px/85px verdana,sans-serif;
+	text-align: center;
+	margin: 0;
+	text-shadow: 1px 1px 3px #444;
+}
+
+div.istart_text {
+	position: absolute;
+	right: 20px;
+	top: 8px;
+	width: 150px;
+}
+
+div.istart_text p {
+	color: #120c7d;
+	font-size: 13px;
+	line-height: 1.2;
+	text-align: right;
+}
+
+div.printheader {display: none}
+
+div.main_container {
+	position: relative;
+	background: url('../images/bg_gradient.png') repeat-x bottom;
+	margin: 0px auto;
+	padding-top: 1px; /* need this to make it appear right in standards compliant browsers */
+	width: 760px}
+
+div.top_left_shadow {
+	position: absolute;
+	top: -10px;
+	left: -11px;
+	background: url('../images/top_left_shadow.png') no-repeat top left;
+	width: 335px;
+	height: 95px;
+}
+
+div.top_shadow {
+	position: absolute;
+	top: -10px;
+	left: 324px;
+	background: url('../images/top_shadow.png') repeat-x top left;
+	width: 403px;
+	height: 95px}
+
+div.top_right_shadow {
+	position: absolute;
+	top: -10px;
+	right: -13px;
+	background: url('../images/top_right_shadow.png') no-repeat top right;
+	width: 46px;
+	height: 95px}
+
+div.left_shadow {
+	position: absolute;
+	top: 0;
+	bottom: 32px;
+	left: -10px;
+	background: url('../images/left_shadow.png') repeat-y top left;
+	width: 10px;
+}
+
+div.right_shadow {
+	position: absolute;
+	top: 0;
+	bottom: 32px;
+	right: -11px;
+	background: url('../images/right_shadow.png') repeat-y top right;
+	width: 11px;
+}
+
+div.bottom_left_shadow {
+	position: absolute;
+	bottom: -14px;
+	left: -11px;
+	background: url('../images/bottom_left_shadow.png') no-repeat bottom left;
+	width: 46px;
+	height: 46px;
+}
+
+div.bottom_shadow {
+	clear: both;
+	position: relative;
+	left: 35px;
+	bottom: -14px;
+	background: url('../images/bottom_shadow.png') repeat-x bottom;
+	width: 692px;
+	height: 14px;
+}
+
+div.bottom_right_shadow {
+	position: absolute;
+	bottom: -14px;
+	right: -13px;
+	background: url('../images/bottom_right_shadow.png') no-repeat bottom right;
+	width: 46px;
+	height: 46px;
+}
+
+div.content {
+	margin: .5em auto 1em;
+	width: 760px;
+	overflow: hidden;
+}
+
+div#left_column {
+	float: left;
+	width: 200px;
+	height: 100%;
+	margin: .5em 0px 2em 20px}
+
+div#right_column {
+	float: left;
+	width: 500px;
+	margin: .5em 20px 2em}
+
+div#one_column {
+	float: left;
+	width: 720px;
+	margin: .5em 20px 2em}
+
+/**** Left Column (non-menu stuff) ****/
+
+img.secure {
+	width: 155px;
+	height: 23px;
+	display: block;
+	margin: .5em -5px}
+
+div.student_info p.name {font-weight: bold}
+
+div#left_column div.student_info p {
+	padding: 0px;
+	margin: .5em 0px}
+
+div#left_column p {margin: 0em}
+
+div#left_column div.student_info {
+	display: block;
+	padding-left: 10px}
+
+/**** Popup Boxes ****/
+
+div.error,
+div.alert,
+div.rss {
+	width: 500px;
+	max-height: 90%;
+	overflow: hidden;
+	display: none;
+}
+
+div.error p,
+div.alert p,
+div.rss p {
+	margin: 0;
+	padding: 1em 10px;
+	overflow: auto;
+	max-height: 90%;
+}
+
+div.error h2,
+div.alert h2,
+div.rss h2 {
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+div.error ul,
+div.alert ul,
+div.rss ul {
+	margin: auto 20px;
+	padding-left: 20px;
+}
+
+/**** Error Box ****/
+
+div.error h2 {
+	background-color: #c11200;
+	border-bottom-color: #a50f00;
+	color: white;
+}
+
+div.content a.error {
+	color: #c11200;
+}
+
+/**** Info Boxes ****/
+
+div.alert h2 {
+	background-color: #dce3ef;
+	border-bottom-color: #7f9db9;
+	color: #333;
+}
+
+div.alert table {
+	margin: auto;
+}
+
+/* admission checklist form styles */
+.popup form {
+	padding: 0;
+	margin: 1em 10px;
+}
+
+.popup .checks {
+	padding: 0;
+	float: none;
+	width: auto;
+}
+
+.popup .checks .checkbx div {
+	width: auto;
+}
+
+.popup .checkbx.item {
+	float: none;
+	width: auto;
+	position: relative;
+}
+
+.popup .checkbx.item div {
+	float: none;
+	margin: 0.5em 0 0.5em 2em;
+}
+
+.popup .checkbx.item input {
+	position: absolute;
+	top: 50%;
+	padding: 0;
+	margin: -0.5em 0 0;
+}
+
+/**** RSS Info Box ****/
+
+div.rss h2 {
+	background-color: orange;
+	border-bottom-color: darkorange;
+	color: white;
+}
+
+div.rss li a {
+	color: #333;
+	text-decoration: underline;
+}
+
+/**** Processing Box ****/
+
+div.processing {
+	width: 150px;
+	display: none;
+	margin: 0px auto;
+	position: fixed;
+	overflow: hidden;
+	z-index: 100;
+	border: 2px solid #7f9db9;
+	background-color: white;
+}
+
+div.processing_image {
+	width: 32px;
+	background-color: white;
+	margin: 30px auto 0;
+}
+
+div.processing h3 {
+	margin-top: 20px;
+	font-size: 1em;
+	text-align: center}
+
+div#overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 90;
+	background-color: white}
+
+/**** Buttons for popup boxes - error ****/
+
+div.popup {
+	position: fixed;
+	top: 20px;
+	z-index: 100;
+	margin: 0px auto;
+	border: 1px solid #555;
+	padding: 0em;
+	background-color: white}
+
+div.popup div.buttons {
+	background-color: #f2f2f2;
+	padding: 8px;
+	text-align: right;
+	border-top: 1px solid #ccc;
+}
+
+div.popup h2 {
+	font-weight: bold;
+	font-size: 14px;
+	padding: 4px 10px 5px;
+	margin: 0px;
+}
+
+a.button {
+	display: inline-block;
+	border: 1px solid;
+	text-decoration: none;
+	font-size: 11px;
+	padding: 2px 10px 3px;
+}
+
+a.blue {
+	background: #3b5998;
+	border-color: #d9dfea #0e1f5b #0e1f5b #d9dfea;
+	text-decoration: none;
+	font-weight: bold;
+	color: white !important
+}
+
+a.gray {
+	background: #f2f2f2;
+	border-color: #e7e7e7 #666 #666 #e7e7e7;
+	color: black;
+}
+
+/**** homepage layout ****/
+
+div.box_left,
+div.box_right,
+div.full_box {
+	margin: 1em auto;
+	font-size: 11px;
+	border: 1px solid #7f9db9;
+}
+
+div.hidden_full_box { display: none; }
+
+div.box_left h3,
+div.box_right h3,
+div.full_box h3 {
+	background-color: #dce3ef;
+	border-bottom: 1px solid #7f9db9;
+	margin: 0 0;
+	padding: .5em 3px;
+	text-align: center;
+}
+
+div.box_left a,
+div.box_right a,
+div.full_box a {
+	line-height: 1.5em;
+	text-decoration: underline;
+}
+
+div.full_box {
+	clear: both;
+	float: none;
+	margin-top: 2em;
+}
+
+div.full_box ol {
+	margin: 1em 10px;
+	padding-left: 20px;
+}
+
+div.full_box p {
+	margin: 1em 10px;
+	padding: 0;
+}
+
+div#cases h4 {
+	font-size: 1em;
+	margin: 0;
+	padding: .5em 10px;
+	color: #666;
+}
+
+div#cases table {
+	margin: .5em 10px;
+}
+
+div#cases col.heading {
+	width: 95px;
+}
+
+div#cases td,
+div#cases th {
+	padding: 1px;
+	text-align: left;
+}
+
+div#cases div.open table th {
+	color: #00a36c;
+}
+
+div#cases div.closed {
+	background-color: #efefef;
+	margin: 0;
+}
+
+div.box_left,
+div.box_right {
+	width: 238px;
+	height: 17em;
+}
+
+div.box_left div,
+div.box_right div,
+div.box_left p,
+div.box_right p {
+	margin: .25em 10px;
+	width: auto;
+}
+
+div.box_left h3,
+div.box_right h3 {
+	margin-bottom: 1em;
+}
+
+div.box_left {
+	float: left;
+	margin-right: 10px}
+
+div.box_right {
+	float: right;
+	margin-left: 10px}
+
+div#sevis table {
+	margin: 0 auto;
+	font-size: inherit;
+	width: 218px;
+}
+
+div#sevis th,
+div#sevis td {
+	text-align: left;
+	vertical-align: top;
+	padding: 3px 0;
+}
+
+div#controls input {
+	float: left;
+	margin: 0.5em 7px .5em 0;
+	clear: left;
+	width: 13px;
+}
+
+div#controls div {
+	margin: 0.5em 10px;
+}
+
+div#controls label {
+	width: 192px;
+	float: right;
+	margin: 0.5em 0;
+}
+
+div#controls div.rss_img {
+	clear: left;
+	float: left;
+	margin-right: 0;
+}
+
+img#rss {
+	width: 44px;
+	height: 16px;
+}
+
+div#controls div.rss_link {
+	float: right;
+	width: 164px;
+	margin-left: 0;
+}
+
+div.info {clear: both}
+
+/**** Styles for other specific pages ****/
+
+/**** login page ****/
+
+div#one_column div.box_left,
+div#one_column div.box_right {
+	width: 348px;
+	height: 204px;
+	padding-bottom: 1em;
+}
+
+div#one_column div.box_left p,
+div#one_column div.box_right p {
+	padding: 0 0 .5em;
+}
+
+div#one_column div.box_left h3 {
+	margin-bottom: 1.5em;
+}
+
+div#one_column div.box_right h3 {
+	margin-bottom: 1em;
+}
+
+div#one_column ol {
+	margin: .5em auto 1em;
+	padding-left: 40px;
+}
+
+/**** eforms ****/
+
+div#left_column div.instructions p {
+	margin: auto 10px;
+	font-size: 11px;
+}
+
+*.invisible {visibility: hidden}
+
+/**** eform review controller ****/
+table.review {
+	font: inherit;
+	width: 90%;
+	margin: 0 auto 1em;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.review td {
+	width: 50%;
+	border: 1px solid #7f9db9;
+	padding: .5em 5px;
+}
+
+/**** standard 3 column table formatting ****/
+table.reviewThreeCol {
+	font: inherit;
+	width: 90%;
+	margin: 0 auto 1em;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.reviewThreeCol td {
+	border: 1px solid #7f9db9;
+	padding: .5em 5px;
+	word-break: break-word;
+}
+
+
+/**** checklist container ****/
+
+div.tabContentColumnRight a.deactivated {
+    text-decoration: none;
+}
+
+div.tab {
+	float: left;
+    border: 1px solid #7f9db9;
+    border-bottom: 0 none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #DCE3EF;
+    margin-right: -1px;
+    cursor: pointer;
+}
+
+div.tab a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 9px;
+}
+
+div.tab.first {
+    border-top-left-radius: 5px;
+}
+
+div.tab.last {
+    border-top-right-radius: 5px;
+}
+
+div.tab.active {
+    font-weight: bold;
+    background-color: #ffffff;
+    margin-top: -4px;
+    margin-bottom: -1px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: solid 1px #ffffff;
+}
+
+div.tab.active a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+div.tab.disabled {
+    color: #666;
+    background-color: #f2f2f2;
+}
+
+div.tabContainer {
+    clear: both;
+    border: 1px solid #7f9db9;
+    padding: 15px;
+    margin: 0;
+}
+
+div.tabContentColumns {
+    max-height: 325px;
+    overflow-y: auto;
+}
+
+div.tabContentColumns h3 {
+    width: 100%;
+    background-color: #DCE3EF;
+    padding: 5px;
+}
+
+div.tabContentColumns div.tabContentColumnRight h3 {
+    margin-left: -10px;
+    padding-left: 10px;
+}
+
+div.tabContentColumnLeft, div.tabContentColumnRight {
+    float: left;
+    width: 48%;
+}
+
+div.tabContentColumnLeft {
+    padding-right: 10px;
+    border-right: 1px solid #7f9db9;
+}
+
+div.tabContentColumnRight {
+    padding-left: 10px;
+    margin-left: -1px;
+    border-left: 1px solid #7f9db9;
+}
+
+div.tabFooterContainer {
+    background-color: #f2f2f2;
+    border: 1px solid #7f9db9;
+    border-top: 0 none;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 10px;
+}
+
+div.tabFooterContainer .tabFooterColumn {
+    float: left;
+    width: 232px;
+}
+
+
+/**** end checklist container ****/
+
+dl.checklist_footer {
+	background-color: #f2f2f2;
+	margin-top: 1.5em;
+	padding: 1em;
+	border: 1px solid #ccc;
+	line-height: 1.5em;
+}
+
+dl.checklist_footer dt {
+	display: inline-block;
+	margin-left: .5em;
+}
+
+dl.checklist_footer dd {
+	display: inline-block;
+	margin: .25em;
+}
+
+dl.checklist_footer dd:nth-child(3n+2) {
+	width: 15%; 
+}
+
+dl.checklist_footer dd:nth-child(3n+1) {
+	width: 23%
+}
+
+dl.checklist_footer dd:nth-child(3n) {
+	width: 30%; 
+}
+
+img.statusIcon {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-right: 5px;
+	margin-top: -8px;
+}
+
+ul.checklist {
+	list-style-type: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+div.checklist ul.checklist {
+	margin: 10px;
+}
+
+ul.checklist .listitem {
+	float: left;
+	max-width: 457px;
+	margin-left: 21px; /*image +5 */
+}
+
+ul.checklist li {
+	overflow: hidden;
+	position: relative;
+	padding: 2px 0;
+	margin: .75em 0;
+}
+
+img.listlegend {
+	vertical-align: middle;
+}
+
+.checklistForm {
+	padding: 5px;
+}
+
+.checklistForm input {
+	vertical-align: text-bottom;
+}
+
+/**** Skipnav ****/
+
+div.skipnav {
+	z-index: -1;
+	display: none;
+}
+
+div.skipnav hr {
+	display: none;
+}
+
+/**** Institution footer ****/
+
+div.footer {
+	clear: left;
+	width: auto;
+	margin-top: 0px;
+	padding: 15px 0px;
+}
+
+/* Display the noscript date inline with
+the rest of the copyright statement.
+Keep to validate XHTML Strict */
+
+*.inline {display: inline}
+
+/****************************************
+ * Dashboard
+ ***************************************/
+
+/**** Dashboard ****/
+div#dashboard {
+	margin: .5em 20px 2em;
+}
+
+div#dashboard div.box_left,
+div#dashboard div.box_right {
+	margin: 1em 0;
+}
+
+div#dashboard div.box_left p
+div#dashboard div.box_right p {
+	padding: 0;
+}
+
+/* #dynamic holds the graph and the loading graphic */
+div#dynamic {
+	margin: 1.5em auto 0;
+	width: 720px;
+}
+
+div#dynamic_graph {
+	width: 720px;
+	margin: 0 auto;
+}
+
+div#dynamic_graph object {
+	display: block;
+	margin: 5px auto;
+}
+
+div#dynamic table {
+	border: 0px none;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+div#dynamic td,
+div#dynamic tr,
+div#dynamic th {
+	border: 1px solid #7f9db9;
+	text-align: center;
+	font-size: 11px;
+	color: #666;
+}
+
+div#dynamic th {
+	background-color: #DCE3EF;
+	color: #333;
+}
+
+div#dynamic_graph table.graph {
+	empty-cells: show;
+	width: 720px;
+}
+
+div#dynamic_graph div.left {
+	float: left;
+}
+
+/**** loading page styles ****/
+
+div#loading {
+	margin: 0 auto;
+	text-align: center;
+	width: 40%;
+	height: 500px;
+}
+
+div#loading img {
+	margin: 50px auto 0;
+	text-align: center;
+}
+
+div#loading p {
+	color: #120C7D;
+	text-align: center;
+	font: bold italic 35px Verdana,arial,helvetica,sans-serif;
+}
+
+/* .dl_info is the div containing the links for saving and viewing the graphs */
+
+div.dl_info {
+	font-size: 11px;
+	margin: 10px auto;
+	width: 350px;
+}
+
+div.dl_info p.left {
+	float: left;
+}
+
+div.dl_info p.right {
+	float: right;
+}
+
+/* #filter is the div holding the options for filtering */
+
+div#filter {
+	margin: 1em 0;
+	padding: 0 10px 1em;
+	font-size: 11px;
+	border: 1px solid #7f9db9;
+	overflow: hidden;
+	clear: both;
+}
+
+div#filter h3 {
+	background-color: #dce3ef;
+	border-bottom: 1px solid #7f9db9;
+	margin: 0em -10px 1em;
+	padding: 5px 0;
+	text-align: center;
+}
+
+div#filter h4 {
+	margin: 0 0 0 2px;
+	font-size: 11px;
+}
+
+div#filter p {
+	padding: 0px 10px .5em;
+}
+
+div#general {
+	float: left;
+}
+
+div#citizenship {
+	float: right;
+	max-width: 371px;
+}
+
+*.selectStyle {
+	font-size: 10px;
+	color: black;
+	text-align:left;
+	border: 1px solid #7F9DB9;
+	padding: 2px;
+	margin: 1px;
+}
+
+div#general .selectStyle {
+	width: 190px;
+	}
+
+div#citizenship .selectStyle {
+	width: 215px;
+}
+
+div#citizenship .flags, #control_buttons {
+	text-align: right;
+}
+
+div#student_reports,
+div#scholar_reports {
+	height: 300px;
+	width: 348px;
+}
+
+div#dynamic .top {
+	clear: both;
+}
+
+div#dynamic .finNotes {
+	clear: both;
+}
+
+div#dashboard div.left {
+	float: left;
+	clear: both;
+}
+
+div#dashboard div.middle {
+	float: left;
+}
+
+div#dashboard div.right {
+	float: right;
+}
+
+div#dashboard div.column {
+	position: relative;
+	width: 48%;
+}
+
+div#dashboard div.box_left p,
+div#dashboard div.box_right p {
+	padding: 0;
+}

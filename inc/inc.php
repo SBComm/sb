@@ -34,9 +34,17 @@
     $second_level      = '';            //Name of the slug for second-level page type, for specific css, e.g. jobs.css
     $inside_page       = false;            //Name of the slug for second-level page type, for specific css, e.g. jobs.css
     $page_cat          = 'main';        //Options are main (for first and second level), sub (for sites)
-    $page_title        = 'Stony Brook University, Stony Brook, New York';
-    $page_description  = 'From its beginnings a half-century ago, Stony Brook University has been characterized by innovation, energy, and progress, transforming the lives of people who earn degrees, work, and make groundbreaking discoveries here. A dramatic trajectory of growth has turned what was once a small teacher preparation college into an internationally recognized research institution that is changing the world.';
-    $page_title_sub    = '';
+    $page_title        = 'Stony Brook University, New York';
+    $page_description  = 'Find out why Stony Brook University has become an internationally recognized research institution that is changing the world. Explore programs and degrees offered for endless career opportunities. Start your journey in education today!"';
+
+    if($page_type=='second-level' && $second_level=='undergrad-admissions') {
+        $keywords          = "Stony Brook University,Undergraduate Admissions,Admissions,Majors,Minors,Special Programs,Visiting,About,Transfer Office,Transfer,Young Scholars Program,Honors,University Scholars,Admitted,International,Open House,Tour,Scholarships";
+        $page_title_sub    = 'Undergraduate Admissions';
+    } else {
+        $keywords          = "Stony Brook University, SUNY Stony Brook, SUNY-SB, SUNYSB, U of Stony Brook, research university, summer session, University of Stony Brook, University at Stony Brook, Stonybrook, Admissions, College, Undergraduate, Sciences, Liberal Arts, New York, Long Island">
+        $page_title_sub    = '';
+    }
+
     $page_title_full   = $page_title . $page_title_sub;
 
     $og_title          = 'Stony Brook University';
@@ -62,6 +70,8 @@
     $carousel         = false;
     $carousel_2       = false;
     //$carousel_3       = false;
+
+    $lightbox         = false;
 
     $equal_col        = false;
 

@@ -203,8 +203,11 @@
                             <div class="social-other-label-container sbu-text-shadow">Career Center</div>
                             <div class="social-channels-container">
                                 <a href="https://www.facebook.com/pages/Stony-Brook-University-Career-Center/146234656050" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://www.facebook.com/sbucareer?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
                                 <a href="http://twitter.com/SBCareerCenter" target="_blank"><i class="fa fa-twitter"></i></a>
                                 <a href="http://www.youtube.com/user/CareerCenterSBU" target="_blank"><i class="fa fa-youtube"></i></a>
+                                <a href="http://instagram.com/sbcareercenter/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="http://goo.gl/NoIp0Z" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">

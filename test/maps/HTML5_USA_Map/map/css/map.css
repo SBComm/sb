@@ -1,0 +1,41 @@
+#map {
+	float:left;
+	clear:both;
+}
+
+/*the hover text for each state or point */
+#map ~ .point {
+	position:fixed;
+	display:none;
+	padding:10px 15px;
+	background:#f2f2f2;
+	font-size:14px;
+	font-weight:bold;
+	border:1px solid #262626;
+
+	-moz-border-radius: 4px; /* FF1-3.6 */
+	-webkit-border-radius: 4px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+	 border-radius: 4px 4px 4px 4px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */    
+	/* useful if you don't want a bg color from leaking outside the border: */        
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+#map #text {
+	float:left;
+	width:500px;
+	height: 380px;
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+#map img {
+	float: left;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+#map ul{
+	margin-left: 30px;
+}
+
+

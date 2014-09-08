@@ -1,5 +1,5 @@
 <article>
-    <section class="clearfix site-carousel inside-header freshman-criteria white-background">
+    <section class="clearfix site-carousel inside-header info-for white-background">
         <div class="border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
@@ -54,15 +54,15 @@
                     <li>
                         <strong>Health Forms.</strong>
                         <ul class="default-bullets">
-                            <li>The <a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/ImmunizationForm.pdf" target="_blank">Immunization Form</a> must be submitted at least two weeks prior to your Orientation date.</li>
-                            <li>The <a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/MeningitisForm.pdf" target="_blank">Meningitis Form</a> must be submitted at least two weeks prior to your Orientation date. If you are 18 years of age or older, this requirement can be met by logging on to your SOLAR account and submitting your response electronically under "Holds."</li>
-                            <li>The <a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/Health.PDF" target="_blank">Health Form</a> must be submitted before the first day of classes.</li>
+                            <li>The <a href="downloads/pdf/admissions/ImmunizationForm.pdf" target="_blank">Immunization Form</a> must be submitted at least two weeks prior to your Orientation date.</li>
+                            <li>The <a href="downloads/pdf/admissions/MeningitisForm.pdf" target="_blank">Meningitis Form</a> must be submitted at least two weeks prior to your Orientation date. If you are 18 years of age or older, this requirement can be met by logging on to your SOLAR account and submitting your response electronically under "Holds."</li>
+                            <li>The <a href="downloads/pdf/admissions/Health.PDF" target="_blank">Health Form</a> must be submitted before the first day of classes.</li>
                         </ul>
                     </li>
                     <li>
                         <strong>Disability Dervices Form </strong>(optional).
                         <ul class="default-bullets">
-                            <li>If you are a student with a disability that may impact your coursework, complete the <a href="http://www.stonybrook.edu/ugadmissions/admitted/forms/DisabilitySupportForm.pdf" target="_blank">Voluntary Disclosure Form</a>.</li>
+                            <li>If you are a student with a disability that may impact your coursework, complete the <a href="downloads/pdf/admissions/DisabilitySupportForm.pdf" target="_blank">Voluntary Disability Disclosure Form</a>.</li>
                         </ul>
                     </li>
                 </ol>

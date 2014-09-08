@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Interactive SVG USA Map Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		img { margin-bottom:15px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Interactive SVG USA Map&rdquo; Documentation by &ldquo;LGLab&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Interactive SVG USA Map&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 08/12/2011<br>
+					By: <a href="http://marketplace.envato.com/user/LGLab" target="_blank">LGLab</a><br>
+					<a href="http://www.motionflashdesigns.com/">www.motionflashdesigns.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://marketplace.envato.com/user/LGLab" target="_blank">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#install">Installation</a></li>
+            <li><a href="#size">Changing the size of the map</a></li>
+            <li><a href="#settings">General settings</a></li>
+            <li><a href="#text">Side text option</a></li>
+            <li><a href="#defaultText">Default side text</a></li>
+            <li><a href="#stateData">Individual state settings</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="install"><strong>A) Installation</strong> - <a href="#toc">top</a></h3>
+		<p>To add the map to your website, open the index.html for the version you have chosen, and start by importing the fonts.css and map.css withing the head tag of your site:</p>
+        
+           <img src="assets/images/css.jpg" alt=""><br />
+           
+        <p>Then import all the js files within the head tag as well:</p>
+        
+         <img src="assets/images/js.jpg" alt=""><br />
+         
+         <p>Make sure to also copy and paste all these files in your website directory keeping the same structure relative to the page you want to load the map into.</p>
+         
+         <p>Finally copy/paste the mapWrapper div and its content where you want to include the map on your page:</p>
+        
+         <img src="assets/images/mapWrapper.jpg" alt=""><br />
+    
+
+
+		<hr>
+
+		<h3 id="size"><strong>B) Changing the size of the map</strong> - <a href="#toc">top</a></h3>
+
+		<p>The map's original dimensions are 930px wide by 590px high, try to keep as close to this ratio when resizing the map. To change the size open the usaMapSettings.xml file located in the xml folder, and at the top adjust the width and height to your desired ones:</p>
+          
+          <img src="assets/images/size.jpg" alt=""><br />
+
+		<hr>
+        
+        
+        <h3 id="settings"><strong>C) General settings</strong> - <a href="#toc">top</a></h3>
+
+		<p>If you wish to disable some of the states, you can choose a different color for those by adjusting the offColor parameter in the xml file:</p>
+          
+          <img src="assets/images/offColor.jpg" alt=""><br />
+          
+          <p>You can change the stroke color for the map by adjusting the strokeColor parameter with your color:</p>
+          
+          <img src="assets/images/strokeColor.jpg" alt=""><br />
+
+		<hr>
+        
+        <h3 id="text"><strong>D) Side text option</strong> - <a href="#toc">top</a></h3>
+
+		<p>The simple version of the map navigates to an external URL when a state is clicked, you can however chose to display some text in a side bar instead, to do so set the useSideText parameter to true and adjust the textAreaWidth and textAreaPadding parameters accordingly:</p>
+          
+          <img src="assets/images/sideText.jpg" alt=""><br />
+
+		<hr>
+        
+        <h3 id="defaultText"><strong>E) Default side text</strong> - <a href="#toc">top</a></h3>
+
+		<p>If you choose to use the version with the text, you can set a default text content when the map first loads before a user clicks any state. To do so update the text content within the CDATA of the defaultSideText node:</p>
+          
+          <img src="assets/images/defaultText.jpg" alt=""><br />
+
+		<hr>
+        
+        <h3 id="stateData"><strong>E) Individual state settings</strong> - <a href="#toc">top</a></h3>
+
+		<p>In the xml file, each state is defined within a stateData node, everything within each of these tags belongs to that state. The first part of the stateData nodes include parameters for that particular state which you can adjust:</p>
+          
+          <img src="assets/images/stateData.jpg" alt=""><br />
+          
+        <p><b>stateName:</b> The text that will appear in the tooltip.</p>
+        <p><b>url:</b> The URL to navigate to when a state is clicked in the simple version.</p>
+        <p><b>stateMode:</b> Determines if that state is active or not, set to <b>OFF</b> to disable a state.</p>
+        <p><b>initialStateColor:</b> The default color for that state.</p>
+        <p><b>stateOverColor:</b> The color for that state when the user mouses over it.</p>
+        <p><b>stateSelectedColor:</b> The color for that state when the user has clicked it.</p>
+        
+        <p>Finally for each state, if you have chosen the version of the map with side text, you can change that text for each state within the CDATA of each stateData tag:</p>
+          
+          <img src="assets/images/individualText.jpg" alt=""><br />
+        
+
+		<hr>
+		
+		
+        
+
+		
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

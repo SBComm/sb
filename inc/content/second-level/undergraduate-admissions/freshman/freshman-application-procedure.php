@@ -74,7 +74,7 @@
                             <td>
                                 <ul class="default-bullets">
                                     <li>SUNY Supplement (includes an essay of at least 250 words)</li>
-                                    <li><a href="http://www.stonybrook.edu/ugadmissions/forms/sbletterrec.pdf" target="_blank">Teacher/Counselor Evaluation</a></li>
+                                    <li><a href="downloads/pdf/admissions/Teacher-Evaluation-Form.pdf" target="_blank">Teacher/Counselor Evaluation</a></li>
                                 </ul>
                             </td>
                         </tr>
@@ -104,7 +104,7 @@
                                 <span class="instruction">Self-report your academic record using <a class="external-link" href="http://www.suny.edu/attend/apply-to-suny/suny-online-academic-record-soar/">SOAR</a>.</span>
                             </li>
                             <li>
-                                <span class="instruction">Ask your high school to fax or mail us your official high school transcript, along with the <a href="http://www.stonybrook.edu/admissions/forms/transmittal.pdf" target="_blank">Transmittal Form</a>.
+                                <span class="instruction">Ask your high school to fax or mail us your official high school transcript, along with the <a href="downloads/pdf/admissions/Guidance-Counselor-Transmittal.pdf" target="_blank">Transmittal Form</a>.
                                     <span class="phone">Fax: <strong>(631) 632-9898</strong></span>
                                     Credentials faxed directly from the high school should not be mailed. Send items that cannot be faxed to:
                                     <span class="address">Stony Brook University<br />

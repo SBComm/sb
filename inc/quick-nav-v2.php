@@ -9,7 +9,7 @@
 		                        	</a>
 		                        </li>
 		                        <li>
-		                        	<a href="http://www.stonybrook.edu/sb/directories.shtml">
+		                        	<a href="undergraduate-admissions/contact/request-information/">
 		                        		<i class="icon fa fa-info-circle clearfix"></i>
 		                        		<span class="label clearfix">Get Info</span>
 		                        	</a>
@@ -21,7 +21,7 @@
 		                        	</a>
 		                        </li>-->
 		                        <li class="mobile">
-		                        	<a href="http://www.stonybrook.edu/sb/jobs.shtml">
+		                        	<a href="http://localhost:8888/sb/undergraduate-admissions/application-status/">
 		                        		<i class="icon fa fa-check-square-o clearfix"></i>
 		                        		<span class="label clearfix">Status</span>
 		                        	</a>
@@ -33,13 +33,13 @@
 		                        	</a>
 		                        </li>
 		                        <li class="tablet mobile">
-		                        	<a href="http://www.stonybrook.edu/mycloud/">
+		                        	<a href="http://localhost:8888/sb/undergraduate-admissions/contact/brochures/">
 		                        		<i class="icon fa fa-book clearfix"></i>
 		                        		<span class="label clearfix">Brochures</span>
 		                        	</a>
 		                        </li>
 		                        <li class="tablet mobile">
-		                        	<a href="https://blackboard.stonybrook.edu/" class="clearfix">
+		                        	<a href="undergraduate-admissions/virtual-tour/" class="clearfix">
 		                        		<i class="icon fa fa-map-marker clearfix"></i>
 		                        		<span class="label clearfix">Virtual Tour</span>
 		                        	</a>

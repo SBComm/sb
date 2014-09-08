@@ -28,11 +28,13 @@
 		    $page_footer      = true;
 
 		    //$audience_nav_selected_tab = 6;
-		    $sub_nav_selected_tab = 1;
+		    $sub_nav_selected_tab = 6;
 
 		    $carousel 	      = true;
 		    $carousel_3       = true;
 		    $carousel_4       = true;
+
+		    $equal_col		  = true;
 
     		$search_type      = 'admissions';
     		$search_style 	  = 'stay-in-nav';
