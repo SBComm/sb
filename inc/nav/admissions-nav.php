@@ -1,6 +1,6 @@
 <nav class="sub-nav <?php echo $nav_type ?> border-box clearfix">
 	<div class="no-pad-wrapper clearfix">
-    	<div class="menu-trigger border-box"><i class="icon fa fa-bars"></i></div>
+    	<div class="menu-trigger border-box clearfix"><i class="icon fa fa-bars"></i></div>
 		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
 			<li class="clearfix<?php if($sub_nav_selected_tab==1) echo(' selected'); ?>">
             	<a href="undergraduate-admissions/apply" class="clearfix" data-drop-nav-id="1">
@@ -33,7 +33,7 @@
             	</a>
             </li>
 		</ul>
-    	<div class="search-container <?php echo $search_style ?> border-box">
+    	<div class="search-container <?php echo $search_style ?> clearfix border-box">
         	<?php if($search_type=='default') { ?>
         		<form name="site-search" class="search-wrapper" action="http://www.stonybrook.edu/search/?" method="get">
             		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search...">
@@ -164,12 +164,12 @@
 					<span class="label clearfix">Campus<br />Maps</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="05">
+			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="04">
 				<a href="undergraduate-admissions/visit/coming-to-you" class="clearfix">
 					<span class="label clearfix">Coming to You</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="06" data-last-child="true" data-image="map">
+			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="05" data-last-child="true" data-image="map">
 				<a href="undergraduate-admissions/visit" class="clearfix">
 					<span class="label clearfix">Plan Your Visit</span>
 				</a>
@@ -208,12 +208,12 @@
 					<span class="label clearfix">Request<br />Info</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==34) echo('selected'); ?>" data-li-order="04">
+			<li class="<?php if($drop_nav_selected_tab==34) echo('selected'); ?>" data-li-order="05">
 				<a href="undergraduate-admissions/contact/brochures" class="clearfix">
 					<span class="label clearfix">Brochures</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="05" data-last-child="true" data-image="iphone">
+			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="06" data-last-child="true" data-image="iphone">
 				<a href="undergraduate-admissions/contact/request-information" class="clearfix">
 					<span class="label clearfix">Receive Updates</span>
 				</a>

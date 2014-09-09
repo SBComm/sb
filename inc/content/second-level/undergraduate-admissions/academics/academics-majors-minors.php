@@ -504,7 +504,7 @@
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
-                            <a href="undergraduate-admissions/academics/program-details?code=mth">Mathematics, BS</a>
+                            <a href="undergraduate-admissions/academics/program-details?code=mat">Mathematics, BS</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>

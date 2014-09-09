@@ -28,17 +28,24 @@
             <div id="map">Loading...</div>
             <div id="text"></div>
 
-            <div class="button-wrapper intl-btn">
+            <div class="button-wrapper intl-btn clearfix">
                 <a href="undergraduate-admissions/contact/meet-your-counselor/view?region=intl" class="rounded-button-1 icon world-icon">
                     <span class="label">International</span>
                 </a>
             </div>
 
-            <div class="button-wrapper all-btn">
+            <div class="button-wrapper all-btn clearfix">
                 <a href="undergraduate-admissions/contact/meet-your-counselor/view" class="rounded-button-1 icon users-icon">
                     <span class="label">All Counselors</span>
                 </a>
             </div>
+
+            <div class="button-wrapper ny-btn clearfix">
+                <a href="undergraduate-admissions/contact/meet-your-counselor/view?region=ny" class="rounded-button-1 icon marker-icon">
+                    <span class="label">NY Counselors</span>
+                </a>
+            </div>
+
 
         </div>
     </section>

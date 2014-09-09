@@ -28,6 +28,7 @@
     $site_nav        = "site-nav.php";
     $sub_nav         = "sub-nav.php";
     $footerbar       = "footerbar.php";
+    $site_config     = "site-config.php";
 
     /* Meta Variables Defaults */
     $page_type         = 'default';     //Options are default, second-level, social-hub, bulletin
@@ -36,14 +37,8 @@
     $page_cat          = 'main';        //Options are main (for first and second level), sub (for sites)
     $page_title        = 'Stony Brook University, New York';
     $page_description  = 'Find out why Stony Brook University has become an internationally recognized research institution that is changing the world. Explore programs and degrees offered for endless career opportunities. Start your journey in education today!"';
-
-    if($page_type=='second-level' && $second_level=='undergrad-admissions') {
-        $keywords          = "Stony Brook University,Undergraduate Admissions,Admissions,Majors,Minors,Special Programs,Visiting,About,Transfer Office,Transfer,Young Scholars Program,Honors,University Scholars,Admitted,International,Open House,Tour,Scholarships";
-        $page_title_sub    = 'Undergraduate Admissions';
-    } else {
-        $keywords          = "Stony Brook University, SUNY Stony Brook, SUNY-SB, SUNYSB, U of Stony Brook, research university, summer session, University of Stony Brook, University at Stony Brook, Stonybrook, Admissions, College, Undergraduate, Sciences, Liberal Arts, New York, Long Island">
-        $page_title_sub    = '';
-    }
+    $keywords          = "Stony Brook University, SUNY Stony Brook, SUNY-SB, SUNYSB, U of Stony Brook, research university, summer session, University of Stony Brook, University at Stony Brook, Stonybrook, Admissions, College, Undergraduate, Sciences, Liberal Arts, New York, Long Island">
+    $page_title_sub    = '';
 
     $page_title_full   = $page_title . $page_title_sub;
 

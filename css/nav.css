@@ -334,8 +334,8 @@
 	font-family: 'Trade Gothic W01 Light';
     border: 1px solid #777;
     display: table;
-    border-radius: 50%;
-    padding: 30px 10px;
+    border-radius: 60px;
+    padding: 0 10px;
     width: 120px;
     height: 120px;
 	-webkit-box-sizing: border-box;
@@ -867,6 +867,7 @@
 	    width: 200px;
 	    height: 200px;
 	    font-size: 1.7em;
+	    border-radius: 100px;
 	}
 }
 
@@ -1836,6 +1837,7 @@
 	    width: 135px;
 	    height: 135px;
 	    font-size: 1.1em;
+	    border-radius: 70px;
 	}
 
 	.drop-nav li:last-child a,
@@ -1843,6 +1845,7 @@
 	    width: 185px;
 	    height: 185px;
 	    position: relative;
+	    border-radius: 93px;
 	}
 
 	.drop-nav li:last-child a:before,

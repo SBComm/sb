@@ -41,7 +41,7 @@
 		<script src="js/vendor/jquery.easing.compatibility.js"></script>
 		<script src="js/vendor/jquery.scrollTo.min.js"></script>
 		<script src="js/vendor/jquery.localScroll.min.js"></script>
-		<script src="js/vendor/jquery.ba-bbq.min.js"></script>
+		<script src="js/vendor/jquery.ba-bbq.js"></script>
 		<script src="js/vendor/jquery.motio.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
@@ -379,6 +379,7 @@
 	            <?php if($page_scroll) { ?>
 	            	//define scrollto target for page load
 	            	var scrollToTarget = '';
+	            	var currWidth = $(window).width();
 		        	<?php if($page_scroll_el=='logo') { ?>
 		        		scrollToTarget = '.logo-container';
 		            <?php } else if($page_scroll_el=='audience-nav') { ?>
@@ -389,7 +390,14 @@
 		            	scrollToTarget = '100%';
 		            <?php } ?>
 		            if(scrollToTarget) {
-		           		$('body').scrollTo( scrollToTarget, <?php echo $page_scroll_time; ?> );
+		            	<?php if($page_scroll_mobile==true) { ?>
+		            		if(currWidth<1022) {
+		            			$('body').scrollTo( scrollToTarget, <?php echo $page_scroll_time; ?> );
+		            		}
+				           
+				        <?php } else { ?>
+				        	$('body').scrollTo( scrollToTarget, <?php echo $page_scroll_time; ?> );
+				         <?php } ?>
 		            }
 
 		        <?php } ?>

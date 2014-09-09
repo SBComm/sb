@@ -296,7 +296,7 @@ section.main-cta {
 }
 
 .cost-calculator:hover a {
-    text-decoration: 
+    text-decoration: none;
 }
 
 .cost-calculator .left {

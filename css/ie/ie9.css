@@ -21,4 +21,13 @@
 	.sub-nav .search-container input[type="text"].focus {
 		width: 137px !important;
 	}
+
+	/* admissions home */
+	.site-carousel .carousel-image .item {
+		height: 550px !important;
+	}
+	.student-quotes .person-wrapper .table-cell {
+		height: 300px;
+	}
 }
+

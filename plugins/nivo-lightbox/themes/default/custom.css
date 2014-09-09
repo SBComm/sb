@@ -8,7 +8,7 @@
  */
  
 .nivo-lightbox-theme-default.nivo-lightbox-overlay { 
-	background: #888;
+	background: #222;
 	background: rgba(0,0,0,0.8); 
 }
 .nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { background: url(loading.gif) no-repeat 50% 50%; }

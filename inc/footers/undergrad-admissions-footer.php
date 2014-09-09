@@ -2,12 +2,12 @@
                     <nav class="wrapper">
                          <div class="clearfix">
                          	<div class="col col-1 equal-col">
-                         		<a href="http://career.stonybrook.edu/employers" title="Apply to Stony Brook">Apply</a>
-                                   <a href="http://www.stonybrook.edu/commcms/bnl/" title="Visit Stony Brook University">Plan a Visit</a>
-                         		<a href="http://career.stonybrook.edu/alumni_new" title="ResearchFields of Study">Majors &amp; Degrees</a>
-                         		<a href="http://startup.ny.gov/" target="blank" title="Financial Information">Cost &amp; Value</a>
-                         		<a href="http://www.cewit.org/" target="blank" title="CEWIT Incubator">Admissions Brochures</a>
-                         		<a href="http://www.aertc.org/" target="blank" title="AERTC Incubator">Request Information</a>
+                         		<a href="undergraduate-admissions/apply/" title="Apply to Stony Brook">Apply</a>
+                                   <a href="undergraduate-admissions/visit/" title="Visit Stony Brook University">Plan a Visit</a>
+                         		<a href="undergraduate-admissions/academics" title="ResearchFields of Study">Majors &amp; Degrees</a>
+                         		<a href="undergraduate-admissions/cost-and-financial-aid/" target="blank" title="Financial Information">Cost &amp; Value</a>
+                         		<a href="undergraduate-admissions/contact/brochures/" target="blank" title="CEWIT Incubator">Admissions Brochures</a>
+                         		<a href="undergraduate-admissions/contact/request-information/" target="blank" title="AERTC Incubator">Request Information</a>
                          	</div>
                          	<div class="col col-2 equal-col">
                          		<span class="address">

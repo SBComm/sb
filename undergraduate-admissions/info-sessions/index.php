@@ -38,7 +38,13 @@
 
     		$inside_page = true;
 		?>
-
+	
+	<!-- <site config> -->
+		<?php 
+			$file  = $site_config;
+			include($path . $file);
+		?>
+	<!-- </site config> -->
 	<!-- <head> -->
 		<?php 
 			$file  = $header;

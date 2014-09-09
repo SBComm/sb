@@ -1,6 +1,6 @@
 					<nav class="site-nav <?php echo $nav_type ?> border-box clearfix">
 		            	<div class="no-pad-wrapper clearfix">
-			            	<div class="menu-trigger border-box"><i class="icon fa fa-bars"></i></div>
+			            	<div class="menu-trigger border-box clearfix"><i class="icon fa fa-bars"></i></div>
 		            		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
 		            			<li class="clearfix smaller<?php if($main_nav_selected_tab==1) echo(' selected'); ?>">
 		                        	<a href="http://www.stonybrook.edu/sb/aboutsb.shtml" class="clearfix">
@@ -48,7 +48,7 @@
 		                        	</a>
 		                        </li>
 		            		</ul>
-			            	<div class="search-container <?php echo $search_style ?> border-box">
+			            	<div class="search-container <?php echo $search_style ?> clearfix border-box">
 			            		<form class="search-wrapper">
 				            		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search..."><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Do search">
 						                <i class="icon fa fa-search"></i>

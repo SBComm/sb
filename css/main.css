@@ -281,6 +281,10 @@ a[href$=".pptx"]:after {
     width: 100%;
 }
 
+.height-700 {
+    min-height: 700px;
+}
+
 .padding-box {
     padding: 20px 25px;
 }
@@ -697,7 +701,7 @@ body {
         font-size: 28px;
         border: 1px solid #900;
         border-radius: 15px;
-        padding: 18px 24px 18px 68px;
+        padding: 18px 14px 18px 68px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -1497,6 +1501,7 @@ body {
 
     .sbu-cta-1 {
         color: #990000;
+        background: #fff;
         background: rgba(255,255,255,.8);
         border: 2px solid #990000 !important;
     }
@@ -2604,7 +2609,6 @@ footer.site-footer .social .small-button:after {
 }
 
 @media only screen and (max-width: 1021px) {
-
     .hide-accessible-mobile {
         position: absolute !important;
         top: -99999px !important;
@@ -2614,7 +2618,6 @@ footer.site-footer .social .small-button:after {
         width: 2000px;
         height: 2000px;
     }
-
 }
 
 .visuallyhidden {

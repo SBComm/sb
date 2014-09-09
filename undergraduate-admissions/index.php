@@ -33,7 +33,7 @@
 		    $carousel_3       = true;
 		    $carousel_4       = true;
 
-		    $lightbox 	      = true;
+		    //$lightbox 	      = true;
 
     		$search_type      = 'admissions';
     		$search_style 	  = 'stay-in-nav';
@@ -41,6 +41,11 @@
     		$social_sidebar   = 'admissions';
 
     		$motio  		  = true;
+
+    		$page_scroll      = true;
+	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
+	        $page_scroll_time = 0;
+	        $page_scroll_mobile = true;
 		?>
 
 	<!-- <head> -->

@@ -42,11 +42,11 @@
             <div class="side-title-links-wrapper">
                 <div class="side-title"><span>Info For</span></div>
                 <div class="links-wrapper">
-                    <a href="#"><span class="label">Future Students</span><em class="fa fa-angle-right"></em><span class="after-text">See yourself at SBU...</span></a>
-                    <a href="#"><span class="label">Admitted Students</span><em class="fa fa-angle-right"></em><span class="after-text">Get the information you need...</span></a>
-                    <a href="#"><span class="label">College Counselors</span><em class="fa fa-angle-right"></em><span class="after-text">Criteria, deadlines, and more...</span></a>
-                    <a href="#"><span class="label">Parents</span><em class="fa fa-angle-right"></em><span class="after-text">Helping you decide...</span></a>
-                    <a href="#"><span class="label">Applicants</span><em class="fa fa-angle-right"></em><span class="after-text">Check your status...</span></a>
+                    <a href="undergraduate-admissions/future-students/"><span class="label">Future Students</span><em class="fa fa-angle-right"></em><span class="after-text">See yourself at SBU...</span></a>
+                    <a href="undergraduate-admissions/admitted/"><span class="label">Admitted Students</span><em class="fa fa-angle-right"></em><span class="after-text">Get the information you need...</span></a>
+                    <a href="undergraduate-admissions/college-counselors/"><span class="label">College Counselors</span><em class="fa fa-angle-right"></em><span class="after-text">Criteria, deadlines, and more...</span></a>
+                    <a href="undergraduate-admissions/parents"><span class="label">Parents</span><em class="fa fa-angle-right"></em><span class="after-text">Helping you decide...</span></a>
+                    <a href="undergraduate-admissions/applicants"><span class="label">Applicants</span><em class="fa fa-angle-right"></em><span class="after-text">Check your status...</span></a>
                 </div>
             </div>
 
@@ -62,8 +62,8 @@
                 </a>
             </div>
 
-            <div class="cost-calculator">
-                <a href="#" class="clearfix">
+            <div class="cost-calculator clearfix">
+                <a href="undergraduate-admissions/cost-and-financial-aid/" class="clearfix">
                     <div class="left">
                         Costs &amp;<br />Financial<br />Aid <em class="fa fa-angle-double-right"></em>
                     </div>
@@ -71,7 +71,7 @@
                         <img src="img/misc/calculator.png" alt="Calculator" />
                     </div>
                 </a>
-            <div>
+            </div>
         </div>
     </section>
 
@@ -127,16 +127,16 @@
     <section class="clearfix white-background cta-items arrow-below arrow-below-white">
         <div class="white-fade-bottom">
             <div class="wrapper border-box clearfix">
-                <a href="#" title="">
+                <a href="undergraduate-admissions/apply" title="Apply to Stony Brook University">
                     <span>apply</span>
                 </a>
-                <a href="#" title="">
+                <a href="undergraduate-admissions/visit" title="Visit Stony Brook">
                     <span>visit</span>
                 </a>
-                <a href="#" title="">
+                <a href="undergraduate-admissions/contact/request-information" title="Request more information">
                     <span>request info</span>
                 </a>
-                <a href="#" title="">
+                <a href="undergraduate-admissions/application-status/" title="Check your application status">
                     <span>application status</span>
                 </a>
             </div>
@@ -226,6 +226,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="item">
                         <div class="text-wrapper">
                             <p>I’ve been able to study abroad during winter and summers and also have been able to complete all my courses during the semesters to graduate in four years.<br /><em>&#8211;Ariana</em></p>
@@ -236,6 +237,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                     <div class="item">
                         <div class="text-wrapper">
                             <div class="table-cell">

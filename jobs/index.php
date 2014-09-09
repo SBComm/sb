@@ -19,7 +19,7 @@
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    //$og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
-		    $og_url          = 'http://www.stonybrook.edu/economic-development';
+		    $og_url          = 'http://www.stonybrook.edu/jobs';
 
 		    $page_to_top_link = true;
 
@@ -78,7 +78,7 @@
 
 		                <!-- <economic-development> -->
 							<?php 
-								$file = "jobs.php";
+								$file = "jobs/jobs.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </economic-development> -->

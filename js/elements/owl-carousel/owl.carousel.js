@@ -291,6 +291,10 @@ if (typeof Object.create !== "function") {
                 }
             };
             $(window).resize(base.resizer);
+            $(document).ready(function() {
+                lastWindowWidth=-1;
+                base.resizer;
+            });
         },
 
         updatePosition : function () {

@@ -33,7 +33,7 @@
 		                        	</a>
 		                        </li>
 		            		</ul>
-			            	<div class="search-container border-box">
+			            	<div class="search-container default clearfix border-box">
 				            	<?php if($search_type=='default') { ?>
 				            		<form name="site-search" class="search-wrapper" action="http://www.stonybrook.edu/search/?" method="get">
 					            		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search...">
