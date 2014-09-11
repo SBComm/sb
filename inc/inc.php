@@ -11,8 +11,7 @@
         $is_proofing_environment = false;
         $is_production_environment = false;
     } else if($_SERVER['SERVER_NAME'] == 'mobile.cc.stonybrook.edu') {
-        $dev_dir = '/development/sb/';
-        if($_SERVER['REQUEST_URI']==$dev_dir) {
+        if($_SERVER['REQUEST_URI']=='/development/sb/') {
             $site          = 'development/sb';
             $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
