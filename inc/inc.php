@@ -14,7 +14,7 @@
         $dev_dir = '/development/sb/';
         if($_SERVER['REQUEST_URI']==$dev_dir) {
             $site          = 'development/sb';
-            $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb';
+            $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $is_proofing_environment = true;
             $is_production_environment = false;
