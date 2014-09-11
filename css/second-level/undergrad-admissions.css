@@ -1305,6 +1305,7 @@ footer.site-footer {
         width: 100%;
         position: relative;
         height: 100%;
+        overflow: visible;
     }
     
     .student-quotes .person-wrapper img {
