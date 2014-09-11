@@ -6,8 +6,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
+			$this_dir = $_SERVER['REQUEST_URI'];
 			$dev_dir = '/development/sb/';
-			$is_dev = strpos($_SERVER['REQUEST_URI'],$dev_dir);
+			$is_dev = strpos($this_dir,$dev_dir);
 			if($is_dev !== false) {
 				$inc = $_SERVER['DOCUMENT_ROOT'] . "/development/sb/inc/inc.php";
 			} else {

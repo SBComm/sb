@@ -10,8 +10,8 @@
         $is_local_environment = true;
         $is_proofing_environment = false;
         $is_production_environment = false;
-    } else if($_SERVER['SERVER_NAME'] == 'mobile.cc.stonybrook.edu') {
-        if($_SERVER['REQUEST_URI']=='/development/sb/') {
+    } else {
+        if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb';
             $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
@@ -34,6 +34,7 @@
         $secLv   = "second-level/";
         $sites   = "sites/";
 
+    $server          = "server.php";
     $global          = "global.php";
     $header          = "header.php";
     $quick_nav       = "quick-nav-v2.php";
