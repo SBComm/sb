@@ -74,12 +74,12 @@
 					<!-- </site-nav> -->
 		        </div>
 		        <div class="main-container">
-		            <div class="main clearfix height-600">
+		            <div class="main clearfix">
 
 		                <!-- <main-content> -->
 							<?php
-								//$file = "main-content-styles-playground.php";
-								//include($path . $content . $test . $file);
+								$file = "sitemap/sitemap.php";
+								include($path . $content . $file);
 							?>
 						<!-- </main-content> -->
 

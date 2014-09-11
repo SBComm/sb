@@ -289,6 +289,10 @@ a[href$=".pptx"]:after {
     padding: 20px 25px;
 }
 
+.pad-top {
+    padding-top: 20px;
+}
+
 .no-margin {
     margin: 0 !important;
 }
@@ -438,6 +442,10 @@ a[href$=".pptx"]:after {
 
 .black-background {
     background: #000;
+}
+
+.white-background {
+    background: #fff;
 }
 
 .dark-grey-background {
