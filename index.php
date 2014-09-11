@@ -8,7 +8,7 @@
 		<?php
 			$dev_dir = '/development/sb/';
 			$is_dev = strpos($_SERVER['REQUEST_URI'],$dev_dir);
-			if($is_dev === true) {
+			if($is_dev !== false) {
 				$inc = $_SERVER['DOCUMENT_ROOT'] . "/development/sb/inc/inc.php";
 			} else {
 				$inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
