@@ -10,11 +10,12 @@
         $is_local_environment = true;
         $is_proofing_environment = false;
         $is_production_environment = false;
-    } else if($_SERVER['SERVER_NAME'] == 'mobile.cc.stonybrook.edu') {
+    } else {
         $dev_dir = '/development/sb/';
-        if($_SERVER['PATH_INFO']==$dev_dir) {
+        echo('$_SERVER[REQUEST_URI]= "'.$_SERVER['REQUEST_URI'].'"<br />');
+        if($_SERVER['REQUEST_URI']==$dev_dir) {
             $site          = 'development/sb';
-            $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/';
+            $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $is_proofing_environment = true;
             $is_production_environment = false;
