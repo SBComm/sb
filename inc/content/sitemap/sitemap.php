@@ -8,7 +8,7 @@
                     <li><a href="undergraduate-admissions/">Undergraduate Admissions</a></li>
                     <li><a href="economic-development/">Economic Development</a></li>
                     <li><a href="jobs/">Jobs</a></li>
-                    <li><a href="jobs/error">Jobs Error Page</a></li>
+                    <li><a href="hsc-bulletin/">HSC Bulletin</a></li>
                 </ul>
             </div>
         </div>
