@@ -6,8 +6,10 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
-			if($_SERVER['REQUEST_URI']=='/development/sb/') {
-				$inc = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI'] . "inc/inc.php";
+			$dev_dir = '/development/sb/';
+			$is_dev = strpos($_SERVER['REQUEST_URI'],$dev_dir);
+			if($is_dev === true) {
+				$inc = $_SERVER['DOCUMENT_ROOT'] . "/development/sb/inc/inc.php";
 			} else {
 				$inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
 			}
@@ -29,9 +31,12 @@
 		?>
 	<!-- </head> -->
     <body>
-        <!--[if lt IE 8]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience. Thanks!</p>
-        <![endif]-->
+        <!-- <global> -->
+			<?php 
+				$file  = $global;
+				include($path . $file);
+			?>
+		<!-- </global> -->
 
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">
@@ -68,17 +73,12 @@
 					<!-- </site-nav> -->
 		        </div>
 		        <div class="main-container">
-		            <div class="main clearfix">
+		            <div class="main clearfix height-600">
 
 		                <!-- <main-content> -->
 							<?php
-								$file = "main-content-styles-playground.php";
+								//$file = "main-content-styles-playground.php";
 								//include($path . $content . $test . $file);
-								if($is_proofing_environment) { ?>
-									You are on proofing!
-								<?php } else {
-
-								}
 							?>
 						<!-- </main-content> -->
 

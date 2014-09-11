@@ -34,6 +34,7 @@
         $secLv   = "second-level/";
         $sites   = "sites/";
 
+    $global          = "global.php";
     $header          = "header.php";
     $quick_nav       = "quick-nav-v2.php";
     $more_nav        = "more-nav-v2.php";
