@@ -6,7 +6,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
-			$inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
+			$this_dir = $_SERVER['REQUEST_URI'];
+			$dev_dir = '/development/sb/';
+			$is_dev = strpos($this_dir,$dev_dir);
+			if($is_dev !== false) {
+				$inc = $_SERVER['DOCUMENT_ROOT'] . "/development/sb/inc/inc.php";
+			} else {
+				$inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
+			}
 			include($inc);
 		?>
 	<!-- </inc> -->
@@ -55,9 +62,12 @@
 		?>
 	<!-- </head> -->
     <body>
-        <!--[if lt IE 8]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience. Thanks!</p>
-        <![endif]-->
+        <!-- <global> -->
+			<?php 
+				$file  = $global;
+				include($path . $file);
+			?>
+		<!-- </global> -->
 
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">

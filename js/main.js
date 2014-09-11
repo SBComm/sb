@@ -182,6 +182,11 @@ $(document).ready(function() {
 		}
 	});
 */
+
+	/* Proofing */
+	$('#proofing-message .close-proofing-message').on('click',function() {
+		$('#proofing-message').remove();
+	});
 	/* Eco dev */
 	$('.show-center-info').click(function(event) {
 		event.preventDefault();
