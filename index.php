@@ -71,9 +71,17 @@
 								$file = "main-content-styles-playground.php";
 								//include($path . $content . $test . $file);
 								echo $_SERVER['REQUEST_URI'];
+								echo ('proofing: ' . $is_proofing_environment);
 								if($is_proofing_environment) { ?>
 									You are on proofing!
-								<?php }
+								<?php } else {
+
+								}
+
+								$dev_dir = '/development/sb/';
+        						if($_SERVER['REQUEST_URI']==$dev_dir) {
+        							echo 'here';
+        						}
 							?>
 						<!-- </main-content> -->
 
