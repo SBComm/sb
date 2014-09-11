@@ -70,7 +70,7 @@
 							<?php
 								$file = "main-content-styles-playground.php";
 								//include($path . $content . $test . $file);
-								echo $_SERVER['SERVER_NAME'];
+								echo $_SERVER['REQUEST_URI'];
 							?>
 						<!-- </main-content> -->
 
