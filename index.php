@@ -69,7 +69,8 @@
 		                <!-- <main-content> -->
 							<?php
 								$file = "main-content-styles-playground.php";
-								include($path . $content . $test . $file);
+								//include($path . $content . $test . $file);
+								echo $_SERVER['SERVER_NAME'];
 							?>
 						<!-- </main-content> -->
 

@@ -21,7 +21,7 @@
 		                        	</a>
 		                        </li>-->
 		                        <li class="mobile">
-		                        	<a href="http://localhost:8888/sb/undergraduate-admissions/application-status/">
+		                        	<a href="undergraduate-admissions/application-status/">
 		                        		<i class="icon fa fa-check-square-o clearfix"></i>
 		                        		<span class="label clearfix">Status</span>
 		                        	</a>
@@ -33,7 +33,7 @@
 		                        	</a>
 		                        </li>
 		                        <li class="tablet mobile">
-		                        	<a href="http://localhost:8888/sb/undergraduate-admissions/contact/brochures/">
+		                        	<a href="undergraduate-admissions/contact/brochures/">
 		                        		<i class="icon fa fa-book clearfix"></i>
 		                        		<span class="label clearfix">Brochures</span>
 		                        	</a>

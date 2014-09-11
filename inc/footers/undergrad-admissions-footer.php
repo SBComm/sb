@@ -3,11 +3,11 @@
                          <div class="clearfix">
                          	<div class="col col-1 equal-col">
                          		<a href="undergraduate-admissions/apply/" title="Apply to Stony Brook">Apply</a>
+                         		<a href="undergraduate-admissions/academics" title="Research Majors and Degrees">Majors &amp; Degrees</a>
+                         		<a href="undergraduate-admissions/cost-and-financial-aid/" title="Financial Costs">Cost &amp; Value</a>
                                    <a href="undergraduate-admissions/visit/" title="Visit Stony Brook University">Plan a Visit</a>
-                         		<a href="undergraduate-admissions/academics" title="ResearchFields of Study">Majors &amp; Degrees</a>
-                         		<a href="undergraduate-admissions/cost-and-financial-aid/" target="blank" title="Financial Information">Cost &amp; Value</a>
-                         		<a href="undergraduate-admissions/contact/brochures/" target="blank" title="CEWIT Incubator">Admissions Brochures</a>
-                         		<a href="undergraduate-admissions/contact/request-information/" target="blank" title="AERTC Incubator">Request Information</a>
+                                   <a href="undergraduate-admissions/campus-life/" title="Student Life at Stony Brook">Campus Life</a>
+                         		<a href="undergraduate-admissions/contact/" title="Contact Admissions">Contact</a>
                          	</div>
                          	<div class="col col-2 equal-col">
                          		<span class="address">
@@ -15,7 +15,7 @@
                                         Stony Brook University<br />
                                         118 Administration Building<br />
      							<span class="nowrap">Stony Brook, NY 11794-3364</span><br />
-     							<a class="address-link small-button" href="https://www.google.com/maps/preview?q=118+Administration+Building+Stony+Brook,+NY+11794-3364" target="_blank" title="View map of Office of Economic Development"><em class="fa fa-map-marker icon"></em>View map</a>
+     							<a class="address-link small-button" href="https://www.google.com/maps/preview?q=118+Administration+Building+Stony+Brook,+NY+11794-3364" target="_blank" title="View map of Stony Brook Admissions"><em class="fa fa-map-marker icon"></em>View map</a>
      							<span class="phone nowrap">(631) 632-6868</span>
                          		</span>
                          	</div>

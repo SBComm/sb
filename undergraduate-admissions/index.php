@@ -15,12 +15,15 @@
 			$page_type       = 'second-level';
     		$page_cat        = 'sub'; // for site tagline logo container
 			$second_level    = 'undergrad-admissions';
-			$page_title_sub  = 'Undergraduate Admissions';
-			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
-		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    //$og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
-		    $og_url          = 'undergraduate-admissions';
+			$keywords          = "Stony Brook University,Undergraduate Admissions,Admissions,Majors,Minors,Special Programs,Visiting,About,Transfer Office,Transfer,Young Scholars Program,Honors,University Scholars,Admitted,International,Open House,Tour,Scholarships";
+	        $page_title        = 'Stony Brook University, New York';
+	        $page_title_sub    = 'Undergraduate Admissions';
+	        $page_title_full   = $page_title . ' | ' . $page_title_sub;
+
+	        $og_title        = 'Stony Brook ' . $page_title_sub;
+	        $og_description  = $page_description;
+	        $og_url          = 'undergraduate-admissions';
 
 		    $page_to_top_link = true;
 
@@ -33,7 +36,7 @@
 		    $carousel_3       = true;
 		    $carousel_4       = true;
 
-		    //$lightbox 	      = true;
+		    $lightbox 	      = true;
 
     		$search_type      = 'admissions';
     		$search_style 	  = 'stay-in-nav';
@@ -42,10 +45,7 @@
 
     		$motio  		  = true;
 
-    		$page_scroll      = true;
-	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
-	        $page_scroll_time = 0;
-	        $page_scroll_mobile = true;
+    		$page_scroll      = false;
 		?>
 
 	<!-- <head> -->

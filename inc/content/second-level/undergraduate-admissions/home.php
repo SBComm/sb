@@ -10,17 +10,17 @@
                     </div>
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="02">
-                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
+                            <h1 class="admissions-tagline top">We <span>are</span> <em>Seawolves</em></h1>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="03">
-                            <h1 class="admissions-tagline top">We <span>are</span> <em>Seawolves</em></h1>
+                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="04">
-                            <h1 class="admissions-tagline top">We <span>are</span> <em>Seawolves</em></h1>
+                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
                         </div>
                     </div>
                     <div class="item">
@@ -51,7 +51,7 @@
             </div>
 
             <div class="virtual-tour">
-                <a href="undergraduate-admissions/virtual-tour/" class="button-wrapper clearfix">
+                <a href="undergraduate-admissions/virtual-tour/" class="button-wrapper clearfix" target="_blank">
                     <div class="top-half">
                         Virtual Tour
                     </div>

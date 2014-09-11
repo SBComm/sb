@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if IE 9]>         <html class="no-js ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" style="height: 100%;"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" style="height: 100%;"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" style="height: 100%;"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js ie9" style="height: 100%;"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" style="height: 100%;"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
 			$inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
@@ -15,32 +15,6 @@
 			$page_type       = 'second-level';
     		$page_cat        = 'sub'; // for site tagline logo container
 			$second_level    = 'undergrad-admissions';
-			$page_title_sub  = 'Undergraduate Admissions';
-			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
-
-		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    //$og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
-		    $og_url          = 'undergraduate-admissions';
-
-		    $page_to_top_link = true;
-
-		    $page_footerbar   = true;
-		    $page_footer      = true;
-
-		    //$audience_nav_selected_tab = 6;
-
-		    $carousel 	      = true;
-		    $carousel_3       = true;
-		    $carousel_4       = true;
-
-		    $lightbox 	      = true;
-
-    		$search_type      = 'admissions';
-    		$search_style 	  = 'stay-in-nav';
-    		$nav_type		  = 'big-n-bold';
-    		$social_sidebar   = 'admissions';
-
-    		$motio  		  = true;
 		?>
 
 	<!-- <site config> -->

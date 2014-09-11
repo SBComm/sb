@@ -19,17 +19,17 @@
     background-position: 50% 20%;
 }
 
-.carousel-image[data-image='02'] {
+.carousel-image[data-image='03'] {
     background-image: url("../../img/student-life/marquee-journalism-768.jpg");
     background-position: 20% 20%;
 }
 
-.carousel-image[data-image='03'] {
+.carousel-image[data-image='02'] {
     background-image: url("../../img/student-life/marquee-stadium-768.jpg");
 }
 
 .carousel-image[data-image='04'] {
-    background-image: url("../../img/students/staller-lawn-768.jpg");
+    background-image: url("../../img/student-life/marquee-wolfie-768.jpg");
 }
 
 .carousel-image[data-image='05'] {
@@ -580,6 +580,7 @@ section.student-quotes {
     vertical-align: bottom;
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 
 .student-quotes .person-wrapper img {
@@ -590,7 +591,9 @@ section.student-quotes {
 }
 
 .student-quotes .person-wrapper img.michael {
-    max-width: 600px;
+    max-width: 550px;
+    width: 550px;
+    margin-left: -250px;
 }
 
 .student-quotes .person-wrapper img.taylor {
@@ -986,17 +989,17 @@ footer.site-footer {
         background-position: 50% 20%;
     }
 
-    .carousel-image[data-image='02'] {
+    .carousel-image[data-image='03'] {
         background-image: url("../../img/student-life/marquee-journalism-2000.jpg");
         background-position: 50% 20%;
     }
 
-    .carousel-image[data-image='03'] {
+    .carousel-image[data-image='02'] {
         background-image: url("../../img/student-life/marquee-stadium-2000.jpg");
     }
 
     .carousel-image[data-image='04'] {
-        background-image: url("../../img/students/staller-lawn-1600.jpg");
+        background-image: url("../../img/student-life/marquee-wolfie-2000.jpg");
     }
 
     .carousel-image[data-image='05'] {
@@ -1293,7 +1296,7 @@ footer.site-footer {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        height: 100%;
+        height: 300px;
     }
 
 
@@ -1319,6 +1322,7 @@ footer.site-footer {
     .student-quotes .person-wrapper img.michael {
         width: 500px;
         max-width: 500px;
+        margin-left: 0;
     }
 
     .student-quotes .person-wrapper img.taylor {

@@ -37,7 +37,7 @@
                 <p>If you need a disability-related accommodation, or have any other concerns, please call (631) 632-6868.</p>
                 <h4>Virtual Tour</h4>
                 <div class="button-wrapper tour-btn clearfix">
-                    <a href="http://www.stonybrook.edu/ugadmissions/tour/360.shtml" class="rounded-button-1 icon tablet-icon">
+                    <a href="undergraduate-admissions/virtual-tour/" class="rounded-button-1 icon tablet-icon" target="_blank">
                         <span class="label">Take Our Virtual Tour!</span>
                     </a>
                 </div>
