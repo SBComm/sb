@@ -6,7 +6,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
-			$inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
+			if($_SERVER['REQUEST_URI']=='/development/sb/') {
+				$inc = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI'] . "inc/inc.php";
+			} else {
+				$inc = $_SERVER['DOCUMENT_ROOT'] . "/sb/inc/inc.php";
+			}
 			include($inc);
 		?>
 	<!-- </inc> -->

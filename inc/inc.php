@@ -10,9 +10,8 @@
         $is_local_environment = true;
         $is_proofing_environment = false;
         $is_production_environment = false;
-    } else {
+    } else if($_SERVER['SERVER_NAME'] == 'mobile.cc.stonybrook.edu') {
         $dev_dir = '/development/sb/';
-        echo('$_SERVER[REQUEST_URI]= "'.$_SERVER['REQUEST_URI'].'"<br />');
         if($_SERVER['REQUEST_URI']==$dev_dir) {
             $site          = 'development/sb';
             $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb';
