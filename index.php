@@ -72,6 +72,8 @@
 								//include($path . $content . $test . $file);
 								echo $_SERVER['REQUEST_URI'];
 								echo ('proofing: ' . $is_proofing_environment);
+								echo ('prod: ' . $is_production_environment);
+								echo ('local: ' . $is_local_environment);
 								if($is_proofing_environment) { ?>
 									You are on proofing!
 								<?php } else {
