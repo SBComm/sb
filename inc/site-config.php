@@ -9,6 +9,8 @@
         $og_description  = $page_description;
         $og_url          = 'undergraduate-admissions';
 
+        $fade_in_page     = true;
+
         $page_scroll      = true;
         $page_scroll_el   = 'main-nav';     //Options are audience-nav, logo, main-nav, bottom
         $page_scroll_time = 0;

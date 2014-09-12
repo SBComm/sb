@@ -1,6 +1,12 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
+        <?php if($fade_in_page) { ?>
+        	<script type="text/javascript">
+        		$('.fade-in-page').addClass('absolute-white-cover');
+        	</script>
+        <?php } ?>
+
 		<script type="text/javascript" src="js/cd-dropdown/jquery.dropdown.js"></script>
 		<script type="text/javascript">
 			$( function() {
@@ -403,3 +409,11 @@
 		        <?php } ?>
 	        })
 		</script>
+
+		<?php if($fade_in_page) { ?>
+        	<script type="text/javascript">
+        		$(document).ready(function() {
+        			$('.fade-in-page').delay(800).fadeOut('slow');
+        		});
+        	</script>
+        <?php } ?>

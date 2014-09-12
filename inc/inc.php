@@ -96,6 +96,8 @@
     $map              = false;
     $live_filter      = false;
 
+    $fade_in_page     = false;
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;    //Options are

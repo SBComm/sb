@@ -13,3 +13,6 @@
         </div>
     <?php }
 ?>
+<?php if($fade_in_page) { ?>
+    <div class="fade-in-page absolute-white-cover"></div>
+<?php } ?>

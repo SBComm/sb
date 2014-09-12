@@ -523,6 +523,20 @@ body {
     margin: 0 4px 0 0;
 }
 
+.absolute-white-cover {
+    position: absolute;
+    z-index: 10000000;
+    background: #fff;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.no-js .absolute-white-cover {
+    display: none !important;
+}
+
 /* SBU styles */
 
     /* fonts */
