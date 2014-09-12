@@ -532,10 +532,19 @@ body {
     bottom: 0;
     right: 0;
     height: 100000px;
+    opacity: 1;
+}
+
+body {
+    visibility: hidden;
 }
 
 .no-js .absolute-white-cover {
     display: none !important;
+}
+
+.no-js body {
+    visibility: visible;
 }
 
 /* SBU styles */

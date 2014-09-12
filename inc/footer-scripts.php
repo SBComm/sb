@@ -407,6 +407,7 @@
 		<?php if($fade_in_page) { ?>
         	<script type="text/javascript">
         		$(document).ready(function() {
+        			$('body').css('visibility','visible');
         			$('.fade-in-page').delay(800).fadeOut('slow');
         		});
         	</script>
