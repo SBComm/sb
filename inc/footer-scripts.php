@@ -151,9 +151,9 @@
 
 			    $('#totop').on('click',function(event) {
 					<?php if($page_to_top_loc=='default') { ?>
-						$('body').scrollTo( '0px', 1000, {easing:'easeOutQuad'} );
+						$('body').scrollTo( '0px', 500, {easing:'easeOutQuad'} );
 					<?php } else if($page_to_top_loc=='main-nav') { ?>
-						$('body').scrollTo( '.main-nav-container', 1000, {easing:'easeOutQuad'} );
+						$('body').scrollTo( '.main-nav-container', 500, {easing:'easeOutQuad'} );
 					<?php } ?>
 				});
 			});
