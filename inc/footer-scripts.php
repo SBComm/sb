@@ -361,14 +361,9 @@
 
 		            $('#status').fadeOut(); // will first fade out the loading animation
 		            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-
-				<?php } ?>
-
-				<?php if($page_type=='social-hub') { ?>
-					//on pages where body is default visibility:hidden
 		            $('body').delay(350).css({'overflow':'visible'});
 
-		        <?php } ?>
+				<?php } ?>
 
 		        <?php if($page_to_top_link) { ?>
 		        	//hide link by default
