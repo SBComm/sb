@@ -293,6 +293,10 @@ a[href$=".pptx"]:after {
     padding-top: 20px;
 }
 
+.no-pad {
+    padding: 0 !important;
+}
+
 .no-margin {
     margin: 0 !important;
 }
@@ -1751,7 +1755,7 @@ body {
     /* Inside content */
 
     section.inside-content {
-        padding: 0 0 20px;
+    padding: 0 0 20px;
     }
 
     section.inside-content .wrapper {
@@ -1796,7 +1800,8 @@ body {
         margin: 0;
     }
 
-    .inside-content .section-nav a {
+    .inside-content .section-nav a,
+    .inside-content .section-nav-trigger a {
         width: 100%;
         font-family:'Trade Gothic Next W01';
         color: #000;
@@ -1858,6 +1863,43 @@ body {
         border-radius: 5px;
         font-size: .95em;
         opacity: .95;
+    }
+
+    .inside-content .section-nav-trigger a {
+        background: #eee;
+        position: relative;
+    }
+
+    .inside-content .section-nav-trigger a.active,
+    .inside-content .section-nav-trigger a:hover {
+        background: #222;
+        color: #fff;
+    }
+
+    .inside-content .section-nav-trigger a:after {
+        display: inline-block;
+        content: "\f0d7";
+        margin: 0;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        font-size: 1.3em;
+        width: 10px;
+        text-align: center;
+        color: #900;
+        position: absolute;
+        right: 14px;
+        top: 12px;
+    }
+
+    .inside-content .section-nav-trigger a.active:after,
+    .inside-content .section-nav-trigger a:hover:after {
+        color: #eee;
     }
 
     .inside-content h3 {
@@ -2011,8 +2053,13 @@ body {
             padding: 0 40px 0 0;
         }
 
+        .inside-content .section-nav-trigger {
+            display: none;
+            visibility: hidden;
+        }
+
         .inside-content .section-nav {
-            display: inline-block;
+            display: inline-block !important;
             margin: 8px 0 0 0;
             width: auto;
             border: 1px solid #555;
@@ -2648,6 +2695,18 @@ footer.site-footer .social .small-button:after {
    right: -99999px !important;
    width: 2000px;
    height: 2000px;
+}
+
+@media only screen and (max-width: 960px) {
+    .hide-accessible-mobile-960 {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        bottom: -99999px !important;
+        right: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
 }
 
 @media only screen and (max-width: 1021px) {

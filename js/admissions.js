@@ -48,10 +48,6 @@ $(document).ready(function() {
             dropNav = $("nav.drop-nav[data-drop-nav-id='" + dropNavId + "']");
             subNavLi = $(this).closest('li');
 
-            console.log(dropNavId);
-            console.log(dropNav);
-            console.log(subNavLi);
-
             if($(dropNav).hasClass('open')) {
                 console.log('open');
                 $(subNavLi).removeClass('active');
@@ -63,6 +59,29 @@ $(document).ready(function() {
                 $(subNavLi).addClass('active');
                 showDropNav(dropNavId);
             }
+        }
+
+    });
+
+    // section subnav
+
+    $('.section-nav-trigger a').on('click',function(event){
+        event.preventDefault();
+        $(this).toggleClass('active');
+        $sectionNav = $('.section-nav');
+
+        if($sectionNav.hasClass('open')) {
+            $sectionNav.fadeIn(0,function(){
+              $sectionNav.removeClass('open')
+                .slideUp('fast',function() {
+                    $sectionNav.addClass('hide-accessible-mobile-960')
+                });
+            });
+        } else {
+            $sectionNav.fadeOut(0,function(){
+              $sectionNav.removeClass('hide-accessible-mobile-960').addClass('open')
+                .slideDown('fast');
+            });
         }
 
     });

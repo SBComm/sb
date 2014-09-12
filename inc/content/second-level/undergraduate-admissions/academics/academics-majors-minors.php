@@ -10,7 +10,7 @@
             </div>
         </div>
     </section>
-    <section class="clearfix inside-content two-col white-background">
+    <section class="clearfix inside-content two-col white-background no-pad">
         <div class="border-box wrapper clearfix">
             <header class="section-header clearfix">
                 <?php

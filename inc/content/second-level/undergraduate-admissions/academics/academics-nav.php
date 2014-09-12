@@ -1,7 +1,10 @@
 <div class="section-title">
     <a href="undergraduate-admissions/academics"><h2>academics</h2></a>
 </div>
-<nav class="section-nav">
+<div class="section-nav-trigger" title="Show navigation for this section">
+	<a href="#">Section Menu</a>
+</div>
+<nav class="section-nav hide-accessible-mobile-960">
 	<a <?php if($selected_sub_nav==1) { ?>class="selected" <?php } ?>href="undergraduate-admissions/academics">Majors &amp; Minors</a>
 	<a <?php if($selected_sub_nav==2) { ?>class="selected" <?php } ?>href="undergraduate-admissions/academics/pre-professional-programs">Pre Professional</a>
 	<a <?php if($selected_sub_nav==3) { ?>class="selected" <?php } ?>href="undergraduate-admissions/academics/combined-degrees">Combined Degrees</a>
