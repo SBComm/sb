@@ -524,13 +524,14 @@ body {
 }
 
 .absolute-white-cover {
-    position: absolute;
+    position: fixed;
     z-index: 10000000;
     background: #fff;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    height: 100000px;
 }
 
 .no-js .absolute-white-cover {
