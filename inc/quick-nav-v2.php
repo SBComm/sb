@@ -9,27 +9,15 @@
 		                        	</a>
 		                        </li>
 		                        <li>
-		                        	<a href="undergraduate-admissions/contact/request-information/">
-		                        		<i class="icon fa fa-info-circle clearfix"></i>
-		                        		<span class="label clearfix">Get Info</span>
-		                        	</a>
-		                        </li><!--
-		                        <li>
-		                        	<a href="http://www.stonybrook.edu/sb/contact/">
-		                        		<i class="icon fa fa-mobile clearfix"></i>
-		                        		<span class="label clearfix">Contact</span>
-		                        	</a>
-		                        </li>-->
-		                        <li class="mobile">
 		                        	<a href="undergraduate-admissions/application-status/">
 		                        		<i class="icon fa fa-check-square-o clearfix"></i>
 		                        		<span class="label clearfix">Status</span>
 		                        	</a>
 		                        </li>
 		                        <li>
-		                        	<a href="http://it.stonybrook.edu/services/solar/">
-		                        		<i class="icon fa fa-shield clearfix"></i>
-		                        		<span class="label clearfix">Solar</span>
+		                        	<a href="undergraduate-admissions/contact/request-information/">
+		                        		<i class="icon fa fa-info-circle clearfix"></i>
+		                        		<span class="label clearfix">Get Info</span>
 		                        	</a>
 		                        </li>
 		                        <li class="tablet mobile">
@@ -37,19 +25,43 @@
 		                        		<i class="icon fa fa-book clearfix"></i>
 		                        		<span class="label clearfix">Brochures</span>
 		                        	</a>
-		                        </li>
-		                        <li class="tablet mobile">
-		                        	<a href="undergraduate-admissions/virtual-tour/" class="clearfix">
-		                        		<i class="icon fa fa-map-marker clearfix"></i>
-		                        		<span class="label clearfix">Virtual Tour</span>
+		                        </li><!--
+		                        <li>
+		                        	<a href="http://www.stonybrook.edu/sb/contact/">
+		                        		<i class="icon fa fa-mobile clearfix"></i>
+		                        		<span class="label clearfix">Contact</span>
+		                        	</a>
+		                        </li>--><!--
+		                        <li>
+		                        	<a href="http://it.stonybrook.edu/services/solar/">
+		                        		<i class="icon fa fa-shield clearfix"></i>
+		                        		<span class="label clearfix">Solar</span>
+		                        	</a>
+		                        </li>-->
+		                        <li>
+		                        	<a href="undergraduate-admissions/academics">
+		                        		<i class="icon fa fa-graduation-cap clearfix"></i>
+		                        		<span class="label clearfix">Majors</span>
 		                        	</a>
 		                        </li>
+		                        <li class="mobile">
+		                        	<a href="undergraduate-admissions/visit/" class="clearfix">
+		                        		<i class="icon fa fa-map-marker clearfix"></i>
+		                        		<span class="label clearfix">Visit</span>
+		                        	</a>
+		                        </li>
+		                        <li class="tablet mobile">
+		                        	<a href="undergraduate-admissions/visit/directions-and-parking/">
+		                        		<i class="icon fa fa-arrow-circle-right clearfix"></i>
+		                        		<span class="label clearfix">Directions</span>
+		                        	</a>
+		                        </li><!--
 		                        <li>
 		                        	<span class="more-trigger">
 		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
 		                        		<span class="label clearfix">More<span class="extra-label"> Links</span></span>
 		                        	</span>
-		                        </li>
+		                        </li>-->
 		                        <li class="desktop for-info">
 		                        	<span class="audience-trigger">
 		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
