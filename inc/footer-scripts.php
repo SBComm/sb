@@ -148,6 +148,14 @@
 					$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '46px' });
 					/*$(".site-carousel h1").fitText(1, { minFontSize: '30px', maxFontSize: '100px' });*/
 			    //]]>
+
+			    $('#totop').on('click',function(event) {
+					<?php if($page_to_top_loc=='default') { ?>
+						$('body').scrollTo( '0px', 1000, {easing:'easeOutQuad'} );
+					<?php } else if($page_to_top_loc=='main-nav') { ?>
+						$('body').scrollTo( '.main-nav-container', 1000, {easing:'easeOutQuad'} );
+					<?php } ?>
+				});
 			});
 		</script>
 		<script src="js/vendor/selectivizr-min.js"></script>

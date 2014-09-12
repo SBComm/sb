@@ -11,6 +11,8 @@
 
         $page_loader     = true;
 
+        $page_to_top_loc  = 'main-nav'; //default, main-nav
+
         $page_scroll      = true;
         $page_scroll_el   = 'main-nav';     //Options are audience-nav, logo, main-nav, bottom
         $page_scroll_time = 0;

@@ -69,10 +69,6 @@ $(document).ready(function() {
 	    }
 	}, 1250);
 
-	$('#totop').on('click',function(event) {
-		$('body').scrollTo( '0px', 1000, {easing:'easeOutQuad'} );
-	});
-
 	/* nav */
 	$('.more-trigger').on('click',function(){
 		//console.log('clicked more-trigger');

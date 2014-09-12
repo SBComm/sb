@@ -66,6 +66,7 @@
 
     /* Page Include Controls */
     $page_to_top_link = false; // speed is defined in main.js click function
+    $page_to_top_loc  = 'default'; //default, main-nav
 
     $page_loader      = false;
     //$page_loader_text = '';
