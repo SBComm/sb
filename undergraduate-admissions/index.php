@@ -54,10 +54,10 @@
 
     		$page_loader     = true;
 
-    		/*$page_scroll      = true;
+    		$page_scroll      = true;
 	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
-	        $page_scroll_time = 0;
-	        $page_scroll_mobile = true;*/
+	        $page_scroll_time = 1500;
+	        $page_scroll_mobile = true;
 		?>
 
 	<!-- <head> -->
