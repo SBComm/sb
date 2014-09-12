@@ -523,28 +523,14 @@ body {
     margin: 0 4px 0 0;
 }
 
-.absolute-white-cover {
-    position: fixed;
-    z-index: 10000000;
-    background: #fff;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100000px;
-    opacity: 1;
-}
-
-.no-js .absolute-white-cover {
-    display: none !important;
-}
-
-.absolute-white-cover ~ .sbu-wrapper {
-    opacity: .1;
-}
-
-.no-js .absolute-white-cover ~ .sbu-wrapper {
-    opacity: 1;
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:999999; /* makes sure it stays on top */
 }
 
 /* SBU styles */

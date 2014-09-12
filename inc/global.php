@@ -16,3 +16,9 @@
 <?php if($fade_in_page) { ?>
     <div class="fade-in-page absolute-white-cover"></div>
 <?php } ?>
+<?php if($page_loader) { ?>
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <style type="text/css"> body { overflow: hidden; } </style>
+<?php } ?>
