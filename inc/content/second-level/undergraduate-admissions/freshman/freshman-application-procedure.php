@@ -160,7 +160,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>Home-schooled students comprise a small yet growing percentage of Stony Brook's applicant pool. We are happy to accept and review applications from students who have been home-schooled.</p>
-                                <p><a href="http://www.stonybrook.edu/ugadmissions/homeschooled/" target="_blank">Get more information</a></p>
+                                <p><a href="undergraduate-admissions/future-students/home-school-students/" target="_blank">Get more information</a></p>
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,8 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p><a href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">Get more information</a></p>
+                                <p>At Stony Brook, we offer a variety of Honors Programs for our academically talented students.</p>
+                                <p><a href="undergraduate-admissions/academics/honors/">Get more information</a></p>
                             </div>
                         </div>
                     </div>
@@ -182,7 +183,8 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p><a href="http://www.stonybrook.edu/ugadmissions/intl/procedures.shtml" target="_blank">Get more information</a></p>
+                                <p>Stony Brook University offers a world of possibilities for international students.</p>
+                                <p><a href="undergraduate-admissions/apply/international">Get more information</a></p>
                             </div>
                         </div>
                     </div>
@@ -194,7 +196,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>The undergraduate major in music balances studies in the performance, composition, theory, and history of Western art music with the broad general education implied by a liberal arts degree.</p>
-                                <p><a href="http://www.stonybrook.edu/commcms/music/index.shtml" target="_blank">Get more information</a></p>
+                                <p><a href="undergraduate-admissions/academics/program-details/?code=mus">Get more information</a></p>
                             </div>
                         </div>
                     </div>
@@ -206,7 +208,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>Nursing is an upper-division major at Stony Brook University, requiring at least 57 credits and specific prerequisites.</p>
-                                <p><a href="http://sunysb.askadmissions.net/ask.aspx?quser=nursing" target="_blank">Get more information</a></p>
+                                <p><a href="undergraduate-admissions/academics/program-details/?code=hni">Get more information</a></p>
                             </div>
                         </div>
                     </div>
@@ -218,7 +220,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>Social Work is an upper-division major at Stony Brook University, requiring at least 57 credits and specific prerequisites.</p>
-                                <p><a href="http://sunysb.askadmissions.net/ask.aspx?quser=social+work" target="_blank">Get more information</a></p>
+                                <p><a href="undergraduate-admissions/academics/program-details/?code=hwu">Get more information</a></p>
                             </div>
                         </div>
                     </div>

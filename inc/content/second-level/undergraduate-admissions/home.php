@@ -46,7 +46,7 @@
                     <a href="undergraduate-admissions/admitted/"><span class="label">Admitted Students</span><em class="fa fa-angle-right"></em><span class="after-text">Get the information you need...</span></a>
                     <a href="undergraduate-admissions/college-counselors/"><span class="label">College Counselors</span><em class="fa fa-angle-right"></em><span class="after-text">Criteria, deadlines, and more...</span></a>
                     <a href="undergraduate-admissions/parents"><span class="label">Parents</span><em class="fa fa-angle-right"></em><span class="after-text">Helping you decide...</span></a>
-                    <a href="undergraduate-admissions/applicants"><span class="label">Applicants</span><em class="fa fa-angle-right"></em><span class="after-text">Check your status...</span></a>
+                    <a href="undergraduate-admissions/application-status"><span class="label">Applicants</span><em class="fa fa-angle-right"></em><span class="after-text">Check your status...</span></a>
                 </div>
             </div>
 
@@ -81,37 +81,37 @@
             <h3>This is where <span class="nowrap">I want to be</span></h3>
             <div class="carousel-wrapper">
                 <div id="the-carousel-3" class="owl-carousel carousel-style-03">
-                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=XkoFM5iynr0&index=14&list=PLxBtkDNdrpP0uXWj5zQGMH9TmNtKcoKI3" data-lightbox-gallery="student-video-gallery">
+                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=NBCsNNSOlZ0" data-lightbox-gallery="student-video-gallery">
                         <div class="student-wrapper ruchi clearfix">
                             <img class="student" src="img/students/profile/Circle-Ruchi-BW.jpg" />
                         </div>
                         <span class="blurb"><em>Ruchi</em> interned at Fox News as a health reporter</span>
                     </a>
-                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=uhmq30BEeDA&index=13&list=PLxBtkDNdrpP0uXWj5zQGMH9TmNtKcoKI3" data-lightbox-gallery="student-video-gallery">
+                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=UbxNSOrBT0c" data-lightbox-gallery="student-video-gallery">
                         <div class="student-wrapper neha clearfix">
                             <img class="student" src="img/students/profile/Circle-Neha-BW.jpg" />
                         </div>
                         <span class="blurb"><em>Neha</em> is Stony Brook's first Gates Cambridge scholar</span>
                     </a>
-                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=S9ZIsTN1PBI&index=12&list=PLxBtkDNdrpP0uXWj5zQGMH9TmNtKcoKI3" data-lightbox-gallery="student-video-gallery">
+                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=73LYudIuh7U" data-lightbox-gallery="student-video-gallery">
                         <div class="student-wrapper jamie clearfix">
                             <img class="student" src="img/students/profile/Circle-Jamie-BW.jpg" />
                         </div>
                         <span class="blurb"><em>Jamie</em> helped start Camp Kesem for children impacted by cancer</span>
                     </a>
-                    <a class="item nivo-lightbox" href="" data-lightbox-gallery="student-video-gallery">
+                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=vS_gJoB0BPc" data-lightbox-gallery="student-video-gallery">
                         <div class="student-wrapper mai clearfix">
                             <img class="student" src="img/students/profile/Circle-Mai-BW.jpg" />
                         </div>
                         <span class="blurb"><em>Mai</em> studied with Dr. Patricia Wright in Madagascar</span>
                     </a>
-                    <a class="item nivo-lightbox" href="" data-lightbox-gallery="student-video-gallery">
+                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=1bTsxSIJ9l8" data-lightbox-gallery="student-video-gallery">
                         <div class="student-wrapper alejandro clearfix">
                             <img class="student" src="img/students/profile/Circle-Alejandro-BW.jpg" />
                         </div>
                         <span class="blurb"><em>Alejandro</em> is the midfielder for the Seawolves' soccer team</span>
                     </a>
-                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=586sJWQk1Ac&index=11&list=PLxBtkDNdrpP0uXWj5zQGMH9TmNtKcoKI3" data-lightbox-gallery="student-video-gallery">
+                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=Z8MhZJqdEKc" data-lightbox-gallery="student-video-gallery">
                         <div class="student-wrapper cooper clearfix">
                             <img class="student" src="img/students/profile/Circle-Cooper-BW.jpg" />
                         </div>
