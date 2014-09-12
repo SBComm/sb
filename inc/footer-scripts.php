@@ -407,6 +407,7 @@
 		<?php if($fade_in_page) { ?>
         	<script type="text/javascript">
         		$(document).ready(function() {
+        			$('.absolute-white-cover ~ .sbu-wrapper').css('opacity','1');
         			$('.fade-in-page').delay(800).fadeOut('slow');
         		});
         	</script>
