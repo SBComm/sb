@@ -14,4 +14,3 @@
         </div>
     </section>
 </article>
-<?php phpinfo(); ?>

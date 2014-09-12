@@ -441,6 +441,7 @@
 	.site-nav,
 	.sub-nav {
 		position: relative !important;
+		z-index: 50;
 	}
 	.main-nav-container .sticky-wrapper {
 		height: auto !important;

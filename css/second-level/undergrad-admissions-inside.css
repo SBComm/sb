@@ -4,6 +4,26 @@
     height: 150px;
 }
 
+@media only screen and (max-width: 959px) {
+    .site-carousel {
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        right: 0;
+        opacity: .4;
+    }
+
+    .section-title {
+        margin-top: 16px;
+    }
+
+    .main-inside-content {
+        position: relative;
+        z-index: 50;
+        visibility: visible;
+    }
+}
+
 .site-carousel.freshman-criteria .carousel-image[data-image='01'] {
     background-image: url("../../img/students/pair-on-bench.jpg");
     background-position: 30% 20%;
