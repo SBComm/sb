@@ -267,6 +267,10 @@
                             </ul>
                         </li>
                         <li>
+                            <a class="external-link" href="http://www.stonybrook.edu/eeonline/" target="_blank">Electrical Engineering Online, BS</a>
+                            <span class="major">M<span class="hide-accessible">ajor</span></span>
+                        </li>
+                        <li>
                             <a href="undergraduate-admissions/academics/program-details?code=eom">Electronic, Optical, and Magnetic Materials</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>

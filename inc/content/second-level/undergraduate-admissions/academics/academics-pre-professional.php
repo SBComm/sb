@@ -26,7 +26,7 @@
             <h3>Pre-Professional Programs</h3>
             <div class="content">
                 <h4>Pre-Med Studies</h4>
-                <p>Stony Brook is an excellent place to prepare for a future in medicine. Our Pre-Med Advising Program allows students majoring in many different disciplines to work closely with Academic Advisors and complete the best courses in preparation for a future in medicine.</p>
+                <p>Stony Brook is an excellent place to prepare for a future in medicine, dental medicine, optometry, and veterinary studies. Our Pre-Med Advising Program allows students majoring in many different disciplines to work closely with Academic Advisors and complete the best courses in preparation for a future in medicine.</p>
                 <p><a class="external-link" href="http://www.stonybrook.edu/healthed/" target="_blank">View More Information</a></p>
                 <h4>Pre-Law Studies</h4>
                 <p>Stony Brook's Pre-Law Advising Program allows students interested in a career in law to consult with experienced Pre-Law advisors to discuss coursework, law school application strategies, financing law school, and preparing for the LSAT.</p>
@@ -50,9 +50,6 @@
                     <li>TESOL (K-12)</li>
                 </ul>
                 <p><a class="external-link" href="http://www.stonybrook.edu/pep/" target="_blank">View More Information</a></p>
-                <h4>Teacher Education</h4>
-                <p>Stony Brook offers a Bachelor of Science in Electrical Engineering degree program.</p>
-                <p><a class="external-link" href="http://beeol.ee.sunysb.edu/" target="_blank">View More Information</a></p>
             </div>
         </div>
     </section>

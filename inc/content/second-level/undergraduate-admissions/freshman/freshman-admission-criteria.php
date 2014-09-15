@@ -41,9 +41,7 @@
                     <li>Standardized test scores that indicate the promise of success in a rigorous undergraduate course of study.</li>
                     <li>Students who show evidence of leadership, special talents or interests, and  other personal qualities through extracurricular activities, volunteer work, and other non-academic pursuits will receive special consideration.</li>
                 </ul>
-                <h4>More Information</h4>
-                <p>Freshman applicants admitted to the University but not initially accepted into their major of choice may apply for admission into the major after satisfying the requirements as outlined in the <a href="http://sb.cc.stonybrook.edu/bulletin/current/">Undergraduate Bulletin</a> description of the major.</p>
-                <p>Please note that additional admission requirements need to be fulfilled for:</p>
+                <p>Please note that additional admission requirements are needed for:</p>
                 <ul class="default-bullets">
                     <li><a href="http://www.stonybrook.edu/eopaim/eligibility.shtml">EOP/AIM</a></li>
                     <li><a href="http://www.stonybrook.edu/ugadmissions/homeschooled/">Home-Schooled Students</a></li>
@@ -132,6 +130,9 @@
                         </div>
                     </div>
                 </div>
+                <p>Freshman applicants admitted to the University but not initially accepted into their major of choice may apply for admission into the major after satisfying the requirements as outlined in the <a href="http://sb.cc.stonybrook.edu/bulletin/current/">Undergraduate Bulletin</a> description of the major.</p>
+                <h4>More Information</h4>
+                links...
             </div>
 
         </div>

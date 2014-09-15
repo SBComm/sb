@@ -27,10 +27,12 @@
             <div class="content">
                 <p>Stony Brook is a selective institution located in New York. We will give your application individual attention, weighing many factors to gauge your potential to succeed at Stony Brook.</p>
                 <h4>Application Types:</h4>
+                <p>You should apply as an international student if you:</p>
                 <ul class="default-bullets">
-                    <li>You should apply as an <strong>International freshman</strong> if you have never attended a college or university after finishing high school.</li>
-                    <li>You should apply as an <strong>International transfer</strong> student if you have attended any college or university after high school (in your home country or in the US).</li>
+                    <li>Wish to study in the U.S. under a student (F-1) visa. Those with valid B-1 or B-2 visas, must change their status to F-1, or:</li>
+                    <li>Currently hold an F-1, F-2, J-1, or J-2 visa.</li>
                 </ul>
+                <p><a href="undergraduate-admissions/international/visa-classifications">More visa classifications</a></p>
                 <h4>Academic Criteria</h4>
                 <ul class="default-bullets">
                     <li>If you are a <strong>freshman applicant</strong>, you must have completed the highest level of secondary education in your country of residence. We look for a strong secondary academic program with courses in math, natural sciences, and English (or, if English is the language of instruction, another language).</li>
@@ -66,7 +68,7 @@
                 </table>
                 <p>Satisfactory completion of Stony Brook's <a href="http://www.stonybrook.edu/commcms/iec/">Intensive English Center</a> program at the advanced level with a grade of B or better will be accepted in place of a TOEFL score. For more information on Stony Brook's Intensive English Center, please call (631)632-7031.</p>
                 <h4>Financial Documentation</h4>
-                <p>International applicants must document their ability to meet educational and living expenses for <strong>one-year of study</strong> so that Stony Brook University can issue a Certiﬁcate of Visa Eligibility (I-20). Currently, students must show proof of $38,950 (as of January 2014; subject to change).</p>
+                <p>International applicants must document their ability to meet educational and living expenses for <strong>one-year of study</strong> so that Stony Brook University can issue a Certiﬁcate of Visa Eligibility (I-20). Currently, students must show proof of $40,650 (as of September 2014; subject to change).</p>
                 <p>Fore more information on Financial Requirements, see <a href="undergraduate-admissions/apply/international/application-procedures">International Application Procedures and Deadlines</a>.</p>
                 <h4>Secondary School Documentation Guide</h4>
                 <p><a href="undergraduate-admissions/apply/international/guide">View the valid forms of documentation from each nation</a>.</p>

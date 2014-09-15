@@ -122,7 +122,7 @@
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==10) echo('selected'); ?>" data-li-order="04">
 				<a href="undergraduate-admissions/academics/research" class="clearfix">
-					<span class="label clearfix">Research</span>
+					<span class="label clearfix">Faculty &amp;<br />Research</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==11) echo('selected'); ?>" data-li-order="05">

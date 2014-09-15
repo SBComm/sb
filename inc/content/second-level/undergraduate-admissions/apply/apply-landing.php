@@ -24,7 +24,6 @@
             <h3>Welcome to Stony Brook!</h3>
             <div class="content">
                 <p>Stony Brook is one of the most respected and invigorating academic communities in the nation. We are excited to help you along the application process.</p>
-                <p>Whether you are a <a href="undergraduate-admissions/apply/freshman/application-procedures">freshman</a>, <a href="undergraduate-admissions/apply/transfer/application-procedures">transfer</a> or <a href="undergraduate-admissions/apply/international/application-procedures">international</a> student, we've outlined the information you need to apply. We also offer a <a href="undergraduate-admissions/apply/second-degree">Second Degree Program</a> as well as <a href="undergraduate-admissions/apply/readmission">Readmission</a>.</p>
                 <h4>Which Describes You?</h4>
                 <ul class="default-bullets">
                     <li class="fa-arrow-after"><a href="undergraduate-admissions/apply/freshman/application-procedures">I will be a freshman student</a></li>

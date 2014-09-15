@@ -32,10 +32,10 @@
                     <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/uscholars.shtml" target="_blank">University Scholars</a></li>
                     <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/honors.shtml" target="_blank">The Honors College</a></li>
                     <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/wise.shtml" target="_blank">Women in Science and Engineering (WISE)</a></li>
-                    <li><a class="external-link" href="" target="_blank">Scholars for Medicine</a></li>
-                    <li><a class="external-link" href="" target="_blank">Scholars for Dental Medicine</a></li>
-                    <li><a class="external-link" href="" target="_blank">Computer Science Honors</a></li>
-                    <li><a class="external-link" href="" target="_blank">Majors with Honors Components</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/scholarsmed.shtml" target="_blank">Scholars for Medicine</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/scholarsdentalmed.shtml" target="_blank">Scholars for Dental Medicine</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/compsci.shtml" target="_blank">Computer Science Honors</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/majors.shtml" target="_blank">Majors with Honors Components</a></li>
                 </ul>
             </div>
         </div>

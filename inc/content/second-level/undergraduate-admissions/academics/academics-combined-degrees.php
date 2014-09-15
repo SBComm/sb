@@ -25,16 +25,15 @@
         <div class="border-box wrapper clearfix">
             <h3>Combined Degree Programs</h3>
             <div class="content">
-                <p>Stony Brook offers a number of sequential and combined bachelor’s/master’s degree programs that allow students to use graduate credits taken as an undergraduate toward both the undergraduate and graduate degrees, thus reducing the normal time required to complete both bachelor’s and master’s degrees.</p>
-                <p>Sequen­tial degrees require students to complete the bachelor’s degree before the master’s. The degrees are awarded sequentially, whereas combined degree programs require both degrees to be awarded simultaneously and only after both sets of requirements have been completed.</p>
+                <p>Students can apply for admission to these Bachelor/Master degree programs after enrolling at the University.</p>
                 <h4>Program Combinations:</h4>
                 
                 <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
                     <tbody>
                         <tr>
-                            <th>Program 1</th>
+                            <th>Undergraduate Program</th>
                             <th>Degree Combination</th>
-                            <th>Program 2</th>
+                            <th>Graduate Program</th>
                         </tr>
                         <tr>
                             <td>Africana Studies</td>

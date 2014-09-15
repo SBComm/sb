@@ -23,8 +23,10 @@
     </section>
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix">
-            <h3>Download Application &amp; Brochures</h3>
+            <h3>Download Apps &amp; Brochures</h3>
             <div class="content">
+                <h4>Mobile App</h4>
+
                 <h4>Application &amp; University Publications</h4>
                 <ul class="brochures-grid clearfix">
                     <li>
@@ -133,13 +135,11 @@
                     <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Foreign-Languages.pdf">Foreign Languages</a></li>
                     <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Health-Sciences.pdf">Health Sciences Degree Programs for Undergraduates</a></li>
                     <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Humanities-Fine-Arts.pdf">Humanities &amp; Fine Arts</a></li>
-                    <li><a href="downloads/pdf/admissions/programs/14020930-InternationalRecrutiment_Z-Card_LR.pdf">International Students</a></li>
                     <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Journalism.pdf">Journalism</a></li>
-                    <li><a href="downloads/pdf/admissions/programs/13100550-SemesterByTheSea_MarineSciences_Flyer_LR.pdf">Marine Sciences at Stony Brook</a></li>
-                </ul>
-                <ul class="arrow-bullets content col-2 no-margin">
                     <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Music.pdf">Music</a></li>
                     <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Pharmacology.pdf">Pharmacology</a></li>
+                </ul>
+                <ul class="arrow-bullets content col-2 no-margin">
                     <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Pre-Law.pdf">Pre-Law Studies</a></li>
                     <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Pre-Med.pdf">Pre-Medical Studies</a></li>
                     <li><a href="downloads/pdf/admissions/programs/14020934-Science-and-Engineering-Brochure.pdf">Science and Engineering at Stony Brook</a></li>

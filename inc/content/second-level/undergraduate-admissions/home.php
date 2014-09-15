@@ -45,7 +45,7 @@
                     <a href="undergraduate-admissions/future-students/"><span class="label">Future Students</span><em class="fa fa-angle-right"></em><span class="after-text">See yourself at SBU...</span></a>
                     <a href="undergraduate-admissions/admitted/"><span class="label">Admitted Students</span><em class="fa fa-angle-right"></em><span class="after-text">Get the information you need...</span></a>
                     <a href="undergraduate-admissions/college-counselors/"><span class="label">College Counselors</span><em class="fa fa-angle-right"></em><span class="after-text">Criteria, deadlines, and more...</span></a>
-                    <a href="undergraduate-admissions/parents"><span class="label">Parents</span><em class="fa fa-angle-right"></em><span class="after-text">Helping you decide...</span></a>
+                    <a href="undergraduate-admissions/parents"><span class="label">Parents</span><em class="fa fa-angle-right"></em><span class="after-text">Why you'll love SB...</span></a>
                     <a href="undergraduate-admissions/application-status"><span class="label">Applicants</span><em class="fa fa-angle-right"></em><span class="after-text">Check your status...</span></a>
                 </div>
             </div>
@@ -170,7 +170,7 @@
             <div class="item rtl2 clearfix">
                 <div class="text-wrapper">
                     <p class="equal-col">
-                        <span class="stat"><em>90%</em> freshman<br />retention</span>
+                        <span class="stat"><em>17:1</em> student-faculty<br />ratio</span>
                         <span class="source">~SB Admissions</span>
                     </p>
                 </div>

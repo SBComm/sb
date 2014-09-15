@@ -24,9 +24,9 @@
 
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix">
-            <h3>Welcome, Undergrads!</h3>
+            <h3>Welcome, International Students!</h3>
             <div class="content">
-                <p>Stony Brook University offers a world of possibilities, with more than 150 academic programs, exciting undergraduate research opportunities and an ideal location for learning on Long Island's North Shore — just 60 miles from New York City.</p>
+                <p>Stony Brook University offers a world of possibilities, with more than 200 academic programs, exciting undergraduate research opportunities and an ideal location for learning on Long Island's North Shore — just 60 miles from New York City.</p>
             </div>
         </div>
 
@@ -35,7 +35,7 @@
                 <h4>Why Choose Stony Brook?</h4>
                 <ul class="arrow-bullets">
                     <li>We're ranked in the top 1% of higher education institutions worldwide by the Times Higher Education World University Rankings</li>
-                    <li>U.S. News &amp; World Report has ranked SB among the top 100 universities and top 35 public universities</li>
+                    <li>U.S. News &amp; World Report has ranked SB among the top 100 universities and top 40 public universities</li>
                     <li>98% of full-time faculty hold doctoral degrees or the highest degrees in their fields</li>
                     <li>You'll find first-rate opportunities for research at facilities such as Brookhaven National Laboratory</li>
                 </ul>
@@ -76,7 +76,7 @@
                 <li class="clearfix"><span>24,143</span> <em>Total students</em></li>
                 <li class="clearfix"><span>54:46%</span> <em>Males:Females</em></li>
             </ul>
-            <span class="note">*Numbers reflect middle 50% of scores</span>
+            <span class="note">*Academic figures reflect middle 50% of Fall 2014 International Freshmen</span>
         </div>
     </section>
 
@@ -84,7 +84,7 @@
         <div class="border-box wrapper clearfix">
             <a class="suny-callout" href="http://www.sunykorea.ac.kr/" target="_blank">
                 <img class="logo" src="img/logo/suny-korea-logo-452.png" />
-                <p>We aspire to be the hub for global education, research, and innovation. To accomplish this, we will form partnerships with top institutions in both private and public sector, and continue doing our best to build global network with leaders and talents from across the globe.</p>
+                <p>Stony Brook now offers an exciting undergraduate curriculum at SUNY Korea, located in the Incheon Free Economic Zone (IFEZ), just one hour west of Seoul, Korea.</p>
             </a>
         </div>
     </section>

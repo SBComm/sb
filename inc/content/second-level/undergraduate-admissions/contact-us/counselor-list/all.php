@@ -171,16 +171,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=siddons">
-                    <img src="img/admissions-counselors/siddons.jpg" alt="" />
-                    <div class="person-info">
-                        <span class="name">Todd Siddons</span>
-                        <span class="title">Athletics Liaison</span>
-                        <span class="location"></span>
-                    </div>
-                    </a>
-                </li>
-                <li>
                     <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=wind">
                     <img src="img/admissions-counselors/wind.jpg" alt="" />
                     <div class="person-info">

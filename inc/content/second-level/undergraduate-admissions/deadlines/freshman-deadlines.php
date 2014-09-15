@@ -1,6 +1,6 @@
 <table class="light-grey-table responsive-flip responsive-flip-4">
     <tr>
-        <th>Freshmen Class</th>
+        <th>Entry Term</th>
         <th>Priority Deadline</th>
         <th>Credentials Deadline</th>
         <th>Notification Schedule</th>

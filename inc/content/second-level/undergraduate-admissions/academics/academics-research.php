@@ -23,9 +23,11 @@
     </section>
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix">
-            <h3>Undergraduate Research at Stony Brook</h3>
+            <h3>Faculty and Research</h3>
             <div class="content">
+                <p>Our leading scholars and researchers are also inspiring teachers and they have the awards to prove it. We're committed to putting our best teachers into our undergraduate classes.</p>
                 <p>Explore and discover new knowledge. Let your curiosity lead you to a fabulous research internship with Stony Brook faculty either on campus, at Stony Brook University Hospital, at our Southampton Marine Station or at nearby Brookhaven National Laboratory, a federal energy laboratory co-managed by Stony Brook.</p>
+                <p>We're one of only ten research universities nationwide to receive a Recognition Award for the Integration of Research and Education (RAIRE) from the National Science Foundation (NSF).</p>
                 <h4>Undergraduate Research &amp; Creative Activities (URECA)</h4>
                 <p>Through <a class="external-link" href="http://www.stonybrook.edu/ureca/" target="_blank">URECA</a></strong>, Stony Brook undergraduates are introduced to the world of research through introductory research-oriented courses, independent supervised research projects, and support services on writing abstracts, giving presentations, and finding appropriate research mentors. Our URECA program involves students from every discipline and culminates each year in a celebration of achievements.</p>
                 <h4>Brookhaven National Laboratory</h4>

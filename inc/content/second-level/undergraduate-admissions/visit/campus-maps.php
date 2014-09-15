@@ -35,7 +35,6 @@
         <div class="border-box wrapper clearfix">
             <div class="content">
                 <p><a href="downloads/pdf/14061566-Stony-Brook-Campus-Map.pdf">Download Campus Map</a></p>
-                <p><a href="downloads/pdf/PRKD0006-Stony-Brook-Parking-Map.pdf">Download Parking Map</a></p>
             </div>
         </div>
     </section>

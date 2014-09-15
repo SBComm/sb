@@ -82,10 +82,6 @@
                             <td class="label nowrap">Application Fee</td>
                             <td>$50</td>
                         </tr>
-                        <tr>
-                            <td class="label">Notes</td>
-                            <td>Use <a class="external-link" href="https://www.suny.edu/applysuny/" target="_blank">The SUNY Application</a> if you want to apply to several SUNY campuses.</td>
-                        </tr>
                     </table>
                     <a class="check-button apply-button apply-button-right clearfix" href="https://www.suny.edu/applysuny/" target="_blank"><span>Apply Now</span></a>
                 </div>
@@ -98,10 +94,10 @@
                     <li><strong>Submit your high school transcript(s).</strong> There are 3 ways that you can do this:
                         <ol class="upper-alpha">
                             <li>
-                                <span class="instruction">Ask your high school to submit your transcript electronically to the Applicetion Vendor where you applied (either The Common Application's School Forms System or SUNY's <a class="external-link" href="https://www.suny.edu/counselor/">CounselorConnect System</a>.)</span>
+                                <span class="instruction">Ask your high school to submit your transcript electronically, using either The Common Application School Forms System or <a class="external-link" href="https://www.suny.edu/counselor/">SUNY CounselorConnect</a>.)</span>
                             </li>
                             <li>
-                                <span class="instruction">Self-report your academic record using <a class="external-link" href="http://www.suny.edu/attend/apply-to-suny/suny-online-academic-record-soar/">SOAR</a>.</span>
+                                <span class="instruction">Self-report your academic record using <a class="external-link" href="http://www.suny.edu/attend/apply-to-suny/suny-online-academic-record-soar/" target="_blank">SOAR</a>.</span>
                             </li>
                             <li>
                                 <span class="instruction">Ask your high school to fax or mail us your official high school transcript, along with the <a href="downloads/pdf/admissions/Guidance-Counselor-Transmittal.pdf" target="_blank">Transmittal Form</a>.
@@ -127,26 +123,26 @@
             </div>
 
             <div class="content clearfix">
+                <h4>Priority Deadlines</h4>
+                <p>Applications will be accepted after these priority deadlines on a space-available basis.</p>
+                <?php
+                    $file = "undergraduate-admissions/deadlines/freshman-deadlines.php";
+                    include($path . $content . $secLv . $file);
+                ?>
+                <p><em>*International applicants follow a separate notification schedule.</em></p>
+            </div>
+
+            <div class="content clearfix">
                 <h4>Additional Procedures, Eligibility Requirements, and Deadlines</h4>
                 <p>There are additional application procedures, eligibility requirements, and deadlines for the following programs and applicants:</p>
                 <div class="drop-accordion drop-accordion-1">
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>EOP/AIM*</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>EOP/AIM</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The Educational Opportunity Program (EOP) at the State University of New York at Stony Brook was started in 1968 and given the local name of AIM, which is an acronym for Advancement on Individual Merit.</p>
                                 <p>The purpose of the Educational Opportunity Program is to fulfill New York State’s commitment to provide access to higher education for economically disadvantaged students who possessed the potential to succeed in college, but whose academic preparation in high school has not fully prepared them to pursue college education successfully.</p>
-                                <p>To be eligible for admission to EOP you must be:</p>
-                                <ul class="default-bullets">
-                                    <li>A New York State resident for 12 months prior to enrollment.</li>
-                                    <li>Ineligible for admission under traditional standards, but demonstrate potential for completing a college program; and</li>
-                                    <li>In need of financial assistance within legislated income guidelines. In selecting students for the program, priority is given to applicants from historically disadvantaged backgrounds. If in the year prior to enrollment your family income falls within EOP guidelines due to unemployment, separation, divorce or death of a parent, etc., you may still not qualify for EOP if you are not from an historically disadvantaged background.</li>
-                                    <li>Be a U.S. citizen or a permanent resident.</li>
-                                    <li>Have received a New York State high school diploma or its equivalent.</li>
-                                    <li>Meet the Income Guidelines specified in the column below (priority will be given to "applicants from families characterized by historical, educational, economic and cultural disadvantagement").</li>
-                                </ul>
                                 <p>Please note that the EOP/AIM program only considers applicants for fall semester admission. This program is dependent on New York State funding allocations, which vary from year to year. Students who wish to be considered for the EOP/AIM program will be notified at the earliest possible date if we are unable to consider their fall semester application due to a lack of funding.</p>
                                 <p><a href="http://www.stonybrook.edu/eopaim/eligibility.shtml" target="_blank">Get more information</a></p>
                             </div>
@@ -167,7 +163,7 @@
 
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Honors</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Honors Programs</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -226,16 +222,6 @@
                     </div>
 
                 </div>
-            </div>
-
-            <div class="content clearfix">
-                <h4>Priority Deadlines</h4>
-                <p>Applications will be accepted after these priority deadlines on a space-available basis.</p>
-                <?php
-                    $file = "undergraduate-admissions/deadlines/freshman-deadlines.php";
-                    include($path . $content . $secLv . $file);
-                ?>
-                <p><em>*International applicants follow a separate notification schedule.</em></p>
             </div>
 
         </div>

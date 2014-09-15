@@ -8,6 +8,7 @@
                                    <a href="undergraduate-admissions/visit/" title="Visit Stony Brook University">Plan a Visit</a>
                                    <a href="undergraduate-admissions/campus-life/" title="Student Life at Stony Brook">Campus Life</a>
                          		<a href="undergraduate-admissions/contact/" title="Contact Admissions">Contact</a>
+                                   <a href="http://www.stonybrook.edu/sb/privacy.shtml" title="Contact Admissions">Privacy Policy</a>
                          	</div>
                          	<div class="col col-2 equal-col">
                          		<span class="address">

@@ -31,6 +31,8 @@
                 <p>Special consideration will be given to qualified graduates of university-parallel programs, i.e., A.A. and A.S. degree recipients from colleges within the State University of New York and City University of New York systems. Students are not, however, guaranteed admission into the program of their choice. Graduates of career-oriented programs (A.A.S. and A.O.S.) will be considered for admission on an individual basis and in competition with other transfer applicants.</p>
                 <p>Applicants who do not specify a major on their application are considered for admission to the University rather than to a particular major. Transfer students with more than 56 credits must indicate a major on their application to be eligible for financial aid.</p>
                 <p>Offers of admission are conditional, pending receipt of all official records showing successful completion of academic work in progress.</p>
+                <h4>More Information</h4>
+                links...
             </div>
 
             <div class="content col-2">
@@ -65,12 +67,12 @@
 
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Business Management*</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Business Management</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>Successful applicants will, in addition to our regular admission criteria, have a more competitive grade point average.</p>
-                                <p><em>*Those enrolled in Joint Admission Programs at Suffolk County Community College or Nassau Community College will be reviewed for admission in accordance with the program guidelines.</em></p>
+                                <p><em>Those enrolled in Joint Admission Programs at Suffolk County Community College or Nassau Community College will be reviewed for admission in accordance with the program guidelines.</em></p>
                             </div>
                         </div>
                     </div>
@@ -117,11 +119,10 @@
                         </div>
                     </div>
                 </div>
-                <h4>More Information</h4>
                 <p>Transfer applicants admitted to the University but not initially accepted into their major of choice may apply for admission into the major after satisfying the requirements as outlined in the <a href="http://sb.cc.stonybrook.edu/bulletin/current/">Undergraduate Bulletin</a> description of the major.</p>
-                <p>Please note that additional admission requirements need to be fulfilled for:</p>
+                <p>Please note that additional admission requirements are needed for:</p>
                 <ul class="default-bullets">
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/applying/intl_criteria.shtml">International Students</a></li>
+                    <li><a href="undergraduate-admissions/apply/international">International Students</a></li>
                     <li><a href="http://www.stonybrook.edu/eopaim/eligibility.shtml">EOP/AIM</a></li>
                     <li><a href="http://www.stonybrook.edu/ugadmissions/newhonors/honors.shtml">Honors College</a></li>
                 </ul>

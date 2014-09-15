@@ -25,7 +25,7 @@
         <div class="border-box wrapper clearfix">
             <h3>Life at Stony Brook</h3>
             <div class="content">
-                <p>Life is exciting at Stony Brook. Here, you'll find a blend of people, activities, interest groups, and sports that will take your college experience far beyond the academic.</p>
+                <p>Life is exciting at Stony Brook. You'll find a blend of people, activities, groups, and sports that will take your college experience far beyond academics.</p>
             </div>
         </div>
     </section>
@@ -187,13 +187,13 @@
         <section class="clearfix inside-content white-background">
             <div class="border-box wrapper clearfix">
                 <div class="content">
-                    <p>The Office of Commuter Student Services offers valuable programs and services to commuter students, and actively encourages commuter students to become full participants in campus life.</p>
+                    <p>The Office of Commuter Student Services and Off Campus Living offers valuable programs and services to commuter students, and actively encourages commuter students to become full participants in campus life.</p>
                     <ul class="default-bullets">
                         <li><strong><a class="external-link" href="http://och.fsa.sunysb.edu/" target="_blank">Off-Campus Housing Service (OCH)</a></strong> provides a current listing of available local housing. If you need assistance finding housing based on individual requirements, our friendly staff at OCH will provide a personalized search to assist you.</li>
                         <li>A <strong>Long Island Rail Road Station</strong> right on campus puts Stony Brook within easy reach from New York City and other points on Long Island.</li>
                         <li><strong>Parking for commuters</strong> is abundant and easily accessible, with free bus service to all buildings on campus. Parking is available in the parking garages on East and West Campus and in metered parking areas, as shown on the <a class="external-link" href="http://www.stonybrook.edu/parking/parkingmap.shtml" target="_blank">campus map.</a> See the <a class="external-link" href="http://www.stonybrook.edu/parking" target="_blank">parking page for more information.</a></li>
                         <li><strong>Motorist Assistance</strong> If you experience a problem with your car, help is just a phone call away. Staff are equipped to jump-start cars, help if you have locked your keys in your car, assist with slow-leaking tires, and get you going if you run out of gas. If you have additional questions, please call the Parking Services Office at (631) 632-AUTO. (Monday through Friday from 8:00 a.m. to 3:00 p.m.)</li>
-                        <li>The <strong><a class="external-link" href="http://studentaffairs.stonybrook.edu/css/" target="_blank">Office of Commuter Student Services</a></strong> is located in room 224 in the Student Activities Center.</li>
+                        <li>The <strong><a class="external-link" href="http://studentaffairs.stonybrook.edu/css/" target="_blank">Office of Commuter Student Services</a></strong> is located in room 225 in the Student Activities Center.</li>
                     </ul>
                 </div>
             </div>

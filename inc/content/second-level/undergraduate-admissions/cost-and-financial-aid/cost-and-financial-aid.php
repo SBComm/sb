@@ -29,11 +29,11 @@
 
         <div class="border-box wrapper clearfix">
             <div class="content col-2">
-                <p>With prestigious rankings and international recognition that place us among the Top 1%* of higher education institutions worldwide, Stony Brook is invested in undergraduate research. In fact, we're one of only ten research universities nationwide to receive a Recognition Award for the Integration of Research and Education (RAIRE) from the National Science Foundation (NSF).</p>
+                <p>With prestigious rankings and international recognition that place us among the Top 1%* of higher education institutions worldwide, <span class="nowrap">Stony Brook</span> is invested in undergraduate education.</p>
                 <ul class="arrow-bullets">
                     <li>Stony Brook is one of the most affordable top-ranked universities in the nation.<!-- View Cost Comparison--></li>
-                    <li>Stony Brook has been named to Kiplinger's list of <strong>30 Best College Values</strong> in the Mid-Atlantic region, ranking 4th in the "public colleges and universities" category.</li>
-                    <li><em>U.S. News &amp; World Report</em> has ranked SB among the <strong>top 100 universities</strong> and top 35 public universities.</li>
+                    <li>Stony Brook has been named to Kiplinger's list of <strong>30 Best  Values</strong> in public colleges and universities.</li>
+                    <li><em>U.S. News &amp; World Report</em> has ranked SB among the <strong>top 100 universities</strong> and top 40 public universities.</li>
                 </ul>
                 <p>Nearly 90% of our recent graduates are either employed or continuing their education.</p>
                 <p>Stony Brook’s affordable tuition means less future debt and real savings that can help you pay for your graduate studies or any number of life passages yet to come.</p>
@@ -84,7 +84,7 @@
                             <td class="label">Tuition</td>
                             <td>
                                 <span class="amount">6,170</span> (NY Residents)<br />
-                                <span class="amount">19,590</span> (Out-of-state)
+                                <span class="amount">19,590</span> (Out-of-state &amp; International)
                             </td>
                         </tr>
                         <tr>
@@ -277,7 +277,10 @@
 
      <section class="student-loan-rates white-background inside-content clearfix">
         <div class="wrapper border-box">
-            <h3>Average Student Loan Default Rate</h3>
+            <h3>Bigger Affordability, Smaller Debt</h3>
+            <div class="content clearfix">
+                <p>In an era where stories about rising student debt and default rates appear daily in the media, Stony Brook students graduate with low debt, and have much smaller default rates compared to both national and New York State averages.</p>
+            </div>
             <ul class="light clearfix">
                 <li class="label">3 year <span class="note">default rate (2010)</span></li>
                 <li class="usa clearfix"><span class="stat">14.7%</span><span class="label">National</span></li>

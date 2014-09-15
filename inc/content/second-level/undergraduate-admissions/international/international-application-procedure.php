@@ -50,10 +50,6 @@
                             <td class="label nowrap">Application Fee</td>
                             <td>$50</td>
                         </tr>
-                        <tr>
-                            <td class="label">Notes</td>
-                            <td>Application process is online.</td>
-                        </tr>
                     </table>
                     <a class="check-button apply-button apply-button-right clearfix" href="http://www.commonapp.org/" target="_blank"><span>Apply Now</span></a>
                 </div>
@@ -107,7 +103,7 @@
                 <h4>Priority Deadlines</h4>
                 <table class="light-grey-table responsive-flip responsive-flip-4">
                     <tr>
-                        <th>Class</th>
+                        <th>Entry Term</th>
                         <th>Priority Deadline</th>
                         <th>Supporting Documents</th>
                         <th>Notification Schedule</th>
@@ -136,21 +132,6 @@
                     <li>J-1: a photocopy of DS-2019</li>
                     <li>Photocopy of both sides of current Form I-94 (stapled in your passport upon arrival in the U.S.)</li>
                     <li>Photocopy of U.S. visa page with picture photo</li>
-                </ul>
-            </div>
-
-            <div class="content clearfix">
-                <h4>Related Links</h4>
-                <ul class="default-bullets">
-                    <li><a class="external-link" href="http://www.collegeboard.com/" target="_blank">College Board</a></li>
-                    <li><a class="external-link" href="http://www.act.org/" target="_blank">ACT</a></li>
-                    <li><a class="external-link" href="http://www.ets.org/toefl/" target="_blank">TOEFL</a></li>
-                    <li><a class="external-link" href="http://www.ielts.org/default.aspx" target="_blank">IELTS</a></li>
-                    <li><a class="external-link" href="http://www.iie.org/" target="_blank">IIE</a></li>
-                    <li><a class="external-link" href="http://www.usief.org.in/" target="_blank">USIEF</a></li>
-                    <li><a class="external-link" href="http://www.wes.org/" target="_blank">World Education Services</a></li>
-                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/applying/download.shtml" target="_blank">Printable Applications</a></li>
-                    <li><a class="external-link" href="https://www.educationusa.info" target="_blank">Education USA</a></li>
                 </ul>
             </div>
 

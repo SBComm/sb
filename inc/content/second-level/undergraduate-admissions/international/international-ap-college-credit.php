@@ -38,7 +38,7 @@
                 <div class="drop-accordion drop-accordion-1">
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>International Baccalaureate*</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>International Baccalaureate</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -72,7 +72,7 @@
 
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>General Certificate of Education Advanced Level (A-Level)*</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>General Certificate of Education Advanced Level (A-Level)</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-                 <p><em>*Stony Brook University accepts up to 30 credits by examination in partial fulfillment of the bachelor's degree.</em></p>
+                 <p><em>Stony Brook University accepts up to 30 credits by examination in partial fulfillment of the bachelor's degree.</em></p>
             </div>
 
         </div>

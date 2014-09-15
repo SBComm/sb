@@ -27,7 +27,7 @@
             <div class="content col-2">
                 <h4>Email Us</h4>
                 <ul class="default-bullets">
-                    <li><a class="email-link" href="enroll@stonybrook.edu">enroll@stonybrook.edu</a></li>
+                    <li><a class="email-link" href="mailto:enroll@stonybrook.edu">enroll@stonybrook.edu</a></li>
                 </ul>
                 <h4>Call Us</h4>
                 <ul class="default-bullets">
@@ -52,7 +52,13 @@
              <div class="content">
                 <h4>Remember...</h4>
                 <p>Please be sure to include your full name, date of birth, and home address on all correspondence.</p>
-                <p><em>Title IX prohibits sex discrimination in all forms, including sexual violence an/or harassment. Contact the Interim Director for Title IX and Risk Management, <a class="email-link" href="odaa@stonybrook.edu">Marjolie Leonard</a>, 201 Administration Building, at (631) 632-6280 or see <a class="external-link" href="http://www.stonybrook.edu/diversity/titleix/" target="_blank">www.stonybrook.edu/titleix</a> for more information and/or to report an incident.</em></p>
+                <p><em>Title IX prohibits sex discrimination in all forms, including sexual violence an/or harassment. Contact the Director for Title IX and Risk Management, <a class="email-link" href="odaa@stonybrook.edu">Marjolie Leonard</a>, 201 Administration Building, at (631) 632-6280 or see <a class="external-link" href="http://www.stonybrook.edu/diversity/titleix/" target="_blank">www.stonybrook.edu/titleix</a> for more information and/or to report an incident.</em></p>
+                <h4>Mission Statement</h4>
+                <p>The mission of the Office of Admissions is to recruit, admit, and enroll a student body that is academically accomplished, distinguished in leadership and service, and diverse on many levels.</p>
+                <p>Our goal is to provide competent, respectful and efficient professional service that assists and educates prospective students and their families as they navigate the application process and explore the learning opportunities within higher education.</p>
+                <h4>Vision Statement</h4>
+                <p>The vision of the Office of Admissions is to position Stony Brook University to become a global destination for high-ability undergraduate students.</p>
+                <p>University undergraduate enrollment goals will be met, while advancing racial, ethnic, geographic, and economic diversity. We will maintain a creative, energetic, student-focused environment where diversity is valued, professional best practices are promoted, and achievement is recognized.</p>
             </div>
         </div>
     </section>
