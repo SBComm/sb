@@ -70,22 +70,22 @@
             </div>
             <div class="content col-2">
                 <ul class="default-bullets">
-                    <li><a class="external-link" href="" target="_blank">Men's Baseball</a></li>
-                    <li><a class="external-link" href="" target="_blank">Men's Basketball</a></li>
-                    <li><a class="external-link" href="" target="_blank">Men's Football</a></li>
-                    <li><a class="external-link" href="" target="_blank">Men's Lacrosse</a></li>
-                    <li><a class="external-link" href="" target="_blank">Men's Soccer</a></li>
-                    <li><a class="external-link" href="" target="_blank">Men's Swimming*</a></li>
-                    <li><a class="external-link" href="" target="_blank">Men's Tennis</a></li>
-                    <li><a class="external-link" href="" target="_blank">Women's Basketball</a></li>
-                    <li><a class="external-link" href="" target="_blank">Women's Lacrosse</a></li>
-                    <li><a class="external-link" href="" target="_blank">Women's Softball</a></li>
-                    <li><a class="external-link" href="" target="_blank">Women's Soccer</a></li>
-                    <li><a class="external-link" href="" target="_blank">Women's Swimming*</a></li>
-                    <li><a class="external-link" href="" target="_blank">Women's Tennis </a></li>
-                    <li><a class="external-link" href="" target="_blank">Women's Volleyball</a></li>
-                    <li><a class="external-link" href="" target="_blank">Cross Country</a></li>
-                    <li><a class="external-link" href="" target="_blank">Indoor and Outdoor Track &amp; Field</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/m-basebl/ston-m-basebl-body.html" target="_blank">Men's Baseball</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/m-baskbl/ston-m-baskbl-body.html" target="_blank">Men's Basketball</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/m-footbl/sched/ston-m-footbl-sched.html" target="_blank">Men's Football</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/m-lacros/ston-m-lacros-body.html" target="_blank">Men's Lacrosse</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/m-soccer/ston-m-soccer-body.html" target="_blank">Men's Soccer</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/m-swim/ston-m-swim-body.html" target="_blank">Men's Swimming*</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/m-tennis/ston-m-tennis-body.html" target="_blank">Men's Tennis</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/w-baskbl/ston-w-baskbl-body.html" target="_blank">Women's Basketball</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/w-lacros/ston-w-lacros-body.html" target="_blank">Women's Lacrosse</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/w-softbl/ston-w-softbl-body.html" target="_blank">Women's Softball</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/w-soccer/ston-w-soccer-body.html" target="_blank">Women's Soccer</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/w-swim/ston-w-swim-body.html" target="_blank">Women's Swimming*</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/w-tennis/ston-w-tennis-body.html" target="_blank">Women's Tennis </a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/w-volley/ston-w-volley-body.html" target="_blank">Women's Volleyball</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/c-xc/ston-c-xc-body.html" target="_blank">Cross Country</a></li>
+                    <li><a class="external-link" href="http://goseawolves.cstv.com/sports/c-track/sched/ston-c-track-sched.html" target="_blank">Indoor and Outdoor Track &amp; Field</a></li>
                 </ul>
                 <p><em>*Currently on competitive hiatus.</em></p>
             </div>

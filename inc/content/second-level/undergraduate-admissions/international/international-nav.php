@@ -9,4 +9,5 @@
 	<a <?php if($selected_sub_nav==2) { ?>class="selected" <?php } ?>href="undergraduate-admissions/apply/international/admission-criteria">Admission Criteria</a>
 	<a <?php if($selected_sub_nav==3) { ?>class="selected" <?php } ?>href="undergraduate-admissions/apply/international/application-procedures">Application Procedure and Deadlines</a>
 	<a <?php if($selected_sub_nav==4) { ?>class="selected" <?php } ?>href="undergraduate-admissions/apply/international/ap-college-credit">AP &amp; College Credit</a>
+	<a <?php if($selected_sub_nav==5) { ?>class="selected" <?php } ?>href="undergraduate-admissions/apply/international/visa-classifications">Visa Classifications</a>
 </nav>

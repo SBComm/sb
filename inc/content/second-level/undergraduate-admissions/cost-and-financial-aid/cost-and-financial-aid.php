@@ -84,7 +84,7 @@
                             <td class="label">Tuition</td>
                             <td>
                                 <span class="amount">6,170</span> (NY Residents)<br />
-                                <span class="amount">19,590</span> (Out-of-state &amp; International)
+                                <span class="amount">19,590</span> (Out-of-state <span class="nowrap intl-label">&amp; International)</span>
                             </td>
                         </tr>
                         <tr>
@@ -277,7 +277,7 @@
 
      <section class="student-loan-rates white-background inside-content clearfix">
         <div class="wrapper border-box">
-            <h3>Bigger Affordability, Smaller Debt</h3>
+            <h3>Bigger Affordability, <span class="nowrap">Smaller Debt</span></h3>
             <div class="content clearfix">
                 <p>In an era where stories about rising student debt and default rates appear daily in the media, Stony Brook students graduate with low debt, and have much smaller default rates compared to both national and New York State averages.</p>
             </div>

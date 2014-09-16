@@ -132,7 +132,10 @@
                 </div>
                 <p>Freshman applicants admitted to the University but not initially accepted into their major of choice may apply for admission into the major after satisfying the requirements as outlined in the <a href="http://sb.cc.stonybrook.edu/bulletin/current/">Undergraduate Bulletin</a> description of the major.</p>
                 <h4>More Information</h4>
-                links...
+                <ul>
+                    <li><a href="undergraduate-admissions/apply/joint-admissions">Joint Admissions</a></li>
+                    <li><a href="downloads/pdf/admissions/Stony-Brook-Math-Expectations-Freshman.pdf">Math Expectations</a></li>
+                </ul>
             </div>
 
         </div>

@@ -118,6 +118,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
+                                <p>At Stony Brook, we offer a variety of Honors Programs for our academically talented students.</p>
                                 <p><a href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">Get more information</a></p>
                             </div>
                         </div>
@@ -129,7 +130,8 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p><a href="undergraduate-admissions/apply/international/" target="_blank">Get more information</a></p>
+                                <p>Stony Brook University offers a world of possibilities for international students.</p>
+                                <p><a href="undergraduate-admissions/apply/international">Get more information</a></p>
                             </div>
                         </div>
                     </div>
@@ -141,7 +143,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>The undergraduate major in music balances studies in the performance, composition, theory, and history of Western art music with the broad general education implied by a liberal arts degree.</p>
-                                <p><a href="http://www.stonybrook.edu/commcms/music/index.shtml" target="_blank">Get more information</a></p>
+                                <p><a href="undergraduate-admissions/academics/program-details/?code=mus">Get more information</a></p>
                             </div>
                         </div>
                     </div>
@@ -152,8 +154,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>These majors are upper-division and require completion of 57 college credits and specific courses/grade prerequisites. Those interested in these upper-division majors may apply for admission as a freshman in the College of Arts and Sciences, where they can enroll in the course prerequisites. An application to the upper-division program will need to be filed through the Health Sciences Center <a href="http://www.stonybrook.edu/hscstudents/">Office of Student Services</a> the year in which you anticipate completing all prerequisites. <strong>Do not file an application through the Office of Undergraduate Admissions.</strong></p>
-                                <p><a href="http://www.stonybrook.edu/hscstudents/" target="_blank">Get more information</a></p>
+                                <p><a href="undergraduate-admissions/apply/hsc-admission-criteria/">View Special Application Procedures for HSC Majors</a></p>
                             </div>
                         </div>
                     </div>

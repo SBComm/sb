@@ -627,6 +627,12 @@ section.cost-comparison .amount:before {
     font-size: .8em;
 }
 
+.cost-stats .intl-label {
+    display: block;
+    text-align: center;
+    float: none;
+}
+
 section.cost-comparison {
     padding: 60px 0 70px;
 }
@@ -814,6 +820,11 @@ section.student-loan-rates {
     text-align: center;
     padding: 0 0 40px;
     border-bottom: 1px solid #000;
+}
+
+.student-loan-rates p {
+    display: block;
+    margin: 20px 0;
 }
 
 .student-loan-rates ul {
@@ -1202,6 +1213,12 @@ section.program-details {
     .admissions-group-form {
         width: 100%;
         height: 1700px;
+    }
+
+    .cost-stats .intl-label {
+        display: inline;
+        text-align: none;
+        float: none;
     }
 }
 
@@ -1659,28 +1676,34 @@ section.program-details {
     }
 
     .counselor-container .button-wrapper {
+        width: 33.333%;
+        float: left;
+        margin: 20px 0;
+    }
+
+    .counselor-container .button-wrapper.map-button {
         margin: 0;
     }
 
-    .counselor-container .button-wrapper a {
+    .counselor-container .button-wrapper.map-button a {
         margin: 0;
         width: auto;
     }
 
-    .counselor-container .button-wrapper {
+    .counselor-container .button-wrapper.map-button {
         position: absolute;
         top: 100px;
     }
 
-    .counselor-container .all-btn {
+    .counselor-container .all-btn.map-button {
         right: 0;
     }
 
-    .counselor-container .intl-btn {
+    .counselor-container .intl-btn.map-button {
         right: 200px;
     }
 
-    .counselor-container .ny-btn {
+    .counselor-container .ny-btn.map-button {
         position: absolute;
         left: -99999px;
         top: -99999px;

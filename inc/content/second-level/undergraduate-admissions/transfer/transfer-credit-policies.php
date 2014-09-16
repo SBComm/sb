@@ -54,7 +54,7 @@
                 <h4>More Information for Transfers</h4>
                 <ul class="default-bullets">
                     <li><a class="external-link" href="http://www.stonybrook.edu/commcms/advising/_transferinfo/course_eqiv.html" target="_blank">View Course Equivalency Information</a></li>
-                    <li><a class="external-link" href="downloads/pdf/admissions/Stony-Brook-Math-Expectations-Freshman.pdf" target="_blank">Math Expectations</a></li>
+                    <li><a class="external-link" href="downloads/pdf/admissions/Stony-Brook-Math-Expectations-Transfer.pdf" target="_blank">Math Expectations</a></li>
                     <li><a href="undergraduate-admissions/apply/international">International Applicants</a></li>
                 </ul>
             </div>

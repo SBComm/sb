@@ -32,7 +32,10 @@
                 <p>Applicants who do not specify a major on their application are considered for admission to the University rather than to a particular major. Transfer students with more than 56 credits must indicate a major on their application to be eligible for financial aid.</p>
                 <p>Offers of admission are conditional, pending receipt of all official records showing successful completion of academic work in progress.</p>
                 <h4>More Information</h4>
-                links...
+                <ul>
+                    <li><a class="external-link" href="http://bit.ly/1xXPg8S" target="_blank">Course Equivalencies</a></li>
+                    <li><a href="downloads/pdf/admissions/Stony-Brook-Math-Expectations-Transfers.pdf">Math Expectations</a></li>
+                </ul>
             </div>
 
             <div class="content col-2">
@@ -105,16 +108,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>These majors are upper-division and require completion of 57 college credits and specific courses/grade prerequisites. An application to the major of interest will need to be filed through the Health Sciences Center <a href="http://www.stonybrook.edu/hscstudents/">Office of Student Services</a> the year in which you anticipate completing all prerequisites. <strong>Do not file an application through the Office of Undergraduate Admissions.</strong></p>
-                                <ul class="default-bullets">
-                                    <li><a href="http://healthtechnology.stonybrookmedicine.edu/programs/at">Athletic Training</a></li>
-                                    <li><a href="http://healthtechnology.stonybrookmedicine.edu/programs/clinical">Clinical Laboratory Sciences</a></li>
-                                    <li><a href="http://healthtechnology.stonybrookmedicine.edu/programs/otp/welcome">Health Science, BS / Occupational Therapy, MS</a></li>
-                                    <li><a href="http://sunysb.askadmissions.net/ask.aspx?quser=nursing">Nursing</a></li>
-                                    <li><a href="http://healthtechnology.stonybrookmedicine.edu/programs/rc/welcome">Respiratory Care</a></li>
-                                    <li><a href="http://sunysb.askadmissions.net/ask.aspx?quser=social+work">Social Work</a></li>
-                                </ul>
-                                <p>Transfer applicants who have not yet completed the prerequisites for the upper-division health science program in which they are interested should attend an <a href="http://www.stonybrook.edu/hscstudents/infosessions.shtml">information session</a> for that program. You will learn more about the admissions requirements for the program, including specific courses prerequisites, minimum GPA, and related health care experience. You will also learn about the application deadline and start date.</p>
+                                <p><a href="undergraduate-admissions/apply/hsc-admission-criteria/">View Special Application Procedures for HSC Majors</a></p>
                             </div>
                         </div>
                     </div>

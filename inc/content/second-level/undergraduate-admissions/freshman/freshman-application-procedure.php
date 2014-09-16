@@ -168,7 +168,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>At Stony Brook, we offer a variety of Honors Programs for our academically talented students.</p>
-                                <p><a href="undergraduate-admissions/academics/honors/">Get more information</a></p>
+                                <p><a href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">Get more information</a></p>
                             </div>
                         </div>
                     </div>
