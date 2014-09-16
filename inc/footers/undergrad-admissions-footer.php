@@ -15,7 +15,7 @@
                          			<span class="serif-italic">Office of <br /><span class="nowrap">Undergraduate Admissions</span></span>
                                         Stony Brook University<br />
                                         118 Administration Building<br />
-     							<span class="nowrap">Stony Brook, NY 11794-3364</span><br />
+     							<span class="nowrap">Stony Brook, NY 11794-1901</span><br />
      							<a class="address-link small-button" href="https://www.google.com/maps/preview?q=118+Administration+Building+Stony+Brook,+NY+11794-3364" target="_blank" title="View map of Stony Brook Admissions"><em class="fa fa-map-marker icon"></em>View map</a>
      							<span class="phone nowrap">(631) 632-6868</span>
                          		</span>

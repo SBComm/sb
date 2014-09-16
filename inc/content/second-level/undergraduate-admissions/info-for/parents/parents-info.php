@@ -32,15 +32,16 @@
                     <li><a href="undergraduate-admissions/apply/freshman/">Admission Criteria</a>  (Freshman)</li>
                     <li><a href="undergraduate-admissions/apply/freshman/application-procedures">Application Procedures</a> (Freshman)</li>
                     <li><a href="undergraduate-admissions/apply/freshman/ap-college-credit/">AP &amp; College Credit</a> (Freshman)</li>
-                    <li><a href="undergraduate-admissions/check-application-status/">Check Application Status</a></li>
-                    <li><a href="undergraduate-admissions/cost-and-aid/">Cost, Financial Aid and Scholarships</a></li>
+                    <li><a href="undergraduate-admissions/application-status/">Check Application Status</a></li>
+                    <li><a href="undergraduate-admissions/cost-and-financial-aid/">Cost, Financial Aid and Scholarships</a></li>
                     <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">Honors Programs</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/sb/safety.shtml" target="_blank">Campus Safety</a></li>
                 </ul>
 
                 <h4>Resources</h4>
                 <ul class="default-bullets">
                     <li><a href="undergraduate-admissions/contact/brochures">View Downloadable Brochures</a>
-                    <li><a href="downloads/pdf/admissions/Stony-Brook-For-Parents.pdf" target="_blank">8 Reasons Why Parents Love Stony Brook University</a>
+                    <li><a href="downloads/pdf/admissions/Stony-Brook-For-Parents.pdf" target="_blank">8 Reasons Why You'll Love Stony Brook University</a>
                 </li>
             </div>
         </div>

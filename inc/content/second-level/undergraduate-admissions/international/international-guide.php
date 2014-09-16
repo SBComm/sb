@@ -370,6 +370,12 @@
                         </ul>
                     </li>
                 </ul>
+                <h4>General Certificate of Education (GCE)</h4>
+                <p>Applicants with the GCE are preferred to present one of the following two combinations:</p>
+                <ol class="number">
+                    <li>two Advanced Level passes and three Ordinary Level/GCSE passes OR</li>
+                    <li>three Advanced Level passes and one Ordinary Level/GCSE passes</li>
+                </ol>
             </div>
 
         </div>

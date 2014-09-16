@@ -32,6 +32,12 @@
                         <span class="label">Schedule a Tour</span>
                     </a>
                 </div>
+                <h4>For Transfer Students</h4>
+                <div class="button-wrapper tour-btn clearfix">
+                    <a href="undergraduate-admissions/events/?session=transfer" class="rounded-button-1 icon school-icon">
+                        <span class="label">View Events for Transfers</span>
+                    </a>
+                </div>
                 <h4>Group Tour Requests</h4>
                 <p>Schools and/or organizations planning to bring 20 or more students to campus must <a href="undergraduate-admissions/visit/campus-tours/request-a-guided-tour/"><span class="hide-accessible"> click here to</span> complete our Group Visit Request Form</a>. Organizations wishing to bring less than 20 students should contact Lyle Wind, Director of Campus Tours, at Lyle.Wind@stonybrook.edu.</p>
                 <h4>Interviews</h4>

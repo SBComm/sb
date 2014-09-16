@@ -23,9 +23,9 @@
         <div class="border-box wrapper clearfix">
             <h3>Events</h3>
             <div class="content col-2">
-                <h4>Out of State Information</h4>
+                <h4>Information Sessions for Transfer Students</h4>
                 <p>Prospective transfer students are invited to attend an upcoming information session, where you will learn more about:</p>
-                <ul>
+                <ul class="arrow-bullets">
                     <li>Majors and Special Programs</li>
                     <li>Cost Of Attendance</li>
                     <li>Admissions Requirements</li>
@@ -35,7 +35,7 @@
                 <p>All sessions will be held in the Undergraduate Admissions Reception Area, Administration Building First Level, Stony Brook University.</p>
             </div>
             <div class="content col-2">
-                <h4>Out of State Sessions</h4>
+                <h4>Transfer Student Sessions</h4>
                 <p>
                     Friday, October 3, 2014<br />
                     2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577dedb699f8acc4c2288c56734cd326220" target="_blank">Register Now</a>
