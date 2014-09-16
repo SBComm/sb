@@ -33,6 +33,21 @@
                             <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
                         </div>
                     </div>
+                    <div class="item">
+                        <div class="carousel-image clearfix" data-image="07">
+                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-image clearfix" data-image="08">
+                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-image clearfix" data-image="09">
+                            <h1 class="admissions-tagline bottom">We <span>are</span> <em>Seawolves</em></h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,7 +118,7 @@
                         <div class="student-wrapper mai clearfix">
                             <img class="student" src="img/students/profile/Circle-Mai-BW.jpg" />
                         </div>
-                        <span class="blurb"><em>Mai</em> studied with Dr. Patricia Wright in Madagascar</span>
+                        <span class="blurb"><em>Mai</em> studied primate conservation in Madagascar</span>
                     </a>
                     <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=1bTsxSIJ9l8" data-lightbox-gallery="student-video-gallery">
                         <div class="student-wrapper alejandro clearfix">
@@ -115,7 +130,7 @@
                         <div class="student-wrapper cooper clearfix">
                             <img class="student" src="img/students/profile/Circle-Cooper-BW.jpg" />
                         </div>
-                        <span class="blurb"><em>Cooper</em> received a URECA research grant</span>
+                        <span class="blurb"><em>Cooper</em> received a grant to spend his summer doing cancer research</span>
                     </a>
                 </div>
                 <div class="owl-prev owl-prev-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-left"></em></div>

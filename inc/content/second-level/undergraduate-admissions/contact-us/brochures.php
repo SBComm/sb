@@ -54,7 +54,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="no-icon-after" href="downloads/pdf/admissions/14010798-Why-Stony-Brook.pdf">
+                        <a class="no-icon-after" href="downloads/pdf/admissions/Why-Stony-Brook.pdf">
                             <div class="equal-height-col img-wrapper">
                                 <img src="img/brochures/why-sb.jpg" />
                             </div>

@@ -19,13 +19,13 @@
     background-position: 50% 20%;
 }
 
-.carousel-image[data-image='03'] {
-    background-image: url("../../img/student-life/marquee-journalism-768.jpg");
-    background-position: 20% 20%;
-}
-
 .carousel-image[data-image='02'] {
     background-image: url("../../img/student-life/marquee-stadium-768.jpg");
+}
+
+.carousel-image[data-image='03'] {
+    background-image: url("../../img/student-life/marquee-chemistry-768.jpg");
+    background-position: 20% 20%;
 }
 
 .carousel-image[data-image='04'] {
@@ -33,11 +33,23 @@
 }
 
 .carousel-image[data-image='05'] {
-    background-image: url("../../img/student-life/marquee-audience-768.jpg");
+    background-image: url("../../img/student-life/marquee-africa-768.jpg");
 }
 
 .carousel-image[data-image='06'] {
+    background-image: url("../../img/student-life/marquee-audience-768.jpg");
+}
+
+.carousel-image[data-image='07'] {
     background-image: url("../../img/student-life/marquee-regatta-768.jpg");
+}
+
+.carousel-image[data-image='08'] {
+    background-image: url("../../img/student-life/marquee-bnl-768.jpg");
+}
+
+.carousel-image[data-image='09'] {
+    background-image: url("../../img/student-life/marquee-journalism-768.jpg");
 }
 
 .site-carousel h1.special {
@@ -989,13 +1001,13 @@ footer.site-footer {
         background-position: 50% 20%;
     }
 
-    .carousel-image[data-image='03'] {
-        background-image: url("../../img/student-life/marquee-journalism-2000.jpg");
-        background-position: 50% 20%;
-    }
-
     .carousel-image[data-image='02'] {
         background-image: url("../../img/student-life/marquee-stadium-2000.jpg");
+    }
+
+    .carousel-image[data-image='03'] {
+        background-image: url("../../img/student-life/marquee-chemistry-2000.jpg");
+        background-position: 50% 20%;
     }
 
     .carousel-image[data-image='04'] {
@@ -1003,11 +1015,23 @@ footer.site-footer {
     }
 
     .carousel-image[data-image='05'] {
-        background-image: url("../../img/student-life/marquee-audience-2000.jpg");
+        background-image: url("../../img/student-life/marquee-africa-2000.jpg");
     }
 
     .carousel-image[data-image='06'] {
+        background-image: url("../../img/student-life/marquee-audience-2000.jpg");
+    }
+
+    .carousel-image[data-image='07'] {
         background-image: url("../../img/student-life/marquee-regatta-2000.jpg");
+    }
+
+    .carousel-image[data-image='08'] {
+        background-image: url("../../img/student-life/marquee-bnl-2000.jpg");
+    }
+
+    .carousel-image[data-image='09'] {
+        background-image: url("../../img/student-life/marquee-journalism-2000.jpg");
     }
 
     .site-carousel .carousel-wrapper .item,

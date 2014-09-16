@@ -101,10 +101,10 @@
 							<?php
 								$region_id = $_GET['session'];
 								if($region_id=='') {
-									$file = "undergraduate-admissions/info-sessions/info-session.php";
+									$file = "undergraduate-admissions/events/default.php";
 								}
 								else {
-									$file = "undergraduate-admissions/info-sessions/{$region_id}.php";
+									$file = "undergraduate-admissions/events/{$region_id}.php";
 								}
 								include($path . $content . $secLv . $file);
 							?>
