@@ -26,7 +26,7 @@
             <h3>How to Apply to Stony Brook as a Transfer</h3>
             <div class="content application-details clearfix">
                 <div class="inner-wrapper">
-                    <p>To apply to Stony Brook University as a transfer student, please follow these application procedures. Before submitting an application, be sure to review our list of <a href="undergraduate-admissions/academics/">academic offerings</a>. Students applying for admission to <a href="http://stonybrookmedicine.edu/education/healthsciences">Health Sciences programs</a> must follow <a href="http://www.stonybrook.edu/hscstudents/apply_now.shtml">special application procedures</a>.</p>
+                    <p>To apply to Stony Brook University as a transfer student, please follow these application procedures. Before submitting an application, be sure to review our list of <a href="undergraduate-admissions/academics/">academic offerings</a>. Students applying for admission to <a class="external-link" href="http://stonybrookmedicine.edu/education/healthsciences" target="_blank">Health Sciences programs</a> must follow <a href="undergraduate-admissions/apply/hsc-admission-criteria/">special application procedures</a>.</p>
                     <h4>Step 1: Apply Online via The SUNY Application</h4>
                     <a class="img-link" href="https://www.suny.edu/applysuny/" target="_blank"><img src="img/devices/macbook-pro-apply-suny.jpg" /></a>
                     <table class="simple-two-col-table">

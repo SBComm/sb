@@ -36,7 +36,8 @@
                     11am - 1pm<br />
                     Washington Marriott Georgetown<br />
                     1221 22nd Street NW<br />
-                    Washington, D.C. 20037
+                    Washington, D.C. 20037<br />
+                    <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=6235775c83e271b2ee4eb79170a8466f9bf919" target="_blank">RSVP Now!</a></p>
                 </p>
                 
                 <h4>Baltimore, MD</h4>
@@ -45,7 +46,8 @@
                     7pm - 9pm<br />
                     Renaissance Baltimore Harborplace Hotel<br />
                     202 East Pratt Street<br />
-                    Baltimore MD, 21202
+                    Baltimore MD, 21202<br />
+                    <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577f28264d940ed4d1a9c40a931a3b6f94f" target="_blank">RSVP Now!</a></p>
                 </p>
                 
                 <h4>Philadelphia, PA</h4>
@@ -55,6 +57,7 @@
                     Philadelphia Marriott West<br />
                     111 Crawford Ave West<br />
                     Conshohocken, PA 19428<br />
+                    <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=6235779c607724241844a89d97d30b23a69ee4" target="_blank">RSVP Now!</a></p>
                 </p>
             </div>
         </div>
