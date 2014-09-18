@@ -372,6 +372,13 @@
                         </li>
                     </ul>
 
+                    <h2><span class="red">Get</span> <span class="darker">Involved</span></h2>
+                    <div class="social-get-involved clearfix">
+                        <div class="sbu-text-shadow">
+                            Are you a student with a passion for social media? <a class="red" href="social/get-involved/">Join the Stony Brook Social Team!</a>
+                        </div>
+                    </div>
+
                     <div class="social-channels-main disclaimer-text clearfix">
                         <div class="sbu-text-shadow">
                             Our social media efforts encourage active discussion and sharing of information and thoughts.<br />

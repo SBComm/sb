@@ -35,7 +35,7 @@
 		    $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 		    $page_scroll_time = 0;     		//Time for scroll function in milliseconds
 
-		    $page_loader      = true;
+		    $page_loader      = false;
 		?>
 
 	<!-- <head> -->
