@@ -306,6 +306,12 @@ a.sbu-link:hover {
 	clear: both; /* Safari */
 }
 
+.social-form {
+	width: 100%;
+	height: 2300px;
+	margin: 20px 0 0;
+}
+
 /*
 .opacity {
 	padding: 30px 30px 10px 30px;
