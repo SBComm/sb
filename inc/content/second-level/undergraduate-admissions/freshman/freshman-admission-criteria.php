@@ -43,13 +43,13 @@
                 </ul>
                 <p>Please note that additional admission requirements are needed for:</p>
                 <ul class="default-bullets">
-                    <li><a href="http://www.stonybrook.edu/eopaim/eligibility.shtml">EOP/AIM</a></li>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/homeschooled/">Home-Schooled Students</a></li>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/newhonors/honors.shtml">Honors College</a></li>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/newhonors/wise.shtml">Women In Science and Engineering</a></li>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/newhonors/scholarsmed.shtml">Scholars for Medicine</a></li>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/newhonors/scholarsdentalmed.shtml">Scholars for Dental Medicine</a></li>
-                    <li><a href="http://www.stonybrook.edu/ugadmissions/newhonors/scholarsmed.shtml">Engineering Scholars for Medicine</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/eopaim/eligibility.shtml" target="_blank">EOP/AIM</a></li>
+                    <li><a href="undergraduate-admissions/future-students/home-school-students/">Home-Schooled Students</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/honors.shtml" target="_blank">Honors College</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/wise.shtml" target="_blank">Women In Science and Engineering</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/scholarsmed.shtml" target="_blank">Scholars for Medicine</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/scholarsdentalmed.shtml" target="_blank">Scholars for Dental Medicine</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/scholarsmed.shtml" target="_blank">Engineering Scholars for Medicine</a></li>
                 </ul>
             </div>
 

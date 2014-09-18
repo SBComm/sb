@@ -371,6 +371,11 @@
                             <td>Business Administration</td>
                         </tr>
                         <tr>
+                            <td>Philosophy</td>
+                            <td>BA/MA</td>
+                            <td>Philosophy</td>
+                        </tr>
+                        <tr>
                             <td>Physics</td>
                             <td>BS/MAT</td>
                             <td>Adolescence Education: Physics</td>

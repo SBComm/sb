@@ -32,7 +32,7 @@
                     <li>Wish to study in the U.S. under a student (F-1) visa. Those with valid B-1 or B-2 visas, must change their status to F-1, or:</li>
                     <li>Currently hold an F-1, F-2, J-1, or J-2 visa.</li>
                 </ul>
-                <p><a href="undergraduate-admissions/international/visa-classifications">More visa classifications</a></p>
+                <p><a href="undergraduate-admissions/apply/international/visa-classifications/">More visa classifications</a></p>
                 <h4>Academic Criteria</h4>
                 <ul class="default-bullets">
                     <li>If you are a <strong>freshman applicant</strong>, you must have completed the highest level of secondary education in your country of residence. We look for a strong secondary academic program with courses in math, natural sciences, and English (or, if English is the language of instruction, another language).</li>
