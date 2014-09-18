@@ -59,7 +59,9 @@
         <?php if($page_type=='social-hub') { ?>
         	<link rel="stylesheet" type="text/css" href="css/social/sb-layout.css" media="all" />
 			<link rel="stylesheet" type="text/css" href="css/social/sb-dcsns_wall.css" media="all" />
-			<link rel="stylesheet" type="text/css" href="css/social/sbu-preloader.css" media="all" />
+            <?php if($page_loader) { ?>
+                <link rel="stylesheet" type="text/css" href="css/social/sbu-preloader.css" media="all" />
+            <?php } ?>
 			<!--[if lt IE 9]>
 	            <link rel="stylesheet" type="text/css" href="css/social/ie/sb-dcsns_wall-ie8.css" media="all" />
 	        <![endif]-->
