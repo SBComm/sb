@@ -17,8 +17,27 @@
     <div class="fade-in-page absolute-white-cover"></div>
 <?php } ?>
 <?php if($page_loader) { ?>
+    <?php if($page_type=='social-hub') { ?>
+    <div id="preloader">
+        <div id="status">
+            <div class="preload-title">
+                <span class="red">SBU</span> <span class="darker">Social</span> Media
+            </div>
+            <div class="preload-message" style="display: none">
+                <span>Collecting feeds...</span>
+                <span>Getting posts...</span>
+                <span>Fetching tweets...</span>
+                <span>Assembling pins...</span>
+                <span>Gathering shares...</span>
+                <span>Initializing...</span>
+            </div>
+        </div>
+    </div>
+    <?php } else { ?>
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
     <style type="text/css"> body { overflow: hidden; } </style>
+    <?php } ?>
 <?php } ?>
+
