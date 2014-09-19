@@ -196,7 +196,7 @@
             <div class="item rtl rtl2 last clearfix">
                 <div class="text-wrapper">
                     <p class="equal-col">
-                        <span class="stat"><em>Top<br />100</em> universitiy<br /></span>
+                        <span class="stat"><em>Top<br />100</em> university<br /></span>
                         <span class="source">~US News</span>
                     </p>
                 </div>
