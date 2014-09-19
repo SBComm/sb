@@ -35,15 +35,6 @@
                             <td><a class="external-link" href="https://www.suny.edu/applysuny/" target="_blank">The SUNY Application</a> allows you to apply to several SUNY campuses with one application</td>
                         </tr>
                         <tr>
-                            <td class="label">Requirements</td>
-                            <td>
-                                <ul class="default-bullets">
-                                    <li>SUNY Supplement (includes an essay of at least 250 words)</li>
-                                    <li><a href="downloads/pdf/admissions/Teacher-Evaluation-Form.pdf" target="_blank">Teacher/Counselor Evaluation</a></li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
                             <td class="label nowrap">Application Fee</td>
                             <td>$50</td>
                         </tr>
