@@ -175,7 +175,7 @@
 					$('#social-stream').dcSocialStream({
 						feeds: {
 							twitter: {
-								id: 'stonybrooku,sbubuzz,sbudoit,sbunewsdesk',
+								id: 'stonybrooku,sbubuzz,PresStanley,sbunewsdesk',
 								thumb: true
 							},
 							rss: {
