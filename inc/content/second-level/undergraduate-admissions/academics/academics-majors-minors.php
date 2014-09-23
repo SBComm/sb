@@ -35,12 +35,10 @@
                     <ul class="three-col-list" data-search-id="course-list">
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=acc">Accounting</a>
-                            <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=hsq">Adapted Aquatics</a>
-                            <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
@@ -49,7 +47,7 @@
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
-                            <a href="undergraduate-admissions/academics/program-details?code=amr">Americana Studies, BA</a>
+                            <a href="undergraduate-admissions/academics/program-details?code=amr">American Studies, BA</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                             <ul class="default-bullets">
@@ -64,12 +62,13 @@
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
                         </li>
                         <li>
-                            <a href="undergraduate-admissions/academics/program-details?code=ams">Applied Mathematics &amp; Statistics</a>
+                            <a href="undergraduate-admissions/academics/program-details?code=ams">Applied Mathematics &amp; Statistics, BS</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=arh">Art History &amp; Criticism, BA</a>
+                            <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
@@ -209,6 +208,7 @@
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=ece">Computer Engineering, BE</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=cse">Computer Science, BS</a>
@@ -279,12 +279,11 @@
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
-                            <a href="undergraduate-admissions/academics/program-details?code=ecs">Engineering Composites</a>
-                            <span class="minor">m<span class="hide-accessible">inor</span></span>
-                        </li>
-                        <li>
                             <a href="undergraduate-admissions/academics/program-details?code=ecm">Engineering Chemistry, BS</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
+                        </li>
+                        <li>
+                            <a href="undergraduate-admissions/academics/program-details?code=ecs">Engineering Composites</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
@@ -310,10 +309,10 @@
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=edp">Environmental Design, Policy, &amp; Planning, BA</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=ene">Environmental Engineering</a>
-                            <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
@@ -429,12 +428,10 @@
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=int">International Studies</a>
-                            <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=iam">Italian American Studies</a>
-                            <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
@@ -501,7 +498,6 @@
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=mvb">Marine Vertebrate Biology, BS</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
-                            <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=esm">Materials Science</a>
@@ -540,11 +536,11 @@
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=mtx">Music and Technology Studies</a>
-                            <span class="major">M<span class="hide-accessible">ajor</span></span>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=nts">Nanotechnology Studies</a>
-                            <span class="major">M<span class="hide-accessible">ajor</span></span>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=hni">Nursing, BS</a>
@@ -552,7 +548,7 @@
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=opt">Optics</a>
-                            <span class="major">M<span class="hide-accessible">ajor</span></span>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=bcp">Pharmacology, BS</a>
