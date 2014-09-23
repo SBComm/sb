@@ -74,7 +74,7 @@
                     <span class="text">
                         As Vice President, a position he has held since 2000, Dr. Shamash supervises the University’s three incubators, two New York State Centers for Advanced Technology, the NYS Center of Excellence in Wireless and Information Technology (CEWIT), the Small Business Development Center, and the workforce development programs of the Center for Emerging Technologies.
                     </span>
-                    <!--<a class="more-button fa-arrow-after" href="#">Read More</a>-->
+                    <a class="more-button fa-arrow-after" href="http://www.stonybrook.edu/ecodev/">Read More</a>
                 </div>
             </div>
             <div class="title-link-box-2 right-link-box video-box wrapper">
