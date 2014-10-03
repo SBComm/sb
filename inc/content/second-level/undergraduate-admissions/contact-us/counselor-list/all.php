@@ -181,22 +181,20 @@
                     </a>
                 </li>
                 <li>
-                    <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=pertusati">
-                    <img src="img/admissions-counselors/pertusati.jpg" alt="" />
-                    <div class="person-info">
-                        <span class="name">Robert Pertusati</span>
-                        <span class="title">Associate Dean of Admissions</span>
-                        <span class="location">New York</span>
-                    </div>
-                    </a>
-                </li>
-                <li>
                     <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=berhannan">
                     <img src="img/admissions-counselors/berhannan.jpg" alt="" />
                     <div class="person-info">
                         <span class="name">Judith Berhannan</span>
                         <span class="title">Dean of Admissions</span>
-                        <span class="location"></span>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=pertusati">
+                    <img src="img/admissions-counselors/pertusati.jpg" alt="" />
+                    <div class="person-info">
+                        <span class="name">Robert Pertusati</span>
+                        <span class="title">Senior Associate Dean of Admissions</span>
                     </div>
                     </a>
                 </li>
