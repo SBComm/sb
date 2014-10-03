@@ -96,6 +96,50 @@
             </div>
         </div>
     </section>
+     <section class="clearfix inside-content main-inside-content two-col white-background">
+            <div class="border-box wrapper clearfix">
+                <div class="content clearfix">
+                    <p>For more information about enrolling in Stony Brook University through the Joint Admissions Programs, contact your secondary school counselor or speak with an admissions counselor at one of the following campuses:</p>
+
+                    <p>Stony Brook University<br />
+                    Tracey L. Iorio<br />
+                    Assistant Director<br />
+                    Academic and Transfer Advising Services<br />
+                    E2360 Melville Library<br />
+                    Stony Brook, N.Y. 11794-3353<br />
+                    (631) 632-6088</p>
+
+                    <p>Nassau Community College <br />
+                    Office of Admissions<br />
+                    One Education Drive<br />
+                    Nassau Community College<br />
+                    Garden City, N.Y. 11530-6793<br />
+                    (516) 572-7345</p>
+
+                    <p>Suffolk County Community College — Eastern Campus<br />
+                    Office of Admissions<br />
+                    Peconic Building, Room 112<br />
+                    121 Speonk-Riverhead Road<br />
+                    Suffolk County Community College<br />
+                    Riverhead, N.Y. 11901-3499<br />
+                    (631) 548-2512</p>
+
+                    <p>Suffolk County Community College — Ammerman Campus<br />
+                    Office of Admissions<br />
+                    Ammerman Building, <br />
+                    Main Level<br />
+                    533 College Road<br />
+                    Suffolk County Community College<br />
+                    Selden, N.Y. 11784-2899<br />
+                    (631) 451-4110</p>
+
+                    <p>Suffolk County Community College — Grant Campus<br />
+                    Office of Admissions<br />
+                    Nesconset Hall, Room N-1<br />
+                    Crooked Hill Road<br />
+                    Suffolk County Community College<br />
+                    Brentwood, N.Y. 11717<br />
+                    (631) 851-6876</p>
 
     <!-- <social-sidebar> -->
         <?php if($social_sidebar!='') {

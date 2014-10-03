@@ -199,7 +199,7 @@
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==33) echo('selected'); ?>" data-li-order="03">
-				<a href="undergraduate-admissions/contact/chat" class="clearfix">
+				<a href="https://sunysb.askadmissions.net/groupchat/LandingPage.aspx" class="clearfix">
 					<span class="label clearfix">Chat<br />With Us</span>
 				</a>
 			</li>

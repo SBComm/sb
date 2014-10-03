@@ -1,6 +1,6 @@
 <div class="profile-image">
     <img src="img/admissions-counselors/berhannan.jpg" alt="" />
-    <div class="profile-info-wrapper fix-right">
+    <div class="profile-info-wrapper">
         <div class="profile-info">
             <span class="name">Judith Berhannan</span>
             <span class="title">Dean of Admissions</span>

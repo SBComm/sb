@@ -22,7 +22,7 @@
         </div>
     </section>
     <section class="clearfix inside-content main-inside-content white-background">
-        <div class="border-box wrapper counselor-container clearfix">
+        <div class="border-box wrapper counselor-container coming-to-you-container clearfix">
 
             <div class="content">
                 <h3>Coming To You</h3>

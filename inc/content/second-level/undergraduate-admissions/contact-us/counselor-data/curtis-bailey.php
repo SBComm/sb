@@ -6,7 +6,7 @@
             <span class="title">Senior Admissions Advisor and EOP Coordinator</span>
             <span class="territory"></span>
             <span class="location"></span> 
-            <span class="email">enroll@stonybrook.edu</span>
+            <span class="email">michelle.curtis@stonybrook.edu</span>
         </div>
     </div>
 </div>

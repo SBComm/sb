@@ -458,7 +458,7 @@
                     </tbody>
                 </table>
 
-                <p><a href="http://sb.cc.stonybrook.edu/bulletin/2014/fall/policiesandregulations/selecting_academic_program/double_degrees.php" target="_blank">View more information about combined degrees</a>.</p>
+                <p><a href="http://sb.cc.stonybrook.edu/bulletin/current/policiesandregulations/selecting_academic_program/double_degrees.php" target="_blank">View more information about combined degrees</a>.</p>
             </div>
             <a class="check-button apply-button" href="undergraduate-admissions/apply"><span>Apply Now</span></a>
         </div>

@@ -325,8 +325,8 @@
 		        	/* Check if there is a default 'show' parameter in the URL and if so,
 		        	   select that filter automatically on load 
 					   EXAMPLE: http://www.stonybrook.edu/social?show=facebook
+		        		console.log(decodeURIComponent($.urlParam('show')));
 		        	*/
-		        	console.log(decodeURIComponent($.urlParam('show')));
 		        	var show = $.urlParam('show'),
 		        		socialSelector = '',
 		        		hasDefault = true;
@@ -361,25 +361,17 @@
 					if(hasDefault) {
 						$(socialSelector).click();
 					}
-
 				<?php } ?>
-				
 
 				<?php if($page_loader) { ?>
-					console.log('fading out');
 		            $('#status').fadeOut(); // will first fade out the loading animation
-					console.log('fading out 2');
 		            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-					console.log('fading out 3');
 		            $('body').delay(350).css({'overflow':'visible'});
-					console.log('fading out 4');
-
 				<?php } ?>
 
 		        <?php if($page_to_top_link) { ?>
 		        	//hide link by default
 		        	$('#totop').addClass('invisible');
-
 		        <?php } ?>
 	            
 	            <?php if($page_scroll) { ?>

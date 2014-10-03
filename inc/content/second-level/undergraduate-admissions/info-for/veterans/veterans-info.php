@@ -1,5 +1,5 @@
 <article>
-    <section class="clearfix site-carousel inside-header info-for white-background">
+    <section class="clearfix site-carousel inside-header info-for-veterans white-background">
         <div class="border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
@@ -31,7 +31,7 @@
                 <h4>Affordable Tuition</h4>
                 <p>Our tuition is among the lowest of all top-tier research universities, and we're proud to be part of the Yellow Ribbon GI Education Enhancement Program, which may lower your tuition rate. In addition to filing your FAFSA and Tuition Assistance Program (TAP) applications, be sure to complete the <a class="external-link" href="http://www.hesc.ny.gov/pay-for-college/financial-aid/types-of-financial-aid/nys-grants-scholarships-awards/veterans-tuition-awards.html" target="_blank">New York State Veterans' Tuition Award Supplement.</a></p>
                 <h4>GI Bill and Aid</h4>
-                <p>Our professionally trained financial aid counselors will assist you in making the most of your GI Bill benefits. Weâ€™ll work with Veteransâ€™ Affairs to help make a complicated process as seamless as possible.</p>
+                <p>Our professionally trained financial aid counselors will assist you in making the most of your GI Bill benefits. We'll work with Veterans' Affairs to help make a complicated process as seamless as possible.</p>
                 <h4>Orientation and Advising</h4>
                 <p>You will attend a new student orientation program, during which you will receive personal academic advising, meet other students with military backgrounds.</p>
                 <h4>Veterans Affairs Office</h4>

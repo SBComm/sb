@@ -120,16 +120,6 @@
                     </div>
                     </a>
                 </li>
-                <li>
-                    <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=pertusati">
-                    <img src="img/admissions-counselors/pertusati.jpg" alt="" />
-                    <div class="person-info">
-                        <span class="name">Robert Pertusati</span>
-                        <span class="title">Associate Dean of Admissions</span>
-                        <span class="location">New York</span>
-                    </div>
-                    </a>
-                </li>
             </div>
 
         </div>

@@ -54,14 +54,34 @@
     background-position: 30% 40%;
 }
 
+.site-carousel.campus-life .carousel-image[data-image='01'] {
+    background-image: url("../../img/student-life/campus-life-1600.jpg");
+    background-position: 20% 50%;
+}
+
 .site-carousel.info-for .carousel-image[data-image='01'] {
     background-image: url("../../img/student-life/marquee-campus-autumn-2000.jpg");
     background-position: 67% 50%;
 }
 
-.site-carousel.campus-life .carousel-image[data-image='01'] {
-    background-image: url("../../img/student-life/campus-life-1600.jpg");
-    background-position: 20% 50%;
+.site-carousel.info-for-counselors .carousel-image[data-image='01'] {
+    background-image: url("../../img/student-life/marquee-info-for-counselors-2000.jpg");
+    background-position: 50% 50%;
+}
+
+.site-carousel.info-for-veterans .carousel-image[data-image='01'] {
+    background-image: url("../../img/student-life/marquee-info-for-veterans-2000.jpg");
+    background-position: 50% 50%;
+}
+
+.site-carousel.info-for-parents .carousel-image[data-image='01'] {
+    background-image: url("../../img/student-life/marquee-info-for-parents-2000.jpg");
+    background-position: 50% 50%;
+}
+
+.site-carousel.info-for-hs .carousel-image[data-image='01'] {
+    background-image: url("../../img/student-life/marquee-info-for-high-school-2000.jpg");
+    background-position: 50% 50%;
 }
 
 section.full-width-banner-image {
@@ -1682,18 +1702,24 @@ section.program-details {
     }
 
     .counselor-container .button-wrapper {
-        width: 33.333%;
         float: left;
         margin: 20px 0;
+    }
+
+    .coming-to-you-container .button-wrapper {
+        width: 33.333%;
     }
 
     .counselor-container .button-wrapper.map-button {
         margin: 0;
     }
 
+    .coming-to-you-container .button-wrapper.map-button a {
+        width: auto;
+    }
+
     .counselor-container .button-wrapper.map-button a {
         margin: 0;
-        width: auto;
     }
 
     .counselor-container .button-wrapper.map-button {

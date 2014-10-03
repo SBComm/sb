@@ -27,7 +27,7 @@
             <div class="content">
                 <h4>Upcoming Chat Offerings</h4>
                 <ul class="default-bullets">
-                    <li>Check back in September 2014 for upcoming chat offerings!</li>
+                    <li><a href="https://sunysb.askadmissions.net/groupchat/LandingPage.aspx">View our upcoming chat offerings.</a></li>
                 </ul>
             </div>
             <div class="content col-2">

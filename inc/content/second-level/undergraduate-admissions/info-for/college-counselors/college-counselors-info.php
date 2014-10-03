@@ -1,5 +1,5 @@
 <article>
-    <section class="clearfix site-carousel inside-header info-for white-background">
+    <section class="clearfix site-carousel inside-header info-for-counselors white-background">
         <div class="border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
