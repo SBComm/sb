@@ -89,7 +89,7 @@
 						?>
 					<!-- </logo-container> -->
 		        </div>
-		        <div class="main-nav-container">
+		        <div class="main-nav-container clearfix">
 		        	<!-- <site-nav> -->
 						<?php 
 							include($path . 'nav/admissions-nav.php');

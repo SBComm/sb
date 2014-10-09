@@ -321,7 +321,7 @@
 			            </header>
 		            </div>
 		        </div>
-		        <div class="main-nav-container">
+		        <div class="main-nav-container clearfix">
 		            <nav class="site-nav border-box clearfix">
 		            	<div class="no-pad-wrapper clearfix">
 			            	<div class="menu-trigger border-box"><i class="icon fa fa-bars"></i></div>
