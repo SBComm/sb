@@ -159,6 +159,43 @@ section.full-width-banner-image {
         box-sizing: border-box;
     }
 
+    /* Campus Life Images */
+
+    .cl-activities {
+        background: url("../../img/student-life/campus-life-activities-2000.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 60% 40%;
+    }
+
+    .cl-athletics {
+        background-image: url("../../img/student-life/campus-life-athletics-2000.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 40% 40%;
+    }
+
+    .cl-eating {
+        background-image: url("../../img/student-life/campus-life-eating-2000.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .cl-commute {
+        background-image: url("../../img/student-life/campus-life-commute-2000.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .cl-arts {
+        background-image: url("../../img/student-life/campus-life-arts-2000.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
 .full-width-banner-image .wrapper {
     position: relative;
 }
@@ -313,6 +350,7 @@ section.full-width-banner-image {
     width: 272px;
     height: 420px;
     border: 3px solid #900;
+    background: url("../../img/bkg/transparent-white-85.png") 0 0 repeat transparent;
     background: rgba(255,255,255,.85);
     box-shadow: 3px 3px 20px #555;
     padding: 20px 25px;
@@ -491,6 +529,7 @@ section.cost-and-aid {
 
 .net-price-container {
     display: block;
+    background: url("../../img/bkg/transparent-red-900-80.png") 0 0 repeat transparent;
     background: rgba(153, 0, 0, .8);
     width: 100%;
     border-radius: 15px;
@@ -508,6 +547,7 @@ section.cost-and-aid {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 10px 0;
+    background: url("../../img/bkg/transparent-black-50.png") 0 0 repeat transparent;
     background: rgba(0, 0, 0, .45);
 }
 
@@ -1194,6 +1234,225 @@ section.program-details {
     display: none;
 }
 
+
+
+section.campus-life-header {
+
+}
+
+.rounded-image-buttons .activities {
+    background-image: url("../../img/buttons/admissions-campus-life/activities.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .athletics {
+    background-image: url("../../img/buttons/admissions-campus-life/sports.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .living {
+    background-image: url("../../img/buttons/admissions-campus-life/living.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .eating {
+    background-image: url("../../img/buttons/admissions-campus-life/eating.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .commute {
+    background-image: url("../../img/buttons/admissions-campus-life/commute.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .arts {
+    background-image: url("../../img/buttons/admissions-campus-life/arts.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .safety {
+    background-image: url("../../img/buttons/admissions-campus-life/safety.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .beyond {
+    background-image: url("../../img/buttons/admissions-campus-life/beyond.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+section.cl {
+    padding: 40px 0;
+}
+
+section.cl h4 {
+    font-size: 1.8em;
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+section.cl-activities {
+    padding: 0;
+}
+
+.cl-activities .black-opac-cover {
+    background: url("../../img/bkg/transparent-black-65.png") 0 0 repeat transparent;
+    background: rgba(0,0,0,.8);
+    padding: 40px 0;
+    display: block;
+}
+
+.cl-activities h4,
+.cl-activities h5 {
+    color: #0fffff;
+}
+
+.cl-activities h5 {
+    font-size: 1.3em;
+    text-transform: none;
+}
+
+.cl-activities li {
+    margin: 10px 0;
+}
+
+.cl-activities .content {
+    color: #dbdbdb;
+}
+
+.cl-activities .content a {
+    color: #0fffff;
+}
+
+section.cl-athletics  {
+    padding: 0;
+}
+
+.cl-athletics h4,
+.cl-athletics h5 {
+    color: #900;
+}
+
+.cl-athletics .white-opac-cover {
+    background: url("../../img/bkg/transparent-white-85.png") 0 0 repeat transparent;
+    background: rgba(255,255,255,.85);
+    padding: 40px 0;
+    display: block;
+}
+
+.cl-athletics .col-2 {
+    width: 100%;
+    float: none;
+    margin: 0;
+}
+
+.cl-athletics .col-2 ul {
+    margin: 0;
+}
+
+.cl-athletics em {
+    font-size: .9em;
+    display: block;
+    margin: 10px 0 0;
+}
+
+section.cl-living  {
+
+}
+
+.cl-living h4,
+.cl-living h5,
+.cl-living strong {
+    color: #900;
+}
+
+.cl-living li {
+    margin: 0 0 14px;
+}
+
+section.cl-living img  {
+    display: none;
+}
+
+section.cl-eating  {
+    padding: 0;
+}
+
+.cl-eating .red-opac-cover {
+    background: url("../../img/bkg/transparent-red-900-85.png") 0 0 repeat transparent;
+    background: rgba(153, 0, 0, .85);
+    padding: 40px 0;
+    display: block;
+    color: #fff;
+}
+
+.cl-eating h4,
+.cl-eating p,
+.cl-eating ul,
+.cl-eating a {
+    color: #fff !important;
+}
+
+.cl-eating a {
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+.cl-eating a:hover {
+    text-decoration: underline;
+}
+
+.cl-eating img {
+    display: block;
+    border: 1px solid #fff;
+    margin: 20px 0 0;
+}
+
+section.cl-commute  {
+    padding: 0;
+    border-bottom: 1px solid #900;
+}
+
+.cl-commute h4,
+.cl-commute h5 {
+    color: #900;
+}
+
+.cl-commute .white-opac-cover {
+    background: url("../../img/bkg/transparent-white-85.png") 0 0 repeat transparent;
+    background: rgba(255,255,255,.85);
+    padding: 40px 0;
+    display: block;
+}
+
+section.cl-arts  {
+    padding: 0;
+}
+
+.cl-arts h4,
+.cl-arts h5,
+.cl-arts strong {
+    font-family: 'Trade Gothic W01 Bold 2';
+    color: #900;
+}
+
+.cl-arts .white-opac-cover {
+    background: url("../../img/bkg/transparent-white-85.png") 0 0 repeat transparent;
+    background: rgba(255,255,255,.85);
+    padding: 40px 0;
+    display: block;
+}
+
+.cl-arts img {
+    border: 1px solid #fff;
+    margin: 10px 0 0;
+}
+
 /* apply button */
 
 .apply-button {
@@ -1259,6 +1518,21 @@ section.program-details {
         display: block;
     }
 
+    .cl-athletics .col-2.smaller {
+        width: 43%;
+        float: left;
+    }
+
+    .cl-athletics .col-2.larger {
+        width: 57%;
+        float: left;
+    }
+
+    .cl-athletics .white-opac-cover ul {
+        font-size: .9em;
+        line-height: 1.5em;
+    }
+
 }
 
 @media only screen and (min-width: 560px) {
@@ -1282,6 +1556,7 @@ section.program-details {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         width: 185px;
+        background: url("../../img/bkg/transparent-red-900-85.png") 0 0 repeat transparent;
         background: rgba(153, 0, 0, .85);
     }
 
@@ -1294,6 +1569,14 @@ section.program-details {
         border-top: 1px solid #fff;
         border-bottom: 1px solid #fff;
         padding: 8% 0 9%;
+    }
+
+    section.cl {
+
+    }
+
+    section.cl h4 {
+        font-size: 2.4em;
     }
 
 }
@@ -1662,6 +1945,98 @@ section.program-details {
         height: 640px;
         width: 99.96%;
         display: block;
+    }
+
+    section.cl {
+
+    }
+
+    section.cl h4 {
+        font-size: 2.6em;
+    }
+
+    .cl-activities {
+        border-bottom: 1px solid #fff;
+    }
+
+    .cl-activities .black-opac-cover {
+        background: transparent;
+        padding: 100px 0;
+        box-shadow: rgba(0,0,0,1) 410px 0 280px 30px inset;
+    }
+
+    .cl-athletics {
+        background-position: 54% 40%;
+    }
+
+    .cl-athletics .white-opac-cover {
+        padding: 20px 0 15px;
+        margin: 40px 0;
+        display: block;
+        width: 50%;
+        float: right;
+        border: 1px solid #fff;
+        background: url("../../img/bkg/transparent-white-65.png") 0 0 repeat transparent;
+        background: rgba(255,255,255,.65);
+    }
+
+    .cl-eating .red-opac-cover .wrapper {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .cl-eating .red-opac-cover {
+        padding: 40px 10px 40px 15px;
+        display: block;
+        width: 46%;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .cl-athletics .white-opac-cover .wrapper {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    section.cl-living {
+        padding: 60px 0;
+    }
+
+    section.cl-living img  {
+        display: block;
+    }
+
+    .cl-commute .white-opac-cover {
+        padding: 20px 0 15px;
+        margin: 40px 0;
+        display: block;
+        width: 50%;
+        float: right;
+        border: 1px solid #900;
+        background: url("../../img/bkg/transparent-white-90.png") 0 0 repeat transparent;
+        background: rgba(255,255,255,.9);
+    }
+
+    .cl-commute .white-opac-cover .wrapper {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .cl-arts .white-opac-cover .wrapper {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .cl-arts .white-opac-cover {
+        padding: 40px 20px 50px;
+        display: block;
+        width: 46%;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
 
 }

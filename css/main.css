@@ -936,6 +936,61 @@ body {
         float: right;
     }
 
+    /* Rounded Image Buttons */
+
+    .rounded-image-buttons {
+        display: block;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 20px 0;
+    }
+
+    .rounded-image-buttons a {
+        display: table;
+        float: left;
+        width: 45%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-shadow: 0 2px 5px #444;
+        color: #fff !important;
+        font-family: 'Trade Gothic W01 Bold 2';
+        border: 1px solid #fff;
+        font-size: 1.2em;
+        padding: 15px;
+        height: 130px;
+        margin: 2.5%;
+        border-radius: 15px;
+        box-shadow: rgba(6, 169, 191, 1) -110px 0 140px -30px inset;
+        cursor: pointer;
+    }
+
+    .rounded-image-buttons a:hover {
+        box-shadow: rgba(6, 169, 191, 1) -110px 0 140px -30px inset,
+                    rgba(6, 169, 191, .6) 0 0 35px;
+    }
+
+    .rounded-image-buttons a .label {
+        display: table-cell;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .rounded-image-buttons a {
+            width: 21%;
+            height: 150px;
+            margin: 2%;
+            font-size: 1.5em;
+            box-shadow: rgba(6, 169, 191, 1) -110px 0 140px -30px inset;;
+        }
+    }
+
     /* Tables */
 
     .simple-two-col-table {
@@ -1617,6 +1672,7 @@ body {
     a.external-link:after,
     a.email-link:after,
     a.external-link-hover:after,
+    .external-link-hover:after,
     a.info-link-hover:after,
     .info-link-hover:after { 
         display: inline-block;
@@ -1633,7 +1689,9 @@ body {
         text-indent: 0;
     }
 
+
     a.external-link-hover:after,
+    .external-link-hover:after,
     a.info-link-hover:after,
     .info-link-hover:after {
         content: " ";
@@ -1642,7 +1700,9 @@ body {
     }
 
     a.external-link:after,
-    a.external-link-hover:hover:after {
+    .external-link:after,
+    a.external-link-hover:hover:after,
+    .external-link-hover:hover:after {
         content: "\f08e";
     }
 
@@ -2007,6 +2067,28 @@ body {
         width: 10px;
         text-align: center;
         color: #900;
+    }
+
+    .inside-content .star-bullets li {
+        margin-left: 30px;
+        text-indent: -25px;
+    }
+
+    .inside-content .star-bullets li:before {
+        content: "\f005";
+        margin: 0 10px 0 0;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        font-size: 1em;
+        width: 10px;
+        text-align: center;
+        color: #0fffff;
     }
 
     @media only screen and (min-width: 560px) {

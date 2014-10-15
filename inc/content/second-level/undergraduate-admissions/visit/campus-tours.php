@@ -26,7 +26,7 @@
             <h3>Campus Tours</h3>
             <div class="content">
                 <h4>Campus Tours and Information Sessions</h4>
-                <p>During the academic year, student-guided campus tours are offered on most weekdays and on Saturdays. Information sessions, hosted by admissions counselors, are offered on Mondays, Fridays, and Saturdays. During the summer, campus tours and information sessions are hosted on most weekdays.</p>
+                <p>During the academic year, student-guided campus tours and information sessions are offered on most weekdays and on Saturdays. During the summer, campus tours and information sessions are hosted on most weekdays.</p>
                 <div class="button-wrapper tour-btn clearfix">
                     <a href="https://sunysb.askadmissions.net/Portal/Templated/UserTemplate/Search" class="rounded-button-1 icon marker-icon" target="_blank">
                         <span class="label">Schedule a Tour</span>

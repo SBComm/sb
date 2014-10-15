@@ -47,6 +47,18 @@ var $audienceNav = $('.audience-nav');
 
 $(document).ready(function() {
 
+	/* global hashchange function with smooth scroll */
+	$('a[href^="#"').on('click',function(event) {
+		event.preventDefault();//strip off the #
+		var target = $(this).attr('href');
+	    var hash = target.substring(1);
+	    window.location.hash = "view-"+hash;
+	    $('body').scrollTo($(target), 800, {
+	    	onAfter:function() { 
+	    	} 
+	    });
+	});
+
 	if($(window).width()>=1022) {
 		setSearchPosition();
 	}
