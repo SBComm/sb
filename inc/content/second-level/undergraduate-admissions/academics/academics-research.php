@@ -30,6 +30,10 @@
                 <p>We're one of only ten research universities nationwide to receive a Recognition Award for the Integration of Research and Education (RAIRE) from the National Science Foundation (NSF).</p>
                 <h4>Undergraduate Research &amp; Creative Activities (URECA)</h4>
                 <p>Through <a class="external-link" href="http://www.stonybrook.edu/ureca/" target="_blank">URECA</a></strong>, Stony Brook undergraduates are introduced to the world of research through introductory research-oriented courses, independent supervised research projects, and support services on writing abstracts, giving presentations, and finding appropriate research mentors. Our URECA program involves students from every discipline and culminates each year in a celebration of achievements.</p>
+            </div>
+        </div>
+        <div class="border-box wrapper clearfix">
+            <div class="content col-2">
                 <h4>Brookhaven National Laboratory</h4>
                 <p>The University co-manages <a class="external-link" href="http://www.bnl.gov/world/" target="_blank">Brookhaven National Laboratory</a></strong>, joining an elite group of universities–including Berkeley, University of Chicago, Cornell, MIT, and Princeton–that run federal laboratories. BNL houses large, state-of-the-art facilities such as the Relativistic Heavy Ion Collider (RHIC), the National Synchrotron Light Source (NSLS), and the Center for Functional Nanomaterials.</p>
                 <p>Brookhaven National Laboratory offers outstanding research opportunities for students in physics, material sciences, environmental studies, biology, chemistry, engineering and other areas. BNL offers qualified students:</p>
@@ -41,6 +45,18 @@
                     <li>undergraduate scholarships through the Homeland Scholars and Fellows Program</li>
                     <li>one-week mini-semesters during winter break</li>
                 </ul>
+            </div>
+            <div class="content col-2">
+                <p>
+                    <div class="videoWrapper">
+                        <!-- Copy & Pasted from YouTube -->
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/o9mw75xX2YE?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <div class="border-box wrapper clearfix">
+            <div class="content">
                 <h4>Young Investigators Review</h4>
                 <p>The <a class="external-link" href="http://sbyir.com/" target="_blank"><em>Young Investigators Review</em></a></strong> is a student-run science journal dedicated to promoting undergraduate research in the natural and applied sciences at Stony Brook. The journal, published once each semester, is wide in scope, including primary research articles, reviews, opinion essays, science news, interviews with faculty and students, and more.</p>
                 <h4>Center of Excellence in Wireless &amp; Information Technology (CEWIT)</h4>

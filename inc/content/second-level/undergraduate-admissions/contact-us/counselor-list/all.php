@@ -194,7 +194,7 @@
                     <img src="img/admissions-counselors/pertusati.jpg" alt="" />
                     <div class="person-info">
                         <span class="name">Robert Pertusati</span>
-                        <span class="title">Senior Associate Dean of Admissions</span>
+                        <span class="title">Associate Dean of Admissions</span>
                     </div>
                     </a>
                 </li>
