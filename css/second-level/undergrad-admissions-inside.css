@@ -1410,10 +1410,14 @@ section.cl-eating  {
 .cl-eating img {
     display: block;
     border: 1px solid #fff;
-    margin: 20px 0 0;
+    margin: 30px auto 0;
+    width: 440px;
+    max-width: 100%;
+    display: block;
 }
 
-section.cl-commute  {
+
+section.cl-commute {
     padding: 0;
     border-bottom: 1px solid #900;
 }
@@ -1450,7 +1454,10 @@ section.cl-arts  {
 
 .cl-arts img {
     border: 1px solid #fff;
-    margin: 10px 0 0;
+    margin: 30px auto 0;
+    width: 440px;
+    max-width: 100%;
+    display: block;
 }
 
 /* apply button */
