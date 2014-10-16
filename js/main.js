@@ -48,7 +48,7 @@ var $audienceNav = $('.audience-nav');
 $(document).ready(function() {
 
 	/* global hashchange function with smooth scroll */
-	$('a[href^="#"').on('click',function(event) {
+	$("a[href^='#'").on('click',function(event) {
 		event.preventDefault();//strip off the #
 		var target = $(this).attr('href');
 	    var hash = target.substring(1);
