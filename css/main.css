@@ -2446,7 +2446,8 @@ footer.site-footer .address-link .icon {
 }
 
 footer.site-footer .small-button,
-footer.site-footer .phone a {
+footer.site-footer .phone a,
+.footer-bar span a {
     font-size: .8em;
     display: inline-block;
     padding: 1px 8px 3px;
