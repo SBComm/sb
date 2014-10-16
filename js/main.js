@@ -54,8 +54,7 @@ $(document).ready(function() {
 	    var hash = target.substring(1);
 	    window.location.hash = "view-"+hash;
 	    $('body').scrollTo($(target), 800, {
-	    	onAfter:function() { 
-	    	} 
+	    	axis: 'y'
 	    });
 	});
 

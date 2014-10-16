@@ -390,11 +390,11 @@
 		            if(scrollToTarget) {
 		            	<?php if($page_scroll_mobile==true) { ?>
 		            		if(currWidth<1022) {
-		            			$('body').scrollTo( scrollToTarget, <?php echo $page_scroll_time; ?> );
+		            			$('body').scrollTo( scrollToTarget, <?php echo $page_scroll_time; ?>, {axis: 'y'} );
 		            		}
 				           
 				        <?php } else { ?>
-				        	$('body').scrollTo( scrollToTarget, <?php echo $page_scroll_time; ?> );
+				        	$('body').scrollTo( scrollToTarget, <?php echo $page_scroll_time; ?>, {axis: 'y'} );
 				         <?php } ?>
 		            }
 
