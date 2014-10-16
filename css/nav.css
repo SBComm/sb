@@ -428,6 +428,7 @@
 .drop-nav .drop-nav-heading:hover,
 .drop-nav .close-drop-nav span:hover {
     border-color: #186e79;
+    background: #2b2222;
     background: rgba(43, 34, 34, 1);
 }
 

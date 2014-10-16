@@ -521,6 +521,7 @@ section.cta-items {
 }
 
 .cta-items a:hover {
+    background: #687983;
     background: rgba(104,121,131,.9);
     box-shadow: 2px 2px 10px rgba(0,0,0,.20), 5px 5px 10px rgba(0,0,0,.3) inset;
 }

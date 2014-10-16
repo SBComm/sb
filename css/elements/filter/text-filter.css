@@ -49,6 +49,7 @@ input.text-filter {
 }
 
 .filter-status em {
+	background: #f9c9c9;
 	background: rgba(240,0,0,.2);
 	padding: 2px 3px 2px 2px;
 }
