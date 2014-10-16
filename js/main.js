@@ -160,7 +160,7 @@ $(document).ready(function() {
 			$(this).removeClass('focus');
 		}
 	});
-/*
+
 	$('.search-container button').on('click',function(event) {
 		var inputEl = $(this).closest('.search-container').find('input');
 		if($(inputEl).val().length == 0) {
@@ -190,7 +190,7 @@ $(document).ready(function() {
 			}
 		}
 	});
-*/
+
 
 	/* Proofing */
 	$('#proofing-message .close-proofing-message').on('click',function() {
