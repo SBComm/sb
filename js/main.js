@@ -47,17 +47,6 @@ var $audienceNav = $('.audience-nav');
 
 $(document).ready(function() {
 
-	/* global hashchange function with smooth scroll */
-	$('a[href^="#"]').on('click',function(event) {
-		event.preventDefault();//strip off the #
-		var target = $(this).attr('href');
-	    var hash = target.substring(1);
-	    window.location.hash = "view-"+hash;
-	    $('body').scrollTo($(target), 800, {
-	    	axis: 'y'
-	    });
-	});
-
 	if($(window).width()>=1022) {
 		setSearchPosition();
 	}
@@ -79,6 +68,19 @@ $(document).ready(function() {
 			}
 	    }
 	}, 1250);
+
+	/* global hashchange function with smooth scroll */
+	$('a[href^="#"]').on('click',function(event) {
+		var target = $(this).attr('href');
+		if(target.length>1) {
+			event.preventDefault();
+		    var hash = target.substring(1); //strip off the #
+		    window.location.hash = "view-"+hash;
+		    $('body').scrollTo($(target), 800, {
+		    	axis: 'y'
+		    });
+		}
+	});
 
 	/* nav */
 	$('.more-trigger').on('click',function(){
