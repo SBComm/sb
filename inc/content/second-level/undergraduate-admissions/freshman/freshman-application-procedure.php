@@ -120,6 +120,7 @@
                         ACT Code: <strong>2952</strong>
                     </li>
                 </ol>
+                <p>You will receive a confirmation e-mail containing your Stony Brook ID Number approximately one week after submitting your application.</p>
             </div>
 
             <div class="content clearfix">
