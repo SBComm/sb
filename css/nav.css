@@ -1593,7 +1593,7 @@
 	.sub-nav .search-container.default button[type="submit"] {
 		height: 29px;
 		width: 20%;
-		margin: 6px 0 4px 0;;
+		margin: 6px 0 4px 0;
 		border-right: 0 none;
 		padding: 0;
 		-webkit-box-sizing: border-box;
@@ -1635,7 +1635,7 @@
 	.sub-nav .search-container button[type="submit"] {
 		height: 29px;
 		width: 20%;
-		margin: 7px 0 6px 0;;
+		margin: 7px 0 6px 0;
 		border-right: 0 none;
 		padding: 0;
 		-webkit-box-sizing: border-box;
@@ -1663,7 +1663,7 @@
 		width: 16%;
 		height: 100%;
 		margin: 0;
-		position: relative;;
+		position: relative;
 	}
 */
 	.site-nav a {
