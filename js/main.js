@@ -139,7 +139,7 @@ $(document).ready(function() {
             $mainNavList.fadeIn(0,function(){
 		      $mainNavList.removeClass('open')
 		        .slideUp('fast',function() {
-		            $mainNavList.addClass('hide-accessible-mobile')
+		            $mainNavList.addClass('hide-accessible-mobile').fadeIn('fast');
 		        });
 		    });
         } else {

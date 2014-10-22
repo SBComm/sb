@@ -6,12 +6,12 @@ function hideAllDropNav() {
 
 function hideDropNav(id) {
     var $dropNav = $("nav.drop-nav[data-drop-nav-id='" + id + "']");
-    //$("nav.drop-nav[data-drop-nav-id='" + id + "']").addClass('hide-accessible');
+    //$("nav.drop-nav[data-drop-nav-id='" + id + "']").addClass('hide-accessible').fadeIn('fast');
 
     $dropNav.fadeIn(0,function(){
       $dropNav.removeClass('open')
         .fadeOut('fast',function() {
-            $dropNav.addClass('hide-accessible')
+            $dropNav.addClass('hide-accessible').fadeIn('fast');
         });
     });
 }
@@ -74,7 +74,7 @@ $(document).ready(function() {
             $sectionNav.fadeIn(0,function(){
               $sectionNav.removeClass('open')
                 .slideUp('fast',function() {
-                    $sectionNav.addClass('hide-accessible-mobile-960')
+                    $sectionNav.addClass('hide-accessible-mobile-960').fadeIn('fast');
                 });
             });
         } else {
