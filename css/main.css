@@ -1511,6 +1511,13 @@ body {
         color: #f90784;
     }
 
+    .flickr-blue,
+    .flickr-blue-hover:hover,
+    .fa-flickr.blue:hover,
+    .fa-flickr-square.blue:hover {
+        color: #0063DC;
+    }
+
     .instagram-blue,
     .instagram-blue-hover:hover,
     .fa-instagram:hover,
@@ -1557,6 +1564,10 @@ body {
 
     .flickr-pink-bkg {
         background: #f90784;
+    }
+
+    .flickr-blue-bkg {
+        background: #0063DC;
     }
 
     .instagram-blue-bkg {
