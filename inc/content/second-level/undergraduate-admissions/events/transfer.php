@@ -37,10 +37,6 @@
             <div class="content col-2">
                 <h4>Transfer Student Sessions</h4>
                 <p>
-                    Friday, October 17, 2014<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=6235779a2380c508d04c698d5388405b849855" target="_blank">Register Now</a>
-                </p>
-                <p>
                     Friday, November 7, 2014<br />
                     2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577ac8fd8bfe2e74af7af8635d29a271a03" target="_blank">Register Now</a>
                 </p>
