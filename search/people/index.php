@@ -33,6 +33,11 @@
 		    $page_to_top_link = true;
 
 		    $page_footerbar   = true;
+
+		    $page_scroll        = true;
+		    $page_scroll_el     = 'main-nav';     //Options are audience-nav, logo, main-nav, bottom
+		    $page_scroll_time   = 0;      //Time for scroll function in milliseconds
+		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 		?>
 
 	<!-- <head> -->
