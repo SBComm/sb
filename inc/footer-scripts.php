@@ -47,6 +47,14 @@
         <script src="js/main.js"></script>
         <script src="js/vendor/fastclick.js"></script>
 
+        <script>
+	        var pageFadeOverwrite = $.urlParam('pf');
+			console.log(pageFadeOverwrite);
+			if (pageFadeOverwrite==1) {
+				$('body').prepend('<div id="preloader"><div id="status">&nbsp;</div></div><style type="text/css"> body { overflow: hidden; } </style>');
+			}
+		</script>
+
         <?php if($lightbox) { ?>
         	<script src="plugins/nivo-lightbox/nivo-lightbox.min.js"></script>
         	<script>
@@ -368,6 +376,15 @@
 						$(socialSelector).click();
 					}
 				<?php } ?>
+
+				//page fade URL param for specific uses but not applicable to the page at all times
+				var pageFadeOverwrite = $.urlParam('pf');
+				console.log(pageFadeOverwrite);
+				if (pageFadeOverwrite==1) {
+					$('#status').fadeOut(); // will first fade out the loading animation
+		            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+		            $('body').delay(350).css({'overflow':'visible'});
+				}
 
 				<?php if($page_loader) { ?>
 		            $('#status').fadeOut(); // will first fade out the loading animation
