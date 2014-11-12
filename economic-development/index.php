@@ -92,7 +92,7 @@
 
 		                <!-- <economic-development> -->
 							<?php 
-								$file = "economic-development.php";
+								$file = "economic-development/economic-development.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </economic-development> -->

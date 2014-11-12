@@ -431,6 +431,10 @@ a[href$=".pptx"]:after {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#3b679e',GradientType=0 ); /* IE6-8 */
 }
 
+.transparent-background {
+    background: transparent;
+}
+
 .ie9 .white-fade-background,
 .ie9 .gradient {
    filter: none; /* to work on ie9 */
@@ -465,6 +469,13 @@ a[href$=".pptx"]:after {
 
 .halftone-background {
     background: url('../img/bkg/black-dots-pattern.png') repeat 0 0;
+}
+
+.black-opac-cover {
+    background: url("../../img/bkg/transparent-black-65.png") 0 0 repeat transparent;
+    background: rgba(0,0,0,.8);
+    padding: 40px 0;
+    display: block;
 }
 
 /* Custom resets and other declarations */
@@ -653,9 +664,17 @@ body {
     }
 
     h2.small-title-2 {
-        font-size: 1.3em;
+        font-size: 1.5em;
         font-weight: normal;
         font-family:'CenturySchoolbookW01-It 927458';
+        text-transform: none;
+        margin: 0;
+    }
+
+    h2.small-title-3 {
+        font-size: 1.5em;
+        font-weight: normal;
+        font-family: 'TradeGothicW01-BoldCn20 675334';
         text-transform: none;
         margin: 0;
     }
@@ -666,6 +685,12 @@ body {
         font-family:'Trade Gothic Next W01';
         text-transform: none;
         margin: 0;
+    }
+
+    .medium-title-3 {
+        font-size: 1.8em;
+        font-family: 'Trade Gothic W01 Bold 2';
+        text-transform: none;
     }
 
     /* Colors */
@@ -1412,7 +1437,8 @@ body {
         border-top-color: #900;
     }
 
-    .arrow-below + section {
+    .arrow-below + section,
+    section.arrow-above {
         padding: 50px 0 0 0;
     }
 
@@ -1623,7 +1649,7 @@ body {
 
     .sbu-cta-1 {
         color: #990000;
-        background: #fff;
+        background: url("../img/bkg/transparent-white-85.png") repeat scroll 0 0;
         background: rgba(255,255,255,.8);
         border: 2px solid #990000 !important;
     }
@@ -2084,7 +2110,7 @@ body {
         margin-left: 30px;
         text-indent: -25px;
     }
-
+    
     .inside-content .star-bullets li:before {
         content: "\f005";
         margin: 0 10px 0 0;
@@ -2583,6 +2609,14 @@ footer.site-footer .social .small-button:after {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
+
+    .small-title-2 {
+        font-size: 2.6em;
+    }
+
+    .medium-title-3 {
+        font-size: 2.4em;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -2652,6 +2686,20 @@ footer.site-footer .social .small-button:after {
         top: 45%;
         left: 45%;
         font-size: 50px;
+    }
+
+    .black-opac-cover {
+        background: transparent;
+        padding: 100px 0;
+        box-shadow: rgba(0,0,0,1) 410px 0 280px 30px inset;
+    }
+
+    .small-title-2 {
+        font-size: 2.9em;
+    }
+
+    .medium-title-3 {
+        font-size: 2.6em;
     }
 }
 

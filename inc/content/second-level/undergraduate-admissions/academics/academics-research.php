@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="border-box wrapper clearfix">
-            <div class="content col-2">
+            <div class="content">
                 <h4>Brookhaven National Laboratory</h4>
                 <p>The University co-manages <a class="external-link" href="http://www.bnl.gov/world/" target="_blank">Brookhaven National Laboratory</a></strong>, joining an elite group of universities–including Berkeley, University of Chicago, Cornell, MIT, and Princeton–that run federal laboratories. BNL houses large, state-of-the-art facilities such as the Relativistic Heavy Ion Collider (RHIC), the National Synchrotron Light Source (NSLS), and the Center for Functional Nanomaterials.</p>
                 <p>Brookhaven National Laboratory offers outstanding research opportunities for students in physics, material sciences, environmental studies, biology, chemistry, engineering and other areas. BNL offers qualified students:</p>
@@ -46,14 +46,15 @@
                     <li>one-week mini-semesters during winter break</li>
                 </ul>
             </div>
+            <!--
             <div class="content col-2">
                 <p>
                     <div class="videoWrapper">
-                        <!-- Copy & Pasted from YouTube -->
                         <iframe width="560" height="349" src="http://www.youtube.com/embed/o9mw75xX2YE?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </p>
             </div>
+            -->
         </div>
         <div class="border-box wrapper clearfix">
             <div class="content">
