@@ -94,7 +94,7 @@
 		</ul>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
-		<span href="#">Close Menu</span>
+		<span aria-role="button">Close Menu</span>
 	</div>
 </nav>
 
@@ -138,7 +138,7 @@
 		</ul>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
-		<span href="#">Close Menu</span>
+		<span aria-role="button">Close Menu</span>
 	</div>
 </nav>
 
@@ -177,7 +177,7 @@
 		</ul>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
-		<span href="#">Close Menu</span>
+		<span aria-role="button">Close Menu</span>
 	</div>
 </nav>
 

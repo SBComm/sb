@@ -270,6 +270,7 @@
                         <li class="social-other-item sbu-border-bottom">
                             <div class="social-other-label-container sbu-text-shadow">Library</div>
                             <div class="social-channels-container">
+                                <a href="https://www.facebook.com/pages/Stony-Brook-University-Libraries/47593645009" target="_blank"><i class="fa fa-facebook-square"></i></a>
                                 <a href="https://twitter.com/SBULibrary" target="_blank"><i class="fa fa-twitter"></i></a>
                             </div>
                         </li>

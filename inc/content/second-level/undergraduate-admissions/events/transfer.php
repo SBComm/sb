@@ -37,12 +37,24 @@
             <div class="content col-2">
                 <h4>Transfer Student Sessions</h4>
                 <p>
-                    Friday, November 7, 2014<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577ac8fd8bfe2e74af7af8635d29a271a03" target="_blank">Register Now</a>
+                    Friday, December 5, 2014<br />
+                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=6235770c944f297ead4884831064a7ee3b9d04" target="_blank">Register Now</a>
                 </p>
                 <p>
-                    Friday, November 21, 2014<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=6235771e1e22c30486427f8381df80c944ebb5" target="_blank">Register Now</a>
+                    Friday, December 12, 2014<br />
+                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577d1c48ba43e244589aac31fe0dff1b1c8" target="_blank">Register Now</a>
+                </p>
+                <p>
+                    Friday, January 9, 2014<br />
+                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577f893b4503a644ee98bdb2480b9278222" target="_blank">Register Now</a>
+                </p>
+                <p>
+                    Friday, January 16, 2014<br />
+                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=62357759377d7593ea4ea5a00fd04ce3185540" target="_blank">Register Now</a>
+                </p>
+                <p>
+                    Friday, January 23, 2014<br />
+                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=62357712c403da5cf34385b78a4976f1564fa1" target="_blank">Register Now</a>
                 </p>
             </div>
         </div>

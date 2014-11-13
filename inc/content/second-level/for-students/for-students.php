@@ -59,15 +59,16 @@
                         </div>
                         <div class="content clearfix open">
                             <div class="content-wrap">
-                                <a href="http://it.stonybrook.edu/services/solar/" title="SOLAR">SOLAR</a>
-                                <a href="https://blackboard.stonybrook.edu/" title="Blackboard">Blackboard</a>
-                                <a href="http://www.stonybrook.edu/mycloud/" title="Gmail">Gmail</a>
-                                <a href="http://sb.cc.stonybrook.edu/bulletin/current/" title="Undergraduate Bulletin">Undergraduate Bulletin</a>
-                                <a href="http://www.stonybrook.edu/gradbulletin" title="Graduate Bulletin">Graduate Bulletin</a>
-                                <a href="http://sb.cc.stonybrook.edu/hscbulletin" title="HSC Bulletin">HSC Bulletin</a>
-                                <a href="http://www.stonybrook.edu/registrar/calendar-academic.shtml" title="Academic Calendars">Academic Calendars</a>
-                                <a href="http://www.stonybrook.edu/registrar/finals.shtml" title="Midterm &amp; Final Exam Schedule">Midterm &amp; Final Exam Schedule</a>
-                                <a href="http://career.stonybrook.edu/students/connect/zebranet" title="ZebraNet">ZebraNet</a>
+                                <a href="https://blackboard.stonybrook.edu/" title="Blackboard" target="_blank">Blackboard</a>
+                                <a href="http://www.stonybrook.edu/mycloud/" title="Gmail" target="_blank">Gmail</a>
+                                <a href="http://it.stonybrook.edu/services/solar/" title="SOLAR" target="_blank">SOLAR</a>
+                                <a href="http://sb.cc.stonybrook.edu/bulletin/current/" title="Undergraduate Bulletin" target="_blank">Undergraduate Bulletin</a>
+                                <a href="http://www.stonybrook.edu/gradbulletin" title="Graduate Bulletin" target="_blank">Graduate Bulletin</a>
+                                <a href="http://sb.cc.stonybrook.edu/hscbulletin" title="HSC Bulletin" target="_blank">HSC Bulletin</a>
+                                <a href="http://www.stonybrook.edu/registrar/calendar-academic.shtml" title="Academic Calendars" target="_blank">Academic Calendars</a>
+                                <a href="http://www.stonybrook.edu/registrar/finals.shtml" title="Midterm &amp; Final Exam Schedule" target="_blank">Midterm &amp; Final Exam Schedule</a>
+                                <a href="http://www.stonybrook.edu/registrar/" title="Registrar" target="_blank">Registrar</a>
+                                <a href="http://career.stonybrook.edu/students/connect/zebranet" title="ZebraNet" target="_blank">ZebraNet</a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +90,10 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>In addition to the application to the University, a separate <a href="http://www.stonybrook.edu/commcms/music/degree_programs/undergraduate/undergrad_application.html">Music Major Application</a> is required. Students who perform successfully in the audition and their theory placement and musicianship exams will be admitted to the music major upon admission to the University. In addition, students participating in this audition process may be considered for scholarship offers and the opportunity to study with Performance Faculty.</p>
+                                <a href="http://stonybrook.edu/finaid/" title="Financial Aid" target="_blank">Financial Aid</a>
+                                <a href="http://www.stonybrook.edu/hscstudents/fin_how_to_apply.shtml" title="Financial Aid (Heslth Sciences)" target="_blank">Financial Aid (Heslth Sciences)</a>
+                                <a href="http://www.stonybrook.edu/bursar/policy.shtml" title="Paying Your Bill" target="_blank">Paying Your Bill</a>
+                                <a href="http://www.stonybrook.edu/bursar/" title="Bursar/Student Accounts" target="_blank">Bursar/Student Accounts</a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +104,13 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Successful applicants will, in addition to our regular admission criteria, typically have earned outstanding grades in high school calculus and physics, and performed exceptionally well on the Math section of the SAT and/or ACT. Consideration is given to students who have performed well in advanced science and math courses, as well as those who have participated in science, math, and research competitions.</p>
+                                <a href="http://blackboard.stonybrook.edu/" title="Blackboard" target="_blank">Blackboard</a>
+                                <a href="http://it.stonybrook.edu/services/solar" title="SOLAR System" target="_blank">SOLAR System</a>
+                                <a href="http://fsa.sunysb.edu/apple/" title="Apple Computer Purchases" target="_blank">Apple Computer Purchases</a>
+                                <a href="http://fsa.sunysb.edu/pc-education-discounts/" title="PC Computer Purchases" target="_blank">PC Computer Purchases</a>
+                                <a href="http://it.stonybrook.edu/services/client-support-service-center" title="Computer Support" target="_blank">Computer Support</a>      
+                                <a href="http://stonybrook.digication.com" title="ePortfolios" target="_blank">ePortfolios</a>
+                                <a href="http://it.stonybrook.edu" title="Information Technology (DoIT)" target="_blank">Information Technology (DoIT)</a>
                             </div>
                         </div>
                     </div>
@@ -111,11 +121,15 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>These health sciences majors are upper-division and require completion of 57 college credits and specific courses/grade prerequisites. Those interested in these upper-division majors may apply for admission as a freshman in the College of Arts and Sciences, where they can enroll in the course prerequisites. An application to the upper-division program will need to be filed through the Health Sciences Center <a href="http://www.stonybrook.edu/hscstudents/">Office of Student Services</a> the year in which you anticipate completing all prerequisites.</p>
-                                <ul class="default-bullets">
-                                    <li><a href="http://sunysb.askadmissions.net/ask.aspx?quser=nursing">Nursing</a></li>
-                                    <li><a href="http://sunysb.askadmissions.net/ask.aspx?quser=social+work">Social Work</a></li>
-                                </ul>
+                                <a href="http://studentaffairs.stonybrook.edu/ocliving/" target="_blank">Off Campus Living</a>
+                                <a href="http://www.campusdining.org/" target="_blank">Campus Dining Services</a>
+                                <a href="http://studentaffairs.stonybrook.edu/res/index.shtml" target="_blank">Campus Residences</a>
+                                <a href="http://fsa.sunysb.edu/mealplan/" target="_blank">Meal Plans</a>
+                                <a href="http://studentaffairs.stonybrook.edu/for/index.shtml" target="_blank">SAC and SB Union Facilities</a>
+                                <a href="http://www.stonybrook.edu/parking/" target="_blank">Parking Services</a>
+                                <a href="http://www.stonybrook.edu/transportation/" target="_blank">Transportation Services</a>
+                                <a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a>
+                                <a href="http://www.stonybrook.edu/sb/map/" target="_blank">Campus Maps</a>
                             </div>
                         </div>
                     </div>
