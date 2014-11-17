@@ -81,7 +81,8 @@
 
     $carousel         = false;
     $carousel_2       = false;
-    //$carousel_3       = false;
+    $carousel_3       = false;
+    $carousel_4       = false;
 
     $lightbox         = false;
 
@@ -98,6 +99,8 @@
     $live_filter      = false;
 
     $fade_in_page     = false;
+
+    $html_dom_parser  = false;
 
     /* Display Configurations, Default Highlights */
 

@@ -277,17 +277,20 @@
 					equalheight('.numbers-wrapper .equal-col');
 					equalheight('.student-quotes .owl-item .item');
 			   	});
-			   	<?php if($motio==true) { ?>
-				   	$(document).ready(function() {
-						var panning = new Motio(document.getElementById('panning'), {
-						    fps: 30, // Frames per second. More fps = higher CPU load.
-						    speedX: -15 // Negative horizontal speed = panning to left.
-						});
-						panning.play(); // Start playing animation
-					});
-				<?php } ?>
 			</script>
         <?php } ?>
+
+	   	<?php if($motio==true) { ?>
+		   	<script type="text/javascript">
+			   	$(document).ready(function() {
+					var panning = new Motio(document.getElementById('panning'), {
+					    fps: 30, // Frames per second. More fps = higher CPU load.
+					    speedX: -15 // Negative horizontal speed = panning to left.
+					});
+					panning.play(); // Start playing animation
+				});
+			</script>
+		<?php } ?>
 
         <?php if($admissions_program_detail==true) { ?>
 			<script src="js/admissions/program-detail.js"></script>

@@ -34,11 +34,14 @@
 		    $page_footer      = true;
 
 		    $carousel 		  = true;
+		    $motio  		  = true;
 
 		    $page_scroll        = true;
 		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
+
+		    $html_dom_parser = true;
 		?>
 
 	<!-- <head> -->
@@ -92,12 +95,12 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <economic-development> -->
+		                <!-- <for-students> -->
 							<?php 
 								$file = "for-students/for-students.php";
 								include($path . $content . $secLv . $file);
 							?>
-						<!-- </economic-development> -->
+						<!-- </for-students> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->

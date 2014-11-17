@@ -9,21 +9,21 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
-                        <a href="http://www.stonybrook.edu/commcms/startupny/" title="Start-Up NY Tax-Free Program">
+                        <a href="http://www.stonybrook.edu/winter" target="_blank" title="Winter Session: Earn 3 credits in 3 weeks!">
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title steel-blue">START-UP NY provides major incentives for new and expanding businesses</div>
+                                <div class="carousel-title steel-blue">Winter Session: Earn 3 credits in 3 weeks!</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
                     </div>
                     <div class="item">
-                        <a href="http://bsa-hq.org/" target="_blank" title="BSA at Brookhaven National Lab">
+                        <a href="http://www.stonybrook.edu/commencement" target="_blank" title="Winter Commencement: December 18th at 11am">
                             <div class="carousel-image clearfix" data-image="02">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title lime-green">BSA: Managing cutting-edge, collaborative research at Brookhaven National Lab</div>
+                                <div class="carousel-title muted-aqua">Winter Commencement: December 18th at 11am</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
@@ -50,7 +50,7 @@
 <article>
     <section class="wrapper title-link-box-wrapper arrow-above arrow-below arrow-below-white">
         <div class="border-box clearfix title-link-box-container inside-content">
-            <div class="title-link-box-1 left-link-box clearfix">
+            <div class="title-link-box-1 left-link-box clearfix external-link-hover-wrapper">
                 <h2 class="red medium-title-3">Student Resources</h2>
                 <div class="drop-accordion drop-accordion-1">
                     <div class="item">
@@ -79,7 +79,13 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Successful applicants will, in addition to our regular admission criteria, typically display evidence of achievement in mathematics and writing and will have performed particularly well on both the Math and Critical Reading sections of the SAT and/or ACT.</p>
+                                <a href="http://www.stonybrook.edu/sb/academichelp.shtml" target="_blank">Academic Advising
+                                <a href="http://www.stonybrook.edu/commcms/academic_success/" target="_blank">Academic Success &amp; Tutoring Center</a>
+                                <a href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">Center for Prevention &amp; Outreach</a>
+                                <a href="http://www.studentaffairs.stonybrook.edu/caps/" target="_blank">Counseling &amp; Psychological Services (CAPS) </a>
+                                <a href="http://it.stonybrook.edu/services/client-support-service-center" target="_blank">Computer Support</a>
+                                <a href="http://stonybrook.edu/ombuds" target="_blank">Ombuds Office</a>
+                                <a href="http://studentaffairs.stonybrook.edu/stu/index.shtml" target="_blank">Student Affairs</a>
                             </div>
                         </div>
                     </div>
@@ -90,10 +96,10 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
+                                <a href="http://www.stonybrook.edu/bursar/" title="Bursar/Student Accounts" target="_blank">Bursar/Student Accounts</a>
                                 <a href="http://stonybrook.edu/finaid/" title="Financial Aid" target="_blank">Financial Aid</a>
                                 <a href="http://www.stonybrook.edu/hscstudents/fin_how_to_apply.shtml" title="Financial Aid (Heslth Sciences)" target="_blank">Financial Aid (Heslth Sciences)</a>
                                 <a href="http://www.stonybrook.edu/bursar/policy.shtml" title="Paying Your Bill" target="_blank">Paying Your Bill</a>
-                                <a href="http://www.stonybrook.edu/bursar/" title="Bursar/Student Accounts" target="_blank">Bursar/Student Accounts</a>
                             </div>
                         </div>
                     </div>
@@ -121,15 +127,15 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <a href="http://studentaffairs.stonybrook.edu/ocliving/" target="_blank">Off Campus Living</a>
                                 <a href="http://www.campusdining.org/" target="_blank">Campus Dining Services</a>
+                                <a href="http://www.stonybrook.edu/sb/map/" target="_blank">Campus Maps</a>
                                 <a href="http://studentaffairs.stonybrook.edu/res/index.shtml" target="_blank">Campus Residences</a>
+                                <a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a>
                                 <a href="http://fsa.sunysb.edu/mealplan/" target="_blank">Meal Plans</a>
-                                <a href="http://studentaffairs.stonybrook.edu/for/index.shtml" target="_blank">SAC and SB Union Facilities</a>
+                                <a href="http://studentaffairs.stonybrook.edu/ocliving/" target="_blank">Off Campus Living</a>
                                 <a href="http://www.stonybrook.edu/parking/" target="_blank">Parking Services</a>
                                 <a href="http://www.stonybrook.edu/transportation/" target="_blank">Transportation Services</a>
-                                <a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a>
-                                <a href="http://www.stonybrook.edu/sb/map/" target="_blank">Campus Maps</a>
+                                <a href="http://studentaffairs.stonybrook.edu/for/index.shtml" target="_blank">SAC and SB Union Facilities</a>
                             </div>
                         </div>
                     </div>
@@ -144,14 +150,14 @@
                         <strong>Featured Video:</strong> Michael Maysonet rushes for ESPN top play Senior's leap and 71-yard run
                     </div>
                 </div>
-                <div class="opportunities-wrapper clearfix content">
+                <div class="opportunities-wrapper clearfix content external-link-hover-wrapper">
                     <h2 class="small-title-3">Get Involved at SBU!</h2>
-                    <a href="#" title="">Undergraduate Research</a>
-                    <a href="#" title="">Biotechnology Internships</a>
-                    <a href="#" title="">Campus Job Opportunities</a>
-                    <a href="#" title="">Community Service</a>
-                    <a href="#" title="">Career Center</a>
-                    <a href="#" title="">Professional Education Program</a>
+                    <a href="http://www.sunysb.edu/ureca/" target="_blank">Undergraduate Research</a>
+                    <a href="http://www.biotech.sunysb.edu/educWork/internUGrad.html" target="_blank">Biotechnology Internships</a>
+                    <a href="http://www.stonybrook.edu/jobs/" target="_blank">Campus Job Opportunities</a>
+                    <a href="http://www.stonybrook.edu/sb/communityservice/" target="_blank">Community Service</a>
+                    <a href="http://www.stonybrook.edu/career" target="_blank">Career Center</a>
+                    <a href="http://www.stonybrook.edu/pep/" target="_blank">Professional Education Program</a>
                 </div>
             </div>
         </div>
@@ -203,18 +209,18 @@
                         </li>
                     </ul>
 
-                    <div class="activities-links clearfix">
-                        <a href="#">Athletics</a>
-                        <a href="#">Campus Recreation</a>
-                        <a href="#">Clubs and Organizations</a>
-                        <a href="#">Crafts Center</a>
-                        <a href="#">Staller Center for the Arts</a>
-                        <a href="#">SAC and SB Union</a>
-                        <a href="#">SAC Gallery</a>
-                        <a href="#">Student Activities</a>
-                        <a href="#">The University Café</a>
-                        <a href="#">Wang Center</a>
-                        <a href="#">Wellness Center</a>
+                    <div class="activities-links clearfix external-link-hover-wrapper">
+                        <a href="http://goseawolves.cstv.com/" target="_blank">Athletics</a>
+                        <a href="http://studentaffairs.stonybrook.edu/rec/" target="_blank">Campus Recreation</a>
+                        <a href="https://stonybrook.collegiatelink.net/" target="_blank">Clubs and Organizations</a>
+                        <a href="http://www.stonybrook.edu/craftcenter" target="_blank">Crafts Center</a>
+                        <a href="http://www.staller.sunysb.edu/" target="_blank">Staller Center for the Arts</a>
+                        <a href="http://studentaffairs.stonybrook.edu/for/index.shtml" target="_blank">SAC and SB Union</a>
+                        <a href="http://studentaffairs.stonybrook.edu/sac/art_gallery/artgalleryhome.shtml" target="_blank">SAC Gallery</a>
+                        <a href="http://studentaffairs.stonybrook.edu/sac/index.shtml" target="_blank">Student Activities</a>
+                        <a href="http://www.universitycafe.org/" target="_blank">The University Café</a>
+                        <a href="http://www.stonybrook.edu/commcms/wang/" target="_blank">Wang Center</a>
+                        <a href="http://studentaffairs.stonybrook.edu/rec/wellness_info.shtml">Wellness Center</a>
                     </div>
                 </div>
             </div>
@@ -226,20 +232,31 @@
             <a class="fa-arrow-after" href="#">Explore Now</a>
         </div>
     </section>
-    <section class="we-are-seawolves">
+    <section class="we-are-seawolves arrow-below arrow-below-red">
         <div class="no-pad-wrapper border-box">
             <h3 class="clearfix">We are <strong>Seawolves</strong></h3>
             <a class="subhead-link clearfix" href="#">Follow all the action at <em>stonybrookathletics.com</em></a>
             <h4 class="clearfix">Athletics &amp; Fitness</h4>
             <div class="sports-links">
-                <a href="http://studentaffairs.stonybrook.edu/rec/index.html">campus recreation</a>
-                <a href="http://studentaffairs.stonybrook.edu/rec/sport_clubs/club-information.html">sports clubs</a>
-                <a href="http://studentaffairs.stonybrook.edu/rec/intramurals/intramural-events.html">intramurals</a>
-                <a href="http://studentaffairs.stonybrook.edu/rec/fitness/fitness-events.html">fitness events</a>
-                <a href="http://www.stonybrook.edu/sb/healthieru/index.html">healthier u</a>
+                <a href="http://studentaffairs.stonybrook.edu/rec/index.html" target="_blank">campus recreation</a>
+                <a href="http://studentaffairs.stonybrook.edu/rec/sport_clubs/club-information.html" target="_blank">sports clubs</a>
+                <a href="http://studentaffairs.stonybrook.edu/rec/intramurals/intramural-events.html" target="_blank">intramurals</a>
+                <a href="http://studentaffairs.stonybrook.edu/rec/fitness/fitness-events.html" target="_blank">fitness events</a>
+                <a href="http://www.stonybrook.edu/sb/healthieru/index.html" target="_blank">healthier u</a>
             </div>
         </div>
     </section>
     
+    <?php 
+        $file = "widgets/view-social-wall.php";
+        include($path . $file);
+    ?>
 
 </article>
+
+<!-- <for-students> -->
+    <?php 
+        $file = "for-students/for-students-calendar.php";
+        //include($path . $content . $secLv . $file);
+    ?>
+<!-- </for-students> -->

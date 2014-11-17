@@ -1711,7 +1711,8 @@ body {
     a.external-link-hover:after,
     .external-link-hover:after,
     a.info-link-hover:after,
-    .info-link-hover:after { 
+    .info-link-hover:after,
+    .external-link-hover-wrapper a:after { 
         display: inline-block;
         font-family: FontAwesome;
         font-style: normal;
@@ -1730,7 +1731,8 @@ body {
     a.external-link-hover:after,
     .external-link-hover:after,
     a.info-link-hover:after,
-    .info-link-hover:after {
+    .info-link-hover:after,
+    .external-link-hover-wrapper a:after {
         content: " ";
         width: 12px;
         font-size: .85em;
@@ -1739,7 +1741,8 @@ body {
     a.external-link:after,
     .external-link:after,
     a.external-link-hover:hover:after,
-    .external-link-hover:hover:after {
+    .external-link-hover:hover:after,
+    .external-link-hover-wrapper a:hover:after {
         content: "\f08e";
     }
 
@@ -2326,6 +2329,105 @@ body {
     .drop-accordion-1 .content li {
         font-size: .9em;
         line-height: 1.8em;
+    }
+
+    /* View Social section */
+
+    section.social {
+
+    }
+
+    section.social h2 {
+        font-family: 'ITCFranklinGothicW01-Md 812695';
+        font-weight: 200;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+        -moz-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+        text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
+        color: #444;
+        cursor: default;
+        width: 100%;
+        display: block;
+        font-size: 2.6em;
+    }
+
+    section.social h3 {
+        text-transform: none;
+        text-align: center;
+    }
+
+    section.social h3 .nowrap {
+        display: block;
+    }
+
+    section.social {
+
+    }
+
+    section.social .social-posts {
+        display: block;
+        width: 100%;
+        height: 351px;
+        background: url("../img/social-posts/social-collab.png") 0 0 repeat-x;
+        margin: 20px 0 20px;
+    }
+
+    section.social img {
+        display: inline;
+        float: left;
+    }
+
+    section.social .button {
+        font-size: 24px;
+        font-family: 'TradeGothicW01-BoldCn20 675334';
+        font-weight: normal;
+        width: 240px;
+        display: block;
+        cursor: pointer;
+        margin: 100px auto;
+        text-transform: uppercase;
+    }
+
+    section.social .button .sbu-cta {
+        width: 100%;
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 360px) {
+        section.social h3 {
+            font-size: 1.4em;
+        }
+
+        section.social h3 .nowrap {
+            display: inline-block;
+        }
+    }
+
+    @media only screen and (min-width: 560px) {
+        section.social h2 {
+            font-size: 2.9em;
+        }
+
+        section.social h3 {
+            font-size: 1.6em;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        section.social h2 {
+            font-size: 3.1em;
+        }
+    }
+    @media only screen and (min-width: 960px) {
+        section.social h2 {
+            font-size: 3.3em;
+        }
+    }
+    @media only screen and (min-width: 1022px) {
+        section.social h2 {
+            font-size: 3.5em;
+        }
     }
 
     /* Full width video - from http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */

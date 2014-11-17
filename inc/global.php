@@ -41,3 +41,7 @@
     <?php } ?>
 <?php } ?>
 
+<?php if($html_dom_parser) {
+    $file = "scripts/simple_html_dom.php";
+    include($path . $file);
+} ?>
