@@ -121,4 +121,7 @@
     $page_scroll_el     = '';     //Options are audience-nav, logo, main-nav, bottom
     $page_scroll_time   = 0;      //Time for scroll function in milliseconds
     $page_scroll_mobile = false;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
+
+    /* Default date timezone */
+    date_default_timezone_set("America/New_York");
 ?>
