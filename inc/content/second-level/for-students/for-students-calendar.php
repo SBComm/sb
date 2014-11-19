@@ -1,5 +1,5 @@
 <?php
-    ini_set('display_errors', '1');
+    ini_set('display_errors', '0');
     parse_str($_SERVER['QUERY_STRING']);
     
     if (!isset($rss))

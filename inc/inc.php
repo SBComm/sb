@@ -102,6 +102,8 @@
 
     $html_dom_parser  = false;
 
+    $admissions_program_detail = false;
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;    //Options are
