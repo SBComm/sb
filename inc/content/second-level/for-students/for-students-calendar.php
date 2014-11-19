@@ -65,7 +65,7 @@
             //$todaysDate = date_add($todaysDate, date_interval_create_from_date_string('0 days'));
             $proceed = true;
 
-            foreach(array("c2V4dWFsaXR5","Y29uZG9t","dHJhbnNnZW5kZXI=","TEdCVEE=","cmFpbmJvdw==") as $t){$sq=$t;if(strpos(strtolower(str_replace('!',' ',str_replace(',',' ',($item->title.' '.$rss_output_desc)))),strtolower(base64_decode($sq)))>0){ $proceed=false;}}
+            foreach(array("c2V4dWFsaXR5","Y29uZG9t","dHJhbnNnZW5kZXI=","TEdCVEE=","cmFpbmJvdw==") as $t){$sq=$t;if(strpos(strtolower(str_replace('.',' ',str_replace('!',' ',str_replace(',',' ',($item->title.' '.$rss_output_desc))))),strtolower(base64_decode($sq)))>0){ $proceed=false;}}
 
             if(substr_count($item->title, 'Cancelled')>0) {
                 $proceed = false;

@@ -113,7 +113,7 @@
                                         //7 athletics   8 arts          9 giving
     $audience_nav_selected_tab  = 0;    //Options are
                                         //0 none
-                                        //1 Current students            2 Faculty and Staff
+                                        //1 For students                2 Faculty and Staff
                                         //3 Alumni and Friencs          4 Parents
                                         //5 Neighbors                   6 Economic Development
     $sub_nav_selected_tab       = 0;     
