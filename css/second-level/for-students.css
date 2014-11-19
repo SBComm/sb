@@ -577,7 +577,7 @@ section.we-are-seawolves {
     .title-link-box-wrapper .left-link-box {
         float: left;
         display: inline-block;
-        width: 35%;
+        width: 33%;
         padding: 9px;
         border: 1px solid #900;
         margin: 0 2% 0 0;
@@ -597,7 +597,7 @@ section.we-are-seawolves {
     .for-students-promo {
         float: left;
         display: inline-block;
-        width: 60%;
+        width: 65%;
         padding: 0 0 0 2%;
         border-left: 1px solid #ddd;
     }

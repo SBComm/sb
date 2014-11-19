@@ -23,23 +23,11 @@
                             <div class="carousel-image clearfix" data-image="02">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title muted-aqua">Winter Commencement: December 18th at 11am</div>
+                                <div class="carousel-title white">Winter Commencement: December 18th at 11am</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
                     </div>
-                    <!--
-                    <div class="item">
-                        <a href="http://www.stonybrook.edu/commcms/mart/" title="Medical and Research Translation Building">
-                            <div class="carousel-image clearfix" data-image="03">
-                            </div>
-                            <div class="carousel-text clearfix">
-                                <div class="carousel-title muted-aqua">State-of the-Art MART facility will facilitate health research, create jobs</div>
-                                <div class="carousel-subtitle">Learn more</div>
-                            </div>
-                        </a>
-                    </div>
-                    -->
                 </div>
                 <div class="owl-prev owl-prev-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-left"></em></div>
                 <div class="owl-next owl-next-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-right"></em></div>
@@ -50,7 +38,7 @@
 <article>
     <section class="wrapper title-link-box-wrapper arrow-above arrow-below arrow-below-white">
         <div class="border-box clearfix title-link-box-container inside-content">
-            <div class="title-link-box-1 left-link-box clearfix external-link-hover-wrapper">
+            <div class="title-link-box-1 left-link-box clearfix">
                 <h2 class="red medium-title-3">Student Resources</h2>
                 <div class="drop-accordion drop-accordion-1">
                     <div class="item">
@@ -144,16 +132,17 @@
             <div class="for-students-promo clearfix">
                 <div class="video-promo-wrapper">
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/XIesl-0MbgA?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/9Ufs0RMvwRg?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="video-caption content">
-                        <strong>Featured Video:</strong> Michael Maysonet rushes for ESPN top play Senior's leap and 71-yard run
+                        <strong>Featured Video:</strong> Highlights of Stony Brook Women's Basketball vs. Saint Peter's (Nov. 15th, 2014)
+
                     </div>
                 </div>
                 <div class="opportunities-wrapper clearfix content external-link-hover-wrapper">
                     <h2 class="small-title-3">Get Involved at SBU!</h2>
                     <a href="http://www.sunysb.edu/ureca/" target="_blank">Undergraduate Research</a>
-                    <a href="http://www.biotech.sunysb.edu/educWork/internUGrad.html" target="_blank">Biotechnology Internships</a>
+                    <a href="http://career.stonybrook.edu/students/connect/internship-coop-services" target="_blank">Internships</a>
                     <a href="http://www.stonybrook.edu/jobs/" target="_blank">Campus Job Opportunities</a>
                     <a href="http://www.stonybrook.edu/sb/communityservice/" target="_blank">Community Service</a>
                     <a href="http://www.stonybrook.edu/career" target="_blank">Career Center</a>
@@ -171,41 +160,29 @@
             <div class="border-box wrapper clearfix">
                 <div class="content white">
                     <ul class="calendar-items clearfix">
-                        <li class="clearfix">
-                            <a class="date-marker" href="#" title="#">
-                                <span class="event-month">Oct</span>
-                                <span class="event-date">28</span>
-                            </a>
-                            <a class="event-details" href="#" title="#">
-                                <span class="event-title aqua">Breast Cancer Awareness Chinese Auction</span>
-                                <span class="event-time">Friday, 7:00 PM to 10:00 PM</span>
-                                <span class="event-desc">Come suooprt the lorem ipsum dolor Praise God this is a test and it's nice.</span>
-                            </a>
-                        </li>
-                        <li class="clearfix">
-                            <a class="date-marker" href="#" title="#">
-                                <span class="event-month">Oct</span>
-                                <span class="event-date">28</span>
-                            </a>
-                            <a class="event-details" href="#" title="#">
-                                <span class="event-title aqua">Breast Cancer Awareness Chinese Auction</span>
-                                <span class="event-time">Friday, 7:00 PM to 10:00 PM</span>
-                                <span class="event-desc">Come suooprt the lorem ipsum dolor Praise God this is a test and it's nice.</span>
-                            </a>
-                        </li>
-                        <li class="clearfix">
-                            <a class="date-marker" href="#" title="#">
-                                <span class="event-month">Oct</span>
-                                <span class="event-date">28</span>
-                            </a>
-                            <a class="event-details" href="#" title="#">
-                                <span class="event-title aqua">Breast Cancer Awareness Chinese Auction</span>
-                                <span class="event-time">Friday, 7:00 PM to 10:00 PM</span>
-                                <span class="event-desc">Come suooprt the lorem ipsum dolor Praise God this is a test and it's nice.</span>
-                            </a>
-                        </li>
+                        <?php 
+                            /*
+                            // PHP will transform event data from RSS feed in following format
+                            //
+                            <!--
+                            <li class="clearfix">
+                                <a class="date-marker" href="#" title="#">
+                                    <span class="event-month">Oct</span>
+                                    <span class="event-date">28</span>
+                                </a>
+                                <a class="event-details" href="#" title="#">
+                                    <span class="event-title aqua">Breast Cancer Awareness Chinese Auction</span>
+                                    <span class="event-time">Friday, 7:00 PM to 10:00 PM</span>
+                                    <span class="event-desc">Come suooprt the lorem ipsum dolor Praise God this is a test and it's nice.</span>
+                                </a>
+                            </li>
+                            -->
+                            */
+                            $file = "for-students/for-students-calendar.php";
+                            include($path . $content . $secLv . $file);
+                        ?>
                         <li class="clearfix more-link">
-                            <a class="fa-arrow-after" href="#">View More Events</a>
+                            <a class="fa-arrow-after" href="https://stonybrook.collegiatelink.net/Events" target="_blank">View More Events</a>
                         </li>
                     </ul>
 
@@ -229,13 +206,13 @@
     <section class="ocean-background beyond-the-brook arrow-below arrow-below-ocean">
         <div class="no-pad-wrapper border-box">
             <h3 class="clearfix">Beyond the Brook: <strong>Stuff to Do Off Campus</strong></h3>
-            <a class="fa-arrow-after" href="#">Explore Now</a>
+            <a class="fa-arrow-after" href="http://studentaffairs.stonybrook.edu/beyondthebrook/" target="_blank">Explore Now</a>
         </div>
     </section>
     <section class="we-are-seawolves arrow-below arrow-below-red">
         <div class="no-pad-wrapper border-box">
             <h3 class="clearfix">We are <strong>Seawolves</strong></h3>
-            <a class="subhead-link clearfix" href="#">Follow all the action at <em>stonybrookathletics.com</em></a>
+            <a class="subhead-link clearfix" href="http://www.stonybrookathletics.com" target="_blank">Follow all the action at <em>stonybrookathletics.com</em></a>
             <h4 class="clearfix">Athletics &amp; Fitness</h4>
             <div class="sports-links">
                 <a href="http://studentaffairs.stonybrook.edu/rec/index.html" target="_blank">campus recreation</a>
@@ -249,14 +226,8 @@
     
     <?php 
         $file = "widgets/view-social-wall.php";
-        include($path . $file);
+        //include($path . $file);
     ?>
 
 </article>
 
-<!-- <for-students> -->
-    <?php 
-        $file = "for-students/for-students-calendar.php";
-        //include($path . $content . $secLv . $file);
-    ?>
-<!-- </for-students> -->
