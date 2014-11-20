@@ -329,6 +329,10 @@ section.beyond-the-brook {
     padding: 50px 0 100px;
 }
 
+section.beyond-the-brook video {
+    top: -100px;
+}
+
 .beyond-the-brook h3 {
     display: block;
     margin: 0;
@@ -646,6 +650,7 @@ section.we-are-seawolves {
         background-size: 150%;
         background-size: cover;
         background-position: 60% 40%;
+        padding: 60px 0 110px;
     }
     .arrow-below-ocean:after {
         border-top-color: #9DA4B4;
@@ -666,7 +671,7 @@ section.we-are-seawolves {
     }
     .beyond-the-brook a {
         width: 185px;
-        margin: 120px auto 0;
+        margin: 130px auto 0;
         background: url("../../img/bkg/transparent-black-30.png") repeat scroll 0 0;
         background: rgba(0,0,0,.3);
         font-size: 1.4em;
@@ -700,5 +705,34 @@ section.we-are-seawolves {
     }
 }
 @media only screen and (min-width: 1220px) {
-    
+    section.beyond-the-brook {
+        padding: 80px 0 160px;
+    }
+    section.beyond-the-brook video {
+        top: -100px;
+    }
+}
+@media only screen and (min-width: 1460px) {
+    section.beyond-the-brook {
+        padding: 100px 0 180px;
+    }
+    section.beyond-the-brook video {
+        top: -130px;
+    }
+}
+@media only screen and (min-width: 1620px) {
+    section.beyond-the-brook {
+        padding: 130px 0 210px;
+    }
+    .beyond-the-brook a {
+        margin: 160px auto 0;
+    }
+    section.beyond-the-brook video {
+        top: -130px;
+    }
+}
+@media only screen and (min-width: 1620px) {
+    section.beyond-the-brook {
+        padding: 150px 0 340px;
+    }
 }

@@ -170,6 +170,10 @@
 						} );
 					<?php } ?>
 				});
+
+				<?php if($autoplay_video) { ?>
+					$('video.autoplay').get(0).play();
+				<?php } ?>
 			});
 		</script>
 		<script src="js/vendor/selectivizr-min.js"></script>

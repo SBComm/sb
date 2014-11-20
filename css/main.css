@@ -193,6 +193,13 @@ a[href$=".pptx"]:after {
     content: "\f1c4";
 }
 
+.no-overflow {
+    overflow: hidden;
+}
+
+video.background-video {
+    display: none;
+}
 
 /* ==========================================================================
    SBU Custom styles, bu Josh Palmeri
@@ -2806,6 +2813,20 @@ footer.site-footer .social .small-button:after {
 }
 
 @media only screen and (min-width: 1022px) {
+
+    /* Background HTML5 video */
+
+    video.background-video {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+    }
+
     .no-pad-wrapper {
         margin: 0 auto;
         max-width: 1022px;

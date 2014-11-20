@@ -203,7 +203,12 @@
             </div>
         </div>
     </section>
-    <section class="ocean-background beyond-the-brook arrow-below arrow-below-ocean">
+    <section class="ocean-background beyond-the-brook arrow-below arrow-below-ocean no-overflow">
+        <video class="background-video" autoplay loop>
+            <source src="video/ocean/ocean-1.mp4" type="video/mp4" />
+            <source src="video/ocean/ocean-1.webm" type="video/webm" />
+            <source src="video/ocean/ocean-1.ogv" type="video/ogg" />
+        </video>
         <div class="no-pad-wrapper border-box">
             <h3 class="clearfix">Beyond the Brook: <strong>Stuff to Do Off Campus</strong></h3>
             <a class="fa-arrow-after" href="http://studentaffairs.stonybrook.edu/beyondthebrook/" target="_blank">Explore Now</a>
@@ -222,7 +227,7 @@
                 <a href="http://www.stonybrook.edu/sb/healthieru/index.html" target="_blank">healthier u</a>
             </div>
         </div>
-    </section>
+    </section>    
     
     <?php 
         $file = "widgets/view-social-wall.php";
@@ -230,4 +235,3 @@
     ?>
 
 </article>
-
