@@ -86,7 +86,7 @@
                             <div class="content-wrap">
                                 <a href="http://www.stonybrook.edu/bursar/" title="Bursar/Student Accounts" target="_blank">Bursar/Student Accounts</a>
                                 <a href="http://stonybrook.edu/finaid/" title="Financial Aid" target="_blank">Financial Aid</a>
-                                <a href="http://www.stonybrook.edu/hscstudents/fin_how_to_apply.shtml" title="Financial Aid (Heslth Sciences)" target="_blank">Financial Aid (Heslth Sciences)</a>
+                                <a href="http://www.stonybrook.edu/hscstudents/fin_how_to_apply.shtml" title="Financial Aid (Heslth Sciences)" target="_blank">Financial Aid (Health Sciences)</a>
                                 <a href="http://www.stonybrook.edu/bursar/policy.shtml" title="Paying Your Bill" target="_blank">Paying Your Bill</a>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <a href="http://blackboard.stonybrook.edu/" title="Blackboard" target="_blank">Blackboard</a>
-                                <a href="http://it.stonybrook.edu/services/solar" title="SOLAR System" target="_blank">SOLAR System</a>
+                                <a href="http://it.stonybrook.edu/services/solar" title="SOLAR System" target="_blank">SOLAR</a>
                                 <a href="http://fsa.sunysb.edu/apple/" title="Apple Computer Purchases" target="_blank">Apple Computer Purchases</a>
                                 <a href="http://fsa.sunysb.edu/pc-education-discounts/" title="PC Computer Purchases" target="_blank">PC Computer Purchases</a>
                                 <a href="http://it.stonybrook.edu/services/client-support-service-center" title="Computer Support" target="_blank">Computer Support</a>      
@@ -120,7 +120,7 @@
                                 <a href="http://studentaffairs.stonybrook.edu/res/index.shtml" target="_blank">Campus Residences</a>
                                 <a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a>
                                 <a href="http://fsa.sunysb.edu/mealplan/" target="_blank">Meal Plans</a>
-                                <a href="http://studentaffairs.stonybrook.edu/ocliving/" target="_blank">Off Campus Living</a>
+                                <a href="http://studentaffairs.stonybrook.edu/css/" target="_blank">Commuter Student Services &amp; Off-Campus Living</a>
                                 <a href="http://www.stonybrook.edu/parking/" target="_blank">Parking Services</a>
                                 <a href="http://www.stonybrook.edu/transportation/" target="_blank">Transportation Services</a>
                                 <a href="http://studentaffairs.stonybrook.edu/for/index.shtml" target="_blank">SAC and SB Union Facilities</a>
@@ -146,7 +146,7 @@
                     <a href="http://www.stonybrook.edu/jobs/" target="_blank">Campus Job Opportunities</a>
                     <a href="http://www.stonybrook.edu/sb/communityservice/" target="_blank">Community Service</a>
                     <a href="http://www.stonybrook.edu/career" target="_blank">Career Center</a>
-                    <a href="http://www.stonybrook.edu/pep/" target="_blank">Professional Education Program</a>
+                    <a href="http://www.stonybrook.edu/studyabroad" target="_blank">Study Abroad &amp; Exchange</a>
                 </div>
             </div>
         </div>
@@ -182,7 +182,7 @@
                             include($path . $content . $secLv . $file);
                         ?>
                         <li class="clearfix more-link">
-                            <a class="fa-arrow-after" href="https://stonybrook.collegiatelink.net/Events" target="_blank">View More Events</a>
+                            <a class="fa-arrow-after" href="https://stonybrook.collegiatelink.net/Events" target="_blank">View All Events</a>
                         </li>
                     </ul>
 
