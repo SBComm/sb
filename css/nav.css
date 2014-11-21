@@ -291,7 +291,7 @@
 	box-shadow: 0px 8px 11px -10px #333;
 }
 /* fix bug on Safari 5 that causes site nav wrapper to hide */
-.site-nav .no-pad-wrapper {
+.site-nav * {
 	-webkit-transform: translate3d(0,0,0);
 }
 
