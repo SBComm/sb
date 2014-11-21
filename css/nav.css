@@ -291,6 +291,10 @@
 	box-shadow: 0px 8px 11px -10px #333;
 }
 
+.site-nav .no-pad-wrapper {
+	z-index: 999999;
+}
+
 .drop-nav {
 	background: #2d2525;
 	background: rgba(45, 37, 37, .88);
