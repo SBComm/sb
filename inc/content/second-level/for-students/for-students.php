@@ -151,7 +151,7 @@
             </div>
         </div>
     </section>
-    <section class="activities-and-calendar inside-content">
+    <section class="activities-and-calendar inside-content arrow-below arrow-below-black">
         <div class="black-opac-cover">
             <div class="border-box wrapper clearfix">
                 <h2 class="medium-title-3 aqua">Activities, Culture &amp; Recreation</h2>
