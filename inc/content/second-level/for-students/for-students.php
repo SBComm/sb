@@ -218,7 +218,7 @@
         </div>
     </section>
     <section class="ocean-background beyond-the-brook arrow-below arrow-below-ocean no-overflow">
-        <video class="background-video" autoplay loop>
+        <video class="background-video" loop preload="none">
             <source src="video/ocean/ocean-1.mp4" type="video/mp4" />
             <source src="video/ocean/ocean-1.webm" type="video/webm" />
             <source src="video/ocean/ocean-1.ogv" type="video/ogg" />

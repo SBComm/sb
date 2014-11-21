@@ -16,15 +16,18 @@
 				/*console.log("ww: "+$(window).width());*/
 				if($(window).width()>=1022) {
 					$(".site-nav").sticky({ topSpacing: 0 });
+					$('.background-video').get(0).play();
 				}
 			});
 			$(window).resize(function(){
 				if($(window).width()>=1022) {
 					if ($('.sticky-wrapper').length == 0) { 
 					    $(".site-nav").sticky({ topSpacing: 0 });
+						$('.background-video').get(0).play();
 					}
 					configureSearchPosition();
 				} else {
+					$('.background-video').get(0).pause();
 					/*if ( $moreNav.is( ":visible" ) ) {
 						$('.more-trigger').click();
 					}*/
@@ -170,10 +173,6 @@
 						} );
 					<?php } ?>
 				});
-
-				<?php if($autoplay_video) { ?>
-					$('video.autoplay').get(0).play();
-				<?php } ?>
 			});
 		</script>
 		<script src="js/vendor/selectivizr-min.js"></script>
