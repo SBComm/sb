@@ -27,7 +27,6 @@
 					}
 					configureSearchPosition();
 				} else {
-					$('.background-video').get(0).pause();
 					/*if ( $moreNav.is( ":visible" ) ) {
 						$('.more-trigger').click();
 					}*/
