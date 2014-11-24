@@ -62,7 +62,7 @@
                                 <a href="http://it.stonybrook.edu/services/solar/" title="SOLAR" target="_blank">SOLAR</a>
                                 <a href="http://sb.cc.stonybrook.edu/bulletin/current/" title="Undergraduate Bulletin" target="_blank">Undergraduate Bulletin</a>
                                 <a href="http://www.stonybrook.edu/gradbulletin" title="Graduate Bulletin" target="_blank">Graduate Bulletin</a>
-                                <a href="http://sb.cc.stonybrook.edu/hscbulletin" title="HSC Bulletin" target="_blank">HSC Bulletin</a>
+                                <a href="http://www.stonybrook.edu/hscstudents/bulletin.shtml" title="HSC Bulletin" target="_blank">Health Sciences Bulletin</a>
                                 <a href="http://www.stonybrook.edu/registrar/calendar-academic.shtml" title="Academic Calendars" target="_blank">Academic Calendars</a>
                                 <a href="http://www.stonybrook.edu/registrar/finals.shtml" title="Midterm &amp; Final Exam Schedule" target="_blank">Midterm &amp; Final Exam Schedule</a>
                                 <a href="http://www.stonybrook.edu/registrar/" title="Registrar" target="_blank">Registrar</a>
