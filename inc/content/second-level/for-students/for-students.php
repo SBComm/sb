@@ -28,6 +28,16 @@
                             </div>
                         </a>
                     </div>
+                    <div class="item">
+                        <a href="http://www.stonybrook.edu/ureca/sept14.shtml" target="_blank" title="Overcoming Parkinson’s Disease with Music">
+                            <div class="carousel-image clearfix" data-image="03">
+                            </div>
+                            <div class="carousel-text clearfix">
+                                <div class="carousel-title white">Overcoming Parkinson’s Disease with Music</div>
+                                <div class="carousel-subtitle">Learn more</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="owl-prev owl-prev-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-left"></em></div>
                 <div class="owl-next owl-next-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-right"></em></div>
@@ -67,7 +77,8 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <a href="http://www.stonybrook.edu/sb/academichelp.shtml" target="_blank">Academic Advising
+                                <a href="http://www.stonybrook.edu/sb/academichelp.shtml" target="_blank">Academic Advising</a>
+                                <a href="http://stonybrook.edu/advisingmedia" target="_blank">Advising Tutorials</a>
                                 <a href="http://www.stonybrook.edu/commcms/academic_success/" target="_blank">Academic Success &amp; Tutoring Center</a>
                                 <a href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">Center for Prevention &amp; Outreach</a>
                                 <a href="http://www.studentaffairs.stonybrook.edu/caps/" target="_blank">Counseling &amp; Psychological Services (CAPS) </a>
