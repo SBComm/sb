@@ -77,12 +77,12 @@
 
 	                var owl = $("#the-carousel-1");
 	                owl.owlCarousel({
-	                    autoPlay: 10000,
+	                    autoPlay: 8000,
 	                    navigation : false, // Show default next and prev buttons
 	                    slideSpeed : 300,
 	                    paginationSpeed : 400,
-	                    singleItem: true/*,
-	                    transitionStyle : "fade"*/
+	                    singleItem: true,
+	                    transitionStyle : "fade"
 	                });
 	                $('.owl-prev-1').on('click', function() {
 	                    owl.trigger('owl.prev');
@@ -132,7 +132,8 @@
 		                    navigation : false, // Show default next and prev buttons
 		                    slideSpeed : 1200,
 		                    paginationSpeed : 2000,
-		                    singleItem: true
+		                    singleItem: true,
+	                    	transitionStyle : "fade"
 		                });
 		                $('.owl-prev-4').on('click', function() {
 		                    owl4.trigger('owl.prev');

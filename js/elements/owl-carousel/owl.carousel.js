@@ -1,5 +1,5 @@
 /*
- *  jQuery OwlCarousel v1.3.2
+ *  jQuery OwlCarousel v1.3.3
  *
  *  Copyright (c) 2013 Bartosz Wojciechowski
  *  http://www.owlgraphic.com/owlcarousel/
@@ -65,8 +65,10 @@ if (typeof Object.create !== "function") {
         logIn : function () {
             var base = this;
 
-            base.$elem.data("owl-originalStyles", base.$elem.attr("style"))
-                      .data("owl-originalClasses", base.$elem.attr("class"));
+            base.$elem.data({
+                "owl-originalStyles": base.$elem.attr("style"),
+                "owl-originalClasses": base.$elem.attr("class")
+            });
 
             base.$elem.css({opacity: 0});
             base.orignalItems = base.options.items;
@@ -291,10 +293,6 @@ if (typeof Object.create !== "function") {
                 }
             };
             $(window).resize(base.resizer);
-            $(document).ready(function() {
-                lastWindowWidth=-1;
-                base.resizer;
-            });
         },
 
         updatePosition : function () {
@@ -805,8 +803,10 @@ if (typeof Object.create !== "function") {
                                   "; transform:"         + translate3D;
             regex = /translate3d\(0px, 0px, 0px\)/g;
             asSupport = tempElem.style.cssText.match(regex);
+            support3d = (asSupport !== null && asSupport.length === 1);
             //support3d = (asSupport !== null && asSupport.length === 1);
-            support3d = (asSupport !== null && asSupport.length !== 0);
+            //support3d = (asSupport !== null && asSupport.length !== 0);
+            support3d = (Modernizr.csstransforms3d);
 
             isTouch = "ontouchstart" in window || window.navigator.msMaxTouchPoints;
 
@@ -1168,7 +1168,9 @@ if (typeof Object.create !== "function") {
                     follow = true;
                 }
                 if (follow && itemNumber < base.currentItem + base.options.items && $lazyImg.length) {
-                    base.lazyPreload($item, $lazyImg);
+                    $lazyImg.each(function() {
+                        base.lazyPreload($item, $(this));
+                    });
                 }
             }
         },
@@ -1289,48 +1291,43 @@ if (typeof Object.create !== "function") {
                 outClass = base.outClass,
                 inClass = base.inClass,
                 $currentItem = base.$owlItems.eq(base.currentItem),
-                $prevItem = base.$owlItems.q(base.prevItem),
+                $prevItem = base.$owlItems.eq(base.prevItem),
                 prevPos = Math.abs(base.positionsInArray[base.currentItem]) + base.positionsInArray[base.prevItem],
                 origin = Math.abs(base.positionsInArray[base.currentItem]) + base.itemWidth / 2,
                 animEnd = 'webkitAnimationEnd oAnimationEnd MSAnimationEnd animationend';
 
-            if(base.itemsAmount>1) {
+            base.isTransition = true;
 
-                base.isTransition = true;
-
-                base.$owlWrapper
-                    .addClass('owl-origin')
-                    .css({
-                        "-webkit-transform-origin" : origin + "px",
-                        "-moz-perspective-origin" : origin + "px",
-                        "perspective-origin" : origin + "px"
-                    });
-                function transStyles(prevPos) {
-                    return {
-                        "position" : "relative",
-                        "left" : prevPos + "px"
-                    };
-                }
-
-                $prevItem
-                    .css(transStyles(prevPos, 10))
-                    .addClass(outClass)
-                    .on(animEnd, function () {
-                        base.endPrev = true;
-                        $prevItem.off(animEnd);
-                        base.clearTransStyle($prevItem, outClass);
-                    });
-
-                $currentItem
-                    .addClass(inClass)
-                    .on(animEnd, function () {
-                        base.endCurrent = true;
-                        $currentItem.off(animEnd);
-                        base.clearTransStyle($currentItem, inClass);
-                    });
-
+            base.$owlWrapper
+                .addClass('owl-origin')
+                .css({
+                    "-webkit-transform-origin" : origin + "px",
+                    "-moz-perspective-origin" : origin + "px",
+                    "perspective-origin" : origin + "px"
+                });
+            function transStyles(prevPos) {
+                return {
+                    "position" : "relative",
+                    "left" : prevPos + "px"
+                };
             }
-            
+
+            $prevItem
+                .css(transStyles(prevPos, 10))
+                .addClass(outClass)
+                .on(animEnd, function () {
+                    base.endPrev = true;
+                    $prevItem.off(animEnd);
+                    base.clearTransStyle($prevItem, outClass);
+                });
+
+            $currentItem
+                .addClass(inClass)
+                .on(animEnd, function () {
+                    base.endCurrent = true;
+                    $currentItem.off(animEnd);
+                    base.clearTransStyle($currentItem, inClass);
+                });
         },
 
         clearTransStyle : function (item, classToRemove) {
@@ -1381,9 +1378,10 @@ if (typeof Object.create !== "function") {
                 }
             }
             base.clearEvents();
-            base.$elem
-                .attr("style", base.$elem.data("owl-originalStyles") || "")
-                .attr("class", base.$elem.data("owl-originalClasses"));
+            base.$elem.attr({
+                'style': base.$elem.data("owl-originalStyles") || "",
+                'class': base.$elem.data("owl-originalClasses")
+            });
         },
 
         destroy : function () {
