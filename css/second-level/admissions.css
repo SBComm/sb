@@ -272,6 +272,7 @@ section.virtual-tour {
         float: left;
         width: 25%;
         overflow: hidden;
+        -webkit-font-smoothing: subpixel-antialiased;
     }
 
     .compare-table:hover .compare-table-col {
@@ -279,6 +280,7 @@ section.virtual-tour {
         -moz-transition: all 0.1s;
         transition: all 0.1s;
         opacity: .9;
+        -webkit-font-smoothing: subpixel-antialiased;
     }
     .compare-table .compare-table-col:hover {
         -webkit-transition: all 0.1s;
@@ -287,6 +289,7 @@ section.virtual-tour {
         box-shadow: 0 0 30px rgba(20,20,20,.2);
         z-index: 1;
         opacity: 1;
+        -webkit-font-smoothing: subpixel-antialiased;
     }
     .compare-table-col h3:after {
         display: none;
@@ -359,6 +362,7 @@ section.virtual-tour {
         padding: 14px 45px 14px 30px;
         box-shadow: 0 0 10px rgba(80,80,80,.3);
         font-size: 1.3em;
+        -webkit-font-smoothing: subpixel-antialiased;
     }
     a.floating-button:after {
         top: 12px;
