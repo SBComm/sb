@@ -1,0 +1,409 @@
+.ghosted-campus {
+    background-image: url("../../img/university/ghosted-backgrnd-marquee.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 90%;
+}
+.admissions-header {
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.admissions-header .content {
+    font-size: 1em;
+}
+
+.admissions-header .content br {
+    display: none;
+}
+
+section.admissions-promo-wrapper {
+    background-image: url("../../img/misc/blue-chalkboard-admissions-marquee.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 90%;
+    padding: 10px 0 40px;
+    overflow: visible;
+}
+
+section.admissions-promo-wrapper .wrapper {
+    overflow: visible;
+    position: relative;
+}
+
+.admissions-promo-wrapper h2 {
+    color: #fff;
+    font-family: 'Trade Gothic W01 Light';
+    -webkit-text-shadow: 0 0 10px rgba(0,0,0,.7), 0 0 5px rgba(0,0,0,.7);
+    -moz-text-shadow: 0 0 10px rgba(0,0,0,.7), 0 0 5px rgba(0,0,0,.7);
+    text-shadow: 0 0 10px rgba(0,0,0,.7), 0 0 5px rgba(0,0,0,.7);
+    text-transform: none;
+    text-align: center;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.admissions-promo-wrapper h2 .smaller {
+    font-size: 1.3em;
+    display: block;
+}
+
+.admissions-promo-wrapper h2 .larger {
+    font-size: 1.8em;
+    display: block;
+}
+
+.compare-table,
+.compare-table-col {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.compare-table-col h3,
+a.floating-button {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 13px 16px;
+    margin: 0;
+    border: 0 none;
+    color: #fff;
+    font-size: 1.4em;
+    background: rgba(0,0,0,.15);
+    border-top: 1px rgba(0,0,0,.2) solid;
+    border-bottom: 1px rgba(0,0,0,.2) solid;
+    font-weight: normal;
+    font-family: 'Trade Gothic W01 Light';
+    position: relative;
+    cursor: pointer;
+}
+
+.compare-table-col h3:hover,
+a.floating-button:hover {
+    background: rgba(0,0,0,.25);
+}
+
+.compare-table-col h3:after,
+a.floating-button:after {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: 1.4em;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+}
+
+.compare-table-col h3.open:after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.compare-table-col .links,
+.compare-table-col .links a  {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.compare-table-col .links a {
+    color: #fff;
+    width: 100%;
+    padding: 12px 10px 12px 55px;
+    font-size: 1.1em;
+    margin: 0;
+    border: 0 none;
+    background: rgba(200,200,200,.1);
+    border-top: 1px rgba(100,100,100,.2) solid;
+    border-bottom: 1px rgba(30,30,30,.2) solid;
+    font-family:'Trade Gothic Next W01';
+    text-indent: -25px;
+}
+
+.compare-table-col .links a .fa {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    text-align: center;
+}
+
+.compare-table-col .links a:hover {
+    background: rgba(50,50,50,.2);
+}
+
+
+
+section.virtual-tour {
+    background-image: url("../../img/university/autumn-panorama-2000.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 90%;
+    padding: 100px 0 100px;
+}
+
+.virtual-tour a {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 80%;
+    font-family: 'Trade Gothic Next W01';
+    font-size: 1.4em;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    padding: 6px 0 8px;
+    margin: 0 10%;
+    text-align: center;
+    border: 1px rgba(255,255,255,.8) solid;
+    -webkit-text-shadow: 0 0 10px rgba(0,0,0,.7);
+    -moz-text-shadow: 0 0 10px rgba(0,0,0,.7);
+    text-shadow: 0 0 10px rgba(0,0,0,.7);
+    letter-spacing: .015em;
+}
+.virtual-tour a:hover {
+    background: rgba(0,0,0,.45);
+    border-color: #fff;
+}
+
+@media only screen and (min-width: 400px) {
+    .admissions-header {
+        padding: 10px 0 50px;
+    }
+    .admissions-header .content {
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .virtual-tour a {
+        font-size: 2em;
+        padding: 10px 0 16px;
+        border: 2px rgba(255,255,255,.75) solid;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 560px) {
+    section.admissions-promo-wrapper {
+        padding: 40px 0 40px;
+    }
+    .admissions-promo-wrapper h2 {
+        line-height: 3.2em;
+        margin: 0 0 50px;
+    }
+    .admissions-promo-wrapper h2 .smaller {
+        font-size: 1.8em;
+    }
+
+    .admissions-promo-wrapper h2 .larger {
+        font-size: 2.8em;
+    }
+    section.virtual-tour {
+        padding: 140px 0 140px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+@media only screen and (min-width: 1022px) {
+    .admissions-header .content {
+        font-size: 1.3em;
+    }
+    .admissions-header .content br {
+        display: inline-block;
+    }
+    .admissions-promo-wrapper h2 {
+        line-height: 4.8em;
+        margin: 0 0 60px;
+        -webkit-text-shadow: 0 0 15px rgba(0,0,0,.8), 0 0 10px rgba(0,0,0,.8);
+        -moz-text-shadow: 0 0 15px rgba(0,0,0,.8), 0 0 10px rgba(0,0,0,.8);
+        text-shadow: 0 0 15px rgba(0,0,0,.8), 0 0 10px rgba(0,0,0,.8);
+    }
+    .admissions-promo-wrapper h2 .smaller {
+        font-size: 2.6em;
+    }
+
+    .admissions-promo-wrapper h2 .larger {
+        font-size: 5em;
+    }
+    .compare-table {
+        position: relative;
+        border: 2px solid #fff;
+        overflow: visible;
+        background: rgba(41, 139, 193, .3);
+        background: url('../../img/bkg/thin-diagonal-stripe-pattern.png') repeat rgba(41, 139, 193, .3);
+    }
+    .compare-table-col {
+        display: inline-block;
+        position: relative;
+        float: left;
+        width: 25%;
+        overflow: hidden;
+    }
+
+    .compare-table:hover .compare-table-col {
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+        opacity: .9;
+    }
+    .compare-table .compare-table-col:hover {
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+        box-shadow: 0 0 30px rgba(20,20,20,.2);
+        z-index: 1;
+        opacity: 1;
+    }
+    .compare-table-col h3:after {
+        display: none;
+    }
+    .compare-table-col h3,
+    .compare-table-col h3:hover {
+        background: rgba(0,0,0,.7);
+        text-align: center;
+        font-size: 1.4em;
+        padding: 20px 5px;
+        cursor: default;
+    }
+    .compare-table-col:nth-child(odd) h3 {
+        background: rgba(45,45,45,.7);
+    }
+    .compare-table-col .links {
+        background: rgba(230,230,230,.85);
+        box-shadow: 0 0 25px rgba(80,80,80,.2) inset;
+    }
+    .compare-table:hover .links,
+    .compare-table-col:nth-child(even) .links {
+        background: rgba(255,255,255,.925);
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+    }
+    .compare-table-col .links a {
+        background: transparent;
+        color: #222;
+        border: 0 none;
+        border-bottom: 1px solid #ddd;
+        padding: 11px 10px 11px 55px;
+    }
+    .compare-table-col:nth-child(even) .links a {
+        border-bottom: 1px solid #fff;
+    }
+    .compare-table-col .links a:hover,
+    .compare-table-col .links a:active {
+        background: #900;
+        background: url('../../img/bkg/thin-diagonal-stripe-pattern.png') repeat #900;
+        color: #fff;
+        -webkit-transition: all 0.05s;
+        -moz-transition: all 0.05s;
+        transition: all 0.05s;
+        opacity: .9;
+    }
+    .compare-table-col .image {
+        display: block;
+        height: 181px;
+    }
+    .compare-table-col img {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 181px;
+    }
+    a.floating-button,
+    a.floating-button:hover {
+        display: block;
+        position: absolute;
+        bottom: 148px;
+        left: 41%;
+        width: auto;
+        z-index: 10;
+        background-image: url("../../img/misc/red-money-pattern.png");
+        background-size: 100%;
+        background-size: cover;
+        border: 2px solid #ddd;
+        border-radius: 15px;
+        padding: 14px 45px 14px 30px;
+        box-shadow: 0 0 10px rgba(80,80,80,.3);
+        font-size: 1.3em;
+    }
+    a.floating-button:after {
+        top: 12px;
+        right: 18px;
+    }
+    a.floating-button:hover {
+        box-shadow: 0 0 15px rgba(80,80,80,.5), 0 0 10px rgba(0,0,0,.4) inset;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+    }
+
+
+    section.virtual-tour {
+        padding: 180px 0 180px;
+    }
+
+    .virtual-tour a {
+        font-size: 5.6em;
+        line-height: 1;
+        padding: 8px 0 24px;
+        border: 2px rgba(255,255,255,.75) solid;
+        width: 500px;
+        margin: 0 auto;
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+        transition: all 0.8s;
+    }
+
+    .virtual-tour a:hover {
+        border-radius: 30px 30px 0 30px;
+    }
+}
+@media only screen and (min-width: 1220px) {
+    a.floating-button,
+    a.floating-button:hover {
+        left: 41%;
+    }
+}
+@media only screen and (min-width: 1460px) {
+    .compare-table-col h3,
+    .compare-table-col h3:hover {
+        font-size: 1.55em;
+    }
+}
+@media only screen and (min-width: 1620px) {
+
+}
+@media only screen and (min-width: 1620px) {
+
+}

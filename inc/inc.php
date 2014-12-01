@@ -87,6 +87,7 @@
     $lightbox         = false;
 
     $equal_col        = false;
+    $equal_col_desktop = false;
 
     $search_type      = 'default'; //default, admissions
     $search_style     = 'default'; //default, stay-in-nav

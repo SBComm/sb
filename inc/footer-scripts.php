@@ -338,6 +338,25 @@
 			   	});
 			</script>
         <?php } ?>
+
+        <?php if($equal_col_desktop==true) { ?>
+			<script type="text/javascript">
+				$(window).load(function() {
+					if($(window).width()>=1022) {
+						equalheight('.equal-height-col');
+					} else {
+						$('.equal-height-col').css('height','auto');
+					}
+			   	});
+			   	$(window).resize(function(){
+			   		if($(window).width()>=1022) {
+						equalheight('.equal-height-col');
+					} else {
+						$('.equal-height-col').css('height','auto');
+					}
+			   	});
+			</script>
+        <?php } ?>
         <!-- END Element Specific Includes -->
 
         <!-- window.load() -->

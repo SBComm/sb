@@ -195,6 +195,40 @@ $(document).ready(function() {
 		}
 	});
 
+	/* Scalable use of accordion-style slideUp/slideDown with hide-accessible */
+
+	var triggerEl, triggerTarget, triggerClass;
+
+	$('[data-accordion-trigger="true"]').on('click',function(event){
+		$triggerEl = $(this);
+		$triggerTarget = $('.' + $triggerEl.data('target'));
+		screenSize = $triggerEl.data('screen-size');
+
+		if(screenSize=='mobile') {
+	        if($(window).width()>=1022) {
+	            return false;
+	        }
+	    }
+
+        if($triggerTarget.hasClass('open')) {
+            $triggerTarget.fadeIn(0,function(){
+              $triggerEl.removeClass('open');
+		      $triggerTarget.removeClass('open')
+		        .slideUp('fast',function() {
+		            $triggerTarget.addClass('hide-accessible-mobile').fadeIn('fast');
+		        });
+		    });
+        } else {
+            $triggerTarget.fadeOut(0,function(){
+              $triggerEl.addClass('open');
+		      $triggerTarget.removeClass('hide-accessible-mobile').addClass('open')
+		        .slideDown('fast');
+		    });
+		    $('body').scrollTo( $triggerEl, 200, {axis: 'y'} );
+        }
+
+	});
+
 
 	/* Proofing */
 	$('#proofing-message .close-proofing-message').on('click',function() {

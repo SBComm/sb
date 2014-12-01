@@ -20,13 +20,13 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$second_level    = 'for-students';
-			$page_title_sub  = 'For Students';
+			$second_level    = 'admissions';
+			$page_title_sub  = 'Admissions';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Current students at Stony Brook University find class schedules, links, clubs and opportunities to thrive in campus life.';
-		    $og_url          = 'http://www.stonybrook.edu/for-students';
+		    $og_description  = 'Stony Brook offers thriving second-level education and research programs. Apply today!';
+		    $og_url          = 'http://www.stonybrook.edu/admissions';
 
 		    $page_to_top_link = true;
 
@@ -35,6 +35,8 @@
 
 		    $carousel 		  = true;
 		    $motio  		  = true;
+
+		    $equal_col_desktop  = true;
 
 		    $page_scroll        = true;
 		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
