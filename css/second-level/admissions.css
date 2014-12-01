@@ -158,6 +158,9 @@ section.virtual-tour {
     background-size: 100%;
     background-size: cover;
     background-position: 50% 90%;
+}
+
+.virtual-tour .no-pad-wrapper {
     padding: 100px 0 100px;
 }
 
@@ -219,7 +222,7 @@ section.virtual-tour {
     .admissions-promo-wrapper h2 .larger {
         font-size: 2.8em;
     }
-    section.virtual-tour {
+    .virtual-tour .no-pad-wrapper {
         padding: 140px 0 140px;
     }
 }
@@ -369,7 +372,7 @@ section.virtual-tour {
     }
 
 
-    section.virtual-tour {
+    .virtual-tour .no-pad-wrapper {
         padding: 180px 0 180px;
     }
 

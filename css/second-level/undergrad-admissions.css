@@ -526,43 +526,6 @@ section.cta-items {
     box-shadow: 2px 2px 10px rgba(0,0,0,.20), 5px 5px 10px rgba(0,0,0,.3) inset;
 }
 
-.numbers-wrapper {
-    text-align: center;
-    background: url('../../img/bkg/thin-diagonal-stripe-pattern.png') repeat #900;
-}
-
-.numbers-wrapper p {
-    display: block;
-    font-family:'Trade Gothic W01 Light';
-    font-size: 2.4em;
-    color: #fff;
-}
-
-.numbers-wrapper p em {
-    font-family: 'Trade Gothic W01 Bold 2';
-    text-transform: uppercase;
-    font-style: normal;
-    display: block;
-    white-space: nowrap;
-}
-
-.numbers-wrapper p .stat {
-    display: block;
-}
-
-.numbers-wrapper p .source {
-    font-size: .45em;
-    padding: 20px 0 0;
-}
-
-.numbers-wrapper .last {
-    padding: 0 0 20px;
-}
-
-.numbers-wrapper .last img {
-    display: none;
-}
-
 section.student-quotes {
     
 }
@@ -876,34 +839,6 @@ footer.site-footer {
         margin: 15px 10% 20px;
     }
 
-    .numbers-wrapper .item {
-        display: block;
-    }
-
-    .numbers-wrapper .item .text-wrapper {
-        width: 50%;
-        float: left;
-    }
-
-    .numbers-wrapper .item .image-wrapper {
-        width: 50%;
-        float: left;
-    }
-
-    .numbers-wrapper .item.rtl .text-wrapper,
-    .numbers-wrapper .item.rtl .image-wrapper {
-        float: right;
-    }
-
-    .numbers-wrapper .item img {
-        display: block;
-        margin: 50px auto 0;
-    }
-
-    .numbers-wrapper p {
-        font-size: 2.4em;
-    }
-
     .student-quotes .text-wrapper {
         font-size: 1.9em;
         padding: 0;
@@ -996,22 +931,6 @@ footer.site-footer {
         float: left;
         width: 48%;
         margin: 1%;
-    }
-
-    .numbers-wrapper .item {
-        display: block;
-        float: left;
-        width: 50%;
-    }
-
-    .numbers-wrapper .item.rtl .text-wrapper,
-    .numbers-wrapper .item.rtl .image-wrapper {
-        float: left;
-    }
-
-    .numbers-wrapper .item.rtl2 .text-wrapper,
-    .numbers-wrapper .item.rtl2 .image-wrapper {
-        float: right;
     }
 
     footer.site-footer {
@@ -1152,49 +1071,6 @@ footer.site-footer {
     .cta-items a:last-child {
         padding-top: 16px;
         padding-bottom: 16px;
-    }
-
-    section.numbers-wrapper {
-        padding: 70px 0 30px 0;
-    }
-
-    .numbers-wrapper .item {
-        display: block;
-        float: left;
-        width: 25%;
-    }
-
-    .numbers-wrapper .item .text-wrapper,
-    .numbers-wrapper .item .image-wrapper {
-        width: 100%;
-        float: none;
-    }
-
-    .numbers-wrapper .item p {
-        margin-bottom: 25px;
-    }
-
-    .numbers-wrapper .item p:after {
-        display: block;
-        width: 85px;
-        content: " ";
-        border-bottom: 1px solid #fff;
-        margin: 20px auto 0;
-    }
-
-    .numbers-wrapper .item p,
-    .numbers-wrapper .item img {
-        display: block;
-        float: none;
-    }
-
-    .numbers-wrapper .item img {
-        margin: 0 auto;
-    }
-
-    .numbers-wrapper .item.rtl2 .text-wrapper,
-    .numbers-wrapper .item.rtl2 .image-wrapper {
-        float: left;
     }
 
     section.student-quotes {

@@ -75,11 +75,18 @@
             <a class="border-box floating-button">Financial Aid</a>
         </div>
     </section>
-    <section class="virtual-tour">
-        <div class="no-pad-wrapper border-box">
-            <a href="" alt="View Stony Brook's virtual tour.">virtual tour</a>
+    <section class="virtual-tour arrow-below arrow-below-white">
+        <div class="white-fade-bottom">
+            <div class="no-pad-wrapper border-box">
+                <a href="" alt="View Stony Brook's virtual tour.">virtual tour</a>
+            </div>
         </div>
-    </section> 
+    </section>
+
+    <?php 
+        $file = "widgets/stony-brook-stats-on-red-bkg.php";
+        include($path . $file);
+    ?>
     
     <?php 
         $file = "widgets/view-social-wall.php";
