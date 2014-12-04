@@ -4,12 +4,11 @@
     $inc_loc     = 'inc';   //include folder
     $cwd = getcwd();
     echo $cwd . '<br />';
-    $is_localhost = strpos($cwd,'localhost');
     if($_SERVER['SERVER_NAME'] == 'localhost') {
         $site          = 'sb'; //site folder inside the root dir
         $css_base_url  = 'http://localhost:8888/sb/';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
-        $working_path_asset_dir = substr_replace($cwd, 'localhost/'.$site, $is_localhost);
+        $working_path_asset_dir = substr_replace($cwd, 'localhost/'.$site, strpos($cwd,'localhost'));
         $is_local_environment = true;
         $is_proofing_environment = false;
         $is_production_environment = false;
@@ -33,6 +32,8 @@
             $is_proofing_environment = false;
             $is_local_environment = false;
         }
+
+        $working_path_asset_dir = substr_replace($cwd, 'web/'.$site, strpos($cwd,'htdocs/web'));
     }
 
     echo $working_path_asset_dir . '<br />';
