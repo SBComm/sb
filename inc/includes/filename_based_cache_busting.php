@@ -29,7 +29,6 @@
         $extras = '';
         if($GLOBALS['filename_based_cache_busting']) {
             $asset_path = $GLOBALS['working_path_asset_dir'] . '/' . $filename;
-            echo $asset_path;
             if(file_exists($asset_path)) {
                 clearstatcache();
                 $lastModDate = filemtime($asset_path);
