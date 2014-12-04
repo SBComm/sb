@@ -2,18 +2,18 @@
     /* Include Variables */
     $root        = $_SERVER['DOCUMENT_ROOT'];
     $inc_loc     = 'inc';   //include folder
-    $dir = dirname(__FILE__);
-    echo $dir . '<br />';
+    $dir         = dirname(__FILE__);
+
     if($_SERVER['SERVER_NAME'] == 'localhost') {
         $site          = 'sb'; //site folder inside the root dir
         $css_base_url  = 'http://localhost:8888/sb/';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
-        $working_path_asset_dir = substr_replace($dir, 'localhost/'.$site, strpos($dir,'localhost'));
+
         $is_local_environment = true;
         $is_proofing_environment = false;
         $is_production_environment = false;
 
-        $localhost_pos = strpos($dir,'localhost');
+        $working_path_relative_start_location = "localhost/";
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb';
@@ -33,10 +33,10 @@
             $is_local_environment = false;
         }
 
-        $working_path_asset_dir = substr_replace($dir, 'web/'.$site, strpos($dir,'web/'));
+        $working_path_relative_start_location = "web/";
     }
 
-    echo $working_path_asset_dir . '<br />';
+    $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
 
     $content     = "content/";
         $social  = "social/";
