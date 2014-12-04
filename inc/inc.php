@@ -33,7 +33,7 @@
             $is_local_environment = false;
         }
 
-        $working_path_asset_dir = substr_replace($dir, 'web/'.$site, strpos($dir,'htdocs/web'));
+        $working_path_asset_dir = substr_replace($dir, 'web/'.$site, strpos($dir,'web/'));
     }
 
     echo $working_path_asset_dir . '<br />';
