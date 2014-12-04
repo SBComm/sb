@@ -24,15 +24,7 @@
     * @todo  more use cases for $attr1; not used for cases of conditional IE CSS as it needs extra consideration, e.g. <!--[if lt IE 9]><link rel="stylesheet" href="css/default.css" media="all" /><![endif]-->; 
     */
 
-    $cwd = getcwd();
-    $is_localhost = strpos($cwd,'localhost');
-
-    // Check if the current environment is local or remote based on presence of 'localhost/' in $cwd
-    if($is_localhost) {
-        $includes_base_url = substr_replace($cwd, 'localhost/'.$site, $is_localhost);
-    } else {
-        $includes_base_url = $site_domain;
-    }
+    $includes_base_url = $css_base_url;
 
     // Build the new filename and echo the include statement
     function includeAsset($type,$filename,$attr1) {
