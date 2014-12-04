@@ -24,6 +24,9 @@
     <section class="clearfix inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
             <h3>How to Apply as an International Applicant</h3>
+            <div class="content application-details alert-message red clearfix">
+                <p><strong>Please note:</strong> Stony Brook is no longer accepting applications for the spring 2015 semester.</p>
+            </div>
             <div class="content application-details clearfix">
                 <p>Follow these steps to apply as an International Applicant:</p>
             </div>

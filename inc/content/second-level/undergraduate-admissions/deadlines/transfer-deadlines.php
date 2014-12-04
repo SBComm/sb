@@ -12,6 +12,12 @@
         <td>Beginning Late-March</td>
     </tr>
     <tr>
+        <td><strong>Fall 2015 EOP</strong></td>
+        <td>February 1</td>
+        <td>February 1</td>
+        <td>Beginning Late-March</td>
+    </tr>
+    <tr>
         <td><strong>Spring 2015</strong></td>
         <td>November 1</td>
         <td>November 1</td>

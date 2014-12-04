@@ -24,14 +24,22 @@
     * @todo  more use cases for $attr1; not used for cases of conditional IE CSS as it needs extra consideration, e.g. <!--[if lt IE 9]><link rel="stylesheet" href="css/default.css" media="all" /><![endif]-->; 
     */
 
-    $includes_base_url = $css_base_url;
+    $cwd = getcwd();
+    $is_localhost = strpos($cwd,'localhost');
 
+    // Check if the current environment is local or remote based on presence of 'localhost/' in $cwd
+    if($is_localhost) {
+        $working_path_asset_dir = substr_replace($cwd, 'localhost/'.$site, $is_localhost);
+    } else {
+        $working_path_asset_dir = $site_domain;
+    }
+//echo $working_path_asset_dir;
     // Build the new filename and echo the include statement
     function includeAsset($type,$filename,$attr1) {
         $extras = '';
         if($GLOBALS['filename_based_cache_busting']) {
-            $asset_path = $GLOBALS['includes_base_url'] . '/' . $filename;
-            
+            $asset_path = $GLOBALS['working_path_asset_dir'] . '/' . $filename;
+            echo $asset_path;
             if(file_exists($asset_path)) {
                 clearstatcache();
                 $lastModDate = filemtime($asset_path);

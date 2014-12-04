@@ -52,6 +52,14 @@
                     <li><a class="external-link" href="http://bit.ly/qpop3k" target="_blank">College of Business (10/20/2011)</a></li>
                 </ul>
             </div>
+            <div class="content padding-top clearfix">
+                <h4>Watch a Recent Chat</h4>
+                <p>
+                    <div class="videoWrapper">
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/BxgTxR3DPHU?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </p>
+            </div>
         </div>
     </section>
 

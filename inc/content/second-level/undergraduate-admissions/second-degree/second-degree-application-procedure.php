@@ -24,6 +24,9 @@
     <section class="clearfix inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
             <h3>How to Apply to Stony Brook as a second-degree</h3>
+            <div class="content application-details alert-message red clearfix">
+                <p><strong>Please note:</strong> Stony Brook is no longer accepting applications for the spring 2015 semester.</p>
+            </div>
             <div class="content application-details clearfix">
                 <div class="inner-wrapper">
                 <p>To apply to Stony Brook University as a second-degree student, please follow these application procedures. Before submitting an application, be sure to review our list of <a href="undergraduate-admissions/academics/">academic offerings</a>. Students applying for admission to <a href="http://stonybrookmedicine.edu/education/healthsciences">Health Sciences programs</a> must follow <a href="http://www.stonybrook.edu/hscstudents/apply_now.shtml">special application procedures</a>.</p>

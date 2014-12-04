@@ -56,7 +56,7 @@
                     <div class="person-info">
                         <span class="name">Kelly Bollhofer</span>
                         <span class="title">Assistant Director of Admissions, EOP Admissions</span>
-                        <span class="location">Long Island, NY</span>
+                        <span class="location">New York</span>
                     </div>
                     </a>
                 </li>
