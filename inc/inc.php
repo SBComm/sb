@@ -3,7 +3,7 @@
     $root        = $_SERVER['DOCUMENT_ROOT'];
     $inc_loc     = 'inc';   //include folder
     $cwd = getcwd();
-    echo $cwd . '<br />';
+    echo $dir = dirname(__FILE__) . '<br />';
     if($_SERVER['SERVER_NAME'] == 'localhost') {
         $site          = 'sb'; //site folder inside the root dir
         $css_base_url  = 'http://localhost:8888/sb/';
