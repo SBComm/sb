@@ -2,19 +2,25 @@
     /* Include Variables */
     $root        = $_SERVER['DOCUMENT_ROOT'];
     $inc_loc     = 'inc';   //include folder
-
+    $cwd = getcwd();
+    echo $cwd . '<br />';
+    $is_localhost = strpos($cwd,'localhost');
     if($_SERVER['SERVER_NAME'] == 'localhost') {
         $site          = 'sb'; //site folder inside the root dir
         $css_base_url  = 'http://localhost:8888/sb/';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+        $working_path_asset_dir = substr_replace($cwd, 'localhost/'.$site, $is_localhost);
         $is_local_environment = true;
         $is_proofing_environment = false;
         $is_production_environment = false;
+
+        $localhost_pos = strpos($cwd,'localhost');
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb';
             $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+            $working_path_asset_dir = '';
             $is_proofing_environment = true;
             $is_production_environment = false;
             $is_local_environment = false; 
@@ -22,11 +28,14 @@
             $site          = 'sb';
             $css_base_url  = 'http://mobile.cc.stonybrook.edu/sb/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+            $working_path_asset_dir = '';
             $is_production_environment = true;
             $is_proofing_environment = false;
             $is_local_environment = false;
         }
     }
+
+    echo $working_path_asset_dir . '<br />';
 
     $content     = "content/";
         $social  = "social/";
