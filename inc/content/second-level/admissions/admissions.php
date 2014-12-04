@@ -66,7 +66,7 @@
                         <a href="http://www.stonybrook.edu/nse/" alt="National Student Exchange" target="_blank"><i class="fa fa-map-marker"></i>National Student Exchange</a>
                         <a href="http://www.stonybrook.edu/southampton/sea/marine_home.html" alt="Semester by the Sea"><i class="fa fa-info-circle"></i>Semester by the Sea</a>
                         <a href="http://www.stonybrook.edu/commcms/provost/onlineed/" alt="Online Education"><i class="fa fa-laptop"></i>Online Education</a>
-                        <a href="http://www.stonybrook.edu/commcms/provost/onlineed/" alt="SUNY Korea" target="_blank"><i class="fa fa-university"></i>SUNY Korea</a>
+                        <a href="http://www.sunykorea.ac.kr/admissions" alt="SUNY Korea" target="_blank"><i class="fa fa-university"></i>SUNY Korea</a>
                     </div>
                     <div class="image desktop">
                         <img src="img/students/summer-winter-small.jpg" alt="Student walking from behind" />
