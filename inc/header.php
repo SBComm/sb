@@ -99,7 +99,7 @@
             <?php includeAsset('css','css/second-level.css'); ?>
             <?php includeAsset('css','css/second-level/'.$second_level.'.css'); ?>
             <?php if($inside_page==true) { ?>
-                <?php includeAsset('css','css/second-level/'.$second_level.'.css'); ?>
+                <?php includeAsset('css','css/second-level/'.$second_level.'-inside.css'); ?>
             <?php } ?>
         <?php } ?>
 
