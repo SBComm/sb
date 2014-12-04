@@ -2,7 +2,7 @@
     /* Include Variables */
     $root        = $_SERVER['DOCUMENT_ROOT'];
     $inc_loc     = 'inc';   //include folder
-    $dir = dirname(__FILE__)
+    $dir = dirname(__FILE__);
     echo $dir . '<br />';
     if($_SERVER['SERVER_NAME'] == 'localhost') {
         $site          = 'sb'; //site folder inside the root dir
