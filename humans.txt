@@ -1,7 +1,7 @@
 # TEAM
 
     Web designer, developer, photographer, freelancer, professional,
-    singer, songwriter, musician, leader, Jesus-follower, husbandÉ
+    singer, songwriter, musician, leader, Jesus-follower, husband
     OK, you get the picture.
     -> Josh Palmeri
 
@@ -16,22 +16,18 @@
 
     To my family, for helping me to become who I am today. Thanks, Mom and Dad, Matt, Aunt Di, Nana, Papa, and Buddy.
 
-    TO my church family and friends. Your encouragement has meant the world to my life and lifted me when I needed it most. Bless you.
+    To my church family and friends. Your encouragement has meant the world to my life and lifted me when I needed it most. May God bless you.
 
 # TECHNOLOGY COLOPHON
 
     HTML5 Boilerplate
+    PHP5
     HTML5, CSS3
     javascript, jQuery, Modernizr
 
 # SITE
 
-    Last update: 2013/11/17
     Language: English
     Doctype: HTML5
-    IDE: Aptana Studio, FileZilla, Photoshop, XnRetro
+    IDE: Sublime Text, Git, Photoshop, XnRetro
     Media Queries by: Josh Palmeri
-
-# EXTRA STUFF
-
-    If you're actually reading this and you made it this far, congratulations! You get a genuine high-5 from me! Woohoo!! And, if you're looking for a website, or know someone who is, email me and let me know! Let's make the most of every opportunity. #enjoylife #livelaughlove #doit
