@@ -33,63 +33,63 @@
     <!--END Cross-device Favicon code-->
 
     <!--BEGIN CSS Includes-->
-        <link rel="stylesheet" href="css/vendor/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" type="text/css" href="css/elements/cd-dropdown/cd-dropdown.css" />
-        <link rel="stylesheet" href="css/elements/tables/responsive-table.css">
+        <?php includeAsset('css','css/vendor/normalize.min.css'); ?>
+        <?php includeAsset('css','css/main.css'); ?>
+        <?php includeAsset('css','css/nav.css'); ?>
+        <?php includeAsset('css','css/elements/cd-dropdown/cd-dropdown.css'); ?>
+        <?php includeAsset('css','css/elements/tables/responsive-table.css'); ?>
         <!--<link rel="stylesheet" href="fonts/icomoon/style.css">-->
         <!--<link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">-->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+        <?php includeAsset('css','css/print.css','print'); ?>
     <!--END CSS Style Includes-->
 
         <?php if($carousel) { ?>
-            <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.carousel.css" media="all" />
-            <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.theme.css" media="all" />
-            <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.custom.css" media="all" />
-            <link rel="stylesheet" type="text/css" href="css/elements/owl-carousel/owl.transitions.css" media="all" />
+            <?php includeAsset('css','css/elements/owl-carousel/owl.carousel.css','all'); ?>
+            <?php includeAsset('css','css/elements/owl-carousel/owl.theme.css','all'); ?>
+            <?php includeAsset('css','css/elements/owl-carousel/owl.custom.css','all'); ?>
+            <?php includeAsset('css','css/elements/owl-carousel/owl.transitions.css','all'); ?>
         <?php } ?>
 
         <?php if($lightbox) { ?>
-            <link rel="stylesheet" type="text/css" href="plugins/nivo-lightbox/nivo-lightbox.css" media="all" />
-            <link rel="stylesheet" type="text/css" href="plugins/nivo-lightbox/themes/default/custom.css" media="all" />
+            <?php includeAsset('css','plugins/nivo-lightbox/nivo-lightbox.css','all'); ?>
+            <?php includeAsset('css','plugins/nivo-lightbox/themes/default/custom.css','all'); ?>
         <?php } ?>
 
         <?php if($page_type=='social-hub') { ?>
-        	<link rel="stylesheet" type="text/css" href="css/social/sb-layout.css" media="all" />
-			<link rel="stylesheet" type="text/css" href="css/social/sb-dcsns_wall.css" media="all" />
-            <?php if($page_loader) { ?>
-                <link rel="stylesheet" type="text/css" href="css/social/sbu-preloader.css" media="all" />
-            <?php } ?>
+            <?php includeAsset('css','css/social/sb-layout.css','all'); ?>
+            <?php includeAsset('css','css/social/sb-dcsns_wall.css','all'); ?>
+            <?php if($page_loader) {
+                includeAsset('css','css/social/sbu-preloader.css','all');
+            } ?>
 			<!--[if lt IE 9]>
 	            <link rel="stylesheet" type="text/css" href="css/social/ie/sb-dcsns_wall-ie8.css" media="all" />
 	        <![endif]-->
         <?php } ?>
 
         <?php if($tabbed_nav) { ?>
-            <link rel="stylesheet" type="text/css" href="css/elements/tabs/tabbed-nav.css" media="all" />
+            <?php includeAsset('css','css/elements/tabs/tabbed-nav.css','all'); ?>
             <!--[if lt IE 9]>
                 <link rel="stylesheet" type="text/css" href="css/elements/tabs/tabbed-nav-ie8.css" media="all" />
             <![endif]-->
-            <?php if($mobile_tabs) { ?>
-                <link rel="stylesheet" type="text/css" href="css/elements/tabs/mobile-tabs.css" media="all" />
-            <?php } ?>
+            <?php if($mobile_tabs) {
+                includeAsset('css','css/elements/tabs/mobile-tabs.css','all');
+            } ?>
         <?php } ?>
 
         <?php if($accordion_nav) { ?>
-            <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav.css" media="all" />
+            <?php includeAsset('css','css/elements/accordions/accordion-nav.css','all'); ?>
             <!--[if lt IE 9]>
                 <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav-ie8.css" media="all" />
             <![endif]-->
         <?php } ?>
 
-        <?php if($page_to_top_link) { ?>
-        	<link rel="stylesheet" type="text/css" href="css/elements/to-top-link/to-top.css" media="all" />
-        <?php } ?>
+        <?php if($page_to_top_link) {
+            includeAsset('css','css/elements/to-top-link/to-top.css','all');
+        } ?>
 
         <?php if($text_filter) { ?>
-            <link rel="stylesheet" type="text/css" href="css/elements/filter/text-filter.css" media="all" />
+            <?php includeAsset('css','css/elements/filter/text-filter.css','all'); ?>
             <!--[if lt IE 9]>
                 <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav-ie8.css" media="all" />
             <![endif]-->
@@ -104,15 +104,15 @@
         <?php } ?>
 
         <?php if($page_type=='bulletin') { ?>
-            <link rel="stylesheet" type="text/css" href="css/page-types/bulletin.css" media="all" />
+            <?php includeAsset('css','css/page-types/bulletin.css','all'); ?>
         <?php } ?>
 
         <?php if($page_type=='search') { ?>
-            <link rel="stylesheet" type="text/css" href="css/search.css" media="all" />
+            <?php includeAsset('css','css/search.css','all'); ?>
         <?php } ?>
 
         <?php if($map==true) { ?>
-            <link href="plugins/map/css/map.css" rel="stylesheet" type="text/css" />
+            <?php includeAsset('css','plugins/map/css/map.css'); ?>
         <?php } ?>
 
 <!--

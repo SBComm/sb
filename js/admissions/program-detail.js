@@ -29,7 +29,6 @@ function inactivate(){
 
 
 $(document).ready(function() {
-    console.log(code);
     if(code!=''&&code!='null'){
         
         $.getJSON('http://admissions.cc.stonybrook.edu/mobile/program-ugadmissions-sbc.php?p='+code+'&callback=?', function(data) {

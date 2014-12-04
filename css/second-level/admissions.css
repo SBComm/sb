@@ -209,7 +209,7 @@ section.virtual-tour {
 
 @media only screen and (min-width: 560px) {
     section.admissions-promo-wrapper {
-        padding: 40px 0 40px;
+        padding: 40px 0 70px;
     }
     .admissions-promo-wrapper h2 {
         line-height: 3.2em;
@@ -331,9 +331,6 @@ section.virtual-tour {
         background: #900;
         background: url('../../img/bkg/thin-diagonal-stripe-pattern.png') repeat #900;
         color: #fff;
-        -webkit-transition: all 0.05s;
-        -moz-transition: all 0.05s;
-        transition: all 0.05s;
         opacity: .9;
     }
     .compare-table-col .image {

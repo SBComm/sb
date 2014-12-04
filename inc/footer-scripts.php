@@ -1,7 +1,7 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-		<script type="text/javascript" src="js/cd-dropdown/jquery.dropdown.js"></script>
+		<?php includeAsset('js','js/cd-dropdown/jquery.dropdown.js'); ?>
 		<script type="text/javascript">
 			$( function() {
 				$( '#cd-dropdown' ).dropdown( {
@@ -10,7 +10,7 @@
 			});
 		</script>
 
-        <script type="text/javascript" src="js/vendor/jquery.sticky.js"></script>
+        <?php includeAsset('js','js/vendor/jquery.sticky.js'); ?>
 		<script>
 			$(window).load(function(){
 				/*console.log("ww: "+$(window).width());*/
@@ -43,15 +43,17 @@
 			});
 		</script>
 
-		<script src="js/vendor/jquery.easing.1.3.js"></script>
-		<script src="js/vendor/jquery.easing.compatibility.js"></script>
-		<script src="js/vendor/jquery.scrollTo.min.js"></script>
-		<script src="js/vendor/jquery.localScroll.min.js"></script>
-		<script src="js/vendor/jquery.ba-bbq.js"></script>
-		<script src="js/vendor/jquery.motio.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/vendor/fastclick.js"></script>
+		<?php
+			includeAsset('js','js/vendor/jquery.easing.1.3.js');
+			includeAsset('js','js/vendor/jquery.easing.compatibility.js');
+			includeAsset('js','js/vendor/jquery.scrollTo.min.js');
+			includeAsset('js','js/vendor/jquery.localScroll.min.js');
+			includeAsset('js','js/vendor/jquery.ba-bbq.js');
+			includeAsset('js','js/vendor/jquery.motio.js');
+			includeAsset('js','js/plugins.js');
+			includeAsset('js','js/main.js');
+			includeAsset('js','js/vendor/fastclick.js');
+		?>
 
         <script>
 	        var pageFadeOverwrite = $.urlParam('pf');
@@ -62,7 +64,7 @@
 		</script>
 
         <?php if($lightbox) { ?>
-        	<script src="plugins/nivo-lightbox/nivo-lightbox.min.js"></script>
+        	<?php includeAsset('js','plugins/nivo-lightbox/nivo-lightbox.min.js'); ?>
         	<script>
 				$(document).ready(function(){
 				    $('.nivo-lightbox').nivoLightbox();
@@ -71,7 +73,7 @@
         <?php } ?>
 
         <?php if($carousel) { ?>
-	        <script src="js/elements/owl-carousel/owl.carousel.js"></script>
+        	<?php includeAsset('js','js/elements/owl-carousel/owl.carousel.js'); ?>
 	        <script>
 	            $(document).ready(function() {
 
@@ -91,7 +93,7 @@
 	                    owl.trigger('owl.next');
 	                });
 
-	            	<?php if($carousel_2) { ?>
+	 			 	<?php if($carousel_2) { ?>
 	            		var owl2 = $("#the-carousel-2");
 		                owl2.owlCarousel({
 		                	itemsCustom: [[0,1],[800,2]],
@@ -154,8 +156,8 @@
 				});
 		    //]]>
 		</script>
-		<script src="js/vendor/placeholders.jquery.min.js"></script>
-        <script src="js/vendor/jquery.fittext.js"></script>
+		<?php includeAsset('js','js/vendor/placeholders.jquery.min.js'); ?>
+		<?php includeAsset('js','js/vendor/jquery.fittext.js'); ?>
 		<script type="text/javascript">
 			$(document).ready(function() {
 			    //<![CDATA[
@@ -179,17 +181,17 @@
 				});
 			});
 		</script>
-		<script src="js/vendor/selectivizr-min.js"></script>
-        <script src="js/vendor/iframeResizer.min.js"></script>
+		<?php includeAsset('js','js/vendor/selectivizr-min.js'); ?>
+		<?php includeAsset('js','js/vendor/iframeResizer.min.js'); ?>
 
 		<!-- BEGIN Page Specific Includes -->
 		<?php if($page_type=='social-hub') { ?>
 
-        	<script type="text/javascript" src="js/social/jquery.plugins.js"></script>
-			<script type="text/javascript" src="js/social/jquery.site.js"></script>
-			<script type="text/javascript" src="js/social/jquery.social.stream.wall.1.3.js"></script>
-			<script type="text/javascript" src="js/social/jquery.social.stream.1.5.4.js"></script>
-			<script type="text/javascript" src="js/social/preload-messages.js"></script>
+			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
+			<?php includeAsset('js','js/social/jquery.site.js'); ?>
+			<?php includeAsset('js','js/social/jquery.social.stream.wall.1.3.js'); ?>
+			<?php includeAsset('js','js/social/jquery.social.stream.1.5.4.js'); ?>
+			<?php includeAsset('js','js/social/preload-messages.js'); ?>
 
 			<script type="text/javascript">
 				jQuery(document).ready(function($){
@@ -241,12 +243,12 @@
 				});
 			</script>
 
-        	<script type="text/javascript" src="js/social/custom.js"></script>
+			<?php includeAsset('js','js/social/custom.js'); ?>
 
         <?php } ?>
 
 		<?php if($page_type=='bulletin') { ?>
-			<script src="js/vendor/jquery.fastLiveFilter.js"></script>
+			<?php includeAsset('js','js/vendor/jquery.fastLiveFilter.js'); ?>
 			<script>
 			    $(function() {
 			        $('#all-courses-search').fastLiveFilter('#all-courses-list');
@@ -254,9 +256,9 @@
 			</script>
         <?php } ?>
 
-        <?php if($page_type=='search') { ?>
-	        <script type="text/javascript" src="js/search/search.js"></script>
-        <?php } ?>
+        <?php if($page_type=='search') {
+        	includeAsset('js','js/search/search.js');
+        } ?>
 
         <?php if($page_type=='second-level' && $second_level=='economic-development') { ?>
 			<script type="text/javascript">
@@ -272,7 +274,7 @@
         <?php } ?>
 
         <?php if($page_type=='second-level' && $second_level=='undergrad-admissions') { ?>
-			<script src="js/admissions.js"></script>
+			<?php includeAsset('js','js/admissions.js'); ?>
 			<script type="text/javascript">
 				$(window).load(function() {
 					equalheight('.numbers-wrapper .owl-item');
@@ -299,34 +301,34 @@
 			</script>
 		<?php } ?>
 
-        <?php if($admissions_program_detail==true) { ?>
-			<script src="js/admissions/program-detail.js"></script>
-		<?php } ?>
+        <?php if($admissions_program_detail==true) {
+        	includeAsset('js','js/admissions/program-detail.js');
+		} ?>
         <!-- END Page Specific Includes -->
 
         <!-- BEGIN Element Specific Includes -->
         <?php if($map==true) { ?>
-			<script src="plugins/map/js/raphael.js"></script>
-			<script src="plugins/map/js/scale.raphael.js"></script>
-			<script src="plugins/map/js/paths.js"></script>
-			<script src="plugins/map/js/init.js"></script>
+			<?php includeAsset('js','plugins/map/js/raphael.js'); ?>
+			<?php includeAsset('js','plugins/map/js/scale.raphael.js'); ?>
+			<?php includeAsset('js','plugins/map/js/paths.js'); ?>
+			<?php includeAsset('js','plugins/map/js/init.js'); ?>
         <?php } ?>
 
         <?php if($live_filter==true) { ?>
-			<script src="js/vendor/jquery.fastLiveFilter.js"></script>
+			<?php includeAsset('js','js/vendor/jquery.fastLiveFilter.js'); ?>
 			<script>
 				$('#live-filter-search').fastLiveFilter('#live-filter-list ul');
 			</script>
         <?php } ?>
 
         <!-- BEGIN Element Specific Includes -->
-        <?php if($accordion_nav==true) { ?>
-        	<script type="text/javascript" src="js/elements/accordion-nav/accordion-nav.js"></script>
-        <?php } ?>
+        <?php if($accordion_nav==true) {
+        	includeAsset('js','js/elements/accordion-nav/accordion-nav.js');
+        } ?>
 
-        <?php if($text_filter==true) { ?>
-        	<script type="text/javascript" src="js/elements/filter/text-filter.js"></script>
-        <?php } ?>
+        <?php if($text_filter==true) {
+        	includeAsset('js','js/elements/filter/text-filter.js');
+        } ?>
 
         <?php if($equal_col==true) { ?>
 			<script type="text/javascript">
