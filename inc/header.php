@@ -96,10 +96,10 @@
         <?php } ?>
 
         <?php if($page_type=='second-level') { ?>
-            <link rel="stylesheet" type="text/css" href="css/second-level.css" media="all" />
-            <link rel="stylesheet" type="text/css" href="css/second-level/<?php echo $second_level; ?>.css" media="all" />
+            <?php includeAsset('css','css/second-level.css'); ?>
+            <?php includeAsset('css','css/second-level/'.$second_level.'.css'); ?>
             <?php if($inside_page==true) { ?>
-                <link rel="stylesheet" type="text/css" href="css/second-level/<?php echo $second_level; ?>-inside.css" media="all" />
+                <?php includeAsset('css','css/second-level/'.$second_level.'.css'); ?>
             <?php } ?>
         <?php } ?>
 
@@ -114,45 +114,6 @@
         <?php if($map==true) { ?>
             <?php includeAsset('css','plugins/map/css/map.css'); ?>
         <?php } ?>
-
-<!--
-        <?php
-            //localhost fix for port 8888
-            if($_SERVER['SERVER_NAME'] == 'localhost') {
-                $theServerName = 'localhost:8888';
-            } else {
-                $theServerName = $_SERVER['SERVER_NAME'];
-            }
-
-            $url  = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
-            $url .= $theServerName;
-            $url .= $_SERVER['REQUEST_URI'];
-
-            $theImgDir          = $url . 'images/';
-
-            echo ($theImgDir);
-
-
-
-            // all files in current directory (excluding'.' and '..')
-            $dir = new DirectoryIterator(dirname(__PATH__));
-            foreach ($dir as $fileinfo) {
-                if (!$fileinfo->isDot()) {
-                    //var_dump($fileinfo->getFilename());
-                }
-            }
-        ?>
-        <style type="text/css">
-
-            .carousel-image[data-image='01'] {
-                background-image: url( <?php echo($theImgDir . 'carousel-01.jpg') ?> );
-            }
-
-        </style>
-        <?php
-
-        ?>
--->
 
     <!--BEGIN IE Specific CSS Includes and Polyfills-->
         <!--[if IE 11]>
