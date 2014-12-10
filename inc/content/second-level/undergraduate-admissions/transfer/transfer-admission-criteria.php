@@ -33,13 +33,14 @@
                 <p>Offers of admission are conditional, pending receipt of all official records showing successful completion of academic work in progress.</p>
                 <h4>More Information</h4>
                 <ul>
-                    <li><a class="external-link" href="http://bit.ly/1xXPg8S" target="_blank">Course Equivalencies</a></li>
                     <li><a href="downloads/pdf/admissions/Stony-Brook-Math-Expectations-Transfers.pdf">Math Expectations</a></li>
                 </ul>
             </div>
 
             <div class="content col-2">
                 <a class="check-button apply-button" href="undergraduate-admissions/apply/transfer/application-procedures"><span>Apply Now</span></a>
+                <h4>Course Equivalencies</h4>
+                <p><a class="external-link" href="http://bit.ly/1xXPg8S" target="_blank">View Course Equivalencies</a> for classes that you have already taken.</p>
                 <h4>Restricted Majors</h4>
                 <p>Admission to Stony Brook University does not guarantee acceptance into the following restricted majors, which have additional admission requirements.</p>
                 <div class="drop-accordion drop-accordion-1">
