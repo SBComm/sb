@@ -703,7 +703,8 @@ AddDefaultCharset utf-8
     #
     # https://httpd.apache.org/docs/current/mod/mod_filter.html#addoutputfilterbytype
 
-    <IfModule mod_filter.c>
+    # Removing the check for mod_filter.c since we are on apache 2.2
+    # <IfModule mod_filter.c>
         AddOutputFilterByType DEFLATE "application/atom+xml" \
                                       "application/javascript" \
                                       "application/json" \
@@ -736,8 +737,8 @@ AddDefaultCharset utf-8
                                       "text/x-component" \
                                       "text/x-cross-domain-policy" \
                                       "text/xml"
-
-    </IfModule>
+    # Removing the check for mod_filter.c since we are on apache 2.2
+    # </IfModule>
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
