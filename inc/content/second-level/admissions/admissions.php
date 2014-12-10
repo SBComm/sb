@@ -35,7 +35,7 @@
                         <a href="http://www.stonybrook.edu/sb/departments/" alt="Colleges and Schools" target="_blank"><i class="fa fa-university"></i>Colleges and Schools</a>
                         <a href="http://www.stonybrook.edu/spd/" alt="School of Professional Development" target="_blank"><i class="fa fa-university"></i>School of Professional Development</a>
                         <a href="http://www.stonybrook.edu/sb/masters/" alt="Master's Education"><i class="fa fa-university"></i>Master's Education</a>
-                        <a href="http://www.stonybrook.edu/southampton" alt="Stony Brook Southhampton"><i class="fa fa-university"></i>Stony Brook Southhampton</a>
+                        <a href="http://www.stonybrook.edu/southampton" alt="Stony Brook Southhampton"><i class="fa fa-university"></i>Stony Brook Southampton</a>
                     </div>
                     <div class="image desktop">
                         <img src="img/students/graduate-professional-small.jpg" alt="Student walking from behind" />
@@ -62,10 +62,9 @@
                         <a href="http://www.stonybrook.edu/summer/" alt="Summer Session"><i class="fa fa-sun-o"></i>Summer Session</a>
                         <a href="http://www.stonybrook.edu/winter/" alt="Winter Session"><i class="fa fa-asterisk"></i>Winter Session</a>
                         <a href="http://www.stonybrook.edu/sb/highschool.shtml" alt="High School Programs" target="_blank"><i class="fa fa-graduation-cap"></i>High School Programs</a>
-                        <a href="http://stonybrook.edu/undergraduate-admissions/academics/study-abroad/" alt="Study Abroad &amp; Exchange"><i class="fa fa-globe"></i>Study Abroad &amp; Exchange</a>
+                        <a href="http://www.stonybrook.edu/commcms/studyabroad/" alt="Study Abroad &amp; Exchange"><i class="fa fa-globe"></i>Study Abroad &amp; Exchange</a>
                         <a href="http://www.stonybrook.edu/nse/" alt="National Student Exchange" target="_blank"><i class="fa fa-map-marker"></i>National Student Exchange</a>
                         <a href="http://www.stonybrook.edu/southampton/sea/marine_home.html" alt="Semester by the Sea"><i class="fa fa-info-circle"></i>Semester by the Sea</a>
-                        <a href="http://www.stonybrook.edu/commcms/provost/onlineed/" alt="Online Education"><i class="fa fa-laptop"></i>Online Education</a>
                         <a href="http://www.sunykorea.ac.kr/admissions" alt="SUNY Korea" target="_blank"><i class="fa fa-university"></i>SUNY Korea</a>
                     </div>
                     <div class="image desktop">
