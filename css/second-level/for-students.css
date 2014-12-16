@@ -90,7 +90,7 @@ section.title-link-box-wrapper {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 10px;
-    background: #1b1b1b;
+    background: #1d1d1d;
     color: #eee;
     margin: 0;
 }
@@ -617,7 +617,6 @@ section.we-are-seawolves {
         opacity: .95;
         font-size: 1em;
         padding: 8px 10px;
-        background: 
     }
     .opportunities-wrapper h2 {
         text-transform: uppercase;

@@ -77,7 +77,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <a href="http://www.stonybrook.edu/sb/academichelp.shtml" target="_blank">Academic Advising</a>
+                                <a href="http://www.stonybrook.edu/advising/" target="_blank">Academic Advising</a>
                                 <a href="http://stonybrook.edu/advisingmedia" target="_blank">Advising Tutorials</a>
                                 <a href="http://www.stonybrook.edu/commcms/academic_success/" target="_blank">Academic Success &amp; Tutoring Center</a>
                                 <a href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">Center for Prevention &amp; Outreach</a>
@@ -85,6 +85,7 @@
                                 <a href="http://it.stonybrook.edu/services/client-support-service-center" target="_blank">Computer Support</a>
                                 <a href="http://stonybrook.edu/ombuds" target="_blank">Ombuds Office</a>
                                 <a href="http://studentaffairs.stonybrook.edu/stu/index.shtml" target="_blank">Student Affairs</a>
+                                <a href="http://studentaffairs.stonybrook.edu/shs/" target="_blank">Student Health Services</a>
                             </div>
                         </div>
                     </div>
@@ -143,10 +144,10 @@
             <div class="for-students-promo clearfix">
                 <div class="video-promo-wrapper">
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/9Ufs0RMvwRg?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/_7mLV-ici9c?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="video-caption content">
-                        <strong>Featured Video:</strong> Highlights of Stony Brook Women's Basketball vs. Saint Peter's (Nov. 15th, 2014)
+                        <strong>Featured Video:</strong> Happy Holidays from Stony Brook University!
 
                     </div>
                 </div>
