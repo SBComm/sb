@@ -19,11 +19,11 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="http://www.stonybrook.edu/commencement" target="_blank" title="Winter Commencement: December 18th at 11am">
+                        <a href="http://www.stonybrook.edu/orientation" target="_blank" title="Winter Commencement: December 18th at 11am">
                             <div class="carousel-image clearfix" data-image="02">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">Winter Commencement: December 18th at 11am</div>
+                                <div class="carousel-title steel-blue">Experience Stony Brook for New Students | January 24 to 25</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
