@@ -155,7 +155,7 @@
                     <h2 class="small-title-3">Get Involved at SBU!</h2>
                     <a href="http://www.sunysb.edu/ureca/" target="_blank">Undergraduate Research</a>
                     <a href="http://career.stonybrook.edu/students/connect/internship-coop-services" target="_blank">Internships</a>
-                    <a href="http://www.stonybrook.edu/jobs/" target="_blank">Campus Job Opportunities</a>
+                    <a href="http://career.stonybrook.edu/on-campus-employment/for-students" target="_blank">Campus Job Opportunities</a>
                     <a href="http://www.stonybrook.edu/sb/communityservice/" target="_blank">Community Service</a>
                     <a href="http://www.stonybrook.edu/career" target="_blank">Career Center</a>
                     <a href="http://www.stonybrook.edu/studyabroad" target="_blank">Study Abroad &amp; Exchange</a>

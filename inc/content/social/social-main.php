@@ -199,6 +199,15 @@
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
+                            <div class="social-other-label-container sbu-text-shadow">Center for Inclusive Education</div>
+                            <div class="social-channels-container">
+                                <a href="https://www.facebook.com/StonyBrookCIE" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/CIEStonyBrook" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="http://instagram.com/CIEStonyBrook/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/groups?gid=2134114&trk=hb_side_g" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </li>
+                        <li class="social-other-item sbu-border-bottom">
                             <div class="social-other-label-container sbu-text-shadow">Stony Brook Children's</div>
                             <div class="social-channels-container">
                                 <a href="http://www.facebook.com/stonybrookchildrens" target="_blank"><i class="fa fa-facebook-square"></i></a>
