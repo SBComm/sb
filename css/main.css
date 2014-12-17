@@ -785,7 +785,7 @@ body {
     .check-button {
         background: url('../img/icons/check.png') 20px 13px no-repeat;
         display: block;
-        font-family: 'TradeGothicW01-BoldCn20 675334';
+        font-family: 'TradeGothicW01-BoldCn20 675334','Arial';
         font-size: 28px;
         border: 1px solid #900;
         border-radius: 15px;
@@ -2073,10 +2073,12 @@ body {
         line-height: 1.6em;
         font-family: 'Trade Gothic Next W01', Arial, sans-serif;
         color: #333;
-        margin: 15px 0 0;
+        margin: 5px 0 0;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+        float: left;
+        width: 100%;
     }
 
     .inside-content .content strong {
@@ -2295,7 +2297,7 @@ body {
         }
 
         .inside-content h3 {
-            margin: 18px 0 30px;
+            margin: 18px 0 15px;
             font-size: 2.8em;
         }
 
@@ -2377,6 +2379,7 @@ body {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+        float: none;
     }
 
     .drop-accordion-1 .content-wrap {

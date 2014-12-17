@@ -146,6 +146,10 @@
 		<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/4d69d29a-9fcc-4dfe-bd87-a65adb689f6c.css"/>
     <!--END Fonts.com Include-->
 
+    <!--BEGIN Google fonts fallback-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <!--END Google fonts fallback-->
+
     <!--BEGIN Modernizr Include-->
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <!--END Modernizr Include-->

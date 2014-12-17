@@ -1339,7 +1339,7 @@
 		display: block;
 		text-shadow: none;
 		font-size: 11px;
-		font-family:'Trade Gothic Next W01';
+		font-family:'Trade Gothic Next W01','Oswald';
 		font-weight: 400;
 		text-transform: uppercase;
 		padding: 11px 0 13px 10px;
@@ -1349,7 +1349,7 @@
 	.quick-nav .audience-trigger {
 		color: #900;
 		padding: 11px 0 12px 10px;
-		font-family: 'Trade Gothic W01 Bold 2';
+		font-family: 'Trade Gothic W01 Bold 2','Oswald';
 	}
 
 	.quick-nav ul .audience-trigger .label {
@@ -1690,7 +1690,7 @@
 	.sub-nav.big-n-bold a {
 		font-size: 1.6em;
 		font-family:'TradeGothicNextW02-Bold 694368';
-		font-family: 'TradeGothicW01-BoldCn20 675334';
+		font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';
 		text-transform: uppercase;
 		font-weight: normal;
 		height: 65px;
