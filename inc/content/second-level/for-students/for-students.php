@@ -77,7 +77,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <a href="http://www.stonybrook.edu/advising/" target="_blank">Academic Advising</a>
+                                <a href="for-students/academic-advising/">Academic Advising</a>
                                 <a href="http://stonybrook.edu/advisingmedia" target="_blank">Advising Tutorials</a>
                                 <a href="http://www.stonybrook.edu/commcms/academic_success/" target="_blank">Academic Success &amp; Tutoring Center</a>
                                 <a href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">Center for Prevention &amp; Outreach</a>

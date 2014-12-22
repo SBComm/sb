@@ -94,7 +94,7 @@
 
 		                <!-- <for-students> -->
 							<?php 
-								$file = "{$second_level}/{$second_level}.php";
+								$file = "{$second_level}/academic-advising.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </for-students> -->
