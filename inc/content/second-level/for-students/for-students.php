@@ -1,7 +1,7 @@
 <article class="ghosted-campus">
     <section class="transparent-background page-title">
         <div class="wrapper border-box">
-            <h1 class="serif">For Students</h1>
+            <h1 class="serif"><a href="for-students/">For Students</a></h1>
         </div>
     </section>
     <section class="transparent-background arrow-below arrow-below-grey">

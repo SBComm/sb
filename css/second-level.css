@@ -23,6 +23,11 @@
     margin: 15px 0 15px;
 }
 
+.page-title h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* Carousel */
 
 .owl-wrapper-outer {
