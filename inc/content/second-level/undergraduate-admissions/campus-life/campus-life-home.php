@@ -47,7 +47,7 @@
              </div>
             <div class="border-box wrapper clearfix">
                 <div class="content col-2">
-                    <p>The fun begins with Opening Week and is sustained throughout the year with such events as Homecoming, Midnight Madness, the Roth Regatta, the Fountain Fest, and the Strawberry Festival. A wide variety of lectures, seminars, concerts, exhibits, theatrical performances, movies, and sporting events are also scheduled regularly throughout the academic year.</p>
+                    <p>The fun begins with Opening Week and is sustained throughout the year with such events as Homecoming, Midnight Madness, the Roth Regatta, and the Strawberry Festival. A wide variety of lectures, seminars, concerts, exhibits, theatrical performances, movies, and sporting events are also scheduled regularly throughout the academic year.</p>
                     <h5>At Stony Brook, you will find:</h5>
                     <ul class="star-bullets">
                         <li>More than <strong>300 student-interest clubs and organizations</strong>. <a class="external-link nowrap" href="https://stonybrook.collegiatelink.net/organizations" target="_blank">See all Clubs &amp; Organizations</a></li>
