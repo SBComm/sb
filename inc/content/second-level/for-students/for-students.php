@@ -9,18 +9,8 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
-                        <a href="http://www.stonybrook.edu/winter" target="_blank" title="Winter Session: Earn 3 credits in 3 weeks!">
+                        <a href="http://studentaffairs.stonybrook.edu/orientation/freshmen/esbfreshmen.shtml" target="_blank" title="Winter Commencement: December 18th at 11am">
                             <div class="carousel-image clearfix" data-image="01">
-                            </div>
-                            <div class="carousel-text clearfix">
-                                <div class="carousel-title steel-blue">Winter Session: Earn 3 credits in 3 weeks!</div>
-                                <div class="carousel-subtitle">Learn more</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="http://www.stonybrook.edu/orientation" target="_blank" title="Winter Commencement: December 18th at 11am">
-                            <div class="carousel-image clearfix" data-image="02">
                             </div>
                             <div class="carousel-text clearfix">
                                 <div class="carousel-title steel-blue">Experience Stony Brook for New Students | January 24 to 25</div>
@@ -28,6 +18,16 @@
                             </div>
                         </a>
                     </div>
+                    <!--<div class="item">
+                        <a href="http://www.stonybrook.edu/winter" target="_blank" title="Winter Session: Earn 3 credits in 3 weeks!">
+                            <div class="carousel-image clearfix" data-image="02">
+                            </div>
+                            <div class="carousel-text clearfix">
+                                <div class="carousel-title steel-blue">Winter Session: Earn 3 credits in 3 weeks!</div>
+                                <div class="carousel-subtitle">Learn more</div>
+                            </div>
+                        </a>
+                    </div>-->
                     <div class="item">
                         <a href="http://www.stonybrook.edu/ureca/sept14.shtml" target="_blank" title="Overcoming Parkinson’s Disease with Music">
                             <div class="carousel-image clearfix" data-image="03">
