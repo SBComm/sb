@@ -177,6 +177,13 @@
 							easing:'easeOutQuad', 
 							axis: 'y'
 						} );
+					<?php } else { ?>
+						var scrollToClass = '.<?php echo $page_to_top_loc; ?>';
+						console.log(scrollToClass);
+						$('body').scrollTo( scrollToClass, 500, {
+							easing:'easeOutQuad', 
+							axis: 'y'
+						} );
 					<?php } ?>
 				});
 			});
