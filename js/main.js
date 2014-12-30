@@ -75,11 +75,48 @@ $(document).ready(function() {
 		if(target.length>1) {
 			event.preventDefault();
 		    var hash = target.substring(1); //strip off the #
+		    //console.log(hash);
 		    window.location.hash = "view-"+hash;
-		    $('body').scrollTo($(target), 800, {
-		    	axis: 'y'
-		    });
+
+		    if($(this).data('trigger-role') == 'show-content') {
+		    	$('#tabbed-nav-content li').removeClass('open');
+		    	$(target).addClass('open');
+		    	$('#tabbed-nav li').removeClass('selected');
+		    	$(this).closest('li').addClass('selected');
+		    	if($(this).data('trigger-scope') == 'desktop' && $(window).width()<1022) {
+		    		$('body').scrollTo($(target), 800, {
+				    	axis: 'y'
+				    });
+		    	}
+		    } else {
+		    	$('body').scrollTo($(target), 800, {
+			    	axis: 'y'
+			    });
+		    }
+
+
 		}
+	});
+
+	//on load, scroll to hash section
+	//strip off the #view-
+    var hash = window.location.hash.substring(6);
+    if(hash!='') {
+    	//get the element that has data-hash value of hash in URL
+	    hashElement = $('[href="#'+hash+'"]');
+
+	    $(hashElement).click();
+    }
+
+    //on hashchange, click the hash target
+	$(function () {
+	  var hashElement;
+	  $(window).bind('hashchange', function () {
+	    //get the element that has data-hash value of hash in URL
+    	hash = window.location.hash.substring(6);
+	    hashElement = $('[href="#'+hash+'"]');
+	    $(hashElement).click();
+	  });
 	});
 
 	/* nav */
@@ -88,7 +125,7 @@ $(document).ready(function() {
 
 		if($(window).width()>=1008) {
 			if ( $audienceNav.is( ":visible" ) && $moreNav.is( ":hidden" ) ) {
-				console.log('audienceNav:visible and moreNav:hidden');
+				//console.log('audienceNav:visible and moreNav:hidden');
 				$('.audience-trigger').click();
 			}
 		}
@@ -108,7 +145,7 @@ $(document).ready(function() {
 	});
 
 	$('.audience-trigger').on('click',function(){
-//console.log('clicked audience-trigger');
+		//console.log('clicked audience-trigger');
 		if($(window).width()>=1008) {
 			if ( $moreNav.is( ":visible" ) && $audienceNav.is( ":hidden" ) ) {
 				//console.log('audienceNav:hidden and moreNav:visible');
