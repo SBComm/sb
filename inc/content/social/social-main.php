@@ -299,6 +299,13 @@
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
+                            <div class="social-other-label-container sbu-text-shadow">Music Department</div>
+                            <div class="social-channels-container">
+                                <a href="http://www.facebook.com/stonybrookmusicdepartment" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/sbumusicdept" target="_blank"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </li>
+                        <li class="social-other-item sbu-border-bottom">
                             <div class="social-other-label-container sbu-text-shadow">News Desk <br />(Media Relations)</div>
                             <div class="social-channels-container">
                                 <a href="https://twitter.com/sbunewsdesk" target="_blank"><i class="fa fa-twitter"></i></a>
