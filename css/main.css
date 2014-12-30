@@ -153,6 +153,10 @@ img {
     max-width: 100%;
 }
 
+a {
+    color: #900;
+}
+
 a[href$=".pdf"]:after,
 a[href$=".xls"]:after,
 a[href$=".xlsx"]:after,
@@ -284,6 +288,12 @@ video.background-video {
     box-sizing: border-box;
 }
 
+.children-border-box * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .full-width {
     width: 100%;
 }
@@ -297,6 +307,10 @@ video.background-video {
 }
 
 .pad-top {
+    padding-top: 20px;
+}
+
+.pad-bottom {
     padding-top: 20px;
 }
 
@@ -325,7 +339,7 @@ video.background-video {
 }
 
 .back-dark-red-crossed {
-    background: url("../img/bkg/grid_black_3x3.png") repeat 0 0 scroll #fe153f;
+    background: url("../img/bkg/thin-diagonal-stripe-pattern.png") repeat 0 0 scroll #900;
 }
 
 .red-border {
@@ -560,6 +574,10 @@ body {
         text-transform: uppercase;
     }
 
+    .proper-case {
+        text-transform: capitalize;
+    }
+
     .serif {
         font-family:'CenturyExpandedLTW01-Ro';
         font-weight: 400;
@@ -609,8 +627,13 @@ body {
 
     h1.serif,
     h2.serif,
-    h3.serif {
-        font-family:'CenturyExpandedLTW01-Ro';
+    h3.serif,
+    .inside-content h1.serif,
+    .inside-content h2.serif,
+    .inside-content h3.serif,
+    .inside-content h4.serif,
+    .inside-content h5.serif {
+        font-family:'CenturyExpandedLTW01-Ro' !important;
         font-weight: 400;
         text-transform: none;
         color: #000;
@@ -647,7 +670,7 @@ body {
     }
 
     h4 {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 
     h5 {
@@ -698,6 +721,10 @@ body {
         font-size: 1.8em;
         font-family: 'Trade Gothic W01 Bold 2';
         text-transform: none;
+    }
+
+    .social-icon {
+        font-size: 2em;
     }
 
     /* Colors */
@@ -997,6 +1024,10 @@ body {
         border-radius: 15px;
         box-shadow: rgba(6, 169, 191, 1) -110px 0 140px -30px inset;
         cursor: pointer;
+
+        background-image: url("../img/buttons/admissions-campus-life/sports.jpg");
+        background-position: 50% 40%;
+        background-size: cover;
     }
 
     .rounded-image-buttons a:hover {
@@ -1169,10 +1200,12 @@ body {
 
     div.title-link-box-1 {
         margin-bottom: 30px;
+        padding: 0 10px;
     }
 
     div.title-link-box-2 {
         margin-bottom: 30px;
+        padding: 0 10px;
     }
 
     .title-link-box-2 .text {
@@ -1290,6 +1323,11 @@ body {
         -webkit-transition: all 0.1s;
         -moz-transition: all 0.1s;
         transition: all 0.1s;
+
+        background-image: url('../img/student-life/students-walking.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left 80%;
     }
 
     .promo-box-round-title-1 span {
@@ -1546,6 +1584,10 @@ body {
 
     .white {
         color: #fff;
+    }
+
+    .red-before-children *:before {
+       color: #900 !important;
     }
 
     .youtube-red,
@@ -1911,13 +1953,12 @@ body {
     /* Inside content */
 
     section.inside-content {
-    padding: 0 0 20px;
+        padding: 0 0 20px;
     }
 
     section.inside-content .wrapper {
         overflow: visible;
     }
-
 
     section.inside-content a {
         color: #900;
@@ -2066,6 +2107,10 @@ body {
         padding: 0 0 15px;
         color: #900;
         border-bottom: 1px solid #777;
+    }
+
+    .inside-content h3.serif {
+        font-size: 2.3em;
     }
 
     .inside-content .content {
@@ -2245,6 +2290,20 @@ body {
             padding: 0 40px 0 0;
         }
 
+        .inside-content .col-two-third {
+            display: inline-block;
+            float: left;
+            width: 67%;
+            padding: 0 20px 0 0;
+        }
+
+        .inside-content .col-one-third {
+            display: inline-block;
+            float: left;
+            width: 33%;
+            padding: 0 0 0 20px;
+        }
+
         .inside-content .section-nav-trigger {
             display: none;
             visibility: hidden;
@@ -2302,7 +2361,13 @@ body {
         }
 
         .inside-content h4 {
-            font-size: 1.5em;
+            font-size: 1.8em;
+            margin: 0 0 16px;
+            padding: 6px 0 0;
+        }
+
+        .inside-content h5 {
+            font-size: 1.3em;
             margin: 0 0 16px;
             padding: 6px 0 0;
         }
