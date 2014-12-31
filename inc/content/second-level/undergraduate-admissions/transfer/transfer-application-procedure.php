@@ -92,7 +92,7 @@
             <div class="content clearfix">
                 <h4>Additional Application Requirements</h4>
                 <p>There are additional application requirements for the following programs and applicants:</p>
-                <div class="drop-accordion drop-accordion-1">
+                <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>EOP/AIM</span>

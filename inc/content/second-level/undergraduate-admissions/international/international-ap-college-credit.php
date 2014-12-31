@@ -35,7 +35,7 @@
 
             <div class="content col-2">
                 <h4>More Information on...</h4>
-                <div class="drop-accordion drop-accordion-1">
+                <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>International Baccalaureate</span>

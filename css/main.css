@@ -691,6 +691,8 @@ body {
         font-size: 1.3em;
         font-weight: normal;
         font-family:'Trade Gothic Next W01';
+        letter-spacing: .025em;
+        word-spacing: .025em;
     }
 
     h2.small-title-2 {
@@ -772,6 +774,7 @@ body {
         display: block;
         border-radius: 2px;
         margin: 0 0 10px;
+        box-shadow: 3px 3px 5px #aaa;
     }
 
     .dual-tone-cards-1 .card span,
@@ -2122,8 +2125,15 @@ body {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        float: left;
         width: 100%;
+        float: left;
+    }
+
+    .inside-content p {
+        font-size: 1em;
+        line-height: 1.6em;
+        font-family: 'Trade Gothic Next W01', Arial, sans-serif;
+        color: #333;
     }
 
     .inside-content .content strong {
@@ -2168,12 +2178,12 @@ body {
         margin: 0 0 10px;
     }
 
-    .inside-content .arrow-bullets li {
+    .arrow-bullets li {
         text-indent: -15px;
         margin-left: 25px;
     }
 
-    .inside-content .arrow-bullets li:before {
+    .arrow-bullets li:before {
         display: inline-block;
         content: "\f061";
         margin: 0 0px 0 0;
@@ -2191,12 +2201,12 @@ body {
         color: #00acc6;
     }
 
-    .inside-content .default-bullets li {
+    .default-bullets li {
         margin-left: 20px;
         text-indent: -15px;
     }
 
-    .inside-content .default-bullets li:before {
+    .default-bullets li:before {
         display: inline-block;
         content: "•";
         margin: 0 0 0 0;
@@ -2214,12 +2224,12 @@ body {
         color: #900;
     }
 
-    .inside-content .star-bullets li {
+    .star-bullets li {
         margin-left: 30px;
         text-indent: -25px;
     }
     
-    .inside-content .star-bullets li:before {
+    .star-bullets li:before {
         content: "\f005";
         margin: 0 10px 0 0;
         font-family: FontAwesome;
@@ -2245,8 +2255,8 @@ body {
         }
 
         .inside-content .content {
-            line-height: 1.6em;
             font-size: 1.1em;
+            line-height: 1.6em;
         }
 
         .inside-content.majors-minors .content {
@@ -2445,6 +2455,9 @@ body {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         float: none;
+    }
+
+    .drop-accordion .content p {
     }
 
     .drop-accordion-1 .content-wrap {

@@ -124,7 +124,7 @@
                     <li><strong>Transportation.</strong> The University bus system provides free service seven days a week around campus and to a major indoor mall.</li>
                     <li><strong>Our Housing Guarantee.</strong> Students in good standing who enter the University as freshmen and successfully complete all required room selection processes are guaranteed eight semesters of campus housing (six semesters of housing for those entering as transfers).</li>
                 </ul>
-                <div class="drop-accordion drop-accordion-1">
+                <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>Freshmen</span>

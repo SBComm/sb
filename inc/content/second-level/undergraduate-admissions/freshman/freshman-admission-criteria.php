@@ -57,7 +57,7 @@
                 <a class="check-button apply-button" href="undergraduate-admissions/apply/freshman/application-procedures"><span>Apply Now</span></a>
                 <h4>Restricted Majors</h4>
                 <p>Applicants who do not specify a major on their application are considered for admission to the University rather than to a particular major. Admission to Stony Brook University does not guarantee acceptance into the following restricted majors, which have additional admission requirements.</p>
-                <div class="drop-accordion drop-accordion-1">
+                <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>Majors in the College of Engineering &amp; Applied Sciences</span>

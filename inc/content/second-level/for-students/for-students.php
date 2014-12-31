@@ -50,7 +50,7 @@
         <div class="border-box clearfix title-link-box-container inside-content">
             <div class="title-link-box-1 left-link-box clearfix">
                 <h2 class="red medium-title-3">Student Resources</h2>
-                <div class="drop-accordion drop-accordion-1">
+                <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab active">
                             <span class="label"><i class="fa fa-plus-circle"></i>Useful Links</span>

@@ -43,7 +43,7 @@
                 <p><a class="external-link" href="http://bit.ly/1xXPg8S" target="_blank">View Course Equivalencies</a> for classes that you have already taken.</p>
                 <h4>Restricted Majors</h4>
                 <p>Admission to Stony Brook University does not guarantee acceptance into the following restricted majors, which have additional admission requirements.</p>
-                <div class="drop-accordion drop-accordion-1">
+                <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>Majors in the College of Engineering &amp; Applied Sciences</span>

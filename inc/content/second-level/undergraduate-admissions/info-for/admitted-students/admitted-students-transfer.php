@@ -108,7 +108,7 @@
                 <p><a class="external-link" href="http://www.stonybrook.edu/registrar/univ_cal.shtml" target="_blank">Check the University Calendar for the first day of classes and other important dates during the semester.</a></p>
 
                 <h4>Additional Information for Transfer Students</h4>
-                <div class="drop-accordion drop-accordion-1">
+                <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>Making the Transition: The Undergraduate Transfer Office</span>
