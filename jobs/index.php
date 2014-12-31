@@ -25,14 +25,17 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    //$og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
+		    $og_description  = 'Learn about current career opportunities at Stony Brook in your area of interest.';
 		    $og_url          = 'http://www.stonybrook.edu/jobs';
 
 		    $page_to_top_link = true;
 
+		    $page_footer      = true;
 		    $page_footerbar   = true;
 
 		    $carousel 		  = true;
+
+		    $equal_col_desktop = true;
 		?>
 
 	<!-- <head> -->
@@ -86,16 +89,20 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <economic-development> -->
+		                <!-- <jobs> -->
 							<?php 
-								$file = "jobs/jobs.php";
+								$file = "{$second_level}/{$second_level}.php";
 								include($path . $content . $secLv . $file);
 							?>
-						<!-- </economic-development> -->
+						<!-- </jobs> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
+		        	<?php if($page_footer) {
+						$file = "footers/for-students-footer.php";
+						include($path . $file);
+					} ?>
 					<?php if($page_footerbar) {
 						$file = "footerbar.php";
 						include($path . $file);
