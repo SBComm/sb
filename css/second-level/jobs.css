@@ -147,6 +147,13 @@ section.diversity-wrapper {
 		border-color: #900;
 	}
 
+    footer.site-footer .col-2 {
+        padding: 20px 0 0;
+    }
+    footer.site-footer .col-3 {
+        padding: 20px 0 0;
+    }
+
 }
 
 @media only screen and (min-width: 960px) {
