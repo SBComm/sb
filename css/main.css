@@ -1057,6 +1057,100 @@ body {
         }
     }
 
+    /* Rounded Flat Buttons */
+
+    .rounded-flat-button-wrapper {
+        display: block;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 20px 0;
+    }
+
+    .rounded-flat-button-wrapper a {
+        background: #fff;
+        color: #93e6fa;
+        font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';
+        text-transform: uppercase;
+        font-weight: normal;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 12px 7px;
+        display: inline-block;
+        text-shadow: none;
+        float: left;
+        width: 48%;
+        margin: 0 1% 5px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .rounded-flat-button-wrapper.turquoise-blue a {
+        background: #188cdf;
+        background: rgba(24, 140, 223, .8);
+        border: 1px solid rgba(24, 140, 223, .2);
+    }
+
+    .rounded-flat-button-wrapper.turquoise-blue a:hover {
+        background: rgba(24, 140, 223, .9);
+        border: 1px solid #188cdf;
+    }
+
+    /* Circle Band Buttons */
+
+    .circle-band-buttons-wrapper a {
+        display: block;
+        background-image: url('../img/student-life/students-walking.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid #800;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .circle-band-buttons-wrapper a span {
+        display: block;
+        opacity: .75;
+        background: #000;
+        height: 36px;
+        color: #fff;
+        font-size: 1.5em;
+        font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: normal;
+        letter-spacing: .01em;
+        text-rendering: optimizeLegibility;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 82px 0 0 0;
+        padding: 5px 0 0 0;
+        -webkit-transition: box-shadow .3s;
+        -moz-transition: box-shadow .3s;
+        transition: box-shadow .3s;
+        box-shadow: 0 0 0 100px rgba(45, 195, 232, 0);
+    }
+
+    .circle-band-buttons-wrapper a:hover span {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        box-shadow: 0 0 0 150px rgba(45, 195, 232, .6);
+    }
+
     /* Tables */
 
     .simple-two-col-table {
@@ -2814,7 +2908,9 @@ footer.site-footer .social .small-button:after {
 }
 
 @media only screen and (min-width: 380px) {
-
+    .rounded-flat-button-wrapper a {
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (min-width: 480px) {
@@ -2822,6 +2918,25 @@ footer.site-footer .social .small-button:after {
         top: 45%;
         left: 45%;
         font-size: 50px;
+    }
+
+    .circle-band-buttons-wrapper {
+        text-align: center;
+    }
+
+    .circle-band-buttons-wrapper a {
+        width: 200px;
+        float: none;
+        display: inline-block;
+        margin: 0 15px 30px
+    }
+
+    .circle-band-buttons-wrapper a span {
+        -webkit-transform: rotate(-30deg);
+        -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+        -o-transform: rotate(-30deg);
+        transform: rotate(-30deg);
     }
 }
 
@@ -2887,6 +3002,32 @@ footer.site-footer .social .small-button:after {
 
     .numbers-wrapper p {
         font-size: 2.4em;
+    }
+
+    .rounded-flat-button-wrapper a {
+        font-size: 1.2em;
+        width: 31.333%;
+        margin: 0 1% 12px;
+    }
+
+    .circle-band-buttons-wrapper a {
+        width: 224px;
+        height: 224px;
+        float: none;
+        display: inline-block;
+        margin: 0 15px 30px
+    }
+
+    .circle-band-buttons-wrapper a span {
+        height: 40px;
+        font-size: 1.9em;
+        margin: 94px 0 0 -2%;
+        padding: 3px 0 0 0;
+        width: 104%;
+    }
+
+    .filter-buttons .no-pad-wrapper {
+        max-width: 1220px;
     }
 }
 
@@ -2956,6 +3097,10 @@ footer.site-footer .social .small-button:after {
         display: inline-block;
         margin-right: 15px;
     }
+
+    .rounded-flat-button-wrapper a {
+        font-size: 1.4em;
+    }
 }
 
 @media only screen and (min-width: 960px) {
@@ -2989,6 +3134,13 @@ footer.site-footer .social .small-button:after {
 
     .medium-title-3 {
         font-size: 2.6em;
+    }
+
+    .rounded-flat-button-wrapper a {
+        width: 15.16%;
+        margin: 0 .75% 12px;
+        font-size: 1.5em;
+        padding: 16px 12px;
     }
 }
 
@@ -3038,10 +3190,10 @@ footer.site-footer .social .small-button:after {
         padding: 0 0 0 120px;
     }
     footer.site-footer .col-2 {
-        padding: 40px 0 0;
+        padding: 20px 0 0;
     }
     footer.site-footer .col-3 {
-        padding: 70px 0 0;
+        padding: 20px 0 0;
     }
 
     .social-sidebar {
