@@ -427,6 +427,12 @@ section.resources-wrapper {
     .numbers-wrapper .item {
         padding: 0 7.5%;
     }
+    footer.site-footer .col-2 {
+        padding: 40px 0 0;
+    }
+    footer.site-footer .col-3 {
+        padding: 70px 0 0;
+    }
 }
 
 @media only screen and (min-width: 960px) {

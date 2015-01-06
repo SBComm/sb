@@ -1,0 +1,318 @@
+.summer-splash {
+    background-image: url("../../img/student-life/students-on-grass-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.fade-to-black {
+    background: url("../../img/bkg/fade-to-000-297.png") 0 bottom repeat-x transparent;
+}
+
+.summer-splash .no-pad-wrapper {
+    position: relative;
+    height: 500px;
+}
+
+.summer-splash .blurb {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.summer-splash h3 {
+    color: #2dc3e8;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 1.1em;
+    font-size: 1.9em;
+    text-shadow: 0 0 4px rgba(0,0,0,.7), 1px -1px 0 rgba(0,0,0,.5);
+    margin: 0;
+    font-family:'CenturyExpandedLTW01-Ro';
+    font-weight: 400;
+    text-transform: none;
+}
+
+.summer-splash p,
+.filter-buttons p {
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    font-family: 'Trade Gothic W01 Light', Arial, sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 20px;
+    letter-spacing: .015em;
+}
+
+.summer-splash p a,
+.filter-buttons p a {
+    color: #fff;
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+}
+
+h4 {
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.9em;
+    text-shadow: 0 0 4px rgba(0,0,0,.7), 1px -1px 0 rgba(0,0,0,.5);
+    margin: 0;
+    font-family:'CenturyExpandedLTW01-Ro';
+    font-weight: 400;
+    text-transform: none;
+}
+
+.clouds-background{
+    background: url('../../img/scenes/clouds-1024.jpg') 50% bottom;
+    background-size: 500%;
+    position: relative;
+    padding: 40px 0;
+}
+
+.session-dates-wrapper p {
+    font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';
+    font-weight: normal;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    text-shadow: none;
+    float: left;
+    width: 100%;
+    margin: 30px 0 0;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.session-dates-wrapper strong,
+.session-dates-wrapper em {
+    display: block;
+}
+
+.session-dates-wrapper strong {
+    color: #900;
+    text-transform: none;
+    margin: 0 0 5px;
+    letter-spacing: .03em;
+
+}
+
+.session-dates-wrapper em {
+    color: #000;
+    font-style: normal;
+    margin: 5px 0 0;
+}
+
+.filter-buttons {
+    position: relative;
+    padding: 40px 0px;
+}
+
+.circle-band-buttons-wrapper a.main-campus {
+    background-image: url('../../img/circle-buttons/main-campus-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle-band-buttons-wrapper a.online {
+    background-image: url('../../img/circle-buttons/online-courses-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle-band-buttons-wrapper a.high-school {
+    background-image: url('../../img/circle-buttons/high-school-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle-band-buttons-wrapper a.health-sciences {
+    background-image: url('../../img/circle-buttons/health-sciences-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle-band-buttons-wrapper a.manhattan {
+    background-image: url('../../img/circle-buttons/manhattan-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle-band-buttons-wrapper a.southampton {
+    background-image: url('../../img/circle-buttons/southampton-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle-band-buttons-wrapper a.study-abroad {
+    background-image: url('../../img/circle-buttons/study-abroad-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (min-width: 360px) {
+    .filter-buttons p {
+        font-size: 1.2em;
+        line-height: 1.3em;
+        margin: 25px 0 45px;
+        padding: 0 40px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 560px) {
+    .summer-splash h3 {
+        font-size: 2.4em;
+        text-shadow: none;
+    }
+
+    .summer-splash p {
+        font-size: 1.2em;
+        line-height: 1.3em;
+        margin: 5px 0 25px;
+    }
+
+    h4 {
+        font-size: 2.2em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .summer-splash {
+        background-image: url("../../img/student-life/students-on-grass-1600.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    .summer-splash h3 {
+        font-size: 2.8em;
+        text-shadow: none;
+    }
+
+    .summer-splash p,
+    .filter-buttons p {
+        font-size: 1.4em;
+        line-height: 1.3em;
+    }
+
+    .summer-splash p {
+        margin: 8px 0 30px;
+    }
+
+    .filter-buttons p {
+        margin-bottom: 60px;
+    }
+
+    h4 {
+        font-size: 2.4em;
+    }
+
+    .clouds-background{
+        background-size: 250%;
+        padding: 80px 110px;
+    }
+
+    .session-dates-wrapper p {
+        width: 50%;
+        margin: 30px 0 0;
+        font-size: 1.6em;
+        text-align: center;
+        text-shadow: 0 0 15px rgba(255,255,255,.7);
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+    .summer-splash .no-pad-wrapper {
+        position: relative;
+        height: 700px;
+    }
+    .summer-splash h3 {
+        font-size: 4em;
+        text-shadow: none;
+    }
+
+    .summer-splash p {
+        font-size: 1.8em;
+        line-height: 1.3em;
+        margin: 10px 0 30px;
+    }
+    
+    .filter-buttons p {
+        font-size: 1.6em;
+        line-height: 1.3em;
+    }
+
+    h4 {
+        font-size: 3.3em;
+        margin: 0 0 20px;
+    }
+
+    .clouds-background{
+        padding: 80px 140px;
+    }
+}
+
+@media only screen and (min-width: 1022px) {
+
+    .clouds-background{
+        padding: 80px 200px;
+    }
+
+    .session-dates-wrapper p {
+        font-size: 2.3em;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .summer-splash {
+        background-image: url("../../img/student-life/students-on-grass-1600.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    .clouds-background{
+        padding: 80px 300px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .summer-splash {
+        background-image: url("../../img/student-life/students-on-grass-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    .summer-splash .no-pad-wrapper {
+        position: relative;
+        height: 900px;
+    }
+    .clouds-background{
+        padding: 80px 400px;
+    }
+}
+
+@media only screen and (min-width: 1880px) {
+    .clouds-background{
+        padding: 80px 560px;
+    }
+}

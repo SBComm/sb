@@ -1,0 +1,249 @@
+.ghosted-fountain {
+    background-image: url("../../img/university/ghosted-fountain-full.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+.ghosted-fountain-bottom {
+    background-image: url("../../img/university/ghosted-fountain-full.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 100%;
+    padding: 45px 0 60px;
+    margin: 0 !important;
+}
+
+.carousel-wrapper {
+    padding-bottom: 10px;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 20px;
+}
+
+.carousel-image[data-image='01'] {
+    background-image: url("../../economic-development/images/carousel-01.jpg");
+}
+
+.carousel-image[data-image='02'] {
+    background-image: url("../../economic-development/images/carousel-02.jpg");
+}
+
+.carousel-image[data-image='03'] {
+    background-image: url("../../economic-development/images/carousel-03.jpg");
+}
+
+.carousel-image[data-image='04'] {
+    background-image: url("../../economic-development/images/carousel-04.jpg");
+}
+
+.tabs-wrapper h2 {
+    font-family: 'Trade Gothic W01 Bold';
+    width: 100%;
+    text-align: center;
+    font-size: 2.3em;
+    padding: 20px 0 20px;
+}
+
+.tabs-wrapper h2 span {
+    display: block;
+    margin: 4px 0 0 0;
+    font-size: .75em;
+    font-family: 'Trade Gothic W01 Light';
+    font-style: normal;
+    color: #000;
+    text-transform: none;
+    width: 100%;
+    text-align: center;
+}
+
+.promo-box-wrapper {
+    margin: 40px 0;
+}
+
+.promo-box-wrapper a.police {
+    background-image: url('../../img/student-life/marquee-info-for-parents-768.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 30%;
+}
+
+.promo-box-wrapper a.reactions {
+    background-image: url('../../img/student-life/students-walking.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 80%;
+}
+
+.promo-box-wrapper a.environment {
+    background-image: url('../../img/student-life/students-at-fountain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.campus {
+    background-image: url('../../img/students/red-bag-small.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.residential {
+    background-image: url('../../img/student-life/marquee-info-for-veterans-768.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.employee {
+    background-image: url('../../img/buildings/hsc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.cleary {
+    background-image: url('../../img/student-life/marquee-campus-autumn-768.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.center {
+    background-image: url('../../img/student-life/marquee-info-for-counselors-768.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.counseling {
+    background-image: url('../../img/student-life/brook-leaves.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.diversity {
+    background-image: url('../../img/student-life/autumn-tree.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.title {
+    background-image: url('../../img/student-life/campus-life-eating-2000.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.stuhealth {
+    background-image: url('../../img/student-life/students-at-table.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.dean {
+    background-image: url('../../img/students/staller-lawn-768.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a.stuaff {
+    background-image: url('../../img/student-life/marquee-graduation-768.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+.promo-box-wrapper a .external-link {
+    padding-left: 16px;
+}
+
+.promo-box-wrapper a .external-link:after {
+    content: " ";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    width: 12px;
+    margin-left: 4px;
+}
+
+.promo-box-wrapper a:hover .external-link:after {
+    content: "\f08e";
+}
+
+.link-section-heading {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: none;
+    color: #222;
+    margin: 0;
+}
+
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 560px) {
+    .tabs-wrapper h2 {
+        font-size: 2.8em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 960px) {
+    .link-section-heading {
+        font-size: 2.4em;
+        margin: 5px 0 10px;
+    }
+}
+
+@media only screen and (min-width: 1022px) {
+    .tabs-wrapper h2 {
+        font-size: 3.3em;
+    }
+
+    .tabs-wrapper h2 span {
+        font-size: .7em;
+    }
+
+    #tabbed-nav-content > li {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+
+    #tabbed-nav-content li.open {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        width: 100%;
+        height: auto;
+    }
+
+    .link-section-heading {
+        font-size: 2.6em;
+        padding: 15px 0 10px;
+    }
+
+}
+@media only screen and (min-width: 1220px) {
+
+}
