@@ -21,7 +21,7 @@
                     <div class="item">
                         <a href="#">
                             <div class="carousel-image" data-image="02">
-                                <div class="carousel-text bottom-left">
+                                <div class="carousel-text top-left">
                                     <div class="carousel-title">Make A Difference In Our Patient&#8217;s Lives</div>
                                     <div class="carousel-subtitle">We start with the best ideas, then hire the best people to transform these ideas into the best in patient care.</div>
                                 </div>
