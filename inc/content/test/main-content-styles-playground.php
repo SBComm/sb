@@ -492,7 +492,7 @@
 
 
 
-            <h3>Background Image Buttons</h3>
+            <h4>Background Image Buttons</h4>
 
             <div class="background-image-buttons money-bkg clearfix">
                 <a class="clearfix" href="http://www.stonybrook.edu/finaid/" target="_blank"><span class="label label-left">div.background-image-buttons > a > span.label.label-left</span></a>
@@ -507,7 +507,7 @@
 
 
 
-            <h3>Rounded Image Buttons</h3>
+            <h4>Rounded Image Buttons</h4>
 
             <div class="rounded-image-buttons clearfix">
                 <a class="activities" href="#activities"><div class="label">Activities &amp; Clubs</div></a>
@@ -518,6 +518,50 @@
 
             <br />
             <br />
+
+
+
+
+            <h4>Rounded Flat Buttons</h4>
+
+            <div class="rounded-flat-button-wrapper turquoise-blue">
+                <a href="summer-session/current-students">Current Students</a>
+                <a href="summer-session/high-school-students">High School Students</a>
+                <a href="summer-session/visiting-students">Visiting Students</a>
+                <a href="summer-session/incoming-students">Incoming Students</a>
+                <a href="summer-session/international-students">International Students</a>
+                <a href="summer-session/adults-professionals">Adults &amp; Professionals</a>
+            </div>
+
+
+
+
+
+            <h4>Circle Band Buttons</h4>
+
+            <div class="circle-band-buttons-wrapper">
+                <a class="main-campus" href="summer-session/courses/?search=#">
+                    <span>Main Campus</span>
+                </a>
+                <a class="online" href="summer-session/courses/?search=#">
+                    <span>Online Courses</span>
+                </a>
+                <a class="high-school" href="summer-session/courses/?search=#">
+                    <span>High School</span>
+                </a>
+                <a class="health-sciences" href="summer-session/courses/?search=#">
+                    <span>Health Sciences</span>
+                </a>
+                <a class="manhattan" href="summer-session/courses/?search=#">
+                    <span>Manhattan</span>
+                </a>
+                <a class="southampton" href="summer-session/courses/?search=#">
+                    <span>Southampton</span>
+                </a>
+            </div>
+
+
+
 
 
 

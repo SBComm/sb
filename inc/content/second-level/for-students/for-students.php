@@ -13,21 +13,21 @@
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title steel-blue">Experience Stony Brook for New Students | January 24 to 25</div>
+                                <div class="carousel-title steel-blue">Experience Stony Brook for New Students | January 24th to 25th</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
                     </div>
-                    <!--<div class="item">
-                        <a href="http://www.stonybrook.edu/winter" target="_blank" title="Winter Session: Earn 3 credits in 3 weeks!">
+                    <div class="item">
+                        <a href="http://studentaffairs.stonybrook.edu/orientation/about/esb.shtml" target="_blank" title="Winter Session: Earn 3 credits in 3 weeks!">
                             <div class="carousel-image clearfix" data-image="02">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title steel-blue">Winter Session: Earn 3 credits in 3 weeks!</div>
+                                <div class="carousel-title steel-blue">Chillfest: Opening of School – Get Your Red On | January 24th - February 28th</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
-                    </div>-->
+                    </div>
                     <div class="item">
                         <a href="http://www.stonybrook.edu/ureca/sept14.shtml" target="_blank" title="Overcoming Parkinson’s Disease with Music">
                             <div class="carousel-image clearfix" data-image="03">
@@ -86,6 +86,7 @@
                                 <a href="http://stonybrook.edu/ombuds" target="_blank">Ombuds Office</a>
                                 <a href="http://studentaffairs.stonybrook.edu/stu/index.shtml" target="_blank">Student Affairs</a>
                                 <a href="http://studentaffairs.stonybrook.edu/shs/" target="_blank">Student Health Services</a>
+                                <a href="http://www.stonybrook.edu/commcms/due/index.html" target="_blank">Undergraduate Education</a>
                             </div>
                         </div>
                     </div>

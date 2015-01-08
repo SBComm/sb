@@ -50,6 +50,12 @@
                 <p><strong>Stony Brook Southampton Campus:</strong> Christopher Gobler, Natural Sciences, Room 125, (631) 632-5043</p>
                 <p><a class="external-link" href="http://www.somas.stonybrook.edu/education/" target="_blank">Visit the School of Marine and Atmospheric Sciences</a></p>
 
+                <h5>Sustainability Studies</h5>
+                <p>The Sustainability Studies program offers five majors and five minors. Each program has a designated Undergraduate program Director who advises on the major and minor. Students can contact the faculty directors by visiting the Sustainability Studies website. The faculty advisors provide ongoing assistance to students in developing their academic planning toward graduation.</p>
+                <p><strong>Location:</strong> W-0511 Melville Library<br />
+                <strong>Phone:</strong> (631) 632-9404</p>
+                <p><a class="external-link" href="http://www.stonybrook.edu/commcms/sustainability/index.html" target="_blank">View the Sustainability Studies Program</a></p>
+
             </div>
 
             <div class="content col-2">
@@ -83,12 +89,6 @@
                 <strong>Phone:</strong> (631) 632-4378<br />
                 <strong>Email:</strong> <a href="mailto:honorscollege@notes.cc.sunysb.edu">honorscollege@notes.cc.sunysb.edu</a></p>
                 <p><a class="external-link" href="https://uaa.stonybrook.edu/honors-college/" target="_blank">Visit Honors College</a></p>
-
-                <h5>Sustainability Studies</h5>
-                <p>The Sustainability Studies program offers five majors and five minors. Each program has a designated Undergraduate program Director who advises on the major and minor. Students can contact the faculty directors by visiting the Sustainability Studies website. The faculty advisors provide ongoing assistance to students in developing their academic planning toward graduation.</p>
-                <p><strong>Location:</strong> W-0511 Melville Library<br />
-                <strong>Phone:</strong> (631) 632-9404</p>
-                <p><a class="external-link" href="http://www.stonybrook.edu/commcms/sustainability/index.html" target="_blank">View the Sustainability Studies Program</a></p>
 
                 <h5>Undergraduate Colleges</h5>
                 <p>Each Undergraduate College has assigned advisors  who help first-year students make good decisions about a wide range of topics relevant to student academic success. Advising services are available through Advising Walk-in Hours, Individual Advising Appointments and through Freshman Seminar 101, which informs first-year students of deadlines and policies, and gives them the tools to self-manage course selection.</p>
