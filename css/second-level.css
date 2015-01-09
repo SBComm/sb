@@ -271,12 +271,12 @@ h4 {
 @media only screen and (min-width: 768px) {
     .carousel-style-01 .carousel-image:after {
         background-color: transparent;
-        background-image: url("../jobs/images/carousel-fade.jpg");
+        /* background-image: url("../jobs/images/carousel-fade.jpg"); */
         background-repeat: no-repeat;
         background-size: 120%;
     }
     .carousel-style-01 .carousel-text {
-        max-width: 50%;
+        max-width: 35%;
     }
     .carousel-style-02 .carousel-title {
         text-align: left;

@@ -1,5 +1,5 @@
 .carousel-image[data-image='01'] {
-    background-image: url("../../jobs/images/teacher-in-front-of-blackboard.jpg");
+    background-image: url("../../jobs/images/teacher-fade.jpg");
 }
 
 .carousel-image[data-image='02'] {
@@ -7,7 +7,7 @@
 }
 
 .carousel-image[data-image='03'] {
-    background-image: url("../../jobs/images/veteran-saluting.jpg");
+    background-image: url("../../jobs/images/veteran-fade.jpg");
 }
 
 section.cards-wrapper {
