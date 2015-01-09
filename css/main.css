@@ -793,6 +793,7 @@ body {
 
     .dual-tone-cards-1 .card span:after,
     .dual-tone-cards-1 .link span:after {
+        text-align: center;
         display: block;
         content: "\f061";
         background: #000;
