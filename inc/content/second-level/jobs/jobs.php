@@ -49,8 +49,8 @@
             <h2 class="white-fade-background red cap small-title-1">Learn about current career opportunities in your area of interest.</h2>
             <div class="dual-tone-cards-1 clearfix">
                 <a href="#" class="card"><span>Jobs @ Stony Brook <br />University</span></a>
-                <a href="#" class="card"><span>HR @ Stony Brook <br />University Hospital</span></a>
-                <a href="#" class="card"><span>HR @ Long Island State <br />Veterans Home</span></a>
+                <a href="#" class="card"><span>Jobs @ Stony Brook <br />University Hospital</span></a>
+                <a href="#" class="card"><span>Jobs @ Long Island State <br />Veterans Home</span></a>
                 <a href="http://career.stonybrook.edu/on-campus-employment/for-students" class="link"><span>Faculty Jobs</span></a>
                 <a href="#" class="link"><span>All Jobs</span></a>
                 <a href="#" class="link"><span>Current Employees</span></a>
