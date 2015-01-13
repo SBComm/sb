@@ -113,6 +113,7 @@
                                 <a href="http://twitter.com/stonybrookalum" target="_blank"><i class="fa fa-twitter"></i></a>
                                 <a href="http://www.flickr.com/photos/sbuadvancement/sets/" target="_blank"><i class="fa fa-flickr"></i></a>
                                 <a href="http://www.linkedin.com/groups?home=&gid=108294&trk=anet_ug_hm" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="http://instagram.com/stonybrookalum" target="_blank"><i class="fa fa-instagram"></i></a> 
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
