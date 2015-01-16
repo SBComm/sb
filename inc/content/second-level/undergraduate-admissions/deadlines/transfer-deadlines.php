@@ -1,4 +1,4 @@
-<table class="light-grey-table responsive-flip responsive-flip-4">
+<table class="light-grey-table responsive-flip">
     <tr>
         <th>Entry Term</th>
         <th>Priority Deadline</th>
