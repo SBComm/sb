@@ -78,8 +78,15 @@
 	            $(document).ready(function() {
 
 	                var owl = $("#the-carousel-1");
+	                var owlSlides = owl.children('.item').length;
+	                if(owlSlides==1) {
+	                	autoPlayValue = false;
+	                } else {
+	                	autoPlayValue = 8000;
+	                }
+
 	                owl.owlCarousel({
-	                    autoPlay: 8000,
+	                    autoPlay: autoPlayValue,
 	                    navigation : false, // Show default next and prev buttons
 	                    slideSpeed : 300,
 	                    paginationSpeed : 400,
