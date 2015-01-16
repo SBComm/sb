@@ -1,0 +1,474 @@
+.courses-books {
+    background-image: url("../../img/student-life/marquee-courses-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.calendar {
+    background-image: url("../../img/student-life/marquee-students-hands-up-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.tuition-aid {
+    background-image: url("../../img/student-life/marquee-girls-on-lawn-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 100% 30%;
+}
+
+.student-life {
+    background-image: url("../../img/student-life/marquee-girl-and-guitar-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.registration {
+    background-image: url("../../img/university/marquee-autumn-steps-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.contact-page {
+    background-image: url("../../img/student-life/marquee-students-talking-outside-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.visiting-students {
+    background-image: url("../../img/student-life/marquee-people-walking-by-library-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.international-page {
+    background-image: url("../../img/student-life/marquee-international-students-walking-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.incoming-page {
+    background-image: url("../../img/student-life/marquee-girl-looking-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.high-school {
+    background-image: url("../../img/student-life/marquee-high-school-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.current-students {
+    background-image: url("../../img/student-life/marquee-girl-walking-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.adults-professionals {
+    background-image: url("../../img/student-life/marquee-adults-professionals-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.academic-resources {
+    background-image: url("../../img/student-life/marquee-student-studying-flowers-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.study-abroad {
+    background-image: url("../../img/student-life/marquee-study-abroad-marquee-768.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.inside-header .no-pad-wrapper {
+    min-height: 80px;
+}
+
+.inside-header h3 {
+    color: #fff;
+    font-size: 2.4em;
+    line-height: 1.2em;
+    font-family: 'Trade Gothic W01 Light', Arial, sans-serif;
+    display: block;
+    margin: 20px 0 20px 10px;
+    letter-spacing: .015em;
+    text-transform: none;
+}
+
+section.main-inside-content {
+    padding: 10px 0 20px;
+}
+
+.suny-callout {
+    height: 320px
+}
+
+.grey-box-1 > h4 {
+    margin-top: 5px !important;
+}
+
+.filter-buttons h4 {
+    margin-bottom: 30px !important;
+}
+
+h4 span {
+    color: #484848;
+    text-transform: none;
+}
+
+.high-school-content .courses-content h4 {
+    text-transform: none;
+    margin-top: 0
+}
+
+.high-school-content ul li {
+    margin-bottom: 8px;
+}
+
+.high-school-content .programs-box-wrapper {
+    background-image: url("../../img/students/students-waling-ghosted-box.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 100% 50%;
+}
+
+.programs-box-wrapper img {
+    display: none;
+}
+
+.programs-box-wrapper {
+    padding: 30px 0 10px;
+}
+
+.programs-box-wrapper ul {
+    padding: 0 0 0 15px;
+}
+
+.inside-content.alt-headers .programs-box-wrapper h4 {
+    display: block;
+    font-family: 'ITCFranklinGothicW01-Md 812695', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #900;
+    cursor: default;
+    width: 100%;
+    display: block;
+    padding: 0;
+    border-bottom: 0 none;
+    text-align: center;
+}
+
+.carousel-wrapper {
+    margin-top: 20px;
+}
+
+.carousel-wrapper .item,
+.carousel-image {
+    height: auto;
+}
+
+.carousel-style-01 .carousel-image:after {
+    display: none;
+}
+
+.fixed-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5% 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("../../img/bkg/transparent-red-900-85.png") 0 0 repeat transparent;
+    background: rgba(153, 0, 0, .85);
+    text-align: center;
+    color: #fff;
+    font-family: 'Trade Gothic W01 Light', Arial, sans-serif;
+    font-size: 1em;
+}
+
+.grey-box-1 h5 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #484848;
+}
+
+.img-button {
+    display: block;
+    width: 100%;
+    position: relative;
+    color: #fff;
+}
+
+.img-button > span {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.img-button > span > span {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 4px;
+    background: url("../../img/bkg/transparent-black-40.png") repeat scroll 0 0;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+
+}
+
+table.light-grey-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 360px) {
+    .fixed-caption {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .inside-header h3 {
+        font-size: 2.8em;
+    }
+    .programs-box-content ul li {
+        margin: 0 0 12px 50px;
+    }
+    .fixed-caption {
+        font-size: 1.3em;
+    }
+
+    .carousel-wrapper {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 560px) {
+    .fixed-caption {
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .courses-books {
+        background-image: url("../../img/student-life/marquee-courses-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .calendar {
+        background-image: url("../../img/student-life/marquee-students-hands-up-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .tuition-aid {
+        background-image: url("../../img/student-life/marquee-girls-on-lawn-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .student-life {
+        background-image: url("../../img/student-life/marquee-girl-and-guitar-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .registration {
+        background-image: url("../../img/university/marquee-autumn-steps-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .contact-page {
+        background-image: url("../../img/student-life/marquee-students-talking-outside-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .visiting-students {
+        background-image: url("../../img/student-life/marquee-people-walking-by-library-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .international-page {
+        background-image: url("../../img/student-life/marquee-international-students-walking-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .incoming-page {
+        background-image: url("../../img/student-life/marquee-girl-looking-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .high-school {
+        background-image: url("../../img/student-life/marquee-high-school-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .current-students {
+        background-image: url("../../img/student-life/marquee-girl-walking-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .adults-professionals {
+        background-image: url("../../img/student-life/marquee-adults-professionals-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .academic-resources {
+        background-image: url("../../img/student-life/marquee-student-studying-flowers-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+
+    .study-abroad {
+        background-image: url("../../img/student-life/marquee-study-abroad-marquee-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 100%;
+    }
+
+    .inside-header h3 {
+        font-size: 3em;
+        margin: 30px 0 20px 15px;
+    }
+
+    section.main-inside-content {
+        padding: 20px 0;
+    }
+
+    .high-school-content.inside-content.alt-headers h3 {
+        font-size: 3.1em !important;
+    }
+
+    .fixed-caption {
+        font-size: 1.9em;
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+    .programs-box-wrapper img,
+    .programs-box-content {
+        margin: 0;
+        display: inline-block;
+        float: left;
+    }
+
+    .programs-box-content {
+        padding: 30px 0 0 40px;
+    }
+
+    .programs-box-content ul {
+        margin: 0;
+        padding: 0;
+        font-family: 'Trade Gothic W01 Bold 2';
+    }
+
+    .programs-box-content ul li {
+        margin: 0 0 12px 20px;
+    }
+
+    .programs-box-wrapper {
+        padding: 0;
+    }
+
+    .inside-content.alt-headers .programs-box-wrapper h4 {
+        text-align: left;
+        padding: 0;
+    }
+
+    .fixed-caption {
+        font-size: 2.2em;
+    }
+}
+
+@media only screen and (min-width: 1022px) {
+    .inside-header h3 {
+        font-size: 3.5em;
+        margin: 120px 0 20px 15px;
+    }
+    .fixed-caption {
+        font-size: 3.3em;
+    }
+    .img-button > span {
+        top: 42%;
+        font-size: 1.4em;
+    }
+    .img-button > span > span {
+        padding: 8px;
+    }
+}
+
+@media only screen and (min-width: 1090px) {
+    .inside-header h3 {
+        margin: 120px 0 20px 0;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    .owl-prev {
+        top: 40%;
+        left: -60px;
+    }
+
+    .owl-next {
+        top: 40%;
+        right: -60px;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .inside-header h3 {
+        margin: 170px 0 20px 0;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+}
+
+@media only screen and (min-width: 1880px) {
+
+}

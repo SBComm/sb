@@ -16,7 +16,7 @@
 
 .summer-splash .blurb {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     right: 0;
 }
@@ -55,7 +55,8 @@
     border-bottom: 1px solid #fff;
 }
 
-h4 {
+.summer-wrapper h4,
+.summer-wrapper .filter-buttons h4 {
     color: #fff;
     display: block;
     width: 100%;
@@ -68,11 +69,16 @@ h4 {
     text-transform: none;
 }
 
-.clouds-background{
+.clouds-background {
     background: url('../../img/scenes/clouds-1024.jpg') 50% bottom;
     background-size: 500%;
     position: relative;
     padding: 40px 0;
+}
+
+.clouds-background h4 {
+    color: #000;
+    text-shadow: none;
 }
 
 .session-dates-wrapper p {
@@ -109,55 +115,187 @@ h4 {
     margin: 5px 0 0;
 }
 
+.summer-wrapper .sbu-cta {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 .filter-buttons {
     position: relative;
     padding: 40px 0px;
 }
 
-.circle-band-buttons-wrapper a.main-campus {
+.filter-buttons a.main-campus {
     background-image: url('../../img/circle-buttons/main-campus-circle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.circle-band-buttons-wrapper a.online {
+.filter-buttons a.online {
     background-image: url('../../img/circle-buttons/online-courses-circle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.circle-band-buttons-wrapper a.high-school {
+.filter-buttons a.high-school {
     background-image: url('../../img/circle-buttons/high-school-circle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.circle-band-buttons-wrapper a.health-sciences {
+.filter-buttons a.health-sciences {
     background-image: url('../../img/circle-buttons/health-sciences-circle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.circle-band-buttons-wrapper a.manhattan {
+.filter-buttons a.manhattan {
     background-image: url('../../img/circle-buttons/manhattan-circle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.circle-band-buttons-wrapper a.southampton {
+.filter-buttons a.southampton {
     background-image: url('../../img/circle-buttons/southampton-circle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.circle-band-buttons-wrapper a.study-abroad {
+.filter-buttons a.study-abroad {
     background-image: url('../../img/circle-buttons/study-abroad-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.calculus {
+    background-image: url('../../img/circle-buttons/calculus-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.biology {
+    background-image: url('../../img/circle-buttons/biology-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.physics {
+    background-image: url('../../img/circle-buttons/physics-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.macroeconomics {
+    background-image: url('../../img/circle-buttons/macroeconomics-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.psychology {
+    background-image: url('../../img/circle-buttons/psychology-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.accounting {
+    background-image: url('../../img/circle-buttons/accounting-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.rock {
+    background-image: url('../../img/circle-buttons/rock-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.pollution {
+    background-image: url('../../img/circle-buttons/pollution-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.cellular-bio {
+    background-image: url('../../img/circle-buttons/cellular-bio-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.bio-lab {
+    background-image: url('../../img/circle-buttons/bio-lab-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.chem-lab {
+    background-image: url('../../img/circle-buttons/chem-lab-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.org-chem {
+    background-image: url('../../img/circle-buttons/org-chem-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.biology {
+    background-image: url('../../img/circle-buttons/biology-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.writing-intro {
+    background-image: url('../../img/circle-buttons/writing-intro-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.mythology {
+    background-image: url('../../img/circle-buttons/mythology-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.adolescent {
+    background-image: url('../../img/circle-buttons/adolescent-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.communication {
+    background-image: url('../../img/circle-buttons/communication-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.org-change {
+    background-image: url('../../img/circle-buttons/org-change-circle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -222,7 +360,8 @@ h4 {
         margin-bottom: 60px;
     }
 
-    h4 {
+    .summer-wrapper h4,
+    .summer-wrapper .filter-buttons h4 {
         font-size: 2.4em;
     }
 
@@ -236,7 +375,7 @@ h4 {
         margin: 30px 0 0;
         font-size: 1.6em;
         text-align: center;
-        text-shadow: 0 0 15px rgba(255,255,255,.7);
+        text-shadow: 0 0 15px rgba(255,255,255,.4);
     }
 
 }
@@ -262,7 +401,8 @@ h4 {
         line-height: 1.3em;
     }
 
-    h4 {
+    .summer-wrapper h4,
+    .summer-wrapper .filter-buttons h4 {
         font-size: 3.3em;
         margin: 0 0 20px;
     }
@@ -270,12 +410,32 @@ h4 {
     .clouds-background{
         padding: 80px 140px;
     }
+
+    .inside-page-section-nav {
+        position: absolute;
+        right: 0;
+    }
+
+    .inside-page-section-nav .wrapper {
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 1022px) {
 
+    /* Nav tweak to fit items */
+
+    .sub-nav ul {
+        width: 100%;
+    }
+
     .clouds-background{
         padding: 80px 200px;
+    }
+
+    .clouds-background h4 {
+        color: #fff;
+        text-shadow: 0 0 4px rgba(0,0,0,.3), 1px -1px 0 rgba(0,0,0,.2);
     }
 
     .session-dates-wrapper p {
@@ -302,9 +462,12 @@ h4 {
         background-size: cover;
         background-position: 50% 30%;
     }
+    .summer-splash .blurb {
+        bottom: 20px;
+    }
     .summer-splash .no-pad-wrapper {
         position: relative;
-        height: 900px;
+        height: 780px;
     }
     .clouds-background{
         padding: 80px 400px;

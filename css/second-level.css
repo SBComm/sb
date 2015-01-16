@@ -79,7 +79,6 @@
 /* Carousel style 1 */
 
 .carousel-style-01 .carousel-image:after {
-    background: rgba(0,0,10,0.4);
     content: " ";
     position: absolute;
     top: 0;
@@ -88,6 +87,7 @@
     left: 0;
     height: 100%;
     width: 100%;
+    background: rgba(0,0,10,0.4);
 }
 
 .carousel-style-01 .carousel-text {

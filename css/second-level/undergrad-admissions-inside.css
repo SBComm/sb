@@ -148,17 +148,6 @@ section.full-width-banner-image {
         box-sizing: border-box;
     }
 
-    .suny-korea {
-        background-image: url("../../img/university/suny-korea-768.jpg");
-        background-size: cover;
-        background-position: 50% 50%;
-        height: 537px;
-        padding: 60px 0 0;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-
     /* Campus Life Images */
 
     .cl-activities {
@@ -342,42 +331,6 @@ section.full-width-banner-image {
     margin: 0 0 40px;
     font-size: 1.05em;
     color: #900;
-}
-
-
-.suny-callout {
-    display: block;
-    width: 272px;
-    height: 420px;
-    border: 3px solid #900;
-    background: url("../../img/bkg/transparent-white-85.png") 0 0 repeat transparent;
-    background: rgba(255,255,255,.85);
-    box-shadow: 3px 3px 20px #555;
-    padding: 20px 25px;
-    color: #111;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0 auto;
-}
-
-.suny-callout .logo {
-    display: block;
-    padding: 10px 0 35px;
-    margin: 0;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.suny-callout p {
-    display: block;
-    margin: 0;
-    font-family: 'Trade Gothic W01 Light';
-    font-family:'TradeGothicNextW01-Ligh 693250';
-    font-size: 1.15em;
-    line-height: 1.6em;
 }
 
 /* Counselors */
@@ -1651,16 +1604,6 @@ section.cl-arts  {
         float: right;
         margin-right: 1%;
         margin-top: 20px;
-    }
-
-    .suny-korea {
-        background-image: url("../../img/university/suny-korea-1600.jpg");
-        background-position: 50% 67%;
-    }
-
-    .suny-korea .suny-callout {
-        float: left;
-        margin: 0;
     }
 
     .counselor-container .profile-info-wrapper {
