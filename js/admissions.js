@@ -49,11 +49,9 @@ $(document).ready(function() {
             subNavLi = $(this).closest('li');
 
             if($(dropNav).hasClass('open')) {
-                console.log('open');
                 $(subNavLi).removeClass('active');
                 hideDropNav(dropNavId);
             } else {
-                console.log('closed');
                 $('.main-nav-list li').removeClass('active');
                 hideAllDropNav();
                 $(subNavLi).addClass('active');
