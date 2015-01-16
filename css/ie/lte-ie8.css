@@ -18,10 +18,12 @@
   top: 0px !important;
 }
 
-.student-quotes .person-wrapper,
-.student-quotes .person-wrapper .table-cell,
-.student-quotes .person-wrapper .table-cell img {
-  height: 171px;
+@media only screen and (max-width: 1021px) {
+  .student-quotes .person-wrapper,
+  .student-quotes .person-wrapper .table-cell,
+  .student-quotes .person-wrapper .table-cell img {
+    height: 171px;
+  }
 }
 
 @media only screen and (min-width: 1022px) {
