@@ -63,29 +63,6 @@ $(document).ready(function() {
 
     });
 
-    // section subnav
-
-    $('.section-nav-trigger a').on('click',function(event){
-        event.preventDefault();
-        $(this).toggleClass('active');
-        $sectionNav = $('.section-nav');
-
-        if($sectionNav.hasClass('open')) {
-            $sectionNav.fadeIn(0,function(){
-              $sectionNav.removeClass('open')
-                .slideUp('fast',function() {
-                    $sectionNav.addClass('hide-accessible-mobile-960').fadeIn('fast');
-                });
-            });
-        } else {
-            $sectionNav.fadeOut(0,function(){
-              $sectionNav.removeClass('hide-accessible-mobile-960').addClass('open')
-                .slideDown('fast');
-            });
-        }
-
-    });
-
     //view more comparisons
 
     $('.cost-comparison .view-more').click(function(event) {
