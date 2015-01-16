@@ -24,9 +24,9 @@
     <section class="clearfix inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
             <h3>How to Apply to Stony Brook as a Transfer</h3>
-            <div class="content application-details alert-message red clearfix">
+            <!--<div class="content application-details alert-message red clearfix">
                 <p><strong>Please note:</strong> Stony Brook is no longer accepting applications for the spring 2015 semester.</p>
-            </div>
+            </div>-->
             <div class="content application-details clearfix">
                 <div class="inner-wrapper">
                     <p>To apply to Stony Brook University as a transfer student, please follow these application procedures. Before submitting an application, be sure to review our list of <a href="undergraduate-admissions/academics/">academic offerings</a>. Students applying for admission to <a class="external-link" href="http://stonybrookmedicine.edu/education/healthsciences" target="_blank">Health Sciences programs</a> must follow <a href="undergraduate-admissions/apply/hsc-admission-criteria/">special application procedures</a>.</p>

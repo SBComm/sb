@@ -32,7 +32,7 @@
                 <p>With prestigious rankings and international recognition that place us among the Top 1%* of higher education institutions worldwide, <span class="nowrap">Stony Brook</span> is invested in undergraduate education.</p>
                 <ul class="arrow-bullets">
                     <li>Stony Brook is one of the most affordable top-ranked universities in the nation.<!-- View Cost Comparison--></li>
-                    <li>Stony Brook has been named to Kiplinger's list of <strong>30 Best  Values</strong> in public colleges and universities.</li>
+                    <li>Stony Brook has been named to Kiplinger's list of <strong>35 Best Values</strong> in public colleges and universities.</li>
                     <li><em>U.S. News &amp; World Report</em> has ranked SB among the <strong>top 100 universities</strong> and top 40 public universities.</li>
                 </ul>
                 <p>Nearly 90% of our recent graduates are either employed or continuing their education.</p>
