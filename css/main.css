@@ -282,6 +282,12 @@ video.background-video {
     border-bottom: 3px solid #AAAAAA;
 }
 
+.border-thin-dark {
+    border: 1px solid #7b7b7b;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
 .border-box {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -314,6 +320,22 @@ video.background-video {
     padding-top: 20px;
 }
 
+.pad-left {
+    padding-left: 20px;
+}
+
+.pad-right {
+    padding-right: 20px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
 .no-pad {
     padding: 0 !important;
 }
@@ -322,8 +344,16 @@ video.background-video {
     margin: 0 !important;
 }
 
+.overflow-visible {
+    overflow: visible !important;
+}
+
 .relative {
     position: relative;
+}
+
+.center-text {
+    text-align: center;
 }
 
 .left {
@@ -332,6 +362,23 @@ video.background-video {
 
 .right {
     float: right;
+}
+
+/* Layout */
+
+.one-half,
+.one-third, .two-third,
+.one-quarter, .three-quarter {
+    width: 100%;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 20px 10px;
+}
+
+.border-thin-dark {
+    padding: 0;
 }
 
 .back-black-op65 {
@@ -504,9 +551,9 @@ video.background-video {
 ul,
 li {
     list-style: none;
-    padding: 0;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
 }
 
 li.sbu-text {
@@ -623,6 +670,7 @@ body {
         display: block;
         margin: 20px 0;
         padding: 0;
+        text-rendering: optimizeLegibility;
     }
 
     h1.serif,
@@ -647,6 +695,12 @@ body {
         cursor: default;
         margin: 20px 0;
         padding: 0;
+    }
+
+    h5 {
+        font-family:'Trade Gothic Next W01';
+        text-transform: none;
+        color: #222;
     }
 
     .caption {
@@ -1100,9 +1154,15 @@ body {
         border: 1px solid #188cdf;
     }
 
+    .rounded-flat-button-wrapper.turquoise-blue a.selected {
+        border: 3px solid rgba(128, 219, 240, 0.5);
+        padding: 10px 4px;
+    }
+
     /* Circle Band Buttons */
 
-    .circle-band-buttons-wrapper a {
+    .circle-band-buttons-wrapper a,
+    .circle-band-buttons-wrapper-2 a {
         display: block;
         background-image: url('../img/student-life/students-walking.jpg');
         background-size: cover;
@@ -1152,6 +1212,47 @@ body {
         box-shadow: 0 0 0 150px rgba(45, 195, 232, .6);
     }
 
+    .circle-band-buttons-wrapper-2 a > span {
+        display: block;
+        opacity: .95;
+        background: #2dc3e8;
+        height: 100px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 100px 0 0 0;
+        padding: 5px 0 0 0;
+        -webkit-transition: box-shadow .3s;
+        -moz-transition: box-shadow .3s;
+        transition: box-shadow .3s;
+        box-shadow: 0 0 0 100px rgba(45, 195, 232, 0);
+    }
+
+    .circle-band-buttons-wrapper-2 a:hover > span {
+        opacity: .9;
+    }
+
+    .circle-band-buttons-wrapper-2 a span .line-1,
+    .circle-band-buttons-wrapper-2 a span .line-2 {
+        display: block;
+        width: 100%;
+        font-family: 'Trade Gothic W01 Bold 2';
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .circle-band-buttons-wrapper-2 a span .line-1 {
+        color: #1a2d1d;
+        font-size: 1.3em;
+        margin: 2px 0 7px;
+    }
+
+    .circle-band-buttons-wrapper-2 a span .line-2 {
+        font-size: 1.1em;
+        color: #fafafa;
+        text-shadow: 0 0 2px #20798E;
+    }
+
     /* Tables */
 
     .simple-two-col-table {
@@ -1177,16 +1278,19 @@ body {
     table.light-grey-table {
         background: #eee;
         margin: 0 0 20px;
+        border: 8px solid #fff;
+        box-shadow: 0 0 0 1px #900;
     }
 
     .light-grey-table th {
         font-family: 'Trade Gothic W01 Bold 2';
+        color: #900;
     }
 
     .light-grey-table th,
     .light-grey-table td {
         font-weight: normal;
-        border: 1px solid #fff;
+        border-right: 1px solid #bbb;
         height: 60px;
         vertical-align: middle;
         padding: 6px 8px;
@@ -1195,10 +1299,23 @@ body {
         box-sizing: border-box;
     }
 
+    .light-grey-table th:last-child,
+    .light-grey-table td:last-child {
+        border-right: 0 none;
+    }
 
+    table.light-grey-table tr:nth-child(even) {
+        background: #f0f0f0;
+    }
+
+    table.light-grey-table tr:nth-child(odd) {
+        background: #e3e3e3;
+    }
 
     table.responsive-flip {
-        width: 100%;
+        width: 99%;
+        margin-left: .5%;
+        margin-right: .5%;
     }
 
     .responsive-flip-4 tr {
@@ -1243,7 +1360,6 @@ body {
     @media only screen and (min-width: 768px) {
 
         .simple-two-col-table tr {
-            border-top: 1px solid #fff;
             display: table-row;
         }
 
@@ -1268,7 +1384,7 @@ body {
 
         .light-grey-table th,
         .light-grey-table td {
-            border: 2px solid #fff;
+            
         }
 
         .background-image-buttons span.label {
@@ -1290,20 +1406,60 @@ body {
         list-style: upper-alpha !important;
     }
 
+    /*
     ol.number > li {
         list-style-type: decimal !important;
     }
+     */
+    
+    ol.number {
+        list-style: none !important;
+        counter-reset: number-counter;
+    }
+    
+    ol.number > li {
+        margin: 0 0 4px;
+        position: relative;
+    }
+    
+    ol.number > li:before {
+        content: counter(number-counter) '.';
+        counter-increment: number-counter;
+        padding: 0 8px 0 0;
+        position: absolute;
+        left: -20px;
+    }
+    
+    ol.large-number > li {
+        margin: 0 0 20px;
+    }
+    
+    ol.large-number > li:before {
+        font-size: 1.5em;
+        left: -27px;
+        top: -2px;
+        font-family: 'Trade Gothic W01 Bold 2';
+        color: #900;
+    }
+
+
 
     /* Title Link Box */
 
     div.title-link-box-1 {
         margin-bottom: 30px;
-        padding: 0 10px;
+        /*padding: 0 10px;*/
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     div.title-link-box-2 {
         margin-bottom: 30px;
         padding: 0 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     .title-link-box-2 .text {
@@ -1398,6 +1554,60 @@ body {
         .link-boxes-container a {
 
         }
+    }
+
+    /* Grey box */
+
+    .grey-box-1 {
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 99%;
+        margin: 20px .5%;
+        border: 5px solid #fff;
+        box-shadow: 0 0 0 1px #900;
+        padding: 15px 20px;
+        background: #e3e3e3;
+        clear: both;
+    }
+
+    .grey-box-1 > a {
+        background: #eee;
+        width: 100%;
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+        color: #900;
+        text-transform: uppercase;
+        font-family:'Trade Gothic W01 Light';
+        border: 1px solid #c5c5c5;
+        font-size: 1.1em;
+        padding: 6px 2px;
+        text-rendering: optimizeLegibility;
+    }
+
+    /* Full-width red button (for use on .back-dark-red-crossed) */
+
+    .full-width-red-button {
+        background: #890000;
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+        color: #c5c5c5;
+        text-transform: uppercase;
+        font-family:'Trade Gothic W01 Light';
+        border: 1px solid #c5c5c5;
+        font-size: 1.1em;
+        padding: 6px 2px;
+        text-rendering: optimizeLegibility;
     }
 
     /* Promo boxes */
@@ -1566,6 +1776,71 @@ body {
         display: block;
         padding: 22px 0 18px 8px;
 
+    }
+
+    /* Reusable Section Elements */
+
+    .suny-korea {
+        background-image: url("../img/university/suny-korea-768.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 537px;
+        padding: 60px 0 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .suny-callout {
+        display: block;
+        width: 272px;
+        height: 420px;
+        border: 3px solid #900;
+        background: url("../../img/bkg/transparent-white-85.png") 0 0 repeat transparent;
+        background: rgba(255,255,255,.85);
+        box-shadow: 3px 3px 20px #555;
+        padding: 20px 25px;
+        color: #111;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .suny-callout .logo {
+        display: block;
+        padding: 10px 0 35px;
+        margin: 0;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .suny-callout p {
+        display: block;
+        margin: 0;
+        font-family: 'Trade Gothic W01 Light';
+        font-family:'TradeGothicNextW01-Ligh 693250';
+        font-size: 1.15em;
+        line-height: 1.6em;
+    }
+
+    .white-strong-on-red {
+        background: #900;
+        font-family: 'Trade Gothic W01 Bold 2';
+        font-style: normal;
+        text-transform: uppercase;
+        display: block;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 1.2em;
+        padding: 4px 2px;
+        color: #fff;
+        text-align: center;
+        margin: 4px 0 12px;
     }
 
     /* Element container arrow */
@@ -2051,11 +2326,11 @@ body {
     /* Inside content */
 
     section.inside-content {
-        padding: 0 0 20px;
+        padding: 0 0 20px;;
     }
 
     section.inside-content .wrapper {
-        overflow: visible;
+        overflow: auto;
     }
 
     section.inside-content a {
@@ -2211,6 +2486,28 @@ body {
         font-size: 2.3em;
     }
 
+    .inside-content.alt-headers h3 {
+        color: #7d7b7b;
+        margin: 20px 0 15px;
+        padding: 0;
+        border: 0;
+        font-size: 2.1em;
+        line-height: 1;
+    }
+
+    .inside-content.alt-headers h4 {
+        font-family: 'Trade Gothic W01 Light';
+        text-transform: none;
+        text-align: left;
+        font-size: 1.3em;
+        padding: 0 0 15px;
+        margin: 30px 0 20px;
+        color: #900;
+        border-bottom: 1px solid #777;
+        line-height: 1.1em;
+        text-shadow: none;
+    }
+
     .inside-content .content {
         font-size: 1em;
         line-height: 1.6em;
@@ -2222,13 +2519,14 @@ body {
         box-sizing: border-box;
         width: 100%;
         float: left;
+        text-rendering: optimizeLegibility;
     }
 
     .inside-content p {
         font-size: 1em;
         line-height: 1.6em;
         font-family: 'Trade Gothic Next W01', Arial, sans-serif;
-        color: #333;
+        /* color: #333; */
     }
 
     .inside-content .content strong {
@@ -2341,7 +2639,31 @@ body {
         color: #0fffff;
     }
 
+    .box-bullets li {
+        margin-left: 20px;
+        text-indent: -15px;
+    }
+
+    .box-bullets li:before {
+        display: inline-block;
+        content: "■";
+        margin: 0 0 0 0;
+        font-style: normal;
+        font-weight: normal;
+        font-family: arial;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        font-size: 1.2em;
+        width: 10px;
+        text-align: center;
+        color: #900;
+    }
+
     @media only screen and (min-width: 560px) {
+
         .inside-content h3 {
             font-family: 'Trade Gothic W01 Light';
             text-transform: none;
@@ -2364,6 +2686,10 @@ body {
         .site-carousel.inside-header .carousel-wrapper .item,
         .site-carousel.inside-header .carousel-image {
             height: 300px;
+        }
+
+        section.inside-content .wrapper {
+            overflow: visible;
         }
 
         .inside-content .section-title {
@@ -2921,18 +3247,21 @@ footer.site-footer .social .small-button:after {
         font-size: 50px;
     }
 
-    .circle-band-buttons-wrapper {
+    .circle-band-buttons-wrapper,
+    .circle-band-buttons-wrapper-2 {
         text-align: center;
     }
 
-    .circle-band-buttons-wrapper a {
+    .circle-band-buttons-wrapper a,
+    .circle-band-buttons-wrapper-2 a {
         width: 200px;
         float: none;
         display: inline-block;
         margin: 0 15px 30px
     }
 
-    .circle-band-buttons-wrapper a span {
+    .circle-band-buttons-wrapper a span
+    .circle-band-buttons-wrapper-2 a span {
         -webkit-transform: rotate(-30deg);
         -moz-transform: rotate(-30deg);
         -ms-transform: rotate(-30deg);
@@ -3011,7 +3340,13 @@ footer.site-footer .social .small-button:after {
         margin: 0 1% 12px;
     }
 
-    .circle-band-buttons-wrapper a {
+    .rounded-flat-button-wrapper.turquoise-blue a.selected {
+        border: 3px solid rgba(128, 219, 240, 0.5);
+        padding: 10px 4px;
+    }
+
+    .circle-band-buttons-wrapper a,
+    .circle-band-buttons-wrapper-2 a {
         width: 224px;
         height: 224px;
         float: none;
@@ -3027,8 +3362,37 @@ footer.site-footer .social .small-button:after {
         width: 104%;
     }
 
+    .circle-band-buttons-wrapper-2 a > span {
+        height: 120px;
+        font-size: 1em;
+        margin: 104px 0 0 -2%;
+        padding: 10px 0 0 0;
+        width: 104%;
+    }
+
+    .circle-band-buttons-wrapper-2 a span .line-1 {
+
+    }
+
     .filter-buttons .no-pad-wrapper {
         max-width: 1220px;
+    }
+
+    .inside-content.alt-headers h4 {
+        font-size: 1.6em;
+    }
+
+    .inside-content.alt-headers h3 {
+        font-size: 2.8em;
+    }
+
+    .grey-box-1 {
+        padding: 22px 30px;
+    }
+
+    .grey-box-1 > a,
+    .full-width-red-button {
+        font-size: 1.3em;
     }
 }
 
@@ -3102,9 +3466,63 @@ footer.site-footer .social .small-button:after {
     .rounded-flat-button-wrapper a {
         font-size: 1.4em;
     }
+
+    .rounded-flat-button-wrapper.turquoise-blue a.selected {
+        border: 3px solid rgba(128, 219, 240, 0.5);
+        padding: 10px 12px;
+    }
+
+    .inside-content.alt-headers h3 {
+        margin: 40px 0 20px;
+        font-size: 3.6em;
+    }
+
+    .suny-korea {
+        background-image: url("../img/university/suny-korea-1600.jpg");
+        background-position: 50% 67%;
+    }
+
+    .suny-korea .suny-callout {
+        float: left;
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 960px) {
+    .margin-top {
+        margin-top: 40px;
+    }
+    .margin-bottom {
+        margin-bottom: 40px;
+    }
+    .one-half,
+    .one-third, .two-third,
+    .one-quarter, .three-quarter {
+        display: inline-block;
+        float: left;
+        padding: 15px;
+    }
+
+    .one-half {
+        width: 50%;
+    }
+
+    .one-quarter {
+        width: 25%;
+    }
+
+    .three-quarter {
+        width: 75%;
+    }
+
+    .one-third {
+        width: 33.333%;
+    }
+
+    .two-third {
+        width: 66.667%;
+    }
+
     .title-link-box-1,
     .title-link-box-2,
     .title-link-box-1.wrapper,
@@ -3142,6 +3560,11 @@ footer.site-footer .social .small-button:after {
         margin: 0 .75% 12px;
         font-size: 1.5em;
         padding: 16px 12px;
+    }
+
+    .rounded-flat-button-wrapper.turquoise-blue a.selected {
+        border: 3px solid rgba(128, 219, 240, 0.5);
+        padding: 14px 12px;
     }
 }
 
@@ -3271,6 +3694,22 @@ footer.site-footer .social .small-button:after {
     .numbers-wrapper .item.rtl2 .text-wrapper,
     .numbers-wrapper .item.rtl2 .image-wrapper {
         float: left;
+    }
+
+    .grey-box-1 {
+        padding: 35px 45px;
+    }
+
+    .grey-box-1 > a,
+    .full-width-red-button {
+        font-size: 1.4em;
+        letter-spacing: .075em;
+        padding: 8px 2px;
+    }
+
+    .grey-box-1 > a:hover {
+        box-shadow: 0 0 10px #ddd;
+        background: #ececec;
     }
 }
 
