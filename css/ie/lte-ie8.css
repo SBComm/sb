@@ -18,6 +18,15 @@
   top: 0px !important;
 }
 
+.drop-nav li {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.drop-nav li[data-last-child="true"] a .label {
+  position: relative !important;
+}
+
 @media only screen and (max-width: 1021px) {
   .student-quotes .person-wrapper,
   .student-quotes .person-wrapper .table-cell,
