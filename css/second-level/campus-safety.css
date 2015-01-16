@@ -22,19 +22,19 @@
 }
 
 .carousel-image[data-image='01'] {
-    background-image: url("../../economic-development/images/carousel-01.jpg");
+    background-image: url("../../campus-safety/images/dist_driving_marquee.jpg");
 }
 
 .carousel-image[data-image='02'] {
-    background-image: url("../../economic-development/images/carousel-02.jpg");
+    background-image: url("../../campus-safety/images/carousel-02.jpg");
 }
 
 .carousel-image[data-image='03'] {
-    background-image: url("../../economic-development/images/carousel-03.jpg");
+    background-image: url("../../campus-safety/images/carousel-03.jpg");
 }
 
 .carousel-image[data-image='04'] {
-    background-image: url("../../economic-development/images/carousel-04.jpg");
+    background-image: url("../../campus-safety/images/carousel-04.jpg");
 }
 
 .tabs-wrapper h2 {

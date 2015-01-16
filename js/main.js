@@ -190,6 +190,34 @@ $(document).ready(function() {
 
 	});
 
+    // section subnav
+
+    $('.section-nav-trigger a').on('click',function(event){
+        event.preventDefault();
+        $(this).toggleClass('active');
+        $sectionNav = $('.section-nav');
+
+        if($sectionNav.hasClass('open')) {
+            $sectionNav.fadeIn(0,function(){
+              $sectionNav.removeClass('open')
+                .slideUp('fast',function() {
+                    $sectionNav.addClass('hide-accessible-mobile-960').fadeIn('fast');
+                });
+            });
+        } else {
+            $sectionNav.fadeOut(0,function(){
+              $sectionNav.removeClass('hide-accessible-mobile-960').addClass('open')
+                .slideDown('fast');
+            });
+        }
+
+    });
+
+    // Get the text of the currently selected section nav and update the dropdown
+    if($('.section-nav .selected').length) {
+    	$('.section-nav-trigger a').text($('.section-nav .selected').text());
+    }
+
 	$('input[type="text"]').on('focus',function() {
 		$(this).addClass('focus');
 	}).on('focusout',function() {
