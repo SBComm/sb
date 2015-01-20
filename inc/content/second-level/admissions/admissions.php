@@ -17,7 +17,7 @@
                 <div class="compare-table-col border-box">
                     <h3 role="button" data-accordion-trigger="true" data-target="compare-links-1" data-screen-size="mobile">Undergraduate</h3>
                     <div class="links hide-accessible-mobile equal-height-col compare-links-1">
-                        <a href="http://stonybrook.edu/undergraduate-admissions/" alt="Admission Criteria"><i class="fa fa-check"></i>Admissions</a><br />
+                        <a href="http://stonybrook.edu/undergraduate-admissions/" alt="Admission Criteria"><i class="fa fa-check"></i>Admissions</a>
                         <a href="http://stonybrook.edu/undergraduate-admissions/apply/" alt="Apply Now"><i class="fa fa-paper-plane"></i>Apply Now</a>
                         <a href="http://stonybrook.edu/undergraduate-admissions/academics/" alt="Majors &amp; Minors"><i class="fa fa-graduation-cap"></i>Majors &amp; Minors</a>
                         <a href="http://stonybrook.edu/undergraduate-admissions/cost-and-financial-aid/" alt="Costs &amp; Aid"><i class="fa fa-dollar"></i>Costs &amp; Aid</a>

@@ -14,7 +14,7 @@
         <div class="item rtl clearfix">
             <div class="text-wrapper">
                 <p class="equal-col">
-                    <span class="stat"><em>Top 30</em> best value<br /><span class="nowrap">public colleges</span></span>
+                    <span class="stat"><em>Top 35</em> best value<br /><span class="nowrap">public colleges</span></span>
                     <span class="source">~Kiplinger</span>
                 </p>
             </div>
