@@ -38,10 +38,10 @@
                         <li>After submitting your application, you will be assigned a Stony Brook ID number to be used for all registration transactions in <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR</a>.</li>
                         <li>When you have completed your course work, you can order an official transcript.</li>
                     </ol>
-                    <a class="sbu-cta sbu-cta-1 sbu-cta-1a" href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx" target="_blank">Apply Now</a>
+                    <a class="sbu-cta sbu-cta-1 sbu-cta-1a" href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx" target="_blank">Register Now</a>
                 </div>
                 <div class="one-third">
-                    <h4>High School Students</h4>
+                    <h4>Visiting Students</h4>
                     <h5>Steps To Take</h5>
                     <ol class="number">
                         <li>Make your course selection and credits. Gain prior approval from your current institution (including other SUNYs) to ensure that these credits will be accepted toward your degree.</li>
@@ -50,7 +50,7 @@
                         <li>After submitting your application, you will be assigned a Stony Brook ID number to be used for all registration transactions in <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR</a>.</li>
                         <li>When you have completed your course work, you can order an official transcript.</li>
                     </ol>
-                    <a class="sbu-cta sbu-cta-1 sbu-cta-1a" href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx" target="_blank">Apply Now</a>
+                    <a class="sbu-cta sbu-cta-1 sbu-cta-1a" href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx" target="_blank">Register Now</a>
                 </div>
             </div>
         </div>

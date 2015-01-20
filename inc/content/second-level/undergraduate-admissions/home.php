@@ -58,7 +58,7 @@
                 <div class="side-title"><span>Info For</span></div>
                 <div class="links-wrapper">
                     <a href="undergraduate-admissions/future-students/"><span class="label">Future Students</span><em class="fa fa-angle-right"></em><span class="after-text">See yourself at SBU...</span></a>
-                    <a href="http://www.stonybrook.edu/ugadmissions/admitted/"><span class="label">Admitted Students</span><em class="fa fa-angle-right"></em><span class="after-text">Get the information you need...</span></a>
+                    <a href="http://www.stonybrook.edu/commcms/admitted/"><span class="label">Admitted Students</span><em class="fa fa-angle-right"></em><span class="after-text">Get the information you need...</span></a>
                     <a href="undergraduate-admissions/college-counselors/"><span class="label">College Counselors</span><em class="fa fa-angle-right"></em><span class="after-text">Criteria, deadlines, and more...</span></a>
                     <a href="undergraduate-admissions/parents"><span class="label">Parents</span><em class="fa fa-angle-right"></em><span class="after-text">Why you'll love SB...</span></a>
                     <a href="undergraduate-admissions/application-status"><span class="label">Applicants</span><em class="fa fa-angle-right"></em><span class="after-text">Check your status...</span></a>

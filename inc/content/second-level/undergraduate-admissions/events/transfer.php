@@ -37,24 +37,16 @@
             <div class="content col-2">
                 <h4>Transfer Student Sessions</h4>
                 <p>
-                    Friday, December 5, 2014<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=6235770c944f297ead4884831064a7ee3b9d04" target="_blank">Register Now</a>
+                    Friday, February 13, 2015<br />
+                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577f62335c887f44683b32aa4fa014197e7" target="_blank">Register Now</a>
                 </p>
                 <p>
-                    Friday, December 12, 2014<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577d1c48ba43e244589aac31fe0dff1b1c8" target="_blank">Register Now</a>
+                    Friday, February 20, 2015<br />
+                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577ed7069eada7d444e87d780c652e47d44" target="_blank">Register Now</a>
                 </p>
                 <p>
-                    Friday, January 9, 2014<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577f893b4503a644ee98bdb2480b9278222" target="_blank">Register Now</a>
-                </p>
-                <p>
-                    Friday, January 16, 2014<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=62357759377d7593ea4ea5a00fd04ce3185540" target="_blank">Register Now</a>
-                </p>
-                <p>
-                    Friday, January 23, 2014<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=62357712c403da5cf34385b78a4976f1564fa1" target="_blank">Register Now</a>
+                    Friday, February 27, 2015<br />
+                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=62357768c11ad3f1ea456f966889aa7e3d8274" target="_blank">Register Now</a>
                 </p>
             </div>
         </div>
