@@ -49,7 +49,8 @@
                 <li id="emergency-management" class="mental-health clearfix open">
                     <h3>Emergency Management</h3>
                     <div class="content col-two-third">
-                        <h4>SB Alert</h4>
+                        <p>In order to respond effectively to emergency situations, Stony Brook University maintains an Emergency Management Plan and has created an Emergency Operations Center and an Emergency Management Team. The team is trained to evaluate and respond to major emergency situations using the Incident Command System, ensuring effective management of the people, organizations, and resources on campus.</p>
+                        <h4>SB Alert &amp; SB Guardian</h4>
                         <p><strong>SB Alert</strong> is an emergency notification system that alerts the campus community about major emergencies, immediate threats or other emergency situations. The system can send a message to any device you select. Every student and employee should sign up.</p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/alertsindex.html" title="Sign up for SB Alerts" target="_blank">Sign up now for SB Alerts</a></p>
                         <p><strong>SB Guardian</strong> is frequently referred to as a "personal blue light phone" in your pocket. The system can provide a one-touch call to notify University Police.  It also offers a precautionary timer that alerts police if a traveling user does not reach a campus destination by a given time.</p>
@@ -65,6 +66,7 @@
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/procedures.shtml" target="_blank">Emergency Procedures</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/personal_safety.shtml" target="_blank">Personal Safety</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/blue_lights.shtml" target="_blank">Blue Light Phones</a></p>
+                        <p><a class="external-link" href="http://sbccert.org/" target="_blank">C-CERT</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/safety_warden.shtml" target="_blank">Safety Warden Program</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/documents/EMBrochure2011.pdf" target="_blank">Emergency Management Brochure</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/safety_tips.shtml" target="_blank">Safety Tips</a></p>
@@ -211,7 +213,7 @@
                 <li id="environmental-health" class="alcohol-drugs clearfix">
                     <h3>Environmental Health &amp; Safety</h3>
                     <div class="content col-two-third">
-                        <p><a href="http://www.stonybrook.edu/ehs/" title="Environmental Health and Safety" target="_blank">Environmental Health &amp; Safety</strong> promotes safety and environmental stewardship through the development and implementation of a variety of environmental, health and safety programs.</p>
+                        <p><a class="external-link" href="http://www.stonybrook.edu/ehs/" title="Environmental Health and Safety" target="_blank">Environmental Health &amp; Safety</a> promotes safety and environmental stewardship through the development and implementation of a variety of environmental, health and safety programs.</p>
                         <p>Your awareness and involvement will help to ensure compliance and the well-being of our campus community.</p>
 
                         <h4>Lab Safety</h4>
@@ -282,10 +284,10 @@
                 <!--<a class="promo-box-round-title-1 reactions" href="http://www.stonybrook.edu/police/safety/reactions-not-distractions.shtml" title="Reactions, Not Distractions" target="_blank">
                     <span>Reactions, Not Distractions</span>
                 </a>-->
-                <a class="promo-box-round-title-1 environment" href="http://www.stonybrook.edu/ehs/" title="Environmental Health &amp; Safety">
+                <a class="promo-box-round-title-1 environment" href="http://www.stonybrook.edu/ehs/" title="Environmental Health &amp; Safety" target="_blank">
                     <span>Environmental Health &amp; Safety</span>
                 </a>
-                <a class="promo-box-round-title-1 campus" href="http://studentaffairs.stonybrook.edu/res/" title="Campus Residences">
+                <a class="promo-box-round-title-1 campus" href="http://studentaffairs.stonybrook.edu/res/" title="Campus Residences" target="_blank">
                     <span>Campus Residences</span>
                 </a>
                 <a class="promo-box-round-title-1 residential" href="http://studentaffairs.stonybrook.edu/risk_management/" title="Residential Risk Management" target="_blank">
@@ -294,10 +296,10 @@
                 <a class="promo-box-round-title-1 reactions" href="http://www.stonybrook.edu/commcms/eap/" title="Employee Assistance Program" target="_blank">
                     <span>Employee Assistance Program</span>
                 </a>
-                <a class="promo-box-round-title-1 cleary" href="http://www.stonybrook.edu/police/annual-security-report/index.shtml" title="Cleary Act">
+                <a class="promo-box-round-title-1 cleary" href="http://www.stonybrook.edu/police/annual-security-report/index.shtml" title="Cleary Act" target="_blank">
                     <span>Cleary Act</span>
                 </a>
-                <a class="promo-box-round-title-1 diversity" href="http://www.stonybrook.edu/diversity/" title="Diversity &amp; Affirmative Action">
+                <a class="promo-box-round-title-1 diversity" href="http://www.stonybrook.edu/diversity/" title="Diversity &amp; Affirmative Action" target="_blank">
                     <span>Diversity &amp; Affirmative Action</span>
                 </a>
                 <a class="promo-box-round-title-1 title" href="http://www.stonybrook.edu/diversity/titleix/index.html" title="Title IX" target="_blank">
@@ -316,7 +318,7 @@
                     <span>Center for Prevention &amp; Outreach (CPO)</span>
                 </a>
                 <a class="promo-box-round-title-1 counseling" href="http://studentaffairs.stonybrook.edu/caps/" title="Counseling &amp; Psycological Services" target="_blank">
-                    <span>Counseling &amp; Psycological Services</span>
+                    <span>Counseling &amp; Psychological Services</span>
                 </a>
             </div>
         </div>
