@@ -9,29 +9,13 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
-                        <div class="carousel-image clearfix" data-image="01">
-                        </div>
+                        <img src="campus-safety/images/serious-safety-marquee.jpg" />
                     </div>
                     <div class="item">
-                        <div class="carousel-image clearfix" data-image="02">
-                        </div>
-                        <div class="carousel-text clearfix">
-                            <div class="carousel-title lime-green">Placeholder</div>
-                        </div>
+                        <img src="campus-safety/images/dist_driving_marquee.jpg" />
                     </div>
                     <div class="item">
-                        <div class="carousel-image clearfix" data-image="03">
-                        </div>
-                        <div class="carousel-text clearfix">
-                            <div class="carousel-title steel-blue">Reactions, Not Distractions</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="carousel-image clearfix" data-image="04">
-                        </div>
-                        <div class="carousel-text clearfix">
-                            <div class="carousel-title white">Lab Safety is No Accident</div>
-                        </div>
+                        <img src="campus-safety/images/safety_marquee_lab.jpg" />
                     </div>
                 </div>
                 <div class="owl-prev owl-prev-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-left"></em></div>
@@ -44,16 +28,16 @@
     <section class="clearfix">
         <div class="no-pad-wrapper border-box tabs-wrapper">
 
-            <h2 class="red clearfix">Stony Brook <span class="serif-italic">Serious About Safety</span></h2>
+            <!--<h2 class="red clearfix">Stony Brook <span class="serif-italic">Serious About Safety</span></h2>-->
 
             <ul id="tabbed-nav" class="clearfix">
                 <li class="selected"><a href="#emergency-management" data-content-id="1" data-trigger-role="show-content" data-trigger-scope="desktop" >Emergency Management</a></li>
-                <li><a href="#residential-safety" data-content-id="2" data-trigger-role="show-content" data-trigger-scope="desktop">Residential Safety</a></li>
-                <li><a href="#alcohol-drugs" data-content-id="3" data-trigger-role="show-content" data-trigger-scope="desktop">Alcohol &amp; Drugs</a></li>
-                <li><a href="#mental-health" data-content-id="4" data-trigger-role="show-content" data-trigger-scope="desktop">Mental Health</a></li>
-                <li><a href="#sexual-violence" data-content-id="5" data-trigger-role="show-content" data-trigger-scope="desktop">Sexual Violence</a></li>
-                <li><a href="#traffic-safety" data-content-id="6" data-trigger-role="show-content" data-trigger-scope="desktop">Traffic &amp; Pedestrian Safety</a></li>
-                <li><a href="#environmental-health" data-content-id="7" data-trigger-role="show-content" data-trigger-scope="desktop">Environmental Health &amp; Safety</a></li>
+                <li><a href="#alcohol-drugs" data-content-id="2" data-trigger-role="show-content" data-trigger-scope="desktop">Alcohol &amp; Drugs</a></li>
+                <li><a href="#mental-health" data-content-id="3" data-trigger-role="show-content" data-trigger-scope="desktop">Mental Health</a></li>
+                <li><a href="#sexual-violence" data-content-id="4" data-trigger-role="show-content" data-trigger-scope="desktop">Sexual Violence</a></li>
+                <li><a href="#traffic-safety" data-content-id="5" data-trigger-role="show-content" data-trigger-scope="desktop">Traffic &amp; Pedestrian Safety</a></li>
+                <li><a href="#environmental-health" data-content-id="6" data-trigger-role="show-content" data-trigger-scope="desktop">Environmental Health &amp; Safety</a></li>
+                <li><a href="#residential-safety" data-content-id="7" data-trigger-role="show-content" data-trigger-scope="desktop">Residential Safety</a></li>
             </ul>
         </div>
     </section>
@@ -84,28 +68,6 @@
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/safety_warden.shtml" target="_blank">Safety Warden Program</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/documents/EMBrochure2011.pdf" target="_blank">Emergency Management Brochure</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/safety_tips.shtml" target="_blank">Safety Tips</a></p>
-                    </div>
-                </li>
-                <li id="residential-safety" class="mental-health clearfix">
-                    <h3>Residential Safety</h3>
-                    <div class="content col-two-third">
-                        <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/risk_management/" title="Contact Campus Res Risk Management" target="_blank">Campus Residences Risk Management</a> is responsible for the coordination and administration of a range of functions that affect the safety and well being of 10,000 students living on campus. The office is responsible for residential campus safety, emergency management, student advocacy, parking, access control, and disability services.</p>
-                        <p><strong>Contact Us:</strong> (631) 632-9003</p>
-                        <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/risk_management/whats.shtml" title="Learn more about Risk Management" target="_blank">What Is Risk Management?</a></p>
-
-                        <h4>Residential Hall Safety</h4>
-                        <p>Living on campus is like living in a city, with 10,000 students residing on campus and thousands of individuals taking classes, working at and using the services of the University every day. Safety and security is everyone’s responsibility.</p>
-                        <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/res/risk/safety.shtml" title="Learn more about the Residential Hall Safety Program" target="_blank">Learn more about the Residential Hall Safety Program</a></p>
-                        <p>For a free escort, dial 2-WALK (9255) from any campus phone, or dial (631) 632-WALK from any other phone.
-                        <p>For a ride after dark, call 632-RIDE (2-7433).</p>
-
-                    </div>
-                    <div class="content col-one-third">
-                        <h4>Resources &amp; Links</h4>
-                        <p><a class="external-link" href="http://www.stonybrook.edu/police/" target="_blank">University Police</a></p>
-                        <p><a class="external-link" href="http://www.stonybrook.edu/ehs/" target="_blank">Environmental Health and Safety</a></p>
-                        <p><a class="external-link" href="http://www.sbvac.org/" target="_blank">Stony Brook Volunteer Ambulance Corps (SBVAC)</a></p>
-                        <p><a class="external-link" href="http://www.stonybrook.edu/police/departments/parking_enforcement.shtml" target="_blank">Parking Enforcement</a></p>
                     </div>
                 </li>
                 <li id="alcohol-drugs" class="alcohol-drugs clearfix">
@@ -171,7 +133,45 @@
                 <li id="sexual-violence" class="alcohol-drugs clearfix">
                     <h3>Sexual Violence</h3>
                     <div class="content col-two-third">
-                        
+                        <h4>Student Sexual Misconduct</h4>
+                        <p>If you are the victim of sexual violence, you are not alone. Sexual violence happens to people of all genders and sexual orientations. Your safety is our primary concern. The following are suggested steps to take after an incident.</p>
+                        <ol class="number">
+                            <li><strong>Be Safe.</strong> Go to a safe place and seek immediate support from a trusted friend or family member. Recommendations are to NOT bathe, change clothes, eat or use the bathroom as doing so could destroy evidence that may be useful later.</li>
+                            <li><strong>Get Medical Help.</strong> Seek medical attention as soon as possible. By using these recommended options open to all genders, you could be treated at no cost, your parents will not be notified, and you will not be required to make a police report.
+                                <ul class="default-bullets">
+                                    <li><a class="external-link" href="http://studentaffairs.stonybrook.edu/cpo/sane.shtml" target="_blank">Sexual Assault Nurse Examiner (SANE) Center at Stony Brook University Hospital</a>. Within 96 hours (4 days) of the incident, you may walk into the SANE Center and request a free medical and forensic exam. The nurse is trained to obtain evidence should you decide to report the incident to police and/or press charges. You are provided an emergency room companion and crisis counseling begins immediately.</li>
+                                    <li><a class="external-link" href="http://studentaffairs.stonybrook.edu/shs/" target="_blank">Student Health Service at Stony Brook University</a>. If 96 hours (4 days) have passed since the incident, you may obtain confidential medical care on campus at the Student Health Service located next to Kenneth P. LaValle Stadium parking.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Get Confidential Emotional Support.</strong> Confidential emotional support and counseling begins immediately if you go to the SANE Center for a medical exam within 96 hours (4 days) of the incident. Free support is also available through <a class="external-link" href="http://studentaffairs.stonybrook.edu/caps" target="_blank">Counseling and Psychological Services (CAPS)</a>, located within the Student Health Service building.</li>
+                            <li><strong>File a Title IX Complaint.</strong> Title IX law protects all Stony Brook students by prohibiting sexual discrimination and harassment in all forms. If you wish to file a complaint of sexual misconduct, contact Stony Brook’s Director for <a class="external-link" href="http://www.stonybrook.edu/diversity/titleix/" target="_blank">Title IX and Risk Management</a>.</li>
+                        </ol>
+                    </div>
+                    <div class="content col-one-third">
+                        <h4>Resources &amp; Links</h4>
+                        <p>
+                            <strong>Student Health Service at Stony Brook University</strong><br />
+                            1 Stadium Rd., Stony Brook, NY 11794<br />
+                            (631) 632-6740
+                        </p>
+                        <p>
+                            <strong>Sexual Assault Nurse Examiner (SANE) Center at Stony Brook University Hospital</strong><br />
+                            1 Stadium Rd., Stony Brook, NY 11794<br />
+                            (631) 632-6740
+                        </p>
+                        <p>
+                            <strong>Counseling and Psychological Services (CAPS)</strong><br />
+                            1 Stadium Rd., Stony Brook, NY 11794<br />
+                            (631) 632-6720
+                        </p>
+                        <p>
+                            <strong>Marjolie Leonard</strong><br />
+                            Director for Title IX and Risk Management<br />
+                            201 Administration Bldg., Stony Brook, NY 11794<br />
+                            (631) 632-6280<br />
+                            <a class="email-link" href="mailto:marjolie.leonard@stonybrook.edu">marjolie.leonard@stonybrook.edu</a>
+
+                        </p>
                     </div>
                 </li>
                 <li id="traffic-safety" class="alcohol-drugs clearfix">
@@ -245,20 +245,43 @@
 
                     </div>
                 </li>
+                <li id="residential-safety" class="mental-health clearfix">
+                    <h3>Residential Safety</h3>
+                    <div class="content col-two-third">
+                        <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/risk_management/" title="Contact Campus Res Risk Management" target="_blank">Campus Residences Risk Management</a> is responsible for the coordination and administration of a range of functions that affect the safety and well being of 10,000 students living on campus. The office is responsible for residential campus safety, emergency management, student advocacy, parking, access control, and disability services.</p>
+                        <p><strong>Contact Us:</strong> (631) 632-9003</p>
+                        <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/risk_management/whats.shtml" title="Learn more about Risk Management" target="_blank">What Is Risk Management?</a></p>
+
+                        <h4>Residential Hall Safety</h4>
+                        <p>Living on campus is like living in a city, with 10,000 students residing on campus and thousands of individuals taking classes, working at and using the services of the University every day. Safety and security is everyone’s responsibility.</p>
+                        <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/res/risk/safety.shtml" title="Learn more about the Residential Hall Safety Program" target="_blank">Learn more about the Residential Hall Safety Program</a></p>
+                        <p>For a free escort, dial 2-WALK (9255) from any campus phone, or dial (631) 632-WALK from any other phone.
+                        <p>For a ride after dark, call 632-RIDE (2-7433).</p>
+
+                    </div>
+                    <div class="content col-one-third">
+                        <h4>Resources &amp; Links</h4>
+                        <p><a class="external-link" href="http://www.stonybrook.edu/police/" target="_blank">University Police</a></p>
+                        <p><a class="external-link" href="http://www.stonybrook.edu/ehs/" target="_blank">Environmental Health and Safety</a></p>
+                        <p><a class="external-link" href="http://www.sbvac.org/" target="_blank">Stony Brook Volunteer Ambulance Corps (SBVAC)</a></p>
+                        <p><a class="external-link" href="http://www.stonybrook.edu/police/departments/parking_enforcement.shtml" target="_blank">Parking Enforcement</a></p>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
 
-    <section class="ghosted-fountain-bottom clearfix">
-        <h3 class="serif-italic link-section-heading clearfix">Links &amp; Resources</h3>
+    <section class="ghosted-fountain-bottom resources-wrapper clearfix">
+        <!--<h3 class="serif-italic link-section-heading clearfix">Links &amp; Resources</h3>-->
+        <h2 class="red clearfix">Stony Brook <span class="serif-italic">Serious About Safety</span></h2>
         <div class="promo-box-wrapper clearfix">
             <div class="no-pad-wrapper border-box">
                 <a class="promo-box-round-title-1 police" href="http://www.stonybrook.edu/police/" title="University Police" target="_blank">
                     <span>University Police</span>
                 </a>
-                <a class="promo-box-round-title-1 reactions" href="http://www.stonybrook.edu/police/safety/reactions-not-distractions.shtml" title="Reactions, Not Distractions" target="_blank">
+                <!--<a class="promo-box-round-title-1 reactions" href="http://www.stonybrook.edu/police/safety/reactions-not-distractions.shtml" title="Reactions, Not Distractions" target="_blank">
                     <span>Reactions, Not Distractions</span>
-                </a>
+                </a>-->
                 <a class="promo-box-round-title-1 environment" href="http://www.stonybrook.edu/ehs/" title="Environmental Health &amp; Safety">
                     <span>Environmental Health &amp; Safety</span>
                 </a>
@@ -268,7 +291,7 @@
                 <a class="promo-box-round-title-1 residential" href="http://studentaffairs.stonybrook.edu/risk_management/" title="Residential Risk Management" target="_blank">
                     <span>Residential Risk Management</span>
                 </a>
-                <a class="promo-box-round-title-1 employee" href="http://www.stonybrook.edu/commcms/eap/" title="Employee Assistance Program" target="_blank">
+                <a class="promo-box-round-title-1 reactions" href="http://www.stonybrook.edu/commcms/eap/" title="Employee Assistance Program" target="_blank">
                     <span>Employee Assistance Program</span>
                 </a>
                 <a class="promo-box-round-title-1 cleary" href="http://www.stonybrook.edu/police/annual-security-report/index.shtml" title="Cleary Act">
@@ -284,11 +307,11 @@
                     <span>Student Health Services</span>
                 </a>
                 <a class="promo-box-round-title-1 dean" href="http://studentaffairs.stonybrook.edu/dos/" title="Dean of Students" target="_blank">
-                    <span>Dean of Students</span>
+                    <span>Dean of <br />Students</span>
                 </a>
-                <a class="promo-box-round-title-1 stuaff" href="http://studentaffairs.stonybrook.edu/stu/" title="Student Affairs" target="_blank">
+                <!--<a class="promo-box-round-title-1 stuaff" href="http://studentaffairs.stonybrook.edu/stu/" title="Student Affairs" target="_blank">
                     <span>Student Affairs</span>
-                </a>
+                </a>-->
                 <a class="promo-box-round-title-1 center" href="http://studentaffairs.stonybrook.edu/cpo/" title="Center for Prevention &amp; Outreach (CPO)" target="_blank">
                     <span>Center for Prevention &amp; Outreach (CPO)</span>
                 </a>

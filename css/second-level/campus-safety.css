@@ -9,7 +9,7 @@
     background-size: 100%;
     background-size: cover;
     background-position: 50% 100%;
-    padding: 45px 0 60px;
+    padding: 20px 0 60px;
     margin: 0 !important;
 }
 
@@ -17,27 +17,20 @@
     padding-bottom: 10px;
 }
 
+.carousel-image {
+    box-shadow: none;
+}
+
 .owl-theme .owl-controls {
     margin-top: 20px;
 }
 
-.carousel-image[data-image='01'] {
-    background-image: url("../../campus-safety/images/dist_driving_marquee.jpg");
+#tabbed-nav li a {
+    color: #333;
 }
 
-.carousel-image[data-image='02'] {
-    background-image: url("../../campus-safety/images/carousel-02.jpg");
-}
-
-.carousel-image[data-image='03'] {
-    background-image: url("../../campus-safety/images/carousel-03.jpg");
-}
-
-.carousel-image[data-image='04'] {
-    background-image: url("../../campus-safety/images/carousel-04.jpg");
-}
-
-.tabs-wrapper h2 {
+.tabs-wrapper h2,
+.resources-wrapper h2 {
     font-family: 'Trade Gothic W01 Bold';
     width: 100%;
     text-align: center;
@@ -45,7 +38,8 @@
     padding: 20px 0 20px;
 }
 
-.tabs-wrapper h2 span {
+.tabs-wrapper h2 span,
+.resources-wrapper h2 span {
     display: block;
     margin: 4px 0 0 0;
     font-size: .75em;
@@ -197,7 +191,8 @@
 }
 
 @media only screen and (min-width: 560px) {
-    .tabs-wrapper h2 {
+    .tabs-wrapper h2,
+    .resources-wrapper h2 {
         font-size: 2.8em;
     }
 }
@@ -214,11 +209,17 @@
 }
 
 @media only screen and (min-width: 1022px) {
-    .tabs-wrapper h2 {
+    .tabs-wrapper {
+        padding-top: 40px;
+    }
+
+    .tabs-wrapper h2,
+    .resources-wrapper h2 {
         font-size: 3.3em;
     }
 
-    .tabs-wrapper h2 span {
+    .tabs-wrapper h2 span,
+    .resources-wrapper h2 span {
         font-size: .7em;
     }
 
@@ -241,6 +242,12 @@
     .link-section-heading {
         font-size: 2.6em;
         padding: 15px 0 10px;
+    }
+
+    #tabbed-nav li a {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: .925em;
     }
 
 }
