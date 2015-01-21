@@ -1277,7 +1277,7 @@ body {
 
     table.light-grey-table {
         background: #eee;
-        margin: 0 0 20px;
+        margin: 0 0 20px .5%;
         border: 8px solid #fff;
         box-shadow: 0 0 0 1px #900;
     }
@@ -3260,7 +3260,7 @@ footer.site-footer .social .small-button:after {
         margin: 0 15px 30px
     }
 
-    .circle-band-buttons-wrapper a span
+    .circle-band-buttons-wrapper a span,
     .circle-band-buttons-wrapper-2 a span {
         -webkit-transform: rotate(-30deg);
         -moz-transform: rotate(-30deg);
