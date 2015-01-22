@@ -13,7 +13,7 @@
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title steel-blue">Experience Stony Brook for New Students | January 24th to 25th</div>
+                                <div class="carousel-title white">Experience Stony Brook for New Students | January 24th to 25th</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
@@ -29,11 +29,11 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="http://www.stonybrook.edu/ureca/sept14.shtml" target="_blank" title="Overcoming Parkinson’s Disease with Music">
+                        <a href="http://www.stonybrook.edu/sb/features-slamowitz.html#.VMEuQGTF9FA" target="_blank" title="April Slamowitz '15 Meets Personal Loss With Resilience">
                             <div class="carousel-image clearfix" data-image="03">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">Overcoming Parkinson’s Disease with Music</div>
+                                <div class="carousel-title white">April Slamowitz '15 Meets Personal Loss With Resilience</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
