@@ -48,12 +48,12 @@
         <div class="wrapper border-box clearfix">
             <h2 class="white-fade-background red cap small-title-1">Learn about current career opportunities in your area of interest.</h2>
             <div class="dual-tone-cards-1 clearfix">
-                <a href="#" class="card"><span>Jobs @ Stony Brook <br />University</span></a>
-                <a href="#" class="card"><span>Jobs @ Stony Brook <br />Medicine</span></a>
-                <a href="#" class="card"><span>Jobs @ Long Island State <br />Veterans Home</span></a>
-                <a href="http://career.stonybrook.edu/on-campus-employment/for-students" class="link"><span>Faculty Jobs</span></a>
-                <a href="#" class="link"><span>All Jobs</span></a>
-                <a href="#" class="link"><span>Current Employees</span></a>
+                <a href="http://stonybrook.edu/hr/prospective-employees.shtml#career-opportunities" class="card"><span>Jobs @ Stony Brook <br />University</span></a>
+                <a href="http://stonybrookmedicine.edu/careers" class="card"><span>Jobs @ Stony Brook <br />Medicine</span></a>
+                <a href="http://www.listateveteranshome.org/" class="card"><span>Jobs @ Long Island State <br />Veterans Home</span></a>
+                <a href="http://stonybrook.edu/facultyjobs" class="link"><span>Faculty Jobs</span></a>
+                <a href="https://stonybrooku.taleo.net/careersection/2/jobsearch.ftl?lang=en" class="link"><span>All Jobs</span></a>
+                <a href="http://stonybrook.edu/employeejobs" class="link"><span>Current Employees</span></a>
             </div>
         </div>
     </section>
