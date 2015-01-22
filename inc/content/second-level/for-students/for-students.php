@@ -148,7 +148,7 @@
                         <iframe width="560" height="349" src="http://www.youtube.com/embed/Jxe3jG4phPk?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="video-caption content">
-                        <strong>Featured Video:</strong> Happy Holidays from Stony Brook University!
+                        <strong>Featured Video:</strong> A focus group discussing lived experiences as it relates to Black History Month 
 
                     </div>
                 </div>
