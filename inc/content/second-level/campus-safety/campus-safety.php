@@ -63,12 +63,13 @@
                     <div class="content col-one-third">
                         <h4>Resources &amp; Links</h4>
                         <p><a class="external-link" href="http://www.stonybrook.edu/police/" target="_blank">University Police</a></p>
+                        <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/critical_incident.shtml" target="_blank">Critical Incident Management</a></p>
+                        <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/plan.shtml" target="_blank">Emergency Management Plan</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/procedures.shtml" target="_blank">Emergency Procedures</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/personal_safety.shtml" target="_blank">Personal Safety</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/blue_lights.shtml" target="_blank">Blue Light Phones</a></p>
                         <p><a class="external-link" href="http://sbccert.org/" target="_blank">C-CERT</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/safety_warden.shtml" target="_blank">Safety Warden Program</a></p>
-                        <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/documents/EMBrochure2011.pdf" target="_blank">Emergency Management Brochure</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/safety_tips.shtml" target="_blank">Safety Tips</a></p>
                     </div>
                 </li>
@@ -97,7 +98,7 @@
                         <h4>Resources &amp; Links</h4>
                         <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/res/housing_facilities/speciallivingoptions.shtml" target="_blank">Substance–Free Housing</a></p>
                         <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/cpo/swallow.shtml" target="_blank">Swallow This</a></p>
-                        <p><a class="external-link" href="http://www.stonybrook.edu/cas" target="_blank">Think Again</a></p>
+                        <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/cpo/thinkagain/" target="_blank">Think Again</a></p>
                         <p><a class="external-link" href="https://interwork.sdsu.edu/echug2/?id=stonybrook&hfs=true" target="_blank">e-Chug</a></p>
                         <p><a class="external-link" href="http://interwork.sdsu.edu/etoke/index.php?id=stonybrook" target="_blank">e-Toke</a></p>
                     </div>
@@ -146,7 +147,7 @@
                                 </ul>
                             </li>
                             <li><strong>Get Confidential Emotional Support.</strong> Confidential emotional support and counseling begins immediately if you go to the SANE Center for a medical exam within 96 hours (4 days) of the incident. Free support is also available through <a class="external-link" href="http://studentaffairs.stonybrook.edu/caps" target="_blank">Counseling and Psychological Services (CAPS)</a>, located within the Student Health Service building.</li>
-                            <li><strong>File a Title IX Complaint.</strong> Title IX law protects all Stony Brook students by prohibiting sexual discrimination and harassment in all forms. If you wish to file a complaint of sexual misconduct, contact Stony Brook’s Director for <a class="external-link" href="http://www.stonybrook.edu/diversity/titleix/" target="_blank">Title IX and Risk Management</a>.</li>
+                            <li><strong>File a Title IX Complaint.</strong> Title IX law protects all Stony Brook students, faculty and staff by prohibiting sexual discrimination and harassment in all forms. If you wish to file a complaint of sexual misconduct, contact Stony Brook’s Director for <a class="external-link" href="http://www.stonybrook.edu/diversity/titleix/" target="_blank">Title IX and Risk Management</a>.</li>
                         </ol>
                     </div>
                     <div class="content col-one-third">
@@ -168,12 +169,16 @@
                         </p>
                         <p>
                             <strong>Marjolie Leonard</strong><br />
-                            Director for Title IX and Risk Management<br />
+                            Title IX Coordinator, Director for Title IX and Risk Management<br />
                             201 Administration Bldg., Stony Brook, NY 11794<br />
                             (631) 632-6280<br />
                             <a class="email-link" href="mailto:marjolie.leonard@stonybrook.edu">marjolie.leonard@stonybrook.edu</a>
-
                         </p>
+                        <p>
+                            <strong>University Police</strong><br />
+                            (631) 632-3333
+                        </p>
+                        <p><a class="external-link" href="http://system.suny.edu/sexual-violence-prevention-workgroup/policies/bill-of-rights/" target="_blank">SUNY Sexual Violance Victim/Survivor Bill of Rights</a></p>
                     </div>
                 </li>
                 <li id="traffic-safety" class="alcohol-drugs clearfix">
@@ -264,7 +269,7 @@
                     <div class="content col-one-third">
                         <h4>Resources &amp; Links</h4>
                         <p><a class="external-link" href="http://www.stonybrook.edu/police/" target="_blank">University Police</a></p>
-                        <p><a class="external-link" href="http://www.stonybrook.edu/ehs/" target="_blank">Environmental Health and Safety</a></p>
+                        <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/stu/" target="_blank">Student Affairs</a></p>
                         <p><a class="external-link" href="http://www.sbvac.org/" target="_blank">Stony Brook Volunteer Ambulance Corps (SBVAC)</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/police/departments/parking_enforcement.shtml" target="_blank">Parking Enforcement</a></p>
                     </div>
@@ -273,7 +278,7 @@
         </div>
     </section>
 
-    <section class="ghosted-fountain-bottom resources-wrapper clearfix">
+    <section class="ghosted-fountain-bottom resources-wrapper clearfix inside-content">
         <!--<h3 class="serif-italic link-section-heading clearfix">Links &amp; Resources</h3>-->
         <h2 class="red clearfix">Stony Brook <span class="serif-italic">Serious About Safety</span></h2>
         <div class="promo-box-wrapper clearfix">
@@ -297,7 +302,7 @@
                     <span>Employee Assistance Program</span>
                 </a>
                 <a class="promo-box-round-title-1 cleary" href="http://www.stonybrook.edu/police/annual-security-report/index.shtml" title="Cleary Act" target="_blank">
-                    <span>Cleary Act</span>
+                    <span>Annual Security Report</span>
                 </a>
                 <a class="promo-box-round-title-1 diversity" href="http://www.stonybrook.edu/diversity/" title="Diversity &amp; Affirmative Action" target="_blank">
                     <span>Diversity &amp; Affirmative Action</span>
@@ -320,6 +325,15 @@
                 <a class="promo-box-round-title-1 counseling" href="http://studentaffairs.stonybrook.edu/caps/" title="Counseling &amp; Psycological Services" target="_blank">
                     <span>Counseling &amp; Psychological Services</span>
                 </a>
+            </div>
+        </div>
+        <div class="wrapper border-box center-text">
+            <div class="content">
+                <p>Title IX prohibits sex discrimination in all forms, including sexual violence and/or harassment.<br />
+                Contact <strong>Marjolie Leonard</strong>, Director for Title IX and Risk Management<br />
+                Office of Diversity and Affirmative Action, 201 Administration Building, 
+                Stony Brook University, Stony Brook, NY 11794-0251<br />Marjolie.Leonard@stonybrook.edu (p) 631.632.6280<br />
+                See <a href="http://www.stonybrook.edu/titleix" target="_blank">www.stonybrook.edu/titleix</a> for more information and/or to report an incident.</p>
             </div>
         </div>
     </section>
