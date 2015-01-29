@@ -71,6 +71,7 @@
                         <p><a class="external-link" href="http://sbccert.org/" target="_blank">C-CERT</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/safety_warden.shtml" target="_blank">Safety Warden Program</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/safety_tips.shtml" target="_blank">Safety Tips</a></p>
+                        <p><a class="external-link" href="http://www.stonybrook.edu/sb/safetycomm/" target="_blank">Campus Safety Advisory Committee</a></p>
                     </div>
                 </li>
                 <li id="alcohol-drugs" class="alcohol-drugs clearfix">
@@ -192,6 +193,7 @@
                             (631) 632-3333
                         </p>
                         <p><a class="external-link" href="http://system.suny.edu/sexual-violence-prevention-workgroup/policies/bill-of-rights/" target="_blank">SUNY Sexual Violance Victim/Survivor Bill of Rights</a></p>
+                        <p><a class="external-link" href="http://www.stonybrook.edu/sb/safetycomm/" target="_blank">Campus Safety Advisory Committee</a></p>
                     </div>
                 </li>
                 <li id="traffic-safety" class="alcohol-drugs clearfix">
@@ -326,7 +328,7 @@
                 <a class="promo-box-round-title-1 stuhealth" href="http://studentaffairs.stonybrook.edu/shs/" title="Student Health Services" target="_blank">
                     <span>Student Health Services</span>
                 </a>
-                <a class="promo-box-round-title-1 dean" href="http://studentaffairs.stonybrook.edu/dos/" title="Dean of Students" target="_blank">
+                <a class="promo-box-round-title-1 stuaff" href="http://studentaffairs.stonybrook.edu/dos/" title="Dean of Students" target="_blank">
                     <span>Dean of <br />Students</span>
                 </a>
                 <!--<a class="promo-box-round-title-1 stuaff" href="http://studentaffairs.stonybrook.edu/stu/" title="Student Affairs" target="_blank">
@@ -337,6 +339,9 @@
                 </a>
                 <a class="promo-box-round-title-1 counseling" href="http://studentaffairs.stonybrook.edu/caps/" title="Counseling &amp; Psycological Services" target="_blank">
                     <span>Counseling &amp; Psychological Services</span>
+                </a>
+                <a class="promo-box-round-title-1 dean" href="http://www.stonybrook.edu/sb/safetycomm/" title="Campus Safety Advisory Committee" target="_blank">
+                    <span>Campus Safety Advisory Committee</span>
                 </a>
             </div>
         </div>
