@@ -139,16 +139,28 @@
                         <h4>Student Sexual Misconduct</h4>
                         <p>If you are the victim of sexual violence, you are not alone. Sexual violence happens to people of all genders and sexual orientations. Your safety is our primary concern. The following are suggested steps to take after an incident.</p>
                         <ol class="number">
-                            <li><strong>Be Safe.</strong> Go to a safe place and seek immediate support from a trusted friend or family member. Recommendations are to NOT bathe, change clothes, eat or use the bathroom as doing so could destroy evidence that may be useful later.</li>
-                            <li><strong>Get Medical Help.</strong> Seek medical attention as soon as possible. By using these recommended options open to all genders, you could be treated at no cost, your parents will not be notified, and you will not be required to make a police report.
-                                <ul class="default-bullets">
-                                    <li><a class="external-link" href="http://studentaffairs.stonybrook.edu/cpo/sane.shtml" target="_blank">Sexual Assault Nurse Examiner (SANE) Center at Stony Brook University Hospital</a>. Within 96 hours (4 days) of the incident, you may walk into the SANE Center and request a free medical and forensic exam. The nurse is trained to obtain evidence should you decide to report the incident to police and/or press charges. You are provided an emergency room companion and crisis counseling begins immediately.</li>
-                                    <li><a class="external-link" href="http://studentaffairs.stonybrook.edu/shs/" target="_blank">Student Health Service at Stony Brook University</a>. If 96 hours (4 days) have passed since the incident, you may obtain confidential medical care on campus at the Student Health Service located next to Kenneth P. LaValle Stadium parking.</li>
-                                </ul>
+                            <li>
+                                <p><strong>Be Safe.</strong> Go to a safe place and seek immediate support from a trusted friend, family member or university staff member.</li></p>
+                            <li>
+                                <p><strong>Get Medical Help as soon as possible.</strong></p>
+                                <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/cpo/sane.shtml" target="_blank">Sexual Assault Nurse Examiner (SANE) Center at Stony Brook University Hospital</a>.
+                                <p>Within 96 hours (4 days) of the incident, you may walk into the SANE Center and request a free medical and forensic exam. The nurse is trained to obtain evidence should you decide to report the incident to police and/or press charges. You are provided an emergency room companion and crisis counseling begins immediately.</p>
+                                <p>Recommendations are to NOT bathe, change clothes, eat or use the bathroom immediately after an assault as doing so could destroy evidence. But even if you have already taken any of these actions you can still access SANE services for 96 hours after the incident.</p>
+                                <p>SANE services is open to all genders at <strong>no cost</strong>, your parents will <strong>not</strong> be notified, and you will <strong>not</strong> be required to make a police report.</p>
+                                <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/shs/" target="_blank">Student Health Service at Stony Brook University</a>.</p>
+                                <p>If 96 hours (4 days) have passed since the incident, you may obtain confidential medical care on campus at the Student Health Service located next to Kenneth P. LaValle Stadium parking.</p>
                             </li>
-                            <li><strong>Get Confidential Emotional Support.</strong> Confidential emotional support and counseling begins immediately if you go to the SANE Center for a medical exam within 96 hours (4 days) of the incident. Free support is also available through <a class="external-link" href="http://studentaffairs.stonybrook.edu/caps" target="_blank">Counseling and Psychological Services (CAPS)</a>, located within the Student Health Service building.</li>
-                            <li><strong>File a Title IX Complaint.</strong> Title IX law protects all Stony Brook students, faculty and staff by prohibiting sexual discrimination and harassment in all forms. If you wish to file a complaint of sexual misconduct, contact Stony Brook’s Director for <a class="external-link" href="http://www.stonybrook.edu/diversity/titleix/" target="_blank">Title IX and Risk Management</a>.</li>
+                            <li>
+                                <p><strong>Get Confidential Emotional Support.</strong> Confidential emotional support and counseling begins immediately if you go to the SANE Center for a medical exam within 96 hours (4 days) of the incident.</p>
+                                <p>Free support is also available through <a class="external-link" href="http://studentaffairs.stonybrook.edu/caps" target="_blank">Counseling and Psychological Services (CAPS)</a>, located on the second floor of the Student Health Service building.</p>
+                                <p>You can also use off-campus counseling services at VIBS Family Violence and Rape Crisis Center by calling their Hotline at 631-360-3606.</p>
+                            </li>
+                            <li>
+                                <p><strong>File a Title IX Complaint.</strong> A federal law known as Title IX protects all Stony Brook students, faculty and staff by prohibiting sexual discrimination and harassment in all forms. If you wish to file a complaint of sexual misconduct, contact Stony Brook’s Director for <a class="external-link" href="http://www.stonybrook.edu/diversity/titleix/" target="_blank">Title IX and Risk Management</a>.</p>
+                            </li>
                         </ol>
+                        <p><strong>What to do if you know a victim of sexual misconduct:</strong></p>
+                        <p>Encourage that person to read this document, seek medical care and talk to a trained counselor or sexual assault advocate. Be clear that you support that person. Most importantly, consider and protect that person’s privacy. Be sensitive to what they are going through as part of the healing process.</p>
                     </div>
                     <div class="content col-one-third">
                         <h4>Resources &amp; Links</h4>
@@ -159,12 +171,13 @@
                         </p>
                         <p>
                             <strong>Sexual Assault Nurse Examiner (SANE) Center at Stony Brook University Hospital</strong><br />
-                            1 Stadium Rd., Stony Brook, NY 11794<br />
+                            101 Nicolls Rd., Stony Brook, NY 11794<br />
                             (631) 632-6740
                         </p>
                         <p>
                             <strong>Counseling and Psychological Services (CAPS)</strong><br />
                             1 Stadium Rd., Stony Brook, NY 11794<br />
+                            Second Floor<br />
                             (631) 632-6720
                         </p>
                         <p>
