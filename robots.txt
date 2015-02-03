@@ -2,8 +2,6 @@
 
 User-agent: *
 Disallow: /hsc-bulletin/
-Disallow: /jobs/
-Disallow: /campus-safety/
 Disallow: /test/
 Disallow: /tools/
 Disallow: /index.php
