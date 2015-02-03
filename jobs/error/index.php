@@ -43,7 +43,8 @@
 	<!-- </head> -->
 
 		<?php
-	    	$error_code = $_GET['errorReason'];
+	    	//$error_code = $_GET['errorReason'];
+	    	$error_code = 99;
     		switch($error_code) {
     			case 0:
     				$error_msg = 'Your user permissions do not authorize you to access this page.';
@@ -94,8 +95,8 @@
     				$show_contact_msg = false;
     				break;
     			default:
-    				$error_msg = 'Access denied.';
-    				$show_contact_msg = false;
+    				$error_msg = 'Please contact the appropriate help department for assistance:';
+    				$show_contact_msg = true;
     				break;
     		}
 	    ?>
@@ -152,10 +153,12 @@
 						            <p><?php echo $error_msg; ?></p>
 						            <?php if($show_contact_msg) { ?>
 						            	<p>
-						            		Please contact your area's HR office:<br /><br />
-											<strong>West Campus:</strong> (631) 632-6161<br />
-											<strong>Hospital:</strong> (631) 444-4700<br />
-											<strong>LISVH:</strong> (631) 444-8617
+											<strong>Stony Brook Medicine and Long Island Veteran's Home:</strong><br />
+                                            (631) 444-HELP<br />
+                                            <br />
+											<strong>Stony Brook University:</strong><br />
+                                            (631) 632-6161<br />
+                                            HRS_tms@stonybrook.edu
 						            	</p>
 						            <?php } ?>
 						        </div>
