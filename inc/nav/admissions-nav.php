@@ -2,6 +2,11 @@
 	<div class="no-pad-wrapper clearfix">
     	<div class="menu-trigger border-box clearfix"><i class="icon fa fa-bars"></i></div>
 		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
+			<li class="clearfix no-dropdown desktop">
+            	<a href="undergraduate-admissions" class="clearfix">
+            		<span class="label clearfix"><i class="icon fa fa-home"></i><span class="hide-accessible">Home</span></span>
+            	</a>
+            </li>
 			<li class="clearfix<?php if($sub_nav_selected_tab==1) echo(' selected'); ?>">
             	<a href="undergraduate-admissions/apply" class="clearfix" data-drop-nav-id="1">
             		<span class="label clearfix">Apply</span>
