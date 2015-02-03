@@ -4,4 +4,5 @@ User-agent: *
 Disallow: /hsc-bulletin/
 Disallow: /test/
 Disallow: /tools/
+Disallow: /summer-session/
 Disallow: /index.php
