@@ -66,7 +66,6 @@
                     <li><a href="http://career.stonybrook.edu/students/connect/internship-coop-services" target="_blank">Internships</a></li>
                     <li><a href="http://www.stonybrook.edu/ureca/" target="_blank">Undergraduate Research</a></li>
                     <li><a href="http://www.stonybrook.edu/commcms/finaid/typesofaid/fws.html" target="_blank">Work Study Programs</a></li>
-                    <li><a href="#" target="_blank">A Career at Stony Brook</a></li>
                 </ul>
             </div>
             <div class="box-3 equal-height-col">
