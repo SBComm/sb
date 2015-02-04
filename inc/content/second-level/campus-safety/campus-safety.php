@@ -179,13 +179,13 @@
                     <div class="content col-one-third">
                         <h4>Resources &amp; Links</h4>
                         <p>
-                            <strong>Student Health Service at Stony Brook University</strong><br />
-                            1 Stadium Rd., Stony Brook, NY 11794<br />
+                            <strong>Sexual Assault Nurse Examiner (SANE) Center at Stony Brook University Hospital</strong><br />
+                            101 Nicolls Rd., Stony Brook, NY 11794<br />
                             (631) 632-6740
                         </p>
                         <p>
-                            <strong>Sexual Assault Nurse Examiner (SANE) Center at Stony Brook University Hospital</strong><br />
-                            101 Nicolls Rd., Stony Brook, NY 11794<br />
+                            <strong>Student Health Service at Stony Brook University</strong><br />
+                            1 Stadium Rd., Stony Brook, NY 11794<br />
                             (631) 632-6740
                         </p>
                         <p>
@@ -205,8 +205,16 @@
                             <strong>University Police</strong><br />
                             (631) 632-3333
                         </p>
+                        <p>
+                            <strong>Center for Prevention and Outreach (CPO)</strong><br />
+                            Stony Brook Union, Room 216, Stony Brook, NY 11794<br />
+                            (631) 632-2748<br />
+                            <a class="external-link" href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">View CPO Website</a>
+                        </p>
                         <p><a class="external-link" href="http://system.suny.edu/sexual-violence-prevention-workgroup/policies/bill-of-rights/" target="_blank">SUNY Sexual Violance Victim/Survivor Bill of Rights</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/sb/safetycomm/" target="_blank">Campus Safety Advisory Committee</a></p>
+                        <p><a class="external-link" href="http://www.vibs.org/" target="_blank">VIBS - Family Violence and Rape Crisis Center</a></p>
+                        <p><a href="https://www.rainn.org/get-help/national-sexual-assault-hotline" target="_blank">National Sexual Assault Hotline:</a><br /> Call 1-800-656-HOPE</p>
                     </div>
                 </li>
                 <li id="traffic-safety" class="alcohol-drugs clearfix">
