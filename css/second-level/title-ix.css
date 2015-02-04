@@ -1,0 +1,96 @@
+.ghosted-campus {
+    background-image: url("../../img/university/ghosted-campus-admin-shorter.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 90%;
+    height: 120px;
+}
+
+.inside-content h4 {
+    color: #900;
+}
+
+.content.milestones {
+    display: block;
+    border: 1px solid #aaa;
+    padding: 30px;
+    margin:  20px 0 30px;
+}
+
+.milestones p {
+    display: block;
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #aaa;
+    line-height: 1.7em;
+}
+
+.milestones p span {
+    display: inline-block;
+    font-family:'CenturySchoolbookW01-It 927458';
+    font-weight: 400;
+    color: #700;
+    font-size: 1.3em;
+    margin: 0 15px 0 0;
+    padding: 0 15px 0 0;
+    border-right: 1px solid #555;
+    line-height: 1;
+}
+
+.milestones h3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 34px;
+    padding: 6px 0 8px;
+    line-height: 1;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background: #900;
+    color: #fff;
+    border-bottom: 0 none;
+}
+
+.sbu-cta {
+    display: block;
+    margin: 40px auto;
+    width: 200px;
+}
+
+@media only screen and (min-width: 480px) {
+    
+}
+
+@media only screen and (min-width: 560px) {
+    .milestones {
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .inside-content h4 {
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .col-2.col-2-left {
+        width: 40%;
+    }
+
+    .col-2.col-2-right {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1460px) {
+    
+}
+
+@media only screen and (min-width: 1620px) {
+    
+}
+
+@media only screen and (min-width: 1620px) {
+    
+}
