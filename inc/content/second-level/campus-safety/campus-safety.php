@@ -211,7 +211,7 @@
                             (631) 632-2748<br />
                             <a class="external-link" href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">View CPO Website</a>
                         </p>
-                        <p><a class="external-link" href="http://system.suny.edu/sexual-violence-prevention-workgroup/policies/bill-of-rights/" target="_blank">SUNY Sexual Violance Victim/Survivor Bill of Rights</a></p>
+                        <p><a class="external-link" href="http://system.suny.edu/sexual-violence-prevention-workgroup/policies/bill-of-rights/" target="_blank">SUNY Sexual Violence Victim/Survivor Bill of Rights</a></p>
                         <p><a class="external-link" href="http://www.stonybrook.edu/sb/safetycomm/" target="_blank">Campus Safety Advisory Committee</a></p>
                         <p><a class="external-link" href="http://www.vibs.org/" target="_blank">VIBS - Family Violence and Rape Crisis Center</a></p>
                         <p><a href="https://www.rainn.org/get-help/national-sexual-assault-hotline" target="_blank">National Sexual Assault Hotline:</a><br /> Call 1-800-656-HOPE</p>
