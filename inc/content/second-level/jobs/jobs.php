@@ -62,26 +62,25 @@
             <div class="box-3 equal-height-col">
                 <h3 class="clearfix"><span>For</span> Students</h3>
                 <ul class="star-bullets clearfix">
-                    <li><a href="http://career.stonybrook.edu/">Career Counseling</a></li>
-                    <li><a href="http://career.stonybrook.edu/students/connect/internship-coop-services">Internships</a></li>
-                    <li><a href="http://www.stonybrook.edu/ureca/">Undergraduate Research</a></li>
-                    <li><a href="http://www.stonybrook.edu/commcms/finaid/typesofaid/fws.html">Work Study Programs</a></li>
-                    <li><a href="#">A Career at Stony Brook</a></li>
+                    <li><a href="http://career.stonybrook.edu/" target="_blank">Career Counseling</a></li>
+                    <li><a href="http://career.stonybrook.edu/students/connect/internship-coop-services" target="_blank">Internships</a></li>
+                    <li><a href="http://www.stonybrook.edu/ureca/" target="_blank">Undergraduate Research</a></li>
+                    <li><a href="http://www.stonybrook.edu/commcms/finaid/typesofaid/fws.html" target="_blank">Work Study Programs</a></li>
+                    <li><a href="#" target="_blank">A Career at Stony Brook</a></li>
                 </ul>
             </div>
             <div class="box-3 equal-height-col">
                 <h3 class="clearfix"><span>For</span> Employers</h3>
                 <ul class="star-bullets clearfix">
-                    <li><a href="http://career.stonybrook.edu/employers/hiring-sb-students/on-campus-recruiting">On-Campus Student Recruitment</a></li>
-                    <li><a href="http://career.stonybrook.edu/employers/hiring-sb-students/post-a-job-or-internship">Post Jobs for Students</a></li>
+                    <li><a href="http://career.stonybrook.edu/employers/hiring-sb-students/on-campus-recruiting" target="_blank">On-Campus Student Recruitment</a></li>
+                    <li><a href="http://career.stonybrook.edu/employers/hiring-sb-students/post-a-job-or-internship" target="_blank">Post Jobs for Students</a></li>
                 </ul>
             </div>
             <div class="box-3 equal-height-col">
                 <h3 class="clearfix"><span>General</span> Info</h3>
                 <ul class="star-bullets clearfix">
-                    <li><a href="#">Why Stony Brook</a></li>
-                    <li><a href="http://www.stonybrook.edu/sb/directions.shtml">Directions</a></li>
-                    <li><a href="#">How to Apply Online</a></li>
+                    <li><a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a></li>
+                    <li><a href="jobs/how-to-apply">How to Apply Online</a></li>
                 </ul>
             </div>
         </div>

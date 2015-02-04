@@ -10,8 +10,24 @@
     background-image: url("../../jobs/images/veteran-fade.jpg");
 }
 
+.ghosted-campus {
+    background-image: url("../../img/university/ghosted-backgrnd-marquee.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 70%;
+}
+
+a h1 {
+	cursor: pointer;
+}
+
 section.cards-wrapper {
 	padding-bottom: 40px;
+}
+
+.sbu-cta {
+	text-decoration: none;
+	text-transform: none;
 }
 
 .boxes-wrapper {
@@ -51,24 +67,31 @@ section.cards-wrapper {
 	letter-spacing: .025em;
 }
 
-.star-bullets li {
+.red-background .star-bullets li {
 	margin-bottom: 14px;
 }
 
-.star-bullets li a {
+.red-background .star-bullets li a {
 	color: #ddd;
 }
 
-.star-bullets li a:hover {
+.red-background .star-bullets li a:hover {
 	text-decoration: underline;
 }
 
-.star-bullets li:before {
+.red-background .star-bullets li:before {
 	color: #eee;
 }
 
 section.diversity-wrapper {
 	padding: 30px 0 30px !important;
+}
+
+#external-candidates,
+#current-employees {
+	padding-top: 50px;
+	border-top: 1px solid #ddd;
+	margin-top: 30px;
 }
 
 @media only screen and (min-width: 768px) {
