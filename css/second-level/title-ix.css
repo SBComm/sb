@@ -53,7 +53,7 @@
 
 .sbu-cta {
     display: block;
-    margin: 40px auto;
+    margin: 20px auto 40px;
     width: 200px;
     text-align: center;
 }
@@ -76,11 +76,11 @@
 
 @media only screen and (min-width: 960px) {
     .col-2.col-2-left {
-        width: 40%;
+        width: 48%;
     }
 
     .col-2.col-2-right {
-        width: 60%;
+        width: 52%;
     }
 }
 
