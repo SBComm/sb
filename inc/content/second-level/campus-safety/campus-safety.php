@@ -8,15 +8,28 @@
         <div class="no-pad-wrapper border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
-                    <div class="item">
-                        <img src="campus-safety/images/serious-safety-marquee.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="campus-safety/images/dist_driving_marquee.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="campus-safety/images/safety_marquee_lab.jpg" />
-                    </div>
+                    <a href="http://www.stonybrook.edu/commcms/emergency/" target="_blank">
+                        <div class="item">
+                            <img src="campus-safety/images/vote_safety.jpg" />
+                        </div>
+                    </a>
+                    <!--
+                    <a href="#">
+                        <div class="item">
+                            <img src="campus-safety/images/serious-safety-marquee.jpg" />
+                        </div>
+                    </a>
+                    -->
+                    <a href="#traffic-safety">
+                        <div class="item">
+                            <img src="campus-safety/images/dist_driving_marquee.jpg" />
+                        </div>
+                    </a>
+                    <a href="#environmental-health">
+                        <div class="item">
+                            <img src="campus-safety/images/safety_marquee_lab.jpg" />
+                        </div>
+                    </a>
                 </div>
                 <div class="owl-prev owl-prev-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-left"></em></div>
                 <div class="owl-next owl-next-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-right"></em></div>
