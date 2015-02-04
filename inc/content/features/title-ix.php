@@ -13,7 +13,7 @@
                 <p>At Stony Brook, the law protects all students, faculty and staff from sexual discrimination, including all forms of sexual misconduct, harassment and violence.</p>
             </div>
             <div class="content col-2 col-2-right">
-                <a href="http://www.stonybrook.edu/diversity/titleix/"><img src="img/screenshots/title-ix-macbook.jpg" /></a>
+                <a href="http://www.stonybrook.edu/diversity/titleix/" target="_blank"><img src="img/screenshots/title-ix-macbook.jpg" /></a>
             </div>
             <div class="content">
                 <h4>Stony Brook’s Coordinated Staff Effort</h4>
