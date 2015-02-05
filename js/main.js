@@ -235,6 +235,8 @@ $(document).ready(function() {
 			if(!($(inputEl).hasClass('vasearch'))) {
 				var queryString = inputEl.val();
 				var searchUrl = "http://www.stonybrook.edu/search/?q="+queryString;
+				event.preventDefault();
+				event.stopPropagation();
 				inputEl.val('').focusout();
 				window.open(searchUrl, '_self');
 			}
