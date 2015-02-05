@@ -327,6 +327,15 @@
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
+                            <div class="social-other-label-container sbu-text-shadow">School of Professional Development</div>
+                            <div class="social-channels-container">
+                                <a href="https://www.facebook.com/spdstonybrook" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/spd_stonybrook" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="http://www.youtube.com/user/StonyBrookSPDonline" target="_blank"><i class="fa fa-youtube"></i></a>
+                                <a href="https://www.flickr.com/photos/spd_stonybrook/" target="_blank"><i class="fa fa-flickr"></i></a>
+                            </div>
+                        </li>
+                        <li class="social-other-item sbu-border-bottom">
                             <div class="social-other-label-container sbu-text-shadow">Seawolves Marketplace</div>
                             <div class="social-channels-container">
                                 <a href="https://www.facebook.com/seawolvesmp" target="_blank"><i class="fa fa-facebook-square"></i></a>
