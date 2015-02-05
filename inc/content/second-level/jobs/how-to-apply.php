@@ -36,7 +36,6 @@
                 <p><strong>Location:</strong> 102 Harriman Hall<br />
                 <strong>Phone:</strong> (631) 632-7171<br />
                 <strong>Email:</strong> <a href="mailto:oss@notes.cc.sunysb.edu">oss@notes.cc.sunysb.edu</a></p>
-                <p><a class="external-link" href="http://www.stonybrookcob.com/" target="_blank">Visit the College of Business</a></p>
 
                 <h5>Step 3: Submit Resume</h5>
                 <p>A resume is required and can be uploaded or manually developed in our online application system. Acceptable formats for uploading a resume are Word (.doc) or PDF (.pdf) files. Scanned resumes and other formats are not acceptable and will not be read by our system.</p>
@@ -120,6 +119,7 @@
                 <h5>Step 1: Update Your Profile</h5>
                 <p>It is not necessary for current employees to create a new user account. Some information in your Job Profile exists from SOLAR. It’s important that you maintain this information. It will make it easier when you are ready to apply. You can even choose to be notified about job postings that match your profile.</p>
                 <p><a class="external-link" href="https://www.youtube.com/watch?v=hxN0Hz8oHiE&index=2&list=PL6Xrs39_KA2Z2xln8Ew-P6KHrri1sIPmq" target="_blank">Watch a tutorial on updating your profile</a></p>
+                <p><a class="external-link" href="https://www.youtube.com/watch?v=2SXdfLtMALY&list=PL6Xrs39_KA2Z2xln8Ew-P6KHrri1sIPmq&index=1" target="_blank">Watch a tutorial on finding your NetID in SOLAR</a></p>
 
                 <h5>Step 2: Search</h5>
                 <p>Search by job field, job location, keyword or requisition number.  Click the Job Title to read the full posting. Click “Apply Online” to begin the application process.</p>
