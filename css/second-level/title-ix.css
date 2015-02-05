@@ -14,7 +14,7 @@
     display: block;
     border: 1px solid #aaa;
     padding: 30px;
-    margin:  20px 0 30px;
+    margin:  20px 0 18px;
 }
 
 .milestones p {
@@ -76,11 +76,13 @@
 
 @media only screen and (min-width: 960px) {
     .col-2.col-2-left {
-        width: 48%;
+        width: 45%;
     }
 
     .col-2.col-2-right {
-        width: 52%;
+        width: 50%;
+        margin-left: 1%;
+        margin-right: 4%;
     }
 }
 
