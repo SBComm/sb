@@ -196,7 +196,7 @@
                         </p>
                         <p>
                             <strong>Marjolie Leonard</strong><br />
-                            Title IX Coordinator, Director for Title IX and Risk Management<br />
+                            Director for Title IX and Risk Management, Title IX Coordinator<br />
                             201 Administration Bldg., Stony Brook, NY 11794<br />
                             (631) 632-6280<br />
                             <a class="email-link" href="mailto:marjolie.leonard@stonybrook.edu">marjolie.leonard@stonybrook.edu</a>
@@ -369,7 +369,7 @@
         <div class="wrapper border-box center-text">
             <div class="content">
                 <p>Title IX prohibits sex discrimination in all forms, including sexual violence and/or harassment.<br />
-                Contact <strong>Marjolie Leonard</strong>, Director for Title IX and Risk Management<br />
+                Contact <strong>Marjolie Leonard</strong>, Director for Title IX and Risk Management, Title IX Coordinator<br />
                 Office of Diversity and Affirmative Action, 201 Administration Building, 
                 Stony Brook University, Stony Brook, NY 11794-0251<br />Marjolie.Leonard@stonybrook.edu (p) 631.632.6280<br />
                 See <a href="http://www.stonybrook.edu/titleix" target="_blank">www.stonybrook.edu/titleix</a> for more information and/or to report an incident.</p>

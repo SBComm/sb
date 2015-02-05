@@ -25,7 +25,7 @@
             </div>
             <div class="content milestones">
                 <h3>Key Milestones</h3>
-                <p><span>September 2012</span><a href="http://sb.cc.stonybrook.edu/news/medical/ViolenceAgainstWomenPreventionGrant.php" target="_blank" class="external-link">SBU received a $270,000 grant</a> from the Department of Justice: Office on Violence Against Women for campus programs that focus on the reduction of domestic violence, dating violence, sexual assault and stalking.</p>
+                <p><span>September 2012</span><a href="http://sb.cc.stonybrook.edu/happenings/oncampus/sbu-to-receive-270k-violence-against-women-prevention-grant/" target="_blank" class="external-link">SBU received a $270,000 grant</a> from the Department of Justice: Office on Violence Against Women for campus programs that focus on the reduction of domestic violence, dating violence, sexual assault and stalking.</p>
 
                 <p><span>June 2013</span>Title IX Committee formed; key administrators complete <a href="https://atixa.org/" target="_blank" class="external-link">Association of Title IX Administrators (ATIXA)</a> investigation training.</p>
 
@@ -52,7 +52,7 @@
                 <p><span>January 2015</span>Key administrators and faculty received four-day <a href="http://sb.cc.stonybrook.edu/happenings/oncampus/green-dot-violence-prevention-training-at-sbu-january-20-23/" target="_blank" class="external-link">Green Dot Training</a> for bystander intervention tactics.</p>
             </div>
             <div class="content">
-                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="http://www.stonybrook.edu/diversity/titleix/">View Title IX Website</a>
+                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="http://www.stonybrook.edu/diversity/titleix/">View Title IX Website</a></p>
             </div>
         </div>
     </section>
