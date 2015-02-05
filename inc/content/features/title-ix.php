@@ -19,8 +19,6 @@
                 <p>With direction from the <a href="http://www.stonybrook.edu/diversity" target="_blank" class="external-link">Office of Diversity and Affirmative Action</a>, key staff from the <a href="http://www.stonybrook.edu/lrweb/" target="_blank" class="external-link">Employee and Labor Relations Department</a>, and the <a href="http://studentaffairs.stonybrook.edu/stu/" target="_blank" class="external-link">Office of Student Affairs</a> &#8212; with direct involvement from the <a href="http://studentaffairs.stonybrook.edu/ucs/" target="_blank" class="external-link">Office of University Community Standards</a> and the <a href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank" class="external-link">Center for Prevention and Outreach</a> &#8212; a collaborative and ongoing effort to drive campus safety and eliminate sexual discrimination at Stony Brook University is well underway.</p>
                 <p>Stony Brook offers a variety of on-campus and online <a href="http://www.stonybrook.edu/diversity/titleix/#resources" target="_blank" class="external-link">resources for students, faculty and staff</a> seeking support regarding Title IX issues, which range from reporting to recovering from an incident.</p>
                 <p>"At Stony Brook University we proactively implement and continuously review and assess the modes used to address Title IX-related allegations and incidents to meet the needs of our ever-evolving campus community," said Marjolie Leonard, Director for Title IX and Risk Management and Title IX Coordinator. "Over the past few years, we have expanded our efforts in ways that maintain compliance with mandated regulations and better serve our community."</p>
-                <h4>Visit Our Title IX Resource Website</h4>
-                <p>For more detailed information about Title IX or to report an incident involving sexual discrimination, harassment, misconduct or violence, please visit <a href="http://www.stonybrook.edu/diversity/titleix/" target="_blank">Stony Brook University's Title IX Resource website</a>.</p>
             </div>
             <div class="content milestones">
                 <h3>Recent Milestones</h3>
@@ -53,6 +51,8 @@
                 <p><span>January 2015</span>Approximately 50 administrators and faculty received four-day train-the-trainer bystander intervention training from <a href="http://sb.cc.stonybrook.edu/happenings/oncampus/green-dot-violence-prevention-training-at-sbu-january-20-23/" target="_blank" class="external-link">Green Dot</a>, an organization cited in the White House's Not Alone Report for its training delivery methods.</p>
             </div>
             <div class="content">
+                <h4>Visit Our Title IX Resource Website</h4>
+                <p>For more detailed information about Title IX or to report an incident involving sexual discrimination, harassment, misconduct or violence, please visit <a href="http://www.stonybrook.edu/diversity/titleix/">Stony Brook University's Title IX Resource website</a>.</p>
                 <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="http://www.stonybrook.edu/diversity/titleix/">View Title IX Website</a></p>
             </div>
         </div>
