@@ -32,7 +32,7 @@
 
                 <p><span>December 2013</span>Phase 1 of “Hear It, See It, Report It” campaign launched.</p>
 
-                <p><span>February 2014</span>Phase 2 of “Hear It, See It, Report It” campaign implemented the campus-wide distribution of a <a href="http://www.stonybrook.edu/diversity/documents/resources.pdf" target="_blank" class="external-link">poster</a> listing Title IX-related resources and sexual misconduct reporting options.</p>
+                <p><span>February 2014</span>Phase 2 of “Hear It, See It, Report It” campaign implemented the campus-wide distribution of a <a href="http://www.stonybrook.edu/diversity/documents/resources.pdf" target="_blank">poster</a> listing Title IX-related resources and sexual misconduct reporting options.</p>
 
                 <p><span>March 2014</span>University Student Conduct Code was updated to strengthen sexual misconduct policy.</p>
 
@@ -40,7 +40,7 @@
 
                 <p><span>April 2014</span>SBU issued its fifth annual STAR (Secretive-problems, Targets, Assets and Risks) campus climate survey. This survey was developed by a team of researchers that are prominent leaders in the fields of psychology and violence prevention. STAR has enabled Stony Brook to look at the prevalence and dynamics of sexual violence on our campus and use data to drive our prevention efforts through an approach called Polaris.</p>
 
-                <p><span>April 2014</span><a href="http://sb.cc.stonybrook.edu/happenings/oncampus/sbu-programs-recognized-by-department-of-justice-for-dedication-to-sexual-assault-prevention/?=marquee2" target="_blank" class="external-link">The Department of Justice selected SBU</a> to serve as one of the locations for its national campus tour to coincide with the White House Task Force to Protect Students from Sexual Assault’s <a href="https://www.notalone.gov/" target="_blank">website launch</a> and release of its <a href="http://www.whitehouse.gov/sites/default/files/docs/report_0.pdf" target="_blank">Not Alone Report</a>.</p>
+                <p><span>April 2014</span><a href="http://sb.cc.stonybrook.edu/happenings/oncampus/sbu-programs-recognized-by-department-of-justice-for-dedication-to-sexual-assault-prevention/?=marquee2" target="_blank" class="external-link">The Department of Justice selected SBU</a> to serve as one of the locations for its national campus tour to coincide with the White House Task Force to Protect Students from Sexual Assault’s <a href="https://www.notalone.gov/" target="_blank" class="external-link">website launch</a> and release of its <a href="http://www.whitehouse.gov/sites/default/files/docs/report_0.pdf" target="_blank">Not Alone Report</a>.</p>
 
                 <p><span>August 2014</span>More than 700 faculty, staff and students received in-person Title IX training, including all Residence Hall Directors and Resident Assistants from on-campus housing.</p>
 
