@@ -299,7 +299,10 @@ $(document).ready(function() {
 
 	/* Proofing */
 	$('#proofing-message .close-proofing-message').on('click',function() {
-		$('#proofing-message').remove();
+		$('#proofing-message').slideUp(400);
+	});
+	$('#alert-message .close-alert-message').on('click',function() {
+		$('#alert-message').slideUp(400);
 	});
 	/* Eco dev */
 	$('.show-center-info').click(function(event) {
