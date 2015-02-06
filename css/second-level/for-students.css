@@ -4,6 +4,9 @@
     background-size: cover;
     background-position: 50% 90%;
 }
+.carousel-image {
+    box-shadow: none !important;
+}
 .carousel-wrapper {
     padding-bottom: 10px;
 }
@@ -13,7 +16,7 @@
 }
 
 .carousel-image[data-image='01'] {
-    background-image: url("../../for-students/images/carousel-02.jpg");
+    background-image: url("../../for-students/images/studyabroadslide.jpg");
 }
 
 .carousel-image[data-image='02'] {
