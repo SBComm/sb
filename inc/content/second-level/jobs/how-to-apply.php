@@ -33,9 +33,6 @@
 
                 <h5>Step 2: Apply Online</h5>
                 <p>Select <strong>Apply Online</strong> to begin the application process. New users can create an account by selecting <strong>Register as a New User</strong>. The application requires that you provide contact information, salary requirements and work eligibility information, and requests demographic/race/ethnicity information.</p>
-                <p><strong>Location:</strong> 102 Harriman Hall<br />
-                <strong>Phone:</strong> (631) 632-7171<br />
-                <strong>Email:</strong> <a href="mailto:oss@notes.cc.sunysb.edu">oss@notes.cc.sunysb.edu</a></p>
 
                 <h5>Step 3: Submit Resume</h5>
                 <p>A resume is required and can be uploaded or manually developed in our online application system. Acceptable formats for uploading a resume are Word (.doc) or PDF (.pdf) files. Scanned resumes and other formats are not acceptable and will not be read by our system.</p>
@@ -50,6 +47,8 @@
                 <p>Our system does not allow for you to track the progress of your application or your candidacy for a position. If you have the need to modify your original application, you may login to modify the submission if the job posting is still active.</p>
                 <p>To view all of your submissions, select the <strong>My Jobpage</strong> tab. Incomplete submissions will not be considered.</p>
                 <p>You may select the option in “Basic Profile Information” to receive an email notification whenever a new position matching your profile is posted.</p>
+
+                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="https://stonybrooku.taleo.net/careersection/2/jobsearch.ftl?lang=en">View All Job Postings</a></p>
 
                 <h5>Need Help?</h5>
                 <div class="drop-accordion drop-accordion-1 clearfix">
@@ -114,12 +113,12 @@
             </div>
             <div id="current-employees" class="content">
                 <h4>How to Apply: Current Employees</h4>
-                <p>To search for internal and external jobs and transfer opportunities current employees must sign in to the <a href="www.stonybrook.edu/employeejobs">Internal Career Site</a>. Use your NetID and password to sign in. This is important because when you apply your job submission will be “flagged” to show that you are an internal employee.</p>
+                <p>To search for internal and external jobs and transfer opportunities current employees must sign in to the <a href="http://www.stonybrook.edu/employeejobs">Internal Career Site</a>. Use your NetID and password to sign in. This is important because when you apply your job submission will be “flagged” to show that you are an internal employee.</p>
+                <p><a class="external-link" href="https://www.youtube.com/watch?v=2SXdfLtMALY&list=PL6Xrs39_KA2Z2xln8Ew-P6KHrri1sIPmq&index=1" target="_blank">Watch a tutorial on finding your NetID in SOLAR</a></p>
 
                 <h5>Step 1: Update Your Profile</h5>
-                <p>It is not necessary for current employees to create a new user account. Some information in your Job Profile exists from SOLAR. It’s important that you maintain this information. It will make it easier when you are ready to apply. You can even choose to be notified about job postings that match your profile.</p>
+                <p>It is not necessary for current employees to create a new user account. Some information in your Candidate Profile exists from SOLAR. It’s important that you maintain this information. It will make it easier when you are ready to apply. You can even choose to be notified about job postings that match your profile.</p>
                 <p><a class="external-link" href="https://www.youtube.com/watch?v=hxN0Hz8oHiE&index=2&list=PL6Xrs39_KA2Z2xln8Ew-P6KHrri1sIPmq" target="_blank">Watch a tutorial on updating your profile</a></p>
-                <p><a class="external-link" href="https://www.youtube.com/watch?v=2SXdfLtMALY&list=PL6Xrs39_KA2Z2xln8Ew-P6KHrri1sIPmq&index=1" target="_blank">Watch a tutorial on finding your NetID in SOLAR</a></p>
 
                 <h5>Step 2: Search</h5>
                 <p>Search by job field, job location, keyword or requisition number.  Click the Job Title to read the full posting. Click “Apply Online” to begin the application process.</p>
@@ -136,6 +135,8 @@
                 <h5>Additional Information</h5>
                 <p>Our system does not allow for you to track the progress of your application or your candidacy for a position. If you have the need to modify your original application, you may login to modify the submission if the job posting is still active.</p>
                 <p>To view all of your submissions, select the <strong>My Jobpage</strong> tab. Incomplete submissions will not be considered.</p>
+
+                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="http://www.stonybrook.edu/employeejobs">View Jobs for SB Employees</a></p>
 
                 <h5>Need Help?</h5>
                 <div class="drop-accordion drop-accordion-1 clearfix">
