@@ -9,7 +9,7 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
-                        <a href="http://studentaffairs.stonybrook.edu/orientation/freshmen/esbfreshmen.shtml" target="_blank" title="Experience Stony Brook: Orientation for New Students">
+                        <a href="http://www.stonybrook.edu/commcms/studyabroad/" target="_blank" title="Study Abroad & International Exchange Fair: Feb. 11th">
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
                             <div class="carousel-text clearfix">
