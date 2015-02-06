@@ -12,7 +12,9 @@
             <div class="text content"><i class="fa fa-crosshairs fa-spin"></i></i> <strong>Please Note:</strong> You are viewing the <em>Local Site</em> for Stony Brook University. This page is not accessible to the general public. <em>DO NOT share this link externally.</em><span class="close-proofing-message"><i class="fa fa-times"></i>Close</span></div>
         </div>-->
     <?php }
-    include ($_SERVER['DOCUMENT_ROOT'] . '/emergency/message.html');
+    if(!$is_local_environment) {
+        include ($_SERVER['DOCUMENT_ROOT'] . '/emergency/message.html');
+    }
 ?>
 
 <?php if($fade_in_page) { ?>
