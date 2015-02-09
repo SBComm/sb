@@ -11,7 +11,7 @@
         <div class="wrapper border-box clearfix inside-content">
             <h2>
                 <span class="smaller">Become a part of</span> 
-                <span class="larger">tomorrow's <span class="nowrap">big ideas.</span></span>
+                <span class="larger">tomorrow&#8217;s <span class="nowrap">big ideas.</span></span>
             </h2>
             <div class="border-box clearfix compare-table">
                 <div class="compare-table-col border-box">
