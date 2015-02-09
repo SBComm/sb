@@ -27,7 +27,7 @@
 
     <section class="white-background suny-korea international clearfix">
         <div class="border-box wrapper clearfix">
-            <a class="suny-callout" href="http://www.sunykorea.ac.kr/" target="_blank">
+            <a class="suny-callout" href="http://www.stonybrook.edu/commcms/studyabroad/outgoing/programs/summer/korea/sunyKorea" target="_blank">
                 <span class="white-strong-on-red">Featured Program</span>
                 <img class="logo" src="img/logo/suny-korea-logo-452.png" />
                 <p>Study at Stony Brook's international campus in Korea and earn credits abroad.</p>

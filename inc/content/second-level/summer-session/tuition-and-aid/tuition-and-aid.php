@@ -27,7 +27,8 @@
                 <p>In Summer, we’re GREEN! The billing statement will be available in SOLAR under the STUDENT FINANCIAL SERVICES menu. No paper billing statements will be printed or mailed. All billing communication will be done via email and SOLAR. Please ensure that a valid email address exists on your student record. All charges are estimated as of March 31, 2014 and are subject to change without notice. College, student activity, and comprehensive fees are mandatory for all Summer Sessions students.</p>
 
                 <h3 id="tuition">Tuition Rate</h3>
-                <h4>Per Credit</h4>
+                <p>Summer enrollment is very affordable! Stony Brook’s tuition is a fraction of the cost of private universities, and financial aid available to those who qualify.</p>
+                <h4>Tuition: Per Credit</h4>
                 <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
                     <tbody>
                         <tr>
@@ -72,6 +73,7 @@
                         </tr>
                     </tbody>
                 </table>
+                <p><em>Tuition is subject to change without notice.</em></p>
                 <p>** Tuition is charged at the level of matriculation. A matriculated graduate student taking undergraduate courses will be charged at the GRADUATE tuition rate.</p>
 
                 <h3>Tuition Breakdown</h3>
@@ -130,6 +132,7 @@
                         </tr>
                     </tbody>
                 </table>
+                <p><em>Tuition is subject to change without notice.</em></p>
 
                 <h4>NYS Resident Graduate</h4>
                 <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
@@ -181,6 +184,7 @@
                         </tr>
                     </tbody>
                 </table>
+                <p><em>Tuition is subject to change without notice.</em></p>
 
                 <h4>NYS Resident MBA</h4>
                 <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
@@ -232,6 +236,7 @@
                         </tr>
                     </tbody>
                 </table>
+                <p><em>Tuition is subject to change without notice.</em></p>
 
                 <h3 id="fees">Summer Fees</h3>
                 <p>Select an item below to view more information. For dates and deadlines, <a href="summer-session/calendar">view the Summer Academic Calendar.</a></p>
@@ -385,6 +390,7 @@
                         </div>
                     </div>
                 </div>
+                <p><em>Fees are subject to change without notice.</em></p>
 
 
 

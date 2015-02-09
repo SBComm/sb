@@ -32,7 +32,7 @@
                     <h4>Special Courses for <span class="nowrap">High School Students</span></h4>
                     <ul>
                         <li><a href="summer-sesion/courses?search=#">Art History</a></li>
-                        <li><a href="summer-sesion/courses?search=#">Oceanography</a></li>
+                        <li><a class="external-link-hover" href="http://somas.stonybrook.edu/education/undergrad_course_mar104"target="_blank">Oceanography</a></li>
                         <li><a href="summer-sesion/courses?search=#">Middle Eastern Languages</a></li>
                         <li><a href="summer-sesion/courses?search=#">Mathematics</a></li>
                         <li><a href="summer-sesion/courses?search=#">Music</a></li>
@@ -47,19 +47,20 @@
                 <div class="two-third">
                     <div class="programs-box-wrapper clearfix">
                         <img class="clearfix" src="img/university/fountain-vertical.jpg" />
-                        <div class="programs-box-content clearfix">
+                        <div class="programs-box-content external-link-hover-wrapper clearfix">
                             <h4>Summer Programs:</h4>
                             <ul class="box-bullets">
-                                <li>Simons Summer Research Fellowship</li>
-                                <li>Biotechnology Summer Camp</li>
-                                <li>Explorations in Forensics Camp</li>
-                                <li>International Enrichment Program</li>
-                                <li>Journalism Greene Institute</li>
-                                <li>Mathematics Summer Camp</li>
-                                <li>Physics Summer Camp</li>
-                                <li>College Biology/AP Biology Laboratory Preparation</li>
-                                <li>SARAS: Science And Research Awareness Series</li>
-                                <li>Summer Music Camps</li>
+                                <li><a href="http://www.stonybrook.edu/simons/" target="_blank">Simons Summer Research Fellowship</a></li>
+                                <li><a href="http://www.stonybrook.edu/cesame/students/BiotechSummerCamp/biotechsummercamp.shtml" target="_blank">Biotechnology Summer Camp</a></li>
+                                <li><a href="http://www.stonybrook.edu/cesame/students/ForensicsCamp/forensicscamp.shtml" target="_blank">Explorations in Forensics Camp</a></li>
+                                <li><a href="http://www.stonybrook.edu/commcms/explore/" target="_blank">International Enrichment Program</a></li>
+                                <li><a href="http://greenegazette.com/" target="_blank">Robert W. Greene Summer Institute for High School Journalists</a></li>
+                                <li><a href="http://www.stonybrook.edu/cesame/students/MathCamp/mathcamphs.shtml" target="_blank">Mathematics Summer Camp</a></li>
+                                <li><a href="http://www.stonybrook.edu/cesame/students/PhysicsCamp/physummercamp.html" target="_blank">Physics Summer Camp</a></li>
+                                <li><a href="http://www.stonybrook.edu/cesame/students/APBioSummerProgram/apbioprepprogram.html" target="_blank">College Biology/AP Biology Laboratory Preparation</a></li>
+                                <li><a href="http://www.stonybrook.edu/cesame/teachers/Competitions/ProteinModelingChallengeHome.html" target="_blank">Protein Modeling Challenge</a></li>
+                                <li><a href="#" target="_blank">SARAS: Science And Research Awareness Series</a></li>
+                                <li><a href="#" target="_blank">Summer Music Camps</a></li>
                             </ul>
                         </div>
                     </div>

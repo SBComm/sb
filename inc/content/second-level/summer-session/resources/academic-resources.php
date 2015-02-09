@@ -83,7 +83,7 @@
                 <h5>Stony Brook Students </h5>
                 <p>Before enrolling in summer courses at other institutions, be sure to obtain prior approval from Stony Brook to ensure that the credits will be transferable to Stony Brook. Permission forms are available from the Transfer Office, E-2360 Melville Library.</p>
                 <p>Check with your department about transferring credits in your major. </p>
-                <p>Check with the Transfer Office concerning transferring courses to meet the D.E.C. requirements. Certain limitations apply.</p>
+                <p>Check with the Academic and Transfer Advising Services Office concerning transferring courses to meet D.E.C. and Stony Brook Curriculum (SBC) requirements. Certain limitations apply.</p>
                 <h5>Visiting Summer Students </h5>
                 <p>If you attend another institution during the academic year have your Stony Brook course selections approved for transfer credit by that institution, even if it is another SUNY school.</p>
 
@@ -98,7 +98,7 @@
                 <p>Although this Web site was prepared on the basis of the best information available at the time, all information (including the calendar, course offerings, and statements on tuition and fees) is subject to change without notice or obligation. All information in this publication supersedes information previously published in Summer Sessions information.</p>
                 <p>All communications with students will be done via student's <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR System</a> Accounts. Therefore, student's MUST regularly sign into their SOLAR Accounts to view current Messages, To Do Items, Students Holds (i.e. course cancellations, day/time changes, location changes, financial information, etc.)</p>
 
-                <h4>Other Academic Anformation</h4>
+                <h4>Other Academic Information</h4>
                 <p>Stony Brook academic regulations and student responsibilities apply to visiting Summer Sessions students as well as to those who attend Stony Brook during the academic year.</p>
                 <p>The University reserves the right to change academic regulations or to cancel any course for whatever reason it may deem appropriate. Detailed information on courses of study, academic regulations, and student responsibilities is available in the current <a href="http://sb.cc.stonybrook.edu/bulletin/current/" target="_blank">Undergraduate Bulletin</a>, the <a href="http://www.stonybrook.edu/spd/" target="_blank">SPD Bulletin</a>, and the <a href="http://sb.cc.stonybrook.edu/gradbulletin/current/" target="_blank">Graduate Bulletin</a>, and their associated supplements and updates.</p>
                 <p>The University bulletins also contain complete information regarding student educational records, financial aid, university attendance policy, academic honesty, and other topics.</p>

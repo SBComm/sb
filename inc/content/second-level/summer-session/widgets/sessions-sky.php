@@ -6,6 +6,7 @@
     </video>
     <div class="border-box no-pad-wrapper clearfix session-dates-wrapper">
         <h4>Summer Session Dates</h4>
+        <h5>Registration begins April 6</h5>
         <p>
             <strong>Summer Session 1</strong>
             <em>May 27 - July 5, 2014</em>

@@ -9,7 +9,6 @@
             <h3 class="wrapper clearfix">Visiting Students</h3>
         </div>
     </section>
-
     <section class="clearfix inside-content main-inside-content alt-headers two-col white-background">
         <div class="border-box wrapper clearfix">
             <h3>Get a jump on college credits</h3>
@@ -25,7 +24,7 @@
                     <ol class="number large-number">
                         <li><a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Register Now</a> and complete the <strong>Summer Session Application</strong> (undergraduates). There is no fee required. If you enrolled at Stony Brook in a previous term (including summer or winter), do not complete this application. Call the Summer Session Office at <strong>(631) 632-6175</strong>.</li>
                         <li>Allow (3-5) business days for processing. You will be sent a <strong>Stony Brook ID Number and registration instructions</strong>.</li>
-                        <li>Register for courses in the <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR System</a>.</li>
+                        <li>Register for courses in the <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR System</a>. <em>If you need help registering for courses in SOLAR, <a href="https://www.youtube.com/watch?v=sgnX_p5BNg0" target="_blank" class="external-link">view a tutorial</a>.</em></li>
                     </ol>
                     <a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Register Now</a>
                 </div>

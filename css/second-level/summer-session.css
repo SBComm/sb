@@ -81,6 +81,18 @@
     text-shadow: none;
 }
 
+.session-dates-wrapper h5 {
+    text-align: center;
+    margin: 12px 0 0;
+    color: #eee;
+    opacity: .9;
+    font-family: 'Trade Gothic W01 Light', Arial, sans-serif;
+    letter-spacing: .025em;
+    text-rendering: optimizeLegibility;
+    text-shadow: 0 0 3px #222;
+
+}
+
 .session-dates-wrapper p {
     font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';
     font-weight: normal;
@@ -314,7 +326,12 @@
 }
 
 @media only screen and (min-width: 480px) {
-
+    .session-dates-wrapper h5 {
+        color: #000;
+        text-shadow: none;
+        margin: 14px 0 0;
+        letter-spacing: 1;
+    }
 }
 
 @media only screen and (min-width: 560px) {
@@ -411,6 +428,13 @@
         padding: 80px 140px;
     }
 
+    .session-dates-wrapper h5 {
+        font-family:'Trade Gothic Next W01';
+        margin: 14px 0 18px;
+        letter-spacing: 1;
+        font-size: 1.4em;
+    }
+
     .inside-page-section-nav {
         position: absolute;
         right: 0;
@@ -451,7 +475,7 @@
         background-position: 50% 30%;
     }
     .clouds-background{
-        padding: 80px 300px;
+        padding: 100px 300px;
     }
 }
 

@@ -28,7 +28,7 @@
                         <li>Your selection will also be reviewed by a member of our advising staff to ensure that your class is applicable to your degree requirements.</li>
                         <li>You will be term activated for summer and can enroll through <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR</a>.</li>
                     </ol>
-                    <a href="http://www.stonybrook.edu/commcms/studyabroad/outgoing/programs/index">Register Now</a>
+                    <!--<a href="http://www.stonybrook.edu/commcms/studyabroad/outgoing/programs/index">Register Now</a>-->
                 </div>
             </div>
         </div>

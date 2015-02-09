@@ -25,10 +25,14 @@
                     <img class="clearfix" src="img/student-life/summer-session-international.jpg" />
                 </div>
             </div>
-            <div class="content">
-                <div class="grey-box-1 clearfix">
+            <div class="content external-link-hover-wrapper">
+                <div class="grey-box-1 one-half">
                     <h5>International Summer School</h5>
                     <a href="http://www.stonybrook.edu/commcms/studyabroad/incoming/summer" target="_blank">Learn More</a>
+                </div>
+                <div class="grey-box-1 one-half">
+                    <h5>High School Program</h5>
+                    <a href="http://www.stonybrook.edu/usa" target="_blank">Learn More</a>
                 </div>
             </div>
         </div>

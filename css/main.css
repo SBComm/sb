@@ -3540,6 +3540,12 @@ footer.site-footer .social .small-button:after {
         width: 66.667%;
     }
 
+    .grey-box-1.one-half {
+        width: 46%;
+        margin: 20px 2%;
+        clear: none;
+    }
+
     .title-link-box-1,
     .title-link-box-2,
     .title-link-box-1.wrapper,

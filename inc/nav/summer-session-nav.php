@@ -3,7 +3,7 @@
     	<div class="menu-trigger border-box clearfix"><i class="icon fa fa-bars"></i></div>
 		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
             <li class="clearfix no-dropdown desktop">
-                <a href="undergraduate-admissions" class="clearfix">
+                <a href="summer-session" class="clearfix">
                     <span class="label clearfix"><i class="icon fa fa-home"></i><span class="hide-accessible">Home</span></span>
                 </a>
             </li>
