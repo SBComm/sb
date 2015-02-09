@@ -40,6 +40,9 @@
                 <h5>Step 4: Submit Cover Letter</h5>
                 <p>Cover letters are recommended. However, they are not required if they are not indicated in the posting. To include a cover letter, you must upload a Word (.doc) or PDF (.pdf) file at the attachment step of the application.</p>
 
+                <h5>Step 5: Answer All Application Questions</h5>
+                <p>The application includes a series of questions, ALL of which must be answered in order for your application to be considered.</p>
+
                 <h5>Next Steps</h5>
                 <p>Once you've E-signed your application and pressed the <strong>SUBMIT</strong> button, you will immediately receive an automated email confirming receipt of your application. A recruiter or search committee will have access to your application materials immediately. If you are considered for a position, you will hear from them directly. Otherwise, you may not hear from us until the selection process is complete and all candidates have been dispositioned.</p>
 
@@ -113,6 +116,7 @@
             </div>
             <div id="current-employees" class="content">
                 <h4>How to Apply: Current Employees</h4>
+                <p><em>Note: FSA or Student Employees are not considered "Current Employees" and should apply using the <a href="#external-candidates">prospective candidate application procedures</a>.</em></p>
                 <p>To search for internal and external jobs and transfer opportunities current employees must sign in to the <a href="http://www.stonybrook.edu/employeejobs">Internal Career Site</a>. Use your NetID and password to sign in. This is important because when you apply your job submission will be “flagged” to show that you are an internal employee.</p>
                 <p><a class="external-link" href="https://www.youtube.com/watch?v=2SXdfLtMALY&list=PL6Xrs39_KA2Z2xln8Ew-P6KHrri1sIPmq&index=1" target="_blank">Watch a tutorial on finding your NetID in SOLAR</a></p>
 
@@ -128,6 +132,9 @@
 
                 <h5>Step 4: Submit Cover Letter</h5>
                 <p>Cover letters are recommended. However, they are not required if they are not indicated in the posting. To include a cover letter, you must upload a Word (.doc) or PDF (.pdf) file at the attachment step of the application.</p>
+
+                <h5>Step 5: Answer All Application Questions</h5>
+                <p>The application includes a series of questions, ALL of which must be answered in order for your application to be considered.</p>
 
                 <h5>Next Steps</h5>
                 <p>Once you've E-signed your application and pressed the <strong>SUBMIT</strong> button, you will immediately receive an automated email confirming receipt of your application. A recruiter or search committee will have access to your application materials immediately. If you are considered for a position, you will hear from them directly. Otherwise, you may not hear from us until the selection process is complete and all candidates have been dispositioned.</p>
