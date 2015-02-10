@@ -25,8 +25,8 @@
                 </div>
             </div>
             <div class="content">
-                <p><em>Enrollment begins March 31, 2014 for current Seniors.</em></p>
-                <p><em>Open Enrollment for all other students begins April 1, 2014.</em></p>
+                <p><em>Enrollment begins April 6, 2015 for current Seniors.</em></p>
+                <p><em>Open Enrollment for all other students begins April 7, 2015.</em></p>
             </div>
         </div>
     </section>
