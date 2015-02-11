@@ -16,15 +16,11 @@
 }
 
 .carousel-image[data-image='01'] {
-    background-image: url("../../for-students/images/studyabroadslide.jpg");
+    background-image: url("../../for-students/images/title9.jpg");
 }
 
 .carousel-image[data-image='02'] {
-    background-image: url("../../for-students/images/for-students-chillfest-2014.jpg");
-}
-
-.carousel-image[data-image='03'] {
-    background-image: url("../../for-students/images/april-slamowitz.jpg");
+    background-image: url("../../for-students/images/korea.jpg");
 }
 
 .arrow-below-ocean:after {
