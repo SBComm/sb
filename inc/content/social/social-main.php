@@ -278,12 +278,6 @@
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
-                            <div class="social-other-label-container sbu-text-shadow">Happenings Newsletter</div>
-                            <div class="social-channels-container">
-                                <a href="https://twitter.com/sbhappenings" target="_blank"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </li>
-                        <li class="social-other-item sbu-border-bottom">
                             <div class="social-other-label-container sbu-text-shadow">Institute for Ocean <br />Conservation Science</div>
                             <div class="social-channels-container">
                                 <a href="http://www.facebook.com/pages/Institute-for-Ocean-Conservation-Science/120598210747" target="_blank"><i class="fa fa-facebook-square"></i></a>
