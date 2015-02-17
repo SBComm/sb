@@ -143,7 +143,9 @@
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                             <ul class="default-bullets">
                                 <li>Accounting</li>
+                                <li>Entrepreneurship</li>
                                 <li>Finance</li>
+                                <li>International Business</li>
                                 <li>Management &amp; Operations</li>
                                 <li>Marketing</li>
                                 <li>Sustainable Business</li>
