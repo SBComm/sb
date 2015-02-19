@@ -19,11 +19,11 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="http://sb.cc.stonybrook.edu/happenings/oncampus/suny-korea-students-thrive-at-stony-brook/" target="_blank" title="SUNY Korea Students Thrive at Stony Brook">
+                        <a href="http://www.stonybrook.edu/commcms/studyabroad/outgoing/programs/summer/korea/sunyKorea" target="_blank" title="SUNY Korea Students Thrive at Stony Brook">
                             <div class="carousel-image clearfix" data-image="02">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">SUNY Korea Students Thrive at Stony Brook</div>
+                                <div class="carousel-title white">SUNY Korea Launches Exciting Study Abroad Program</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
