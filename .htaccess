@@ -934,3 +934,13 @@ FileETag None
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.+)\.(\d+)\.(bmp|css|cur|gif|ico|jpe?g|js|png|svgz?|webp)$ $1.$3 [L]
 </IfModule>
+
+
+
+# ----------------------------------------------------------------------
+# | Stony Brook Summer Sessions Course Search                          |
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^summer-session/courses/courses/search$ summer-session/courses/courses/search.php$1
+</IfModule>
