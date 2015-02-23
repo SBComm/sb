@@ -198,6 +198,11 @@
 		<?php includeAsset('js','js/vendor/selectivizr-min.js'); ?>
 		<?php includeAsset('js','js/vendor/iframeResizer.min.js'); ?>
 
+		<?php if($summer_session_courses) {
+			includeAsset('js','js/summer-session/summer-session-courses.js');
+			includeAsset('js','js/elements/filter/text-filter.js');
+		} ?>
+
 		<!-- BEGIN Page Specific Includes -->
 		<?php if($page_type=='social-hub') { ?>
 
@@ -454,6 +459,8 @@
 		            	scrollToTarget = '.main-nav-container';
 		            <?php } else if($page_scroll_el=='bottom') { ?>
 		            	scrollToTarget = '100%';
+		            <?php } else { ?>
+		            	scrollToTarget = '<?=$page_scroll_el?>';
 		            <?php } ?>
 		            if(scrollToTarget) {
 		            	<?php if($page_scroll_mobile==true) { ?>
