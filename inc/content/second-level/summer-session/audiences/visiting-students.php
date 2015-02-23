@@ -36,43 +36,43 @@
         <div class="border-box no-pad-wrapper">
             <h4>Popular Courses</h4>
             <div class="circle-band-buttons-wrapper-2">
-                <a class="calculus" href="summer-session/courses/?search=#">
+                <a class="calculus" href="summer-session/courses/results/?department=MAT&catalog_number=125">
                     <span>
                         <span class="line-1">Calculus A</span>
                         <span class="line-2">(MAT 125)</span>
                     </span>
                 </a>
-                <a class="biology" href="summer-session/courses/?search=#">
+                <a class="biology" href="summer-session/courses/results/?department=BIO&catalog_number=201">
                     <span>
                         <span class="line-1">Fundamentals of Biology</span>
                         <span class="line-2">(BIO 201)</span>
                     </span>
                 </a>
-                <a class="physics" href="summer-session/courses/?search=#">
+                <a class="physics" href="summer-session/courses/results/?department=PHY&catalog_number=131">
                     <span>
                         <span class="line-1">Classical Physics</span>
                         <span class="line-2">(PHY 131)</span>
                     </span>
                 </a>
-                <a class="macroeconomics" href="summer-session/courses/?search=#">
+                <a class="macroeconomics" href="summer-session/courses/results/?department=ECO&catalog_number=305">
                     <span>
                         <span class="line-1">Macroeconomics</span>
                         <span class="line-2">(ECO 305)</span>
                     </span>
                 </a>
-                <a class="psychology" href="summer-session/courses/?search=#">
+                <a class="psychology" href="summer-session/courses/results/?department=PSY&catalog_number=103">
                     <span>
                         <span class="line-1">Introduction to Psychology</span>
                         <span class="line-2">(PSY 103)</span>
                     </span>
                 </a>
-                <a class="accounting" href="summer-session/courses/?search=#">
+                <a class="accounting" href="summer-session/courses/results/?department=BUS&catalog_number=210">
                     <span>
                         <span class="line-1">Financial Accounting</span>
                         <span class="line-2">(BUS 210)</span>
                     </span>
                 </a>
-                <a class="rock" href="summer-session/study-abroad">
+                <a class="rock" href="summer-session/courses/results/?department=MUS&catalog_number=109">
                     <span>
                         <span class="line-1">Rock Music</span>
                         <span class="line-2">(MUS 109)</span>

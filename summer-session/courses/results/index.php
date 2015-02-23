@@ -38,14 +38,9 @@
 
 		    $page_footerbar   = true;
 		    $page_footer      = true;
+		    $text_filter	  = true;
 
 		    //$audience_nav_selected_tab = 6;
-
-		    $carousel 	      = false;
-		    $carousel_3       = false;
-		    $carousel_4       = false;
-
-		    $lightbox 	      = false;
 
     		$search_style 	  = 'default';
     		$nav_type		  = 'big-n-bold';
@@ -55,9 +50,13 @@
     		$page_loader      = true;
 
     		$page_scroll      = true;
-	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
+	        $page_scroll_el   = '.search-results-wrapper';     //Options are audience-nav, logo, main-nav, bottom
 	        $page_scroll_time = 0;
 	        $page_scroll_mobile = true;
+
+	        $lightbox = true;
+	        $live_filter = true;
+	        $summer_session_courses = true;
 		?>
 
 	<!-- <head> -->
@@ -73,6 +72,13 @@
 				include($path . $file);
 			?>
 		<!-- </global> -->
+
+		<?php
+			include_once('../../application/init.php');
+			
+			$search = new \Services\Search($courseData->xmlObject);
+			$search_response = $search->run($_GET);
+		 ?>
 
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">
@@ -113,7 +119,7 @@
 
 		                <!-- <summer-session> -->
 							<?php 
-								$file = "summer-session/resources/academic-resources.php";
+								$file = "summer-session/courses/results.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </summer-session> -->
@@ -130,15 +136,6 @@
 						include($path . $file);
 					} ?>
 				<!-- </div.footer-container> -->
-<!--
-				<div class="left-fixed-sidebar-container">
-
-				</div>
-
-				<div class="right-fixed-sidebar-container">
-
-				</div>
--->
 
 				<!-- <to-top> -->
 					<?php if($page_to_top_link) {

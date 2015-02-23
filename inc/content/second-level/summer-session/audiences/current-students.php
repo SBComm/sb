@@ -36,67 +36,67 @@
         <div class="border-box no-pad-wrapper">
             <h4>Popular Courses</h4>
             <div class="circle-band-buttons-wrapper-2">
-                <a class="pollution" href="summer-session/courses/?search=#">
+                <a class="pollution" href="summer-session/courses/results/?department=MEC&catalog_number=280">
                     <span>
                         <span class="line-1">Pollution &amp; Human Health</span>
                         <span class="line-2">(MEC 280)</span>
                     </span>
                 </a>
-                <a class="cellular-bio" href="summer-session/courses/?search=#">
+                <a class="cellular-bio" href="summer-session/courses/results/?department=BIO&catalog_number=202">
                     <span>
                         <span class="line-1">Molecular &amp; <br />Cellular Biology</span>
                         <span class="line-2">(BIO 202)</span>
                     </span>
                 </a>
-                <a class="bio-lab" href="summer-session/courses/?search=#">
+                <a class="bio-lab" href="summer-session/courses/results/?department=BIO&catalog_number=204">
                     <span>
                         <span class="line-1">Intro Biology Lab I</span>
                         <span class="line-2">(BIO 204)</span>
                     </span>
                 </a>
-                <a class="chem-lab" href="summer-session/courses/?search=#">
+                <a class="chem-lab" href="summer-session/courses/results/?department=CHE&catalog_number=134">
                     <span>
                         <span class="line-1">General Chemistry <br />Lab II</span>
                         <span class="line-2">(CHE 134)</span>
                     </span>
                 </a>
-                <a class="org-chem" href="summer-session/courses/?search=#">
+                <a class="org-chem" href="summer-session/courses/results/?department=CHE&catalog_number=321">
                     <span>
                         <span class="line-1">Organic Chemistry</span>
                         <span class="line-2">(CHE 321)</span>
                     </span>
                 </a>
-                <a class="biology" href="summer-session/courses/?search=#">
+                <a class="biology" href="summer-session/courses/results/?department=BIO&catalog_number=361">
                     <span>
                         <span class="line-1">Biochemistry</span>
                         <span class="line-2">(BIO 361)</span>
                     </span>
                 </a>
-                <a class="writing-intro" href="summer-session/courses/?search=#">
+                <a class="writing-intro" href="summer-session/courses/results/?department=WRT&catalog_number=102">
                     <span>
                         <span class="line-1">Int. Writing <br />Workshop A</span>
                         <span class="line-2">(WRT 102)</span>
                     </span>
                 </a>
-                <a class="physics" href="summer-session/courses/?search=#">
+                <a class="physics" href="summer-session/courses/results/?department=PHY&catalog_number=121">
                     <span>
                         <span class="line-1">Physics for Life Sciences I</span>
                         <span class="line-2">(PHY 121)</span>
                     </span>
                 </a>
-                <a class="mythology" href="summer-session/courses/?search=#">
+                <a class="mythology" href="summer-session/courses/results/?department=CLL&catalog_number=215">
                     <span>
                         <span class="line-1">Classical Mythology</span>
                         <span class="line-2">(CLL 215)</span>
                     </span>
                 </a>
-                <a class="calculus" href="summer-session/courses/?search=#">
+                <a class="calculus" href="summer-session/courses/results/?department=MAT&catalog_number=123">
                     <span>
                         <span class="line-1">Introduction to Calculus</span>
                         <span class="line-2">(MAT 123)</span>
                     </span>
                 </a>
-                <a class="psychology" href="summer-session/courses/?search=#">
+                <a class="psychology" href="summer-session/courses/results/?department=PSY&catalog_number=103">
                     <span>
                         <span class="line-1">Introduction to Psychology</span>
                         <span class="line-2">(PSY 103)</span>

@@ -38,14 +38,9 @@
 
 		    $page_footerbar   = true;
 		    $page_footer      = true;
+		    $text_filter	  = true;
 
 		    //$audience_nav_selected_tab = 6;
-
-		    $carousel 	      = false;
-		    $carousel_3       = false;
-		    $carousel_4       = false;
-
-		    $lightbox 	      = false;
 
     		$search_style 	  = 'default';
     		$nav_type		  = 'big-n-bold';
@@ -58,6 +53,10 @@
 	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 	        $page_scroll_time = 0;
 	        $page_scroll_mobile = true;
+
+	        $lightbox = true;
+	        $live_filter = true;
+	        $summer_session_courses = true;
 		?>
 
 	<!-- <head> -->
@@ -73,6 +72,8 @@
 				include($path . $file);
 			?>
 		<!-- </global> -->
+
+		<?php include_once('../application/init.php'); ?>
 
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">
@@ -122,7 +123,7 @@
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
 		        	<?php if($page_footer) {
-						$file = "footers/for-students-footer.php";
+						$file = "footers/summer-session-footer.php";
 						include($path . $file);
 					} ?>
 					<?php if($page_footerbar) {
