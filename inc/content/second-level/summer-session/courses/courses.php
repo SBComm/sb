@@ -38,7 +38,7 @@
 
         </div>
 
-        <h4>Browse Departments</h4>
+        <h4>Courses by Department</h4>
 
         <div class="filter-wrapper border-box content clearfix sticky">
             <input id="live-filter-search" type="text" class="rounded-input text-filter" placeholder="Filter Departments" />

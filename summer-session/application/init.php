@@ -7,7 +7,8 @@
 	include_once('controllers/render.php');
 
 	// Initialize Course Data
-	$xml_url = 'http://localhost:8888/sb/summer-session/application/class_schedule.xml';
+	//$xml_url = 'http://localhost:8888/sb/summer-session/application/class_schedule.xml';
+	$xml_url = 'http://sb.cc.stonybrook.edu/summer/class_schedule.xml';
 	$courseData = new \Services\CourseData($xml_url);
 
 
