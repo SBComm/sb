@@ -21,7 +21,7 @@
                     			<a class="facebook-blue-bkg" href="https://www.facebook.com/stonybrooku" title="Stony Brook Facebook" target="_blank"><em class="fa fa-facebook"></em></a>
                     			<a class="youtube-red-bkg" href="https://www.youtube.com/user/sbcomm" title="Stony Brook YouTube" target="_blank"><em class="fa fa-youtube-play"></em></a>
                     			<a class="twitter-blue-bkg" href="https://twitter.com/stonybrooku" title="Stony Brook Twitter" target="_blank"><em class="fa fa-twitter"></em></a>
-                    			<a class="flickr-pink-bkg" href="https://www.flickr.com/photos/37984249@N06" title="Stony Brook Flickr" target="_blank"><em class="fa fa-flickr"></em></a>
+                                   <a class="instagram-blue-bkg" href="https://instagram.com/stonybrooku" title="Stony Brook Instagram" target="_blank"><em class="fa fa-instagram"></em></a>
                     		</div>
                     		<a class="small-button" href="http://stonybrook.edu/social" title="Social Media Feed">View Social Media Wall</a>
                     	</div>
