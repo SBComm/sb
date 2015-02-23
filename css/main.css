@@ -366,6 +366,7 @@ video.background-video {
 
 /* Layout */
 
+.whole,
 .one-half,
 .one-third, .two-third,
 .one-quarter, .three-quarter {
@@ -2344,7 +2345,7 @@ body {
     /* Inside content */
 
     section.inside-content {
-        padding: 0 0 20px;;
+        padding: 0 0 20px;
     }
 
     section.inside-content .wrapper {
@@ -2759,17 +2760,15 @@ body {
         }
 
         .inside-content .section-nav {
-            display: inline-block !important;
             margin: 8px 0 0 0;
             width: auto;
             border: 1px solid #555;
             float: left;
+            display: inline-block !important;
         }
 
         .inside-content .section-nav a {
-            width: auto;
             float: left;
-            display: inline-block;
             padding: 0;
             background: #fff;
             border: 0 none;
@@ -2778,6 +2777,8 @@ body {
             padding: 5px 12px;
             margin: 5px 0;
             border-right: 1px solid #555;
+            display: inline-block;
+            width: auto;
         }
 
         .inside-content .section-nav a:last-child {
@@ -3102,6 +3103,8 @@ footer.site-footer {
     text-align: center;
     font-family:'Trade Gothic Next W01';
     font-size: 1em;
+    position: relative;
+    z-index: 1;
 }
 
 footer.site-footer .col {
@@ -3512,6 +3515,7 @@ footer.site-footer .social .small-button:after {
     .margin-bottom {
         margin-bottom: 40px;
     }
+    .whole,
     .one-half,
     .one-third, .two-third,
     .one-quarter, .three-quarter {

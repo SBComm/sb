@@ -395,6 +395,10 @@
         text-shadow: 0 0 15px rgba(255,255,255,.4);
     }
 
+    footer.site-footer .col-2 {
+        padding: 8px;
+    }
+
 }
 
 @media only screen and (min-width: 960px) {
@@ -438,6 +442,11 @@
     .inside-page-section-nav {
         position: absolute;
         right: 0;
+        width: 500px;
+    }
+
+    .inside-page-section-nav.inside-content .section-nav {
+        float: right;
     }
 
     .inside-page-section-nav .wrapper {
@@ -464,6 +473,10 @@
 
     .session-dates-wrapper p {
         font-size: 2.3em;
+    }
+
+    footer.site-footer .col-2 {
+        padding: 0;
     }
 }
 
