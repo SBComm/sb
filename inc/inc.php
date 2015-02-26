@@ -115,6 +115,8 @@
 
     $admissions_program_detail = false;
 
+    $tablesaw = false;
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;    //Options are
@@ -140,6 +142,11 @@
 
     /* Cache busting for newer asset files */
     $filename_based_cache_busting = true;
-    
     include($path . 'includes/filename_based_cache_busting.php');
+
+    /* debugger, see https://github.com/raveren/kint */
+    include($path . 'debug/kint-master/Kint.class.php');
+
+    /* functions */
+    include($path . 'includes/functions.php');
 ?>
