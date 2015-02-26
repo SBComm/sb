@@ -42,12 +42,6 @@
                         <span class="line-2">(MAT 125)</span>
                     </span>
                 </a>
-                <a class="biology" href="summer-session/courses/results/?department=BIO&catalog_number=201">
-                    <span>
-                        <span class="line-1">Fundamentals of Biology</span>
-                        <span class="line-2">(BIO 201)</span>
-                    </span>
-                </a>
                 <a class="physics" href="summer-session/courses/results/?department=PHY&catalog_number=131">
                     <span>
                         <span class="line-1">Classical Physics</span>
@@ -66,17 +60,29 @@
                         <span class="line-2">(PSY 103)</span>
                     </span>
                 </a>
-                <a class="accounting" href="summer-session/courses/results/?department=BUS&catalog_number=210">
+                <a class="accounting" href="summer-session/courses/results/?department=ACC&catalog_number=210">
                     <span>
                         <span class="line-1">Financial Accounting</span>
-                        <span class="line-2">(BUS 210)</span>
+                        <span class="line-2">(ACC 210)</span>
                     </span>
                 </a>
-                <a class="rock" href="summer-session/courses/results/?department=MUS&catalog_number=109">
+                <a class="biology" href="#">
                     <span>
+                        <span class="line-1">Coming Soon!</span>
+                    </span>
+                    <!--<span>
+                        <span class="line-1">Fundamentals of Biology</span>
+                        <span class="line-2">(BIO 201)</span>
+                    </span>-->
+                </a>
+                <a class="rock" href="#">
+                    <span>
+                        <span class="line-1">Coming Soon!</span>
+                    </span>
+                    <!--<span>
                         <span class="line-1">Rock Music</span>
                         <span class="line-2">(MUS 109)</span>
-                    </span>
+                    </span>-->
                 </a>
             </div>
             <a class="full-width-red-button" href="summer-session/courses">View All Courses</a>

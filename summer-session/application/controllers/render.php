@@ -127,6 +127,35 @@ class Render{
 
 	}
 
+
+	/**
+	 * Get location select options
+	 * @return string $option_items HTML <option> elements
+	 */
+	function getSessionCodeSelectOptions(){
+
+		$option_items = "";
+
+		try{
+
+			$session_codes = $this->courseData->getSessionInformation();
+
+			if(count($session_codes) == 0){
+				throw new \Exception("Could not get session information");
+			}
+
+			foreach ($session_codes as $key => $value) {
+				$option_items .= "<option value='{$key}'>{$value}</option>";
+			}
+		
+		}catch(\Exception $e){
+			ErrorHandling::logException($e);
+		}
+
+		return $option_items;
+
+	}
+
 	/**
 	 * Get SBC select options
 	 * @return string $option_items HTML <option> elements
@@ -299,6 +328,35 @@ class Render{
 			$number_of_parameters = count($query);
 			foreach ($query as $query_parameter => $query_value) {
 
+				//Clean up display of Session Code
+				//C -> Session 1
+				//D -> Session 2
+				if($query_parameter=='session_code') {
+					$query_parameter = 'session';
+					switch($query_value) {
+						case "C":
+							$query_value = "1";
+							break;
+						case "D":
+							$query_value = "2";
+							break;
+						case "EEP":
+							$query_value = "SPD Online";
+							break;
+						case "Z":
+							$query_value = "1 Extended";
+							break;
+						case "Z2":
+							$query_value = "2 Extended";
+							break;
+						case "M":
+							$query_value = "2 (HSC)";
+							break;
+						default:
+							break;
+					}
+				}
+
 				// Format query parameters
 				$query_parameter = str_replace("_", " ", $query_parameter);
 				$query_parameter = ucwords($query_parameter);
@@ -332,7 +390,7 @@ class Render{
 				"CRSE_CAREER" => array("UGRD" => "Undergraduate",
 									   "GRAD" => "Graduate",
 									   ),
-				"STND_MTG_PAT" => array("FLEX" => "Online",
+				"STND_MTG_PAT" => array("FLEX" => "Flexible (Online)",
 										"APPT" => "Appointment",
 										"HTBA" => "Hours to be arranged",
 										"M" => "Monday",
@@ -385,6 +443,47 @@ class Render{
 
 
 	/**
+	 * Get all section offerings for a particular course
+	 * @return array The course sections and associated information, e.g. class number, days, times, instructior
+	 */
+	function getCourseOfferingsByClassNumber($search_results){
+
+		$course_offerings = array();
+
+		$count = 0;
+
+		foreach($search_results as $class_detail){
+
+			$class_detail = $this->expandCourseDataAbbreviations($class_detail);
+			
+			$subject = (string) $class_detail->SUBJECT;
+			$catalog_number = (string) $class_detail->CATALOG_NBR;
+			$session_code = (string) $class_detail->SESSION_CODE;
+
+			$course_offerings[$count] = array(
+				'subject' => (string) $class_detail->SUBJECT,
+				'catalog_number' => (string) $class_detail->CATALOG_NBR,
+				'class_number' => (string) $class_detail->CLASS_NBR,
+				'session_information' => $this->getSessionInformationForSessionCode($session_code),
+				'class_section' => (string) $class_detail->CLASS_SECTION,
+				'class_instructor' => (string) $class_detail->INSTRUCTOR,
+				'class_meeting_days' => (string) $class_detail->STND_MTG_PAT,
+				'class_meeting_times' => (string) $class_detail->SU_MEETING_TIME,
+				'location' => (string) $class_detail->LOCATION_DESCR,
+				'campus_description' => (string) $class_detail->CAMPUS_DESCR,
+				'enrollment_status' => (string) $class_detail->ENRL_STAT
+			);
+
+			$count++;
+
+		}
+
+		return $course_offerings;
+		
+	}
+
+
+	/**
 	 * Display the search results in a readable format
 	 * @param  array $search_results The search results
 	 * @return string $html The search results in <li> format
@@ -394,66 +493,115 @@ class Render{
 		if(count($search_results) > 0){
 			$html = "";
 
+			//get array of separate offerings (days/times) of the same class
+			$course_offerings = $this->getCourseOfferingsByClassNumber($search_results);
+
+			//debug
+			//d($course_offerings);
+
+			//create array $printed_courses
+			$printed_courses = [];
+			
 			foreach ($search_results as $class_detail) {
 
-				$class_detail = $this->expandCourseDataAbbreviations($class_detail);
-
-				$course_name = (string) $class_detail->DESCR;
 				$subject = (string) $class_detail->SUBJECT;
 				$catalog_number = (string) $class_detail->CATALOG_NBR;
-				$session_code = (string) $class_detail->SESSION_CODE;
-				$course_level = (string) $class_detail->CRSE_CAREER;
-				$credits = (string) $class_detail->UNITS;
 
-				$hasDec = false;
-				$dec = (string) $class_detail->RQMNT_DESIGNTN;
-				
-				// Add "DEC:" prefix if the value is not empty
-				// Note that the "SBC:" prefix comes by default on SU_SBC
-				if($dec != " "){
-					$hasDec = true;
-					$dec = "<span>DEC: " . $dec . "</span>";
+				//test $printedCourses[$subject][$catalog_number] for $subject + $catalog_number
+				//if found, don't print again
+				//if not found, print, including all information from $course_offerings array
+				//$printed_courses
+				if(!isset($printedCourses[$subject][$catalog_number]) && !ctype_space($printedCourses)){
+
+					$printedCourses[$subject][$catalog_number] = array(
+						'printed' => true
+						);
+
+					$class_detail = $this->expandCourseDataAbbreviations($class_detail);
+
+					$course_name = (string) $class_detail->DESCR;
+					$session_code = (string) $class_detail->SESSION_CODE;
+					$course_level = (string) $class_detail->CRSE_CAREER;
+					$credits = (string) $class_detail->UNITS;
+
+					$hasDec = false;
+					$dec = (string) $class_detail->RQMNT_DESIGNTN;
+					
+					// Add "DEC:" prefix if the value is not empty
+					if($dec != " "){
+						$hasDec = true;
+						$dec = "<span>DEC: " . $dec . "</span>";
+					}
+
+					// Note that the "SBC:" prefix comes by default on SU_SBC
+					$hasSbc = false;
+					$sbc = (string) $class_detail->SU_SBC;
+
+					if($sbc != " "){
+						$hasSbc = true;
+						$sbc =  "<span>" . $sbc . "</span>";
+					}
+
+					$description = (string) $class_detail->DESCRLONG;
+					$session_information = $this->getSessionInformationForSessionCode($session_code);
+
+					if($hasDec || $hasSbc) {
+						$sbc_dec_html = "<p>$dec $sbc</p>";
+					} else {
+						$sbc_dec_html = '';
+					}
+
+					if($campus_description=="Manhattan Campus") {
+						$location = "NYC";
+					}
+
+
+					$html .= "<li>
+								 <h5>$subject $catalog_number: $course_name</h5>
+								 <p><span>$course_level</span> <span>$credits</span></p>
+								 $sbc_dec_html
+								 <p class=\"description\">$description</p>
+								 <table class=\"tablesaw tablesaw-stack light-grey-table\" data-tablesaw-mode=\"stack\" data-tablesaw-sortable>
+								 <thead>
+								 <th data-tablesaw-sortable-col>Session</th>
+								 <th data-tablesaw-sortable-col data-sortable-numeric data-tablesaw-sortable-default-col>Class #</th>
+								 <th data-tablesaw-sortable-col>Section</th>
+								 <th data-tablesaw-sortable-col>Instructor</th>
+								 <th data-tablesaw-sortable-col>Days</th>
+								 <th data-tablesaw-sortable-col>Time</th>
+								 <th data-tablesaw-sortable-col>Campus</th>
+								 <th data-tablesaw-sortable-col>Enrollment Status</th>
+								 </thead>
+								 <tbody>";
+					
+					foreach ($course_offerings as $offering_detail) {
+						
+						if($subject == $offering_detail['subject'] && $catalog_number == $offering_detail['catalog_number']) {
+								$html .= '<tr>';
+								$html .= '<td>'.$offering_detail['session_information'].'</td>'.
+										'<td>'.$offering_detail['class_number'].'</td>'.
+										'<td>'.$offering_detail['class_section'].'</td>'.
+										'<td>'.$offering_detail['class_instructor'].'</td>'.
+										'<td>'.$offering_detail['class_meeting_days'].'</td>'.
+										'<td>'.$offering_detail['class_meeting_times'].'</td>'.
+										'<td>'.$offering_detail['location'].' ('.$offering_detail['campus_description'].')'.'</td>'.
+										'<td>'.$offering_detail['enrollment_status'].'</td>';
+								$html .= '</tr>';
+							;
+						}
+					}
+
+					$shareTitle = "$subject $catalog_number: $course_name";
+					$shareSummary = "";
+					$shareTwitterURL = "https://twitter.com/intent/tweet?hashtags=NikonSupport&related=NikonUSA&url=http://support.nikonusa.com/app/answers/detail/a_id/61&text=Current%20versions%20of%20Nikon%20software";
+					$shareFacebookURL = "http://www.facebook.com/sharer.php?s=100&p[title]=Current%20versions%20of%20Nikon%20software&p[summary]=Where%20can%20I%20download%20the%20latest%20Nikon%20software%20updates%3F&p[url]=http://support.nikonusa.com/app/answers/detail/a_id/61&p[images][0]=http%3A%2F%2Fsupport.nikonusa.com%2Feuf%2Fassets%2Fimages%2Fnikon%2Fnikon_logo_360.jpg";
+
+
+					$html .= "</tbody></table>
+								<span class=\"partial-print-trigger\" data-partial-print-target=\"li\"><i class=\"fa fa-print\"></i></span>
+								</li>";
+
 				}
-
-				$hasSbc = false;
-				$sbc = (string) $class_detail->SU_SBC;
-
-				if($sbc != " "){
-					$hasSbc = true;
-					$sbc =  "<span>" . $sbc . "</span>";
-				}
-
-				$description = (string) $class_detail->DESCRLONG;
-				$session_information = $this->getSessionInformationForSessionCode($session_code);
-				$class_number = (string) $class_detail->CLASS_NBR;
-				$class_section = (string) $class_detail->CLASS_SECTION;
-				$class_instructor = (string) $class_detail->INSTRUCTOR;
-				$class_meeting_days = (string) $class_detail->STND_MTG_PAT;
-				$class_meeting_times = (string) $class_detail->SU_MEETING_TIME;
-				$location = (string) $class_detail->LOCATION_DESCR;
-				$campus_description = (string) $class_detail->CAMPUS_DESCR;
-				$enrollment_status = (string) $class_detail->ENRL_STAT;
-
-				if($hasDec || $hasSbc) {
-					$sbc_dec_html = "<p>$dec $sbc</p>";
-				} else {
-					$sbc_dec_html = '';
-				}
-
-
-				$html .= "<li>
-							 <h5>$course_name</h5>
-							 <p><span>$subject $catalog_number ($session_code)</span> <span>$course_level<span></p>
-							 <p class=\"credits\">$credits</p>
-							 $sbc_dec_html
-							 <p class=\"description\">$description</p>
-							 <p>$session_information</p>
-							 <p>Class # $class_number (Section $class_section)</p>
-							 <p>$class_instructor</p>
-							 <p>$class_meeting_days $class_meeting_times</p>
-							 <p>$campus_description ($location)</p>
-							 <p>Status/$enrollment_status</p>
-						 </li>";
 
 			}
 

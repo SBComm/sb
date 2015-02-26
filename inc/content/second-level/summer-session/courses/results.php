@@ -8,7 +8,7 @@
                 <div class="border-box wrapper clearfix overflow-visible">
                     <header class="section-header clearfix">
                         <?php
-                            $selected_sub_nav = 2;
+                            $selected_sub_nav = 3;
                             $file = "summer-session/courses/courses-nav.php";
                             include($path . $content . $secLv . $file);
                         ?>
@@ -43,7 +43,7 @@
         }
     ?>
 
-    <section class="clearfix inside-content alt-headers wrapper search-results-wrapper">
+    <section id="summer-courses" class="clearfix inside-content alt-headers wrapper search-results-wrapper">
 
         <div id="modify-search" class="clearfix">
             <?php

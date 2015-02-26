@@ -1,6 +1,5 @@
 .summer-splash {
     background-image: url("../../img/student-life/students-on-grass-768.jpg");
-    background-size: 100%;
     background-size: cover;
     background-position: 50% 30%;
 }
@@ -478,6 +477,11 @@
     footer.site-footer .col-2 {
         padding: 0;
     }
+
+    #browse-departments .search-directions {
+        float: left;
+        display: inline-block;
+    }
 }
 
 @media only screen and (min-width: 1220px) {
@@ -498,6 +502,7 @@
         background-size: 100%;
         background-size: cover;
         background-position: 50% 30%;
+        background-attachment: fixed;
     }
     .summer-splash .blurb {
         bottom: 20px;

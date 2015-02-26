@@ -57,6 +57,8 @@
 	        $lightbox = true;
 	        $live_filter = true;
 	        $summer_session_courses = true;
+
+	        $tablesaw = true;
 		?>
 
 	<!-- <head> -->

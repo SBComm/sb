@@ -14,7 +14,8 @@ class Search{
 									  	"location" => "LOCATION",
 									 	"SBC" => "SU_SBC",
 									  	"DEC" => "RQMNT_DESIGNTN",
-									  	"catalog_number" => "CATALOG_NBR"
+									  	"catalog_number" => "CATALOG_NBR",
+									  	"session_code" => "SESSION_CODE"
 								  	);
 	}
 
@@ -229,6 +230,7 @@ class Search{
 						case "catalog_number":
 						case "department":
 						case "course_level":
+						case "session_code":
 						case "DEC":
 							// Get the XML node name for the search query parameter
 							$xml_node_name = $this->accepted_parameters[$query_parameter];
@@ -251,26 +253,32 @@ class Search{
 
 			}
 
-			// Sort search results by keyword match strength (strongest matches first)
-			$sort_status = usort($search_results, function ($a, $b){
-				$akms = (int) $a->keyword_match_strength;
-				$bkms = (int) $b->keyword_match_strength;
-				if($akms == $bkms){
-					$comparison = 0;
+			/*
+			if(count($query) > 0){
+				
+				// Sort search results by keyword match strength (strongest matches first)
+				$sort_status = usort($search_results, function ($a, $b){
+					$akms = (int) $a->keyword_match_strength;
+					$bkms = (int) $b->keyword_match_strength;
+					if($akms == $bkms){
+						$comparison = 0;
+					}
+
+					if($akms > $bkms){
+						$comparison = -1;
+					}else{
+						$comparison = 1;
+					}
+
+					return $comparison;
+				});
+
+				if(!$sort_status){
+					throw new \Exception("Failed to sort search results by keyword match strength");
 				}
 
-				if($akms > $bkms){
-					$comparison = -1;
-				}else{
-					$comparison = 1;
-				}
-
-				return $comparison;
-			});
-
-			if(!$sort_status){
-				throw new \Exception("Failed to sort search results by keyword match strength");
 			}
+			*/
 
 			return array(
 						"query" => $query,

@@ -326,6 +326,10 @@
         <!-- END Page Specific Includes -->
 
         <!-- BEGIN Element Specific Includes -->
+        <?php if($tablesaw) { ?>
+        	<?php includeAsset('js','plugins/tablesaw/tablesaw.js'); ?>
+        <? } ?>
+
         <?php if($map==true) { ?>
 			<?php includeAsset('js','plugins/map/js/raphael.js'); ?>
 			<?php includeAsset('js','plugins/map/js/scale.raphael.js'); ?>

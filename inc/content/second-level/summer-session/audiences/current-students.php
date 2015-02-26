@@ -42,10 +42,10 @@
                         <span class="line-2">(MEC 280)</span>
                     </span>
                 </a>
-                <a class="cellular-bio" href="summer-session/courses/results/?department=BIO&catalog_number=202">
+                <a class="cellular-bio" href="summer-session/courses/results/?department=EGL&catalog_number=389">
                     <span>
-                        <span class="line-1">Molecular &amp; <br />Cellular Biology</span>
-                        <span class="line-2">(BIO 202)</span>
+                        <span class="line-1">Science Fiction</span>
+                        <span class="line-2">(EGL 389)</span>
                     </span>
                 </a>
                 <a class="bio-lab" href="summer-session/courses/results/?department=BIO&catalog_number=204">

@@ -1,6 +1,6 @@
 <form class="course-search-form" method="GET" action="summer-session/courses/results">
 
-    <label class="clearfix one-half">Keywords
+    <label class="clearfix whole">Keywords
         <input type="text" class="rounded-input" name="keywords" />
     </label>
 
@@ -22,6 +22,13 @@
         <select class="rounded-input" name="location">
             <option value="">All</option>
             <?=$render->getLocationSelectOptions()?>
+        </select>
+    </label>
+
+    <label class="clearfix one-half">Session
+        <select class="rounded-input" name="session_code">
+            <option value="">All</option>
+            <?=$render->getSessionCodeSelectOptions()?>
         </select>
     </label>
 

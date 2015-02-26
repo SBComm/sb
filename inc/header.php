@@ -128,9 +128,15 @@
             <?php includeAsset('css','css/search.css','all'); ?>
         <?php } ?>
 
-        <?php if($map==true) { ?>
-            <?php includeAsset('css','plugins/map/css/map.css'); ?>
+        <?php if($tablesaw==true) { ?>
+            <?php includeAsset('css','plugins/tablesaw/tablesaw.bare.css','screen'); ?>
         <?php } ?>
+
+        <?php if($map==true) { ?>
+            <?php includeAsset('css','plugins/map/css/map.css','all'); ?>
+        <?php } ?>
+
+
 
     <!--BEGIN IE Specific CSS Includes and Polyfills-->
         <!--[if IE 11]>

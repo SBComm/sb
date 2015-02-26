@@ -57,7 +57,7 @@ class CourseData{
 		// the correct session code then remove it
 		foreach ($xmlObject->CLASS_DETAIL as $class_detail) {
 			
-			if(!in_array((string) $class_detail->SESSION_CODE, array("C", "D"))){
+			if(!in_array((string) $class_detail->SESSION_CODE, array("C", "D", "EEP", "Z", "Z2", "M"))){
 				$elements_to_remove[] = $class_detail;
 			}
 
@@ -247,8 +247,12 @@ class CourseData{
 	function getSessionInformation(){
 
 		$session_information = array(
-								"C" => "Session C (Start Date - End Date)",
-								"D" => "Session D (Start Date - End Date)"
+								"C" => "Session 1",
+								"D" => "Session 2",
+								"EEP" => "SPD Online",
+								"Z" => "Session 1 Extended",
+								"Z2" => "Session 2 Extended",
+								"M" => "Session 2 (HSC)"
 								);
 
 		return $session_information;

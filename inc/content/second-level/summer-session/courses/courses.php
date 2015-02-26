@@ -23,7 +23,7 @@
         //include($path . $content . $secLv . $file);
     ?>
 
-    <section id="browse-departments" class="clearfix inside-content alt-headers wrapper">
+    <section class="clearfix inside-content alt-headers wrapper">
 
         <div id="modify-search" class="clearfix">
             <?php
@@ -32,19 +32,20 @@
             ?>
         </div>
 
-        <div class="border-box content clearfix">
+        <div class="border-box content clearfix courses-intro-text">
 
-            <p></p>
+            <p>Summer Sessions courses are offered in a variety of formats: on-campus at Stony Brook, at our Manhattan location (Park Avenue South between 27th and 28th Streets), at Stony Brook Southampton, and online. There are also opportunities for study abroad, independent study, and academic internships.</p>
 
         </div>
 
-        <h4>Courses by Department</h4>
+        <h4 id="browse-departments" class="clearfix">Summer Courses by Department</h4>
 
         <div class="filter-wrapper border-box content clearfix sticky">
             <input id="live-filter-search" type="text" class="rounded-input text-filter" placeholder="Filter Departments" />
             <div class="filter-controls clearfix">
                 <div class="filter-status"></div>
                 <div class="clear-filter hide-accessible border-box">View all departments</div>
+            <span class="search-directions">or <a class="nivo-lightbox-summer-form" href="#modify-search" data-lightbox-type="inline">Search all courses</a></span>
             </div>
         </div>
 
