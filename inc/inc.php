@@ -144,7 +144,8 @@
     $filename_based_cache_busting = false;
     include($path . 'includes/filename_based_cache_busting.php');
 
-    
+    /* debugger, see https://github.com/raveren/kint */
+    include($path . 'debug/kint-master/Kint.class.php');
 
     /* functions */
     include($path . 'includes/functions.php');
