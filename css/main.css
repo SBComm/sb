@@ -551,10 +551,10 @@ video.background-video {
 
 ul,
 li {
-    list-style: none;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
+    list-style: none;
 }
 
 dl,
@@ -1300,15 +1300,10 @@ body {
         border-right: 1px solid #bbb;
         height: 60px;
         vertical-align: middle;
-        padding: 6px 8px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-    }
-
-    .light-grey-table th:last-child,
-    .light-grey-table td:last-child {
-        border-right: 0 none;
+        padding: 6px 8px;
     }
 
     table.light-grey-table tr:nth-child(even) {
@@ -1389,9 +1384,9 @@ body {
             height: 60px;
         }
 
-        .light-grey-table th,
-        .light-grey-table td {
-            
+        .light-grey-table th:last-child,
+        .light-grey-table td:last-child {
+            border-right: 0 none;
         }
 
         .background-image-buttons span.label {
@@ -2407,6 +2402,7 @@ body {
     }
 
     .inside-content .section-nav a.selected,
+    .inside-content .section-nav a.highlighted,
     .inside-content .section-nav a:hover {
         background: #f3f3f3;
         color: #900;
@@ -2525,6 +2521,7 @@ body {
         border-bottom: 1px solid #777;
         line-height: 1.1em;
         text-shadow: none;
+        clear: both;
     }
 
     .inside-content .content {
@@ -2786,6 +2783,7 @@ body {
         }
 
         .inside-content .section-nav a.selected,
+        .inside-content .section-nav a.highlighted,
         .inside-content .section-nav a:hover {
             background: #fff;
         }
@@ -3943,4 +3941,50 @@ footer.site-footer .social .small-button:after {
     h3 {
         page-break-after: avoid;
     }
+
+    #totop {
+        display: none !important;
+    }
+
+    .hide-for-print {
+        background: #fff !important;
+    }
+
+    .hide-for-print .sbu-sub-wrapper {
+        position: absolute;
+        top: -99999px;
+        left: -99999px;
+        background: #fff !important;
+    }
+
+    .partial-print-trigger {
+        display: none !important;
+    }
+
+    .partial-print-target {
+        display: block !important;
+        position: absolute !important;
+        top: 99999px !important;
+        left: 99999px !important;
+        width: 600px !important;
+    }
+
+    .partial-print-target * {
+        font-size: 12px !important;
+    }
+
+    .partial-print-target .tablesaw-cell-label {
+        display: none !important;
+    }
+}
+
+.partial-print-trigger {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.partial-print-trigger:hover {
+    color: #900;
 }
