@@ -20,7 +20,7 @@
 }
 .cse .gsc-branding,
 .gsc-branding {
-  display: none;
+  /*display: none;*/
 }
 /* Selector for entire element. */
 .cse .gsc-control-cse,
