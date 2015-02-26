@@ -296,6 +296,18 @@ $(document).ready(function() {
 
 	});
 
+	/* Partial Print */
+
+	$('.partial-print-trigger').on('click',function() {
+		var printTarget = $(this).attr('data-partial-print-target');
+		$(this).closest(printTarget).addClass('partial-print-target');
+		$('body').addClass('hide-for-print');
+		window.print();
+		$(this).closest(printTarget).removeClass('partial-print-target');
+		$('body').removeClass('hide-for-print');
+		
+	});
+
 	/* Proofing */
 	$('#proofing-message .close-proofing-message').on('click',function() {
 		$('#proofing-message').slideUp(400);
