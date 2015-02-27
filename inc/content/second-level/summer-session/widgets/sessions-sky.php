@@ -9,19 +9,19 @@
         <h5>Registration begins April 6</h5>
         <p>
             <strong>Summer Session 1</strong>
-            <em>May 27 - July 5, 2014</em>
+            <em>May 23 - July 2, 2015</em>
         </p>
         <p>
             <strong>Summer Session 2</strong>
-            <em>May 27 - July 5, 2014</em>
+            <em>July 6 - August 15, 2015</em>
         </p>
         <p class="session">
-            <strong>Extended Session 1</strong>
-            <em>May 27 - July 5, 2014</em>
+            <strong>Session 1 Extended</strong>
+            <em>May 23 - July 18, 2015</em>
         </p>
         <p class="session">
-            <strong>Extended Session 2</strong>
-            <em>May 27 - July 5, 2014</em>
+            <strong>Session 2 Extended</strong>
+            <em>June 29 - August 14, 2015</em>
         </p>
     </div>
 </section>
