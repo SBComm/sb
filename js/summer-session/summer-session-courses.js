@@ -73,9 +73,12 @@ $(document).ready(function() {
 					searchValues[searchParams[i]] = '';
 				}
 			}
-			var keywordValue = decodeURIComponent($.urlParam('keywords'));
 
-			$('.course-search-form input[name="keywords"]').val(searchValues.keywords);
+			var keywordValue = searchValues.keywords;
+			keywordValue = keywordValue.replace('+',' ');
+
+
+			$('.course-search-form input[name="keywords"]').val(keywordValue);
 			$('.course-search-form select[name="department"]').val(searchValues.department);
 			$('.course-search-form select[name="course_level"]').val(searchValues.course_level);
 			$('.course-search-form select[name="location"]').val(searchValues.location);
