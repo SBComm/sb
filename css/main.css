@@ -3049,8 +3049,8 @@ body {
 
 .wrapper {
     width: 90%;
-    margin: 0 5%;
     overflow: hidden;
+    margin: 0 5%;
 }
 
 .no-pad-wrapper {
