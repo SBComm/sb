@@ -434,7 +434,7 @@ table.tablesaw {
   }
 }
 
-@media (max-width: 759px) {
+@media (max-width: 767px) {
   .tablesaw-stack thead td,
   .tablesaw-stack thead th {
     display: none;
@@ -464,7 +464,7 @@ table.tablesaw {
 
 /* Media query to show as a standard table at 560px (35em x 16px) or wider */
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
   .tablesaw-stack tr {
     display: table-row;
   }
