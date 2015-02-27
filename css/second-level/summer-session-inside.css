@@ -1038,7 +1038,7 @@ a.modify-search-after:hover {
     .nivo-lightbox-wrap {
         position: absolute;
         top: 16%;
-        bottom: 16%;
+        bottom: auto;
         left: 16%;
         right: 16%;
     }
