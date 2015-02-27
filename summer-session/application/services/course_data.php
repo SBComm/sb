@@ -160,7 +160,7 @@ class CourseData{
 	function getSBCCodes(){
 
 		$xmlObject = false;
-		$url = 'http://sb.cc.stonybrook.edu/bulletin/2015/spring/_data/LongNames.xml';
+		$url = 'http://sb.cc.stonybrook.edu/bulletin/current/_data/LongNames.xml';
 
 		try{
 

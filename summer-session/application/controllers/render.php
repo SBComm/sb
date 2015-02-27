@@ -460,6 +460,13 @@ class Render{
 			$catalog_number = (string) $class_detail->CATALOG_NBR;
 			$session_code = (string) $class_detail->SESSION_CODE;
 
+			$location = (string) $class_detail->LOCATION_DESCR;
+			$campus_description = (string) $class_detail->CAMPUS_DESCR;
+
+			if($campus_description=="Manhattan Campus") {
+				$location = "NYC";
+			}
+
 			$course_offerings[$count] = array(
 				'subject' => (string) $class_detail->SUBJECT,
 				'catalog_number' => (string) $class_detail->CATALOG_NBR,
@@ -469,8 +476,8 @@ class Render{
 				'class_instructor' => (string) $class_detail->INSTRUCTOR,
 				'class_meeting_days' => (string) $class_detail->STND_MTG_PAT,
 				'class_meeting_times' => (string) $class_detail->SU_MEETING_TIME,
-				'location' => (string) $class_detail->LOCATION_DESCR,
-				'campus_description' => (string) $class_detail->CAMPUS_DESCR,
+				'location' => $location,
+				'campus_description' => $campus_description,
 				'enrollment_status' => (string) $class_detail->ENRL_STAT
 			);
 
@@ -551,10 +558,6 @@ class Render{
 						$sbc_dec_html = '';
 					}
 
-					if($campus_description=="Manhattan Campus") {
-						$location = "NYC";
-					}
-
 
 					$html .= "<li>
 								 <h5>$subject $catalog_number: $course_name</h5>
@@ -584,7 +587,7 @@ class Render{
 										'<td>'.$offering_detail['class_instructor'].'</td>'.
 										'<td>'.$offering_detail['class_meeting_days'].'</td>'.
 										'<td>'.$offering_detail['class_meeting_times'].'</td>'.
-										'<td>'.$offering_detail['location'].' ('.$offering_detail['campus_description'].')'.'</td>'.
+										'<td>'.$offering_detail['campus_description'].' ('.$offering_detail['location'].')'.'</td>'.
 										'<td>'.$offering_detail['enrollment_status'].'</td>';
 								$html .= '</tr>';
 							;
