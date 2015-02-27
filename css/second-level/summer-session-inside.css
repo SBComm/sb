@@ -132,6 +132,10 @@ h4 span {
     text-transform: none;
 }
 
+.hs-long h4 span {
+    color: #900;
+}
+
 .high-school-content .courses-content h4 {
     text-transform: none;
     margin-top: 0
@@ -886,8 +890,8 @@ a.modify-search-after:hover {
     }
 
     .programs-box-content {
-        padding: 22px 5px 0 30px;
-        width: 335px;
+        padding: 22px 0px 0 15px;
+        width: 330px;
     }
 
     .programs-box-content ul {
@@ -898,7 +902,7 @@ a.modify-search-after:hover {
 
     .programs-box-content ul li {
         margin: 0 0 8px 20px;
-        font-size: .9em;
+        font-size: .875em;
     }
 
     .programs-box-wrapper {
@@ -927,6 +931,25 @@ a.modify-search-after:hover {
         width: 33.333%;
         padding: 0;
         font-size: .9em;
+    }
+
+    .hs-long ul {
+        height: 327px;
+        overflow: auto;
+        margin-bottom: 0;
+        border: 1px solid #ddd;
+        padding: 10px 14px;
+    }
+
+    .hs-long p {
+        background: #fff;
+        box-shadow: 0 -12px 20px -10px #bbb;
+        padding: 12px 0 0;
+    }
+
+    .hs-long h4 {
+        border-bottom: 0 none !important;
+        margin: 0 !important;
     }
 }
 
@@ -984,6 +1007,10 @@ a.modify-search-after:hover {
 
     .search-results-wrapper h4 {
         margin-bottom: 15px !important;
+    }
+
+    .programs-box-content {
+        width: 420px;
     }
 }
 

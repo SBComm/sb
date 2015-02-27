@@ -313,6 +313,20 @@
     background-position: center;
 }
 
+.filter-buttons a.lightbulbs {
+    background-image: url('../../img/circle-buttons/lightbulbs-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.science-fiction {
+    background-image: url('../../img/circle-buttons/science-fiction-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media only screen and (min-width: 360px) {
     .filter-buttons p {
         font-size: 1.2em;
@@ -439,10 +453,15 @@
         font-size: 1.4em;
     }
 
-    .inside-page-section-nav {
+    section.inside-page-section-nav {
         position: absolute;
         right: 0;
-        width: 500px;
+        padding: 0 5% 0 0;
+    }
+
+    .inside-page-section-nav .wrapper {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .inside-page-section-nav.inside-content .section-nav {
@@ -475,6 +494,10 @@
         font-size: 2.3em;
     }
 
+    section.inside-page-section-nav {
+        padding: 0 2.5% 0 0;
+    }
+
     footer.site-footer .col-2 {
         padding: 0;
     }
@@ -486,6 +509,10 @@
 }
 
 @media only screen and (min-width: 1220px) {
+    section.inside-page-section-nav {
+        padding: 0;
+    }
+
     .summer-splash {
         background-image: url("../../img/student-life/students-on-grass-1600.jpg");
         background-size: 100%;
