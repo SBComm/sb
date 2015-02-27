@@ -1,0 +1,525 @@
+.ghosted-campus {
+    background-image: url("../../img/university/ghosted-campus-admin.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 100% 50%;
+}
+.carousel-wrapper {
+    padding-bottom: 10px;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 20px;
+}
+
+.carousel-image[data-image='01'] {
+    background-image: url("../../faculty-staff/images/faculty-staff-dummy-marquee.jpg");
+}
+
+.carousel-image[data-image='02'] {
+    background-image: url("../../for-students/images/for-students-chillfest-2014.jpg");
+}
+
+.carousel-image[data-image='03'] {
+    background-image: url("../../for-students/images/april-slamowitz.jpg");
+}
+
+section.title-link-box-wrapper {
+    background: #fff;
+    padding: 50px 5% 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.title-link-box-wrapper .left-link-box {
+    margin: 0;
+}
+
+.title-link-box-wrapper h2 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.title-link-box-wrapper .drop-accordion .tab {
+    padding: 3px 0;
+    font-size: 1.125em;
+}
+
+.title-link-box-wrapper .drop-accordion .content-wrap {
+    margin-left: 17px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.title-link-box-wrapper .drop-accordion a {
+    color: #900;
+    display: block;
+    padding: 2px 0;
+    text-indent: -15px;
+    margin: 0 0 0 15px;
+}
+
+.title-link-box-wrapper .drop-accordion a:hover {
+    text-decoration: underline;
+}
+
+.for-students-promo {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+}
+
+.for-students-promo .video-promo-wrapper {
+    padding: 20px 0;
+}
+
+.for-students-promo .video-caption {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #1d1d1d;
+    color: #eee;
+    margin: 0;
+}
+
+.video-promo-wrapper .video-caption strong {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 2px 0;
+}
+
+.opportunities-wrapper {
+    margin: 30px 0;
+    background-image: url("../../img/misc/opportunities-phone-bkgnd.jpg");
+    background-size: cover;
+    background-position: 100% 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-shadow: 0 2px 5px #000;
+    padding: 20px 0;
+}
+
+.opportunities-wrapper h2 {
+    margin: 0 0 15px;
+    color: #fff;
+}
+
+.opportunities-wrapper a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 4px;
+}
+
+.opportunities-wrapper a:hover {
+    text-decoration: none;
+    text-shadow: 0 1px 5px #000;
+}
+
+.opportunities-wrapper a:before {
+    content: "\f101";
+    margin: 0 8px 0 0;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: 1em;
+    width: 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.opportunities-wrapper a:hover:before {
+    text-decoration: none;
+}
+
+section.activities-and-calendar {
+    background: url("../../img/faculty-staff/faculty-staff-news-communic-bkgnd.jpg") 0 0 no-repeat #000;
+    padding-bottom: 0;
+}
+    .activities-and-calendar h3.medium-title-2 {
+        border-bottom: 0 none;
+    }
+
+    .activities-and-calendar a {
+        color: #fff;
+    }
+
+        .activities-and-calendar ul.calendar-items,
+        .activities-and-calendar ul.calendar-items li {
+            padding: 0;
+            margin: 0;
+        }
+
+        .activities-and-calendar ul.calendar-items li {
+            margin: 0 0 20px;
+            display: block;
+        }
+
+        .activities-and-calendar .event-time,
+        .activities-and-calendar .event-desc {
+            color: #fff;
+        }
+
+        .activities-and-calendar .date-marker {
+            display: inline-block;
+            width: 20%;
+            margin: 0 2%;
+            background: #fff;
+            border: 2px solid #900;
+            border-radius: 4px;
+            padding: 6px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            opacity: .9;
+            float: left;
+        }
+
+        .activities-and-calendar .date-marker:hover {
+            opacity: 1;
+        }
+
+            .activities-and-calendar .event-month {
+                color: #000;
+                text-transform: uppercase;
+                display: block;
+                width: 100%;
+                text-align: center;
+                font-size: .9em;
+                line-height: 1;
+                margin: 0;
+                padding: 0;
+            }
+
+            .activities-and-calendar .event-date {
+                color: #900;
+                display: block;
+                width: 100%;
+                text-align: center;
+                font-family: 'CenturyExpandedLTW01-Ro';
+                font-size: 2.1em;
+                line-height: 1;
+                margin: 0;
+                padding: 0;
+            }
+
+        .activities-and-calendar .event-details {
+            display: inline-block;
+            width: 71%;
+            margin: 0 2%;
+            float: left;
+        }
+
+        .activities-and-calendar .event-title {
+            font-size: 1.2em;
+            width: 100%;
+            display: block;
+        }
+
+        .activities-and-calendar .event-details:hover .event-title {
+            text-decoration: underline;
+        }
+
+        .activities-and-calendar .event-time {
+            display: block;
+            width: 100%;
+            margin: 2px 0;
+            font-size: .8em;
+            font-family: 'Trade Gothic W01 Bold 2';
+        }
+
+        .activities-and-calendar .event-desc {
+            font-size: .9em;
+            line-height: .7em;
+        }
+
+        .activities-and-calendar .calendar-items .more-link a {
+            display: block;
+            width: 160px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            color: #47c2c8;
+            text-align: center;
+            margin: 10px auto 20px;
+            background: #000;
+            padding: 8px 0 12px;
+            border: 1px solid #47c2c8;
+            text-transform: uppercase;
+            font-size: .85em;
+        }
+
+        .activities-and-calendar .calendar-items .more-link a:hover {
+            color: #fff;
+        }
+
+    .activities-and-calendar .activities-links {
+        display: block;
+        width: 100%;
+        padding: 14px 25px 18px 14px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px solid #47c2c8;
+        text-align: center;
+        max-width: 260px;
+        margin: 10px auto;
+        background: url("../../img/bkg/transparent-black-50.png") repeat scroll 0 0;
+        background: rgba(0,0,0,.5);
+    }
+        .activities-and-calendar .activities-links a {
+            color: #fff;
+            display: block;
+            width: 100%;
+            padding: 4px 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .activities-and-calendar .activities-links a:hover {
+            color: #47c2c8;
+        }
+        .activities-and-calendar .activities-links a:before {
+            content: "\f005";
+            margin: 0 10px 0 0;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            position: relative;
+            z-index: 1;
+            font-size: .9em;
+            width: 10px;
+            text-align: center;
+            color: #900;
+        }
+
+@media only screen and (min-width: 480px) {
+    
+}
+
+@media only screen and (min-width: 560px) {
+    .activities-and-calendar .date-marker {
+        width: 12%;
+        margin: 0 4%;
+    }
+    .activities-and-calendar .event-details {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .activities-and-calendar .content {
+        float: left;
+        padding: 0;
+        max-width: 100%;
+        width: 100%;;
+    }
+    .activities-and-calendar .date-marker {
+        width: 18%;
+        margin: 6px 4% 0 0;
+    }
+    .activities-and-calendar .event-details {
+        width: 74%;
+    }
+    .activities-and-calendar ul.calendar-items {
+        float: left;
+        width: 31%;
+        margin: 0 2% 0 0;
+    }
+    .activities-and-calendar .activities-links {
+        float: left;
+        width: 29%;
+        margin: 0 4% 0 0;
+        max-width: 800px;
+        text-align: left;
+        padding: 0 5px 15px 0;
+    }
+    .activities-and-calendar .activities-links a {
+        font-size: .9em;
+        padding: 8px 8px 8px 28px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 960px) {
+    .black-opac-cover {
+        background: transparent;
+        box-shadow: none;
+    }
+    section.title-link-box-wrapper {
+        padding: 50px 0 50px;
+    }
+    .title-link-box-wrapper .left-link-box {
+        float: left;
+        display: inline-block;
+        width: 33%;
+        padding: 9px;
+        border: 1px solid #900;
+        margin: 0 2% 0 0;
+    }
+    .title-link-box-1 h2 {
+        font-size: 1.4em;
+        font-weight: normal;
+        font-family: 'TradeGothicW01-BoldCn20 675334';
+        text-transform: uppercase;
+        background: #900;
+        color: #fff;
+        padding: 10px 0;
+    }
+    .title-link-box-wrapper .drop-accordion a {
+        font-size: .95em;
+    }
+    .for-students-promo {
+        float: left;
+        display: inline-block;
+        width: 65%;
+        padding: 0 0 0 2%;
+        border-left: 1px solid #ddd;
+    }
+    .for-students-promo .video-promo-wrapper {
+        padding: 0;
+        position: relative;
+    }
+    .opportunities-wrapper h2 {
+        text-transform: uppercase;
+        font-size: 1.3em;
+    }
+    .opportunities-wrapper a {
+        font-size: .95em;
+        font-family: 'Trade Gothic W01 Bold 2';
+        display: inline-block;
+        width: 50%;
+        float: left;
+        text-align: left;
+        padding: 4px 0 4px 25px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .opportunities-wrapper a:nth-child(even) {
+        padding: 4px 0 4px 40px;
+    }
+    .opportunities-wrapper a:nth-child(odd) {
+        padding: 4px 0 4px 0;
+    }
+    section.activities-and-calendar {
+        background: url("../../img/faculty-staff/faculty-staff-news-communic-bkgnd.jpg") 0 0 no-repeat #000;
+        padding-bottom: 0;
+    }
+    section.beyond-the-brook {
+        background: url("../../img/scenes/ocean.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 60% 40%;
+        padding: 60px 0 110px;
+    }
+    .arrow-below-ocean:after {
+        border-top-color: #9DA4B4;
+    }
+    .beyond-the-brook h3 {
+        display: block;
+        margin: 0;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-transform: none;
+        color: #000;
+        font-size: 3em;
+    }
+    .beyond-the-brook h3 strong {
+        display: inline-block;
+    }
+    .beyond-the-brook a {
+        width: 185px;
+        margin: 130px auto 0;
+        background: url("../../img/bkg/transparent-black-30.png") repeat scroll 0 0;
+        background: rgba(0,0,0,.3);
+        font-size: 1.4em;
+        padding: 10px 0;
+    }
+    .beyond-the-brook a:hover {
+        background: url("../../img/bkg/transparent-black-40.png") repeat scroll 0 0;
+        background: rgba(0,0,0,.4);
+    }
+    section.we-are-seawolves {
+        padding: 70px 0;
+    }
+    .we-are-seawolves h3 {
+        font-size: 5em;
+    }
+    .we-are-seawolves a.subhead-link {
+        margin: 0 auto;
+        width: 740px;
+        font-size: 2em;
+        font-family: 'Trade Gothic W01 Light';
+        background: transparent;
+    }
+    .we-are-seawolves a.subhead-link em {
+       display: inline-block;
+    }
+    .we-are-seawolves h4 {
+        font-size: 2.5em;
+    }
+    .we-are-seawolves .sports-links a {
+        font-size: 1.3em;
+    }
+}
+@media only screen and (min-width: 1220px) {
+    section.beyond-the-brook {
+        padding: 80px 0 160px;
+    }
+    section.beyond-the-brook video {
+        top: -100px;
+    }
+}
+@media only screen and (min-width: 1460px) {
+    section.beyond-the-brook {
+        padding: 100px 0 180px;
+    }
+    section.beyond-the-brook video {
+        top: -130px;
+    }
+}
+@media only screen and (min-width: 1620px) {
+    section.beyond-the-brook {
+        padding: 130px 0 210px;
+    }
+    .beyond-the-brook a {
+        margin: 160px auto 0;
+    }
+    section.beyond-the-brook video {
+        top: -130px;
+    }
+}
+@media only screen and (min-width: 1620px) {
+    section.beyond-the-brook {
+        padding: 150px 0 340px;
+    }
+}
