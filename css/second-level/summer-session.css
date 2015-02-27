@@ -135,6 +135,7 @@
 .filter-buttons {
     position: relative;
     padding: 40px 0px;
+    z-index: 2;
 }
 
 .filter-buttons a.main-campus {
