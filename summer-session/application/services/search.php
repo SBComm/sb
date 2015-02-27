@@ -21,12 +21,12 @@ class Search{
 
 
 	/**
-	 * Search the title and description by keywords
+	 * Search course by keywords
 	 * @param  \SimpleXMLElement $class_detail
 	 * @param  string $keywords The keywords to search for
 	 * @return integer $match_strength A numerical indicator of the match strength
 	 */
-	private function searchTitleAndDescriptionByKeywords(\SimpleXMLElement $class_detail, $keywords){
+	private function searchCourseByKeywords(\SimpleXMLElement $class_detail, $keywords){
 
 		$valid_keywords = true;
 		$match_strength = 0;
@@ -47,7 +47,7 @@ class Search{
 
 			// Split keywords into an array
 			// (Group words of three or less characters with words of 4 or more characters)
-			$regex_result = preg_match_all("/\b\w{1,3}\s\w{4,}|\w{4,}\s\w{1,3}\b|\w+/i", $keywords, $matches);
+			$regex_result = preg_match_all("/(?(?=[a-z]+\s[a-z]{1,3}\s\d{1,3}\b)[a-z]+|\b[a-z]{1,3}\s\d{1,3}\b)|(\b\w{1,3}\s)+\w{4,}\b|\b\w{4,}(\s\w{1,3}\b)+|(\b\w+\s*)+/i", $keywords, $matches);
 
 			if($regex_result === false){
 				throw new \Exception("An error has occurred while splitting keywords");
@@ -55,12 +55,35 @@ class Search{
 
 			$keywords_array = $matches[0];
 
-			// Get title and description
+			// Get class info for search
+			$subject = (string) $class_detail->SUBJECT;
+			$catalog_number = (string) $class_detail->CATALOG_NBR;
+			$sc = $subject . " " . $catalog_number;
+			$class_number = (string) $class_detail->CLASS_NBR;
+			$instructor = (string) $class_detail->INSTRUCTOR;
 			$title = (string) $class_detail->DESCR;
 			$description = (string) $class_detail->DESCRLONG;
 
 			// Loop through keywords
 			foreach ($keywords_array as $keyword) {
+
+				// Search class number
+				$class_number_matches = preg_match_all("/\b$keyword\b/i", $class_number);
+				if($class_number_matches > 0){
+					$match_strength += $class_number_matches * 16;
+				}
+				
+				// Search subject and catalog number group
+				$sc_matches = preg_match_all("/\b$keyword\b/i", $sc);
+				if($sc_matches > 0){
+					$match_strength += $sc_matches * 12;
+				}
+
+				// Search instructor
+				$instructor_matches = preg_match_all("/\b$keyword\b/i", $instructor);
+				if($instructor_matches > 0){
+					$match_strength += $instructor_matches * 8;
+				}
 				
 				// Search title
 				$title_matches = preg_match_all("/\b$keyword\b/i", $title);
@@ -193,7 +216,7 @@ class Search{
 					switch ($query_parameter){
 
 						case "keywords":
-							$keyword_match_strength = $this->searchTitleAndDescriptionByKeywords($class_detail, $query_value);
+							$keyword_match_strength = $this->searchCourseByKeywords($class_detail, $query_value);
 
 							// Add keyword match strength to class detail for sorting later
 							$class_detail->keyword_match_strength = $keyword_match_strength;
