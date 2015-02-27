@@ -450,8 +450,6 @@ class Render{
 
 		$course_offerings = array();
 
-		$count = 0;
-
 		foreach($search_results as $class_detail){
 
 			$class_detail = $this->expandCourseDataAbbreviations($class_detail);
@@ -473,8 +471,6 @@ class Render{
 				'campus_description' => (string) $class_detail->CAMPUS_DESCR,
 				'enrollment_status' => (string) $class_detail->ENRL_STAT
 			);
-
-			$count++;
 
 		}
 
