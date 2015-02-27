@@ -11,7 +11,7 @@
     </section>
     <section class="clearfix inside-content main-inside-content alt-headers two-col white-background">
         <div class="border-box wrapper clearfix">
-            <h3>Get a jump on college credits</h3>
+            <h3>Visiting Students Welcomed!</h3>
             <div class="content">
                 <p>Students attending other colleges and universities frequently enroll in Summer Session classes as non-matriculated students. We recommend that you check with your academic advisor at your home campus about the applicability of the courses you select for your degree program.</p>
                 <ul class="star-bullets red-before-children">

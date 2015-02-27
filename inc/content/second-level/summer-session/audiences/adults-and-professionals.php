@@ -27,22 +27,10 @@
         <div class="border-box no-pad-wrapper">
             <h4>Popular Courses</h4>
             <div class="circle-band-buttons-wrapper-2">
-                <a class="adolescent" href="summer-session/courses/results/?department=CEE&catalog_number=601">
+                <a class="lightbulbs" href="summer-session/courses/results/?department=HEA&catalog_number=503">
                     <span>
-                        <span class="line-1">Early Adolescent Development</span>
-                        <span class="line-2">(CEE 601)</span>
-                    </span>
-                </a>
-                <a class="communication" href="summer-session/courses/results/?department=CEI&catalog_number=511">
-                    <span>
-                        <span class="line-1">Communication Technology</span>
-                        <span class="line-2">(CEI 511)</span>
-                    </span>
-                </a>
-                <a class="org-change" href="summer-session/courses/results/?department=CEX&catalog_number=538">
-                    <span>
-                        <span class="line-1">Organizational <br />Change Mgmt.</span>
-                        <span class="line-2">(CEX 538)</span>
+                        <span class="line-1">Leadership in Higher Education</span>
+                        <span class="line-2">(HEA 503)</span>
                     </span>
                 </a>
             </div>

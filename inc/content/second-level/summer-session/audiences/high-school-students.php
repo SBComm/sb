@@ -28,21 +28,33 @@
                 </div>
             </div>
             <div class="content courses-content">
-                <div class="one-third">
+                <div class="one-third hs-long">
                     <h4>Special Courses for <span class="nowrap">High School Students</span></h4>
-                    <ul>
-                        <li><a href="summer-sesion/courses?search=#">Art History</a></li>
+                    <ul class="hs-long">
+                        <li><a href="summer-session/courses/results/?department=THR&catalog_number=105">Acting</a></li>
+                        <li><a href="summer-session/courses/results/?department=POL&catalog_number=102">American Government</a></li>
+                        <li><a href="summer-session/courses/results/?department=LIN&catalog_number=110">Anatomy of English Words - Online</a></li>
+                        <li><a href="summer-session/courses/results/?department=BUS&catalog_number=111">Business</a></li>
+                        <li><a href="summer-session/courses/results/?department=CCS&catalog_number=101">Cinema Studies</a></li>
+                        <li><a href="summer-session/courses/results/?department=DAN&catalog_number=102">Dance</a></li>
+                        <li><a href="summer-session/courses/results/?department=BIO&catalog_number=114">Dinosaur Paleontology</a></li>
+                        <li><a href="summer-session/courses/results/?department=GER&catalog_number=101">German</a></li>
+                        <li><a href="summer-session/courses/results/?department=AAS&catalog_number=110">Indian Music</a></li>
+                        <li><a href="summer-session/courses/results/?department=ITL&catalog_number=111">Italian</a></li>
+                        <li><a href="summer-session/courses/results/?department=MAP&catalog_number=103">Mathematics</a></li>
+                        <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424">Middle Eastern Languages</a></li>
                         <li><a class="external-link-hover" href="http://somas.stonybrook.edu/education/undergrad_course_mar104"target="_blank">Oceanography</a></li>
-                        <li><a href="summer-sesion/courses?search=#">Middle Eastern Languages</a></li>
-                        <li><a href="summer-sesion/courses?search=#">Mathematics</a></li>
-                        <li><a href="summer-sesion/courses?search=#">Music</a></li>
-                        <li><a href="summer-sesion/courses?search=#">Writing</a></li>
-                        <li><a href="summer-sesion/courses?search=#">Dinosaur Paleontology</a></li>
-                        <li><a href="summer-sesion/courses?search=#">Long Island's Natural History</a></li>
-                        <li><a href="summer-sesion/courses?search=#">Public Speaking</a></li>
-                        <li><a href="summer-sesion/courses?search=#">SAT Vocabulary Preparation</a></li>
+                        <li><a href="summer-session/courses/results/?department=PHI&catalog_number=108">Philosophy</a></li>
+                        <li><a href="summer-session/courses/results/?department=THR&catalog_number=104">Play Analysis</a></li>
+                        <li><a href="summer-session/courses/results/?department=PSY&catalog_number=103">Psychology</a></li>
+                        <li><a href="summer-session/courses/results/?department=SOC&catalog_number=105">Sociology</a></li>
+                        <li><a href="summer-session/courses/results/?department=SPN&catalog_number=111">Spanish</a></li>
+                        <li><a href="summer-session/courses/results/?department=THR&catalog_number=214">Theatre in New York</a></li>
+                        <li><a href="summer-session/courses/results/?department=WST&catalog_number=103">Women, Culture, and Difference</a></li>
+                        <li><a href="summer-session/courses/results/?department=CLT&catalog_number=101">World Literatures</a></li>
+                        <li><a href="summer-session/courses/results/?department=WRT&catalog_number=101">Writing</a></li>
                     </ul>
-                    <p><em><a class="fa-arrow-after" href="#">View all courses</a></em></p>
+                    <p><em><a class="fa-arrow-after" href="summer-session/courses/">View all courses</a></em></p>
                 </div>
                 <div class="two-third">
                     <div class="programs-box-wrapper clearfix">
