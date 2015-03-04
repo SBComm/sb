@@ -23,6 +23,10 @@
     background-image: url("../../for-students/images/sunykorea.jpg");
 }
 
+.carousel-image[data-image='03'] {
+    background-image: url("../../for-students/images/for-students-spring-break-2015.jpg");
+}
+
 .arrow-below-ocean:after {
     border-top-color: #9D978F;
 }
