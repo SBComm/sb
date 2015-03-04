@@ -233,7 +233,7 @@
             <h2>Student Body Profile</h2>
             <img src="img/students/student-body.jpg" />
             <ul class="clearfix">
-                <li class="clearfix"><span>24,648</span> <em>Total students</em></li>
+                <li class="clearfix"><span>24,607</span> <em>Total students</em></li>
                 <li class="clearfix"><span>16,480</span> <em>Undergraduates</em></li>
                 <li class="clearfix"><span>33,717</span> <em>Fall freshmen applications</em></li>
                 <li class="clearfix"><span>2,852</span> <em>Full-time fall freshmen</em></li>

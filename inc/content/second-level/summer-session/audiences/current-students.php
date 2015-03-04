@@ -26,7 +26,7 @@
                 </ul>
                 <div class="grey-box-1 clearfix">
                     <h5>Currently enrolled students may register for classes on SOLAR.</h5>
-                    <a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Register Now</a>
+                    <a href="https://psns.cc.stonybrook.edu/psp/he90prods/?cmd=login&languageCd=ENG&">Register Now</a>
                 </div>
             </div>
         </div>

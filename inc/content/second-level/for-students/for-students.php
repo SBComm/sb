@@ -113,8 +113,8 @@
                             <div class="content-wrap">
                                 <a href="http://blackboard.stonybrook.edu/" title="Blackboard" target="_blank">Blackboard</a>
                                 <a href="http://it.stonybrook.edu/services/solar" title="SOLAR System" target="_blank">SOLAR</a>
-                                <a href="http://fsa.sunysb.edu/apple/" title="Apple Computer Purchases" target="_blank">Apple Computer Purchases</a>
-                                <a href="http://fsa.sunysb.edu/pc-education-discounts/" title="PC Computer Purchases" target="_blank">PC Computer Purchases</a>
+                                <a href="http://www.stonybrook.edu/commcms/fsa/services/apple.html" title="Apple Computer Purchases" target="_blank">Apple Computer Purchases</a>
+                                <a href="http://www.stonybrook.edu/commcms/fsa/services/pc-discount.html" title="PC Discounts" target="_blank">PC Discounts</a>
                                 <a href="http://it.stonybrook.edu/services/client-support-service-center" title="Computer Support" target="_blank">Computer Support</a>      
                                 <a href="http://stonybrook.digication.com" title="ePortfolios" target="_blank">ePortfolios</a>
                                 <a href="http://it.stonybrook.edu" title="Information Technology (DoIT)" target="_blank">Information Technology (DoIT)</a>
@@ -132,7 +132,7 @@
                                 <a href="http://www.stonybrook.edu/sb/map/" target="_blank">Campus Maps</a>
                                 <a href="http://studentaffairs.stonybrook.edu/res/index.shtml" target="_blank">Campus Residences</a>
                                 <a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a>
-                                <a href="http://fsa.sunysb.edu/mealplan/" target="_blank">Meal Plans</a>
+                                <a href="http://www.stonybrook.edu/commcms/fsa/accounts/meal-plan/index.html" target="_blank">Meal Plan</a>
                                 <a href="http://studentaffairs.stonybrook.edu/css/" target="_blank">Commuter Student Services &amp; Off-Campus Living</a>
                                 <a href="http://www.stonybrook.edu/parking/" target="_blank">Parking Services</a>
                                 <a href="http://www.stonybrook.edu/transportation/" target="_blank">Transportation Services</a>
