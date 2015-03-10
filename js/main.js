@@ -55,6 +55,7 @@ $(document).ready(function() {
 	var didScroll = false;
  
 	$(window).scroll(function() {
+		console.log(1);
 	    didScroll = true;
 	});
 	 

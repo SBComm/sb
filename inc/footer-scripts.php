@@ -386,7 +386,7 @@
 
         <!-- window.load() -->
         <script type="text/javascript">
-        	window.onload = function(){
+	        $(window).load(function() { // makes sure the whole site is loaded
 
 	        	<?php if($page_type=='social-hub') { ?>
 
@@ -430,10 +430,9 @@
 						$(socialSelector).click();
 					}
 				<?php } ?>
-				console.log(1);
+
 				//page fade URL param for specific uses but not applicable to the page at all times
 				var pageFadeOverwrite = $.urlParam('pf');
-				console.log(2);
 				//console.log(pageFadeOverwrite);
 				if (pageFadeOverwrite==1) {
 					$('#status').fadeOut(); // will first fade out the loading animation
@@ -479,5 +478,5 @@
 		            }
 
 		        <?php } ?>
-	        };
+	        })
 		</script>
