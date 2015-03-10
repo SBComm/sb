@@ -28,7 +28,7 @@
                             <td><strong>May 23 - July 2</strong></td>
                             <td><strong>May 23 - July 18</strong></td>
                             <td><strong>July 6- August 15</strong></td>
-                            <td><strong>June 29 - August 14</strong></td>
+                            <td><strong>June 29 - August 15</strong></td>
                             <td><strong>May XX - August X</strong></td>
                         </tr>
                         <tr>

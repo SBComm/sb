@@ -87,7 +87,7 @@
                         <li>Allow (3-5) business days for processing. You will be sent a <strong>Stony Brook ID Number and registration instructions</strong>.</li>
                         <li>When you have completed your course work, you can order an <a href="http://www.stonybrook.edu/registrar/transcripts-howto.shtml" target="_blank">official transcript</a>.</li>
                     </ol>
-                    <a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Register Now</a>
+                    <a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Apply Now</a>
                 </div> 
             </div>
         </div>

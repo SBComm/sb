@@ -21,7 +21,7 @@
         </p>
         <p class="session">
             <strong>Session 2 Extended</strong>
-            <em>June 29 - August 14, 2015</em>
+            <em>June 29 - August 15, 2015</em>
         </p>
     </div>
 </section>

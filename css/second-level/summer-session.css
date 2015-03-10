@@ -481,7 +481,7 @@
     }
 
     .clouds-background{
-        padding: 80px 200px;
+        padding: 100px 200px;
     }
 
     .clouds-background h4 {
@@ -519,7 +519,7 @@
         background-position: 50% 30%;
     }
     .clouds-background{
-        padding: 100px 300px;
+        padding: 140px 300px;
     }
 }
 
@@ -539,7 +539,7 @@
         height: 780px;
     }
     .clouds-background{
-        padding: 80px 400px;
+        padding: 180px 400px 200px;
     }
 }
 
