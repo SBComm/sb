@@ -60,7 +60,8 @@ $(document).ready(function() {
 	});
 	 
 	setInterval(function() {
-	    if ( didScroll ) {
+	    if(didScroll) {
+	    	console.log(didScroll);
 	        didScroll = false;
 			if ($(this).scrollTop() > 100) {
 				$('#totop').removeClass('invisible');
