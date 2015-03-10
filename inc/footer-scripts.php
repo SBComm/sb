@@ -386,7 +386,7 @@
 
         <!-- window.load() -->
         <script type="text/javascript">
-	        $(window).load(function() { // makes sure the whole site is loaded
+        	window.onload = function(){
 
 	        	<?php if($page_type=='social-hub') { ?>
 
@@ -479,5 +479,5 @@
 		            }
 
 		        <?php } ?>
-	        });
+	        };
 		</script>
