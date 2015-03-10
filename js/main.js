@@ -59,7 +59,7 @@ $(document).ready(function() {
 	    didScroll = true;
 	});
 	 
-	setInterval(function() {
+	/* setInterval(function() {
 	    if(didScroll) {
 	    	console.log(didScroll);
 	        didScroll = false;
@@ -69,7 +69,7 @@ $(document).ready(function() {
 				$('#totop').addClass('invisible');
 			}
 	    }
-	}, 1250);
+	}, 1250); */
 
 	/* global hashchange function with smooth scroll */
 	$('a[href^="#"]').on('click',function(event) {
