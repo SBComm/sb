@@ -31,6 +31,12 @@
                 <p>Special consideration will be given to qualified graduates of university-parallel programs, i.e., A.A. and A.S. degree recipients from colleges within the State University of New York and City University of New York systems. Students are not, however, guaranteed admission into the program of their choice. Graduates of career-oriented programs (A.A.S. and A.O.S.) will be considered for admission on an individual basis and in competition with other transfer applicants.</p>
                 <p>Applicants who do not specify a major on their application are considered for admission to the University rather than to a particular major. Transfer students with more than 56 credits must indicate a major on their application to be eligible for financial aid.</p>
                 <p>Offers of admission are conditional, pending receipt of all official records showing successful completion of academic work in progress.</p>
+                <div class="button-wrapper tour-btn clearfix">
+                    <a href="undergraduate-admissions/events/?session=transfer" class="rounded-button-1 icon school-icon">
+                        <span class="label">View Events for Transfers</span>
+                    </a>
+                </div>
+                <br />
                 <h4>More Information</h4>
                 <ul>
                     <li><a href="downloads/pdf/admissions/Stony-Brook-Math-Expectations-Transfers.pdf">Math Expectations</a></li>

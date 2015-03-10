@@ -36,23 +36,6 @@
             <div class="content col-2">
                 <h4>Upcoming Sessions</h4>
                 <p>
-                    Friday, February 13, 2015<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577f62335c887f44683b32aa4fa014197e7" target="_blank">Register Now</a>
-                </p>
-                <p>
-                    Friday, February 20, 2015<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577ed7069eada7d444e87d780c652e47d44" target="_blank">Register Now</a>
-                </p>
-                <p>
-                    Friday, February 27, 2015<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=62357768c11ad3f1ea456f966889aa7e3d8274" target="_blank">Register Now</a>
-                </p>
-
-                <p>
-                    Friday, March 6, 2015<br />
-                    2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577c199f68c585d44f091c095295149427d" target="_blank">Register Now</a>
-                </p>
-                <p>
                     Friday, March 13, 2015<br />
                     2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577edf6ab9078274e619f7da58e4294ac4d" target="_blank">Register Now</a>
                 </p>
