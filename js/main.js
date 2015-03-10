@@ -55,13 +55,11 @@ $(document).ready(function() {
 	var didScroll = false;
  
 	$(window).scroll(function() {
-		console.log(1);
 	    didScroll = true;
 	});
 	 
-	/* setInterval(function() {
-	    if(didScroll) {
-	    	console.log(didScroll);
+	setInterval(function() {
+	    if ( didScroll ) {
 	        didScroll = false;
 			if ($(this).scrollTop() > 100) {
 				$('#totop').removeClass('invisible');
@@ -69,7 +67,7 @@ $(document).ready(function() {
 				$('#totop').addClass('invisible');
 			}
 	    }
-	}, 1250); */
+	}, 1250);
 
 	/* global hashchange function with smooth scroll */
 	$('a[href^="#"]').on('click',function(event) {

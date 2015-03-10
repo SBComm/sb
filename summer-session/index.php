@@ -50,7 +50,7 @@
 
     		$motio  		  = false;
 
-    		$page_loader     = true;
+    		$page_loader     = false;
 
     		$page_scroll      = true;
 	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
