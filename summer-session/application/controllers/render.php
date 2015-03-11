@@ -478,7 +478,8 @@ class Render{
 				'class_meeting_times' => (string) $class_detail->SU_MEETING_TIME,
 				'location' => $location,
 				'campus_description' => $campus_description,
-				'enrollment_status' => (string) $class_detail->ENRL_STAT
+				'enrollment_status' => (string) $class_detail->ENRL_STAT,
+				'topic' => (string) $class_detail->COURSE_TOPIC
 			);
 
 			$count++;
@@ -558,6 +559,20 @@ class Render{
 						$sbc_dec_html = '';
 					}
 
+					//Iterate through to determine if one of the course sections has a topic
+					$hasTopic = false;
+					$topic_header_html = '';
+					$topic_data_html = '';
+
+					foreach ($course_offerings as $offering_detail) {
+						if($subject == $offering_detail['subject'] && $catalog_number == $offering_detail['catalog_number']) {
+							$thisTopic = $offering_detail['topic'];
+							if($thisTopic!='' && $thisTopic!=' ' && $thisTopic!=null) {
+								$hasTopic = true;
+								$topic_header_html = '<th data-tablesaw-sortable-col>Topic</th>';
+							}
+						}
+					}
 
 					$html .= "<li>
 								 <h5>$subject $catalog_number: $course_name</h5>
@@ -569,6 +584,7 @@ class Render{
 								 <th data-tablesaw-sortable-col>Session</th>
 								 <th data-tablesaw-sortable-col data-sortable-numeric data-tablesaw-sortable-default-col>Class #</th>
 								 <th data-tablesaw-sortable-col>Section</th>
+								 $topic_header_html
 								 <th data-tablesaw-sortable-col>Instructor</th>
 								 <th data-tablesaw-sortable-col>Days</th>
 								 <th data-tablesaw-sortable-col>Time</th>
@@ -580,10 +596,19 @@ class Render{
 					foreach ($course_offerings as $offering_detail) {
 						
 						if($subject == $offering_detail['subject'] && $catalog_number == $offering_detail['catalog_number']) {
+								if($hasTopic) {
+									$topic_data = ucwords(strtolower(str_replace('#','',$offering_detail['topic'])));
+									if($topic_data=='' || $topic_data==' ' || $topic_data==null) {
+										$topic_data = '-';
+									}
+									$topic_data_html = '<td>'.$topic_data.'</td>';
+								}
+
 								$html .= '<tr>';
 								$html .= '<td>'.$offering_detail['session_information'].'</td>'.
 										'<td>'.$offering_detail['class_number'].'</td>'.
 										'<td>'.$offering_detail['class_section'].'</td>'.
+										$topic_data_html.
 										'<td>'.$offering_detail['class_instructor'].'</td>'.
 										'<td>'.$offering_detail['class_meeting_days'].'</td>'.
 										'<td>'.$offering_detail['class_meeting_times'].'</td>'.
