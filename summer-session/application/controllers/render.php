@@ -563,6 +563,18 @@ class Render{
 					$hasTopic = false;
 					$topic_header_html = '';
 					$topic_data_html = '';
+					$replacements = array(
+							'Ww ' => 'WW ',
+							'Ii' => 'II',
+							'Iii' => 'III',
+							'Iv' => 'IV',
+							'Vi' => 'VI',
+							'Vii' => 'VII',
+							'Viii' => 'VIII',
+							'Ix' => 'IX',
+							'La ' => 'LA ',
+							'Li ' => 'LI '
+						);
 
 					foreach ($course_offerings as $offering_detail) {
 						if($subject == $offering_detail['subject'] && $catalog_number == $offering_detail['catalog_number']) {
@@ -597,7 +609,14 @@ class Render{
 						
 						if($subject == $offering_detail['subject'] && $catalog_number == $offering_detail['catalog_number']) {
 								if($hasTopic) {
-									$topic_data = ucwords(strtolower(str_replace('#','',$offering_detail['topic'])));
+
+									$topic_data = ucwords(strtolower(str_replace('#','',$offering_detail['topic']))) . ' ';
+									$topic_data = preg_replace_callback('/(?<=( |-|\/|"))./', function ($m) { return strtoupper($m[0]); }, $topic_data);
+									foreach ($replacements as $key => $value) {
+										$topic_data = str_replace($key,$value,$topic_data);
+									}
+
+
 									if($topic_data=='' || $topic_data==' ' || $topic_data==null) {
 										$topic_data = '-';
 									}
