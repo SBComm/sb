@@ -22,7 +22,7 @@
                 <div class="grey-box-1 clearfix">
                     <h4>Steps to Enroll</h4>
                     <ol class="number large-number">
-                        <li><a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Register Now</a> and complete the <strong>Summer Session Application</strong> (undergraduates). There is no fee required. If you enrolled at Stony Brook in a previous term (including summer or winter), do not complete this application. Call the Summer Session Office at <strong>(631) 632-6175</strong>.</li>
+                        <li><a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Register Now</a> and complete the <strong>Summer Session Application</strong> (undergraduates). There is no fee required. If you enrolled at Stony Brook in a previous term (including summer or winter), do not complete this application. Call the Summer Session Office at <strong><span class="nowrap">(631) 632-6175</span></strong>.</li>
                         <li>Allow (3-5) business days for processing. You will be sent a <strong>Stony Brook ID Number and registration instructions</strong>.</li>
                         <li>Register for courses in the <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR System</a>. <em>If you need help registering for courses in SOLAR, <a href="https://www.youtube.com/watch?v=sgnX_p5BNg0" target="_blank" class="external-link">view a tutorial</a>.</em></li>
                     </ol>

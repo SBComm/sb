@@ -45,7 +45,7 @@
             <div class="filter-controls clearfix">
                 <div class="filter-status"></div>
                 <div class="clear-filter hide-accessible border-box">View all departments</div>
-            <span class="search-directions">or <a class="nivo-lightbox-summer-form" href="#modify-search" data-lightbox-type="inline">Search all courses</a></span>
+            <span class="search-directions">or perform an <a class="nivo-lightbox-summer-form" href="#modify-search" data-lightbox-type="inline">advanced search</a></span>
             </div>
         </div>
 

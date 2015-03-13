@@ -12,7 +12,7 @@
     <section class="clearfix inside-content main-inside-content alt-headers two-col white-background">
         <div class="border-box wrapper clearfix">
             <h3>How to Register</h3>
-            <div class="content">
+            <div class="content registration-buttons">
                 <p>To register for a Summer Session, select your current status:</p>
                 <div class="one-half">
                     <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="summer-session/current-students/">Current Student</a></p>

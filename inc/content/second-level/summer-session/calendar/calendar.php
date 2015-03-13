@@ -13,23 +13,25 @@
         <div class="border-box wrapper clearfix">
             <h3>Summer 2015 Deadlines</h3>
             <div class="content">
-                <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
                         <tr>
-                            <th>Session</th>
+                            <th></th>
                             <th>Session 1</th>
                             <th>Session 1 Extended</th>
                             <th>Session II</th>
                             <th>Session 2 Extended</th>
                             <th>Graduate Online</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td><strong>Dates</strong></td>
-                            <td><strong>May 23 - July 2</strong></td>
-                            <td><strong>May 23 - July 18</strong></td>
-                            <td><strong>July 6- August 15</strong></td>
-                            <td><strong>June 29 - August 15</strong></td>
-                            <td><strong>May XX - August X</strong></td>
+                            <td><strong>May 23 – July 2</strong></td>
+                            <td><strong>May 23 – July 18</strong></td>
+                            <td><strong>July 6 – August 15</strong></td>
+                            <td><strong>June 29 – August 15</strong></td>
+                            <td><strong>May XX – August X</strong></td>
                         </tr>
                         <tr>
                             <td>Housing Applications Due</td>
@@ -73,11 +75,11 @@
                         </tr>
                         <tr>
                             <td>Memorial Day, campus closed</td>
-                            <td>May 26</td>
-                            <td>May 26</td>
+                            <td>May 25</td>
+                            <td>May 25</td>
                             <td>-</td>
                             <td>-</td>
-                            <td>May 26</td>
+                            <td>May 25</td>
                         </tr>
                         <tr>
                             <td>Residence Halls open</td>

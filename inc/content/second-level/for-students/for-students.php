@@ -145,11 +145,10 @@
             <div class="for-students-promo clearfix">
                 <div class="video-promo-wrapper">
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/Jxe3jG4phPk?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/csfKZ8virvY?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="video-caption content">
-                        <strong>Featured Video:</strong> A focus group discussing lived experiences as it relates to Black History Month 
-
+                        <strong>Featured Video:</strong> Learn about the Sustainability Studies program at SBU
                     </div>
                 </div>
                 <div class="opportunities-wrapper clearfix content external-link-hover-wrapper">

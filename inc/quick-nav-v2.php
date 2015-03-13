@@ -1,4 +1,65 @@
-<?php if($second_level=='undergrad-admissions') { ?>
+<?php if($second_level=='summer-session') { ?>
+					<nav id="header" class="quick-nav clearfix" data-search-style="<?php echo $search_style ?>">
+						<div class="quick-nav-wrapper">
+		                    <ul class="no-pad-wrapper border-box clearfix">
+		                        <li>
+		                        	<a href="summer-session/courses" class="clearfix">
+		                        		<i class="icon fa fa-list-ul clearfix"></i>
+		                        		<span class="label clearfix">Courses</span>
+		                        	</a>
+		                        </li>
+		                    	<li class="mobile">
+		                        	<a href="summer-session/calendar" class="clearfix">
+		                        		<i class="icon fa fa-calendar clearfix"></i>
+		                        		<span class="label clearfix">Calendar</span>
+		                        	</a>
+		                        </li><!--
+		                        <li>
+		                        	<a href="http://www.stonybrook.edu/sb/contact/">
+		                        		<i class="icon fa fa-mobile clearfix"></i>
+		                        		<span class="label clearfix">Contact</span>
+		                        	</a>
+		                        </li>-->
+		                        <li class="mobile">
+		                        	<a href="summer-session/registration">
+		                        		<i class="icon fa fa-check-square-o clearfix"></i>
+		                        		<span class="label clearfix">Register</span>
+		                        	</a>
+		                        </li>
+		                        <li>
+		                        	<a href="http://it.stonybrook.edu/services/solar/">
+		                        		<i class="icon fa fa-shield clearfix"></i>
+		                        		<span class="label clearfix">Solar</span>
+		                        	</a>
+		                        </li>
+		                        <li class="tablet mobile">
+		                        	<a href="http://www.stonybrook.edu/mycloud/">
+		                        		<i class="icon fa fa-envelope-o clearfix"></i>
+		                        		<span class="label clearfix">Google Apps</span>
+		                        	</a>
+		                        </li>
+		                        <li class="tablet mobile">
+		                        	<a href="https://blackboard.stonybrook.edu/" class="clearfix">
+		                        		<i class="icon fa fa-desktop clearfix"></i>
+		                        		<span class="label clearfix">Blackboard</span>
+		                        	</a>
+		                        </li>
+		                        <li>
+		                        	<span class="more-trigger">
+		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
+		                        		<span class="label clearfix">More<span class="extra-label"> Links</span></span>
+		                        	</span>
+		                        </li>
+		                        <li class="desktop for-info">
+		                        	<span class="audience-trigger">
+		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
+		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>Info for</span>
+		                        	</span>
+		                        </li>
+		                    </ul>
+	                    </div>
+		            </nav>
+<?php } else if($second_level=='undergrad-admissions') { ?>
 					<nav id="header" class="quick-nav clearfix" data-search-style="<?php echo $search_style ?>">
 						<div class="quick-nav-wrapper">
 		                    <ul class="no-pad-wrapper border-box clearfix">

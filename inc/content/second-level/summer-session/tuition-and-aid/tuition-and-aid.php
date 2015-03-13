@@ -29,13 +29,15 @@
                 <h3 id="tuition">Tuition Rate</h3>
                 <p>Summer enrollment is very affordable! Stony Brook’s tuition is a fraction of the cost of private universities, and financial aid available to those who qualify.</p>
                 <h4>Tuition: Per Credit</h4>
-                <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
                         <tr>
                             <th></th>
                             <th>New York State Resident</th>
                             <th>Out of State</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Undergraduate</td>
                             <td>$245/credit</td>
@@ -78,13 +80,15 @@
 
                 <h3>Tuition Breakdown</h3>
                 <h4>NYS Resident Undergraduate</h4>
-                <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
                         <tr>
-                            <td>Credit Hours</td>
-                            <td>3cr</td>
-                            <td>4cr</td>
+                            <th>Credit Hours</th>
+                            <th>3cr</th>
+                            <th>4cr</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Tuition</td>
                             <td>735.00</td>
@@ -126,22 +130,24 @@
                             <td>44.00</td>
                         </tr>
                         <tr>
-                            <td>Total</td>
-                            <td>944.55</td>
-                            <td>1,190.40</td>
+                            <td><strong>Total</strong></td>
+                            <td><strong>944.55</strong></td>
+                            <td><strong>1,190.40</strong></td>
                         </tr>
                     </tbody>
                 </table>
                 <p><em>Tuition is subject to change without notice.</em></p>
 
                 <h4>NYS Resident Graduate</h4>
-                <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
                         <tr>
-                            <td>Credit Hours</td>
-                            <td>3cr</td>
-                            <td>4cr</td>
+                            <th>Credit Hours</th>
+                            <th>3cr</th>
+                            <th>4cr</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Tuition</td>
                             <td>1,233.00</td>
@@ -178,22 +184,24 @@
                             <td>44.00</td>
                         </tr>
                         <tr>
-                            <td>Total</td>
-                            <td>1,395.55</td>
-                            <td>1,807.40</td>
+                            <td><strong>Total</strong></td>
+                            <td><strong>1,395.55</strong></td>
+                            <td><strong>1,807.40</strong></td>
                         </tr>
                     </tbody>
                 </table>
                 <p><em>Tuition is subject to change without notice.</em></p>
 
                 <h4>NYS Resident MBA</h4>
-                <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
                         <tr>
-                            <td>Credit Hours</td>
-                            <td>3cr</td>
-                            <td>4cr</td>
+                            <th>Credit Hours</th>
+                            <th>3cr</th>
+                            <th>4cr</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Tuition</td>
                             <td>1,515.00</td>
@@ -230,9 +238,9 @@
                             <td>44.00</td>
                         </tr>
                         <tr>
-                            <td>Total</td>
-                            <td>1,677.55</td>
-                            <td>2,183.40</td>
+                            <td><strong>Total</strong></td>
+                            <td><strong>1,677.55</strong></td>
+                            <td><strong>2,183.40</strong></td>
                         </tr>
                     </tbody>
                 </table>
@@ -447,8 +455,8 @@
                 <h4>Summer Tuition Refund &amp; Liability Schedule</h4>
                 <p>A student must officially withdraw from Summer Session I or Extended session class(es) by June 2, 2014, to avoid tuition &amp; fee liability.</p>
                 <p>A student must officially withdraw from Summer Session II class(es) by July 11, 2014, to avoid tuition &amp; fee liability.</p>
-                <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
                         <tr>
                             <th></th>
                             <th>Tuition Refund</th>
@@ -457,6 +465,8 @@
                             <th>Session 1 &amp; Extended</th>
                             <th>Session 2</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td class="red">1st week </td>
                             <td>100%</td>
@@ -503,13 +513,13 @@
                 <p>Awards that have been accepted but have not yet been disbursed to your University account are considered “anticipated aid.” Award estimates, stipends, Work-Study, and student reported awards are not recorded as anticipated aid. In addition, anticipated aid that is not disbursed after a period of time will expire and will no longer be taken into account against any outstanding University charges. Please note that if your aid has expired, it can still be disbursed to your account once the disbursement hold is resolved. To avoid potential late fees and registration blocks, it is important to promptly follow up on all required documents.</p>
                 <h4>Summer TAP for Matriculated Undergraduates</h4>
                 <p>Students may be eligible to receive TAP (Tuition Assistance Program) to assist with tuition costs associated with summer study.</p>
-                <ul class="box-bullets">
+                <ul class="default-bullets">
                     <li>You must have received your first TAP award in the 2006-2007 academic year or thereafter.</li>
                     <li>You must have been enrolled full time in the prior spring term.</li>
                     <li>You must have earned a combined total of 24 credits in the prior two semesters; these credits must have been earned at Stony Brook University (transfer credits do not apply).</li>
                     <li>You must meet all of the Satisfactory Academic Progress Guidelines as defined by NY State Higher Education Services</li>
                     <li>You must have not exhausted your TAP eligibility
-                        <ul>
+                        <ul class="dash-bullets">
                             <li>Undergraduate students are eligible to receive 8 full time TAP awards</li>
                             <li>Students enrolled in the Educational Opportunity Program are eligible to receive 10 full time TAP awards.</li>
                         </ul>

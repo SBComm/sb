@@ -591,6 +591,11 @@ a.modify-search-after:hover {
     text-align: center;
 }
 
+.registration-buttons .one-half {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
 @media only screen and (min-height: 560px) {
     .nivo-lightbox-wrap {
         position: absolute;
@@ -1010,7 +1015,8 @@ a.modify-search-after:hover {
     }
 
     .programs-box-content {
-        width: 420px;
+        width: 350px;
+        padding: 22px 0px 0 25px;
     }
 }
 

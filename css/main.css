@@ -1180,7 +1180,6 @@ body {
         margin: 0 auto 25px;
         border-radius: 50%;
         overflow: hidden;
-        border: 1px solid #800;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -1287,6 +1286,7 @@ body {
     .light-grey-table th {
         font-family: 'Trade Gothic W01 Bold 2';
         color: #900;
+        text-align: left;
     }
 
     .light-grey-table th,
@@ -1301,12 +1301,8 @@ body {
         padding: 6px 8px;
     }
 
-    table.light-grey-table tr:nth-child(even) {
+    table.light-grey-table tbody tr:nth-child(even) {
         background: #f0f0f0;
-    }
-
-    table.light-grey-table tr:nth-child(odd) {
-        background: #e3e3e3;
     }
 
     table.responsive-flip {
@@ -1395,6 +1391,42 @@ body {
             width: 250px;
         }
 
+    }
+
+    /* Tablesaw */
+
+    table.tablesaw {
+        position: relative;
+        margin: 10px .5% 20px;
+        width: 99% !important;
+    }
+
+    table.tablesaw tr {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 10px;
+    }
+
+    table.tablesaw th {
+        font-weight: normal;
+        font-family: 'Trade Gothic W01 Bold 2';
+    }
+
+    table.tablesaw .tablesaw-cell-label {
+        font-weight: normal;
+        font-family: 'Trade Gothic W01 Bold 2';
+    }
+
+    @media only screen and (max-width: 768px) {
+        table.tablesaw thead tr {
+            display: none;
+        }
+
+        table.tablesaw th,
+        table.tablesaw td {
+            border-right: 0 none;
+            height: auto;
+        }
     }
 
     /* Lists */
@@ -2634,14 +2666,11 @@ body {
     }
     
     .star-bullets li:before {
-        content: "\f005";
+        content: "✭";
         margin: 0 10px 0 0;
-        font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
         line-height: 1;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
         position: relative;
         z-index: 1;
         font-size: 1em;
@@ -2658,6 +2687,29 @@ body {
     .box-bullets li:before {
         display: inline-block;
         content: "■";
+        margin: 0 0 0 0;
+        font-style: normal;
+        font-weight: normal;
+        font-family: arial;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        font-size: 1.2em;
+        width: 10px;
+        text-align: center;
+        color: #900;
+    }
+
+    .dash-bullets li {
+        margin-left: 20px;
+        text-indent: -15px;
+    }
+
+    .dash-bullets li:before {
+        display: inline-block;
+        content: "-";
         margin: 0 0 0 0;
         font-style: normal;
         font-weight: normal;
@@ -3725,6 +3777,8 @@ footer.site-footer .social .small-button:after {
         font-size: 1.4em;
         letter-spacing: .075em;
         padding: 8px 2px;
+        width: 60%;
+        margin: 30px 20% 0;
     }
 
     .grey-box-1 > a:hover {
@@ -3982,4 +4036,7 @@ footer.site-footer .social .small-button:after {
 
 .partial-print-trigger:hover {
     color: #900;
+}
+table.light-grey-table tbody tr:nth-child(odd) {
+    background: #e3e3e3;
 }
