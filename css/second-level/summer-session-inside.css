@@ -596,6 +596,12 @@ a.modify-search-after:hover {
     padding-top: 0;
 }
 
+.pre-reg-form {
+    width: 100%;
+    height: 3400px;
+    margin: 20px 0 0;
+}
+
 @media only screen and (min-height: 560px) {
     .nivo-lightbox-wrap {
         position: absolute;
@@ -615,6 +621,10 @@ a.modify-search-after:hover {
 @media only screen and (min-width: 360px) {
     .fixed-caption {
         font-size: 1.2em;
+    }
+
+    .pre-reg-form {
+        height: 2900px;
     }
 }
 @media only screen and (min-width: 400px) {
@@ -724,6 +734,10 @@ a.modify-search-after:hover {
 
     .clear-filter {
         padding: 7px 4px 8px;
+    }
+
+    .pre-reg-form {
+        height: 2350px;
     }
 }
 
