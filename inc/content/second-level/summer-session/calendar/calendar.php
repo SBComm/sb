@@ -66,7 +66,7 @@
                             <td>April 7</td>
                         </tr>
                         <tr>
-                            <td>Last day to enroll witdout late fee</td>
+                            <td>Last day to enroll without late fee</td>
                             <td>May 26</td>
                             <td>May 26</td>
                             <td>July 6</td>
@@ -106,7 +106,7 @@
                             <td>May 26</td>
                         </tr>
                         <tr>
-                            <td>Last day to add courses witdout permission (late fee applies)</td>
+                            <td>Last day to add courses without permission (late fee applies)</td>
                             <td>May 29</td>
                             <td>May 29</td>
                             <td>July 9</td>
@@ -134,7 +134,7 @@
                             <td>June 2</td>
                         </tr>
                         <tr>
-                            <td>Last day to drop courses witdout a "W" being recorded or tuition liability</td>
+                            <td>Last day to drop courses without a "W" being recorded or tuition liability</td>
                             <td>June 2</td>
                             <td>June 2</td>
                             <td>July 11</td>
@@ -142,7 +142,7 @@
                             <td>June 2</td>
                         </tr>
                         <tr>
-                            <td>Last day to witddraw from one or all Summer Sessions courses - "W" assigned - tuition liability incurred</td>
+                            <td>Last day to withdraw from one or all Summer Sessions courses - "W" assigned - tuition liability incurred</td>
                             <td>June 27</td>
                             <td>June 27</td>
                             <td>August 8</td>

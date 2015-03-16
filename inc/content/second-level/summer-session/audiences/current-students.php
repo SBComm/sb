@@ -12,7 +12,7 @@
 
     <section class="clearfix inside-content main-inside-content alt-headers two-col white-background">
         <div class="border-box wrapper clearfix">
-            <h3>Get a jump on college credits</h3>
+            <h3>Think Stony Brook this summer...</h3>
             <div class="content">
                 <p>This summer, Stony Brook will offer more than 500 courses in a variety of formats, from online classes to traditionally-taught courses on-campus at Stony Brook, Stony Brook Manhattan, and Stony Brook Southampton. There are also opportunities to study abroad, and earn credit through independent study or academic internships.</p>
                 <p>Whether you’re looking to get ahead in your studies, get caught up, or learn outside of the classroom, our Summer Sessions can help you stay on track for graduation and prepare for life passages yet to come.</p>
