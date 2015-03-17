@@ -16,6 +16,8 @@
 			}
 			include($inc);
 
+			$sub_nav_selected_tab = 3;
+
     		$inside_page = true;
 		?>
 	<!-- </inc> -->
