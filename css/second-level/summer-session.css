@@ -326,6 +326,85 @@
     background-position: center;
 }
 
+.filter-buttons a.disneys-america {
+    background-image: url('../../img/circle-buttons/disneys-america-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.confucianism {
+    background-image: url('../../img/circle-buttons/confucianism-and-daoism-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.hiphop {
+    background-image: url('../../img/circle-buttons/us-popular-music-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.engineering-economics {
+    background-image: url('../../img/circle-buttons/engineering-managerial-economics-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.beer {
+    background-image: url('../../img/circle-buttons/beer-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.the-american-musical {
+    background-image: url('../../img/circle-buttons/the-american-musical-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.afro-brazilian {
+    background-image: url('../../img/circle-buttons/afro-brazilian-dance-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.activism {
+    background-image: url('../../img/circle-buttons/utopia-activism-dystopia-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.socio-sport {
+    background-image: url('../../img/circle-buttons/sociology-of-sport-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.mozart {
+    background-image: url('../../img/circle-buttons/mozart-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.iran {
+    background-image: url('../../img/circle-buttons/iran-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
 @media only screen and (min-width: 360px) {
     .filter-buttons p {
         font-size: 1.2em;

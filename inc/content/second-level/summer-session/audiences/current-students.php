@@ -54,10 +54,10 @@
                         <span class="line-2">(BIO 204)</span>
                     </span>
                 </a>
-                <a class="chem-lab" href="summer-session/courses/results/?department=CHE&catalog_number=134">
+                <a class="disneys-america" href="summer-session/courses/results/?department=HIS&catalog_number=363">
                     <span>
-                        <span class="line-1">General Chemistry <br />Lab II</span>
-                        <span class="line-2">(CHE 134)</span>
+                        <span class="line-1">Disney’s America</span>
+                        <span class="line-2">(HIS 363 Online)</span>
                     </span>
                 </a>
                 <a class="org-chem" href="summer-session/courses/results/?department=CHE&catalog_number=321">
@@ -66,10 +66,10 @@
                         <span class="line-2">(CHE 321)</span>
                     </span>
                 </a>
-                <a class="biology" href="summer-session/courses/results/?department=BIO&catalog_number=361">
+                <a class="engineering-economics" href="summer-session/courses/results/?department=EST&catalog_number=392">
                     <span>
-                        <span class="line-1">Biochemistry</span>
-                        <span class="line-2">(BIO 361)</span>
+                        <span class="line-1">Engineering &amp; Manag. Economics</span>
+                        <span class="line-2">(EST 392)</span>
                     </span>
                 </a>
                 <a class="writing-intro" href="summer-session/courses/results/?department=WRT&catalog_number=102">
@@ -102,8 +102,26 @@
                         <span class="line-2">(PSY 103)</span>
                     </span>
                 </a>
+                <a class="hiphop" href="summer-session/courses/results/?department=MUS&catalog_number=320">
+                    <span>
+                        <span class="line-1">Hip Hop</span>
+                        <span class="line-2">(MUS 320)</span>
+                    </span>
+                </a>
+                <a class="confucianism" href="summer-session/courses/results/?department=AAS&catalog_number=240">
+                    <span>
+                        <span class="line-1">Confucianism and Daoism</span>
+                        <span class="line-2">(AAS 240)</span>
+                    </span>
+                </a>
+                <a class="the-american-musical" href="summer-session/courses/results/?department=MUS&catalog_number=325">
+                    <span>
+                        <span class="line-1">The American Musical</span>
+                        <span class="line-2">(MUS 325)</span>
+                    </span>
+                </a>
             </div>
-            <a class="full-width-red-button" href="summer-session/courses">View All Courses</a>
+            <a class="full-width-red-button" href="summer-session/courses/results/#summer-courses">View All Courses</a>
         </div>
     </section>
 

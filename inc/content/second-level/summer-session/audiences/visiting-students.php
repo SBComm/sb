@@ -67,26 +67,62 @@
                         <span class="line-2">(ACC 210)</span>
                     </span>
                 </a>
-                <a class="biology" href="#">
+                <a class="biology" href="summer-session/courses/results/?department=BIO&catalog_number=201">
                     <span>
-                        <span class="line-1">Coming Soon!</span>
-                    </span>
-                    <!--<span>
                         <span class="line-1">Fundamentals of Biology</span>
                         <span class="line-2">(BIO 201)</span>
-                    </span>-->
-                </a>
-                <a class="rock" href="#">
-                    <span>
-                        <span class="line-1">Coming Soon!</span>
                     </span>
-                    <!--<span>
+                </a>
+                <a class="rock" href="summer-session/courses/results/?department=MUS&catalog_number=109">
+                    <span>
                         <span class="line-1">Rock Music</span>
                         <span class="line-2">(MUS 109)</span>
-                    </span>-->
+                    </span>
+                </a>
+                <a class="beer" href="summer-session/courses/results/?department=HIS&catalog_number=393">
+                    <span>
+                        <span class="line-1">"Beer": Culture and Commodity</span>
+                        <span class="line-2">(HIS 393)</span>
+                    </span>
+                </a>
+                <a class="the-american-musical" href="summer-session/courses/results/?department=ACC&catalog_number=325">
+                    <span>
+                        <span class="line-1">The American Musical</span>
+                        <span class="line-2">(MUS 325)</span>
+                    </span>
+                </a>
+                <a class="mozart" href="summer-session/courses/results/?department=MUS&catalog_number=326">
+                    <span>
+                        <span class="line-1">Mostly Mozart!</span>
+                        <span class="line-2">(MUS 326)</span>
+                    </span>
+                </a>
+                <a class="afro-brazilian" href="summer-session/courses/results/?department=DAN&catalog_number=369">
+                    <span>
+                        <span class="line-1">Afro-Brazilian Dance</span>
+                        <span class="line-2">(DAN 369)</span>
+                    </span>
+                </a>
+                <a class="iran" href="summer-session/courses/results/?department=LIN&catalog_number=355">
+                    <span>
+                        <span class="line-1">Iran</span>
+                        <span class="line-2">(LIN 355)</span>
+                    </span>
+                </a>
+                <a class="socio-sport" href="summer-session/courses/results/?department=SOC&catalog_number=391">
+                    <span>
+                        <span class="line-1">Sociology of Sport</span>
+                        <span class="line-2">(SOC 391)</span>
+                    </span>
+                </a>
+                <a class="activism" href="summer-session/courses/results/?department=SUS&catalog_number=350">
+                    <span>
+                        <span class="line-1">Utopia, Activism and Dystopia</span>
+                        <span class="line-2">(SUS 350)</span>
+                    </span>
                 </a>
             </div>
-            <a class="full-width-red-button" href="summer-session/courses">View All Courses</a>
+            <a class="full-width-red-button" href="summer-session/courses/results/#summer-courses">View All Courses</a>
         </div>
     </section>
 

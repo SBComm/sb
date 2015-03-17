@@ -1622,9 +1622,9 @@ body {
 
     .full-width-red-button {
         background: #890000;
-        width: 100%;
+        width: 90%;
         max-width: 960px;
-        margin: 0 auto;
+        margin: 30px 5% 0;
         display: block;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -1635,7 +1635,7 @@ body {
         font-family:'Trade Gothic W01 Light';
         border: 1px solid #c5c5c5;
         font-size: 1.1em;
-        padding: 6px 2px;
+        padding: 10px 2px;
         text-rendering: optimizeLegibility;
     }
 
@@ -3323,7 +3323,7 @@ footer.site-footer .social .small-button:after {
         width: 200px;
         float: none;
         display: inline-block;
-        margin: 0 15px 30px
+        margin: 0 15px 30px;
     }
 
     .circle-band-buttons-wrapper a span {
@@ -3332,6 +3332,19 @@ footer.site-footer .social .small-button:after {
         -o-transform: rotate(-30deg);
         -webkit-transform: rotate(-30deg);
         transform: rotate(-30deg);
+    }
+
+    /* Stagger circles */
+
+    .circle-band-buttons-wrapper a:nth-child(n),
+    .circle-band-buttons-wrapper-2 a:nth-child(n) {
+        margin: 0 15px;
+    }
+
+    .circle-band-buttons-wrapper a:nth-child(3n),
+    .circle-band-buttons-wrapper-2 a:nth-child(3n) {
+        margin-right: 145px;
+        margin-left: 145px;
     }
 }
 
@@ -3551,6 +3564,24 @@ footer.site-footer .social .small-button:after {
         float: left;
         margin: 0;
     }
+
+    /* Circle buttons stagger */
+
+    .circle-band-buttons-wrapper a:nth-child(3n),
+    .circle-band-buttons-wrapper-2 a:nth-child(3n) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .circle-band-buttons-wrapper a:nth-child(5n),
+    .circle-band-buttons-wrapper-2 a:nth-child(5n) {
+        margin-right: 125px;
+    }
+
+    .circle-band-buttons-wrapper a:nth-child(5n-1),
+    .circle-band-buttons-wrapper-2 a:nth-child(5n-1) {
+        margin-left: 125px;
+    }
 }
 
 @media only screen and (min-width: 960px) {
@@ -3637,6 +3668,16 @@ footer.site-footer .social .small-button:after {
     .rounded-flat-button-wrapper.turquoise-blue a.selected {
         border: 3px solid rgba(128, 219, 240, 0.5);
         padding: 14px 12px;
+    }
+
+    .circle-band-buttons-wrapper a:nth-child(5n),
+    .circle-band-buttons-wrapper-2 a:nth-child(5n) {
+        margin-right: 155px;
+    }
+
+    .circle-band-buttons-wrapper a:nth-child(5n-1),
+    .circle-band-buttons-wrapper-2 a:nth-child(5n-1) {
+        margin-left: 155px;
     }
 }
 
@@ -3784,6 +3825,29 @@ footer.site-footer .social .small-button:after {
     .grey-box-1 > a:hover {
         box-shadow: 0 0 10px #ddd;
         background: #ececec;
+    }
+}
+
+
+@media only screen and (min-width: 1028px) {
+    .circle-band-buttons-wrapper a:nth-child(5n),
+    .circle-band-buttons-wrapper-2 a:nth-child(5n) {
+        margin-right: 15px;
+    }
+
+    .circle-band-buttons-wrapper a:nth-child(5n-1),
+    .circle-band-buttons-wrapper-2 a:nth-child(5n-1) {
+        margin-left: 15px;
+    }
+
+    .circle-band-buttons-wrapper a:nth-child(7n),
+    .circle-band-buttons-wrapper-2 a:nth-child(7n) {
+        margin-right: 130px;
+    }
+
+    .circle-band-buttons-wrapper a:nth-child(7n-2),
+    .circle-band-buttons-wrapper-2 a:nth-child(7n-2) {
+        margin-left: 130px;
     }
 }
 

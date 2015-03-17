@@ -31,7 +31,7 @@
                             <td><strong>May 23 – July 18</strong></td>
                             <td><strong>July 6 – August 15</strong></td>
                             <td><strong>June 29 – August 15</strong></td>
-                            <td><strong>May XX – August X</strong></td>
+                            <td><strong>May 26 – August 3</strong></td>
                         </tr>
                         <tr>
                             <td>Housing Applications Due</td>

@@ -34,7 +34,7 @@
                     </span>
                 </a>
             </div>
-            <a class="full-width-red-button" href="summer-session/courses">View All Courses</a>
+            <a class="full-width-red-button" href="summer-session/courses/results/#summer-courses?course_level=GRAD">View All Courses</a>
         </div>
     </section>
 
