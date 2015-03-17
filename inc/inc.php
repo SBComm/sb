@@ -115,7 +115,7 @@
 
     $admissions_program_detail = false;
 
-    $tablesaw = false;
+    $tablesaw = true;
 
     /* Display Configurations, Default Highlights */
 
