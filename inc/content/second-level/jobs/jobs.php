@@ -29,7 +29,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="http://www.listateveteranshome.org/employment_opportunities.html">
+                        <a href="http://www.listateveteranshome.org/careers/human-resources">
                             <div class="carousel-image" data-image="03">
                                 <div class="carousel-text top-left">
                                     <div class="carousel-title">Work for Stony Brook and Discover Your Career Potential</div>
@@ -50,7 +50,7 @@
             <div class="dual-tone-cards-1 clearfix">
                 <a href="http://stonybrook.edu/hr/prospective-employees.shtml" class="card"><span>Jobs @ Stony Brook <br />University</span></a>
                 <a href="http://stonybrookmedicine.edu/careers" class="card"><span>Jobs @ Stony Brook <br />Medicine</span></a>
-                <a href="http://www.listateveteranshome.org/employment_opportunities.html" class="card"><span>Jobs @ Long Island State <br />Veterans Home</span></a>
+                <a href="http://www.listateveteranshome.org/careers/human-resources" class="card"><span>Jobs @ Long Island State <br />Veterans Home</span></a>
                 <a href="http://stonybrook.edu/facultyjobs" class="link"><span>Faculty Jobs</span></a>
                 <a href="https://stonybrooku.taleo.net/careersection/2/jobsearch.ftl?lang=en" class="link"><span>All Jobs</span></a>
                 <a href="http://stonybrook.edu/employeejobs" class="link"><span>Current Employees</span></a>
