@@ -9,11 +9,11 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
-                        <a href="https://stonybrook.collegiatelink.net/organization/AlternativeSpringBreakOutreach" target="_blank" title="Learn More about Alternative Spring Break Outreach">
+                        <a href="http://stonybrook.edu/summer/" target="_blank" title="Learn More about Summer Session">
                             <div class="carousel-image clearfix" data-image="03">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">Learn More about Alternative Spring Break Outreach</div>
+                                <div class="carousel-title white">Apply Now for Summer Session. More than 500 courses online or on campus.</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
