@@ -99,7 +99,7 @@
                         <div class="tumblr-container social-follow-container">
                             <div class="social-label-container"><span class="darker">Follow</span> <span class="grey">on</span> <span class="tumblr-blue">tumblr</span></div>
                             <div class="social-button-container">
-                                <iframe class="btn" frameborder="0" border="0" scrolling="no" allowtransparency="true" height="25" width="114" src="http://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=stonybrooku&color_scheme=dark"></iframe>
+                                <iframe class="btn" frameborder="0" border="0" scrolling="no" allowtransparency="true" height="25" width="114" src="https://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=stonybrooku&color_scheme=dark"></iframe>
                             </div>
                         </div>
                     </div>
