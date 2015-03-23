@@ -1,7 +1,7 @@
 # Stony Brook University
 ## Communications Web Repo
 
-Code base for 2014-and-newer University web projects produced by the Office of Communications.
+Code base for 2014-and-newer University web projects produced by the Office of Communications at SUNY Stony Brook.
 
 ## Folder Structure
 
@@ -56,18 +56,18 @@ _The actual page content._
 
 - /inc/content
 
-_This repo provides a separation of template structure from the page content._
+This repo provides a separation of template structure from the page content.
 
-_Each folder within /inc/content/ denotes wither (a) a page, (b) a site or (c) a collection of sites._
+Each folder within /inc/content/ denotes either (a) a page, (b) a site or (c) a collection of sites.
 
-_For example, /inc/content/seond-level/ contains a list of second-level sites. (Undergraduate admissions is an example of a second-level site.)_
+For example, /inc/content/seond-level/ contains a list of second-level sites. (Undergraduate admissions is an example of a second-level site.)
 
-_Within each site folder, there is a collection of php files that contain the content for each page. These content files are included in the associated index.php file within the site's folder within the root._
+Within each site folder, there is a collection of php files that contain the content for each page. These content files are included in the associated index.php file within the site's folder within the root.
 
-_For example:_
+For example:
 
-/inc/content/second-level/undergraduate-admissions/academics/academics-study-abroad.php
+**/inc/content/second-level/undergraduate-admissions/academics/academics-study-abroad.php**
 
-_is included on_
+is included on
 
-/undergraduate-admissions/academics/study-abroad/index.php
+**/undergraduate-admissions/academics/study-abroad/index.php**
