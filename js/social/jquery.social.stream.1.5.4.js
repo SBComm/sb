@@ -619,7 +619,7 @@
 								case 'youtube':
 								var v = [];
 								v = parseQ(item.link);
-								y = '<a href="'+q+'" title="'+item.title+'"><img src="http://img.youtube.com/vi/'+v['v']+'/'+o.thumb+'.jpg" alt="" /></a>';
+								y = '<a href="'+q+'" title="'+item.title+'"><img src="https://img.youtube.com/vi/'+v['v']+'/'+o.thumb+'.jpg" alt="" /></a>';
 								z = item.contentSnippet;
 								if(cp.length > 1){u = '<a href="'+href+'">'+pl+'</a>'}
 								break;
