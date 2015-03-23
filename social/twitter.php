@@ -4,10 +4,10 @@ header('Access-Control-Allow-Origin: http://www.stonybrook.edu');
 header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
 
 // SET YOUR TWITTER API DETAILS HERE
-$consumer_key = "XSThanJAGRciUcxRsSCezWCst"; 
-$consumer_secret = "XDjeSMcT8viIk9Xhg7TtXxuqLhSTV9IGNmiA6ccspBTlOI59QF";
-$oauth_access_token = "74183820-OSGZp1MzR9j21LQt4quIlbEoH811t24nLTZQotYnl"; 
-$oauth_access_token_secret = "wGVuTPStcMW522ohWLJTfr2jpC1PYsONgkxU5kcfMCwkf";
+$consumer_key = "CZ7bRJnGsfw4nMMKJsBCbZex4"; 
+$consumer_secret = "n5nNLxhfWjukbR871Td7bmlh87hGrrHRudWapUOmGF1SbIc9of";
+$oauth_access_token = "161739213-KgXYzpFJAaB8G6g2ClzQj1T6rHphEsXUfE9yHG5m"; 
+$oauth_access_token_secret = "y1CBreF0FHu8R7MyVnApKElfsJnIp5EZPvfgB8OZFkDDG";
 
 // DO NOT EDIT BELOW THIS LINE
 switch($_GET['url'])
