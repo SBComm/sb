@@ -1,56 +1,73 @@
-/* See https://gist.github.com/jonah-williams/3101407 */
+# Stony Brook University
+## Communications Web Repo
 
-# _Project_
+Code base for 2014-and-newer University web projects produced by the Office of Communications.
 
-_Description: What does this project do and who does it serve?_
+## Folder Structure
 
-## Project Setup
+_Each header below represents a category. Each category contains a list of folders in the root of the project._ 
 
-_How do I, as a developer, start working on the project?_ 
+### Resources and Assets
 
-1. _What dependencies does it have (where are they expressed) and how do I install them?_
-2. _How can I see the project working before I change anything?_
+_Included assets throughout the template._
 
-## Testing
+- /css
+- /downloads
+- /elements
+- /fonts
+- /img
+- /js
+- /plugins
+- /video
 
-_How do I run the project's automated tests?_
+### Sites and Pages
 
-### Unit Tests
+_Paths that are navigated to with front-facing URLs._
 
-1. `rake spec`
+- /admissions
+- /campus-safety
+- /economic-development
+- /faculty-staff
+- /features
+- /for-students
+- /hsc-bulletin
+- /jobs
+- /search
+- /social
+- /summer-sesion
+- /test
+- /tutorials
+- /undergraduate-admissions
 
-### Integration Tests
+### Includes
 
-1. _Run other local services / provide credentials for external services._
-2. `rake spec:integration`
+_The inc/ folder holds a variety of reusable content._
 
-## Deploying
+- Content
+- Scripts
+- Headers
+- Footers
+- Navigation elements
+- Shared analytics
 
-### _How to setup the deployment environment_
+### Content
 
-- _Required heroku addons, packages, or chef recipes._
-- _Required environment variables or credentials not included in git._
-- _Monitoring services and logging._
+_The actual page content._
 
-### _How to deploy_
+- /inc/content
 
-## Troubleshooting & Useful Tools
+_This repo provides a separation of template structure from the page content._
 
-_Examples of common tasks_
+_Each folder within /inc/content/ denotes wither (a) a page, (b) a site or (c) a collection of sites._
 
-> e.g.
-> 
-> - How to make curl requests while authenticated via oauth.
-> - How to monitor background jobs.
-> - How to run the app through a proxy.
+_For example, /inc/content/seond-level/ contains a list of second-level sites. (Undergraduate admissions is an example of a second-level site.)_
 
-## Contributing changes
+_Within each site folder, there is a collection of php files that contain the content for each page. These content files are included in the associated index.php file within the site's folder within the root._
 
-- _Internal git workflow_
-- _Pull request guidelines_
-- _Tracker project_
-- _Google group_
-- _irc channel_
-- _"Please open github issues"_
+_For example:_
 
-## License
+/inc/content/second-level/undergraduate-admissions/academics/academics-study-abroad.php
+
+_is included on_
+
+/undergraduate-admissions/academics/study-abroad/index.php
