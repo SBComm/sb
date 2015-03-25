@@ -28,6 +28,7 @@
         $filterPlaceholder = 'Filter Results';
         $searchDirections = '<span class="search-directions">or <a class="modify-search nivo-lightbox-summer-form" href="#modify-search" data-lightbox-type="inline">modify your search</a></span>';
         $modifySearchAfter = '<li><a class="modify-search-after nivo-lightbox-summer-form" href="#modify-search" data-lightbox-type="inline">Modify search</a></li>';
+        $viewHSC = '<li><a class="modify-search-after" href="downloads/pdf/summer/SBU-HSC-Summer-Courses.pdf" target="_blank">View HSC Courses</a></li>';
 
         if($search_response['number_of_results'] == 1) {
             $coursesLabel = 'course';
@@ -41,6 +42,14 @@
             $searchDirections = '<span class="search-directions">or perform an <a class="nivo-lightbox-summer-form" href="#modify-search" data-lightbox-type="inline">advanced search</a></span>';
             $modifySearchAfter = '';
         }
+    ?>
+
+    <?php
+
+        if($search_response['query']['location']=='HSC') {
+            $show_HSC = true;
+        }
+
     ?>
 
     <section id="summer-courses" class="clearfix inside-content alt-headers wrapper search-results-wrapper">
@@ -57,7 +66,7 @@
         <div class="filter-wrapper border-box content clearfix sticky">
             <span class="query-result-text">
                 <span><?=$render->displaySearchQuery($search_response['query'])?></span>
-                <span><?=$coursesLabel?></span>
+                <span><?php if(!$show_HSC) { echo $coursesLabel; } ?></span>
             </span>
             <input id="live-filter-search" type="text" class="rounded-input text-filter" placeholder="<?=$filterPlaceholder?>" />
             <div class="filter-controls clearfix">
@@ -70,8 +79,12 @@
         <div id="live-filter-list" class="border-box content clearfix">
 
             <ul id="search_result_list" class="course-list">
-                <?=$render->displaySearchResults($search_response['search_results'])?>
-                <?=$modifySearchAfter?>
+                <?php if($show_HSC) {
+                    echo $viewHSC;
+                } else {
+                    echo $render->displaySearchResults($search_response['search_results']);
+                    echo $modifySearchAfter;
+                } ?>
             </ul>
 
         </div>
