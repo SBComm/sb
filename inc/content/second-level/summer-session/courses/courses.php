@@ -35,7 +35,7 @@
         <div class="border-box content clearfix courses-intro-text">
 
             <p>Summer Sessions courses are offered in a variety of formats: on-campus at Stony Brook, at our Manhattan location (Park Avenue South between 27th and 28th Streets), at Stony Brook Southampton, and online. There are also opportunities for study abroad, independent study, and academic internships.</p>
-            <p>Available courses in the Health Sciences are also available. <a href="downloads/pdf/summer/SBU-HSC-Summer-Courses.pdf" target="_blank">View HSC Courses</a></p>
+            <p>Courses in the Health Sciences are also available. <a href="downloads/pdf/summer/SBU-HSC-Summer-Courses.pdf" target="_blank">View HSC Courses</a></p>
 
         </div>
 
