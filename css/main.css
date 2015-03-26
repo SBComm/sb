@@ -2584,15 +2584,18 @@ body {
         font-weight: normal;
     }
 
-    .inside-content .content.alert-message {
+    .inside-content .content.alert-message,
+    .alert-message {
         padding: 14px 20px 0;
     }
 
-    .inside-content .content.alert-message.red {
+    .inside-content .content.alert-message.red,
+    .alert-message-red {
         background: #ffe1d2;
     }
 
-    .inside-content .content.alert-message.green {
+    .inside-content .content.alert-message.green,
+    .alert-message-green {
         background: #e6ffd1;
     }
 

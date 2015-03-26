@@ -27,7 +27,7 @@
                 <p>In Summer, we’re GREEN! The billing statement will be available in SOLAR under the STUDENT FINANCIAL SERVICES menu. No paper billing statements will be printed or mailed. All billing communication will be done via email and SOLAR. Please ensure that a valid email address exists on your student record. All charges are estimated as of March 31, 2015 and are subject to change without notice. College, student activity, and comprehensive fees are mandatory for all Summer Sessions students.</p>
 
                 <h3 id="tuition">Tuition Rate</h3>
-                <p>Summer enrollment is very affordable! Stony Brook’s tuition is a fraction of the cost of private universities, and financial aid available to those who qualify.</p>
+                <p>Summer enrollment is very affordable! Stony Brook’s tuition is a fraction of the cost of private universities, and financial aid is available to those who qualify.</p>
                 <h4>Tuition: Per Credit</h4>
                 <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
                     <thead>

@@ -103,6 +103,14 @@
                 <p>The University reserves the right to change academic regulations or to cancel any course for whatever reason it may deem appropriate. Detailed information on courses of study, academic regulations, and student responsibilities is available in the current <a href="http://sb.cc.stonybrook.edu/bulletin/current/" target="_blank">Undergraduate Bulletin</a>, the <a href="http://www.stonybrook.edu/spd/" target="_blank">SPD Bulletin</a>, and the <a href="http://sb.cc.stonybrook.edu/gradbulletin/current/" target="_blank">Graduate Bulletin</a>, and their associated supplements and updates.</p>
                 <p>The University bulletins also contain complete information regarding student educational records, financial aid, university attendance policy, academic honesty, and other topics.</p>
 
+                <h4>What is required to be a successful online student?</h4>
+                <p>Online learning requires a unique combination of skills to succeed academically, and students must be extremely motivated and disciplined:</p>
+                <ol class="number">
+                    <li>An online student must be willing to commit approximately 15-20 hours a week to each 3-credit online class.</li>
+                    <li>Online students must feel comfortable expressing themselves in writing, as some classes consist solely of the written word. Students respond to questions posed by the instructor, as well as other students, through postings which are written; they submit homework assignments, papers and exams that are written; they chat with each other in "lounge" areas, making connections and exchanging ideas.</li>
+                    <li>Online students must be comfortable with their computers. They must have knowledge of word processing software and email, know how to download a program from the web and install it, and in some courses, know how to upload items from the PC to the web or have other technical expertise. Course descriptions will note if students are required to have a higher level of computer ability.</li>
+                </ol>
+
             </div>
         </div>
     </section>
