@@ -34,6 +34,7 @@
                         <li><a href="summer-session/courses/results/?department=THR&catalog_number=105">Acting</a></li>
                         <li><a href="summer-session/courses/results/?department=POL&catalog_number=102">American Government</a></li>
                         <li><a href="summer-session/courses/results/?department=LIN&catalog_number=110">Anatomy of English Words - Online</a></li>
+                        <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424" target="_blank">Arabic</a></li>
                         <li><a href="summer-session/courses/results/?department=BUS&catalog_number=111">Business</a></li>
                         <li><a href="summer-session/courses/results/?department=CCS&catalog_number=101">Cinema Studies</a></li>
                         <li><a href="summer-session/courses/results/?department=DAN&catalog_number=102">Dance</a></li>
@@ -41,15 +42,17 @@
                         <li><a href="summer-session/courses/results/?department=GER&catalog_number=101">German</a></li>
                         <li><a href="summer-session/courses/results/?department=AAS&catalog_number=110">Indian Music</a></li>
                         <li><a href="summer-session/courses/results/?department=ITL&catalog_number=111">Italian</a></li>
+                        <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424" target="_blank">Korean</a></li>
                         <li><a href="summer-session/courses/results/?department=MAP&catalog_number=103">Mathematics</a></li>
-                        <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424">Middle Eastern Languages</a></li>
                         <li><a class="external-link-hover" href="http://somas.stonybrook.edu/education/undergrad_course_mar104"target="_blank">Oceanography</a></li>
+                        <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424" target="_blank">Persian</a></li>
                         <li><a href="summer-session/courses/results/?department=PHI&catalog_number=108">Philosophy</a></li>
                         <li><a href="summer-session/courses/results/?department=THR&catalog_number=104">Play Analysis</a></li>
                         <li><a href="summer-session/courses/results/?department=PSY&catalog_number=103">Psychology</a></li>
                         <li><a href="summer-session/courses/results/?department=SOC&catalog_number=105">Sociology</a></li>
                         <li><a href="summer-session/courses/results/?department=SPN&catalog_number=111">Spanish</a></li>
                         <li><a href="summer-session/courses/results/?department=THR&catalog_number=214">Theatre in New York</a></li>
+                        <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424" target="_blank">Turkish</a></li>
                         <li><a href="summer-session/courses/results/?department=WST&catalog_number=103">Women, Culture, and Difference</a></li>
                         <li><a href="summer-session/courses/results/?department=CLT&catalog_number=101">World Literatures</a></li>
                         <li><a href="summer-session/courses/results/?department=WRT&catalog_number=101">Writing</a></li>
@@ -72,6 +75,7 @@
                                 <li><a href="http://www.stonybrook.edu/cesame/students/APBioSummerProgram/apbioprepprogram.html" target="_blank">College Biology/AP Biology Laboratory Preparation</a></li>
                                 <li><a href="http://www.stonybrook.edu/cesame/teachers/Competitions/ProteinModelingChallengeHome.html" target="_blank">Protein Modeling Challenge</a></li>
                                 <li><a href="http://anesthesia.stonybrook.edu/SARAS" target="_blank">SARAS: Science And Research Awareness Series</a></li>
+                                <li><a href="https://llrc.stonybrook.edu/node/1424" target="_blank">StarTalk Program</a></li>
                                 <li><a href="http://www.stonybrook.edu/commcms/music/community_programs/summer.html" target="_blank">Summer Music Camps</a></li>
                             </ul>
                         </div>

@@ -53,7 +53,7 @@
                 <h3 class="red medium-title-2">Why Stony Brook</h3>
                 <div class="link-boxes-container">
                     <a class="link-box" href="http://www.stonybrook.edu/commcms/cet/" title="CET">A partner in corporate development</a>
-                    <a class="link-box" href="http://www.stonybrook.edu/commcms/cet/courses/index.html" title="Professional Education">Professional development and education</a>
+                    <a class="link-box" href="http://stonybrook.edu/cce" title="Professional Education">Professional development and education</a>
                     <a class="link-box" href="http://www.stonybrook.edu/research/vpr/r-d-park.shtml" title="Research Facilities">Access to key research facilities</a>
                     <a class="link-box" href="http://www.stonybrook.edu/commcms/sbdc/" title="Small Business Center">Small Business Development Center</a>
                 </div>

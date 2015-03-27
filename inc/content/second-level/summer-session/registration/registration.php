@@ -14,15 +14,13 @@
             <h3>How to Register</h3>
             <div class="content registration-buttons">
                 <p>To register for a Summer Session, select your current status:</p>
-                <div class="one-half">
-                    <p><a class="sbu-button" href="summer-session/current-students/">Current Student</a></p>
-                    <p><a class="sbu-button" href="summer-session/incoming-students">Incoming Student</a></p>
-                    <p><a class="sbu-button" href="summer-session/international-students">International Student</a></p>
-                </div>
-                <div class="one-half">
-                    <p><a class="sbu-button" href="summer-session/visiting-students">Visiting Student</a></p>
-                    <p><a class="sbu-button" href="summer-session/high-school-students">High School Student</a></p>
-                </div>
+                <p>
+                    <a class="sbu-button" href="summer-session/current-students/">Current Student</a>
+                    <a class="sbu-button" href="summer-session/incoming-students">Incoming Student</a>
+                    <a class="sbu-button" href="summer-session/international-students">International Student</a>
+                    <a class="sbu-button" href="summer-session/visiting-students">Visiting Student</a>
+                    <a class="sbu-button" href="summer-session/high-school-students">High School Student</a>
+                </p>
             </div>
             <div class="content">
                 <p><em>Enrollment begins April 6, 2015 for current Seniors.</em></p>

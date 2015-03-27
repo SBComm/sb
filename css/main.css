@@ -2133,10 +2133,11 @@ body {
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         transition: all 0.2s;
-        box-shadow: 0 0 50px #fff;
+        box-shadow: 0 0 10px #fff;
         background: #900;
         border: 1px solid #800;
         color: #fff !important;
+        margin: 0 10px 5px 0;
     }
     .sbu-button:hover,
     a.sbu-button:hover {
