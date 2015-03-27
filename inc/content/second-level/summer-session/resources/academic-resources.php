@@ -103,7 +103,7 @@
                 <p>The University reserves the right to change academic regulations or to cancel any course for whatever reason it may deem appropriate. Detailed information on courses of study, academic regulations, and student responsibilities is available in the current <a href="http://sb.cc.stonybrook.edu/bulletin/current/" target="_blank">Undergraduate Bulletin</a>, the <a href="http://www.stonybrook.edu/spd/" target="_blank">SPD Bulletin</a>, and the <a href="http://sb.cc.stonybrook.edu/gradbulletin/current/" target="_blank">Graduate Bulletin</a>, and their associated supplements and updates.</p>
                 <p>The University bulletins also contain complete information regarding student educational records, financial aid, university attendance policy, academic honesty, and other topics.</p>
 
-                <h4>What is required to be a successful online student?</h4>
+                <h4 id="online">What is required to be a successful online student?</h4>
                 <p>Online learning requires a unique combination of skills to succeed academically, and students must be extremely motivated and disciplined:</p>
                 <ol class="number">
                     <li>An online student must be willing to commit approximately 15-20 hours a week to each 3-credit online class.</li>

@@ -65,13 +65,7 @@
 
         <?php if($show_Online) { ?>
             <div class="content alert-message alert-message-green clearfix">
-                <p><strong>What is required to be a successful online student?</strong></p>
-                <p>Online learning requires a unique combination of skills to succeed academically, and students must be extremely motivated and disciplined:</p>
-                <ol class="number">
-                    <li>An online student must be willing to commit approximately 15-20 hours a week to each 3-credit online class.</li>
-                    <li>Online students must feel comfortable expressing themselves in writing, as some classes consist solely of the written word. Students respond to questions posed by the instructor, as well as other students, through postings which are written; they submit homework assignments, papers and exams that are written; they chat with each other in "lounge" areas, making connections and exchanging ideas.</li>
-                    <li>Online students must be comfortable with their computers. They must have knowledge of word processing software and email, know how to download a program from the web and install it, and in some courses, know how to upload items from the PC to the web or have other technical expertise. Course descriptions will note if students are required to have a higher level of computer ability.</li>
-                </ol>
+                <p>What is required to be a successful online student? <a class="external-link" href="summer-session/resources#online" target="_blank">Read more...</a></p>
             </div>
         <?php } ?>
 
