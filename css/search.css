@@ -2,6 +2,10 @@
   display: none;
 }
 
+.gcsc-branding-img-noclear {
+  display: inline-block !important;
+  width: 58px !important;
+}
 /* from https://www.google.com/cse/style/look/default.css */
 
 /**
