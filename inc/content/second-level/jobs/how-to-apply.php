@@ -14,8 +14,8 @@
             <div class="content">
                 <h3>How to Apply</h3>
                 <p>To view application instructions, select your current employment status:</p>
-                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="#external-candidates">I am NOT employed at Stony Brook</a></p>
-                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="#current-employees">I am currently employed at Stony Brook</a></p>
+                <p><a class="sbu-button" href="#external-candidates">I am NOT employed at Stony Brook</a></p>
+                <p><a class="sbu-button" href="#current-employees">I am currently employed at Stony Brook</a></p>
             </div>
             <div id="external-candidates" class="content">
                 <h4>How to Apply: Prospective External Candidates</h4>
@@ -51,7 +51,7 @@
                 <p>To view all of your submissions, select the <strong>My Jobpage</strong> tab. Incomplete submissions will not be considered.</p>
                 <p>You may select the option in “Basic Profile Information” to receive an email notification whenever a new position matching your profile is posted.</p>
 
-                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="https://stonybrooku.taleo.net/careersection/2/jobsearch.ftl?lang=en">View All Job Postings</a></p>
+                <p><a class="sbu-button" href="https://stonybrooku.taleo.net/careersection/2/jobsearch.ftl?lang=en">View All Job Postings</a></p>
 
                 <h5>Need Help?</h5>
                 <div class="drop-accordion drop-accordion-1 clearfix">
@@ -143,7 +143,7 @@
                 <p>Our system does not allow for you to track the progress of your application or your candidacy for a position. If you have the need to modify your original application, you may login to modify the submission if the job posting is still active.</p>
                 <p>To view all of your submissions, select the <strong>My Jobpage</strong> tab. Incomplete submissions will not be considered.</p>
 
-                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="http://www.stonybrook.edu/employeejobs">View Jobs for SB Employees</a></p>
+                <p><a class="sbu-button" href="http://www.stonybrook.edu/employeejobs">View Jobs for SB Employees</a></p>
 
                 <h5>Need Help?</h5>
                 <div class="drop-accordion drop-accordion-1 clearfix">

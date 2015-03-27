@@ -673,12 +673,11 @@
 	color: #eeeeee;
 	display: block;
 	padding: 14px 5px 14px 15px;
-	text-shadow: 0 1px 0 #000;
+	text-shadow: none;
 	font-size: 14px;
 	font-family:'Trade Gothic Next W01';
 	font-weight: normal;
 	text-transform: uppercase;
-	text-shadow: 0 0 5px #700;
 }
 
 .sub-nav a {
@@ -700,7 +699,7 @@
 .sub-nav.default a:hover,
 .sub-nav.default .selected a,
 .sub-nav.default ul a.selected {
-	background-color: #222;
+	background-color: #a00;
 	color: #f7f7f7;
 }
 

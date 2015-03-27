@@ -22,6 +22,25 @@
     background: #fff;
 }
 
+.left-link-box .more-button,
+.left-link-box .sbu-button {
+    width: 90%;
+    margin: 25px 5% 0;
+    text-align: center;
+}
+
+.right-link-box .sbu-button {
+    width: 100%;
+    margin: 25px 0 0;
+    text-align: center;
+}
+
+.center-link-box .sbu-button {
+    width: 100%;
+    margin: 15px 0 0;
+    text-align: center;
+}
+
 .startup-ny {
     width: 80%;
     max-width: 329px;
@@ -33,11 +52,6 @@
 img.university-advantage {
     display: none;
     visibility: hidden;
-}
-
-.left-link-box .more-button {
-    width: 90%;
-    margin: 25px 5% 0;
 }
 
 .position-title {
@@ -386,21 +400,6 @@ section.resources-wrapper {
 }
 
 @media only screen and (min-width: 560px) {
-    .overview-box a.more-button {
-        display: inline-block;
-        width: 50%;
-        font-family: 'Trade Gothic Next W01';
-        font-size: 1em;
-        background: transparent;
-        color: #900;
-        border: 0 none;
-        box-shadow: none;
-        width: auto;
-        text-align: left;
-        padding: 0;
-        margin: 0 0 0 4px;
-        text-decoration: underline;
-    }
     .overview-box a.more-button:after {
         display: none;
     }
@@ -416,6 +415,23 @@ section.resources-wrapper {
     .promo-box-wrapper {
         margin: 60px 0;
     }
+
+    .overview-box a.more-button,
+    .overview-box a.sbu-button {
+        display: inline-block;
+        width: auto;
+        font-family: 'Trade Gothic Next W01';
+        font-size: 1em;
+        background: transparent;
+        border: 0 none;
+        box-shadow: none;
+        text-align: left;
+        padding: 0;
+        margin: 0 0 0 4px;
+        text-decoration: underline;
+        color: #900 !important;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {

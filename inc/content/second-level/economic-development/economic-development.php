@@ -57,7 +57,7 @@
                     <a class="link-box" href="http://www.stonybrook.edu/research/vpr/r-d-park.shtml" title="Research Facilities">Access to key research facilities</a>
                     <a class="link-box" href="http://www.stonybrook.edu/commcms/sbdc/" title="Small Business Center">Small Business Development Center</a>
                 </div>
-                <a class="more-button fa-arrow-after" href="http://www.stonybrook.edu/commcms/startupny/" title="Learn about StartUp New York">About StartUp NY</a>
+                <a class="sbu-button fa-arrow-after" href="http://www.stonybrook.edu/commcms/startupny/" title="Learn about StartUp New York">About StartUp NY</a>
             </div>
             <div class="title-link-box-2 center-link-box overview-box wrapper">
                 <h2 class="red small-title-2">Where to Begin:</h2>
@@ -74,14 +74,14 @@
                     <span class="text">
                         As Vice President, a position he has held since 2000, Dr. Shamash supervises the University’s three incubators, two New York State Centers for Advanced Technology, the NYS Center of Excellence in Wireless and Information Technology (CEWIT), the Small Business Development Center, and the workforce development programs of the Center for Emerging Technologies.
                     </span>
-                    <a class="more-button fa-arrow-after" href="http://www.stonybrook.edu/ecodev/">Read More</a>
+                    <a class="sbu-button" href="http://www.stonybrook.edu/ecodev/">Read More</a>
                 </div>
             </div>
             <div class="title-link-box-2 right-link-box video-box wrapper">
                 <h2 class="red small-title-2">Featured Video:</h2>
                 <h3 class="red medium-title-2">Introducing START-UP NY</h3>
                 <a class="video-thumb" href="http://www.livestream.com/newyorkstateofficeofthegovernor/video?clipId=pla_490f973b-8f33-4878-8712-c42f75f0ae5a" target="_blank" title="Start-Up NY Video with Governor Cuomo"><img src="economic-development/images/video-thumb.jpg" /></a>
-                <a class="more-button fa-arrow-after" href="https://www.youtube.com/user/sbcomm" target="_blank" title="View more videos">More Videos</a>
+                <a class="sbu-button fa-arrow-after" href="https://www.youtube.com/user/sbcomm" target="_blank" title="View more videos">See More Videos</a>
             </div>
         </div>
     </section>

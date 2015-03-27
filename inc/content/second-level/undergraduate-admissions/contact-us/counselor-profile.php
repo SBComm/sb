@@ -32,7 +32,7 @@
             ?>
 
             <div class="content">
-                <p><a class="counselors-back-link sbu-cta sbu-cta-1 sbu-cta-1a" href="undergraduate-admissions/contact/meet-your-counselor/view"><i class="fa fa-angle-left icon"></i> See all counselors</a></p>
+                <p><a class="counselors-back-link sbu-button" href="undergraduate-admissions/contact/meet-your-counselor/view"><i class="fa fa-angle-left icon"></i> See all counselors</a></p>
             </div>
 
         </div>

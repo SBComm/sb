@@ -28,7 +28,7 @@
                 <h4>Helping You Help Your Students</h4>
                 <p>We're here to help you assist your students in the college selection and application process.</p>
                 <p>Connect with us to receive updates and valuable resources from our Undergraduate Admissions team.</p>
-                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="https://sunysb.askadmissions.net/emtinterestpage.aspx?ip=guidance">Connect with SBU Admissions</a></p>
+                <p><a class="sbu-button" href="https://sunysb.askadmissions.net/emtinterestpage.aspx?ip=guidance">Connect with SBU Admissions</a></p>
                 <p>If you need additional information or have any questions about Stony Brook University and what we offer, please feel free to call us at (631) 632-6868.</p>
                 <p>We also invite you to visit Stony Brook to learn more about our criteria, programs, and review process. To familiarize yourself with Stony Brook's admission process, please make use of these sections of the Undergraduate Admissions website:</p>
                 <ul class="default-bullets">

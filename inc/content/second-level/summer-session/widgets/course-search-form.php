@@ -46,6 +46,6 @@
         </select>
     </label>
 
-    <input class="sbu-cta white sbu-cta-2 sbu-cta-1a clearfix search-button" type="submit" value="Search Courses" />
+    <input class="sbu-button clearfix search-button" type="submit" value="Search Courses" />
 
 </form>

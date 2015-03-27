@@ -15,13 +15,13 @@
             <div class="content registration-buttons">
                 <p>To register for a Summer Session, select your current status:</p>
                 <div class="one-half">
-                    <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="summer-session/current-students/">Current Student</a></p>
-                    <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="summer-session/incoming-students">Incoming Student</a></p>
-                    <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="summer-session/international-students">International Student</a></p>
+                    <p><a class="sbu-button" href="summer-session/current-students/">Current Student</a></p>
+                    <p><a class="sbu-button" href="summer-session/incoming-students">Incoming Student</a></p>
+                    <p><a class="sbu-button" href="summer-session/international-students">International Student</a></p>
                 </div>
                 <div class="one-half">
-                    <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="summer-session/visiting-students">Visiting Student</a></p>
-                    <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="summer-session/high-school-students">High School Student</a></p>
+                    <p><a class="sbu-button" href="summer-session/visiting-students">Visiting Student</a></p>
+                    <p><a class="sbu-button" href="summer-session/high-school-students">High School Student</a></p>
                 </div>
             </div>
             <div class="content">

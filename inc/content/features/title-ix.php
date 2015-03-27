@@ -53,7 +53,7 @@
             <div class="content">
                 <h4>Visit Our Title IX Resource Website</h4>
                 <p>For more detailed information about Title IX or to report an incident involving sexual discrimination, harassment, misconduct or violence, please visit <a href="http://www.stonybrook.edu/diversity/titleix/">Stony Brook University's Title IX Resource website</a>.</p>
-                <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="http://www.stonybrook.edu/diversity/titleix/">View Title IX Website</a></p>
+                <p><a class="sbu-button" href="http://www.stonybrook.edu/diversity/titleix/">View Title IX Website</a></p>
             </div>
         </div>
     </section>

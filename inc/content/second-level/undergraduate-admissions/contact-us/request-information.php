@@ -29,8 +29,8 @@
                     <h4>Get In Touch</h4>
                     <p>Tell us your interests, and we'll be able help you get customized information on the application and enrollment process, as well as specific information to your areas of interest.</p>
                     <p><strong>First, are you an incoming freshman or transfer student?</strong></p>
-                    <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="https://sunysb.askadmissions.net/emtinterestpage.aspx?ip=freshman">I am a freshman student</a></p>
-                    <p><a class="sbu-cta white sbu-cta-2 sbu-cta-1a" href="https://sunysb.askadmissions.net/emtinterestpage.aspx?ip=transfer">I am a transfer student</a></p>
+                    <p><a class="sbu-button" href="https://sunysb.askadmissions.net/emtinterestpage.aspx?ip=freshman">I am a freshman student</a></p>
+                    <p><a class="sbu-button" href="https://sunysb.askadmissions.net/emtinterestpage.aspx?ip=transfer">I am a transfer student</a></p>
                 </div>
                 <div class="mobile-form">
                     <iframe src="https://sunysb.askadmissions.net/emtinterestpage.aspx?ip=mobile" frameborder="0"></iframe>

@@ -2116,6 +2116,38 @@ body {
 
     /* General button style (reset) */
 
+    .sbu-button,
+    a.sbu-button {
+        display: inline-block;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 8px 18px 10px;
+        font-family: 'Trade Gothic Next W01', Arial, sans-serif;
+        font-weight: normal;
+        font-size: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 2px;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        transition: all 0.2s;
+        box-shadow: 0 0 50px #fff;
+        background: #900;
+        border: 1px solid #800;
+        color: #fff !important;
+    }
+    .sbu-button:hover,
+    a.sbu-button:hover {
+        background: #a00;
+        text-decoration: none !important;
+    }
+    .sbu-button:active,
+    a.sbu-button:active {
+        background: #900;
+    }
+
     .sbu-cta {
         border: none;
         font-family: inherit;
@@ -2376,6 +2408,11 @@ body {
 
     section.inside-content a {
         color: #900;
+    }
+
+    section.inside-content a:hover {
+        color: #a00;
+        text-decoration: underline;
     }
 
     .inside-content .section-header {
