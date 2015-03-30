@@ -18,7 +18,7 @@
                     <li><strong>Enhance your time management and study skills to be better prepared for college enrollment in the fall</strong></li>
                     <li><strong>Jump start the fall semester by taking popular courses for your major or the fulfill general education requirements</strong></li>
                     <li><strong>We’ll support you with specialized academic advising resources</strong></li>
-                    <li><strong>Summer classes at Stony Brook are very affordable, and financial aid packages are available to those who quality</strong></li>
+                    <li><strong>Summer classes at Stony Brook are very affordable</strong></li>
                 </ul>
                 <div class="grey-box-1 clearfix">
                     <h4>Steps to Enroll</h4>
