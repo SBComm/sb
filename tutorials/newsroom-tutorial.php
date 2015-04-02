@@ -37,30 +37,30 @@
     <!--END Cross-device Favicon code-->
 
     <!--BEGIN CSS Includes-->
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/newsroom.css">
-        <link rel="stylesheet" type="text/css" href="css/cd-dropdown/cd-dropdown.css" />
-        <!--<link rel="stylesheet" href="css/icomoon/style.css">-->
+        <link rel="stylesheet" href="../css/vendor/normalize.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/tutorials/newsroom.css">
+        <link rel="stylesheet" type="text/css" href="../css/elements/cd-dropdown/cd-dropdown.css" />
+        <!--<link rel="stylesheet" href="../css/icomoon/style.css">-->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!--END CSS Style Includes-->
 
     <!--BEGIN IE Specific CSS Includes and Polyfills-->
         <!--[if IE 11]>
-            <link rel="stylesheet" href="css/ie11.css">
+            <link rel="stylesheet" href="../css/ie11.css">
         <![endif]-->
         <!--[if IE 10]>
-            <link rel="stylesheet" href="css/ie10.css">
+            <link rel="stylesheet" href="../css/ie10.css">
         <![endif]-->
     	<!--[if gt IE 8]>
-            <link rel="stylesheet" href="css/gte-ie9.css">
+            <link rel="stylesheet" href="../css/gte-ie9.css">
         <![endif]-->
         <!--[if IE 9]>
-            <link rel="stylesheet" href="css/ie9.css">
+            <link rel="stylesheet" href="../css/ie9.css">
         <![endif]-->
         <!--[if lt IE 9]>
-            <link rel="stylesheet" href="css/lte-ie8.css">
+            <link rel="stylesheet" href="../css/lte-ie8.css">
         <![endif]-->
         <!--[if lt IE 8]>
             <link rel="stylesheet" href="/css/icomoon-ie7.css">
@@ -78,7 +78,7 @@
     <!--END Fonts.com Include-->
 
     <!--BEGIN Modernizr Include-->
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <!--END Modernizr Include-->
 
     <!--BEGIN Tutorial Specific Styles-->
@@ -315,7 +315,7 @@
 		            <div class="logo-container clearfix border-box">
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
-				            	<div class="logo"><img src="img/stony-brook-university-logo.jpg" /></div>
+				            	<div class="logo"><img src="../img/stony-brook-university-logo.jpg" /></div>
 				            	<div class="site-tagline">The State University of <span>New York</span></div>
 				            </div>
 			            </header>
@@ -372,13 +372,13 @@
 		                        	</a>
 		                        </li>
 		            		</ul>
-			            	<div class="search-container border-box">
+			            	<!--<div class="search-container border-box">
 			            		<div class="search-wrapper">
 				            		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search..."><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Do search">
 						                <i class="icon fa fa-search"></i>
 						            </button>
 					            </div>
-			            	</div>
+			            	</div>-->
 		            	</div>
 		            </nav>
 		        </div>
@@ -401,7 +401,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="medium" src="..img/tutorials/newsroom/01-omni-link.gif" />
+				                    				<img class="medium" src="../img/tutorials/01-omni-link.gif" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				Hover over the bottom part of the page and click on the invisible link.
@@ -412,7 +412,7 @@
 			                    			Next, go ahead and log in to OmniUpdate.
 			                    		</li>
 			                    		<li>
-			                    			Once logged in, click the <img src="..img/tutorials/newsroom/omni-content-tab.png" alt="Content" /> tab at the top. The directory of "Pages" will show.
+			                    			Once logged in, click the <img src="../img/tutorials/omni-content-tab.png" alt="Content" /> tab at the top. The directory of "Pages" will show.
 			                    		</li>
 			                    	</ul>
 			                    	<h3 class="serif"><span class="grey">Adding a Press Clip item</span></h3>
@@ -421,21 +421,21 @@
 			                    			Click on the folder named "press_clips". You will see an entry for each press clip item that has been entered in the system.
 			                    		</li>
 			                    		<li class="tip caption">
-			                    			You can click on either the word "Name" or the word "Date" in the <img class="medium" src="..img/tutorials/newsroom/omni-name-date.png" alt="Name Date column" /> column at the top to sort by date so that you can see the latest or oldest posts. Click once for ascending, and again for descending.
+			                    			You can click on either the word "Name" or the word "Date" in the <img class="medium" src="../img/tutorials/omni-name-date.png" alt="Name Date column" /> column at the top to sort by date so that you can see the latest or oldest posts. Click once for ascending, and again for descending.
 			                    		</li>
 			                    		<!--
 			                    		<li class="comment caption">
-			                    			You can click on either the word "Name" or the word "Date" in the <img class="medium" src="..img/tutorials/newsroom/omni-name-date.png" alt="Name Date column" /> column at the top to sort by date so that you can see the latest or oldest posts. Click once for ascending, and again for descending.
+			                    			You can click on either the word "Name" or the word "Date" in the <img class="medium" src="../img/tutorials/omni-name-date.png" alt="Name Date column" /> column at the top to sort by date so that you can see the latest or oldest posts. Click once for ascending, and again for descending.
 			                    		</li>
 			                    		<li class="alert caption">
-			                    			You can click on either the word "Name" or the word "Date" in the <img class="medium" src="..img/tutorials/newsroom/omni-name-date.png" alt="Name Date column" /> column at the top to sort by date so that you can see the latest or oldest posts. Click once for ascending, and again for descending.
+			                    			You can click on either the word "Name" or the word "Date" in the <img class="medium" src="../img/tutorials/omni-name-date.png" alt="Name Date column" /> column at the top to sort by date so that you can see the latest or oldest posts. Click once for ascending, and again for descending.
 			                    		</li>
 			                    		<li class="warning caption">
-			                    			You can click on either the word "Name" or the word "Date" in the <img class="medium" src="..img/tutorials/newsroom/omni-name-date.png" alt="Name Date column" /> column at the top to sort by date so that you can see the latest or oldest posts. Click once for ascending, and again for descending.
+			                    			You can click on either the word "Name" or the word "Date" in the <img class="medium" src="../img/tutorials/omni-name-date.png" alt="Name Date column" /> column at the top to sort by date so that you can see the latest or oldest posts. Click once for ascending, and again for descending.
 			                    		</li>
 			                    		-->
 			                    		<li>
-			                    			To create a new press clip, click the <img src="..img/tutorials/newsroom/omni-new.png" alt="(+) New" /> button at the top-right corner.
+			                    			To create a new press clip, click the <img src="../img/tutorials/omni-new.png" alt="(+) New" /> button at the top-right corner.
 			                    		</li>
 			                    		<li>
 			                    			Next, click on Press Clips to create a new item.
@@ -443,7 +443,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="medium" src="..img/tutorials/newsroom/omni-new-press-clips.png" alt="Press Clips" />
+				                    				<img class="medium" src="../img/tutorials/omni-new-press-clips.png" alt="Press Clips" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The Press Clips button.
@@ -456,7 +456,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img src="..img/tutorials/newsroom/02-omni-press-clip.png" alt="Press Clips form" />
+				                    				<img src="../img/tutorials/02-omni-press-clip.png" alt="Press Clips form" />
 				                    			</div>
 				                    			<span class="no-bullet clearfix">
 				                    				<ul>
@@ -489,12 +489,12 @@
 			                    			For the filename, only use lowercase letters and dashes. Please do not use any other spaces, symbols or special characters.
 			                    		</li>
 			                    		<li>
-			                    			Once you have filled out the form correctly, click <img src="..img/tutorials/newsroom/omni-create.png" alt="Create" />.
+			                    			Once you have filled out the form correctly, click <img src="../img/tutorials/omni-create.png" alt="Create" />.
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="large" src="..img/tutorials/newsroom/03-omni-press-created.png" alt="Press Clip Created" />
+				                    				<img class="large" src="../img/tutorials/03-omni-press-created.png" alt="Press Clip Created" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The page that shows once you have created the Press Clip.
@@ -505,7 +505,7 @@
 			                    	<h3 class="serif"><span class="grey">Publish and Tweet</span></h3>
 			                    	<ul class="sbu-text sbu-text-shadow tutorial clearfix">
 			                    		<li>
-			                    			Once your article has been created, you can publish to make it live on the website: click <img src="..img/tutorials/newsroom/omni-publish-now.png" alt="Publish Now" />.
+			                    			Once your article has been created, you can publish to make it live on the website: click <img src="../img/tutorials/omni-publish-now.png" alt="Publish Now" />.
 			                    		</li>
 			                    		<li>
 			                    			When you publish, you can also send out a Tweet using the @sbunewsdesk Twitter account. To do so, check the <strong>Twitter</strong>, compose your tweet, check the checkbox for <strong>Add URL</strong> as well as <strong>@sbunewsdesk</strong>.
@@ -513,7 +513,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="large" src="..img/tutorials/newsroom/04-omni-publish-confirm.png" alt="Publish Confirm Dialog" />
+				                    				<img class="large" src="../img/tutorials/04-omni-publish-confirm.png" alt="Publish Confirm Dialog" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The Publish Confirmirmation dialog with Tweet option enabled.
@@ -521,13 +521,13 @@
 			                    			</div>
 			                    		</li>
 			                    		<li>
-			                    			Click <img src="..img/tutorials/newsroom/omni-publish.png" alt="Publish" /> and you're done!
+			                    			Click <img src="../img/tutorials/omni-publish.png" alt="Publish" /> and you're done!
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="medium" src="..img/tutorials/newsroom/omni-publishing.png" alt="Publishing" /><br />
-				                    				<img class="medium" src="..img/tutorials/newsroom/omni-publish-success.png" alt="Publish Success" />
+				                    				<img class="medium" src="../img/tutorials/omni-publishing.png" alt="Publishing" /><br />
+				                    				<img class="medium" src="../img/tutorials/omni-publish-success.png" alt="Publish Success" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The Prompt and Success dialogs.
@@ -546,7 +546,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="medium" src="..img/tutorials/newsroom/omni-press-release-categories.png" alt="Publishing" />
+				                    				<img class="medium" src="../img/tutorials/omni-press-release-categories.png" alt="Publishing" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The press releases categories.
@@ -554,16 +554,16 @@
 			                    			</div>
 			                    		</li>
 			                    		<li>
-			                    			Click on <img class="medium" src="..img/tutorials/newsroom/omni-location-top.png" alt="top" /> to return to the root directory while you are in OmniUpdate, in the News_and_Media site.
+			                    			Click on <img class="medium" src="../img/tutorials/omni-location-top.png" alt="top" /> to return to the root directory while you are in OmniUpdate, in the News_and_Media site.
 			                    		</li>
 			                    		<li class="comment caption">
-			                    			The designator at the top of OmniUpdate that says <img src="..img/tutorials/newsroom/omni-location-top.png" alt="top" /> is called a "breadcrumb" and helps you keep track of where you are in the system.
+			                    			The designator at the top of OmniUpdate that says <img src="../img/tutorials/omni-location-top.png" alt="top" /> is called a "breadcrumb" and helps you keep track of where you are in the system.
 			                    		</li>
 			                    		<li>
-			                    			Let's go ahead and create a Press Release item unger the "General" category. Look for the folder <img src="..img/tutorials/newsroom/omni-general-folder.png" alt="general" />. Click it.
+			                    			Let's go ahead and create a Press Release item unger the "General" category. Look for the folder <img src="../img/tutorials/omni-general-folder.png" alt="general" />. Click it.
 			                    		</li>
 			                    		<li>
-			                    			To create a new press clip, click the <img src="..img/tutorials/newsroom/omni-new.png" alt="(+) New" /> button at the top-right corner.
+			                    			To create a new press clip, click the <img src="../img/tutorials/omni-new.png" alt="(+) New" /> button at the top-right corner.
 			                    		</li>
 			                    		<li>
 			                    			Next, click on Article Page to create a new item.
@@ -571,7 +571,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="medium" src="..img/tutorials/newsroom/omni-new-article-page.png" alt="Press Clips" />
+				                    				<img class="medium" src="../img/tutorials/omni-new-article-page.png" alt="Press Clips" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The Article Page button.
@@ -584,7 +584,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img src="..img/tutorials/newsroom/05-omni-press-release.png" alt="Press Release form" />
+				                    				<img src="../img/tutorials/05-omni-press-release.png" alt="Press Release form" />
 				                    			</div>
 				                    			<span class="no-bullet clearfix">
 				                    				<ul>
@@ -626,12 +626,12 @@
 			                    			For the filename, only use lowercase letters and dashes. Please do not use any other spaces, symbols or special characters.
 			                    		</li>
 			                    		<li>
-			                    			Once you have filled out the form correctly, click <img src="..img/tutorials/newsroom/omni-create.png" alt="Create" />.
+			                    			Once you have filled out the form correctly, click <img src="../img/tutorials/omni-create.png" alt="Create" />.
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="large" src="..img/tutorials/newsroom/06-omni-press-release-created.png" alt="Press Release Created" />
+				                    				<img class="large" src="../img/tutorials/06-omni-press-release-created.png" alt="Press Release Created" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The page that shows once you have created the Press Release.
@@ -642,15 +642,15 @@
 			                    	<h3 class="serif"><span class="grey">Editing content</span></h3>
 			                    	<ul class="sbu-text sbu-text-shadow tutorial clearfix">
 			                    		<li>
-			                    			To edit your content, formant and insert images, click <img src="..img/tutorials/newsroom/omni-edit.png" alt="Edit" />.
+			                    			To edit your content, formant and insert images, click <img src="../img/tutorials/omni-edit.png" alt="Edit" />.
 			                    		</li>
 			                    		<li>
-			                    			On the next page, click <img src="..img/tutorials/newsroom/omni-edit-2.png" alt="Edit" />.
+			                    			On the next page, click <img src="../img/tutorials/omni-edit-2.png" alt="Edit" />.
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="large" src="..img/tutorials/newsroom/07-omni-edit-press-release.png" alt="Publish Confirm Dialog" />
+				                    				<img class="large" src="../img/tutorials/07-omni-edit-press-release.png" alt="Publish Confirm Dialog" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				Edit view of the Press Release.
@@ -660,7 +660,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="large" src="..img/tutorials/newsroom/omni-wysiwyg-bar.png" alt="Publish Confirm Dialog" />
+				                    				<img class="large" src="../img/tutorials/omni-wysiwyg-bar.png" alt="Publish Confirm Dialog" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The Edit Bar.
@@ -674,12 +674,12 @@
 			                    	<h3 class="serif"><span class="grey">Inserting an image</span></h3>
 			                    	<ul class="sbu-text sbu-text-shadow tutorial clearfix">
 			                    		<li>
-			                    			To insert an image, click <img src="..img/tutorials/newsroom/omni-wysiwyg-image.png" alt="Edit" />.
+			                    			To insert an image, click <img src="../img/tutorials/omni-wysiwyg-image.png" alt="Edit" />.
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="large" src="..img/tutorials/newsroom/omni-insert-image-dialog.png" alt="Insert Image Dialog" />
+				                    				<img class="large" src="../img/tutorials/omni-insert-image-dialog.png" alt="Insert Image Dialog" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The Insert Image dialog.
@@ -687,12 +687,12 @@
 			                    			</div>
 			                    		</li>
 			                    		<li>
-			                    			Now click <img src="..img/tutorials/newsroom/omni-select-file-icon.png" alt="the Select File button" /> to select an image.
+			                    			Now click <img src="../img/tutorials/omni-select-file-icon.png" alt="the Select File button" /> to select an image.
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img src="..img/tutorials/newsroom/omni-image-browser-dialog.png" alt="Image Browser Dialog" />
+				                    				<img src="../img/tutorials/omni-image-browser-dialog.png" alt="Image Browser Dialog" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The File Browser dialog.
@@ -700,12 +700,12 @@
 			                    			</div>
 			                    		</li>
 			                    		<li>
-			                    			You can select an image that has already been uploaded, or you can upload a new image by clicking <img src="..img/tutorials/newsroom/omni-upload.png" alt="Upload" />.
+			                    			You can select an image that has already been uploaded, or you can upload a new image by clicking <img src="../img/tutorials/omni-upload.png" alt="Upload" />.
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img src="..img/tutorials/newsroom/omni-image-upload-dialog.png" alt="Image Upload Dialog" />
+				                    				<img src="../img/tutorials/omni-image-upload-dialog.png" alt="Image Upload Dialog" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The File Upload dialog. You can enter a new filename in the first textbox.<br /> If you leave that blank, it will keep the same name that it currently has.
@@ -713,28 +713,28 @@
 			                    			</div>
 			                    		</li>
 			                    		<li>
-			                    			Once you have selected your image, click <img src="..img/tutorials/newsroom/omni-insert.png" alt="Insert" /> and wait a few seconds.
+			                    			Once you have selected your image, click <img src="../img/tutorials/omni-insert.png" alt="Insert" /> and wait a few seconds.
 			                    		</li>
 			                    		<li>
-			                    			When your image has been uploaded, click on the filename, e.g. <img src="..img/tutorials/newsroom/omni-my-new-filename.png" alt="my-new-filename.png" />, and then click <img src="..img/tutorials/newsroom/omni-upload.png" alt="Upload" />.
+			                    			When your image has been uploaded, click on the filename, e.g. <img src="../img/tutorials/omni-my-new-filename.png" alt="my-new-filename.png" />, and then click <img src="../img/tutorials/omni-upload.png" alt="Upload" />.
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img src="..img/tutorials/newsroom/omni-insert-image-dialog-descrip.png" alt="Insert Image Dialog" />
+				                    				<img src="../img/tutorials/omni-insert-image-dialog-descrip.png" alt="Insert Image Dialog" />
 				                    			</div>
 			                    			</div>
 			                    		</li>
 			                    		<li>
-			                    			You must enter an Image Description: <img src="..img/tutorials/newsroom/omni-image-description.png" alt="Image Description Textbox" />. This is a behind-the-scenes brief description of the image for SEO purposes.
+			                    			You must enter an Image Description: <img src="../img/tutorials/omni-image-description.png" alt="Image Description Textbox" />. This is a behind-the-scenes brief description of the image for SEO purposes.
 			                    		</li>
 			                    		<li>
-			                    			We also need to tweak the size and placement for your image. Click on the <img src="..img/tutorials/newsroom/omni-appearance-tab.png" alt="Apprearance Tab" /> at the top of the Insert/Edit Image dialog. Change the first number to 300
+			                    			We also need to tweak the size and placement for your image. Click on the <img src="../img/tutorials/omni-appearance-tab.png" alt="Apprearance Tab" /> at the top of the Insert/Edit Image dialog. Change the first number to 300
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img src="..img/tutorials/newsroom/omni-insert-image-dialog-appear.png" alt="Image Appearance Dialog" />
+				                    				<img src="../img/tutorials/omni-insert-image-dialog-appear.png" alt="Image Appearance Dialog" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The Image Appearance dialog.
@@ -747,7 +747,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img src="..img/tutorials/newsroom/omni-image-alignment-options.png" alt="Image Alignment Options" />
+				                    				<img src="../img/tutorials/omni-image-alignment-options.png" alt="Image Alignment Options" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The Image alignment options.
@@ -758,7 +758,7 @@
 			                    			You can also use the Vertical Space and Horizontal Space options to add a margin to the sides of your image. This can help so that your text isn't sitting right next to your image.
 			                    		</li>
 			                    		<li>
-			                    			Now, click <img src="..img/tutorials/newsroom/omni-insert.png" alt="Insert" /> to add the image to your article.
+			                    			Now, click <img src="../img/tutorials/omni-insert.png" alt="Insert" /> to add the image to your article.
 			                    		</li>
 			                    		<li>
 			                    			You can now resize the image to fit nicely in your content area. Just grab the handles on the corner, click and drag to resize.
@@ -766,7 +766,7 @@
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img src="..img/tutorials/newsroom/omni-resize-image.png" alt="Image Resize" />
+				                    				<img src="../img/tutorials/omni-resize-image.png" alt="Image Resize" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				Resize the image in the content area.
@@ -777,16 +777,16 @@
 			                    	<h3 class="serif"><span class="grey">Publish</span></h3>
 			                    	<ul class="sbu-text sbu-text-shadow tutorial clearfix">
 			                    		<li>
-			                    			Once your article has been created, you can publish to make it live on the website: click <img src="..img/tutorials/newsroom/omni-publish-now.png" alt="Publish Now" />.
+			                    			Once your article has been created, you can publish to make it live on the website: click <img src="../img/tutorials/omni-publish-now.png" alt="Publish Now" />.
 			                    		</li>
 			                    		<li>
-			                    			Click <img src="..img/tutorials/newsroom/omni-publish.png" alt="Publish" /> once more, and you're done!
+			                    			Click <img src="../img/tutorials/omni-publish.png" alt="Publish" /> once more, and you're done!
 			                    		</li>
 			                    		<li class="no-bullet clearfix">
 			                    			<div class="sbu-img-caption left clearfix">
 				                    			<div class="image clearfix">
-				                    				<img class="medium" src="..img/tutorials/newsroom/omni-publishing.png" alt="Publishing" /><br />
-				                    				<img class="medium" src="..img/tutorials/newsroom/omni-publish-success.png" alt="Publish Success" />
+				                    				<img class="medium" src="../img/tutorials/omni-publishing.png" alt="Publishing" /><br />
+				                    				<img class="medium" src="../img/tutorials/omni-publish-success.png" alt="Publish Success" />
 				                    			</div>
 				                    			<span class="caption clearfix">
 				                    				The Prompt and Success dialogs.
@@ -841,7 +841,7 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-		<script type="text/javascript" src="js/cd-dropdown/jquery.dropdown.js"></script>
+		<script type="text/javascript" src="../js/cd-dropdown/jquery.dropdown.js"></script>
 		<script type="text/javascript">
 			$( function() {
 				$( '#cd-dropdown' ).dropdown( {
@@ -850,7 +850,7 @@
 			});
 		</script>
 
-        <script type="text/javascript" src="js/jquery.sticky.js"></script>
+        <script type="text/javascript" src="../js/vendor/jquery.sticky.js"></script>
 		<script>
 			$(window).load(function(){
 				console.log("ww: "+$(window).width());
@@ -868,15 +868,15 @@
 			});
 		</script>
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
 
-        <script src="js/jquery.fittext.js"></script>
+        <script src="../js/vendor/jquery.fittext.js"></script>
 		<script type="text/javascript">
 			$("#fittextdemo").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
 		</script>
 
-		<script src="js/vendor/placeholders.jquery.min.js"></script>
+		<script src="../js/vendor/placeholders.jquery.min.js"></script>
 
         <!-- Google Analytics: UA-45781236-1 
         <script>
