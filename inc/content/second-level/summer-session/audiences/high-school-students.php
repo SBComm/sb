@@ -40,7 +40,6 @@
                         <li><a href="summer-session/courses/results/?department=DAN&catalog_number=102">Dance</a></li>
                         <li><a href="summer-session/courses/results/?department=BIO&catalog_number=114">Dinosaur Paleontology</a></li>
                         <li><a href="summer-session/courses/results/?department=GER&catalog_number=101">German</a></li>
-                        <li><a href="summer-session/courses/results/?department=AAS&catalog_number=110">Indian Music</a></li>
                         <li><a href="summer-session/courses/results/?department=ITL&catalog_number=111">Italian</a></li>
                         <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424" target="_blank">Korean</a></li>
                         <li><a href="summer-session/courses/results/?department=MAP&catalog_number=103">Mathematics</a></li>
