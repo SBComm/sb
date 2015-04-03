@@ -30,7 +30,7 @@
                     <p></p>
                 </div>
                 <div class="one-half padding-top">
-                    <a class="img-button clearfix margin-top margin-bottom" href="http://fsa.sunysb.edu/services/meal-plan/">
+                    <a class="img-button clearfix margin-top margin-bottom" href="https://www.studentaffairs.stonybrook.edu/SummerHousing/">
                     <img class="clearfix" src="img/student-life/west-apartments.jpg" />
                     <span><span class="fa-arrow-after">Submit Application</span></span>
                 </a>
@@ -38,7 +38,7 @@
             </div>
             <div class="content">
                 <h4>On-Campus Housing: <span>Visit FSA for Summer Meal Plan information</span></h4>
-                <a class="img-button clearfix margin-bottom" href="http://fsa.sunysb.edu/services/meal-plan/">
+                <a class="img-button clearfix margin-bottom" href="http://www.stonybrook.edu/commcms/fsa/accounts/meal-plan/summer-meal-plan.html">
                     <img class="clearfix" src="img/student-life/campus-dining.jpg" />
                     <span><span class="fa-arrow-after">View Meal Plans</span></span>
                 </a>
