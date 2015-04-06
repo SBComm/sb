@@ -66,7 +66,7 @@
                             <td>April 7</td>
                         </tr>
                         <tr>
-                            <td>Last day to enroll without late fee</td>
+                            <td>Last day to pay without late fee</td>
                             <td>May 26</td>
                             <td>May 26</td>
                             <td>July 6</td>
@@ -162,10 +162,15 @@
                             <td>June 26</td>
                         </tr>
                         <tr>
-                            <td>
-                                Last day for undergraduate students to change courses to or from Graded Pass No Credit Option<br />
-                                Last day for section/credit changes
-                            </td>
+                            <td>Last day for undergraduate students to change courses to or from Graded Pass No Credit Option</td>
+                            <td>June 26</td>
+                            <td>June 26</td>
+                            <td>August 7</td>
+                            <td>August 7</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Last day for section/credit changes</td>
                             <td>June 26</td>
                             <td>June 26</td>
                             <td>August 7</td>
