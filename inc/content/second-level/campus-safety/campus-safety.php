@@ -179,6 +179,9 @@
                     <div class="content col-one-third">
                         <h4>Resources &amp; Links</h4>
                         <p>
+                            April is Sexual Assault Awareness Month. <a class="nowrap external-link" href="http://studentaffairs.stonybrook.edu/cpo/" target="_blank">Learn more</a>
+                        </p>
+                        <p>
                             <strong>Sexual Assault Nurse Examiner (SANE) Center at Stony Brook University Hospital</strong><br />
                             101 Nicolls Rd., Stony Brook, NY 11794<br />
                             (631) 632-6740
