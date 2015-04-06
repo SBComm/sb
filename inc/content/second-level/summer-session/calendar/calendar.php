@@ -27,8 +27,8 @@
                     <tbody>
                         <tr>
                             <td><strong>Dates</strong></td>
-                            <td><strong>May 23 – July 2</strong></td>
-                            <td><strong>May 23 – July 18</strong></td>
+                            <td><strong>May 26 – July 2</strong></td>
+                            <td><strong>May 26 – July 18</strong></td>
                             <td><strong>July 6 – August 15</strong></td>
                             <td><strong>June 29 – August 15</strong></td>
                             <td><strong>May 26 – August 3</strong></td>
@@ -91,16 +91,16 @@
                         </tr>
                         <tr>
                             <td>Saturday Classes begin</td>
-                            <td>May 23</td>
-                            <td>May 23</td>
-                            <td>May 23</td>
-                            <td>May 23</td>
-                            <td>May 23</td>
+                            <td>May 26</td>
+                            <td>May 26</td>
+                            <td>May 26</td>
+                            <td>May 26</td>
+                            <td>May 26</td>
                         </tr>
                         <tr>
                             <td>Classes begin. Late registration fee applies ($50)</td>
-                            <td>May 23</td>
-                            <td>May 23</td>
+                            <td>May 26</td>
+                            <td>May 26</td>
                             <td>July 6</td>
                             <td>June 29</td>
                             <td>May 26</td>
@@ -109,8 +109,8 @@
                             <td>Last day to add courses without permission (late fee applies)</td>
                             <td>May 29</td>
                             <td>May 29</td>
-                            <td>July 9</td>
-                            <td>July 2</td>
+                            <td>July 8</td>
+                            <td>July 1</td>
                             <td>May 29</td>
                         </tr>
                         <tr>
@@ -122,42 +122,54 @@
                             <td>-</td>
                         </tr>
                         <tr>
-                            <td>
-                                Last day to add courses with permission (late fee applies)<br />
-                                Last day to SWAP a course<br />
-                                Last day students can be enrolled from a waitlist
-                            </td>
-                            <td>June 2</td>
-                            <td>June 2</td>
-                            <td>July 11</td>
-                            <td>July 7</td>
-                            <td>June 2</td>
+                            <td>Last day to add courses with permission (late fee applies)</td>
+                            <td>June 1</td>
+                            <td>June 1</td>
+                            <td>July 10</td>
+                            <td>July 3</td>
+                            <td>June 1</td>
+                        </tr>
+                        <tr>
+                            <td>Last day to SWAP a course</td>
+                            <td>June 1</td>
+                            <td>June 1</td>
+                            <td>July 10</td>
+                            <td>July 3</td>
+                            <td>June 1</td>
+                        </tr>
+                        <tr>
+                            <td>Last day students can be enrolled from a waitlist</td>
+                            <td>June 1</td>
+                            <td>June 1</td>
+                            <td>July 10</td>
+                            <td>July 3</td>
+                            <td>June 1</td>
                         </tr>
                         <tr>
                             <td>Last day to drop courses without a "W" being recorded or tuition liability</td>
-                            <td>June 2</td>
-                            <td>June 2</td>
-                            <td>July 11</td>
-                            <td>July 7</td>
-                            <td>June 2</td>
+                            <td>June 1</td>
+                            <td>June 1</td>
+                            <td>July 10</td>
+                            <td>July 3</td>
+                            <td>June 1</td>
                         </tr>
                         <tr>
                             <td>Last day to withdraw from one or all Summer Sessions courses - "W" assigned - tuition liability incurred</td>
-                            <td>June 27</td>
-                            <td>June 27</td>
-                            <td>August 8</td>
-                            <td>August 8</td>
-                            <td>June 27</td>
+                            <td>June 26</td>
+                            <td>June 26</td>
+                            <td>August 7</td>
+                            <td>August 7</td>
+                            <td>June 26</td>
                         </tr>
                         <tr>
                             <td>
                                 Last day for undergraduate students to change courses to or from Graded Pass No Credit Option<br />
                                 Last day for section/credit changes
                             </td>
-                            <td>June 27</td>
-                            <td>June 27</td>
-                            <td>August 8</td>
-                            <td>August 8</td>
+                            <td>June 26</td>
+                            <td>June 26</td>
+                            <td>August 7</td>
+                            <td>August 7</td>
                             <td>-</td>
                         </tr>
                         <tr>
@@ -186,8 +198,8 @@
                         </tr>
                         <tr>
                             <td>Students vacate Residence Halls</td>
-                            <td>July 5</td>
-                            <td>July 17</td>
+                            <td>July 3</td>
+                            <td>July 19</td>
                             <td>August 16</td>
                             <td>August 16</td>
                             <td>-</td>

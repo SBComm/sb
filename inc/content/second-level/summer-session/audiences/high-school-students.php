@@ -43,6 +43,7 @@
                         <li><a href="summer-session/courses/results/?department=ITL&catalog_number=111">Italian</a></li>
                         <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424" target="_blank">Korean</a></li>
                         <li><a href="summer-session/courses/results/?department=MAP&catalog_number=103">Mathematics</a></li>
+                        <li><a href="summer-session/courses/results/?department=EST&catalog_number=100">Multimedia Projects</a></li>
                         <li><a class="external-link-hover" href="http://somas.stonybrook.edu/education/undergrad_course_mar104"target="_blank">Oceanography</a></li>
                         <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424" target="_blank">Persian</a></li>
                         <li><a href="summer-session/courses/results/?department=PHI&catalog_number=108">Philosophy</a></li>

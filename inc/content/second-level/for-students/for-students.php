@@ -13,7 +13,7 @@
                             <div class="carousel-image clearfix" data-image="03">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">Apply Now for Summer Session. More than 500 courses online or on campus.</div>
+                                <div class="carousel-title white">Enroll Now in Summer Session. More than 500 courses online or on campus.</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
@@ -145,10 +145,10 @@
             <div class="for-students-promo clearfix">
                 <div class="video-promo-wrapper">
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/c80sfKZ8virvY?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/2vxf0DeFCO8?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="video-caption content">
-                        <strong>Featured Video:</strong> Learn about the Sustainability Studies program at SBU
+                        <strong>Featured Video:</strong> Meet students in the Sustainability Studies program at SBU
                     </div>
                 </div>
                 <div class="opportunities-wrapper clearfix content external-link-hover-wrapper">
