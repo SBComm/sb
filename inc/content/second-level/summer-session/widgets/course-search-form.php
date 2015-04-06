@@ -1,4 +1,4 @@
-<form class="course-search-form" method="GET" action="summer-session/courses/results">
+<form class="course-search-form clearfix" method="GET" action="summer-session/courses/results">
 
     <label class="clearfix whole">Keywords
         <input type="text" class="rounded-input" name="keywords" />
