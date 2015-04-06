@@ -68,31 +68,31 @@ class Search{
 			foreach ($keywords_array as $keyword) {
 
 				// Search class number
-				$class_number_matches = preg_match_all("/\b$keyword\b/i", $class_number);
+				$class_number_matches = preg_match_all("/\b$keyword\b/i", $class_number, $cn_match_details);
 				if($class_number_matches > 0){
 					$match_strength += $class_number_matches * 16;
 				}
 				
 				// Search subject and catalog number group
-				$sc_matches = preg_match_all("/\b$keyword\b/i", $sc);
+				$sc_matches = preg_match_all("/\b$keyword\b/i", $sc, $sc_match_details);
 				if($sc_matches > 0){
 					$match_strength += $sc_matches * 12;
 				}
 
 				// Search instructor
-				$instructor_matches = preg_match_all("/\b$keyword\b/i", $instructor);
+				$instructor_matches = preg_match_all("/\b$keyword\b/i", $instructor, $i_match_details);
 				if($instructor_matches > 0){
 					$match_strength += $instructor_matches * 8;
 				}
 				
 				// Search title
-				$title_matches = preg_match_all("/\b$keyword\b/i", $title);
+				$title_matches = preg_match_all("/\b$keyword\b/i", $title, $t_match_details);
 				if($title_matches > 0){
 					$match_strength += $title_matches * 6;
 				}
 
 				// Search description
-				$description_matches = preg_match_all("/\b$keyword\b/i", $description);
+				$description_matches = preg_match_all("/\b$keyword\b/i", $description, $d_match_details);
 				if($description_matches > 0){
 					$match_strength += $description_matches;
 				}
