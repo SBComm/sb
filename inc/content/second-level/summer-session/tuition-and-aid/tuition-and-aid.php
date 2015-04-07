@@ -404,7 +404,7 @@
 
                 <h3 id="payment">Payment Policies and Procedures</h3>
                 <h4>Summer Session 1 and Extended Session</h4>
-                <p>Payment for Summer Session 1 and Extended Session is due in full by May 23, 2015. A $40 late payment fee will be posted to all Summer Session I or Extended accounts that remain unpaid after May 23, 2015.</p>
+                <p>Payment for Summer Session 1 and Extended Session is due in full by May 26, 2015. A $40 late payment fee will be posted to all Summer Session I or Extended accounts that remain unpaid after May 26, 2015.</p>
                 <p>An additional $40 late payment fee will be added to all Session I and Extended Session accounts that remain unpaid after July 5, 2015.</p>
                 <h4>Summer Session 2 </h4>
                 <p>Payment for Summer Session 2 is due in full by July 6, 2015. A $40 late payment fee will be posted to all Summer Session II accounts that remain unpaid after July 6, 2015.</p>
