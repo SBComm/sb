@@ -1,6 +1,7 @@
 # robotstxt.org/
 
 User-agent: *
+Allow: /
 Disallow: /hsc-bulletin/
 Disallow: /test/
 Disallow: /tools/
