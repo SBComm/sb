@@ -32,7 +32,7 @@
 
                 <h5>Health Sciences Programs</h5>
                 <p>The Health Sciences Schools include a wide array of opportunities for students at the undergraduate and graduate levels. Each school holds information sessions regarding their programs and individual advisement by appointment. For contact information, please click on the appropriate school:</p>
-                <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/prelaw/" target="_blank">Health Technology and Management</a><br />
+                <p><a class="external-link" href="http://healthtechnology.stonybrookmedicine.edu/" target="_blank">Health Technology and Management</a><br />
                 <a class="external-link" href="http://www.nursing.stonybrookmedicine.edu/" target="_blank">Nursing</a><br />
                 <a class="external-link" href="http://www.hsc.stonybrook.edu/ssw/index.cfm" target="_blank">Social Welfare</a></p>
                 <p><strong>Location:</strong> Office of Student Services, HSC Level 2, Room 271</p>
@@ -51,7 +51,7 @@
                 <p><a class="external-link" href="http://www.somas.stonybrook.edu/education/" target="_blank">Visit the School of Marine and Atmospheric Sciences</a></p>
 
                 <h5>Sustainability Studies</h5>
-                <p>The Sustainability Studies program offers five majors and five minors. Each program has a designated Undergraduate program Director who advises on the major and minor. Students can contact the faculty directors by visiting the Sustainability Studies website. The faculty advisors provide ongoing assistance to students in developing their academic planning toward graduation.</p>
+                <p>The Sustainability Studies program offers five majors and six minors. Each program has a designated Undergraduate program Director who advises on the major and minor. Students can contact the faculty directors by visiting the Sustainability Studies website. The faculty advisors provide ongoing assistance to students in developing their academic planning toward graduation.</p>
                 <p><strong>Location:</strong> W-0511 Melville Library<br />
                 <strong>Phone:</strong> (631) 632-9404</p>
                 <p><a class="external-link" href="http://www.stonybrook.edu/commcms/sustainability/index.html" target="_blank">View the Sustainability Studies Program</a></p>
@@ -63,9 +63,9 @@
 
                 <h5>Academic and Transfer Advising Services</h5>
                 <p>Provides general advising for transfers, sophomores, juniors, and seniors.  Helps students develop their academic plans for graduation and works with students in academic difficulty.  Evaluates transfer credits and serves as a central communicator regarding academic deadlines, policies, and events to all undergraduates.</p>
-                <p><a class="external-link" href="www.stonybrook.edu/prelaw" target="_blank">Advising</a><br />
-                <a class="external-link" href="http://www.nursing.stonybrookmedicine.edu/" target="_blank">Pre-Law</a><br />
-                <a class="external-link" href="www.stonybrook.edu/prehealth" target="_blank">Pre-Health</a></p>
+                <p><a class="external-link" href="http://www.stonybrook.edu/commcms/advising/" target="_blank">Advising</a><br />
+                <a class="external-link" href="http://www.stonybrook.edu/prelaw" target="_blank">Pre-Law</a><br />
+                <a class="external-link" href="http://www.stonybrook.edu/prehealth" target="_blank">Pre-Health</a></p>
                 <p><strong>Location:</strong> E-2360 Melville Library<br />
                 <strong>Phone: </strong> (631) 632-7082, option 2<br />
                 <strong>Email: </strong> <a href="mailto:advising@stonybrook.edu">advising@stonybrook.edu</a> and <a href="mailto:prehealth@stonybrook.edu">prehealth@stonybrook.edu</a></p>
