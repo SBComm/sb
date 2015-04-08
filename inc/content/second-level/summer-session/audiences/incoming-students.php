@@ -24,7 +24,7 @@
                     <h4>Steps to Enroll</h4>
                     <ol class="number large-number">
                         <li>Make your course selection and credits. Only select introductory (100-level) courses are open to incoming freshmen.</li>
-                        <li>Pre-registration forms will be posted here in March. Check back at that time to complete the appropriate pre-registration form. Complete the appropriate pre-registration form: <a href="summer-session/incoming-students/freshman/"><strong>Freshmen</strong></a> | <a href="summer-session/incoming-students/transfer/"><strong>Transfers</strong></a>.</li>
+                        <li>Complete the appropriate pre-registration form: <a href="summer-session/incoming-students/freshman/"><strong>Freshmen</strong></a> | <a href="summer-session/incoming-students/transfer/"><strong>Transfers</strong></a>.</li>
                         <li>Your selection will also be reviewed by a member of our advising staff to ensure that your class is applicable to your degree requirements.</li>
                         <li>You will be term activated for summer and can enroll through <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR</a>.</li>
                     </ol>
