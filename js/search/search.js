@@ -4,7 +4,9 @@ var siteSearchMessage, googleInputCode, googleResultsCode, searchInputValue;
 
 if(siteToSearch!=null &&siteToSearch!=0 &&siteToSearch!='') {
 
-    //replace any encoded characters
+    //replace any double- or single-encoded characters
+    siteToSearch = siteToSearch.replace(/%252F/g, "/");
+    siteToSearch = siteToSearch.replace(/%253A/g, "/");
     siteToSearch = siteToSearch.replace(/%3A/g, ":");
     siteToSearch = siteToSearch.replace(/%2F/g, "/");
 
