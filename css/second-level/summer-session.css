@@ -403,7 +403,12 @@
     background-position: center;
 }
 
-
+.filter-buttons a.books {
+    background-image: url('../../img/circle-buttons/books-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 @media only screen and (min-width: 360px) {
     .filter-buttons p {

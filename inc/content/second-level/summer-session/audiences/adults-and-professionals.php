@@ -33,6 +33,12 @@
                         <span class="line-2">(HEA 503)</span>
                     </span>
                 </a>
+                <a class="books" href="https://egl584sum2015.wordpress.com/" target="_blank">
+                    <span>
+                        <span class="line-1">American Tales and Sketches</span>
+                        <span class="line-2">(EGL 584 Online)</span>
+                    </span>
+                </a>
             </div>
             <a class="full-width-red-button" href="summer-session/courses/results/#summer-courses?course_level=GRAD">View All Courses</a>
         </div>
