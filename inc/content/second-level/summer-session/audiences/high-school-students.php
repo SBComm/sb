@@ -72,7 +72,6 @@
                                 <li><a href="http://greenegazette.com/" target="_blank">Robert W. Greene Summer Institute for High School Journalists</a></li>
                                 <li><a href="http://www.stonybrook.edu/cesame/students/MathCamp/mathcamphs.shtml" target="_blank">Mathematics Summer Camp</a></li>
                                 <li><a href="http://www.stonybrook.edu/cesame/students/PhysicsCamp/physummercamp.html" target="_blank">Physics Summer Camp</a></li>
-                                <li><a href="http://www.stonybrook.edu/cesame/students/APBioSummerProgram/apbioprepprogram.html" target="_blank">College Biology/AP Biology Laboratory Preparation</a></li>
                                 <li><a href="http://www.stonybrook.edu/cesame/teachers/Competitions/ProteinModelingChallengeHome.html" target="_blank">Protein Modeling Challenge</a></li>
                                 <li><a href="http://anesthesia.stonybrook.edu/SARAS" target="_blank">SARAS: Science And Research Awareness Series</a></li>
                                 <li><a href="https://llrc.stonybrook.edu/node/1424" target="_blank">StarTalk Program</a></li>
