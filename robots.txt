@@ -2,6 +2,7 @@
 
 User-agent: *
 Allow: /
+Allow: /*
 Disallow: /hsc-bulletin/
 Disallow: /test/
 Disallow: /tools/
