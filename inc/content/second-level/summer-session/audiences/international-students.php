@@ -34,6 +34,10 @@
                     <h5>High School Program</h5>
                     <a href="http://www.stonybrook.edu/usa" target="_blank">Learn More</a>
                 </div>
+                <div class="grey-box-1 one-half">
+                    <h5>Intensive English Center</h5>
+                    <a href="http://www.stonybrook.edu/commcms/iec/programs/summersession.html" target="_blank">Learn More</a>
+                </div>
             </div>
         </div>
     </section>
