@@ -404,10 +404,10 @@
 
                 <h3 id="payment">Payment Policies and Procedures</h3>
                 <h4>Summer Session 1 and Extended Session</h4>
-                <p>Payment for Summer Session 1 and Extended Session is due in full by May 26, 2015. A $40 late payment fee will be posted to all Summer Session I or Extended accounts that remain unpaid after May 26, 2015.</p>
+                <p>Payment for Summer Session 1 and Extended Session is due in full by May 26, 2015. Summer Session 1 includes all O, C, Z, and MM1 and MM2 Mod Sessions. A $40 late payment fee will be posted to all Summer Session I or Extended accounts that remain unpaid after May 26, 2015.</p>
                 <p>An additional $40 late payment fee will be added to all Session I and Extended Session accounts that remain unpaid after July 5, 2015.</p>
                 <h4>Summer Session 2 </h4>
-                <p>Payment for Summer Session 2 is due in full by July 6, 2015. A $40 late payment fee will be posted to all Summer Session II accounts that remain unpaid after July 6, 2015.</p>
+                <p>Payment for Summer Session 2 is due in full by July 6, 2015. Summer Session 2 includes all D, 9, M, MM and MM3 Mod Sessions.  A $40 late payment fee will be posted to all Summer Session II accounts that remain unpaid after July 6, 2015.</p>
                 <p>An additional $40 late payment fee will added to all Session II accounts that remain unpaid after August 16, 2015.</p>
 
                 <h4>Payment Deadline</h4>
@@ -424,7 +424,7 @@
                     <li>SOLAR System: Visa,  MasterCard, Discover, American Express or check. </li>
                     <li>In person at the Bursar  Office: cash, check, credit card. </li>
                     <li>Please write your  university ID number on check payments. </li>
-                    <li>By mail to: Stony Brook  University, P.O Box 619, Stony Brook, NY 11790-0169. Please write student ID  number on the check </li>
+                    <li>By mail to: Stony Brook  University, P.O Box 619, Stony Brook, NY 11790-0169. Please write student ID number on the check </li>
                 </ul>
 
                 <h4>Unpaid Summer Charges</h4>
