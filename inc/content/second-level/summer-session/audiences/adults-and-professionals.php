@@ -39,10 +39,10 @@
                         <span class="line-2">(EGL 584 Online)</span>
                     </span>
                 </a>
-                <a class="childrens-literature" href="summer-session/courses/results/?department=CEI&catalog_number=509">
+                <a class="childrens-literature" href="summer-session/courses/results/?department=CEE&catalog_number=509">
                     <span>
                         <span class="line-1">Children's Literature</span>
-                        <span class="line-2">(CEI 509 Online)</span>
+                        <span class="line-2">(CEE 509 Online)</span>
                     </span>
                 </a>
                 <a class="literature-terrorism" href="summer-session/courses/results/?department=CEV&catalog_number=528">
