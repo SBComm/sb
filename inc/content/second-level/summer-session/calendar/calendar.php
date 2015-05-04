@@ -19,7 +19,7 @@
                             <th></th>
                             <th>Session 1</th>
                             <th>Session 1 Extended</th>
-                            <th>Session II</th>
+                            <th>Session 2</th>
                             <th>Session 2 Extended</th>
                             <th>Graduate Online</th>
                         </tr>
