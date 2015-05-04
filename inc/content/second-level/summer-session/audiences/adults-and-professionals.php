@@ -39,6 +39,48 @@
                         <span class="line-2">(EGL 584 Online)</span>
                     </span>
                 </a>
+                <a class="childrens-literature" href="summer-session/courses/results/?department=CEI&catalog_number=509">
+                    <span>
+                        <span class="line-1">Children's Literature</span>
+                        <span class="line-2">(CEI 509 Online)</span>
+                    </span>
+                </a>
+                <a class="literature-terrorism" href="summer-session/courses/results/?department=CEV&catalog_number=528">
+                    <span>
+                        <span class="line-1">Literature &amp; Culture of Terrorism</span>
+                        <span class="line-2">(CEV 528 Online)</span>
+                    </span>
+                </a>
+                <a class="music-memory" href="summer-session/courses/results/?department=CEI&catalog_number=565">
+                    <span>
+                        <span class="line-1">Music and Memory</span>
+                        <span class="line-2">(CEI 565)</span>
+                    </span>
+                </a>
+                <a class="solar-plates" href="summer-session/courses/results/?department=CEA&catalog_number=505">
+                    <span>
+                        <span class="line-1">Solar Plates and Mono-prints</span>
+                        <span class="line-2">(CEA 505)</span>
+                    </span>
+                </a>
+                <a class="mainstreams-art" href="summer-session/courses/results/?department=CEA&catalog_number=509">
+                    <span>
+                        <span class="line-1">Mainstreams of Modern Art</span>
+                        <span class="line-2">(CEA 509)</span>
+                    </span>
+                </a>
+                <a class="metal-casting" href="summer-session/courses/results/?department=CEA&catalog_number=518">
+                    <span>
+                        <span class="line-1">Metal Casting</span>
+                        <span class="line-2">(CEA 518)</span>
+                    </span>
+                </a>
+                <a class="watercolor" href="summer-session/courses/results/?department=CEA&catalog_number=533">
+                    <span>
+                        <span class="line-1">Watercolor</span>
+                        <span class="line-2">(CEA 533)</span>
+                    </span>
+                </a>
             </div>
             <a class="full-width-red-button" href="summer-session/courses/results/#summer-courses?course_level=GRAD">View All Courses</a>
         </div>

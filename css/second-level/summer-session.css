@@ -410,6 +410,69 @@
     background-position: center;
 }
 
+.filter-buttons a.cultural-diversity {
+    background-image: url('../../img/misc/cultural-diversity.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.religion-culture {
+    background-image: url('../../img/misc/religion-culture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.childrens-literature {
+    background-image: url('../../img/misc/childrens-literature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.literature-terrorism {
+    background-image: url('../../img/misc/literature-terrorism.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.music-memory {
+    background-image: url('../../img/misc/music-memory.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.solar-plates {
+    background-image: url('../../img/misc/solar-plates.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.mainstreams-art {
+    background-image: url('../../img/misc/mainstreams-art.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.metal-casting {
+    background-image: url('../../img/misc/metal-casting.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.watercolor {
+    background-image: url('../../img/misc/watercolor.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media only screen and (min-width: 360px) {
     .filter-buttons p {
         font-size: 1.2em;

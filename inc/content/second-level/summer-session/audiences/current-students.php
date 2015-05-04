@@ -54,10 +54,16 @@
                         <span class="line-2">(BIO 204)</span>
                     </span>
                 </a>
-                <a class="disneys-america" href="summer-session/courses/results/?department=HIS&catalog_number=363">
+                <!--<a class="disneys-america" href="summer-session/courses/results/?department=HIS&catalog_number=363">
                     <span>
                         <span class="line-1">Disney’s America</span>
                         <span class="line-2">(HIS 363 Online)</span>
+                    </span>
+                </a>-->
+                <a class="religion-culture" href="summer-session/courses/results/?department=ANT&catalog_number=390">
+                    <span>
+                        <span class="line-1">Religion in Cross-Cultural Perspective</span>
+                        <span class="line-2">(ANT 390)</span>
                     </span>
                 </a>
                 <a class="org-chem" href="summer-session/courses/results/?department=CHE&catalog_number=321">
@@ -84,12 +90,18 @@
                         <span class="line-2">(PHY 121)</span>
                     </span>
                 </a>
-                <a class="mythology" href="summer-session/courses/results/?department=CLL&catalog_number=215">
+                <a class="cultural-diversity" href="summer-session/courses/results/?department=ANT&catalog_number=390">
+                    <span>
+                        <span class="line-1">Cultural Diversity</span>
+                        <span class="line-2">(ANT 390)</span>
+                    </span>
+                </a>
+                <!--<a class="mythology" href="summer-session/courses/results/?department=CLL&catalog_number=215">
                     <span>
                         <span class="line-1">Classical Mythology</span>
                         <span class="line-2">(CLL 215)</span>
                     </span>
-                </a>
+                </a>-->
                 <a class="calculus" href="summer-session/courses/results/?department=MAT&catalog_number=123">
                     <span>
                         <span class="line-1">Introduction to Calculus</span>
