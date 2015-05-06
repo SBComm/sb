@@ -90,12 +90,12 @@
                         <span class="line-2">(PHY 121)</span>
                     </span>
                 </a>
-                <a class="cultural-diversity" href="summer-session/courses/results/?department=ANT&catalog_number=390">
+                <!--<a class="cultural-diversity" href="summer-session/courses/results/?department=ANT&catalog_number=390">
                     <span>
                         <span class="line-1">Cultural Diversity</span>
                         <span class="line-2">(ANT 390)</span>
                     </span>
-                </a>
+                </a>-->
                 <!--<a class="mythology" href="summer-session/courses/results/?department=CLL&catalog_number=215">
                     <span>
                         <span class="line-1">Classical Mythology</span>
