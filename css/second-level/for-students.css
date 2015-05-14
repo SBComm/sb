@@ -16,15 +16,15 @@
 }
 
 .carousel-image[data-image='01'] {
-    background-image: url("../../for-students/images/title9.jpg");
+    background-image: url("../../for-students/images/graduation.jpg");
 }
 
 .carousel-image[data-image='02'] {
-    background-image: url("../../for-students/images/sunykorea.jpg");
+    background-image: url("../../for-students/images/for-students-summer-sessions-2015.jpg");
 }
 
 .carousel-image[data-image='03'] {
-    background-image: url("../../for-students/images/for-students-summer-sessions-2015.jpg");
+    background-image: url("../../for-students/images/title9.jpg");
 }
 
 .arrow-below-ocean:after {

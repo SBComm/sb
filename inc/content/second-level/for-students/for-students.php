@@ -9,18 +9,28 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
+                        <a href="http://www.stonybrook.edu/commcms/commencement/" target="_blank" title="Learn More about Summer Session">
+                            <div class="carousel-image clearfix" data-image="01">
+                            </div>
+                            <div class="carousel-text clearfix">
+                                <div class="carousel-title white">Get ready for Commencement! May 22, 2015</div>
+                                <div class="carousel-subtitle">Get info</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
                         <a href="http://stonybrook.edu/summer/" target="_blank" title="Learn More about Summer Session">
-                            <div class="carousel-image clearfix" data-image="03">
+                            <div class="carousel-image clearfix" data-image="02">
                             </div>
                             <div class="carousel-text clearfix">
                                 <div class="carousel-title white">Enroll Now in Summer Session. More than 500 courses online or on campus.</div>
-                                <div class="carousel-subtitle">Learn more</div>
+                                <div class="carousel-subtitle">See courses</div>
                             </div>
                         </a>
                     </div>
                     <div class="item">
                         <a href="http://mobile.cc.stonybrook.edu/sb/features/title-ix/?=marquee1" target="_blank" title="Here to Help: How ​the University Supports Title IX">
-                            <div class="carousel-image clearfix" data-image="01">
+                            <div class="carousel-image clearfix" data-image="03">
                             </div>
                             <div class="carousel-text clearfix">
                                 <div class="carousel-title white">Here to Help: How ​the University Supports Title IX</div>
@@ -28,6 +38,7 @@
                             </div>
                         </a>
                     </div>
+                    <!--
                     <div class="item">
                         <a href="http://www.stonybrook.edu/commcms/studyabroad/outgoing/programs/summer/korea/sunyKorea" target="_blank" title="SUNY Korea Students Thrive at Stony Brook">
                             <div class="carousel-image clearfix" data-image="02">
@@ -38,6 +49,7 @@
                             </div>
                         </a>
                     </div>
+                    -->
                 </div>
                 <div class="owl-prev owl-prev-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-left"></em></div>
                 <div class="owl-next owl-next-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-right"></em></div>
@@ -145,10 +157,10 @@
             <div class="for-students-promo clearfix">
                 <div class="video-promo-wrapper">
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/2vxf0DeFCO8?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/5qokB1LmIR0?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="video-caption content">
-                        <strong>Featured Video:</strong> Meet students in the Sustainability Studies program at SBU
+                        <strong>Featured Video:</strong> Seawolves make a splash at the 2015 Roth Regatta!
                     </div>
                 </div>
                 <div class="opportunities-wrapper clearfix content external-link-hover-wrapper">
