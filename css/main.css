@@ -364,6 +364,15 @@ video.background-video {
     float: right;
 }
 
+.text-align-right {
+    text-align: right;
+}
+
+.smaller {
+    font-size: .9em;
+    color: #333;
+}
+
 /* Layout */
 
 .whole,
