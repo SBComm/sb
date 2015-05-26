@@ -23,9 +23,11 @@
     </section>
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix">
+            <!--
             <div class="content alert-message red clearfix">
                 <p><strong>Please note:</strong> The Office of Undergraduate Admissions will be closed on Monday, May 25, 2015, in honor of Memorial Day.</p>
             </div>
+            -->
             <h3>Contact Admissions</h3>
             <div class="content col-2">
                 <h4>Email Us</h4>
