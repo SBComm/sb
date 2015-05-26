@@ -64,12 +64,19 @@
                 <h5>Academic and Transfer Advising Services</h5>
                 <p>Provides general advising for transfers, sophomores, juniors, and seniors.  Helps students develop their academic plans for graduation and works with students in academic difficulty.  Evaluates transfer credits and serves as a central communicator regarding academic deadlines, policies, and events to all undergraduates.</p>
                 <p><a class="external-link" href="http://www.stonybrook.edu/commcms/advising/" target="_blank">Advising</a><br />
-                <a class="external-link" href="http://www.stonybrook.edu/prelaw" target="_blank">Pre-Law</a><br />
-                <a class="external-link" href="http://www.stonybrook.edu/prehealth" target="_blank">Pre-Health</a></p>
                 <p><strong>Location:</strong> E-2360 Melville Library<br />
                 <strong>Phone: </strong> (631) 632-7082, option 2<br />
-                <strong>Email: </strong> <a href="mailto:advising@stonybrook.edu">advising@stonybrook.edu</a> and <a href="mailto:prehealth@stonybrook.edu">prehealth@stonybrook.edu</a></p>
+                <strong>Email: </strong> <a href="mailto:advising@stonybrook.edu">advising@stonybrook.edu</a></p>
                 <p><a class="external-link" href="http://www.stonybrook.edu/commcms/advising/" target="_blank">Visit Academic and Transfer Advising Services</a></p>
+
+
+                <h5>Pre-Professional Advising</h5>
+                <p>The office of Pre-Professional Advising serves all undergraduates and alumni of Stony Brook University who are seeking careers in healthcare and law. Services include one-on-one advising in curricular and pre-professional planning, phone advising, workshops, programs and webinars, and application assistance. Pre-Health/ Pre-Law advisors serve as a resource throughout a student’s undergraduate career, providing information about course selection, volunteer involvement, law- and health-related internships and exploring gap year opportunities.</p>
+                <a class="external-link" href="http://www.stonybrook.edu/prelaw" target="_blank">Pre-Law</a><br />
+                <a class="external-link" href="http://www.stonybrook.edu/prehealth" target="_blank">Pre-Health</a></p>
+                <p><strong>Location:</strong> E-3310 Melville Library<br />
+                <strong>Phone: </strong> (631) 632-7080<br />
+                <strong>Email: </strong> <a href="mailto:prehealth@stonybrook.edu">prehealth@stonybrook.edu</a> &amp; <a href="mailto:prelaw@stonybrook.edu">prelaw@stonybrook.edu</a></p>
 
                 <h5>Athletics</h5>
                 <p>The Goldstein Family Student-Athlete Development Center provides academic, career, and personal development services for student-athletes. Services such as academic advisement, course selection, NCAA life skills workshops, and tutoring are provided in the Center. An academic advisor is assigned to work with each team.</p>
