@@ -9,12 +9,12 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
-                        <a href="http://www.stonybrook.edu/commcms/commencement/" target="_blank" title="Learn More about Summer Session">
+                        <a href="https://storify.com/SBUBuzz/stony-brook-commencement-2015?=marquee1" target="_blank" title="Learn More about Summer Session">
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">Get ready for Commencement! May 22, 2015</div>
-                                <div class="carousel-subtitle">Get info</div>
+                                <div class="carousel-title white">Congratulations Stony Brook Class of 2015! Seawolves for Life!</div>
+                                <div class="carousel-subtitle">See pictures</div>
                             </div>
                         </a>
                     </div>
