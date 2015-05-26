@@ -272,6 +272,7 @@
                             <div class="social-other-label-container sbu-text-shadow">Graduate School</div>
                             <div class="social-channels-container">
                                 <a href="https://www.facebook.com/sunysb.gradschool" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/GradSBU" target="_blank"><i class="fa fa-twitter"></i></a>
                                 <a href="https://www.youtube.com/channel/UCvv5VumwLRzTvK4GS3HzmpQ" target="_blank"><i class="fa fa-youtube"></i></a>
                                 <a href="https://www.linkedin.com/edu/school?id=164057&trk=edu-cp-title" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
