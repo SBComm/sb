@@ -35,6 +35,8 @@
             </div>
             <div class="content col-2">
                 <h4>Upcoming Sessions</h4>
+                <p>Information sessions will resume in September.</p>
+                <!--
                 <p>
                     Friday, March 13, 2015<br />
                     2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=623577edf6ab9078274e619f7da58e4294ac4d" target="_blank">Register Now</a>
@@ -63,6 +65,7 @@
                     Friday, May 8, 2015<br />
                     2:00pm | <a class="external-link" href="https://sunysb.askadmissions.net/Portal/EI/ViewDetails?gid=6235770131c95a7e5a48bf88b0c939e64640a6" target="_blank">Register Now</a>
                 </p>
+                -->
             </div>
         </div>
     </section>
