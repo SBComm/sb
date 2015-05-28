@@ -85,16 +85,10 @@
                         <span class="line-2">(HIS 393)</span>
                     </span>
                 </a>
-                <a class="the-american-musical" href="summer-session/courses/results/?department=ACC&catalog_number=325">
-                    <span>
-                        <span class="line-1">The American Musical</span>
-                        <span class="line-2">(MUS 325)</span>
-                    </span>
-                </a>
                 <a class="mozart" href="summer-session/courses/results/?department=MUS&catalog_number=326">
                     <span>
-                        <span class="line-1">Mostly Mozart!</span>
-                        <span class="line-2">(MUS 326)</span>
+                        <span class="line-1">Music Online</span>
+                        <span class="line-2">(MUS 101)</span>
                     </span>
                 </a>
                 <a class="afro-brazilian" href="summer-session/courses/results/?department=DAN&catalog_number=369">
@@ -103,16 +97,17 @@
                         <span class="line-2">(DAN 369)</span>
                     </span>
                 </a>
-                <a class="iran" href="summer-session/courses/results/?department=LIN&catalog_number=355">
-                    <span>
-                        <span class="line-1">Iran</span>
-                        <span class="line-2">(LIN 355)</span>
-                    </span>
-                </a>
                 <a class="socio-sport" href="summer-session/courses/results/?department=SOC&catalog_number=391">
                     <span>
                         <span class="line-1">Sociology of Sport</span>
                         <span class="line-2">(SOC 391)</span>
+                    </span>
+                </a>
+                <!--
+                <a class="the-american-musical" href="summer-session/courses/results/?department=ACC&catalog_number=325">
+                    <span>
+                        <span class="line-1">The American Musical</span>
+                        <span class="line-2">(MUS 325)</span>
                     </span>
                 </a>
                 <a class="activism" href="summer-session/courses/results/?department=SUS&catalog_number=350">
@@ -121,6 +116,13 @@
                         <span class="line-2">(SUS 350)</span>
                     </span>
                 </a>
+                <a class="iran" href="summer-session/courses/results/?department=LIN&catalog_number=355">
+                    <span>
+                        <span class="line-1">Iran</span>
+                        <span class="line-2">(LIN 355)</span>
+                    </span>
+                </a>
+                -->
             </div>
             <a class="full-width-red-button" href="summer-session/courses/results/#summer-courses">View All Courses</a>
         </div>

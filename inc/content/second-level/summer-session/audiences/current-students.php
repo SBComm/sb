@@ -126,10 +126,10 @@
                         <span class="line-2">(AAS 240)</span>
                     </span>
                 </a>
-                <a class="the-american-musical" href="summer-session/courses/results/?department=MUS&catalog_number=325">
+                <a class="mozart" href="summer-session/courses/results/?department=MUS&catalog_number=325">
                     <span>
-                        <span class="line-1">The American Musical</span>
-                        <span class="line-2">(MUS 325)</span>
+                        <span class="line-1">Music Online</span>
+                        <span class="line-2">(MUS 101)</span>
                     </span>
                 </a>
             </div>

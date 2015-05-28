@@ -51,9 +51,7 @@
                         <li><a href="summer-session/courses/results/?department=PSY&catalog_number=103">Psychology</a></li>
                         <li><a href="summer-session/courses/results/?department=SOC&catalog_number=105">Sociology</a></li>
                         <li><a href="summer-session/courses/results/?department=SPN&catalog_number=111">Spanish</a></li>
-                        <li><a href="summer-session/courses/results/?department=THR&catalog_number=214">Theatre in New York</a></li>
                         <li><a class="external-link-hover" href="https://llrc.stonybrook.edu/node/1424" target="_blank">Turkish</a></li>
-                        <li><a href="summer-session/courses/results/?department=WST&catalog_number=103">Women, Culture, and Difference</a></li>
                         <li><a href="summer-session/courses/results/?department=CLT&catalog_number=101">World Literatures</a></li>
                         <li><a href="summer-session/courses/results/?department=WRT&catalog_number=101">Writing</a></li>
                     </ul>

@@ -48,6 +48,9 @@
             $show_HSC = true;
         } else if($search_response['query']['location']=='ONLINE') {
             $show_Online = true;
+        } else if($search_response['query']['department']=='MUS') {
+            //$show_MUS = true;
+            $show_MUS = false; //waiting for confirmation if this is needed
         }
 
     ?>
@@ -66,6 +69,10 @@
         <?php if($show_Online) { ?>
             <div class="content alert-message alert-message-green clearfix">
                 <p>What is required to be a successful online student? <a class="external-link" href="summer-session/resources#online" target="_blank">Read more...</a></p>
+            </div>
+        <?php } else if($show_MUS) { ?>
+            <div class="content alert-message alert-message-green clearfix">
+                <p>Note: Some Music courses have additional descriptions. <a class="external-link" href="#" target="_blank">Read more...</a></p>
             </div>
         <?php } ?>
 
