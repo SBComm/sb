@@ -85,7 +85,7 @@
                         <span class="line-2">(HIS 393)</span>
                     </span>
                 </a>
-                <a class="mozart" href="summer-session/courses/results/?department=MUS&catalog_number=326">
+                <a class="mozart" href="summer-session/courses/results/?department=MUS&catalog_number=101">
                     <span>
                         <span class="line-1">Music Online</span>
                         <span class="line-2">(MUS 101)</span>
