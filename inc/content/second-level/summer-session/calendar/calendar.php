@@ -107,11 +107,11 @@
                         </tr>
                         <tr>
                             <td>Last day to add courses without permission (late fee applies)</td>
-                            <td>May 29</td>
-                            <td>May 29</td>
+                            <td>May 28</td>
+                            <td>May 28</td>
                             <td>July 8</td>
                             <td>July 1</td>
-                            <td>May 29</td>
+                            <td>May 28</td>
                         </tr>
                         <tr>
                             <td>Correction Day: Follows a Monday schedule</td>
