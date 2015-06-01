@@ -41,8 +41,6 @@
     <section class="clearfix">
         <div class="no-pad-wrapper border-box tabs-wrapper tab-wrapper-cs">
 
-            <!--<h2 class="red clearfix">Stony Brook <span class="serif-italic">Serious About Safety</span></h2>-->
-
             <ul id="tabbed-nav" class="clearfix">
                 <li><a class="clearfix" href="#emergency-management" data-content-id="1" data-trigger-role="show-content" data-trigger-scope="desktop" ><img src="campus-safety/images/icons/emergency-management.png" /><span><p>Emergency Management</p></span></a></li>
                 <li><a class="clearfix" href="#alcohol-drugs" data-content-id="2" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/drugs-and-alcohol.png" /><span><p>Alcohol &amp; Drugs</p></span></a></li>
