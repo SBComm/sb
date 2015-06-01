@@ -61,6 +61,8 @@
 	        $summer_session_courses = true;
 
 	        $tablesaw = true;
+
+	        $live_filter_sticky = true;
 		?>
 
 	<!-- <head> -->
