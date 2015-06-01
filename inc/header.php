@@ -41,7 +41,6 @@
         <!--<link rel="stylesheet" href="fonts/icomoon/style.css">-->
         <!--<link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">-->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <?php includeAsset('css','css/print.css','print'); ?>
     <!--END CSS Style Includes-->
 
         <?php if($carousel) { ?>
@@ -160,6 +159,8 @@
             <![endif]-->
         <!--END HTML5 Shiv-->
     <!--END IE Specific CSS Includes and Polyfills-->
+
+    <?php includeAsset('css','css/print.css','print'); ?>
 
     <!--BEGIN Fonts.com Include-->
 		<!--<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/4d69d29a-9fcc-4dfe-bd87-a65adb689f6c.css"/>-->
