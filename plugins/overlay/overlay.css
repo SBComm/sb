@@ -1,0 +1,279 @@
+/* 
+   File: overlay.css
+   Created by: Josh Palmeri, Stony Brook U
+   2015.05.27
+   Styling for custom overlay used for application-type sites with history API
+*/
+
+.overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9;
+	background: #414141;
+	background: rgba(65,65,65,.98);
+	padding-top: 68px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 0;
+	visibility: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.overlay.show {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	opacity: 1;
+	visibility: visible;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+.video-overlay {
+	background: rgba(35,35,35,.975);
+}
+
+.overlay-wrapper {
+	display: block;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 92%;
+    margin: 0 4%;
+}
+
+.overlay-controls {
+	display: block;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #313131;
+    background: rgba(49, 49, 49, .95);
+    padding: 10px 0;
+    font-size: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 8;
+}
+
+.video-overlay .overlay-controls {
+	background: #202020;
+}
+
+.overlay-control {
+	display: inline-block;
+	font-family: 'TradeGothicW01-BoldCn20 675334';
+	font-weight: normal;
+    text-transform: none;
+    color: #BDBDBD;
+    padding: 5px 18px;
+    text-decoration: none;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.overlay-control:hover {
+	color: #fff;
+}
+
+.overlay-controls .back {
+	float: left;
+	padding-right: 10px;
+}
+
+.overlay-controls .category {
+	float: right;
+	padding-left: 18px;
+	padding-right: 10px;
+}
+
+.overlay-controls .category-header {
+	display: block;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Trade Gothic W01 Cn 18';
+    color: #0fffff;
+    padding: 0;
+    font-size: 1.3em;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 0;
+    cursor: pointer;
+}
+
+.overlay-controls .category-header:focus {
+	outline: 0 none;
+	color: #fff;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 0px) and (max-width: 959px) {
+    
+}
+
+@media only screen and (min-width: 400px) {
+    .overlay-controls .category-header {
+	    font-size: 1.7em;
+	    padding: 9px 0 0;
+	}
+
+	.overlay-control {
+	    padding: 8px 14px;
+	    font-size: 1.65em;
+	}
+}
+
+@media only screen and (min-width: 540px) {
+	.overlay-controls .category-header {
+	    font-size: 2em;
+    	padding: 4px 0 0;
+	}
+	.overlay-controls .category-header:before {
+		margin-right: 10px;
+	}
+	.overlay-controls .category-header:after {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+    .overlay-controls .back {
+		padding-left: 28px;
+		padding-right: 22px;
+	}
+
+	.overlay-controls .back:before {
+		margin-right: 8px;
+	}
+
+	.overlay-controls .back:before {
+		display: inline-block;
+		float: left;
+	}
+
+	.overlay-controls .category {
+		padding-right: 10px;
+		padding-left: 2px;
+	}
+
+	.overlay-controls .category:before {
+		display: inline-block;
+		float: right;
+		margin-left: 8px;
+	}
+
+	.overlay-control span {
+		line-height: 1;
+		text-transform: uppercase;
+		font-family: 'Trade Gothic Next W01';
+		font-size: .5em;
+		display: inline-block;
+		float: left;
+		margin: 4px 0 0 0;
+	}
+
+	.overlay-controls .category span {
+		margin: 6px 0 0 0;
+	}
+}
+
+@media only screen and (min-width: 680px) {
+
+}
+
+@media only screen and (min-width: 720px) {
+    .overlay-controls .category-header {
+	    font-size: 2em;
+    	padding: 3px 0 0;
+	}
+	.overlay-controls {
+	    padding: 17px 0;
+	}
+}
+
+@media only screen and (min-width: 860px) {
+    .overlay-wrapper {
+	    max-width: 860px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+    .overlay-controls {
+	    padding: 19px 0;
+	    font-size: 1.2em;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.overlay-controls .back {
+		padding-left: 24px;
+	}
+
+	.overlay-controls .back:before {
+		display: inline-block;
+		float: left;
+	}
+
+	.overlay-controls .category {
+		padding-right: 24px;
+	}
+
+	.overlay-controls .category:before {
+		display: inline-block;
+		float: right;
+		margin-left: 8px;
+	}
+
+	.overlay-control span {
+		line-height: 1;
+		text-transform: uppercase;
+		font-family: 'Trade Gothic Next W01';
+		font-size: .5em;
+		display: inline-block;
+		float: left;
+		margin: 4px 0 0 0;
+	}
+
+	.overlay-controls .category span {
+		margin: 6px 0 0 0;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 1140px) {
+
+}
+
+@media only screen and (min-width: 1260px) {
+	.overlay-controls .category-header {
+	    font-size: 2.3em;
+    	padding: 1px 0 0;
+	}
+	.overlay-controls {
+	    padding: 22px 0;
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+	.overlay-controls .back {
+		padding-left: 36px;
+	}
+
+	.overlay-controls .category {
+		padding-right: 36px;
+	}		
+}
