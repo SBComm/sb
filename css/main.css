@@ -1553,6 +1553,35 @@ body {
         padding: 0 0 0 9px;
     }
 
+    .fa-search,
+    .fa-search-before:before {
+        content: "\f002";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        font-size: .9em;
+        padding: 0 9px 0 0;
+    }
+
+    .fa-times,
+    .fa-times-before:before {
+        content: "\f00d";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        font-size: 1em;
+    }
+
     @media only screen and (min-width: 560px) {
         .link-boxes-container a {
             height: 100px;
@@ -2128,7 +2157,6 @@ body {
     .sbu-button,
     a.sbu-button {
         display: inline-block;
-        position: relative;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -2147,6 +2175,7 @@ body {
         border: 1px solid #800;
         color: #fff !important;
         margin: 0 10px 5px 0;
+        position: relative;
     }
     .sbu-button:hover,
     a.sbu-button:hover {
@@ -3986,6 +4015,38 @@ footer.site-footer .social .small-button:after {
 
 @media only screen and (max-width: 1021px) {
     .hide-accessible-mobile {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .hide-accessible-770,
+    .hide-accessible-tablesaw {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .hide-accessible-mobile-770,
+    .hide-accessible-mobile-tablesaw {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+}
+
+@media only screen and (min-width: 1022px) {
+    .hide-accessible-desktop {
         position: absolute !important;
         top: -99999px !important;
         left: -99999px !important;

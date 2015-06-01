@@ -115,7 +115,12 @@
 
     $admissions_program_detail = false;
 
-    $tablesaw = true;
+    $tablesaw     = true;
+    $faculty_list = true;
+
+    $live_filter_sticky = false;
+
+    $overlay = false;
 
     /* Display Configurations, Default Highlights */
 
@@ -129,7 +134,7 @@
                                         //1 For students                2 Faculty and Staff
                                         //3 Alumni and Friencs          4 Parents
                                         //5 Neighbors                   6 Economic Development
-    $sub_nav_selected_tab       = 0;     
+    $sub_nav_selected_tab       = 0;
 
     /* Default Scroll Controls */
     $page_scroll        = false;

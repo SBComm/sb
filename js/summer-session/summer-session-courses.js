@@ -1,11 +1,3 @@
-function hasFlexbox() {
-	return ($('html').hasClass('flexbox'));
-}
-
-function hasNoFlexbox() {
-	return ($('html').hasClass('no-flexbox'));
-}
-
 function setContainerHeight(numColumns) {
 	var $containerEl = 	$('#department_list');
 	var itemHeight = 	$containerEl.find('li:first-child').height();

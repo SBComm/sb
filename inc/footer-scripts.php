@@ -175,23 +175,14 @@
 
 			    $('#totop').on('click',function(event) {
 					<?php if($page_to_top_loc=='default') { ?>
-						$('body').scrollTo( '0px', 500, {
-							easing:'easeOutQuad', 
-							axis: 'y'
-						} );
+						var scrollToClass = '0px';
 					<?php } else if($page_to_top_loc=='main-nav') { ?>
-						$('body').scrollTo( '.main-nav-container', 500, {
-							easing:'easeOutQuad', 
-							axis: 'y'
-						} );
+						var scrollToClass = '.main-nav-container';
 					<?php } else { ?>
 						var scrollToClass = '.<?php echo $page_to_top_loc; ?>';
-						console.log(scrollToClass);
-						$('body').scrollTo( scrollToClass, 500, {
-							easing:'easeOutQuad', 
-							axis: 'y'
-						} );
 					<?php } ?>
+
+					scrollToTop(scrollToClass);
 				});
 			});
 		</script>
@@ -307,6 +298,10 @@
 			   	});
 			</script>
         <?php } ?>
+
+        <?php if($page_type=='second-level' && $second_level=='faculty-experts') { ?>
+			<?php includeAsset('js','js/faculty-experts/faculty-experts.js'); ?>
+		<?php } ?>
 
 	   	<?php if($motio==true) { ?>
 		   	<script type="text/javascript">

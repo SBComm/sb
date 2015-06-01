@@ -110,3 +110,15 @@ $('.drop-accordion .tab').on('click',function() {
   }
 
 });
+
+/* Add commas to thousands */
+/* from http://anthonybush.com/projects/jquery_fast_live_filter/demo/ */
+
+function addCommas(num) {
+  num = String(num);
+  var rgx = /(\d+)(\d{3})/;
+  while (rgx.test(num)) {
+    num = num.replace(rgx, '$1' + ',' + '$2');
+  }
+  return num;
+}

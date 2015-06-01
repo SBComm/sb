@@ -84,16 +84,29 @@
             <![endif]-->
         <?php } ?>
 
+        <?php if($faculty_list) {
+            includeAsset('css','css/elements/faculty-list/faculty-list.css','all');
+        } ?>
+
         <?php if($page_to_top_link) {
             includeAsset('css','css/elements/to-top-link/to-top.css','all');
         } ?>
 
         <?php if($text_filter) { ?>
             <?php includeAsset('css','css/elements/filter/text-filter.css','all'); ?>
-            <!--[if lt IE 9]>
-                <link rel="stylesheet" type="text/css" href="css/elements/accordions/accordion-nav-ie8.css" media="all" />
-            <![endif]-->
         <?php } ?>
+
+        <?php if($overlay) {
+            includeAsset('css','plugins/overlay/overlay.css','all');
+        } ?>
+
+        <?php if($page_type=='second-level' && $second_level=='faculty-experts') { ?>
+            <?php includeAsset('css','css/elements/filter/text-filter.css','all'); ?>
+        <?php } ?>
+
+        <?php if($live_filter_sticky) {
+            includeAsset('css','css/elements/filter/live-filter-sticky.css','all');
+        } ?>
 
         <?php if($page_type=='second-level') { ?>
             <?php includeAsset('css','css/second-level.css'); ?>

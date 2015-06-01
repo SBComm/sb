@@ -36,6 +36,35 @@ function clearSearchPositionTimer() {
 	window.clearTimeout(timeoutID);
 }
 
+function toggleAccessible(element) {
+	if(element.hasClass('open')) {
+        element.fadeIn(0,function(){
+	    	element.removeClass('open').fadeOut(200,function() {
+	            element.addClass('hide-accessible').fadeIn(0);
+	        });
+	    });
+    } else {
+        element.fadeOut(0,function(){
+	    	element.removeClass('hide-accessible').addClass('open').fadeIn(350);
+	    });
+    }
+}
+
+function scrollToTop(scrollToClass) {
+	$('body').scrollTo( scrollToClass, 500, {
+		easing:'easeOutQuad', 
+		axis: 'y'
+	} );
+}
+
+function hasFlexbox() {
+	return ($('html').hasClass('flexbox'));
+}
+
+function hasNoFlexbox() {
+	return ($('html').hasClass('no-flexbox'));
+}
+
 /* reset height of .more-nav to prevent padding jump on slideDown() */
 var $moreNav = $('.more-nav');
 //var moreNavHeight = $moreNav.height();
@@ -294,6 +323,29 @@ $(document).ready(function() {
 		    $('body').scrollTo( $triggerEl, 200, {axis: 'y'} );
         }
 
+	});
+
+	// To top trigger
+	// See footer-scripts.js for totop listener
+	
+	$('.to-top-trigger').on('click',function(event) {
+		event.preventDefault();
+		var scrollToClass = '0px';
+		var scrollToTarget = $(this).attr('data-scroll-to-target');
+		console.log(scrollToTarget);
+		if (typeof scrollToTarget != 'undefined') {
+			scrollToClass = scrollToTarget;
+		}
+		scrollToTop(scrollToClass);
+	});
+
+	// Poopstate back triggeer
+	
+	$('.popstate-back-trigger').on('click',function(event) {
+		if(Modernizr.history) {
+			event.preventDefault();
+	    	history.back();
+	    }
 	});
 
 	/* Partial Print */
