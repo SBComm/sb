@@ -13,6 +13,12 @@
     margin: 0 !important;
 }
 
+.white-opac-bkg {
+    background: #fff;
+    background: rgba(255,255,255,.75);
+    padding: 20px;
+}
+
 .carousel-wrapper {
     padding-bottom: 10px;
 }
@@ -27,6 +33,23 @@
 
 #tabbed-nav li a {
     color: #333;
+    padding: 10px 5px;
+}
+
+#tabbed-nav li a img {
+    width: 54px;
+    margin: 0 10px 0 10px;
+}
+
+#tabbed-nav li a:before {
+    content: "";
+    display: none;
+}
+
+#tabbed-nav li a p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 .tabs-wrapper h2,
@@ -38,8 +61,17 @@
     padding: 20px 0 20px;
 }
 
-.tabs-wrapper h2 span,
-.resources-wrapper h2 span {
+section.resources-wrapper {
+    display: block;
+    background-image: url("../../undergraduate-admissions/images/sb-landscape.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 20%;
+    padding-top: 70px;
+    padding: 0 2%;
+}
+
+.tabs-wrapper h2 span {
     display: block;
     margin: 4px 0 0 0;
     font-size: .75em;
@@ -52,7 +84,52 @@
 }
 
 .promo-box-wrapper {
-    margin: 40px 0;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 40px auto;
+    border-radius: 25px;
+    border: 3px solid #900;
+    padding: 20px;
+    background: #fff;
+    background: rgba(255,255,255,.85);
+    font-size: 1em;
+}
+
+.promo-box-wrapper h2 {
+    display: block;
+    margin: 10px 0 20px;
+    font-size: 1.7em;
+    font-family: 'Trade Gothic W01 Light';
+    font-style: normal;
+    color: #595959;
+    text-transform: none;
+    width: 100%;
+    text-align: center;
+    line-height: 1.2em;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #900;
+}
+
+.promo-box-wrapper h2 span {
+    display: block;
+    color: #595959;
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-size: 1em;
+}
+
+.promo-box-wrapper a {
+    font-family:'Trade Gothic W01 Roman';
+    display: block;
+    padding: 5px 0;
+    margin: 3px 0;
+    font-size: 1em;
+}
+
+.promo-box-wrapper a:hover {
+    text-decoration: underline;
 }
 
 .promo-box-wrapper a.police {
@@ -185,14 +262,19 @@
     margin: 0;
 }
 
+.resources-wrapper .disclaimer {
+    margin: 80px auto 60px;
+}
+
 
 @media only screen and (min-width: 480px) {
-
+    .promo-box-wrapper {
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (min-width: 560px) {
-    .tabs-wrapper h2,
-    .resources-wrapper h2 {
+    .tabs-wrapper h2 {
         font-size: 2.8em;
     }
 }
@@ -206,6 +288,38 @@
         font-size: 2.4em;
         margin: 5px 0 10px;
     }
+
+    .promo-box-wrapper {
+        padding: 30px 50px;
+        margin: 80px auto 0;
+    }
+
+    .promo-box-wrapper h2 {
+        font-size: 2.3em;
+    }
+
+    .promo-box-wrapper a {
+        font-size: 1.025em;
+    }
+
+    .resources-wrapper .col {
+        display: inline-block;
+        float: left;
+        width: 33.333%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .resources-wrapper .col a {
+        text-align: left;
+    }
+
+    .resources-wrapper .disclaimer {
+        display: block;
+        margin: 140px auto 80px;
+        padding: 0 50px;
+    }
 }
 
 @media only screen and (min-width: 1022px) {
@@ -213,13 +327,11 @@
         padding-top: 40px;
     }
 
-    .tabs-wrapper h2,
-    .resources-wrapper h2 {
+    .tabs-wrapper h2 {
         font-size: 3.3em;
     }
 
-    .tabs-wrapper h2 span,
-    .resources-wrapper h2 span {
+    .tabs-wrapper h2 span {
         font-size: .7em;
     }
 
@@ -244,10 +356,83 @@
         padding: 15px 0 10px;
     }
 
+    #tabbed-nav {
+        text-align: center;
+        border: 0 none;
+    }
+
+    #tabbed-nav li {
+        border: 0 none !important;
+        width: 23%;
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 1%;
+    }
+
     #tabbed-nav li a {
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: .925em;
+        border: 2px solid #999;
+        border-radius: 25px;
+        font-family: 'TradeGothicW01-BoldCn20 675334';
+        color: #900;
+        font-size: 1.45em;
+        width: 100%;
+        padding: 6px 0;
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #tabbed-nav li a:hover,
+    #tabbed-nav li.selected a {
+        border: 2px solid #800;
+    }
+
+    #tabbed-nav li a img {
+        width: 68px;
+        display: inline-block;
+        float: left;
+        margin: 0 8px;
+    }
+
+    #tabbed-nav li a span {
+        height: 68px;
+        display: inline-block;
+        float: left;
+        max-width: 135px;
+        display: table; 
+    }
+
+    #tabbed-nav li a:hover {
+        border: 2px solid #800;
+    }
+
+    #tabbed-nav li a p {
+        display: table-cell; 
+        vertical-align: middle; 
+        text-align: left; 
+    }
+
+    .content-section-cs .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    .content-section-cs .wrapper .inside-wrapper-cs {
+        width: 1022px;
+        margin: 0 auto;
+        display: block;
+        padding: 0 2.5%;
+    }
+
+    .content-section-cs .wrapper h3 {
+        padding: 15px 0;
+        color: #fff;
+        border-bottom: 0 none;
+        background: #900;
+        margin: 30px 0;
     }
 
 }
