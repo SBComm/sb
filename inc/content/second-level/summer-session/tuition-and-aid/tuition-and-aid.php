@@ -473,7 +473,7 @@
                             <td>0%</td>
                             <td>0%</td>
                             <td>on or before 06/02/15</td>
-                            <td>on or before 07/11/15</td>
+                            <td>on or before 07/10/15</td>
                         </tr>
                         <tr>
                             <td class="red">2nd week </td>
@@ -481,7 +481,7 @@
                             <td>70%</td>
                             <td>100%</td>
                             <td>06/03/15 - 06/09/15</td>
-                            <td>07/12/15 - 07/18/15</td>
+                            <td>07/11/15 - 07/17/15</td>
                         </tr>
                         <tr>
                             <td class="red">3rd week </td>
@@ -489,7 +489,7 @@
                             <td>100%</td>
                             <td>100%</td>
                             <td>effective 06/10/15</td>
-                            <td>effective 7/19/15</td>
+                            <td>effective 7/18/15</td>
                         </tr>
                     </tbody>
                 </table>
