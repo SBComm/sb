@@ -49,6 +49,7 @@
                 <li><a class="clearfix" href="#traffic-safety" data-content-id="5" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/traffic-safety.png" /><span><p>Traffic &amp; Pedestrian Safety</p></span></a></li>
                 <li><a class="clearfix" href="#environmental-health" data-content-id="6" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/environmental-health.png" /><span><p>Environmental Health &amp; Safety</p></span></a></li>
                 <li><a class="clearfix" href="#residential-safety" data-content-id="7" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/residential-safety.png" /><span><p>Residential Safety</p></span></a></li>
+                <li><a class="clearfix" href="#university-police" data-content-id="8" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/university-police.png" /><span><p>University Police</p></span></a></li>
             </ul>
         </div>
     </section>
@@ -323,6 +324,32 @@
                         </div>
                     </div>
                 </li>
+                <li id="university-police" class="university-police clearfix">
+                    <h3><span class="inside-wrapper-cs">University Police</span></h3>
+                    <div class="inside-wrapper-cs">
+                        <div class="content col-two-third">
+                            <h4>In case of emergency, call University Police!</h4>
+                            <ul class="default-bullets">
+                                <li>From a campus phone: <strong>333</strong></li>
+                                <li>Non-campus phones: <strong>631-632-3333</strong></li>
+                            </ul>
+                            <p>The State University of New York at <a class="external-link" href="http://www.stonybrook.edu/police" target="_blank">Stony Brook Police Department</a> is comprised of sworn officers recognized by the State of New York. The University Police Department is an accredited law enforcement agency oriented to serve the needs of our campus community.</p>
+                            <p>The mission of the Stony Brook University Police Department focuses on excellence, to provide leadership through innovation and creativity in a dynamic, diverse, and professional organization. We will strive to create a safe and secure environment by dedicating ourselves to raising the level of preparedness to meet the needs of today and the challenges of tomorrow.</p>
+                            <p><strong>Campus Safety. It's our job, but it's everyone's responsibility.</strong></p>
+
+                        </div>
+                        <div class="content col-one-third">
+                            <h4>Resources &amp; Links</h4>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/police/programs/" target="_blank">UPD Programs</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/" target="_blank">Safety Resources</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/blue_lights.shtml" target="_blank">Blue Light Phones</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/guardian.html" target="_blank">SB Guardian</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/alerts.shtml" target="_blank">SB Alert</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/police/forms.shtml" target="_blank">Forms and Brochures</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/index.shtml" target="_blank">Emergency Management</a></p>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
@@ -348,14 +375,17 @@
                 </a>
             </div>
             <div class="col">
-                <a href="http://www.stonybrook.edu/police/annual-security-report/index.shtml" title="Cleary Act" target="_blank">
-                    <span>Annual Security Report</span>
+                <a href="http://www.stonybrook.edu/sb/safetycomm/" title="Campus Safety Advisory Committee" target="_blank">
+                    <span>Campus Safety Advisory Committee</span>
+                </a>
+                <a href="http://www.stonybrook.edu/diversity/titleix/index.html" title="Title IX" target="_blank">
+                    <span>Title IX</span>
                 </a>
                 <a href="http://www.stonybrook.edu/diversity/" title="Diversity &amp; Affirmative Action" target="_blank">
                     <span>Diversity &amp; Affirmative Action</span>
                 </a>
-                <a href="http://www.stonybrook.edu/diversity/titleix/index.html" title="Title IX" target="_blank">
-                    <span>Title IX</span>
+                <a href="http://www.stonybrook.edu/police/annual-security-report/index.shtml" title="Cleary Act" target="_blank">
+                    <span>Annual Security Report</span>
                 </a>
             </div>
             <div class="col">
@@ -370,9 +400,6 @@
                 </a>
                 <a href="http://studentaffairs.stonybrook.edu/caps/" title="Counseling &amp; Psycological Services" target="_blank">
                     <span>Counseling &amp; Psychological Services</span>
-                </a>
-                <a href="http://www.stonybrook.edu/sb/safetycomm/" title="Campus Safety Advisory Committee" target="_blank">
-                    <span>Campus Safety Advisory Committee</span>
                 </a>
             </div>
         </div>
