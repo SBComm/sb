@@ -100,7 +100,7 @@
                     </div>
                     <div class="content clearfix">
                         <p><em>*Currently on competitive hiatus.</em></p>
-                        <p><strong>Support the Seawolves.</strong> Get in on the action by joining the Spirit of Stony Brook Marching Band, Seawolves Pep Band, Color Guard, Winter Guard, or Drumline. Our, cheer from from the stands from our energetic Red Zone section.</p>
+                        <p><strong>Support the Seawolves.</strong> Get in on the action by joining the Spirit of Stony Brook Marching Band, Seawolves Pep Band, Color Guard, Winter Guard, or Drumline. Or, cheer from from the stands from our energetic Red Zone section.</p>
                         <p><strong>Intramural and Club Sports.</strong> Participate in team and individual sport competitions in flag football, badminton, basketball, volleyball, indoor soccer &amp; outdoor soccer, softball, tennis, whiffleball, and bowling. Take fitness classes in hatha yoga, spinning, kickboxing or hip hop dance! Stony Brook also offers a variety of club sports including equestrian, crew, ice hockey, and rugby.</p>
                     </div>
                 </div>
