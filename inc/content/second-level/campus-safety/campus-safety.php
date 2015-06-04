@@ -186,9 +186,6 @@
                         <div class="content col-one-third">
                             <h4>Resources &amp; Links</h4>
                             <p>
-                                April is Sexual Assault Awareness Month. <a class="nowrap external-link" href="http://studentaffairs.stonybrook.edu/cpo/" target="_blank">Learn more</a>
-                            </p>
-                            <p>
                                 <strong>Sexual Assault Nurse Examiner (SANE) Center at Stony Brook University Hospital</strong><br />
                                 101 Nicolls Rd., Stony Brook, NY 11794<br />
                                 (631) 632-6740
@@ -258,7 +255,6 @@
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/" target="_blank">University Police</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/bicycle-skateboard-safety.shtml" target="_blank">Bicycle/Skateboard Safety</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/safety_videos.shtml" target="_blank">Safety Videos</a></p>
-                            <p><a class="external-link" href="http://fsa.sunysb.edu/serious-about-safety/" target="_blank">Safety Items for purchase</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/sb/trafficsafety/webresources.shtml" target="_blank">National Safety Sites</a></p>
                         </div>
                     </div>
@@ -308,7 +304,7 @@
                         <div class="content col-two-third">
                             <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/res/risk/" title="Contact Campus Res Risk Management" target="_blank">Residential Risk Management</a> is responsible for the coordination and administration of a range of functions that affect the safety and well being of 10,000 students living on campus. The office is responsible for residential campus safety, emergency management, student advocacy, parking, access control, and disability services.</p>
                             <p><strong>Contact Us:</strong> (631) 632-9003</p>
-                            <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/res/risk/whats.shtml" title="Learn more about Risk Management" target="_blank">What Is Risk Management?</a></p>
+                            <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/res/risk/aboutus/whats.shtml" title="Learn more about Risk Management" target="_blank">What Is Risk Management?</a></p>
                             <p>Living on campus is like living in a city, with 10,000 students residing on campus and thousands of individuals taking classes, working at and using the services of the University every day. Safety and security is everyone’s responsibility.</p>
                             <p><a class="external-link" href="http://studentaffairs.stonybrook.edu/res/risk/rsp/rspabout.shtml" title="Learn more about the Residential Safety Program" target="_blank">Learn more about the Residential Safety Program</a></p>
                             <p>For a free escort, dial 2-WALK (9255) from any campus phone, or dial (631) 632-WALK from any other phone.</p>
