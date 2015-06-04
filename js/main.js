@@ -104,25 +104,23 @@ $(document).ready(function() {
 		if(target.length>1) {
 			event.preventDefault();
 		    var hash = target.substring(1); //strip off the #
-		    //console.log(hash);
 		    window.location.hash = "view-"+hash;
 
-		    if($(this).data('trigger-role') == 'show-content') {
+		    console.log($(this).attr('data-trigger-role'));
+
+		    if($(this).attr('data-trigger-role') == 'show-content') {
 		    	$('#tabbed-nav-content li').removeClass('open');
 		    	$(target).addClass('open');
 		    	$('#tabbed-nav li').removeClass('selected');
 		    	$(this).closest('li').addClass('selected');
-		    	if($(this).data('trigger-scope') == 'desktop' && $(window).width()<1022) {
-		    		$('body').scrollTo($(target), 800, {
-				    	axis: 'y'
-				    });
-		    	}
+	    		$('body').scrollTo($(target), 400, {
+			    	axis: 'y'
+			    });
 		    } else {
-		    	$('body').scrollTo($(target), 800, {
+		    	$('body').scrollTo($(target), 400, {
 			    	axis: 'y'
 			    });
 		    }
-
 
 		}
 	});

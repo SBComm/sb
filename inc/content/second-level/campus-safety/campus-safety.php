@@ -42,14 +42,14 @@
         <div class="no-pad-wrapper border-box tabs-wrapper tab-wrapper-cs">
 
             <ul id="tabbed-nav" class="clearfix">
-                <li><a class="clearfix" href="#emergency-management" data-content-id="1" data-trigger-role="show-content" data-trigger-scope="desktop" ><img src="campus-safety/images/icons/emergency-management.png" /><span><p>Emergency Management</p></span></a></li>
-                <li><a class="clearfix" href="#alcohol-drugs" data-content-id="2" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/drugs-and-alcohol.png" /><span><p>Alcohol &amp; Drugs</p></span></a></li>
-                <li><a class="clearfix" href="#mental-health" data-content-id="3" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/mental-health.png" /><span><p>Mental Health</p></span></a></li>
-                <li><a class="clearfix" href="#sexual-violence" data-content-id="4" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/sexual-violence-2.png" /><span><p>Sexual Violence</p></span></a></li>
-                <li><a class="clearfix" href="#traffic-safety" data-content-id="5" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/traffic-safety.png" /><span><p>Traffic &amp; Pedestrian Safety</p></span></a></li>
-                <li><a class="clearfix" href="#environmental-health" data-content-id="6" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/environmental-health.png" /><span><p>Environmental Health &amp; Safety</p></span></a></li>
-                <li><a class="clearfix" href="#residential-safety" data-content-id="7" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/residential-safety.png" /><span><p>Residential Safety</p></span></a></li>
-                <li><a class="clearfix" href="#university-police" data-content-id="8" data-trigger-role="show-content" data-trigger-scope="desktop"><img src="campus-safety/images/icons/university-police.png" /><span><p>University Police</p></span></a></li>
+                <li><a class="clearfix" href="#emergency-management" data-content-id="1" data-trigger-role="show-content"><img src="campus-safety/images/icons/emergency-management.png" /><span><p>Emergency Management</p></span></a></li>
+                <li><a class="clearfix" href="#alcohol-drugs" data-content-id="2" data-trigger-role="show-content"><img src="campus-safety/images/icons/drugs-and-alcohol.png" /><span><p>Alcohol &amp; Drugs</p></span></a></li>
+                <li><a class="clearfix" href="#mental-health" data-content-id="3" data-trigger-role="show-content"><img src="campus-safety/images/icons/mental-health.png" /><span><p>Mental Health</p></span></a></li>
+                <li><a class="clearfix" href="#sexual-violence" data-content-id="4" data-trigger-role="show-content"><img src="campus-safety/images/icons/sexual-violence-2.png" /><span><p>Sexual Violence</p></span></a></li>
+                <li><a class="clearfix" href="#traffic-safety" data-content-id="5" data-trigger-role="show-content"><img src="campus-safety/images/icons/traffic-safety.png" /><span><p>Traffic &amp; Pedestrian Safety</p></span></a></li>
+                <li><a class="clearfix" href="#environmental-health" data-content-id="6" data-trigger-role="show-content"><img src="campus-safety/images/icons/environmental-health.png" /><span><p>Environmental Health &amp; Safety</p></span></a></li>
+                <li><a class="clearfix" href="#residential-safety" data-content-id="7" data-trigger-role="show-content"><img src="campus-safety/images/icons/residential-safety.png" /><span><p>Residential Safety</p></span></a></li>
+                <li><a class="clearfix" href="#university-police" data-content-id="8" data-trigger-role="show-content"><img src="campus-safety/images/icons/university-police.png" /><span><p>University Police</p></span></a></li>
             </ul>
         </div>
     </section>
