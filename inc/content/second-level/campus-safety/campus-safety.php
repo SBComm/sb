@@ -76,13 +76,13 @@
                         <div class="content col-one-third">
                             <h4>Resources &amp; Links</h4>
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/" target="_blank">University Police</a></p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/critical_incident.shtml" target="_blank">Critical Incident Management</a></p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/plan.shtml" target="_blank">Emergency Management Plan</a></p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/procedures.shtml" target="_blank">Emergency Procedures</a></p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/personal_safety.shtml" target="_blank">Personal Safety</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/planning/critical.html" target="_blank">Critical Incident Management</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/planning/plan.html" target="_blank">Emergency Management Plan</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/procedures/evacuation.html" target="_blank">Emergency Procedures</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/safety/personal_safety.html" target="_blank">Personal Safety</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/blue_lights.shtml" target="_blank">Blue Light Phones</a></p>
                             <p><a class="external-link" href="http://sbccert.org/" target="_blank">C-CERT</a></p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/safety_warden.shtml" target="_blank">Safety Warden Program</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/safety/safety_warden.html" target="_blank">Safety Warden Program</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/safety_tips.shtml" target="_blank">Safety Tips</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/sb/safetycomm/" target="_blank">Campus Safety Advisory Committee</a></p>
                         </div>
