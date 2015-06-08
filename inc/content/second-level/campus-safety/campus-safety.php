@@ -62,16 +62,16 @@
                     <h3><span class="inside-wrapper-cs">Emergency Management</span></h3>
                     <div class="inside-wrapper-cs">
                         <div class="content col-two-third">
-                            <p>In order to respond effectively to emergency situations, Stony Brook University maintains an Emergency Management Plan and has created an Emergency Operations Center and an Emergency Management Team. The team is trained to evaluate and respond to major emergency situations using the Incident Command System, ensuring effective management of the people, organizations, and resources on campus.</p>
+                            <p>In order to respond effectively to emergency situations, Stony Brook University's <a class="external-link" href-="http://www.stonybrook.edu/commcms/emergency/" target="_blank">Emergency Management Office</a> maintains an Emergency Management Plan and has created an Emergency Operations Center and an Emergency Management Team. The team is trained to evaluate and respond to major emergency situations using the Incident Command System, ensuring effective management of the people, organizations, and resources on campus.</p>
                             <h4>SB Alert &amp; SB Guardian</h4>
                             <p><strong>SB Alert</strong> is an emergency notification system that alerts the campus community about major emergencies, immediate threats or other emergency situations. The system can send a message to any device you select. Every student and employee should sign up.</p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/alertsindex.html" title="Sign up for SB Alerts" target="_blank">Sign up now for SB Alerts</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/alerts/alerts.html" title="Sign up for SB Alerts" target="_blank">Sign up now for SB Alerts</a></p>
                             <p><strong>SB Guardian</strong> is frequently referred to as a "personal blue light phone" in your pocket. The system can provide a one-touch call to notify University Police.  It also offers a precautionary timer that alerts police if a traveling user does not reach a campus destination by a given time.</p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/guardian.html" title="Learn more about SB Guardian" target="_blank">Learn more about SB Guardian</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/alerts/guardian.html" title="Learn more about SB Guardian" target="_blank">Learn more about SB Guardian</a></p>
                             
                             <h4>To Report an Emergency:</h4>
                             <p>If you become aware of a possible emergency situation, please call University Police at 333 from any campus phone, or dial (631) 632-3333 using a cell phone (for campus emergencies).</p>
-                            <p>Contact the <a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/" title="Contact Emergency Management" target="_blank">Emergency Management Office</a> at (631) 632-3046.</p>
+                            <p>For more information, contact the Emergency Management Office at (631) 632-3046.</p>
                         </div>
                         <div class="content col-one-third">
                             <h4>Resources &amp; Links</h4>
