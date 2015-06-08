@@ -339,10 +339,10 @@
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/programs/" target="_blank">UPD Programs</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/" target="_blank">Safety Resources</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/safety/blue_lights.shtml" target="_blank">Blue Light Phones</a></p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/guardian.html" target="_blank">SB Guardian</a></p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/alerts.shtml" target="_blank">SB Alert</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/alerts/guardian.html" target="_blank">SB Guardian</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/alerts/alerts.html" target="_blank">SB Alert</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/police/forms.shtml" target="_blank">Forms and Brochures</a></p>
-                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/index.shtml" target="_blank">Emergency Management</a></p>
+                            <p><a class="external-link" href="http://www.stonybrook.edu/commcms/emergency/" target="_blank">Emergency Management</a></p>
                         </div>
                     </div>
                 </li>
