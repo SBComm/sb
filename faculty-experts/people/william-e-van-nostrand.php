@@ -8,7 +8,7 @@
     
     <div class="profile clearfix no-pad-wrapper">
         <div class="left-col">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="social-list social-list-desktop">
                 <a href="#" target="_blank"><em class="fa fa-laptop website" target="_blank"></em>Website</a>
                 <a href="#" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>

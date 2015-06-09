@@ -9,6 +9,6 @@
     <div class="profile clearfix no-pad-wrapper">
         <h3>This expert is incognito...</h3>
         <p>It looks like the expert you're looking for can't be found right now.</p>
-        <p>You can try to <a href="#" class="show-search-overlay">search</a> for the expert you're looking for. If you still can't find what you're looking for, <a href="#">contact Media Relations</a>.</p>
+        <p>You can <a href="faculty-experts" class="show-search-overlay">search</a> for an expert or <a href="faculty-experts/results">view all experts</a>. If you still can't find what you're looking for, <a href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php">contact Media Relations</a>.</p>
     </div>
 </section>
