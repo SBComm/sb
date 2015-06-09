@@ -39,8 +39,6 @@
 		    $page_footerbar   = true;
 		    $page_footer      = false;
 
-		    //$audience_nav_selected_tab = 6;
-
 		    $carousel 	      = false;
 		    $carousel_3       = false;
 		    $carousel_4       = false;
