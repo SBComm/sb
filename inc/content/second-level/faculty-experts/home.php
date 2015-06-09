@@ -51,7 +51,7 @@
             <li>
                 <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D.</a>
                 <div class="bio-wrap clearfix">
-                    <img src="faculty-experts/images/profile.jpg" />
+                    <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
                     <div class="bio">
                         <span class="summary-1">Distinguished Chair and Professor, Department of Health; Law, Bioethics and Human Rights</span>
                         <span class="title">Expertise</span>
@@ -63,7 +63,7 @@
             <li>
                 <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D.</a>
                 <div class="bio-wrap clearfix">
-                    <img src="faculty-experts/images/profile.jpg" />
+                    <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
                     <div class="bio">
                         <span class="summary-1">Distinguished Chair and Professor, Department of Health; Law, Bioethics and Human Rights</span>
                         <span class="title">Expertise</span>
@@ -75,7 +75,7 @@
             <li>
                 <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D.</a>
                 <div class="bio-wrap clearfix">
-                    <img src="faculty-experts/images/profile.jpg" />
+                    <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
                     <div class="bio">
                         <span class="summary-1">Distinguished Chair and Professor, Department of Health; Law, Bioethics and Human Rights</span>
                         <span class="title">Expertise</span>
@@ -87,7 +87,7 @@
             <li>
                 <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D.</a>
                 <div class="bio-wrap clearfix">
-                    <img src="faculty-experts/images/profile.jpg" />
+                    <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
                     <div class="bio">
                         <span class="summary-1">Distinguished Chair and Professor, Department of Health; Law, Bioethics and Human Rights</span>
                         <span class="title">Expertise</span>
@@ -99,7 +99,7 @@
             <li>
                 <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D.</a>
                 <div class="bio-wrap clearfix">
-                    <img src="faculty-experts/images/profile.jpg" />
+                    <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
                     <div class="bio">
                         <span class="summary-1">Distinguished Chair and Professor, Department of Health; Law, Bioethics and Human Rights</span>
                         <span class="title">Expertise</span>
@@ -111,7 +111,7 @@
             <li>
                 <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D.</a>
                 <div class="bio-wrap clearfix">
-                    <img src="faculty-experts/images/profile.jpg" />
+                    <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
                     <div class="bio">
                         <span class="summary-1">Distinguished Chair and Professor, Department of Health; Law, Bioethics and Human Rights</span>
                         <span class="title">Expertise</span>

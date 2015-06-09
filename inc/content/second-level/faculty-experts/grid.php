@@ -2,7 +2,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D.</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Health</span>
@@ -15,7 +15,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Adam Smith</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Education</span>
@@ -28,7 +28,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Bob Marley</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Health</span>
@@ -41,7 +41,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Ben Franklin</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Science</span>
@@ -54,7 +54,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D. Long Name</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Anthropology</span>
@@ -67,7 +67,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Short</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Health</span>
@@ -80,7 +80,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D.</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Health</span>
@@ -93,7 +93,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Adam Smith</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Education</span>
@@ -106,7 +106,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Bob Marley</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Health</span>
@@ -119,7 +119,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Ben Franklin</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Science</span>
@@ -132,7 +132,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D. Long Name</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Anthropology</span>
@@ -145,7 +145,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Short</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Health</span>
@@ -158,7 +158,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D.</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Health</span>
@@ -171,7 +171,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Adam Smith</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Education</span>
@@ -184,7 +184,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Bob Marley</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Test</span>
@@ -197,7 +197,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Ben Franklin</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Science</span>
@@ -210,7 +210,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Van Nostrand, Ph.D. Long Name</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Test</span>
@@ -223,7 +223,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Short</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Health</span>
@@ -236,7 +236,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">Bobby M</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Health</span>
@@ -249,7 +249,7 @@
     <li>
         <a href="faculty-experts/profile.php?name=william-e-van-nostrand" class="name clearfix">William E. Guy</a>
         <div class="bio-wrap clearfix">
-            <img src="faculty-experts/images/profile.jpg" />
+            <img src="faculty-experts/images/william-e-van-nostrand.jpg" />
             <div class="bio">
                 <span class="summary-1">Distinguished Chair and Professor</span>
                 <span class="summary-1">Department of Test</span>
