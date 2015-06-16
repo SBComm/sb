@@ -221,6 +221,12 @@
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
+                            <div class="social-other-label-container sbu-text-shadow">Communications <br />(SBU Buzz)</div>
+                            <div class="social-channels-container">
+                                <a href="https://twitter.com/sbubuzz" target="_blank"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </li>
+                        <li class="social-other-item sbu-border-bottom">
                             <div class="social-other-label-container sbu-text-shadow">Commuter Student Services</div>
                             <div class="social-channels-container">
                                 <a href="https://www.facebook.com/sbucss" target="_blank"><i class="fa fa-facebook-square"></i></a>
@@ -248,12 +254,6 @@
                             <div class="social-other-label-container sbu-text-shadow">Emergency Management</div>
                             <div class="social-channels-container">
                                 <a href="https://twitter.com/SBUEM" target="_blank"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </li>
-                        <li class="social-other-item sbu-border-bottom">
-                            <div class="social-other-label-container sbu-text-shadow">External Relations <br />(SBU Buzz)</div>
-                            <div class="social-channels-container">
-                                <a href="https://twitter.com/sbubuzz" target="_blank"><i class="fa fa-twitter"></i></a>
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
