@@ -157,7 +157,7 @@
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
-                            <div class="social-other-label-container sbu-text-shadow">Campus Dining Services</div>
+                            <div class="social-other-label-container sbu-text-shadow">Campus Dining</div>
                             <div class="social-channels-container">
                                 <a href="https://www.facebook.com/SBUDining" target="_blank"><i class="fa fa-facebook-square"></i></a>
                                 <a href="https://twitter.com/SBU_Eats" target="_blank"><i class="fa fa-twitter"></i></a>

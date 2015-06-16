@@ -172,10 +172,10 @@
                 </div>
                 <div class="border-box wrapper clearfix">
                     <div class="content">
-                        <p>At Stony Brook University, we offer exciting and convenient dining choices at a great value. Campus Dining Services offers many reliable and convenient locations within walking distance from key points on campus.</p>
+                        <p>At Stony Brook University, we offer exciting and convenient dining choices at a great value. Campus Dining offers many reliable and convenient locations within walking distance from key points on campus.</p>
                         <p><strong>Residential Dining.</strong> There are four food service locations in the residential quads. If you will be living in Roth Quad or Tabler Quad, the Roth Food Court and Tabler Café are nearby; if you will be living in Roosevelt Quad or Kelly Quad, the West Side Dining Center is right around the corner.</p>
                         <p><strong>Student Activities Center (SAC) Food Court.</strong> Situated in the center of the Academic Mall, you'll find Yogurtmania and Omelet Pan, which offers made-to-order omelets with your choice of fillings for a hearty breakfast. For lunch and dinner, pick from the extensive salad bar, Mulberry Street's New York style pizza and Italian cuisine, Charcoals Grill, Native Spice, and Wrap-it-Up sandwiches and wraps. There are also plenty of Grab-N-Go options for anyone looking for Vegan, Vegetarian, Kosher, and sushi options.</p>
-                        <p class="clearfix"><a class="external-link" href="http://campusdining.org/" target="_blank">Visit Campus Dining for more information.</a></p>
+                        <p class="clearfix"><a class="external-link" href="http://stonybrook.edu/dining/" target="_blank">Visit Campus Dining for more information.</a></p>
                         <img class="clearfix" src="img/student-life/campus-life-eating-inset.jpg" />
                     </div>
                 </div>

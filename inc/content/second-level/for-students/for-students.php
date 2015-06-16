@@ -141,7 +141,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <a href="http://www.campusdining.org/" target="_blank">Campus Dining Services</a>
+                                <a href="http://www.stonybrook.edu/dining/" target="_blank">Campus Dining</a>
                                 <a href="http://www.stonybrook.edu/sb/map/" target="_blank">Campus Maps</a>
                                 <a href="http://studentaffairs.stonybrook.edu/res/index.shtml" target="_blank">Campus Residences</a>
                                 <a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a>
