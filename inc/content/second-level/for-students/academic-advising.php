@@ -81,7 +81,7 @@
                 <h5>Athletics</h5>
                 <p>The Goldstein Family Student-Athlete Development Center provides academic, career, and personal development services for student-athletes. Services such as academic advisement, course selection, NCAA life skills workshops, and tutoring are provided in the Center. An academic advisor is assigned to work with each team.</p>
                 <p><strong>Location:</strong> 175 Sports Complex<br />
-                <strong>Phone: </strong> (631) 632-7327</p>
+                <strong>Phone: </strong> (631) 632-4952</p>
                 <p><a class="external-link" href="http://www.stonybrookathletics.com/school-bio/ston-academics.html" target="_blank">View More Information on Athletics Advising</a></p>
 
                 <h5>EOP/AIM</h5>
