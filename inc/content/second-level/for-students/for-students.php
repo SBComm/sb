@@ -79,6 +79,7 @@
                                 <a href="http://www.stonybrook.edu/registrar/finals.shtml" title="Midterm &amp; Final Exam Schedule" target="_blank">Midterm &amp; Final Exam Schedule</a>
                                 <a href="http://www.stonybrook.edu/registrar/" title="Registrar" target="_blank">Registrar</a>
                                 <a href="http://career.stonybrook.edu/students/connect/zebranet" title="ZebraNet" target="_blank">ZebraNet</a>
+                                <a href="http://studentaffairs.stonybrook.edu/stu/policies.html" title="Policies" target="_blank">Policies</a>
                             </div>
                         </div>
                     </div>
