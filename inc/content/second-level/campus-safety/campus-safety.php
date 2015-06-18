@@ -141,7 +141,7 @@
                             <h4>Contact Us</h4>
                             <p>Two locations:</p>
                             <p><strong>West Campus</strong><br />
-                            <strong>Location:</strong> <a class="external-link" href="http://www.stonybrook.edu/sb/map/newmap.pdf" target="_blank">Student Health Services (second floor)</a><br />
+                            <strong>Location:</strong> <a class="external-link" href="http://www.stonybrook.edu/sb/map/newmap.pdf" target="_blank">Student Health Service (second floor)</a><br />
                             <strong>Phone:</strong> (631) 632-6720<br />
                             <strong>Hours (Spring and Fall):</strong><br />
                             Monday to Friday: 9 a.m. - 5 p.m.</p>
@@ -385,8 +385,8 @@
                 </a>
             </div>
             <div class="col">
-                <a href="http://studentaffairs.stonybrook.edu/shs/" title="Student Health Services" target="_blank">
-                    <span>Student Health Services</span>
+                <a href="http://studentaffairs.stonybrook.edu/shs/" title="Student Health Service" target="_blank">
+                    <span>Student Health Service</span>
                 </a>
                 <a href="http://studentaffairs.stonybrook.edu/dos/" title="Dean of Students" target="_blank">
                     <span>Dean of Students</span>
