@@ -30,14 +30,6 @@
     position: relative;
 }
 
-.faculty-list:hover li {
-	opacity: .8;
-}
-
-.faculty-list:hover li:hover {
-	opacity: 1;
-}
-
 .faculty-list .name {
 	font-family: 'TradeGothicW01-BoldCn20 675334';
 	color: #900;
@@ -183,6 +175,14 @@
 }
 
 @media only screen and (min-width: 960px) {
+
+	.faculty-list:hover li {
+		opacity: .8;
+	}
+
+	.faculty-list:hover li:hover {
+		opacity: 1;
+	}
 
 	.faculty-list .view-link,
 	.faculty-list .view-link:hover {
