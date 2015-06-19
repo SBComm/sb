@@ -751,6 +751,12 @@ span.search-directions {
     margin-bottom: 0;
 }
 
+.profile .center-link {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
 .news-wrapper {
     display: block;
     padding: 0 0 2em;
@@ -1082,6 +1088,10 @@ span.search-directions {
     .profile h3 {
         font-family: 'TradeGothicW01-BoldCn20 675334';
         font-size: 1.1em;
+        text-align: left;
+    }
+
+    .profile .center-link {
         text-align: left;
     }
 

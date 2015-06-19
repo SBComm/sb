@@ -51,10 +51,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Cool</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -81,10 +81,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Education</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -117,10 +117,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Cool</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -146,10 +146,10 @@
             <td>Change; biological pollution; biological climate; climate deforestation</td>
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr><tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Education</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -182,10 +182,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Cool</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -254,10 +254,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Cool</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -284,10 +284,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Education</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -320,10 +320,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Cool</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -349,10 +349,10 @@
             <td>Change; biological pollution; biological climate; climate deforestation</td>
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr><tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Education</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -385,10 +385,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Cool</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -457,10 +457,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Cool</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee-jung">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
@@ -487,10 +487,10 @@
             <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
-            <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Adam E. Van Nostrand, Ph.D.</a></td>
-            <td>Department of Education</td>
-            <td>Tropical climate change; iological invastions; air pollution impacts; btropical deforestation</td>
-            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=william-e-van-nostrand">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
+            <td><a href="faculty-experts/profile.php?name=chang-kee-jung">Chang Kee​ Jung​, Ph.D.</a></td>
+            <td>Department of Physics</td>
+            <td>Physics of Sports; Particle Physics; Antimatter; Neutrinos; Neutrino Oscillations; Proton Decay; T2K Experiment; Super-Kamiokande Experiment; K2K Experiment; ELBNF Experiment</td>
+            <td><a class="view-link fa-arrow-after" href="faculty-experts/profile.php?name=chang-kee​-jung​">View<span class="hide-accessible-tablesaw"> Profile</span></a></td>
         </tr>
         <tr>
             <td><a href="faculty-experts/profile.php?name=william-e-van-nostrand">Bob E. Van Nostrand, Ph.D.</a></td>
