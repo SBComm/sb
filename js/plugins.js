@@ -122,3 +122,12 @@ function addCommas(num) {
   }
   return num;
 }
+
+/* Replace chars */
+/* From http://stackoverflow.com/questions/1144783/replacing-all-occurrences-of-a-string-in-javascript */
+function escapeRegExp(string) {
+  return string.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+}
+function replaceAll(string, find, replace) {
+  return string.replace(new RegExp(escapeRegExp(find), 'g'), replace);
+}

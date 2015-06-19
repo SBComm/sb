@@ -35,7 +35,8 @@ function runSearch(keyword,popState) {
 	evt.which = 13;
 	liveFilterInput.trigger(evt);
 	$('body').scrollTo( $('.faculty-list'), 500, {axis: 'y'} );
-	var theURL = 'faculty-experts/results/?view='+ getViewType() +'&keyword='+ keyword;
+	var newKeyword = replaceAll(keyword, ' ', '+');
+	var theURL = 'faculty-experts/results/?view='+ getViewType() +'&keyword='+ newKeyword;
 	if(Modernizr.history && popState) {
     	history.pushState(null, null, theURL);
     }
@@ -54,9 +55,7 @@ function getKeyword() {
     if(qKeyword===null||qKeyword==='null'||qKeyword===0||qKeyword==='0'||qKeyword==='') {
     	qKeyword = '';
     }
-    qKeyword = qKeyword.replace("+", " ");
-    qKeyword = qKeyword.replace("/", " ");
-    qKeyword = qKeyword.replace("-", " ");
+    qKeyword = replaceAll(qKeyword, '+', ' ');
     return qKeyword;
 }
 
@@ -190,11 +189,17 @@ $(document).ready(function() {
 		$('body').scrollTo( $('.list-experts'), 500, {axis: 'y'} );
 	});
 
+	$('.run-search').on('click',function(e) {
+		e.preventDefault();
+		runSearch($(this).text(),true);
+	});
+
 	//if there is a value for url parameter 'name', use it on people search
     var qKeyword = getKeyword();
 
     if(qKeyword!==null &&qKeyword!==0 &&qKeyword!=='') {
     	$('.initial-search-text').hide();
+    	qKeyword = replaceAll(qKeyword, '+', ' ');
     	liveFilterInput.val(qKeyword);
     	filterWrapper.removeClass('hidden');
 		var evt = jQuery.Event("keydown");

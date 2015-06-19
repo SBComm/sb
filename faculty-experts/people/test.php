@@ -1,14 +1,14 @@
 <section class="clearfix list-experts profile-wrapper">
     <div class="clearfix header-wrapper sticky">
         <div class="no-pad-wrapper">
-            <h2><a class="breadcrumb" href="faculty-experts" title="Home"><em class="fa fa-home icon"></em></a><em class="fa fa-angle-double-right separator icon"></em><a class="breadcrumb" href="faculty-experts/results" title="All Experts"><em class="fa fa-users icon"></em></a><em class="fa fa-angle-double-right separator icon"></em><span class="label">Bob Marley, Ph.D.</span></h2>
+            <h2><a class="breadcrumb" href="faculty-experts" title="Home"><em class="fa fa-home icon"></em></a><em class="fa fa-angle-double-right separator icon"></em><a class="breadcrumb" href="faculty-experts/results" title="All Experts"><em class="fa fa-users icon"></em></a><em class="fa fa-angle-double-right separator icon"></em><span class="label">Ben Franklin, Ph.D.</span></h2>
             <a class="fa-search-before show-search-overlay" href="faculty-experts"><span class="hide-accessible-mobile">Find Experts</span></a>
         </div>
     </div>
     
     <div class="profile clearfix no-pad-wrapper">
         <div class="left-col">
-            <img src="faculty-experts/images/chang-kee​-jung​.png" />
+            <img src="faculty-experts/images/chang-kee-jung.png" />
             <div class="social-list social-list-desktop">
                 <a href="http://superk.physics.sunysb.edu/~alpinist/" target="_blank"><em class="fa fa-laptop website" target="_blank"></em>Website</a>
             </div>

@@ -105,13 +105,22 @@
 	text-transform: uppercase;
 	font-size: 0.9em;
 	line-height: 1em;
-	margin: 12px 0 4px;
+	margin: 20px 0 8px;
 	color: #800;
 }
 
 .faculty-list .bio .summary-2 {
 	font-family:'Trade Gothic Next W01';
 	font-size: 0.95em;
+}
+
+.faculty-list .bio .summary-2 a {
+	color: #333;
+}
+
+.faculty-list .bio .summary-2 a:hover {
+	color: #900;
+	text-decoration: underline;
 }
 
 .faculty-list .view-link,

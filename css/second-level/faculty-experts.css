@@ -385,6 +385,10 @@ p.divider {
     border-bottom: 10px solid #fff;
 }
 
+.faculty-list .tablesaw tbody td:nth-child(3) {
+    line-height: 1.6em;
+}
+
 .faculty-list .tablesaw .view-link {
     margin: 0;
 }
@@ -1060,6 +1064,10 @@ span.search-directions {
         font-size: .85em;
     }
 
+    .profile .social-list a:hover {
+        text-decoration: underline;
+    }
+
     .profile .social-list em {
         margin: 0 6px 0 0;
         display: inline-block;
@@ -1187,7 +1195,27 @@ span.search-directions {
     }
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 768px) {
+    .faculty-list .tablesaw tbody td:first-child {
+        min-width: 200px;
+        padding-right: 3px;
+    }
+
+    .faculty-list .tablesaw tbody td:nth-child(2) {
+        min-width: 140px;
+        padding-right: 3px;
+    }
+
+    .faculty-list .tablesaw tbody tr:hover td:nth-child(3) a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .faculty-list .tablesaw tbody tr:hover td:nth-child(3) a:hover {
+        color: #900;
+        text-decoration: underline;
+    }
+
     .faculty-list .search-text {
         margin: 26px 0 24px;
         font-size: 1.1em;
@@ -1295,6 +1323,16 @@ span.search-directions {
     .profile-nav {
         padding: 2em 0;
     }
+
+    .faculty-list .tablesaw tbody td:first-child {
+        min-width: 235px;
+        padding-right: 3px;
+    }
+
+    .faculty-list .tablesaw tbody td:nth-child(2) {
+        min-width: 200px;
+        padding-right: 3px;
+    }
 }
 
 @media only screen and (min-width: 960px) {
@@ -1356,6 +1394,10 @@ span.search-directions {
     .browse-choices .list-page a {
         width: 33.333%;
         font-size: .95em;
+    }
+
+    .faculty-list .tablesaw .view-link:hover {
+        width: 122px;
     }
 }
 
@@ -1475,7 +1517,8 @@ span.search-directions {
 }
 
 @media only screen and (min-width: 1140px) {
-    .faculty-list .tablesaw .view-link {
+    .faculty-list .tablesaw .view-link,
+    .faculty-list .tablesaw .view-link:hover {
         opacity: 0;
         width: 100px;
     }
