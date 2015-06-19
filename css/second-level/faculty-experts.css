@@ -412,6 +412,11 @@ span.search-directions {
     font-size: .8em;
 }
 
+span.search-directions a,
+a.modify-search-after {
+    line-height: 1.85em;
+}
+
 .toggle-view {
     display: block;
     position: fixed;

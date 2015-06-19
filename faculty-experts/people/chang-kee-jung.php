@@ -23,16 +23,16 @@
             <div class="profile-section clearfix">
                 <h3>Topics of Expertise</h3>
                 <div class="list">
-                    <a href="faculty-experts/results/?keyword=Physics of Sports">Physics of Sports</a>
-                    <a href="faculty-experts/results/?keyword=Particle Physics">Particle Physics</a>
+                    <a href="faculty-experts/results/?keyword=Physics+of+Sports">Physics of Sports</a>
+                    <a href="faculty-experts/results/?keyword=Particle+Physics">Particle Physics</a>
                     <a href="faculty-experts/results/?keyword=Antimatter">Antimatter</a>
                     <a href="faculty-experts/results/?keyword=Neutrinos">Neutrinos</a>
-                    <a href="faculty-experts/results/?keyword=Neutrino Oscillations">Neutrino Oscillations</a>
-                    <a href="faculty-experts/results/?keyword=Proton Decay">Proton Decay</a>
-                    <a href="faculty-experts/results/?keyword=T2K Experiment">T2K Experiment</a>
-                    <a href="faculty-experts/results/?keyword=Super-Kamiokande Experiment">Super-Kamiokande Experiment</a>
-                    <a href="faculty-experts/results/?keyword=K2K Experiment">K2K Experiment</a>
-                    <a href="faculty-experts/results/?keyword=ELBNF Experiment">ELBNF Experiment</a>
+                    <a href="faculty-experts/results/?keyword=Neutrino+Oscillations">Neutrino Oscillations</a>
+                    <a href="faculty-experts/results/?keyword=Proton+Decay">Proton Decay</a>
+                    <a href="faculty-experts/results/?keyword=T2K+Experiment">T2K Experiment</a>
+                    <a href="faculty-experts/results/?keyword=Super-Kamiokande+Experiment">Super-Kamiokande Experiment</a>
+                    <a href="faculty-experts/results/?keyword=K2K+Experiment">K2K Experiment</a>
+                    <a href="faculty-experts/results/?keyword=ELBNF+Experiment">ELBNF Experiment</a>
                 </div>
             </div>
             <div class="profile-section clearfix">

@@ -137,6 +137,10 @@
     background: rgba(118, 54, 54, 0.1);
 }
 
+.faculty-list .is-sticky ~ .tablesaw {
+	margin-top: 118px;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 0px) and (max-width: 959px) {
     
@@ -166,8 +170,13 @@
     }
 }
 
-@media only screen and (min-width: 740px) {
-    
+@media only screen and (min-width: 770px) {
+    .faculty-list .is-sticky ~ .tablesaw {
+		margin-top: 0;
+	}
+	.faculty-list .is-sticky + p.search-text {
+		margin-top: 132px;
+	}
 }
 
 @media only screen and (min-width: 860px) {

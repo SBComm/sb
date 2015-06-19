@@ -23,9 +23,9 @@
             <div class="profile-section clearfix">
                 <h3>Topics of Expertise</h3>
                 <div class="list">
-                    <a href="faculty-experts/results/?keyword=Climate Change">Climate Change</a>
-                    <a href="faculty-experts/results/?keyword=Biological invastions">Biological invastions</a>
-                    <a href="faculty-experts/results/?keyword=Air pollution impacts">Air pollution impacts</a>
+                    <a href="faculty-experts/results/?keyword=Climate+Change">Climate Change</a>
+                    <a href="faculty-experts/results/?keyword=Biological+invasions">Biological invasions</a>
+                    <a href="faculty-experts/results/?keyword=Air+pollution+impacts">Air pollution impacts</a>
                 </div>
             </div>
             <div class="profile-section clearfix">

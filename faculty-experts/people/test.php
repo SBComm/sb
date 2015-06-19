@@ -21,9 +21,9 @@
             <div class="profile-section clearfix">
                 <h3>Topics of Expertise</h3>
                 <div class="list">
-                    <a href="faculty-experts/results/?keyword=Proton Decay">Proton Decay</a>
-                    <a href="faculty-experts/results/?keyword=T2K Experiment">T2K Experiment</a>
-                    <a href="faculty-experts/results/?keyword=Super-Kamiokande Experiment">Super-Kamiokande Experiment</a>
+                    <a href="faculty-experts/results/?keyword=Proton+Decay">Proton Decay</a>
+                    <a href="faculty-experts/results/?keyword=T2K+Experiment">T2K Experiment</a>
+                    <a href="faculty-experts/results/?keyword=Super-Kamiokande+Experiment">Super-Kamiokande Experiment</a>
                 </div>
             </div>
             <div class="profile-section clearfix">
