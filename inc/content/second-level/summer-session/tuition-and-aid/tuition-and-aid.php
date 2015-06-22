@@ -453,7 +453,7 @@
                 </ul>
 
                 <h4>Summer Tuition Refund &amp; Liability Schedule</h4>
-                <p>A student must officially withdraw from Summer Session I or Extended session class(es) by June 2, 2015, to avoid tuition &amp; fee liability.</p>
+                <p>A student must officially withdraw from Summer Session I or Extended session class(es) by June 1, 2015, to avoid tuition &amp; fee liability.</p>
                 <p>A student must officially withdraw from Summer Session II class(es) by July 11, 2015, to avoid tuition &amp; fee liability.</p>
                 <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
                     <thead>
@@ -472,7 +472,7 @@
                             <td>100%</td>
                             <td>0%</td>
                             <td>0%</td>
-                            <td>on or before 06/02/15</td>
+                            <td>on or before 06/01/15</td>
                             <td>on or before 07/10/15</td>
                         </tr>
                         <tr>
@@ -480,7 +480,7 @@
                             <td>30%</td>
                             <td>70%</td>
                             <td>100%</td>
-                            <td>06/03/15 - 06/09/15</td>
+                            <td>06/02/15 - 06/08/15</td>
                             <td>07/11/15 - 07/17/15</td>
                         </tr>
                         <tr>
@@ -488,7 +488,7 @@
                             <td>0%</td>
                             <td>100%</td>
                             <td>100%</td>
-                            <td>effective 06/10/15</td>
+                            <td>effective 06/09/15</td>
                             <td>effective 7/18/15</td>
                         </tr>
                     </tbody>
