@@ -156,11 +156,12 @@
                     <h3><span class="inside-wrapper-cs">Sexual Violence</span></h3>
                     <div class="inside-wrapper-cs">
                         <div class="content col-two-third">
-                            <h4>Student Sexual Misconduct</h4>
+                            <h4>Sexual Misconduct</h4>
                             <p>If you are the victim of sexual violence, you are not alone. Sexual violence happens to people of all genders and sexual orientations. Your safety is our primary concern. The following are suggested steps to take after an incident.</p>
                             <ol class="number">
                                 <li>
-                                    <p><strong>Be Safe.</strong> Go to a safe place and seek immediate support from a trusted friend, family member or university staff member.</p>
+                                    <p><strong>Be Safe.</strong> If you are in immediate danger contact University Police at 333 from a campus phone or 631-632-3333 from a non-campus phone. If you are you are not on campus, contact 911 for your local police.</p>
+                                    <p>Go to a safe place and seek immediate support from a trusted friend, family member or university staff member.</p>
                                 </li>
                                 <li>
                                     <p><strong>Get Medical Help as soon as possible.</strong></p>
@@ -217,6 +218,11 @@
                                 Stony Brook Union, Room 216, Stony Brook, NY 11794<br />
                                 (631) 632-2748<br />
                                 <a class="external-link" href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">View CPO Website</a>
+                            </p>
+                            <p>
+                                <strong>Office of University Community Standards</strong><br />
+                                347 Administration Bldg., Stony Brook, NY 11794<br />
+                                (631) 632-6705<br />
                             </p>
                             <p><a class="external-link" href="http://system.suny.edu/sexual-violence-prevention-workgroup/policies/bill-of-rights/" target="_blank">SUNY Sexual Violence Victim/Survivor Bill of Rights</a></p>
                             <p><a class="external-link" href="http://www.stonybrook.edu/sb/safetycomm/" target="_blank">Campus Safety Advisory Committee</a></p>
