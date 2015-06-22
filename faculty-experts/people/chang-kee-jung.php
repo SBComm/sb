@@ -10,9 +10,9 @@
         <div class="left-col">
             <img src="faculty-experts/images/chang-kee-jung.png" />
             <div class="social-list social-list-desktop">
-                <a href="#" target="_blank"><em class="fa fa-laptop website" target="_blank"></em>Website</a>
-                <a href="#" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
-                <a href="#" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
+                <a href="http://site.com" target="_blank"><em class="fa fa-laptop website" target="_blank"></em>Website</a>
+                <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
+                <a href="https://www.linkedin.com/in/palmerijosh" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
             </div>
         </div>
         <div class="right-col">
@@ -59,9 +59,9 @@
             <div class="profile-section clearfix social-list-mobile">
                 <h3>Social</h3>
                 <div class="social-list">
-                    <a href="#" target="_blank"><em class="fa fa-laptop website" target="_blank"></em></a>
-                    <a href="#" target="_blank"><em class="fa fa-twitter twitter-blue" target="_blank"></em></a>
-                    <a href="#" target="_blank"><em class="fa fa-linkedin linkedin-blue" target="_blank"></em></a>
+                    <a href="http://site.com" target="_blank"><em class="fa fa-laptop website" target="_blank"></em>Website</a>
+                    <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
+                    <a href="https://www.linkedin.com/in/palmerijosh" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
                 </div>
             </div>
             <div class="profile-section clearfix">
