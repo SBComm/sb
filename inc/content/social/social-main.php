@@ -237,7 +237,7 @@
                             <div class="social-other-label-container sbu-text-shadow">Computer Science</div>
                             <div class="social-channels-container">
                                 <a href="https://www.facebook.com/sbucompsc" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                                <a href="https://twitter.com/sbuem" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://twitter.com/sbucompsc" target="_blank"><i class="fa fa-twitter"></i></a>
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
