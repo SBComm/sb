@@ -1283,8 +1283,6 @@ body {
         font-family: 'Trade Gothic W01 Bold 2';
     }
 
-
-
     table.light-grey-table {
         background: #eee;
         margin: 0 0 20px .5%;
@@ -1312,6 +1310,10 @@ body {
 
     table.light-grey-table tbody tr:nth-child(even) {
         background: #f0f0f0;
+    }
+
+    table.light-grey-table tbody tr:nth-child(odd) {
+        background: #e3e3e3;
     }
 
     table.responsive-flip {
@@ -4210,7 +4212,4 @@ footer.site-footer .social .small-button:after {
 
 .partial-print-trigger:hover {
     color: #900;
-}
-table.light-grey-table tbody tr:nth-child(odd) {
-    background: #e3e3e3;
 }
