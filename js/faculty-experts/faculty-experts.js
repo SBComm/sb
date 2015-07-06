@@ -138,7 +138,9 @@ $(document).ready(function() {
 		e.preventDefault();
 		toggleAccessible(expertsSearchOverlay);
 		if($(this).hasClass('show-search-overlay')) {
-			$('.search-form input').focus();
+			if($(window).width()>=960) {
+				$('.search-form input').focus();
+			}
 		} else {
 			$('body').scrollTo( $('.list-experts'), 300, {axis: 'y'} );
 		}
