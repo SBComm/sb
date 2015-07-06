@@ -22,6 +22,7 @@ $(window).load(function() {
 var expertsSearchOverlay = $('.search-experts-inside');
 
 function runSearch(keyword,popState) {
+	alert('runSearch: ' + keyword);
 	var liveFilterInput = $('.faculty-list .text-filter');
 	var searchFormInput = $('.search-form input');
 	var filterWrapper   = $('.filter-wrapper');
