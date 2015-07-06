@@ -83,9 +83,7 @@
                     <li>The first commercially successful bar code reader</li>
                     <li>A new species of mouse lemur Microcebus mittermeieri</li>
                 </ul>
-
             </div>
-            <a class="check-button apply-button" href="undergraduate-admissions/apply/international/application-procedures"><span>Apply Now</span></a>
         </div>
     </section>
 
