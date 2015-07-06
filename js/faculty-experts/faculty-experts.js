@@ -22,7 +22,6 @@ $(window).load(function() {
 var expertsSearchOverlay = $('.search-experts-inside');
 
 function runSearch(keyword,popState) {
-	alert('runSearch: ' + keyword);
 	var liveFilterInput = $('.faculty-list .text-filter');
 	var searchFormInput = $('.search-form input');
 	var filterWrapper   = $('.filter-wrapper');
@@ -62,7 +61,11 @@ function getKeyword() {
 
 if(Modernizr.history) {
 	window.addEventListener("popstate", function(e) {
-		runSearch(getKeyword(),false);
+		if(qKeyword===null||qKeyword==='null'||qKeyword===0||qKeyword==='0'||qKeyword==='') {
+
+		} else {
+			runSearch(getKeyword(),false);
+		}
 	});
 }
 
