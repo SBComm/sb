@@ -19,7 +19,7 @@
     <section class="clearfix list-experts">
         <div class="clearfix header-wrapper">
             <div class="no-pad-wrapper">
-                <h2><a href="faculty-experts" title="Home"><em class="fa fa-home icon"></em></a><em class="fa fa-angle-double-right separator icon"></em><span class="label">Faculty Experts</span></h2>
+                <h2><a class="breadcrumb" href="faculty-experts" title="Home"><em class="fa fa-home icon"></em></a><em class="fa fa-angle-double-right separator icon"></em><a class="header-label" href="faculty-experts/results" class="label">Faculty Experts</a></h2>
                 <a class="fa-search-before show-search-overlay" href="faculty-experts">Search<span class="hide-accessible-mobile"> Experts</span></a>
             </div>
         </div>

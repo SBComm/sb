@@ -944,3 +944,12 @@ FileETag None
     RewriteEngine On
     RewriteRule ^summer-session/courses/courses/search$ summer-session/courses/courses/search.php$1
 </IfModule>
+
+
+# ----------------------------------------------------------------------
+# | Stony Brook Faculty Experts Directory                              |
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^faculty-experts/([a-zA-Z0-9\-]+)$ faculty-experts/profile.php?name=$1
+</IfModule>

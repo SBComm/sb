@@ -335,6 +335,12 @@ p.divider {
     font-family:'Trade Gothic Next W01';
 }
 
+.header-wrapper a.header-label {
+    padding: 0 3px;
+    margin: 0 0 0 3px;
+    border-radius: 2px;
+}
+
 .header-wrapper a:hover {
     background: #a00;
 }
@@ -531,7 +537,7 @@ a.modify-search-after {
     float: left;
 }
 
-.header-wrapper h2 a {
+.header-wrapper h2 .breadcrumb {
     display: inline-block;
     padding: 4px 0 3px;
     text-align: center;
@@ -920,10 +926,6 @@ a.modify-search-after {
         margin: 4px 10px 0 0;
     }
 
-    .header-wrapper h2 a {
-        padding: 6px 0 3px;
-    }
-
     .browse-choices {
         font-size: 1.2em;
     }
@@ -962,7 +964,10 @@ a.modify-search-after {
     .profile-nav {
         font-size: 1.2em;
     }
-}
+
+.header-wrapper h2 .breadcrumb {
+    padding: 6px 0 3px;
+}}
 
 @media only screen and (min-width: 540px) {
     .splash-header h1 {
