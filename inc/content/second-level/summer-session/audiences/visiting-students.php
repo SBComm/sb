@@ -26,7 +26,7 @@
                         <li>Allow (3-5) business days for processing. You will be sent a <strong>Stony Brook ID Number and registration instructions</strong>.</li>
                         <li>Register for courses in the <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR System</a>. <em>If you need help registering for courses in SOLAR, <a href="https://www.youtube.com/watch?v=sgnX_p5BNg0" target="_blank" class="external-link">view a tutorial</a>.</em></li>
                     </ol>
-                    <a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Apply Now</a>
+                    <!--<a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Apply Now</a>-->
                 </div>
                 <p><strong>* Visiting International Students</strong> should apply through <a href="http://www.stonybrook.edu/commcms/studyabroad/incoming/summer" target="_blank" class="external-link">IAP</a>.</p>
             </div>

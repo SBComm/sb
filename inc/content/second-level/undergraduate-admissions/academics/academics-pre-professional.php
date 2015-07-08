@@ -43,6 +43,7 @@
                     <li>German</li>
                     <li>Italian</li>
                     <li>Japanese</li>
+                    <li>Korean</li>
                     <li>Mathematics</li>
                     <li>Physics</li>
                     <li>Social Studies</li>
