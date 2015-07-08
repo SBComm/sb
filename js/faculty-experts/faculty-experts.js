@@ -200,6 +200,10 @@ $(document).ready(function() {
 		runSearch($(this).text(),true);
 	});
 
+	if($('.faculty-name-container').length) {
+		$('.faculty-name-container').text($('.faculty-name').text());
+	}
+
 	//if there is a value for url parameter 'name', use it on people search
     var qKeyword = getKeyword();
 

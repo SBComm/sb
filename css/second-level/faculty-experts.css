@@ -12,11 +12,35 @@
     padding: 10% 0 14%;
 }
 
+.splash-header.splash-header-faculty {
+    background: url("../../img/misc/faculty-mobile-rays.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 100% 70%;
+    background-attachment: fixed;
+    padding: 10% 0 14%;
+}
+
 .splash-header img {
     display: block;
     width: 100px;
     padding: 0 10px 0 0;
     margin: 0 auto;
+}
+
+.splash-header .fa {
+    display: block;
+    margin: 0 auto;
+    font-size: 4em;
+    padding: 0;
+    text-align: center;
+}
+
+.splash-header-inside .fa {
+    display: inline-block;
+    float: left;
+    font-size: 3em;
+    margin: 14px 10px 0 0;
 }
 
 .splash-header h1 {
@@ -32,6 +56,10 @@
     line-height: 1;
     text-shadow: 0 0 10px #213836;
     font-size: 3.3em;
+}
+
+.splash-header-faculty h1 {
+    margin: 0 0 20px;
 }
 
 .splash-header strong {
@@ -52,6 +80,16 @@
 .splash-header span {
     display: block;
     font-family:'TradeGothicW01-BoldExte';
+}
+
+.splash-header.splash-header-faculty em,
+.splash-header.splash-header-faculty span {
+    color: #fff;
+}
+
+.splash-header.splash-header-faculty span {
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-size: 1.075em;
 }
 
 .splash-header p {
@@ -76,6 +114,7 @@ a.splash-wrapper h1 {
 }
 
 .splash-header-inside img,
+.splash-header-inside .fa,
 .splash-header-inside h1 {
     display: inline-block;
     float: left;
@@ -124,12 +163,13 @@ a.splash-wrapper h1 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-.search-experts form {
     margin: 0 0 2.7em;
     position: relative;
     display: block;
+}
+
+.search-experts.search-faculty form {
+    margin-top: 2.3em;
 }
 
 .search-experts input[type="text"] {
@@ -579,7 +619,7 @@ a.modify-search-after {
 
 .profile-wrapper .breadcrumb,
 .profile-wrapper .separator {
-    display: none;
+    
 }
 
 .profile {
@@ -677,6 +717,15 @@ a.modify-search-after {
 
 .profile .social-list .website{
     color: #333;
+}
+
+.profile .name-1 {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-size: 1.15em;
+    text-transform: none;
+    color: #444;
+    display: block;
+    margin: 0 0 7px;
 }
 
 .profile .summary {
@@ -914,6 +963,14 @@ a.modify-search-after {
         padding: 4% 0 14%;
     }
 
+    .splash-header.splash-header-faculty {
+        background: url("../../img/misc/faculty-large-rays-alt.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 100% 70%;
+        padding: 7% 0 10%;
+    }
+
     .splash-header-inside {
         text-align: center;
         padding: 4% 0 11%;
@@ -924,6 +981,14 @@ a.modify-search-after {
         font-size: 2em;
         line-height: 1;
         margin: 4px 10px 0 0;
+    }
+
+    .splash-header .fa {
+        font-size: 4.6em;
+    }
+
+    .splash-header-inside .fa {
+        font-size: 3.4em;
     }
 
     .browse-choices {
@@ -1005,6 +1070,10 @@ a.modify-search-after {
         margin: 0 0 3.6em;
     }
 
+    .search-experts.search-faculty form {
+        margin-top: 3.2em;
+    }
+
     .profile .summary {
         font-size: 1.1em;
     }
@@ -1052,6 +1121,11 @@ a.modify-search-after {
         float: left;
         width: 55%;
         margin-right: 1%;
+    }
+
+    .profile .name-1 {
+        font-size: 1.25em;
+        margin: 0 0 12px;
     }
 
     .profile .social-list-desktop {
@@ -1183,6 +1257,15 @@ a.modify-search-after {
 
     .splash-header-inside img {
         width: 75px;
+    }
+
+    .splash-header .fa {
+        font-size: 5.1em;
+    }
+
+    .splash-header-inside .fa {
+        font-size: 5.1em;
+        margin: 20px 12px 0 0;
     }
 
     .splash-header-inside h1 {
@@ -1421,8 +1504,20 @@ a.modify-search-after {
         margin: 6px 0 0;
     }
 
-    .splash-header img {
+    .splash-header img,
+    .splash-header-inside .fa {
         width: 151px;
+    }
+
+    .splash-header .fa {
+        width: 151px;
+        font-size: 8em;
+    }
+
+    .splash-header-inside .fa {
+        width: 151px;
+        font-size: 8em;
+        margin: 26px 0 0 0;
     }
 
     .splash-header p {
@@ -1544,6 +1639,13 @@ a.modify-search-after {
         background-size: 2800px;
         background-position: 0% 100%;
         padding: 20px 0 110px;
+    }
+
+    .splash-header.splash-header-faculty {
+        background-size: 100%;
+        background-size: cover;
+        background-position: 100% 10%;
+        padding: 60px 0 85px;
     }
 }
 

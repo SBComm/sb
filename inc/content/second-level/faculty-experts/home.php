@@ -49,5 +49,4 @@
         <p>Looking to get in touch with an expert?</p>
         <a class="sbu-button view-all-button fa-arrow-after" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank">Contact Us</a>
     </section>
-
 </article>

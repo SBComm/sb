@@ -951,5 +951,8 @@ FileETag None
 # ----------------------------------------------------------------------
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule ^faculty-experts/([a-zA-Z0-9\-]+)$ faculty-experts/profile.php?name=$1
+    RewriteRule ^faculty-experts/profile$ faculty-experts/results
+    RewriteRule ^faculty-experts/profile/([a-zA-Z0-9\-]+)$ faculty-experts/profile.php?name=$1
+    RewriteRule ^faculty-directory/profile$ faculty-directory/results
+    RewriteRule ^faculty-directory/profile/([a-zA-Z0-9\-]+)$ faculty-directory/profile.php?name=$1
 </IfModule>
