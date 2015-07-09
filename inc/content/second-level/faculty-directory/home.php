@@ -5,8 +5,9 @@
             <h1><strong>Stony Brook</strong> <em>Faculty</em> <span>Directory</span></h1>
         </a>
     </section>
-    <section class="clearfix search-experts search-faculty">
+    <section class="clearfix search-experts">
         <div class="no-pad-wrapper">
+            <p>Find Faculty at Stony Brook University.</p>
             <form class="search-list-page" action="faculty-directory/results/" method="get">
                 <div class="input-wrap">
                     <input type="hidden" name="view" value="grid" />
@@ -18,7 +19,6 @@
     </section>
     <section class="clearfix browse-choices">
         <div class="no-pad-wrapper">
-            <h3>Browse Faculty at Stony Brook</h3>
             <div class="list browse-list">
                 <a class="fa-arrow-after" href="faculty-directory/departments">View list of departments</a>
                 <a class="fa-arrow-after" href="faculty-directory/results/">View all faculty</a>
