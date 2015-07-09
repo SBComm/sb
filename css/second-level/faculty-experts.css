@@ -600,6 +600,12 @@ a.modify-search-after {
     font-size: .75em;
 }
 
+.header-wrapper h2 .icon.fa-user {
+    font-size: 0.8em;
+    margin: 4px 0 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .header-wrapper h2 a:hover .icon {
     color: #fff;
 }

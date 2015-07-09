@@ -201,7 +201,11 @@ $(document).ready(function() {
 	});
 
 	if($('.faculty-name-container').length) {
-		$('.faculty-name-container').text($('.faculty-name').text());
+		if($(window).width()>=640) {
+			$('.faculty-name-container').text($('.faculty-name').text());
+		} else {
+			$('.faculty-name-container').html('<em class="fa fa-user icon"></em>');
+		}
 	}
 
 	//if there is a value for url parameter 'name', use it on people search
