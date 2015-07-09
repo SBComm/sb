@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="profile-section clearfix social-list-mobile">
-            <h3>Social</h3>
+            <h3>Connect On...</h3>
             <div class="social-list">
                 <a href="#" target="_blank"><em class="fa fa-laptop website" target="_blank"></em></a>
                 <a href="#" target="_blank"><em class="fa fa-twitter twitter-blue" target="_blank"></em></a>

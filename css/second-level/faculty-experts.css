@@ -38,7 +38,7 @@
 .splash-header-inside .fa {
     display: inline-block;
     float: left;
-    font-size: 3em;
+    font-size: 3.7em;
     margin: 14px 10px 0 0;
 }
 
@@ -126,7 +126,7 @@ a.splash-wrapper h1 {
 
 .splash-header-inside h1 {
     width: auto;
-    font-size: 1.8em;
+    font-size: 2.1em;
     line-height: 1;
     margin: 4px 10px 0 0;
 }
@@ -354,7 +354,7 @@ p.divider {
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.6em;
     float: left;
     width: auto;
     padding: 10px 5px 10px 8px;
@@ -369,7 +369,7 @@ p.divider {
     float: right;
     width: auto;
     color: #fff;
-    padding: 11px 8px 12px 13px;
+    padding: 13px 6px 17px 15px;
     font-size: 1em;
     font-family:'Trade Gothic Next W01';
 }
@@ -634,11 +634,11 @@ a.modify-search-after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: .95em;
+    font-size: 1em;
 }
 
 .profile .left-col {
-    width: 44%;
+    width: 38%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -726,7 +726,7 @@ a.modify-search-after {
 
 .profile .name-1 {
     font-family: 'TradeGothicW01-BoldCn20 675334';
-    font-size: 1.15em;
+    font-size: 1.35em;
     text-transform: none;
     color: #444;
     display: block;
@@ -762,7 +762,7 @@ a.modify-search-after {
 
 .profile h3 {
     font-family: 'TradeGothicW01-BoldCn20 675334';
-    font-size: 1em;
+    font-size: 1.3em;
     display: block;
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -973,7 +973,7 @@ a.modify-search-after {
         background-size: 100%;
         background-size: cover;
         background-position: 100% 70%;
-        padding: 7% 0 10%;
+        padding: 9% 0 12%;
     }
 
     .splash-header-inside {
@@ -983,7 +983,7 @@ a.modify-search-after {
     }
 
     .splash-header-inside h1 {
-        font-size: 2em;
+        font-size: 2.5em;
         line-height: 1;
         margin: 4px 10px 0 0;
     }
@@ -993,7 +993,7 @@ a.modify-search-after {
     }
 
     .splash-header-inside .fa {
-        font-size: 3.4em;
+        font-size: 4.5em;
     }
 
     .browse-choices {
@@ -1035,9 +1035,11 @@ a.modify-search-after {
         font-size: 1.2em;
     }
 
-.header-wrapper h2 .breadcrumb {
-    padding: 6px 0 3px;
-}}
+    .header-wrapper h2 .breadcrumb {
+        padding: 6px 0 3px;
+    }
+
+}
 
 @media only screen and (min-width: 540px) {
     .splash-header h1 {
@@ -1053,13 +1055,17 @@ a.modify-search-after {
     }
 
     .splash-header-inside h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .splash-header-inside img {
         width: 48px;
         margin: 0;
     }
+
+    .splash-header-inside .fa {
+        font-size: 4.5em;
+    }   
 
     .search-experts p {
         display: block;
