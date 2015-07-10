@@ -13,7 +13,7 @@
 }
 
 .splash-header.splash-header-faculty {
-    background: url("../../img/misc/faculty-mobile-rays.jpg");
+    background: url("../../img/misc/faculty-large-rays.jpg");
     background-size: 100%;
     background-size: cover;
     background-position: 100% 70%;
@@ -324,6 +324,13 @@ p.divider {
 .list-experts {
     font-family:'Trade Gothic Next W01';
     position: relative;
+}
+
+.featured-experts strong,
+.list-experts strong {
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal;
+    color: #333;
 }
 
 .featured-experts {
@@ -759,6 +766,13 @@ a.modify-search-after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.profile-section.contact-info .icon {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    color: #111;
 }
 
 .profile h3 {

@@ -10,8 +10,20 @@
     <div class="right-col">
         <div class="summary clearfix">
             <span class="name-1 faculty-name">William E. Van Nostrand, Ph.D.</span>
-            <span class="summary-1">Distinguished Chair and Professor</span>
+            <span class="summary-1">Professor of Biology and Sciences</span>
             <span class="summary-1">Department of Health</span>
+        </div>
+        <div class="profile-section contact-info clearfix">
+            <h3>Contact Information</h3>
+            <p><em class="fa fa-institution icon" target="_blank"></em> <span>184C Chancelors Hall</span>
+             </p>
+            <p><em class="fa fa-map-marker icon" target="_blank"></em> <span>Southampton, NY 11794-8712</span>
+             </p>
+            <p><em class="fa fa-clock-o icon" target="_blank"></em> <span>MWF 10:00am - 12:00pm</span>
+             </p>
+            <p><em class="fa fa-phone icon" target="_blank"></em> <span>(631) 632-8989</span>
+             </p>
+            <p><a class="email-link-hover" href="mailto:Last.First@stonybrook.edu"><em class="fa fa-envelope icon" target="_blank"></em> Last.First@stonybrook.edu</a></p>
         </div>
         <div class="profile-section clearfix">
             <h3>Topics of Expertise</h3>
