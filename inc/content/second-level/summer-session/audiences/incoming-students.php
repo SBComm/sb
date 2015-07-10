@@ -20,7 +20,7 @@
                     <li><strong>We’ll support you with specialized academic advising resources</strong></li>
                     <li><strong>Summer classes at Stony Brook are very affordable</strong></li>
                 </ul>
-                <div class="grey-box-1 clearfix">
+                <!--<div class="grey-box-1 clearfix">
                     <h4>Steps to Enroll</h4>
                     <ol class="number large-number">
                         <li>Make your course selection and credits. Only select introductory (100-level) courses are open to incoming freshmen.</li>
@@ -28,8 +28,8 @@
                         <li>Your selection will also be reviewed by a member of our advising staff to ensure that your class is applicable to your degree requirements.</li>
                         <li>You will be term activated for summer and can enroll through <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR</a>.</li>
                     </ol>
-                    <!--<a href="http://www.stonybrook.edu/commcms/studyabroad/outgoing/programs/index">Register Now</a>-->
-                </div>
+                    <a href="http://www.stonybrook.edu/commcms/studyabroad/outgoing/programs/index">Register Now</a>
+                </div>-->
             </div>
         </div>
     </section>

@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="content">
-                <div class="grey-box-1 clearfix">
+                <!--<div class="grey-box-1 clearfix">
                     <h4>Steps to Enroll</h4>
                     <ol class="number large-number">
                         <li>Make your course selection and credits.</li>
@@ -89,7 +89,7 @@
                         <li>When you have completed your course work, you can order an <a href="http://www.stonybrook.edu/registrar/transcripts-howto.shtml" target="_blank">official transcript</a>.</li>
                     </ol>
                     <a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Apply Now</a>
-                </div> 
+                </div> -->
             </div>
         </div>
         <div class="carousel-wrapper wrapper">
