@@ -111,7 +111,7 @@
 						?>
 		        </div>
 		        <div class="main-container">
-		            <div class="main clearfix">
+		            <div class="main clearfix faculty-experts-page-wrapper">
 
 		                <!-- <profile> -->
 						    <?php

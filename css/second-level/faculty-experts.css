@@ -660,7 +660,7 @@ a.modify-search-after {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 8% 0 0;
-    border: 1px solid #eee;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .profile .right-col {
@@ -766,6 +766,10 @@ a.modify-search-after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.profile-section {
+    overflow-x: auto;
 }
 
 .profile-section.contact-info .icon {
@@ -967,6 +971,13 @@ a.modify-search-after {
     padding: 0 0 10px;
 }
 
+/* hide unappropriate content */
+
+.faculty-directory-page-wrapper .hide-on-faculty-directory,
+.faculty-experts-page-wrapper .hide-on-faculty-experts {
+    display: none !important;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 0px) and (max-width: 1021px) {
     .search-container {
@@ -1141,12 +1152,12 @@ a.modify-search-after {
 
 @media only screen and (min-width: 600px) {
     .profile .left-col {
-        width: 44%;
+        width: 32%;
     }
     .profile .right-col {
         display: inline-block;
         float: left;
-        width: 55%;
+        width: 67%;
         margin-right: 1%;
     }
 
@@ -1301,12 +1312,12 @@ a.modify-search-after {
     }
 
     .profile .left-col {
-        width: 36%;
+        width: 26%;
     }
     .profile .right-col {
         display: inline-block;
         float: left;
-        width: 63%;
+        width: 73%;
         margin-right: 1%;
     }
 

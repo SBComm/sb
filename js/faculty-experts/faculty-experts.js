@@ -110,6 +110,22 @@ $(window).resize(function(){
 
 $(document).ready(function() {
 
+	var theURL = window.location.href;
+	//if URL contains faculty-directory/profile/ or faculty-experts/profile/ hide unappropriate data
+	if ($('.profile').attr('data-faculty-not-found') != 'true') {
+		if(theURL.indexOf('faculty-directory/profile/') > -1) {
+			$('.hide-on-faculty-directory').remove();
+		} else if(theURL.indexOf('faculty-experts/profile/') > -1) {
+			/* if not an expert, redirect to custom 404 */
+			if ($('.profile').attr('data-faculty-type') != 'expert') {
+				var newURL = 'faculty-experts/profile/not-found';
+				window.location = newURL;
+			} else {
+				$('.hide-on-faculty-experts').remove();
+			}
+		}
+	}
+
 	var liveFilterInput = $('.faculty-list .text-filter');
 	var searchFormInput = $('.search-form input');
 	var filterWrapper   = $('.filter-wrapper');

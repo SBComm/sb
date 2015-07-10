@@ -1,6 +1,6 @@
-<div class="profile clearfix no-pad-wrapper" data-faculty-type="expert">
+<div class="profile clearfix no-pad-wrapper" data-faculty-type="default">
     <div class="left-col">
-        <img src="faculty-directory/images/william-e-van-nostrand.jpg" />
+        <img src="faculty-directory/images/chang-kee-jung.png" />
         <div class="social-list social-list-desktop">
             <a href="http://site.com" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
             <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
@@ -9,9 +9,9 @@
     </div>
     <div class="right-col">
         <div class="summary clearfix">
-            <span class="name-1 faculty-name">William E. Van Nostrand, Ph.D.</span>
-            <span class="summary-1">Professor of Biology and Sciences</span>
-            <span class="summary-1">Health</span>
+            <span class="name-1 faculty-name">Chang Kee​ Jung​, Ph.D.</span>
+            <span class="summary-1">Professor of Physics</span>
+            <span class="summary-1">Physics and Astronomy</span>
         </div>
         <div class="profile-section contact-info clearfix fac-contact-info-section hide-on-faculty-experts">
             <h3>Contact Information</h3>

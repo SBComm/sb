@@ -16,7 +16,7 @@
         </div>
         <?php
             if(!@include($root . "/" . $site . "/faculty-directory/people/".$_GET["name"].".php")) {
-                $file = "faculty-directory/default-profile.php";
+                $file = "faculty-experts/default-profile.php";
                 include($path . $content . $secLv . $file);
             }
         ?>

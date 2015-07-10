@@ -1,6 +1,6 @@
 <div class="profile clearfix no-pad-wrapper" data-faculty-type="expert">
     <div class="left-col">
-        <img src="faculty-directory/images/william-e-van-nostrand.jpg" />
+        <img src="faculty-directory/images/chang-kee-jung.png" />
         <div class="social-list social-list-desktop">
             <a href="http://site.com" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
             <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
@@ -9,9 +9,9 @@
     </div>
     <div class="right-col">
         <div class="summary clearfix">
-            <span class="name-1 faculty-name">William E. Van Nostrand, Ph.D.</span>
-            <span class="summary-1">Professor of Biology and Sciences</span>
-            <span class="summary-1">Health</span>
+            <span class="name-1 faculty-name">Chang Kee​ Jung​, Ph.D.</span>
+            <span class="summary-1">Professor of Physics</span>
+            <span class="summary-1">Physics and Astronomy</span>
         </div>
         <div class="profile-section contact-info clearfix fac-contact-info-section hide-on-faculty-experts">
             <h3>Contact Information</h3>
@@ -24,6 +24,21 @@
             <p><em class="fa fa-phone icon"></em> <span>(631) 632-8989</span>
              </p>
             <p><a class="email-link-hover" href="mailto:Last.First@stonybrook.edu" target="_blank"><em class="fa fa-envelope icon"></em> Last.First@stonybrook.edu</a></p>
+        </div>
+        <div class="profile-section clearfix topics-expertise-section hide-on-faculty-directory">
+            <h3>Topics of Expertise</h3>
+            <div class="list">
+                <a href="faculty-experts/results/?keyword=Physics+of+Sports">Physics of Sports</a>
+                <a href="faculty-experts/results/?keyword=Particle+Physics">Particle Physics</a>
+                <a href="faculty-experts/results/?keyword=Antimatter">Antimatter</a>
+                <a href="faculty-experts/results/?keyword=Neutrinos">Neutrinos</a>
+                <a href="faculty-experts/results/?keyword=Neutrino+Oscillations">Neutrino Oscillations</a>
+                <a href="faculty-experts/results/?keyword=Proton+Decay">Proton Decay</a>
+                <a href="faculty-experts/results/?keyword=T2K+Experiment">T2K Experiment</a>
+                <a href="faculty-experts/results/?keyword=Super-Kamiokande+Experiment">Super-Kamiokande Experiment</a>
+                <a href="faculty-experts/results/?keyword=K2K+Experiment">K2K Experiment</a>
+                <a href="faculty-experts/results/?keyword=ELBNF+Experiment">ELBNF Experiment</a>
+            </div>
         </div>
         <div class="profile-section clearfix">
             <h3>Education</h3>
@@ -287,6 +302,10 @@
                 <a href="https://twitter.com/JoshPalmeri" target="_blank" title="View Twitter"><em class="fa fa-twitter" target="_blank"></em></a>
                 <a href="https://www.linkedin.com/in/palmerijosh" target="_blank" title="View LinkedIn"><em class="fa fa-linkedin" target="_blank"></em></a>
             </div>
+        </div>
+        <div class="profile-section clearfix contact-mr-section hide-on-faculty-directory">
+            <h3>Contact Information</h3>
+            <p>To get in touch, <a class="fa-arrow-after" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank">contact Media Relations</a></p>
         </div>
         <div class="profile-section clearfix in-the-media-section">
             <h3 class="red-bar back-dark-red-crossed">In the Media:</h3>
