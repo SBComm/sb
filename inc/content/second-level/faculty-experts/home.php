@@ -40,7 +40,7 @@
             </div>
         </div>
         <?php
-            $file = "faculty-experts/featured-experts.php";
+            $file = "faculty-experts/featured.php";
             include($path . $content . $secLv . $file);
         ?>
         <a class="sbu-button view-all-button fa-arrow-after" href="faculty-experts/results">View all experts</a>

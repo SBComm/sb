@@ -33,7 +33,7 @@
             </div>
         </div>
         <?php
-            $file = "faculty-directory/featured-faculty.php";
+            $file = "faculty-directory/featured.php";
             include($path . $content . $secLv . $file);
         ?>
         <a class="sbu-button view-all-button fa-arrow-after" href="faculty-directory/results">View all faculty</a>
