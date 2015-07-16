@@ -25,17 +25,4 @@
             </div>
         </div>
     </section>
-    <section class="clearfix featured-experts">
-        <div class="clearfix header-wrapper sticky">
-            <div class="no-pad-wrapper">
-                <h2>Featured <span class="hide-accessible-mobile">Faculty </span>Members</h2>
-                <a class="fa-arrow-after" href="faculty-directory/results">View all<span class="hide-accessible-mobile"> faculty</span></a>
-            </div>
-        </div>
-        <?php
-            $file = "faculty-directory/featured.php";
-            include($path . $content . $secLv . $file);
-        ?>
-        <a class="sbu-button view-all-button fa-arrow-after" href="faculty-directory/results">View all faculty</a>
-    </section>
 </article>

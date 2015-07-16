@@ -32,10 +32,8 @@
                 <a href="faculty-experts/results/?keyword=Particle+Physics">Particle Physics</a>
                 <a href="faculty-experts/results/?keyword=Antimatter">Antimatter</a>
                 <a href="faculty-experts/results/?keyword=Neutrinos">Neutrinos</a>
-                <a href="faculty-experts/results/?keyword=Neutrino+Oscillations">Neutrino Oscillations</a>
                 <a href="faculty-experts/results/?keyword=Proton+Decay">Proton Decay</a>
                 <a href="faculty-experts/results/?keyword=T2K+Experiment">T2K Experiment</a>
-                <a href="faculty-experts/results/?keyword=Super-Kamiokande+Experiment">Super-Kamiokande Experiment</a>
                 <a href="faculty-experts/results/?keyword=K2K+Experiment">K2K Experiment</a>
                 <a href="faculty-experts/results/?keyword=ELBNF+Experiment">ELBNF Experiment</a>
             </div>
@@ -111,16 +109,50 @@
         </div>
         <div class="profile-section clearfix fac-publications-section hide-on-faculty-experts">
             <h3>Publications</h3>
-            <ul class="education">
-                <li>"Observation of Shock Waves in a Strongly Interacting Fermi Gas." Physical Review Letters 106.15 (2011).</li>
-                <li>"Cold Fermi gas with inverse square interaction in a harmonic trap." Nuclear Physics B 846.1 (2011): 122 - 136.</li>
-                <li>"Quantum fluctuations of one-dimensional free fermions and Fisher-Hartwig formula for Toeplitz determinants." Journal of Physics A: Mathematical and Theoretical 44.48 (2011): 485001.</li>
-                <li>"Soliton solutions of a Calogero model in a harmonic potential." Journal of Physics A: Mathematical and Theoretical 44.29 (2011): 295203.</li>
-                <li>"Observation of Shock Waves in a Strongly Interacting Fermi Gas." Physical Review Letters 106.15 (2011).</li>
-                <li>"Cold Fermi gas with inverse square interaction in a harmonic trap." Nuclear Physics B 846.1 (2011): 122 - 136.</li>
-                <li>"Quantum fluctuations of one-dimensional free fermions and Fisher-Hartwig formula for Toeplitz determinants." Journal of Physics A: Mathematical and Theoretical 44.48 (2011): 485001.</li>
-                <li>"Soliton solutions of a Calogero model in a harmonic potential." Journal of Physics A: Mathematical and Theoretical 44.29 (2011): 295203.</li>
-            </ul>
+            <ol class="education number">
+                <li>
+                    <span data-label="author-type">Author</span>
+                    <span data-label="publication-type">Book</span>
+                    <span data-label="super-title">Journal of Physics A: Mathematical and General</span>
+                    <span data-label="sub-title">Asymptotics of Toeplitz determinants and the emptiness formation probability for the XY spin chain</span>
+                    <span data-label="publisher"></span>
+                    <span data-label="publication-status"></span>
+                    <span data-label="year">2014</span>
+                    <span data-label="month">05</span>
+                    <span data-label="day">23</span>
+                    <span data-label="volume">38</span>
+                    <span data-label="issue">48</span>
+                    <span data-label="pages">5069 - 5095</span>
+                </li>
+                <li>
+                    <span data-label="author-type">Author</span>
+                    <span data-label="publication-type">Article</span>
+                    <span data-label="super-title">Journal of Physics A: Mathematical and Theoretical</span>
+                    <span data-label="sub-title">Quantum fluctuations of one-dimensional free fermions and Fisher-Hartwig formula for Toeplitz determinants</span>
+                    <span data-label="publisher"></span>
+                    <span data-label="publication-status"></span>
+                    <span data-label="year">2011</span>
+                    <span data-label="month"></span>
+                    <span data-label="day"></span>
+                    <span data-label="volume">44</span>
+                    <span data-label="issue">48</span>
+                    <span data-label="pages">485001</span>
+                </li>
+                <li>
+                    <span data-label="author-type">Author</span>
+                    <span data-label="publication-type">Article</span>
+                    <span data-label="super-title">Journal of Physics A: Mathematical and Theoretical</span>
+                    <span data-label="sub-title">Soliton solutions of a Calogero model in a harmonic potential</span>
+                    <span data-label="publisher"></span>
+                    <span data-label="publication-status"></span>
+                    <span data-label="year">2011</span>
+                    <span data-label="month"></span>
+                    <span data-label="day"></span>
+                    <span data-label="volume">44</span>
+                    <span data-label="issue">29</span>
+                    <span data-label="pages">295203</span>
+                </li>
+            </ol>
         </div>
         <div class="profile-section clearfix fac-courses-section hide-on-faculty-experts">
             <h3>Courses</h3>
@@ -289,7 +321,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="profile-section clearfix video-section hide-on-faculty-experts">
+        <div class="profile-section clearfix video-section">
             <h3>Video</h3>
             <div class="video videoWrapper">
                 <iframe width="560" height="349" src="http://www.youtube.com/embed/ZLC2RmvVDhw?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>

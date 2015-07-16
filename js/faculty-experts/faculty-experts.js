@@ -111,20 +111,152 @@ $(window).resize(function(){
 $(document).ready(function() {
 
 	var theURL = window.location.href;
-	//if URL contains faculty-directory/profile/ or faculty-experts/profile/ hide unappropriate data
-	if ($('.profile').attr('data-faculty-not-found') != 'true') {
-		if(theURL.indexOf('faculty-directory/profile/') > -1) {
-			$('.hide-on-faculty-directory').remove();
-		} else if(theURL.indexOf('faculty-experts/profile/') > -1) {
-			/* if not an expert, redirect to custom 404 */
-			if ($('.profile').attr('data-faculty-type') != 'expert') {
-				var newURL = 'faculty-experts/profile/not-found';
-				window.location = newURL;
-			} else {
-				$('.hide-on-faculty-experts').remove();
+
+	//profile script
+	if ($('.profile').length) {
+		//if URL contains faculty-directory/profile/ or faculty-experts/profile/ hide unappropriate data
+		if ($('.profile').attr('data-faculty-not-found') != 'true') {
+			if(theURL.indexOf('faculty-directory/profile/') > -1) {
+				$('.hide-on-faculty-directory').remove();
+			} else if(theURL.indexOf('faculty-experts/profile/') > -1) {
+				/* if not an expert, redirect to custom 404 */
+				if ($('.profile').attr('data-faculty-type') != 'expert') {
+					var newURL = 'faculty-experts/profile/not-found';
+					window.location = newURL;
+				} else {
+					$('.hide-on-faculty-experts').remove();
+				}
 			}
 		}
+
+		var isUsefulString = function (p_string) { return jQuery.trim(p_string) != "" && (typeof p_string == "string" || typeof p_string == "number"); };
+
+		//format publications
+		//Example: 
+		if($('.fac-publications-section').length) {
+
+			var getPubData = function (data_label, context_element) {
+				return $('[data-label="'+data_label+'"]', context_element).text();
+			};
+
+			var publicationList = $('.fac-publications-section ol');
+			var newSectionHTML = '';
+			var newItemHTML = '';
+			var authorType;
+			var publicationType;
+			var superTitle;
+			var subTitle;
+			var publisher;
+			var publicationStatus;
+			var year;
+			var month;
+			var day;
+			var volume;
+			var issue;
+            var pages;
+
+			$('.fac-publications-section ol li').each(function() {
+
+				newItemHTML = '';
+
+				authorType			= getPubData('author-type',$(this));
+				publicationType 	= getPubData('publication-type',$(this));
+				superTitle			= getPubData('super-title',$(this));
+				subTitle			= getPubData('sub-title',$(this));
+				publisher			= getPubData('publisher',$(this));
+				publicationStatus 	= getPubData('publication-status',$(this));
+				year				= getPubData('year',$(this));
+				month				= getPubData('month',$(this));
+				day					= getPubData('day',$(this));
+				volume				= getPubData('volume',$(this));
+				issue				= getPubData('issue',$(this));
+	            pages				= getPubData('pages',$(this));
+
+				switch (publicationType) {
+		            case "Article":
+	                case "Article - Peer Reviewed Author":
+	                case "Article - Peer Reviewed Co-Author":
+	                {
+	                	// https://owl.english.purdue.edu/owl/resource/747/07/
+                        // Author(s). "Title of Article." <i>Title of Journal Volume</i>. Issue (Year): pages. Medium of publication.
+                        // "Quantum fluctuations of one-dimensional free fermions and Fisher-Hartwig formula for Toeplitz determinants." Journal of Physics A: Mathematical and Theoretical 44.48 (2011): 485001.
+                        
+                        newItemHTML = '<li class="publication-article">';
+
+                        if (isUsefulString(subTitle)) {
+
+                            newItemHTML += '"'+subTitle+'." ';
+
+                        }
+                        if (isUsefulString(superTitle)) {
+
+                        	newItemHTML += '<em>'+superTitle+'</em> ';
+
+                        	if (isUsefulString(volume)) {
+                        		newItemHTML += volume;
+                        		if (isUsefulString(issue)) {
+	                        		newItemHTML += '.'+issue+' ';
+	                        	}
+                        	}
+                            
+                            if (isUsefulString(year)) {
+                                newItemHTML += '('+year+')';
+                            }
+                            
+                        }
+                        if (isUsefulString(pages)) {
+                            newItemHTML += ': '+pages+'.';
+                        }
+
+                        newItemHTML += '</li>';
+                        newSectionHTML += newItemHTML;
+	                	
+	                	break;
+	                }
+		            case "Book":
+		            case "Book - Author":
+		            case "Book - Co-Author":
+		            case "Book - Editor":
+		            case "Book - Chapter Peer Reviewed":
+		            default:
+		            {
+
+		            	newItemHTML = '<li class="publication-book">';
+
+		            	if (isUsefulString(subTitle)) {
+
+                            newItemHTML += '"'+subTitle+'." ';
+
+                        }
+
+                        if (isUsefulString(superTitle)) {
+
+                        	newItemHTML += '<em>'+superTitle+'.</em> ';
+
+                        }
+
+                        if (isUsefulString(publisher) && isUsefulString(year)) {
+                        	newItemHTML += publisher+', '+year+'. ';
+                        } else if (isUsefulString(publisher)) {
+                        	newItemHTML += publisher+'. ';
+                        } else if (isUsefulString(year)) {
+                        	newItemHTML += year+'. ';
+                        }
+
+                        newItemHTML += '</li>';
+                        newSectionHTML += newItemHTML;
+                        
+                        break;
+		            }
+		        }
+
+			});
+
+			publicationList.html(newSectionHTML);
+
+		}
 	}
+	
 
 	var liveFilterInput = $('.faculty-list .text-filter');
 	var searchFormInput = $('.search-form input');

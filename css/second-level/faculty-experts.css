@@ -322,7 +322,7 @@ p.divider {
 
 .featured-experts,
 .list-experts {
-    font-family:'Trade Gothic Next W01';
+    font-family: 'Trade Gothic Next W01';
     position: relative;
 }
 
@@ -331,6 +331,18 @@ p.divider {
     font-family: 'Trade Gothic W01 Bold 2';
     font-weight: normal;
     color: #333;
+}
+
+.featured-experts em,
+.list-experts em {
+    font-family: 'TradeGothicNextW02-Ital';
+    font-style: normal;
+}
+
+.featured-experts em.fa,
+.list-experts em.fa {
+    font-family: FontAwesome;
+    font-style: normal;
 }
 
 .featured-experts {
@@ -777,6 +789,18 @@ a.modify-search-after {
     width: 20px;
     text-align: center;
     color: #111;
+}
+
+.profile-section.fac-publications-section em {
+    padding: 0 2px;
+}
+
+.profile-section ol {
+    padding-left: 28px;
+}
+
+.profile-section ol li {
+    margin: 0 0 12px;
 }
 
 .profile h3 {

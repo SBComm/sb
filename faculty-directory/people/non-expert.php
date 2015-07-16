@@ -274,7 +274,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="profile-section clearfix video-section hide-on-faculty-experts">
+        <div class="profile-section clearfix video-section">
             <h3>Video</h3>
             <div class="video videoWrapper">
                 <iframe width="560" height="349" src="http://www.youtube.com/embed/ZLC2RmvVDhw?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
