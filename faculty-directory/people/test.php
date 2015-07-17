@@ -1,6 +1,6 @@
 <div class="profile clearfix no-pad-wrapper" data-faculty-type="expert">
     <div class="left-col">
-        <img src="faculty-directory/images/chang-kee-jung.png" />
+        <img src="faculty-directory/images/default.jpg" />
         <div class="social-list social-list-desktop">
             <a href="http://site.com" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
             <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
