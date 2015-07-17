@@ -251,15 +251,15 @@
         <div class="profile-section clearfix video-section">
             <h3>Video</h3>
             <div class="video videoWrapper">
-                <iframe width="560" height="349" src="http://www.youtube.com/embed/ZLC2RmvVDhw?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="349" src="http://www.youtube.com/embed/{VIDEO_ID}?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <div class="profile-section clearfix social-list-mobile">
             <h3>Connect On...</h3>
             <div class="social-list">
-                <a href="http://site.com" target="_blank" title="View Website"><em class="fa fa-laptop website" target="_blank"></em></a>
-                <a href="https://twitter.com/JoshPalmeri" target="_blank" title="View Twitter"><em class="fa fa-twitter" target="_blank"></em></a>
-                <a href="https://www.linkedin.com/in/palmerijosh" target="_blank" title="View LinkedIn"><em class="fa fa-linkedin" target="_blank"></em></a>
+                <a href="{WEBSITE_URL}" target="_blank" title="View Website"><em class="fa fa-laptop website" target="_blank"></em></a>
+                <a href="https://twitter.com/{TWITTER_HANDLE}" target="_blank" title="View Twitter"><em class="fa fa-twitter" target="_blank"></em></a>
+                <a href="{LINKEDIN_URL}" target="_blank" title="View LinkedIn"><em class="fa fa-linkedin" target="_blank"></em></a>
             </div>
         </div>
         <div class="profile-section clearfix contact-mr-section hide-on-faculty-directory">
@@ -269,29 +269,14 @@
         <div class="profile-section clearfix in-the-media-section">
             <h3 class="red-bar back-dark-red-crossed">In the Media:</h3>
             <div class="news-wrapper clearfix">
-                <a class="clearfix" href="http://www.usatoday.com/story/sports/nfl/2015/05/15/tom-brady-new-england-patriots-ted-wells-report-suspension/27330533/" target="_blank">
-                    <span class="date">May 15, 2015</span>
-                    <span class="title">Armour: Patriots' response to Ted Wells has air of desperation</span>
+                <a class="clearfix" href="{NEWS_URL}" target="_blank">
+                    <span class="date">{NEWS_DATE}</span>
+                    <span class="title">{NEWS_TITLE}</span>
                     <span class="read-label fa-arrow-after"><span>Read Article</span></span>
                 </a>
-                <a class="clearfix" href="http://www.usatoday.com/story/sports/nfl/patriots/2015/01/23/deflategate-air-pressure-moist/22242609/" target="_blank">
-                    <span class="date">January 24, 2015​</span>
-                    <span class="title">Deflategate theory: What if Pats inflated balls in warm environment?</span>
-                    <span class="read-label fa-arrow-after"><span>Read Article</span></span>
-                </a>
-                <a class="clearfix" href="http://profootballtalk.nbcsports.com/2015/01/23/another-theory-for-deflating-footballs/" target="_blank">
-                    <span class="date">January 23, 2015​</span>
-                    <span class="title">Another theory for deflating footballs</span>
-                    <span class="read-label fa-arrow-after"><span>Read Article</span></span>
-                </a>
-                <a class="clearfix" href="http://abcnews.go.com/US/deflate-gate-scientifically-plausible-physicist/story?id=28378643" target="_blank">
-                    <span class="date">January 22, 2015​</span>
-                    <span class="title">Deflate-Gate' Explained With Animated Stick Figures</span>
-                    <span class="read-label fa-arrow-after"><span>Read Article</span></span>
-                </a>
-                <a class="clearfix" href="http://www.nbcnewyork.com/news/local/Odell-Beckham-Jr-Touchdown-One-Handed-Catch-Giants-Cowboys-NFL-Football-Physic-Science-283760211.html" target="_blank">
-                    <span class="date">November 24, 2014​</span>
-                    <span class="title">The Science of Odell Beckham Jr.'s Incredible One-Handed TD Catch</span>
+                <a class="clearfix" href="{NEWS_URL}" target="_blank">
+                    <span class="date">{NEWS_DATE}</span>
+                    <span class="title">{NEWS_TITLE}</span>
                     <span class="read-label fa-arrow-after"><span>Read Article</span></span>
                 </a>
             </div>
