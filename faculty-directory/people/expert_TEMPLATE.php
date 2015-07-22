@@ -1,10 +1,11 @@
 <div class="profile clearfix no-pad-wrapper" data-faculty-type="expert">
     <div class="left-col">
-        <img src="faculty-directory/images/chang-kee-jung.png" />
+        <img src="{IMG_SRC}" />
         <div class="social-list social-list-desktop">
-            <a href="http://site.com" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
-            <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
-            <a href="https://www.linkedin.com/in/palmerijosh" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
+            <a href="{WEBSITE_URL}" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
+            <a href="https://twitter.com/{TWITTER_HANDLE}" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
+            <a href="{LINKEDIN_URL}" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
+            <a class="hide-on-faculty-directory" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank"><em class="fa fa-phone" target="_blank"></em>Contact</a>
         </div>
     </div>
     <div class="right-col">
