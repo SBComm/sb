@@ -9,22 +9,12 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
-                        <a href="https://storify.com/SBUBuzz/stony-brook-commencement-2015?=marquee1" target="_blank" title="Learn More about Summer Session">
+                        <a href="http://studentaffairs.stonybrook.edu/orientation/freshmen/esbfreshmen.shtml" target="_blank" title="Experience Stony Brook - Orientation Part 2 for new students">
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">Congratulations Stony Brook Class of 2015! Seawolves for Life!</div>
-                                <div class="carousel-subtitle">See pictures</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="http://stonybrook.edu/summer/" target="_blank" title="Learn More about Summer Session">
-                            <div class="carousel-image clearfix" data-image="02">
-                            </div>
-                            <div class="carousel-text clearfix">
-                                <div class="carousel-title white">Enroll Now in Summer Session. More than 500 courses online or on campus.</div>
-                                <div class="carousel-subtitle">See courses</div>
+                                <div class="carousel-title white">"Experience Stony Brook" for New Students</div>
+                                <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
                     </div>
