@@ -672,7 +672,7 @@ a.modify-search-after {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 8% 0 0;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid #e0e0e0;
 }
 
 .profile .right-col {
