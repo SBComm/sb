@@ -302,6 +302,10 @@
                 <a href="https://www.linkedin.com/in/palmerijosh" target="_blank" title="View LinkedIn"><em class="fa fa-linkedin" target="_blank"></em></a>
             </div>
         </div>
+        <div class="profile-section clearfix contact-mr-section hide-on-faculty-directory">
+            <h3>Contact Information</h3>
+            <p>To get in touch, <a class="fa-arrow-after" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank">contact Media Relations</a></p>
+        </div>
         <div class="profile-section clearfix in-the-media-section">
             <h3 class="red-bar back-dark-red-crossed">In the Media:</h3>
             <div class="news-wrapper clearfix">
