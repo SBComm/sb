@@ -22,6 +22,11 @@
 		                        		<span class="label clearfix">Research</span>
 		                        	</a>
 		                        </li>
+		            			<li class="clearfix smaller<?php if($main_nav_selected_tab==5) echo(' selected'); ?>">
+		                        	<a href="http://www.stonybrook.edu/news/" class="clearfix">
+		                        		<span class="label clearfix">News</span>
+		                        	</a>
+		                        </li>
 		            			<li class="clearfix<?php if($main_nav_selected_tab==6) echo(' selected'); ?>">
 		                        	<a href="http://www.library.stonybrook.edu/" class="clearfix">
 		                        		<span class="label clearfix">Libraries</span>

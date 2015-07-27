@@ -677,7 +677,6 @@
 	font-size: 14px;
 	font-family:'Trade Gothic Next W01';
 	font-weight: normal;
-	text-transform: uppercase;
 }
 
 .sub-nav a {
@@ -985,6 +984,11 @@
 	.site-nav ul li:nth-child(n+1),
 	.sub-nav ul li:nth-child(n+1) {
 	    border-right: 1px solid #800;
+	}
+
+	.site-nav ul li:nth-last-child(3),
+	.sub-nav ul li:nth-last-child(3) {
+	    border-bottom: 1px solid #800;
 	}
 
 	.quick-nav ul li {
@@ -1788,7 +1792,7 @@
 	}
 
 	.site-nav ul li {
-		width: 11.111%;
+		width: 10%;
 	}
 
 	.sub-nav ul li {
@@ -1796,11 +1800,11 @@
 	}
 
 	.site-nav ul li.smaller {
-		width: 9.111%;
+		width: 8.5%;
 	}
 
 	.site-nav ul li.larger {
-		width: 13.111%;
+		width: 12.5%;
 	}
 
 	.site-nav ul li.medicine {
