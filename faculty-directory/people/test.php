@@ -2,10 +2,12 @@
     <div class="left-col">
         <img src="faculty-directory/images/default.jpg" />
         <div class="social-list social-list-desktop">
-            <a href="http://site.com" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
-            <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
-            <a href="https://www.linkedin.com/in/palmerijosh" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
-            <a class="hide-on-faculty-directory" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank"><em class="fa fa-phone" target="_blank"></em>Contact</a>
+            <div class="hide-on-faculty-experts">
+                <a href="http://site.com" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
+                <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
+                <a href="https://www.linkedin.com/in/palmerijosh" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
+            </div>
+            <a class="hide-on-faculty-directory" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank"><em class="fa fa-reply" target="_blank"></em>Contact</a>
         </div>
     </div>
     <div class="right-col">
@@ -38,7 +40,7 @@
             <h3>Biography</h3>
             <div class="bio">
                 <p>Chang Kee Jung, PhD is a Professor in the Department of Physics and Astronomy. In the field of particle physics, he is one of the world's leading experts in the study of neutrino oscillations, which occur when a neutrino of one type can change into one of a different type, a phenomenon which could prove critical to understanding the role of antimatter in the origin of the cosmos. He is also an expert in proton decay, a hypothetical form of radioactive decay in which the proton decays into lighter subatomic particles. He has participated in the T2K Experiment, aimed at deepening the understanding of the physical universe through the study of neutrinos. He is also pursuing his research goals through participation in the Super-Kamiokande, K2K, and ELBNF experiments.</p>
-                <p><a class="external-link" href="http://superk.physics.sunysb.edu/~alpinist/" target="_blank">Read more</a></p>
+                <p><a class="external-link" href="http://superk.physics.sunysb.edu/~alpinist/" target="_blank">Learn More</a></p>
             </div>
         </div>
         <div class="profile-section clearfix fac-research-int-section hide-on-faculty-experts">
@@ -281,7 +283,7 @@
                 <iframe width="560" height="349" src="http://www.youtube.com/embed/ZLC2RmvVDhw?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="profile-section clearfix social-list-mobile">
+        <div class="profile-section clearfix social-list-mobile hide-on-faculty-experts">
             <h3>Connect On...</h3>
             <div class="social-list">
                 <a href="http://site.com" target="_blank" title="View Website"><em class="fa fa-laptop website" target="_blank"></em></a>
@@ -289,12 +291,8 @@
                 <a href="https://www.linkedin.com/in/palmerijosh" target="_blank" title="View LinkedIn"><em class="fa fa-linkedin" target="_blank"></em></a>
             </div>
         </div>
-        <div class="profile-section clearfix contact-mr-section hide-on-faculty-directory">
-            <h3>Contact Information</h3>
-            <p>To get in touch, <a class="fa-arrow-after" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank">contact Media Relations</a></p>
-        </div>
         <div class="profile-section clearfix in-the-media-section">
-            <h3 class="red-bar back-dark-red-crossed">In the Media:</h3>
+            <h3 class="red-bar back-dark-red-crossed">News Highlights:</h3>
             <div class="news-wrapper clearfix">
                 <a class="clearfix" href="http://www.usatoday.com/story/sports/nfl/2015/05/15/tom-brady-new-england-patriots-ted-wells-report-suspension/27330533/" target="_blank">
                     <span class="date">May 15, 2015</span>

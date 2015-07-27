@@ -7,7 +7,9 @@
     </section>
     <section class="clearfix search-experts">
         <div class="no-pad-wrapper">
-            <p>Use this online search tool when looking to identify qualified experts <br />to comment on a broad range of timely news and scholarly topics.</p>
+            <p>The Stony Brook Experts Guide provides news media representatives with a resource<br />
+            to identify and connect with Stony Brook University faculty who can provide<br />
+            expertise, analysis and commentary on a wide variety of news and research topics.</p>
             <form class="search-list-page" action="faculty-experts/results/" method="get">
                 <div class="input-wrap">
                     <input type="hidden" name="view" value="grid" />
@@ -19,7 +21,7 @@
     </section>
     <section class="clearfix browse-choices">
         <div class="no-pad-wrapper">
-            <h3>Browse Trending Topics</h3>
+            <h3>Trending Topics</h3>
             <?php
                 $file = "faculty-experts/trending-topics.php";
                 include($path . $content . $secLv . $file);
@@ -47,6 +49,20 @@
     </section>
     <section class="search-experts contact-footer clearfix">
         <p>Looking to get in touch with an expert?</p>
-        <a class="sbu-button view-all-button fa-arrow-after" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank">Contact Us</a>
+        <a class="sbu-button view-all-button fa-arrow-after show-search-overlay" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank">Contact Us</a>
+    </section>
+    <section class="search-experts newsroom-promo clearfix">
+        <p>The <strong>Office of Media Relations</strong> promotes institutional achievements, student stories, faculty research, programs, economic development and campus events, sharing the University’s story with local, regional, national, and international news media using a variety of media platforms.</p>
+        <a class="sbu-button view-all-button fa-arrow-after" href="http://stonybrook.edu/news/" target="_blank">Visit the Newsroom</a>
+    </section>
+    <section class="clearfix search-experts search-experts-inside hide-accessible">
+        <div class="no-pad-wrapper clearfix">
+            <p class="label clearfix">To arrange an interview with any member of our faculty, contact the Stony Brook Newsroom directly.</p>
+            <p class="label clearfix">Email: sbu_news_desk@stonybrook.edu</p>
+            <p class="divider clearfix"><span>or</span></p>
+            <p class="label clearfix">Phone: 631-632-6310</p>
+            <a class="sbu-button fa-arrow-after clearfix" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php">View all contact information</a>
+            <a class="close-search-overlay" href="."><i class="fa-times"></i><span class="hide-accessible"> Close</span></a>
+        </div>
     </section>
 </article>

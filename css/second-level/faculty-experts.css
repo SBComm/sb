@@ -238,6 +238,7 @@ a.splash-wrapper h1 {
     margin: 0 auto 20px;
 }
 
+.experts-overlay,
 .search-experts-inside {
     position: fixed;
     top: 0;
@@ -248,6 +249,7 @@ a.splash-wrapper h1 {
     opacity: .975;
 }
 
+.experts-overlay p,
 .search-experts-inside p {
     text-align: left;
     display: block;
@@ -296,6 +298,7 @@ p.divider {
     z-index: 1;
 }
 
+.experts-overlay a.sbu-button,
 .search-experts-inside a.sbu-button {
     display: block;
     width: 84%;
@@ -373,12 +376,12 @@ p.divider {
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 1.6em;
     float: left;
     width: auto;
     padding: 10px 5px 10px 8px;
     font-family: 'Trade Gothic Next W01';
     text-transform: none;
+    font-size: 1.6em;
 }
 
 .header-wrapper a {
@@ -719,6 +722,7 @@ a.modify-search-after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    color: #000;
 }
 
 .profile .social-list-mobile .social-list a:hover {
@@ -995,6 +999,33 @@ a.modify-search-after {
     padding: 0 0 10px;
 }
 
+.newsroom-promo {
+    background: url("../../img/bkg/notebook-and-laptop.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 30% 50%;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15% 6% 6%;
+}
+
+.newsroom-promo p {
+    display: block;
+    max-width: 920px;
+    margin: 0 auto 60px !important;
+    font-family: 'CenturyExpandedLTW01-Ro';
+    color: #222;
+}
+
+.newsroom-promo p strong {
+    font-family: 'CenturyExpandedW01-Bold1119180';
+    font-weight: normal;
+}
+
 /* hide unappropriate content */
 
 .faculty-directory-page-wrapper .hide-on-faculty-directory,
@@ -1061,10 +1092,12 @@ a.modify-search-after {
         font-size: 1.2em;
     }
 
+    .experts-overlay,
     .search-experts-inside {
         font-size: 1.2em;
     }
 
+    .experts-overlay p.label,
     .search-experts-inside p.label {
         padding-left: 0;
     }
@@ -1124,6 +1157,7 @@ a.modify-search-after {
         margin: 1.8em 60px 1.6em;
     }
 
+    .experts-overlay p.divider,
     .search-experts-inside p.divider {
         margin: 1em auto 0;
     }
@@ -1171,6 +1205,10 @@ a.modify-search-after {
         text-decoration: none;
         background: #eee;
         border: 0 none;
+    }
+
+    .newsroom-promo {
+        padding: 12%;
     }
 }
 
@@ -1277,6 +1315,7 @@ a.modify-search-after {
 
 @media only screen and (min-width: 640px) {
 
+    .experts-overlay p.label,
     .search-experts-inside p.label {
         padding-left: 0;
     }
@@ -1496,6 +1535,7 @@ a.modify-search-after {
         margin-top: 40px;
     }
 
+    .experts-overlay .no-pad-wrapper,
     .search-experts-inside .no-pad-wrapper {
         padding: 6% 0 0;
         -webkit-box-sizing: border-box;
@@ -1553,6 +1593,10 @@ a.modify-search-after {
 
     .faculty-list .tablesaw .view-link:hover {
         width: 122px;
+    }
+
+    .newsroom-promo {
+        padding: 6%;
     }
 }
 

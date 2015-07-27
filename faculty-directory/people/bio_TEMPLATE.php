@@ -2,10 +2,12 @@
     <div class="left-col">
         <img src="{IMG_SRC}" />
         <div class="social-list social-list-desktop">
-            <a href="{WEBSITE_URL}" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
-            <a href="https://twitter.com/{TWITTER_HANDLE}" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
-            <a href="{LINKEDIN_URL}" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
-            <a class="hide-on-faculty-directory" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank"><em class="fa fa-phone" target="_blank"></em>Contact</a>
+            <div class="hide-on-faculty-experts">
+                <a href="{WEBSITE_URL}" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
+                <a href="https://twitter.com/{TWITTER_HANDLE}" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
+                <a href="{LINKEDIN_URL}" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
+            </div>
+            <a class="hide-on-faculty-directory" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank"><em class="fa fa-reply" target="_blank"></em>Contact</a>
         </div>
     </div>
     <div class="right-col">
@@ -27,11 +29,18 @@
             <p><a class="email-link-hover" href="mailto:{EMAIL}" target="_blank"><em class="fa fa-envelope icon"></em> {EMAIL}</a></p>
         </div>
         <div class="profile-section clearfix topics-expertise-section hide-on-faculty-directory">
-            <h3>Topics of Expertise</h3>
+            <h3>Expertise</h3>
             <div class="list">
                 <a href="faculty-experts/results/?keyword={Topic+Label+1}">{TOPIC_LABEL}</a>
                 <a href="faculty-experts/results/?keyword={Topic+Label+2}">{TOPIC_LABEL}</a>
                 <a href="faculty-experts/results/?keyword={Topic+Label+1}">{TOPIC_LABEL}</a>
+            </div>
+        </div>
+        <div class="profile-section clearfix">
+            <h3>Biography</h3>
+            <div class="bio">
+                <p>{BIO_TEXT}</p>
+                <p><a class="external-link" href="{BIO_URL}" target="_blank">Learn More</a></p>
             </div>
         </div>
         <div class="profile-section clearfix">
@@ -41,13 +50,6 @@
                 <li>{EDU_BULLET}</li>
                 <li>{EDU_BULLET}</li>
             </ul>
-        </div>
-        <div class="profile-section clearfix">
-            <h3>Biography</h3>
-            <div class="bio">
-                <p>{BIO_TEXT}</p>
-                <p><a class="external-link" href="{BIO_URL}" target="_blank">Read more</a></p>
-            </div>
         </div>
         <div class="profile-section clearfix fac-research-int-section hide-on-faculty-experts">
             <h3>Research Interests</h3>
@@ -255,7 +257,7 @@
                 <iframe width="560" height="349" src="http://www.youtube.com/embed/{VIDEO_ID}?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="profile-section clearfix social-list-mobile">
+        <div class="profile-section clearfix social-list-mobile hide-on-faculty-experts">
             <h3>Connect On...</h3>
             <div class="social-list">
                 <a href="{WEBSITE_URL}" target="_blank" title="View Website"><em class="fa fa-laptop website" target="_blank"></em></a>
@@ -263,12 +265,8 @@
                 <a href="{LINKEDIN_URL}" target="_blank" title="View LinkedIn"><em class="fa fa-linkedin" target="_blank"></em></a>
             </div>
         </div>
-        <div class="profile-section clearfix contact-mr-section hide-on-faculty-directory">
-            <h3>Contact Information</h3>
-            <p>To get in touch, <a class="fa-arrow-after" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank">contact Media Relations</a></p>
-        </div>
         <div class="profile-section clearfix in-the-media-section">
-            <h3 class="red-bar back-dark-red-crossed">In the Media:</h3>
+            <h3 class="red-bar back-dark-red-crossed">News Highlights:</h3>
             <div class="news-wrapper clearfix">
                 <a class="clearfix" href="{NEWS_URL}" target="_blank">
                     <span class="date">{NEWS_DATE}</span>
