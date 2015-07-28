@@ -259,6 +259,26 @@
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
+                            <a class="external-link" href="http://www.stonybrook.edu/pep/" target="_blank">Education (Secondary Teacher Cert.)</a>
+                            <ul class="default-bullets">
+                                <li>Biology</li>
+                                <li>Chemistry</li>
+                                <li>Chinese</li>
+                                <li>Earth Science</li>
+                                <li>English</li>
+                                <li>French</li>
+                                <li>German</li>
+                                <li>Italian</li>
+                                <li>Japanese</li>
+                                <li>Korean</li>
+                                <li>Mathematics</li>
+                                <li>Physics</li>
+                                <li>Social Studies</li>
+                                <li>Spanish</li>
+                                <li>TESOL (K-12)</li>
+                            </ul>
+                        </li>
+                        <li>
                             <a href="undergraduate-admissions/academics/program-details?code=ese">Electrical Engineering, BE</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
@@ -399,6 +419,8 @@
                                 <li>Radiologic Technology</li>
                             </ul>
                         </li>
+                    </ul>
+                    <ul class="three-col-list" data-search-id="course-list">
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=lhw">Health and Wellness</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
@@ -412,8 +434,6 @@
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
-                    </ul>
-                    <ul class="three-col-list" data-search-id="course-list">
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=ebh">Human Evolutionary Biology, BS</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
