@@ -93,7 +93,7 @@
                         </tr>
                         <tr>
                             <td class="label">Room ***</td>
-                            <td><span class="amount">7,854</span></td>
+                            <td><span class="amount">7,778</span></td>
                         </tr>
                         <tr>
                             <td class="label">Meal Plan ***</td>
