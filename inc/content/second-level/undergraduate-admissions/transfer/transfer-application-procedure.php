@@ -25,7 +25,7 @@
         <div class="border-box wrapper clearfix">
             <h3>How to Apply to Stony Brook as a Transfer</h3>
             <div class="content application-details alert-message red clearfix">
-                <p><strong>Please note:</strong> Applications are no longer being accepted for the fall 2015 semester. Spring and fall 2016 applications will become available August 1.</p>
+                <p><strong>Please note:</strong> Applications are now being accepted for the spring and fall 2016 semesters.</p>
             </div>
             <div class="content application-details clearfix">
                 <div class="inner-wrapper">

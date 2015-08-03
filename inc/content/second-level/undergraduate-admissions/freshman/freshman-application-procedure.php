@@ -24,8 +24,8 @@
     <section class="clearfix inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
             <h3>How to Apply to Stony Brook as a Freshman</h3>
-            <div class="content application-details alert-message red clearfix">
-                <p><strong>Please note:</strong> Applications are no longer being accepted for the fall 2015 semester. Spring and fall 2016 applications will become available August 1.</p>
+            <div class="content application-details alert-message green clearfix">
+                <p><strong>Please note:</strong> Applications are now being accepted for the spring and fall 2016 semesters.</p>
             </div>
             <div class="content application-details clearfix">
                 <p>There are two options to apply for admission as a freshman:</p>
