@@ -50,6 +50,7 @@
 			includeAsset('js','js/vendor/jquery.localScroll.min.js');
 			includeAsset('js','js/vendor/jquery.ba-bbq.js');
 			includeAsset('js','js/vendor/jquery.motio.js');
+			includeAsset('js','js/vendor/jquery.tooltipster.min.js');
 			includeAsset('js','js/plugins.js');
 			includeAsset('js','js/main.js');
 			includeAsset('js','js/vendor/fastclick.js');
@@ -184,6 +185,11 @@
 
 					scrollToTop(scrollToClass);
 				});
+
+			    /* Initialize Tooltips */
+				$('.tooltip').tooltipster({
+					theme: 'tooltipster-light'
+				});
 			});
 		</script>
 		<?php includeAsset('js','js/vendor/selectivizr-min.js'); ?>
@@ -256,6 +262,12 @@
 			<?php includeAsset('js','js/social/custom.js'); ?>
 
         <?php } ?>
+
+        <?php if($page_type=='second-level' && $second_level=='analytics') { ?>
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+			<?php includeAsset('js','plugins/spinner/spin.min.js'); ?>
+			<?php includeAsset('js','plugins/analytics/main.js'); ?>
+        <? } ?>
 
 		<?php if($page_type=='bulletin') { ?>
 			<?php includeAsset('js','js/vendor/jquery.fastLiveFilter.js'); ?>

@@ -348,7 +348,8 @@ $(document).ready(function() {
 
 	/* Partial Print */
 
-	$('.partial-print-trigger').on('click',function() {
+	$('.partial-print-trigger').on('click',function(event) {
+		event.preventDefault();
 		var printTarget = $(this).attr('data-partial-print-target');
 		$(this).closest(printTarget).addClass('partial-print-target');
 		$('body').addClass('hide-for-print');

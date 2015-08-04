@@ -101,6 +101,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .rounded-input {
+    background: #fff;
     border: 1px solid #aaa;
     padding: 10px;
     color: #333;
@@ -112,6 +113,10 @@ input[type="search"]::-webkit-search-cancel-button {
     box-sizing: border-box;
     text-shadow: none;
     font-family: 'Trade Gothic W01 Light';
+}
+
+select.rounded-input {
+    height: 40px;
 }
 
 .rounded-input::-webkit-input-placeholder {
@@ -353,7 +358,7 @@ video.background-video {
 }
 
 .center-text {
-    text-align: center;
+    text-align: center !important;
 }
 
 .left {
@@ -1627,7 +1632,8 @@ body {
 
     /* Grey box */
 
-    .grey-box-1 {
+    .grey-box-1,
+    .grey-box-2 {
         display: block;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -1641,7 +1647,8 @@ body {
         clear: both;
     }
 
-    .grey-box-1 > a {
+    .grey-box-1 > a,
+    .grey-box-2 > a {
         background: #eee;
         width: 100%;
         display: block;
@@ -1656,6 +1663,10 @@ body {
         font-size: 1.1em;
         padding: 6px 2px;
         text-rendering: optimizeLegibility;
+    }
+
+    .grey-box-2 {
+        background: #f7f7f7;
     }
 
     /* Full-width red button (for use on .back-dark-red-crossed) */
@@ -2287,7 +2298,8 @@ body {
     .external-link-hover:after,
     a.info-link-hover:after,
     .info-link-hover:after,
-    .external-link-hover-wrapper a:after { 
+    .external-link-hover-wrapper a:after,
+    .tooltip:after { 
         display: inline-block;
         font-family: FontAwesome;
         font-style: normal;
@@ -2323,6 +2335,13 @@ body {
 
     a.email-link:after {
         content: "\f003";
+    }
+
+    .tooltip:after {
+        content: "\f059";
+        font-size: .865em;
+        color: #aaa;
+        cursor: default;
     }
 
     a.info-link-hover:hover:after,
@@ -2642,6 +2661,12 @@ body {
         text-rendering: optimizeLegibility;
     }
 
+    .inside-content .content.grey-box {
+        background: #f7f7f7;
+        border: 1px solid #ddd;
+        padding: 20px;
+    }
+
     .inside-content p {
         font-size: 1em;
         line-height: 1.6em;
@@ -2656,9 +2681,13 @@ body {
     }
 
     .inside-content .content em {
-        font-family:'TradeGothicNextW02-Ligh 694374';
-        font-style: normal;
         font-weight: normal;
+        font-style: normal;
+        font-family: 'TradeGothicNextW02-Ligh 694374';
+    }
+
+    .inside-content .content em.fa {
+    font-family: FontAwesome;
     }
 
     .inside-content .content.alert-message,

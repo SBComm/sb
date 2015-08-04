@@ -1,0 +1,153 @@
+/* 
+   File: analytics.css
+   Created by: Josh Palmeri, Stony Brook University
+   2015.05.15
+*/
+
+th.page-path,
+td.page-path,
+.url-break {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    max-width: 550px;
+}
+
+.error select,
+.error input {
+    color: #900;
+    border-color: #900;
+}
+
+.checkbox input {
+    cursor: pointer;
+    margin: 0 5px 0 0;
+}
+
+label.checkbox {
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    margin: 0 25px 0 0;
+    padding: 4px 2px;
+}
+
+label.control-label {
+    margin: 6px 0 2px;
+    display: inline-block;
+}
+
+.directory-indicator-wrapper {
+    display: block;
+    position: relative;
+}
+
+.directory-indicator {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 6px;
+}
+
+.form-actions .sbu-button {
+    margin: 20px 0;
+}
+
+p.small-text {
+    font-size: .9em;
+    display: block;
+    margin: 3px 0;
+}
+
+.help-inline {
+    color: #000;
+    font-size: .9em;
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-style: normal;
+    font-weight: normal;
+}
+
+#target {
+    margin: 60px 0;
+}
+
+.partial-print-trigger {
+    cursor: pointer;
+    position: relative;
+    top: auto;
+    right: auto;
+}
+
+@media print {
+    table.tablesaw {
+        border: 1px solid #333;
+    }
+
+    table.tablesaw th,
+    table.tablesaw td {
+        font-size: 9px !important;
+        padding: 1px 5px !important;
+        margin: 0 !important;
+        border: 1px solid #333 !important;
+        line-height: 1 !important;
+    }
+
+    a[href]:after {
+        content: " ";
+        font-size: 0;
+    }
+}
+
+/* Media Queries */
+@media only screen and (min-width: 0px) and (max-width: 959px) {
+    
+}
+
+@media only screen and (min-width: 400px) {
+    
+}
+
+@media only screen and (min-width: 540px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 680px) {
+
+}
+
+@media only screen and (min-width: 740px) {
+    
+}
+
+@media only screen and (min-width: 860px) {
+    
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 1140px) {
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+}

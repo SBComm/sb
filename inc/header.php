@@ -38,9 +38,12 @@
         <?php includeAsset('css','css/nav.css'); ?>
         <?php includeAsset('css','css/elements/cd-dropdown/cd-dropdown.css'); ?>
         <?php includeAsset('css','css/elements/tables/responsive-table.css'); ?>
+        <?php includeAsset('css','css/vendor/tooltipster/tooltipster.css'); ?>
+        <?php includeAsset('css','css/vendor/animate.css'); ?>
+        <?php includeAsset('css','css/vendor/tooltipster/themes/tooltipster-light.css'); ?>
         <!--<link rel="stylesheet" href="fonts/icomoon/style.css">-->
         <!--<link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">-->
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <!--END CSS Style Includes-->
 
         <?php if($carousel) { ?>
@@ -114,6 +117,10 @@
                 <?php includeAsset('css','css/second-level/'.$second_level.'-inside.css'); ?>
             <?php } ?>
         <?php } ?>
+
+        <?php if($page_type=='second-level' && $second_level=='analytics') { ?>
+            <?php includeAsset('css','plugins/analytics/jquery.css'); ?>
+        <? } ?>
 
         <?php if($page_type=='bulletin') { ?>
             <?php includeAsset('css','css/page-types/bulletin.css','all'); ?>
