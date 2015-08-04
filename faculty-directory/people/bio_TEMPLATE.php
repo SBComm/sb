@@ -266,7 +266,7 @@
             </div>
         </div>
         <div class="profile-section clearfix in-the-media-section">
-            <h3 class="red-bar back-dark-red-crossed">News Highlights:</h3>
+            <h3>News Highlights</h3>
             <div class="news-wrapper clearfix">
                 <a class="clearfix" href="{NEWS_URL}" target="_blank">
                     <span class="date">{NEWS_DATE}</span>

@@ -152,6 +152,15 @@ a.splash-wrapper h1 {
     line-height: 1.4em;
 }
 
+.search-experts p.small-line {
+    font-family:'TradeGothicNextW02-Ligh 694371';
+    text-transform: uppercase;
+    font-size: .85em;
+    margin: 0 0 30px;
+    display: block;
+    padding: 0 8%
+}
+
 .search-experts p br {
     display: none;
 }
@@ -162,7 +171,7 @@ a.splash-wrapper h1 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 0 2.7em;
+    margin: 0 0 2.2em;
     position: relative;
     display: block;
 }
@@ -181,8 +190,8 @@ a.splash-wrapper h1 {
     background: #eee;
     margin: 0 8%;
     color: #333;
-    font-size: 1.1em;
-    padding: .55em 1em .7em;
+    font-size: 1.3em;
+    padding: 0.85em 1em 0.9em;
     font-family: 'Trade Gothic W01 Bold 2';
 }
 
@@ -214,7 +223,7 @@ a.splash-wrapper h1 {
     background: #900;
     font-size: 1.4em;
     line-height: 0;
-    padding: 0 4px 0 12px;
+    padding: 0 14px 0 22px;
     border-radius: 0 .5em .5em 0;
     border-left: #aaa;
     visibility: visible;
@@ -1026,6 +1035,14 @@ a.modify-search-after {
     font-weight: normal;
 }
 
+.newsroom-promo a:hover {
+    color: #a00;
+}
+
+p.default-font-size {
+    font-size: 1em;
+}
+
 /* hide unappropriate content */
 
 .faculty-directory-page-wrapper .hide-on-faculty-directory,
@@ -1103,7 +1120,7 @@ a.modify-search-after {
     }
 
     .search-experts button[type="submit"] {
-        padding: 0 8px 0 18px;
+        padding: 0 12px 0 22px;
     }
 
     .faculty-list .tablesaw {
@@ -1154,7 +1171,8 @@ a.modify-search-after {
     .search-experts p {
         display: block;
         padding: 0;
-        margin: 1.8em 60px 1.6em;
+        margin: 1.8em auto 1.7em;
+        max-width: 690px;
     }
 
     .experts-overlay p.divider,
@@ -1163,7 +1181,11 @@ a.modify-search-after {
     }
 
     .search-experts form {
-        margin: 0 0 3.6em;
+        margin: 0 0 2.5em;
+    }
+
+    .search-experts p.small-line {
+        margin: 0 auto 3.4em;
     }
 
     .search-experts.search-faculty form {
@@ -1321,7 +1343,7 @@ a.modify-search-after {
     }
 
     .search-experts input[type="text"] {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     .search-experts input[type="text"]:focus {

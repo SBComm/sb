@@ -44,7 +44,7 @@
                 include($path . $content . $secLv . $file);
             ?>
 
-            <p class="search-text clearfix ital hide-accessible-mobile-tablesaw">Can't find what you're looking for? Keep your search term short &amp; simple to yield the best results, or <a href="faculty-experts/results" class="clear-search-trigger">view all experts</a>.</p>
+            <p class="search-text clearfix ital hide-accessible-mobile-tablesaw">Can't find what you're looking for? Keep your search term short &amp; simple to yield the best results, <a href="faculty-experts/results" class="clear-search-trigger">browse all experts</a>, or contact the Stony Brook Newsroom for assistance at 631.632.6310</p>
 
             <div class="toggle-view">
                 <a class="view-list<?php if($view=='list') { ?> active<?php } ?>" href="faculty-experts/results/?view=list"><em class="icon fa fa-list-ul"></em> List View</a>
