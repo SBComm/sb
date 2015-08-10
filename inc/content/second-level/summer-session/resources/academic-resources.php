@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <p><h5>Graded/Pass/No Credit Option (GPNC)</h5>
-                <p>GPNC. Some institutions have restrictions on the grading of GPNC courses. Stony Brook students should refer to the policy on GPNC in the <a href="http://sb.cc.stonybrook.edu/bulletin/current/" target="_blank">Undergraduate Bulletin</a>. Summer Sessions students may register for up to four (4) P/NC credits.</p>
+                <p>GPNC. Some institutions have restrictions on the grading of GPNC courses. Stony Brook students should refer to the policy on GPNC in the <a href="http://sb.cc.stonybrook.edu/bulletin/current/" target="_blank">Undergraduate Bulletin</a>.</p>
                 <h5>Incompletes</h5>
                 <p>If an instructor agrees to assign an Incomplete in a course, the instructor will determine the date by which you must complete the work. However, the date may not be later than November 1, otherwise the grade of I will automatically be changed to I/F and calculated as a failing grade.</p>
                 <h5>No Record</h5>
