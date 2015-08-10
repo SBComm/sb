@@ -53,7 +53,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="no-icon-after" href="downloads/pdf/admissions/14020931-Stony-Brook-Viewbook.pdf">
+                        <a class="no-icon-after" href="downloads/pdf/admissions/15041371-Stony-Brook-Viewbook.pdf">
                             <div class="equal-height-col img-wrapper">
                                 <img src="img/brochures/viewbook.jpg" />
                             </div>
@@ -61,7 +61,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="no-icon-after" href="downloads/pdf/admissions/Why-Stony-Brook.pdf">
+                        <a class="no-icon-after" href="downloads/pdf/admissions/15021121-Stony-Brook-Why-Stony-Brook-Brochure.pdf">
                             <div class="equal-height-col img-wrapper">
                                 <img src="img/brochures/why-sb.jpg" />
                             </div>
