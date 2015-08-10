@@ -111,29 +111,18 @@
 
                                     <div class="controls">
                                         <select id="area" class="rounded-input">
-                                            <option id="blank">Select a site...</option><!--default value: blank-->
-                                            <option id="*">OU Campus Sites</option>
+                                            <!--default value: blank-->
+                                            <option id="blank">Select a site...</option>
+                                            <option id="">All OU Campus Sites</option>
+                                            <?php 
+                                                $file = "analytics/site-options.php";
+                                                include($path . $content . $file);
+                                            ?>
+                                            <!--
                                             <option id="commcms\/advancement">Advancement</option>
-                                            <option id="alliedhealth">College of Allied Health Sciences</option>
-                                            <option id="dentalmedicine">College of Dental Me</option>
-                                            <option id="colleges\/education">College of Education</option>
-                                            <option id="nursing">College of Nursing</option>
-                                            <option id="colleges\/scimath">College of Science and Mathematics
-                                            </option>
-                                            <option id="ce">Continuing Education</option>
-                                            <option id="gradstudies">The Graduate School</option>
-                                            <option id="hull">Hull College of Business</option>
-                                            <option id="hr">Human Resources</option>
-                                            <option id="its">Information Technology Services</option>
-                                            <option id="library">Library</option>
-                                            <option id="mcg">Medical College of Georgia</option>
-                                            <option id="colleges\/pamplin">Pamplin College of Arts, Humanities,
-                                                and Social Sciences
-                                            </option>
-                                            <option id="research">Research</option>
+                                            -->
                                         </select>
                                         <span id="areaHelp" class="help-inline"></span>
-
                                     </div>
                                     <p class="small-text">If you do not see your website or section, you can <a class="external-link" href="http://www.stonybrook.edu/commcms/_cms/support/help_ticket.html" target="_blank">request access</a></p>
                                 </div>
