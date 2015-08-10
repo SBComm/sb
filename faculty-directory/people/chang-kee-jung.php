@@ -7,7 +7,7 @@
                 <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
                 <a href="https://www.linkedin.com/in/palmerijosh" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
             </div>
-            <a class="hide-on-faculty-directory" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank"><em class="fa fa-reply" target="_blank"></em>Contact</a>
+            <a class="hide-on-faculty-directory" href="https://docs.google.com/forms/d/1TMdTQMFSkVE-9Dswm8PNGAGhnM-3e9XJz9FWCfGNzMk/viewform" target="_blank"><em class="fa fa-reply" target="_blank"></em>Contact</a>
         </div>
     </div>
     <div class="right-col">

@@ -724,6 +724,9 @@ a.modify-search-after {
     font-size: 2.6em;
     text-align: center;
     background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .profile .social-list-mobile .social-list a em {
@@ -747,10 +750,10 @@ a.modify-search-after {
 }
 
 .profile .social-list em {
-    margin: 0 6px 0 0;
     display: inline-block;
     width: 14px;
     text-align: center;
+    margin: 0;
 }
 
 .profile .social-list .website{

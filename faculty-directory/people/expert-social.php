@@ -2,7 +2,7 @@
     <div class="left-col">
         <img src="faculty-directory/images/chang-kee-jung.png" />
         <div class="social-list social-list-desktop">
-            <div class="hide-on-faculty-experts">
+            <div>
                 <a href="http://site.com" target="_blank"><em class="fa fa-laptop website"></em>Website</a>
                 <a href="https://twitter.com/JoshPalmeri" target="_blank"><em class="fa fa-twitter" target="_blank"></em>Twitter</a>
                 <a href="https://www.linkedin.com/in/palmerijosh" target="_blank"><em class="fa fa-linkedin" target="_blank"></em>LinkedIn</a>
@@ -330,7 +330,7 @@
                 <iframe width="560" height="349" src="http://www.youtube.com/embed/ZLC2RmvVDhw?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="profile-section clearfix social-list-mobile hide-on-faculty-experts">
+        <div class="profile-section clearfix social-list-mobile">
             <h3>Connect On...</h3>
             <div class="social-list">
                 <a href="http://site.com" target="_blank" title="View Website"><em class="fa fa-laptop website" target="_blank"></em></a>

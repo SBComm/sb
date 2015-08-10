@@ -54,15 +54,15 @@
     </section>
     <section class="search-experts contact-footer clearfix">
         <p>Looking to get in touch with an expert?</p>
-        <a class="sbu-button view-all-button fa-arrow-after show-search-overlay" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php" target="_blank">Contact Us</a>
+        <a class="sbu-button view-all-button fa-arrow-after show-search-overlay" href="https://docs.google.com/forms/d/1TMdTQMFSkVE-9Dswm8PNGAGhnM-3e9XJz9FWCfGNzMk/viewform" target="_blank">Contact Us</a>
     </section>
     <section class="clearfix search-experts search-experts-inside hide-accessible">
         <div class="no-pad-wrapper clearfix">
             <p class="label clearfix">To arrange an interview with any member of our faculty, contact the <span class="nowrap">Stony Brook Newsroom</span>.</p>
-            <p class="label clearfix default-font-size"><a class="sbu-button fa-arrow-after clearfix" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php">Submit a Request</a></p>
+            <p class="label clearfix default-font-size"><a class="sbu-button fa-arrow-after clearfix" href="https://docs.google.com/forms/d/1TMdTQMFSkVE-9Dswm8PNGAGhnM-3e9XJz9FWCfGNzMk/viewform">Submit a Request</a></p>
             <p class="divider clearfix"><span>or</span></p>
             <p class="label clearfix center-text">Call the Stony Brook Newsroom directly at 631.632.6310</p>
-            <!--<p class="label clearfix default-font-size"><a class="sbu-button fa-arrow-after clearfix" href="http://sb.cc.stonybrook.edu/news/media_relations/contact.php">View all contact information</a></p>-->
+            <!--<p class="label clearfix default-font-size"><a class="sbu-button fa-arrow-after clearfix" href="https://docs.google.com/forms/d/1TMdTQMFSkVE-9Dswm8PNGAGhnM-3e9XJz9FWCfGNzMk/viewform">View all contact information</a></p>-->
             <a class="close-search-overlay" href="."><i class="fa-times"></i><span class="hide-accessible"> Close</span></a>
         </div>
     </section>
