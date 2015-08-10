@@ -1,0 +1,4 @@
+#AuthType shibboleth
+#Require shibboleth
+#ShibRequireSession On
+#require affiliation student@stonybrook.edu
