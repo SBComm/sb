@@ -24,7 +24,7 @@
     <section class="clearfix inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
             <h3>How to Apply to Stony Brook as a Transfer</h3>
-            <div class="content application-details alert-message red clearfix">
+            <div class="content application-details alert-message green clearfix">
                 <p><strong>Please note:</strong> Applications are now being accepted for the spring and fall 2016 semesters.</p>
             </div>
             <div class="content application-details clearfix">

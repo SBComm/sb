@@ -13,8 +13,8 @@
     </tr>
     <tr>
         <td><strong>Fall 2016 EOP</strong></td>
-        <td>February 1</td>
-        <td>February 1</td>
+        <td>March 1</td>
+        <td>March 1</td>
         <td>Beginning Late-March</td>
     </tr>
     <tr>
