@@ -26,7 +26,7 @@
 
 			$keywords          = "Stony Brook University,Undergraduate Admissions,Admissions,Majors,Minors,Special Programs,Visiting,About,Transfer Office,Transfer,Young Scholars Program,Honors,University Scholars,Admitted,International,Open House,Tour,Scholarships";
 	        $page_title        = 'Faculty Experts at Stony Brook University, New York';
-	        $page_title_sub    = '';
+	        $page_title_sub    = 'Newsroom';
 	        $page_title_full   = $page_title;
 
 	        $og_title        = 'Stony Brook ' . $page_title_sub;
@@ -55,7 +55,7 @@
     		$page_scroll      = true;
 	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 	        $page_scroll_time = 0;
-	        $page_scroll_mobile = false;
+	        $page_scroll_mobile = true;
 		?>
 
 	<!-- <head> -->
