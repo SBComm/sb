@@ -122,7 +122,7 @@
 						include($path . $file);
 					} ?>
 					<?php if($page_footerbar) {
-						$file = "footerbar.php";
+						$file = "footerbar-no-phone.php";
 						include($path . $file);
 					} ?>
 				<!-- </div.footer-container> -->
