@@ -37,8 +37,6 @@ function loadData() {
 
     var pass = true;
 
-    console.log('this:' + startDate + ':');
-
     if (startDate == "" || startDate == " " || startDate == "null" || startDate == null) {
         pass = false;
         $('#startDiv').addClass("error");
@@ -78,7 +76,7 @@ function loadData() {
     if (checked <= 0) {
         pass = false;
         $('#metricsDiv').addClass("error");
-        $('#metricsHelp').html("You must select at least metric.");
+        $('#metricsHelp').html("Please select at least one metric.");
         $('#metricsHelp').addClass('animated flash').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
             $(this).removeClass('animated flash');
         });
