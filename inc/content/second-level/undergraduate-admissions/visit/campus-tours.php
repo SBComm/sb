@@ -34,7 +34,7 @@
                 </div>
                 <h4>For Transfer Students</h4>
                 <div class="button-wrapper tour-btn clearfix">
-                    <a href="undergraduate-admissions/events/?session=transfer" class="rounded-button-1 icon school-icon">
+                    <a href="https://sunysb.askadmissions.net/Portal/EI/GroupUrl?gid=5304596bbe11a6e8f0482291358a7a7d01e4e1" class="rounded-button-1 icon school-icon">
                         <span class="label">View Events for Transfers</span>
                     </a>
                 </div>

@@ -32,7 +32,7 @@
                 <p>Applicants who do not specify a major on their application are considered for admission to the University rather than to a particular major. Transfer students with more than 56 credits must indicate a major on their application to be eligible for financial aid.</p>
                 <p>Offers of admission are conditional, pending receipt of all official records showing successful completion of academic work in progress.</p>
                 <div class="button-wrapper tour-btn clearfix">
-                    <a href="undergraduate-admissions/events/?session=transfer" class="rounded-button-1 icon school-icon">
+                    <a href="https://sunysb.askadmissions.net/Portal/EI/GroupUrl?gid=5304596bbe11a6e8f0482291358a7a7d01e4e1" class="rounded-button-1 icon school-icon">
                         <span class="label">View Events for Transfers</span>
                     </a>
                 </div>
