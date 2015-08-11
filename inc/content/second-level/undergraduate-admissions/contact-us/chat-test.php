@@ -86,5 +86,5 @@
     var cwl_bgColor = "#961B1B"; /** Color code corresponding to the color you would like to see */
     var cwl_topPosition = "96"; /** Indicate position of the widget */
 </script>
-<style type="text/css">.campusConnect {position:fixed !important;}</style>
+<style type="text/css">.campusConnect {position:fixed !important;opacity:.95;}</style>
 <script type="text/javascript" src="//www.collegeweeklive.com/js/chat/embed_chat.js"></script>
