@@ -323,9 +323,12 @@
                             </ul>
                         </li>
                         <li>
-
                             <a href="undergraduate-admissions/academics/program-details?code=egl">English, BA</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
+                        </li>
+                        <li>
+                            <a href="undergraduate-admissions/academics/program-details?code=ent">Entreneuership</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
