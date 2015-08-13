@@ -75,7 +75,7 @@
             <h3>Cost of Attendance</h3>
             <div class="cost-table-wrapper clearfix">
                 <div class="cost-stats clearfix">
-                    <h4>2014-2015 Estimated Yearly Cost for Full-Time Undergraduates*</h4>
+                    <h4>2015-2016 Estimated Yearly Cost for Full-Time Undergraduates*</h4>
                     <table class="responsive-table clearfix">
                         <tr>
                             <th class="label" colspan="2">Direct Costs ** <span class="note">(Payable to SBU)</span></th>
