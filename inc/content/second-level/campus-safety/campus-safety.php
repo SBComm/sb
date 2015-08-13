@@ -271,6 +271,7 @@
                         <div class="content col-two-third">
                             <p><a class="external-link" href="http://www.stonybrook.edu/ehs/" title="Environmental Health and Safety" target="_blank">Environmental Health &amp; Safety</a> promotes safety and environmental stewardship through the development and implementation of a variety of environmental, health and safety programs.</p>
                             <p>Your awareness and involvement will help to ensure compliance and the well-being of our campus community.</p>
+                            <p><strong>Health Advisory</strong>: <a class="external-link" href="http://www.stonybrook.edu/ehs/mers/" target="_blank">Middle East Respiratory Syndrome (MERS)</a></p>
 
                             <h4>Lab Safety</h4>
                             <ul class="default-bullets">
