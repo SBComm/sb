@@ -96,6 +96,8 @@
 
     $lightbox         = false;
 
+    $motio            = false;
+
     $equal_col        = false;
     $equal_col_desktop = false;
 
