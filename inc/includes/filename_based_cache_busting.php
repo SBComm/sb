@@ -25,7 +25,7 @@
     */
 
     // Build the new filename and echo the include statement
-    function includeAsset($type,$filename,$attr1) {
+    function includeAsset($type, $filename, $attr1 = NULL) {
         $extras = '';
         if($GLOBALS['filename_based_cache_busting']) {
             $asset_path = $GLOBALS['working_path_asset_dir'] . '/' . $filename;
@@ -47,7 +47,7 @@
             $asset_path = $filename;
         }
         if($type=='css') {
-            if($attr1) {
+            if (isset($attr1)) {
                 $extras = ' media="'.$attr1.'"';
             } else {
                 $extras = '';
