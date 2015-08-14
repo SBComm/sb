@@ -34,8 +34,7 @@
 
     <!--BEGIN CSS Includes-->
         <?php includeAsset('css','css/vendor/normalize.min.css'); ?>
-        <link href="/sb/css/main.css" rel="stylesheet">
-        <!--<?php includeAsset('css','css/main.css'); ?>-->
+        <?php includeAsset('css','css/main.css'); ?>
         <?php includeAsset('css','css/nav.css'); ?>
         <?php includeAsset('css','css/elements/cd-dropdown/cd-dropdown.css'); ?>
         <?php includeAsset('css','css/elements/tables/responsive-table.css'); ?>
