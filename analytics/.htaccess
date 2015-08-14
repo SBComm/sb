@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^m(obile\.cc\)?.stonybrook\.edu$ [NC]
+RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu$ [NC]
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,NE,R=301]
 
