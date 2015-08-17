@@ -8,9 +8,9 @@
         <div class="no-pad-wrapper border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
-                    <a href="http://mobile.cc.stonybrook.edu/sb/features/title-ix/" target="_blank">
+                    <a href="http://www.stonybrook.edu/ehs/mers/" target="_blank">
                         <div class="item">
-                            <img src="campus-safety/images/title_ix_safety_marquee.jpg" />
+                            <img src="campus-safety/images/mers-safety.jpg" />
                         </div>
                     </a>
                     <!--
@@ -20,6 +20,11 @@
                         </div>
                     </a>
                     -->
+                    <a href="http://mobile.cc.stonybrook.edu/sb/features/title-ix/" target="_blank">
+                        <div class="item">
+                            <img src="campus-safety/images/title_ix_safety_marquee.jpg" />
+                        </div>
+                    </a>
                     <a href="#traffic-safety">
                         <div class="item">
                             <img src="campus-safety/images/dist_driving_marquee.jpg" />
