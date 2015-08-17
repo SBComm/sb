@@ -47,8 +47,22 @@
         </div>
     </section>
 </article>
+<article class="welcome-students">
+    <section class="wrapper arrow-above clearfix">
+        <div class="border-box clearfix">
+            <div class="welcome-title">Welcome Back<br /> Resources for<br /> New &amp; Returning<br /> Students</div>
+        </div>
+        <div class="border-box clearfix welcome-buttons">
+            <a href="downloads/pdf/students/15031311-WelcomePaperNewsletterFall15.pdf" target="_blank"><span>Welcome Paper</span></a>
+            <a href="http://studentaffairs.stonybrook.edu/orientation/freshmen/esbfreshmen.shtml"><span>Experience <strong class="nowrap">Stony Brook</strong></span></a>
+            <a href="http://studentaffairs.stonybrook.edu/sac/programming/openingactivities2015.shtml"><span>Opening Schedule</span></a>
+            <a href="http://it.stonybrook.edu/students"><span>IT Orientation Guide</span></a>
+            <a href="http://studentaffairs.stonybrook.edu/orientation/about/orientationhandouts.shtml"><span>Student Handouts</span></a>
+        </div>
+    </section>
+</article>
 <article>
-    <section class="wrapper title-link-box-wrapper arrow-above arrow-below arrow-below-white">
+    <section class="wrapper title-link-box-wrapper arrow-below arrow-below-white">
         <div class="border-box clearfix title-link-box-container inside-content">
             <div class="title-link-box-1 left-link-box clearfix">
                 <h2 class="red medium-title-3">Student Resources</h2>
@@ -87,6 +101,7 @@
                                 <a href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">Center for Prevention &amp; Outreach</a>
                                 <a href="http://www.studentaffairs.stonybrook.edu/caps/" target="_blank">Counseling &amp; Psychological Services (CAPS) </a>
                                 <a href="http://it.stonybrook.edu/services/client-support-service-center" target="_blank">Computer Support</a>
+                                <a href="http://studentaffairs.stonybrook.edu/dos" target="_blank">Dean of Students</a>
                                 <a href="http://stonybrook.edu/ombuds" target="_blank">Ombuds Office</a>
                                 <a href="http://studentaffairs.stonybrook.edu/stu/index.shtml" target="_blank">Student Affairs</a>
                                 <a href="http://studentaffairs.stonybrook.edu/shs/" target="_blank">Student Health Services</a>

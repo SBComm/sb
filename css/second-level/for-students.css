@@ -491,6 +491,57 @@ section.we-are-seawolves {
     opacity: 1;
 }
 
+.welcome-students {
+    background-image: url("../../img/students/students-wide-red-overlay.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 0 0 40px;
+}
+
+.welcome-title {
+    display: block;
+    font-family: 'CenturyExpandedLTW01-Ro';
+    text-align: center;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.3em;
+    color: #fff;
+    margin: 0 0 20px;
+
+}
+
+.welcome-buttons a {
+    background: #fff;
+    opacity: .975;
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    border: 2px solid #a00;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.2em;
+    padding: .3em 1em;
+    margin: 0 auto .65em;
+    max-width: 300px;
+}
+
+.welcome-buttons a strong {
+    font-weight: normal;
+}
+
+@media only screen and (min-width: 400px) {
+    .welcome-students {
+        font-size: 1.2em;
+    }
+}
+
 @media only screen and (min-width: 480px) {
     
 }
@@ -571,7 +622,47 @@ section.we-are-seawolves {
 }
 
 @media only screen and (min-width: 768px) {
-    
+
+}
+
+@media only screen and (min-width: 860px) {
+    .welcome-title {
+        font-size: 1.8em;
+        margin: 10px 0 40px;
+    }
+
+    .welcome-buttons a {
+        display: inline-block;
+        font-size: 1em;
+        float: left;
+        width: 18.8%;
+        display: table;
+        min-height: 3.3em;
+        border-width: 3px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #333;
+    }
+
+    .welcome-buttons a:hover {
+        opacity: 1;
+        border-color: #b00;
+        color: #b00;
+    }
+
+    .welcome-buttons a:after {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .welcome-buttons a span {
+        display: table-cell; 
+        vertical-align: middle; 
+        text-align: center; 
+    }
+
+    .welcome-buttons a + a {
+        margin-left: 1.4%;
+    }
 }
 
 @media only screen and (min-width: 960px) {
