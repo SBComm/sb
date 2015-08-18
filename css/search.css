@@ -778,8 +778,8 @@ input.gsc-search-button {
     width: 100%;
     border: 0 none;
     overflow-y: auto;
-    height: 400px;
-    /*height: 8000px;*/
+    /*height: 400px;*/
+    height: 8000px;
   }
 
 @media only screen and (min-width: 480px) {
