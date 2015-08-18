@@ -7,8 +7,16 @@
 				            </div>
 			            </header>
 		            </div>
-<?php } ?>
-<?php if($page_cat=='sub') { ?>
+<?php } elseif($second_level == 'faculty-experts') { ?>
+					<div class="logo-container page-cat-sub clearfix border-box">
+		            	<header class="no-pad-wrapper">
+				            <div class="logo-wrapper">
+				            	<div class="logo"><a href="http://www.stonybrook.edu/"><img src="img/stony-brook-university-logo.jpg" /></a></div>
+				            	<h1 class="site-name serif"><a href="http://stonybrook.edu/newsroom/"><?php echo $page_title_sub; ?></a></h1>
+				            </div>
+			            </header>
+		            </div>
+<?php } elseif($page_cat=='sub') { ?>
 					<div class="logo-container page-cat-sub clearfix border-box">
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
