@@ -27,10 +27,9 @@
                 $file = "faculty-experts/trending-topics.php";
                 include($path . $content . $secLv . $file);
             ?>
-            <h3>Browse Experts</h3>
             <div class="list browse-list">
-                <a class="fa-arrow-after" href="faculty-experts/departments">View departments</a>
-                <a class="fa-arrow-after" href="faculty-experts/topics">View topics</a>
+                <a class="fa-arrow-after" href="faculty-experts/departments">View all departments</a>
+                <a class="fa-arrow-after" href="faculty-experts/topics">View all topics</a>
                 <a class="fa-arrow-after" href="faculty-experts/results/">View all experts</a>
             </div>
         </div>
