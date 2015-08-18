@@ -22,7 +22,7 @@
 		<?php
 			$page_type       = 'second-level';
 			$second_level    = 'analytics';
-			$page_title_sub  = 'Stony Brook Web Analytics';
+			$page_title_sub  = 'Analytics';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
