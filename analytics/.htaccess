@@ -1,7 +1,6 @@
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(?:[^/]*/)*([^/.]+\.(?:jpe?g|gif|bmp|png|tiff|css|js|pdf))$ https://%{SERVER_NAME}/$1 [R=301,L]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,NE,R=301]
 
 #AuthType shibboleth
 #Require shibboleth
