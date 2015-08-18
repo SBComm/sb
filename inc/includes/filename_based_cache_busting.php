@@ -46,15 +46,6 @@
         } else {
             $asset_path = $filename;
         }
-
-        if($_SERVER['SERVER_NAME'] != 'localhost') {
-            if($is_dev !== false) {
-                $asset_path = 'https://mobile.cc.stonybrook.edu/development/sb/' . $asset_path;
-            } else {
-                $asset_path = 'https://mobile.cc.stonybrook.edu/sb/' . $asset_path;
-            }
-        }
-
         if($type=='css') {
             if (isset($attr1)) {
                 $extras = ' media="'.$attr1.'"';
