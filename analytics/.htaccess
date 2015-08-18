@@ -1,7 +1,7 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu$ [NC]
 RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,NE,R=301]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(?:[^/]*/)*([^/.]+\.(?:jpe?g|gif|bmp|png|tiff|css|js|pdf))$ https://%{SERVER_NAME}/$1 [R=301,L]
 
 #AuthType shibboleth
 #Require shibboleth
