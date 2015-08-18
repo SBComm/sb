@@ -1,4 +1,4 @@
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
 		<?php includeAsset('js','js/cd-dropdown/jquery.dropdown.js'); ?>
@@ -218,7 +218,7 @@
 								thumb: true
 							},
 							rss: {
-								id: 'http://sb.cc.stonybrook.edu/news/_resources/rss/all.rss'
+								id: '//sb.cc.stonybrook.edu/news/_resources/rss/all.rss'
 							},
 							facebook: {
 								id: '30450493231,218862101583940',

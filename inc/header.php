@@ -43,7 +43,7 @@
         <?php includeAsset('css','css/vendor/tooltipster/themes/tooltipster-light.css'); ?>
         <!--<link rel="stylesheet" href="fonts/icomoon/style.css">-->
         <!--<link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">-->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <!--END CSS Style Includes-->
 
         <?php if($carousel) { ?>
@@ -171,11 +171,11 @@
 
     <!--BEGIN Fonts.com Include-->
 		<!--<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/4d69d29a-9fcc-4dfe-bd87-a65adb689f6c.css"/>-->
-        <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
+        <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
     <!--END Fonts.com Include-->
 
     <!--BEGIN Google fonts fallback-->
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <!--END Google fonts fallback-->
 
     <!--BEGIN Modernizr Include-->
