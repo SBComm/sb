@@ -46,9 +46,14 @@
         } else {
             $asset_path = $filename;
         }
-        
-        /* Make absolute */
-        $asset_path = $css_base_url . $asset_path;
+
+        if($_SERVER['SERVER_NAME'] != 'localhost') {
+            if($is_dev !== false) {
+                $asset_path = 'https://mobile.cc.stonybrook.edu/development/sb/' . $asset_path;
+            } else {
+                $asset_path = 'https://mobile.cc.stonybrook.edu/sb/' . $asset_path;
+            }
+        }
 
         if($type=='css') {
             if (isset($attr1)) {
