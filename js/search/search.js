@@ -59,7 +59,8 @@ function doPeopleSearch(peopleInputVal) {
         peopleLink = peopleSrc + peopleQuery;
         peopleFrame = $('#people-frame');
         peopleFrame.attr('src',peopleLink);
-        //peopleFrame.iFrameResize({log:true});
+        peopleFrame.iFrameResize({});
+        /*peopleFrame.iFrameResize({log:true});*/
     }
     
 }
@@ -139,7 +140,7 @@ $(document).ready(function() {
         doPeopleSearch($('.site-input input').val());
     });
 
-    $('#people-frame').iFrameResize({});
+    //$('#people-frame').iFrameResize({});
 
     //intercept links for people and pages, append the current search term querystring, then do search
     $('.search-pages-link a').click(function(e){

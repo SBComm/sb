@@ -193,7 +193,7 @@
 			});
 		</script>
 		<?php includeAsset('js','js/vendor/selectivizr-min.js'); ?>
-		<?php includeAsset('js','js/vendor/iframeResizer.min.js'); ?>
+		<?php includeAsset('js','js/vendor/iframeResizer.js'); ?>
 
 		<?php if($summer_session_courses) {
 			includeAsset('js','js/summer-session/summer-session-courses.js');
