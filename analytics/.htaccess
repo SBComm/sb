@@ -1,7 +1,3 @@
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,NE,R=301]
-
 AuthType shibboleth
 Require shibboleth
 ShibRequireSession On
