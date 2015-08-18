@@ -179,6 +179,6 @@
     <!--END Google fonts fallback-->
 
     <!--BEGIN Modernizr Include-->
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <?php includeAsset('js','js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'); ?>
     <!--END Modernizr Include-->
     </head>
