@@ -47,13 +47,8 @@
             $asset_path = $filename;
         }
         
-        if($_SERVER['SERVER_NAME'] != 'localhost') {
-            if($is_dev !== false) {
-                $asset_path = $_SERVER['DOCUMENT_ROOT'] . $dev_dir . $asset_path;
-            } else {
-                $asset_path = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . $asset_path;
-            }
-        }
+        /* Make absolute */
+        $asset_path = $css_base_url . $asset_path;
 
         if($type=='css') {
             if (isset($attr1)) {
