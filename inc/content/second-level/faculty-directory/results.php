@@ -48,7 +48,7 @@
 
             <div class="toggle-view">
                 <a class="view-list<?php if($view=='list') { ?> active<?php } ?>" href="faculty-directory/results/?view=list"><em class="icon fa fa-list-ul"></em> List View</a>
-                <a class="view-grid<?php if($view=='grid') { ?> active<?php } ?>" href="faculty-directory/results/?view=grid"><em class="icon fa fa-th"></em> Grid View</a>
+                <a class="view-grid<?php if($view=='grid') { ?> active<?php } ?>" href="faculty-directory/results/?view=grid"><em class="icon fa fa-th"></em> Photo View</a>
             </div>
         </div>
     </section>
