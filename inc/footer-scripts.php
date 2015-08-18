@@ -193,7 +193,7 @@
 			});
 		</script>
 		<?php includeAsset('js','js/vendor/selectivizr-min.js'); ?>
-		<?php includeAsset('js','js/vendor/iframeResizer.js'); ?>
+		<?php includeAsset('js','js/vendor/iframeResizer.js'); /* using non-min version; min produces error on */ ?> 
 
 		<?php if($summer_session_courses) {
 			includeAsset('js','js/summer-session/summer-session-courses.js');
