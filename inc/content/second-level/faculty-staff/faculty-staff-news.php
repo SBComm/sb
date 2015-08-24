@@ -2,23 +2,25 @@
     ini_set('display_errors', '0');
     parse_str($_SERVER['QUERY_STRING']);
     
-    //if (!isset($rss))
-        $rss = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx";
+    if (!isset($rss))
+        $rss = "http://sb.cc.stonybrook.edu/happenings/feed";
     
-    //if (!isset($start))
+    if (!isset($start))
         $start = 0;
     
-    //if (!isset($end))
-        $end = 3;
+    if (!isset($end))
+        $end = 5;
     
-    //if (!isset($count))
-        $count = 3;
+    if (!isset($count))
+        $count = 5;
     
-    //if (!isset($callback))
+    if (!isset($callback))
         $callback = "";
     
     $rssFeed = simplexml_load_file($rss);
     $html = '';
+
+    error_reporting(TRUE);
     
     foreach ($rssFeed->channel->item as $item){
         
@@ -31,7 +33,6 @@
             $rss_url = $item->link;
             $rss_desc = $item->description;
             $rss_datetime = $item->pubDate;
-            $rss_readable_date = $item->category;
 
             $rss_title = str_replace("<![CDATA[","",$rss_title);
             $rss_title = str_replace("]]>","",$rss_title);
@@ -39,13 +40,12 @@
             $rss_desc = str_replace("<![CDATA[","",$rss_desc);
             $rss_desc = str_replace("]]>","",$rss_desc);
 
-            $dateFormat = 'D, j M Y H:i:s O'; // Mon, 24 Aug 2015 04:00:00 GMT
-            
+            $dateFormat = 'D, d M Y H:i:s O'; // Mon, 06 Aug 2015 16:53:14 +0000
             $eventDate = DateTime::createFromFormat($dateFormat, $rss_datetime);
 
-            $eventMonth = $eventDate->format('M');
+            $eventMonth = $eventDate->format('n');
             $eventDay   = $eventDate->format('j');
-            $eventYear  = $eventDate->format('Y');
+            $eventYear  = $eventDate->format('y');
 
             $eventWeekday  = $eventDate->format('l');
             $eventHour     = $eventDate->format('g');
@@ -70,17 +70,7 @@
             }
 
             if ($proceed) {
-                $html .= '<li class="clearfix">';
-                $html .= '<a class="date-marker" href="'.$rss_url.'" title="'.$rss_title.'" target="_blank">';
-                $html .= '<span class="event-month">'.$eventMonth.'</span>';
-                $html .= '<span class="event-date">'.$eventDay.'</span>';
-                $html .= '</a>';
-                $html .= '<a class="event-details" href="'.$rss_url.'" title="'.$rss_title.'" target="_blank">';
-                $html .= '<span class="event-title aqua">'.$rss_title.'</span>';
-                $html .= '<span class="event-time">'.$eventWeekday.', '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
-                $html .= '<span class="event-desc">'.$rss_output_desc.'</span>';
-                $html .= '</a>';
-                $html .= '</li>';
+                $html .= '<a href="'.$rss_url.'" target="_blank"><strong class="date">'.$eventMonth.'/'.$eventDay.'/'.$eventYear.'</strong> <span>'.$rss_title.'</span></a>';
                 $count--;
             }
             /*            

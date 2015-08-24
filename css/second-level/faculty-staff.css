@@ -99,7 +99,7 @@ section.title-link-box-wrapper {
 
 .opportunities-wrapper {
     margin: 30px 0;
-    background-image: url("../../img/misc/opportunities-phone-bkgnd.jpg");
+    background-image: url("../../img/misc/opportunities-phone-bkgnd-2.jpg");
     background-size: cover;
     background-position: 100% 50%;
     -webkit-box-sizing: border-box;
@@ -276,38 +276,68 @@ section.activities-and-calendar {
     .activities-and-calendar .activities-links {
         display: block;
         width: 100%;
-        padding: 14px 25px 18px 14px;
+        padding: 0 0 18px 0;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         border: 2px solid #47c2c8;
         text-align: center;
-        max-width: 260px;
-        margin: 10px auto;
-        background: url("../../img/bkg/transparent-black-50.png") repeat scroll 0 0;
-        background: rgba(0,0,0,.5);
+        margin: 10px auto 60px;
+        background: url("../../img/bkg/transparent-black-70.png") repeat scroll 0 0;
+        background: rgba(0,0,0,0.7);
     }
+        .activities-and-calendar .activities-links h4 {
+            display: block;
+            width: 100%;
+            background: #800;
+            color: #fff;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0 0 10px;
+            padding: 8px 20px;
+            font-family:'Trade Gothic W01 Roman';
+            text-transform: uppercase;
+            font-size: 1.2em;
+            font-weight: normal;
+            text-align: left;
+        }
         .activities-and-calendar .activities-links a {
             color: #fff;
             display: block;
             width: 100%;
-            padding: 4px 0;
+            padding: 9px 20px;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box;
+            text-align: left;
+        }
+        .activities-and-calendar .activities-links a strong {
+            background: #800;
+            color: #fff;
+            border-radius: 2px;
+            padding: 1px 4px;
+            opacity: .8;
         }
         .activities-and-calendar .activities-links a:hover {
-            color: #47c2c8;
+            text-decoration: none;
+            color: #fff;
         }
-        .activities-and-calendar .activities-links a:before {
-            content: "\f005";
+        .activities-and-calendar .activities-links a:hover span {
+            text-decoration: underline;
+        }
+        .activities-and-calendar .activities-links a:hover strong {
+            opacity: 1;
+            text-decoration: none
+            ;
+            color: #fff;
+        }
+        .activities-and-calendar .news-links a:before {
+            content: "✭";
             margin: 0 10px 0 0;
-            font-family: FontAwesome;
             font-style: normal;
             font-weight: normal;
             line-height: 1;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
             position: relative;
             z-index: 1;
             font-size: .9em;
@@ -330,7 +360,7 @@ section.activities-and-calendar {
     }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 960px) {
     .activities-and-calendar .content {
         float: left;
         padding: 0;
@@ -355,11 +385,11 @@ section.activities-and-calendar {
         margin: 0 4% 0 0;
         max-width: 800px;
         text-align: left;
-        padding: 0 5px 15px 0;
+        padding: 0 0 15px 0;
     }
     .activities-and-calendar .activities-links a {
         font-size: .9em;
-        padding: 8px 8px 8px 28px;
+        padding: 8px 12px 8px 20px;
     }
 }
 

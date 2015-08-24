@@ -2774,7 +2774,8 @@ body {
         text-indent: -25px;
     }
     
-    .star-bullets li:before {
+    .star-bullets li:before,
+    .star-before:before {
         content: "✭";
         margin: 0 10px 0 0;
         font-style: normal;
@@ -2786,6 +2787,9 @@ body {
         width: 10px;
         text-align: center;
         color: #0fffff;
+    }
+    .star-before:before {
+        color: #900;
     }
 
     .box-bullets li {

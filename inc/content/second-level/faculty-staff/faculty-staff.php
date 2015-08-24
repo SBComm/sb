@@ -9,16 +9,16 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
-                        <a href="http://studentaffairs.stonybrook.edu/orientation/freshmen/esbfreshmen.shtml" target="_blank" title="Experience Stony Brook: Orientation for New Students">
+                        <a href="http://www.stonybrook.edu/sb/healthieru/index.html" target="_blank" title="HealthierU: Wellness in the Workplace">
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">Lorem Ipsum Dolor!</div>
+                                <div class="carousel-title white">A healthier University begins with a healthier you!</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
                     </div>
-                    <div class="item">
+                    <!--<div class="item">
                         <a href="http://studentaffairs.stonybrook.edu/orientation/about/esb.shtml" target="_blank" title="Winter Session: Earn 3 credits in 3 weeks!">
                             <div class="carousel-image clearfix" data-image="02">
                             </div>
@@ -37,7 +37,7 @@
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="owl-prev owl-prev-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-left"></em></div>
                 <div class="owl-next owl-next-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-right"></em></div>
@@ -57,86 +57,94 @@
                         </div>
                         <div class="content clearfix open">
                             <div class="content-wrap">
-                                <a href="https://blackboard.stonybrook.edu/" title="Blackboard" target="_blank">Blackboard</a>
-                                <a href="http://www.stonybrook.edu/mycloud/" title="Gmail" target="_blank">Gmail</a>
-                                <a href="http://it.stonybrook.edu/services/solar/" title="SOLAR" target="_blank">SOLAR</a>
-                                <a href="http://sb.cc.stonybrook.edu/bulletin/current/" title="Undergraduate Bulletin" target="_blank">Undergraduate Bulletin</a>
-                                <a href="http://www.stonybrook.edu/gradbulletin" title="Graduate Bulletin" target="_blank">Graduate Bulletin</a>
-                                <a href="http://www.stonybrook.edu/hscstudents/bulletin.shtml" title="HSC Bulletin" target="_blank">Health Sciences Bulletin</a>
                                 <a href="http://www.stonybrook.edu/registrar/calendar-academic.shtml" title="Academic Calendars" target="_blank">Academic Calendars</a>
-                                <a href="http://www.stonybrook.edu/registrar/finals.shtml" title="Midterm &amp; Final Exam Schedule" target="_blank">Midterm &amp; Final Exam Schedule</a>
-                                <a href="http://www.stonybrook.edu/registrar/" title="Registrar" target="_blank">Registrar</a>
-                                <a href="http://career.stonybrook.edu/students/connect/zebranet" title="ZebraNet" target="_blank">ZebraNet</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Where to Get Help</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <a href="for-students/academic-advising/">Academic Advising</a>
-                                <a href="http://stonybrook.edu/advisingmedia" target="_blank">Advising Tutorials</a>
-                                <a href="http://www.stonybrook.edu/commcms/academic_success/" target="_blank">Academic Success &amp; Tutoring Center</a>
-                                <a href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">Center for Prevention &amp; Outreach</a>
-                                <a href="http://www.studentaffairs.stonybrook.edu/caps/" target="_blank">Counseling &amp; Psychological Services (CAPS) </a>
-                                <a href="http://it.stonybrook.edu/services/client-support-service-center" target="_blank">Computer Support</a>
-                                <a href="http://stonybrook.edu/ombuds" target="_blank">Ombuds Office</a>
-                                <a href="http://studentaffairs.stonybrook.edu/stu/index.shtml" target="_blank">Student Affairs</a>
-                                <a href="http://studentaffairs.stonybrook.edu/shs/" target="_blank">Student Health Services</a>
-                                <a href="http://www.stonybrook.edu/commcms/due/index.html" target="_blank">Undergraduate Education</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Billing &amp; Financial Aid</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <a href="http://www.stonybrook.edu/bursar/" title="Bursar/Student Accounts" target="_blank">Bursar/Student Accounts</a>
-                                <a href="http://stonybrook.edu/finaid/" title="Financial Aid" target="_blank">Financial Aid</a>
-                                <a href="http://www.stonybrook.edu/hscstudents/fin_how_to_apply.shtml" title="Financial Aid (Heslth Sciences)" target="_blank">Financial Aid (Health Sciences)</a>
-                                <a href="http://www.stonybrook.edu/bursar/policy.shtml" title="Paying Your Bill" target="_blank">Paying Your Bill</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Computing &amp; Tech</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <a href="http://blackboard.stonybrook.edu/" title="Blackboard" target="_blank">Blackboard</a>
-                                <a href="http://it.stonybrook.edu/services/solar" title="SOLAR System" target="_blank">SOLAR</a>
-                                <a href="http://fsa.sunysb.edu/apple/" title="Apple Computer Purchases" target="_blank">Apple Computer Purchases</a>
-                                <a href="http://fsa.sunysb.edu/pc-education-discounts/" title="PC Computer Purchases" target="_blank">PC Computer Purchases</a>
-                                <a href="http://it.stonybrook.edu/services/client-support-service-center" title="Computer Support" target="_blank">Computer Support</a>      
-                                <a href="http://stonybrook.digication.com" title="ePortfolios" target="_blank">ePortfolios</a>
+                                <a href="http://www.stonybrook.edu/sb/admindepts.shtml" title="Administrative Departments" target="_blank">Administrative Departments</a>
+                                <a href="https://blackboard.stonybrook.edu" title="Blackboard" target="_blank">Blackboard</a>
+                                <a href="http://stonybrook.edu/mycloud" title="Google Apps for Education" target="_blank">Google Apps for Education</a>
+                                <a href="http://www.stonybrook.edu/hr/" title="Human Resource Services" target="_blank">Human Resource Services</a>
                                 <a href="http://it.stonybrook.edu" title="Information Technology (DoIT)" target="_blank">Information Technology (DoIT)</a>
+                                <a href="http://www.stonybrook.edu/jobs/" title="Job Opportunities" target="_blank">Job Opportunities</a>
+                                <a href="http://it.stonybrook.edu/services/solar" title="SOLAR" target="_blank">SOLAR</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Housing, Dining &amp; Parking</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Campus Services</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <a href="http://www.stonybrook.edu/dining/" target="_blank">Campus Dining</a>
-                                <a href="http://www.stonybrook.edu/sb/map/" target="_blank">Campus Maps</a>
-                                <a href="http://studentaffairs.stonybrook.edu/res/index.shtml" target="_blank">Campus Residences</a>
-                                <a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a>
-                                <a href="http://fsa.sunysb.edu/mealplan/" target="_blank">Meal Plans</a>
-                                <a href="http://studentaffairs.stonybrook.edu/css/" target="_blank">Commuter Student Services &amp; Off-Campus Living</a>
+                                <a href="http://www.campusdining.org">Campus Dining Services</a>
+                                <a href="http://studentaffairs.stonybrook.edu/rec/" target="_blank">Campus Recreation Center </a>
+                                <a href="http://www.stonybrook.edu/childcare/" target="_blank">Child Care </a>
+                                <a href="http://www.stonybrook.edu/commcms/_cse/" target="_blank">Conferences and Event Services</a>
+                                <a href="http://studentaffairs.stonybrook.edu/dss/index.shtml" target="_blank">Disability Support Services</a>
+                                <a href="http://webmedbooks.com/suny/default2.aspx" target="_blank">Health Sciences Center Bookstore</a>
+                                <a href="http://www.stonybrook.edu/hardshipfund/" target="_blank">Hardship Fund</a>
+                                <a href="http://www.sbinterfaith.org" target="_blank">Interfaith Center</a>
+                                <a href="http://www.stonybrook.edu/ombuds/" target="_blank">Ombudsman Office</a>
                                 <a href="http://www.stonybrook.edu/parking/" target="_blank">Parking Services</a>
-                                <a href="http://www.stonybrook.edu/transportation/" target="_blank">Transportation Services</a>
-                                <a href="http://studentaffairs.stonybrook.edu/for/index.shtml" target="_blank">SAC and SB Union Facilities</a>
+                                <a href="http://www.stonybrook.edu/fixit/" target="_blank">Repair and Maintenance Requests</a>
+                                <a href="http://studentaffairs.stonybrook.edu/for/facilities/index.shtml" target="_blank">SAC and SB Union Facilities</a>
+                                <a href="http://www.stonybrook.edu/provostliasn/bookstore/cmr-requisitions.shtml" target="_blank">Textbook Requisitions</a>
+                                <a href="http://www.stonybrook.edu/provostliasn/bookstore/" target="_blank">University Bookstore</a>
+                                <a href="http://fsa.sunysb.edu/services/the-ups-store/" target="_blank">UPS Store</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Computing &amp; Technology</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <a href="http://it.stonybrook.edu/services/catalog/category/hardware" target="_blank">Computer Purchases</a>
+                                <a href="https://stonybrook.digication.com" title="Financial Aid" target="_blank">ePortfolios</a>
+                                <a href="http://facultycenter.stonybrook.edu" target="_blank">Faculty Center</a>
+                                <a href="http://it.stonybrook.edu/services/faculty-center" target="_blank">Teaching Support Services</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Health &amp; Safety</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <a href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">Center for Prevention and Outreach</a>
+                                <a href="http://www.studentaffairs.stonybrook.edu/caps/" target="_blank">Counseling and Psychological Services</a>
+                                <a href="http://www.stonybrook.edu/commcms/emergency/" target="_blank">Emergency Management</a>
+                                <a href="http://www.stonybrook.edu/commcms/eap/" target="_blank">Employee Assistance Program</a>
+                                <a href="http://www.stonybrook.edu/ehs/" target="_blank">Environmental Health and Safety</a>      
+                                <a href="http://www.stonybrook.edu/lostandfound/" target="_blank">Lost and Found</a>
+                                <a href="http://www.stonybrook.edu/sb/behavior.shtml" target="_blank">Responding to Classroom Disruptions</a>
+                                <a href="http://www.stonybrook.edu/sb/trafficsafety/" target="_blank">Traffic Safety</a>
+                                <a href="http://www.stonybrook.edu/police/" target="_blank">University Police</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Governance</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <a href="http://www.stonybrook.edu/senatecas/" target="_blank">Arts and Sciences Senate</a>
+                                <a href="http://www3.cs.stonybrook.edu/~drs/indexefa.htm" target="_blank">Emeritus Faculty Association</a>
+                                <a href="http://www.stonybrook.edu/sb/iab/" target="_blank">Intercollegiate Athletics Board</a>
+                                <a href="http://www.stonybrook.edu/pres/" target="_blank">Office of the President</a>
+                                <a href="http://www.stonybrook.edu/commcms/provost/" target="_blank">Office of the Provost</a>
+                                <a href="http://www.stonybrook.edu/commcms/audit/policies/" target="_blank">Policies and Procedures Manual</a>
+                                <a href="http://mobile.cc.stonybrook.edu/sb/social/guidelines/" target="_blank">Social Media Guidelines</a>
+                                <a href="http://www.stonybrook.edu/sb/sbcouncil/" target="_blank">Stony Brook Council</a>
+                                <a href="http://www.suny.edu/about/leadership/board-of-trustees/" target="_blank">SUNY Policies</a>
+                                <a href="http://www.stonybrook.edu/pres/council.html" target="_blank">University Council</a>
+                                <a href="http://www.stonybrook.edu/policy/" target="_blank">University Policy Manual</a>
+                                <a href="http://www.stonybrook.edu/univsenate/" target="_blank">University Senate</a>
                             </div>
                         </div>
                     </div>
@@ -145,21 +153,22 @@
             <div class="for-students-promo clearfix">
                 <div class="video-promo-wrapper">
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/Jxe3jG4phPk?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/QCeDcxmHR6I?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="video-caption content">
-                        <strong>Featured Video:</strong> A focus group discussing lived experiences as it relates to Black History Month 
-
+                        <strong>Featured Video:</strong> Stony Brook Children's Hospital is making a difference
                     </div>
                 </div>
                 <div class="opportunities-wrapper clearfix content external-link-hover-wrapper">
-                    <h2 class="small-title-3">Get Involved at SBU!</h2>
-                    <a href="http://www.sunysb.edu/ureca/" target="_blank">Undergraduate Research</a>
-                    <a href="http://career.stonybrook.edu/students/connect/internship-coop-services" target="_blank">Internships</a>
-                    <a href="http://career.stonybrook.edu/on-campus-employment/for-students" target="_blank">Campus Job Opportunities</a>
-                    <a href="http://www.stonybrook.edu/sb/communityservice/" target="_blank">Community Service</a>
-                    <a href="http://www.stonybrook.edu/career" target="_blank">Career Center</a>
-                    <a href="http://www.stonybrook.edu/studyabroad" target="_blank">Study Abroad &amp; Exchange</a>
+                    <h2 class="small-title-3">Working at Stony Brook</h2>
+                    <a href="http://www.stonybrook.edu/hr/" target="_blank">Human Resources</a>
+                    <a href="http://www.uupsbu.org" target="_blank">UUP (West Campus Chapter)</a>
+                    <a href="http://www.stonybrook.edu/campuscard/" target="_blank">Campus ID Card</a>
+                    <a href="http://uupsbhscsite.org" target="_blank">UUP (East Campus Chapter)</a>
+                    <a href="http://www.stonybrook.edu/diversity/" target="_blank">Diversity &amp; Affirmative Action</a>
+                    <a href="http://studentaffairs.stonybrook.edu/vets/" target="_blank">Veterans Affairs</a>
+                    <a href="http://www.stonybrook.edu/lrweb/" target="_blank">Employee &amp; Labor Relations</a>
+                    <a href="http://www.stonybrook.edu/commcms/visa/" target="_blank">Visa &amp; Immigrations Services</a>
                 </div>
             </div>
         </div>
@@ -175,17 +184,19 @@
 
                     <div class="activities-links clearfix external-link-hover-wrapper">
                         <h4>News</h4>
-                        <a href="http://goseawolves.cstv.com/" target="_blank">Athletics</a>
-                        <a href="http://studentaffairs.stonybrook.edu/rec/" target="_blank">Campus Recreation</a>
-                        <a href="https://stonybrook.collegiatelink.net/" target="_blank">Clubs and Organizations</a>
-                        <a href="http://www.stonybrook.edu/craftcenter" target="_blank">Crafts Center</a>
-                        <a href="http://www.staller.sunysb.edu/" target="_blank">Staller Center for the Arts</a>
-                        <a href="http://studentaffairs.stonybrook.edu/for/index.shtml" target="_blank">SAC and SB Union</a>
-                        <a href="http://studentaffairs.stonybrook.edu/sac/art_gallery/artgalleryhome.shtml" target="_blank">SAC Gallery</a>
-                        <a href="http://studentaffairs.stonybrook.edu/sac/index.shtml" target="_blank">Student Activities</a>
-                        <a href="http://www.universitycafe.org/" target="_blank">The University Café</a>
-                        <a href="http://www.stonybrook.edu/commcms/wang/" target="_blank">Wang Center</a>
-                        <a href="http://studentaffairs.stonybrook.edu/rec/wellness_info.shtml">Wellness Center</a>
+                        <?php 
+                            /*
+                            // PHP will transform event data from RSS feed in following format
+                            //
+                            <!--
+                            <a href="#" target="_blank"><strong class="date">1/16/15</strong> Sign up for a Class at the Craft Center this Spring </a>
+                            -->
+                            */
+                            $file = "faculty-staff/faculty-staff-news.php";
+                            include($path . $content . $secLv . $file);
+                        ?>
+                        <a href="http://stonybrook.edu/happenings" class="external-link-hover star-before">Read SBU Happenings</a>
+                        <a href="http://stonybrook.edu/newsroom" class="external-link-hover star-before">Visit the Newsroom</a>
                     </div>
 
                     <ul class="calendar-items clearfix">
@@ -207,21 +218,21 @@
                             </li>
                             -->
                             */
-                            $file = "for-students/for-students-calendar.php";
+                            $file = "faculty-staff/faculty-staff-calendar.php";
                             include($path . $content . $secLv . $file);
                         ?>
                         <li class="clearfix more-link">
-                            <a class="fa-arrow-after" href="https://stonybrook.collegiatelink.net/Events" target="_blank">View All Events</a>
+                            <a class="fa-arrow-after" href="http://calendar.activedatax.com/stonybrook/EventList.aspx" target="_blank">View All Events</a>
                         </li>
                     </ul>
 
-                    <div class="activities-links clearfix external-link-hover-wrapper">
-                        <h4 class="medium-title-3">News</h4>
-                        <a href="http://goseawolves.cstv.com/" target="_blank">Logos and Stationary</a>
-                        <a href="http://studentaffairs.stonybrook.edu/rec/" target="_blank">Style and Licensing</a>
-                        <a href="https://stonybrook.collegiatelink.net/" target="_blank">OU Campus CMS Support</a>
-                        <a href="http://www.stonybrook.edu/craftcenter" target="_blank">Share Your News!</a>
-                        <a class="fa-arrow-after" href="https://stonybrook.collegiatelink.net/Events" target="_blank">View Toolkit</a>
+                    <div class="activities-links news-links clearfix external-link-hover-wrapper">
+                        <h4 class="medium-title-3">Telling Your Story</h4>
+                        <a href="http://www.stonybrook.edu/commcms/toolkit/logos/logos.html" target="_blank">Logos and Stationary</a>
+                        <a href="http://www.stonybrook.edu/commcms/toolkit/styles/style.html" target="_blank">Style and Licensing</a>
+                        <a href="http://www.stonybrook.edu/commcms/_cms/" target="_blank">OU Campus CMS Support</a>
+                        <a href="http://www.stonybrook.edu/commcms/toolkit/sharing/happenings.html" target="_blank">Tell Us Your News!</a>
+                        <a class="fa-arrow-after" href="http://www.stonybrook.edu/commcms/toolkit/" target="_blank">Communications Toolkit</a>
                     </div>
                 </div>
             </div>
