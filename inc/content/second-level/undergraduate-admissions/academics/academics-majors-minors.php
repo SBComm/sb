@@ -60,6 +60,7 @@
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=ant">Anthropology, BA</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=ams">Applied Mathematics &amp; Statistics, BS</a>
@@ -294,6 +295,10 @@
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=eom">Electronic, Optical, and Magnetic Materials</a>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
+                        </li>
+                        <li>
+                            <a href="undergraduate-admissions/academics/program-details?code=nrg">Energy Science, Technology and Policy</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
