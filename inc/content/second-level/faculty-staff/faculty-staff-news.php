@@ -70,7 +70,7 @@
             }
 
             if ($proceed) {
-                $html .= '<a href="'.$rss_url.'" target="_blank"><strong class="date">'.$eventMonth.'/'.$eventDay.'/'.$eventYear.'</strong> <span>'.$rss_title.'</span></a>';
+                $html .= '<a href="'.$rss_url.'" target="_blank"><span>'.$rss_title.'</span> <strong class="date">'.$eventMonth.'/'.$eventDay.'/'.$eventYear.'</strong></a>';
                 $count--;
             }
             /*            

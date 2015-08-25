@@ -99,7 +99,7 @@ section.title-link-box-wrapper {
 
 .opportunities-wrapper {
     margin: 30px 0;
-    background-image: url("../../img/misc/opportunities-phone-bkgnd-2.jpg");
+    background-image: url("../../img/misc/opportunities-phone-bkgnd-3.jpg");
     background-size: cover;
     background-position: 100% 50%;
     -webkit-box-sizing: border-box;
@@ -310,30 +310,36 @@ section.activities-and-calendar {
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box;
-            text-align: left;
+            text-align: left;;
         }
         .activities-and-calendar .activities-links a strong {
-            background: #800;
-            color: #fff;
+            color: #47c2c8;
             border-radius: 2px;
-            padding: 1px 4px;
+            padding: 1px 3px;
             opacity: .8;
+            font-family: 'CenturySchoolbookW01-It 927458';
+        }
+        .activities-and-calendar .activities-links a strong:before {
+            content: "|";
+            margin: 0 5px 0 0;
+            color: #eee;
         }
         .activities-and-calendar .activities-links a:hover {
             text-decoration: none;
-            color: #fff;
+            color: #47c2c8;
         }
         .activities-and-calendar .activities-links a:hover span {
-            text-decoration: underline;
+            text-decoration: none;
+            color: #47c2c8;
         }
         .activities-and-calendar .activities-links a:hover strong {
             opacity: 1;
-            text-decoration: none
-            ;
-            color: #fff;
+            text-decoration: none;
+            color: #47c2c8;
         }
         .activities-and-calendar .news-links a:before {
-            content: "✭";
+            content: "\f005";
+            font-family: "FontAwesome";
             margin: 0 10px 0 0;
             font-style: normal;
             font-weight: normal;
@@ -390,6 +396,7 @@ section.activities-and-calendar {
     .activities-and-calendar .activities-links a {
         font-size: .9em;
         padding: 8px 12px 8px 20px;
+        line-height: 1.6em;
     }
 }
 

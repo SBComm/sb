@@ -2776,7 +2776,8 @@ body {
     
     .star-bullets li:before,
     .star-before:before {
-        content: "✭";
+        content: "\f005";
+        font-family: "FontAwesome";
         margin: 0 10px 0 0;
         font-style: normal;
         font-weight: normal;

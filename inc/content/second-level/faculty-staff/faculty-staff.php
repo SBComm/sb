@@ -195,8 +195,8 @@
                             $file = "faculty-staff/faculty-staff-news.php";
                             include($path . $content . $secLv . $file);
                         ?>
-                        <a href="http://stonybrook.edu/happenings" class="external-link-hover star-before">Read SBU Happenings</a>
-                        <a href="http://stonybrook.edu/newsroom" class="external-link-hover star-before">Visit the Newsroom</a>
+                        <a href="http://stonybrook.edu/happenings" class="star-before">Read SBU Happenings</a>
+                        <a href="http://stonybrook.edu/newsroom" class="star-before">Visit the Newsroom</a>
                     </div>
 
                     <ul class="calendar-items clearfix">
