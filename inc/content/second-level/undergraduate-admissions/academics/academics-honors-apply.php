@@ -46,7 +46,7 @@
                     <li><strong>Submit your high school transcript(s).</strong> There are 3 ways that you can do this:
                         <ol class="upper-alpha">
                             <li>
-                                <span class="instruction">Ask your high school to submit your transcript electronically, using either The Common Application School Forms System or <a class="external-link" href="https://www.suny.edu/counselor/">SUNY CounselorConnect</a>.)</span>
+                                <span class="instruction">Ask your high school to submit your transcript electronically, using either The Common Application School Forms System or <a class="external-link" href="https://www.suny.edu/counselor/" target="_blank">SUNY CounselorConnect</a>.)</span>
                             </li>
                             <li>
                                 <span class="instruction">Self-report your academic record using <a class="external-link" href="http://www.suny.edu/attend/apply-to-suny/suny-online-academic-record-soar/" target="_blank">SOAR</a>.</span>
