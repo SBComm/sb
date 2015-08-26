@@ -185,6 +185,48 @@ section.full-width-banner-image {
         background-position: 50% 40%;
     }
 
+    .cl-university-scholars {
+        background: url("../../img/student-life/campus-life-university-scholars-2000.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 60% 40%;
+    }
+
+    .cl-honors-college {
+        background-image: url("../../img/student-life/campus-life-honors-college-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 40% 40%;
+    }
+
+    .cl-medicine-scholars {
+        background-image: url("../../img/student-life/campus-life-medicine-scholars-2000.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .cl-dental-scholars {
+        background-image: url("../../img/student-life/campus-life-dental-scholars-2000.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .cl-computer-science-scholars {
+        background-image: url("../../img/student-life/computer-science-bkgnd-2000.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .cl-majors-honors {
+        background-image: url("../../img/student-life/students-walking-faded.jpg");
+        background-size: 150%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
 .full-width-banner-image .wrapper {
     position: relative;
 }
@@ -1241,6 +1283,48 @@ section.campus-life-header {
     background-size: cover;
 }
 
+.rounded-image-buttons .university-scholars {
+    background-image: url("../../img/buttons/admissions-campus-life/university-scholars.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .honors-college {
+    background-image: url("../../img/buttons/admissions-campus-life/honors-college.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .wise-scholars {
+    background-image: url("../../img/buttons/admissions-campus-life/wise-scholars.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .medicine-scholars {
+    background-image: url("../../img/buttons/admissions-campus-life/medicine-scholars.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .dental-scholars {
+    background-image: url("../../img/buttons/admissions-campus-life/dental-scholars.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .computer-science-scholars {
+    background-image: url("../../img/buttons/admissions-campus-life/computer-science-scholars.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .majors-honors {
+    background-image: url("../../img/buttons/admissions-campus-life/majors-honors.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
 section.cl {
     padding: 40px 0;
 }
@@ -1250,11 +1334,15 @@ section.cl h4 {
     font-family: 'Trade Gothic W01 Bold 2';
 }
 
-section.cl-activities {
+section.cl-activities,
+section.cl-university-scholars,
+section.cl-computer-science-scholars {
     padding: 0;
 }
 
-.cl-activities .black-opac-cover {
+.cl-activities .black-opac-cover,
+.cl-university-scholars .black-opac-cover,
+.cl-computer-science-scholars .black-opac-cover {
     background: url("../../img/bkg/transparent-black-65.png") 0 0 repeat transparent;
     background: rgba(0,0,0,.8);
     padding: 40px 0;
@@ -1262,7 +1350,9 @@ section.cl-activities {
 }
 
 .cl-activities h4,
-.cl-activities h5 {
+.cl-activities h5,
+.cl-university-scholars h4,
+.cl-computer-science-scholars h4 {
     color: #0fffff;
 }
 
@@ -1275,54 +1365,83 @@ section.cl-activities {
     margin: 10px 0;
 }
 
-.cl-activities .content {
+.cl-activities .content,
+.cl-university-scholars .content,
+.cl-computer-science-scholars .content {
     color: #dbdbdb;
 }
 
-.cl-activities .content a {
+.cl-activities .content a,
+.cl-university-scholars .content a,
+.cl-computer-science-scholars .content a {
     color: #0fffff;
 }
 
-section.cl-athletics  {
+.cl-activities .content a:hover,
+.cl-university-scholars .content a:hover,
+.cl-computer-science-scholars .content a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cl-computer-science-scholars img {
+    display: block;
+    border: 1px solid #eee;
+    margin: 0 0 20px;
+}
+
+section.cl-athletics,
+section.cl-honors-college {
     padding: 0;
 }
 
 .cl-athletics h4,
-.cl-athletics h5 {
+.cl-athletics h5,
+.cl-honors-college h4,
+.cl-honors-college h5 {
     color: #900;
 }
 
-.cl-athletics .white-opac-cover {
+.cl-athletics .white-opac-cover,
+.cl-honors-college .white-opac-cover {
     background: url("../../img/bkg/transparent-white-85.png") 0 0 repeat transparent;
     background: rgba(255,255,255,.85);
     padding: 40px 0;
     display: block;
 }
 
-.cl-athletics .col-2 {
+.cl-athletics .col-2,
+.cl-honors-college .col-2 {
     width: 100%;
     float: none;
     margin: 0;
 }
 
-.cl-athletics .col-2 ul {
+.cl-athletics .col-2 ul,
+.cl-honors-college .col-2 ul {
     margin: 0;
 }
 
-.cl-athletics em {
+.cl-athletics em,
+.cl-honors-college em {
     font-size: .9em;
     display: block;
     margin: 10px 0 0;
 }
 
-section.cl-living  {
+section.cl-living {
 
 }
 
 .cl-living h4,
 .cl-living h5,
-.cl-living strong {
+.cl-wise-scholars h4,
+.cl-wise-scholars h5 {
     color: #900;
+}
+
+.cl-wise-scholars h4 {
+    line-height: 1em;
 }
 
 .cl-living li {
@@ -1337,7 +1456,12 @@ section.cl-eating  {
     padding: 0;
 }
 
-.cl-eating .red-opac-cover {
+section.cl-medicine-scholars  {
+    padding: 0;
+}
+
+.cl-eating .red-opac-cover,
+.cl-medicine-scholars .red-opac-cover {
     background: url("../../img/bkg/transparent-red-900-85.png") 0 0 repeat transparent;
     background: rgba(153, 0, 0, .85);
     padding: 40px 0;
@@ -1348,7 +1472,12 @@ section.cl-eating  {
 .cl-eating h4,
 .cl-eating p,
 .cl-eating ul,
-.cl-eating a {
+.cl-eating a,
+.cl-medicine-scholars h4,
+.cl-medicine-scholars h5,
+.cl-medicine-scholars p,
+.cl-medicine-scholars ul,
+.cl-medicine-scholars a {
     color: #fff !important;
 }
 
@@ -1356,11 +1485,13 @@ section.cl-eating  {
     font-family: 'Trade Gothic W01 Bold 2';
 }
 
-.cl-eating a:hover {
+.cl-eating a:hover,
+.cl-medicine-scholars a:hover {
     text-decoration: underline;
 }
 
-.cl-eating img {
+.cl-eating img,
+.cl-medicine-scholars img {
     display: block;
     border: 1px solid #fff;
     margin: 30px auto 0;
@@ -1369,18 +1500,25 @@ section.cl-eating  {
     display: block;
 }
 
-
 section.cl-commute {
     padding: 0;
     border-bottom: 1px solid #900;
 }
 
+section.cl-dental-scholars {
+    padding: 0;
+    border-bottom: 1px solid #fff;
+}
+
 .cl-commute h4,
-.cl-commute h5 {
+.cl-commute h5,
+.cl-dental-scholars h4,
+.cl-dental-scholars h5 {
     color: #900;
 }
 
-.cl-commute .white-opac-cover {
+.cl-commute .white-opac-cover,
+.cl-dental-scholars .white-opac-cover {
     background: url("../../img/bkg/transparent-white-85.png") 0 0 repeat transparent;
     background: rgba(255,255,255,.85);
     padding: 40px 0;
@@ -1397,6 +1535,9 @@ section.cl-arts  {
     font-family: 'Trade Gothic W01 Bold 2';
     color: #900;
 }
+.cl-arts strong {
+    color: #000;
+}
 
 .cl-arts .white-opac-cover {
     background: url("../../img/bkg/transparent-white-85.png") 0 0 repeat transparent;
@@ -1411,6 +1552,37 @@ section.cl-arts  {
     width: 440px;
     max-width: 100%;
     display: block;
+}
+
+section.cl-majors-honors {
+    padding: 40px 0 190px;
+}
+
+.cl-majors-honors h4 {
+    text-align: center;
+    color: #900;
+}
+
+.cl-majors-honors .sub-line {
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #111;
+    padding: 0 0 24px;
+    margin: 0 0 34px;
+    font-size: 1.1em;
+}
+
+.cl-majors-honors ul a {
+    padding: 2px 0 6px;
+    display: block;
+    text-shadow: 0 0 10px rgba(255,255,255,.4);
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal;
+    font-size: .95em;
+}
+
+.cl-majors-honors a:hover {
+    text-decoration: underline;
 }
 
 /* apply button */
@@ -1479,17 +1651,20 @@ section.cl-arts  {
         display: block;
     }
 
-    .cl-athletics .col-2.smaller {
+    .cl-athletics .col-2.smaller,
+    .cl-honors-college .col-2.smaller {
         width: 43%;
         float: left;
     }
 
-    .cl-athletics .col-2.larger {
+    .cl-athletics .col-2.larger,
+    .cl-honors-college .col-2.larger {
         width: 57%;
         float: left;
     }
 
-    .cl-athletics .white-opac-cover ul {
+    .cl-athletics .white-opac-cover ul,
+    .cl-honors-college .white-opac-cover ul {
         font-size: .9em;
         line-height: 1.5em;
     }
@@ -1594,7 +1769,8 @@ section.cl-arts  {
         width: 30%;
     }
 
-    .application-details table {
+    .application-details table,
+    .step-bullets {
         float: left;
         display: inline-block;
         width: 70%;
@@ -1916,11 +2092,24 @@ section.cl-arts  {
         box-shadow: rgba(0,0,0,1) 410px 0 280px 30px inset;
     }
 
+    .cl-university-scholars .black-opac-cover,
+    .cl-computer-science-scholars .black-opac-cover {
+        background: transparent;
+        padding: 60px 0;
+        box-shadow: none;
+    }
+
+    .cl-university-scholars .black-box,
+    .cl-computer-science-scholars .black-box {
+        padding: 20px 35px;
+    }
+
     .cl-athletics {
         background-position: 54% 40%;
     }
 
-    .cl-athletics .white-opac-cover {
+    .cl-athletics .white-opac-cover,
+    .cl-honors-college .white-opac-cover {
         padding: 20px 0 15px;
         margin: 40px 0;
         display: block;
@@ -1931,12 +2120,18 @@ section.cl-arts  {
         background: rgba(255,255,255,.65);
     }
 
-    .cl-eating .red-opac-cover .wrapper {
+    .cl-honors-college .white-opac-cover {
+        border-color: #800;
+    }
+
+    .cl-eating .red-opac-cover .wrapper,
+    .cl-medicine-scholars .red-opac-cover .wrapper {
         width: 90%;
         margin: 0 5%;
     }
 
-    .cl-eating .red-opac-cover {
+    .cl-eating .red-opac-cover,
+    .cl-medicine-scholars .red-opac-cover {
         padding: 40px 10px 40px 15px;
         display: block;
         width: 46%;
@@ -1946,7 +2141,12 @@ section.cl-arts  {
         box-sizing: border-box;
     }
 
-    .cl-athletics .white-opac-cover .wrapper {
+    .cl-medicine-scholars .red-opac-cover {
+        width: 52%;
+    }
+
+    .cl-athletics .white-opac-cover .wrapper,
+    .cl-honors-college .white-opac-cover .wrapper {
         width: 90%;
         margin: 0 5%;
     }
@@ -1959,7 +2159,8 @@ section.cl-arts  {
         display: block;
     }
 
-    .cl-commute .white-opac-cover {
+    .cl-commute .white-opac-cover,
+    .cl-dental-scholars .white-opac-cover {
         padding: 20px 0 15px;
         margin: 40px 0;
         display: block;
@@ -1970,11 +2171,13 @@ section.cl-arts  {
         background: rgba(255,255,255,.9);
     }
 
-    .cl-commute .white-opac-cover .wrapper {
-        width: 90%;
-        margin: 0 5%;
+    .cl-dental-scholars .white-opac-cover {
+        border: 0 none;
+        box-shadow: 7px 7px 10px rgba(0,0,0,.3);
     }
 
+    .cl-commute .white-opac-cover .wrapper,
+    .cl-dental-scholars .white-opac-cover .wrapper,
     .cl-arts .white-opac-cover .wrapper {
         width: 90%;
         margin: 0 5%;
@@ -1988,6 +2191,21 @@ section.cl-arts  {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+    }
+
+    .cl-university-scholars .black-box,
+    .cl-computer-science-scholars .black-box {
+        background: url("../../img/bkg/transparent-black-80.png") 0 0 repeat transparent;
+        background: rgba(0,0,0,.8);
+        border: 1px solid #eee;
+        width: 55%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .cl-computer-science-scholars .black-box {
+        width: 50%;
     }
 
 }
