@@ -65,6 +65,62 @@ function hasNoFlexbox() {
 	return ($('html').hasClass('no-flexbox'));
 }
 
+function setContainerHeight(numColumns, flexList) {
+	var $containerEl = 	flexList;
+	var itemHeight = 	$containerEl.find('li:first-child').height();
+	var numItems = 		$containerEl.children('li:visible').length;
+	var newContainerHeight = ((numItems * itemHeight) / numColumns) + itemHeight;
+	$containerEl.height(newContainerHeight);
+}
+
+function initializeFlexList(eventType) {
+	if(hasFlexbox() || !hasNoFlexbox()) {
+		var ww = $(window).width();
+		$('ul[class^="flex-list"]').each(function() {
+			var thisList = $(this);
+			if(thisList.hasClass('flex-list-2')) {
+				if(ww>=768) {
+					setContainerHeight(2, thisList);
+				} else {
+					setContainerHeight(1, thisList);
+				}	
+			} else if(thisList.hasClass('flex-list-3')) {
+				if(ww>=768 && ww<960) {
+					setContainerHeight(2, thisList);
+				} else if(ww>=960) {
+					setContainerHeight(3, thisList);
+				} else {
+					setContainerHeight(1, thisList);
+				}
+			} else if(thisList.hasClass('flex-list-4')) {
+				if(ww>=560 && ww<768) {
+					setContainerHeight(2, thisList);
+				} else if(ww>=768 && ww<960) {
+					setContainerHeight(3, thisList);
+				} else if(ww>=960) {
+					setContainerHeight(4, thisList);
+				} else {
+					setContainerHeight(1, thisList);
+				}
+			}
+		});
+	}
+	if(eventType=='load') {
+		if(!(hasFlexbox() || !hasNoFlexbox())) {
+			$('*[class^="flex-list"]').css('height','auto, !important');
+		}
+	}
+}
+
+$(window).load(function(){
+	initializeFlexList('load');
+	$(".sticky").sticky({ topSpacing: 0 });
+});
+
+$(window).resize(function(){
+	initializeFlexList('resize');
+});
+
 /* reset height of .more-nav to prevent padding jump on slideDown() */
 var $moreNav = $('.more-nav');
 //var moreNavHeight = $moreNav.height();
