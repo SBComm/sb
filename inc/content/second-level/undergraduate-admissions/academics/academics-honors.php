@@ -51,7 +51,7 @@
                         <p>A four-year program, University Scholars is made up of some of the university’s most active student and community leaders. Freshmen residing on-campus have the option of living with other Scholars in their Quad and enrolling in a Scholars-only section of their first-year seminar course to help foster a greater sense of community.</p>
                         <p>All Scholars are eligible to attend special symposia and field trips, obtain special academic advising throughout their career at Stony Brook, participate in the Scholars Council and Student Advisory Board, partake in a variety of outreach activities and have priority registration for classes. Scholars in the program are typically involved in outreach initiatives on campus and in the community-at-large and are frequently the recipients of prestigious awards such as the SUNY Chancellor’s Awards, Undergraduate Recognition Awards and Provost’s Awards for academic excellence. About ten percent of Scholars participate in the Undergraduate Research and Creative Activities (URECA) celebration every year. There are approximately 250 Scholars enrolled in the program each fall.</p>
                         <p>Admission: All high-achieving freshman applicants are automatically considered for the University Scholars program. You may request special consideration within Stony   Brook's Member Questions section of The Common Application.</p>
-                        <p><a class="external-link" href="undergraduate-admissions/academics/honors/apply">How To Apply</a></p>
+                        <p><a href="undergraduate-admissions/academics/honors/apply" class="fa-arrow-after">How To Apply</a></p>
                         <p><a class="external-link" href="https://uaa.stonybrook.edu/university-scholars">University Scholars Website</a></p>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                         <p>The Honors College has a special curriculum for honors students only, taught by regular members of the faculty in small classes. You will enjoy the opportunity to engage in research and other creative endeavors with our distinguished faculty very early in your career at Stony Brook. This dynamic learning environment transcends the four walls of the classroom and continues in the residential setting.</p>
                         <p>All Honors College students are housed together and are provided priority housing. This highly selective, seminar-based program enrolls approximately 60 freshmen each year. its students experience the individual attention and benefits typically found only in small liberal arts colleges while having access to the vast range of academic opportunities available only at a major research university. Highlights include innovative seminars, small classes and leadership opportunities.</p>
                         <p>Successful applicants typically have a minimum combined SAT Math and Critical Reading score of 1300 or ACT score of 29, and a minimum unweighted high school average of 93.*</p>
-                        <p><a class="external-link" href="undergraduate-admissions/academics/honors/apply">How To Apply</a></p>
+                        <p><a href="undergraduate-admissions/academics/honors/apply" class="fa-arrow-after">How To Apply</a></p>
                         <p><a class="external-link" href="https://uaa.stonybrook.edu/honors-college">Honors College Website</a></p>
                         <p><em>*Meeting typical minimum requirements does not guarantee admission. The Admissions Committee reserves the right to consider applicants with credentials below these minimums based on extraordinary circumstances, including excelling in the face of adversity and overcoming life obstacles.</em></p>
                     </div>
@@ -89,7 +89,7 @@
                 <p>The curriculum consists of special courses designed to introduce students to the diversity and multiple opportunities within science and engineering in very personalized ways. Highlights of the program include evening programs, personalized academic advising, advanced priority registration, special residence hall, and small study groups with advanced undergraduate mentors.</p>
                 <p>The beauty of WISE is that it combines the vast resources of a major university with the close bonds and support of a small community of like minded students and faculty. Fifty-five to 60 students are enrolled in WiSE each year.</p>
                 <p>Successful applicants typically have a minimum combined SAT Math and Critical Reading score of 1300 or ACT score of 29, and a minimum unweighted high school average of 93.*</p>
-                <p><a class="external-link" href="undergraduate-admissions/academics/honors/apply">How To Apply</a></p>
+                <p><a href="undergraduate-admissions/academics/honors/apply" class="fa-arrow-after">How To Apply</a></p>
                 <p><a class="external-link" href="http://www.wise.sunysb.edu/">WISE Website</a></p>
                 <p><em>*Meeting typical minimum requirements does not guarantee admission. The Admissions Committee reserves the right to consider applicants with credentials below these minimums based on extraordinary circumstances, including excelling in the face of adversity and overcoming life obstacles.</em></p>
             </div>
@@ -125,7 +125,7 @@
                         <p>Applicants to all Scholars for Medicine tracks are notified in March whether they have been recommended for review by the School of Medicine Admissions Committee. If recommended for review, applicants are then notified within a couple of weeks as to whether they will be offered an interview. Final decisions are typically made prior to April 1.</p>
                         <p>Minimum Requirements for Consideration: GPA of 95 (or 3.8), and a combined SAT Math and Critical Reading score of 1350 or higher (the ACT will not be used as a substitute for the SAT). Candidates must also have documentation of U.S. citizenship or permanent residency in the United States.</p>
                         <p><em>Note: Students may ONLY apply for ONE of the following programs: Scholars for Medicine, Engineering Scholars for Medicine, or Scholars for Dental Medicine.</em></p>
-                        <p><a class="external-link" href="undergraduate-admissions/academics/honors/apply">How To Apply</a></p>
+                        <p><a href="undergraduate-admissions/academics/honors/apply" class="fa-arrow-after">How To Apply</a></p>
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                         <p>Scholars for Dental Medicine program applicants are notified in March whether they have been recommended for review by the School of Dental Medicine Admissions Committee.  If recommended for review, applicants are then notified, usually within two weeks, if they will be offered an interview. Final decisions are typically made prior to April 1.</p>
                         <p>Minimum Requirements for Consideration: GPA of 95 (or 3.8), and a combined SAT Math and Critical Reading score of 1350 or higher (the ACT will not be used as a substitute for the SAT). Candidates must also have documentation of U.S. citizenship or permanent residency in the United States.</p>
                         <p><em>Note: Student may ONLY apply for one of the following: Scholars for Medicine, Engineering Scholars for Medicine, or Scholars for Dental Medicine.</p></em>
-                        <p><a class="external-link" href="undergraduate-admissions/academics/honors/apply">How To Apply</a></p>
+                        <p><a href="undergraduate-admissions/academics/honors/apply" class="fa-arrow-after">How To Apply</a></p>
                     </div>
                 </div>
             </div>
