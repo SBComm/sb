@@ -9,12 +9,12 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
-                        <a href="http://studentaffairs.stonybrook.edu/orientation/freshmen/esbfreshmen.shtml" target="_blank" title="Experience Stony Brook - Orientation Part 2 for new students">
+                        <a href="http://studentaffairs.stonybrook.edu/sac/programming/openingactivities2015.shtml" target="_blank" title="Experience Stony Brook - Orientation Part 2 for new students">
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">"Experience Stony Brook" for New Students</div>
-                                <div class="carousel-subtitle">Learn more</div>
+                                <div class="carousel-title white">Check Out the Schedule of Opening Activities!</div>
+                                <div class="carousel-subtitle">See all events</div>
                             </div>
                         </a>
                     </div>
