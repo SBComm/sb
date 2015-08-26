@@ -52,7 +52,7 @@
 
         <div id="live-filter-list" class="border-box content clearfix">
 
-            <ul id="department_list" class="departments">
+            <ul id="department_list" class="flex-list-3 departments">
                 <?=$render->listAllDepartments();?>
             </ul>
 
