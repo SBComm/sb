@@ -1938,6 +1938,10 @@ section.cl-majors-honors {
         margin: 30px 15% 0;
     }
 
+    .rounded-image-buttons .dental-scholars {
+        margin-left: 14%;
+    }
+
 }
 
 @media only screen and (min-width: 960px) {
