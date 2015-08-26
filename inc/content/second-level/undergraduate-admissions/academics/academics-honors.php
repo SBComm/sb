@@ -23,7 +23,7 @@
     </section>
     <section class="clearfix campus-life-header inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
-            <h3>Stony Brook is for Scholars</h3>
+            <h3>Honors Programs at Stony Brook University</h3>
             <div class="content">
                 <h4>Stony Brook is for Scholars</h4>
                 <p>You’ll find what you’re looking for at Stony Brook University. We recognize that a single program cannot meet the expectations of all of our most gifted students. Hence, we offer a variety of experiences and programs that will challenge, inspire, and sustain our most academically talented students.</p>
