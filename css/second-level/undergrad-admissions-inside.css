@@ -1388,6 +1388,9 @@ section.cl-computer-science-scholars {
     display: block;
     border: 1px solid #eee;
     margin: 0 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 section.cl-athletics,
@@ -2121,7 +2124,7 @@ section.cl-majors-honors {
         float: right;
         border: 1px solid #fff;
         background: url("../../img/bkg/transparent-white-65.png") 0 0 repeat transparent;
-        background: rgba(255,255,255,.65);
+        background: rgba(255,255,255,.8);
     }
 
     .cl-honors-college .white-opac-cover {

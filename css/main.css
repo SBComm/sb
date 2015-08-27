@@ -1460,6 +1460,7 @@ body {
     ol.number {
         list-style: none !important;
         counter-reset: number-counter;
+        margin-left: -20px;
     }
     
     ol.number > li {
@@ -2818,8 +2819,7 @@ body {
     
     .star-bullets li:before,
     .star-before:before {
-        content: "\f005";
-        font-family: "FontAwesome";
+        content: "★";
         margin: 0 10px 0 0;
         font-style: normal;
         font-weight: normal;
