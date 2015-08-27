@@ -33,11 +33,11 @@
              <div class="content application-details clearfix">
                 <div class="inner-wrapper">
                     <h4>Option 1: The Common Application</h4>
-                    <a class="img-link" href="http://www.commonapp.org/" target="_blank"><img src="img/devices/macbook-pro-apply-common.jpg" /></a>
+                    <a class="img-link" href="https://apply.commonapp.org/Login?ma=346" target="_blank"><img src="img/devices/macbook-pro-apply-common.jpg" /></a>
                     <table class="simple-two-col-table">
                         <tr>
                             <td class="label">Summary</td>
-                            <td><a class="external-link" href="http://www.commonapp.org/" target="_blank">The Common Application</a> allows you to apply to more than 500 participating schools with one application.</td>
+                            <td><a class="external-link" href="https://apply.commonapp.org/Login?ma=346" target="_blank">The Common Application</a> allows you to apply to more than 500 participating schools with one application.</td>
                         </tr>
                         <tr>
                             <td class="label">Requirements</td>
@@ -55,10 +55,10 @@
                         </tr>
                         <tr>
                             <td class="label">Notes</td>
-                            <td>Use <a class="external-link" href="http://www.commonapp.org/" target="_blank">The Common Application</a> if you are applying to <a href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">honors programs</a> at Stony Brook. (Applicants to honors programs must follow <a href="http://www.stonybrook.edu/ugadmissions/newhonors/apply.shtml" target="_blank">additional procedures</a> as well.)</td>
+                            <td>Use <a class="external-link" href="https://apply.commonapp.org/Login?ma=346" target="_blank">The Common Application</a> if you are applying to <a href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">honors programs</a> at Stony Brook. (Applicants to honors programs must follow <a href="http://www.stonybrook.edu/ugadmissions/newhonors/apply.shtml" target="_blank">additional procedures</a> as well.)</td>
                         </tr>
                     </table>
-                    <a class="check-button apply-button apply-button-right clearfix" href="http://www.commonapp.org/" target="_blank"><span>Apply Now</span></a>
+                    <a class="check-button apply-button apply-button-right clearfix" href="https://apply.commonapp.org/Login?ma=346" target="_blank"><span>Apply Now</span></a>
                 </div>
                 
             </div>

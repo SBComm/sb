@@ -26,17 +26,17 @@
             <h3>How to Apply to a Stony Brook Honors Program</h3>
             <div class="content application-details clearfix">
                 <div class="inner-wrapper">
-                    <h4>Step 1: Complete The Common Application</h4>
-                    <a class="img-link" href="http://www.commonapp.org/" target="_blank"><img src="img/devices/macbook-pro-apply-common.jpg" /></a>
+                    <h4>Step 1: Complete The Common Application by January 15</h4>
+                    <a class="img-link" href="https://apply.commonapp.org/Login?ma=346" target="_blank"><img src="img/devices/macbook-pro-apply-common.jpg" /></a>
                     <ul class="default-bullets clearfix step-bullets">
-                        <li>Apply for honors programs within Stony Brook's <strong>Member Questions</strong> section of <a class="external-link" href="http://www.commonapp.org/" target="_blank">The Common Application</a></li>
+                        <li>Apply for honors programs within Stony Brook's <strong>Member Questions</strong> section of <a class="external-link" href="https://apply.commonapp.org/Login?ma=346" target="_blank">The Common Application</a></li>
                         <li>Submit an essay on any of The Common Application's accepted topics in the <strong>Writing</strong> section (up to 650 words)</li>
                         <li>Scholars for Medicine, Scholars for Dental Medicine and Engineering Scholars for Medicine applicants are required to submit an additional essay within our Common Application <strong>Writing Supplement</strong> on the topic: "What aspects about medicine (or dental medicine) intrigue you? Describe how these aspects influence your life" (up to 650 words)</li>
                     </ul>
                 </div>
             </div>
             <div class="content clearfix">
-                <p>In addition to the supporting documents listed above, applicants who submit the <a class="external-link" href="https://www.suny.edu/applysuny/" target="_blank">SUNY Application</a> must also submit (1) the <a class="external-link" href="http://www.suny.edu/attend/apply-to-suny/supplemental-applications/" target="_blank">SUNY Supplemental Application</a> and (2) the <a href="downloads/pdf/admissions/Honors-Program-Application-for-SUNY-Applicants.pdf" target="_blank">Application to Honors Programs</a> by January 15.<br /></p>
+                <p>Applicants who submit the <a class="external-link" href="https://www.suny.edu/applysuny/" target="_blank">SUNY Application</a> must also submit (1) the <a class="external-link" href="http://www.suny.edu/attend/apply-to-suny/supplemental-applications/" target="_blank">SUNY Supplemental Application</a> and (2) the <a href="downloads/pdf/admissions/Honors-Program-Application-for-SUNY-Applicants.pdf" target="_blank">Application to Honors Programs</a> by January 15.<br /></p>
             </div>
 
             <div class="content clearfix">
@@ -75,13 +75,14 @@
                     Send two Teacher Evaluations. Electronic submission through The Common Application's School Forms System is preferred. Paper recommendations must be faxed to (631) 632-9898. <strong>WISE applicants:</strong> at least one evaluation should be from a science or math teacher.
                     </li>
                 </ol>
-                <p>Please fax all paper documents to: (631) 632-9898. Credentials faxed directly from the high school do not need to be mailed in hard copy. If items cannot be faxed, please send them to:</p>
+                <p>Please fax all paper documents to: (631) 632-9898. Credentials faxed directly from the high school do not need to be mailed in hard copy.</p>
+                <p>If items cannot be faxed, please send them to:</p>
                 <p>
-                    <span class="address">Stony Brook University<br />
+                    <strong class="address">Stony Brook University<br />
                     UG Processing<br />
                     279 Broadway<br />
                     Albany, NY 12204-2755<br />
-                    U.S.A.</span>
+                    U.S.A.</strong>
                 </p>
             </div>
         </div>
