@@ -338,8 +338,7 @@ section.activities-and-calendar {
             color: #47c2c8;
         }
         .activities-and-calendar .news-links a:before {
-            content: "\f005";
-            font-family: "FontAwesome";
+            content: "★";
             margin: 0 10px 0 0;
             font-style: normal;
             font-weight: normal;
