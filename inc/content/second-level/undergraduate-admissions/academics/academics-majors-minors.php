@@ -415,15 +415,15 @@
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <ul class="default-bullets">
                                 <li>Anesthesia Technology</li>
-                                <li>Disability Studies</li>
-                                <li>Emergency and Disaster Management</li>
-                                <li>Environmental Health</li>
-                                <li>Healthcare Informatics</li>
-                                <li>Healthcare Management</li>
+                                <li>Disability Studies and Human Development</li>
+                                <li>Emergency and Critical Care</li>
+                                <li>Environmental Health and Safety</li>
+                                <li>Health Care Informatics</li>
+                                <li>Health Care Management</li>
+                                <li>Healthcare Quality: Coding and Reimbursement</li>
                                 <li>Medical Dosimetry</li>
                                 <li>Nuclear Medicine Technology</li>
-                                <li>Public Health/Community Health</li>
-                                <li>Education</li>
+                                <li>Public Health/Community Health Education</li>
                                 <li>Radiologic Technology</li>
                             </ul>
                         </li>
