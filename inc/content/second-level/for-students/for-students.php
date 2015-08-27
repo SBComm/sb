@@ -19,6 +19,17 @@
                         </a>
                     </div>
                     <div class="item">
+                        <a href="http://studentaffairs.stonybrook.edu/rec/sport_clubs/club-information.html" target="_blank" title="Join a club and get involved in campus life!">
+                            <div class="carousel-image clearfix" data-image="02">
+                            </div>
+                            <div class="carousel-text clearfix">
+                                <div class="carousel-title white">Want to Get Involved on Campus? Join the Club!</div>
+                                <div class="carousel-subtitle">Learn more</div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--
+                    <div class="item">
                         <a href="http://mobile.cc.stonybrook.edu/sb/features/title-ix/?=marquee1" target="_blank" title="Here to Help: How ​the University Supports Title IX">
                             <div class="carousel-image clearfix" data-image="03">
                             </div>
@@ -28,7 +39,6 @@
                             </div>
                         </a>
                     </div>
-                    <!--
                     <div class="item">
                         <a href="http://www.stonybrook.edu/commcms/studyabroad/outgoing/programs/summer/korea/sunyKorea" target="_blank" title="SUNY Korea Students Thrive at Stony Brook">
                             <div class="carousel-image clearfix" data-image="02">
