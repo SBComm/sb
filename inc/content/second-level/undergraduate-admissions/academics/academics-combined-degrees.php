@@ -266,11 +266,6 @@
                             <td>Business Administration</td>
                         </tr>
                         <tr>
-                            <td>Health Science</td>
-                            <td>BS/MS</td>
-                            <td>Occupational Therapy</td>
-                        </tr>
-                        <tr>
                             <td>History</td>
                             <td>BA/MA</td>
                             <td>Adolescence Education: Social Studies</td>
