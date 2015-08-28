@@ -86,10 +86,10 @@
                                 <a href="http://www.stonybrook.edu/ombuds/" target="_blank">Ombudsman Office</a>
                                 <a href="http://www.stonybrook.edu/parking/" target="_blank">Parking Services</a>
                                 <a href="http://www.stonybrook.edu/fixit/" target="_blank">Repair and Maintenance Requests</a>
-                                <a href="http://studentaffairs.stonybrook.edu/for/facilities/index.shtml" target="_blank">SAC and SB Union Facilities</a>
+                                <a href="http://studentaffairs.stonybrook.edu/for/index.html" target="_blank">SAC and SB Union Facilities</a>
                                 <a href="http://www.stonybrook.edu/provostliasn/bookstore/cmr-requisitions.shtml" target="_blank">Textbook Requisitions</a>
                                 <a href="http://www.stonybrook.edu/provostliasn/bookstore/" target="_blank">University Bookstore</a>
-                                <a href="http://fsa.sunysb.edu/services/the-ups-store/" target="_blank">UPS Store</a>
+                                <a href="http://www.stonybrook.edu/commcms/fsa/services/the-ups-store/index.html" target="_blank">UPS Store</a>
                             </div>
                         </div>
                     </div>
