@@ -82,8 +82,16 @@
 	                var owlSlides = owl.children('.item').length;
 	                if(owlSlides==1) {
 	                	autoPlayValue = false;
+	                	 $('.owl-prev-1').remove();
+	                	 $('.owl-next-1').remove();
 	                } else {
 	                	autoPlayValue = 8000;
+		                $('.owl-prev-1').on('click', function() {
+		                    owl.trigger('owl.prev');
+		                });
+		                $('.owl-next-1').on('click', function() {
+		                    owl.trigger('owl.next');
+		                });
 	                }
 
 	                owl.owlCarousel({
@@ -94,15 +102,21 @@
 	                    singleItem: true,
 	                    transitionStyle : "fade"
 	                });
-	                $('.owl-prev-1').on('click', function() {
-	                    owl.trigger('owl.prev');
-	                });
-	                $('.owl-next-1').on('click', function() {
-	                    owl.trigger('owl.next');
-	                });
 
 	 			 	<?php if($carousel_2) { ?>
 	            		var owl2 = $("#the-carousel-2");
+	            		var owlSlides2 = owl2.children('.item').length;
+		                if(owlSlides2==1) {
+		                	 $('.owl-prev-2').remove();
+		                	 $('.owl-next-2').remove();
+		                } else {
+			                $('.owl-prev-2').on('click', function() {
+			                    owl2.trigger('owl.prev');
+			                });
+			                $('.owl-next-2').on('click', function() {
+			                    owl2.trigger('owl.next');
+			                });
+		                }
 		                owl2.owlCarousel({
 		                	itemsCustom: [[0,1],[800,2]],
 		                    autoPlay: false,
@@ -110,16 +124,22 @@
 		                    slideSpeed : 1000,
 		                    paginationSpeed : 1000
 		                });
-		                $('.owl-prev-2').on('click', function() {
-		                    owl2.trigger('owl.prev');
-		                });
-		                $('.owl-next-2').on('click', function() {
-		                    owl2.trigger('owl.next');
-		                });
 		            <?php } ?>
 	                
 	            	<?php if($carousel_3) { ?>
 	            		var owl3 = $("#the-carousel-3");
+	            		var owlSlides3 = owl3.children('.item').length;
+		                if(owlSlides3==1) {
+		                	 $('.owl-prev-3').remove();
+		                	 $('.owl-next-3').remove();
+		                } else {
+			                $('.owl-prev-3').on('click', function() {
+			                    owl3.trigger('owl.prev');
+			                });
+			                $('.owl-next-3').on('click', function() {
+			                    owl3.trigger('owl.next');
+			                });
+		                }
 		                owl3.owlCarousel({
 		                	itemsCustom: [[0,1],[480,2],[620,3],[760,4],[960,5],[1022,6]],
 		                    autoPlay: 320000,
@@ -127,16 +147,22 @@
 		                    slideSpeed : 800,
 		                    paginationSpeed : 400
 		                });
-		                $('.owl-prev-3').on('click', function() {
-		                    owl3.trigger('owl.prev');
-		                });
-		                $('.owl-next-3').on('click', function() {
-		                    owl3.trigger('owl.next');
-		                });
 		            <?php } ?>
 
 	            	<?php if($carousel_4) { ?>
 	            		var owl4 = $("#the-carousel-4");
+	            		var owlSlides4 = owl4.children('.item').length;
+		                if(owlSlides4==1) {
+		                	 $('.owl-prev-4').remove();
+		                	 $('.owl-next-4').remove();
+		                } else {
+			                $('.owl-prev-4').on('click', function() {
+			                    owl4.trigger('owl.prev');
+			                });
+			                $('.owl-next-4').on('click', function() {
+			                    owl4.trigger('owl.next');
+			                });
+		                }
 		                owl4.owlCarousel({
 		                    autoPlay: 60000,
 		                    navigation : false, // Show default next and prev buttons
@@ -144,12 +170,6 @@
 		                    paginationSpeed : 2000,
 		                    singleItem: true,
 	                    	transitionStyle : "fade"
-		                });
-		                $('.owl-prev-4').on('click', function() {
-		                    owl4.trigger('owl.prev');
-		                });
-		                $('.owl-next-4').on('click', function() {
-		                    owl4.trigger('owl.next');
 		                });
 		            <?php } ?>
 					
