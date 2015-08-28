@@ -18,6 +18,16 @@
                             </div>
                         </a>
                     </div>
+                    <div class="item">
+                        <a href="http://zuccairegallery.stonybrook.edu/2015/08/faculty-exhibition-2015/" target="_blank" title="Don't miss the Faculty Exhibition at the Zuccaire Gallery!">
+                            <div class="carousel-image clearfix" data-image="02">
+                            </div>
+                            <div class="carousel-text clearfix">
+                                <div class="carousel-title white">Zuccaire Gallery to Present Faculty Exhibition</div>
+                                <div class="carousel-subtitle">Learn more</div>
+                            </div>
+                        </a>
+                    </div>
                     <!--<div class="item">
                         <a href="http://studentaffairs.stonybrook.edu/orientation/about/esb.shtml" target="_blank" title="Winter Session: Earn 3 credits in 3 weeks!">
                             <div class="carousel-image clearfix" data-image="02">
