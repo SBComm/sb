@@ -11,7 +11,7 @@
         </div>
     </section>
     <section class="clearfix inside-content two-col white-background">
-        <div class="border-box wrapper clearfix">
+        <div class="border-box wrapper section-header-wrapper clearfix">
             <header class="section-header clearfix">
                 <div class="section-title">
                     <a href="undergraduate-admissions/apply/second-degree"><h2>second degree</h2></a>

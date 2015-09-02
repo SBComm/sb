@@ -11,7 +11,7 @@
         </div>
     </section>
     <section class="clearfix inside-content two-col white-background">
-        <div class="border-box wrapper clearfix">
+        <div class="border-box wrapper section-header-wrapper clearfix">
             <header class="section-header clearfix">
                 <div class="section-title">
                     <a href="undergraduate-admissions/apply/hsc-admission-criteria"><h2>HSC admissions</h2></a>

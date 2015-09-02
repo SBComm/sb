@@ -11,7 +11,7 @@
         </div>
     </section>
     <section class="clearfix inside-content two-col white-background">
-        <div class="border-box wrapper clearfix">
+        <div class="border-box wrapper section-header-wrapper clearfix">
             <header class="section-header clearfix">
                 <?php
                     $selected_sub_nav = 3;
