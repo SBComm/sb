@@ -140,7 +140,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p><a href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">Get more information</a></p>
+                                <p><a href="undergraduate-admissions/academics/honors/">Get more information</a></p>
                             </div>
                         </div>
                     </div>

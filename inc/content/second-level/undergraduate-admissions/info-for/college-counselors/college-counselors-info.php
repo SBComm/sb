@@ -37,7 +37,7 @@
                     <li><a href="undergraduate-admissions/apply/freshman/ap-college-credit/">AP &amp; College Credit</a> (Freshman)</li>
                     <li><a href="undergraduate-admissions/application-status/">Check Application Status</a></li>
                     <li><a href="undergraduate-admissions/cost-and-aid/">Cost, Financial Aid and Scholarships</a></li>
-                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">Honors Programs</a></li>
+                    <li><a class="external-link" href="undergraduate-admissions/academics/honors/">Honors Programs</a></li>
                     <li><a class="external-link" href="http://sat.collegeboard.org/scores/send-sat-scores" target="_blank">SAT (College Board)</a></li>
                     <li><a class="external-link" href="http://www.actstudent.org/scores/send/" target="_blank">ACT</a></li>
                     <li><a class="external-link" href="http://www.ets.org/toefl/" target="_blank">TOEFL</a></li>

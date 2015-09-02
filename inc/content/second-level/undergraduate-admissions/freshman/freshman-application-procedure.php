@@ -55,7 +55,7 @@
                         </tr>
                         <tr>
                             <td class="label">Notes</td>
-                            <td>Use <a class="external-link" href="https://apply.commonapp.org/Login?ma=346" target="_blank">The Common Application</a> if you are applying to <a href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">honors programs</a> at Stony Brook. (Applicants to honors programs must follow <a href="http://www.stonybrook.edu/ugadmissions/newhonors/apply.shtml" target="_blank">additional procedures</a> as well.)</td>
+                            <td>Use <a class="external-link" href="https://apply.commonapp.org/Login?ma=346" target="_blank">The Common Application</a> if you are applying to <a href="undergraduate-admissions/academics/honors/">honors programs</a> at Stony Brook. (Applicants to honors programs must follow <a href="undergraduate-admissions/academics/honors" target="_blank">additional procedures</a> as well.)</td>
                         </tr>
                     </table>
                     <a class="check-button apply-button apply-button-right clearfix" href="https://apply.commonapp.org/Login?ma=346" target="_blank"><span>Apply Now</span></a>
@@ -172,7 +172,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>At Stony Brook, we offer a variety of Honors Programs for our academically talented students.</p>
-                                <p><a href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">Get more information</a></p>
+                                <p><a href="undergraduate-admissions/academics/honors/">Get more information</a></p>
                             </div>
                         </div>
                     </div>

@@ -196,7 +196,7 @@
                 </tr>
                 <tr>
                     <td class="label">Notes</td>
-                    <td>Use <a class="external-link" href="http://www.commonapp.org/" target="_blank">The Common Application</a> if you are applying to <a href="http://www.stonybrook.edu/ugadmissions/newhonors/index.shtml" target="_blank">honors programs</a> at Stony Brook. (Applicants to honors programs must follow <a href="http://www.stonybrook.edu/ugadmissions/newhonors/apply.shtml" target="_blank">additional procedures</a> as well.)</td>
+                    <td>Use <a class="external-link" href="http://www.commonapp.org/" target="_blank">The Common Application</a> if you are applying to <a href="undergraduate-admissions/academics/honors/">honors programs</a> at Stony Brook. (Applicants to honors programs must follow <a href="http://www.stonybrook.edu/ugadmissions/newhonors/apply.shtml" target="_blank">additional procedures</a> as well.)</td>
                 </tr>
             </table>
 
