@@ -384,7 +384,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		var scrollToClass = '0px';
 		var scrollToTarget = $(this).attr('data-scroll-to-target');
-		console.log(scrollToTarget);
+		
 		if (typeof scrollToTarget != 'undefined') {
 			scrollToClass = scrollToTarget;
 		}
