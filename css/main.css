@@ -1110,8 +1110,10 @@ body {
     }
 
     .rounded-image-buttons a:hover {
-        box-shadow: rgba(6, 169, 191, 1) -110px 0 140px -30px inset,
-                    rgba(6, 169, 191, .6) 0 0 35px;
+        border: 5px solid #25A8CE;
+        padding: 11px;
+       /* box-shadow: rgba(6, 169, 191, 1) -110px 0 140px -30px inset, rgba(6, 169, 191, .6) 0 0 35px; */
+
     }
 
     .rounded-image-buttons a .label {
