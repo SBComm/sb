@@ -162,8 +162,6 @@ $(document).ready(function() {
 		    var hash = target.substring(1); //strip off the #
 		    window.location.hash = "view-"+hash;
 
-		    console.log($(this).attr('data-trigger-role'));
-
 		    if($(this).attr('data-trigger-role') == 'show-content') {
 		    	$('#tabbed-nav-content li').removeClass('open');
 		    	$(target).addClass('open');
