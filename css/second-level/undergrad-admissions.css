@@ -712,7 +712,7 @@ section.student-body {
 .student-body ul li span {
     display: inline-block;
     font-family: 'Trade Gothic W01 Bold 2';
-    color: #900;
+    color: #000;
     margin-right: 0px;
     float: left;
     max-width: 30%;
