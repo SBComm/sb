@@ -50,12 +50,14 @@
                 </ol>
                 <p>If you are the primary visa holder and your immigration status depends on employment (as a A-1 diplomat, H-1 temporary specialty occupation worker, G-4 international organization employee, etc.), you will need to switch to F-1 or J-1 status if you decide to terminate your employment. Otherwise, in most cases you may study 'incident to status,' as long as you continue to fulfill the terms and obligations or your current immigration status.</p>
 
-                <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
                         <tr>
                             <th>Visa Type</th>
                             <th>Apply As:</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>
                                 A-1, A-2  and Dependents<br />

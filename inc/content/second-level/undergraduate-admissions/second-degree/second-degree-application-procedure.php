@@ -91,19 +91,23 @@
             <div class="content clearfix">
                 <h4>Priority Deadlines</h4>
                 <p>Applications received after these dates will be reviewed on a space-available basis.</p>
-                <table class="light-grey-table responsive-flip responsive-flip-4">
-                    <tr>
-                        <th>Class</th>
-                        <th>Deadline</th>
-                    </tr>
-                    <tr>
-                        <td><strong>Fall 2015</strong></td>
-                        <td>January 15</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Spring 2015</strong></td>
-                        <td>March 1</td>
-                    </tr>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>Deadline</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Fall 2015</strong></td>
+                            <td>January 15</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Spring 2015</strong></td>
+                            <td>March 1</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
 

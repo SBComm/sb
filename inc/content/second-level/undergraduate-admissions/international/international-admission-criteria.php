@@ -40,31 +40,35 @@
                 </ul>
                 <h4 id="english-proficiency">English Proficiency</h4>
                 <p>All applicants must prove their English proficiency. The TOEFL [Test Of English as a Foreign Language], IB TOEFL (Internet-based TOEFL), or IELTS International English Language Testing System) examination, or SAT must be taken by anyone whose native language is not English, even if you have attended high school in the United States. If you are a transfer student and have not completed a college-level writing course at a U.S. college or university (or received a grade below a C in the course), one of the aforementioned exams is required for you as well.</p>
-                <table class="light-grey-table full-width">
-                    <tr>
-                        <th>Exam</th>
-                        <th>Minimum Score</th>
-                    </tr>
-                    <tr>
-                        <td>TOEFL (Computer-based)</td>
-                        <td>213</td>
-                    </tr>
-                    <tr>
-                        <td>TOEFL (Paper-based)</td>
-                        <td>550</td>
-                    </tr>
-                    <tr>
-                        <td>TOEFL (Internet-based)</td>
-                        <td>80</td>
-                    </tr>
-                    <tr>
-                        <td>IELTS</td>
-                        <td>6.5</td>
-                    </tr>
-                    <tr>
-                        <td>SAT Critical Reading</td>
-                        <td>430</td>
-                    </tr>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Exam</th>
+                            <th>Minimum Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TOEFL (Computer-based)</td>
+                            <td>213</td>
+                        </tr>
+                        <tr>
+                            <td>TOEFL (Paper-based)</td>
+                            <td>550</td>
+                        </tr>
+                        <tr>
+                            <td>TOEFL (Internet-based)</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>IELTS</td>
+                            <td>6.5</td>
+                        </tr>
+                        <tr>
+                            <td>SAT Critical Reading</td>
+                            <td>430</td>
+                        </tr>
+                    </tbody>
                 </table>
                 <p>Satisfactory completion of Stony Brook's <a href="http://www.stonybrook.edu/commcms/iec/">Intensive English Center</a> program at the advanced level with a grade of B or better will be accepted in place of a TOEFL score. For more information on Stony Brook's Intensive English Center, please call (631)632-7031.</p>
                 <h4>Financial Documentation</h4>

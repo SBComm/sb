@@ -2509,6 +2509,10 @@ body {
         overflow: auto;
     }
 
+    section.inside-content .section-header-wrapper {
+        overflow: visible;
+    }
+
     section.inside-content a {
         color: #900;
     }

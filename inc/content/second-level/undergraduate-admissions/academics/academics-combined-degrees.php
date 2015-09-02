@@ -28,13 +28,15 @@
                 <p>Students can apply for admission to these Bachelor/Master degree programs after enrolling at the University.</p>
                 <h4>Program Combinations:</h4>
                 
-                <table class="light-grey-table responsive-flip" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
+                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                    <thead>
                         <tr>
                             <th>Undergraduate Program</th>
                             <th>Degree Combination</th>
                             <th>Graduate Program</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Africana Studies</td>
                             <td>BA/MBA</td>

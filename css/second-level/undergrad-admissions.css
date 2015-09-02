@@ -1203,7 +1203,7 @@ footer.site-footer {
     .student-body ul li:before {
         width: 12px;
         height: 12px;
-        background: #00ffff;
+        background: #900;
         display: inline-block;
         margin: 0 12px 2px 0
     }
