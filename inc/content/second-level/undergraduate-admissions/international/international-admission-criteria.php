@@ -73,6 +73,14 @@
                 <h4>Secondary School Documentation Guide</h4>
                 <p><a href="undergraduate-admissions/apply/international/guide">View the valid forms of documentation from each nation</a>.</p>
             </div>
+
+            <div class="content clearfix">
+                <h4>Restricted Majors</h4>
+                <p>Admission to Stony Brook University does not guarantee acceptance into restricted majors, which have additional admission requirements. Please review information on the following pages:</p>
+                <p><a class="fa-arrow-after" href="undergraduate-admissions/apply/freshman/#restricted">View information for Freshmen</a></p>
+                <p><a class="fa-arrow-after" href="undergraduate-admissions/apply/transfer/#restricted">View information for Transfers</a></p>
+            </div>
+
             <a class="check-button apply-button" href="undergraduate-admissions/apply/international/application-procedures"><span>Apply Now</span></a>
         </div>
     </section>

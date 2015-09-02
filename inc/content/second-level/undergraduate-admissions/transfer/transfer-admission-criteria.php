@@ -47,7 +47,7 @@
                 <a class="check-button apply-button" href="undergraduate-admissions/apply/transfer/application-procedures"><span>Apply Now</span></a>
                 <h4>Course Equivalencies</h4>
                 <p><a class="external-link" href="http://bit.ly/1xXPg8S" target="_blank">View Course Equivalencies</a> for classes that you have already taken.</p>
-                <h4>Restricted Majors</h4>
+                <h4 id="restricted">Restricted Majors</h4>
                 <p>Admission to Stony Brook University does not guarantee acceptance into the following restricted majors, which have additional admission requirements.</p>
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
