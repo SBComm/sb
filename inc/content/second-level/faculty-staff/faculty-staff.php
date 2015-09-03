@@ -74,6 +74,7 @@
                                 <a href="http://www.stonybrook.edu/hr/" title="Human Resource Services" target="_blank">Human Resource Services</a>
                                 <a href="http://it.stonybrook.edu" title="Information Technology (DoIT)" target="_blank">Information Technology (DoIT)</a>
                                 <a href="http://www.stonybrook.edu/jobs/" title="Job Opportunities" target="_blank">Job Opportunities</a>
+                                <a href="http://www.stonybrook.edu/procurement/" title="Procurement" target="_blank">Procurement</a>
                                 <a href="http://it.stonybrook.edu/services/solar" title="SOLAR" target="_blank">SOLAR</a>
                             </div>
                         </div>
