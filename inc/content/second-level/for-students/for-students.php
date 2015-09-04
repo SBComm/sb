@@ -28,6 +28,16 @@
                             </div>
                         </a>
                     </div>
+                    <div class="item">
+                        <a href="http://calendar.activedatax.com/stonybrook/EventList.aspx?fromdate=9/1/2015&amp;todate=9/30/2015&amp;display=Month&amp;type=public&amp;eventidn=15379&amp;view=EventDetails&amp;information_id=47778" target="_blank" title="Learn About Stony Brook's Master's in Public Policy">
+                            <div class="carousel-image clearfix" data-image="03">
+                            </div>
+                            <div class="carousel-text clearfix">
+                                <div class="carousel-title white">Learn About Stony Brook's Master's in Public Policy</div>
+                                <div class="carousel-subtitle">Learn more</div>
+                            </div>
+                        </a>
+                    </div>
                     <!--
                     <div class="item">
                         <a href="http://mobile.cc.stonybrook.edu/sb/features/title-ix/?=marquee1" target="_blank" title="Here to Help: How ​the University Supports Title IX">
