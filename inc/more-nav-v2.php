@@ -6,12 +6,12 @@
 	                        		<span class="label clearfix">A-Z Guide</span>
 	                        	</a>
 	                        </li>
-	                        <li class="clearfix">
+	                        <!--<li class="clearfix">
 	                        	<a href="http://www.stonybrook.edu/sb/arts" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-music clearfix"></i></span>
 	                        		<span class="label clearfix">Arts &amp; Culture</span>
 	                        	</a>
-	                        </li>
+	                        </li>-->
 	                        <li class="clearfix no-tablet">
 	                        	<a href="https://blackboard.stonybrook.edu/" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-desktop clearfix"></i></span>
@@ -39,7 +39,7 @@
 	                        <li class="clearfix">
 	                        	<a href="http://www.stonybrook.edu/sb/contact" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-mobile clearfix"></i></span>
-	                        		<span class="label clearfix">Contact SB</span>
+	                        		<span class="label clearfix">Contact SBU</span>
 	                        	</a>
 	                        </li>
 	                        <li class="clearfix">
@@ -60,16 +60,22 @@
 	                        		<span class="label clearfix">Events Calendar</span>
 	                        	</a>
 	                        </li>
-	                        <li class="clearfix">
+	                        <!--<li class="clearfix">
 	                        	<a href="http://www.stonybrook.edu/sb/external_relations/" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-bullhorn clearfix"></i></span>
 	                        		<span class="label clearfix">External Relations</span>
 	                        	</a>
-	                        </li>
+	                        </li>-->
 	                        <li class="clearfix no-tablet">
 	                        	<a href="http://www.stonybrook.edu/mycloud/" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-envelope-o clearfix"></i></span>
 	                        		<span class="label clearfix">Google Apps</span>
+	                        	</a>
+	                        </li>
+	                        <li class="clearfix">
+	                        	<a href="http://stonybrook.joinhandshake.com/" class="clearfix">
+	                        		<span class="icon-wrapper"><i class="icon fa fa-file-text-o clearfix"></i></span>
+	                        		<span class="label clearfix">Handshake</span>
 	                        	</a>
 	                        </li>
 	                        <li class="clearfix">
@@ -84,12 +90,12 @@
 	                        		<span class="label clearfix">Jobs</span>
 	                        	</a>
 	                        </li>
-	                        <li class="clearfix">
+	                        <!--<li class="clearfix">
 	                        	<a href="http://www.library.stonybrook.edu/" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-book clearfix"></i></span>
 	                        		<span class="label clearfix">Libraries</span>
 	                        	</a>
-	                        </li>
+	                        </li>-->
 	                        <li class="clearfix">
 	                        	<a href="https://webmail.sbumed.org/" class="clearfix">
 	                        		<span class="icon-wrapper"><i class="icon fa fa-user-md clearfix"></i></span>
@@ -110,13 +116,13 @@
 	                        </li>
 	                        <li class="clearfix">
 	                        	<a href="http://www.stonybrook.edu/registrar/" class="clearfix">
-	                        		<span class="icon-wrapper"><i class="icon fa fa-building-o clearfix"></i></span>
+	                        		<span class="icon-wrapper"><i class="icon fa fa-university clearfix"></i></span>
 	                        		<span class="label clearfix">Registrar</span>
 	                        	</a>
 	                        </li>
 	                        <li class="clearfix">
 	                        	<a href="http://studentaffairs.stonybrook.edu/stu/" class="clearfix">
-	                        		<span class="icon-wrapper"><i class="icon fa fa-question clearfix"></i></span>
+	                        		<span class="icon-wrapper"><i class="icon fa fa-user clearfix"></i></span>
 	                        		<span class="label clearfix">Student Affairs</span>
 	                        	</a>
 	                        </li>
