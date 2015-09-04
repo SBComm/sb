@@ -2,3 +2,19 @@
 #Require shibboleth
 #ShibRequireSession On
 #require affiliation student@stonybrook.edu
+
+# ALLOW USER BY IP
+<Limit GET POST>
+ order deny,allow
+ deny from all
+ allow from 129.49.0.0/16
+ allow from 24.189.19.95
+ allow from 74.89.230.247
+ allow from 68.175.32.137
+ allow from 69.119.34.71
+ allow from 104.162.60.136 
+ allow from 108.6.211.230
+ allow from 75.69.254.168
+ allow from 192.168.1.8
+ allow from ::1
+</Limit>
