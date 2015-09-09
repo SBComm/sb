@@ -9,6 +9,16 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
+                        <a href="http://www.stonybrook.edu/commcms/sefa/" target="_blank" title="SEFA/United Way Campaign">
+                            <div class="carousel-image clearfix" data-image="03">
+                            </div>
+                            <div class="carousel-text clearfix">
+                                <div class="carousel-title white">Stony Brook Cares:  University launches annual SEFA/United Way Campaign</div>
+                                <div class="carousel-subtitle">Learn more</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
                         <a href="http://www.stonybrook.edu/sb/healthieru/index.html" target="_blank" title="HealthierU: Wellness in the Workplace">
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
