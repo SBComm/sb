@@ -30,7 +30,7 @@
                 <p>Participate in an international exchange program at an overseas university, or in a study abroad program under the supervision of a Stony Brook faculty member. Our <a class="external-link" href="http://www.stonybrook.edu/commcms/studyabroad/index.html" target="_blank">International Academic Programs and Services Office</a> offers exciting opportunties for learing abroad during the academic year, and during summer and winter sessions.</p>
                 <p>
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/XIesl-0MbgA?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/XIesl-0MbgA?controls=1&showinfo=1&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </p>
                 <h4>Highlighted Programs:</h4>

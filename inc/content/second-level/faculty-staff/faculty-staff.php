@@ -164,7 +164,7 @@
             <div class="for-students-promo clearfix">
                 <div class="video-promo-wrapper">
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/QCeDcxmHR6I?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/QCeDcxmHR6I?controls=1&showinfo=1&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="video-caption content">
                         <strong>Featured Video:</strong> Stony Brook Children's Hospital is making a difference

@@ -57,7 +57,7 @@
                 <h4>Watch a Recent Chat</h4>
                 <p>
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/BxgTxR3DPHU?controls=2&showinfo=0&rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/BxgTxR3DPHU?controls=1&showinfo=1&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </p>
             </div>
