@@ -18,7 +18,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item">
+                    <!--<div class="item">
                         <a href="http://www.stonybrook.edu/sb/healthieru/index.html" target="_blank" title="HealthierU: Wellness in the Workplace">
                             <div class="carousel-image clearfix" data-image="01">
                             </div>
@@ -27,7 +27,7 @@
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
-                    </div>
+                    </div>-->
                     <div class="item">
                         <a href="http://zuccairegallery.stonybrook.edu/2015/08/faculty-exhibition-2015/" target="_blank" title="Don't miss the Faculty Exhibition at the Zuccaire Gallery!">
                             <div class="carousel-image clearfix" data-image="02">
