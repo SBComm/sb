@@ -2,7 +2,7 @@
     <div class="no-pad-wrapper clearfix">
         <p class="label clearfix">Search faculty experts:</p>
         <form class="clearfix search-form">
-            <input type="text" placeholder="search by name or topic" />
+            <input type="text" placeholder="search name or topic" />
             <button type="submit"><i class="fa-search"></i><span class="hide-accessible"> Search</span></button>
         </form>
         <p class="divider clearfix"><span>or</span></p>
