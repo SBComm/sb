@@ -13,9 +13,7 @@
         <?php includeAsset('js','js/vendor/jquery.sticky.js'); ?>
 		<script>
 			$(window).load(function(){
-				/*console.log("ww: "+$(window).width());*/
 				if($(window).width()>=1022) {
-					//$(".site-nav").sticky({ topSpacing: 0 });
 					if($('.background-video').length) {
 						$('.background-video').get(0).play();
 					}
@@ -24,20 +22,14 @@
 			$(window).resize(function(){
 				if($(window).width()>=1022) {
 					if ($('.sticky-wrapper').length == 0) { 
-					    //$(".site-nav").sticky({ topSpacing: 0 });
 						if($('.background-video').length) {
 							$('.background-video').get(0).play();
 						}
 					}
 					configureSearchPosition();
 				} else {
-					/*if ( $moreNav.is( ":visible" ) ) {
-						$('.more-trigger').click();
-					}*/
 					if(configuredSearch && !$('html').hasClass('ie9')) {
 						resetSearchPosition();
-						//$moreNav.height('auto');
-						//moreNavHeight = $moreNav.height();
 					}
 				}
 			});
@@ -58,7 +50,6 @@
 
         <script>
 	        var pageFadeOverwrite = $.urlParam('pf');
-			//console.log(pageFadeOverwrite);
 			if (pageFadeOverwrite==1) {
 				$('body').prepend('<div id="preloader"><div id="status">&nbsp;</div></div><style type="text/css"> body { overflow: hidden; } </style>');
 			}
