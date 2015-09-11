@@ -59,11 +59,11 @@
     /* Meta Variables Defaults */
     $page_type         = 'default';     //Options are default, second-level, social-hub, bulletin
     $second_level      = '';            //Name of the slug for second-level page type, for specific css, e.g. jobs.css
-    $inside_page       = false;            //Name of the slug for second-level page type, for specific css, e.g. jobs.css
+    $inside_page       = false;         //Controls inclusion of inside-related css and js
     $page_cat          = 'main';        //Options are main (for first and second level), sub (for sites)
     $page_title        = 'Stony Brook University, New York';
-    $page_description  = 'Find out why Stony Brook University has become an internationally recognized research institution that is changing the world. Explore programs and degrees offered for endless career opportunities. Start your journey in education today!"';
-    $keywords          = "Stony Brook University, SUNY Stony Brook, SUNY-SB, SUNYSB, U of Stony Brook, research university, summer session, University of Stony Brook, University at Stony Brook, Stonybrook, Admissions, College, Undergraduate, Sciences, Liberal Arts, New York, Long Island">
+    $page_description  = 'Find out why Stony Brook University has become an internationally recognized research institution that is changing the world. Explore programs and degrees offered for endless career opportunities. Start your journey in education today!';
+    $keywords          = 'Stony Brook University, SUNY Stony Brook, SUNY-SB, SUNYSB, research university, summer session, University of Stony Brook, University at Stony Brook, Stonybrook, Undergraduate Admissions, New York Colleges'>
     $page_title_sub    = '';
 
     $page_title_full   = $page_title . $page_title_sub;
@@ -126,16 +126,8 @@
 
     /* Display Configurations, Default Highlights */
 
-    $main_nav_selected_tab      = 0;    //Options are
-                                        //0 none
-                                        //1 about       2 admissions    3 academics
-                                        //4 research    5 medicine      6 libraries
-                                        //7 athletics   8 arts          9 giving
-    $audience_nav_selected_tab  = 0;    //Options are
-                                        //0 none
-                                        //1 For students                2 Faculty and Staff
-                                        //3 Alumni and Friencs          4 Parents
-                                        //5 Neighbors                   6 Economic Development
+    $main_nav_selected_tab      = 0;
+    $audience_nav_selected_tab  = 0;
     $sub_nav_selected_tab       = 0;
 
     /* Default Scroll Controls */
