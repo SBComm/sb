@@ -293,6 +293,15 @@ $(document).ready(function() {
 			$('body').scrollTo( $('.list-experts'), 300, {axis: 'y'} );
 		}
 	});
+
+	var target, $menuItems;
+	
+	$('.search-experts-inside').click(function(e) {
+		target = $(e.target);
+		if(target.hasClass('search-experts-inside')) {
+			$('.close-search-overlay').trigger('click');
+		}
+	});
     
     $(".text-filter").blur(function() {
       if($(this).val()=='') {
