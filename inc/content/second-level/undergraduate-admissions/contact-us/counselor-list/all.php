@@ -151,6 +151,16 @@
                     </a>
                 </li>
                 <li>
+                    <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=rossi-corrado">
+                    <img src="img/admissions-counselors/rossi-corrado.jpg" alt="" />
+                    <div class="person-info">
+                        <span class="name">Christine Rossi-Corrado</span>
+                        <span class="title">Admissions Advisor</span>
+                        <span class="location">Maryland, Virginia, and Washington, D.C.</span>
+                    </div>
+                    </a>
+                </li>
+                <li>
                     <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=sangimino">
                     <img src="img/admissions-counselors/sangimino.jpg" alt="" />
                     <div class="person-info">
