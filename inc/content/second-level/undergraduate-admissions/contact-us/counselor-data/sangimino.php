@@ -5,7 +5,7 @@
             <span class="name">Lauren Sangimino</span>
             <span class="title">Assistant Director of Admissions</span>
             <span class="territory">Territory</span>
-            <span class="location">National: Every state except NY, NJ and MA</span> 
+            <span class="location">National</span> 
             <span class="email">enroll@stonybrook.edu</span>
         </div>
     </div>
