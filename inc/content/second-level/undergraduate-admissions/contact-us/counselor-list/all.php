@@ -51,6 +51,16 @@
                     </a>
                 </li>
                 <li>
+                    <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=bilfinger">
+                    <img src="img/admissions-counselors/bilfinger.jpg" alt="" />
+                    <div class="person-info">
+                        <span class="name">Christine Bilfinger</span>
+                        <span class="title">International Admissions Counselor</span>
+                        <span class="location">International</span>
+                    </div>
+                    </a>
+                </li>
+                <li>
                     <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=bollhofer">
                     <img src="img/admissions-counselors/bollhofer.jpg" alt="" />
                     <div class="person-info">
