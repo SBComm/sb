@@ -25,7 +25,7 @@
 		<?php
 			$page_type       = 'second-level';
     		$page_cat        = 'sub'; // for site tagline logo container
-			$second_level    = 'Winter-session';
+			$second_level    = 'winter-session';
 
 			$keywords          = "Stony Brook University,Undergraduate Admissions,Admissions,Majors,Minors,Special Programs,Visiting,About,Transfer Office,Transfer,Young Scholars Program,Honors,University Scholars,Admitted,International,Open House,Tour,Scholarships";
 	        $page_title        = 'Stony Brook University, New York';
