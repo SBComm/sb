@@ -1,0 +1,34 @@
+/*
+	Note: This is only a temporary stylesheet for demo purposes
+ */
+
+body{
+	font-family:Arial, sans-serif;
+	font-size:13px;
+	line-height:18px;
+}
+
+label{
+	float:left;
+	clear:left;
+}
+
+input[type^=submit]{
+	float:left;
+	clear:left;
+}
+
+h3{
+	font-size:20px;
+	line-height:20px;
+	margin: 10px 0;
+}
+
+hr{
+	border: 1px solid #DDD;
+	margin: 20px 0;
+}
+
+#search_input{
+	float:right;
+}

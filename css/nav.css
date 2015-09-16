@@ -685,11 +685,10 @@
 	color: #eeeeee;
 	display: block;
 	padding: 14px 5px 14px 15px;
-	text-shadow: 0 1px 0 #000;
 	font-size: 14px;
-	font-family:'Trade Gothic W01 Light';
+	font-family: 'Trade Gothic Next W01', Arial, sans-serif;
 	font-weight: normal;
-	text-shadow: 0 1px 0 #000;
+	text-shadow: none;
 }
 
 .site-nav.default a:hover,
@@ -719,7 +718,7 @@
 
 .site-nav.default ul:hover .selected a:hover,
 .sub-nav.default ul:hover .selected a:hover {
-	background-color: #222 !important;
+	background-color: #b00 !important;
 }
 
 .site-nav.big-n-bold ul:hover .selected a:hover,

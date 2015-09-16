@@ -4339,6 +4339,10 @@ footer.site-footer .social .small-button:after {
     .partial-print-target .tablesaw-cell-label {
         display: none !important;
     }
+
+    .filter-wrapper {
+        display: none;
+    }
 }
 
 .partial-print-trigger {

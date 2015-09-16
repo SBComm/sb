@@ -936,13 +936,21 @@ FileETag None
 </IfModule>
 
 
-
 # ----------------------------------------------------------------------
 # | Stony Brook Summer Sessions Course Search                          |
 # ----------------------------------------------------------------------
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteRule ^summer-session/courses/courses/search$ summer-session/courses/courses/search.php$1
+</IfModule>
+
+
+# ----------------------------------------------------------------------
+# | Stony Brook winter Sessions Course Search                          |
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^winter-session/$ http://stonybrook.edu/commcms/winter2
 </IfModule>
 
 
