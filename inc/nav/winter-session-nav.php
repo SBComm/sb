@@ -4,40 +4,35 @@
 		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
             <li class="clearfix no-dropdown desktop">
                 <a href="http://stonybrook.edu/commcms/winter2" class="clearfix">
-                    <span class="label clearfix"><i class="icon fa fa-home"></i><span class="hide-accessible">Home</span></span>
+                    <span class="label clearfix">Home</span>
                 </a>
             </li>
             <li class="clearfix<?php if($sub_nav_selected_tab==1) echo(' selected'); ?>">
-                <a href="http://stonybrook.edu/commcms/winter2/online" class="clearfix">
-                    <span class="label clearfix">Courses</span>
+                <a href="http://mobile.cc.stonybrook.edu/sb/winter-session/courses/" class="clearfix">
+                    <span class="label clearfix">Class Schedules</span>
                 </a>
             </li>
 			<li class="clearfix<?php if($sub_nav_selected_tab==2) echo(' selected'); ?>">
-            	<a href="http://stonybrook.edu/commcms/winter2/online" class="clearfix">
-            		<span class="label clearfix">Class Schedule</span>
+            	<a href="http://stonybrook.edu/commcms/winter2/enrollment" class="clearfix">
+            		<span class="label clearfix">Enrolling</span>
             	</a>
             </li>
 			<li class="clearfix<?php if($sub_nav_selected_tab==3) echo(' selected'); ?>">
-            	<a href="http://stonybrook.edu/commcms/winter2/enrollment" class="clearfix">
-            		<span class="label clearfix">Enrollment</span>
-            	</a>
-            </li>
-			<li class="clearfix<?php if($sub_nav_selected_tab==4) echo(' selected'); ?>">
             	<a href="http://http://www.stonybrook.edu/commcms/winter2/calendar" class="clearfix">
             		<span class="label clearfix">Calendar</span>
             	</a>
             </li>
-			<li class="clearfix<?php if($sub_nav_selected_tab==5) echo(' selected'); ?>">
+			<li class="clearfix<?php if($sub_nav_selected_tab==4) echo(' selected'); ?>">
             	<a href="http://stonybrook.edu/commcms/winter2/financial" class="clearfix">
-            		<span class="label clearfix">Financial</span>
+            		<span class="label clearfix">Tuition &amp; Fees</span>
             	</a>
             </li>
-			<li class="clearfix<?php if($sub_nav_selected_tab==6) echo(' selected'); ?>">
+			<li class="clearfix<?php if($sub_nav_selected_tab==5) echo(' selected'); ?>">
             	<a href="http://stonybrook.edu/commcms/winter2/academic" class="clearfix">
             		<span class="label clearfix">Resources</span>
             	</a>
             </li>
-            <li class="clearfix<?php if($sub_nav_selected_tab==7) echo(' selected'); ?>">
+            <li class="clearfix<?php if($sub_nav_selected_tab==6) echo(' selected'); ?>">
                 <a href="http://stonybrook.edu/commcms/winter2/contact" class="clearfix">
                     <span class="label clearfix">Contact</span>
                 </a>
