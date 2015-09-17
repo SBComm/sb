@@ -950,7 +950,7 @@ FileETag None
 # ----------------------------------------------------------------------
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule ^winter-session/$ http://stonybrook.edu/commcms/winter2
+    RewriteRule ^winter-session/$ http://stonybrook.edu/commcms/winter
 </IfModule>
 
 

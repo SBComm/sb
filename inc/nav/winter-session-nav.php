@@ -3,7 +3,7 @@
     	<div class="menu-trigger border-box clearfix"><i class="icon fa fa-bars"></i></div>
 		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
             <li class="clearfix no-dropdown desktop">
-                <a href="http://stonybrook.edu/commcms/winter2" class="clearfix">
+                <a href="http://stonybrook.edu/commcms/winter" class="clearfix">
                     <span class="label clearfix">Home</span>
                 </a>
             </li>
@@ -13,27 +13,27 @@
                 </a>
             </li>
 			<li class="clearfix<?php if($sub_nav_selected_tab==2) echo(' selected'); ?>">
-            	<a href="http://stonybrook.edu/commcms/winter2/enrollment" class="clearfix">
+            	<a href="http://stonybrook.edu/commcms/winter/enrollment" class="clearfix">
             		<span class="label clearfix">Enrolling</span>
             	</a>
             </li>
 			<li class="clearfix<?php if($sub_nav_selected_tab==3) echo(' selected'); ?>">
-            	<a href="http://http://www.stonybrook.edu/commcms/winter2/calendar" class="clearfix">
+            	<a href="http://http://www.stonybrook.edu/commcms/winter/calendar" class="clearfix">
             		<span class="label clearfix">Calendar</span>
             	</a>
             </li>
 			<li class="clearfix<?php if($sub_nav_selected_tab==4) echo(' selected'); ?>">
-            	<a href="http://stonybrook.edu/commcms/winter2/financial" class="clearfix">
+            	<a href="http://stonybrook.edu/commcms/winter/financial" class="clearfix">
             		<span class="label clearfix">Tuition &amp; Fees</span>
             	</a>
             </li>
 			<li class="clearfix<?php if($sub_nav_selected_tab==5) echo(' selected'); ?>">
-            	<a href="http://stonybrook.edu/commcms/winter2/academic" class="clearfix">
+            	<a href="http://stonybrook.edu/commcms/winter/academic" class="clearfix">
             		<span class="label clearfix">Resources</span>
             	</a>
             </li>
             <li class="clearfix<?php if($sub_nav_selected_tab==6) echo(' selected'); ?>">
-                <a href="http://stonybrook.edu/commcms/winter2/contact" class="clearfix">
+                <a href="http://stonybrook.edu/commcms/winter/contact" class="clearfix">
                     <span class="label clearfix">Contact</span>
                 </a>
             </li>
