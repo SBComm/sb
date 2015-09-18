@@ -347,6 +347,14 @@
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
+                            <div class="social-other-label-container sbu-text-shadow">Special Collections &amp; University Archives</div>
+                            <div class="social-channels-container">
+                                <a href="https://www.facebook.com/pages/Stony-Brook-University-Libraries/47593645009" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://instagram.com/sbu_specarch" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.flickr.com/photos/26376955@N03/albums" target="_blank"><i class="fa fa-flickr"></i></a>
+                            </div>
+                        </li>
+                        <li class="social-other-item sbu-border-bottom">
                             <div class="social-other-label-container sbu-text-shadow">Student Affairs</div>
                             <div class="social-channels-container">
                                 <a href="https://www.facebook.com/pages/SBU-Student-Affairs/218862101583940" target="_blank"><i class="fa fa-facebook-square"></i></a>
