@@ -391,36 +391,36 @@ video.background-video {
 @-webkit-keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
+    50.01% { opacity: 0.1; }
+    100% { opacity: 0.1; }
 }
 
 @-moz-keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
+    50.01% { opacity: 0.1; }
+    100% { opacity: 0.1; }
 }
 
 @-ms-keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
+    50.01% { opacity: 0.1; }
+    100% { opacity: 0.1; }
 }
 
 @-o-keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
+    50.01% { opacity: 0.1; }
+    100% { opacity: 0.1; }
 }
 
 @keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
+    50.01% { opacity: 0.1; }
+    100% { opacity: 0.1; }
 }
 
 /* Layout */
