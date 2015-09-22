@@ -69,8 +69,14 @@ section.title-link-box-wrapper {
     margin: 0 0 0 15px;
 }
 
-.title-link-box-wrapper .drop-accordion a:hover {
+.title-link-box-wrapper .drop-accordion a:hover span {
     text-decoration: underline;
+}
+
+.title-link-box-wrapper .drop-accordion a .icon {
+    display: inline;
+    margin: 0 0 0 8px;
+    text-decoration: none;
 }
 
 .for-students-promo {
