@@ -10,7 +10,8 @@
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
                     <div class="item">
                         <a href="http://studentaffairs.stonybrook.edu/sac/programming/openingactivities2015.shtml" target="_blank" title="Experience Stony Brook - Orientation Part 2 for new students">
-                            <div class="carousel-image clearfix" data-image="01">
+                            <div class="carousel-image clearfix">
+                                <img src="for-students/images/for-students-marquees-welcome-2.jpg" />
                             </div>
                             <div class="carousel-text clearfix">
                                 <div class="carousel-title white">Check Out the Schedule of Opening Activities!</div>
@@ -20,7 +21,8 @@
                     </div>
                     <div class="item">
                         <a href="http://studentaffairs.stonybrook.edu/rec/sport_clubs/club-information.html" target="_blank" title="Join a club and get involved in campus life!">
-                            <div class="carousel-image clearfix" data-image="02">
+                            <div class="carousel-image clearfix">
+                                <img src="for-students/images/for-students-sailing.jpg" />
                             </div>
                             <div class="carousel-text clearfix">
                                 <div class="carousel-title white">Want to Get Involved on Campus? Join the Club!</div>
@@ -30,7 +32,8 @@
                     </div>
                     <div class="item">
                         <a href="http://calendar.activedatax.com/stonybrook/EventList.aspx?fromdate=9/1/2015&amp;todate=9/30/2015&amp;display=Month&amp;type=public&amp;eventidn=15379&amp;view=EventDetails&amp;information_id=47778" target="_blank" title="Learn About Stony Brook's Master's in Public Policy">
-                            <div class="carousel-image clearfix" data-image="03">
+                            <div class="carousel-image clearfix">
+                                <img src="for-students/images/for-students-public-policy.jpg" />
                             </div>
                             <div class="carousel-text clearfix">
                                 <div class="carousel-title white">Learn About Stony Brook's Master's in Public Policy</div>
