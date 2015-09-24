@@ -12,18 +12,6 @@
     margin-top: 20px;
 }
 
-.carousel-image[data-image='01'] {
-    background-image: url("../../faculty-staff/images/faculty-staff-dummy-marquee.jpg");
-}
-
-.carousel-image[data-image='02'] {
-    background-image: url("../../faculty-staff/images/faculty-staff-exhibition-marquee.jpg");
-}
-
-.carousel-image[data-image='03'] {
-    background-image: url("../../faculty-staff/images/faculty-sefa.jpg");
-}
-
 section.title-link-box-wrapper {
     background: #fff;
     padding: 50px 5% 50px;
