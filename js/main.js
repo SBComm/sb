@@ -57,6 +57,20 @@ function scrollToTop(scrollToClass) {
 	} );
 }
 
+function pageHasCarousel() {
+	var carouselIDs = [
+							"#the-carousel-1",
+							"#the-carousel-2",
+							"#the-carousel-3",
+							"#the-carousel-4"
+						 ];
+	$(carouselIDs).each(function(index,id) {
+		if($(id).length){
+			console.log(id);
+		}
+	});
+}
+
 function hasFlexbox() {
 	return ($('html').hasClass('flexbox'));
 }
