@@ -233,12 +233,12 @@
             <h2>Student Body Profile</h2>
             <img src="img/students/student-body.jpg" />
             <ul class="clearfix">
-                <li class="clearfix"><span>24,607</span> <em>Total students</em></li>
-                <li class="clearfix"><span>16,480</span> <em>Undergraduates</em></li>
-                <li class="clearfix"><span>33,717</span> <em>Fall freshmen applications</em></li>
-                <li class="clearfix"><span>2,852</span> <em>Full-time fall freshmen</em></li>
-                <li class="clearfix"><span>1,343</span> <em>Full-time fall transfers</em></li>
-                <li class="clearfix"><span>9,679</span> <em>Reside on campus</em></li>
+                <li class="clearfix"><span>25,272</span> <em>Total students</em></li>
+                <li class="clearfix"><span>16,831</span> <em>Undergraduates</em></li>
+                <li class="clearfix"><span>34,152</span> <em>Fall freshmen applications</em></li>
+                <li class="clearfix"><span>2,836</span> <em>Full-time fall freshmen</em></li>
+                <li class="clearfix"><span>1,393</span> <em>Full-time fall transfers</em></li>
+                <li class="clearfix"><span>9,899</span> <em>Reside on campus</em></li>
                 <li class="clearfix"><span>Nearly All 50</span> <em>U.S. States</em></li>
                 <li class="clearfix"><span>109</span> <em>Countries</em></li>
                 <li class="clearfix"><span>54:46%</span> <em>Males:Females</em></li>

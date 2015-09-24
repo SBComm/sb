@@ -6,23 +6,23 @@
             <span class="label">High School<br />GPA</span>
         </div>
         <div class="item">
-            <span class="stat">1200–1330</span>
+            <span class="stat">1170-1340</span>
             <span class="label">SAT Scores<br />(Math/Critical Reading)</span>
         </div>
         <div class="item">
-            <span class="stat">560-650</span>
+            <span class="stat">550-660</span>
             <span class="label">SAT<br />Critical Reading</span>
         </div>
         <div class="item">
-            <span class="stat">620-710</span>
+            <span class="stat">600-720</span>
             <span class="label">SAT<br />Math</span>
         </div>
         <div class="item">
-            <span class="stat">550-650</span>
+            <span class="stat">540-660</span>
             <span class="label">SAT<br />Writing</span>
         </div>
         <div class="item">
-            <span class="stat">26-30</span>
+            <span class="stat">26-31</span>
             <span class="label">ACT<br />Scores</span>
         </div>
     </div>
