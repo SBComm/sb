@@ -11,26 +11,18 @@
                     <div class="item">
                         <a href="http://www.stonybrook.edu/commcms/sefa/" target="_blank" title="SEFA/United Way Campaign">
                             <div class="carousel-image clearfix" data-image="03">
+                                <img src="for-students/images/for-students-marquees-welcome-2.jpg" />
                             </div>
                             <div class="carousel-text clearfix">
-                                <div class="carousel-title white">Stony Brook Cares:  University launches annual SEFA/United Way Campaign</div>
+                                <div class="carousel-title white">Stony Brook Cares: University launches annual SEFA/United Way Campaign</div>
                                 <div class="carousel-subtitle">Learn more</div>
                             </div>
                         </a>
                     </div>
-                    <!--<div class="item">
-                        <a href="http://www.stonybrook.edu/sb/healthieru/index.html" target="_blank" title="HealthierU: Wellness in the Workplace">
-                            <div class="carousel-image clearfix" data-image="01">
-                            </div>
-                            <div class="carousel-text clearfix">
-                                <div class="carousel-title white">A healthier University begins with a healthier you!</div>
-                                <div class="carousel-subtitle">Learn more</div>
-                            </div>
-                        </a>
-                    </div>-->
                     <div class="item">
                         <a href="http://zuccairegallery.stonybrook.edu/2015/08/faculty-exhibition-2015/" target="_blank" title="Don't miss the Faculty Exhibition at the Zuccaire Gallery!">
                             <div class="carousel-image clearfix" data-image="02">
+                                <img src="faculty-staff/images/faculty-staff-exhibition-marquee.jpg" />
                             </div>
                             <div class="carousel-text clearfix">
                                 <div class="carousel-title white">Zuccaire Gallery to Present Faculty Exhibition</div>
@@ -38,26 +30,6 @@
                             </div>
                         </a>
                     </div>
-                    <!--<div class="item">
-                        <a href="http://studentaffairs.stonybrook.edu/orientation/about/esb.shtml" target="_blank" title="Winter Session: Earn 3 credits in 3 weeks!">
-                            <div class="carousel-image clearfix" data-image="02">
-                            </div>
-                            <div class="carousel-text clearfix">
-                                <div class="carousel-title steel-blue">Chillfest: Opening of School – Get Your Red On | January 24th - February 28th</div>
-                                <div class="carousel-subtitle">Learn more</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="http://www.stonybrook.edu/sb/features-slamowitz.html#.VMEuQGTF9FA" target="_blank" title="April Slamowitz '15 Meets Personal Loss With Resilience">
-                            <div class="carousel-image clearfix" data-image="03">
-                            </div>
-                            <div class="carousel-text clearfix">
-                                <div class="carousel-title white">April Slamowitz '15 Meets Personal Loss With Resilience</div>
-                                <div class="carousel-subtitle">Learn more</div>
-                            </div>
-                        </a>
-                    </div>-->
                 </div>
                 <div class="owl-prev owl-prev-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-left"></em></div>
                 <div class="owl-next owl-next-1" data-owl-id="the-carousel-1"><em class="fa fa-angle-right"></em></div>
