@@ -1,4 +1,4 @@
-<h2 class="red">Fall 2014 <span class="nowrap">Class Profile<em>*</em></span></h2>
+<h2 class="red">Fall 2015 <span class="nowrap">Class Profile<em>*</em></span></h2>
 <div class="carousel-wrapper">
     <div id="the-carousel-3" class="owl-carousel carousel-style-03">
         <div class="item first">

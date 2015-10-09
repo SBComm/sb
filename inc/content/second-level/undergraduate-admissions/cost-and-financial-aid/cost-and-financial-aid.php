@@ -133,33 +133,33 @@
                 <table class="responsive-table">
                     <tr>
                         <th class="label first">University</th>
-                        <th class="label"><span class="note">Estimated Annual </span><span class="nowrap">In-State*</span><span class="note"> Tuition &amp; Fees (*2014-2015)</span></th>
-                        <th class="label"><span class="note">Estimated Annual </span><span class="nowrap">Out-of-State*</span><span class="note"> Tuition &amp; Fees (*2014-2015)</span></th>
+                        <th class="label"><span class="note">Estimated Annual </span><span class="nowrap">In-State*</span><span class="note"> Tuition &amp; Fees (*2015-2016)</span></th>
+                        <th class="label"><span class="note">Estimated Annual </span><span class="nowrap">Out-of-State*</span><span class="note"> Tuition &amp; Fees (*2015-2016)</span></th>
                     </tr>
                     <tr class="sb-red">
                         <td class="label">Stony Brook University**</td>
-                        <td><span class="amount">8,430</span></td>
-                        <td><span class="amount">21,850</span></td>
+                        <td><span class="amount">8,855</span></td>
+                        <td><span class="amount">23,935</span></td>
                     </tr>
                     <tr>
                         <td class="label">Arizona State University</td>
-                        <td><span class="amount">10,002</span></td>
-                        <td><span class="amount">23,654</span></td>
+                        <td><span class="amount">10,184</span></td>
+                        <td><span class="amount">25,484</span></td>
                     </tr>
                     <tr>
                         <td class="label">Boston University</td>
-                        <td><span class="amount">46,664</span></td>
-                        <td><span class="amount">46,664</span></td>
+                        <td><span class="amount">48,436</span></td>
+                        <td><span class="amount">48,436</span></td>
                     </tr>
                     <tr>
                         <td class="label">Cornell (Endowed Colleges)</td>
-                        <td><span class="amount">47,286</span></td>
-                        <td><span class="amount">47,286</span></td>
+                        <td><span class="amount">49,116</span></td>
+                        <td><span class="amount">49,116</span></td>
                     </tr>
                     <tr>
                         <td class="label">New York University</td>
-                        <td><span class="amount">46,148</span></td>
-                        <td><span class="amount">46,148</span></td>
+                        <td><span class="amount">47,750</span></td>
+                        <td><span class="amount">47,750</span></td>
                     </tr>
                 </table>
                 <div class="view-more">View More Comparisons
@@ -171,17 +171,17 @@
                     <tr>
                         <td class="label">Ohio State University, Columbus</td>
                         <td><span class="amount">10,037</span></td>
-                        <td><span class="amount">25,757</span></td>
+                        <td><span class="amount">27,365</span></td>
                     </tr>
                     <tr>
                         <td class="label">Penn State, University Park</td>
-                        <td><span class="amount">17,502</span></td>
-                        <td><span class="amount">30,452</span></td>
+                        <td><span class="amount">17,514</span></td>
+                        <td><span class="amount">31,346</span></td>
                     </tr>
                     <tr>
                         <td class="label">Rutgers University, New Brunswick</td>
-                        <td><span class="amount">13,813</span></td>
-                        <td><span class="amount">28,591</span></td>
+                        <td><span class="amount">14,131</span></td>
+                        <td><span class="amount">29,521</span></td>
                     </tr>
                     <tr>
                         <td class="label">St. John's University</td>
@@ -190,73 +190,73 @@
                     </tr>
                     <tr>
                         <td class="label">Syracuse University</td>
-                        <td><span class="amount">41,886</span></td>
-                        <td><span class="amount">41,886</span></td>
+                        <td><span class="amount">43,318</span></td>
+                        <td><span class="amount">43,318</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of Arizona</td>
-                        <td><span class="amount">10,957</span></td>
-                        <td><span class="amount">29,421</span></td>
+                        <td><span class="amount">11,400</span></td>
+                        <td><span class="amount">32,600</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of California, Berkeley</td>
-                        <td><span class="amount">12,972</span></td>
-                        <td><span class="amount">35,850</span></td>
+                        <td><span class="amount">13,431</span></td>
+                        <td><span class="amount">38,139</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of California, San Diego</td>
-                        <td><span class="amount">13,456</span></td>
-                        <td><span class="amount">36,334</span></td>
+                        <td><span class="amount">13,557</span></td>
+                        <td><span class="amount">38,265</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of California, Santa Barbara</td>
-                        <td><span class="amount">13,860</span></td>
-                        <td><span class="amount">36,738</span></td>
+                        <td><span class="amount">13,865</span></td>
+                        <td><span class="amount">38,573</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of Chicago</td>
-                        <td><span class="amount">48,253</span></td>
-                        <td><span class="amount">48,253</span></td>
+                        <td><span class="amount">50,193</span></td>
+                        <td><span class="amount">50,193</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of Colorado, Boulder</td>
-                        <td><span class="amount">10,789</span></td>
-                        <td><span class="amount">33,151</span></td>
+                        <td><span class="amount">11,091</span></td>
+                        <td><span class="amount">34,125</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of Connecticut</td>
-                        <td><span class="amount">12,700</span></td>
-                        <td><span class="amount">32,880</span></td>
+                        <td><span class="amount">13,364</span></td>
+                        <td><span class="amount">34,908</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of Delaware</td>
-                        <td><span class="amount">12,342</span></td>
-                        <td><span class="amount">30,692</span></td>
+                        <td><span class="amount">12,520</span></td>
+                        <td><span class="amount">31,420</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of Maryland, College Park</td>
-                        <td><span class="amount">9,427</span></td>
-                        <td><span class="amount">29,720</span></td>
+                        <td><span class="amount">9,996</span></td>
+                        <td><span class="amount">31,144</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of Michigan, Ann Arbor</td>
-                        <td><span class="amount">13,486</span></td>
-                        <td><span class="amount">41,906</span></td>
+                        <td><span class="amount">13,856</span></td>
+                        <td><span class="amount">43,476</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of Southern California</td>
-                        <td><span class="amount">48,280</span></td>
-                        <td><span class="amount">48,280</span></td>
+                        <td><span class="amount">50,227</span></td>
+                        <td><span class="amount">50,227</span></td>
                     </tr>
                     <tr>
                         <td class="label">University of Texas, Austin</td>
-                        <td><span class="amount">9,798 </span></td>
-                        <td><span class="amount">34,722</span></td>
+                        <td><span class="amount">9,830</span></td>
+                        <td><span class="amount">34,836</span></td>
                     </tr>
                     <tr>
                         <td class="label">Washington State University</td>
-                        <td><span class="amount">11,386</span></td>
-                        <td><span class="amount">24,468</span></td>
+                        <td><span class="amount">10,916</span></td>
+                        <td><span class="amount">24,516</span></td>
                     </tr>
                 </table>
             </div>
@@ -283,16 +283,18 @@
             </div>
             <ul class="light clearfix">
                 <li class="label">3 year <span class="note">default rate (2010)</span></li>
-                <li class="usa clearfix"><span class="stat">14.7%</span><span class="label">National</span></li>
-                <li class="newyork clearfix"><span class="stat"><span class="less-spacing">11</span>.9%</span><span class="label">New York State</span></li>
-                <li class="shield clearfix"><span class="stat">5.4%</span><span class="label">Stony Brook University</span></li>
+                <li class="usa clearfix"><span class="stat">13.7%</span><span class="label">National</span></li>
+                <li class="newyork clearfix"><span class="stat"><span class="less-spacing">10</span>.1%</span><span class="label">New York State</span></li>
+                <li class="shield clearfix"><span class="stat">5.1%</span><span class="label">Stony Brook University</span></li>
             </ul>
+            <!--
             <ul class="dark clearfix">
                 <li class="label">2 year <span class="note">default rate (2011)</span></li>
                 <li class="usa clearfix"><span class="stat">10.0%</span><span class="label">National</span></li>
                 <li class="newyork clearfix"><span class="stat">7.9%</span><span class="label">New York State</span></li>
                 <li class="shield clearfix"><span class="stat">4.2%</span><span class="label">Stony Brook University</span></li>
             </ul>
+            -->
         </div>
     </section>
 

@@ -1694,9 +1694,10 @@ section.cl-majors-honors {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        width: 185px;
         background: url("../../img/bkg/transparent-red-900-85.png") 0 0 repeat transparent;
         background: rgba(153, 0, 0, .85);
+        min-width: 185px;
+        max-width: 245px;
     }
 
     .counselor-container .profile-info-wrapper.fix-right {
@@ -1787,7 +1788,9 @@ section.cl-majors-honors {
 
     .counselor-container .profile-info-wrapper {
         padding: 80px 35px 0 35px;
-        width: 255px;
+        min-width: 255px;
+        width: auto;
+        max-width: 310px;
     }
 
     .counselor-container .profile-info {
@@ -2013,7 +2016,7 @@ section.cl-majors-honors {
 
     .student-loan-rates ul {
         float: left;
-        width: 50%;
+        width: 100%;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -2030,7 +2033,7 @@ section.cl-majors-honors {
 
     .student-loan-rates ul:last-child {
         border-left: 0 none;
-        border-right: 1px solid #000;
+        border-right: 0 none;
     }
 
     ul.three-col-list {

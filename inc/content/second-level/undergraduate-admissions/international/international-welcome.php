@@ -71,7 +71,7 @@
                 <li class="clearfix"><span>600-720</span> <em>SAT scores: math</em></li>
                 <li class="clearfix"><span>550-660</span> <em>SAT scores: critical reading</em></li>
                 <li class="clearfix"><span>26-31</span> <em>ACT scores</em></li>
-                <li class="clearfix"><span>2770</span> <em>Full-time freshmen</em></li>
+                <li class="clearfix"><span>2836</span> <em>Full-time freshmen</em></li>
                 <li class="clearfix"><span>16,831</span> <em>Undergraduates</em></li>
                 <li class="clearfix"><span>25,272</span> <em>Total students</em></li>
                 <li class="clearfix"><span>54:46%</span> <em>Males:Females</em></li>
