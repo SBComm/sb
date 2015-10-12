@@ -54,8 +54,4 @@
 
     </section>
 
-    <section class="clearfix wrapper inside-content text-align-right smaller">
-        <p>Course search provided by <a href="http://providence.media/" target="_blank">Providence Media</a></p>
-    </section>
-
 </article>

@@ -5,7 +5,7 @@
             <span class="name">Kelley Bollhofer</span>
             <span class="title">Assistant Director of Admissions, EOP Admissions</span>
             <span class="territory">Territory:</span>
-            <span class="location">Long Island, NY</span> 
+            <span class="location">New York</span> 
             <span class="email">enroll@stonybrook.edu</span>
         </div>
     </div>

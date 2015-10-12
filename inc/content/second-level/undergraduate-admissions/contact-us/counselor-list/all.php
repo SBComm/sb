@@ -45,8 +45,8 @@
                     <img src="img/admissions-counselors/bell.jpg" alt="" />
                     <div class="person-info">
                         <span class="name">Gerome Bell</span>
-                        <span class="title">Admissions Counselor</span>
-                        <span class="location">New York</span>
+                        <span class="title">Admissions Advisor</span>
+                        <span class="location">Pennsylvania &amp; Southeast</span>
                     </div>
                     </a>
                 </li>
@@ -66,7 +66,7 @@
                     <div class="person-info">
                         <span class="name">Kelly Bollhofer</span>
                         <span class="title">Assistant Director of Admissions, EOP Admissions</span>
-                        <span class="location">Long Island, NY</span>
+                        <span class="location">New York</span>
                     </div>
                     </a>
                 </li>
@@ -86,7 +86,7 @@
                     <div class="person-info">
                         <span class="name">Michelle Curtis-Bailey</span>
                         <span class="title">Senior Admissions Advisor and EOP Coordinator</span>
-                        <span class="location">New York</span>
+                        <span class="location">New York City</span>
                     </div>
                     </a>
                 </li>
@@ -176,7 +176,7 @@
                     <div class="person-info">
                         <span class="name">Lauren Sangimino</span>
                         <span class="title">Assistant Director of Admissions</span>
-                        <span class="location">National</span>
+                        <span class="location">Connecticut / Rhode Island</span>
                     </div>
                     </a>
                 </li>
@@ -186,7 +186,7 @@
                     <div class="person-info">
                         <span class="name">Donald Sheehan</span>
                         <span class="title">Admissions Counselor</span>
-                        <span class="location">New York</span>
+                        <span class="location">New York City</span>
                     </div>
                     </a>
                 </li>

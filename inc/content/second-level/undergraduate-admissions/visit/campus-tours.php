@@ -52,6 +52,12 @@
                         <span class="label">Take Our Virtual Tour!</span>
                     </a>
                 </div>
+                <h4>Tour Guides</h4>
+                <div class="button-wrapper tour-btn clearfix">
+                    <a target="_blank" href="http://www.stonybrook.edu/commcms/tourguides" class="rounded-button-1 icon marker-icon">
+                        <span class="label">Meet our Tour Guides</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>

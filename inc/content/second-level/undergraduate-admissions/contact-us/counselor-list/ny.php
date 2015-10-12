@@ -45,8 +45,8 @@
                     <img src="img/admissions-counselors/bell.jpg" alt="" />
                     <div class="person-info">
                         <span class="name">Gerome Bell</span>
-                        <span class="title">Admissions Counselor</span>
-                        <span class="location">New York</span>
+                        <span class="title">Admissions Advisor</span>
+                        <span class="location">Pennsylvania &amp; Southeast</span>
                     </div>
                     </a>
                 </li>
@@ -76,7 +76,7 @@
                     <div class="person-info">
                         <span class="name">Michelle Curtis-Bailey</span>
                         <span class="title">Senior Admissions Advisor and EOP Coordinator</span>
-                        <span class="location">New York</span>
+                        <span class="location">New York City</span>
                     </div>
                     </a>
                 </li>
@@ -106,7 +106,7 @@
                     <div class="person-info">
                         <span class="name">Donald Sheehan</span>
                         <span class="title">Admissions Counselor</span>
-                        <span class="location">New York</span>
+                        <span class="location">New York City</span>
                     </div>
                     </a>
                 </li>

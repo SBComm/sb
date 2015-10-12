@@ -3,9 +3,9 @@
     <div class="profile-info-wrapper fix-right">
         <div class="profile-info">
             <span class="name">Gerome Bell</span>
-            <span class="title">Admissions Counselor, Transfers</span>
+            <span class="title">Admissions Advisor</span>
             <span class="territory">Territory:</span>
-            <span class="location">Long Island, NY</span> 
+            <span class="location">Pennsylvania &amp; Southeast</span> 
             <span class="email">enroll@stonybrook.edu</span>
         </div>
     </div>
