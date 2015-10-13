@@ -816,7 +816,11 @@ a.modify-search-after {
 }
 
 .profile-section ol li {
-    margin: 0 0 12px;
+    margin: 0 0 12px 24px;
+}
+
+.profile-section ol.number > li:before {
+    left: -30px;
 }
 
 .profile h3 {
