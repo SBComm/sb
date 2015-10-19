@@ -1,6 +1,6 @@
 <?php
 
-	header('content-type: application/json; charset=utf-8');
+	header('content-type: application/javascript; charset=utf-8');
 
 	$f_url = $_GET["url"];
 
