@@ -11,6 +11,10 @@
 		}
 		include($inc);
 
+		$og_url = '';
+		$page_cat = 'sub';
+		$page_title_sub = $_GET["pageTitle"];
+
 		$includeHeader = ($_GET["include"]);
 		if($includeHeader==1) {
 			$meta = false;
