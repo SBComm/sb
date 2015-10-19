@@ -64,12 +64,12 @@
 	        $page_to_top_loc = 'page-top';
 		?>
 
-	<!-- <head> -->
+	<head>
 		<?php 
 			$file  = $header;
 			include($path . $file);
 		?>
-	<!-- </head> -->
+	</head>
     <body>
         <!-- <global> -->
 			<?php 

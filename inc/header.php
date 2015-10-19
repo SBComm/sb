@@ -1,4 +1,3 @@
-    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -140,45 +139,44 @@
 
 
 
-    <!--BEGIN IE Specific CSS Includes and Polyfills-->
-        <!--[if IE 11]>
-            <link rel="stylesheet" href="css/ie/ie11.css">
-        <![endif]-->
-        <!--[if IE 10]>
-            <link rel="stylesheet" href="css/ie/ie10.css">
-        <![endif]-->
-    	<!--[if gt IE 8]>
-            <link rel="stylesheet" href="css/ie/gte-ie9.css">
-        <![endif]-->
-        <!--[if IE 9]>
-            <link rel="stylesheet" href="css/ie/ie9.css">
-        <![endif]-->
-        <!--[if lt IE 9]>
-            <link rel="stylesheet" href="css/ie/lte-ie8.css">
-        <![endif]-->
-        <!--[if lt IE 8]>
-            <link rel="stylesheet" href="/css/ie/icomoon-ie7.css">
-        <![endif]-->
-        <!--BEGIN HTML5 Shiv-->
-        <!--Note: This causes Google Fonts to show up on IE8-->
-            <!--[if lt IE 9]>
-                <script src="js/vendor/html5shiv/trunk/html5.js"></script>
+        <!--BEGIN IE Specific CSS Includes and Polyfills-->
+            <!--[if IE 11]>
+                <link rel="stylesheet" href="css/ie/ie11.css">
             <![endif]-->
-        <!--END HTML5 Shiv-->
-    <!--END IE Specific CSS Includes and Polyfills-->
+            <!--[if IE 10]>
+                <link rel="stylesheet" href="css/ie/ie10.css">
+            <![endif]-->
+        	<!--[if gt IE 8]>
+                <link rel="stylesheet" href="css/ie/gte-ie9.css">
+            <![endif]-->
+            <!--[if IE 9]>
+                <link rel="stylesheet" href="css/ie/ie9.css">
+            <![endif]-->
+            <!--[if lt IE 9]>
+                <link rel="stylesheet" href="css/ie/lte-ie8.css">
+            <![endif]-->
+            <!--[if lt IE 8]>
+                <link rel="stylesheet" href="/css/ie/icomoon-ie7.css">
+            <![endif]-->
+            <!--BEGIN HTML5 Shiv-->
+            <!--Note: This causes Google Fonts to show up on IE8-->
+                <!--[if lt IE 9]>
+                    <script src="js/vendor/html5shiv/trunk/html5.js"></script>
+                <![endif]-->
+            <!--END HTML5 Shiv-->
+        <!--END IE Specific CSS Includes and Polyfills-->
 
-    <?php includeAsset('css','css/print.css','print'); ?>
+        <?php includeAsset('css','css/print.css','print'); ?>
 
-    <!--BEGIN Fonts.com Include-->
-		<!--<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/4d69d29a-9fcc-4dfe-bd87-a65adb689f6c.css"/>-->
-        <link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
-    <!--END Fonts.com Include-->
+        <!--BEGIN Fonts.com Include-->
+    		<!--<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/4d69d29a-9fcc-4dfe-bd87-a65adb689f6c.css"/>-->
+            <link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
+        <!--END Fonts.com Include-->
 
-    <!--BEGIN Google fonts fallback-->
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <!--END Google fonts fallback-->
+        <!--BEGIN Google fonts fallback-->
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <!--END Google fonts fallback-->
 
-    <!--BEGIN Modernizr Include-->
-        <?php includeAsset('js','js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'); ?>
-    <!--END Modernizr Include-->
-    </head>
+        <!--BEGIN Modernizr Include-->
+            <?php includeAsset('js','js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'); ?>
+        <!--END Modernizr Include-->

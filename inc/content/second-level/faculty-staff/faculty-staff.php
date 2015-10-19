@@ -166,7 +166,7 @@
             </div>
         </div>
     </section>
-    <section class="activities-and-calendar inside-content arrow-below arrow-below-black">
+    <section class="activities-and-calendar news-feed-list inside-content arrow-below arrow-below-black">
         <div class="black-opac-cover">
             <div class="border-box wrapper clearfix">
                 <h2 class="medium-title-3 aqua">News &amp; Communications</h2>

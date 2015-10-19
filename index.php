@@ -26,12 +26,12 @@
 		    $audience_nav_selected_tab = 0;
 		?>
 
-	<!-- <head> -->
+	<head>
 		<?php 
 			$file  = $header;
 			include($path . $file);
 		?>
-	<!-- </head> -->
+	</head>
     <body>
         <!-- <global> -->
 			<?php 

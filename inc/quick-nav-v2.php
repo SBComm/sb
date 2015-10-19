@@ -132,6 +132,37 @@
 		                    </ul>
 	                    </div>
 		            </nav>
+<?php } else if($second_level=='alumni') { ?>
+					<nav id="header" class="quick-nav clearfix" data-search-style="<?php echo $search_style ?>">
+						<div class="quick-nav-wrapper">
+		                    <ul class="no-pad-wrapper border-box clearfix">
+		                        <li>
+		                        	<a href="alumni/contact" class="clearfix">
+		                        		<i class="icon fa fa-paper-plane clearfix"></i>
+		                        		<span class="label clearfix">Contact Us</span>
+		                        	</a>
+		                        </li>
+		                        <li>
+		                        	<a href="#">
+		                        		<i class="icon fa fa-graduation-cap clearfix"></i>
+		                        		<span class="label clearfix">Alumni Relations <span class="hide-accessible-mobile">Office</span></span>
+		                        	</a>
+		                        </li>
+		                        <li>
+		                        	<a href="undergraduate-admissions/contact/request-information/">
+		                        		<i class="icon fa fa-university clearfix"></i>
+		                        		<span class="label clearfix">Alumni Association</span>
+		                        	</a>
+		                        </li>
+		                        <li class="desktop for-info">
+		                        	<span class="audience-trigger">
+		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
+		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>Info for</span>
+		                        	</span>
+		                        </li>
+		                    </ul>
+	                    </div>
+		            </nav>
 <?php } else { ?>
 					<nav id="header" class="quick-nav clearfix" data-search-style="<?php echo $search_style ?>">
 						<div class="quick-nav-wrapper">

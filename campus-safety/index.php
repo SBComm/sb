@@ -44,12 +44,12 @@
 		    $carousel_2       = true;
 		?>
 
-	<!-- <head> -->
+	<head>
 		<?php 
 			$file  = $header;
 			include($path . $file);
 		?>
-	<!-- </head> -->
+	</head>
     <body>
         <!-- <global> -->
 			<?php 

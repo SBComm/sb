@@ -58,12 +58,12 @@
 	        $page_scroll_mobile = false;
 		?>
 
-	<!-- <head> -->
+	<head>
 		<?php 
 			$file  = $header;
 			include($path . $file);
 		?>
-	<!-- </head> -->
+	</head>
     <body>
         <!-- <global> -->
 			<?php 

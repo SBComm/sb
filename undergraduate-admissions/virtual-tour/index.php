@@ -31,12 +31,12 @@
 			include($path . $file);
 		?>
 	<!-- </site config> -->
-	<!-- <head> -->
+	<head>
 		<?php 
 			$file  = $header;
 			include($path . $file);
 		?>
-	<!-- </head> -->
+	</head>
     <body style="height: 100%;">
 
 		<iframe allowfullscreen id="virtualtour_iframe" frameborder="0" style="overflow-x:hidden;overflow-y:auto;border: none;background-color:black;width:100%;max-width:100%" src="https://www.youvisit.com/tour/59968/?pl=v&amp;hover=0" scrolling="yes" width="100%" height="100%"></iframe>

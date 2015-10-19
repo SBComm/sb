@@ -36,12 +36,12 @@
 		    $carousel 		  = false;
 		?>
 
-	<!-- <head> -->
+	<head>
 		<?php 
 			$file  = $header;
 			include($path . $file);
 		?>
-	<!-- </head> -->
+	</head>
 
 		<?php
 	    	//$error_code = $_GET['errorReason'];
