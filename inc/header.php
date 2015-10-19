@@ -1,3 +1,4 @@
+    <?php if($meta) { ?>    
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -30,6 +31,7 @@
         <meta name="msapplication-TileColor" content="#000000">
         <meta name="msapplication-TileImage" content="apple-touch-icon-144x144-precomposed.png">
     <!--END Cross-device Favicon code-->
+    <?php } ?>
 
     <!--BEGIN CSS Includes-->
         <?php includeAsset('css','css/vendor/normalize.min.css'); ?>

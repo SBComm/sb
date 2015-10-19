@@ -74,6 +74,8 @@
     $og_url            = 'http://www.stonybrook.edu/';
     $og_image          = 'http://www.stonybrook.edu/sb/images/newlogohomepage.gif';
 
+    $meta = true;
+
     /* Page Include Controls */
     $page_to_top_link = false; // speed is defined in main.js click function
     $page_to_top_loc  = 'default'; //default, main-nav
