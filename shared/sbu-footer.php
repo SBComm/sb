@@ -9,12 +9,27 @@
 		} else {
 			$inc = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . "inc/inc.php";
 		}
-			include($inc);
+		include($inc);
 
 		$includeHeader = ($_GET["include"]);
 		if($includeHeader==1) {
+			$meta = false;
 			$file  = $header;
-			include($path . $file);
+			//include($path . $file);
+			?>
+
+	        <link href="//mobile.cc.stonybrook.edu/sb/css/vendor/normalize.min.css" rel="stylesheet">
+	        <link href="//mobile.cc.stonybrook.edu/sb/css/main.css" rel="stylesheet">
+	        <link href="//mobile.cc.stonybrook.edu/sb/css/nav.css" rel="stylesheet">
+	        <link href="//mobile.cc.stonybrook.edu/sb/css/elements/cd-dropdown/cd-dropdown.css" rel="stylesheet">
+
+	        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+		    <link href="//mobile.cc.stonybrook.edu/sb/css/elements/to-top-link/to-top.css" rel="stylesheet">
+
+		    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
+
+			<?php
 		}
 	?>
 	<!-- /inc -->
