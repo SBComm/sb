@@ -1,29 +1,23 @@
 	<!-- inc -->
 	<?php
-		$this_dir = $_SERVER['REQUEST_URI'];
-		$dev_dir  = '/development/sb/';
-		$prod_dir = '/sb/';
-		$is_dev = strpos($this_dir,$dev_dir);
-		if($is_dev !== false) {
-			$inc = $_SERVER['DOCUMENT_ROOT'] . $dev_dir . "inc/inc.php";
-		} else {
-			$inc = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . "inc/inc.php";
+		$includeHeader = ($_GET["include"]);
+		if($includeHeader==1) {
+			$this_dir = $_SERVER['REQUEST_URI'];
+			$dev_dir  = '/development/sb/';
+			$prod_dir = '/sb/';
+			$is_dev = strpos($this_dir,$dev_dir);
+			if($is_dev !== false) {
+				$inc = $_SERVER['DOCUMENT_ROOT'] . $dev_dir . "inc/inc.php";
+			} else {
+				$inc = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . "inc/inc.php";
+			}
+			include($inc);
+
+			$file  = $header;
+			include($path . $file);
 		}
-		include($inc);
 	?>
 	<!-- /inc -->
-	<!-- site variables -->
-		<?php
-			$page_type       = 'second-level';
-			$second_level    = 'for-students';
-		?>
-	<!-- /site variables -->
-	<!-- /head -->
-	<?php 
-		$file  = $header;
-		include($path . $file);
-	?>
-	<!-- /head -->
 
     <div class="sbu-wrapper clearfix">
     	<div class="sbu-sub-wrapper">
