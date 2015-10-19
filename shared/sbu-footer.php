@@ -19,8 +19,8 @@
 	?>
 	<!-- /inc -->
 
-	            </div> <!-- .main -->
-	        </div> <!-- .main-container -->
+    <div class="sbu-wrapper clearfix">
+    	<div class="sbu-sub-wrapper">
 
 	        <!-- <div.footer-container> -->
 	        	<?php if($_GET["footer"]==1) {

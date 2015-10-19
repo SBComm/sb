@@ -53,7 +53,8 @@
 					?>
 				<!-- </site-nav> -->
 	        </div>
-	        <div class="main-container">
-	            <div class="main clearfix">
+
+	    </div>
+	</div>
 
 		        
