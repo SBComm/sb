@@ -42,10 +42,3 @@
 
         </div><!-- .sbu-sub-wrapper -->
     </div><!-- .sbu-wrapper -->
-
-	<!-- <googleanalytics> -->
-		<?php 
-			$file = "site-analytics.php";
-			include($path . $file); 
-		?>
-	<!-- </googleanalytics> -->
