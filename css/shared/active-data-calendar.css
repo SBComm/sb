@@ -13,12 +13,7 @@ body {
 
 /* general */
 
-.eventlistdiv span,
-.eventlistdiv label,
-.eventlistdiv table *,
-.eventlistdiv a,
-.eventlistdiv a:hover,
-.eventlistdiv * {
+td {
     font-family:'Trade Gothic Next W01';
     font-weight: normal !important;
 }
@@ -26,6 +21,52 @@ body {
 #tblPoweredByADE,
 #footer {
     display: none !important;
+}
+
+/* input */
+
+input[type="text"],
+select {
+    background: #fff;
+    border: 1px solid #aaa;
+    padding: 5px 6px;
+    color: #333;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-shadow: none;
+    font-family: 'Trade Gothic W01 Light' !important;
+}
+
+input[type="text"]:focus {
+    border-color: #900;
+    color: #900;
+}
+
+select {
+    height: 32px;
+}
+
+input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+   color: #999;
+   font-weight: normal;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: #999;
+   font-weight: normal;
+}
+
+input:-ms-input-placeholder {  
+   color: #999;
+   font-weight: normal;
 }
 
 /* headers*/
@@ -77,7 +118,10 @@ h2.adx_wcag_header .title {
 
 h3.adx_wcag_header,
 h3.adx_wcag_header span,
-h3.adx_wcag_header span b {
+h3.adx_wcag_header span b,
+#lblCategorys,
+#lblLocations,
+#lblKeywords {
     display: block;
     font-family:'Trade Gothic Next W01';
     font-weight: normal;
@@ -86,6 +130,19 @@ h3.adx_wcag_header span b {
     color: #555;
     background: #fff;
     text-transform: none;
+}
+
+#lblCategorys {
+    display: block;
+    margin: 20px 0 10px;
+    padding: 20px 0 0;
+    border-top: 1px solid #bbb;
+}
+
+#lblLocations,
+#lblKeywords {
+    display: block;
+    margin: 10px 0 5px;
 }
 
 h3.adx_wcag_header {
@@ -147,15 +204,23 @@ td.listbodytextalt {
     padding: 6px 0 6px 10px;
 }
 
+td.listbodytext *,
+td.listbodytextalt * {
+    font-family:'Trade Gothic Next W01';
+    font-weight: normal;
+}
+
 #divTableEventsHighlighted a[href],
 #divTableHolidays a[href],
 #divTableEvents a[href] {
+    font-family:'Trade Gothic Next W01';
     color: #900;
 }
 
 #divTableEventsHighlighted a[href]:hover,
 #divTableHolidays a[href]:hover,
 #divTableEvents a[href]:hover {
+    font-family:'Trade Gothic Next W01';
     text-decoration: underline;
 }
 
@@ -205,4 +270,63 @@ a#lbtnNewSearch span {
     display: block;
     float: left;
     clear: both;
+}
+
+#txtStartDateSearch {
+    margin: 0 5px 5px;
+}
+
+#txtEndDateSearch {
+    margin: 5px 5px 0;
+}
+
+#cellCBlock {
+    /* font-size: 0; */
+    opacity: .6;
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+#cellCBlock:hover {
+    opacity: 1;
+}
+
+#cellCBlock input[type="checkbox"],
+#cellCBlock label {
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}
+
+#cellCBlock label:hover {
+    color: #900;
+}
+
+#cellCBlock table tr td:first-child {
+    font-size: 0;
+}
+
+#cellCBlock input[type="checkbox"] {
+    margin: 4px 6px 0;
+}
+
+#cellCBlock .ccontainer,
+#cellCBlock .ccontainer tbody,
+#cellCBlock .ccontainer tr,
+#cellCBlock .ccontainer td:nth-child(2) {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+#cellCBlock a.expander {
+    display: none;
+}
+
+#cellCBlock .sccontainer {
+    display: block;
+    margin: 20px 0 0 18px;
+
 }
