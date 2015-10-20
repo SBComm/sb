@@ -146,3 +146,15 @@ td.listbodytextalt {
     border-bottom: 1px solid #ddd;
     padding: 6px 0 6px 10px;
 }
+
+#divTableEventsHighlighted a[href],
+#divTableHolidays a[href],
+#divTableEvents a[href] {
+    color: #900;
+}
+
+#divTableEventsHighlighted a[href]:hover,
+#divTableHolidays a[href]:hover,
+#divTableEvents a[href]:hover {
+    text-decoration: underline;
+}
