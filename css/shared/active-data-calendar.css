@@ -76,14 +76,26 @@ h2.adx_wcag_header .title {
 /* tables */
 
 h3.adx_wcag_header,
-h3.adx_wcag_header span {
+h3.adx_wcag_header span,
+h3.adx_wcag_header span b {
     display: block;
-    font-family: 'Trade Gothic W01 Light';
+    font-family:'Trade Gothic Next W01';
+    font-weight: normal;
     font-size: 18px;
-    margin: 0;
     display: block;
     color: #555;
     background: #fff;
+    text-transform: none;
+}
+
+h3.adx_wcag_header {
+    margin: 2px 0 10px 2px;
+}
+
+#divTableEventsHighlighted tr + tr h3.adx_wcag_header,
+#divTableHolidays tr + tr h3.adx_wcag_header,
+#divTableEvents tr + tr h3.adx_wcag_header {
+    margin-top: 25px;
 }
 
 #divTableEventsHighlighted table,
@@ -96,4 +108,41 @@ h3.adx_wcag_header span {
     position: relative;
     margin: 10px 0 20px;
     width: 100% !important;
+    background: #fff;
+    font-size: 14px;
+}
+
+#divTableEventsHighlighted table span,
+#divTableEventsHighlighted table a,
+#divTableHolidays table span,
+#divTableHolidays table a,
+#divTableEvents table span,
+#divTableEvents table a {
+    font-size: 15.2px;
+}
+
+.listheadtext {
+    width: 100%;
+    padding: 4px 3px;
+    text-align: left;
+}
+
+#divTableEventsHighlighted table .listcolumnheadtext,
+#divTableHolidays table .listcolumnheadtext,
+#divTableEvents table .listcolumnheadtext {
+    display: none;
+}
+
+h4.adx_wcag_header {
+    padding: 4px;
+}
+
+h4.adx_wcag_header span {
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+td.listbodytext,
+td.listbodytextalt {
+    border-bottom: 1px solid #ddd;
+    padding: 6px 0 6px 10px;
 }
