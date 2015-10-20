@@ -1,6 +1,36 @@
+/* containers */
+
 .eventlistdiv {
     display: block;
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+}
+
+/* general */
+
+.eventlistdiv span,
+.eventlistdiv label,
+.eventlistdiv table *,
+.eventlistdiv a,
+.eventlistdiv a:hover,
+.eventlistdiv * {
+    font-family:'Trade Gothic Next W01';
+    font-weight: normal !important;
+}
+
+#tblPoweredByADE,
+#footer {
+    display: none !important;
+}
+
+/* headers*/
+
+h2.adx_wcag_header .title {
+    font-family: 'CenturyExpandedLTW01-Ro' !important;
+    font-weight: 400;
+    text-transform: none;
+    color: #000;
+    font-size: 2em;
+    display: block;
 }
