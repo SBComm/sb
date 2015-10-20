@@ -25,6 +25,7 @@
 	        <link href="//mobile.cc.stonybrook.edu/sb/css/vendor/normalize.min.css" rel="stylesheet">
 	        <link href="//mobile.cc.stonybrook.edu/sb/css/main.css" rel="stylesheet">
 	        <link href="//mobile.cc.stonybrook.edu/sb/css/nav.css" rel="stylesheet">
+	        <link href="//mobile.cc.stonybrook.edu/sb/css/shared/active-data-calendar.css" rel="stylesheet">
 	        <link href="//mobile.cc.stonybrook.edu/sb/css/elements/cd-dropdown/cd-dropdown.css" rel="stylesheet">
 
 	        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
