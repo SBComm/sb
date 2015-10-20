@@ -158,3 +158,51 @@ td.listbodytextalt {
 #divTableEvents a[href]:hover {
     text-decoration: underline;
 }
+
+/* side panel */
+
+#pnlHideSearch {
+    margin: 0 12px 0 0;
+}
+
+#CalendarPanel {
+    display: block;
+    font-size: 15.2px;
+    margin: 0 0 10px;
+}
+
+#CalendarPanel .titleSmallGrid {
+    padding: 2px 0 5px;
+}
+
+#CalendarPanel a:hover {
+    color: #900;
+}
+
+#CalendarPanel .otherdaySmallGrid,
+#CalendarPanel .calendarcellhiliteSmallGrid {
+    background: #f5f5f5;
+    border: 1px solid #fff;
+}
+
+#CalendarPanel .otherdaySmallGrid:hover,
+#CalendarPanel .calendarcellhiliteSmallGrid:hover {
+    background: #ffe1d2;
+}
+
+#CalendarPanel .calendarcellhiliteSmallGrid a,
+#CalendarPanel .otherdaySmallGrid a {
+    font-size: .9em
+}
+
+a#lbtnNewSearch {
+    display: block;
+    margin: 0 0 0 4px;
+}
+
+a#lbtnNewSearch span {
+    font-size: 12px !important;
+    display: block;
+    float: left;
+    clear: both;
+}
