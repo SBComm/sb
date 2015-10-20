@@ -123,8 +123,8 @@ h3.adx_wcag_header span b,
 #lblLocations,
 #lblKeywords {
     display: block;
-    font-family:'Trade Gothic Next W01';
-    font-weight: normal;
+    font-family:'Trade Gothic Next W01' !important;
+    font-weight: normal !important;
     font-size: 18px;
     display: block;
     color: #555;
@@ -132,17 +132,20 @@ h3.adx_wcag_header span b,
     text-transform: none;
 }
 
-#lblCategorys {
+/*#lblCategorys {
     display: block;
     margin: 20px 0 10px;
     padding: 20px 0 0;
     border-top: 1px solid #bbb;
-}
+}*/
 
 #lblLocations,
-#lblKeywords {
+#lblKeywords,
+#lblCategorys {
     display: block;
     margin: 10px 0 5px;
+    font-size: 15.2px;
+    color: #333;
 }
 
 h3.adx_wcag_header {
@@ -205,7 +208,9 @@ td.listbodytextalt {
 }
 
 td.listbodytext *,
-td.listbodytextalt * {
+td.listbodytextalt *,
+td.listbodytext *:hover,
+td.listbodytextalt *:hover {
     font-family:'Trade Gothic Next W01';
     font-weight: normal;
 }
@@ -234,6 +239,7 @@ td.listbodytextalt * {
     display: block;
     font-size: 15.2px;
     margin: 0 0 10px;
+    opacity: 1;
 }
 
 #CalendarPanel .titleSmallGrid {
@@ -245,18 +251,25 @@ td.listbodytextalt * {
 }
 
 #CalendarPanel .otherdaySmallGrid,
-#CalendarPanel .calendarcellhiliteSmallGrid {
+#CalendarPanel .calendarcellhiliteSmallGrid,
+#CalendarPanel .calendarcellSmallGrid {
     background: #f5f5f5;
     border: 1px solid #fff;
 }
 
+#CalendarPanel .calendarcellhiliteSmallGrid {
+    background: #ffe1d2;
+}
+
 #CalendarPanel .otherdaySmallGrid:hover,
-#CalendarPanel .calendarcellhiliteSmallGrid:hover {
+#CalendarPanel .calendarcellhiliteSmallGrid:hover,
+#CalendarPanel .calendarcellSmallGrid:hover {
     background: #ffe1d2;
 }
 
 #CalendarPanel .calendarcellhiliteSmallGrid a,
-#CalendarPanel .otherdaySmallGrid a {
+#CalendarPanel .otherdaySmallGrid a,
+#CalendarPanel .calendarcellSmallGrid a {
     font-size: .9em
 }
 
@@ -280,7 +293,7 @@ a#lbtnNewSearch span {
     margin: 5px 5px 0;
 }
 
-#cellCBlock {
+#Table2 {
     /* font-size: 0; */
     opacity: .6;
     -webkit-transition: opacity .3s;
@@ -288,7 +301,7 @@ a#lbtnNewSearch span {
     transition: opacity .3s;
 }
 
-#cellCBlock:hover {
+#Table2:hover {
     opacity: 1;
 }
 
@@ -329,4 +342,39 @@ a#lbtnNewSearch span {
     display: block;
     margin: 20px 0 0 18px;
 
+}
+
+#lbtnSearch {
+    margin: 15px 0 30px;
+}
+
+#lbtnSearch {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 18px 10px;
+    font-family: 'Trade Gothic Next W01', Arial, sans-serif;
+    font-weight: normal;
+    font-size: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    box-shadow: 0 0 10px #fff;
+    background: #900;
+    border: 1px solid #800;
+    color: #fff !important;
+    position: relative;
+}
+
+#lbtnSearch:hover {
+    background: #a00;
+    text-decoration: none !important;
+}
+
+#lbtnSearch:active {
+    background: #900;
 }
