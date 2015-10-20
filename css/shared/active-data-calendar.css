@@ -1,5 +1,9 @@
 /* containers */
 
+body {
+    background: #fff;
+}
+
 .eventlistdiv {
     display: block;
     width: 100%;
@@ -33,4 +37,63 @@ h2.adx_wcag_header .title {
     color: #000;
     font-size: 2em;
     display: block;
+}
+
+#pnlListviewHeading {
+    font-size: 1em;
+    font-weight: normal;
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    text-transform: uppercase;
+    background: #900;
+    padding: 10px 15px 8px;
+}
+
+#pnlListviewHeading h2,
+#pnlListviewHeading h2 span {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-weight: normal !important;
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-size: 22px;
+    color: #fff;
+}
+
+#pnlListviewHeading h2 img {
+    display: inline-block;
+    border: 1px solid #800;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #b00;
+}
+
+
+/* labels */
+
+#lblNoHighlight {
+    display: none;
+}
+
+/* tables */
+
+h3.adx_wcag_header,
+h3.adx_wcag_header span {
+    display: block;
+    font-family: 'Trade Gothic W01 Light';
+    font-size: 18px;
+    margin: 0;
+    display: block;
+    color: #555;
+    background: #fff;
+}
+
+#divTableEventsHighlighted table,
+#divTableHolidays table,
+#divTableEvents table {
+    background: #eee;
+    margin: 0 0 20px .5%;
+    border: 8px solid #fff;
+    box-shadow: 0 0 0 1px #900;
+    position: relative;
+    margin: 10px 0 20px;
+    width: 100% !important;
 }
