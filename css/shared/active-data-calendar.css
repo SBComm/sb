@@ -121,7 +121,8 @@ h3.adx_wcag_header span,
 h3.adx_wcag_header span b,
 #lblCategorys,
 #lblLocations,
-#lblKeywords {
+#lblKeywords,
+#pnlEventDetails td.title {
     display: block;
     font-family:'Trade Gothic Next W01' !important;
     font-weight: normal !important;
@@ -177,14 +178,40 @@ h3.adx_wcag_header {
 #divTableHolidays table span,
 #divTableHolidays table a,
 #divTableEvents table span,
-#divTableEvents table a {
+#divTableEvents table a,
+#pnlEventDetails .detailsview,
+#pnlEventDetails .detailsview a {
     font-size: 15.2px;
+    font-family:'Trade Gothic Next W01' !important;
 }
 
 .listheadtext {
     width: 100%;
     padding: 4px 3px;
     text-align: left;
+}
+/* for inside page, but conflicts with list page... to resolve
+.listheadtext {
+    display: block;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 0 0 15px;
+
+    font-weight: normal;
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    text-transform: uppercase;
+    background: #900;
+    padding: 10px 15px 8px;
+
+    line-height: 1;
+    font-weight: normal !important;
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-size: 22px;
+    color: #fff;
+}
+*/
+.listheadtext b {
+    font-weight: normal !important;
 }
 
 #divTableEventsHighlighted table .listcolumnheadtext,
@@ -197,8 +224,10 @@ h4.adx_wcag_header {
     padding: 4px;
 }
 
-h4.adx_wcag_header span {
+h4.adx_wcag_header span,
+#pnlEventDetails .detailsview b {
     font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal !important;
 }
 
 td.listbodytext,
@@ -217,7 +246,8 @@ td.listbodytextalt *:hover {
 
 #divTableEventsHighlighted a[href],
 #divTableHolidays a[href],
-#divTableEvents a[href] {
+#divTableEvents a[href],
+#pnlEventDetails .detailsview a {
     font-family:'Trade Gothic Next W01';
     color: #900;
 }
@@ -226,6 +256,45 @@ td.listbodytextalt *:hover {
 #divTableHolidays a[href]:hover,
 #divTableEvents a[href]:hover {
     font-family:'Trade Gothic Next W01';
+    text-decoration: underline;
+}
+
+#pnlEventDetails .detailsview a,
+#pnlEventDetails .detailsview a span,
+#pnlEventDetails .detailsview a u {
+    text-decoration: none;
+}
+
+#pnlEventDetails .detailsview a:hover,
+#pnlEventDetails .detailsview a span:hover,
+#pnlEventDetails .detailsview a u:hover {
+    text-decoration: underline;
+}
+
+#pnlEventDetails .adx-detailsview-left {
+    width: 65% !important;
+}
+
+#pnlEventDetails .adx-detailsview-right {
+    width: 35% !important;
+}
+
+td.dayheaderSmallGrid {
+    background: #fff;
+}
+
+td.dayheaderSmallGrid a,
+td.dayheaderSmallGrid a:hover {
+    background: transparent;
+    color: #900;
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    display: block;
+    float: right;
+}
+
+td.dayheaderSmallGrid a:hover {
     text-decoration: underline;
 }
 
