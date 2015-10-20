@@ -11,7 +11,7 @@
 		}
 		include($inc);
 
-		$og_url = '';
+		$og_url = $_GET["pageURL"];
 		$page_cat = 'sub';
 		$page_title_sub = $_GET["pageTitle"];
 
