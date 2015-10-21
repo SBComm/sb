@@ -13,8 +13,9 @@ body {
 
 /* general */
 
-td {
-    font-family:'Trade Gothic Next W01';
+td,
+.loginmessage {
+    font-family:'Trade Gothic Next W01' !important;
     font-weight: normal !important;
 }
 
@@ -125,7 +126,8 @@ h3.adx_wcag_header span b,
 #lblLocations,
 #lblKeywords,
 #pnlEventDetails td.title,
-.calendarnowdiv label {
+.calendarnowdiv label,
+#tblLogin .title {
     display: block;
     font-family:'Trade Gothic Next W01' !important;
     font-weight: normal !important;
@@ -230,9 +232,14 @@ h4.adx_wcag_header {
 
 h4.adx_wcag_header span,
 #pnlEventDetails .detailsview b,
-#pnlEventDetails .detailsview strong {
+#pnlEventDetails .detailsview strong,
+#tblLoginInfo .bodycopy {
     font-family: 'Trade Gothic W01 Bold 2';
     font-weight: normal !important;
+}
+
+#tblLoginInfo .bodycopy {
+    text-transform: uppercase;
 }
 
 #pnlEventDetails .detailsview em,
@@ -434,6 +441,7 @@ a#lbtnNewSearch span {
     margin: 15px 0 30px;
 }
 
+#tblLogin input[type="submit"],
 #lbtnSearch {
     display: inline-block;
     -webkit-box-sizing: border-box;
@@ -441,29 +449,31 @@ a#lbtnNewSearch span {
     box-sizing: border-box;
     padding: 8px 18px 10px;
     font-family: 'Trade Gothic Next W01', Arial, sans-serif;
-    font-weight: normal;
+    font-weight: normal !important;
     font-size: inherit;
-    text-decoration: none;
+    text-decoration: none !important;
     cursor: pointer;
     border-radius: 2px;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
     box-shadow: 0 0 10px #fff;
-    background: #900;
+    background: #900 !important;
     border: 1px solid #800;
     color: #fff !important;
     position: relative;
     font-weight: normal !important;
 }
 
-#lbtnSearch:hover {
-    background: #a00;
+#tblLogin input[type="submit"]:hover,
+#lbtnSearch:hover, {
+    background: #a00!important;
     text-decoration: none !important;
 }
 
+#tblLogin input[type="submit"]:active,
 #lbtnSearch:active {
-    background: #900;
+    background: #900!important;
 }
 
 /* advanced search for calendar grid */
