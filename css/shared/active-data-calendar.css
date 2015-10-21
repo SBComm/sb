@@ -486,7 +486,9 @@ a#lbtnNewSearch span {
 }
 
 .calendarnowdiv #pnlSearch {
-    margin: 20px auto 25px;
+    margin: 15px auto 25px;
+    border-top: 1px solid #ddd;
+    padding: 25px 0 0;
 }
 
 .calendarnowdiv #cellDisplayOptions label {
@@ -707,4 +709,20 @@ a#lbtnNewSearch span {
     .calendarcellhilite:hover {
         font-size: 13px;
     }
+}
+
+/* calendar grid filter functionality */
+
+.calendarnowdiv #lblCategoryHeading:after {
+    content: "Filter Events";
+    display: block;
+    font-family:'Trade Gothic Next W01';
+    font-size: 15.2px;
+    margin: 5px 0 0;
+    color: #900;
+    cursor: pointer;
+}
+
+.calendarnowdiv #lblCategoryHeading:hover:after {
+    text-decoration: underline;
 }
