@@ -100,7 +100,8 @@ h2.adx_wcag_header .title {
     color: #fff;
 }
 
-#pnlListviewHeading h2 img {
+#pnlListviewHeading h2 img,
+#CalendarPanel h2.adx_wcag_header img {
     display: inline-block;
     border: 1px solid #800;
     border-radius: 10px;
@@ -235,8 +236,9 @@ h4.adx_wcag_header span,
 
 #pnlEventDetails .detailsview em,
 #pnlEventDetails .detailsview i {
-    font-family:'TradeGothicNextW02-Ligh 694374';
+    font-family:'TradeGothicNextW02-Ital';
     font-weight: normal !important;
+    font-style: normal;
 }
 
 td.listbodytext,
@@ -281,11 +283,11 @@ td.listbodytextalt *:hover {
 }
 
 #pnlEventDetails .adx-detailsview-left {
-    width: 75% !important;
+    width: 70% !important;
 }
 
 #pnlEventDetails .adx-detailsview-right {
-    width: 25% !important;
+    width: 30% !important;
 }
 
 #pnlEventDetails .adx-detailsview-right img {
@@ -554,7 +556,9 @@ a#lbtnNewSearch span {
 /* calendar grid */
 
 #CalendarPanel {
-    margin: 10px 0 0 0;
+    margin: 10px auto 50px;
+    max-width: 1550px;
+    
 }
 
 #CalendarPanel h2.adx_wcag_header {
@@ -579,6 +583,7 @@ a#lbtnNewSearch span {
 #CalendarPanel .dayheader {
     font-size: 15.2px;
     padding: 5px 0;
+    border: 1px solid #000;
 }
 
 .calendarcell *,
@@ -596,6 +601,7 @@ a#lbtnNewSearch span {
 .calendarcellhilite b {
     font-family: 'Trade Gothic W01 Bold 2';
     font-weight: normal !important;
+    display: block;
 }
 
 .calendarcell,
@@ -608,6 +614,8 @@ a#lbtnNewSearch span {
     font-weight: normal !important;
     border-color: #333 !important;
     font-size: 14px;
+    padding: 0;
+    background: #fafafa
 }
 
 .calendarcell a:first-child,
@@ -617,11 +625,11 @@ a#lbtnNewSearch span {
     font-family:'Trade Gothic Next W01' !important;
     font-weight: normal !important;
     display: inline-block;
-    background: #E0DFDF;
-    width: 26px;
+    background: #DCDCDC;
+    width: 27px;
     font-size: 16px;
     text-align: center;
-    padding: 2px 1px 2px 0;
+    padding: 2px 1px 3px 0;
     color: #333;
     margin: 0;
     border: 0 none;
@@ -633,25 +641,14 @@ a#lbtnNewSearch span {
 .calendarcell a,
 .otherday a,
 .calendarcellhilite a {
-    padding: 0 5px;
-    margin: 0 2%;
     display: inline-block;
-    width: 96%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-.calendarcell .holiday-text,
-.otherday .holiday-text,
-.calendarcellhilite .holiday-text,
-.calendarcell a,
-.otherday a,
-.calendarcellhilite a {
     padding: 5px 5px;
-    margin: 2px 0;
-    border-bottom: 1px solid #ccc;
-    display: inline-block;
+    margin: 2px 3%;
+    width: 94%;
+    border-bottom: 1px solid #ddd;
     font-family:'Trade Gothic Next W01';
 }
 
@@ -660,8 +657,12 @@ a#lbtnNewSearch span {
 .calendarcellhilite .holiday-text:last-child,
 .calendarcell a:last-child,
 .otherday a:last-child,
-.calendarcellhilite a:last-child {
+.calendarcellhilite a:last-child,
+.calendarcell a:last-of-type,
+.otherday a:last-of-type,
+.calendarcellhilite a:last-of-type {
     border-bottom: 0 none;
+    margin-bottom: 10px
 }
 
 .calendarcell .holiday-text:hover,
@@ -684,4 +685,15 @@ a#lbtnNewSearch span {
 .otherday br,
 .calendarcellhilite br {
     display: none;
+}
+
+@media screen and (max-width: 1120px) {
+    .calendarcell,
+    .otherday,
+    .calendarcellhilite,
+    .calendarcell:hover,
+    .otherday:hover,
+    .calendarcellhilite:hover {
+        font-size: 13px;
+    }
 }
