@@ -34,6 +34,15 @@
 
 		    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
 
+		    <script type="text/javascript">
+		    	var initListeners = function() {
+		    		$('.calendarnowdiv #lblCategoryHeading').on('click',function() {
+		    			console.log('here');
+		    		});
+		    	};
+		    	initListeners();
+		    </script>
+
 			<?php
 		}
 	?>
