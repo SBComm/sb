@@ -190,26 +190,25 @@ h3.adx_wcag_header {
     padding: 4px 3px;
     text-align: left;
 }
-/* for inside page, but conflicts with list page... to resolve
-.listheadtext {
+
+#pnlEventDetails .listheadtext {
     display: block;
     font-size: 20px;
     padding: 10px 10px;
     margin: 0 0 15px;
-
     font-weight: normal;
     font-family: 'TradeGothicW01-BoldCn20 675334';
     text-transform: uppercase;
     background: #900;
-    padding: 10px 15px 8px;
-
+    padding: 10px 2.5% 8px;
+    width: 95%;
     line-height: 1;
     font-weight: normal !important;
     font-family: 'TradeGothicW01-BoldCn20 675334';
     font-size: 22px;
     color: #fff;
 }
-*/
+
 .listheadtext b {
     font-weight: normal !important;
 }
