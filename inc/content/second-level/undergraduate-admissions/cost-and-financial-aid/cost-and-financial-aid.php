@@ -37,7 +37,7 @@
                 </ul>
                 <p>Nearly 90% of our recent graduates are either employed or continuing their education.</p>
                 <p>Stony Brook’s affordable tuition means less future debt and real savings that can help you pay for your graduate studies or any number of life passages yet to come.</p>
-                <p class="sub-text"><em>* Top 1% according to the Times Higher Education World University Rankings.</em></p>
+                <p class="sub-text"><em>* Stony Brook’s global ranking by U.S. News &amp; World Report places us in the 1% of institutions worldwide.</em></p>
             </div>
 
             <div class="content col-2">
