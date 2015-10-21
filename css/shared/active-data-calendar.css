@@ -224,8 +224,15 @@ h4.adx_wcag_header {
 }
 
 h4.adx_wcag_header span,
-#pnlEventDetails .detailsview b {
+#pnlEventDetails .detailsview b,
+#pnlEventDetails .detailsview strong {
     font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal !important;
+}
+
+#pnlEventDetails .detailsview em,
+#pnlEventDetails .detailsview i {
+    font-family:'TradeGothicNextW02-Ligh 694374';
     font-weight: normal !important;
 }
 
@@ -271,11 +278,16 @@ td.listbodytextalt *:hover {
 }
 
 #pnlEventDetails .adx-detailsview-left {
-    width: 65% !important;
+    width: 75% !important;
 }
 
 #pnlEventDetails .adx-detailsview-right {
-    width: 35% !important;
+    width: 25% !important;
+}
+
+#pnlEventDetails .adx-detailsview-right img {
+    max-width: 100%;
+    height: auto !important;
 }
 
 td.dayheaderSmallGrid {
