@@ -82,6 +82,20 @@ h2.adx_wcag_header .title {
     display: block;
 }
 
+.eventlistdiv #lblCategoryHeading:after {
+    content: "View All Events";
+    display: block;
+    font-family:'Trade Gothic Next W01';
+    font-size: 15.2px;
+    margin: 5px 0 0;
+    color: #900;
+    cursor: pointer;
+}
+
+.eventlistdiv #lblCategoryHeading:hover:after {
+    text-decoration: underline;
+}
+
 #pnlListviewHeading {
     font-size: 1em;
     font-weight: normal;
