@@ -582,8 +582,8 @@ a#lbtnNewSearch span {
     height: 22px;
 }
 
-#CalendarPanel #lbtnADXCalenderPrevious,
-#CalendarPanel #lbtnADXCalenderNext {
+#CalendarPanel #Calendar1 #lbtnADXCalenderPrevious,
+#CalendarPanel #Calendar1 #lbtnADXCalenderNext {
     display: block;
     background: #900;
     width: 100%;
@@ -592,20 +592,20 @@ a#lbtnNewSearch span {
     border: 1px solid #900;
 }
 
-#CalendarPanel #lbtnADXCalenderPrevious img,
-#CalendarPanel #lbtnADXCalenderNext img {
+#CalendarPanel #Calendar1 #lbtnADXCalenderPrevious img,
+#CalendarPanel #Calendar1 #lbtnADXCalenderNext img {
     padding: 5px;
     background: #fff;
     border-radius: 20px;
 }
 
-#CalendarPanel #lbtnADXCalenderPrevious img {
+#CalendarPanel #Calendar1 #lbtnADXCalenderPrevious img {
     display: block;
     float: right;
     margin: 6px 10px 0 0;
 }
 
-#CalendarPanel #lbtnADXCalenderNext img {
+#CalendarPanel #Calendar1 #lbtnADXCalenderNext img {
     display: block;
     float: left;
     margin: 6px 0 0 10px;
