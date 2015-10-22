@@ -569,28 +569,46 @@ a#lbtnNewSearch span {
 /* calendar grid */
 
 #CalendarPanel {
-    margin: 10px auto 50px;
+    margin: 0 auto 50px;
     max-width: 1550px;
-    
 }
 
 #CalendarPanel h2.adx_wcag_header {
     width: 100%;
-    max-width: 1024px;
     padding-left: 0;
     padding-right: 0;
+    margin-top: 12px;
+    border: 1px solid #900;
+    height: 22px;
 }
 
-#CalendarPanel #lbtnADXCalenderPrevious {
-    display: block;
-    float: right;
-    margin: 0 10px 0 0;
-}
-
+#CalendarPanel #lbtnADXCalenderPrevious,
 #CalendarPanel #lbtnADXCalenderNext {
     display: block;
+    background: #900;
+    width: 100%;
+    margin: 0 0 2px 0;
+    height: 40px;
+    border: 1px solid #900;
+}
+
+#CalendarPanel #lbtnADXCalenderPrevious img,
+#CalendarPanel #lbtnADXCalenderNext img {
+    padding: 5px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+#CalendarPanel #lbtnADXCalenderPrevious img {
+    display: block;
+    float: right;
+    margin: 6px 10px 0 0;
+}
+
+#CalendarPanel #lbtnADXCalenderNext img {
+    display: block;
     float: left;
-    margin: 0 0 0 10px;
+    margin: 6px 0 0 10px;
 }
 
 #CalendarPanel .dayheader {
