@@ -806,3 +806,7 @@ a#lbtnNewSearch span:hover {
 .eventlistdiv #lbtnSubmitEvents {
     display: none;
 }
+
+#lbtnExpandAll {
+    display: none;
+}
