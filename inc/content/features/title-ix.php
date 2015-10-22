@@ -34,7 +34,7 @@
 
                 <p><span>March 2014</span>University's <a href="http://www.stonybrook.edu/diversity/documents/complaint_booklet.pdf" target="_blank">Complaint Procedures for Allegations of Discrimination</a> revised and updated.</p>
 
-                <p><span>April 2014</span>SBU issued its fifth annual STAR (Secretive-problems, Targets, Assets and Risks) campus climate survey. This survey was developed by a team of researchers that are prominent leaders in the fields of psychology and violence prevention. STAR has enabled Stony Brook to look at the prevalence and dynamics of sexual violence on our campus and use data to drive our prevention efforts through an approach called Polaris.</p>
+                <p><span>April 2014</span>SBU issued its fifth annual STAR (Secretive-problems, Targets, Assets and Risks) campus climate survey. </p>
 
                 <p><span>April 2014</span><a href="http://sb.cc.stonybrook.edu/happenings/oncampus/sbu-programs-recognized-by-department-of-justice-for-dedication-to-sexual-assault-prevention/?=marquee2" target="_blank" class="external-link">The Department of Justice selected SBU</a> to serve as one of the locations for its national campus tour to coincide with the White House Task Force to Protect Students from Sexual Assault's <a href="https://www.notalone.gov/" target="_blank" class="external-link">website launch</a> and release of its <a href="http://www.whitehouse.gov/sites/default/files/docs/report_0.pdf" target="_blank">Not Alone Report</a>.</p>
 
@@ -48,8 +48,44 @@
 
                 <p><span>January 2015</span>Nationally recognized ATIXA Executive Director <a href="https://www.ncherm.org/consultants/brett-sokolow/" target="_blank" class="external-link">Brett Sokolow</a> conducts comprehensive training on the Stony Brook campus with <a href="http://www.stonybrook.edu/diversity/titleix/deputies.html" target="_blank" class="external-link">Deputy Title IX Coordinators</a>.</p>
 
-                <p><span>January 2015</span>Approximately 50 administrators and faculty received four-day train-the-trainer bystander intervention training from <a href="http://sb.cc.stonybrook.edu/happenings/oncampus/green-dot-violence-prevention-training-at-sbu-january-20-23/" target="_blank" class="external-link">Green Dot</a>, an organization cited in the White House's Not Alone Report for its training delivery methods.</p>
-            </div>
+                <p><span>January - March 2015</span>University Police Officers received in person Title IX training from the Title IX Coordinator.</p>
+
+                <p><span>April 2015</span>SBU issued its sixth annual STAR (Secretive-problems, Targets, Assets and Risks) campus climate survey. This survey was developed by a team of researchers who are prominent leaders in the fields of psychology and violence prevention. STAR has enabled Stony Brook to look at the prevalence and dynamics of sexual violence on our campus and use data to drive our prevention efforts through an approach called Polaris.</p>
+
+                <p><span>April 2015</span>Green Dot (bystander intervention) training held. As of Fall 2015, more tha 150 students have received this training.</p>
+
+                <p><span>April2015</span>Stony Brook University Panel Discussion on Campus Sexual Violence Policies and Resources held.</p>
+
+                <p><span>May 2015</span>University hired a Title IX Investigator, Kathryn Santiago, whose focus is to investigate sexual misconduct complaints.</p>
+
+                <p><span>May 2015</span>87% of students completed the online Title IX training course.</p>
+
+                <p><span>July 2015</span>The Student Handbook is updated to include the Students&rsquo; Bill of Rights and the definition of affirmative consent.</p>
+
+                <p><span>July 2015</span>The Title IX Coordinator, Title IX Investigator, and the Director of University Community Standards attended the Comprehensive Title IX Investigator Training and Certification  course in Orlando, FL.</p>
+
+                <p><span>July 2015</span>Deputy Title IX Coordinators initiated monthly update meetings.</p>
+
+                <p><span>July - September 2015</span>More than 600 faculty, staff and students received in-person Title IX training.</p>
+
+                <p><span>August 2015</span>University launched Haven, an online interactive training program on understanding and combatting sexual misconduct for students. As of October 1, 2015, more than 12,000 students had completed the training.</p>
+
+                <p><span>August 2015</span>Green Dot (bystander intervention) training held.</p>
+
+                <p><span>August 2015</span>The University Student Conduct Code was updated with a separate section for sexual misconduct policy and procedures. The sexual misconduct section is expanded to include information and required language outlined in the "Enough is Enough" law (New York State Education Law art. 129-B), signed by Governor Cuomo in July 2015.  This update incorporated the following information: Students' Bill of Rights, Affirmative Consent, Alcohol and Drug Amnesty Policy and Confidential Resources.</p>
+
+                <p><span>September 2015</span>University hired a Complainant Navigator/Advocate, Samantha Winter, to act as a confidential support and resource option for    students, faculty and staff who experience sexual or interpersonal violence.</p>
+
+                <p><span>September 2015</span>Green Dot (bystander intervention) training held.</p>
+
+                <p><span>October 2015</span>The University Student Conduct Code will be presented before Stony Brook Council for approval. Proposed changes reflect the new requirements outlined in Education Law art. 129-B.</p>
+
+                <p><span>Fall 2015</span>University will launch Haven for employees, an online interactive training program on understanding and combatting sexual misconduct.</p>
+
+                <p><span>Fall 2015</span>University will hire a Title IX Liaison, who will provide administrative support to the Office of Diversity and Affirmative Action and University Community Standards on Title IX-related complaints/inquiries.</p>
+
+                <p><span>Fall 2015</span>University will hire a Respondent Navigator, who will provide in-house Title IX training and support to individuals accused of sexual misconduct.</p>
+          </div>
             <div class="content">
                 <h4>Visit Our Title IX Resource Website</h4>
                 <p>For more detailed information about Title IX or to report an incident involving sexual discrimination, harassment, misconduct or violence, please visit <a href="http://www.stonybrook.edu/diversity/titleix/">Stony Brook University's Title IX Resource website</a>.</p>
