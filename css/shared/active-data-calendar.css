@@ -372,10 +372,14 @@ a#lbtnNewSearch {
 }
 
 a#lbtnNewSearch span {
-    font-size: 12px !important;
+    font-size: 11px !important;
     display: block;
     float: left;
     clear: both;
+}
+
+a#lbtnNewSearch span:hover {
+    color: #900;
 }
 
 #txtStartDateSearch {
@@ -396,6 +400,21 @@ a#lbtnNewSearch span {
 
 #Table2:hover {
     opacity: 1;
+}
+
+#cellCBlock {
+    max-height: 242px;
+    overflow: hidden;
+    box-shadow: 0 -11px 10px -10px #bbb inset;
+    -webkit-transition: max-height .7s;
+    -moz-transition: max-height .7s;
+    transition: max-height .7s;
+}
+
+#Table2:hover #cellCBlock {
+    max-height: 3000px;
+    height: auto;
+    box-shadow: none;
 }
 
 #cellCBlock ~ a {
