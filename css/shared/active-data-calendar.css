@@ -82,8 +82,7 @@ h2.adx_wcag_header .title {
     display: block;
 }
 
-.eventlistdiv #lblCategoryHeading:after {
-    content: "View All Events";
+.eventlistdiv #lblCategoryHeading .viewLink {
     display: block;
     font-family:'Trade Gothic Next W01';
     font-size: 15.2px;
@@ -92,7 +91,7 @@ h2.adx_wcag_header .title {
     cursor: pointer;
 }
 
-.eventlistdiv #lblCategoryHeading:hover:after {
+.eventlistdiv #lblCategoryHeading:hover .viewLink {
     text-decoration: underline;
 }
 
