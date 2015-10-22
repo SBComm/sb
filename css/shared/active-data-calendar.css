@@ -73,6 +73,10 @@ input:-ms-input-placeholder {
 
 /* headers*/
 
+.adx_wcag_header {
+    margin: 10px 0 8px;
+}
+
 h2.adx_wcag_header .title {
     font-family: 'CenturyExpandedLTW01-Ro' !important;
     font-weight: 400;
