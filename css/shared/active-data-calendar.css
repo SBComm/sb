@@ -754,3 +754,8 @@ a#lbtnNewSearch span {
     width: auto;
     padding: 4px;
 }
+
+.calendarnowdiv #lbtnSubmitEvents,
+.eventlistdiv #lbtnSubmitEvents {
+    display: none;
+}
