@@ -145,6 +145,10 @@ var $audienceNav = $('.audience-nav');
 /* ready! */
 
 $(document).ready(function() {
+	initReady();
+});
+
+var initReady = function() {
 
 	if($(window).width()>=1022) {
 		setSearchPosition();
@@ -441,4 +445,4 @@ $(document).ready(function() {
 		$('.center-info').slideToggle();
 		$(this).toggleClass('selected');
 	});
-});
+};
