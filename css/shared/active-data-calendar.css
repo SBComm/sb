@@ -398,6 +398,21 @@ a#lbtnNewSearch span {
     opacity: 1;
 }
 
+#cellCBlock ~ a {
+    display: inline-block;
+    margin: 12px 0 8px;
+}
+
+#cellCBlock ~ a:hover {
+    color: #900;
+}
+
+#cellCBlock + a {
+    border-right: 1px solid #ccc;
+    padding-right: 8px;
+    margin-right: 4px;
+}
+
 #cellCBlock input[type="checkbox"],
 #cellCBlock label {
     font-size: 14px;
