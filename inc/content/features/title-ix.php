@@ -40,7 +40,7 @@
 
                 <p><span>August 2014</span>More than 700 faculty, staff and students received in-person Title IX training, including all Residence Hall Directors and Resident Assistants from on-campus housing.</p>
 
-                <p><span>September 2014</span>Stony Brook proactively launches first-ever online Title IX/Clery Act training for all students. To date, more than 16,000 students have been trained.</p>
+                <p><span>September 2014</span>Stony Brook proactively launches first-ever online Title IX/Clery Act training for all students.</p>
 
                 <p><span>October 2014</span>SUNY Board of Trustees passes a resolution to review and develop system-wide uniform policies and practices on sexual misconduct; Stony Brook Council approves additional revisions to the <a href="http://studentaffairs.stonybrook.edu/ucs/docs/universitystudentconductcode.pdf" target="_blank">University Student Conduct Code</a>, expanding protections covered under sexual misconduct to include dating and domestic violence, and stalking.</p>
 
@@ -48,11 +48,11 @@
 
                 <p><span>January 2015</span>Nationally recognized ATIXA Executive Director <a href="https://www.ncherm.org/consultants/brett-sokolow/" target="_blank" class="external-link">Brett Sokolow</a> conducts comprehensive training on the Stony Brook campus with <a href="http://www.stonybrook.edu/diversity/titleix/deputies.html" target="_blank" class="external-link">Deputy Title IX Coordinators</a>.</p>
 
-                <p><span>January - March 2015</span>University Police Officers received in person Title IX training from the Title IX Coordinator.</p>
+                <p><span>January - March 2015</span>University Police Officers received in-person Title IX training from the Title IX Coordinator.</p>
 
                 <p><span>April 2015</span>SBU issued its sixth annual STAR (Secretive-problems, Targets, Assets and Risks) campus climate survey. This survey was developed by a team of researchers who are prominent leaders in the fields of psychology and violence prevention. STAR has enabled Stony Brook to look at the prevalence and dynamics of sexual violence on our campus and use data to drive our prevention efforts through an approach called Polaris.</p>
 
-                <p><span>April 2015</span>Green Dot (bystander intervention) training held. As of Fall 2015, more tha 150 students have received this training.</p>
+                <p><span>April 2015</span>Green Dot (bystander intervention) training held. As of Fall 2015, more than 150 students have received this training.</p>
 
                 <p><span>April2015</span>Stony Brook University Panel Discussion on Campus Sexual Violence Policies and Resources held.</p>
 
@@ -62,7 +62,7 @@
 
                 <p><span>July 2015</span>The Student Handbook is updated to include the Students&rsquo; Bill of Rights and the definition of affirmative consent.</p>
 
-                <p><span>July 2015</span>The Title IX Coordinator, Title IX Investigator, and the Director of University Community Standards attended the Comprehensive Title IX Investigator Training and Certification  course in Orlando, FL.</p>
+                <p><span>July 2015</span>The Title IX Coordinator, Title IX Investigator, and Director of University Community Standards attended the Comprehensive Title IX Investigator Training and Certification  course in Orlando, FL.</p>
 
                 <p><span>July 2015</span>Deputy Title IX Coordinators initiated monthly update meetings.</p>
 
