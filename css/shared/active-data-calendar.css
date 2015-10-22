@@ -744,3 +744,13 @@ a#lbtnNewSearch span {
 .calendarnowdiv #lblCategoryHeading:hover:after {
     text-decoration: underline;
 }
+
+/* custom login */
+
+#lbtnSubmitEvents {
+    border: 0 none;
+    background: transparent;
+    margin: 0;
+    width: auto;
+    padding: 4px;
+}
