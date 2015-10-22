@@ -211,7 +211,7 @@ h3.adx_wcag_header {
     width: 95%;
     line-height: 1;
     font-weight: normal !important;
-    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-family: 'TradeGothicW01-BoldCn20 675334' !important;
     font-size: 22px;
     color: #fff;
 }
