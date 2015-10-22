@@ -22,14 +22,27 @@
 			//include($path . $file);
 			?>
 	        <link href="//mobile.cc.stonybrook.edu/sb/css/vendor/normalize.min.css" rel="stylesheet">
-	        <link href="//mobile.cc.stonybrook.edu/sb/css/main.css" rel="stylesheet">
-	        <link href="//mobile.cc.stonybrook.edu/sb/css/nav.css" rel="stylesheet">
-	        <link href="//mobile.cc.stonybrook.edu/sb/css/shared/active-data-calendar.css" rel="stylesheet">
-	        <link href="//mobile.cc.stonybrook.edu/sb/css/elements/cd-dropdown/cd-dropdown.css" rel="stylesheet">
-	        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-		    <link href="//mobile.cc.stonybrook.edu/sb/css/elements/to-top-link/to-top.css" rel="stylesheet">
-		    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
-		    <script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.scrollTo.min.js"></script>
+			<link href="//mobile.cc.stonybrook.edu/sb/css/main.css" rel="stylesheet">
+			<link href="//mobile.cc.stonybrook.edu/sb/css/nav.css" rel="stylesheet">
+			<link href="//mobile.cc.stonybrook.edu/sb/css/shared/active-data-calendar.css" rel="stylesheet">
+			<link href="//mobile.cc.stonybrook.edu/sb/css/elements/cd-dropdown/cd-dropdown.css" rel="stylesheet">
+			<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+			<link href="//mobile.cc.stonybrook.edu/sb/css/elements/to-top-link/to-top.css" rel="stylesheet">
+			<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css">
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/cd-dropdown/jquery.dropdown.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.sticky.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.scrollTo.min.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.easing.1.3.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.easing.compatibility."></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.scrollTo.min.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.localScroll.min.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.ba-bbq.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.motio.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.tooltipster.min.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/plugins.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/main.js"></script>
+			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/fastclick.js"></script>
 			<?php
 		}
 	?>
