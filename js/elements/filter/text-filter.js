@@ -15,9 +15,11 @@ $(document).ready(function () {
     });
 
     $(".text-filter").change(function() {
-      if($(this).val()!='') {
+      var $currentTerm = $(this).val();
+      if($currentTerm!='') {
         $(".clear-filter").removeClass("hide").removeClass("hide-accessible");
-        $('.filter-status').html('Showing results for <em class="search-term">' + $(this).val() + '</em>');
+        $('.filter-status').html('Showing results for <em class="search-term"></em>');
+        $('.filter-status .search-term').text($currentTerm);
       } else {
         $(".clear-filter").addClass("hide").addClass("hide-accessible");
         $('.filter-status').html('');
