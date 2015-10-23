@@ -1,0 +1,26 @@
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>-->
+<script type="text/javascript">
+
+	var getHeader = function() {
+        var headerURL = 'http://mobile.cc.stonybrook.edu/sb/shared/sbu-header.php?include=1&pageTitle=Calendars&pageURL=http://calendar.activedatax.com/stonybrook';
+        $.ajax({
+            url: 'http://mobile.cc.stonybrook.edu/sb/shared/get-json.php?url='+encodeURIComponent(headerURL),
+            type: 'GET',
+            dataType: 'jsonp',
+            error: function(xhr, status, error) {
+                //alert("error");
+            },
+            success: function(header) {
+                $('body').prepend(header);
+            }
+        });
+    };
+
+	$(document).ready(function() {
+		getHeader();
+	});
+
+</script>
+
+<div id="sbu__header">
+</div>

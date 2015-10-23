@@ -1,0 +1,1 @@
+<?php echo file_get_contents('http://mobile.cc.stonybrook.edu/sb/shared/sbu-footer.php?include=1&footer=1&footerbar=1&totop=1') ?>

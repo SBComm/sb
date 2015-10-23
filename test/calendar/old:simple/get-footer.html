@@ -1,0 +1,25 @@
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>-->
+<script type="text/javascript">
+
+	var getFooter = function() {
+        var footerURL = 'http://mobile.cc.stonybrook.edu/sb/shared/sbu-footer.php?include=0&footer=1&footerbar=1&totop=1';        $.ajax({
+            url: 'http://mobile.cc.stonybrook.edu/sb/shared/get-json.php?url='+encodeURIComponent(footerURL),
+            type: 'GET',
+            dataType: 'jsonp',
+            error: function(xhr, status, error) {
+                //alert("error");
+            },
+            success: function(footer) {
+                $('body').append(footer);
+            }
+        });
+    };
+
+	$(document).ready(function() {
+		getFooter();
+	});
+
+</script>
+
+<div id="sbu__footer">
+</div>
