@@ -426,6 +426,8 @@ a#lbtnNewSearch span:hover {
     -webkit-transition: max-height .7s;
     -moz-transition: max-height .7s;
     transition: max-height .7s;
+    display: block;
+    margin-left: -14px;
 }
 
 #Table2:hover #cellCBlock {
@@ -454,6 +456,15 @@ a#lbtnNewSearch span:hover {
     font-size: 13px;
 }
 
+#cellCBlock .subCategoryList input[type="checkbox"] {
+    margin-left: 12px
+}
+
+#cellCBlock .subCategoryList tr td {
+    text-indent: -28px;
+    padding-left: 28px;
+}
+
 #cellCBlock input[type="checkbox"],
 #cellCBlock label {
     font-size: 14px;
@@ -470,21 +481,32 @@ a#lbtnNewSearch span:hover {
 }
 
 #cellCBlock input[type="checkbox"] {
-    margin: 4px 5px 0;
+    margin: 4px 4px 0 0;
 }
 
 #cellCBlock .ccontainer,
 #cellCBlock .ccontainer tbody,
-#cellCBlock .ccontainer tr,
-#cellCBlock .ccontainer td:nth-child(2) {
+#cellCBlock .ccontainer tr {
     display: block;
     width: 100%;
     clear: both;
 }
 
-#cellCBlock a.expander {
-    display: none;
+
+#cellCBlock .ccontainer td:nth-child(1) {
+    display: inline-block;
+    width: 5%;
+    float: left;
 }
+
+#cellCBlock .ccontainer td:nth-child(2) {
+    display: inline-block;
+    width: 90% !important;
+    float: left;
+}
+
+#cellCBlock a.expander {
+font-size: 14px;display: block;text-align: center;border-radius: 100%;line-height: .6;padding: 0 1px 2px 2px;margin: 5px 0 0 0;}
 
 #cellCBlock .sccontainer {
     display: block;
