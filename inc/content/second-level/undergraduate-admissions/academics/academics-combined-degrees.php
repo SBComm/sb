@@ -103,6 +103,11 @@
                             <td>Business Administration</td>
                         </tr>
                         <tr>
+                            <td>Atmospheric and Oceanic Sciences</td>
+                            <td>BS/MS</td>
+                            <td>Atmospheric Science</td>
+                        </tr>
+                        <tr>
                             <td>Biochemistry</td>
                             <td>BS/MBA</td>
                             <td>Business Administration</td>
@@ -243,6 +248,11 @@
                             <td>Business Administration</td>
                         </tr>
                         <tr>
+                            <td>Environmental Studies</td>
+                            <td>BA/MA</td>
+                            <td>Marine Conservation and Policy</td>
+                        </tr>
+                        <tr>
                             <td>European Studies</td>
                             <td>BA/MBA</td>
                             <td>Business Administration</td>
@@ -326,6 +336,11 @@
                             <td>Marine Vertebrate Biology</td>
                             <td>BS/MBA</td>
                             <td>Business Administration</td>
+                        </tr>
+                        <tr>
+                            <td>Marine Vertebrate Biology</td>
+                            <td>BS/MS</td>
+                            <td>Marine &amp; Atmospheric Science</td>
                         </tr>
                         <tr>
                             <td>Mathematics</td>
