@@ -646,6 +646,10 @@ font-size: 14px;display: block;text-align: center;border-radius: 100%;line-heigh
     width: 240px !important;
 }
 
+.calendarnowdiv #cellAdvancedSearching #lnkKeywordView {
+    display: none;
+}
+
 .calendarnowdiv #cellAdvancedSearching #lbtnSearch {
     margin: 2px 48px 10px 0;
 }
