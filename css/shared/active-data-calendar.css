@@ -449,11 +449,15 @@ a#lbtnNewSearch span:hover {
     margin-right: 4px;
 }
 
+#cellCBlock .subCategoryList input[type="checkbox"],
+#cellCBlock .subCategoryList label {
+    font-size: 13px;
+}
+
 #cellCBlock input[type="checkbox"],
 #cellCBlock label {
     font-size: 14px;
-    display: inline-block;
-    float: left;
+    display: inline;
     cursor: pointer;
 }
 
@@ -466,7 +470,7 @@ a#lbtnNewSearch span:hover {
 }
 
 #cellCBlock input[type="checkbox"] {
-    margin: 4px 6px 0;
+    margin: 4px 5px 0;
 }
 
 #cellCBlock .ccontainer,
@@ -484,8 +488,7 @@ a#lbtnNewSearch span:hover {
 
 #cellCBlock .sccontainer {
     display: block;
-    margin: 20px 0 0 18px;
-
+    margin: 2px 0 0 16px;
 }
 
 #lbtnSearch {
