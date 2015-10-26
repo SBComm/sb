@@ -509,7 +509,7 @@ a#lbtnNewSearch span:hover {
 font-size: 14px;display: block;text-align: center;border-radius: 100%;line-height: .6;padding: 0 1px 2px 2px;margin: 5px 0 0 0;}
 
 #cellCBlock .sccontainer {
-    display: block;
+    display: none;
     margin: 2px 0 0 16px;
     clear: both;
 }
