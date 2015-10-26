@@ -19,6 +19,13 @@ td,
     font-weight: normal !important;
 }
 
+#tblEvents .errormessagetext {
+    font-size: 15.2px;
+    padding: 10px;
+    color: #000;
+    background: #ffe1d2;
+}
+
 #tblPoweredByADE,
 #footer {
     display: none !important;
