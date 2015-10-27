@@ -21,11 +21,11 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$page_title_sub  = 'Economic Development';
+			$page_title_sub  = '';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
+		    $og_description  = '';
 		    $og_url          = 'http://www.stonybrook.edu/economic-development';
 
 		    $page_to_top_link = true;
@@ -135,6 +135,24 @@
 			                <hr />
 
 			                <h4>Option 6</h4>
+
+			                <a href="http://www.github.com"><em class="fa fa-github" aria-label="Github"></em></a>
+
+		                </div>
+
+		                <div class="wrapper create-codes">
+
+			                <h3>Quick-Test</h3>
+
+			                <a href="http://www.github.com"><em class="fa fa-github" aria-hidden="true"></em><span class="sr-only">Github</span></a>
+
+			                <a href="http://www.github.com"><span class="sr-only">Github</span><em class="fa fa-github" aria-hidden="true"></em></a>
+
+			                <a href="http://www.github.com"><em class="fa fa-github"></em><span class="sr-only">Github</span></a>
+
+			                <a href="http://www.github.com"><span class="sr-only">Github</span><em class="fa fa-github"></em></a>
+
+			                <a href="http://www.github.com"><em class="fa fa-github"></em></a>
 
 			                <a href="http://www.github.com"><em class="fa fa-github" aria-label="Github"></em></a>
 
