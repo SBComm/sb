@@ -40,7 +40,7 @@
 			includeAsset('css','css/search.css','all');
 		?>
 		<style type="text/css">
-			.create-codes a {
+			.wrapper a {
 				font-size: 2.5em;
 			}
 			.sr-only {
@@ -140,7 +140,7 @@
 
 		                </div>
 
-		                <div class="wrapper create-codes">
+		                <div class="wrapper">
 
 			                <h3>Quick-Test</h3>
 
