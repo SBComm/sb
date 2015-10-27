@@ -100,6 +100,24 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 
+		                <div class="wrapper">
+
+			                <h3>Quick-Test</h3>
+
+			                <a href="http://www.github.com"><em class="fa fa-github" aria-hidden="true"></em><span class="sr-only">Github</span></a>
+
+			                <a href="http://www.github.com"><span class="sr-only">Github</span><em class="fa fa-github" aria-hidden="true"></em></a>
+
+			                <a href="http://www.github.com"><em class="fa fa-github"></em><span class="sr-only">Github</span></a>
+
+			                <a href="http://www.github.com"><span class="sr-only">Github</span><em class="fa fa-github"></em></a>
+
+			                <a href="http://www.github.com"><em class="fa fa-github"></em></a>
+
+			                <a href="http://www.github.com"><em class="fa fa-github" aria-label="Github"></em></a>
+
+		                </div>
+
 		            	<div class="wrapper create-codes">
 
 			                <h3>Accessibility Test for Icons</h3>
@@ -135,24 +153,6 @@
 			                <hr />
 
 			                <h4>Option 6</h4>
-
-			                <a href="http://www.github.com"><em class="fa fa-github" aria-label="Github"></em></a>
-
-		                </div>
-
-		                <div class="wrapper">
-
-			                <h3>Quick-Test</h3>
-
-			                <a href="http://www.github.com"><em class="fa fa-github" aria-hidden="true"></em><span class="sr-only">Github</span></a>
-
-			                <a href="http://www.github.com"><span class="sr-only">Github</span><em class="fa fa-github" aria-hidden="true"></em></a>
-
-			                <a href="http://www.github.com"><em class="fa fa-github"></em><span class="sr-only">Github</span></a>
-
-			                <a href="http://www.github.com"><span class="sr-only">Github</span><em class="fa fa-github"></em></a>
-
-			                <a href="http://www.github.com"><em class="fa fa-github"></em></a>
 
 			                <a href="http://www.github.com"><em class="fa fa-github" aria-label="Github"></em></a>
 
