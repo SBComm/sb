@@ -185,8 +185,13 @@
                             <a href="#" target="_blank"><strong class="date">1/16/15</strong> Sign up for a Class at the Craft Center this Spring </a>
                             -->
                             */
-                            $file = "faculty-staff/faculty-staff-news.php";
-                            include($path . $content . $secLv . $file);
+                            //$file = "faculty-staff/faculty-staff-news.php";
+                            //include($path . $content . $secLv . $file);
+                            $file  = "feed/happenings-news.php";
+                            $rss   = "http://sb.cc.stonybrook.edu/happenings/feed";
+                            $count = 5;
+                            $end = 5;
+                            include($path . $file);
                         ?>
                         <a href="http://stonybrook.edu/happenings" class="star-before">Read SBU Happenings</a>
                         <a href="http://stonybrook.edu/newsroom" class="star-before">Visit the Newsroom</a>
@@ -211,8 +216,13 @@
                             </li>
                             -->
                             */
-                            $file = "faculty-staff/faculty-staff-calendar.php";
-                            include($path . $content . $secLv . $file);
+                            //$file = "faculty-staff/faculty-staff-calendar.php";
+                            //include($path . $content . $secLv . $file);
+                            $file  = "feed/active-data-calendar.php";
+                            $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx";
+                            $count = 3;
+                            $end = 3;
+                            include($path . $file);
                         ?>
                         <li class="clearfix more-link">
                             <a class="fa-arrow-after" href="http://calendar.activedatax.com/stonybrook/EventList.aspx" target="_blank">View All Events</a>

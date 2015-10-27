@@ -213,7 +213,7 @@
              </div>
             <div class="border-box wrapper clearfix">
                 <div class="content white">
-                    <ul class="calendar-items clearfix">
+                    <ul class="calendar-items clx`earfix">
                         <?php 
                             /*
                             // PHP will transform event data from RSS feed in following format
@@ -232,8 +232,13 @@
                             </li>
                             -->
                             */
-                            $file = "for-students/for-students-calendar.php";
-                            include($path . $content . $secLv . $file);
+                            //$file = "for-students/for-students-calendar.php";
+                            //include($path . $content . $secLv . $file);
+                            $file  = "feed/collegiate-link-calendar.php";
+                            $rss   = "https://stonybrook.collegiatelink.net/EventRss/EventsRss";
+                            $count = 3;
+                            $end = 3;
+                            include($path . $file);
                         ?>
                         <li class="clearfix more-link">
                             <a class="fa-arrow-after" href="https://stonybrook.collegiatelink.net/Events" target="_blank">View All Events</a>
