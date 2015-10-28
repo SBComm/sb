@@ -143,6 +143,15 @@ h2.adx_wcag_header .title {
 
 /* tables */
 
+#pnlEventDetails > table > tbody > tr:first-child > td {
+    display: inline-block;
+}
+
+
+#pnlEventDetails > table > tbody > tr:first-child > td:nth-child(2) {
+    float: right;
+}
+
 h3.adx_wcag_header,
 h3.adx_wcag_header span,
 h3.adx_wcag_header span b,
@@ -254,6 +263,11 @@ h4.adx_wcag_header {
     padding: 4px;
 }
 
+#tblEvents h4.adx_wcag_header .listheadtext {
+    font-family: 'Trade Gothic W01 Bold 2' !important;
+    font-weight: normal !important;
+}
+
 h4.adx_wcag_header span,
 #pnlEventDetails .detailsview b,
 #pnlEventDetails .detailsview strong,
@@ -315,11 +329,14 @@ td.listbodytextalt *:hover {
 }
 
 #pnlEventDetails .adx-detailsview-left {
-    width: 65% !important;
+    width: 100% !important;
+    display: block;
 }
 
 #pnlEventDetails .adx-detailsview-right {
-    width: 35% !important;
+    width: 100% !important;
+    display: block;
+    padding-top: 15px;
 }
 
 #pnlEventDetails .adx-detailsview-right img {
@@ -339,7 +356,7 @@ td.dayheaderSmallGrid a:hover {
     margin: 10px 0 5px;
     font-size: 14px;
     display: block;
-    float: right;
+    float: left;
 }
 
 td.dayheaderSmallGrid a:hover {
