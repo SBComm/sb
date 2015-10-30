@@ -753,6 +753,10 @@
 	margin: 0 0 4px 0;
 }
 
+.footer-bar span .copyright {
+	display: inline-block;
+}
+
 .footer-bar span a {
 	color: #fff;
 	text-decoration: none;
@@ -760,17 +764,6 @@
 	padding: 5px 10px;
 	margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 310px) {
 	.more-nav ul li {
