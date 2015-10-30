@@ -444,7 +444,7 @@
             type: 'GET',
             dataType: 'jsonp',
             error: function(xhr, status, error) {
-                //alert("error");
+                console.log(status + ": " + error);
             },
             success: function(header) {
                 $('#static-header-code').replaceWith(header);
@@ -458,7 +458,7 @@
             type: 'GET',
             dataType: 'jsonp',
             error: function(xhr, status, error) {
-                //alert("error");
+                console.log(status + ": " + error);
             },
             success: function(footer) {
                 $('#static-footer-code').replaceWith(footer);
