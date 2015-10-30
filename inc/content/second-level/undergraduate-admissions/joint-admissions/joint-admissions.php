@@ -30,9 +30,10 @@
                     <li>Meet with Stony Brook University transfer advisors when they visit your community college each semester to ensure a smooth transition to Stony Brook University. During your final semester, submit an Intent to Enroll form.</li>
                     <li>Complete your Associate in Arts (A.A.) or Associate in Science (A.S.) degree program at Nassau or Suffolk Community College with a cumulative G.P.A. of 2.8 or higher. Note: Additional admission requirements must be met for the following Stony Brook majors:
                         <ul class="default-bullets">
-                            <li>Majors in Computer Science and Information Systems require completion of an A.S. degree in Computer Science, a cumulative G.P.A. of 3.0 or higher, and grades of “C” or better in required courses.</li>
-                            <li>Majors in Computer Engineering, Electrical Engineering, Engineering Science, and Mechanical Engineering require completion of an A.S. degree in Engineering Science, a cumulative G.P.A. of 2.8 or higher, and grades of “C” or better in required courses.</li>
-                            <li>The major in Business Management requires completion of an A.A. degree in Liberal Arts, an A.S. degree in Business Administration, or an A.S. degree in Accounting, as well as a cumulative G.P.A. of 3.1 or higher and grades of “C” or better in all required courses, including calculus and microeconomics.</li>
+                            <li>The major in Computer Science requires completion of an AS degree in Computer Science, a cumulative GPA of 3.0 or higher, and grades of "B" or better in required courses.</li>
+                            <li>The major in Information Systems requires completion of an AS degree in Computer Science with a cumulative GPA of 3.0 and grades of "C" or better in required courses.</li>
+                            <li>Majors in Computer Engineering, Electrical Engineering, Engineering Science and Mechanical Engineering require completion of an AS degree in Engineering Science with a cumulative GPA of 3.0.</li>
+                            <li>The major in Business Management requires completion of an AA degree in Liberal Arts, an AS degree in Business Administration, or an AS degree in Accounting, as well as a cumulative GPA of 3.1 or higher.</li>
                         </ul>
                     </li>
                     <li>Enter Stony Brook University as a junior to complete your baccalaureate degree.</li>
@@ -64,16 +65,15 @@
                     <li>Engineering Science</li>
                     <li>English</li>
                     <li>Environmental Studies</li>
-                    <li>European Studies</li>
                 </ul>
             </div>
             <div class="content clearfix col-2">
                 <ul class="default-bullets">
+                    <li>European Studies</li>
                     <li>French Language and Literature</li>
                     <li>Geology</li>
                     <li>German Language and Literature</li>
                     <li>History</li>
-                    <li>Humanities</li>
                     <li>Information Systems</li>
                     <li>Italian Studies</li>
                     <li>Linguistics</li>
