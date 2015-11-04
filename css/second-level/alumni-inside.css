@@ -1,0 +1,407 @@
+@media only screen and (max-width: 959px) {
+
+    .section-title {
+        margin-top: 16px;
+    }
+
+    .main-inside-content {
+        position: relative;
+        z-index: 50;
+        visibility: visible;
+    }
+}
+
+section.full-width-banner-image {
+    padding: 0;
+}
+
+.inside-header h2 {
+    font-size: 1.75em;
+}
+
+    .events-header {
+        background-image: url("../../img/student-life/dancing.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+/* Section Buttons */
+
+.rounded-image-buttons {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.rounded-image-buttons .reunions {
+    background-image: url("../../img/alumni/buttons/reunions-nav-box.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .forty {
+    background-image: url("../../img/alumni/buttons/40-under-forty-nav-box.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .golf {
+    background-image: url("../../img/alumni/buttons/golf-classic-nav-box.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .wolfstock-homecoming {
+    background-image: url("../../img/alumni/buttons/wolfstock-nav-box.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons a {
+    width: 48.5%;
+    height: 150px;
+    margin: .75%;
+    font-size: 1.5em;
+    box-shadow: none;
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    position: relative;
+    padding: 0;
+    border: 5px solid #fff;
+}
+
+.rounded-image-buttons a:hover {
+    border: 5px solid #900;
+    padding: 0;
+}
+
+.rounded-image-buttons a .label {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 15%;
+    background: rgba(153,0,0,.75);
+    padding: 10px 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.rounded-image-buttons a .label span {
+    display: block;
+    font-size: .7em;
+}
+
+a.sbu-outline-button + p {
+    margin-top: 15px;
+}
+
+a.sbu-outline-button + a.sbu-outline-button {
+    margin-left: 15px;
+}
+
+p + a.sbu-outline-button {
+    margin-top: 15px;
+}
+
+/* Sections */
+
+section.events {
+    padding: 40px 0;
+}
+
+section.events h4 {
+    font-size: 1.8em;
+    font-family: 'Trade Gothic W01 Light';
+    letter-spacing: .02em;
+}
+
+section.events h5 {
+    color: #fff;
+}
+
+.events .black-opac-cover {
+    background: url("../../img/bkg/transparent-black-65.png") 0 0 repeat transparent;
+    background: rgba(0,0,0,.8);
+    padding: 0;
+    display: block;
+}
+
+.reunions {
+    background: url("../../img/alumni/bkg/reunite.png") 85% 15% no-repeat #600;
+    padding: 0;
+    position: relative;
+}
+
+.reunions img,
+.wolfstock img {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+
+section.forty {
+    background: url("../../img/alumni/bkg/3-people-40-under-40.png") 90% 10% no-repeat #000;
+    padding: 0;
+}
+
+section.forty .black-opac-cover {
+    padding: 40px 0;
+}
+
+section.golf {
+    background-image: url("../../img/alumni/bkg/golf.jpg");
+    background-position: 100% 50%;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+section.golf h5 {
+    color: #333;
+}
+
+.golf .wrapper h4 {
+    color: #900;
+}
+
+.golf .content {
+    background: url("../../img/bkg/transparent-white-55.png") 0 0 repeat transparent;
+    background: rgba(255,255,255,.55);
+    padding: 20px 5% 10px;
+}
+
+.golf .content p {
+    color: #111;
+}
+
+section.wolfstock {
+    position: relative;
+}
+
+.get-connected section.calendar {
+    background: url("../../img/alumni/bkg/calendar-uke-girl.jpg") 0% 0% no-repeat #7a8690;
+    background-position: 0% 50%;
+    background-size: 700px;
+    background-size: cover;
+    padding: 0;
+    position: relative;
+}
+
+.get-connected section.calendar .black-opac-cover {
+    padding: 40px 0;
+}
+
+.center-wrapper .sbu-outline-button {
+    margin: 0 auto;
+    width: 180px;
+    display: block;
+}
+
+.events h4,
+.events h5 {
+    color: #0fffff;
+}
+
+.events h5 {
+    font-size: 1.3em;
+    text-transform: none;
+}
+
+.events li {
+    margin: 10px 0;
+}
+
+.events .content {
+    color: #dbdbdb;
+}
+
+.events .content a {
+    color: #0fffff;
+}
+
+.events .content a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 360px) {
+    
+
+}
+
+@media only screen and (min-width: 480px) {
+    
+
+}
+
+@media only screen and (min-width: 541px) {
+
+    .rounded-image-buttons a {
+        font-size: 1.7em;
+    }
+
+    .rounded-image-buttons a .label span {
+        font-size: .8em;
+    }
+
+    .golf .content {
+        background: url("../../img/bkg/transparent-white-70.png") 0 0 repeat transparent;
+        background: rgba(255,255,255,.70);
+        padding: 20px 0;
+    }
+
+}
+
+@media only screen and (min-width: 560px) {
+
+    
+
+    section.events {
+
+    }
+
+    section.events h4 {
+        font-size: 2.4em;
+    }
+
+}
+
+
+@media only screen and (min-width: 680px) {
+    .brochures-grid li {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+
+    .brochures-grid li .img-wrapper {
+        width: 70%;
+        margin: 30px 15% 0;
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+
+    .inside-header h2 {
+        font-size: 2.5em;
+    }
+
+    .rounded-image-buttons a {
+        width: 23.5%;
+        height: 220px;
+        margin: .75%;
+    }
+
+    .rounded-image-buttons a .label {
+        padding: 12px 5px;
+        min-height: 52px;
+    }
+
+    section.events {
+
+    }
+
+    section.events h4 {
+        font-size: 3.4em;
+    }
+
+    section.events .black-opac-cover {
+        background: transparent;
+        box-shadow: rgba(0,0,0,1) 410px 0 280px 30px inset;
+        padding: 80px 0;
+    }
+
+    section.reunions {
+        padding-top: 140px;
+        padding-bottom: 200px;
+    }
+
+    section.reunions .col-2 {
+        padding-top: 10px;
+    }
+
+    .reunions .col-2 {
+        padding-right: 120px;
+    }
+
+    .reunions img {
+        display: block;
+        width: 53%;
+        max-width: 780px;
+        right: 3%;
+    }
+
+    section.forty {
+        background-position: 80% 100%;
+    }
+
+    section.forty .black-opac-cover {
+        padding-bottom: 330px;
+    }
+
+    section.forty .col-2 {
+        padding-top: 100px;
+        padding-right: 120px;
+    }
+
+    .golf .content {
+        margin-top: 360px;
+    }
+
+    section.golf {
+        background-image: url("../../img/alumni/bkg/golf.jpg");
+        background-position: 57% 50%;
+    }
+
+    .wolfstock {
+        min-height: 640px;
+    }
+
+    .wolfstock h4 {
+        margin-top: 40px;
+    }
+
+    .wolfstock .col-2 {
+        padding-right: 120px;
+    }
+
+    .wolfstock .img-wrapper {
+        position: relative;
+    }
+
+    .wolfstock img {
+        display: block;
+        width: 58%;
+        max-width: 780px;
+        right: 0;
+        bottom: auto;
+        top: -105px;
+    }
+
+    .activities-and-calendar .flex-list-2 li {
+        width: 40%;
+        margin: 10px 10% 0 0;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1022px) {
+
+}
+
+@media only screen and (min-width: 1220px) {
+    .reunions {
+        background-position: 80% 15%;
+    }
+
+    .reunions img {
+        right: 6%;
+    }
+}

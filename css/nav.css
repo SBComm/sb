@@ -1093,7 +1093,7 @@
 	.dropdown-nav[data-selected-tab="5"] ul li[data-value="5"] a,
 	.dropdown-nav[data-selected-tab="6"] ul li[data-value="6"] a {
 		background-color: #900 !important;
-		color: #a00;
+		color: #fff;
 	}
 	.dropdown-nav[data-selected-tab="1"] ul li[data-value="1"] a:before,
 	.dropdown-nav[data-selected-tab="2"] ul li[data-value="2"] a:before,

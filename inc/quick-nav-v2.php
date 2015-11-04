@@ -162,6 +162,10 @@
 		                        </li>
 		                    </ul>
 	                    </div>
+                         <a href="#" class="give-flag persistent-flag">
+                              <span class="hide-accessible">Give Now!</span>
+                              <img src="img/buttons/give-now-flag.png" />
+                         </a>
 		            </nav>
 <?php } else { ?>
 					<nav id="header" class="quick-nav clearfix" data-search-style="<?php echo $search_style ?>">

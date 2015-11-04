@@ -18,7 +18,14 @@
         $callback = "";
     
     $rssFeed = simplexml_load_file($rss);
+
+    $col_class = '';
+    if($col>0) {
+        $col_class = 'flex-list-'.$col;
+    }
+
     $html = '';
+    $html .= '<ul class="'.$col_class.'">';
     
     foreach ($rssFeed->channel->item as $item){
         
@@ -110,6 +117,8 @@
         if($count == 0)
             break;
     }
+
+    $html .= '</ul>';
     
     if(strlen($callback) > 1){
         header("Content-Type: application/javascript");

@@ -1,0 +1,428 @@
+.quick-nav ul li {
+    width: 33.333%;
+}
+
+@media only screen and (min-width: 1022px) {
+    .quick-nav ul li {
+        width: auto;
+    }
+}
+
+.carousel-wrapper {
+}
+
+.big-n-bold .search-container.stay-in-nav input[type="text"] {
+    width: 150px;
+}
+
+.owl-theme .owl-controls {
+    display: none !important;
+}
+
+.site-carousel .carousel-wrapper .item,
+.site-carousel .carousel-image {
+    height: 250px;
+}
+
+.site-carousel .carousel-image {
+    font-size: 1em;
+}
+
+.carousel-image[data-image='01'] {
+    background-image: url("../../img/alumni/marquee/marquee-1.jpg");
+    background-position: 50% 20%;
+}
+
+.carousel-image[data-image='02'] {
+    background-image: url("../../img/alumni/marquee/marquee-2.jpg");
+}
+
+.carousel-image[data-image='03'] {
+    background-image: url("../../img/alumni/marquee/marquee-3.jpg");
+    background-position: 20% 20%;
+}
+
+.carousel-image[data-image='04'] {
+    background-image: url("../../img/alumni/marquee/marquee-4.jpg");
+}
+
+.carousel-image[data-image='05'] {
+    background-image: url("../../img/alumni/marquee/marquee-5.jpg");
+}
+
+.carousel-image[data-image='06'] {
+    background-image: url("../../img/alumni/marquee/marquee-6.jpg");
+}
+
+.carousel-image[data-image='07'] {
+    background-image: url("../../img/alumni/marquee/marquee-7.jpg");
+}
+
+.carousel-image[data-image='08'] {
+    background-image: url("../../img/alumni/marquee/marquee-8.jpg");
+}
+
+.site-carousel h1.special {
+    font-family: 'ITCFranklinGothicW01-Md 812695';
+    font-weight: 200;
+    text-transform: uppercase;
+    -webkit-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+    -moz-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+    text-shadow: -1px 1px 0 #000, -2px 2px 0 #900, -3px 3px 0 #000, 0px 0px 15px #000;
+    color: #fff;
+    cursor: default;
+    width: 100%;
+    display: block;
+    opacity: .85;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.site-carousel h1.bottom {
+    bottom: 0;
+    z-index: 1;
+}
+
+.site-carousel h1.top {
+    top: 0;
+}
+
+.site-carousel h1 {
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trade Gothic W01 Bold';
+    -webkit-text-shadow: 0 0 10px rgba(0,0,0,.7);
+    -moz-text-shadow: 0 0 10px rgba(0,0,0,.7);
+    text-shadow: 0 0 10px rgba(0,0,0,.7), 0 0 15px rgba(0,0,0,.7), 0 0 15px rgba(100,0,0,.7), 0 0 15px rgba(0,0,0,.7);
+    opacity: .9;
+    color: #fff;
+    cursor: default;
+    width: 100%;
+    display: block;
+    position: absolute;
+    font-size: 2em;
+}
+
+.site-carousel h1 em {
+    font-style: normal;
+}
+
+.site-carousel h1 em:before {
+    content: "#";
+}
+
+.item-within-carousel {
+    width: 80%;
+    max-width: 329px;
+    margin: 30px auto 0;
+    display: block;
+    position: relative;
+}
+
+.alumni-home-promo {
+    text-align: center;
+}
+
+.alumni-home-promo .large-info-box {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 90%;
+    padding: 6%;
+    margin: 5%
+}
+
+
+.alumni-home-promo .video-promo {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.large-info-box a:hover span {
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+}
+
+section.activities-and-calendar {
+    background-image: url("../../img/university/red-wang-center.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 100%;
+    padding: 30px 0;
+}
+
+.activities-and-calendar .activities-links {
+    width: 41%;
+    margin-right: 7%;
+}
+
+.activities-and-calendar ul.calendar-items {
+    width: 45%;
+}
+
+.photo-boxes-wrapper {
+    background: #000;
+    padding: 0 1%;
+}
+
+.photo-boxes-wrapper h2 {
+
+}
+
+.photo-boxes .title {
+    font-family: 'CenturySchlbkW15-Italic';
+}
+
+.photo-boxes .name {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+}
+
+footer.site-footer {
+    background-color: #252525;
+    background: url('../../img/bkg/sbu-shield-black-9-opac.png') 70% 50% no-repeat #252525;
+}
+
+.site-footer .img-col {
+    padding: 0 0 40px;
+    border-bottom: 1px solid #888;
+    margin: 0 30px;
+}
+
+.site-footer img {
+    max-width: 150px;
+}
+
+footer.site-footer .img-col + .link-col {
+    margin-top: 15px;
+}
+
+.site-footer .img-col,
+.site-footer .link-col {
+    padding-top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.site-footer .link-col a {
+    text-transform: lowercase;
+}
+
+.site-footer .link-col h4 {
+    margin-top: 15px;
+}
+
+.site-footer .link-col h4 a {
+    color: #47c2c8;
+    text-transform: uppercase;
+}
+
+.site-footer .link-col h4 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-footer .link-col a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 360px) {
+
+    
+}
+
+@media only screen and (min-width: 480px) {
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 358px;
+    }
+
+}
+
+@media only screen and (min-width: 560px) {
+
+    .site-carousel h1 {
+        font-size: 2.4em;
+    }
+
+    .student-quotes .text-wrapper {
+        font-size: 1.9em;
+        padding: 0;
+    }
+
+    footer.site-footer {
+        background-position: -50% 50%;
+    }
+
+    .site-footer img {
+        max-width: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .site-carousel h1 {
+        font-size: 3.3em;
+    }
+    
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 420px;
+    }
+    .item-within-carousel {
+        margin: 14px 16px;
+        float: right;
+        width: 329px;
+    }
+
+    footer.site-footer {
+        background-position: -15% 50%;
+        background-size: 60%;
+    }
+
+    .site-footer .links {
+        display: inline-block;
+        float: left;
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .alumni-home-promo:after {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 550px;
+    }
+
+    .site-carousel .carousel-image {
+        font-size: .7em;
+    }
+
+    .site-carousel h1.special {
+        -webkit-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+        -moz-text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+        text-shadow: -2px 2px 0 #000, -4px 4px 0 #900, -6px 6px 0 #000, 0px 0px 25px #000;
+        text-align: right;
+        padding-right: 80px;
+    }
+
+    .site-carousel h1 {
+        font-size: 4.9em;
+        margin: 40px auto;
+    }
+
+    .alumni-home-promo {
+        padding: 80px;
+    }
+
+    .alumni-home-promo .large-info-box {
+        width: 44%;
+        padding: 4%;
+        margin: 0 2% 0 4%;
+        float: left;
+        max-width: 800px;
+        text-align: left;
+    }
+
+
+    .alumni-home-promo .video-promo {
+        width: 46%;
+        margin: 0 2% 0 2%;
+        float: left;
+    }
+
+    .alumni-home-promo:after {
+        border-top-color: #bf1313;
+    }
+
+    .site-footer .img-col,
+    .site-footer .link-col {
+        display: inline-block;
+        float: left;
+    }
+
+    .site-footer .img-col {
+        width: 25%;
+        margin: 0;
+        border: 0 none;
+        padding: 20px 0 0 0;
+    }
+
+    .site-footer .link-col {
+        width: 72.5%;
+        padding: 0 0 0 2.5%;
+        border-left: 1px solid #888;
+    }
+
+    .site-footer .link-col h4 {
+        margin-top: 0;
+    }
+
+}
+
+@media only screen and (min-width: 1022px) {
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 600px;
+    }
+
+    .alumni-home-promo .large-info-box {
+        padding: 0;
+    }
+
+    .large-info-box em {
+        display: inline-block;
+        width: 48px;
+        text-align: center;
+    }
+
+    .large-info-box a {
+        font-size: 1.2em;
+    }
+
+    .info-inner-wrapper {
+        padding: 7% 9%;
+    }
+
+    footer.site-footer {
+        background-position: -5% 50%;
+        background-size: 50%;
+    }
+
+    footer.site-footer .col-1 {
+        padding: 0 0 0 7%;
+    }
+
+    footer.site-footer .col-2 {
+        padding: 4px 0 0 5%;
+    }
+
+    footer.site-footer .col-3 {
+        padding: 4px 0 0 7%;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .site-carousel .carousel-wrapper .item,
+    .site-carousel .carousel-image {
+        height: 650px;
+    }
+
+    .large-info-box:after {
+        font-size: 11em;
+        right: 15px;
+        bottom: -10px;
+    }
+}

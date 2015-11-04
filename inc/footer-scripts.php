@@ -222,50 +222,92 @@
 
 			<script type="text/javascript">
 				jQuery(document).ready(function($){
-					$('#social-stream').dcSocialStream({
-						feeds: {
-							twitter: {
-								id: 'stonybrooku,sbubuzz,PresStanley,sbunewsdesk',
-								thumb: true
+					if($('#social-stream').length) {
+						$('#social-stream').dcSocialStream({
+							feeds: {
+								twitter: {
+									id: 'stonybrooku,sbubuzz,PresStanley,sbunewsdesk',
+									thumb: true
+								},
+								rss: {
+									id: '//sb.cc.stonybrook.edu/news/_resources/rss/all.rss'
+								},
+								facebook: {
+									id: '30450493231,218862101583940',
+									text: 'contentSnippet'
+								},
+								youtube: {
+									id: 'sbcomm,UCbOzIblxmg-Ing9NSEms8Tw',
+									thumb: 'default'
+								},
+								pinterest: {
+									id: 'stonybrooku',
+								},
+								flickr: {
+									id: '37984249@N06,101383158@N02'
+								},
+								instagram: {
+									id: '!46695629,!320497946',
+									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
+									clientId: '992187b36560494abe8ea63eebf2c9c3',
+									thumb: 'thumbnail',
+									comments: 3,
+									likes: 10
+								}
 							},
-							rss: {
-								id: '//sb.cc.stonybrook.edu/news/_resources/rss/all.rss'
+							rotate: {
+								delay: 0
 							},
-							facebook: {
-								id: '30450493231,218862101583940',
-								text: 'contentSnippet'
+							control: false,
+							filter: true,
+							wall: true,
+							order: 'date',
+							max: 'limit',
+							limit: 8,
+							iconPath: 'images/dcsns-dark/',
+							imagePath: 'images/dcsns-dark/'
+						});
+					}
+
+					if($('#social-stream-alum').length) {
+						$('#social-stream-alum').dcSocialStream({
+							feeds: {
+								twitter: {
+									id: 'stonybrookalum',
+									thumb: true
+								},
+								rss: {
+									id: '//sb.cc.stonybrook.edu/happenings/category/alumni/feed/'
+								},
+								facebook: {
+									id: '30450493231',
+									text: 'contentSnippet'
+								},
+								flickr: {
+									id: '22402351@N03'
+								},
+								instagram: {
+									id: '!211449390',
+									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
+									clientId: '992187b36560494abe8ea63eebf2c9c3',
+									thumb: 'thumbnail',
+									comments: 3,
+									likes: 10
+								}
 							},
-							youtube: {
-								id: 'sbcomm,UCbOzIblxmg-Ing9NSEms8Tw',
-								thumb: 'default'
+							rotate: {
+								delay: 0
 							},
-							pinterest: {
-								id: 'stonybrooku',
-							},
-							flickr: {
-								id: '37984249@N06,101383158@N02'
-							},
-							instagram: {
-								id: '!46695629,!320497946',
-								accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
-								clientId: '992187b36560494abe8ea63eebf2c9c3',
-								thumb: 'thumbnail',
-								comments: 3,
-								likes: 10
-							}
-						},
-						rotate: {
-							delay: 0
-						},
-						control: false,
-						filter: true,
-						wall: true,
-						order: 'date',
-						max: 'limit',
-						limit: 8,
-						iconPath: 'images/dcsns-dark/',
-						imagePath: 'images/dcsns-dark/'
-					});
+							control: false,
+							filter: true,
+							wall: true,
+							order: 'date',
+							max: 'limit',
+							limit: 30,
+							iconPath: 'images/dcsns-dark/',
+							imagePath: 'images/dcsns-dark/'
+						});
+					}
 								 
 				});
 			</script>
@@ -306,6 +348,10 @@
 			</script>
         <?php } ?>
 
+        <?php if($mega_nav || $second_level=='alumni' || $second_level=='undergrad-admissions') { ?>
+			<?php includeAsset('js','js/mega-nav.js'); ?>
+		<?php } ?>
+
         <?php if($page_type=='second-level' && $second_level=='undergrad-admissions') { ?>
 			<?php includeAsset('js','js/admissions.js'); ?>
 			<script type="text/javascript">
@@ -321,6 +367,11 @@
 			   	});
 			</script>
         <?php } ?>
+
+        <?php if($page_type=='second-level' && $second_level=='alumni') { ?>
+			<?php includeAsset('js','js/alumni.js'); ?>
+			
+		<?php } ?>
 
         <?php if($page_type=='second-level' && $second_level=='faculty-experts') { ?>
 			<?php includeAsset('js','js/faculty-experts/faculty-experts.js'); ?>

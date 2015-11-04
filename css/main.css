@@ -533,17 +533,32 @@ video.background-video {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0000a', endColorstr='#880000',GradientType=0 ); /* IE6-8 */
 }
 
-.red-black-grad-background {
-    background: rgb(153,0,0); /* Old browsers */
+.red-grad-background-rev {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#880000+0,8f0222+49,bf1313+100 */
+    background: #880000; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk5MDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIzJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc2JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4ODAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(top,  rgba(153,0,0,1) 0%, rgba(0,0,0,1) 23%, rgba(0,0,0,1) 76%, rgba(136,0,0,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(153,0,0,1)), color-stop(23%,rgba(0,0,0,1)), color-stop(76%,rgba(0,0,0,1)), color-stop(100%,rgba(136,0,0,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(153,0,0,1) 0%,rgba(0,0,0,1) 23%,rgba(0,0,0,1) 76%,rgba(136,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(153,0,0,1) 0%,rgba(0,0,0,1) 23%,rgba(0,0,0,1) 76%,rgba(136,0,0,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(153,0,0,1) 0%,rgba(0,0,0,1) 23%,rgba(0,0,0,1) 76%,rgba(136,0,0,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(153,0,0,1) 0%,rgba(0,0,0,1) 23%,rgba(0,0,0,1) 76%,rgba(136,0,0,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#990000', endColorstr='#880000',GradientType=0 ); /* IE6-8 */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg4MDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ5JSIgc3RvcC1jb2xvcj0iIzhmMDIyMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiZjEzMTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #880000 0%, #8f0222 49%, #bf1313 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#880000), color-stop(49%,#8f0222), color-stop(100%,#bf1313)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #880000 0%,#8f0222 49%,#bf1313 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #880000 0%,#8f0222 49%,#bf1313 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #880000 0%,#8f0222 49%,#bf1313 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #880000 0%,#8f0222 49%,#bf1313 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#880000', endColorstr='#bf1313',GradientType=0 ); /* IE6-8 */
+}
+
+.red-black-grad-background {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#880000+0,8f0222+44,990000+100 */
+    background: #880000; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg4MDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzhmMDIyMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OTAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #880000 0%, #8f0222 44%, #990000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#880000), color-stop(44%,#8f0222), color-stop(100%,#990000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #880000 0%,#8f0222 44%,#990000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #880000 0%,#8f0222 44%,#990000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #880000 0%,#8f0222 44%,#990000 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #880000 0%,#8f0222 44%,#990000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#880000', endColorstr='#990000',GradientType=0 ); /* IE6-8 */
 }
 
 .blue-grad-background {
@@ -675,7 +690,30 @@ body {
     right:0;
     bottom:0;
     background-color:#fff; /* change if the mask should have another color then white */
-    z-index:999999; /* makes sure it stays on top */
+    z-index: 999999; /* makes sure it stays on top */
+}
+
+.quick-nav a.persistent-flag,
+.quick-nav a.persistent-flag:hover,
+.persistent-flag,
+.persistent-flag:hover {
+    display: none;
+    position: fixed;
+    top: -8px;
+    right: 2%;
+    z-index: 100001;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.quick-nav a.persistent-flag:hover,
+.persistent-flag:hover {
+    top: -4px;
 }
 
 /* SBU styles */
@@ -843,6 +881,49 @@ body {
         font-size: 1.8em;
         font-family: 'Trade Gothic W01 Bold 2';
         text-transform: none;
+    }
+
+    h2.rule-header-white-on-black {
+        font-family:'Trade Gothic W01 Cn 18';
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+        background: #000;
+        color: #fff;
+        line-height: 1;
+        text-align: center;
+        position: relative;
+    }
+
+    h2.rule-header-white-on-black .year {
+        font-family:'TradeGothicW01-BoldCn20 675334';
+    }
+
+
+    h2.rule-header-white-on-black .text {
+        display: inline-block;
+        background: #000;
+        padding: 10px;
+        font-size: 1.8em;
+        text-rendering: optimizeLegibility;
+        position: relative;
+        z-index: 2;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+
+    h2.rule-header-white-on-black:after {
+        display: block;
+        width: 97%;
+        content: " ";
+        border-bottom: 2px solid #fff;
+        position: absolute;
+        left: 1.5%;
+        right: 1.5%;
+        bottom: 28px;
+        z-index: 1;
     }
 
     .social-icon {
@@ -1636,7 +1717,8 @@ body {
     }
 
     .link-boxes-container a:after,
-    .fa-arrow-after:after {
+    .fa-arrow-after:after,
+    .arrow-after:after {
         content: "\f105";
         font-family: FontAwesome;
         font-style: normal;
@@ -1823,6 +1905,194 @@ body {
 
     .grey-box-2 {
         background: #f7f7f7;
+    }
+
+    /* Photo boxes */
+
+    .photo-boxes {
+        width: 100%;
+        margin-bottom: 1%;
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #000;
+    }
+
+    .photo-boxes-quarter .item,
+    .photo-boxes-third .item,
+    .photo-boxes-half .item {
+        width: 48%;
+        margin: 1%;
+        display: inline-block;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .photo-boxes .item {
+        position: relative;
+        opacity: .85;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .photo-boxes .item:hover {
+        position: relative;
+        opacity: 1;
+    }
+
+    .photo-boxes .item:after {
+        content: "\f105";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        font-size: 4.2em;
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+        color: #fff;
+        opacity: .5;
+    }
+
+    .photo-boxes .item:hover:after {
+        opacity: 1;
+    }
+
+    .photo-boxes img {
+        width: 100%;
+        height: auto;
+    }
+
+    .photo-boxes .text {
+        display: block;
+        position: absolute;
+        top: 60%;
+        right: -2px;
+        bottom: 0;
+        left: -2px;
+        padding: 3% 20% 2% 5%;
+        background: rgba(0,0,0,.5);
+        color: #fff;
+        margin: 0;
+        line-height: 1.5em;
+        font-size: 1em;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+    }
+
+    .photo-boxes .text .wrap {
+        display: table;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .photo-boxes p {
+        display: table-cell; 
+        vertical-align: middle;
+    }
+
+    .photo-boxes .name {
+        font-size: 1.1em;
+        display: block;
+        margin: 0 0 3px;
+    }
+
+    .photo-boxes .title {
+        display: block;
+        font-size: 1em;
+        display: none;
+    }
+
+    @media only screen and (min-width: 400px) {
+        .photo-boxes .name {
+            font-size: 1.5em;
+            line-height: 1.2em;
+        }
+    }
+
+    @media only screen and (min-width: 540px) {
+
+        .photo-boxes .name {
+            font-size: 1.75em;
+            line-height: 1.2em;
+        }
+
+        .photo-boxes .title {
+            display: block;
+            font-size: 1.2em;        }
+
+        .photo-boxes .item:after {
+            font-size: 7em;
+            bottom: 2px;
+            right: 8px;
+        }
+
+    }
+
+    @media only screen and (min-width: 768px) {
+        .photo-boxes .text {
+            font-size: 1.1em;
+        }
+    }
+
+    @media only screen and (min-width: 960px) {
+        .photo-boxes {
+            margin-bottom: 1%;
+        }
+
+        .photo-boxes .item {
+            opacity: .75;
+        }
+
+        .photo-boxes .text {
+            font-size: .85em;
+            top: 100%;
+        }
+
+        .photo-boxes .item:hover .text {
+            top: 60%;
+        }
+
+        .photo-boxes .item:hover:after {
+            opacity: .7;
+        }
+
+        .photo-boxes-quarter .item {
+            width: 23%;
+            margin: 1%;
+        }
+    }
+
+    @media only screen and (min-width: 1140px) {
+        .photo-boxes .text {
+            font-size: 1em;
+        }
+
+        .photo-boxes .item:after {
+            bottom: 6px;
+            right: 12px;
+            font-size: 9em;
+            opacity: .2;
+        }
+
+        .photo-boxes .item:hover:after {
+            opacity: .4;
+        }
+    }
+
+    @media only screen and (min-width: 1400px) {
+        .photo-boxes .text {
+            font-size: 1.2em;
+        }
     }
 
     /* Full-width red button (for use on .back-dark-red-crossed) */
@@ -2345,6 +2615,10 @@ body {
         border-top-color: #900;
     }
 
+    .arrow-below-880000:after {
+        border-top-color: #880000;
+    }
+
     .arrow-below + section,
     section.arrow-above {
         padding: 50px 0 0 0;
@@ -2629,6 +2903,88 @@ body {
         background: #AA0000;
         text-shadow: 0 1px 0 #000000;
         box-shadow: 0 0 1px #550000 inset;
+    }
+
+    .cta {
+        display: inline-block;
+        background: #8a0000;
+        font-family: 'Trade Gothic W01 Cn 18';
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1.6em;
+        padding: 7px 14px;
+        text-decoration: none;
+        margin: 0 auto;
+        cursor: pointer;
+        letter-spacing: .075em;
+        text-rendering: optimizeLegibility;
+    }
+
+    .cta-outline {
+        background: #fff;
+        border: 2px solid #900;
+        color: #900;
+    }
+
+    .arrow-after {
+        padding: 7px 10px 7px 13px;
+    }
+
+    .cta:hover {
+        background: #980606;
+    }
+
+    .cta-outline:hover {
+        color: #fff;
+    }
+
+    .cta.view-gallery,
+    .cta.submit-nom {
+        width: 170px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* outline button */
+
+    a.sbu-outline-button {
+        display: inline-block;
+        background: #8a0000;
+        font-family: 'Trade Gothic W01 Cn 18';
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1.6em;
+        padding: 7px 14px;
+        text-decoration: none !important;
+        margin: 0 auto;
+        cursor: pointer;
+        letter-spacing: .075em;
+        text-rendering: optimizeLegibility;
+        color: #900 !important;
+    }
+
+    a.sbu-outline-button--light {
+        background: #fff !important;
+        border: 2px solid #900;
+        color: #900 !important;
+    }
+
+    a.sbu-outline-button--light-on-dark:hover {
+        border-color: #ddd;
+    }
+
+    a.sbu-outline-button--arrow-after {
+        padding: 7px 10px 7px 13px;
+    }
+
+    a.sbu-outline-button:hover {
+        background: #980606 !important;
+        text-decoration: none !important;
+    }
+
+    a.sbu-outline-button--light:hover {
+        color: #fff !important;
     }
 
     a,
@@ -4050,6 +4406,22 @@ footer.site-footer .social .small-button:after {
     }
 }
 
+@media only screen and (min-width: 720px) {
+
+    h2.rule-header-white-on-black {
+        font-size: 1.8em;
+    }
+    
+    h2.rule-header-white-on-black .text {
+        padding: 20px;
+        letter-spacing: .0175em;
+    }
+    
+    h2.rule-header-white-on-black:after {
+        bottom: 35px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
 
     .tablet {
@@ -4196,6 +4568,20 @@ footer.site-footer .social .small-button:after {
         width: 66.667%;
     }
 
+    .flip-on-hover {
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+    .flip-on-hover:hover {
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+
     .grey-box-1.one-half {
         width: 46%;
         margin: 20px 2%;
@@ -4294,6 +4680,14 @@ footer.site-footer .social .small-button:after {
         float: left;
         width: 31%;
         margin: 0 2% 0 0;
+    }
+
+    h2.rule-header-white-on-black {
+        font-size: 2em;
+    }
+    
+    h2.rule-header-white-on-black:after {
+        bottom: 40px;
     }
 }
 
@@ -4484,6 +4878,13 @@ footer.site-footer .social .small-button:after {
         margin: 0 auto;
     }
 
+}
+
+@media only screen and (min-width: 1200px) {
+    .quick-nav a.persistent-flag,
+    .quick-nav a.persistent-flag:hover {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 1460px) {
