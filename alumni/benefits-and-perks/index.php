@@ -38,7 +38,7 @@
 		    $page_footerbar   = true;
 		    $page_footer      = true;
 
-		    $sub_nav_selected_tab = 1;
+		    $sub_nav_selected_tab = 3;
 
 		    $inside_page = true;
 
@@ -119,7 +119,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-connected/get-connected.php";
+								$file = "alumni/get-perks/benefits-and-perks.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->

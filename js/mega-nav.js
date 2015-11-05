@@ -61,5 +61,19 @@ $(document).ready(function() {
 
     });
 
+    $('.main-nav-list--show-on-hover li a').mouseenter(function(e) {
+        dropNavId = $(this).data('drop-nav-id');
+
+        if(dropNavId>0 && $(window).width()>=1022) {
+
+            dropNav = $("nav.drop-nav[data-drop-nav-id='" + dropNavId + "']");
+
+            if($(dropNav).hasClass('hide-accessible')) {
+                $(this).trigger('click');
+            }
+        }
+        
+    });
+
 
 });

@@ -8,12 +8,12 @@
             	</a>
             </li>
 			<li class="clearfix larger<?php if($sub_nav_selected_tab==1) echo(' selected'); ?>">
-            	<a href="alumni/get-connected" class="clearfix" data-drop-nav-id="1">
+            	<a href="alumni/events-and-reunions" class="clearfix" data-drop-nav-id="1">
             		<span class="label clearfix">Get Connected</span>
             	</a>
             </li>
 			<li class="clearfix no-dropdown larger<?php if($sub_nav_selected_tab==2) echo(' selected'); ?>">
-            	<a href="alumni/get-informed" class="clearfix" data-drop-nav-id="0">
+            	<a href="alumni/news-and-spotlight" class="clearfix" data-drop-nav-id="0">
             		<span class="label clearfix">Get Informed</span>
             	</a>
             </li>
@@ -23,7 +23,7 @@
             	</a>
             </li>
 			<li class="clearfix no-dropdown larger<?php if($sub_nav_selected_tab==4) echo(' selected'); ?>">
-            	<a href="alumni/give-back" class="clearfix" data-drop-nav-id="0">
+            	<a href="alumni/give" class="clearfix" data-drop-nav-id="0">
             		<span class="label clearfix">Give Back</span>
             	</a>
             </li>
@@ -56,41 +56,27 @@
 
 <nav class="drop-nav border-box clearfix hide-accessible" data-drop-nav-id="1">
 	<div class="drop-nav-heading clearfix">
-		<a href="#">Get Connected</a>
+		<a href="alumni/events-and-reunions">Get Connected</a>
 		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
 	</div>
 	<div class="no-pad-wrapper clearfix">
 		<ul class="drop-nav-list border-box clearfix">
 			<li class="<?php if($drop_nav_selected_tab==1) echo('selected'); ?>" data-li-order="01">
-				<a href="undergraduate-admissions/apply/freshman" class="clearfix">
-					<span class="label clearfix">Freshman</span>
+				<a href="alumni/events-and-reunions" class="clearfix">
+					<span class="label clearfix">Events &amp; Reunions</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==2) echo('selected'); ?>" data-li-order="02">
-				<a href="undergraduate-admissions/apply/transfer" class="clearfix">
-					<span class="label clearfix">Transfer</span>
+				<a href="alumni/chapters" class="clearfix">
+					<span class="label clearfix">Chapters</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==3) echo('selected'); ?>" data-li-order="03">
-				<a href="undergraduate-admissions/apply/international" class="clearfix">
-					<span class="label clearfix">International</span>
+				<a href="alumni/hsc-alumns" class="clearfix">
+					<span class="label clearfix">HSC Alumns</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==4) echo('selected'); ?>" data-li-order="04">
-				<a href="undergraduate-admissions/apply/second-degree" class="clearfix">
-					<span class="label clearfix">Second<br />Degree</span>
-				</a>
-			</li>
-			<li class="<?php if($drop_nav_selected_tab==5) echo('selected'); ?>" data-li-order="05">
-				<a href="undergraduate-admissions/apply/readmission" class="clearfix">
-					<span class="label clearfix">Readmission</span>
-				</a>
-			</li>
-			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="06" data-last-child="true" data-image="brochure">
-				<a href="undergraduate-admissions/apply" class="clearfix">
-					<span class="label clearfix">Apply Now</span>
-				</a>
-			</li>
+			<li></li>
 		</ul>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
@@ -100,41 +86,32 @@
 
 <nav class="drop-nav border-box clearfix hide-accessible" data-drop-nav-id="3">
 	<div class="drop-nav-heading clearfix">
-		<a href="#">Get Perks</a>
+		<a href="alumni/benefits-and-perks">Get Perks</a>
 		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
 	</div>
 	<div class="no-pad-wrapper clearfix">
 		<ul class="drop-nav-list border-box clearfix">
 			<li class="<?php if($drop_nav_selected_tab==19) echo('selected'); ?>" data-li-order="01">
-				<a href="undergraduate-admissions/visit" class="clearfix">
-					<span class="label clearfix">Campus<br />Tours</span>
+				<a href="alumni/benefits-and-perks" class="clearfix">
+					<span class="label clearfix">Benefits</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==20) echo('selected'); ?>" data-li-order="02">
-				<a href="http://www.stonybrook.edu/commcms/redcarpet/" class="clearfix" target="_blank">
-					<span class="label clearfix">Red Carpet Days</span>
+				<a href="alumni/careers" class="clearfix" target="_blank">
+					<span class="label clearfix">Careers</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==21) echo('selected'); ?>" data-li-order="03">
-				<a href="undergraduate-admissions/visit/directions-and-parking" class="clearfix">
-					<span class="label clearfix">Directions &amp; Parking</span>
+				<a href="alumni/lifelong-learning" class="clearfix">
+					<span class="label clearfix">Lifelong Learning</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="04">
-				<a href="undergraduate-admissions/visit/campus-maps" class="clearfix">
-					<span class="label clearfix">Campus<br />Maps</span>
+				<a href="alumni/sbu-pride" class="clearfix">
+					<span class="label clearfix">SBU Pride</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==23) echo('selected'); ?>" data-li-order="05">
-				<a href="undergraduate-admissions/visit/coming-to-you" class="clearfix">
-					<span class="label clearfix">Coming to<br />You</span>
-				</a>
-			</li>
-			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="06" data-last-child="true" data-image="map">
-				<a href="undergraduate-admissions/visit" class="clearfix">
-					<span class="label clearfix">Plan Your Visit</span>
-				</a>
-			</li>
+			<li></li>
 		</ul>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">

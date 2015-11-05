@@ -2,23 +2,26 @@
     <section class="clearfix site-carousel grey-background">
         <div class="border-box">
             <div class="carousel-wrapper">
-                <h1 class="tagline bottom">Where in the world have you been?</h1>
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
                     <div class="item">
-                        <div class="carousel-image clearfix" data-image="01">
+                        <div class="carousel-image clearfix" data-image="03">
                         </div>
+                        <a href="alumni/recent-grad" title="Land Your Dream Job"><h1 class="tagline bottom">Recent Grad? We're here for you!</h1></a>
                     </div>
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="02">
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="carousel-image clearfix" data-image="03">
-                        </div>
+                        <a href="alumni/send-us-your-news" title="Land Your Dream Job"><h1 class="tagline bottom">Where in the world have you been?</h1></a>
                     </div>
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="04">
                         </div>
+                        <a href="alumni/events-and-reunions" title="Land Your Dream Job"><h1 class="tagline bottom">Come Back to the Brook</h1></a>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-image clearfix" data-image="01">
+                        </div>
+                        <a href="http://career.stonybrook.edu/alumni_new" title="Land Your Dream Job" target="_blank"><h1 class="tagline bottom">Land Your Dream Job</h1></a>
                     </div>
                 </div>
             </div>
@@ -29,8 +32,8 @@
             <div class="large-info-box equal-height-col">
                 <div class="info-inner-wrapper">
                     <div class="info-title arrow-below arrow-below-small arrow-below-white">Info For</div>
-                    <a href="/for-students"><em class="fa fa-book"></em> <span>Students</span></a>
-                    <a href="#"><em class="fa fa-graduation-cap"></em> <span>Recent Grads</span></a>
+                    <a href="alumni/students"><em class="fa fa-book"></em> <span>Students</span></a>
+                    <a href="alumni/recent-grads"><em class="fa fa-graduation-cap"></em> <span>Recent Grads</span></a>
                 </div>
             </div>
             <div class="video-promo equal-height-col">
@@ -54,7 +57,7 @@
                 <div class="content white">
 
                     <div class="activities-links clearfix external-link-hover-wrapper">
-                        <h4>News</h4>
+                        <h4>Alumni News</h4>
                         <?php 
                             /*
                             // PHP will transform event data from RSS feed in following format
@@ -64,12 +67,12 @@
                             -->
                             */
                             $file  = "feed/happenings-news.php";
-                            $rss   = "http://sb.cc.stonybrook.edu/happenings/category/alumni/feed/";
+                            $rss   = "http://sb.cc.stonybrook.edu/happenings/category/alumni-news-highlights/feed/";
                             $count = 6;
                             $end = 6;
                             include($path . $file);
                         ?>
-                        <a href="http://stonybrook.edu/happenings/alumni/" class="star-before" target="_blank">Read SBU Happenings</a>
+                        <a href="http://stonybrook.edu/happenings/alumni/" class="star-before" target="_blank">Read SB Matters</a>
                     </div>
 
                     <!--
@@ -109,7 +112,7 @@
                             -->
                             */
                             $file  = "feed/active-data-calendar.php";
-                            $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx?category=8-0";
+                            $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx?category=8-67";
                             $count = 3;
                             $end = 3;
                             include($path . $file);
@@ -233,5 +236,10 @@
             </span>
         </a>
     </section>
+
+    <?php if($social_sidebar!='') {
+        $file = "widgets/alumni-partners.php";
+        include($path . $file);
+    } ?>
 
 </article>

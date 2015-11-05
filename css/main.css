@@ -322,7 +322,7 @@ video.background-video {
 }
 
 .pad-bottom {
-    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .pad-left {
@@ -421,6 +421,31 @@ video.background-video {
     50% { opacity: 1; }
     50.01% { opacity: 0.1; }
     100% { opacity: 0.1; }
+}
+
+/* Image Hovers, Grayscale and Color, etc */
+
+.grayscale-to-color-hover {
+    -webkit-filter: grayscale(95%);
+    -moz-filter: grayscale(95%); 
+    -o-filter: grayscale(95%); 
+    filter: grayscale(100%); 
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.grayscale-to-color-hover:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+img:hover {
+} 
+
+img {
 }
 
 /* Layout */

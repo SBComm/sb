@@ -38,7 +38,9 @@
 		    $page_footerbar   = true;
 		    $page_footer      = true;
 
-		    $sub_nav_selected_tab = 2;
+		    $sub_nav_selected_tab = 1;
+
+		    $inside_page = true;
 
 		    $carousel 	      = true;
 		    $carousel_4       = true;
@@ -117,7 +119,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-informed/get-informed.php";
+								$file = "alumni/get-connected/events-and-reunions.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->

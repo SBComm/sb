@@ -168,8 +168,6 @@ section.golf h5 {
 }
 
 .golf .content {
-    background: url("../../img/bkg/transparent-white-55.png") 0 0 repeat transparent;
-    background: rgba(255,255,255,.55);
     padding: 20px 5% 10px;
 }
 
@@ -177,12 +175,19 @@ section.golf h5 {
     color: #111;
 }
 
+.golf .sbu-outline-button {
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    text-align: center;
+}
+
 section.wolfstock {
     position: relative;
 }
 
 .get-connected section.calendar {
-    background: url("../../img/alumni/bkg/calendar-uke-girl.jpg") 0% 0% no-repeat #7a8690;
+    background: url("../../img/alumni/bkg/calendar-uke-girl.jpg") 0% 0% no-repeat #616e78;
     background-position: 0% 50%;
     background-size: 700px;
     background-size: cover;
@@ -190,7 +195,7 @@ section.wolfstock {
     position: relative;
 }
 
-.get-connected section.calendar .black-opac-cover {
+section.calendar .black-opac-cover {
     padding: 40px 0;
 }
 
@@ -247,7 +252,7 @@ section.wolfstock {
         font-size: .8em;
     }
 
-    .golf .content {
+    .golf .white-opac-cover {
         background: url("../../img/bkg/transparent-white-70.png") 0 0 repeat transparent;
         background: rgba(255,255,255,.70);
         padding: 20px 0;
@@ -311,10 +316,16 @@ section.wolfstock {
         font-size: 3.4em;
     }
 
-    section.events .black-opac-cover {
-        background: transparent;
-        box-shadow: rgba(0,0,0,1) 410px 0 280px 30px inset;
-        padding: 80px 0;
+    section.calendar .black-opac-cover {
+        background: rgba(0,0,0,.75);
+        box-shadow: none;
+        padding: 60px 0;
+    }
+
+    .get-connected section.calendar {
+        background: url("../../img/alumni/bkg/calendar-uke-girl.jpg") 0% 0% no-repeat #616e78;
+        background-position: -5% 20%;
+        background-size: 700px;
     }
 
     section.reunions {
@@ -342,6 +353,7 @@ section.wolfstock {
     }
 
     section.forty .black-opac-cover {
+        background: transparent;
         padding-bottom: 330px;
     }
 
@@ -350,7 +362,7 @@ section.wolfstock {
         padding-right: 120px;
     }
 
-    .golf .content {
+    .golf .white-opac-cover {
         margin-top: 360px;
     }
 
@@ -387,7 +399,7 @@ section.wolfstock {
     .activities-and-calendar .flex-list-2 li {
         width: 40%;
         margin: 10px 10% 0 0;
-        padding-bottom: 20px;
+        padding-bottom: 5px;
     }
 
 }
@@ -403,5 +415,25 @@ section.wolfstock {
 
     .reunions img {
         right: 6%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    section.calendar .black-opac-cover {
+        background: none;
+        box-shadow: none;
+        padding: 60px 0;
+    }
+}
+
+@media only screen and (min-width: 1980px) {
+    .get-connected section.calendar {
+        background-size: 900px;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    .get-connected section.calendar {
+        background-size: 1200px;
     }
 }
