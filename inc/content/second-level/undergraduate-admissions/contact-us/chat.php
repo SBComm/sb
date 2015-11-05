@@ -33,7 +33,8 @@
             <div class="content col-2">
                 <h4>Chat Archives</h4>
                 <ul class="default-bullets">
-                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/blogs/chats/ceas-10-21-15.htm" target="_blank">Should be titled Engineering and Applied Sciences (10/21/2015)</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/blogs/chats/honors-11-4-15.htm" target="_blank">Honors Programs Chat (11/4/15)</a></li>
+                    <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/blogs/chats/ceas-10-21-15.htm" target="_blank">Engineering and Applied Sciences (10/21/2015)</a></li>
                     <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/blogs/chats/oos-12-11-14.html" target="_blank">Out of State Students (12/9/2014)</a></li>
                     <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/blogs/chats/scholars14.htm" target="_blank">University Scholars (3/26/2014)</a></li>
                     <li><a class="external-link" href="http://www.stonybrook.edu/ugadmissions/blogs/chats/ceas-3-12-14.htm" target="_blank">Engineering and Applied Sciences (3/12/2014)</a></li>

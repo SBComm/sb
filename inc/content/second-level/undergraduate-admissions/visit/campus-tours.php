@@ -39,7 +39,8 @@
                     </a>
                 </div>
                 <h4>Group Tour Requests</h4>
-                <p>Schools and/or organizations planning to bring 20 or more students to campus must <a href="undergraduate-admissions/visit/campus-tours/request-a-guided-tour/"><span class="hide-accessible"> click here to</span> complete our Group Visit Request Form</a>. Organizations wishing to bring less than 20 students should contact Lyle Wind, Director of Campus Tours, at Lyle.Wind@stonybrook.edu.</p>
+                <p>Thank you for your interest in Stony Brook. All group tour dates for the fall semester have been filled and we are no longer accepting requests for the fall.</p>
+                <p>We will begin scheduling group visits for the spring in late January. Schools and/or organizations interested in planning a group visit for the spring should e-mail <a class="email-link" href="mailto:grouptours@stonybrook.edu">grouptours@stonybrook.edu</a> with your request at that time. Please note that we are able to accommodate a maximum of 50 students for group tours.</p>
                 <h4>Interviews</h4>
                 <ul class="default-bullets">
                     <li><strong>On-Campus:</strong> Interviews are not required for applicants. On-campus interviews with admissions counselors are offered on a very limited basis to qualified students with questions about our undergraduate program. Such interviews are for informational purposes only and will have no bearing on the review of an application for admission. All students requesting an interview must call (631) 632-6868 and be pre-screened by an admissions counselor. Due to limited availability during our application reading season, we may be unable to accommodate all requests for interviews.</li>
