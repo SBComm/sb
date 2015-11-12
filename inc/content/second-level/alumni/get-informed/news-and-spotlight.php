@@ -118,11 +118,4 @@
         include($path . $file);
     ?>
 
-    <!-- <social-sidebar> -->
-        <?php if($social_sidebar!='') {
-            $file = "sidebars/".$social_sidebar."-social-sidebar.php";
-            include($path . $file);
-        } ?>
-    <!-- </social-sidebar> -->
-
 </article>
