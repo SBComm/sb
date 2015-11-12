@@ -38,6 +38,9 @@
             $rss_desc = str_replace("<![CDATA[","",$rss_desc);
             $rss_desc = str_replace("]]>","",$rss_desc);
 
+            preg_match( '@src="([^"]+)"@' , $rss_desc, $img_src );
+            $img_src = array_pop($img_src);
+
             $dateFormat = 'D, d M Y H:i:s O'; // Mon, 06 Aug 2015 16:53:14 +0000
 
             $eventDate = DateTime::createFromFormat($dateFormat, $rss_datetime);
@@ -67,7 +70,13 @@
             }
 
             if ($proceed) {
-                $html .= '<a href="'.$rss_url.'" target="_blank"><span>'.$rss_title.'</span> <strong class="date">'.$eventMonth.'/'.$eventDay.'/'.$eventYear.'</strong></a>';
+                $html .= '<a class="clearfix" href="'.$rss_url.'" target="_blank">';
+                if(!is_null($img_src) && $thumbnail) {
+                    $html .= '<img src="'.$img_src.'" alt="Featured image for '.$rss_title.'"/>';
+                }
+                $html .= '<span>'.$rss_title.'</span> ';
+                $html .= '<strong class="date">'.$eventMonth.'/'.$eventDay.'/'.$eventYear.'</strong>';
+                $html .= '</a>';
                 $count--;
             }
             /*            
