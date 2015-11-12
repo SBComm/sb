@@ -108,7 +108,7 @@
         </div>
         <div class="border-box wrapper clearfix">
             <div class="inside-content">
-                <p>* Descriptions are taken from the Amazon synopsis.</p>
+                <p>* Descriptions are taken from Amazon.com</p>
             </div>
         </div>
     </section>
