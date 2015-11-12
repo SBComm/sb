@@ -745,7 +745,8 @@
 
 }
 
-.footer-bar span {
+.footer-bar span,
+.footer-bar .item {
 	font-size: 12px;
 	color: #eee;
 	font-family:'Trade Gothic W01 Light';
@@ -934,18 +935,22 @@
 	    border-bottom: 1px solid #800;
 	}
 
-	.footer-bar span {
+	.footer-bar span,
+	.footer-bar .item {
 		display: inline-block;
-		padding-right: 8px;
-		padding-left: 11px;
+		padding-right: 9px;
+		padding-left: 6px;
 		border-right: 1px solid #aaa;
 	}
 
-	.footer-bar span + span {
+	.footer-bar span + span,
+	.footer-bar span + .item,
+	.footer-bar .item + .item {
 		border-left: 1px solid #111;
 	}
 
-	.footer-bar span:last-child {
+	.footer-bar span:last-child,
+	.footer-bar .item:last-child {
 		border-right: 0 none;
 	}
 	
