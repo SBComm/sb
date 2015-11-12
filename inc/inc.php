@@ -96,6 +96,8 @@
     $carousel_3       = false;
     $carousel_4       = false;
 
+    $slick_slider     = false;
+
     $lightbox         = false;
 
     $motio            = false;
@@ -144,7 +146,7 @@
     date_default_timezone_set("America/New_York");
 
     /* Cache busting for newer asset files */
-    $filename_based_cache_busting = false;
+    $filename_based_cache_busting = true;
     include($path . 'includes/filename_based_cache_busting.php');
 
     /* debugger, see https://github.com/raveren/kint */
