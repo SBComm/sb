@@ -118,4 +118,9 @@
         include($path . $file);
     ?>
 
+    <?php
+        $file = "widgets/alumni-social.php";
+        include($path . $file);
+    ?>
+
 </article>
