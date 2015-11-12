@@ -54,6 +54,11 @@
             <?php includeAsset('css','css/elements/owl-carousel/owl.transitions.css','all'); ?>
         <?php } ?>
 
+        <?php if($slick_slider) { ?>
+            <?php includeAsset('css','plugins/slick-1.5.7/slick/slick.css','all'); ?>
+            <?php includeAsset('css','plugins/slick-1.5.7/slick/slick-theme.css','all'); ?>
+        <?php } ?>
+
         <?php if($lightbox) { ?>
             <?php includeAsset('css','plugins/nivo-lightbox/nivo-lightbox.css','all'); ?>
             <?php includeAsset('css','plugins/nivo-lightbox/themes/default/custom.css','all'); ?>

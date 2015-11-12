@@ -646,6 +646,11 @@ img {
     display: block;
 }
 
+.white-opac-cover {
+    background: url("../../img/bkg/transparent-black-65.png") 0 0 repeat transparent;
+    background: rgba(255,255,255,.65);
+}
+
 /* Custom resets and other declarations */
 
 ul,
@@ -2404,6 +2409,94 @@ body {
             color: #fff;
         }
 
+    /* Serif news titles with newspaper icon */
+
+    .serif-news-titles a {
+        display: block;
+        border-bottom: 1px solid #bbb;
+        padding: 18px 0;
+        text-decoration: none;
+    }
+
+    .serif-news-titles span {
+        font-family: 'CenturyExpandedLTW01-Ro';
+        color: #000;
+        font-size: 1.2em;
+        line-height: 1.35em;
+        text-indent: -17px;
+        margin: 0 0 0 38px;
+        display: block;
+    }
+
+    .serif-news-titles .date {
+        display: none;
+    }
+
+    .serif-news-titles a:hover span {
+        color: #900;
+        text-decoration: underline;
+    }
+
+    .serif-news-titles span:before {
+        display: inline-block;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        content: "\f1ea";
+        margin-right: 15px;
+        color: #900;
+    }
+
+    /* Bold Sans titles with thumb */
+
+    .sans-titles-with-thumb a {
+        display: block;
+        border-bottom: 1px solid #bbb;
+        padding: 8px 0;
+        text-decoration: none;
+    }
+
+    .sans-titles-with-thumb a img {
+        display: inline-block;
+        float: left;
+        max-width: 95px;
+        width: 25%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .sans-titles-with-thumb a span {
+        font-family: 'Trade Gothic W01 Bold 2';
+        margin: 1% 0 0 5%;
+        color: #000;
+        font-weight: normal;
+        font-size: 1.1em;
+        width: 70%;
+        display: inline-block;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .sans-titles-with-thumb a .date {
+        font-family: 'CenturySchoolbookW01-It 927458';
+        font-weight: normal;
+        letter-spacing: 0;
+        display: none;
+    }
+
+    .sans-titles-with-thumb a:hover span {
+        color: #900;
+        text-decoration: underline;
+    }
+
     /* Numbers wrapper */
 
     section.numbers-wrapper {
@@ -2975,7 +3068,6 @@ body {
 
     a.sbu-outline-button {
         display: inline-block;
-        background: #8a0000;
         font-family: 'Trade Gothic W01 Cn 18';
         text-transform: uppercase;
         color: #fff;
@@ -2986,30 +3078,47 @@ body {
         cursor: pointer;
         letter-spacing: .075em;
         text-rendering: optimizeLegibility;
-        color: #900 !important;
-    }
-
-    a.sbu-outline-button--light {
-        background: #fff !important;
-        border: 2px solid #900;
-        color: #900 !important;
-    }
-
-    a.sbu-outline-button--light-on-dark:hover {
-        border-color: #ddd;
-    }
-
-    a.sbu-outline-button--arrow-after {
-        padding: 7px 10px 7px 13px;
+        border-width: 2px;
+        border-style: solid;
     }
 
     a.sbu-outline-button:hover {
-        background: #980606 !important;
         text-decoration: none !important;
     }
 
-    a.sbu-outline-button--light:hover {
+    a.sbu-outline-button--red {
+        color: #900 !important;
+        border-color: #900 !important;
+    }
+
+    a.sbu-outline-button--red:hover {
         color: #fff !important;
+        background: #900 !important;
+    }
+
+    a.sbu-outline-button--white {
+        color: #fff !important;
+        border-color: #fff !important;
+    }
+
+    a.sbu-outline-button--white:hover {
+        background: #900 !important;
+    }
+
+    a.sbu-outline-button--on-white {
+        background: #fff !important;
+    }
+
+    a.sbu-outline-button--on-red{
+        background: #800 !important;
+    }
+
+    a.sbu-outline-button--on-red:hover {
+        background: #a00 !important;
+    }
+
+    a.sbu-outline-button.arrow-after {
+        padding: 7px 10px 7px 13px;
     }
 
     a,
@@ -3130,6 +3239,81 @@ body {
 
     a.more-button:hover {
         background: #000;
+    }
+
+    /* Page curl */
+
+    /**
+     * Author: @joostkiens
+     * Licensed under the MIT license
+     * http://codepen.io/anon/pen/gaQyMV
+     */
+    .page-curl {
+        width:50px;
+        height:50px;
+        position: absolute;
+        bottom:0;
+        right:0;
+        background : 
+            linear-gradient(
+                315deg, 
+                #fff, 
+                #f3f3f3 45%, 
+                #ddd 50.9%, 
+                #aaa 51%, 
+                #bbb 56%, 
+                #ccc 62%, 
+                #f3f3f3 78%,
+                #fff 100%
+            );
+        box-shadow : 0 0 7px rgba(0, 0, 0, .4);
+        transition: all .1s ease;
+      font-size: 10px;
+    }
+    .page-curl:before,
+    .page-curl:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: 12.5%;
+        bottom: 5.8%;
+        width: 70%;
+        max-width: 300px;
+        max-height: 100px;
+        height: 55%;
+        box-shadow: 0 12px 18px rgba(0, 0, 0, .6);
+        transform: skew(-10deg) rotate(-6deg);
+    }
+    .page-curl:after {
+        left: auto;
+        right: 5.8%;
+        bottom: auto;
+        top: 14.16%;
+        transform: skew(-15deg) rotate(-84deg);
+    }
+    .page-curl:hover {
+        width: 60px;
+        height: 60px;
+        font-size: 13px;
+        transition: all .1s ease;
+    }
+    .page-curl:hover:before,
+    .page-curl:hover:after {
+        box-shadow: 0 24px 30px rgba(0, 0, 0, .3);
+    }
+    .page-curl span {
+        font-family:'Trade Gothic Next W01';
+        font-weight: normal;
+        position: absolute;
+        text-transform: uppercase;
+        font-size: 1em;
+        bottom: 14px;
+        right: 0px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transition: all .1s ease;
     }
 
     /* Video elements */
@@ -3629,6 +3813,12 @@ body {
         .inside-content.majors-minors .content {
             font-size: 1em;
             line-height: 1.5em;
+        }
+
+        .sans-titles-with-thumb a span {
+            font-size: 1.35em;
+            margin: 2% 0 0 3%;
+            width: 72%;
         }
     }
 

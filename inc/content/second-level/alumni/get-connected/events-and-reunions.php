@@ -60,7 +60,7 @@
                     include($path . $file);
                 ?>
                 <div class="center-wrapper clearfix">
-                    <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after arrow-after" href="#">View All Events</a>
+                    <a class="sbu-outline-button sbu-outline-button--white arrow-after" href="http://calendar.activedatax.com/stonybrook/EventList.aspx?fromdate=11%2f1%2f2015&amp;todate=11%2f30%2f2015&amp;display=Month&amp;view=DateTime#events" target="_blank">View All Events</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
         <div class="border-box wrapper clearfix">
             <div class="content col-2">
                 <p>Recapture and recreate all of your favorite moments from your time at Stony Brook University and reconnect with your classmates and the University through class and chapter events, group lectures, networking receptions, tours and much more.</p>
-                <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after sbu-outline-button--light-on-dark" href="#">Explore Reunions</a>
+                <a class="sbu-outline-button sbu-outline-button--white arrow-after" href="#">Explore Reunions</a>
             </div>
         </div>
         <img src="img/alumni/3-ladies-silo_with-shadow.png" alt="Three alumni" />
@@ -87,7 +87,7 @@
             <div class="border-box wrapper clearfix">
                 <div class="content col-2">
                     <p>In partnership with Stony Brook University Advancement, the Stony Brook University Alumni Association co-hosts the annual 40 Under Forty alumni awards ceremony and reception in New York City to honor 40 of Stony Brook's brightest, most innovative and entrepreneurial-spirited young graduates.</p>
-                    <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after sbu-outline-button--light-on-dark" href="http://stonybrook.edu/40underforty/">Learn More</a>
+                    <a class="sbu-outline-button sbu-outline-button--white arrow-after" href="http://stonybrook.edu/40underforty/" target="_blank">Learn More</a>
                 </div>
             </div>
         </div>
@@ -106,14 +106,14 @@
                 <p>The 15th Annual Scholarship Golf Classic will take place Monday, June 20, 2016.</p>
                 <p>Volunteer for the 2016 Committee today! We need your help to make next year’s event a success!</p>
                 <p>Your participation makes a big impact. Thank you!</p>
-                <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after" href="#">Get Involved</a>
-                <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after" href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml">Learn More</a>
+                <a class="sbu-outline-button sbu-outline-button--light" href="#">Get Involved</a>
+                <a class="sbu-outline-button sbu-outline-button--light" href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml">Learn More</a>
                 <p>For more information about the upcoming Scholarship Golf Classic, please call (631) 632-4466.</p>-->
                 <p>Every June, the Alumni Association hosts its annual Scholarship Golf Classic at one of Long Island's finest courses. Proceeds go to scholarships for deserving Stony Brook University students who need your continued support now more than ever. </p>
             </div>
         </div>
         <div class="content clearfix">
-            <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after clearfix" href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml">Learn More</a>
+            <a class="sbu-outline-button sbu-outline-button--white sbu-outline-button--on-red arrow-after" href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml">Learn More</a>
         </div>
     </section>
 
@@ -124,10 +124,26 @@
         <div class="border-box wrapper img-wrapper clearfix">
             <div class="content col-2">
                 <p>Alumni are invited back to the Brook each fall for Wolfstock Homecoming festivities, including -- both new traditions and old -- campus tours, faculty lectures, mini-reunions, a large BBQ tailgate with fun for the whole family, and the Homecoming football game at LaValle Stadium.</p>
-                <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--light-on-dark sbu-outline-button--arrow-after" href="#">Explore Wolfstock</a>
+                <a class="sbu-outline-button sbu-outline-button--white sbu-outline-button--on-red arrow-after" href="http://stonybrook.edu/wolfstock/" target="_blank">Explore Wolfstock</a>
             </div>
             <img src="img/alumni/wolfstock-twins-angled.png" alt="Alumni twins" />
         </div>
+    </section>
+
+    <section class="grey-background social clearfix arrow-above">
+        <div class="wrapper border-box">
+        <h2>We're <span class="black">Social</span></h2>
+        <h3 class="subtitle sbu-text-shadow">Get the latest in <span class="red nowrap">Stony Brook Alumni</span> <span class="nowrap">social media!</span></h3>
+            <?php if($social_sidebar!='') {
+                $file = "sidebars/".$social_sidebar."-social-sidebar.php";
+                include($path . $file);
+            } ?>
+        </div>
+        <a id="panning" class="social-posts clearfix" href="social/alumni" target="_blank">
+            <span class="button clearfix">
+                <div class="sbu-link sbu-cta sbu-cta-1 sbu-cta-1a">View Alumni Wall</div>
+            </span>
+        </a>
     </section>
 
     <!-- <social-sidebar> -->

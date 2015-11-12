@@ -15,15 +15,26 @@ section.full-width-banner-image {
     padding: 0;
 }
 
+.inside-header {
+    padding-top: 25%;
+}
+
 .inside-header h2 {
     font-size: 1.75em;
 }
 
-    .events-header {
+    .get-connected .inside-header {
         background-image: url("../../img/student-life/dancing.jpg");
         background-size: 100%;
         background-size: cover;
         background-position: 50% 40%;
+    }
+
+    .get-informed .inside-header {
+        background-image: url("../../img/student-life/marquee-campus-autumn-768.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
     }
 
 /* Section Buttons */
@@ -112,7 +123,7 @@ section.events {
     padding: 40px 0;
 }
 
-section.events h4 {
+section h4 {
     font-size: 1.8em;
     font-family: 'Trade Gothic W01 Light';
     letter-spacing: .02em;
@@ -164,11 +175,13 @@ section.golf h5 {
 }
 
 .golf .wrapper h4 {
-    color: #900;
+    color: #000;
+    text-shadow: 0 0 8px rgba(157, 225, 236,.8);
 }
 
 .golf .content {
     padding: 20px 5% 10px;
+    margin-top: 20px;
 }
 
 .golf .content p {
@@ -178,7 +191,7 @@ section.golf h5 {
 .golf .sbu-outline-button {
     display: block;
     margin: 0 auto;
-    width: 140px;
+    width: 160px;
     text-align: center;
 }
 
@@ -232,14 +245,325 @@ section.calendar .black-opac-cover {
     text-decoration: underline;
 }
 
+/* News and Spotlight */
+
+.articles-promo {
+    padding: 4% 0;
+}
+
+.articles-promo img {
+    margin: 0;
+    display: block;
+}
+
+.articles-promo .sbu-outline-button {
+    display: block;
+    width: 134px;
+    text-align: center;
+    margin: 15px auto;
+    float: none;
+}
+
+.authors {
+    background: #000;
+    background: url("../../img/bkg/black-book-1.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5% 0 4%;
+}
+
+.authors h4 {
+    text-align: center;
+    margin: .8em 0 .6em;
+}
+
+.authors p {
+    display: block;
+    color: #eee;
+    text-align: center;
+    margin: 0 0 3em;
+    font-family: 'CenturySchoolbookW01-It 927458';
+    font-family: 'CenturySchlbkW15-Italic';
+}
+
+.authors__books {
+    overflow: visible;
+    margin-bottom: 2%;
+}
+
+.authors__book {
+    display: block;
+    width: 80%;
+    margin: 0 10% 15%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: .95;
+}
+
+.authors__books:hover .authors__book {
+    opacity: .75
+}
+
+.authors__books:hover .authors__book:hover {
+    opacity: 1;
+}
+
+
+.authors__book h5 {
+    color: #eee;
+    font-weight: normal;
+    font-family: 'Trade Gothic W01 Light';
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 1em;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1;
+    padding: .45em .2em .5em;
+    border-top: 1px solid #47c2c8;
+    border-bottom: 1px solid #47c2c8;
+}
+
+.authors__book__flip {
+    position: relative;
+    perspective: 800px;
+    padding-bottom: 150.15015%;
+}
+
+.authors__book__flip__card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.authors__book__flip__card__item {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+.authors__book__flip__card__item--front {
+    cursor: pointer;
+    z-index: 1;
+}
+
+.authors__book__flip__card__item--front img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.authors__book__flip__card__item--front .page-curl {
+    background: linear-gradient( 315deg, #161616, #0C0C0C 45%, #000 50.9%, #aaa 51%, #bbb 56%, #ccc 62%, #f3f3f3 78%, #fff 100% );
+}
+
+.authors__book__flip__card__item--front:hover .page-curl {
+    width: 60px;
+    height: 60px;
+}
+
+.authors__book__flip__card__item--front .page-curl span {
+    opacity: 0;
+    color: #fff;
+    transition: all .2s ease;
+    right: -1px;
+}
+
+.authors__book__flip__card__item--front:hover .page-curl span {
+    bottom: 16px;
+    font-size: 13px;
+    opacity: 1;
+}
+
+.authors__book__flip__card__item--back {
+    transform: rotateY( 180deg );
+    z-index: 2;
+}
+
+.authors__book__flip__card__item--back img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    opacity: .05;
+}
+
+.authors__book__flip__card.flip {
+    transform: rotateY( -180deg );
+}
+
+.authors__book__info {
+    padding: 8% 10%;
+    width: 100%;
+    height: 100%;
+    border-top: 10px solid #900;
+    border-bottom: 10px solid #900;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #bbb;
+}
+
+.authors__book__info__title {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    margin: 0 0 .7em;
+    font-size: 1.1em;
+    position: relative;
+    z-index: 2;
+}
+
+.authors__book__info__title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.authors__book__info__author {
+    font-family: 'CenturySchoolbookW01-It 927458';
+    font-weight: normal;
+    display: block;
+    margin: 0 0 .7em;
+    position: relative;
+    z-index: 2;
+}
+
+.authors__book__info__desc {
+    font-family: 'Trade Gothic W01 Cn 18';
+    font-weight: normal;
+    display: block;
+    margin: 0 0 .6em;
+    line-height: 1.3em;
+    position: relative;
+    z-index: 2;
+    max-height: 140px;
+    overflow: hidden;
+}
+
+.authors__book__info__desc:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 110px;
+    background: url("../../img/bkg/fade-to-bbb-30.png") repeat-x 0 0 transparent;
+    content: "";
+}
+
+.authors__book__info__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #aaa;
+    font-size: 1.4em;
+    padding: 2px 6px 3px 7px;
+    color: #fff;
+    background: #900;
+}
+
+a.authors__book__cta {
+    font-size: .9em;
+    border-width: 1px;
+    border-color: #800;
+    margin: .6em 0;
+    width: 140px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+
+.slick-slide:focus {
+    outline: none;
+    box-shadow: 0 0 10px #900;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 42%;
+    display: block;
+    width: 24px;
+    height: 38px;
+    margin-top: -13px;
+}
+
+.slick-prev {
+    left: -36px;
+}
+
+.slick-next {
+    right: -36px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: "FontAwesome";
+    font-size: 46px;
+}
+
+.slick-prev:before {
+    content: "\f104";
+}
+
+.slick-next:before {
+    content: "\f105";
+}
+
 @media only screen and (min-width: 360px) {
     
 
 }
 
-@media only screen and (min-width: 480px) {
-    
+@media only screen and (min-width: 400px) {
+    .authors {
+        font-size: 1.2em;
+    }
 
+    .authors__book__info__desc {
+        max-height: 185px;
+    }
+
+    .authors__book__info__desc:after {
+        top: 155px;
+    }
+
+@media only screen and (min-width: 480px) {
+    .authors__book {
+        font-size: 1.1em;
+        max-width: 360px;
+        margin: 0 auto 4em;
+    }
+
+    .authors__book__info__desc {
+        max-height: 290px;
+    }
+
+    .authors__book__info__desc:after {
+        top: 260px;
+    }
 }
 
 @media only screen and (min-width: 541px) {
@@ -268,7 +592,7 @@ section.calendar .black-opac-cover {
 
     }
 
-    section.events h4 {
+    section h4 {
         font-size: 2.4em;
     }
 
@@ -282,7 +606,13 @@ section.calendar .black-opac-cover {
 }
 
 @media only screen and (min-width: 768px) {
-    
+
+    .get-informed .inside-header {
+        background-image: url("../../img/student-life/marquee-campus-autumn-taller-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
 
     .brochures-grid li .img-wrapper {
         width: 70%;
@@ -312,7 +642,7 @@ section.calendar .black-opac-cover {
 
     }
 
-    section.events h4 {
+    section h4 {
         font-size: 3.4em;
     }
 
@@ -402,10 +732,60 @@ section.calendar .black-opac-cover {
         padding-bottom: 5px;
     }
 
+    .articles-promo .serif-news-titles {
+        padding: 0 30px 0 0;
+    }
+
+    .articles-promo .sans-titles-with-thumb {
+        padding: 0 0 0 30px;
+        border-left: 1px solid #ccc;
+    }
+
+    .authors {
+        padding: 1.5% 0 4%;
+    }
+
+    .authors__books {
+        width: 840px;
+        margin: 0 auto;
+    }
+
+    .authors__book {
+        width: 42%;
+        max-width: 1000px;
+        margin: 0 0 2.5em;
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .authors__book:nth-child(odd) {
+        margin-right: 7%;
+        margin-left: 1%;
+    }
+
+    .authors__book:nth-child(even) {
+        margin-left: 7%;
+        margin-right: 1%;
+    }
+
+    .authors__book__cta {
+        opacity: .1;
+    }
+
+    .alumni-book:hover .authors__book__cta {
+        opacity: 1;
+    }
+
 }
 
 @media only screen and (min-width: 1022px) {
 
+    .inside-header {
+        padding-top: 256px;
+    }
 }
 
 @media only screen and (min-width: 1220px) {
@@ -423,6 +803,44 @@ section.calendar .black-opac-cover {
         background: none;
         box-shadow: none;
         padding: 60px 0;
+    }
+
+    .authors__books {
+        width: 1240px;
+    }
+
+    .authors__book {
+        width: 26.667%;
+        max-width: 1000px;
+        margin: 0 0 3em;
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .authors__book:nth-child(3n-2) {
+        margin-left: 0;
+        margin-right: 5%;
+    }
+
+    .authors__book:nth-child(3n-1) {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .authors__book:nth-child(3n) {
+        margin-left: 5%;
+        margin-right: 0;
+    }
+
+    .authors__book__info__desc {
+        max-height: 240px;
+    }
+
+    .authors__book__info__desc:after {
+        top: 210px;
     }
 }
 

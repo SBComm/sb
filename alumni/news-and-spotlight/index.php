@@ -45,6 +45,8 @@
 		    $carousel 	      = true;
 		    $carousel_4       = true;
 
+		    $slick_slider     = true;
+
 		    $lightbox 	      = true;
 
     		$search_type      = 'default';

@@ -168,6 +168,17 @@
 	        </script>
         <?php } ?>
 
+        <?php if($carousel) { ?>
+        	<?php includeAsset('js','plugins/slick-1.5.7/slick/slick.min.js'); ?>
+	        <script>
+        	$(document).ready(function(){
+        		if($('.slick-slider').length) {
+					$('.slick-slider').slick();
+        		}
+			});
+			</script>
+        <?php } ?>
+
         <script type="text/javascript">
 		    //<![CDATA[
 		        $(function() {

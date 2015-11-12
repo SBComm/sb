@@ -1,0 +1,419 @@
+{
+	"books": [
+		{
+			"title": "Midnight Sun Artic Moon",
+			"author": "Mary Albanese",
+			"year": "77",
+			"description": "A young upstate New York woman begins an adventure of a life-time as she moves away from her safe and conventional path to become a geological explorer in Alaska, where she maps remote wilderness areas and journeys to the depths of her own heart.",
+			"category": "Biography/Memoir",
+			"img": "Midnight-Sun-Arctic-Moon-Mary-Albanese.jpg",
+			"link": ""
+		},
+		{
+			"title": "Mail Call: The Wartime Correspondence of an American Couple 1943-1945",
+			"author": "Terri David",
+			"year": "",
+			"description": "These letters tell the story of one young couple, separated by war but very much in love, who had to keep the tendrils of their life together through daily correspondence.",
+			"category": "Biography/Memoir",
+			"img": "Mail-Cal-Terri-Halbreich-David.jpg",
+			"link": ""
+		},
+		{
+			"title": "Life 101: Lessons from a 13 Year Old Father",
+			"author": "Saladin Davis",
+			"year": "07",
+			"description": "Life 101 is an autobiographical account of Saladin Davis' fatherhood journey from discovering that he was a father at the age of 13, through graduating college at 23, and subsequently obtaining sole custody of his daughter Lakera at age 26.",
+			"category": "Biography/Memoir",
+			"img": "Life-101-Saladin-Davis.jpg",
+			"link": ""
+		},
+		{
+			"title": "Forget About Today: Bob Dylan's Genius for (Re)invention, Shunning the Naysayers, and Creating a Personal Revolution",
+			"author": "Jonathan Friedman",
+			"year": "77",
+			"description": "Jon Friedman offers a new perspective on Dylan's revolutionary and enduring legacy through an intimate look at the mystery behind Dylan's success.",
+			"category": "Biography/Memoir",
+			"img": "Forget-About-Today-Jon-Friedman.jpg",
+			"link": ""
+		},
+		{
+			"title": "Losing the Dollhouse",
+			"author": "S. Jane Gari",
+			"year": "",
+			"description": "Losing the Dollhouse offers a slice of dysfunctional Americana complete with divorce, stepfamilies, eating disorders, mental illness and the search for true love.",
+			"category": "Biography/Memoir",
+			"img": "Losing-the-Dollhouse-S-Jane-Gari.jpg",
+			"link": ""
+		},
+		{
+			"title": "Life with an Accent: One Immigrant's Quest to Belong",
+			"author": "Marilyn Gottlieb",
+			"year": "12",
+			"description": "With every effort Frank Levy makes, a person, an experience or a story emerges from the past proving that the history any immigrant lives through matters.",
+			"category": "Biography/Memoir",
+			"img": "Life-with-an-Accent-Marilyn-Gottlieb.jpg",
+			"link": ""
+		},
+		{
+			"title": "56: Joe DiMaggio and the Last Magic Number in Sports",
+			"author": "Kostya Kennedy",
+			"year": "90",
+			"description": "Alongside the story of DiMaggio's dramatic quest, Kennedy deftly examines the peculiar nature of hitting streaks and with an incisive, modern-day perspective gets inside the number itself, as its sheer improbability heightens both the math and the magic of 56 games in a row.",
+			"category": "Biography/Memoir",
+			"img": "56-Joe-DiMaggio-Kostya-Kennedy.jpg",
+			"link": ""
+		},
+		{
+			"title": "Pete Rose: An American Dilemma",
+			"author": "Kostya Kennedy",
+			"year": "90",
+			"description": "Best-selling author Kostya Kennedy delivers an evocative and fascinating re-examination of Pete Rose's life; from his cocky and charismatic early years through his storied playing career to his bitter war against baseball's hierarchy to the man we find today--still incorrigible, still adored by many.",
+			"category": "Biography/Memoir",
+			"img": "Pete-Rose-An-American-Dilemma-Kostya-Kennedy.jpg",
+			"link": ""
+		},
+		{
+			"title": "The Eyes of the Lion",
+			"author": "Cindy Yee Kong",
+			"year": "93",
+			"description": "Cindy Yee Kong was a normal little girl living a normal, everyday life in Hong Kong—until a crippling genetic disease reshaped not only her body but her sense of self.",
+			"category": "Biography/Memoir",
+			"img": "The-Eyes-of-the-Lion-Cindy-Yee-Kong.jpg",
+			"link": ""
+		},
+		{
+			"title": "A Soaring Minaret: Abu Bakr Al-Wasiti and the Rise of Baghdadi Sufism",
+			"author": "Laury Silvers",
+			"year": "91",
+			"description": "Presenting Abu Bakr Al-Wāsiṭī’s life and work within the context of the development and spread of Sufism, author Laury Silvers goes on to provide an analysis of his theological perspective on the divine reality.",
+			"category": "Biography/Memoir",
+			"img": "A-Soaring-Minaret-Laury-Silvers.jpg",
+			"link": ""
+		},
+		{
+			"title": "Hope: A Story of Devotion",
+			"author": "Anthony Morena",
+			"year": "83",
+			"description": "This debut novel examines how devotion affects the decisions we make; how we extend ourselves for those we love; and how we bend our morals to achieve our goals.",
+			"category": "General Non-Fiction",
+			"img": "Hope-A-Story-of-Devotion-Anthony-Morena.jpg",
+			"link": ""
+		},
+		{
+			"title": "Marathon Journey, An Achilles Story",
+			"author": "Stephen Balsamo",
+			"year": "94",
+			"description": "Marathon Journey, An Achilles Story is an inspirational story about the strength of the human spirit and the hope and possibility that running the distance can provide.",
+			"category": "General Non-Fiction",
+			"img": "Marathon-Journey-An-Achilles-Story-Stephen-F-Balsamo.jpg",
+			"link": ""
+		},
+		{
+			"title": "A Vengeful Bid: The First Eliana and Ryan McDougal Novel",
+			"author": "Claudia Czecsyk",
+			"year": "96",
+			"description": "Detective Ryan McDougal and his sister, forensic analyst Eliana McDougal, work together in the Bentonville Police Department solving crimes and bringing closure to victims' families. It's not an easy job, but it's one they're good at.",
+			"category": "General Non-Fiction",
+			"img": "A-Vengeful-Bid-Brianna-Claire-Olson.jpg",
+			"link": ""
+		},
+		{
+			"title": "Nevermore, Quoth the Raver: A Ryan and Eliana McDougal Novel",
+			"author": "Claudia Czecsyk",
+			"year": "96",
+			"description": "When a teenage boy is found dead outside an abandoned barn in Centerton, Arkansas, Bentonville Police Detective Ryan McDougal has been recruited by his protégé Marisol Hernandez-Sullivan to solve the case.",
+			"category": "General Non-Fiction",
+			"img": "Nevermore-Quoth-the-Raver-Brianna-Claire-Olson.jpg",
+			"link": ""
+		},
+		{
+			"title": "Teenie",
+			"author": "Christopher Grant",
+			"year": "93",
+			"description": "Christopher Grant makes a stunning literary debut with this warmly told story about friends, family, and finding oneself.",
+			"category": "General Non-Fiction",
+			"img": "Teenie-Christopher-Grant.jpg",
+			"link": ""
+		},
+		{
+			"title": "Sweet Song",
+			"author": "Terry Persun",
+			"year": "77",
+			"description": "An archetypal American story of self-discovery, set against the turmoil of post-Civil War America, Sweet Song tells the story of the mixed race son of a white landowner and a black house servant.",
+			"category": "General Non-Fiction",
+			"img": "Sweet-Song-Terry-Persun.jpg",
+			"link": ""
+		},
+		{
+			"title": "The Seventh Pleiade",
+			"author": "Andrew J. Peters",
+			"year": "95",
+			"description": "Atlantis is besieged by violent storms, tremors, and a barbarian army. For sixteen-year-old Aerander, it’s a calamitous backdrop to his Panegyris, where boys are feted for their passage to manhood.",
+			"category": "General Non-Fiction",
+			"img": "The-Seventh-Pleiade-Andrew-J-Peters.jpg",
+			"link": ""
+		},
+		{
+			"title": "Medieval Bedazzle",
+			"author": "Tecoa Washington",
+			"year": "95, '97",
+			"description": "Join poet-turned-author Tecoa Washington as she mixes together the modern and the medieval, stirring in a bit of Chaucer, Einstein, Homer, Milton, Ovid, and a few others for good measure.",
+			"category": "General Non-Fiction",
+			"img": "Medieval-Bedazzle-Tecoa-T-Washington.jpg",
+			"link": ""
+		},
+		{
+			"title": "23 Shades of Black",
+			"author": "Kenneth Wishnia",
+			"year": "96",
+			"description": "From her run-down Bronx apartment to the way-out clubs of the Lower East Side, Filomena's investigation leads her to suspect that a group of high-powered corporate executives has turned to murder as a way to protect its bottom line.",
+			"category": "General Non-Fiction",
+			"img": "23-Shades-of-Black-by-KJA-Wishnia.gif",
+			"link": ""
+		},
+		{
+			"title": "Staying Power: Age-Proof Your Home for Comfort, Safety and Style",
+			"author": "Rachel Adelson",
+			"year": "77",
+			"description": "Learn how to make any type of house, apartment or condo a safer, more supportive living space for years to come with this lively new handbook.",
+			"category": "How-To/Instructional",
+			"img": "Staying-Power-Rachel-Adelson.jpg",
+			"link": ""
+		},
+		{
+			"title": "How Do You Roo? A Survivor's Pocket Guide To Bonnaroo",
+			"author": "Tara Groth",
+			"year": "05",
+			"description": "Learn from festival veterans' inside tips to make the most of your weekend at the modern-day Woodstock known as the Bonnaroo Music & Arts Festival.",
+			"category": "How-To/Instructional",
+			"img": "How-Do-You-roo-Tara-L-Groth.jpg",
+			"link": ""
+		},
+		{
+			"title": "How to Fly Fish for Trout",
+			"author": "Thomas McCoy",
+			"year": "73",
+			"description": "Included in the Fish Tales section are true stories outlining strategies, tactics and techniques as well as descriptions of some of my favorite fishing spots.",
+			"category": "How-To/Instructional",
+			"img": "How-to-Fly-Fish-for-Trout-Tom-McCoy.jpg",
+			"link": ""
+		},
+		{
+			"title": "Nose, Legs, Body! Know Wine Like the Back of Your Hand",
+			"author": "Len Napolitano",
+			"year": "78",
+			"description": "Napolitano fits a bounty of information into 50 concise answers to common, yet critical, wine questions and concludes each chapter with hands-on wine tasting exercises to do at home.",
+			"category": "How-To/Instructional",
+			"img": "Nose-Legs-Body-Len-Napolitano.jpg",
+			"link": ""
+		},
+		{
+			"title": "The New Rules of Success",
+			"author": "Gregory Pierre-Louis",
+			"year": "",
+			"description": "What constitutes New Rules of Success? The answer can be narrowed down to an examination and understanding of the prevailing economic environment and culture.",
+			"category": "How-To/Instructional",
+			"img": "The-New-Rules-of-Success-Gregory-Pierre-Lewis.jpg",
+			"link": ""
+		},
+		{
+			"title": "Safe 4 Retirement: The Four Keys to a Safe Retirement",
+			"author": "Jack Tatar",
+			"year": "81",
+			"description": "This book takes a holistic approach to retirement for pre-retirees and retirees. Rather than just focusing on financial matters for retirement, this book explores Financial Preparedness, Health & Wellness, Mental Attitude and Staying Involved.",
+			"category": "How-To/Instructional",
+			"img": "Safe-4-Retirement-Jack-Tatar.jpg",
+			"link": ""
+		},
+		{
+			"title": "Decision Making in Emergency Medicine: An Evidence-Based Handbook",
+			"author": "John Arbo (editor)",
+			"year": "36",
+			"description": "This portable guide to rational clinical decision-making in the challenging and changing world of emergency critical care provides in every chapter a streamlined review of a common problem in critical care medicine, along with evidence-based guidelines and summary tables of landmark literature.",
+			"category": "Science Non-Fiction",
+			"img": "Decision-Making-in-Emergency-Critical-Care-John-Arbo.jpg",
+			"link": ""
+		},
+		{
+			"title": "Being an Empowered Patient: An Advocacy Guide",
+			"author": "Erika Balfour, MD",
+			"year": "98",
+			"description": "This book offers readers an insightful direction when encountering health related issues including basic medical terms, choosing a doctor, the Affordable Care Act, medical malpractice, and insurance companies.",
+			"category": "Science Non-Fiction",
+			"img": "Being-an-Empowered-Patient-Erika-Balfour.jpg",
+			"link": ""
+		},
+		{
+			"title": "Freshwater Dinoflagellates of North America",
+			"author": "Susan Carty",
+			"year": "70",
+			"description": "Following an introductory section on the biology, morphology, and ecology of freshwater dinoflagellates, the species are presented in a field guide format with distribution maps, written descriptions emphasizing notable features, line drawings, and black-and-white and color micrographs.",
+			"category": "Science Non-Fiction",
+			"img": "Freshwater-Dinoflagellates-of-North-America-Susan-Carty.jpg",
+			"link": ""
+		},
+		{
+			"title": "Collider: The Search for the World’s Smallest Particles",
+			"author": "Paul Halpern",
+			"year": "87",
+			"description": "An accessible look at the hottest topic in physics and the experiments that will transform our understanding of the universe.",
+			"category": "Science Non-Fiction",
+			"img": "Collider-Paul-Halpern.jpg",
+			"link": ""
+		},
+		{
+			"title": "The Biology of Sharks and Rays",
+			"author": "A. Peter Kimley",
+			"year": "70",
+			"description": "The Biology of Sharks and Rays is a comprehensive resource on the biological and physiological characteristics of the cartilaginous fishes: sharks, rays, and chimaeras.",
+			"category": "Science Non-Fiction",
+			"img": "The-Biology-of-Sharks-and-Rays-A-Petery-Klimley.jpg",
+			"link": ""
+		},
+		{
+			"title": "Elemental Philosophy: Earth, Air, Fire, and Water As Environmental Ideas",
+			"author": "David Macauley",
+			"year": "94, '98",
+			"description": "In tracing changing views of the four elements through the history of ideas, Macauley generates a new vocabulary for and a fresh vision of the environment while engaging the elemental world directly with reflections on their various manifestations.",
+			"category": "Science Non-Fiction",
+			"img": "Elemental-Philosophy-David-Macauley.jpg",
+			"link": ""
+		},
+		{
+			"title": "Why Millions Survive Cancer: The Successes of Science",
+			"author": "Lauren Pecorino",
+			"year": "84",
+			"description": "In Why Millions Survive Cancer, Lauren Pecorino illuminates the enormous recent progress in fighting cancer, painting an intriguing portrait of scientific breakthroughs, the leading scientists behind these key discoveries, and the steps that we can all take to reduce our exposure to cancer.",
+			"category": "Science Non-Fiction",
+			"img": "Why-Millions-Survive-Cancer-Lauren-Pecorino.jpg",
+			"link": ""
+		},
+		{
+			"title": "Marathon Journey, An Achilles Story",
+			"author": "Stephen Balsamo",
+			"year": "94",
+			"description": "Marathon Journey, An Achilles Story is an inspirational story about the strength of the human spirit and the hope and possibility that running the distance can provide.",
+			"category": "Novels",
+			"img": "Marathon-Journey-An-Achilles-Story-Stephen-F-Balsamo.jpg",
+			"link": ""
+		},
+		{
+			"title": "A Vengeful Bid: The First Eliana and Ryan McDougal Novel",
+			"author": "Claudia Czecsyk",
+			"year": "96",
+			"description": "Detective Ryan McDougal and his sister, forensic analyst Eliana McDougal, work together in the Bentonville Police Department solving crimes and bringing closure to victims' families. It's not an easy job, but it's one they're good at.",
+			"category": "Novels",
+			"img": "A-Vengeful-Bid-Brianna-Claire-Olson.jpg",
+			"link": ""
+		},
+		{
+			"title": "Nevermore, Quoth the Raver: A Ryan and Eliana McDougal Novel",
+			"author": "Claudia Czecsyk",
+			"year": "96",
+			"description": "When a teenage boy is found dead outside an abandoned barn in Centerton, Arkansas, Bentonville Police Detective Ryan McDougal has been recruited by his protégé Marisol Hernandez-Sullivan to solve the case.",
+			"category": "Novels",
+			"img": "Nevermore-Quoth-the-Raver-Brianna-Claire-Olson.jpg",
+			"link": ""
+		},
+		{
+			"title": "Teenie",
+			"author": "Christopher Grant",
+			"year": "93",
+			"description": "Christopher Grant makes a stunning literary debut with this warmly told story about friends, family, and finding oneself.",
+			"category": "Novels",
+			"img": "Teenie-Christopher-Grant.jpg",
+			"link": ""
+		},
+		{
+			"title": "Hope: A Story of Devotion",
+			"author": "Anthony Morena",
+			"year": "83",
+			"description": "This debut novel examines how devotion affects the decisions we make; how we extend ourselves for those we love; and how we bend our morals to achieve our goals.",
+			"category": "Novels",
+			"img": "Hope-A-Story-of-Devotion-Anthony-Morena.jpg",
+			"link": ""
+		},
+		{
+			"title": "Sweet Song",
+			"author": "Terry Persun",
+			"year": "77",
+			"description": "An archetypal American story of self-discovery, set against the turmoil of post-Civil War America, Sweet Song tells the story of the mixed race son of a white landowner and a black house servant.",
+			"category": "Novels",
+			"img": "Sweet-Song-Terry-Persun.jpg",
+			"link": ""
+		},
+		{
+			"title": "The Seventh Pleiade",
+			"author": "Andrew J. Peters",
+			"year": "Atlantis is besieged by violent storms, tremors, and a barbarian army. For sixteen-year-old Aerander, it’s a calamitous backdrop to his Panegyris, where boys are feted for their passage to manhood.",
+			"description": "95",
+			"category": "Novels",
+			"img": "The-Seventh-Pleiade-Andrew-J-Peters.jpg",
+			"link": ""
+		},
+		{
+			"title": "23 Shades of Black",
+			"author": "Kenneth Wishnia",
+			"year": "96",
+			"description": "From her run-down Bronx apartment to the way-out clubs of the Lower East Side, Filomena's investigation leads her to suspect that a group of high-powered corporate executives has turned to murder as a way to protect its bottom line.",
+			"category": "General Non-Fiction",
+			"img": "23-Shades-of-Black-by-KJA-Wishnia.gif",
+			"link": ""
+		},
+		{
+			"title": "Wanderers",
+			"author": "Edward Belfar",
+			"year": "82",
+			"description": "This exquisitely crafted collection includes several stories set in Kenya, offering tantalizing glimpses of life in that troubled but fascinating country beyond the picturesque game parks.",
+			"category": "Short Stories and Poetry",
+			"img": "Wanderers.jpg",
+			"link": ""
+		},
+		{
+			"title": "Long Island Noir",
+			"author": "Kaylie Jones (editor)",
+			"year": "",
+			"description": "Original stories by: Jules Feiffer, Matthew McGevna, Nick Mamatas, Kaylie Jones, Qanta Ahmed, Charles Salzberg, Reed Farrel Coleman, Tim McLoughlin, Sarah Weinman, JZ Holden, Richie Narvaez, Sheila Kohler, Jane Ciabattari, Steven Wishnia, Kenneth Wishnia, Amani Scipio, and Tim Tomlinson.",
+			"category": "Short Stories and Poetry",
+			"img": "Long-Island-Noir.jpg",
+			"link": ""
+		},
+		{
+			"title": "By Word of Mouth: Poems from the Spanish, 1916-1959",
+			"author": "Jonathon Cohen '72, '79 (editor)",
+			"year": "",
+			"description": "The first collection of translations of Spanish and Latin American poetry by William Carlos Williams, containing many previously unknown poems.",
+			"category": "Short Stories and Poetry",
+			"img": "By-Word-of-Mouth.jpg",
+			"link": ""
+		},
+		{
+			"title": "Death by Active Movement: The Certainty of Life through Poetry",
+			"author": "Steven T. Licardi",
+			"year": "13",
+			"description": "Including the award winning poem “Early Girl,” the author uses the medium of poetry to explore the relationship between life and death, and how peace and beauty can be discovered in the divide between.",
+			"category": "Short Stories and Poetry",
+			"img": "Death-by-Active-Movement.jpg",
+			"link": ""
+		},
+		{
+			"title": "One Reflection - Love Poems",
+			"author": "Daniel Thomas Moran",
+			"year": "79",
+			"description": "A collection of love poems written by former Suffolk County, New York Poet Laureate, Daniel Thomas Moran excerpted from his seven collections.",
+			"category": "Short Stories and Poetry",
+			"img": "One-Reflection.jpg",
+			"link": ""
+		},
+		{
+			"title": "A Shed for Wood",
+			"author": "Daniel Thomas Moran",
+			"year": "79",
+			"description": "His poems are a travelogue of oddly varied subjects and points of view; faces and places where he engages and acclaims the diverting particulars of living.",
+			"category": "Short Stories and Poetry",
+			"img": "A-Shed-for-Wood.jpg",
+			"link": ""
+		}
+	]
+}
+ 

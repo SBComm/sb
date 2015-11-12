@@ -1,7 +1,7 @@
-<article class="get-connected">
-    <section class="clearfix center-rule-header events-header inside-header">
+<article class="get-informed">
+    <section class="clearfix center-rule-header inside-header">
         <div class="border-box">
-            <h2><span>Events and Reunions</span></h2>
+            <h2><span>News and Spotlight</span></h2>
         </div>
     </section>
     <!--
@@ -17,118 +17,106 @@
         </div>
     </section>
     -->
-    <section class="clearfix alumni-header inside-content main-inside-content white-background arrow-below arrow-below-white">
+    <section class="clearfix articles-promo white-background pad-top">
         <div class="border-box wrapper clearfix">
-            <div class="rounded-image-buttons clearfix">
-                <a class="reunions" href="#reunions"><div class="label">Reunions</div></a>
-                <a class="forty" href="#forty"><div class="label">40 Under Forty</div></a>
-                <a class="golf" href="#golf"><div class="label">Scholarship Golf Classic</div></a>
-                <a class="wolfstock-homecoming" href="#wolfstock-homecoming"><div class="label">Wolfstock</div></a>
-            </div>
-        </div>
-    </section>
-
-    <section id="calendar" class="clearfix events calendar activities-and-calendar inside-content">
-        <div class="black-opac-cover">
-            <div class="border-box wrapper clearfix">
-                <h4>Event Calendar</h4>
-            </div>
-            <div class="border-box wrapper clearfix">
+            <div class="one-half serif-news-titles">
+                <img src="img/logo/sbu-happenings.jpg" alt="SBU Happenings logo" />
                 <?php 
                     /*
                     // PHP will transform event data from RSS feed in following format
                     //
                     <!--
-                    <li class="clearfix">
-                        <a class="date-marker" href="#" title="#">
-                            <span class="event-month">Oct</span>
-                            <span class="event-date">28</span>
-                        </a>
-                        <a class="event-details" href="#" title="#">
-                            <span class="event-title aqua">Breast Cancer Awareness Chinese Auction</span>
-                            <span class="event-time">Friday, 7:00 PM to 10:00 PM</span>
-                            <span class="event-desc">Come suooprt the lorem ipsum dolor Praise God this is a test and it's nice.</span>
-                        </a>
-                    </li>
+                    <a href="#" target="_blank"><strong class="date">1/16/15</strong> Sign up for a Class at the Craft Center this Spring </a>
                     -->
                     */
-                    $file  = "feed/active-data-calendar.php";
-                    $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx?category=8-0";
-                    $count = 6;
-                    $end = 6;
-                    $col = 2;
+                    $file  = "feed/happenings-news.php";
+                    $rss   = "http://sb.cc.stonybrook.edu/happenings/category/alumni-news-highlights/feed/";
+                    $count = 7;
+                    $end = 7;
+                    $thumbnail = false;
                     include($path . $file);
                 ?>
-                <div class="center-wrapper clearfix">
-                    <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after arrow-after" href="#">View All Events</a>
+                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/category/alumni-news-highlights">Read More</a>
+            </div>
+            <div class="one-half sans-titles-with-thumb">
+                <img src="img/logo/sbu-mag.jpg" alt="SBU Magazine logo" />
+                <?php 
+                    /*
+                    // PHP will transform event data from RSS feed in following format
+                    //
+                    <!--
+                    <a href="#" target="_blank"><strong class="date">1/16/15</strong> Sign up for a Class at the Craft Center this Spring </a>
+                    -->
+                    */
+                    $file  = "feed/happenings-news.php";
+                    $rss   = "http://sb.cc.stonybrook.edu/magazine/category/features/feed/";
+                    $count = 5;
+                    $end = 5;
+                    $thumbnail = true;
+                    include($path . $file);
+                ?>
+                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/magazine/category/features/">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="clearfix authors">
+        <div class="border-box wrapper clearfix">
+            <h4 class="aqua">Alumni Authors</h4>
+            <div class="inside-content">
+                <p>Browse through the diverse collection of works from our talented alumni authors</p>
+            </div>
+        </div>
+        <div class="border-box wrapper clearfix authors__books">
+            <?php
+                $file = "scripts/get-books.php";
+                include($path . $file);
+            ?>
+            <?php
+            /*
+            // PHP will output books
+                <!--cat-->
+                <div class="authors__book">
+                    <h5>Biography/Memoir</h5>
+                    <div class="alumni-books-slider">
+                        <!--book-->
+                        <div class="alumni-book">
+                            <div class="authors__book__flip">
+                                <div class="authors__book__flip__card">
+                                    <div class="authors__book__flip__card__item authors__book__flip__card__item--front flip-card">
+                                        <img src="img/alumni/book-jackets/56-Joe-DiMaggio-Kostya-Kennedy.jpg" alt="" />
+                                        <div class="page-curl"><span>Preview</span></div>
+                                    </div>
+
+                                    <div class="authors__book__flip__card__item authors__book__flip__card__item--back authors__book__info">
+                                        <a class="authors__book__info__title external-link-hover" target="_blank" href="#">The Psychology of Working: A New Perspective for Career Development, Counseling, and Public Policy</a>
+                                        <span class="authors__book__info__author">David Blustein '74</span>
+                                        <span class="authors__book__info__desc">In this original and major new work, David Blustein places working at the same level of attention for social and behavioral scientists and psychotherapists as other major life concerns, such as intimate relationships, physical and mental health, and socio-economic inequities.physical and mental health, and socio-economic inequities.physical and mental health, and socio-economic inequities.and socio-economic inequities.physical and mental health, and socio-economic inequities.physical and mental health, and socio-economic inequities.</span>
+                                        <a class="authors__book__cta sbu-outline-button sbu-outline-button--on-red arrow-after" href="#" target="_blank">View on Amazon</a>
+                                        <img src="img/alumni/book-jackets/56-Joe-DiMaggio-Kostya-Kennedy.jpg" alt="" />
+                                        <button aria-label="Close Detail pane" class="authors__book__info__close close-details flip-card"><em class="fa fa-times"></em></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/book-->
+                    </div>
                 </div>
+                <!--/cat-->
+            */
+            ?>
+        </div>
+        <div class="border-box wrapper clearfix">
+            <div class="inside-content">
+                <p>* Descriptions are taken from the Amazon synopsis.</p>
             </div>
         </div>
     </section>
 
-    <section id="reunions" class="clearfix events reunions inside-content arrow-above">
-        <div class="border-box wrapper clearfix">
-            <h4>Reunions</h4>
-        </div>
-        <div class="border-box wrapper clearfix">
-            <div class="content col-2">
-                <p>Recapture and recreate all of your favorite moments from your time at Stony Brook University and reconnect with your classmates and the University through class and chapter events, group lectures, networking receptions, tours and much more.</p>
-                <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after sbu-outline-button--light-on-dark" href="#">Explore Reunions</a>
-            </div>
-        </div>
-        <img src="img/alumni/3-ladies-silo_with-shadow.png" alt="Three alumni" />
-    </section>
-
-    <section id="forty" class="clearfix events forty inside-content">
-        <div class="black-opac-cover">
-            <div class="border-box wrapper clearfix">
-                <img src="img/logo/40-under-red-banner-logo-large.png" alt="40 Under Forty Logo" />
-             </div>
-            <div class="border-box wrapper clearfix">
-                <div class="content col-2">
-                    <p>In partnership with Stony Brook University Advancement, the Stony Brook University Alumni Association co-hosts the annual 40 Under Forty alumni awards ceremony and reception in New York City to honor 40 of Stony Brook's brightest, most innovative and entrepreneurial-spirited young graduates.</p>
-                    <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after sbu-outline-button--light-on-dark" href="http://stonybrook.edu/40underforty/">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="golf" class="clearfix events golf inside-content">
-        <div class="border-box wrapper clearfix">
-            <h4>Scholarship Golf Classic</h4>
-        </div>
-        <div class="content clearfix">
-            <div class="wrapper">
-                <!--<h5>Golf for a Cause</h5>
-                <p>Each June, the Alumni Association hosts its annual Scholarship Golf Classic at one of Long Island's finest courses. Proceeds go to scholarships for deserving Stony Brook University students who need your continued support now more than ever.</p>
-                <p>Thanks to our supporters, we raised more than $62,000 for student scholarships and awards at the 14th Annual Scholarship Golf Classic on June 22, 2015. View our sponsors, donors and participants in the 2015 Alumni Association Annual Report (link to Annual Report flipbook when it’s ready).</p>
-                <h5>Save the Date!</h5>
-                <p>The 15th Annual Scholarship Golf Classic will take place Monday, June 20, 2016.</p>
-                <p>Volunteer for the 2016 Committee today! We need your help to make next year’s event a success!</p>
-                <p>Your participation makes a big impact. Thank you!</p>
-                <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after" href="#">Get Involved</a>
-                <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after" href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml">Learn More</a>
-                <p>For more information about the upcoming Scholarship Golf Classic, please call (631) 632-4466.</p>-->
-                <p>Every June, the Alumni Association hosts its annual Scholarship Golf Classic at one of Long Island's finest courses. Proceeds go to scholarships for deserving Stony Brook University students who need your continued support now more than ever. </p>
-            </div>
-        </div>
-        <div class="center-wrapper clearfix">
-            <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--arrow-after clearfix" href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml">Learn More</a>
-        </div>
-    </section>
-
-    <section id="wolfstock-homecoming" class="clearfix events wolfstock back-dark-red-crossed inside-content">
-        <div class="border-box wrapper clearfix">
-            <h4>Wolfstock</h4>
-        </div>
-        <div class="border-box wrapper img-wrapper clearfix">
-            <div class="content col-2">
-                <p>Alumni are invited back to the Brook each fall for Wolfstock Homecoming festivities, including -- both new traditions and old -- campus tours, faculty lectures, mini-reunions, a large BBQ tailgate with fun for the whole family, and the Homecoming football game at LaValle Stadium.</p>
-                <a class="sbu-outline-button sbu-outline-button--light sbu-outline-button--light-on-dark sbu-outline-button--arrow-after" href="#">Explore Wolfstock</a>
-            </div>
-            <img src="img/alumni/wolfstock-twins-angled.png" alt="Alumni twins" />
-        </div>
-    </section>
+    <?php
+        $file = "widgets/alumni-spotlight.php";
+        include($path . $file);
+    ?>
 
     <!-- <social-sidebar> -->
         <?php if($social_sidebar!='') {
