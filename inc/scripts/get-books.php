@@ -17,12 +17,8 @@ function printBooks($path) {
 	$book_data_str = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $book_data_str);
 
 	$book_data = json_decode($book_data_str);
-
-	//d($book_data);
 	
 	$books = $book_data->books;
-
-	//d($books);
 
 	//gather data by category
 	foreach ($books as $key => $value) {

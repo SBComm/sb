@@ -259,14 +259,21 @@ h4 {
     text-align: center;
 }
 
-.center-rule-header h2 span {
+.center-rule-header h2 span,
+.center-rule-header h2 a {
     display: inline-block;
     padding: 7px 0 9px;
     position: relative;
+    color: #ddd;
+}
+.center-rule-header h2 a:hover {
+    color: #fff;
 }
 
 .center-rule-header h2 span:before,
-.center-rule-header h2 span:after {
+.center-rule-header h2 span:after,
+.center-rule-header h2 a:before,
+.center-rule-header h2 a:after {
     display: none;
     content: "";
     border-left: 2px solid #bbb;
@@ -276,11 +283,13 @@ h4 {
     top: 13px;
 }
 
-.center-rule-header h2 span:before {
+.center-rule-header h2 span:before,
+.center-rule-header h2 a:before {
     left: -24px;
 }
 
-.center-rule-header h2 span:after {
+.center-rule-header h2 span:after,
+.center-rule-header h2 a:after {
     right: -24px;
 }
 
@@ -362,7 +371,9 @@ h4 {
 
 @media only screen and (min-width: 960px) {
     .center-rule-header h2 span:before,
-    .center-rule-header h2 span:after {
+    .center-rule-header h2 span:after,
+    .center-rule-header h2 a:before,
+    .center-rule-header h2 a:after {
         display: inline-block;
     }
 

@@ -38,7 +38,7 @@
 		    $page_footerbar   = true;
 		    $page_footer      = true;
 
-		    $sub_nav_selected_tab = 0;
+		    $sub_nav_selected_tab = 1;
 
 		    $inside_page = true;
 
@@ -55,6 +55,8 @@
     		$social_sidebar   = 'alumni';
 
     		$motio  		  = true;
+
+    		$slick_slider	  = true;
 
     		$page_loader     = true;
 
@@ -123,7 +125,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-connected/chapters.php";
+								$file = "alumni/get-connected/chapters/spd.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->

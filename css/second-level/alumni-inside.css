@@ -9,6 +9,19 @@
         z-index: 50;
         visibility: visible;
     }
+
+    .chapters-nav-list {
+        display: none;
+    }
+
+    .chapters-nav-dropdown {
+        margin-bottom: 80px;
+    }
+
+    .alumni-chapter .event-gallery .sbu-outline-button {
+        display: block;
+        margin: 0 0 15px;
+    }
 }
 
 section.full-width-banner-image {
@@ -23,8 +36,14 @@ section.full-width-banner-image {
     font-size: 1.75em;
 }
 
+.whole, .one-half, .one-third, .two-third, .one-quarter, .three-quarter {
+    padding: 10px 0;
+}
+
+
+
     .get-connected .inside-header {
-        background-image: url("../../img/student-life/dancing.jpg");
+        background-image: url("../../img/student-life/red-people-alumni-2000.jpg");
         background-size: 100%;
         background-size: cover;
         background-position: 50% 40%;
@@ -36,6 +55,17 @@ section.full-width-banner-image {
         background-size: cover;
         background-position: 50% 50%;
     }
+
+/* Inside content - custom serif headers */
+
+.inside-content h3.serif {
+    text-align: center;
+    border-bottom: 0 none;
+    font-size: 1.5em;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 1.6em;
+}
 
 /* Section Buttons */
 
@@ -68,16 +98,173 @@ section.full-width-banner-image {
     background-size: cover;
 }
 
+.rounded-image-buttons .medicine {
+    background-image: url("../../img/alumni/buttons/medicine.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .dental {
+    background-image: url("../../img/alumni/buttons/dental-medicine.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .social-welfare {
+    background-image: url("../../img/alumni/buttons/social-welfare.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .nursing {
+    background-image: url("../../img/alumni/buttons/nursing.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .spd {
+    background-image: url("../../img/alumni/buttons/business.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .business {
+    background-image: url("../../img/alumni/buttons/professional.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .black {
+    background-image: url("../../img/alumni/buttons/black.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .founders {
+    background-image: url("../../img/alumni/buttons/founders.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .lg {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .ambas {
+    background-image: url("../../img/alumni/buttons/ambassador-2.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .public {
+    background-image: url("../../img/alumni/buttons/policy.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .ca {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .nyc {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .nj {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .dc {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .ne {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .sf {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .nj {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .ct {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .sd {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .denver {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .la {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .phx {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .phila {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .tucson {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .phx {
+    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
 .rounded-image-buttons a {
     width: 48.5%;
     height: 150px;
     margin: .75%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     box-shadow: none;
     font-family: 'TradeGothicW01-BoldCn20 675334';
     position: relative;
     padding: 0;
     border: 5px solid #fff;
+    position: relative;
 }
 
 .rounded-image-buttons a:hover {
@@ -98,11 +285,53 @@ section.full-width-banner-image {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.rounded-image-buttons a:hover .label {
+    background: rgba(153,0,0,.9);
 }
 
 .rounded-image-buttons a .label span {
     display: block;
     font-size: .7em;
+    font-family:'CenturyExpandedLTW01-It';
+    font-style: normal;
+    text-transform: none;
+}
+
+.rounded-image-buttons .coming-soon:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(172,0,0,.7);
+    content: "Coming soon!";
+    border-radius: 9px;
+    opacity: 1;
+    text-align: center;
+    padding-top: 14%;
+    z-index: 4;
+    font-size: 1.1em;
+}
+
+.rounded-image-buttons .coming-soon:after {
+    opacity: 0;
+    position: absolute;
+    left: 2%;
+    right: 0;
+    bottom: 3%;
+    text-align: center;
+    content: "Get more information →";
+    padding-top: 50%;
+    z-index: 4;
+    font-size: .7em;
+    font-family:'CenturyExpandedLTW01-It';
+}
+
+.rounded-image-buttons .coming-soon .label {
+    z-index: 5;
 }
 
 a.sbu-outline-button + p {
@@ -117,13 +346,144 @@ p + a.sbu-outline-button {
     margin-top: 15px;
 }
 
+
+.sidebar-star-nav li {
+    border-radius: 2px;
+    margin: 0 0 4px;
+    text-indent: 0;
+}
+
+.chapters-nav-list li:before {
+    display: inline-block;
+    width: 6%;
+    margin: 0 2% 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sidebar-star-nav li:hover:before {
+    -webkit-transform: rotate(72deg);
+    -moz-transform: rotate(72deg);
+    -ms-transform: rotate(72deg);
+    -o-transform: rotate(72deg);
+    transform: rotate(72deg);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.sidebar-star-nav li a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 90%;
+    background: transparent;
+    padding: 6px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    margin: 0;
+    position: relative;
+}
+
+.sidebar-star-nav li a:hover {
+    background: #f7f7f7;
+    border: 1px solid #DEDEDE;
+}
+
+.sidebar-star-nav li.selected a {
+    background: #900;
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 6px 8px;
+    height: 39px;
+    width: 92%;
+}
+
+.sidebar-star-nav li.selected a:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    right: -19px;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 19px solid #900;
+    top: 0;
+}
+
+.sidebar-star-nav a.coming-soon:after {
+    content: "Coming Soon!";
+    font-family:'CenturyExpandedLTW01-It';
+    font-style: normal;
+    white-space: nowrap;
+    display: block;
+
+    position: absolute;
+    top: 4%;
+    left: 64%;
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    transform: rotate(6deg);
+    background: #eaeaea;
+    background: rgba(240,240,240,.95);
+    padding: 4px 4px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: .1em;
+    opacity: 0;
+    -webkit-transition: font-size .15s ease;
+    -moz-transition: font-size .15s ease;
+    transition: font-size .15s ease;
+    color: #333;
+}
+
+.sidebar-star-nav a.coming-soon:hover:after {
+    opacity: 1;
+    font-size: 1em;
+}
+
+
+
+.alumni-chapter .activities-and-calendar {
+    padding: 0 0 10px;
+    margin: 20px 0;
+}
+
+.alumni-chapter .activities-and-calendar li {
+    margin-bottom: 15px;
+}
+
+.alumni-chapter .activities-and-calendar .activities-links {
+    width: 100%;
+    padding: 0;
+}
+
+.alumni-chapter .activities-and-calendar .activities-links a {
+    font-size: .9em;
+    padding: 8px 12px 8px 2px;
+}
+
+.alumni-chapter .activities-and-calendar .activities-links,
+.alumni-chapter .activities-and-calendar .news-feed {
+    margin-bottom: 20px;
+}
+
+.alumni-chapter .activities-and-calendar .sbu-outline-button {
+    font-size: 1.1em;
+}
+
+
 /* Sections */
 
 section.events {
     padding: 40px 0;
 }
 
-section h4 {
+section.events h4 {
     font-size: 1.8em;
     font-family: 'Trade Gothic W01 Light';
     letter-spacing: .02em;
@@ -340,7 +700,11 @@ section.calendar .black-opac-cover {
     width: 100%;
     height: 100%;
     position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
     transition: transform 1s;
 }
 
@@ -378,6 +742,8 @@ section.calendar .black-opac-cover {
 .authors__book__flip__card__item--front .page-curl span {
     opacity: 0;
     color: #fff;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
     transition: all .2s ease;
     right: -1px;
 }
@@ -389,6 +755,8 @@ section.calendar .black-opac-cover {
 }
 
 .authors__book__flip__card__item--back {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
     z-index: 2;
 }
@@ -538,6 +906,11 @@ a.authors__book__cta {
 }
 
 @media only screen and (min-width: 400px) {
+
+    .inside-content h3.serif {
+        font-size: 1.65em;
+    }
+
     .authors {
         font-size: 1.2em;
     }
@@ -549,6 +922,7 @@ a.authors__book__cta {
     .authors__book__info__desc:after {
         top: 155px;
     }
+}
 
 @media only screen and (min-width: 480px) {
     .authors__book {
@@ -569,11 +943,15 @@ a.authors__book__cta {
 @media only screen and (min-width: 541px) {
 
     .rounded-image-buttons a {
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
 
     .rounded-image-buttons a .label span {
         font-size: .8em;
+    }
+
+    .rounded-image-buttons .coming-soon:before {
+        padding-top: 3%;
     }
 
     .golf .white-opac-cover {
@@ -592,8 +970,12 @@ a.authors__book__cta {
 
     }
 
-    section h4 {
+    section.events h4 {
         font-size: 2.4em;
+    }
+
+    .inside-content h3.serif {
+        font-size: 1.75em;
     }
 
 }
@@ -623,8 +1005,24 @@ a.authors__book__cta {
 
 @media only screen and (min-width: 960px) {
 
+    .chapters-nav-dropdown {
+        display: none;
+    }
+
     .inside-header h2 {
+        font-size: 2.1em;
+    }
+
+    .inside-content h3.serif {
         font-size: 2.5em;
+        margin: 1.2em 0 .6em;
+    }
+
+    .center-rule-header h2 span:before,
+    .center-rule-header h2 span:after,
+    .center-rule-header h2 a:before,
+    .center-rule-header h2 a:after {
+        height: 26px;
     }
 
     .rounded-image-buttons a {
@@ -636,13 +1034,33 @@ a.authors__book__cta {
     .rounded-image-buttons a .label {
         padding: 12px 5px;
         min-height: 52px;
+        z-index: 5;
+    }
+
+    .rounded-image-buttons .coming-soon:before,
+    .rounded-image-buttons .coming-soon:after {
+        opacity: 0;
+    }
+
+    .rounded-image-buttons .coming-soon:before {
+        background: #600;
+        padding-top: 19%;
+    }
+
+    .rounded-image-buttons .coming-soon .label {
+        z-index: 5;
+    }
+
+    .rounded-image-buttons .coming-soon:hover:before,
+    .rounded-image-buttons .coming-soon:hover:after {
+        opacity: .85;
     }
 
     section.events {
 
     }
 
-    section h4 {
+    section.events h4 {
         font-size: 3.4em;
     }
 
@@ -729,7 +1147,10 @@ a.authors__book__cta {
     .activities-and-calendar .flex-list-2 li {
         width: 40%;
         margin: 10px 10% 0 0;
-        padding-bottom: 5px;
+    }
+
+    .activities-and-calendar .event-details {
+        padding-bottom: 15px;
     }
 
     .articles-promo .serif-news-titles {
@@ -777,6 +1198,22 @@ a.authors__book__cta {
 
     .alumni-book:hover .authors__book__cta {
         opacity: 1;
+    }
+
+    .alumni-chapter .one-third {
+        border-right: 1px solid #900;
+    }
+
+    .alumni-chapter .two-third {
+        padding-left: 35px;
+    }
+
+    .alumni-chapter .activities-and-calendar .one-half {
+        padding: 0 15px 0 0;
+    }
+
+    .alumni-chapter .activities-and-calendar .one-half + .one-half {
+        padding: 0 0 0 15px;
     }
 
 }

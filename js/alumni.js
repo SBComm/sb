@@ -20,9 +20,19 @@ var initAlumni = function() {
 		draggable: false
 	});
 
+	//books flip
 	$('.flip-card').on('click',function(e) {
 		e.preventDefault();
 		flipCard($(this));
 	});
+
+	//flickr gallery for chapters pages
+	if($('.flickr-gallery').length) {
+		var flickrSetId = $('.event-gallery').attr('data-flickr-id');
+		if(flickrSetId==='' || flickrSetId=='null' || flickrSetId===null || flickrSetId==='0') {
+			flickrSetId = '72157649295457517';
+		}
+		makeFlickrGallery(flickrSetId);
+	}
 
 };

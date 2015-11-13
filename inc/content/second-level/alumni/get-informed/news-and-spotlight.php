@@ -60,6 +60,11 @@
         </div>
     </section>
 
+    <?php
+        $file = "widgets/alumni-spotlight.php";
+        include($path . $file);
+    ?>
+
     <section class="clearfix authors">
         <div class="border-box wrapper clearfix">
             <h4 class="aqua">Alumni Authors</h4>
@@ -112,11 +117,6 @@
             </div>
         </div>
     </section>
-
-    <?php
-        $file = "widgets/alumni-spotlight.php";
-        include($path . $file);
-    ?>
 
     <?php
         $file = "widgets/alumni-social.php";
