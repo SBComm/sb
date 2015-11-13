@@ -19,6 +19,8 @@
     
     $rssFeed = simplexml_load_file($rss);
 
+    $no_items = true;
+
     $col_class = '';
     if($col>0) {
         $col_class = 'flex-list-'.$col;
@@ -30,6 +32,8 @@
     foreach ($rssFeed->channel->item as $item){
         
         if($start == 0) {
+
+            $no_items = false;
             
             $doc = new DOMDocument();
             $doc = str_get_html($item->description);
@@ -70,8 +74,6 @@
                 $proceed = false;
             } else if ($eventDate<$todaysDate) {
                 $proceed = false;
-            } else if(1) {
-                //$eventMonth = "got it";
             }
 
             if ($proceed) {
@@ -116,6 +118,13 @@
         
         if($count == 0)
             break;
+    }
+
+    if($no_items) {
+        if(is_null($no_results_text)) {
+            $no_results_text = 'Hm... It seems that there are no events scheduled at the moment.';
+        }
+        $html .= '<li class="error-text">'.$no_results_text.'</li>';
     }
 
     $html .= '</ul>';
