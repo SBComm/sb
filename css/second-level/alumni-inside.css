@@ -483,6 +483,7 @@ section.events {
     padding: 40px 0;
 }
 
+section h4,
 section.events h4 {
     font-size: 1.8em;
     font-family: 'Trade Gothic W01 Light';
@@ -970,6 +971,7 @@ a.authors__book__cta {
 
     }
 
+    section h4,
     section.events h4 {
         font-size: 2.4em;
     }
@@ -1060,6 +1062,7 @@ a.authors__book__cta {
 
     }
 
+    section h4,
     section.events h4 {
         font-size: 3.4em;
     }
