@@ -130,6 +130,8 @@
 
     $mega_nav = false;
 
+    $flickr_feed = false;
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;
