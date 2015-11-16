@@ -24,6 +24,14 @@
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix">
             <h3>Chat With Us</h3>
+            <div class="content padding-top clearfix">
+                <h4>Join the Live Chat! November 18 @ 7PM EST</h4>
+                <p>
+                    <div class="videoWrapper">
+                        <iframe width="560" height="315" src="http://www.youtube.com/embed/OgDCgWgxKeI?controls=1&showinfo=1&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </p>
+            </div>
             <div class="content">
                 <h4>Upcoming Chat Offerings</h4>
                 <ul class="default-bullets">

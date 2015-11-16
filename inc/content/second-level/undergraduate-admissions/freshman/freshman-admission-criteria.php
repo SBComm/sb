@@ -138,6 +138,21 @@
                 </ul>
             </div>
 
+            <div class="content pad-top">
+                <h4>The New SAT</h4>
+                <p>In spring 2016, the College Board will release the resigned SAT test, which will include an optional essay section. Stony Brook will begin accepting submission of redesigned SAT exam scores from applicants seeking entry in spring 2017 and fall 2017.</p>
+                <p>Here's what you need to know about the new SAT and the admissions process at Stony Brook.</p>
+                <ul class="default-bullets">
+                    <li>Submission of SAT scores from exams that followed the old format will continue to be accepted.</li>
+                    <li>The optional essay section of the redesigned SAT exam will be recommended, but not required.</li>
+                    <li>For ACT test takers, the optional writing section will be recommended, but no longer required.</li>
+                    <li>As the redesigned SAT exam has significant differences from the current exam, a numerical score on the redesigned exam may not be equivalent to the same score on the current exam. Therefore, Stony Brook will not combine section scores (super-score) across the current and redesigned SAT.</li>
+                    <li>Stony Brook will super-score section scores taken from multiple sittings of the same SAT exam format.</li>
+                    <li>Students who take the SAT exam in both in the current and redesigned format are welcomed to submit both sets of scores; these will be reviewed separately.</li>
+                </ul>
+                <a class="check-button apply-button" href="undergraduate-admissions/apply/freshman/application-procedures"><span>Apply Now</span></a>
+            </div>
+
         </div>
     </section>
 

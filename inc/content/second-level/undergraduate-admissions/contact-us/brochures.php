@@ -35,6 +35,7 @@
             </div>
             <div class="content clearfix">
                 <h4>Application &amp; University Publications</h4>
+                <p><em>The following archived brochures include academic programs and costs which may have changed since their date of publication. Please reference the appropriate pages on this website for the most up-to-date information on our costs and offerings.</em></p>
                 <ul class="brochures-grid clearfix">
                     <li>
                         <a class="no-icon-after" href="downloads/pdf/admissions/SUNY-Application.pdf">

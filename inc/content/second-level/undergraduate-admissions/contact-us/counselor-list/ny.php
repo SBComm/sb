@@ -101,16 +101,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=sheehan">
-                    <img src="img/admissions-counselors/sheehan.jpg" alt="" />
-                    <div class="person-info">
-                        <span class="name">Donald Sheehan</span>
-                        <span class="title">Admissions Counselor</span>
-                        <span class="location">New York City</span>
-                    </div>
-                    </a>
-                </li>
-                <li>
                     <a href="undergraduate-admissions/contact/meet-your-counselor/profile/?name=wind">
                     <img src="img/admissions-counselors/wind.jpg" alt="" />
                     <div class="person-info">

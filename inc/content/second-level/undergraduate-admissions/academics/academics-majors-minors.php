@@ -294,10 +294,6 @@
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
                         </li>
                         <li>
-                            <a href="undergraduate-admissions/academics/program-details?code=eom">Electronic, Optical, and Magnetic Materials</a>
-                            <span class="minor">m<span class="hide-accessible">inor</span></span>
-                        </li>
-                        <li>
                             <a href="undergraduate-admissions/academics/program-details?code=nrg">Energy Science, Technology and Policy</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
@@ -591,10 +587,6 @@
                             <ul class="default-bullets">
                                 <li>Undergraduate Research Tracks</li>
                             </ul>
-                        </li>
-                        <li>
-                            <a href="undergraduate-admissions/academics/program-details?code=pme">Physical Metallurgy</a>
-                            <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=phy">Physics, BS</a>
