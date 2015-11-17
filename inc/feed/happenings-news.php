@@ -16,6 +16,8 @@
     
     if (!isset($callback))
         $callback = "";
+
+    $no_items = true;
     
     $rssFeed = simplexml_load_file($rss);
     $html = '';
@@ -70,6 +72,8 @@
             }
 
             if ($proceed) {
+                $no_items = false;
+
                 $html .= '<a class="clearfix" href="'.$rss_url.'" target="_blank">';
                 if(!is_null($img_src) && $thumbnail) {
                     $html .= '<img src="'.$img_src.'" alt="Featured image for '.$rss_title.'"/>';
@@ -107,6 +111,13 @@
         
         if($count == 0)
             break;
+    }
+
+    if($no_items) {
+        if(is_null($no_results_text)) {
+            $no_results_text = 'No news yet! Check back soon...';
+        }
+        $html .= '<div class="error-text">'.$no_results_text.'</div>';
     }
     
     if(strlen($callback) > 1){
