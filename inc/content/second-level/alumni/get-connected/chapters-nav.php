@@ -1,3 +1,10 @@
+<li<?php if($selected_sub_nav=="new-england-boston-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/new-england-boston-alumni-chapter">New England - Boston Alumni Chapter</a></li>
+<li<?php if($selected_sub_nav=="new-york-city-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/new-york-city-alumni-chapter">NYC Alumni Chapter</a></li>
+<li<?php if($selected_sub_nav=="new-jersey-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/new-jersey-alumni-chapter">New Jersey Alumni Chapter</a></li>
+
+<li<?php if($selected_sub_nav=="northern-california-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/northern-california-alumni-chapter">Northern California Alumni Chapter</a></li>
+<li<?php if($selected_sub_nav=="washington-dc-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/washington-dc-alumni-chapter ">Washington, DC Alumni Chapter</a></li>
+
 <li<?php if($selected_sub_nav=="school-of-professional-development") { ?> class="selected"<?php } ?>><a href="alumni/chapters/school-of-professional-development">School of Professional Development</a></li>
 <li<?php if($selected_sub_nav=="college-of-business") { ?> class="selected"<?php } ?>><a href="alumni/chapters/college-of-business">College of Business</a></li>
 <li<?php if($selected_sub_nav=="black-and-latino-alumni-network") { ?> class="selected"<?php } ?>><a href="alumni/chapters/black-and-latino-alumni-network ">Black &amp; Latino Alumni Network</a></li>
@@ -11,11 +18,6 @@
 <li<?php if($selected_sub_nav=="school-of-social-welfare") { ?> class="selected"<?php } ?>><a href="alumni/chapters/school-of-social-welfare">School of Social Welfare</a></li>
 <li<?php if($selected_sub_nav=="school-of-nursing") { ?> class="selected"<?php } ?>><a href="alumni/chapters/school-of-nursing">School of Nursing</a></li>
 
-<li<?php if($selected_sub_nav=="northern-california-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/northern-california-alumni-chapter">Northern California Alumni Chapter</a></li>
-<li<?php if($selected_sub_nav=="new-york-city-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/new-york-city-alumni-chapter">NYC Alumni Chapter</a></li>
-<li<?php if($selected_sub_nav=="new-jersey-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/new-jersey-alumni-chapter">New Jersey Alumni Chapter</a></li>
-<li<?php if($selected_sub_nav=="washington-dc-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/washington-dc-alumni-chapter ">Washington, DC Alumni Chapter</a></li>
-<li<?php if($selected_sub_nav=="new-england-boston-alumni-chapter") { ?> class="selected"<?php } ?>><a href="alumni/chapters/new-england-boston-alumni-chapter">New England - Boston Alumni Chapter</a></li>
 <!--<li<?php if($selected_sub_nav=="san-francisco-alumni-chapter") { ?> class="selected"<?php } ?>><a class="coming-soon" href="alumni/chapters/san-francisco-alumni-chapter">San Francisco Alumni Chapter</a></li>
 <li<?php if($selected_sub_nav=="connecticut-alumni-chapter") { ?> class="selected"<?php } ?>><a class="coming-soon" href="alumni/chapters/connecticut-alumni-chapter">Connecticut Alumni Chapter</a></li>
 <li<?php if($selected_sub_nav=="san-diego-alumni-chapter") { ?> class="selected"<?php } ?>><a class="coming-soon" href="alumni/chapters/san-diego-alumni-chapter">San Diego Alumni Chapter</a></li>

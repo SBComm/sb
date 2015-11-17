@@ -19,6 +19,26 @@
             </div>
             <div class="content">
                 <div class="border-box whole">
+                    <h4>Regional Chapters</h4>
+                </div>
+            </div>
+            <div class="rounded-image-buttons clearfix">
+                <a class="ne" href="alumni/chapters/new-england-boston-alumni-chapter"><div class="label">New England <span>Alumni Chapter</span></div></a>
+                <a class="nyc" href="alumni/chapters/new-york-city-alumni-chapter"><div class="label">NYC <span>Alumni Chapter</span></div></a>
+                <a class="nj" href="alumni/chapters/new-jersey-alumni-chapter"><div class="label">New Jersey <span>Alumni Chapter</span></div></a>
+                <a class="ca" href="alumni/chapters/northern-california-alumni-chapter"><div class="label">Northern CA <span>Alumni Chapter</span></div></a>
+                <a class="dc" href="alumni/chapters/washington-dc-alumni-chapter"><div class="label">Washington, DC <span>Alumni Chapter</span></div></a>
+                <!--<a class="sf coming-soon" href="alumni/chapters/san-francisco-alumni-chapter"><div class="label">San Francisco <span>Alumni Chapter</span></div></a>
+                <a class="ct coming-soon" href="alumni/chapters/connecticut-alumni-chapter"><div class="label">Connecticut <span>Alumni Chapter</span></div></a>
+                <a class="sd coming-soon" href="alumni/chapters/san-diego-alumni-chapter"><div class="label">San Diego <span>Alumni Chapter</span></div></a>
+                <a class="denver coming-soon" href="alumni/chapters/denver-alumni-chapter"><div class="label">Denver <span>Alumni Chapter</span></div></a>
+                <a class="la coming-soon" href="alumni/chapters/los-angeles-alumni-chapter"><div class="label">Los Angeles <span>Alumni Chapter</span></div></a>
+                <a class="phx coming-soon" href="alumni/chapters/phoenix-alumni-chapter"><div class="label">Phoenix <span>Alumni Chapter</span></div></a>
+                <a class="phila coming-soon" href="alumni/chapters/philadelphia-alumni-chapter"><div class="label">Philadelphia <span>Alumni Chapter</span></div></a>
+                <a class="tucson coming-soon" href="alumni/chapters/tucson-alumni-chapter"><div class="label">Tucson <span>Alumni Chapter</span></div></a>-->
+            </div>
+            <div class="content">
+                <div class="border-box whole">
                     <h4>Alumni Interest Groups</h4>
                 </div>
             </div>
@@ -41,26 +61,6 @@
                 <a class="dental" href="alumni/chapters/school-of-dental-medicine"><div class="label"><span>School of</span> Dental Medicine</div></a>
                 <a class="social-welfare" href="alumni/chapters/school-of-social-welfare"><div class="label"><span>School of</span> Social Welfare</div></a>
                 <a class="nursing" href="alumni/chapters/school-of-nursing"><div class="label"><span>School of</span> Nursing</div></a>
-            </div>
-            <div class="content">
-                <div class="border-box whole">
-                    <h4>Regional Chapters</h4>
-                </div>
-            </div>
-            <div class="rounded-image-buttons clearfix">
-                <a class="ca" href="alumni/chapters/northern-california-alumni-chapter"><div class="label">Northern CA <span>Alumni Chapter</span></div></a>
-                <a class="nyc" href="alumni/chapters/new-york-city-alumni-chapter"><div class="label">NYC <span>Alumni Chapter</span></div></a>
-                <a class="nj" href="alumni/chapters/new-jersey-alumni-chapter"><div class="label">New Jersey <span>Alumni Chapter</span></div></a>
-                <a class="dc" href="alumni/chapters/washington-dc-alumni-chapter"><div class="label">Washington, DC <span>Alumni Chapter</span></div></a>
-                <a class="ne" href="alumni/chapters/new-england-boston-alumni-chapter"><div class="label">New England <span>Alumni Chapter</span></div></a>
-                <!--<a class="sf coming-soon" href="alumni/chapters/san-francisco-alumni-chapter"><div class="label">San Francisco <span>Alumni Chapter</span></div></a>
-                <a class="ct coming-soon" href="alumni/chapters/connecticut-alumni-chapter"><div class="label">Connecticut <span>Alumni Chapter</span></div></a>
-                <a class="sd coming-soon" href="alumni/chapters/san-diego-alumni-chapter"><div class="label">San Diego <span>Alumni Chapter</span></div></a>
-                <a class="denver coming-soon" href="alumni/chapters/denver-alumni-chapter"><div class="label">Denver <span>Alumni Chapter</span></div></a>
-                <a class="la coming-soon" href="alumni/chapters/los-angeles-alumni-chapter"><div class="label">Los Angeles <span>Alumni Chapter</span></div></a>
-                <a class="phx coming-soon" href="alumni/chapters/phoenix-alumni-chapter"><div class="label">Phoenix <span>Alumni Chapter</span></div></a>
-                <a class="phila coming-soon" href="alumni/chapters/philadelphia-alumni-chapter"><div class="label">Philadelphia <span>Alumni Chapter</span></div></a>
-                <a class="tucson coming-soon" href="alumni/chapters/tucson-alumni-chapter"><div class="label">Tucson <span>Alumni Chapter</span></div></a>-->
             </div>
         </div>
     </section>
