@@ -125,7 +125,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-connected/chapters/spd.php";
+								$file = "alumni/get-connected/chapters/school-of-business.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->

@@ -125,7 +125,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-connected/chapters/spd.php";
+								$file = "alumni/get-connected/chapters/public-policy-alumni-network.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->

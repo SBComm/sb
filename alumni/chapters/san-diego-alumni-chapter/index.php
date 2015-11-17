@@ -125,7 +125,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-connected/chapters/spd.php";
+								$file = "alumni/get-connected/chapters/san-diego-alumni-chapter.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->

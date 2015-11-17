@@ -125,7 +125,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-connected/chapters/san-francisco-alumni-chapter.php";
+								$file = "alumni/get-connected/chapters/student-ambassador-alumni-network.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->

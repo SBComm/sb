@@ -42,8 +42,6 @@
 
 		    $inside_page = true;
 
-		    $equal_col_desktop = true;
-
 		    $carousel 	      = true;
 		    $carousel_4       = true;
 
@@ -56,8 +54,6 @@
 
     		$motio  		  = true;
 
-    		$slick_slider	  = true;
-
     		$page_loader     = true;
 
     		//$page_scroll      = true;
@@ -68,8 +64,6 @@
 	        $equal_col_desktop = true;
 
 	        $html_dom_parser = true;
-
-	        $flickr_feed = true;
 		?>
 
 	<head>
@@ -125,7 +119,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-connected/chapters/san-francisco-alumni-chapter.php";
+								$file = "alumni/get-connected/chapters/school-of-medicine.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
