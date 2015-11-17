@@ -24,6 +24,32 @@
     }
 }
 
+.alumni-chapter .owl-next,
+.alumni-chapter .owl-prev {
+    top: 40%;
+    font-size: 3em;
+    background: transparent;
+    border: 0 none;
+    color: rgba(255,255,255,.7);
+}
+
+.alumni-chapter .owl-next:hover,
+.alumni-chapter .owl-prev:hover {
+    box-shadow: none;
+}
+
+.alumni-chapter .owl-next {
+    right: 0;
+}
+
+.alumni-chapter .owl-prev {
+    left: 0;
+}
+
+section.inside-content a.sbu-outline-button--on-red {
+    color: #fff;
+}
+
 section.full-width-banner-image {
     padding: 0;
 }
@@ -65,6 +91,35 @@ section.full-width-banner-image {
     padding: 0;
     margin-bottom: 0;
     margin-top: 1.6em;
+}
+
+.hsc-alums .inside-content h3.serif {
+    margin-top: 0;
+    margin-bottom: 2%;
+    padding: .8% 0;
+    border-top: 1px solid #900;
+    border-bottom: 1px solid #900;
+}
+
+.hsc-alums .inside-content h3.serif span {
+    color: #900;
+}
+
+.hsc-alums .inline-with-copy {
+    display: inline;
+    float: left;
+    width: 28%;
+    margin: 1em 1em .5em .25em;
+}
+
+.hsc-alums p + a.sbu-outline-button {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hsc-alums ul {
+    display: block;
+    clear: both;
 }
 
 /* Section Buttons */
@@ -165,42 +220,36 @@ section.full-width-banner-image {
 }
 
 .rounded-image-buttons .ca {
-    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-image: url("../../img/alumni/buttons/northern-ca.jpg");
     background-position: 50% 40%;
     background-size: cover;
 }
 
 .rounded-image-buttons .nyc {
-    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-image: url("../../img/alumni/buttons/nyc.jpg");
     background-position: 50% 40%;
     background-size: cover;
 }
 
 .rounded-image-buttons .nj {
-    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-image: url("../../img/alumni/buttons/nj-2.jpg");
     background-position: 50% 40%;
     background-size: cover;
 }
 
 .rounded-image-buttons .dc {
-    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-image: url("../../img/alumni/buttons/washington-dc.jpg");
     background-position: 50% 40%;
     background-size: cover;
 }
 
 .rounded-image-buttons .ne {
-    background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-image: url("../../img/alumni/buttons/boston.jpg");
     background-position: 50% 40%;
     background-size: cover;
 }
 
 .rounded-image-buttons .sf {
-    background-image: url("../../img/alumni/buttons/confetti.jpg");
-    background-position: 50% 40%;
-    background-size: cover;
-}
-
-.rounded-image-buttons .nj {
     background-image: url("../../img/alumni/buttons/confetti.jpg");
     background-position: 50% 40%;
     background-size: cover;
@@ -267,7 +316,8 @@ section.full-width-banner-image {
     position: relative;
 }
 
-.rounded-image-buttons a:hover {
+.rounded-image-buttons a:hover,
+.rounded-image-buttons a.selected {
     border: 5px solid #900;
     padding: 0;
 }
@@ -1219,12 +1269,36 @@ a.authors__book__cta {
         padding: 0 0 0 15px;
     }
 
+    .hsc-alums .inline-with-copy {
+        margin: .5em 1.6em 1.25em .25em;
+    }
+
+    .hsc-alums .intro-letter {
+        border-bottom: 1px solid #900;
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+    }
+
+    .hsc-alums .board-and-events .one-half {
+        padding: 20px 30px 20px 0;
+    }
+
+    .hsc-alums .board-and-events .one-half + .one-half {
+        padding: 20px 0 20px 30px;
+        border-left: 1px solid #900;
+    }
+
 }
 
 @media only screen and (min-width: 1022px) {
 
     .inside-header {
         padding-top: 256px;
+    }
+
+    .alumni-chapter .owl-next,
+    .alumni-chapter .owl-prev {
+        top: 32%;
     }
 }
 
