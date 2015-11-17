@@ -33,7 +33,7 @@
                                         <h4><a href="alumni/contact">Stay In Touch</a></h4>
                                         <a href="alumni/contact">Contact Us</a>
                                         <a href="alumni/contact#alumni-relations">Alumni Relations Office</a>
-                                        <a href="alumni/contact#alumni-association">Allumni Association</a>
+                                        <a href="alumni/contact#alumni-association">Alumni Association</a>
                                         <a href="alumni/contact#committees">Committees</a>
                                    </div>
                          	</div>
