@@ -32,8 +32,6 @@
     foreach ($rssFeed->channel->item as $item){
         
         if($start == 0) {
-
-            $no_items = false;
             
             $doc = new DOMDocument();
             $doc = str_get_html($item->description);
@@ -77,6 +75,8 @@
             }
 
             if ($proceed) {
+                $no_items = false;
+
                 $html .= '<li class="clearfix">';
                 $html .= '<a class="date-marker" href="'.$rss_url.'" title="'.$rss_title.'" target="_blank">';
                 $html .= '<span class="event-month">'.$eventMonth.'</span>';
