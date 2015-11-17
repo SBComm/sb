@@ -163,7 +163,7 @@ function makeFlickrGallery(setId) {
     // Create the Carousel
       var owl = $("#the-carousel");
         owl.owlCarousel({
-          itemsCustom: [[0,2],[480,2],[600,3],[840,4],[960,5],[1140,6],[1440,7],[1700,8]],
+          itemsCustom: [[0,2],[480,2],[600,3],[840,4],[960,3],[1024,4]],
             autoPlay: false,
             navigation : true, // Show next and prev buttons
             slideSpeed : 800,

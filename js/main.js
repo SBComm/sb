@@ -175,7 +175,8 @@ var initReady = function() {
 	/* global hashchange function with smooth scroll */
 	$('a[href^="#"]').on('click',function(event) {
 		var target = $(this).attr('href');
-		if(target.length>1) {
+		var isTrigger = $(this).hasClass('is-trigger');
+		if(target.length>1 && !isTrigger) {
 			event.preventDefault();
 		    var hash = target.substring(1); //strip off the #
 		    window.location.hash = "view-"+hash;

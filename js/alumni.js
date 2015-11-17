@@ -35,4 +35,12 @@ var initAlumni = function() {
 		makeFlickrGallery(flickrSetId);
 	}
 
+	//Continue Reading Trigger
+	$('.continue-reading-trigger').on('click', function(e) {
+		e.preventDefault();
+		var $text = $(this).parent().find('.continue-reading-text');
+		$(this).remove();
+		toggleAccessible($text);
+	});
+
 };
