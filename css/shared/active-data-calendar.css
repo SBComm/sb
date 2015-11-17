@@ -342,6 +342,7 @@ td.listbodytextalt *:hover {
 #pnlEventDetails .adx-detailsview-right img {
     max-width: 100%;
     height: auto !important;
+    border: 0 none;
 }
 
 td.dayheaderSmallGrid {
