@@ -965,3 +965,11 @@ FileETag None
     RewriteRule ^faculty-directory/profile$ faculty-directory/results
     RewriteRule ^faculty-directory/profile/([a-zA-Z0-9\-]+)$ faculty-directory/profile.php?name=$1
 </IfModule>
+
+# ----------------------------------------------------------------------
+# | Stony Brook Alumni HSC Alumns Directory                            |
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^alumni/hsc-alums$ alumni/chapters/school-of-medicine/$1
+</IfModule>
