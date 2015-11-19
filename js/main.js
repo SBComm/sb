@@ -295,7 +295,7 @@ var initReady = function() {
     $('.section-nav-trigger a').on('click',function(event){
         event.preventDefault();
         $(this).toggleClass('active');
-        $sectionNav = $('.section-nav');
+        $sectionNav = $(this).parent().next('.section-nav');
 
         if($sectionNav.hasClass('open')) {
             $sectionNav.fadeIn(0,function(){
