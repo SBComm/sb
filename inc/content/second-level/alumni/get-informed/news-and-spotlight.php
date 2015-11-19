@@ -20,7 +20,7 @@
     <section class="clearfix articles-promo white-background pad-top">
         <div class="border-box wrapper clearfix">
             <div class="one-half serif-news-titles">
-                <img src="img/logo/sbu-happenings.jpg" alt="SBU Happenings logo" />
+                <img src="img/logo/sb-matters-header.png" alt="SB Matters logo" />
                 <?php 
                     /*
                     // PHP will transform event data from RSS feed in following format

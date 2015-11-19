@@ -38,7 +38,7 @@ var initAlumni = function() {
 	//Continue Reading Trigger
 	$('.continue-reading-trigger').on('click', function(e) {
 		e.preventDefault();
-		var $text = $(this).parent().find('.continue-reading-text');
+		var $text = $(this).parent().find('.continue-reading-target');
 		$(this).remove();
 		toggleAccessible($text);
 	});

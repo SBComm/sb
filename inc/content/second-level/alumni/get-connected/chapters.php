@@ -14,7 +14,6 @@
                     <h4>160,000 Strong!</h4>
                     <p>Connect with 160,000 fellow alumni from across the country and around the world. Grow your network by joining a group that best fits you.</p>
                     <p>The Alumni Association offers more than 100 alumni chapter, network and interest group events each year. Have fun, grow your network, give back, and support our students by attending one of our chapter events. From networking socials, to faculty lectures and sporting events, there are a lot of exciting events to choose from.</p>
-                    <p>For more information, select a chapter, group or network that interests you.</p>
                 </div>
             </div>
             <div class="content">

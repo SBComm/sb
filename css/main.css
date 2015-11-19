@@ -3090,6 +3090,7 @@ body {
         font-weight: normal;
         box-shadow: 0 0 50px #FFFFFF;
         -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
         box-sizing: border-box;
         padding: 5px 15px;
         display: inline-block;
@@ -3229,7 +3230,9 @@ body {
         background: #fff !important;
     }
 
-    a.sbu-outline-button--on-red{
+    a.sbu-outline-button--on-red,
+    a.sbu-outline-button--on-red-hover:hover {
+        color: #fff !important;
         background: #800 !important;
     }
 
@@ -3239,6 +3242,28 @@ body {
 
     a.sbu-outline-button.arrow-after {
         padding: 7px 10px 7px 13px;
+    }
+
+    /* simple button, as on /alumni/chapters/school-of-medicine/ */
+
+    .simple-button,
+    a.simple-button {
+        border: 2px solid #ddd;
+        padding: 2em .5em;
+        text-align: center;
+        color: #eee !important;
+        font-family: 'Trade Gothic W01 Light';
+        letter-spacing: .02em;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        display: inline-block;
+    }
+
+    .simple-button:hover,
+    a.simple-button:hover {
+        border: 2px solid #fff;
+        color: #fff !important;
     }
 
     a,
