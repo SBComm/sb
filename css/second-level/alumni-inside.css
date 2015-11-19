@@ -127,9 +127,16 @@ section.full-width-banner-image {
     border-bottom: 1px solid #900;
 }
 
-.hsc-alums ul {
+.hsc-alums .intro-letter ul {
     display: block;
-    clear: both;
+}
+
+.hsc-alums .intro-letter ul li {
+    text-indent: 0;
+}
+
+.hsc-alums .intro-letter ul li:before {
+    margin: 0 10px 0 0;
 }
 
 .hsc-alums .news-and-events .news-items a:last-child {
@@ -1059,9 +1066,10 @@ a.authors__book__cta {
     border-top: 1px solid #900;
 }
 
-.past-reunion {
+.past-reunion,
+.section-border-bottom {
     border-bottom: 1px solid #900;
-    padding: 0 0 2em;
+    padding-bottom: 2em;
     margin-bottom: 1.6em;
 }
 
@@ -1572,7 +1580,7 @@ a.authors__book__cta {
         width: 100%;
         float: none;
         margin: 0 0 9% 0;
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 
     .hsc-alums .som-links .simple-button + .simple-button {

@@ -3249,7 +3249,7 @@ body {
     .simple-button,
     a.simple-button {
         border: 2px solid #ddd;
-        padding: 2em .5em;
+        padding: 2.25em .5em;
         text-align: center;
         color: #eee !important;
         font-family: 'Trade Gothic W01 Light';
@@ -3805,7 +3805,7 @@ body {
 
     .inside-content p {
         display: block;
-        margin: 0 0 15px 0;;;;
+        margin: 0 0 15px 0;
     }
 
     .inside-content h4 {

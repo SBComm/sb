@@ -617,10 +617,10 @@
         <div class="border-box wrapper">
             <div class="btn-wrapper clearfix">
                 <a class="simple-button arrow-after" href="http://medicine.stonybrookmedicine.edu/">School of Medicine</a>
-                <a class="simple-button arrow-after" href="#">Continuing Education</a>
+                <a class="simple-button arrow-after" href="http://medicine.stonybrookmedicine.edu/cme/courses">Continuing Education</a>
             </div>
             <div class="btn-wrapper btn-wrapper-middle clearfix">
-                <a class="give-button" href="#">
+                <a class="give-button" href="alumni/give">
                     <img src="img/buttons/medium-give-now.png" />
                     <div class="message">
                         <span class="first">Your Gift Matters</span>
@@ -629,8 +629,8 @@
                 </a>
             </div>
             <div class="btn-wrapper clearfix">
-                <a class="simple-button arrow-after" href="#">Update your info</a>
-                <a class="simple-button arrow-after" href="#">Contact us</a>
+                <a class="simple-button arrow-after" href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform">Update your info</a>
+                <a class="simple-button arrow-after" href="alumni/contact">Contact us</a>
             </div>
         </div>
     </section>
