@@ -177,7 +177,7 @@
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>
                         </div>
                     </div>
-                    <div class="border-box whole clearfix section-border-top daa">
+                    <div class="border-box whole clearfix section-border-top">
                         <div class="border-box one-half padding-box">
                             <h4>School of Medicine Alumni Board</h4>
                             <h4 class="on-red">Board Members</h4>
