@@ -213,6 +213,18 @@ section.full-width-banner-image {
     background: #a70101;
 }
 
+
+
+.give-back {
+    padding-bottom: 2.5em;
+}
+
+.alumni-chapter .give-back .one-third {
+    border: 0 none;
+}
+
+
+
 /* Section Buttons */
 
 .rounded-image-buttons {
@@ -490,8 +502,6 @@ a.sbu-outline-button {
 
 a.sbu-outline-button + a.sbu-outline-button {
     margin-left: 0;
-    display: block;
-    float: left;
 }
 
 .no-float-button a.sbu-outline-button + a.sbu-outline-button {
