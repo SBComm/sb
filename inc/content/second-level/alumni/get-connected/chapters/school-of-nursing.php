@@ -36,14 +36,14 @@
                     <div id="letter" class="continue-reading-target hide-accessible">
                         <p>You can get connected in one of the following ways:</p>
                         <ul class="default-bullets">
-                            <li><a href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">Keep us updated</a> on you and your classmates &#8212; news about your career, life events and any other information you would like to share with your fellow alumni</li>
-                            <li>Join us at one of our upcoming events.</li>
+                            <li><a href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">Keeping us updated</a> on you and your classmates &#8212; news about your career, life events and any other information you would like to share with your fellow alumni</li>
+                            <li>Joining us at one of our upcoming events</li>
                             <li>Participating in our <a href="#">HOST (Help Our Students Travel)</a> program</li>
-                            <li>Become a Board Member or Committee Member.</li>
-                            <li>Considering a gift to support <a href="https://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=410&fid=DWFb9wy4WY8%3d&fdesc=Zu5RIlZ7RXfBvbzK80ikMkNSJRqLZkEj9WoINEQ5Gq8%3d">The Nursing Student Scholarship Fund</a>.</li>
+                            <li>Becoming a Board Member or Committee Member</li>
+                            <li>Considering a gift to support <a href="https://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=410&fid=DWFb9wy4WY8%3d&fdesc=Zu5RIlZ7RXfBvbzK80ikMkNSJRqLZkEj9WoINEQ5Gq8%3d">The Nursing Student Scholarship Fund</a></li>
                         </ul>
                         <p>The SON Alumni Board is a dynamic group of colleagues who are smart, creative and fun. Join us as good things are happening for your Stony Brook School of Nursing and for you, a Stony Brook School of Nursing alum.</p>
-                        <p>Please feel free to contact either Mary Hoffmann at mary.hoffmann@stonybrook.edu or me at jberpat2@aol.com for additional information or to sign up.</p>
+                        <p>Please feel free to contact either Mary Hoffmann at <a href="mailto:mary.hoffmann@stonybrook.edu" target="_blank">mary.hoffmann@stonybrook.edu</a> or me at <a href="mailto:jberpat2@aol.com" target="_blank">jberpat2@aol.com</a> for additional information or to sign up.</p>
                         <p>Patricia B. Jacobowitz BS '79, MS '86, DNP '09<br />
                         President</p>
                     </div>
