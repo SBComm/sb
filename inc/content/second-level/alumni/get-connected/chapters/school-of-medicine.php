@@ -37,6 +37,7 @@
                             <li>Participating in our <a href="#">HOST (Help Our Students Travel)</a> program</li>
                             <li>Becoming a member of our Alumni Board</li>
                             <li>Considering a gift to support one of our <a href="#">scholarship funds</a></li>
+                            <li>Reading our news site, <a href="http://sb.cc.stonybrook.edu/medicinetoday/" target="_blank">Medicine Today</a></li>
                         </ul>
                         <p>Individual gifts are always welcome, but recently classes have worked to make a more substantial "class gift," establishing funds and endowments.  This is a great way to reconnect with classmates around a common goal of supporting students.  After a wonderful reunion last fall, the members of the SOM Class of 1983 honored Dr. Aldustus Jordan and Dr. Jack Stern for their significant positive impact on their medical school education and subsequent careers in medicine.  SOM Class of 1983 Endowed Scholarship Honoring Dr. Aldustus Jordan and Dr. Jack Stern. We have heard that the class of 1988 is working on a similar gift. We have hosted a number of class reunions and encourage you to get in touch with us if you'd like to bring your former classmates together. Please get in touch with Mary Hoffmann to find out more information.</p>
                         <p>I hope you join me in participating and strengthening the bonds between alumni, present students and the School of Medicine. Pride and tradition at Stony Brook School of Medicine starts with us.</p>
