@@ -45,6 +45,7 @@
                         President, Stony Brook School of Medicine Alumni Board</p>
                     </div>
                 </div>
+                <!--
                 <div class="border-box whole activities-and-calendar activities-and-calendar-on-white activities-and-calendar-featured padding-box">
                     <h4>Featured Event</h4>
                     <ul class="calendar-items clearfix">
@@ -64,6 +65,7 @@
                         </li>
                     </ul>
                 </div>
+                -->
                 <div class="border-box whole news-and-events">
                     <div class="one-half serif-news-titles">
                         <h4>Latest News</h4>
