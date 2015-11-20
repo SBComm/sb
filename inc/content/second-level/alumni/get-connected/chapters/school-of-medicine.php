@@ -519,7 +519,6 @@
                             <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-Scholarship-Endowment-Fund" target="_blank">SOM Alumni Scholarship Endowment Fund</a>: Need and merit-based scholarships are awarded with the dividends earned from the endowment</p>
                             <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-Fund" target="_blank">SOM Alumni Scholarship Fund</a>: Funding is awarded to the alumni board to support educational initiatives that benefit the School of Medicine and its students</p>
                             <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-International-Medicine-Award-Fund" target="_blank">SOM Alumni Scholarship Fund</a>: Funding is awarded to student volunteers traveling on International Medical Missions to underdeveloped countries</p>
-                            <p><a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/give-back" target="_blank">Learn more about Alumni Funds</a></p>
                         </div>
                     </div>
                     <div class="border-box whole clearfix past-reunions">
@@ -599,7 +598,7 @@
                 <div class="owl-prev owl-prev-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-left"></em></div>
                 <div class="owl-next owl-next-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-right"></em></div>
             </div>
-            <p><a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">View on Flickr</a> <a class="sbu-outline-button sbu-outline-button--on-red arrow-after" href="#" target="_blank">Submit Your Photos</a></p>
+            <p><a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157658676442598" target="_blank">View on Flickr</a> <a class="sbu-outline-button sbu-outline-button--on-red arrow-after" href="mailto:alumni@stonybrook.edu" target="_blank">Submit Your Photos</a></p>
         </div>
     </section>
 
@@ -626,7 +625,7 @@
                     <img src="img/buttons/medium-give-now.png" />
                     <div class="message">
                         <span class="first">Your Gift Matters</span>
-                        <span>Support the School of Medicine</span>
+                        <span>Support Stony Brook Medicine</span>
                     </div>
                 </a>
             </div>

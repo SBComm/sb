@@ -4,17 +4,6 @@
             <h2><span>Events and Reunions</span></h2>
         </div>
     </section>
-    <section class="clearfix inside-content white-background">
-        <div class="border-box wrapper clearfix">
-            <header class="section-header clearfix">
-                <?php
-                    $selected_sub_nav = 0;
-                    $file = "undergraduate-admissions/campus-life/campus-life-nav.php";
-                    include($path . $content . $secLv . $file);
-                ?>
-            </header>
-        </div>
-    </section>
     <section class="clearfix alumni-header inside-content main-inside-content white-background arrow-below arrow-below-white">
         <div class="border-box wrapper clearfix">
             <div class="rounded-image-buttons clearfix">

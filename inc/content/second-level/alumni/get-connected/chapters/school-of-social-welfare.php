@@ -25,11 +25,11 @@
                     </p>
                     <p>As the President of the School of Social Welfare Alumni Board, it is my pleasure to periodically reach out to you and bring you up to date on our activities.</p>
                     <p>Our mission is to support the development of the School of Social Welfare and Stony Brook University, by serving as ambassadors to the School’s alumni, by promoting a sense of community and belonging among current students and alumni, by offering opportunities for alumni to engage with each other, and to further the goals of the School of Social Welfare.</p>
-                    <p>You may not be aware of this, but by virtue of being a graduate of the School, you are automatically a member of the Alumni Association of Stony Brook University and the School of Social Welfare Alumni organization.</p>
-                    <p>The Board is looking to connect the current students with the alumni in the autumn of this year with a Career Day, and by networking.</p>
+                    <p>You may not be aware of this, but by virtue of being a graduate of the School, you are automatically a member of the Alumni Association of Stony Brook University and the School of Social Welfare Alumni Chapter.</p>
+                    <p>The Board is looking to connect current Stony Brook students with the alumni with a Career Day and by networking.</p>
                     <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#letter">Continue Reading...</a>
                     <div id="letter" class="continue-reading-target hide-accessible">
-                        <p>And as always, our faculty continues to excel in research, teaching and clinical practice. As Stony Brook expands, it gives us even more reason to be proud of our school and its traditions. Please visit the website to look at some videos of Stony Brook Past, Present and Future produced in commemoration of Stony Brook's 40th year of graduating SOM classes.</p>
+                        <p>And as always, our faculty continues to excel in research, teaching and clinical practice. As Stony Brook expands, it gives us even more reason to be proud of our school and its traditions.</p>
                         <p>We welcome your involvement in any of the following ways:</p>
                         <ul class="default-bullets">
                             <li><a href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">Keep us updated</a> on you and your classmates &#8212; news about your career, life events and any other information you would like to share with your fellow alumni</li>
@@ -38,7 +38,7 @@
                             <li><a href="#gifts">Consider a gift</a> to support the School</li>
                         </ul>
                         <p>Your SSW Alumni Board is a dynamic group of colleagues who are smart, creative and fun.</p>
-                        <p>Please feel free to contact either Mary Hoffmann at Mary.<a href="mailto:Hoffmann@stonybrook.edu" target="_blank">Hoffmann@stonybrook.edu</a>, or me at <a href="mailto:Janice.Rohlf@connect.stonybrook.edu" target="_blank">Janice.Rohlf@connect.stonybrook.edu</a> for additional information or to offer your suggestions and comments regarding the School of Social Welfare Alumni board and alumni activities.</p>
+                        <p>Please feel free to contact either Mary Hoffmann at <a href="mailto:Hoffmann@stonybrook.edu" target="_blank">Mary.Hoffmann@stonybrook.edu</a>, or me at <a href="mailto:Janice.Rohlf@connect.stonybrook.edu" target="_blank">Janice.Rohlf@connect.stonybrook.edu</a> for additional information or to offer your suggestions and comments regarding the School of Social Welfare Alumni board and alumni activities.</p>
                         <p>Sincerely,<br />
                         Janice Rohlf, MSW ’82, CSW<br />
                         President</p>
@@ -142,12 +142,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Janice Rohlf, MSW ‘89</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Janice Rohlf, MSW '89</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Janice Rohlf, MSW ‘89</strong><br />
+                                                <strong>Janice Rohlf, MSW '89</strong><br />
                                                 President<br />
                                                 <a class="email-link" href="mailto:Janice.rohlf@connect.stonybrook.edu">Janice.rohlf@connect.stonybrook.edu</a>
                                             </p>
@@ -156,12 +156,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Sam Taube, PhD, MSW ‘83</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Sam Taube, PhD, MSW '83</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Sam Taube, PhD, MSW ‘83</strong><br />
+                                                <strong>Sam Taube, PhD, MSW '83</strong><br />
                                                 Vice President<br />
                                                 <a class="email-link" href="mailto:stshrink@aol.com">stshrink@aol.com</a>
                                             </p>
@@ -170,12 +170,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Shardae Hale, BS ’13, MSW ‘14</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Shardae Hale, BS ’13, MSW '14</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Shardae Hale, BS ’13, MSW ‘14</strong><br />
+                                                <strong>Shardae Hale, BS ’13, MSW '14</strong><br />
                                                 Secretary/Treasurer<br />
                                                 <a class="email-link" href="mailto:mshale14@aol.com">mshale14@aol.com</a>
                                             </p>
@@ -184,12 +184,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Josie Aquino, MSW ‘03</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Josie Aquino, MSW '03</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Josie Aquino, MSW ‘03</strong><br />
+                                                <strong>Josie Aquino, MSW '03</strong><br />
                                                 <a class="email-link" href="mailto:Josieaquino71@gmail.com">Josieaquino71@gmail.com</a>
                                             </p>
                                         </div>
@@ -197,12 +197,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Onaje Muid, MSW ‘04</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Onaje Muid, MSW '04</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Onaje Muid, MSW ‘04</strong><br />
+                                                <strong>Onaje Muid, MSW '04</strong><br />
                                                 <a class="email-link" href="mailto:muidmsw@gmail.com">muidmsw@gmail.com</a>
                                             </p>
                                         </div>
@@ -210,12 +210,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Jenette Bon Adams, MSW ‘11</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Jenette Bon Adams, MSW '11</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Jenette Bon Adams, MSW ‘11</strong><br />
+                                                <strong>Jenette Bon Adams, MSW '11</strong><br />
                                                 <a class="email-link" href="mailto:nettybon@hotmail.com">nettybon@hotmail.com</a>
                                             </p>
                                         </div>
@@ -223,12 +223,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Bertha Murphy, MSW ‘85</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Bertha Murphy, MSW '85</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Bertha Murphy, MSW ‘85</strong><br />
+                                                <strong>Bertha Murphy, MSW '85</strong><br />
                                                 <a class="email-link" href="mailto:bmu3076934@aol.com">bmu3076934@aol.com</a>
                                             </p>
                                         </div>
@@ -236,12 +236,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Bart Davis, MSW ‘76</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Bart Davis, MSW '76</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Bart Davis, MSW ‘76</strong><br />
+                                                <strong>Bart Davis, MSW '76</strong><br />
                                                 <a class="email-link" href="mailto:author@optonline.net">author@optonline.net</a>
                                             </p>
                                         </div>
@@ -249,12 +249,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Mary Beth Powers, MSW ‘02</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Mary Beth Powers, MSW '02</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Mary Beth Powers, MSW ‘02</strong><br />
+                                                <strong>Mary Beth Powers, MSW '02</strong><br />
                                                 <a class="email-link" href="mailto:Mary.b.powers@stonybrook.edu">Mary.b.powers@stonybrook.edu</a>
                                             </p>
                                         </div>
@@ -262,12 +262,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Nathan (Nate) Dukes, MSW ‘74</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Nathan (Nate) Dukes, MSW '74</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Nathan (Nate) Dukes, MSW ‘74</strong><br />
+                                                <strong>Nathan (Nate) Dukes, MSW '74</strong><br />
                                                 <a class="email-link" href="mailto:bubbanathandukes@hotmail.com">bubbanathandukes@hotmail.com</a>
                                             </p>
                                         </div>
@@ -275,12 +275,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Jeffrey Reynolds, PhD ‘07</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Jeffrey Reynolds, PhD '07</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Jeffrey Reynolds, PhD ‘07</strong><br />
+                                                <strong>Jeffrey Reynolds, PhD '07</strong><br />
                                                 <a class="email-link" href="mailto:jreynolds@familyandchildrens.org">jreynolds@familyandchildrens.org</a>
                                             </p>
                                         </div>
@@ -288,12 +288,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Linda Hobson Heath, MSW ‘08</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Linda Hobson Heath, MSW '08</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Linda Hobson Heath, MSW ‘08</strong><br />
+                                                <strong>Linda Hobson Heath, MSW '08</strong><br />
                                                 <a class="email-link" href="mailto:linhobson@aol.com">linhobson@aol.com</a>
                                             </p>
                                         </div>
@@ -301,12 +301,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Ann Rudolph, MSW ‘87</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Ann Rudolph, MSW '87</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Ann Rudolph, MSW ‘87</strong><br />
+                                                <strong>Ann Rudolph, MSW '87</strong><br />
                                                 <a class="email-link" href="mailto:amrlcswr@gmail.com">amrlcswr@gmail.com</a>
                                             </p>
                                         </div>
@@ -314,12 +314,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Jackie Zuckerman, MSW ‘84</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Jackie Zuckerman, MSW '84</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Jackie Zuckerman, MSW ‘84</strong><br />
+                                                <strong>Jackie Zuckerman, MSW '84</strong><br />
                                                 <a class="email-link" href="mailto:jackiez@optonline.net">jackiez@optonline.net</a>
                                             </p>
                                         </div>
@@ -327,12 +327,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Mary Hoffmann, MA/HEA ‘14</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Mary Hoffmann, MA/HEA '14</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Mary Hoffmann, MA/HEA ‘14</strong><br />
+                                                <strong>Mary Hoffmann, MA/HEA '14</strong><br />
                                                 <a class="email-link" href="mailto:Mary.hoffmann@stonybrook.edu">Mary.hoffmann@stonybrook.edu</a><br />
                                                 631-632-4995 (w)<br />
                                                 631-291-5135 (c)
@@ -346,7 +346,7 @@
                             <div class="clearfix host">
                                 <h4>Help Our Students</h4>
                                 <p>Participate in one of our several School of Social Welfare alumni committees, including the student affairs, mentoring, scholarship and nominating committees.</p>
-                                <p>Contact Mary Hoffmann at (631) 632-4995 or Mary.Hoffmann@stonybrook.edu if you are interested in joining.</p>
+                                <p>Contact Mary Hoffmann at (631) 632-4995 or <a href="mailto:Hoffmann@stonybrook.edu" target="_blank">Mary.Hoffmann@stonybrook.edu</a> if you are interested in joining.</p>
                             </div>
                         </div>
                     </div>
@@ -358,7 +358,6 @@
                             <h4>Give Back</h4>
                             <p>There are a variety of ways for you to support Stony Brook's Alumni Funds:</p>
                             <p><a href="https://alumniandfriends.stonybrook.edu/main-site/external/frances-l.-brisbane-endowed-fund-for-leadership-and-justice" target="_blank">Frances L. Brisbane Endowed Fund for Leadership and Justice</a></p>
-                            <p><a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/give-back" target="_blank">Learn more about Alumni Funds</a></p>
                         </div>
                     </div>
                     <!--
@@ -437,7 +436,7 @@
                 <div class="owl-prev owl-prev-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-left"></em></div>
                 <div class="owl-next owl-next-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-right"></em></div>
             </div>
-            <p><a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">View on Flickr</a> <a class="sbu-outline-button sbu-outline-button--on-red arrow-after" href="#" target="_blank">Submit Your Photos</a></p>
+            <p><a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157658888443128" target="_blank">View on Flickr</a> <a class="sbu-outline-button sbu-outline-button--on-red arrow-after" href="mailto:alumni@stonybrook.edu" target="_blank">Submit Your Photos</a></p>
         </div>
     </section>
 
@@ -462,7 +461,7 @@
                     <img src="img/buttons/medium-give-now.png" />
                     <div class="message">
                         <span class="first">Your Gift Matters</span>
-                        <span>Support the School of Medicine</span>
+                        <span>Support Stony Brook Medicine</span>
                     </div>
                 </a>
             </div>
