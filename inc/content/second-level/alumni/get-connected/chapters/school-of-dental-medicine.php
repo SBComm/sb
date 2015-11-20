@@ -404,7 +404,7 @@
                     </div>
                     <div class="border-box whole clearfix section-border-top give-back">
                         <div class="one-third">
-                            <img src="img/alumni/group-shot-1.jpg" alt="Group Shot of Alumni" />
+                            <img src="https://farm1.staticflickr.com/423/19874352258_d437eb9302_z.jpg" alt="Group Shot of Alumni" />
                         </div>
                         <div class="two-third">
                             <h4>Give Back</h4>
@@ -515,7 +515,7 @@
                 <a class="simple-button arrow-after" href="http://dentistry.stonybrookmedicine.edu/coned">Continuing Education</a>
             </div>
             <div class="btn-wrapper btn-wrapper-middle clearfix">
-                <a class="give-button" href="https://alumniandfriends.stonybrook.edu/sdm/get-involved/give">
+                <a class="give-button" href="https://alumniandfriends.stonybrook.edu/online-giving">
                     <img src="img/buttons/medium-give-now.png" />
                     <div class="message">
                         <span class="first">Your Gift Matters</span>
