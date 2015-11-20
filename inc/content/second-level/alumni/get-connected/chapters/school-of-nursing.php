@@ -23,7 +23,7 @@
                     <h4>Welcome, School of Nursing Alums!</h4>
                     <p><strong>Dear School of Nursing Grads,</strong></p>
                     </p>
-                    <p>Serving as President of the Stony Brook School of Nursing Alumni Board for the past two years has been both gratifying and challenging. Our mission has always been to build a strong and lasting relationship with our present and future alums by providing support for our current students and advancing the interests of professionalism in Nursing.  With the support of the Board members many goals have been met.</p>
+                    <p>Serving as President of the Stony Brook School of Nursing Alumni Board for the past two years has been both gratifying and challenging. Our mission has always been to build a strong and lasting relationship with our present and future alums by providing support for our current students and advancing the interests of professionalism in Nursing. With the support of the Board members many goals have been met.</p>
                     <p>Over the past two years we have:</p>
                     <ul class="default-bullets">
                         <li>Continued to expand and strengthen the "Lunch and Learn" program which is a bi-annual event for students which first addresses stress and relaxation and then transitioning from the role of the student to the role of a professional nurse.</li>
@@ -31,9 +31,10 @@
                         <li>Created an <a href="http://alumniandfriends.stonybrook.edu/document.doc?id=371&erid=18036104&trid=657fb88c-fdcb-4ef5-aa5c-09b6c2ad8242" target="_blank">inaugural e-Newsletter</a> which will address topics of interest for both the student and the alumni with a number of photos. (We think you will be pleased with its presentation!)</li>
                         <li>Collaborated with the Department of Continuing Education to present an educational opportunity to earn continuing education credits. We plan on this being a bi-annual event.</li>
                     </ul>
+                    <p>But we still need you to get involved!</p>
                     <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#letter">Continue Reading...</a>
                     <div id="letter" class="continue-reading-target hide-accessible">
-                        <p>But we still need you to get involved!</p>
+                        <p>You can get connected in one of the following ways:</p>
                         <ul class="default-bullets">
                             <li><a href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">Keep us updated</a> on you and your classmates &#8212; news about your career, life events and any other information you would like to share with your fellow alumni</li>
                             <li>Join us at one of our upcoming events.</li>
