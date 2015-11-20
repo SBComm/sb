@@ -423,25 +423,27 @@
                             <div class="drop-accordion drop-accordion-1 clearfix">
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Student Representatives:</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Adriann Combs</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Adriann Combs - Graduate Student</strong><br />
+                                                <strong>Adriann Combs</strong><br />
+                                                Graduate Student<br />
                                                 <a class="email-link" href="Adriann Combs - Graduate Student">Adriann.Combs@stonybrook.edu</a>
                                             </p>
                                         </div>
                                     </div>
-                                </div>Adriann.Combs@stonybrook.edu
+                                </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Tiffany Gallucci - Graduate Student</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Tiffany Gallucci</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Tiffany Gallucci - Graduate Student</strong><br />
+                                                <strong>Tiffany Gallucci</strong><br />
+                                                Graduate Student<br />
                                                 <a class="email-link" href="Tiffany.Gallucci@stonybrook.edu">Tiffany.Gallucci@stonybrook.edu</a>
                                             </p>
                                         </div>
@@ -449,17 +451,21 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Emily Cheng - Undergraduate Student</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Emily Cheng</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Emily Cheng - Undergraduate Student</strong><br />
+                                                <strong>Emily Cheng</strong><br />
+                                                Undergraduate Student<br />
                                                 <a class="email-link" href="Emily.Cheng@stonybrook.edu">Emily.Cheng@stonybrook.edu</a>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <h4 class="on-red">Ex-Officio</h4>
+                            <div class="drop-accordion drop-accordion-1 clearfix">
                                 <div class="item">
                                     <div class="tab">
                                         <span class="label"><i class="fa fa-plus-circle"></i>Dr. Lee Xippolitos BS ’81, MS ’85</span>
@@ -468,11 +474,16 @@
                                         <div class="content-wrap">
                                             <p>
                                                 <strong>Chief Nursing Officer,</strong><br />
+                                                Dean, School of Nursing<br />
+                                                631-444-2780<br />
                                                 <a class="email-link" href="Lee.Xippolitos@stonybrook.edu">Lee.Xippolitos@stonybrook.edu</a>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <h4 class="on-red">Board Liaisons</h4>
+                            <div class="drop-accordion drop-accordion-1 clearfix">
                                 <div class="item">
                                     <div class="tab">
                                         <span class="label"><i class="fa fa-plus-circle"></i>Mary Hoffmann</span>
@@ -505,8 +516,8 @@
                             <div class="clearfix host">
                                 <h4>School of Nursing Alumni Mentoring Program</h4>
                                 <p>Members of the School of Nursing Alumni Board will mentor Stony Brook School of Nursing recent graduates (graduates of the last five years) as part of the School of Nursing Alumni Mentoring Program. The volunteer alumni mentors are 'assigned' a mentee, who has been selected for the program, in order to provide meaningful support, increase the grad's knowledge of the occupation and ease their transition from nursing school to career.</p>
-                                <p>Are you an alum who is interested volunteering? Are you a student who wants to connect with an alumni volunteer?</p>
-                                <p>If you have any questions, please contact Mary Hoffmann at 631-632-4995 or mary.hoffmann@stonybrook.edu.</p>
+                                <p>Are you an alum who is interested in volunteering? Are you a student who wants to connect with an alumni volunteer?</p>
+                                <p>If you have any questions, please contact Mary Hoffmann at 631-632-4995 or <a href="mailto:mary.hoffmann@stonybrook.edu" target="_blank">mary.hoffmann@stonybrook.edu</a>.</p>
                                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1uipwO--ZMk3oyZDFHSVpqfLqVSQaSXanjrRbGtF71WE/viewform" target="_blank">Get More Information</a>
                             </div>
                             <div class="clearfix section-border-top">
@@ -522,7 +533,7 @@
                         </div>
                         <div class="two-third">
                             <h4>Give Back</h4>
-                            <p>You can play an important part in supporting Stony Brook's Alumni Funds:</p>
+                            <p>You can play an important part in supporting Stony Brook's alumni funds:</p>
                             <p><a href="https://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=410&amp;fid=DWFb9wy4WY8%3d&amp;fdesc=Zu5RIlZ7RXfBvbzK80ikMkNSJRqLZkEj9WoINEQ5Gq8%3d" target="_blank">The Nursing Student Scholarship Fund</a></p>
                         </div>
                     </div>
@@ -596,8 +607,7 @@
         <div class="border-box wrapper clearfix">
             <div class="whole clearfix">
                 <h4 class="on-red">Links and Resources</h4>
-                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.facebook.com/groups/175858250074/" target="_blank">View on Facebook</a>
-                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.linkedin.com/grps?gid=8232333" target="_blank">View on LinkedIn</a>
+                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.facebook.com/SBUNursingAlum/" target="_blank">View on Facebook</a>
                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://alumniandfriends.stonybrook.edu/document.doc?id=371&amp;erid=18036104&amp;trid=657fb88c-fdcb-4ef5-aa5c-09b6c2ad8242" target="_blank">View e-Newsletter</a>
             </div>
         </div>
