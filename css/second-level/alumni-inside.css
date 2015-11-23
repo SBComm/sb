@@ -78,7 +78,6 @@ section.full-width-banner-image {
 }
 
 
-
     .get-connected .inside-header {
         background-image: url("../../img/student-life/red-people-alumni-2000.jpg");
         background-size: 100%;
@@ -91,6 +90,34 @@ section.full-width-banner-image {
         background-size: 100%;
         background-size: cover;
         background-position: 50% 50%;
+    }
+
+    .students .inside-header {
+        background-image: url("../../img/student-life/students-walking-talking-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .recent-grads .inside-header {
+        background-image: url("../../img/student-life/grads-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .contact-page .inside-header {
+        background-image: url("../../img/student-life/students-and-alumni-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .golf-page .inside-header {
+        background-image: url("../../img/student-life/golf-classic-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
     }
 
 /* Inside content - custom serif headers */
@@ -139,12 +166,12 @@ section.full-width-banner-image {
     margin: 0 10px 0 0;
 }
 
-.hsc-alums .news-and-events .news-items a:last-child {
+.inside-page .news-and-events .news-items a:last-child {
     border-bottom: 0 none;
     margin-bottom: 1em;
 }
 
-.hsc-alums .news-and-events .serif-news-titles {
+.inside-page .news-and-events .serif-news-titles {
     border-bottom: 1px solid #900;
     padding-bottom: 2.5em;
     margin-bottom: 3em;
@@ -770,6 +797,7 @@ section.calendar .black-opac-cover {
     margin: 0 auto;
     width: 180px;
     display: block;
+    text-align: center;
 }
 
 .events h4,
@@ -1116,6 +1144,14 @@ a.authors__book__cta {
 
 
 
+.contact-page img.alumni-assoc-logo {
+    margin: 0 auto 20px;
+    display: block;
+}
+
+
+
+
 
 .slick-slide:focus {
     outline: none;
@@ -1341,7 +1377,7 @@ a.authors__book__cta {
     .get-connected section.calendar {
         background: url("../../img/alumni/bkg/calendar-uke-girl.jpg") 0% 0% no-repeat #616e78;
         background-position: -5% 20%;
-        background-size: 700px;
+        background-size: 1000px;
     }
 
     section.reunions {
@@ -1415,6 +1451,7 @@ a.authors__book__cta {
     .activities-and-calendar .flex-list-2 li {
         width: 40%;
         margin: 10px 10% 0 0;
+        min-height: 130px;
     }
 
     .activities-and-calendar .event-details {
@@ -1472,8 +1509,13 @@ a.authors__book__cta {
         border-right: 1px solid #900;
     }
 
-    .alumni-chapter .two-third {
+    .alumni-chapter .two-third,
+    .inside-page .two-third {
         padding-left: 35px;
+    }
+
+    .inside-page .left-col-content {
+        padding-left: 0;
     }
 
     .alumni-chapter .activities-and-calendar .one-half {
@@ -1493,22 +1535,22 @@ a.authors__book__cta {
         margin-bottom: 1em;
     }
 
-    .hsc-alums .news-and-events .one-half {
+    .inside-page .news-and-events .one-half {
         padding: 20px 30px 20px 0;
     }
 
-    .hsc-alums .news-and-events .one-half + .one-half {
+    .inside-page .news-and-events .one-half + .one-half {
         padding: 20px 0 20px 30px;
         border-left: 1px solid #900;
     }
 
-    .hsc-alums .one-half .activities-and-calendar .date-marker {
+    .inside-page .one-half .activities-and-calendar .date-marker {
         width: 14%;
         margin: 6px 2.6% 0 0;
         max-width: 90px;
     }
 
-    .hsc-alums .news-and-events .serif-news-titles {
+    .inside-page .news-and-events .serif-news-titles {
         border-bottom: 0 none;
     }
 
@@ -1589,6 +1631,14 @@ a.authors__book__cta {
 
     .alumni-chapter .event-gallery {
         padding-bottom: 3.5em;
+    }
+
+
+    .students .intro-letter img,
+    .recent-grads .intro-letter img {
+        max-width: 240px;
+        margin-right: 30px;
+        margin-top: 0;
     }
 
 }

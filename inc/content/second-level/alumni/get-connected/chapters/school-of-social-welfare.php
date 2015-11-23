@@ -1,4 +1,4 @@
-<article class="get-connected alumni-chapter hsc-alums">
+<article class="get-connected alumni-chapter hsc-alums inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
             <h2><a href="alumni/chapters/hsc-alums">HSC Alums</a></h2>

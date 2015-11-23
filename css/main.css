@@ -4360,6 +4360,56 @@ body {
         color: #fff;
     } 
 
+    /* Campaign Banners */
+
+    .campaign-banner {
+        padding: 3em 0;
+    }
+
+    .campaign-banner--on-black {
+        background-image: url("../img/branding/rays/black-rays-landscape.jpg");
+        background-position: 50% 40%;
+        background-size: cover;
+    }
+
+        .campaign-banner__logo-image--mobile {
+            display: block;
+            max-width: 360px;
+        }
+
+        .campaign-banner__logo-image--desktop {
+            display: none;
+        }
+
+        .campaign-banner__tagline {
+            display: block;
+            font-family: "Museo Slab W01", "Times", serif;
+            font-weight: 200;
+            font-style: normal;
+            color: #a69b90;
+            font-size: 1.4em;
+            margin: 1em 0 1.6em;
+        }
+
+    a.campaign__button {
+        display: inline-block;
+        background: #900;
+        font-family: "Effra W01", "Arial", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        padding: .6em 2.3em;
+        font-size: 1.1em;
+        letter-spacing: .025em;
+    }
+
+    @media only screen and (min-width: 560px) {
+        a.campaign__button {
+            float: none;
+            margin: 0 auto;
+        }
+    }
+
 /* Container elements */
 
 .container {

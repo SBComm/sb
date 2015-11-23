@@ -27,6 +27,13 @@
             </div>
         </div>
     </section>
+
+    <?php
+        $campaignColor = "black";
+        $file = "widgets/campaign-banner.php";
+        include($path . $file);
+    ?>
+
     <section class="clearfix alumni-home-promo red-grad-background-rev arrow-below arrow-below-red">
         <div class="border-box no-pad-wrapper-larger clearfix">
             <div class="large-info-box equal-height-col">

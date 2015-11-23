@@ -1,3 +1,21 @@
+Wistia: Standard Inline Embed iFrame
+<!--
+<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <iframe src="//fast.wistia.net/embed/iframe/ov60yv0xhj?videoFoam=true&amp;autoPlay=false" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
+    </div>
+</div>
+-->
+Wistia: Popover Embed
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+<div class="wistia_embed wistia_async_ov60yv0xhj popover=true playButton=true" style="width:300px;height:150px;">&nbsp;</div>
+<div class="wistia_embed wistia_async_ov60yv0xhj popover=true popoverContent=html"
+style="display:inline-block; white-space:nowrap;">
+  <a href="#">Launch the popover!</a>
+</div>
+
+
+
 <article>
     <section>
         <div class="wrapper border-box inside-content pad-bottom clearfix children-border-box">
