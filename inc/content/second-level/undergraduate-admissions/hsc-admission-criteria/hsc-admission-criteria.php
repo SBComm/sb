@@ -27,7 +27,6 @@
                 <ul class="default-bullets">
                     <li><a href="http://healthtechnology.stonybrookmedicine.edu/programs/at">Athletic Training</a></li>
                     <li><a href="http://healthtechnology.stonybrookmedicine.edu/programs/clinical">Clinical Laboratory Sciences</a></li>
-                    <li><a href="http://healthtechnology.stonybrookmedicine.edu/programs/otp/welcome">Health Science, BS / Occupational Therapy, MS</a></li>
                     <li><a href="http://sunysb.askadmissions.net/ask.aspx?quser=nursing">Nursing</a></li>
                     <li><a href="http://healthtechnology.stonybrookmedicine.edu/programs/rc/welcome">Respiratory Care</a></li>
                     <li><a href="http://sunysb.askadmissions.net/ask.aspx?quser=social+work">Social Work</a></li>
