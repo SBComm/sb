@@ -25,13 +25,14 @@
         <div class="border-box wrapper clearfix">
             <h3>How to Apply as an International Applicant</h3>
             <div class="content application-details alert-message green clearfix">
-                <p><strong>Please note:</strong> Applications are now being accepted for the spring and fall 2016 semesters.</p>
+                <p>Applications are being accepted for fall 2016 semester.</p>
             </div>
-            <div class="content application-details clearfix">
-                <p>Follow these steps to apply as an International Applicant:</p>
+            <div class="content application-details alert-message red clearfix">
+                <p>We are no longer accepting applications from transfer students for the spring 2016 semester.</p>
             </div>
              <div class="content application-details clearfix">
                 <div class="inner-wrapper">
+                    <p>Follow these steps to apply as an International Applicant:</p>
                     <h4>Step 1: Apply Using The Common Application</h4>
                     <a class="img-link" href="https://apply.commonapp.org/Login?ma=346" target="_blank"><img src="img/devices/macbook-pro-apply-common.jpg" /></a>
                     <table class="simple-two-col-table">
