@@ -32,7 +32,7 @@
                     <li><a href="http://sunysb.askadmissions.net/ask.aspx?quser=social+work">Social Work</a></li>
                 </ul>
                 <p>An application to the major of interest will need to be filed through the Health Sciences Center <a href="http://www.stonybrook.edu/hscstudents/">Office of Student Services</a> the year in which you anticipate completing all prerequisites. <strong>Do not file an application through the Office of Undergraduate Admissions.</strong></p>
-                <p>Transfer applicants who have not yet completed the prerequisites for the upper-division health science program in which they are interested should attend an <a href="http://www.stonybrook.edu/hscstudents/infosessions.shtml">information session</a> for that program. You will learn more about the admissions requirements for the program, including specific courses prerequisites, minimum GPA, and related health care experience. You will also learn about the application deadline and start date.</p>
+                <p>Transfer applicants who have not yet completed the prerequisites for the upper-division health science program in which they are interested should attend an <a href="http://www.stonybrook.edu/commcms/hsstudents/admissions/info_sessions">information session</a> for that program. You will learn more about the admissions requirements for the program, including specific courses prerequisites, minimum GPA, and related health care experience. You will also learn about the application deadline and start date.</p>
         </div>
     </section>
 
