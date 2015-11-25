@@ -150,16 +150,19 @@ section.full-width-banner-image {
 }
 
 .hsc-alums .inside-content h3.serif,
-.get-perks .inside-content h3.serif {
+.get-perks .inside-content h3.serif,
+.get-perks .inside-content h3.serif.line-header {
     margin-top: 0;
-    margin-bottom: 2%;
-    padding: .8% 0;
+    margin-bottom: .8em;
+    padding: .2em 0;
     border-top: 1px solid #900;
     border-bottom: 1px solid #900;
+    line-height: 1;
 }
 
 .hsc-alums .inside-content h3.serif span,
-.get-perks .inside-content h3.serif span {
+.get-perks .inside-content h3.serif span,
+.get-perks .inside-content h3.serif.line-header span {
     color: #900;
 }
 
@@ -1241,11 +1244,28 @@ a.authors__book__cta {
     margin-bottom: 40px;
 }
 
-.get-perks .sbu-outline-button {
+.get-perks .two-box .sbu-outline-button {
     display: block;
     margin: 0 auto;
     width: 160px;
     text-align: center;
+}
+
+
+
+
+section.explore-benefits {
+    padding-top: 3em;
+}
+
+section.explore-benefits h3 {
+    color: #fff;
+    border: 0 none;
+    text-align: center;
+}
+
+.benefits-category h3.serif {
+    
 }
 
 

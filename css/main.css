@@ -1331,6 +1331,10 @@ body {
         cursor: pointer;
     }
 
+    .black-rays-bkg .rounded-image-buttons a {
+        border-color: #1a1a1a;
+    }
+
     @media only screen and (min-width: 768px) {
         .rounded-image-buttons a {
             width: 21%;

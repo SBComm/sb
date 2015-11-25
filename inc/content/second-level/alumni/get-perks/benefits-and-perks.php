@@ -13,22 +13,10 @@
             </div>
         </div>
         <div class="border-box wrapper clearfix">
-            <div class="rounded-image-buttons clearfix">
-                <a class="on-campus-benefits" href="alumni/benefits-and-perks/on-campus-benefits"><div class="label">On Campus Benefits</div></a>
-                <a class="travel-and-leisure" href="alumni/benefits-and-perks/travel-and-leisure"><div class="label">Travel &amp; Leisure</div></a>
-                <a class="shopping" href="alumni/benefits-and-perks/shopping"><div class="label">Shopping</div></a>
-                <a class="home-and-life" href="alumni/benefits-and-perks/home-and-life"><div class="label">Home &amp; Life</div></a>
-                <a class="fitness-and-wellness" href="alumni/benefits-and-perks/fitness-and-wellness"><div class="label">Fitness &amp; Wellness</div></a>
-                <a class="dining" href="alumni/benefits-and-perks/dining"><div class="label">Dining</div></a>
-            </div>
-        </div>
-        <div class="border-box wrapper clearfix pad-top">
-            <div class="whole clearfix content">
-                <h4>Lots of Opportunities</h4>
-                <p>Discover opportunities in continuing education, online courses and special invitations to lectures and programs through lifelong learning, and learn about school news, alumni highlights, upcoming events, new benefits and more on <a class="external-link" href="http://sb.cc.stonybrook.edu/happenings/alumni/" target="_blank">Stony Brook Matters</a>, our news site for alumni and friends.</p>
-                <h4>Get Involved</h4>
-                <p>Your Alumni Association also sponsors a number of social and networking events that provide a forum for new friendships and business relationships. Be sure to <a href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">send us your news and contact information</a> to stay connected to your University and fellow graduates - and learn more about how to show your Stony Brook spirit and pride!</p>
-            </div>
+            <?php
+                $file = "widgets/alumni-benefits-buttons.php";
+                include($path . $file);
+            ?>
         </div>
     </section>
 
@@ -50,12 +38,16 @@
         </div>
     </section>
 
-    <?php
-        $rays_breaker_color = "black";
-        $fixed_background = true;
-        $file = "widgets/rays-breaker.php";
-        include($path . $file);
-    ?>
+    <section class="clearfix alumni-header inside-content main-inside-content white-background">
+        <div class="border-box wrapper clearfix pad-top">
+            <div class="whole clearfix content">
+                <h4>Lots of Opportunities</h4>
+                <p>Discover opportunities in continuing education, online courses and special invitations to lectures and programs through lifelong learning, and learn about school news, alumni highlights, upcoming events, new benefits and more on <a class="external-link" href="http://sb.cc.stonybrook.edu/happenings/alumni/" target="_blank">Stony Brook Matters</a>, our news site for alumni and friends.</p>
+                <h4>Get Involved</h4>
+                <p>Your Alumni Association also sponsors a number of social and networking events that provide a forum for new friendships and business relationships. Be sure to <a href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">send us your news and contact information</a> to stay connected to your University and fellow graduates &#8212; and learn more about how to show your Stony Brook spirit and pride!</p>
+            </div>
+        </div>
+    </section>
 
     <!-- <social-sidebar> -->
         <?php if($social_sidebar!='') {
