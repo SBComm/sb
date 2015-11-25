@@ -69,7 +69,7 @@
             </div>
         </div>
     </section>
-
+<!--
     <section class="cost-of-attendance inside-content clearfix">
         <div class="wrapper border-box">
             <h3>Cost of Attendance</h3>
@@ -262,7 +262,7 @@
             </div>
         </div>
     </section>
-
+-->
      <section class="fin-aid-stats black-background inside-content clearfix">
         <div class="wrapper border-box">
             <h3 class="aqua">Financial Aid and Scholarships</h3>
@@ -281,12 +281,14 @@
             <div class="content clearfix">
                 <p>In an era where stories about rising student debt and default rates appear daily in the media, Stony Brook students graduate with low debt, and have much smaller default rates compared to both national and New York State averages.</p>
             </div>
+            <!--
             <ul class="light clearfix">
                 <li class="label">3 year <span class="note">default rate (2011)</span></li>
                 <li class="usa clearfix"><span class="stat">13.7%</span><span class="label">National</span></li>
                 <li class="newyork clearfix"><span class="stat"><span class="less-spacing">10</span>.1%</span><span class="label">New York State</span></li>
                 <li class="shield clearfix"><span class="stat">5.1%</span><span class="label">Stony Brook University</span></li>
             </ul>
+            -->
             <!--
             <ul class="dark clearfix">
                 <li class="label">2 year <span class="note">default rate (2011)</span></li>
