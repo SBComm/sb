@@ -23,6 +23,10 @@
         display: inline-block;
         margin: 0 0 15px;
     }
+
+    .social-sidebar .sidebar-wrapper {
+        padding-top: 15px;
+    }
 }
 
 .alumni-chapter .owl-next,
@@ -120,6 +124,20 @@ section.full-width-banner-image {
         background-position: 50% 40%;
     }
 
+    .give-back-page .inside-header {
+        background-image: url("../../img/student-life/alumni-student-mentoring-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .get-perks .inside-header {
+        background-image: url("../../img/student-life/seawolves-bus-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
 /* Inside content - custom serif headers */
 
 .inside-content h3.serif {
@@ -131,7 +149,8 @@ section.full-width-banner-image {
     margin-top: 1.6em;
 }
 
-.hsc-alums .inside-content h3.serif {
+.hsc-alums .inside-content h3.serif,
+.get-perks .inside-content h3.serif {
     margin-top: 0;
     margin-bottom: 2%;
     padding: .8% 0;
@@ -139,7 +158,8 @@ section.full-width-banner-image {
     border-bottom: 1px solid #900;
 }
 
-.hsc-alums .inside-content h3.serif span {
+.hsc-alums .inside-content h3.serif span,
+.get-perks .inside-content h3.serif span {
     color: #900;
 }
 
@@ -441,6 +461,42 @@ section.full-width-banner-image {
 
 .rounded-image-buttons .phx {
     background-image: url("../../img/alumni/buttons/confetti.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .on-campus-benefits {
+    background-image: url("../../img/alumni/buttons/on-campus-benefits.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .travel-and-leisure {
+    background-image: url("../../img/alumni/buttons/travel-and-leisure.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .fitness-and-wellness {
+    background-image: url("../../img/alumni/buttons/fitness-and-wellness.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .dining {
+    background-image: url("../../img/alumni/buttons/dining.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .shopping {
+    background-image: url("../../img/alumni/buttons/shopping.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.rounded-image-buttons .home-and-life {
+    background-image: url("../../img/alumni/buttons/home-and-life.jpg");
     background-position: 50% 40%;
     background-size: cover;
 }
@@ -1151,6 +1207,49 @@ a.authors__book__cta {
 
 
 
+.give-back-page .event-gallery {
+    float: left;
+}
+
+
+
+.get-perks .rounded-image-buttons {
+    margin-top: 0;
+}
+
+.get-perks .two-box {
+    padding: 5% 0;
+}
+
+.get-perks .two-box .col-2 {
+    background: #fff;
+    border: 1px solid #000;
+    padding: 6% 5%;
+    margin-bottom: 20px;
+}
+
+.get-perks img {
+    display: block;
+    width: auto;
+    clear: both;
+    margin: 0 auto 30px;
+    max-width: 100%;
+}
+
+.get-perks .alumni-card {
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+
+.get-perks .sbu-outline-button {
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    text-align: center;
+}
+
+
+
 
 
 .slick-slide:focus {
@@ -1514,6 +1613,14 @@ a.authors__book__cta {
         padding-left: 35px;
     }
 
+    .inside-page .two-third {
+        padding-right: 35px;
+    }
+
+    .inside-page .one-third + .two-third {
+        padding-right: 0;
+    }
+
     .inside-page .left-col-content {
         padding-left: 0;
     }
@@ -1639,6 +1746,23 @@ a.authors__book__cta {
         max-width: 240px;
         margin-right: 30px;
         margin-top: 0;
+    }
+
+
+    .get-perks .rounded-image-buttons a {
+        width: 29.333%;
+        height: 220px;
+        margin: 2%;
+        font-size: 1.8em;
+    }
+
+    .get-perks .two-box .col-2 {
+        width: 48%;
+        margin: 0 2% 0 0;
+    }
+
+    .get-perks .two-box .col-2 + .col-2 {
+        margin: 0 0 0 2%;
     }
 
 }

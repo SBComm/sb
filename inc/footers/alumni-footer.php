@@ -1,4 +1,10 @@
-               <footer class="site-footer clearfix">
+    <?php
+        $campaignColor = "red";
+        $file = "widgets/campaign-banner.php";
+        include($path . $file);
+    ?>
+    
+                   <footer class="site-footer clearfix">
                     <nav class="wrapper">
                          <div class="clearfix">
                          	<div class="col img-col">
@@ -10,11 +16,14 @@
                                         <a href="alumni/events-and-reunions">Events &amp; Reunions</a>
                                         <a href="alumni/chapters">Chapters</a>
                                         <a href="alumni/hsc-alums">HSC Alums</a>
+                                        <a href="alumni/students">Students</a>
+                                        <a href="alumni/recent-grads">Recent Grads</a>
                                    </div>
                                    <div class="links">
                                         <h4><a href="alumni/news-and-spotlight">Get Informed</a></h4>
                                         <a href="alumni/news-and-spotlight#news">News</a>
                                         <a href="alumni/news-and-spotlight#spotlight">Alumni Spotlight</a>
+                                        <a href="alumni/news-and-spotlight#authors">Authors</a>
                                    </div>
                                    <div class="links">
                                         <h4><a href="alumni/benefits-and-perks">Get Perks</a></h4>

@@ -12,7 +12,6 @@
                     <img class="inline-with-copy" src="img/alumni/board/stafford.jpg" alt="Robert W. Stafford" />
                     <h4>Students, We’re Here for You!</h4>
                     <p><strong>A Message From the Alumni Association President:</strong></p>
-                    </p>
                     <p>It’s never too early to discover the benefits of being a Stony Brook alum. Please stop by the Office of Alumni Relations on the first floor of the Melville Library. You can learn more about the Alumni Association and how to find a mentor or internship opportunities with alums. We’d be delighted to share with you information about our student scholarships programs and other opportunities to further enrich your Stony Brook experience.</p>
                     <p>Sincerely,</p>
                     <p>Robert W. Stafford ’72, ’82</p>

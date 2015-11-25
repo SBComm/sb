@@ -40,7 +40,7 @@
                 </div>
                 <div class="border-box whole news-and-events">
                     <div class="one-half serif-news-titles">
-                        <h4>Transcrips &amp; Diplomas</h4>
+                        <h4>Transcripts &amp; Diplomas</h4>
                         <p>Want to order a transcript or duplicate diploma?</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://www.stonybrook.edu/commcms/registrar/forms/forms.html" target="_blank">Contact the registrar</a>
                     </div>

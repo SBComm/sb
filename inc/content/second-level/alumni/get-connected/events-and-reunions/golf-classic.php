@@ -27,7 +27,7 @@
                         <p>For more information about the upcoming Scholarship Golf Classic, please call (631) 632-4466.</p>
                     </div>
                     <div class="one-third">
-                        <img src="https://farm1.staticflickr.com/344/19092333466_9b541431d2_z.jpg" alt="Four golfers posing for a shot" />
+                        <img src="img/alumni/misc/golf.jpg" alt="Four golfers posing for a shot" />
                     </div>
                 </div>
                 <div class="border-box whole clearfix pad-top">

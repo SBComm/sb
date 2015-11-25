@@ -12,7 +12,6 @@
                     <img class="inline-with-copy" src="img/alumni/board/stafford.jpg" alt="Robert W. Stafford" />
                     <h4>You're a Seawolf for Life!</h4>
                     <p><strong>A Message From the Alumni Association President:</strong></p>
-                    </p>
                     <p>What's a Seawolf? You're a Seawolf! As a new graduate from Stony Brook University, you are now an official 'Seawolf for Life.'</p>
                     <p>There are so many opportunities for you to be inspired, stay connected, and become more involved with the University. Whether by attending an alumni reunion, mentoring a current student, networking with fellow alums or re-connecting with professors, our goal is to help you stay engaged with your alma mater.</p>
                     <p>Sincerely,</p>
@@ -64,7 +63,7 @@
                     <div class="two-third">
                         <h4>Alumni Association Card</h4>
                         <p>Save money with one of our perks exclusively for Stony Brook alumni!</p>
-                        <p>As a Stony Brook alum, you are eligible for discounted hotel and rental car offers, use of alumni facilities, savings on insurance products, retail discounts, and more.</p>
+                        <p>As a Stony Brook alum, you are eligible for special offers on hotels, access to alumni facilities, savings on insurance products, retail discounts, and more.</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=437" target="_blank">Learn More</a>
                     </div>
                 </div>

@@ -5,21 +5,25 @@
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="03">
+                            <div class="white-fade-bottom"></div>
                         </div>
-                        <a href="alumni/recent-grad" title="Land Your Dream Job"><h1 class="tagline bottom">Recent Grad? We're here for you!</h1></a>
+                        <a href="alumni/recent-grads" title="Land Your Dream Job"><h1 class="tagline bottom">Recent Grad? We're here for you!</h1></a>
                     </div>
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="02">
+                            <div class="white-fade-bottom"></div>
                         </div>
                         <a href="alumni/send-us-your-news" title="Land Your Dream Job"><h1 class="tagline bottom">Where in the world have you been?</h1></a>
                     </div>
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="04">
+                            <div class="white-fade-bottom"></div>
                         </div>
                         <a href="alumni/events-and-reunions" title="Land Your Dream Job"><h1 class="tagline bottom">Come Back to the Brook</h1></a>
                     </div>
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="01">
+                            <div class="white-fade-bottom"></div>
                         </div>
                         <a href="http://career.stonybrook.edu/alumni_new" title="Land Your Dream Job" target="_blank"><h1 class="tagline bottom">Land Your Dream Job</h1></a>
                     </div>
@@ -119,7 +123,7 @@
                             -->
                             */
                             $file  = "feed/active-data-calendar.php";
-                            $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx?category=8-67";
+                            $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx?category=8-0";
                             $count = 3;
                             $end = 3;
                             include($path . $file);

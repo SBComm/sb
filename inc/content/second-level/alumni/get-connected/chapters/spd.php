@@ -24,7 +24,7 @@
                     <p>The Stony Brook University School of Professional Development Alumni Chapter connects alumni and current students of the School of Professional Development through reunions, events and networking opportunities. </p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white clearfix">
                         <div class="one-half">
-                            <h4 class="on-red">News</h4>
+                            <h5 class="on-red">News</h5>
                             <div class="activities-links">
                                 <?php
                                     $file  = "feed/happenings-news.php";
@@ -38,7 +38,7 @@
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/category/school-of-prof-devel-alumni" target="_blank">Read More News</a>
                         </div>
                         <div class="one-half">
-                            <h4 class="on-red">Events</h4>
+                            <h5 class="on-red">Events</h5>
                             <div class="news-feed">
                                 <?php
                                     $file  = "feed/active-data-calendar.php";
@@ -55,7 +55,7 @@
                     <!--
                     <div class="whole event-gallery flickr-gallery clearfix" data-flickr-id="72157659517976382">
                         <div class="border-box inside-content">
-                            <h4 class="on-red">Gallery</h4>
+                            <h5 class="on-red">Gallery</h5>
                             <div class="carousel-wrapper">
                                 <div id="the-carousel" class="owl-carousel">
                                     <!-- Images loaded via AJAX from Flickr --><!--

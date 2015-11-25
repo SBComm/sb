@@ -122,7 +122,7 @@
                     <div class="border-box whole clearfix section-border-top">
                         <div class="border-box one-half padding-box">
                             <h4>School of Medicine Alumni Board</h4>
-                            <h4 class="on-red">Board Members</h4>
+                            <h5 class="on-red">Board Members</h5>
                             <div class="drop-accordion drop-accordion-1 clearfix">
                                 <div class="item">
                                     <div class="tab">
@@ -430,7 +430,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <h4 class="on-red">Student Representatives</h4>
+                            <h5 class="on-red">Student Representatives</h5>
                             <div class="drop-accordion drop-accordion-1 clearfix">
                                 <div class="item">
                                     <div class="tab">
@@ -591,7 +591,7 @@
 
     <section class="event-gallery flickr-gallery clearfix no-float-button" data-flickr-id="72157659517976382">
         <div class="border-box wrapper inside-content">
-            <h4 class="on-red">Gallery</h4>
+            <h5 class="on-red">Gallery</h5>
             <div class="carousel-wrapper">
                 <div id="the-carousel" class="owl-carousel">
                     <!-- Images loaded via AJAX from Flickr -->
@@ -607,7 +607,7 @@
     <section class="clearfix inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
             <div class="whole clearfix">
-                <h4 class="on-red">Links and Resources</h4>
+                <h5 class="on-red">Links and Resources</h5>
                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.facebook.com/groups/175858250074/" target="_blank">View on Facebook</a>
                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.linkedin.com/grps?gid=8232333" target="_blank">View on LinkedIn</a>
                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.doximity.com/" target="_blank">Doximity</a>

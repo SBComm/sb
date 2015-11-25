@@ -24,7 +24,7 @@
                     <p>The purpose of the MBA Association at Stony Brook University is to be an advocate and representative of the graduate students and alumni of the Stony Brook University College of Business; to foster and facilitate strategic networking opportunities as well as social interactions among students, faculty, alumni, administrators, and the business community; to engage the business community to actively participate in the education and training of business professionals while providing career opportunities for advancement; and to increase global recognition of the Stony Brook University College of Business.</p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">
                         <div class="one-half">
-                            <h4 class="on-red">News</h4>
+                            <h5 class="on-red">News</h5>
                             <div class="activities-links">
                                 <?php
                                     $file  = "feed/happenings-news.php";
@@ -38,7 +38,7 @@
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/category/college-of-business-alumni" target="_blank">Read More News</a>
                         </div>
                         <div class="one-half">
-                            <h4 class="on-red">Events</h4>
+                            <h5 class="on-red">Events</h5>
                             <div class="news-feed">
                                 <?php
                                     $file  = "feed/active-data-calendar.php";
@@ -53,12 +53,12 @@
                         </div>
                     </div>
                     <div class="whole activities-and-calendar clearfix">
-                        <h4 class="on-red">Links and Resources</h4>
+                        <h5 class="on-red">Links and Resources</h5>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.facebook.com/groups/21404043536/" target="_blank">View on Facebook</a>
                     </div>
                     <div class="whole event-gallery flickr-gallery clearfix" data-flickr-id="72157659517976382">
                         <div class="border-box inside-content">
-                            <h4 class="on-red">Gallery</h4>
+                            <h5 class="on-red">Gallery</h5>
                             <div class="carousel-wrapper">
                                 <div id="the-carousel" class="owl-carousel">
                                     <!-- Images loaded via AJAX from Flickr -->

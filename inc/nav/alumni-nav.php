@@ -23,7 +23,7 @@
             	</a>
             </li>
 			<li class="clearfix no-dropdown larger<?php if($sub_nav_selected_tab==4) echo(' selected'); ?>">
-            	<a href="alumni/give" class="clearfix" data-drop-nav-id="0">
+            	<a href="alumni/give-back" class="clearfix" data-drop-nav-id="0">
             		<span class="label clearfix">Give Back</span>
             	</a>
             </li>
