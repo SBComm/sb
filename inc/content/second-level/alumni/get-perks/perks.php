@@ -6,10 +6,9 @@
     </section>
     <section class="clearfix alumni-header inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix pad-top">
-            <div class="whole clearfix content">
-                <h4>Exclusive Perks</h4>
+            <div class="whole clearfix content pad-top">
+                <h3 class="serif">Alumni Perks</h3>
                 <p>As a Stony Brook alum, you’re a “Seawolf for life” and are eligible for some exclusive alumni perks. Take advantage of discounts on campus events and facilities, hotels, insurance and home energy, as well as great offers on entertainment and dining. Alumni Career Services offers a variety of lifetime career services, tools and resources for Stony Brook grads.</p>
-                <p>Discover opportunities in continuing education, online courses and special invitations to lectures and programs through lifelong learning, and learn about school news, alumni highlights, upcoming events, new perks and more on <a class="external-link" href="http://sb.cc.stonybrook.edu/happenings/alumni/" target="_blank">Stony Brook Matters</a>, our news site for alumni and friends.</p>
                 <p>Take a look at some of what's available to you as a Stony Brook Alum:</p>
             </div>
         </div>
@@ -41,22 +40,83 @@
 
     <section class="clearfix alumni-header inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix pad-top">
-            <div class="border-box whole clearfix">
+            <div class="border-box whole clearfix content">
                 <div class="one-third">
-                    <img src="img/alumni/perks/pentimento.jpg" alt="Pentimento Italian Restaurant dining room" />
+                    <img src="img/alumni/perks/email.jpg" alt="Gmail envelope" />
                 </div>
                 <div class="two-third">
-                    <h4>Pentimento</h4>
-                    <p>When you request your bill, simply present your Alumni Association card to receive a 10% discount. For reservations, call (631) 689-7755.</p>
-                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://www.pentimentorestaurant.net/" target="_blank">View website</a>
+                    <h4>Alumni Email for Life</h4>
+                    <p>The Stony Brook University Alumni Association offers free and private email accounts exclusively for our alumni. Stay connected with classmates and friends when you create an Email for Life account!</p>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">Get an account</a>
+                    <p></p>
+                    <h5>Features:</h5>
+                    <ul class="default-bullets">
+                        <li>Use your alumni email address as a web-based email account and access your email from anywhere in the world via an Internet connection using Gmail.</li>
+                        <li>Set your address to forward to another account.</li>
+                        <li>Stop worrying about sending friends and colleagues a new address every time you change Internet Service Providers — give them one address that follows you wherever you go!</li>
+                    </ul>
+                    <h5>Frequently Asked Questions:</h5>
+                    <div class="drop-accordion drop-accordion-1 clearfix">
+                        <div class="item">
+                            <div class="tab">
+                                <span class="label"><i class="fa fa-plus-circle"></i>At what point are student@stonybrook.edu accounts deactivated?</span>
+                            </div>
+                            <div class="content clearfix hide-accessible">
+                                <div class="content-wrap">
+                                    <p>Student@stonybrook.edu accounts are deactivated 200 days.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tab">
+                                <span class="label"><i class="fa fa-plus-circle"></i>How can I transfer my current files?</span>
+                            </div>
+                            <div class="content clearfix hide-accessible">
+                                <div class="content-wrap">
+                                    <p>Learn how to keep your current documents <a href="http://it.stonybrook.edu/pages/leaving-stony-brook">here</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tab">
+                                <span class="label"><i class="fa fa-plus-circle"></i>How long will it take to receive my you@alumni.stonybrook.edu account? </span>
+                            </div>
+                            <div class="content clearfix hide-accessible">
+                                <div class="content-wrap">
+                                    <p>You should expect a response within 48 hours.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="whole clearfix clearfix content section-border-top">
-                <h4>Alumni Email for Life</h4>
-                <p>The Stony Brook University Alumni Association offers free and private email accounts exclusively for our alumni. Stay connected with classmates and friends when you <a href="#">create an Email for Life account</a>!</p>
+                <div class="one-third">
+                    <img src="img/alumni/buttons/on-campus-benefits.jpg" alt="Wolfie" />
+                </div>
+                <div class="two-third">
+                    <h4>Spirit and Pride</h4>
+                    <p>The spirit of Stony Brook University stays with you long after graduation. Show that you are a proud Stony Brook alumnus with your class ring, custom Stony Brook license plate or by coming back to the Brook to cheer your Seawolves on to victory.</p>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/perks/spirit-and-pride">Get in the SBU Spirit</a>
+                </div>
+            </div>
+            <div class="whole clearfix clearfix content section-border-top">
+                <div class="one-third">
+                    <img src="img/alumni/perks/workshops.jpg" alt="A Stony Brook Alum Professional" />
+                </div>
+                <div class="two-third">
+                    <h4>Lifelong Learning</h4>
+                    <p>Discover opportunities in continuing education, online courses and special invitations to lectures and programs through Lifelong Learning.</p>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/perks/lifelong-learning">Discover opportunities</a>
+                </div>
             </div>
         </div>
     </section>
+
+    <?php
+        $file = "widgets/sb-matters-promo.php";
+        include($path . $file);
+    ?>
 
     <!-- <social-sidebar> -->
         <?php if($social_sidebar!='') {

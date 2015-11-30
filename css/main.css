@@ -4512,6 +4512,22 @@ body {
         }
     }
 
+    /* Promo Sections */
+
+    .sb-matters-promo {
+        text-align: center;
+    }
+
+    .sb-matters-promo p {
+        font-family:'CenturySchoolbookW01-It 927458';
+        font-weight: 400;
+        font-size: 1.3em;
+        width: 80%;
+        margin: 30px 10% 20px;
+        text-align: center;
+        color: #ddd;
+    }
+
 /* Container elements */
 
 .container {
