@@ -8,7 +8,7 @@
     <section class="clearfix inside-content main-inside-content white-background margin-top benefits-category">
         <div class="border-box wrapper clearfix">
             <div class="content pad-top">
-                <h3 class="serif">Home &amp; Life</h3>
+                <h3 class="serif">Travel &amp; Leisure</h3>
                 <div class="border-box whole">
                     <div class="one-third">
                         <img src="img/alumni/perks/action-park.jpg" alt="People on a gigantic water slide" />
