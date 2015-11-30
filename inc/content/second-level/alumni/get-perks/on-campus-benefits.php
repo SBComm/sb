@@ -8,16 +8,15 @@
     <section class="clearfix inside-content main-inside-content white-background margin-top benefits-category">
         <div class="border-box wrapper clearfix">
             <div class="content pad-top">
-                <h3 class="serif">Fitness &amp; Wellness</h3>
+                <h3 class="serif">On Campus Benefits</h3>
                 <div class="border-box whole">
                     <div class="one-third">
-                        <a href="http://stonybrookbreak.com" title="Get 25% break on special yoga class packages at Bikram Yoga Setauket" target="_blank"><img src="img/alumni/perks/yoga-logo.png" alt="Bikram Yoga Logo" /></a>
+                        <img src="img/student-life/football-video.jpg" alt="Football player" />
                     </div>
                     <div class="two-third margin-bottom">
-                        <h4>Bikram Yoga Setauket: Stony Brook</h4>
-                        <p>Stony Brook alumni, faculty, staff and students receive a <strong>25% break</strong> on special yoga class packages at Bikram Yoga Setauket.</p>
-                        <p>Visit <a href="http://stonybrookbreak.com" target="_blank">stonybrookbreak.com</a> today to lock in your special rate!</p>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://stonybrookbreak.com/" target="_blank">Get discount</a>
+                        <h4>Athletics&#8212;Savings for Recent Graduates</h4>
+                        <p>Stony Brook Athletics offers an exclusive $10 discount on Seawolves Football season tickets for alumni who’ve graduated within the last five years.</p>
+                        <p>For more information, rates and seat locations, call (631) 632-WOLF.</p>
                     </div>
                 </div>
                 <div class="border-box whole clearfix section-border-top">
@@ -65,13 +64,44 @@
                 </div>
                 <div class="border-box whole clearfix section-border-top">
                     <div class="one-third">
-                        <img src="img/alumni/perks/relax.jpg" alt="Oasis Day Spa" />
+                        <img src="img/student-life/summer-session-international.jpg" alt="Outside photo of Library" />
+                    </div>
+                    <div class="two-third margin-bottom">
+                        <h4>In-Person Access to University Libraries</h4>
+                        <p>With more than two million volumes, hundreds of databases and state-of-the-art information services, Stony Brook University Libraries services alumni, students, faculty and the surrounding community.</p>
+                        <p>Simply present your Alumni Association card at the Library Desk for access.</p>
+                        <p><em>Access to library databases is available via Stony Brook University computers only. Some restrictions apply concerning databases and Interlibrary Loan.</em></p>
+                    </div>
+                </div>
+                <div class="border-box whole clearfix section-border-top">
+                    <div class="one-third">
+                        <img src="img/alumni/perks/spd.jpg" alt="Image of an SBU Professional" />
+                    </div>
+                    <div class="two-third margin-bottom">
+                        <h4>School of Professional Development</h4>
+                        <p>SPD's Division of Career Development offers a wide range of comprehensive, non-credit courses in business and professional skills training. Alumni receive a 10% discount on select non-credit courses offered on campus.</p>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://stonybrook.edu/spd/career" target="_blank">Get more info</a>
+                    </div>
+                </div>
+                <div class="border-box whole clearfix section-border-top">
+                    <div class="one-third">
+                        <img src="img/buildings/staller-1.jpg" alt="Staller Center" />
                     </div>
                     <div class="two-third">
-                        <h4>Oasis Day Spa</h4>
-                        <p>Show your Stony Brook Alumni Association card, print this page or show this screen on your phone to receive your 15% alumni discount on spa services, including massage therapy, skincare, hydrotherapy, waxing, hair and nails. Make an appointment with a guest and your guest will receive a 10% discount.</p>
-                        <p>Call the spa for details at (212) 254-7722 and visit their website for their newly renovated location at 1 Park Avenue in <a href="http://www.oasisdayspanyc.com/" target="_blank">New York City</a> or their <a href="http://www.oasisdayspanyc.com/oasis-westchester/" target="_blank">Westchester location</a>.</p>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://www.oasisdayspanyc.com/" target="_blank">Get more info</a>
+                        <h4>Staller Center for the Arts</h4>
+                        <p>The Staller Center is the regional jewel for world-class music, dance, film and children’s live theater programs.</p>
+                        <p>Present your Alumni Association card to receive your $3 alumni discount on each full-priced ticket you buy!</p>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://stallercenter.com/" target="_blank">View events</a>
+                    </div>
+                </div>
+                <div class="border-box whole clearfix section-border-top">
+                    <div class="one-third">
+                        <img src="img/student-life/marquee-info-for-veterans-768.jpg" alt="Stony Brook Flags" />
+                    </div>
+                    <div class="two-third">
+                        <h4>University Bookstore</h4>
+                        <p>Sign up to get exclusive discounts such as 25% off, free shipping and other promotional offers delivered straight to your inbox! Use code <strong>SBUALUM</strong> to receive 10% off online purchases.</p>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://www.stonybrook.edu/provostliasn/bookstore/contact-us.shtml" target="_blank">Sign Up Today</a>
                     </div>
                 </div>
             </div>

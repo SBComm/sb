@@ -1,7 +1,7 @@
 <article class="get-connected get-perks inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><a href="alumni/benefits-and-perks">Benefits &amp; Perks</a></h2>
+            <h2><a href="alumni/benefits-and-perks">Perks</a></h2>
         </div>
     </section>
     
@@ -15,8 +15,8 @@
                     </div>
                     <div class="two-third margin-bottom">
                         <h4>Midtown Executive Club</h4>
-                        <p>Whether you’re meeting with colleagues, dining with clients or entertaining, the Midtown Executive Club allows you to conduct business in a relaxed atmosphere and stay productive while on the move and in between meetings. Club Quarters are full services hotels for the use of our members and their guests; member benefits offer prime locations at fixed low rates which are honored even when the city is full.</p>
-                        <p>Alumni are eligible for the benefits and privileges of the Midtown Executive Club in Manhattan as well as its international locations at a discounted membership rate of $250 per year plus tax. (The regular cost for general membership is $595 per year plus tax ).</p>
+                        <p>Whether you’re meeting with colleagues, dining with clients or entertaining, the Midtown Executive Club allows you to conduct business in a relaxed atmosphere and stay productive while on the move and in between meetings. Club Quarters are full service hotels for the use of our members and their guests; member perks offer prime locations at fixed low rates which are honored even when the city is full.</p>
+                        <p>Alumni are eligible for the perks and privileges of the Midtown Executive Club in Manhattan as well as its international locations at a discounted membership rate of $250 per year plus tax. (The regular cost for general membership is $595 per year plus tax ).</p>
                         <p>Remember to present your Alumni Association card when setting up your membership!</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://www.midtownexecutiveclub.com/" target="_blank">View website</a>
                     </div>
@@ -48,7 +48,7 @@
                     <div class="two-third">
                         <h4>Stony Brook Village Center</h4>
                         <p>Present your Alumni Association card at the Ward Melville Heritage Organization Educational &amp; Cultural Center in the Stony Brook Village Center to receive your Free Discount Courtesy Card for access to discounts at Village Center merchants such as Chico's, Crazy Beans and more.</p>
-                        <p>For directions or further information, call the Village Center at (631) 689-5888, or visit <a class="external-link" href="http://stonybrookvillage.com" target="_blank">stonybrookvillage.com</a> or <a class="external-link" href="http://wardmelvilleheritage.org" target="_blank">wardmelvilleheritage.org</a>.</p>
+                        <p>For directions or further information, call the Village Center at (631) 689-5888, or visit <a class="external-link" href="http://stonybrookvillage.com" target="_blank">stonybrookvillage.com</a>.</p>
                     </div>
                 </div>
             </div>

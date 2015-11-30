@@ -24,7 +24,7 @@
                         <h4>Lead Chapters &amp; Clubs</h4>
                         <p>Whether you were on a team, in a sorority or fraternity, lived on campus, or have moved overseas, chances are we can help you reconnect, network, and stay in touch with your Stony Brook friends.</p>
                         <p>Just scan through the list of existing chapters and clubs. If you don’t find what you’re looking for, the Alumni Relations staff will help you get one started!</p>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/get-connected/chapters">Explore chapters</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/chapters">Explore chapters</a>
                     </div>
                     <div class="one-third">
                         <img src="https://farm9.staticflickr.com/8658/16511225519_b49e075869_z.jpg" />
