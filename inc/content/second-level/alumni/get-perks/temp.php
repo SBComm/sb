@@ -1,7 +1,7 @@
 <article class="get-connected get-perks inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><a href="alumni/benefits-and-perks">Perks</a></h2>
+            <h2><a href="alumni/perks">Perks</a></h2>
         </div>
     </section>
     

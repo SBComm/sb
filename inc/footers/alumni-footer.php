@@ -26,8 +26,8 @@
                                         <a href="alumni/news-and-spotlight#authors">Authors</a>
                                    </div>
                                    <div class="links">
-                                        <h4><a href="alumni/benefits-and-perks">Get Perks</a></h4>
-                                        <a href="alumni/benefits-and-perks">Benefits</a>
+                                        <h4><a href="alumni/perks">Get Perks</a></h4>
+                                        <a href="alumni/perks">Benefits</a>
                                         <a href="alumni/careers">Careers</a>
                                         <a href="alumni/lifelong-learning">Lifelong Learning</a>
                                         <a href="alumni/sbu-pride">SBU Pride</a>

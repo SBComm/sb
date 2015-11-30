@@ -1,7 +1,7 @@
-<article class="get-connected get-perks">
+<article class="get-connected get-perks inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><a href="alumni/benefits-and-perks">Perks</a></h2>
+            <h2><a href="alumni/perks">Perks</a></h2>
         </div>
     </section>
     <section class="clearfix alumni-header inside-content main-inside-content white-background">
@@ -9,6 +9,7 @@
             <div class="whole clearfix content">
                 <h4>Exclusive Perks</h4>
                 <p>As a Stony Brook alum, you’re a “Seawolf for life” and are eligible for some exclusive alumni perks. Take advantage of discounts on campus events and facilities, hotels, insurance and home energy, as well as great offers on entertainment and dining. Alumni Career Services offers a variety of lifetime career services, tools and resources for Stony Brook grads.</p>
+                <p>Discover opportunities in continuing education, online courses and special invitations to lectures and programs through lifelong learning, and learn about school news, alumni highlights, upcoming events, new perks and more on <a class="external-link" href="http://sb.cc.stonybrook.edu/happenings/alumni/" target="_blank">Stony Brook Matters</a>, our news site for alumni and friends.</p>
                 <p>Take a look at some of what's available to you as a Stony Brook Alum:</p>
             </div>
         </div>
@@ -40,11 +41,19 @@
 
     <section class="clearfix alumni-header inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix pad-top">
-            <div class="whole clearfix content">
-                <h4>Lots of Opportunities</h4>
-                <p>Discover opportunities in continuing education, online courses and special invitations to lectures and programs through lifelong learning, and learn about school news, alumni highlights, upcoming events, new perks and more on <a class="external-link" href="http://sb.cc.stonybrook.edu/happenings/alumni/" target="_blank">Stony Brook Matters</a>, our news site for alumni and friends.</p>
-                <h4>Get Involved</h4>
-                <p>Your Alumni Association also sponsors a number of social and networking events that provide a forum for new friendships and business relationships. Be sure to <a href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">send us your news and contact information</a> to stay connected to your University and fellow graduates &#8212; and learn more about how to show your Stony Brook spirit and pride!</p>
+            <div class="border-box whole clearfix">
+                <div class="one-third">
+                    <img src="img/alumni/perks/pentimento.jpg" alt="Pentimento Italian Restaurant dining room" />
+                </div>
+                <div class="two-third">
+                    <h4>Pentimento</h4>
+                    <p>When you request your bill, simply present your Alumni Association card to receive a 10% discount. For reservations, call (631) 689-7755.</p>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://www.pentimentorestaurant.net/" target="_blank">View website</a>
+                </div>
+            </div>
+            <div class="whole clearfix clearfix content section-border-top">
+                <h4>Alumni Email for Life</h4>
+                <p>The Stony Brook University Alumni Association offers free and private email accounts exclusively for our alumni. Stay connected with classmates and friends when you <a href="#">create an Email for Life account</a>!</p>
             </div>
         </div>
     </section>

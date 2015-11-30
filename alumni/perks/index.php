@@ -119,7 +119,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-perks/benefits-and-perks.php";
+								$file = "alumni/get-perks/perks.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->

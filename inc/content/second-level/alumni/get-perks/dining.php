@@ -1,7 +1,7 @@
 <article class="get-connected get-perks inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><a href="alumni/benefits-and-perks">Perks</a></h2>
+            <h2><a href="alumni/perks">Perks</a></h2>
         </div>
     </section>
     
@@ -21,7 +21,7 @@
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://www.midtownexecutiveclub.com/" target="_blank">View website</a>
                     </div>
                 </div>
-                <div class="border-box whole clearfix give-back section-border-top left-col-content">
+                <div class="border-box whole clearfix section-border-top">
                     <div class="one-third">
                         <img src="img/alumni/perks/pentimento.jpg" alt="Pentimento Italian Restaurant dining room" />
                     </div>
@@ -41,7 +41,7 @@
                         <p>Red Mango is located at 2350 Nesconset Highway, Stony Brook, NY 11790.</p>
                     </div>
                 </div>
-                <div class="border-box whole clearfix give-back section-border-top left-col-content">
+                <div class="border-box whole clearfix section-border-top">
                     <div class="one-third">
                         <img src="img/alumni/perks/village.jpg" alt="Stony Brook Village" />
                     </div>

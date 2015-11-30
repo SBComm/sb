@@ -86,13 +86,13 @@
 
 <nav class="drop-nav border-box clearfix hide-accessible" data-drop-nav-id="3">
 	<div class="drop-nav-heading clearfix">
-		<a href="alumni/benefits-and-perks">Get Perks</a>
+		<a href="alumni/perks">Get Perks</a>
 		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
 	</div>
 	<div class="no-pad-wrapper clearfix">
 		<ul class="drop-nav-list border-box clearfix">
 			<li class="<?php if($drop_nav_selected_tab==19) echo('selected'); ?>" data-li-order="01">
-				<a href="alumni/benefits-and-perks" class="clearfix">
+				<a href="alumni/perks" class="clearfix">
 					<span class="label clearfix">Benefits</span>
 				</a>
 			</li>
