@@ -27,20 +27,20 @@
                                    </div>
                                    <div class="links">
                                         <h4><a href="alumni/perks">Get Perks</a></h4>
-                                        <a href="alumni/perks">Benefits</a>
-                                        <a href="alumni/careers">Careers</a>
+                                        <a href="alumni/perks">Perks</a>
                                         <a href="alumni/lifelong-learning">Lifelong Learning</a>
                                         <a href="alumni/sbu-pride">SBU Pride</a>
                                    </div>
                                    <div class="links">
                                         <h4><a href="alumni/give-back">Give Back</a></h4>
-                                        <a href="alumni/volunteer">Volunteer</a>
-                                        <a href="alumni/give">Make a Gift</a>
+                                        <a href="alumni/give-back">Volunteer</a>
+                                        <a href="http://stonybrook.edu/give">Make a Gift</a>
                                         <!--<a class="flip-on-hover" href="alumni/" title="Give Now"><img src="img/buttons/small-give-now.png" alt="Give Now Badge" /></a>-->
                                    </div>
                                    <div class="links">
                                         <h4><a href="alumni/contact">Stay In Touch</a></h4>
-                                        <a href="alumni/contact">Contact Us</a>
+                                        <a href="alumni/contact">Contact</a>
+                                        <a href="alumni/contact/visiting-sbu">Visit</a>
                                         <a href="alumni/contact#alumni-relations">Alumni Relations Office</a>
                                         <a href="alumni/contact#alumni-association">Alumni Association</a>
                                         <a href="alumni/contact#committees">Committees</a>

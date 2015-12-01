@@ -63,7 +63,7 @@
                             </div>
                             <div class="content clearfix hide-accessible">
                                 <div class="content-wrap">
-                                    <p>Student@stonybrook.edu accounts are deactivated 200 days.</p>
+                                    <p>Student@stonybrook.edu accounts are deactivated after 200 days.</p>
                                 </div>
                             </div>
                         </div>

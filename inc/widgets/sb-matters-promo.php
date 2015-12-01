@@ -1,4 +1,4 @@
-<section class="clearfix inside-content main-inside-content black-rays-bkg fixed-background margin-top explore-benefits sb-matters-promo">
+<section class="clearfix inside-content main-inside-content black-rays-bkg fixed-background explore-benefits sb-matters-promo">
     <div class="border-box wrapper clearfix pad-bottom">
         <div class="content pad-top pad-bottom">
 	        <h3>Get the Latest News</h3>

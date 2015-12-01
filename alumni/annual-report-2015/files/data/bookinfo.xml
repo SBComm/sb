@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--Copyright 2011, Trinity Innovations, http://www.3dissue.com-->
+<!--Mac OSX 4294967306.4294967305.140733193388037 Intel-->
+<value000>
+	<value030 value310="60" value700="01122015125807025" value028="1275" value029="1650" value031="1275" value032="1650" value031l="479" value032l="620" value031p="676" value032p="876" optimumDPI="183" value070="74" value071="95" value040="8" value052b="175" value052c="140" value052d="0x000000" value051="intro.png" value051c="185" value051d="162" value210="false" value213a="0" value213b="0" value213c="" value213d="0x990000" value311="Stony Brook Foundation" value311b="Stony Brook Foundation" value311c="Annual Report to Donors 2014-15" value311d="" value312="English U.K." value313="" value201="1" value306="6" value315="80" value300="" value196="false" value332="false" value333="true" value334="true" value172="false" value304="false" value314="false" value202="l2r" value330="1" value329="1" value328="0" value327="2" value034="0" value035="2" value037="0" value038="3" value039="0" value322="0" value171="0" value324="4" value319="5" value301="6" value302="0" value323="1" value320="7" value318="6" value326="true" value195a="true" value195b="false" value195c="false" value195d="false" value195e="false" value195g="false" value195h="false" value170="0" value195ea="0" value173="false" value174="true" value209="true" value052a="1" value051a="2" value325="FFFFFF" value331="000000" value309="flip" value318b="thumbnails" value318a="left" value307="disabled" value194="php" value850a="" value850b="Anonymous" value850c="Unknown" value850d="" value850e="" value850f="" value504="70" value505="183" value506="3" value507="1" optimizeIpad="true" value195f="false" value600="0" value601="0" value610="0" value611="0" value503="FLIPBOOK_aa_report_2015" value508="http://www.3dissue.com"/>
+	<value002 lang="English U.K." flag="gb">
+		<value759><![CDATA[Click and drag a corner to turn a page]]></value759>
+		<value660><![CDATA[View note]]></value660>
+		<value661><![CDATA[Note]]></value661>
+		<value662><![CDATA[Yes]]></value662>
+		<value663><![CDATA[No]]></value663>
+		<value664><![CDATA[New]]></value664>
+		<value665><![CDATA[Delete]]></value665>
+		<value666><![CDATA[Page]]></value666>
+		<value760><![CDATA[Click and drag to turn page]]></value760>
+		<value667><![CDATA[Add]]></value667>
+		<value761><![CDATA[PAGE THUMBNAILS]]></value761>
+		<value668><![CDATA[Cancel]]></value668>
+		<value762><![CDATA[PAGE BUTTONS]]></value762>
+		<value763><![CDATA[Click on a thumbnail to jump to that page]]></value763>
+		<value669><![CDATA[Are you sure you want to delete these notes?]]></value669>
+		<value764><![CDATA[Enter page number to jump to that page or click on navigation buttons]]></value764>
+		<value765><![CDATA[Would you like to view this in]]></value765>
+		<value766><![CDATA[Select All]]></value766>
+		<value767><![CDATA[Select None]]></value767>
+		<value768><![CDATA[This feature is not available in the Trial version]]></value768>
+		<value670><![CDATA[New note]]></value670>
+		<value671><![CDATA[Bookmark]]></value671>
+		<value672><![CDATA[Are you sure you want to delete these bookmarks?]]></value672>
+		<value673><![CDATA[New bookmark]]></value673>
+		<value674><![CDATA[Share via]]></value674>
+		<value675><![CDATA[Yourself]]></value675>
+		<value676><![CDATA[Friend]]></value676>
+		<value677><![CDATA[Download the offline version?]]></value677>
+		<value678><![CDATA[Slide]]></value678>
+		<value679><![CDATA[Flip]]></value679>
+		<value600><![CDATA[Contents]]></value600>
+		<value601><![CDATA[Print]]></value601>
+		<value602><![CDATA[Download]]></value602>
+		<value603><![CDATA[Search]]></value603>
+		<value680><![CDATA[Pause]]></value680>
+		<value604><![CDATA[Share]]></value604>
+		<value681><![CDATA[Play]]></value681>
+		<value605><![CDATA[Settings]]></value605>
+		<value682><![CDATA[Volume]]></value682>
+		<value606><![CDATA[Thumbnails]]></value606>
+		<value683><![CDATA[Click to play]]></value683>
+		<value607><![CDATA[Archive]]></value607>
+		<value684><![CDATA[Clear Results]]></value684>
+		<value608><![CDATA[Help]]></value608>
+		<value685><![CDATA[Are you sure you want to close the digital magazine?]]></value685>
+		<value609><![CDATA[Exit]]></value609>
+		<value686><![CDATA[Alert]]></value686>
+		<value687><![CDATA[File]]></value687>
+		<value688><![CDATA[could not be found.]]></value688>
+		<value689><![CDATA[Ok]]></value689>
+		<value610><![CDATA[Email:]]></value610>
+		<value611><![CDATA[Web:]]></value611>
+		<value612><![CDATA[Jump to page:]]></value612>
+		<value613><![CDATA[Download file]]></value613>
+		<value690><![CDATA[Warning]]></value690>
+		<value614><![CDATA[Audio clip]]></value614>
+		<value691><![CDATA[Text cannot be entered in fullscreen mode. Would you like to exit fullscreen mode?]]></value691>
+		<value615><![CDATA[Play flash file]]></value615>
+		<value692><![CDATA[Click and drag note to its location.]]></value692>
+		<value616><![CDATA[Play video clip]]></value616>
+		<value693><![CDATA[Paragraph]]></value693>
+		<value617><![CDATA[Leave comment]]></value617>
+		<value694><![CDATA[About Us]]></value694>
+		<value695><![CDATA[3DIssue was designed to ensure that publishers would be able to convert their PDFs to flash magazines without the need of hiring specialist services.]]></value695>
+		<value619><![CDATA[Ready]]></value619>
+		<value620><![CDATA[Complete]]></value620>
+		<value621><![CDATA[Seeking]]></value621>
+		<value622><![CDATA[Email]]></value622>
+		<value623><![CDATA[Your name]]></value623>
+		<value624><![CDATA[Your email Address]]></value624>
+		<value625><![CDATA[Your friend's Name]]></value625>
+		<value626><![CDATA[Your friend's email address]]></value626>
+		<value627><![CDATA[Click here to add message]]></value627>
+		<value628><![CDATA[Submit]]></value628>
+		<value629><![CDATA[Reset]]></value629>
+		<value630><![CDATA[Comment]]></value630>
+		<value632><![CDATA[Enter your name]]></value632>
+		<value633><![CDATA[Your email is not valid]]></value633>
+		<value634><![CDATA[Enter your friend's name]]></value634>
+		<value635><![CDATA[Your friends email is not valid]]></value635>
+		<value636><![CDATA[Submit Error!]]></value636>
+		<value731><![CDATA[This feature is not available in Preview mode]]></value731>
+		<value637><![CDATA[Please wait while sending your message]]></value637>
+		<value732><![CDATA[No page(s) selected to print.]]></value732>
+		<value638><![CDATA[Error occur while sending your message]]></value638>
+		<value733><![CDATA[You must select at least one of the options to email 'yourself' or a 'friend'.]]></value733>
+		<value734><![CDATA[Some information is missing. Please fill in all fields before clicking submit.]]></value734>
+		<value735><![CDATA[Enter the details of your new bookmark below:]]></value735>
+		<value736><![CDATA[No bookmark(s) selected. Please select at least one bookmark before proceeding.]]></value736>
+		<value737><![CDATA[Reached quota limit for bookmark storage. Cannot add any more bookmarks.]]></value737>
+		<value640><![CDATA[Your message is successfully sent!]]></value640>
+		<value641><![CDATA[Search]]></value641>
+		<value642><![CDATA[matches found]]></value642>
+		<value643><![CDATA[No matches found]]></value643>
+		<value644><![CDATA[Page]]></value644>
+		<value645><![CDATA[Print]]></value645>
+		<value646><![CDATA[Print Current]]></value646>
+		<value741><![CDATA[Page Transition]]></value741>
+		<value647><![CDATA[Print Selected]]></value647>
+		<value742><![CDATA[Information]]></value742>
+		<value648><![CDATA[printing pages]]></value648>
+		<value743><![CDATA[Presentation]]></value743>
+		<value744><![CDATA[selected]]></value744>
+		<value745><![CDATA[Bookmark Current Page]]></value745>
+		<value746><![CDATA[This page is already bookmarked]]></value746>
+		<value747><![CDATA[of]]></value747>
+		<value748><![CDATA[Add note]]></value748>
+		<value650><![CDATA[Zoom to double page]]></value650>
+		<value651><![CDATA[Zoom to single page]]></value651>
+		<value652><![CDATA[When zoomed in, navigate by moving the mouse]]></value652>
+		<value653><![CDATA[When zoomed in, navigate by clicking and dragging the pages]]></value653>
+		<value654><![CDATA[Zoom to]]></value654>
+		<value655><![CDATA[browser width]]></value655>
+		<value656><![CDATA[Custom Zoom]]></value656>
+		<value750><![CDATA[NEXT PAGE]]></value750>
+		<value657><![CDATA[Fullscreen]]></value657>
+		<value751><![CDATA[PREVIOUS PAGE]]></value751>
+		<value658><![CDATA[Bookmarks]]></value658>
+		<value752><![CDATA[Click anywhere on a page to zoom.]]></value752>
+		<value659><![CDATA[Notes]]></value659>
+		<value753><![CDATA[Click on]]></value753>
+		<value754><![CDATA[Buttons]]></value754>
+		<value755><![CDATA[Hotspots]]></value755>
+		<value756><![CDATA[for interactive features]]></value756>
+		<value757><![CDATA[and]]></value757>
+		<value758><![CDATA[(Click anywhere to close overly)]]></value758>
+	</value002>
+	<ibuttons>
+		<value01>swf</value01>
+		<value02>swf</value02>
+		<value03>swf</value03>
+		<value04>swf</value04>
+		<value05>swf</value05>
+		<value06>swf</value06>
+		<value07>swf</value07>
+		<value08>swf</value08>
+		<value09>swf</value09>
+		<value10>swf</value10>
+		<value11>swf</value11>
+	</ibuttons>
+	<value001/>
+</value000>

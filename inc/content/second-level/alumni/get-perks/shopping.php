@@ -15,7 +15,7 @@
                     </div>
                     <div class="two-third margin-bottom">
                         <h4>From You Flowers</h4>
-                        <p>Enjoy a 20% discount on From You Flowers’ full line of regularly priced flowers and gifts including gift baskets, baked goods and chocolates. As a member of the Alumni Association, you also have access exceptional savings on over 2,000 gift ideas with same-day service available for most items!</p>
+                        <p>Enjoy a 20% discount on From You Flowers’ full line of regularly priced flowers and gifts including gift baskets, baked goods and chocolates. As a member of the Alumni Association, you also have access to exceptional savings on over 2,000 gift ideas with same-day service available for most items!</p>
                         <p>Use or mention alumni discount code <strong>91W</strong> when making your purchase at <a href="http://fromyouflowers.com/stony" target="_blank">fromyouflowers.com/stony</a> or by phone at 1 (800) 838-8853.</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://fromyouflowers.com/stony" target="_blank">View flowers</a>
                     </div>

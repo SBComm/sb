@@ -5,8 +5,8 @@
                             <span>(631) 632-6868</span>
                             <span>877-SEA-WOLF</span>
                             <a class="item" href="mailto:alumni@stonybrook.edu" target="_blank">alumni@stonybrook.edu</a>
-                            <a class="item" href="#">Privacy Policy</a>
-                            <a class="item" href="#">Social Guidelines</a>
+                            <a class="item" href="alumni/privacy-policy">Privacy Policy</a>
+                            <a class="item" href="alumni/social-media-guidelines">Social Guidelines</a>
                         </nav>
                     </footer>
                 </div>

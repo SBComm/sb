@@ -46,4 +46,9 @@
         </div>
     </section>
 
+    <?php
+        $file = "widgets/sb-matters-promo.php";
+        include($path . $file);
+    ?>
+
 </article>

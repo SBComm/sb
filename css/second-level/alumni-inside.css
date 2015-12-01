@@ -151,6 +151,7 @@ section.full-width-banner-image {
 
 .hsc-alums .inside-content h3.serif,
 .get-perks .inside-content h3.serif,
+.give-back-page .inside-content h3.serif,
 .get-perks .inside-content h3.serif.line-header {
     margin-top: 0;
     margin-bottom: .8em;
@@ -162,6 +163,7 @@ section.full-width-banner-image {
 
 .hsc-alums .inside-content h3.serif span,
 .get-perks .inside-content h3.serif span,
+.give-back-page .inside-content h3.serif span,
 .get-perks .inside-content h3.serif.line-header span {
     color: #900;
 }

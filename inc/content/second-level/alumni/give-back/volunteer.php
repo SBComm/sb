@@ -1,13 +1,17 @@
 <article class="get-connected give-back-page inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><a href="alumni/give-back">Volunteer</a></h2>
+            <h2><a href="alumni/give-back">Give Back</a></h2>
         </div>
     </section>
     
     <section class="clearfix inside-content main-inside-content white-background margin-top">
         <div class="border-box wrapper clearfix">
-            <div class="content pad-top">
+            <div class="content">
+                <div class="whole border-box">
+                    <h3 class="serif">Volunteer</h3>
+                    <p>Join the growing community of alumni who are making a difference at Stony Brook! Mentor a student, talk to a class, attend an event, or make a donation. As an alum who gives back, all you do for Stony Brook is an invaluable investment in our students, faculty and patients.</p>
+                </div>
                 <div class="border-box whole">
                     <div class="one-third">
                         <img src="img/alumni/misc/alumni-volunteer.jpg" alt="Group of alumni volunteers at Admitted Students Day 2015 in the Wang Center" />
@@ -62,7 +66,7 @@
                         <p>Find out first hand just how rewarding it can be to serve as a volunteer on the Stony Brook Alumni Association Board or a Committee. Your experience with the Alumni Association, a 501(c)(3) nonprofit organization, lets you hone skills transferable to your profession and volunteer opportunities elsewhere.</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1jzaa2XNR6FOvOPRSCGXMxTxXBmXEts6YN6s-5G3C964/viewform" target="_blank">Volunteer Now!</a>
                         <p>Don't live near campus? No problem. Many of our volunteers live across the country and around the world.</p>
-                        <p>You can even plan your own class reunion! <a class="arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1jzaa2XNR6FOvOPRSCGXMxTxXBmXEts6YN6s-5G3C964/viewform" target="_blank">Get more information</a></p>
+                        <p>You can even plan your own class reunion! <a class="arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1jzaa2XNR6FOvOPRSCGXMxTxXBmXEts6YN6s-5G3C964/viewform" target="_blank">Get started</a></p>
                         <p>If you are interested in learning more about these and other volunteer opportunities, please contact the Alumni Relations office at 1-877-SEA-WOLF.</p>
                     </div>
                 </div>

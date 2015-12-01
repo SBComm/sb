@@ -40,7 +40,7 @@
                         <p>Request the SBU Alumni Rate when making your reservation.</p>
                         <p>Call 1 (631) 941-2980 or 1 (877) 782-9444.</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://hiltongardeninn3.hilton.com/en/hotels/new-york/hilton-garden-inn-stony-brook-ISPSBGI/index.html" target="_blank">View website</a>
-                        <p><em>Terms: Based on availability.</em></p>
+                        <p><em>Terms: Room rates are subject to availability and at the prevailing hotel room rate (plus tax).</em></p>
                     </div>
                 </div>
                 <div class="border-box whole clearfix section-border-top">

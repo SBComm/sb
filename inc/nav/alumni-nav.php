@@ -12,8 +12,8 @@
             		<span class="label clearfix">Get Connected</span>
             	</a>
             </li>
-			<li class="clearfix no-dropdown larger<?php if($sub_nav_selected_tab==2) echo(' selected'); ?>">
-            	<a href="alumni/news-and-spotlight" class="clearfix" data-drop-nav-id="0">
+			<li class="clearfix larger<?php if($sub_nav_selected_tab==2) echo(' selected'); ?>">
+            	<a href="alumni/news-and-spotlight" class="clearfix" data-drop-nav-id="2">
             		<span class="label clearfix">Get Informed</span>
             	</a>
             </li>
@@ -22,8 +22,8 @@
             		<span class="label clearfix">Get Perks</span>
             	</a>
             </li>
-			<li class="clearfix no-dropdown larger<?php if($sub_nav_selected_tab==4) echo(' selected'); ?>">
-            	<a href="alumni/give-back" class="clearfix" data-drop-nav-id="0">
+			<li class="clearfix larger<?php if($sub_nav_selected_tab==4) echo(' selected'); ?>">
+            	<a href="alumni/give-back" class="clearfix" data-drop-nav-id="4">
             		<span class="label clearfix">Give Back</span>
             	</a>
             </li>
@@ -59,7 +59,7 @@
 		<a href="alumni/events-and-reunions">Get Connected</a>
 		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
 	</div>
-	<div class="no-pad-wrapper clearfix">
+	<div class="no-pad-wrapper sub-links-wrapper clearfix">
 		<ul class="drop-nav-list border-box clearfix">
 			<li class="<?php if($drop_nav_selected_tab==1) echo('selected'); ?>" data-li-order="01">
 				<a href="alumni/events-and-reunions" class="clearfix">
@@ -76,8 +76,60 @@
 					<span class="label clearfix">HSC Alums</span>
 				</a>
 			</li>
+			<li class="<?php if($drop_nav_selected_tab==4) echo('selected'); ?>" data-li-order="04">
+				<a href="alumni/students" class="clearfix">
+					<span class="label clearfix">Students</span>
+				</a>
+			</li>
+			<li class="<?php if($drop_nav_selected_tab==5) echo('selected'); ?>" data-li-order="05">
+				<a href="alumni/recent-grads" class="clearfix">
+					<span class="label clearfix">Recent Grads</span>
+				</a>
+			</li>
 			<li></li>
 		</ul>
+		<div class="mega-blurb">
+			Get connected with fellow alums at one of our networking events, reunions, or career workshops!
+		</div>
+		<div class="mega-img">
+			<img src="img/alumni/nav/get-connected.jpg" />
+		</div>
+	</div>
+	<div class="close-drop-nav close-the-drop-nav">
+		<span aria-role="button">Close Menu</span>
+	</div>
+</nav>
+
+<nav class="drop-nav border-box clearfix hide-accessible" data-drop-nav-id="2">
+	<div class="drop-nav-heading clearfix">
+		<a href="alumni/news-and-spotlight">Get Informed</a>
+		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
+	</div>
+	<div class="no-pad-wrapper sub-links-wrapper clearfix">
+		<ul class="drop-nav-list border-box clearfix">
+			<li class="<?php if($drop_nav_selected_tab==7) echo('selected'); ?>" data-li-order="01">
+				<a href="alumni/news-and-spotlight#news" class="clearfix">
+					<span class="label clearfix">News</span>
+				</a>
+			</li>
+			<li class="<?php if($drop_nav_selected_tab==8) echo('selected'); ?>" data-li-order="02">
+				<a href="alumni/news-and-spotlight#spotlight" class="clearfix">
+					<span class="label clearfix">Spotlight</span>
+				</a>
+			</li>
+			<li class="<?php if($drop_nav_selected_tab==9) echo('selected'); ?>" data-li-order="03">
+				<a href="alumni/news-and-spotlight#authors" class="clearfix">
+					<span class="label clearfix">Authors</span>
+				</a>
+			</li>
+			<li></li>
+		</ul>
+		<div class="mega-blurb">
+			Learn how your alma mater is making a global impact as alumni are changing our world for the better.
+		</div>
+		<div class="mega-img">
+			<img src="img/alumni/nav/get-informed-2.jpg" />
+		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
 		<span aria-role="button">Close Menu</span>
@@ -89,30 +141,67 @@
 		<a href="alumni/perks">Get Perks</a>
 		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
 	</div>
-	<div class="no-pad-wrapper clearfix">
+	<div class="no-pad-wrapper sub-links-wrapper clearfix">
 		<ul class="drop-nav-list border-box clearfix">
-			<li class="<?php if($drop_nav_selected_tab==19) echo('selected'); ?>" data-li-order="01">
+			<li class="<?php if($drop_nav_selected_tab==13) echo('selected'); ?>" data-li-order="01">
 				<a href="alumni/perks" class="clearfix">
-					<span class="label clearfix">Benefits</span>
+					<span class="label clearfix">Perks</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==20) echo('selected'); ?>" data-li-order="02">
-				<a href="alumni/careers" class="clearfix" target="_blank">
-					<span class="label clearfix">Careers</span>
-				</a>
-			</li>
-			<li class="<?php if($drop_nav_selected_tab==21) echo('selected'); ?>" data-li-order="03">
+			<li class="<?php if($drop_nav_selected_tab==14) echo('selected'); ?>" data-li-order="02">
 				<a href="alumni/lifelong-learning" class="clearfix">
 					<span class="label clearfix">Lifelong Learning</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="04">
+			<li class="<?php if($drop_nav_selected_tab==15) echo('selected'); ?>" data-li-order="03">
 				<a href="alumni/sbu-pride" class="clearfix">
 					<span class="label clearfix">SBU Pride</span>
 				</a>
 			</li>
 			<li></li>
 		</ul>
+		<div class="mega-blurb">
+			Browse the wide selection of exclusive perks and discounts that are available to you as a Stony Brook alum!
+		</div>
+		<div class="mega-img">
+			<img src="img/alumni/nav/get-perks.jpg" />
+		</div>
+	</div>
+	<div class="close-drop-nav close-the-drop-nav">
+		<span aria-role="button">Close Menu</span>
+	</div>
+</nav>
+
+<nav class="drop-nav border-box clearfix hide-accessible" data-drop-nav-id="4">
+	<div class="drop-nav-heading clearfix">
+		<a href="alumni/give-back">Give Back</a>
+		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
+	</div>
+	<div class="no-pad-wrapper sub-links-wrapper clearfix">
+		<ul class="drop-nav-list border-box clearfix">
+			<li class="<?php if($drop_nav_selected_tab==19) echo('selected'); ?>" data-li-order="01">
+				<a href="alumni/give-back" class="clearfix">
+					<span class="label clearfix">Volunteer</span>
+				</a>
+			</li>
+			<li class="<?php if($drop_nav_selected_tab==20) echo('selected'); ?>" data-li-order="02">
+				<a href="http://stonybrook.edu/give" class="clearfix" target="_blank">
+					<span class="label clearfix">Give</span>
+				</a>
+			</li>
+			<li class="give-now-btn<?php if($drop_nav_selected_tab==21) echo(' selected'); ?>" data-li-order="03">
+				<a href="alumni/careers" class="clearfix flip-on-hover" target="_blank">
+					<span class="label clearfix"><img src="img/buttons/small-give-now.png" alt="Give Now Badge" /></span>
+				</a>
+			</li>
+			<li></li>
+		</ul>
+		<div class="mega-blurb">
+			Join the growing community of alumni who are making a difference at Stony Brook.
+		</div>
+		<div class="mega-img">
+			<img src="img/alumni/nav/give-back.jpg" />
+		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
 		<span aria-role="button">Close Menu</span>

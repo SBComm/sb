@@ -272,6 +272,17 @@ footer.site-footer .img-col + .link-col {
     text-decoration: underline;
 }
 
+/* mega nav */
+
+.mega-img,
+.mega-blurb {
+    display: none;
+}
+
+.sub-links-wrapper .give-now-btn {
+    display: none;
+}
+
 @media only screen and (min-width: 360px) {
 
     
@@ -331,6 +342,103 @@ footer.site-footer .img-col + .link-col {
         display: inline-block;
         float: left;
         width: 20%;
+    }
+
+    /* mega nav */
+
+    .sub-links-wrapper {
+        padding-top: 15px;
+        padding-left: 3%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    ul.drop-nav-list {
+        display: inline-block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 23.33%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    ul.drop-nav-list li {
+        display: block;
+        float: none;
+        margin: 0;
+        padding: 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul.drop-nav-list li a,
+    ul.drop-nav-list li a:hover {
+        background: transparent;
+        border: 0 none;
+        padding: 0;
+        margin: 0;
+        height: auto;
+        width: auto;
+        text-align: center;
+        display: inline-block;
+        margin: 6px 0;
+    }
+
+    ul.drop-nav-list li a:hover {
+        color: #47c2c8;
+    }
+
+    ul.drop-nav-list li a .label {
+        display: block;
+        font-family:'Trade Gothic Next W01';
+        text-transform: lowercase;
+        line-height: 1;
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .mega-blurb {
+        display: inline-block;
+        float: left;
+        width: 31.33%;
+        font-family:'CenturySchoolbookW01-It 927458';
+        font-weight: 400;
+        color: #ddd;
+        font-size: 1.3em;
+        padding: 5px 4% 0;
+        border-right: 0 none;
+        border-left: 1px solid #ddd;
+        text-align: center;
+        line-height: 1.3em;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        min-height: 120px;
+    }
+
+    .mega-img {
+        width: 45.33%;
+        padding: 0;
+        background: #000;
+        display: inline-block;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .mega-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    .sub-links-wrapper .give-now-btn {
+        display: block;
     }
 }
 

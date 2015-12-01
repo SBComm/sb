@@ -64,7 +64,7 @@
                         <h4>Alumni Association Card</h4>
                         <p>Save money with one of our perks exclusively for Stony Brook alumni!</p>
                         <p>As a Stony Brook alum, you are eligible for special offers on hotels, access to alumni facilities, savings on insurance products, retail discounts, and more.</p>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=437" target="_blank">Learn More</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1h4hfeAx-jdnRCji7S3G5wQRjwLXNgX9OeJeEGyR2PnQ/viewform" target="_blank">Get Your Card</a>
                     </div>
                 </div>
                 <!--<div class="border-box whole clearfix section-border-top">
@@ -85,5 +85,22 @@
             </div>
         </div>
     </section>
+
+    <div class="get-perks">
+        <?php
+            $file = "widgets/alumni-benefits-buttons-on-black-rays.php";
+            include($path . $file);
+        ?>
+    </div>
+
+    <?php
+        $file = "widgets/alumni-update-your-info.php";
+        include($path . $file);
+    ?>
+
+    <?php
+        $file = "widgets/sb-matters-promo.php";
+        include($path . $file);
+    ?>
 
 </article>

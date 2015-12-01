@@ -17,7 +17,7 @@
         </div>
     </section>
     -->
-    <section class="clearfix articles-promo white-background pad-top">
+    <section id="news" class="clearfix articles-promo white-background pad-top">
         <div class="border-box wrapper clearfix">
             <div class="one-half serif-news-titles">
                 <img src="img/logo/sb-matters-header.png" alt="SB Matters logo" />
@@ -65,7 +65,7 @@
         include($path . $file);
     ?>
 
-    <section class="clearfix authors">
+    <section id="authors" class="clearfix authors">
         <div class="border-box wrapper clearfix">
             <h4 class="aqua">Alumni Authors</h4>
             <div class="inside-content">

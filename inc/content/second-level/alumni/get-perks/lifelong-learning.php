@@ -24,7 +24,7 @@
                         <img src="img/alumni/perks/medical.jpg" alt="Wolfie" />
                     </div>
                     <div class="two-third">
-                        <h4>Continuing Education</h4>
+                        <h4>HSC Continuing Education</h4>
                         <p>Take advantage of continuing education courses at Stony Brook through the <a href="http://medicine.stonybrookmedicine.edu/cme/courses">School of Medicine</a>, <a href="http://nursing.stonybrookmedicine.edu/ContinuingEducation">School of Nursing</a>, and <a href="http://socialwelfare.stonybrookmedicine.edu/trainings_conf">School of Social Welfare</a>.</p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         <ul class="default-bullets">
                             <li><a href="http://alumniandfriends.stonybrook.edu/main-site/2.-events/website/main-site/events/event-videos">Hot Topic Lectures</a></li>
                             <li><a href="http://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=299">Great Minds Lectures</a> (also on <a href="http://www.youtube.com/playlist?list=PL58ED1B1FB1395C55">YouTube</a>)</li>
-                            <li><a href="http://tedxsbu.stonybrook.edu/previous-events/2014_archive/">TEDx</a></li>
+                            <li><a href="http://tedxsbu.stonybrook.edu/">TEDx</a></li>
                             <li><a href="http://www.stonybrook.edu/pres/lectures.html">Presidential Lecture Series</a></li>
                             <li><a href="http://www.stonybrook.edu/sb/provlec">Provost Lecture Series</a></li>
                             <li><a href="http://www.stonybrook.edu/commcms/humanities/#">Humanities Institute Lectures</a></li>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="border-box whole clearfix section-border-top">
                     <div class="one-third">
-                        <img src="img/student-life/football-video.jpg" alt="Football player" />
+                        <img src="img/alumni/perks/osher.jpg" alt="Seniors in a workshop" />
                     </div>
                     <div class="two-third margin-bottom">
                         <h4>Classes for Seniors</h4>

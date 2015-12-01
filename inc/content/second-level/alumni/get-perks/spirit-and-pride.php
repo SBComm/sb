@@ -16,7 +16,7 @@
                     <div class="two-third margin-bottom">
                         <h4>Class Ring</h4>
                         <p>Your Alumni Association invites you to participate in one of the University’s most prestigious traditions — The Official Stony Brook University Ring. Your class ring is a symbol of Stony Brook spirit that connects you with your fellow alums, a precious keepsake representing your commitment to Stony Brook.</p>
-                        <p>The official class ring is a symbol of eternal affiliation with the University and is recognized by Stony Brook Alumni worldwide. Wear yours with Seawolf pride.</p>
+                        <p>The official class ring is a symbol of eternal affiliation with the University and is recognized by Stony Brook alumni worldwide. Wear yours with Seawolf pride.</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://www.balfour.com/stonybrook/" target="_blank">Shop Official Rings</a>
                         <p>Behind the Scenes: <a class="arrow-after" href="http://fireworksmediadfw.com/balfour_make_ring/College%20Stony%20Brook.mp4">See how the rings are made</a></p>
                     </div>
