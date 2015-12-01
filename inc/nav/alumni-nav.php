@@ -184,9 +184,9 @@
 					<span class="label clearfix">Volunteer</span>
 				</a>
 			</li>
-			<li class="give-now-btn<?php if($drop_nav_selected_tab==20) echo(' selected'); ?>" data-li-order="03">
-				<a href="alumni/careers" class="clearfix flip-on-hover" target="_blank">
-					<span class="label clearfix"><img src="img/buttons/small-give-now.png" alt="Give Now Badge" /></span>
+			<li class="<?php if($drop_nav_selected_tab==20) echo('selected'); ?>" data-li-order="02">
+				<a href="http://stonybrook.edu/give" class="clearfix" target="_blank">
+					<span class="label clearfix">Give</span>
 				</a>
 			</li>
 			<li></li>
