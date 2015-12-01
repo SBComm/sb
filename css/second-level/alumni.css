@@ -539,6 +539,12 @@ footer.site-footer .img-col + .link-col {
 }
 
 @media only screen and (min-width: 1022px) {
+    .sub-nav ul {
+        width: 100%;
+    }
+    .site-nav.big-n-bold a, .sub-nav.big-n-bold a {
+        padding: 12px 10px;
+    }
     .site-carousel .carousel-wrapper .item,
     .site-carousel .carousel-image {
         height: 600px;
