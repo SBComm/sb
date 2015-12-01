@@ -1,5 +1,5 @@
 <div class="rounded-image-buttons clearfix">
-    <a class="on-campus-benefits" href="alumni/perks/on-campus-benefits"><div class="label">On Campus Perks</div></a>
+    <a class="on-campus-benefits" href="alumni/perks/on-campus-perks"><div class="label">On Campus Perks</div></a>
     <a class="travel-and-leisure" href="alumni/perks/travel-and-leisure"><div class="label">Travel &amp; Leisure</div></a>
     <a class="shopping" href="alumni/perks/shopping"><div class="label">Shopping</div></a>
     <a class="home-and-life" href="alumni/perks/home-and-life"><div class="label">Home &amp; Life</div></a>

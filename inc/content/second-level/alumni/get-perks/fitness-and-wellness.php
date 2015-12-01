@@ -22,7 +22,7 @@
                 </div>
                 <div class="border-box whole clearfix section-border-top">
                     <div class="one-third">
-                        <img src="img/university/rec-center-tonemapped.jpg" alt="Rec Center" />
+                        <img src="img/buildings/campus-rec.jpg" alt="Rec Center" />
                     </div>
                     <div class="two-third">
                         <h4>"Get Your Rec On" Campus Recreation Center</h4>
