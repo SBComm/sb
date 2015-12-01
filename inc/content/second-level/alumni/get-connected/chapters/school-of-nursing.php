@@ -630,7 +630,7 @@
             </div>
             <div class="btn-wrapper clearfix">
                 <a class="simple-button arrow-after" href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform">Update your info</a>
-                <a class="simple-button arrow-after" href="alumni/contact">Contact us</a>
+                <a class="simple-button arrow-after" href="alumni/stay-in-touch/contact">Contact us</a>
             </div>
         </div>
     </section>

@@ -1,7 +1,7 @@
 <article class="get-connected contact-page inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><a href="alumni/contact/visiting-sbu">Visiting Stony Brook</a></h2>
+            <h2><a href="alumni/stay-in-touch/visiting-sbu">Visiting Stony Brook</a></h2>
         </div>
     </section>
     

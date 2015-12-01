@@ -38,12 +38,12 @@
                                         <!--<a class="flip-on-hover" href="alumni/" title="Give Now"><img src="img/buttons/small-give-now.png" alt="Give Now Badge" /></a>-->
                                    </div>
                                    <div class="links">
-                                        <h4><a href="alumni/contact">Stay In Touch</a></h4>
-                                        <a href="alumni/contact">Contact</a>
-                                        <a href="alumni/contact/visiting-sbu">Visit</a>
-                                        <a href="alumni/contact#alumni-relations">Alumni Relations Office</a>
-                                        <a href="alumni/contact#alumni-association">Alumni Association</a>
-                                        <a href="alumni/contact#committees">Committees</a>
+                                        <h4><a href="alumni/stay-in-touch">Stay In Touch</a></h4>
+                                        <a href="alumni/stay-in-touch/">Alumni Association</a>
+                                        <a href="alumni/stay-in-touch/alumni-relations">Alumni Relations Office</a>
+                                        <a href="alumni/stay-in-touch">Contact</a>
+                                        <a href="alumni/stay-in-touch/visiting-sbu">Visit</a>
+                                        <a href="alumni/stay-in-touch/committees">Committees</a>
                                    </div>
                          	</div>
                          </div>

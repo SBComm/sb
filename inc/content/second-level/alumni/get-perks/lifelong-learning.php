@@ -47,7 +47,7 @@
                         <p>Browse a variety of ongoing lecture series at Stony Brook:</p>
                         <ul class="default-bullets">
                             <li><a href="http://alumniandfriends.stonybrook.edu/main-site/2.-events/website/main-site/events/event-videos">Hot Topic Lectures</a></li>
-                            <li><a href="http://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=299">Great Minds Lectures</a> (also on <a href="http://www.youtube.com/playlist?list=PL58ED1B1FB1395C55">YouTube</a>)</li>
+                            <li><a href="http://www.youtube.com/playlist?list=PL58ED1B1FB1395C55">Great Minds Lectures</a></li>
                             <li><a href="http://tedxsbu.stonybrook.edu/">TEDx</a></li>
                             <li><a href="http://www.stonybrook.edu/pres/lectures.html">Presidential Lecture Series</a></li>
                             <li><a href="http://www.stonybrook.edu/sb/provlec">Provost Lecture Series</a></li>

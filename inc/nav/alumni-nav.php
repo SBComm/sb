@@ -27,8 +27,8 @@
             		<span class="label clearfix">Give Back</span>
             	</a>
             </li>
-			<li class="clearfix no-dropdown larger<?php if($sub_nav_selected_tab==5) echo(' selected'); ?>">
-            	<a href="alumni/contact" class="clearfix" data-drop-nav-id="0">
+			<li class="clearfix larger<?php if($sub_nav_selected_tab==5) echo(' selected'); ?>">
+            	<a href="alumni/contact" class="clearfix" data-drop-nav-id="5">
             		<span class="label clearfix">Stay In Touch</span>
             	</a>
             </li>
@@ -92,7 +92,7 @@
 			Get connected with fellow alums at one of our networking events, reunions, or career workshops!
 		</div>
 		<div class="mega-img">
-			<img src="img/alumni/nav/get-connected.jpg" />
+			<img src="img/alumni/nav/get-connected-diag.png" />
 		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
@@ -128,7 +128,7 @@
 			Learn how your alma mater is making a global impact as alumni are changing our world for the better.
 		</div>
 		<div class="mega-img">
-			<img src="img/alumni/nav/get-informed-2.jpg" />
+			<img src="img/alumni/nav/get-informed-2-diag.png" />
 		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
@@ -164,7 +164,7 @@
 			Browse the wide selection of exclusive perks and discounts that are available to you as a Stony Brook alum!
 		</div>
 		<div class="mega-img">
-			<img src="img/alumni/nav/get-perks.jpg" />
+			<img src="img/alumni/nav/get-perks-diag.png" />
 		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
@@ -195,7 +195,48 @@
 			Join the growing community of alumni who are making a difference at Stony Brook.
 		</div>
 		<div class="mega-img">
-			<img src="img/alumni/nav/give-back.jpg" />
+			<img src="img/alumni/nav/give-back-diag.png" />
+		</div>
+	</div>
+	<div class="close-drop-nav close-the-drop-nav">
+		<span aria-role="button">Close Menu</span>
+	</div>
+</nav>
+
+<nav class="drop-nav border-box clearfix hide-accessible" data-drop-nav-id="5">
+	<div class="drop-nav-heading clearfix">
+		<a href="alumni/stay-in-touch">Stay In Touch</a>
+		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
+	</div>
+	<div class="no-pad-wrapper sub-links-wrapper clearfix">
+		<ul class="drop-nav-list border-box clearfix">
+			<li class="<?php if($drop_nav_selected_tab==19) echo('selected'); ?>" data-li-order="01">
+				<a href="alumni/stay-in-touch" class="clearfix">
+					<span class="label clearfix">Alumni Association</span>
+				</a>
+			</li>
+			<li class="<?php if($drop_nav_selected_tab==20) echo('selected'); ?>" data-li-order="02">
+				<a href="alumni/stay-in-touch/alumni-relations" class="clearfix">
+					<span class="label clearfix">Alumni Relations</span>
+				</a>
+			</li>
+			<li class="<?php if($drop_nav_selected_tab==21) echo('selected'); ?>" data-li-order="03">
+				<a href="alumni/stay-in-touch/alumni-relations" class="clearfix">
+					<span class="label clearfix">Contact</span>
+				</a>
+			</li>
+			<li class="<?php if($drop_nav_selected_tab==21) echo('selected'); ?>" data-li-order="04">
+				<a href="alumni/stay-in-touch/visiting-sbu" class="clearfix">
+					<span class="label clearfix">Visit</span>
+				</a>
+			</li>
+			<li></li>
+		</ul>
+		<div class="mega-blurb">
+			We're here to help you maintain a life long and meaningful relationship with Stony Brook University.
+		</div>
+		<div class="mega-img">
+			<img src="img/alumni/nav/stay-in-touch-diag.png" />
 		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">

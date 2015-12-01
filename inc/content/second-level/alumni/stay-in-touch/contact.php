@@ -1,15 +1,16 @@
 <article class="get-connected contact-page inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><a href="alumni/contact">Contact Us</a></h2>
+            <h2><a href="alumni/stay-in-touch">Stay In Touch</a></h2>
         </div>
     </section>
     
     <section class="clearfix inside-content main-inside-content white-background margin-top">
         <div class="border-box wrapper clearfix">
             <div class="content pad-top">
-                <h4>We're Here for You!</h4>
-                <div class="border-box whole section-border-bottom">
+                <h3 class="serif">Contact Us</h3>
+
+                <div class="border-box whole">
                     <div class="one-third">
                         <p>
                             <strong>Alumni Relations Office</strong><br />
@@ -33,12 +34,14 @@
                         <img class="alumni-assoc-logo" src="img/logo/alumni-association-50-years.jpg" alt="Alumni Association logo with 50 year anniversary banner" />
                     </div>
                 </div>
+
                 <div class="border-box whole clearfix section-border-bottom">
                     <h4>Send Us Your News!</h4>
                     <p>We want to hear about what's new with you! Keep us updated on you and your classmates &#8212; career news, life events and any other information you would like to share with your fellow alumni.</p>
                     <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">Send Us Your News</a>
                 </div>
-                <div class="border-box whole news-and-events">
+
+                <div class="border-box whole news-and-events section-border-bottom">
                     <div class="one-half serif-news-titles">
                         <h4>Transcripts &amp; Diplomas</h4>
                         <p>Want to order a transcript or duplicate diploma?</p>
@@ -51,6 +54,7 @@
                         <p>On campus? Visit the Alumni Relations office during business hours on the first floor of the Melville Library.</p>
                     </div>
                 </div>
+
                 <!--<div class="border-box whole clearfix section-border-top">
                     <div class="one-third">
                         <img src="https://farm6.staticflickr.com/5805/21327885780_fbb4473460_z.jpg" alt="Group Shot of Students at a Career Fair" />
@@ -58,7 +62,7 @@
                     <div class="two-third">
                         <h4>Unsure of Your Career Plans?</h4>
                         <p>The Alumni Association is here to help you realize your success and become a part of Stony Brook’s engaged alumni community. We are proud partners with the Career Center on a number of programs and events that help students with networking, job and internship fairs and other career-related alumni panels and programs.</p>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/contact" target="_blank">Contact Us</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/stay-in-touch" target="_blank">Contact Us</a>
                         <p>Our Career Advisor Program (CAN) helps to match current students with experienced alumni in a field that you are interested in. Visit our <a href="http://career.stonybrook.edu/alumni_new/ask-blog" target="_blank">ASK Blog</a>, which features blog posts from our alumni about lessons learned from their career experiences.</p>
                     </div>
                 </div>
