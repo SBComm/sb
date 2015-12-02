@@ -16,7 +16,7 @@
     </section>
 
     <section id="calendar" class="clearfix events calendar activities-and-calendar inside-content">
-        <div class="black-opac-cover">
+        <div class="black-opac-cover clearfix">
             <div class="border-box wrapper clearfix">
                 <h4>Event Calendar</h4>
             </div>
@@ -96,11 +96,11 @@
                 <a class="sbu-outline-button sbu-outline-button--light" href="#">Get Involved</a>
                 <a class="sbu-outline-button sbu-outline-button--light" href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml">Learn More</a>
                 <p>For more information about the upcoming Scholarship Golf Classic, please call (631) 632-4466.</p>-->
-                <p>Every June, the Alumni Association hosts its annual Scholarship Golf Classic at one of Long Island's finest courses. Proceeds go to scholarships for deserving Stony Brook University students who need your continued support now more than ever. </p>
+                <p>Every June, the Alumni Association hosts its annual Scholarship Golf Classic at one of Long Island's finest courses. Proceeds go to scholarships for deserving Stony Brook University students who need your continued support now more than ever.</p>
             </div>
         </div>
         <div class="content clearfix">
-            <a class="sbu-outline-button sbu-outline-button--white sbu-outline-button--on-red arrow-after" href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml">Learn More</a>
+            <a class="sbu-outline-button sbu-outline-button--white sbu-outline-button--on-red arrow-after" href="alumni/events-and-reunions/golf-classic/">Learn More</a>
         </div>
     </section>
 

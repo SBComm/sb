@@ -15,9 +15,9 @@
                         <img src="img/logo/alumni-association-50-years.jpg" alt="Stony Brook University Alumni Association logo" />
                     </div>
                     <div class="two-third">
-                    <h4>We're Here for You!</h4>
-                    <p>Established in 1965, the Stony Brook University Alumni Association is a separate, 501(c)(3) organization. Our activities are administered by the Stony Brook University <a href="#">Alumni Relations staff</a> under the direction of the Stony Brook University Alumni Association <a href="#">Board of Directors</a> and the Stony Brook University <a href="http://stonybrook.edu/advancement/">Advancement</a> office.</p>
-                    <p>Want to use the library? Trying to track down a long lost sorority sister or teammate? Call 1-877-SEA WOLF and a friendly alumni relations staff member will be happy to help. Or drop into the Alumni Relations office and leaf through copies of yearbooks, get campus maps, or pick up your Alumni Association card</a> for <a href="alumni/perks">perks</a> just for you!</p>
+                        <h4>We're Here for You!</h4>
+                        <p>Established in 1965, the Stony Brook University Alumni Association is a separate, 501(c)(3) organization. Our activities are administered by the Stony Brook University <a href="#">Alumni Relations staff</a> under the direction of the Stony Brook University Alumni Association <a href="#">Board of Directors</a> and the Stony Brook University <a href="http://stonybrook.edu/advancement/">Advancement</a> office.</p>
+                        <p>Want to use the library? Trying to track down a long lost sorority sister or teammate? Call 1-877-SEA WOLF and a friendly alumni relations staff member will be happy to help. Or drop into the Alumni Relations office and leaf through copies of yearbooks, get campus maps, or pick up your Alumni Association card</a> for <a href="alumni/perks">perks</a> just for you!</p>
                     </div>
                 </div>
 
