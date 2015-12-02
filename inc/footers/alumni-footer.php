@@ -43,7 +43,6 @@
                                         <a href="alumni/stay-in-touch/alumni-relations">Alumni Relations Office</a>
                                         <a href="alumni/stay-in-touch">Contact</a>
                                         <a href="alumni/stay-in-touch/visiting-sbu">Visit</a>
-                                        <a href="alumni/stay-in-touch/committees">Committees</a>
                                    </div>
                          	</div>
                          </div>

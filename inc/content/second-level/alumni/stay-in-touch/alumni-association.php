@@ -17,7 +17,7 @@
                     <div class="two-third">
                     <h4>We're Here for You!</h4>
                     <p>Established in 1965, the Stony Brook University Alumni Association is a separate, 501(c)(3) organization. Our activities are administered by the Stony Brook University <a href="#">Alumni Relations staff</a> under the direction of the Stony Brook University Alumni Association <a href="#">Board of Directors</a> and the Stony Brook University <a href="http://stonybrook.edu/advancement/">Advancement</a> office.</p>
-                    <p>Want to use the library? Trying to track down a long lost sorority sister or teammate? Call 1-877-SEA WOLF and a friendly alumni relations staff member will be happy to help. Or drop into the Alumni Relations office and leaf through copies of yearbooks, get campus maps, or pick up your Alumni Association card</a> for <a href="alumni/perks">discounts and perks</a> just for you!</p>
+                    <p>Want to use the library? Trying to track down a long lost sorority sister or teammate? Call 1-877-SEA WOLF and a friendly alumni relations staff member will be happy to help. Or drop into the Alumni Relations office and leaf through copies of yearbooks, get campus maps, or pick up your Alumni Association card</a> for <a href="alumni/perks">perks</a> just for you!</p>
                     </div>
                 </div>
 
@@ -49,17 +49,6 @@
 
                 <div class="border-box whole clearfix section-border-bottom">
                     <div class="one-third">
-                        <img src="img/alumni/misc/founders.jpg" alt="Group shot of Alumni" />
-                    </div>
-                    <div class="two-third">
-                        <h4>Committees</h4>
-                        <p>Find out first hand just how rewarding it can be to serve as a volunteer on an Alumni committee.</p>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/stay-in-touch/committees" target="_blank">Explore Committees</a>
-                    </div>
-                </div>
-
-                <div class="border-box whole clearfix">
-                    <div class="one-third">
                         <img src="img/alumni/misc/bus.jpg" alt="Stony Brook Bus with Seawolves for life written on the side" />
                     </div>
                     <div class="two-third">
@@ -69,12 +58,34 @@
                     </div>
                 </div>
 
+                <div class="border-box whole clearfix section-border-bottom">
+                    <div class="one-third">
+                        <img src="img/alumni/misc/founders.jpg" alt="Group shot of Alumni" />
+                    </div>
+                    <div class="two-third">
+                        <h4>Committees</h4>
+                        <p>Find out first hand just how rewarding it can be to serve as a volunteer on an Alumni committee.</p>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/stay-in-touch/committees">Explore Committees</a>
+                    </div>
+                </div>
+
+                <div class="border-box whole clearfix">
+                    <div class="one-third">
+                        <img src="img/alumni/misc/board.jpg" alt="Bio photos of some board members" />
+                    </div>
+                    <div class="two-third">
+                        <h4>The Alumni Association Board</h4>
+                        <p>The Stony Brook Alumni Association is governed by a 27-member volunteer board.</p>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/stay-in-touch/board">Meet the Board</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
     <?php
-        $file = "widgets/alumni-association-promo.php";
+        $file = "widgets/alumni-flipbook-promo.php";
         include($path . $file);
     ?>
 

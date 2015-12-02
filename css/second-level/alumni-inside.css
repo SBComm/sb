@@ -149,6 +149,11 @@ section.full-width-banner-image {
     margin-top: 1.6em;
 }
 
+.inside-page h3 {
+    display: block;
+    clear: both;
+}
+
 .hsc-alums .inside-content h3.serif,
 .get-perks .inside-content h3.serif,
 .give-back-page .inside-content h3.serif,
@@ -159,7 +164,8 @@ section.full-width-banner-image {
     padding: .2em 0;
     border-top: 1px solid #900;
     border-bottom: 1px solid #900;
-    line-height: 1;
+    display: block;
+    clear: both;
 }
 
 .hsc-alums .inside-content h3.serif span,

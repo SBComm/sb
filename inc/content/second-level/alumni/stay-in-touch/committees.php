@@ -1,4 +1,4 @@
-<article class="get-connected contact-page inside-page">
+<article class="contact-page inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
             <h2><a href="alumni/contact">Stay In Touch</a></h2>
@@ -8,52 +8,306 @@
     <section class="clearfix inside-content main-inside-content white-background margin-top">
         <div class="border-box wrapper clearfix">
             <div class="content pad-top">
-                <h3 class="serif">Alumni Association</h3>
+                <h3 class="serif">Committees</h3>
 
-                <div class="border-box whole clearfix section-border-bottom">
+                <div class="border-box whole clearfix margin-bottom">
                     <div class="one-third">
-                        <img src="img/logo/alumni-association-50-years.jpg" alt="Stony Brook University Alumni Association logo" />
+                        <img src="img/alumni/misc/alumni-banner-1.jpg" alt="Alumni Members holding a banner" />
                     </div>
                     <div class="two-third">
-                    <h4>We're Here for You!</h4>
-                    <p>Established in 1965, the Stony Brook University Alumni Association is a separate, 501(c)(3) organization. Our activities are administered by the Stony Brook University <a href="#">Alumni Relations staff</a> under the direction of the Stony Brook University Alumni Association <a href="#">Board of Directors</a> and the Stony Brook University <a href="http://stonybrook.edu/advancement/">Advancement</a> office.</p>
-                    <p>Want to use the library? Trying to track down a long lost sorority sister or teammate? Call 1-877-SEA WOLF and a friendly alumni relations staff member will be happy to help. Or drop into the Alumni Relations office and leaf through copies of yearbooks, get campus maps, or pick up your Alumni Association card</a> for <a href="alumni/perks">discounts and perks</a> just for you!</p>
+                        <h4>Become a Board Member</h4>
+                        <p>Find out first hand just how rewarding it can be to serve as a volunteer on the <a href="alumni/stay-in-touch/board">Alumni Association Board</a> or an Alumni Association <a href="alumni/stay-in-touch/committee">committee</a>. Your experience with the Alumni Association, a 501(c)(3) nonprofit organization, lets you hone skills transferable to your profession and volunteer opportunities elsewhere.</p>
+                        <h4>Remote Opportunities</h4>
+                        <p>Don't live near campus? No problem. Many of our volunteers live across the country and around the world. Unless otherwise noted, committee membership is open to all alumni, as well as interested University faculty, staff, and students, pending approval by the Alumni Association President.</p>
+                        <h4>Get in Touch</h4>
+                        <p>If you are interested in learning more about these and other volunteer opportunities, please contact the Alumni Relations office at 1-877-SEA-WOLF or alumni@stonybrook.edu.</p>
                     </div>
                 </div>
 
-                <div class="border-box whole news-and-events section-border-bottom">
-                    <div class="border-box one-half">
-                        <h4>Mission Statement</h4>
-                        <p><em>The Stony Brook Alumni Association seeks to reach, serve, and engage all Stony Brook alumni, students, and other constituencies to foster a lifelong intellectual and emotional connection between the University and its graduates, and to provide the University with goodwill and support.</em></p>
-                        <p><em>Students and alumni will see the leaders that were educated at Stony Brook as role models.</em></p>
-                    </div>
-                    <div class="border-box one-half">
-                        <h4>Vision Statement</h4>
-                        <p><em>Stony Brook University alumni are a proud and engaged community that serves and supports the University, celebrates the achievements of students, faculty, and fellow alumni, and works tirelessly to ensure that Stony Brook University stands with the finest universities in the world.</em></p>
-                    </div>
-                </div>
+                <h3>Association Committees for 2015-2016</h3>
 
-                <div class="border-box whole clearfix section-border-bottom">
-                    <div class="one-third">
-                        <img src="img/student-life/marquee-wolfie-768.jpg" alt="Wolfie smiling" />
-                    </div>
-                    <div class="two-third">
-                    <h4>What We Do</h4>
-                        <p>The Office of Alumni Relations works collaboratively with the Alumni Association and is committed to helping you sustain a life long and meaningful relationship with Stony Brook University. We strive to offer you valuable benefits and services, alumni volunteer opportunities and engaging experiences around the globe to keep you close to your alma mater.</p>
-                    </div>
+                <div class="border-box whole clearfix">
                     <div class="whole">
-                        <p>On this site and in Stony Brook Matters, our monthly e-newsletter, you’ll read about many of Stony Brook’s 160,000 alums who have distinguished themselves in virtually every field, profession, and industry. We also sponsor many Stony Brook annual traditions including Homecoming weekend, the Stony Brook Alumni Association Scholarship Golf Classic, and dozens of enriching workshops, social networking events, and other alumni-exclusive events.</p>
-                        <p>Many of our accomplished alumni also donate their time, talents, and resources to helping current Stony Brook students get the most out of their college experience.</p>
+                        <h4>Volunteers for Admissions Committee</h4>
+                        <p>Members of the Admissions Committee support the efforts of the University’s Admissions Office with recruiting prospective students, especially related to out of state recruitment and admitted student receptions; and continues through to welcoming our newest students.  Assists with recruiting alumni volunteers for upcoming Admissions Receptions and Recruiting Fairs.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Chair</td>
+                                    <td>Bedel Saget ’88</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Kristin Matthews and Robert Pertusati</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Board Members</td>
+                                    <td>Hilda DeJesus ’07, Kent Gustavson ’04, ’07, Tracy King-Sanchez ’92, ’94, ’12, Robert Stafford ’72, ’82, Ann Teng ’01, ’04</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Volunteers</td>
+                                    <td>Silvia Castro ’04, Kaitlyn Cozier ’10, ’12, Sean Hoffman ’14, Heather Dufficy-Lampone ’99, ’09, Anna Lubitz ’14, Nilda E. Rivera ’87, Ann Teng ’01, ’04,  Catherine Ziegler ’14</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
                 <div class="border-box whole clearfix">
-                    <div class="one-third">
-                        <img src="img/alumni/misc/bus.jpg" alt="Stony Brook Bus with Seawolves for life written on the side" />
+                    <div class="whole">
+                        <h4>Ambassadors for Career Development</h4>
+                        <p>Works to increase Alumni Career Advisors providing internships, hiring opportunities, mentoring, job shadowing, etc. Committee members also helps with outreach for new volunteers to attending special networking and other Career related events.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Chair</td>
+                                    <td>Errol Cockfield ’94</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Nikki Barnett</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Board Members</td>
+                                    <td>Morgan Cato ’04, ’05, Hilda DeJesus ’07, Kent Gustavson ’04, ’07, Bedel Saget ’88, Sabina Sebastian ’08</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Volunteers</td>
+                                    <td>David Sanchez ’92</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="two-third">
-                        <h4>Today's Students are Tomorrow's Alums</h4>
-                        <p>The Alumni Association offers leadership opportunities and annual scholarships to students who demonstrate Stony Brook’s tradition of excellence inside and outside the classroom. The Stony Brook Alumni Association also has been an enthusiastic co-sponsor of the Student Ambassador program since its inception. Representing our most excellent "alumni-in-residence", each Student Ambassador exemplifies dedication and commitment to Stony Brook University, and supports and helps "host" major campus functions including alumni events.</p>
+                </div>
+
+                <div class="border-box whole clearfix">
+                    <div class="whole">
+                        <h4>Alumni Awards</h4>
+                        <p>Responsible for alumni outreach, supporting the call for nominations and selection process, volunteer relations and recruitment for the 40 Under Forty alumni recognition program, as well as the Distinguished Alumni Award. The committee also works to increase alumni participation in event which profiles distinguished alumni award recipients.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Chair</td>
+                                    <td>Michelle Stein ’02</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Mary Hoffmann ’14, Kristin Matthews</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Board Members</td>
+                                    <td>Morgan Cato ’04, ’05, Robert Cuccaro ’96, Kent Gustavson ’04, ’07, Keith Kowalsky ’86, ’88</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="border-box whole clearfix">
+                    <div class="whole">
+                        <h4>Business Development and Networking</h4>
+                        <p>Responsible for developing network programs between alumni owned businesses to grow their professional contacts and business opportunities. The committee will afford valuable access to alumni and experiences, in an effort to foster meaningful relationships for business development.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Chair</td>
+                                    <td>Robert Stafford ’72, ’82</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Robert Cuccaro ’96, Kent Gustavson ’04, ’07, Keith Kowalsky ’86, ’88, Errol Cockfield ’94</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Board Members</td>
+                                    <td>Camille Ambroscato, Joan Dickinson ’12, Tammy Mehlsack ‘93, Joe Crook ’80, Scott Middleton ’84, Joseph Campolo ’94, Mark Palermo ’80, Mark Snyder ’69, Larry Roher ’79</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="border-box whole clearfix">
+                    <div class="whole">
+                        <h4>Marketing</h4>
+                        <p>Responsible for increasing visibility and accessibility of the Association, to expose alumni and friends to the happenings and accomplishments of the University, athletics, Faculty, students and fellow alumni.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Chair</td>
+                                    <td>Sabina Sebastian</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Megan Dwyer ’13</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Board Members</td>
+                                    <td>Ernie Canadeo ’77, Anthony Casino ’76, Errol Cockfield ’94, Rob deBrauwere ’87, Kent Gustavson ’04, ’07, David Molow ’85, Navneet Singh ’08, ’11 and Michelle Stein ’02</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Volunteers</td>
+                                    <td>Dillon Winegar ’14</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="border-box whole clearfix">
+                    <div class="whole">
+                        <h4>Student Awards</h4>
+                        <p>Responsible for the Alumni Association Student Awards process and selection decisions; as well as of Association-sponsored faculty, student, staff, volunteer award and/or scholarships.</p>
+                        <p><em>Note: This committee is not responsible for grants and sponsorships.</em></p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Chair</td>
+                                    <td>Ahmed Belazi ’06, ’10</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Janet Masini ’14, Danielle Engel ’05</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Board Members</td>
+                                    <td>Alphonzo Grant ’93, ’94, Kent Gustavson ’04, ’07, Keith Kowalsky ’86, ’88, Bedel Saget ’88</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Committee Membership</td>
+                                    <td>Cheryl Chambers ’01, Joan Dickinson ’12,  Joanna Durso ‘12, Roy Flores, Kimberly Ciacalone, Nadine Greenstein ’14, Sandra Harvey ’12, Katherine Hasard ’08, ’13, Mary Hoffmann ’14, Anthony LaViscount ’01, Laura Lyons, Norma Reyes ’96, Gloria Snyder ’72, Ann Teng ’02, ’04, Kate Valerio ’02, ’04</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Board Members</td>
+                                    <td>Ahmed Belazi ’06, Anthony Casino ’76 and Alphonzo Grant ’93, ’94</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="border-box whole clearfix margin-bottom">
+                    <div class="whole">
+                        <h4>Student and Young Alumni Engagement Committee</h4>
+                        <p>To encourage constant engagement of the Stony Brook University Alumni Association with current Stony Brook University students and recent graduates in order to educate and cultivate of the alumni culture.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Chair</td>
+                                    <td>Drazen Bacarra, Vahideh Rasekhi</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Board Members</td>
+                                    <td>Ahmed Belazi ’06, ’10, Morgan Cato ’04, ’05, Hilda DeJesus ’07, Sabina Sebastian ’08, Navneet Singh ’08, ’11 and Michelle Stein ’02</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Volunteers</td>
+                                    <td>Mallory Rothstein ’15, Dillon Winegar ’14 and Michael Yen ’11, ’13</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <h3>Signature Event Committees</h3>
+
+                <div class="border-box whole clearfix">
+                    <div class="whole">
+                        <h4>Homecoming</h4>
+                        <p>Responsible for alumni outreach, volunteer relations and recruitment; committee also works to increase alumni participation at the event and works the day of I hosting the event and at the Alumni Tent.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Board of Directors</td>
+                                    <td>Ahmed Belazi ’06, ’10, Anthony Casino ’76, Errol Cockfield ’94, Hilda DeJesus ’07, Patrick Cunningham ’93, Tracy King-Sanchez ’92, ’94, ’12, Keith Kowalsky ’86, ’88, Robert Stafford ’72, ’82, Michelle Stein ’02, and Ann Teng ’01, ’04</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Kristin Matthews</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Volunteers</td>
+                                    <td>Nikki Barnett ’01, ’03, Stephanie Brumsey ’09, Robert Carley ’77, Raymond ’94, ’96, ’05 &amp; Frances Carr ’93, ’98,  Heather Dufficy Lampone ’99 ’09, Diane Fox ’10, Delfina Isaac ’98, ’00, Todd Houslaner ’93, Aminah Mosley ’98, Althea Pollard ’92, Jessica Raphael ’12, Amber Steiger ’10, Chris Tanaka ’07, ’13, Ann Teng ’01, ’04 Christina Vargas ’90, Kimberly Wodiska ’09, ’13 and Michael Yen ’11, ’13</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="border-box whole clearfix">
+                    <div class="whole">
+                        <h4>Golf</h4>
+                        <p>Responsible for alumni outreach, sponsorship and prize solicitations, and volunteer recruitment.  The committee also works to increase alumni participation in Association's only fundraising event.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Chair</td>
+                                    <td>Anthony Casino ’76</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Matthew Colson, Kim Parris</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Board of Directors</td>
+                                    <td>Robert Cuccaro ’96, Robert Stafford ’72, ’82</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Volunteers</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="border-box whole clearfix margin-bottom">
+                    <div class="whole">
+                        <h4>Reunion</h4>
+                        <p>Responsible for alumni outreach, volunteer relations and recruitment and works to increase alumni participation at the Reunion.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Kristin Matthews</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Committee Membership</td>
+                                    <td>Edward Abramson '65, Russell Dixon '90, Carol Gomes '90, Elizabeth Fox ’90, Kathleen Fitzwilliam '65, Richard Gentile '65, Samuel Horowitz '65, Joseph Marchese '65, Kenneth McMahon '65, Lisa Payton ’90, Althea Pollard '92, Shari Sacks '90, Eddie Shek '90, Dan Smith '90, and Christina Vargas '90</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <h3>Ad-Hoc Committees</h3>
+
+                <div class="border-box whole clearfix">
+                    <div class="whole">
+                        <h4>Advocates</h4>
+                        <p>Responsible for advocating on behalf of Stony Brook University before elected officials and other policy-makers at the federal, state, and/or local level.  This ad hoc committee convenes if needed and when approved by the board.</p>
+                        <h5 class="on-red">Members</h5>
+                        <table class="simple-two-col-table light-grey-table">
+                            <tbody>
+                                <tr>
+                                    <td class="label">Board Members</td>
+                                    <td>Robert J. deBrauwere ’87</td>
+                                </tr>
+                                <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Mary Hoffman ’14</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
