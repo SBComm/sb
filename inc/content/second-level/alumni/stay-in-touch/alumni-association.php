@@ -60,23 +60,23 @@
 
                 <div class="border-box whole clearfix section-border-bottom">
                     <div class="one-third">
+                        <img src="img/alumni/misc/alumni-banner-2.jpg" alt="Alumni Members holding a banner" />
+                    </div>
+                    <div class="two-third">
+                        <h4>The Alumni Association Board</h4>
+                        <p>The Stony Brook Alumni Association is governed by a 27-member volunteer board.</p>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/stay-in-touch/board">Meet the Board</a>
+                    </div>
+                </div>
+
+                <div class="border-box whole clearfix">
+                    <div class="one-third">
                         <img src="img/alumni/misc/founders.jpg" alt="Group shot of Alumni" />
                     </div>
                     <div class="two-third">
                         <h4>Committees</h4>
                         <p>Find out first hand just how rewarding it can be to serve as a volunteer on an Alumni committee.</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/stay-in-touch/committees">Explore Committees</a>
-                    </div>
-                </div>
-
-                <div class="border-box whole clearfix">
-                    <div class="one-third">
-                        <img src="img/alumni/misc/board.jpg" alt="Bio photos of some board members" />
-                    </div>
-                    <div class="two-third">
-                        <h4>The Alumni Association Board</h4>
-                        <p>The Stony Brook Alumni Association is governed by a 27-member volunteer board.</p>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/stay-in-touch/board">Meet the Board</a>
                     </div>
                 </div>
 
