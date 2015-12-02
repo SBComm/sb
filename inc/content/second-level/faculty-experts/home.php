@@ -49,7 +49,9 @@
     </section>
     <section class="search-experts newsroom-promo clearfix">
         <p>The <strong>Office of Media Relations</strong> promotes institutional achievements, student stories, faculty research, programs, economic development and campus events, sharing the University’s story with local, regional, national, and international news media using a variety of media platforms.</p>
-        <p><a class="external-link-hover" href="http://stonybrook.edu/news/" target="_blank">Visit the Newsroom</a></p>
+        <p><a class="external-link-hover" href="http://stonybrook.edu/news/" target="_blank">Visit the Newsroom</a>
+        <br /><br />
+        <a class="external-link-hover" href="http://sb.cc.stonybrook.edu/news/experts-university/videolink.php" target="_blank">ITK Studios</a></p>
     </section>
     <section class="search-experts contact-footer clearfix">
         <p>Looking to get in touch with an expert?</p>
