@@ -1,4 +1,6 @@
-    <?php if($meta) { ?>    
+    <?php if($meta) { ?>
+        <base href="<?php echo $css_base_url; ?>"><!--[if IE]></base><![endif]-->
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -18,8 +20,6 @@
         <meta property="og:url" content="<?php echo $og_url; ?>" />
         <meta property="og:image" content="<?php echo $og_image; ?>" />
     <!--END Open Graph Meta Tags-->
-
-    	<base href="<?php echo $css_base_url; ?>"><!--[if IE]></base><![endif]-->
 
     <!--BEGIN Cross-device Favicon code-->
     <!--Be sure to have the appropriate images configured correctly in the site root-->
