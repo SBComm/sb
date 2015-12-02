@@ -29,8 +29,6 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Volunteers for Admissions Committee</h4>
-                        <p>Members of the Admissions Committee support the efforts of the University’s Admissions Office with recruiting prospective students, especially related to out of state recruitment and admitted student receptions; and continues through to welcoming our newest students.  Assists with recruiting alumni volunteers for upcoming Admissions Receptions and Recruiting Fairs.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -57,8 +55,6 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Ambassadors for Career Development</h4>
-                        <p>Works to increase Alumni Career Advisors providing internships, hiring opportunities, mentoring, job shadowing, etc. Committee members also helps with outreach for new volunteers to attending special networking and other Career related events.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -85,8 +81,6 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Alumni Awards</h4>
-                        <p>Responsible for alumni outreach, supporting the call for nominations and selection process, volunteer relations and recruitment for the 40 Under Forty alumni recognition program, as well as the Distinguished Alumni Award. The committee also works to increase alumni participation in event which profiles distinguished alumni award recipients.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -109,8 +103,6 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Business Development and Networking</h4>
-                        <p>Responsible for developing network programs between alumni owned businesses to grow their professional contacts and business opportunities. The committee will afford valuable access to alumni and experiences, in an effort to foster meaningful relationships for business development.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -133,8 +125,6 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Marketing</h4>
-                        <p>Responsible for increasing visibility and accessibility of the Association, to expose alumni and friends to the happenings and accomplishments of the University, athletics, Faculty, students and fellow alumni.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -161,9 +151,6 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Student Awards</h4>
-                        <p>Responsible for the Alumni Association Student Awards process and selection decisions; as well as of Association-sponsored faculty, student, staff, volunteer award and/or scholarships.</p>
-                        <p><em>Note: This committee is not responsible for grants and sponsorships.</em></p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -194,8 +181,6 @@
                 <div class="border-box whole clearfix margin-bottom">
                     <div class="whole">
                         <h4>Student and Young Alumni Engagement Committee</h4>
-                        <p>To encourage constant engagement of the Stony Brook University Alumni Association with current Stony Brook University students and recent graduates in order to educate and cultivate of the alumni culture.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -220,8 +205,6 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Homecoming</h4>
-                        <p>Responsible for alumni outreach, volunteer relations and recruitment; committee also works to increase alumni participation at the event and works the day of I hosting the event and at the Alumni Tent.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -244,8 +227,6 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Golf</h4>
-                        <p>Responsible for alumni outreach, sponsorship and prize solicitations, and volunteer recruitment.  The committee also works to increase alumni participation in Association's only fundraising event.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -272,8 +253,6 @@
                 <div class="border-box whole clearfix margin-bottom">
                     <div class="whole">
                         <h4>Reunion</h4>
-                        <p>Responsible for alumni outreach, volunteer relations and recruitment and works to increase alumni participation at the Reunion.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -294,8 +273,6 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Advocates</h4>
-                        <p>Responsible for advocating on behalf of Stony Brook University before elected officials and other policy-makers at the federal, state, and/or local level.  This ad hoc committee convenes if needed and when approved by the board.</p>
-                        <h5 class="on-red">Members</h5>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
