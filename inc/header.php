@@ -19,7 +19,7 @@
         <meta property="og:image" content="<?php echo $og_image; ?>" />
     <!--END Open Graph Meta Tags-->
 
-    	<base href="<?php echo $css_base_url; ?>" />
+    	<base href="<?php echo $css_base_url; ?>"><!--[if IE]></base><![endif]-->
 
     <!--BEGIN Cross-device Favicon code-->
     <!--Be sure to have the appropriate images configured correctly in the site root-->
