@@ -384,6 +384,8 @@ $(document).ready(function() {
     $('.toggle-view a').on('click',function(e) {
     	e.preventDefault();
     	var newURL = $(this).attr('href') + '&keyword=' + getKeyword();
+    	//bug fix for IE
+    	newURL = document.getElementsByTagName('base')[0].href + newURL;
     	window.location = newURL;
     });
 
