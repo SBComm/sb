@@ -137,19 +137,19 @@
 						<div class="quick-nav-wrapper">
 		                    <ul class="no-pad-wrapper border-box clearfix">
 		                        <li>
-		                        	<a href="alumni/alumni-association/">
-		                        		<i class="icon fa fa-graduation-cap clearfix"></i>
-		                        		<span class="label clearfix">Alumni Relations <span class="hide-accessible-mobile">Office</span></span>
-		                        	</a>
-		                        </li>
-		                        <li>
-		                        	<a href="alumni/alumni-association/">
+		                        	<a href="alumni/stay-in-touch">
 		                        		<i class="icon fa fa-university clearfix"></i>
 		                        		<span class="label clearfix">Alumni Association</span>
 		                        	</a>
 		                        </li>
+		                        <li>
+		                        	<a href="alumni/stay-in-touch/alumni-relations">
+		                        		<i class="icon fa fa-graduation-cap clearfix"></i>
+		                        		<span class="label clearfix">Alumni Relations <span class="hide-accessible-mobile">Office</span></span>
+		                        	</a>
+		                        </li>
 		                        <li class="for-info">
-		                        	<a href="alumni/contact" class="clearfix">
+		                        	<a href="alumni/stay-in-touch/contact" class="clearfix">
 		                        		<i class="icon fa fa-paper-plane clearfix"></i>
 		                        		<span class="label clearfix">Contact</span>
 		                        	</a>
