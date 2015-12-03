@@ -69,7 +69,7 @@
             </div>
         </div>
     </section>
-<!--
+
     <section class="cost-of-attendance inside-content clearfix">
         <div class="wrapper border-box">
             <h3>Cost of Attendance</h3>
@@ -125,7 +125,7 @@
             </div>
         </div>
     </section>
-
+<!--
     <section class="cost-comparison red-background inside-content clearfix">
         <div class="wrapper border-box">
             <h3>Cost Comparison: Why We&#8217;re a Best Value</h3>
