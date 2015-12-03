@@ -36,7 +36,7 @@ function runSearch(keyword,popState) {
 	liveFilterInput.trigger(evt);
 	$('body').scrollTo( $('.faculty-list'), 500, {axis: 'y'} );
 	var newKeyword = replaceAll(keyword, ' ', '+');
-	var theURL = 'faculty-experts/results/?view='+ getViewType() +'&keyword='+ newKeyword;
+	var theURL = 'experts/results/?view='+ getViewType() +'&keyword='+ newKeyword;
 	if(Modernizr.history && popState) {
     	history.pushState(null, null, theURL);
     }
@@ -114,14 +114,19 @@ $(document).ready(function() {
 
 	//profile script
 	if ($('.profile').length) {
-		//if URL contains faculty-directory/profile/ or faculty-experts/profile/ hide unappropriate data
+		//if URL contains faculty-directory/profile/ or experts/profile/ hide unappropriate data
 		if ($('.profile').attr('data-faculty-not-found') != 'true') {
 			if(theURL.indexOf('faculty-directory/profile/') > -1) {
-				$('.hide-on-faculty-directory').remove();
-			} else if(theURL.indexOf('faculty-experts/profile/') > -1) {
+				if ($('.profile').attr('data-is-faculty') == 'false') {
+					var newURL = 'faculty-directory/profile/not-found';
+					window.location = newURL;
+				} else {
+					$('.hide-on-faculty-directory').remove();
+				}
+			} else if(theURL.indexOf('experts/profile/') > -1) {
 				/* if not an expert, redirect to custom 404 */
 				if ($('.profile').attr('data-faculty-type') != 'expert') {
-					var newURL = 'faculty-experts/profile/not-found';
+					newURL = 'experts/profile/not-found';
 					window.location = newURL;
 				} else {
 					$('.hide-on-faculty-experts').remove();
@@ -316,7 +321,7 @@ $(document).ready(function() {
 		// keydown triggers LiveFilter
 		$(".clear-filter").addClass("hide").addClass("hide-accessible");
 		$('body').scrollTo( $('.list-experts'), 300, {axis: 'y'} );
-		var theURL = 'faculty-experts/results/?view='+ getViewType() +'&keyword=';
+		var theURL = 'experts/results/?view='+ getViewType() +'&keyword=';
 		if(Modernizr.history) {
 			history.pushState(null, null, theURL);
 		}

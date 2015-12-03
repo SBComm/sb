@@ -31,9 +31,9 @@
 
 	        $og_title        = 'Stony Brook ' . $page_title_sub;
 	        $og_description  = $page_description;
-	        $og_url          = 'faculty-experts';
+	        $og_url          = 'experts';
 
-		    $page_to_top_link = false;
+		    $page_to_top_link = true;
 		    $page_to_top_loc   = 'splash-header';
 
 		    $page_footerbar   = true;
@@ -57,7 +57,7 @@
     		$page_loader      = true;
 
     		$page_scroll      = true;
-	        $page_scroll_el   = '.splash-header';     //Options are audience-nav, logo, main-nav, bottom
+	        $page_scroll_el   = '.list-experts';     //Options are audience-nav, logo, main-nav, bottom
 	        $page_scroll_time = 0;
 	        $page_scroll_mobile = false;
 
@@ -111,14 +111,39 @@
 						?>
 		        </div>
 		        <div class="main-container">
-		            <div class="main clearfix faculty-experts-page-wrapper">
+		            <div class="main clearfix">
 
-		                <!-- <profile> -->
+			            <article class="experts-wrapper">
 						    <?php
-						    	$file = "faculty-experts/profile.php";
-						    	include($path . $content . $secLv . $file);
+						        $file = "experts/splash-header-inside.php";
+						        include($path . $content . $secLv . $file);
 						    ?>
-						<!-- </profile> -->
+						    <?php
+						        $file = "experts/search-experts-overlay-get.php";
+						        include($path . $content . $secLv . $file);
+						    ?>
+						    <section class="clearfix list-experts">
+						        <div class="clearfix header-wrapper">
+						            <div class="no-pad-wrapper">
+						                <h2><a class="breadcrumb" href="experts" title="Home"><em class="fa fa-home icon"></em></a><em class="fa fa-angle-double-right separator icon"></em><span class="label">Topics</span></h2>
+						                <a class="fa-search-before show-search-overlay" href="experts">Search<span class="hide-accessible-mobile"> Experts</span></a>
+						            </div>
+						        </div>
+						    </section>
+
+			                <!-- <faculty-experts> -->
+								<?php 
+									$file = "experts/topics.php";
+									include($path . $content . $secLv . $file);
+								?>
+							<!-- </faculty-experts> -->
+
+							<?php
+						        $file = "experts/profile-nav.php";
+						        include($path . $content . $secLv . $file);
+						    ?>
+
+						</article>
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->

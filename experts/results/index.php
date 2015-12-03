@@ -31,7 +31,7 @@
 
 	        $og_title        = 'Stony Brook ' . $page_title_sub;
 	        $og_description  = $page_description;
-	        $og_url          = 'faculty-experts';
+	        $og_url          = 'experts';
 
 		    $page_to_top_link = false;
 		    $page_to_top_loc   = 'splash-header';
@@ -39,11 +39,15 @@
 		    $page_footerbar   = true;
 		    $page_footer      = false;
 
+		    //$audience_nav_selected_tab = 6;
+
 		    $carousel 	      = false;
 		    $carousel_3       = false;
 		    $carousel_4       = false;
 
 		    $lightbox 	      = false;
+		    $live_filter      = true;
+		    $text_filter      = false;
 
     		$search_style 	  = 'default';
     		$nav_type		  = 'default';
@@ -53,9 +57,11 @@
     		$page_loader      = true;
 
     		$page_scroll      = true;
-	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
+	        $page_scroll_el   = '.list-experts';     //Options are audience-nav, logo, main-nav, bottom
 	        $page_scroll_time = 0;
-	        $page_scroll_mobile = true;
+	        $page_scroll_mobile = false;
+
+	        $live_filter_sticky = true;
 		?>
 
 	<head>
@@ -109,7 +115,7 @@
 
 		                <!-- <faculty-experts> -->
 							<?php 
-								$file = "faculty-experts/home.php";
+								$file = "experts/results.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </faculty-experts> -->

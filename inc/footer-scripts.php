@@ -385,7 +385,7 @@
 		<?php } ?>
 
         <?php if($page_type=='second-level' && $second_level=='faculty-experts') { ?>
-			<?php includeAsset('js','js/faculty-experts/faculty-experts.js'); ?>
+			<?php includeAsset('js','js/experts/faculty-experts.js'); ?>
 		<?php } ?>
 
 	   	<?php if($motio==true) { ?>
