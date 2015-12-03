@@ -20,7 +20,7 @@
                         <h4>Remote Opportunities</h4>
                         <p>Don't live near campus? No problem. Many of our volunteers live across the country and around the world. Unless otherwise noted, committee membership is open to all alumni, as well as interested University faculty, staff, and students, pending approval by the Alumni Association President.</p>
                         <h4>Get in Touch</h4>
-                        <p>If you are interested in learning more about these and other volunteer opportunities, please contact the Alumni Relations office at 1-877-SEA-WOLF or alumni@stonybrook.edu.</p>
+                        <p>If you are interested in learning more about these and other volunteer opportunities, please contact the Alumni Relations office at 1-877-SEA-WOLF or <a class="email-link" href="mailto:alumni@stonybrook.edu">alumni@stonybrook.edu</a>.</p>
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@
 
                 <div class="border-box whole clearfix">
                     <div class="whole">
-                        <h4>Alumni Awards</h4>
+                        <h4>Alumni Awards (40 Under Forty, Distinguished Alumni Award)</h4>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -110,11 +110,11 @@
                                     <td>Robert Stafford ’72, ’82</td>
                                 </tr>
                                 <tr>
-                                    <td class="label">Staff Liaison</td>
+                                    <td class="label">Board Members</td>
                                     <td>Robert Cuccaro ’96, Kent Gustavson ’04, ’07, Keith Kowalsky ’86, ’88, Errol Cockfield ’94</td>
                                 </tr>
                                 <tr>
-                                    <td class="label">Board Members</td>
+                                    <td class="label">Volunteers</td>
                                     <td>Camille Ambroscato, Joan Dickinson ’12, Tammy Mehlsack ‘93, Joe Crook ’80, Scott Middleton ’84, Joseph Campolo ’94, Mark Palermo ’80, Mark Snyder ’69, Larry Roher ’79</td>
                                 </tr>
                             </tbody>
@@ -151,6 +151,7 @@
                 <div class="border-box whole clearfix">
                     <div class="whole">
                         <h4>Student Awards</h4>
+                        <p><em>Note: This committee is not responsible for grants and sponsorships.</em></p>
                         <table class="simple-two-col-table light-grey-table">
                             <tbody>
                                 <tr>
@@ -243,7 +244,7 @@
                                 </tr>
                                 <tr>
                                     <td class="label">Volunteers</td>
-                                    <td></td>
+                                    <td>John Cierski ’90, Joe Crook ’80, Timothy Ecklund, Tony Johnson, Guenter Jonke ’82, David Leviton ’84, and Michael Yen ’11, ’13</td>
                                 </tr>
                             </tbody>
                         </table>

@@ -22,7 +22,7 @@
                     <div class="three-quarter">
                         <h4>Matthew Colson</h4>
                         <p><strong>Executive Director of Alumni Relations</strong></p>
-                        <p>Matthew is responsible for the overall development and oversight of events, programs, services and communications for Stony Brook’s more than 150,000 alumni worldwide. He works closely with the Stony Brook Alumni Association’s Executive Committee and with University Administration to develop student and alumni experiences that will create and sustain lifelong relationships between alumni and the University.</p>
+                        <p>Matthew is responsible for the overall development and oversight of events, programs, services and communications for Stony Brook’s more than 160,000 alumni worldwide. He works closely with the Stony Brook Alumni Association’s Executive Committee and with University Administration to develop student and alumni experiences that will create and sustain lifelong relationships between alumni and the University.</p>
                         <p><a class="email-link" href="mailto:matthew.colson@stonybrook.edu">matthew.colson@stonybrook.edu</a></p>
                         <p>(631) 632-4932</p>
                     </div>
@@ -35,7 +35,7 @@
                     <div class="three-quarter">
                         <h4>Kristin Matthews</h4>
                         <p><strong>Associate Director of Alumni Relations</strong></p>
-                        <p>Kristin is responsible for the strategic development of outreach strategies, volunteer management and delegation and implementation of techniques to assist in the management of general administrative functioning of the Office of Alumni Relations.  She works closely with the Association's Reunion and Homecoming committees and also serves as the Alumni Relations liaison to the School of Dental Medicine, Corporate Alumni Gatherings and the University's 40 Under Forty Alumni Awards Program. Kristin oversees the on-boarding of recent graduates into the Alumni Association, manages the Alumni social media pages and plays an integral role in the execution of the Association's variety of digital communications.</p>
+                        <p>Kristin is responsible for the strategic development of outreach strategies, volunteer management and delegation and implementation of techniques to assist in the management of general administrative functioning of the Office of Alumni Relations.  She works closely with the Association's Reunion and Homecoming Committees and also serves as the Alumni Relations liaison to the School of Dental Medicine, corporate alumni gatherings and the University's 40 Under Forty alumni awards program. Kristin oversees the on-boarding of recent graduates into the Alumni Association, manages the alumni social media pages and plays an integral role in the execution of the Association's variety of digital communications.</p>
                         <p><a class="email-link" href="mailto:kristin.matthews@stonybrook.edu">kristin.matthews@stonybrook.edu</a></p>
                         <p>(631) 632-6130</p>
                     </div>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="three-quarter">
                         <h4>Mary Hoffmann MA '14</h4>
-                        <p><strong>Alumni Relations Coordinator</strong></p>
+                        <p><strong>Assistant Director of Alumni Relations</strong></p>
                         <p>Mary is the Alumni Relations liaison to the Stony Brook Medicine alumni boards and is focused primarily on alumni programming for four of the University’s Health Sciences professional schools including Stony Brook School of Medicine, Nursing, Social Welfare and Health and Technology Management.  Mary works closely with the Association’s Past Presidents and Distinguished Alumni Awards committee.</p>
                         <p><a class="email-link" href="mailto:mary.hoffmann@stonybrook.edu">mary.hoffmann@stonybrook.edu</a></p>
                         <p>(631) 632-4995</p>
