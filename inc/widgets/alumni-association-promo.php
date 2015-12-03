@@ -3,7 +3,7 @@
         <div class="content pad-top pad-bottom">
 	        <h3>Meet the Board</h3>
 	        <p>The Stony Brook Alumni Association is governed by a volunteer board.</p>
-	        <a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="alumni/stay-in-touch/board" target="_blank">View Members</a>
+	        <a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="alumni/stay-in-touch/board">View Members</a>
         </div>
     </div>
 </section>

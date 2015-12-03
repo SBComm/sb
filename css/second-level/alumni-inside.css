@@ -154,6 +154,13 @@ section.full-width-banner-image {
     clear: both;
 }
 
+.contact-page .content h3 {
+    clear: both;
+    display: block;
+    margin: 2em 0 .8em;
+    float: left;
+}
+
 .hsc-alums .inside-content h3.serif,
 .get-perks .inside-content h3.serif,
 .give-back-page .inside-content h3.serif,
