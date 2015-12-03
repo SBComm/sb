@@ -19,12 +19,12 @@
     <section class="clearfix list-experts">
         <div class="clearfix header-wrapper">
             <div class="no-pad-wrapper">
-                <h2><a class="breadcrumb" href="experts" title="Home"><em class="fa fa-home icon"></em></a><em class="fa fa-angle-double-right separator icon"></em><a class="header-label" href="experts/results" class="label">Faculty Experts</a></h2>
+                <h2><a class="breadcrumb" href="experts" title="Home"><em class="fa fa-home icon"></em></a><em class="fa fa-angle-double-right separator icon"></em><a class="header-label" href="experts/results" class="label">Experts</a></h2>
                 <a class="fa-search-before show-search-overlay" href="experts">Search<span class="hide-accessible-mobile"> Experts</span></a>
             </div>
         </div>
         <div class="faculty-list faculty-list-inside no-pad-wrapper clearfix inside-content">
-            <p class="search-text initial-search-text clearfix"><a href="experts" class="show-search-overlay">Search</a> for a faculty expert or<br /> browse the list below.</p>
+            <p class="search-text initial-search-text clearfix"><a href="experts" class="show-search-overlay">Search</a> for a expert or<br /> browse the list below.</p>
 
             <div class="filter-wrapper border-box content clearfix sticky hidden">
                 <input id="live-filter-search-<?=$view?>" type="text" class="rounded-input text-filter" placeholder="Filter experts" />
