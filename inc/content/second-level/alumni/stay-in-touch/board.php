@@ -10,7 +10,7 @@
             <div class="content pad-top">
                 <h3 class="serif">Alumni Association Board</h3>
 
-                <div class="border-box whole clearfix margin-bottom">
+                <div class="border-box whole clearfix">
                     <p>The Stony Brook Alumni Association is governed by a 27-member volunteer board. The Alumni Board in tandem with the Office of Alumni Relations, plans and organizes alumni programs and services, serves on University appointed committees, and establishes and maintains fiscal policies and procedures for the Association, while working to build support for its alma mater.</p>
                     <p>Interested in serving on the Board? Contact the Alumni Office at 1-877-SEA-WOLF or <a class="email-link" href="mailto:alumni@stonybrook.edu">alumni@stonybrook.edu</a>.</p>
                 </div>
