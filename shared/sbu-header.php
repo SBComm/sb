@@ -12,6 +12,7 @@
 		include($inc);
 
 		$og_url = $_GET["pageURL"];
+		$nav_site = $_GET["site"];
 		$page_cat = 'sub';
 		$page_title_sub = $_GET["pageTitle"];
 
@@ -78,7 +79,14 @@
 	        <div class="main-nav-container clearfix">
 	        	<!-- <site-nav> -->
 					<?php 
-						include($path . $site_nav);
+						if($nav_site=='alumni') {
+							$nav_type = 'big-n-bold';
+							$include_nav = 'nav/alumni-nav.php';
+						} else {
+							$nav_type = 'default';
+							$include_nav = $site_nav;
+						}
+						include($path . $include_nav);
 					?>
 				<!-- </site-nav> -->
 	        </div>
