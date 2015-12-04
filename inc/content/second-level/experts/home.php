@@ -35,7 +35,7 @@
     <section class="clearfix featured-experts">
         <div class="clearfix header-wrapper sticky">
             <div class="no-pad-wrapper">
-                <h2>Featured <span class="hide-accessible-mobile">Faculty </span>Experts</h2>
+                <h2>Featured Experts</h2>
                 <a class="fa-arrow-after" href="experts/results">View all<span class="hide-accessible-mobile"> experts</span></a>
             </div>
         </div>
@@ -57,7 +57,7 @@
     </section>
     <section class="clearfix search-experts search-experts-inside hide-accessible">
         <div class="no-pad-wrapper clearfix">
-            <p class="label clearfix">To arrange an interview with any member of our faculty, contact the <span class="nowrap">Stony Brook Newsroom</span>.</p>
+            <p class="label clearfix">To arrange an interview with a Stony Brook professional, contact the <span class="nowrap">Stony Brook Newsroom</span>.</p>
             <p class="label clearfix default-font-size"><a class="sbu-button fa-arrow-after clearfix" href="https://docs.google.com/forms/d/1TMdTQMFSkVE-9Dswm8PNGAGhnM-3e9XJz9FWCfGNzMk/viewform">Submit a Request</a></p>
             <p class="divider clearfix"><span>or</span></p>
             <p class="label clearfix center-text">Call the Stony Brook Newsroom directly at 631.632.6310</p>
