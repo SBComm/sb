@@ -43,7 +43,7 @@
 }
 
 .splash-header h1 {
-    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-family: 'Trade Gothic W01 Light';
     color: #fff;
     display: block;
     width: 100%;
@@ -73,7 +73,10 @@
 
 .splash-header strong,
 .splash-header em {
-    font-size: .675em;
+    font-size: 0.8em;
+    letter-spacing: .035em;
+    word-spacing: .15em;
+    padding-right: 6px;
 }
 
 .splash-header span {
@@ -152,6 +155,10 @@ a.splash-wrapper h1 {
     line-height: 1.4em;
 }
 
+.search-experts p.intro-text {
+    display: none;
+}
+
 .search-experts p.small-line {
     font-family:'TradeGothicNextW02-Ligh 694371';
     text-transform: uppercase;
@@ -171,7 +178,7 @@ a.splash-wrapper h1 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 0 2.2em;
+    margin: 2.2em 0 2.2em;
     position: relative;
     display: block;
 }
@@ -1185,6 +1192,10 @@ p.default-font-size {
     .experts-overlay p.divider,
     .search-experts-inside p.divider {
         margin: 1em auto 0;
+    }
+
+    .search-experts p.intro-text {
+        display: block;
     }
 
     .search-experts form {

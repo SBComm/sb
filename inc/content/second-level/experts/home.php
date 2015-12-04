@@ -7,7 +7,7 @@
     </section>
     <section class="clearfix search-experts">
         <div class="no-pad-wrapper">
-            <p>The Stony Brook Experts guide provides news media representatives with a resource to identify and connect with Stony Brook University professionals who can provide expertise, analysis and commentary on a wide variety of news and research topics.</p>
+            <p class="intro-text">The Stony Brook Experts guide provides news media representatives with a resource to identify and connect with Stony Brook University professionals who can provide expertise, analysis and commentary on a wide variety of news and research topics.</p>
             <form class="search-list-page" action="experts/results/" method="get">
                 <div class="input-wrap">
                     <input type="hidden" name="view" value="grid" />
