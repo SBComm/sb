@@ -1,6 +1,3 @@
-<?php if($second_level=='faculty-experts' && $is_production_environment) { ?>
-    <meta http-equiv="refresh" content="0; url=http://mobile.cc.stonybrook.edu/sb/404/?e=0"
-<?php } ?>
     <?php if($meta) { ?>
         <base href="<?php echo $css_base_url; ?>"><!--[if IE]></base><![endif]-->
 
