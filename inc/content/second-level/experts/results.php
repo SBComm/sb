@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="faculty-list faculty-list-inside no-pad-wrapper clearfix inside-content">
-            <p class="search-text initial-search-text clearfix"><a href="experts" class="show-search-overlay">Search</a> for a expert or<br /> browse the list below.</p>
+            <p class="search-text initial-search-text clearfix"><a href="experts" class="show-search-overlay">Search</a> for an expert or<br /> browse the list below.</p>
 
             <div class="filter-wrapper border-box content clearfix sticky hidden">
                 <input id="live-filter-search-<?=$view?>" type="text" class="rounded-input text-filter" placeholder="Filter experts" />
