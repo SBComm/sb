@@ -51,5 +51,6 @@
                 <a class="view-grid<?php if($view=='grid') { ?> active<?php } ?>" href="experts/results/?view=grid"><em class="icon fa fa-th"></em> Photo View</a>
             </div>
         </div>
+        
     </section>
 </article>
