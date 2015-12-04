@@ -34,41 +34,45 @@
                     <h4>Past Events</h4>
                     <div class="whole clearfix">
                         <div class="border-box one-third past-reunion">
-                            <a class="title" href="#">New Student Send-off Reception</a>
+                            <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157656274603512">New Student Send-off Reception</a>
                             <span class="date">Saturday, July 11, 2015</span>
                             <span class="date">Glen Ridge, New Jersey</span>
                             <div class="img-wrapper">
-                                <img src="https://farm4.staticflickr.com/3947/15464623268_f0f6d5a44f_b.jpg" alt="School of Medicine Class of '99 Reunion">
-                                <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                <img src="https://farm4.staticflickr.com/3947/15464623268_f0f6d5a44f_b.jpg" alt="New Student Send-Off Reception">
+                                <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157656274603512" target="_blank">View Photos</a></div>
                             </div>
                         </div>
                         <div class="border-box one-third past-reunion">
-                            <a class="title" href="#">New Student Send-Off Reception</a>
+                            <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157656274603512">New Student Send-Off Reception</a>
                             <span class="date">Sunday, July 19, 2015</span>
                             <span class="date">Rochelle Park, New Jersey</span>
                             <div class="img-wrapper">
-                                <img src="https://farm6.staticflickr.com/5034/13927655930_8d57b29ed7_b.jpg" alt="School of Medicine Class of '88 Reunion">
-                                <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                <img src="https://farm6.staticflickr.com/5034/13927655930_8d57b29ed7_b.jpg" alt="New Student Send-Off Reception">
+                                <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157656274603512" target="_blank">View Photos</a></div>
                             </div>
                         </div>
                         <div class="border-box one-third past-reunion">
-                            <a class="title" href="#">New Student Send-Off Reception</a>
+                            <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157656453502976">New Student Send-Off Reception</a>
                             <span class="date">Saturday, July 25, 2015</span>
                             <span class="date">Dutchess County</span>
                             <div class="img-wrapper">
-                                <img src="https://farm4.staticflickr.com/3808/10591048035_ec46c094e4_b.jpg" alt="">
-                                <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                <img src="https://farm4.staticflickr.com/3808/10591048035_ec46c094e4_b.jpg" alt="New Student Send-Off Reception">
+                                <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157656453502976" target="_blank">View Photos</a></div>
                             </div>
                         </div>
-                        <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past events</a>
+                            
+                        <div class="border-box clearfix whole center-wrapper">
+                            <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                        </div>
+
                         <div id="more-reunions" class="continue-reading-target hide-accessible">
                             <div class="border-box one-third past-reunion">
-                                <a class="title" href="#">Orientation Weekend</a>
+                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157657167427268">Orientation Weekend</a>
                                 <span class="date">August 21, 2015</span>
                                 <span class="date">Family Farewell BBQ, New Student Convocation</span>
                                 <div class="img-wrapper">
-                                    <img src="https://farm4.staticflickr.com/5821/20146693394_d196c34d6e_b.jpg" alt="School of Medicine Class of '99 Reunion">
-                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                    <img src="https://farm4.staticflickr.com/5821/20146693394_d196c34d6e_b.jpg" alt="Orientation Weekend">
+                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157657167427268" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
                         </div>

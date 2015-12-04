@@ -60,7 +60,7 @@
         <div class="border-box wrapper clearfix">
             <div class="content col-2">
                 <p>Recapture and recreate all of your favorite moments from your time at Stony Brook University and reconnect with your classmates and the University through class and chapter events, group lectures, networking receptions, tours and much more.</p>
-                <a class="sbu-outline-button sbu-outline-button--white arrow-after" href="#">Explore Reunions</a>
+                <a class="sbu-outline-button sbu-outline-button--white arrow-after" href="http://www.stonybrook.edu/commcms/reunions/index.html" target="_blank">Explore Reunions</a>
             </div>
         </div>
         <img src="img/alumni/3-ladies-silo_with-shadow.png" alt="Three alumni" />

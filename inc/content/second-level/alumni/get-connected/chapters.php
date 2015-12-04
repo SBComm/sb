@@ -12,7 +12,7 @@
             <div class="content">
                 <div class="border-box whole">
                     <h4>160,000 Strong!</h4>
-                    <p>Connect with 160,000 fellow alumni from across the country and around the world. Grow your network by joining a group that best fits you.</p>
+                    <p>Connect with 160,000 fellow alumni from across the country and around the world.</p>
                     <p>The Alumni Association offers more than 100 alumni chapter, network and interest group events each year. Have fun, grow your network, give back, and support our students by attending one of our chapter events. From networking socials, to faculty lectures and sporting events, there are a lot of exciting events to choose from.</p>
                 </div>
             </div>

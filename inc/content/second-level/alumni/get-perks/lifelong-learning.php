@@ -67,6 +67,21 @@
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://www.stonybrook.edu/commcms/olli/">Learn more</a>
                     </div>
                 </div>
+                <div class="border-box whole clearfix section-border-top">
+                    <div class="one-third">
+                        <img src="img/alumni/perks/kaplan.jpg" alt="Kaplan test prep logo" />
+                    </div>
+                    <div class="two-third">
+                        <h4>Kaplan Test Prep</h4>
+                        <p><strong>Save 10% off Kaplan Test Prep courses!</strong></p>
+                        <p>Kaplan Test Prep and the Stony Brook University (SBU) Alumni Association have teamed up to offer you a great deal on test preparation courses.</p>
+                        <p>Members of the SBU Alumni Association can save big! Contact the Office of Alumni Relations at the contact information below to get your SBU Alumni Discount Code. You will then contact 1-800-KAPTEST to enroll.</p>
+                        <p>Eligible courses for the discount include: GMAT, GRE, LSAT, MCAT, DAT, OAT and PCAT as well as PSAT, SAT and ACT*</p>
+                        <p>You must have completed a degree or certificate program at Stony Brook to access the discount.</p>
+                        <p>For more information, contact the Office of Alumni Relations at 631.632.6330 or email <a class="email-link" href="mailto:alumni@stonybrook.edu">alumni@stonybrook.edu</a></p>
+                        <p><em>*KAPLAN will offer a 10% discount for classroom and tutoring products for Graduate programs (including the GMAT, GRE, LSAT, MCAT, DAT, OAT, and PCAT), retail priced $1,100 and above, and for classroom and tutoring products for Pre-College programs (including PSAT, SAT, and ACT) retail priced $999 and above. Current members of SBU Alumni Association in good standing and their immediate family members are eligible for this discount. KAPLAN reserves the right to modify the list of discounted courses mentioned above at its sole discretion.</em></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

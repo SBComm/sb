@@ -38,14 +38,14 @@
 		    $page_footerbar   = true;
 		    $page_footer      = true;
 
-		    $sub_nav_selected_tab = 1;
+		    $sub_nav_selected_tab = 2;
 
 		    $inside_page = true;
 
-		    $equal_col_desktop = true;
-
 		    $carousel 	      = true;
 		    $carousel_4       = true;
+
+		    $slick_slider     = true;
 
 		    $lightbox 	      = true;
 
@@ -54,9 +54,7 @@
     		$nav_type		  = 'big-n-bold';
     		$social_sidebar   = 'alumni';
 
-    		$motio  		  = false;
-
-    		$slick_slider	  = true;
+    		$motio  		  = true;
 
     		$page_loader     = true;
 
@@ -68,8 +66,6 @@
 	        $equal_col_desktop = true;
 
 	        $html_dom_parser = true;
-
-	        $flickr_feed = true;
 		?>
 
 	<head>
@@ -125,7 +121,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni/get-connected/chapters/san-diego-alumni-chapter.php";
+								$file = "alumni/get-informed/authors.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->

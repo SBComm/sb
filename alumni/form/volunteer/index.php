@@ -38,11 +38,9 @@
 		    $page_footerbar   = true;
 		    $page_footer      = true;
 
-		    $sub_nav_selected_tab = 1;
+		    $sub_nav_selected_tab = 0;
 
 		    $inside_page = true;
-
-		    $equal_col_desktop = true;
 
 		    $carousel 	      = true;
 		    $carousel_4       = true;
@@ -54,9 +52,7 @@
     		$nav_type		  = 'big-n-bold';
     		$social_sidebar   = 'alumni';
 
-    		$motio  		  = false;
-
-    		$slick_slider	  = true;
+    		$motio  		  = true;
 
     		$page_loader     = true;
 
@@ -68,8 +64,6 @@
 	        $equal_col_desktop = true;
 
 	        $html_dom_parser = true;
-
-	        $flickr_feed = true;
 		?>
 
 	<head>
@@ -123,12 +117,7 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <undergrad-admissions> -->
-							<?php 
-								$file = "alumni/get-connected/chapters/san-diego-alumni-chapter.php";
-								include($path . $content . $secLv . $file);
-							?>
-						<!-- </undergrad-admissions> -->
+		                <iframe src="https://docs.google.com/a/stonybrook.edu/forms/d/1jzaa2XNR6FOvOPRSCGXMxTxXBmXEts6YN6s-5G3C964/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->

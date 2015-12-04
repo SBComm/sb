@@ -13,7 +13,7 @@
                         <div class="carousel-image clearfix" data-image="02">
                             <div class="white-fade-bottom"></div>
                         </div>
-                        <a href="alumni/send-us-your-news" title="Land Your Dream Job"><h1 class="tagline bottom">Where in the world have you been?</h1></a>
+                        <a href="alumni/form/send-us-your-news" title="Land Your Dream Job"><h1 class="tagline bottom">Where in the world have you been?</h1></a>
                     </div>
                     <div class="item">
                         <div class="carousel-image clearfix" data-image="04">

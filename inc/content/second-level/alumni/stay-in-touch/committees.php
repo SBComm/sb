@@ -16,7 +16,7 @@
                     </div>
                     <div class="two-third">
                         <h4>Become a Board Member</h4>
-                        <p>Find out first hand just how rewarding it can be to serve as a volunteer on the <a href="alumni/stay-in-touch/board">Alumni Association Board</a> or an Alumni Association <a href="alumni/stay-in-touch/committee">committee</a>. Your experience with the Alumni Association, a 501(c)(3) nonprofit organization, lets you hone skills transferable to your profession and volunteer opportunities elsewhere.</p>
+                        <p>Find out first hand just how rewarding it can be to serve as a volunteer on the <a href="alumni/stay-in-touch/board">Alumni Association Board</a> or an Alumni Association committee. Your experience with the Alumni Association, a 501(c)(3) nonprofit organization, lets you hone skills transferable to your profession and volunteer opportunities elsewhere.</p>
                         <h4>Remote Opportunities</h4>
                         <p>Don't live near campus? No problem. Many of our volunteers live across the country and around the world. Unless otherwise noted, committee membership is open to all alumni, as well as interested University faculty, staff, and students, pending approval by the Alumni Association President.</p>
                         <h4>Get in Touch</h4>

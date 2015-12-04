@@ -36,8 +36,7 @@
                     </p>
                     <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#letter">Continue Reading...</a>
                     <div id="letter" class="continue-reading-target hide-accessible">
-                        <p>We look forward to seeing you at a future event soon, and most of all we look forward to welcoming you in Manhattan at our annual Greater New York Dental Meeting Alumni Reception on Tuesday, December 1, 2015. We hope to see you all soon!</p>
-                        <p>If you have any questions or comments feel free to contact Kristin 631-632-6130 or at <a href="mailto:kristin.matthews@stonybrook.edu" class="email-link">kristin.matthews@stonybrook.edu</a> or Dr. Kilimitzoglou at <a href="dk@esidental.com" class="email-link">dk@esidental.com</a>.</p>
+                        <p>If you have any questions or comments feel free to contact Kristin Matthews at 631-632-6130 or by email at <a href="mailto:kristin.matthews@stonybrook.edu" class="email-link">kristin.matthews@stonybrook.edu</a>, or contact Dr. Kilimitzoglou at <a href="dk@esidental.com" class="email-link">dk@esidental.com</a>.</p>
                         <p>I hope you join me in participating and strengthening the bonds between alumni, present students and the School of Medicine. Pride and tradition at Stony Brook School of Medicine starts with us.</p>
                         <p>
                             Best Regards,<br /><br />
@@ -100,7 +99,7 @@
                                 include($path . $file);
                             ?>
                         </div>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/category/alumni-news-highlights" target="_blank">Read More News</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://stonybrook.edu/sbmatters" target="_blank">Read More News</a>
                     </div>
                     <div class="border-box one-half margin-bottom">
                         <h4>Upcoming Events</h4>
@@ -130,8 +129,10 @@
                         </div>
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
+                            <!--
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1n0wX7TcKQt3lNRH_wMIM9ecGyLpUi98Vk2v_Er5ZkYY/viewform" target="_blank">Nominate an alum</a>
+                            -->
                         </div>
                     </div>
                     <div class="border-box whole clearfix section-border-top pad-bottom">
@@ -393,7 +394,7 @@
                                 <h4>School of Dental Medicine Mentoring Program</h4>
                                 <p>Stony Brook School of Dental Medicine alumni have served as mentors to dental students throughout the years. It is the goal of the Alumni Chapter and the Office of Strategic Planning and External Affairs to introduce a formal mentoring program soon.</p>
                                 <p>This program will connect our students with specially-selected alumni mentors allowing our students to learn first-hand about different career paths, leadership skills, styles and strategies. Mentors and students will be matched based on personal and professional interests.</p>
-                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">Get More Information</a>
+                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://alumniandfriends.stonybrook.edu/sdm/get-involved/mentoring-program" target="_blank">Get More Information</a>
                             </div>
                             <div class="clearfix section-border-top">
                                 <h4>Alumni Award of Excellence</h4>
@@ -444,7 +445,11 @@
                                 </div>
                             </div>
                             <!--
-                            <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                            
+                            <div class="border-box clearfix whole center-wrapper">
+                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                            </div>
+                            
                             <div id="more-reunions" class="continue-reading-target hide-accessible">
                                 <div class="border-box one-third past-reunion">
                                     <a class="title" href="#">School of Medicine Class of '99 Reunion</a>
@@ -473,9 +478,9 @@
                             </div>
                             -->
                         </div>
-                        <div class="whole clearfix center-wrapper">
+                        <div class="whole clearfix center-wrapper section-border-top margin-top">
                             <p>Want to volunteer to plan your own class reunion?</p>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">View Volunteer Opportunities</a>
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/volunteer" target="_blank">Volunteer</a>
                         </div>
                     </div>
                 </div>
@@ -483,7 +488,7 @@
         </div>
     </section>
 
-    <section class="event-gallery flickr-gallery clearfix no-float-button" data-flickr-id="72157659517976382">
+    <section class="event-gallery flickr-gallery clearfix no-float-button" data-flickr-id="72157659061097622">
         <div class="border-box wrapper inside-content">
             <h5 class="on-red">Gallery</h5>
             <div class="carousel-wrapper">
@@ -502,8 +507,7 @@
         <div class="border-box wrapper clearfix">
             <div class="whole clearfix">
                 <h5 class="on-red">Links and Resources</h5>
-                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.facebook.com/groups/175858250074/ " target="_blank">View on Facebook</a>
-                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.linkedin.com/grps?gid=8232333" target="_blank">View on LinkedIn</a>
+                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.facebook.com/groups/StonyBrookSchoolofDentalMedicine" target="_blank">View on Facebook</a>
             </div>
         </div>
     </section>
@@ -524,7 +528,7 @@
                 </a>
             </div>
             <div class="btn-wrapper clearfix">
-                <a class="simple-button arrow-after" href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform">Update your info</a>
+                <a class="simple-button arrow-after" href="alumni/form/send-us-your-news/">Update your info</a>
                 <a class="simple-button arrow-after" href="alumni/stay-in-touch/contact">Contact us</a>
             </div>
         </div>

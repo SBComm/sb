@@ -291,7 +291,7 @@
 									id: '//sb.cc.stonybrook.edu/happenings/category/alumni/feed/'
 								},
 								facebook: {
-									id: '30450493231',
+									id: '43925669753',
 									text: 'contentSnippet'
 								},
 								flickr: {
@@ -314,7 +314,7 @@
 							wall: true,
 							order: 'date',
 							max: 'limit',
-							limit: 30,
+							limit: 60,
 							iconPath: 'images/dcsns-dark/',
 							imagePath: 'images/dcsns-dark/'
 						});

@@ -32,7 +32,7 @@
                         <p>And as always, our faculty continues to excel in research, teaching and clinical practice. As Stony Brook expands, it gives us even more reason to be proud of our school and its traditions.</p>
                         <p>We welcome your involvement in any of the following ways:</p>
                         <ul class="default-bullets">
-                            <li><a href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">Keep us updated</a> on you and your classmates &#8212; news about your career, life events and any other information you would like to share with your fellow alumni</li>
+                            <li><a href="alumni/form/send-us-your-news/" target="_blank">Keep us updated</a> on you and your classmates &#8212; news about your career, life events and any other information you would like to share with your fellow alumni</li>
                             <li>Join us at any or all of the upcoming events featured on our website</li>
                             <li>Become a member of a committee or the board</li>
                             <li><a href="#gifts">Consider a gift</a> to support the School</li>
@@ -85,7 +85,7 @@
                                 include($path . $file);
                             ?>
                         </div>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/category/alumni-news-highlights" target="_blank">Read More News</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://stonybrook.edu/sbmatters" target="_blank">Read More News</a>
                     </div>
                     <div class="border-box one-half margin-bottom">
                         <h4>Upcoming Events</h4>
@@ -360,8 +360,8 @@
                             <p><a href="https://alumniandfriends.stonybrook.edu/main-site/external/frances-l.-brisbane-endowed-fund-for-leadership-and-justice" target="_blank">Frances L. Brisbane Endowed Fund for Leadership and Justice</a></p>
                         </div>
                     </div>
-                    <!--
                     <div class="border-box whole clearfix past-reunions">
+                    <!--
                         <h4>Past Reunions</h4>
                         <div class="whole clearfix">
                             <div class="border-box one-third past-reunion">
@@ -388,7 +388,11 @@
                                     <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
-                            <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                            
+                            <div class="border-box clearfix whole center-wrapper">
+                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                            </div>
+                            
                             <div id="more-reunions" class="continue-reading-target hide-accessible">
                                 <div class="border-box one-third past-reunion">
                                     <a class="title" href="#">School of Medicine Class of '99 Reunion</a>
@@ -416,11 +420,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="whole clearfix center-wrapper">
+                        -->
+                        <div class="whole clearfix center-wrapper section-border-top margin-top">
                             <p>Want to volunteer to plan your own class reunion?</p>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">View Volunteer Opportunities</a>
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/volunteer" target="_blank">Volunteer</a>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -466,7 +471,7 @@
                 </a>
             </div>
             <div class="btn-wrapper clearfix">
-                <a class="simple-button arrow-after" href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform">Update your info</a>
+                <a class="simple-button arrow-after" href="alumni/form/send-us-your-news/">Update your info</a>
                 <a class="simple-button arrow-after" href="alumni/stay-in-touch/contact">Contact us</a>
             </div>
         </div>

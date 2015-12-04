@@ -37,7 +37,7 @@
                                 include($path . $file);
                             ?>
                         </div>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/category/alumni-news-highlights" target="_blank">Read More News</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://stonybrook.edu/sbmatters" target="_blank">Read More News</a>
                     </div>
                     <div class="border-box one-half">
                         <h4>Attend an Event</h4>

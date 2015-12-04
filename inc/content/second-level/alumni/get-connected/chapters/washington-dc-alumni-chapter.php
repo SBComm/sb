@@ -21,7 +21,7 @@
                     </nav>
                 </div>
                 <div class="border-box two-third equal-height-col">
-                    <p>The Stony Brook University Washington DC / Greater Baltimore Area Alumni Chapter connects Stony Brook alumni in the DC area through an annual, family-friendly day at the ballpark - a tradition spanning over two decades &#8212; as well as networking and social events throughout the year.</p>
+                    <p>The Stony Brook University Washington DC / Greater Baltimore Area Alumni Chapter connects Stony Brook alumni in the DC area through an annual, family-friendly day at the ballpark &#8212; a tradition spanning over two decades &#8212; as well as networking and social events throughout the year.</p>
                     <p>We are currently recruiting Alumni Chapter leaders in the great DC / Baltimore area to play a pivotal role in organizing these events and opportunities for the chapter.</p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">
                         <div class="one-half">
@@ -73,7 +73,7 @@
                                 <div class="owl-prev owl-prev-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-left"></em></div>
                                 <div class="owl-next owl-next-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-right"></em></div>
                             </div>
-                            <p><a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157658671489640" target="_blank">View on Flickr</a> <a class="sbu-outline-button sbu-outline-button--on-red arrow-after" href="#" target="_blank">Submit Your Photos</a></p>
+                            <p><a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157658671489640" target="_blank">View on Flickr</a> <a class="sbu-outline-button sbu-outline-button--on-red arrow-after" href="mailto:alumni@stonybrook.edu" target="_blank">Submit Your Photos</a></p>
                         </div>
                     </div>
                 </div>

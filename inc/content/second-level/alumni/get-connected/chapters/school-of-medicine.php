@@ -31,12 +31,12 @@
                     <div id="letter" class="continue-reading-target hide-accessible">
                         <p>We want you to get back in touch and to stay in touch! One of our priorities for this year will be to improve our web presence, making it easier to share information with our community of students and graduates. In the meantime, please get involved by:</p>
                         <ul class="default-bullets">
-                            <li>Updating us and your classmates on "what’s new" with <a href="#">Class Notes</a></li>
+                            <li>Updating us and your classmates on "what’s new" with <a href="http://sb.cc.stonybrook.edu/happenings/alumni/class-notes/">Class Notes</a></li>
                             <li>Dropping us an email with ideas and concerns so that we may be more responsive to your needs</li>
                             <li>Joining us at one of our upcoming events</li>
-                            <li>Participating in our <a href="#">HOST (Help Our Students Travel)</a> program</li>
+                            <li>Participating in our <a href="#host-program">HOST (Help Our Students Travel)</a> program</li>
                             <li>Becoming a member of our Alumni Board</li>
-                            <li>Considering a gift to support one of our <a href="#">scholarship funds</a></li>
+                            <li>Considering a gift to support one of our <a href="#scholarship">scholarship funds</a></li>
                             <li>Reading our news site, <a href="http://sb.cc.stonybrook.edu/medicinetoday/" target="_blank">Medicine Today</a></li>
                         </ul>
                         <p>Individual gifts are always welcome, but recently classes have worked to make a more substantial "class gift," establishing funds and endowments.  This is a great way to reconnect with classmates around a common goal of supporting students.  After a wonderful reunion last fall, the members of the SOM Class of 1983 honored Dr. Aldustus Jordan and Dr. Jack Stern for their significant positive impact on their medical school education and subsequent careers in medicine.  SOM Class of 1983 Endowed Scholarship Honoring Dr. Aldustus Jordan and Dr. Jack Stern. We have heard that the class of 1988 is working on a similar gift. We have hosted a number of class reunions and encourage you to get in touch with us if you'd like to bring your former classmates together. Please get in touch with Mary Hoffmann to find out more information.</p>
@@ -87,7 +87,7 @@
                                 include($path . $file);
                             ?>
                         </div>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/category/alumni-news-highlights" target="_blank">Read More News</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://stonybrook.edu/sbmatters" target="_blank">Read More News</a>
                     </div>
                     <div class="border-box one-half">
                         <h4>Upcoming Events</h4>
@@ -115,8 +115,8 @@
                         </div>
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>
+                            <!--<a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>-->
                         </div>
                     </div>
                     <div class="border-box whole clearfix section-border-top">
@@ -490,7 +490,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="border-box one-half padding-box news-feature">
+                        <div id="host-program" class="border-box one-half padding-box news-feature">
                             <div class="clearfix host">
                                 <h4>"Help Our Students Travel" Program</h4>
                                 <p>The School of Medicine Alumni Chapter launched the HOST Program to connect Stony Brook Medical Year IV students who are interviewing for their residencies and current School of Medicine students who are seeking advice with School of Medicine alumni who are willing to volunteer their time and share their experiences and hospitality.</p>
@@ -509,7 +509,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border-box whole clearfix section-border-top give-back">
+                    <div id="scholarship" class="border-box whole clearfix section-border-top give-back">
                         <div class="one-third">
                             <img src="https://farm1.staticflickr.com/698/20854467501_693e391580_z.jpg" alt="Group Shot of Medicine Students" />
                         </div>
@@ -526,62 +526,56 @@
                         <h4>Past Reunions</h4>
                         <div class="whole clearfix">
                             <div class="border-box one-third past-reunion">
-                                <a class="title" href="#">School of Medicine Class of '99 Reunion</a>
+                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157649005162092/">School of Medicine Class of '99 Reunion</a>
                                 <span class="date">October 25-26, 2014</span>
                                 <div class="img-wrapper">
                                     <img src="https://farm4.staticflickr.com/3947/15464623268_f0f6d5a44f_b.jpg" alt="School of Medicine Class of '99 Reunion">
-                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157649005162092/" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
                             <div class="border-box one-third past-reunion">
-                                <a class="title" href="#">School of Medicine Class of '88 Reunion</a>
+                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157644516226631/">School of Medicine Class of '88 Reunion</a>
                                 <span class="date">May 3, 2014</span>
                                 <div class="img-wrapper">
                                     <img src="https://farm6.staticflickr.com/5034/13927655930_8d57b29ed7_b.jpg" alt="School of Medicine Class of '88 Reunion">
-                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157644516226631/" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
                             <div class="border-box one-third past-reunion">
-                                <a class="title" href="#">School of Medicine Class of '99 Reunion</a>
+                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157637154325255/">School of Medicine Class of '83 Reunion</a>
                                 <span class="date">October 19-20, 2013</span>
                                 <div class="img-wrapper">
-                                    <img src="https://farm4.staticflickr.com/3808/10591048035_ec46c094e4_b.jpg" alt="">
-                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                    <img src="https://farm4.staticflickr.com/3808/10591048035_ec46c094e4_b.jpg" alt="School of Medicine Class of '83 Reunion">
+                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157637154325255/" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
-                            <!--
-                            <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                            
+                            <div class="border-box clearfix whole center-wrapper">
+                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                            </div>
+
                             <div id="more-reunions" class="continue-reading-target hide-accessible">
                                 <div class="border-box one-third past-reunion">
-                                    <a class="title" href="#">School of Medicine Class of '99 Reunion</a>
-                                    <span class="date">October 25-26, 2014</span>
+                                    <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157659693936320">School of Medicine Class of ’90 Reunion Reception</a>
+                                    <span class="date">October 17, 2015</span>
                                     <div class="img-wrapper">
-                                        <img src="https://farm4.staticflickr.com/3947/15464623268_f0f6d5a44f_b.jpg" alt="School of Medicine Class of '99 Reunion">
-                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                        <img src="https://farm6.staticflickr.com/624/21711861114_3f95d868fe_b.jpg" alt="School of Medicine Class of '90 Reunion">
+                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157659693936320" target="_blank">View Photos</a></div>
                                     </div>
                                 </div>
                                 <div class="border-box one-third past-reunion">
-                                    <a class="title" href="#">School of Medicine Class of '88 Reunion</a>
+                                    <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157657174800614">School of Medicine Class of '85 Reunion Reception</a>
                                     <span class="date">May 3, 2014</span>
                                     <div class="img-wrapper">
-                                        <img src="https://farm6.staticflickr.com/5034/13927655930_8d57b29ed7_b.jpg" alt="School of Medicine Class of '88 Reunion">
-                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
-                                    </div>
-                                </div>
-                                <div class="border-box one-third past-reunion">
-                                    <a class="title" href="#">School of Medicine Class of '99 Reunion</a>
-                                    <span class="date">October 19-20, 2013</span>
-                                    <div class="img-wrapper">
-                                        <img src="https://farm4.staticflickr.com/3808/10591048035_ec46c094e4_b.jpg" alt="">
-                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                        <img src="https://farm6.staticflickr.com/5811/21972148175_6f0e61ed5b_b.jpg" alt="School of Medicine Class of '85 Reunion">
+                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157657174800614" target="_blank">View Photos</a></div>
                                     </div>
                                 </div>
                             </div>
-                            -->
                         </div>
-                        <div class="whole clearfix center-wrapper">
+                        <div class="whole clearfix center-wrapper section-border-top margin-top">
                             <p>Want to volunteer to plan your own class reunion?</p>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">View Volunteer Opportunities</a>
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/volunteer" target="_blank">Volunteer</a>
                         </div>
                     </div>
                 </div>
@@ -589,7 +583,7 @@
         </div>
     </section>
 
-    <section class="event-gallery flickr-gallery clearfix no-float-button" data-flickr-id="72157659517976382">
+    <section class="event-gallery flickr-gallery clearfix no-float-button" data-flickr-id="72157658676442598">
         <div class="border-box wrapper inside-content">
             <h5 class="on-red">Gallery</h5>
             <div class="carousel-wrapper">
@@ -610,6 +604,7 @@
                 <h5 class="on-red">Links and Resources</h5>
                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.facebook.com/groups/175858250074/" target="_blank">View on Facebook</a>
                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.linkedin.com/grps?gid=8232333" target="_blank">View on LinkedIn</a>
+                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://stonybrook.edu/medicinetoday" target="_blank">Medicine Today</a>
                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.doximity.com/" target="_blank">Doximity</a>
             </div>
         </div>
@@ -631,7 +626,7 @@
                 </a>
             </div>
             <div class="btn-wrapper clearfix">
-                <a class="simple-button arrow-after" href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform">Update your info</a>
+                <a class="simple-button arrow-after" href="alumni/form/send-us-your-news/">Update your info</a>
                 <a class="simple-button arrow-after" href="alumni/stay-in-touch/contact">Contact us</a>
             </div>
         </div>

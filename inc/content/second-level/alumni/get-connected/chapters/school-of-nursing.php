@@ -36,11 +36,11 @@
                     <div id="letter" class="continue-reading-target hide-accessible">
                         <p>You can get connected in one of the following ways:</p>
                         <ul class="default-bullets">
-                            <li><a href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">Keeping us updated</a> on you and your classmates &#8212; news about your career, life events and any other information you would like to share with your fellow alumni</li>
+                            <li><a href="alumni/form/send-us-your-news/" target="_blank">Keeping us updated</a> on you and your classmates &#8212; news about your career, life events and any other information you would like to share with your fellow alumni</li>
                             <li>Joining us at one of our upcoming events</li>
-                            <li>Participating in our <a href="#">HOST (Help Our Students Travel)</a> program</li>
+                            <li>Participating in our <a href="#host-program">HOST (Help Our Students Travel)</a> program</li>
                             <li>Becoming a Board Member or Committee Member</li>
-                            <li>Considering a gift to support <a href="https://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=410&fid=DWFb9wy4WY8%3d&fdesc=Zu5RIlZ7RXfBvbzK80ikMkNSJRqLZkEj9WoINEQ5Gq8%3d">The Nursing Student Scholarship Fund</a></li>
+                            <li>Considering a gift to support <a href="https://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=410&amp;fid=DWFb9wy4WY8%3d&amp;fdesc=Zu5RIlZ7RXfBvbzK80ikMkNSJRqLZkEj9WoINEQ5Gq8%3d">The Nursing Student Scholarship Fund</a></li>
                         </ul>
                         <p>The SON Alumni Board is a dynamic group of colleagues who are smart, creative and fun. Join us as good things are happening for your Stony Brook School of Nursing and for you, a Stony Brook School of Nursing alum.</p>
                         <p>Please feel free to contact either Mary Hoffmann at <a href="mailto:mary.hoffmann@stonybrook.edu" target="_blank">mary.hoffmann@stonybrook.edu</a> or me at <a href="mailto:jberpat2@aol.com" target="_blank">jberpat2@aol.com</a> for additional information or to sign up.</p>
@@ -89,7 +89,7 @@
                                 include($path . $file);
                             ?>
                         </div>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/category/alumni-news-highlights" target="_blank">Read More News</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://stonybrook.edu/sbmatters" target="_blank">Read More News</a>
                     </div>
                     <div class="border-box one-half">
                         <h4>Upcoming Events</h4>
@@ -117,8 +117,10 @@
                         </div>
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
+                            <!--
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1xKDS8B4MelSa5X7gWJmQ-3c9_4ZbkeSTBJXAuVuNH9s/viewform" target="_blank">Nominate an alum</a>
+                            -->
                         </div>
                     </div>
                     <div class="border-box whole clearfix section-border-top">
@@ -513,7 +515,7 @@
                             </div>
                         </div>
                         <div class="border-box one-half padding-box news-feature">
-                            <div class="clearfix host">
+                            <div id="host-program" class="clearfix host">
                                 <h4>School of Nursing Alumni Mentoring Program</h4>
                                 <p>Members of the School of Nursing Alumni Board will mentor Stony Brook School of Nursing recent graduates (graduates of the last five years) as part of the School of Nursing Alumni Mentoring Program. The volunteer alumni mentors are 'assigned' a mentee, who has been selected for the program, in order to provide meaningful support, increase the grad's knowledge of the occupation and ease their transition from nursing school to career.</p>
                                 <p>Are you an alum who is interested in volunteering? Are you a student who wants to connect with an alumni volunteer?</p>
@@ -523,7 +525,7 @@
                             <div class="clearfix section-border-top">
                                 <h4>Academic and Clinical Success</h4>
                                 <p>You can play a part in shaping the academic and clinical success of the next generation of Registered &amp; Advanced Practice Nurses.</p>
-                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1uipwO--ZMk3oyZDFHSVpqfLqVSQaSXanjrRbGtF71WE/viewform" target="_blank">Get More Information</a>
+                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://stonybrookuniversity.co1.qualtrics.com/jfe/form/SV_7ZYeAKUWFrx2Ln7" target="_blank">Get More Information</a>
                             </div>
                         </div>
                     </div>
@@ -541,7 +543,7 @@
                         <h4>Past Reunions</h4>
                         <div class="whole clearfix">
                             <div class="border-box one-third past-reunion">
-                                <a class="title" href="#">School of Nursing DNP 5th Year Celebration</a>
+                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157649161620536">School of Nursing DNP 5th Year Celebration</a>
                                 <span class="date">November 8, 2015</span>
                                 <div class="img-wrapper">
                                     <img src="https://farm6.staticflickr.com/5609/15572074910_7fd18c3c29_b.jpg" alt="School of Nursing DNP 5th Year Celebration">
@@ -549,7 +551,11 @@
                                 </div>
                             </div>
                             <!--
-                            <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                            
+                            <div class="border-box clearfix whole center-wrapper">
+                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                            </div>
+                            
                             <div id="more-reunions" class="continue-reading-target hide-accessible">
                                 <div class="border-box one-third past-reunion">
                                     <a class="title" href="#">School of Medicine Class of '99 Reunion</a>
@@ -578,9 +584,9 @@
                             </div>
                             -->
                         </div>
-                        <div class="whole clearfix center-wrapper">
+                        <div class="whole clearfix center-wrapper section-border-top margin-top">
                             <p>Want to volunteer to plan your own class reunion?</p>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">View Volunteer Opportunities</a>
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/volunteer" target="_blank">Volunteer</a>
                         </div>
                     </div>
                 </div>
@@ -629,7 +635,7 @@
                 </a>
             </div>
             <div class="btn-wrapper clearfix">
-                <a class="simple-button arrow-after" href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform">Update your info</a>
+                <a class="simple-button arrow-after" href="alumni/form/send-us-your-news/">Update your info</a>
                 <a class="simple-button arrow-after" href="alumni/stay-in-touch/contact">Contact us</a>
             </div>
         </div>

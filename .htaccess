@@ -978,9 +978,11 @@ FileETag None
 </IfModule>
 
 # ----------------------------------------------------------------------
-# | Stony Brook Alumni HSC Alumns Directory                            |
+# | Stony Brook Alumni                                                 |
 # ----------------------------------------------------------------------
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteRule ^alumni/hsc-alums$ alumni/chapters/school-of-medicine/$1
+
+    RewriteRule ^alumni/form/index.php$ alumni
 </IfModule>

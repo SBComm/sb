@@ -163,6 +163,16 @@ img.inline-with-copy {
     width: 100%;
 }
 
+
+section.social .social-posts {
+    display: block;
+    width: 100%;
+    height: 370px;
+    background: url("../../img/alumni/misc/social-collab.png") 0 0 repeat-x;
+}
+
+
+
 .large-info-box a:hover span {
     text-decoration: none;
     border-bottom: 1px solid #ddd;

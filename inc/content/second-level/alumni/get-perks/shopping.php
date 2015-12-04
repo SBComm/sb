@@ -9,7 +9,7 @@
         <div class="border-box wrapper clearfix">
             <div class="content pad-top">
                 <h3 class="serif">Shopping</h3>
-                <div class="border-box whole">
+                <!--<div class="border-box whole">
                     <div class="one-third">
                         <a href="http://fromyouflowers.com/stony" target="_blank"><img src="img/alumni/perks/from-you-flowers.jpg" alt="From You Flowers Logo" /></a>
                     </div>
@@ -19,7 +19,7 @@
                         <p>Use or mention alumni discount code <strong>91W</strong> when making your purchase at <a href="http://fromyouflowers.com/stony" target="_blank">fromyouflowers.com/stony</a> or by phone at 1 (800) 838-8853.</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://fromyouflowers.com/stony" target="_blank">View flowers</a>
                     </div>
-                </div>
+                </div>-->
                 <div class="border-box whole clearfix section-border-top">
                     <div class="one-third">
                         <img src="img/alumni/perks/plum.jpg" alt="Save big on Broadway and much more" />

@@ -47,7 +47,7 @@
                 <div class="two-third">
                     <h4>Alumni Email for Life</h4>
                     <p>The Stony Brook University Alumni Association offers free and private email accounts exclusively for our alumni. Stay connected with classmates and friends when you create an Email for Life account!</p>
-                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">Get an account</a>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/email-for-life/" target="_blank">Get an account</a>
                     <p></p>
                     <h5>Features:</h5>
                     <ul class="default-bullets">

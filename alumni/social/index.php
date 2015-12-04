@@ -21,22 +21,49 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'social-hub';
-			$page_title_sub  = 'Alumni Wall';
-			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
+    		$page_cat        = 'sub'; // for site tagline logo container
+			$second_level    = 'alumni';
 
-		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'We are social at Stony Brook University Alumni Association. Connect with the latest in alumni news and events!';
-		    $og_url          = 'http://www.stonybrook.edu/social/alumni';
+			$keywords          = "Stony Brook University,Undergraduate Admissions,Admissions,Majors,Minors,Special Programs,Visiting,About,Transfer Office,Transfer,Young Scholars Program,Honors,University Scholars,Admitted,International,Open House,Tour,Scholarships";
+	        $page_title      = 'Stony Brook University, New York';
+	        $page_title_sub  = 'Alumni';
+	        $page_title_full   = $page_title . ' | ' . $page_title_sub;
+
+	        $og_title        = 'Stony Brook ' . $page_title;
+	        $og_description  = $page_description;
+	        $og_url          = 'alumni';
 
 		    $page_to_top_link = true;
 
 		    $page_footerbar   = true;
+		    $page_footer      = true;
 
-		    $page_scroll      = false;
-		    $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
-		    $page_scroll_time = 0;     		//Time for scroll function in milliseconds
+		    $sub_nav_selected_tab = 0;
 
-		    $page_loader      = true;
+		    $inside_page = true;
+
+		    $carousel 	      = true;
+		    $carousel_4       = true;
+
+		    $lightbox 	      = true;
+
+    		$search_type      = 'default';
+    		$search_style 	  = 'default';
+    		$nav_type		  = 'big-n-bold';
+    		$social_sidebar   = 'alumni';
+
+    		$motio  		  = true;
+
+    		$page_loader     = true;
+
+    		//$page_scroll      = true;
+	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
+	        $page_scroll_time = 0;
+	        $page_scroll_mobile = true;
+
+	        $equal_col_desktop = true;
+
+	        $html_dom_parser = true;
 		?>
 
 	<head>
@@ -83,25 +110,27 @@
 		        <div class="main-nav-container clearfix">
 		        	<!-- <site-nav> -->
 						<?php 
-							include($path . $site_nav);
+							include($path . 'nav/alumni-nav.php');
 						?>
 					<!-- </site-nav> -->
 		        </div>
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <social-main> -->
-							<?php 
-								$file = "social-alumni.php";
-								include($path . $content . $social . $file);
-							?>
-						<!-- </social-main> -->
+		                <?php 
+							$file = "social-alumni.php";
+							include($path . $content . $social . $file);
+						?>
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
+		        	<?php if($page_footer) {
+						$file = "footers/alumni-footer.php";
+						include($path . $file);
+					} ?>
 					<?php if($page_footerbar) {
-						$file = "footerbar.php";
+						$file = "footers/alumni-footerbar.php";
 						include($path . $file);
 					} ?>
 				<!-- </div.footer-container> -->
@@ -114,6 +143,7 @@
 
 				</div>
 -->
+
 				<!-- <to-top> -->
 					<?php if($page_to_top_link) {
 						$file = "to-top.php";
@@ -134,7 +164,7 @@
 		<!-- <googleanalytics> -->
 			<?php 
 				$file = "site-analytics.php";
-				include($path . $file);
+				include($path . $file); 
 			?>
 		<!-- </googleanalytics> -->
     </body>

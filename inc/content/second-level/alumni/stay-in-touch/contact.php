@@ -38,7 +38,7 @@
                 <div class="border-box whole clearfix section-border-bottom">
                     <h4>Send Us Your News!</h4>
                     <p>We want to hear about what's new with you! Keep us updated on you and your classmates &#8212; career news, life events and any other information you would like to share with your fellow alumni.</p>
-                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/forms/d/1NjMTj1XRQHLX55rBhocvVqAZ8wNNvT1vsSYuXZWE4GE/viewform" target="_blank">Send Us Your News</a>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/send-us-your-news/" target="_blank">Send Us Your News</a>
                 </div>
 
                 <div class="border-box whole news-and-events section-border-bottom">

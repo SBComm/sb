@@ -18,7 +18,7 @@
             	</a>
             </li>
 			<li class="clearfix larger<?php if($sub_nav_selected_tab==3) echo(' selected'); ?>">
-            	<a href="alumni/get-perks" class="clearfix" data-drop-nav-id="3">
+            	<a href="alumni/perks" class="clearfix" data-drop-nav-id="3">
             		<span class="label clearfix">Get Perks</span>
             	</a>
             </li>
@@ -28,7 +28,7 @@
             	</a>
             </li>
 			<li class="clearfix larger<?php if($sub_nav_selected_tab==5) echo(' selected'); ?>">
-            	<a href="alumni/contact" class="clearfix" data-drop-nav-id="5">
+            	<a href="alumni/stay-in-touch" class="clearfix" data-drop-nav-id="5">
             		<span class="label clearfix">Stay In Touch</span>
             	</a>
             </li>
@@ -118,7 +118,7 @@
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==9) echo('selected'); ?>" data-li-order="03">
-				<a href="alumni/news-and-spotlight#authors" class="clearfix">
+				<a href="alumni/news-and-spotlight/authors" class="clearfix">
 					<span class="label clearfix">Authors</span>
 				</a>
 			</li>
@@ -149,12 +149,12 @@
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==14) echo('selected'); ?>" data-li-order="02">
-				<a href="alumni/lifelong-learning" class="clearfix">
+				<a href="alumni/perks/lifelong-learning" class="clearfix">
 					<span class="label clearfix">Lifelong Learning</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==15) echo('selected'); ?>" data-li-order="03">
-				<a href="alumni/sbu-pride" class="clearfix">
+				<a href="alumni/perks/spirit-and-pride" class="clearfix">
 					<span class="label clearfix">SBU Pride</span>
 				</a>
 			</li>

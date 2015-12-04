@@ -34,13 +34,13 @@
                     <div class="two-third">
                         <h4>Unsure of Your Career Plans?</h4>
                         <p>The Alumni Association is here to help you realize your success and become a part of Stony Brook’s engaged alumni community. We are proud partners with the Career Center on a number of programs and events that help students with networking, job and internship fairs and other career-related alumni panels and programs.</p>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/stay-in-touch" target="_blank">Get in touch</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/stay-in-touch/contact" target="_blank">Get in touch</a>
                         <p>Our Career Advisor Program (CAN) helps to match current students with experienced alumni in a field that you are interested in. Visit our <a href="http://career.stonybrook.edu/alumni_new/ask-blog" target="_blank">ASK Blog</a>, which features blog posts from our alumni about lessons learned from their career experiences.</p>
                     </div>
                 </div>
                 <div class="border-box whole clearfix section-border-top">
                     <h4>Student Organizations</h4>
-                    <p>We are pleased to partner with student organizations to keep their alumni engaged and to collaborate on signature student-alumni networking events. The Office of <a href="alumni/alumni-relations">Alumni Relations</a> will also assist your student organization with finding outstanding alums to participate as guest speakers and to sit on panel discussions.</p>
+                    <p>We are pleased to partner with student organizations to keep their alumni engaged and to collaborate on signature student-alumni networking events. The Office of <a href="alumni/stay-in-touch/alumni-relations">Alumni Relations</a> will also assist your student organization with finding outstanding alums to participate as guest speakers and to sit on panel discussions.</p>
                 </div>
             </div>
         </div>
