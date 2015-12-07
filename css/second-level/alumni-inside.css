@@ -958,14 +958,6 @@ section.calendar .black-opac-cover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    opacity: .95;
-}
-
-.authors__books:hover .authors__book {
-    opacity: .75
-}
-
-.authors__books:hover .authors__book:hover {
     opacity: 1;
 }
 
