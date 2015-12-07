@@ -294,17 +294,17 @@
     </section>
 
     <?php
-        $file = "widgets/alumni-association-promo.php";
+        $file = "widgets/alumni/alumni-association-promo.php";
         include($path . $file);
     ?>
 
     <?php
-        $file = "widgets/alumni-relations-promo.php";
+        $file = "widgets/alumni/alumni-relations-promo.php";
         include($path . $file);
     ?>
 
     <?php
-        $file = "widgets/alumni-social.php";
+        $file = "widgets/alumni/alumni-social.php";
         include($path . $file);
     ?>
 

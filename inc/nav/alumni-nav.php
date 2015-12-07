@@ -158,6 +158,11 @@
 					<span class="label clearfix">SBU Pride</span>
 				</a>
 			</li>
+			<li class="<?php if($drop_nav_selected_tab==16) echo('selected'); ?>" data-li-order="04">
+				<a href="alumni/perks#email-for-life" class="clearfix">
+					<span class="label clearfix">Email for Life</span>
+				</a>
+			</li>
 			<li></li>
 		</ul>
 		<div class="mega-blurb">
@@ -221,11 +226,16 @@
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==21) echo('selected'); ?>" data-li-order="03">
+				<a href="alumni/form/send-us-your-news" class="clearfix">
+					<span class="label clearfix">Send us Your News</span>
+				</a>
+			</li>
+			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="04">
 				<a href="alumni/stay-in-touch/alumni-relations" class="clearfix">
 					<span class="label clearfix">Contact</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==21) echo('selected'); ?>" data-li-order="04">
+			<li class="<?php if($drop_nav_selected_tab==23) echo('selected'); ?>" data-li-order="05">
 				<a href="alumni/stay-in-touch/visiting-sbu" class="clearfix">
 					<span class="label clearfix">Visit</span>
 				</a>

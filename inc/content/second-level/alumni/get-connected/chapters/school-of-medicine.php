@@ -9,7 +9,7 @@
         <div class="border-box wrapper clearfix">
             <?php
                 $selected_sub_nav = "school-of-medicine";
-                $file = "widgets/alumni-hsc-buttons.php";
+                $file = "widgets/alumni/alumni-hsc-buttons.php";
                 include($path . $file);
             ?>
         </div>

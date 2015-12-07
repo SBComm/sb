@@ -66,7 +66,7 @@
         </div>
     </section>
     <?php
-        $file = "widgets/alumni-benefits-buttons-on-black-rays.php";
+        $file = "widgets/alumni/alumni-benefits-buttons-on-black-rays.php";
         include($path . $file);
     ?>
 

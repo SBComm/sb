@@ -30,6 +30,7 @@
                                         <a href="alumni/perks">Perks</a>
                                         <a href="alumni/perks/lifelong-learning">Lifelong Learning</a>
                                         <a href="alumni/perks/spirit-and-pride">SBU Pride</a>
+                                        <a href="alumni/perks#email-for-life">Email for Life</a>
                                    </div>
                                    <div class="links">
                                         <h4><a href="alumni/give-back">Give Back</a></h4>
@@ -41,6 +42,7 @@
                                         <h4><a href="alumni/stay-in-touch">Stay In Touch</a></h4>
                                         <a href="alumni/stay-in-touch/">Alumni Association</a>
                                         <a href="alumni/stay-in-touch/alumni-relations">Alumni Relations Office</a>
+                                        <a href="alumni/form/send-us-your-news">Send us Your News</a>
                                         <a href="alumni/stay-in-touch/contact">Contact</a>
                                         <a href="alumni/stay-in-touch/visiting-sbu">Visit</a>
                                    </div>

@@ -118,7 +118,7 @@
     </section>
 
     <?php
-        $file = "widgets/alumni-social.php";
+        $file = "widgets/alumni/alumni-social.php";
         include($path . $file);
     ?>
 

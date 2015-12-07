@@ -2,7 +2,7 @@
     <div class="border-box wrapper clearfix padding-top">
         <h3>Explore Alumni Perks</h3>
         <?php
-            $file = "widgets/alumni-benefits-buttons.php";
+            $file = "widgets/alumni/alumni-benefits-buttons.php";
             include($path . $file);
         ?>
     </div>

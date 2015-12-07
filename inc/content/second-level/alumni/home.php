@@ -138,7 +138,7 @@
     </section>
 
     <?php
-        $file = "widgets/alumni-spotlight.php";
+        $file = "widgets/alumni/alumni-spotlight.php";
         include($path . $file);
     ?>
 
@@ -159,7 +159,7 @@
     </section>
 
     <?php
-        $file = "widgets/alumni-partners.php";
+        $file = "widgets/alumni/alumni-partners.php";
         include($path . $file);
     ?>
 

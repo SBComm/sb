@@ -48,17 +48,17 @@
     </section>
 
     <?php
-        $file = "widgets/alumni-spotlight.php";
+        $file = "widgets/alumni/alumni-spotlight.php";
         include($path . $file);
     ?>    
 
     <?php
-        $file = "widgets/alumni-authors-promo.php";
+        $file = "widgets/alumni/alumni-authors-promo.php";
         include($path . $file);
     ?>
 
     <?php
-        $file = "widgets/alumni-social.php";
+        $file = "widgets/alumni/alumni-social.php";
         include($path . $file);
     ?>
 
