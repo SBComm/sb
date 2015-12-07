@@ -1056,10 +1056,9 @@ section.calendar .black-opac-cover {
 }
 
 .authors__book__flip__card__item--back {
-    -webkit-transform: rotateY( 180deg );
-    -moz-transform: rotateY( 180deg );
-    transform: rotateY( 180deg );
-    -ms-transform: perspective(800px) rotateY( 180deg );
+    -webkit-transform: perspective(800px) rotateY( 180deg );
+    -moz-transform: perspective(800px) rotateY( 180deg );
+    transform: perspective(800px) rotateY( 180deg );
     z-index: 2;
 }
 
@@ -1098,10 +1097,17 @@ section.calendar .black-opac-cover {
 }
 
 .authors__book__flip__card.flip {
-    -webkit-transform: rotateY( -180deg );
-    -moz-transform: rotateY( -180deg );
-    transform: rotateY( -180deg );
-    -ms-transform: perspective(800px) rotateY( -180deg );
+    -webkit-transform: perspective(800px) rotateY( -180deg );
+    -moz-transform: perspective(800px) rotateY( -180deg );
+    transform: perspective(800px) rotateY( -180deg );
+}
+
+.authors__book__flip__card.flip .authors__book__flip__card__item--front {
+    -ms-transform: perspective(800px) rotateY(0deg);
+}
+
+.authors__book__flip__card.flip .authors__book__flip__card__item--back {
+    -ms-transform: perspective(800px) rotateY(-180deg);
 }
 
 .ie9 .authors__book__flip__card.flip,
