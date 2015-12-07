@@ -1021,7 +1021,7 @@ section.calendar .black-opac-cover {
     z-index: 1;
     /* weird issue in safari, calculating intersection and causing half clickable region */
     /* see http://stackoverflow.com/questions/18146511/bug-in-css3-rotatey-transition-on-safari */
-    -webkit-transform: translateZ(1000px);
+    -webkit-transform: translateZ(1px);
 }
 
 .authors__book__flip__card__item--front img {
