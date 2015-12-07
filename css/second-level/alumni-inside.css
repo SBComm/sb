@@ -1062,6 +1062,26 @@ section.calendar .black-opac-cover {
     z-index: 2;
 }
 
+.ie9 .authors__book__flip__card__item--back,
+.lt-ie9 .authors__book__flip__card__item--back {
+    -webkit-transform: rotateY( 0 );
+    -moz-transform: rotateY( 0 );
+    transform: rotateY( 0 );
+    z-index: 0;
+}
+
+.ie9 .flip .authors__book__flip__card__item--front,
+.lt-ie9 .flip .authors__book__flip__card__item--front {
+    display: none;
+    z-index: 0;
+}
+
+.ie9 .flip .authors__book__flip__card__item--back,
+.lt-ie9 .flip .authors__book__flip__card__item--back {
+    display: block;
+    z-index: 100000;
+}
+
 .authors__book__flip__card__item--back img {
     position: absolute;
     top: 0;
@@ -1080,6 +1100,13 @@ section.calendar .black-opac-cover {
     -webkit-transform: rotateY( -180deg );
     -moz-transform: rotateY( -180deg );
     transform: rotateY( -180deg );
+}
+
+.ie9 .authors__book__flip__card.flip,
+.lt-ie9 .authors__book__flip__card.flip {
+    -webkit-transform: rotateY( 0 );
+    -moz-transform: rotateY( 0 );
+    transform: rotateY( 0 );
 }
 
 .authors__book__info {
