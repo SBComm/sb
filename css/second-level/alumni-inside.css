@@ -1063,7 +1063,8 @@ section.calendar .black-opac-cover {
 }
 
 .ie9 .authors__book__flip__card__item--back,
-.lt-ie9 .authors__book__flip__card__item--back {
+.lt-ie9 .authors__book__flip__card__item--back,
+html[data-useragent*='MSIE 10.0'] .authors__book__flip__card__item--back {
     -webkit-transform: rotateY( 0 );
     -moz-transform: rotateY( 0 );
     transform: rotateY( 0 );
@@ -1071,13 +1072,15 @@ section.calendar .black-opac-cover {
 }
 
 .ie9 .flip .authors__book__flip__card__item--front,
-.lt-ie9 .flip .authors__book__flip__card__item--front {
+.lt-ie9 .flip .authors__book__flip__card__item--front,
+html[data-useragent*='MSIE 10.0'] .flip .authors__book__flip__card__item--front {
     display: none;
     z-index: 0;
 }
 
 .ie9 .flip .authors__book__flip__card__item--back,
-.lt-ie9 .flip .authors__book__flip__card__item--back {
+.lt-ie9 .flip .authors__book__flip__card__item--back,
+html[data-useragent*='MSIE 10.0'] .flip .authors__book__flip__card__item--back {
     display: block;
     z-index: 100000;
 }
@@ -1102,12 +1105,9 @@ section.calendar .black-opac-cover {
     transform: rotateY( -180deg );
 }
 
-.authors__book__flip__card.flip .authors__book__flip__card__item--front {
-    -ms-backface-visibility: none;
-}
-
 .ie9 .authors__book__flip__card.flip,
-.lt-ie9 .authors__book__flip__card.flip {
+.lt-ie9 .authors__book__flip__card.flip,
+html[data-useragent*='MSIE 10.0'] .authors__book__flip__card.flip {
     -webkit-transform: rotateY( 0 );
     -moz-transform: rotateY( 0 );
     transform: rotateY( 0 );
