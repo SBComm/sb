@@ -1059,6 +1059,7 @@ section.calendar .black-opac-cover {
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
+    -ms-transform: perspective(800px) rotateY( 180deg );
     z-index: 2;
 }
 
@@ -1100,6 +1101,7 @@ section.calendar .black-opac-cover {
     -webkit-transform: rotateY( -180deg );
     -moz-transform: rotateY( -180deg );
     transform: rotateY( -180deg );
+    -ms-transform: perspective(800px) rotateY( -180deg );
 }
 
 .ie9 .authors__book__flip__card.flip,
