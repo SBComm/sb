@@ -17,8 +17,7 @@ var initAlumni = function() {
 		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		draggable: false,
-		touchMove: false
+		draggable: false
 	});
 
 	//books flip
