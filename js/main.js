@@ -1,3 +1,7 @@
+/* add userAgent to html data attr */
+var doc = document.documentElement;
+doc.setAttribute('data-useragent', navigator.userAgent);
+
 /* fix for search-container position */
 /* since the y-position of the .site-nav or the .sub-nav can vary due to possibility of double-lined site titles
 // 1) get the height of the above .header-container */
