@@ -11,7 +11,7 @@
                 <h3 class="serif">New York City Alumni Chapter</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "new-york-city-alumni-chapter";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The Stony Brook University New York City Alumni Chapter connects more than 60,000 alumni and friends in the New York City area through social and professional networking events, community service, development and student recruitment.</p>
                     <p>We are currently recruiting Alumni Chapter leaders in New York City to play a pivotal role in organizing these events and opportunities for the chapter.</p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">

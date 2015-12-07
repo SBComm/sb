@@ -11,7 +11,7 @@
                 <h3 class="serif">LGBTQ Alumni Group</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "lgbtq-alumni-group";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The purpose of the Stony Brook University LGBTQ Alumni Group is not only to reunite LGBTQ alumni and friends but also to connect with current students in the LGBTQ community. The LGBTQ Alumni group is open and welcoming to anyone who has been a member of the LGBTQ community at Stony Brook, their friends and families.</p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">
                         <div class="one-half">

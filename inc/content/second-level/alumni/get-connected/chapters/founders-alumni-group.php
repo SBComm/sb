@@ -11,7 +11,7 @@
                 <h3 class="serif">The Founders Alumni Group</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "founders-alumni-group";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>Stony Brook University's first alumni, the Classes of 1961-1966, shared the unique experience of attending a small, quality institution during its formative years. Each of these classes has its place in the history of the University:</p>
                     <ul class="default-bullets">
                         <li><strong>1961</strong>: First graduates from SUNY Long Island Center, originally called the "College on Long Island" the name was changed in 1961.</li>

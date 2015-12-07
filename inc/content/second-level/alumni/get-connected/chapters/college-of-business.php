@@ -11,7 +11,7 @@
                 <h3 class="serif">College of Business, MBA Association</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "college-of-business";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The purpose of the MBA Association at Stony Brook University is to be an advocate and representative of the graduate students and alumni of the Stony Brook University College of Business; to foster and facilitate strategic networking opportunities as well as social interactions among students, faculty, alumni, administrators, and the business community; to engage the business community to actively participate in the education and training of business professionals while providing career opportunities for advancement; and to increase global recognition of the Stony Brook University College of Business.</p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">
                         <div class="one-half">

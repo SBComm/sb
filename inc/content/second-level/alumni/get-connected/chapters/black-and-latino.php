@@ -11,7 +11,7 @@
                 <h3 class="serif">Black &amp; Latino Alumni Network</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "black-and-latino-alumni-network";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The Stony Brook University Black &amp; Latino Alumni Network provides a forum where Black and Latino alumni of Stony Brook University can develop and strengthen the ties amongst themselves, while promoting values that reflect their community interests and investments as members of the Stony Brook University Alumni Association and Stony Brook University.</p>
                     <p>Network Leaders:</p>
                     <ul class="default-bullets">

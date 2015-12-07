@@ -11,7 +11,7 @@
                 <h3 class="serif">Northern California Alumni Chapter</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "northern-california-alumni-chapter";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The Stony Brook University Northern California Alumni Chapter connects Stony Brook alumni in the Bay Area through alumni hikes and picnics, luncheons featuring notable Stony Brook alumni speakers, and freshmen send-offs. The Chapter also provides internship and mentoring opportunities for current Stony Brook University students.</p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">
                         <div class="one-half">

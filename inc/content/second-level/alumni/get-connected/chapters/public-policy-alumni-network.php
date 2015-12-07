@@ -11,7 +11,7 @@
                 <h3 class="serif">Public Policy Alumni Network</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "public-policy-alumni-network";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The Stony Brook University Public Policy Alumni Network connects Public Policy alumni and students with employment opportunities, and strives to impact the University and community in a positive manner, and develop programs to strengthen and engage the alumni community.</p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">
                         <div class="one-half">

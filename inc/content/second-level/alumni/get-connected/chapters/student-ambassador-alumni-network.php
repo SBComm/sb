@@ -11,7 +11,7 @@
                 <h3 class="serif">Student Ambassador Alumni Network</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "student-ambassador-alumni-network";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The Stony Brook University Student Ambassador Alumni Network connects alumni and current students involved in the Stony Brook University Student Ambassador Program through reunions, events and networking opportunities. </p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">
                         <div class="one-half">

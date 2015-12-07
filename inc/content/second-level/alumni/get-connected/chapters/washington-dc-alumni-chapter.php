@@ -11,7 +11,7 @@
                 <h3 class="serif">Washington, DC / Greater Baltimore Area Alumni Chapter</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "washington-dc-alumni-chapter";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The Stony Brook University Washington DC / Greater Baltimore Area Alumni Chapter connects Stony Brook alumni in the DC area through an annual, family-friendly day at the ballpark &#8212; a tradition spanning over two decades &#8212; as well as networking and social events throughout the year.</p>
                     <p>We are currently recruiting Alumni Chapter leaders in the great DC / Baltimore area to play a pivotal role in organizing these events and opportunities for the chapter.</p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">

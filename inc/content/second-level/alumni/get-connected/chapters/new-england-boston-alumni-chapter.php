@@ -11,7 +11,7 @@
                 <h3 class="serif">New England – Greater Boston Area Alumni Chapter</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "new-england-boston-alumni-chapter";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The Stony Brook University New England - Greater Boston Area Chapter connects more than 6,800 Stony Brook alumni in the Boston Area through social events and networking opportunities.</p>
                     <p>We are currently recruiting alumni chapter leaders in the New England &#8212; Boston area to play a pivotal role in organizing these events and opportunities for the chapter.</p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white">

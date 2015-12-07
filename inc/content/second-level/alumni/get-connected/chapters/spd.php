@@ -11,7 +11,7 @@
                 <h3 class="serif">School of Professional Development Alumni Chapter</h3>
             </div>
             <div class="content">
-                <div class="border-box one-third equal-height-col">
+                <div class="border-box one-third">
                     <nav class="sidebar-star-nav clearfix">
                         <?php
                             $selected_sub_nav = "school-of-professional-development";
@@ -20,7 +20,7 @@
                         ?>
                     </nav>
                 </div>
-                <div class="border-box two-third equal-height-col">
+                <div class="border-box two-third">
                     <p>The Stony Brook University School of Professional Development Alumni Chapter connects alumni and current students of the School of Professional Development through reunions, events and networking opportunities. </p>
                     <div class="whole activities-and-calendar activities-and-calendar-on-white clearfix">
                         <div class="one-half">
