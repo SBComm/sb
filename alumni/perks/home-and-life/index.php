@@ -52,7 +52,7 @@
     		$nav_type		  = 'big-n-bold';
     		$social_sidebar   = 'alumni';
 
-    		$motio  		  = true;
+    		$motio  		  = false;
 
     		$page_loader     = true;
 
