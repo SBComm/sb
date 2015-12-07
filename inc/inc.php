@@ -156,4 +156,8 @@
 
     /* functions */
     include($path . 'includes/functions.php');
+
+    /* Site specifics */
+    $alumni_page_description = "Get connected with fellow Stony Brook Alumni at one of our networking events, reunions, or career workshops! Browse the wide selection of exclusive Alum perks and discounts you receive as a SBU graduate.";
+    $alumni_keywords = "Stony Brook University Alumni, Stony Brook Alumni, Stony Brook Graduates, Stony Brook Reunions, SBU Alums, Stony Brook Events";
 ?>

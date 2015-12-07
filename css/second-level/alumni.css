@@ -186,12 +186,12 @@ section.activities-and-calendar {
     padding: 30px 0;
 }
 
-.activities-and-calendar .activities-links {
+.inside-page .activities-and-calendar .activities-links {
     width: 41%;
     margin-right: 7%;
 }
 
-.activities-and-calendar ul.calendar-items {
+.inside-page .activities-and-calendar ul.calendar-items {
     width: 45%;
 }
 

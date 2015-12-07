@@ -24,13 +24,13 @@
     		$page_cat        = 'sub'; // for site tagline logo container
 			$second_level    = 'alumni';
 
-			$keywords          = "Stony Brook University,Undergraduate Admissions,Admissions,Majors,Minors,Special Programs,Visiting,About,Transfer Office,Transfer,Young Scholars Program,Honors,University Scholars,Admitted,International,Open House,Tour,Scholarships";
-	        $page_title      = 'Stony Brook University, New York';
+			$keywords        = $alumni_keywords;
+	        $page_title      = 'Stony Brook University Alumni';
 	        $page_title_sub  = 'Alumni';
-	        $page_title_full   = $page_title . ' | ' . $page_title_sub;
+	        $page_title_full = ucwords(str_replace("-"," ",basename(dirname(__FILE__)))) . ' | ' . $page_title;
 
-	        $og_title        = 'Stony Brook ' . $page_title;
-	        $og_description  = $page_description;
+	        $og_title        = $page_title_full;
+	        $og_description  = $alumni_page_description;
 	        $og_url          = 'alumni';
 
 		    $page_to_top_link = true;
