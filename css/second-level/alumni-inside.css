@@ -1019,6 +1019,9 @@ section.calendar .black-opac-cover {
 .authors__book__flip__card__item--front {
     cursor: pointer;
     z-index: 1;
+    /* weird issue in safari, calculating intersection and causing half clickable region */
+    /* see http://stackoverflow.com/questions/18146511/bug-in-css3-rotatey-transition-on-safari */
+    -webkit-transform: translateZ(1000px);
 }
 
 .authors__book__flip__card__item--front img {
@@ -1074,6 +1077,8 @@ section.calendar .black-opac-cover {
 }
 
 .authors__book__flip__card.flip {
+    -webkit-transform: rotateY( -180deg );
+    -moz-transform: rotateY( -180deg );
     transform: rotateY( -180deg );
 }
 
@@ -1145,6 +1150,7 @@ section.calendar .black-opac-cover {
     padding: 2px 6px 3px 7px;
     color: #fff;
     background: #900;
+    z-index: 1;
 }
 
 a.authors__book__cta {
