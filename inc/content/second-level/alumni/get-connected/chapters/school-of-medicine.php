@@ -113,11 +113,13 @@
                             <p>David Bernstein, MD '88 received the 2015 School of Medicine Distinguished Alumni Award at the School's annual White Coat Ceremony on August 23, 2015. Recognized as one of the best doctors by Castle-Connelly since 2006, Dr. Bernstein is a national and international leader in the field of liver diseases. His research has led to the development of new medications which are able to cure more than 95% of patients with hepatitis C infection and in the future could lead to the eradication of hepatitis C infection in the United States.</p>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/alumni/2015-school-of-medicine-distinguished-alumni-award-recipient/" target="_blank">View Story</a>
                         </div>
+                        <!--
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
-                            <!--<a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>-->
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>
                         </div>
+                        -->
                     </div>
                     <div class="border-box whole clearfix section-border-top">
                         <div class="border-box one-half padding-box">

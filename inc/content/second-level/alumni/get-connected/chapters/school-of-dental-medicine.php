@@ -127,13 +127,13 @@
                             <p>As Dean, Dr. Truhlar's vision for the School of Dental Medicine includes building a strong core foundation and implementing programs and initiatives that advance excellence in education, research and patient care, enabling the school to serve as a model of contemporary dental education and clinical practice. </p>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/alumni/2015-school-of-dental-medicine-distinguished-alumni-award-recipient-announced/" target="_blank">View Story</a>
                         </div>
+                        <!--
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
-                            <!--
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1n0wX7TcKQt3lNRH_wMIM9ecGyLpUi98Vk2v_Er5ZkYY/viewform" target="_blank">Nominate an alum</a>
-                            -->
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>
                         </div>
+                        -->
                     </div>
                     <div class="border-box whole clearfix section-border-top pad-bottom">
                         <div class="border-box one-half padding-box">
@@ -394,7 +394,7 @@
                                 <h4>School of Dental Medicine Mentoring Program</h4>
                                 <p>Stony Brook School of Dental Medicine alumni have served as mentors to dental students throughout the years. It is the goal of the Alumni Chapter and the Office of Strategic Planning and External Affairs to introduce a formal mentoring program soon.</p>
                                 <p>This program will connect our students with specially-selected alumni mentors allowing our students to learn first-hand about different career paths, leadership skills, styles and strategies. Mentors and students will be matched based on personal and professional interests.</p>
-                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://alumniandfriends.stonybrook.edu/sdm/get-involved/mentoring-program" target="_blank">Get More Information</a>
+                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/dental-medicine-mentoring-program">Get More Information</a>
                             </div>
                             <div class="clearfix section-border-top">
                                 <h4>Alumni Award of Excellence</h4>

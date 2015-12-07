@@ -85,12 +85,17 @@
     </section>
 
     <?php
+        $file = "widgets/alumni/alumni-relations-promo.php";
+        include($path . $file);
+    ?>
+
+    <?php
         $file = "widgets/alumni/alumni-flipbook-promo.php";
         include($path . $file);
     ?>
 
     <?php
-        $file = "widgets/alumni/alumni-relations-promo.php";
+        $file = "widgets/alumni/alumni-update-your-info.php";
         include($path . $file);
     ?>
 

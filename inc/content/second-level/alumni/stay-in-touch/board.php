@@ -1,4 +1,4 @@
-<article class="get-connected contact-page inside-page">
+<article class="get-connected contact-page inside-page board-members">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
             <h2><a href="alumni/stay-in-touch">Stay In Touch</a></h2>
@@ -382,7 +382,7 @@
     </section>
 
     <?php
-        $file = "widgets/alumni/alumni-association-promo.php";
+        $file = "widgets/alumni/alumni-relations-promo.php";
         include($path . $file);
     ?>
 

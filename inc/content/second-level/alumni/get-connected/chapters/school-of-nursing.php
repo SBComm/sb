@@ -115,13 +115,13 @@
                             <p>​Barbara M. Mills, DNP ’09 is the recipient of the 2015 School of Nursing Distinguished Alumni Award. Dr. Mills has made and continues to make significant contributions to the profession of Nursing through outstanding practice, research and community involvement. She has transformed the <a href="http://www.stonybrookmedicine.edu/patientcare/QualityandSafety/patientsafety/rapid_response_team" target="_blank">Rapid Response</a> program at Stony Brook University Hospital to one that is imitated throughout the nation. Dr. Mills will be honored for her accomplishments and offer the keynote address during an all-day symposium on April 1, 2016.</p>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/alumni/school-of-nursing-2015-distinguished-alumni-award-recipient-announced/" target="_blank">View Story</a>
                         </div>
+                        <!--
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
-                            <!--
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1xKDS8B4MelSa5X7gWJmQ-3c9_4ZbkeSTBJXAuVuNH9s/viewform" target="_blank">Nominate an alum</a>
-                            -->
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>
                         </div>
+                        -->
                     </div>
                     <div class="border-box whole clearfix section-border-top">
                         <div class="border-box one-half padding-box">
