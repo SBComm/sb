@@ -114,10 +114,16 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>Fall 2016</strong></td>
+                            <td><strong>Fall 2016 Freshmen</strong></td>
                             <td>January 15</td>
                             <td>March 1</td>
                             <td>By April 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fall 2016 Transfers</strong></td>
+                            <td>March 1</td>
+                            <td>March 1</td>
+                            <td>Rolling</td>
                         </tr>
                         <tr>
                             <td><strong>Spring 2016</strong></td>

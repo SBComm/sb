@@ -59,7 +59,7 @@
         <div class="border-box wrapper clearfix">
             <div class="content">
                 <h4>Young Investigators Review</h4>
-                <p>The <a class="external-link" href="http://sbyir.com/" target="_blank"><em>Young Investigators Review</em></a></strong> is a student-run science journal dedicated to promoting undergraduate research in the natural and applied sciences at Stony Brook. The journal, published once each semester, is wide in scope, including primary research articles, reviews, opinion essays, science news, interviews with faculty and students, and more.</p>
+                <p>The <em>Young Investigators Review</em> is a student-run science journal dedicated to promoting undergraduate research in the natural and applied sciences at Stony Brook. The journal, published once each semester, is wide in scope, including primary research articles, reviews, opinion essays, science news, interviews with faculty and students, and more.</p>
                 <h4>Center of Excellence in Wireless &amp; Information Technology (CEWIT)</h4>
                 <p>The <a class="external-link" href="http://www.cewit.org/" target="_blank">Center of Excellence in Wireless &amp; Information Technology (CEWIT)</a></strong> is a next generation research and educational facility. CEWIT has state-of-the-art laboratories for research into wireless and IT technologies, flexible incubator space for the use of private industry and substantial computing support space.</p>
                 <h4>Discoveries</h4>
