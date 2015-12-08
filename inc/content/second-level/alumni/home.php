@@ -1,28 +1,32 @@
-<article>
+<article class="home-page">
     <section class="clearfix site-carousel grey-background">
         <div class="border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
                     <div class="item">
-                        <div class="carousel-image clearfix" data-image="03">
+                        <div class="carousel-image clearfix" data-image="03" style="
+    background-image: url('img/alumni/marquee/marquee-3.jpg');">
                             <div class="white-fade-bottom"></div>
                         </div>
                         <a href="alumni/recent-grads" title="Land Your Dream Job"><h1 class="tagline bottom">Recent Grad? We're here for you!</h1></a>
                     </div>
                     <div class="item">
-                        <div class="carousel-image clearfix" data-image="02">
+                        <div class="carousel-image clearfix" data-image="02" style="
+    background-image: url('img/alumni/marquee/marquee-2.jpg');">
                             <div class="white-fade-bottom"></div>
                         </div>
                         <a href="alumni/form/send-us-your-news" title="Land Your Dream Job"><h1 class="tagline bottom">Where in the world have you been?</h1></a>
                     </div>
                     <div class="item">
-                        <div class="carousel-image clearfix" data-image="04">
+                        <div class="carousel-image clearfix" data-image="04" style="
+    background-image: url('img/alumni/marquee/marquee-4.jpg');">
                             <div class="white-fade-bottom"></div>
                         </div>
                         <a href="alumni/events-and-reunions" title="Land Your Dream Job"><h1 class="tagline bottom">Come Back to the Brook</h1></a>
                     </div>
                     <div class="item">
-                        <div class="carousel-image clearfix" data-image="01">
+                        <div class="carousel-image clearfix" data-image="01" style="
+    background-image: url('img/alumni/marquee/marquee-1.jpg');">
                             <div class="white-fade-bottom"></div>
                         </div>
                         <a href="http://career.stonybrook.edu/alumni_new" title="Land Your Dream Job" target="_blank"><h1 class="tagline bottom">Land Your Dream Job</h1></a>
@@ -142,21 +146,10 @@
         include($path . $file);
     ?>
 
-    <section class="grey-background social clearfix arrow-above">
-        <div class="wrapper border-box">
-        <h2>We're <span class="black">Social</span></h2>
-        <h3 class="subtitle sbu-text-shadow">Get the latest in <span class="red nowrap">Stony Brook Alumni</span> <span class="nowrap">social media!</span></h3>
-            <?php if($social_sidebar!='') {
-                $file = "sidebars/".$social_sidebar."-social-sidebar.php";
-                include($path . $file);
-            } ?>
-        </div>
-        <a id="panning" class="social-posts clearfix" href="social/alumni" target="_blank">
-            <span class="button clearfix">
-                <div class="sbu-link sbu-cta sbu-cta-1 sbu-cta-1a">View Alumni Wall</div>
-            </span>
-        </a>
-    </section>
+    <?php
+        $file = "widgets/alumni/alumni-social.php";
+        include($path . $file);
+    ?>
 
     <?php
         $file = "widgets/alumni/alumni-partners.php";

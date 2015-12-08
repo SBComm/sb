@@ -29,37 +29,16 @@
 }
 
 .carousel-image[data-image='01'] {
-    background-image: url("../../img/alumni/marquee/marquee-1.jpg");
-    background-position: 50% 20%;
 }
 
 .carousel-image[data-image='02'] {
-    background-image: url("../../img/alumni/marquee/marquee-2.jpg");
 }
 
 .carousel-image[data-image='03'] {
-    background-image: url("../../img/alumni/marquee/marquee-3.jpg");
-    background-position: 20% 20%;
 }
 
 .carousel-image[data-image='04'] {
     background-image: url("../../img/alumni/marquee/marquee-4.jpg");
-}
-
-.carousel-image[data-image='05'] {
-    background-image: url("../../img/alumni/marquee/marquee-5.jpg");
-}
-
-.carousel-image[data-image='06'] {
-    background-image: url("../../img/alumni/marquee/marquee-6.jpg");
-}
-
-.carousel-image[data-image='07'] {
-    background-image: url("../../img/alumni/marquee/marquee-7.jpg");
-}
-
-.carousel-image[data-image='08'] {
-    background-image: url("../../img/alumni/marquee/marquee-8.jpg");
 }
 
 .site-carousel h1.special {
@@ -478,6 +457,16 @@ footer.site-footer .img-col + .link-col {
     .site-carousel h1 {
         font-size: 3.6em;
         margin: 40px auto;
+    }
+
+    .home-page .activities-links {
+        width: 44%;
+        margin: 0 6% 0 0;
+    }
+
+    .home-page ul.calendar-items {
+        width: 50%;
+        margin: 0 0 0 0;
     }
 
     .alumni-home-promo {

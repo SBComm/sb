@@ -99,11 +99,6 @@
 								include($path . $more_nav);
 							?>
 						<!-- </more-nav> -->
-			            <!-- <audience-nav> -->
-							<?php 
-								include($path . $audience_nav);
-							?>
-						<!-- </audience-nav> -->
 					</div>
 					<!-- <logo-container> -->
 						<?php 
