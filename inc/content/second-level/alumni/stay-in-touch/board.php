@@ -369,7 +369,7 @@
 
                 <div class="border-box one-half equal-height-col clearfix">
                     <div class="one-quarter">
-                        <img src="img/alumni/board/bacarra.jpg" alt="Drazen Bacarra" />
+                        
                     </div>
                     <div class="three-quarter">
                         <h4>Drazen Bacarra</h4>
