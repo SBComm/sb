@@ -10,42 +10,7 @@
 			$inc = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . "inc/inc.php";
 		}
 		include($inc);
-
-		$og_url = $_GET["pageURL"];
-		$nav_site = $_GET["site"];
-		$page_cat = 'sub';
-		$page_title_sub = $_GET["pageTitle"];
-
-		$includeHeader = ($_GET["include"]);
-		if($includeHeader==1) {
-			$meta = false;
-			$file  = $header;
-			//include($path . $file);
-			?>
-	        <link href="//mobile.cc.stonybrook.edu/sb/css/vendor/normalize.min.css" rel="stylesheet">
-			<link href="//mobile.cc.stonybrook.edu/sb/css/main.css" rel="stylesheet">
-			<link href="//mobile.cc.stonybrook.edu/sb/css/nav.css" rel="stylesheet">
-			<link href="//mobile.cc.stonybrook.edu/sb/css/shared/active-data-calendar.css" rel="stylesheet">
-			<link href="//mobile.cc.stonybrook.edu/sb/css/elements/cd-dropdown/cd-dropdown.css" rel="stylesheet">
-			<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-			<link href="//mobile.cc.stonybrook.edu/sb/css/elements/to-top-link/to-top.css" rel="stylesheet">
-			<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css">
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/cd-dropdown/jquery.dropdown.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.sticky.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.scrollTo.min.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.easing.1.3.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.easing.compatibility."></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.scrollTo.min.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.localScroll.min.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.ba-bbq.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.motio.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/jquery.tooltipster.min.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/plugins.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/main.js"></script>
-			<script src="http://mobile.cc.stonybrook.edu/sb/js/vendor/fastclick.js"></script>
-			<?php
-		}
+		include('sbu-head-code.php');
 	?>
 	<!-- /inc -->
 
@@ -65,9 +30,9 @@
 						?>
 					<!-- </more-nav> -->
 		            <!-- <audience-nav> -->
-						<?php 
+						<?php if($audience_nav==1) {
 							include($path . $audience_nav);
-						?>
+						}?>
 					<!-- </audience-nav> -->
 				</div>
 				<!-- <logo-container> -->
@@ -94,4 +59,148 @@
 	    </div>
 	</div>
 
+
+	<script type="text/javascript">
+
+	    var initSBListeners = function() {
+	        $( function() {
+	            $( '#cd-dropdown' ).dropdown( {
+	                gutter : 0
+	            } );
+	        });
+	        //main.js init
+	        var $moreNav = $('.more-nav');
+	        var $audienceNav = $('.audience-nav');
+	        $('.more-trigger').on('click',function(){
+	            //console.log('clicked more-trigger');
+
+	            if($(window).width()>=1008) {
+	                if ( $audienceNav.is( ":visible" ) && $moreNav.is( ":hidden" ) ) {
+	                    //console.log('audienceNav:visible and moreNav:hidden');
+	                    $('.audience-trigger').click();
+	                }
+	            }
+
+	            if ( $moreNav.is( ":hidden" ) ) {
+	                $moreNav.slideDown();
+	                //$moreNav.show().animate({ height : moreNavHeight }, { duration: 600 });
+	                $(this).addClass('selected');
+	            } else {
+	                $moreNav.slideUp();
+	                /*$moreNav.animate({ height: 0 }, { duration: 600, complete: function () {
+	                    $moreNav.hide();
+	                  } 
+	                });*/
+	                $(this).removeClass('selected');
+	            }
+	        });
+	        //audience-trigger
+	        $('.audience-trigger').on('click',function(){
+	            //console.log('clicked audience-trigger');
+	            if($(window).width()>=1008) {
+	                if ( $moreNav.is( ":visible" ) && $audienceNav.is( ":hidden" ) ) {
+	                    //console.log('audienceNav:hidden and moreNav:visible');
+	                    $('.more-trigger').click();
+	                }
+	            }
+
+	            if ( $audienceNav.is( ":hidden" ) ) {
+	                $(this).find('.fa-caret-right').addClass('fa-caret-up').removeClass('fa-caret-right');
+	                $(this).closest('li').prev().addClass('before-selected');
+	                $audienceNav.slideDown();
+	                $(this).addClass('selected');
+	            } else {
+	                $(this).find('.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-right');
+	                $audienceNav.slideUp();
+	                $(this).removeClass('selected');
+	            }
+	        });
+	        //search position
+	        var timeoutID;
+	        var searchContainer = $('.search-container.default');
+	        var configuredSearch = false;
+
+	        function setSearchPosition() {
+	            timeoutID = window.setTimeout(configureSearchPosition, 750);
+	        }
+
+	        function configureSearchPosition() {
+	            if(configuredSearch) {
+	                searchContainer.removeClass('set-top-0');
+	                return;
+	            }
+
+	            var headerContainer = $('.header-container');
+	            var headerContainerHeight = headerContainer.height();
+	            
+	            //formula is top = h - 2h - 2
+	            searchContainerTop = headerContainerHeight - (headerContainerHeight * 2) - 2;
+	            var cssFriendlyTop = searchContainerTop + "px";
+
+	            searchContainer.css( { top : cssFriendlyTop } );
+
+	            configuredSearch = true;
+	        }
+
+	        function resetSearchPosition() {
+	            searchContainer.addClass('set-top-0');
+	        }
+
+	        function clearSearchPositionTimer() {
+	            window.clearTimeout(timeoutID);
+	        }
+	        if($(window).width()>=1022) {
+	            setSearchPosition();
+	        }
+
+	        $(window).resize(function(){
+	            if($(window).width()>=1022) {
+	                configureSearchPosition();
+	            } else {
+	                if(configuredSearch && !$('html').hasClass('ie9')) {
+	                    resetSearchPosition();
+	                }
+	            }
+	        });
+	    };
+
+	    var getSource = function() {
+	        //header
+	        var headerURL = 'http://mobile.cc.stonybrook.edu/sb/shared/sbu-header.php?include=0&pageTitle=Calendar&pageURL=http://calendar.activedatax.com/stonybrook';
+	        $.ajax({
+	            url: 'http://mobile.cc.stonybrook.edu/sb/shared/get-json.php?url='+encodeURIComponent(headerURL),
+	            type: 'GET',
+	            dataType: 'jsonp',
+	            error: function(xhr, status, error) {
+	                console.log(status + ": " + error);
+	            },
+	            success: function(header) {
+	                $('#static-header-code').replaceWith(header);
+	                initSBListeners();
+	            }
+	        });
+	        //footer
+	        var footerURL = 'http://mobile.cc.stonybrook.edu/sb/shared/sbu-footer.php?include=0&footer=1&footerbar=1&totop=1';
+	        $.ajax({
+	            url: 'http://mobile.cc.stonybrook.edu/sb/shared/get-json.php?url='+encodeURIComponent(footerURL),
+	            type: 'GET',
+	            dataType: 'jsonp',
+	            error: function(xhr, status, error) {
+	                console.log(status + ": " + error);
+	            },
+	            success: function(footer) {
+	                $('#static-footer-code').replaceWith(footer);
+	                $('#totop').on('click',function(event) {
+	                    $('body').scrollTo('0px',800);
+	                });
+
+	                //custom footer modifications here
+	                
+	            }
+	        });
+	    };
+	    
+	    getSource();
+
+	</script>
 		        

@@ -10,27 +10,7 @@
 			$inc = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . "inc/inc.php";
 		}
 		include($inc);
-
-		$includeHeader = ($_GET["include"]);
-		if($includeHeader==1) {
-			$meta = false;
-			$file  = $header;
-			//include($path . $file);
-			?>
-
-	        <link href="//mobile.cc.stonybrook.edu/sb/css/vendor/normalize.min.css" rel="stylesheet">
-	        <link href="//mobile.cc.stonybrook.edu/sb/css/main.css" rel="stylesheet">
-	        <link href="//mobile.cc.stonybrook.edu/sb/css/nav.css" rel="stylesheet">
-	        <link href="//mobile.cc.stonybrook.edu/sb/css/elements/cd-dropdown/cd-dropdown.css" rel="stylesheet">
-
-	        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-
-		    <link href="//mobile.cc.stonybrook.edu/sb/css/elements/to-top-link/to-top.css" rel="stylesheet">
-
-		    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
-
-			<?php
-		}
+		include('sbu-head-code.php');
 	?>
 	<!-- /inc -->
 
@@ -38,18 +18,28 @@
     	<div class="sbu-sub-wrapper">
 
 	        <!-- <div.footer-container> -->
-	        	<?php if($_GET["footer"]==1) {
-					$file = "footers/for-students-footer.php";
-					include($path . $file);
+	        	<?php if($include_footer==1) {
+	        		if($nav_site=='alumni') {
+						$nav_type = 'big-n-bold';
+						$footer_path = 'footers/alumni-footer.php';
+					} else {
+						$nav_type = 'default';
+						$footer_path = 'footers/for-students-footer.php';
+					}
+					include($path . $footer_path);
 				} ?>
-				<?php if($_GET["footerbar"]==1) {
-					$file = "footerbar.php";
-					include($path . $file);
+				<?php if($include_footerbar==1) {
+	        		if($nav_site=='alumni') {
+						$footerbar_path = 'footers/alumni-footerbar.php';
+					} else {
+						$footerbar_path = 'footerbar.php';
+					}
+					include($path . $footerbar_path);
 				} ?>
 			<!-- </div.footer-container> -->
 
 			<!-- <to-top> -->
-				<?php if($_GET["totop"]==1) {
+				<?php if($include_totop==1) {
 					$file = "to-top.php";
 					include($path . $file);
 				} ?>
