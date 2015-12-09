@@ -32,7 +32,7 @@
                 </div>
                 <div class="border-box whole clearfix pad-top">
                     <h4>Volunteer</h4>
-                    <p>We need your help to make next year’s event a success! <a href="https://docs.google.com/a/stonybrook.edu/forms/d/1jzaa2XNR6FOvOPRSCGXMxTxXBmXEts6YN6s-5G3C964/viewform">Volunteer today</a> for the 2016 Golf Committee.</p>
+                    <p>We need your help to make next year’s event a success! <a href="alumni/form/volunteer/">Volunteer today</a> for the 2016 Golf Committee.</p>
                 </div>
             </div>
         </div>

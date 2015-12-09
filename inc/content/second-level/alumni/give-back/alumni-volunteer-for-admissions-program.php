@@ -16,7 +16,7 @@
                     <h4>Alumni Volunteer for Admissions Program</h4>
                         <h5 class="on-red">Help Us Recruit Prospective Students and Welcome New Students</h5>
                         <p>Your Alumni Association and Stony Brook students need your energy and ideas! Join the growing network of alumni volunteers and help promote the mission of the University – all while having fun!</p>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1jzaa2XNR6FOvOPRSCGXMxTxXBmXEts6YN6s-5G3C964/viewform" target="_blank">Volunteer Now!</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/volunteer/">Volunteer Now!</a>
                     </div>
                 </div>
 
