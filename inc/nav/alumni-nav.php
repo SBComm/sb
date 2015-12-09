@@ -243,7 +243,7 @@
 			<li></li>
 		</ul>
 		<div class="mega-blurb">
-			We're here to help you maintain a life long and meaningful relationship with Stony Brook University.
+			We're here to help you maintain a lifelong and meaningful relationship with Stony Brook University.
 		</div>
 		<div class="mega-img">
 			<img src="img/alumni/nav/stay-in-touch-diag.png" />
