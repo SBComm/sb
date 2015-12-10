@@ -1,14 +1,14 @@
 <article class="get-connected contact-page inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><a href="alumni/stay-in-touch/visiting-sbu">Visiting Stony Brook</a></h2>
+            <h2><a href="alumni/stay-in-touch/">Stay In Touch</a></h2>
         </div>
     </section>
     
     <section class="clearfix inside-content main-inside-content white-background margin-top">
         <div class="border-box wrapper clearfix">
             <div class="content pad-top">
-                <h4>Travel/Hotel Information</h4>
+                <h4>Visiting Stony Brook</h4>
                 <div class="border-box whole section-border-bottom">
                     <p>
                         <a href="http://www.stonybrook.edu/sb/directions.shtml" class="arrow-after">Directions to Stony Brook University</a>

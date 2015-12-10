@@ -1,7 +1,7 @@
 <article class="contact-page inside-page">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><a href="alumni/contact">Stay In Touch</a></h2>
+            <h2><a href="alumni/stay-in-touch">Stay In Touch</a></h2>
         </div>
     </section>
     
