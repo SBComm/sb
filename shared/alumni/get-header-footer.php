@@ -17,13 +17,29 @@
 //         - Links
 //         - Full footer
 //         - Footerbar
-//    4) Footer Scripts
+//    4) Selected Nav Option (optional)
+//         - Defines selected nav item
+//              1 = GET CONNECTED
+//              2 = GET INFORMED
+//              3 = GET PERKS
+//              4 = GIVE BACK
+//              5 = STAY IN TOUCH
+//    5) Footer Scripts
 //         - jQuery listeners
 //         - AJAX request for live header and footer to replace static versions of (2) and (3)
 // 
 //
 -->
 
+
+
+<!--
+//    1) Head Code
+//         - Styles
+-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link href="//mobile.cc.stonybrook.edu/sb/css/vendor/normalize.min.css" rel="stylesheet">
 <link href="//mobile.cc.stonybrook.edu/sb/css/main.css" rel="stylesheet">
 <link href="//mobile.cc.stonybrook.edu/sb/css/nav.css" rel="stylesheet">
@@ -36,6 +52,7 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="//mobile.cc.stonybrook.edu/sb/css/elements/to-top-link/to-top.css" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css">
+<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/ee71ef3e-a7f1-47dd-8ae1-4ae6bec02b30.css"/>
 
 
 
@@ -46,7 +63,12 @@
 
 
 
-
+<!--
+//    2) Site Navigation (static)
+//         - Logo
+//         - Site Header
+//         - Main Nav
+-->
 <div id="static-header-code">
 
     <div class="sbu-wrapper clearfix">
@@ -361,8 +383,23 @@
 
 
 
-
+<!--
+//    3) Site Footer (static)
+//         - Links
+//         - Full footer
+//         - Footerbar
+-->
 <div id="static-footer-code">
+
+    <section class="campaign-banner campaign-banner--on-red fixed-background clearfix">
+        <div class="campaign-banner__wrapper border-box clearfix">
+            <span class="campaign-banner__logo-text hide-accessible">The Campaign for Stony Brook</span>
+            <img class="campaign-banner__logo-image campaign-banner__logo-image--desktop" src="//mobile.cc.stonybrook.edu/sb/img/branding/logo/the-campaign-for-stony-brook--on-red--landscape.png" alt="The Campaign for Stony Brook logo" />
+            <img class="campaign-banner__logo-image campaign-banner__logo-image--mobile" src="//mobile.cc.stonybrook.edu/sb/img/branding/logo/the-campaign-for-stony-brook--on-red--portrait.png" alt="The Campaign for Stony Brook logo" />
+            <span class="campaign-banner__tagline">Together we go far beyond.</span>
+            <a class="campaign__button campaign-banner__button" href="http://stonybrook.edu/campaign/">Join Us</a>
+        </div>
+    </section>
 
     <div class="sbu-wrapper clearfix">
         <div class="sbu-sub-wrapper">
@@ -371,7 +408,7 @@
                 <nav class="wrapper">
                      <div class="clearfix">
                         <div class="col img-col">
-                            <img src="img/logo/alumni-association-white-187.png" alt="Logo for Stony Brook University Alumni Association">
+                            <img src="//mobile.cc.stonybrook.edu/sb/img/logo/alumni-association-white-187.png" alt="Logo for Stony Brook University Alumni Association">
                         </div>
                         <div class="col link-col clearfix">
                            <div class="links">
@@ -422,6 +459,18 @@
 
 
 
+<!--
+//    4) Selected Nav Option (optional)
+//         - Defines selected nav item
+//              1 = GET CONNECTED
+//              2 = GET INFORMED
+//              3 = GET PERKS
+//              4 = GIVE BACK
+//              5 = STAY IN TOUCH
+-->
+<script type="text/javascript">
+    var selectedNavItemIndex = 0;
+</script>
 
 
 
@@ -429,8 +478,16 @@
 
 
 
-<!-- for testing, include jquery from alumni site-->
+
+<!--
+//    5) Footer Scripts
+//         - jQuery listeners
+//         - AJAX request for live header and footer to replace static versions of (2) and (3)
+-->
+
+<!-- START for testing, include jquery from alumni site-->
 <script src="//alumniandfriends.stonybrook.edu/Client/Scripts/jquery/1.7.2/jquery.min.js"></script>
+<!-- END for testing, include jquery from alumni site-->
 
 <script src="//mobile.cc.stonybrook.edu/sb/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 <script src="//mobile.cc.stonybrook.edu/sb/js/cd-dropdown/jquery.dropdown.js"></script>
@@ -530,7 +587,6 @@
         });
 
         // section subnav
-
         $('.section-nav-trigger a').on('click',function(event){
             event.preventDefault();
             $(this).toggleClass('active');
@@ -724,9 +780,11 @@
         });
     };
 
-    var getSource = function() {
-        //header
-        var headerURL = 'http://mobile.cc.stonybrook.edu/sb/shared/sbu-header.php?include=0&pageTitle=Alumni&site=alumni&scripts=0&jquery=0&audienceNav=0&pageURL=http://stonybrook.edu/alumni';
+    var getHeaderSource = function() {
+        if(typeof selectedNavItemIndex == 'undefined') {
+            selectedNavItemIndex = 0;
+        }
+        var headerURL = 'http://mobile.cc.stonybrook.edu/sb/shared/sbu-header.php?include=0&pageTitle=Alumni&site=alumni&scripts=0&jquery=0&audienceNav=0&selected='+selectedNavItemIndex+'&pageURL=http://stonybrook.edu/alumni';
         $.ajax({
             url: '//mobile.cc.stonybrook.edu/sb/shared/get-json.php?url='+encodeURIComponent(headerURL),
             type: 'GET',
@@ -736,27 +794,31 @@
             },
             success: function(header) {
                 $('#static-header-code').replaceWith(header);
-                initSBListeners();
 
                 //custom header modifications here
 
                 var thisLink;
 
                 //make header links absolute
-                $('.main-nav-container a[href^="alumni/"], .logo-container a[href^="alumni/"]').each(function() {
-                    thisLink = '//mobile.cc.stonybrook.edu/sb/' + $(this).attr('href');
+                $('.main-nav-container a[href^="alumni/"], .header-container a[href^="alumni/"], .logo-container a[href^="alumni/"]').each(function() {
+                    thisLink = 'http://mobile.cc.stonybrook.edu/sb/' + $(this).attr('href');
                     $(this).attr('href',thisLink);
                 });
 
                 //make img paths absolute
-                $('.main-nav-container img[src^="img/"], .logo-container img[src^="img/"]').each(function() {
+                $('.main-nav-container img[src^="img/"], .header-container img[src^="img/"], .logo-container img[src^="img/"]').each(function() {
                     thisLink = '//mobile.cc.stonybrook.edu/sb/' + $(this).attr('src');
                     $(this).attr('src',thisLink);
                 });
+            },
+            complete: function() {
+                getFooterSource();
             }
         });
-        //footer
-        var footerURL = 'http://mobile.cc.stonybrook.edu/sb/shared/sbu-footer.php?include=1&site=alumni&footer=1&footerbar=1&totop=1';
+    };
+
+    var getFooterSource = function() {
+        var footerURL = 'http://mobile.cc.stonybrook.edu/sb/shared/sbu-footer.php?include=0&scripts=0&jquery=0&site=alumni&footer=1&footerbar=1&totop=1';
         $.ajax({
             url: '//mobile.cc.stonybrook.edu/sb/shared/get-json.php?url='+encodeURIComponent(footerURL),
             type: 'GET',
@@ -774,21 +836,24 @@
 
                 var thisLink;
 
-                //make header links absolute
-                $('.site-footer a[href^="alumni/"]').each(function() {
-                    thisLink = '//mobile.cc.stonybrook.edu/sb/' + $(this).attr('href');
+                //make footer links absolute
+                $('.site-footer a[href^="alumni/"], .campaign-banner img[src^="alumni/"]').each(function() {
+                    thisLink = 'http://mobile.cc.stonybrook.edu/sb/' + $(this).attr('href');
                     $(this).attr('href',thisLink);
                 });
 
                 //make img paths absolute
-                $('.site-footer img[src^="img/"]').each(function() {
+                $('.site-footer img[src^="img/"], .campaign-banner img[src^="img/"]').each(function() {
                     thisLink = '//mobile.cc.stonybrook.edu/sb/' + $(this).attr('src');
                     $(this).attr('src',thisLink);
                 });
+            },
+            complete: function() {
+                initSBListeners();
             }
         });
     };
-    
-    getSource();
+
+    getHeaderSource();
 
 </script>
