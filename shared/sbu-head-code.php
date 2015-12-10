@@ -5,6 +5,7 @@
 	$include_jquery = $_GET["jquery"];
 	$page_title_sub = $_GET["pageTitle"];
 	$audience_nav = $_GET["audienceNav"];
+	$sub_nav_selected_tab = $_GET["selected"];
 
 	//shared params
 	$include_head_code = ($_GET["include"]);
