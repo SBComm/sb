@@ -1,7 +1,7 @@
 <article class="get-informed">
     <section class="clearfix center-rule-header inside-header">
         <div class="border-box">
-            <h2><span>News and Spotlight</span></h2>
+            <h2><a href="alumni/news-and-spotlight">News and Spotlight</a></h2>
         </div>
     </section>
     <section id="news" class="clearfix articles-promo white-background pad-top">

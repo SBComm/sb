@@ -1,7 +1,7 @@
 <article class="get-connected">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
-            <h2><span>Events and Reunions</span></h2>
+            <h2><a href="alumni/events-and-reunions">Events and Reunions</a></h2>
         </div>
     </section>
     <section class="clearfix alumni-header inside-content main-inside-content white-background arrow-below arrow-below-white">

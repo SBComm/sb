@@ -1,7 +1,7 @@
 <article class="get-informed">
     <section class="clearfix center-rule-header inside-header">
         <div class="border-box">
-            <h2><span>Authors</span></h2>
+            <h2><a href="alumni/news-and-spotlight/authors">Authors</a></h2>
         </div>
     </section>
 
