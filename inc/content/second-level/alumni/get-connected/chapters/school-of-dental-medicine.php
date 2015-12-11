@@ -131,7 +131,7 @@
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/medicine-distinguished-alumni-nomination" target="_blank">Nominate an alum</a>
                         </div>
                         -->
                     </div>

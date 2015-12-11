@@ -67,7 +67,7 @@
                     <h4>Alumni Association Card</h4>
                     <p>Save money with one of our perks exclusively for Stony Brook alumni!</p>
                     <p>As a Stony Brook alum, you are eligible for special offers on hotels, access to alumni facilities, savings on insurance products, retail discounts, and more.</p>
-                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1h4hfeAx-jdnRCji7S3G5wQRjwLXNgX9OeJeEGyR2PnQ/viewform" target="_blank">Get Your Card</a>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/request-a-stony-brook-alumni-association-card" target="_blank">Get Your Card</a>
                 </div>
             </div>
             <!--<div class="border-box content whole clearfix section-border-top">

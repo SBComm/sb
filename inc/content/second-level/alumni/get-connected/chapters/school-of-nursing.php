@@ -119,7 +119,7 @@
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/medicine-distinguished-alumni-nomination" target="_blank">Nominate an alum</a>
                         </div>
                         -->
                     </div>
@@ -520,7 +520,7 @@
                                 <p>Members of the School of Nursing Alumni Board will mentor Stony Brook School of Nursing recent graduates (graduates of the last five years) as part of the School of Nursing Alumni Mentoring Program. The volunteer alumni mentors are 'assigned' a mentee, who has been selected for the program, in order to provide meaningful support, increase the grad's knowledge of the occupation and ease their transition from nursing school to career.</p>
                                 <p>Are you an alum who is interested in volunteering? Are you a student who wants to connect with an alumni volunteer?</p>
                                 <p>If you have any questions, please contact Mary Hoffmann at 631-632-4995 or <a href="mailto:mary.hoffmann@stonybrook.edu" target="_blank">mary.hoffmann@stonybrook.edu</a>.</p>
-                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1uipwO--ZMk3oyZDFHSVpqfLqVSQaSXanjrRbGtF71WE/viewform" target="_blank">Get More Information</a>
+                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/nursing-mentoring-program" target="_blank">Get More Information</a>
                             </div>
                             <div class="clearfix section-border-top">
                                 <h4>Academic and Clinical Success</h4>

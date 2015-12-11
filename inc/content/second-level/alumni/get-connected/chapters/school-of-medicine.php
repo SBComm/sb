@@ -117,7 +117,7 @@
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1FoVBcnQfSygddPj0w0GrTIEuxcii33IcsQU6WB8jYq0/viewform" target="_blank">Nominate an alum</a>
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/medicine-distinguished-alumni-nomination" target="_blank">Nominate an alum</a>
                         </div>
                         -->
                     </div>
@@ -498,13 +498,13 @@
                                 <p>The School of Medicine Alumni Chapter launched the HOST Program to connect Stony Brook Medical Year IV students who are interviewing for their residencies and current School of Medicine students who are seeking advice with School of Medicine alumni who are willing to volunteer their time and share their experiences and hospitality.</p>
                                 <p>Are you an alum who is interested volunteering? Are you a student who wants to connect with an alumni volunteer?</p>
                                 <p>If you have any questions, please contact Mary Hoffmann at 631-632-4995 or mary.hoffmann@stonybrook.edu.</p>
-                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1YxpAcD-RxtBM_QLwh1qhjb7g0lbydH8JzIHVwVt-abg/viewform" target="_blank">Get More Information</a>
+                                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/medicine-host-program" target="_blank">Get More Information</a>
                             </div>
                             <div class="clearfix section-border-top">
                                 <h4>International Alumni Awards</h4>
                                 <p>The School of Medicine Alumni Chapter helps fund student volunteers traveling on International Medical Missions to underdeveloped countries through the School of Medicine Alumni International Medicine Award Fund.<br />
                                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157657930957469/with/21217916936/" target="_blank">View photos from international missions</a></p>
-                                <p>Do you know a student who would like to apply for sponsorship? Contact Mary Hoffmann for information from the Alumni Board or fill out an <a href="https://docs.google.com/a/stonybrook.edu/forms/d/1wkJfKI5ji_VGBD66t_hHiQ-fsI6-YpEwyIJH2atowQU/viewform" target="_blank">International Alumni Award application</a>.</p>
+                                <p>Do you know a student who would like to apply for sponsorship? Contact Mary Hoffmann for information from the Alumni Board or fill out an <a href="alumni/form/medicine-international-travel-alumni-award-application" target="_blank">International Alumni Award application</a>.</p>
                                 <p>You can be a part of supporting global health, and clinical &amp; research student electives!<br />
                                 <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://alumniandfriends.stonybrook.edu/sslpage.aspx?pid=410&fid=ZM0iXwHc%2fJQ%3d&fdesc=oq744LBwyP4BkUe%2bomNUvTGgsV%2fLI%2bif2xzHQlG%2bCdJWDgwt7ny6apSGdBpa27Y%2f" target="_blank">Donate now</a></p>
                                 <p><a href="http://sb.cc.stonybrook.edu/happenings/alumni/congratulations-to-the-first-recipients-of-the-stony-brook-school-of-medicine-drs-philip-v-and-richard-p-messina-endowed-fund-for-global-excellence/" target="_blank">Learn more</a> about the first recipients of the Endowed Fund for Global Excellence.</p>

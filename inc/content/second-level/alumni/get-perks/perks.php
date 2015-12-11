@@ -27,7 +27,7 @@
                 <p>Your Alumni Association card enables you to use and check out books from the Melville Library at Stony Brook University, access hotel and travel discounts, purchase discounted tickets to special events (when available) and more.</p>
                 <p>If you haven’t received yours or lost the one you had, contact us and we will send you a new one!</p>
                 <img class="alumni-card" src="img/alumni/perks/alumni-card.png" alt="Sample Alumni member card" />
-                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://docs.google.com/a/stonybrook.edu/forms/d/1h4hfeAx-jdnRCji7S3G5wQRjwLXNgX9OeJeEGyR2PnQ/viewform" target="_blank">Get Your Card</a>
+                <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/request-a-stony-brook-alumni-association-card" target="_blank">Get Your Card</a>
             </div>
             <div class="content col-2">
                 <h4>Alumni Association Mobile App</h4>
