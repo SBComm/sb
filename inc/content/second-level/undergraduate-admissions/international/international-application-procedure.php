@@ -25,7 +25,7 @@
         <div class="border-box wrapper clearfix">
             <h3>How to Apply as an International Applicant</h3>
             <div class="content application-details alert-message green clearfix">
-                <p>Applications are being accepted for fall 2016 semester.</p>
+                <p>Applications are being accepted for the fall 2016 semester.</p>
             </div>
             <div class="content application-details alert-message red clearfix">
                 <p>We are no longer accepting applications from transfer students for the spring 2016 semester.</p>
