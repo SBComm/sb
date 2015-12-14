@@ -28,7 +28,7 @@
                 <p>Applications are being accepted for the fall 2016 semester.</p>
             </div>
             <div class="content application-details alert-message red clearfix">
-                <p>We are no longer accepting applications from transfer students for the spring 2016 semester.</p>
+                <p>We are no longer accepting applications for the spring 2016 semester.</p>
             </div>
              <div class="content application-details clearfix">
                 <div class="inner-wrapper">
