@@ -520,8 +520,9 @@
                             <p>There are a variety of options for you to support Stony Brook's Alumni Funds:</p>
                             <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-Scholarship-Fund" target="_blank">SOM Alumni Scholarship Fund</a>: Scholarships are awarded to students based on academic excellence, financial need &amp; community service</p>
                             <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-Scholarship-Endowment-Fund" target="_blank">SOM Alumni Scholarship Endowment Fund</a>: Need and merit-based scholarships are awarded with the dividends earned from the endowment</p>
-                            <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-Fund" target="_blank">SOM Alumni Scholarship Fund</a>: Funding is awarded to the alumni board to support educational initiatives that benefit the School of Medicine and its students</p>
-                            <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-International-Medicine-Award-Fund" target="_blank">SOM Alumni Scholarship Fund</a>: Funding is awarded to student volunteers traveling on International Medical Missions to underdeveloped countries</p>
+                            <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-Fund" target="_blank">SOM Alumni Fund</a>: Funding is awarded to the alumni board to support educational initiatives that benefit the School of Medicine and its students</p>
+                            <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-International-Medicine-Award-Fund" target="_blank">SOM Alumni International Medicine Award Fund</a>: Funding is awarded to student volunteers traveling on International Medical Missions to underdeveloped countries</p>
+                            <p><a href="https://alumniandfriends.stonybrook.edu/main-site/external/external---school-of-medicine-stethoscope-drive-donation-form   " target="_blank">Stethoscope Drive Fund</a>: This fund supports the sponsorship of a personalized 3M Littman Cardiology III stethoscope for an incoming medical student</p>
                         </div>
                     </div>
                     <div class="border-box whole clearfix past-reunions">
@@ -553,7 +554,7 @@
                             </div>
                             
                             <div class="border-box clearfix whole center-wrapper">
-                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions" data-target="#more-reunions">View all past reunions</a>
                             </div>
 
                             <div id="more-reunions" class="continue-reading-target hide-accessible">

@@ -38,7 +38,14 @@ var initAlumni = function() {
 	//Continue Reading Trigger
 	$('.continue-reading-trigger').on('click', function(e) {
 		e.preventDefault();
-		var $text = $(this).parent().find('.continue-reading-target');
+		var dataTarget = $(this).attr('data-target');
+		console.log(dataTarget);
+		var $text;
+		if(dataTarget!='') {
+			$text = $(dataTarget);
+		} else {
+			$text = $(this).parent().find('.continue-reading-target');
+		}
 		$(this).remove();
 		toggleAccessible($text);
 	});

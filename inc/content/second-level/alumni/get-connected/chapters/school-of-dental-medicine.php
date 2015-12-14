@@ -19,7 +19,7 @@
         <div class="border-box wrapper clearfix">
             <div class="content">
                 <div class="border-box whole intro-letter">
-                    <img class="inline-with-copy" src="img/university/hsc-small-portrait-1.jpg" alt="Health Science Center" />
+                    <img class="inline-with-copy" src="img/university/dental-med-small-portrait-1.jpg" alt="Health Science Center" />
                     <h4>Welcome School of Dental Medicine Alums!</h4>
                     <p><strong>To All of My Fellow Alumni Colleagues:</strong></p>
                     </p>
@@ -40,7 +40,7 @@
                         <p>I hope you join me in participating and strengthening the bonds between alumni, present students and the School of Medicine. Pride and tradition at Stony Brook School of Medicine starts with us.</p>
                         <p>
                             Best Regards,<br /><br />
-                            Dimitrios Kilimitzoglou, DDS '02<br />
+                            John Rose DDS ’04<br />
                             <em>President, SDM Alumni Chapter</em><br /><br />
                             Kristin Matthews<br />
                             <em>Associate Director of Alumni Relations</em>
@@ -127,13 +127,11 @@
                             <p>As Dean, Dr. Truhlar's vision for the School of Dental Medicine includes building a strong core foundation and implementing programs and initiatives that advance excellence in education, research and patient care, enabling the school to serve as a model of contemporary dental education and clinical practice. </p>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://sb.cc.stonybrook.edu/happenings/alumni/2015-school-of-dental-medicine-distinguished-alumni-award-recipient-announced/" target="_blank">View Story</a>
                         </div>
-                        <!--
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>
-                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/medicine-distinguished-alumni-nomination" target="_blank">Nominate an alum</a>
+                            <!--<a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>-->
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/dental-medicine-distinguished-alumni-awards-nomination" target="_blank">Nominate an alum</a>
                         </div>
-                        -->
                     </div>
                     <div class="border-box whole clearfix section-border-top pad-bottom">
                         <div class="border-box one-half padding-box">
@@ -142,28 +140,39 @@
                             <div class="drop-accordion drop-accordion-1 clearfix">
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Dr. Jimmy Kilimitzoglou (2002)</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Dr. John Rose (2004)</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <img class="inline-with-copy" src="img/alumni/board/kilimitzoglou.jpg" alt="Portrait of Jimmy Kilimitzoglou" />
-                                                <strong>Dr. Jimmy Kilimitzoglou (2002)</strong><br />
-                                                President
+                                                <strong>Dr. John Rose (2004)</strong><br />
+                                                President<br />
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Dr. John Rose (2004)</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Thomas Grandville</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <img class="inline-with-copy" src="img/alumni/board/rose.jpg" alt="Portrait of John Rose" />
-                                                <strong>Dr. John Rose (2004)</strong><br />
-                                                Vice President<br />
+                                                <strong>Thomas Grandville</strong><br />
+                                                President<br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tab">
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Dr. Jimmy Kilimitzoglou (2002)</span>
+                                    </div>
+                                    <div class="content clearfix hide-accessible">
+                                        <div class="content-wrap">
+                                            <p>
+                                                <strong>Dr. Jimmy Kilimitzoglou (2002)</strong><br />
+                                                Past President
                                             </p>
                                         </div>
                                     </div>
@@ -175,7 +184,6 @@
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <img class="inline-with-copy" src="img/alumni/board/lebovic.jpg" alt="Portrait of John Rose" />
                                                 <strong>Dr. Marcie Lebovic (2006)</strong><br />
                                                 Secretary
                                             </p>
@@ -292,18 +300,6 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Dimitrios Kilimitzoglou (2002)</span>
-                                    </div>
-                                    <div class="content clearfix hide-accessible">
-                                        <div class="content-wrap">
-                                            <p>
-                                                <strong>Dimitrios Kilimitzoglou (2002)</strong>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="tab">
                                         <span class="label"><i class="fa fa-plus-circle"></i>Alec Nguyen (2011)</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
@@ -386,7 +382,54 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                <div class="item">
+                                    <div class="tab">
+                                        <span class="label"><i class="fa fa-plus-circle"></i>McKenzie Clemens Hudson (2014)</span>
+                                    </div>
+                                    <div class="content clearfix hide-accessible">
+                                        <div class="content-wrap">
+                                            <p>
+                                                <strong>McKenzie Clemens Hudson (2014)</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tab">
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Gerardo Romeo (2005)</span>
+                                    </div>
+                                    <div class="content clearfix hide-accessible">
+                                        <div class="content-wrap">
+                                            <p>
+                                                <strong>Gerardo Romeo (2005)</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tab">
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Laura Izzo (2015)</span>
+                                    </div>
+                                    <div class="content clearfix hide-accessible">
+                                        <div class="content-wrap">
+                                            <p>
+                                                <strong>Laura Izzo (2015)</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tab">
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Robert Peskin (1977)</span>
+                                    </div>
+                                    <div class="content clearfix hide-accessible">
+                                        <div class="content-wrap">
+                                            <p>
+                                                <strong>Robert Peskin (1977)</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="border-box one-half padding-box news-feature">
@@ -421,62 +464,60 @@
                         <h4>Past Reunions</h4>
                         <div class="whole clearfix">
                             <div class="border-box one-third past-reunion">
-                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157647258884844">Greater New York Dental Meeting and Alumni Reception</a>
-                                <span class="date">December 2, 2014</span>
+                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157661766517702">2015 Greater NY Dental Meeting</a>
+                                <span class="date">December 1, 2015</span>
                                 <div class="img-wrapper">
-                                    <img src="https://farm8.staticflickr.com/7530/15752434969_667911755c_b.jpg" alt="Greater New York Dental Meeting and Alumni Reception">
-                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157647258884844" target="_blank">View Photos</a></div>
+                                    <img src="https://farm6.staticflickr.com/5833/22845508364_08694eec63_b.jpg" alt="2015 Greater New York Dental Meeting">
+                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157661766517702" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
                             <div class="border-box one-third past-reunion">
-                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157649230446005">School of Dental Medicine Class of 1984 30th Reunion</a>
-                                <span class="date">November 8, 2014</span>
+                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157661223109246">2015 Reunion - Classes of '85 and '00</a>
+                                <span class="date">November 14, 2015</span>
                                 <div class="img-wrapper">
-                                    <img src="https://farm9.staticflickr.com/8132/15734434156_3713ec50d9_b.jpg" alt="School of Dental Medicine Class of 1984 30th Reunion">
-                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157649230446005" target="_blank">View Photos</a></div>
+                                    <img src="https://farm9.staticflickr.com/649/23079161061_66ebed1e4e_b.jpg" alt="2015 Reunion - Classes of 1985 and ">
+                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157661223109246" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
                             <div class="border-box one-third past-reunion">
-                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157644008023503">School of Dental Medicine Greater Long Island Dental Meeting Alumni Reception</a>
-                                <span class="date">April 8, 2014</span>
+                                <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157650594840456">Dental Jeopardy</a>
+                                <span class="date">February 4, 2015</span>
                                 <div class="img-wrapper">
-                                    <img src="https://farm4.staticflickr.com/3727/13875388803_429025a8f7_b.jpg" alt="School of Dental Medicine Greater Long Island Dental Meeting Alumni Reception">
-                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157644008023503" target="_blank">View Photos</a></div>
+                                    <img src="https://farm8.staticflickr.com/7398/16425729306_79b37c9651_b.jpg" alt="Dental Jeopardy">
+                                    <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157650594840456" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
-                            <!--
                             
                             <div class="border-box clearfix whole center-wrapper">
-                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions" data-target="#more-reunions">View all past reunions</a>
                             </div>
                             
                             <div id="more-reunions" class="continue-reading-target hide-accessible">
                                 <div class="border-box one-third past-reunion">
-                                    <a class="title" href="#">School of Medicine Class of '99 Reunion</a>
-                                    <span class="date">October 25-26, 2014</span>
+                                    <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157647258884844">Greater New York Dental Meeting and Alumni Reception</a>
+                                    <span class="date">December 2, 2014</span>
                                     <div class="img-wrapper">
-                                        <img src="https://farm4.staticflickr.com/3947/15464623268_f0f6d5a44f_b.jpg" alt="School of Medicine Class of '99 Reunion">
-                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                        <img src="https://farm8.staticflickr.com/7530/15752434969_667911755c_b.jpg" alt="Greater New York Dental Meeting and Alumni Reception">
+                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157647258884844" target="_blank">View Photos</a></div>
                                     </div>
                                 </div>
                                 <div class="border-box one-third past-reunion">
-                                    <a class="title" href="#">School of Medicine Class of '88 Reunion</a>
-                                    <span class="date">May 3, 2014</span>
+                                    <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157649230446005">School of Dental Medicine Class of 1984 30th Reunion</a>
+                                    <span class="date">November 8, 2014</span>
                                     <div class="img-wrapper">
-                                        <img src="https://farm6.staticflickr.com/5034/13927655930_8d57b29ed7_b.jpg" alt="School of Medicine Class of '88 Reunion">
-                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                        <img src="https://farm9.staticflickr.com/8132/15734434156_3713ec50d9_b.jpg" alt="School of Dental Medicine Class of 1984 30th Reunion">
+                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157649230446005" target="_blank">View Photos</a></div>
                                     </div>
                                 </div>
                                 <div class="border-box one-third past-reunion">
-                                    <a class="title" href="#">School of Medicine Class of '99 Reunion</a>
-                                    <span class="date">October 19-20, 2013</span>
+                                    <a class="title" href="https://www.flickr.com/photos/sbuadvancement/albums/72157644008023503">School of Dental Medicine Greater Long Island Dental Meeting Alumni Reception</a>
+                                    <span class="date">April 8, 2014</span>
                                     <div class="img-wrapper">
-                                        <img src="https://farm4.staticflickr.com/3808/10591048035_ec46c094e4_b.jpg" alt="">
-                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="#" target="_blank">View Photos</a></div>
+                                        <img src="https://farm4.staticflickr.com/3727/13875388803_429025a8f7_b.jpg" alt="School of Dental Medicine Greater Long Island Dental Meeting Alumni Reception">
+                                        <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/albums/72157644008023503" target="_blank">View Photos</a></div>
                                     </div>
                                 </div>
                             </div>
-                            -->
                         </div>
                         <div class="whole clearfix center-wrapper section-border-top margin-top">
                             <p>Want to volunteer to plan your own class reunion?</p>

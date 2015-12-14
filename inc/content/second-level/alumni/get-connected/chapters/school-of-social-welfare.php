@@ -390,7 +390,7 @@
                             </div>
                             
                             <div class="border-box clearfix whole center-wrapper">
-                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions">View all past reunions</a>
+                                <a class="is-trigger sbu-outline-button sbu-outline-button--red continue-reading-trigger" href="#more-reunions" data-target="#more-reunions">View all past reunions</a>
                             </div>
                             
                             <div id="more-reunions" class="continue-reading-target hide-accessible">
