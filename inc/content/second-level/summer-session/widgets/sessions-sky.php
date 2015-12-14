@@ -6,22 +6,22 @@
     </video>
     <div class="border-box no-pad-wrapper clearfix session-dates-wrapper">
         <h4>Summer Session Dates</h4>
-        <h5>Registration begins April 6</h5>
+        <h5>Registration begins April 4</h5>
         <p>
             <strong>Summer Session 1</strong>
-            <em>May 26 - July 2, 2015</em>
+            <em>May 31 - July 9, 2016</em>
         </p>
         <p>
             <strong>Summer Session 2</strong>
-            <em>July 6 - August 15, 2015</em>
+            <em>July 11 - August 20, 2016</em>
         </p>
         <p class="session">
             <strong>Session 1 Extended</strong>
-            <em>May 26 - July 18, 2015</em>
+            <em>May 31 - July 23, 2016</em>
         </p>
         <p class="session">
             <strong>Session 2 Extended</strong>
-            <em>June 29 - August 15, 2015</em>
+            <em>June 27 - August 20, 2016</em>
         </p>
     </div>
 </section>
