@@ -13,7 +13,7 @@
             	</a>
             </li>
 			<li class="clearfix<?php if($sub_nav_selected_tab==2) echo(' selected'); ?>">
-            	<a href="summer-session/calendar" class="clearfix">
+            	<a href="summer-session/calendar" class="clearfix" target="_blank">
             		<span class="label clearfix">Calendar</span>
             	</a>
             </li>
