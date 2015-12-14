@@ -153,12 +153,12 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Thomas Grandville</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Thomas Grandville (2011)</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Thomas Grandville</strong><br />
+                                                <strong>Thomas Grandville (2011)</strong><br />
                                                 President<br />
                                             </p>
                                         </div>
