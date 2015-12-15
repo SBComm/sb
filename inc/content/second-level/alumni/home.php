@@ -87,7 +87,7 @@
                             $end = 6;
                             include($path . $file);
                         ?>
-                        <a href="http://stonybrook.edu/happenings/alumni/" class="star-before" target="_blank">Read SB Matters</a>
+                        <a href="http://stonybrook.edu/happenings/alumni/" class="star-before" target="_blank">Read More News</a>
                     </div>
 
                     <!--
