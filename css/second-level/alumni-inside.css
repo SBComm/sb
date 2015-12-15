@@ -138,6 +138,62 @@ section.full-width-banner-image {
         background-position: 50% 40%;
     }
 
+    .cob .inside-header {
+        background-image: url("../../img/alumni/chapters/business-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .wdc .inside-header {
+        background-image: url("../../img/alumni/chapters/dc-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .founders .inside-header {
+        background-image: url("../../img/alumni/chapters/founders-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .som .inside-header {
+        background-image: url("../../img/alumni/chapters/medicine-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .ca .inside-header {
+        background-image: url("../../img/alumni/chapters/northern-ca-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .nj .inside-header {
+        background-image: url("../../img/alumni/chapters/new-jersey-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .nyc .inside-header {
+        background-image: url("../../img/alumni/chapters/nyc-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .ne .inside-header {
+        background-image: url("../../img/alumni/chapters/new-england-2000.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
 /* Inside content - custom serif headers */
 
 .inside-content h3.serif {
