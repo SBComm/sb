@@ -24,6 +24,8 @@
     		$page_cat        = 'sub'; // for site tagline logo container
 			$second_level    = 'alumni';
 
+		    $inside_page = true; //pulling inside styles in
+
 			$keywords        = $alumni_keywords;
 	        $page_title      = 'Stony Brook University Alumni';
 	        $page_title_sub  = 'Alumni';

@@ -147,9 +147,26 @@
     ?>
 
     <?php
+        $file = "widgets/sb-matters-promo.php";
+        include($path . $file);
+    ?>
+
+    <?php
         $file = "widgets/alumni/alumni-social.php";
         include($path . $file);
     ?>
+
+    <?php
+        $file = "widgets/alumni/alumni-update-your-info.php";
+        include($path . $file);
+    ?>
+
+    <div class="get-perks">
+        <?php
+            $file = "widgets/alumni/alumni-benefits-buttons-on-black-rays.php";
+            include($path . $file);
+        ?>
+    </div>
 
     <?php
         $file = "widgets/alumni/alumni-partners.php";
