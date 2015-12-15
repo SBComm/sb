@@ -1,4 +1,4 @@
-<article class="get-connected alumni-chapter hsc-alums inside-page">
+<article class="get-connected alumni-chapter hsc-alums inside-page som">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
             <h2><a href="alumni/chapters/hsc-alums">HSC Alums</a></h2>
@@ -197,20 +197,6 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Rachel Boykan, MD (2002)</span>
-                                    </div>
-                                    <div class="content clearfix hide-accessible">
-                                        <div class="content-wrap">
-                                            <p>
-                                                <strong>Rachel Boykan, MD (2002)</strong><br />
-                                                Faculty Representative from Stony Brook University Hospital<br />
-                                                <a class="email-link" href="mailto:rachel.boykan@stonybrookmedicine.edu">rachel.boykan@stonybrookmedicine.edu</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="tab">
                                         <span class="label"><i class="fa fa-plus-circle"></i>Elise Belilos, MD (1986)</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
@@ -271,6 +257,20 @@
                                             <p>
                                                 <strong>Diane Horowitz, MD (2004)</strong><br />
                                                 <a class="email-link" href="mailto:dhorowitz@nshs.edu">dhorowitz@nshs.edu</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tab">
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Jason Kim, MD (2003)</span>
+                                    </div>
+                                    <div class="content clearfix hide-accessible">
+                                        <div class="content-wrap">
+                                            <p>
+                                                <strong>Jason Kim, MD (2003)</strong><br />
+                                                Faculty Representative from Stony Brook University Hospital<br />
+                                                <a class="email-link" href="mailto:jason.kim@stonybrookmedicine.edu">jason.kim@stonybrookmedicine.edu</a>
                                             </p>
                                         </div>
                                     </div>
@@ -407,26 +407,13 @@
                                 </div>
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Glenn Sterling, MD (1988)</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Patrice Vorwerk, MD (1986)</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
-                                                <strong>Glenn Sterling, MD (1988)</strong><br />
-                                                <a class="email-link" href="mailto:westonderm@gmail.com">westonderm@gmail.com</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Patric Vorwerk, MD (1986)</span>
-                                    </div>
-                                    <div class="content clearfix hide-accessible">
-                                        <div class="content-wrap">
-                                            <p>
-                                                <strong>Patric Vorwerk, MD (1986)</strong><br />
-                                                <a class="email-link" href="mailto:patricvbbb@aol.com">patricvbbb@aol.com</a>
+                                                <strong>Patrice Vorwerk, MD (1986)</strong><br />
+                                                <a class="email-link" href="mailto:patricevbbb@aol.com">patricevbbb@aol.com</a>
                                             </p>
                                         </div>
                                     </div>
@@ -436,13 +423,13 @@
                             <div class="drop-accordion drop-accordion-1 clearfix">
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Samantha Palmaccio (2015)</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Hollisa Rosa (2015)</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
                                                 <!--<img class="inline-with-copy" src="img/alumni/daa/bernstein.jpg" alt="Portrait of David Bernstein" />-->
-                                                <strong>Samantha Palmaccio (2015)</strong><br />
+                                                <strong>Hollisa Rosa (2015)</strong><br />
                                                 Student Representative
                                             </p>
                                         </div>
@@ -522,7 +509,7 @@
                             <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-Scholarship-Endowment-Fund" target="_blank">SOM Alumni Scholarship Endowment Fund</a>: Need and merit-based scholarships are awarded with the dividends earned from the endowment</p>
                             <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-Fund" target="_blank">SOM Alumni Fund</a>: Funding is awarded to the alumni board to support educational initiatives that benefit the School of Medicine and its students</p>
                             <p><a href="http://alumniandfriends.stonybrook.edu/Alumni-International-Medicine-Award-Fund" target="_blank">SOM Alumni International Medicine Award Fund</a>: Funding is awarded to student volunteers traveling on International Medical Missions to underdeveloped countries</p>
-                            <p><a href="https://alumniandfriends.stonybrook.edu/main-site/external/external---school-of-medicine-stethoscope-drive-donation-form   " target="_blank">Stethoscope Drive Fund</a>: This fund supports the sponsorship of a personalized 3M Littman Cardiology III stethoscope for an incoming medical student</p>
+                            <p><a href="https://alumniandfriends.stonybrook.edu/main-site/external/external---school-of-medicine-stethoscope-drive-donation-form" target="_blank">Stethoscope Drive Fund</a>: This fund supports the sponsorship of a personalized 3M Littman Cardiology III stethoscope for an incoming medical student</p>
                         </div>
                     </div>
                     <div class="border-box whole clearfix past-reunions">

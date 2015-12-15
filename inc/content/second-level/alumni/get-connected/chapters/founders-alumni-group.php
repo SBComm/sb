@@ -1,4 +1,4 @@
-<article class="get-connected alumni-chapter">
+<article class="get-connected alumni-chapter founders">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
             <h2><a href="alumni/chapters">Chapters</a></h2>
