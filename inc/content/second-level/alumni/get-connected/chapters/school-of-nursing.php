@@ -1,4 +1,4 @@
-<article class="get-connected alumni-chapter hsc-alums inside-page">
+<article class="get-connected alumni-chapter hsc-alums inside-page hsc">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
             <h2><a href="alumni/chapters/hsc-alums">HSC Alums</a></h2>
@@ -6,15 +6,8 @@
     </section>
     
     <section class="clearfix inside-content main-inside-content white-background">
-        <div class="border-box wrapper clearfix">
-            <?php
-                $selected_sub_nav = "school-of-nursing";
-                $file = "widgets/alumni/alumni-hsc-buttons.php";
-                include($path . $file);
-            ?>
-        </div>
         <div class="border-box whole clearfix">
-            <h3 class="serif">School of <span>Nursing</span> Alumni Chapter</h3>
+            <h3 class="serif">School <em>of</em> <span>Nursing</span> <br />Alumni Chapter</h3>
         </div>
         <div class="border-box wrapper clearfix">
             <div class="content">
@@ -124,7 +117,7 @@
                         -->
                     </div>
                     <div class="border-box whole clearfix section-border-top">
-                        <div class="border-box one-half padding-box">
+                        <div class="border-box one-half padding-box equal-height-col-desktop">
                             <h4>School of Nursing Alumni Board</h4>
                             <h5 class="on-red">Board Members</h5>
                             <div class="drop-accordion drop-accordion-1 clearfix">
@@ -514,7 +507,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="border-box one-half padding-box news-feature">
+                        <div class="border-box one-half padding-box news-feature equal-height-col-desktop">
                             <div id="host-program" class="clearfix host">
                                 <h4>School of Nursing Alumni Mentoring Program</h4>
                                 <p>Members of the School of Nursing Alumni Board will mentor Stony Brook School of Nursing recent graduates (graduates of the last five years) as part of the School of Nursing Alumni Mentoring Program. The volunteer alumni mentors are 'assigned' a mentee, who has been selected for the program, in order to provide meaningful support, increase the grad's knowledge of the occupation and ease their transition from nursing school to career.</p>
@@ -529,7 +522,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border-box whole clearfix section-border-top give-back">
+                    <div class="border-box whole clearfix section-border-top give-back margin-top">
                         <div class="one-third">
                             <img src="https://farm8.staticflickr.com/7087/7261976022_e0c46d6730_z.jpg" alt="Group Shot of Nursing Alumni" />
                         </div>
@@ -644,13 +637,23 @@
     <section class="clearfix inside-content main-inside-content chapters-nav-dropdown">
         <div class="border-box wrapper">
             <div class="content">
-            <h4>Explore All Chapters &amp; Groups</h4>
+            <h3>Explore All Chapters &amp; Groups</h3>
             <?php
                 $selected_sub_nav = "school-of-nursing";
                 $file = "alumni/get-connected/chapters-nav-dropdown.php";
                 include($path . $content . $secLv . $file);
             ?>
             </div>
+        </div>
+    </section>
+
+    <section class="clearfix inside-content main-inside-content white-background">
+        <div class="border-box wrapper clearfix">
+            <?php
+                $selected_sub_nav = "school-of-nursing";
+                $file = "widgets/alumni/alumni-hsc-buttons.php";
+                include($path . $file);
+            ?>
         </div>
     </section>
 

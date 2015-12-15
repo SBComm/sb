@@ -2173,7 +2173,7 @@ body {
             bottom: 6px;
             right: 12px;
             font-size: 9em;
-            opacity: .2;
+            opacity: 0;
         }
 
         .photo-boxes .item:hover:after {
@@ -2466,7 +2466,7 @@ body {
             margin: 0 2%;
             background: #fff;
             border: 2px solid #900;
-            border-radius: 4px;
+            border-radius: 7px;
             padding: 6px;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
@@ -4117,6 +4117,7 @@ body {
             padding: 6px 0 0;
             font-size: 1.8em;
             margin: 0 0 16px;
+            line-height: 1.3em;
         }
 
         .inside-content h5 {
@@ -4811,15 +4812,17 @@ footer.site-footer .social .small-button:after {
 
     .social-sidebar {
         margin: 15px 0 10px;
+        text-align: center;
     }
 
     .social-sidebar a {
         width: 18%;
         margin: 0 1% 10px;
-        float: left;
+        float: none;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+        display: inline-block;
     }
 
     .small-title-2 {
@@ -4941,7 +4944,7 @@ footer.site-footer .social .small-button:after {
     }
     
     h2.rule-header-white-on-black .text {
-        padding: 20px;
+        padding: 25px 20px;
         letter-spacing: .0175em;
     }
     
@@ -5215,7 +5218,7 @@ footer.site-footer .social .small-button:after {
     }
     
     h2.rule-header-white-on-black:after {
-        bottom: 40px;
+        bottom: 48px;
     }
 
     .event-gallery {
@@ -5301,6 +5304,8 @@ footer.site-footer .social .small-button:after {
         border: 2px solid #fff;
         border-right: 0 none;
         box-shadow: 0 0 5px #333;
+        opacity: .875;
+        text-align: left;
     }
 
     .social-sidebar a {
@@ -5314,6 +5319,7 @@ footer.site-footer .social .small-button:after {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+        display: block;
     }
 
     .social-sidebar a.print {

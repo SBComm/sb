@@ -143,6 +143,10 @@ img.inline-with-copy {
 }
 
 
+section.social {
+    padding-bottom: 50px;
+}
+
 section.social .social-posts {
     display: block;
     width: 100%;
@@ -397,7 +401,7 @@ footer.site-footer .img-col + .link-col {
         font-weight: 400;
         color: #ddd;
         font-size: 1.3em;
-        padding: 5px 4% 0;
+        padding: 4px 4% 0;
         border-right: 0 none;
         border-left: 1px solid #ddd;
         text-align: center;
@@ -405,7 +409,7 @@ footer.site-footer .img-col + .link-col {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        min-height: 120px;
+        min-height: 150px;
     }
 
     .mega-img {
@@ -455,7 +459,7 @@ footer.site-footer .img-col + .link-col {
     }
 
     .site-carousel h1 {
-        font-size: 3.6em;
+        font-size: 3.2em;
         margin: 40px auto;
     }
 

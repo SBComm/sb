@@ -1,4 +1,4 @@
-<article class="get-connected alumni-chapter hsc-alums inside-page som">
+<article class="get-connected alumni-chapter hsc-alums inside-page som hsc">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
             <h2><a href="alumni/chapters/hsc-alums">HSC Alums</a></h2>
@@ -6,15 +6,8 @@
     </section>
     
     <section class="clearfix inside-content main-inside-content white-background">
-        <div class="border-box wrapper clearfix">
-            <?php
-                $selected_sub_nav = "school-of-medicine";
-                $file = "widgets/alumni/alumni-hsc-buttons.php";
-                include($path . $file);
-            ?>
-        </div>
         <div class="border-box whole clearfix">
-            <h3 class="serif">School of <span>Medicine</span> Alumni Chapter</h3>
+            <h3 class="serif">School <em>of</em> <span>Medicine</span> <br />Alumni Chapter</h3>
         </div>
         <div class="border-box wrapper clearfix">
             <div class="content">
@@ -122,7 +115,7 @@
                         -->
                     </div>
                     <div class="border-box whole clearfix section-border-top">
-                        <div class="border-box one-half padding-box">
+                        <div class="border-box one-half padding-box equal-height-col-desktop">
                             <h4>School of Medicine Alumni Board</h4>
                             <h5 class="on-red">Board Members</h5>
                             <div class="drop-accordion drop-accordion-1 clearfix">
@@ -479,7 +472,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="host-program" class="border-box one-half padding-box news-feature">
+                        <div id="host-program" class="border-box one-half padding-box news-feature equal-height-col-desktop">
                             <div class="clearfix host">
                                 <h4>"Help Our Students Travel" Program</h4>
                                 <p>The School of Medicine Alumni Chapter launched the HOST Program to connect Stony Brook Medical Year IV students who are interviewing for their residencies and current School of Medicine students who are seeking advice with School of Medicine alumni who are willing to volunteer their time and share their experiences and hospitality.</p>
@@ -498,7 +491,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="scholarship" class="border-box whole clearfix section-border-top give-back">
+                    <div id="scholarship" class="border-box whole clearfix section-border-top give-back margin-top">
                         <div class="one-third">
                             <img src="https://farm1.staticflickr.com/698/20854467501_693e391580_z.jpg" alt="Group Shot of Medicine Students" />
                         </div>
@@ -625,13 +618,23 @@
     <section class="clearfix inside-content main-inside-content chapters-nav-dropdown">
         <div class="border-box wrapper">
             <div class="content">
-            <h4>Explore All Chapters &amp; Groups</h4>
+            <h3>Explore All Chapters &amp; Groups</h3>
             <?php
                 $selected_sub_nav = "school-of-medicine";
                 $file = "alumni/get-connected/chapters-nav-dropdown.php";
                 include($path . $content . $secLv . $file);
             ?>
             </div>
+        </div>
+    </section>
+        
+    <section class="clearfix inside-content main-inside-content white-background">
+        <div class="border-box wrapper clearfix">
+            <?php
+                $selected_sub_nav = "school-of-medicine";
+                $file = "widgets/alumni/alumni-hsc-buttons.php";
+                include($path . $file);
+            ?>
         </div>
     </section>
 

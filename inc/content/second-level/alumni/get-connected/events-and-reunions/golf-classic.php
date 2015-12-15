@@ -19,7 +19,7 @@
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/annual-report-2015" target="_blank">View Annual Report</a>
                     </div>
                 </div>
-                <div class="border-box whole clearfix pad-top">
+                <div class="border-box whole clearfix pad-top section-border-top">
                     <div class="two-third left-col-content">
                         <h4>Save the Date!</h4>
                         <p>The 15th Annual Scholarship Golf Classic will take place <strong>Monday, June 20, 2016</strong>.</p>
@@ -27,12 +27,13 @@
                         <p>For more information about the upcoming Scholarship Golf Classic, please call (631) 632-4466.</p>
                     </div>
                     <div class="one-third">
-                        <img src="img/alumni/misc/golf.jpg" alt="Four golfers posing for a shot" />
+                        <img class="pad-bottom" src="img/alumni/misc/golf.jpg" alt="Four golfers posing for a shot" />
                     </div>
                 </div>
-                <div class="border-box whole clearfix pad-top">
+                <div class="border-box whole clearfix pad-top section-border-top">
                     <h4>Volunteer</h4>
                     <p>We need your help to make next year’s event a success! <a href="alumni/form/volunteer/">Volunteer today</a> for the 2016 Golf Committee.</p>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/volunteer">Volunteer</a>
                 </div>
             </div>
         </div>

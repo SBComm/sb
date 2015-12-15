@@ -20,7 +20,7 @@
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://fromyouflowers.com/stony" target="_blank">View flowers</a>
                     </div>
                 </div>-->
-                <div class="border-box whole clearfix section-border-top">
+                <div class="border-box whole clearfix">
                     <div class="one-third">
                         <img src="img/alumni/perks/plum.jpg" alt="Save big on Broadway and much more" />
                     </div>

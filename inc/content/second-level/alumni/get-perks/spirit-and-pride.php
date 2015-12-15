@@ -27,7 +27,7 @@
                     </div>
                     <div class="two-third">
                         <h4>Where in the World is Wolfie?</h4>
-                        <p>Wherever you go – be sure to bring Wolfie with you! Participate in the "Where in the World is Wolfie?"" campaign on Facebook!</p>
+                        <p>Wherever you go – be sure to bring Wolfie with you! Participate in the "Where in the World is Wolfie?" campaign on Facebook!</p>
                         <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://www.facebook.com/WhereintheWorldisWolfie" target="_blank">Get more info</a>
                     </div>
                 </div>

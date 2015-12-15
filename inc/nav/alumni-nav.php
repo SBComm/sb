@@ -92,7 +92,7 @@
 			Get connected with fellow alums at one of our networking events, reunions, or career workshops!
 		</div>
 		<div class="mega-img">
-			<img src="img/alumni/nav/get-connected-diag.png" />
+			<img src="img/alumni/nav/get-connected.jpg" />
 		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
@@ -128,7 +128,7 @@
 			Learn how your alma mater is making a global impact as alumni are changing our world for the better.
 		</div>
 		<div class="mega-img">
-			<img src="img/alumni/nav/get-informed-2-diag.png" />
+			<img src="img/alumni/nav/get-informed-2.jpg" />
 		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
@@ -169,7 +169,7 @@
 			Browse the wide selection of exclusive perks and discounts that are available to you as a Stony Brook alum!
 		</div>
 		<div class="mega-img">
-			<img src="img/alumni/nav/get-perks-diag.png" />
+			<img src="img/alumni/nav/get-perks.jpg" />
 		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
@@ -200,7 +200,7 @@
 			Join the growing community of alumni who are making a difference at Stony Brook.
 		</div>
 		<div class="mega-img">
-			<img src="img/alumni/nav/give-back-diag.png" />
+			<img src="img/alumni/nav/give-back.jpg" />
 		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">
@@ -246,7 +246,7 @@
 			We're here to help you maintain a lifelong and meaningful relationship with Stony Brook University.
 		</div>
 		<div class="mega-img">
-			<img src="img/alumni/nav/stay-in-touch-diag.png" />
+			<img src="img/alumni/nav/stay-in-touch.jpg" />
 		</div>
 	</div>
 	<div class="close-drop-nav close-the-drop-nav">

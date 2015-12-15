@@ -692,6 +692,18 @@
 	text-shadow: none;
 }
 
+.sub-nav.big-n-bold a {
+	font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 16px;
+	padding: 14px 5px 14px 15px;
+}
+
+.sub-nav.big-n-bold .main-nav-list a span:before {
+	margin-top: 2px;
+}
+
 .site-nav.default a:hover,
 .site-nav.default .selected a,
 .site-nav.default.default ul a.selected,

@@ -19,6 +19,11 @@
         margin-top: 0;
     }
 
+    .hsc .chapters-nav-dropdown {
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+
     .alumni-chapter .event-gallery .sbu-outline-button {
         display: inline-block;
         margin: 0 0 15px;
@@ -27,6 +32,19 @@
     .social-sidebar .sidebar-wrapper {
         padding-top: 15px;
     }
+}
+
+.board-members .three-quarter {
+    width: 55%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.board-members .one-quarter img {
+    width: 30%;
+    margin-right: 5%;
+    float: left;
 }
 
 .alumni-chapter .owl-next,
@@ -59,6 +77,10 @@
 .alumni-chapter .event-gallery .carousel-wrapper a:hover img {
     outline: 5px solid #900;
     margin: 5px 5%;
+}
+
+.hsc .inside-header {
+    margin-bottom: 20px;
 }
 
 section.inside-content a.sbu-outline-button--on-red {
@@ -237,6 +259,15 @@ section.full-width-banner-image {
 .contact-page .inside-content h3.serif span,
 .get-perks .inside-content h3.serif.line-header span {
     color: #900;
+}
+
+.hsc-alums .inside-content h3.serif em,
+.get-perks .inside-content h3.serif em,
+.give-back-page .inside-content h3.serif em,
+.contact-page .inside-content h3.serif em,
+.get-perks .inside-content h3.serif.line-header em {
+    font-family:'CenturyExpandedLTW01-It';
+    font-style: normal;
 }
 
 .hsc-alums .inline-with-copy {
@@ -720,6 +751,7 @@ a.sbu-outline-button + a.sbu-outline-button {
     border: 1px solid transparent;
     margin: 0;
     position: relative;
+    font-size: .95em;
 }
 
 .sidebar-star-nav li a:hover {
@@ -728,12 +760,19 @@ a.sbu-outline-button + a.sbu-outline-button {
 }
 
 .sidebar-star-nav li.selected a {
-    background: #900;
+    background: #f7f7f7;
+    border: 1px solid #DADADA;
+    color: #000;
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+/*.sidebar-star-nav li.selected a {
+    background: #DADADA;
     border: 1px solid transparent;
-    color: #fff;
-    padding: 6px 8px;
-    height: 39px;
+    color: #000;
+    padding: 6px;
     width: 92%;
+    height: 39px;
 }
 
 .sidebar-star-nav li.selected a:after {
@@ -744,9 +783,9 @@ a.sbu-outline-button + a.sbu-outline-button {
     right: -19px;
     border-top: 19px solid transparent;
     border-bottom: 19px solid transparent;
-    border-left: 19px solid #900;
+    border-left: 19px solid #eee;
     top: 0;
-}
+}*/
 
 .sidebar-star-nav a.coming-soon:after {
     content: "Coming Soon!";
@@ -1255,11 +1294,15 @@ a.authors__book__cta {
     border-top: 1px solid #900;
 }
 
-.past-reunion,
 .section-border-bottom {
     border-bottom: 1px solid #900;
     padding-bottom: 2em;
     margin-bottom: 1.6em;
+}
+
+.past-reunion {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 .past-reunion .title {
@@ -1374,9 +1417,7 @@ section.explore-benefits h3 {
 
 
 
-.board-members .one-quarter img {
-    width: 100%;
-}
+
 
 
 
@@ -1537,6 +1578,10 @@ section.explore-benefits h3 {
 
 @media only screen and (min-width: 960px) {
 
+    article.inside-page {
+        padding-bottom: 30px;
+    }
+
     .chapters-nav-dropdown {
         display: none;
     }
@@ -1626,7 +1671,7 @@ section.explore-benefits h3 {
         display: block;
         width: 53%;
         max-width: 780px;
-        right: 3%;
+        right: 7%;
     }
 
     section.forty {
@@ -1764,6 +1809,10 @@ section.explore-benefits h3 {
         padding: 0 0 0 15px;
     }
 
+    .alumni-chapter .inside-header {
+        margin-bottom: 40px;
+    }
+
     .hsc-alums .inline-with-copy {
         margin: .5em 1.6em 1.25em .25em;
     }
@@ -1896,6 +1945,16 @@ section.explore-benefits h3 {
         margin: 0 0 0 2%;
     }
 
+    .board-members .one-quarter img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .board-members .three-quarter {
+        width: 75%;
+        padding: 0 25px;
+    }
+
 }
 
 @media only screen and (min-width: 1022px) {
@@ -1916,7 +1975,7 @@ section.explore-benefits h3 {
     }
 
     .reunions img {
-        right: 6%;
+        right: 9%;
     }
 }
 

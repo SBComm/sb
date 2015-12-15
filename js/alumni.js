@@ -50,4 +50,21 @@ var initAlumni = function() {
 		toggleAccessible($text);
 	});
 
+	if($('.equal-height-col-desktop').length) {
+		$(window).load(function() {
+			if($(window).width()>=1022) {
+				equalheight('.equal-height-col-desktop');
+			} else {
+				$('.equal-height-col-desktop').css('height','auto');
+			}
+	   	});
+	   	$(window).resize(function(){
+	   		if($(window).width()>=1022) {
+				equalheight('.equal-height-col-desktop');
+			} else {
+				$('.equal-height-col-desktop').css('height','auto');
+			}
+	   	});
+	}
+
 };

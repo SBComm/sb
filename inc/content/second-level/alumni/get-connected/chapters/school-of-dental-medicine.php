@@ -1,4 +1,4 @@
-<article class="get-connected alumni-chapter hsc-alums inside-page">
+<article class="get-connected alumni-chapter hsc-alums inside-page hsc">
     <section class="clearfix center-rule-header events-header inside-header">
         <div class="border-box">
             <h2><a href="alumni/chapters/hsc-alums">HSC Alums</a></h2>
@@ -6,15 +6,8 @@
     </section>
     
     <section class="clearfix inside-content main-inside-content white-background">
-        <div class="border-box wrapper clearfix">
-            <?php
-                $selected_sub_nav = "school-of-dental-medicine";
-                $file = "widgets/alumni/alumni-hsc-buttons.php";
-                include($path . $file);
-            ?>
-        </div>
         <div class="border-box whole clearfix">
-            <h3 class="serif">School of <span>Dental Medicine</span> Alumni Chapter</h3>
+            <h3 class="serif">School <em>of</em> <span>Dental Medicine</span> <br />Alumni Chapter</h3>
         </div>
         <div class="border-box wrapper clearfix">
             <div class="content">
@@ -134,7 +127,7 @@
                         </div>
                     </div>
                     <div class="border-box whole clearfix section-border-top pad-bottom">
-                        <div class="border-box one-half padding-box">
+                        <div class="border-box one-half padding-box equal-height-col-desktop">
                             <h4>School of Medicine Alumni Board</h4>
                             <h5 class="on-red">Board Members</h5>
                             <div class="drop-accordion drop-accordion-1 clearfix">
@@ -432,7 +425,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="border-box one-half padding-box news-feature">
+                        <div class="border-box one-half padding-box news-feature equal-height-col-desktop">
                             <div class="clearfix host">
                                 <h4>School of Dental Medicine Mentoring Program</h4>
                                 <p>Stony Brook School of Dental Medicine alumni have served as mentors to dental students throughout the years. It is the goal of the Alumni Chapter and the Office of Strategic Planning and External Affairs to introduce a formal mentoring program soon.</p>
@@ -446,7 +439,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border-box whole clearfix section-border-top give-back">
+                    <div class="border-box whole clearfix section-border-top give-back margin-top">
                         <div class="one-third">
                             <img src="https://farm1.staticflickr.com/423/19874352258_d437eb9302_z.jpg" alt="Group Shot of Alumni" />
                         </div>
@@ -578,13 +571,23 @@
     <section class="clearfix inside-content main-inside-content chapters-nav-dropdown">
         <div class="border-box wrapper">
             <div class="content">
-            <h4>Explore All Chapters &amp; Groups</h4>
+            <h3>Explore All Chapters &amp; Groups</h3>
             <?php
                 $selected_sub_nav = "school-of-dental-medicine";
                 $file = "alumni/get-connected/chapters-nav-dropdown.php";
                 include($path . $content . $secLv . $file);
             ?>
             </div>
+        </div>
+    </section>
+
+    <section class="clearfix inside-content main-inside-content white-background">
+        <div class="border-box wrapper clearfix">
+            <?php
+                $selected_sub_nav = "school-of-dental-medicine";
+                $file = "widgets/alumni/alumni-hsc-buttons.php";
+                include($path . $file);
+            ?>
         </div>
     </section>
 
