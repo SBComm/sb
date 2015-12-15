@@ -23,8 +23,8 @@
                 </p>
             </div>
             <div class="content">
-                <p><em>Enrollment begins April 6, 2015 for current Seniors.</em></p>
-                <p><em>Open Enrollment for all other students begins April 7, 2015.</em></p>
+                <p><em>Enrollment begins April 4, 2016 for current Seniors.</em></p>
+                <p><em>Open Enrollment for all other students begins April 6, 2016.</em></p>
             </div>
             <h3>Summer Session Locations</h3>
             <p>Summer Sessions courses are offered in a variety of formats: on-campus at Stony Brook, at our Manhattan location (Park Avenue South between 27th and 28th Streets), at Stony Brook Southampton, and online. There are also opportunities for study abroad, independent study, and academic internships.</p>
