@@ -41,10 +41,10 @@ var initAlumni = function() {
 		var dataTarget = $(this).attr('data-target');
 		console.log(dataTarget);
 		var $text;
-		if(dataTarget!='') {
-			$text = $(dataTarget);
-		} else {
+		if(dataTarget=='' || typeof(dataTarget)==='undefined') {
 			$text = $(this).parent().find('.continue-reading-target');
+		} else {
+			$text = $(dataTarget);
 		}
 		$(this).remove();
 		toggleAccessible($text);
