@@ -102,11 +102,11 @@
                         </div>
                         <span class="blurb"><em>Ruchi</em> interned at Fox News as a health reporter</span>
                     </a>
-                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=UbxNSOrBT0c" data-lightbox-gallery="student-video-gallery">
-                        <div class="student-wrapper neha clearfix">
-                            <img class="student" src="img/students/profile/Circle-Neha-BW.jpg" />
+                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=ACRpdj5wjQc" data-lightbox-gallery="student-video-gallery">
+                        <div class="student-wrapper bianca clearfix">
+                            <img class="student" src="img/students/profile/Circle-Bianca-BW.jpg" />
                         </div>
-                        <span class="blurb"><em>Neha</em> is Stony Brook's first Gates Cambridge scholar</span>
+                        <span class="blurb"><em>Bianca</em> is an orientation leader and C-CERT volunteer</span>
                     </a>
                     <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=73LYudIuh7U" data-lightbox-gallery="student-video-gallery">
                         <div class="student-wrapper jamie clearfix">
@@ -126,11 +126,11 @@
                         </div>
                         <span class="blurb"><em>Alejandro</em> is the midfielder for the Seawolves' soccer team</span>
                     </a>
-                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=Z8MhZJqdEKc" data-lightbox-gallery="student-video-gallery">
-                        <div class="student-wrapper cooper clearfix">
-                            <img class="student" src="img/students/profile/Circle-Cooper-BW.jpg" />
+                    <a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=MeRgA2AiXMs" data-lightbox-gallery="student-video-gallery">
+                        <div class="student-wrapper roger clearfix">
+                            <img class="student" src="img/students/profile/Circle-Roger-BW.jpg" />
                         </div>
-                        <span class="blurb"><em>Cooper</em> received a grant to spend his summer doing cancer research</span>
+                        <span class="blurb"><em>Roger</em> was president of the Student African-American Brotherhood</span>
                     </a>
                 </div>
                 <div class="owl-prev owl-prev-3" data-owl-id="the-carousel-3"><em class="fa fa-angle-left"></em></div>

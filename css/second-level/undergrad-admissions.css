@@ -415,6 +415,20 @@ section.discover-students {
     background-position: 0;
 }
 
+.discover-students .bianca {
+    background-image: url("../../img/students/profile/Circle-Bianca-Color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.discover-students .roger {
+    background-image: url("../../img/students/profile/Circle-Roger-Color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
 .discover-students img.student {
     display: block;
     width: 100%;
