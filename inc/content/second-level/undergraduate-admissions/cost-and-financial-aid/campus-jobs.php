@@ -34,7 +34,7 @@
                     <li>Earn money to help pay for educational expenses</li>
                     <li>Meet and network with new people outside the campus community</li>
                 </ul>
-                <p>You may be able to secure a position in your major department or in an area that is of special interest. Our <a class="external-link" href="http://career.stonybrook.edu/" target="_blank">Career Center</a>'s ZebraNet database enables our students to tap into immediate part-time job listings, internships and volunteer opportunities.</p>
+                <p>You may be able to secure a position in your major department or in an area that is of special interest. Our <a class="external-link" href="http://career.stonybrook.edu/" target="_blank">Career Center</a>'s Handshake database enables our students to tap into immediate part-time job listings, internships and volunteer opportunities.</p>
             </div>
             <div class="content clearfix">
                 <p>
