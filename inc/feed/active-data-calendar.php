@@ -48,20 +48,26 @@
             $rss_desc = str_replace("<![CDATA[","",$rss_desc);
             $rss_desc = str_replace("]]>","",$rss_desc);
 
-            $dateFormat = 'D, j M Y H:i:s O'; // Mon, 24 Aug 2015 04:00:00 GMT
+            //$dateFormat = 'D, j M Y H:i:s O'; // Mon, 24 Aug 2015 04:00:00 GMT
+            //$eventDate = DateTime::createFromFormat($dateFormat, $rss_datetime);
             
-            $eventDate = DateTime::createFromFormat($dateFormat, $rss_datetime);
+            $dateFormat = 'n/d/Y'; // 12/1/2015 04:00:00 GMT
+            $eventDate = DateTime::createFromFormat($dateFormat, $rss_readable_date);
 
             $eventMonth = $eventDate->format('M');
             $eventDay   = $eventDate->format('j');
             $eventYear  = $eventDate->format('Y');
 
             $eventWeekday  = $eventDate->format('l');
-            $eventHour     = $eventDate->format('g');
-            $eventMinute   = $eventDate->format('i');
-            $eventAMPM     = $eventDate->format('A');
+            //$eventHour     = $eventDate->format('g');
+            //$eventMinute   = $eventDate->format('i');
+            //$eventAMPM     = $eventDate->format('A');
 
-            $rss_output_desc = substr($rss_desc,0,80).'...';
+            $rss_output_desc = substr($rss_desc,0,140).'...';
+
+            //remove date from title via regex, e.g. Title (12/15/2015) --> Title
+            $date_pattern = "/\(([0-9])+\/([0-9])+\/([0-9])+\)/";
+            $rss_title = preg_replace($date_pattern,'',$rss_title);
 
 
             $todaysDate = DateTime::createFromFormat($dateFormat, date('Y-m-d 00:00:00'));
@@ -84,13 +90,14 @@
                 $html .= '</a>';
                 $html .= '<a class="event-details" href="'.$rss_url.'" title="'.$rss_title.'" target="_blank">';
                 $html .= '<span class="event-title aqua">'.$rss_title.'</span>';
-                $html .= '<span class="event-time">'.$eventWeekday.', '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
+                //$html .= '<span class="event-time">'.$eventWeekday.', '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
                 $html .= '<span class="event-desc">'.$rss_output_desc.'</span>';
                 $html .= '</a>';
                 $html .= '</li>';
                 $count--;
             }
-            /*            
+
+            /*
             $html .= 'dates: ' . $rss_dates[0];
             $html .= '<br />';
             $html .= 'rss_datetime: ' . $rss_datetime[0];
