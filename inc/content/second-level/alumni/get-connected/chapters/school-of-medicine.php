@@ -423,13 +423,13 @@
                             <div class="drop-accordion drop-accordion-1 clearfix">
                                 <div class="item">
                                     <div class="tab">
-                                        <span class="label"><i class="fa fa-plus-circle"></i>Hollisa Rosa (2015)</span>
+                                        <span class="label"><i class="fa fa-plus-circle"></i>Hollisa Rosa (2019)</span>
                                     </div>
                                     <div class="content clearfix hide-accessible">
                                         <div class="content-wrap">
                                             <p>
                                                 <!--<img class="inline-with-copy" src="img/alumni/daa/bernstein.jpg" alt="Portrait of David Bernstein" />-->
-                                                <strong>Hollisa Rosa (2015)</strong><br />
+                                                <strong>Hollisa Rosa (2019)</strong><br />
                                                 Student Representative
                                             </p>
                                         </div>
