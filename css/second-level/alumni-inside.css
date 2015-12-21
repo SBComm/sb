@@ -1578,10 +1578,6 @@ section.explore-benefits h3 {
 
 @media only screen and (min-width: 960px) {
 
-    article.inside-page {
-        padding-bottom: 30px;
-    }
-
     .chapters-nav-dropdown {
         display: none;
     }
