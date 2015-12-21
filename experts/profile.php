@@ -27,9 +27,9 @@
 			$keywords          = "Stony Brook University,Undergraduate Admissions,Admissions,Majors,Minors,Special Programs,Visiting,About,Transfer Office,Transfer,Young Scholars Program,Honors,University Scholars,Admitted,International,Open House,Tour,Scholarships";
 	        $page_title        = 'Experts at Stony Brook University, New York';
 	        $page_title_sub    = 'Newsroom';
-	        $page_title_full   = $page_title;
+	        $page_title_full = ucwords(str_replace("-"," ",$_GET["name"])) . ' | ' . $page_title;
 
-	        $og_title        = 'Stony Brook ' . $page_title_sub;
+	        $og_title        = $page_title_full;
 	        $og_description  = $page_description;
 	        $og_url          = 'experts';
 
