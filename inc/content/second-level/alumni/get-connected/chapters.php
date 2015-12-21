@@ -50,7 +50,7 @@
                 <a class="ambas" href="alumni/chapters/student-ambassador-alumni-network"><div class="label">Student Ambassador <span>Alumni Network</span></div></a>
                 <a class="public" href="alumni/chapters/public-policy-alumni-network"><div class="label">Public Policy <span>Alumni Network</span></div></a>
             </div>
-            <div class="content">
+            <div id="hsc" class="content">
                 <div class="border-box whole">
                     <h4>HSC Alums</h4>
                 </div>

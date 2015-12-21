@@ -15,7 +15,7 @@
                                         <h4><a href="alumni/events-and-reunions">Get Connected</a></h4>
                                         <a href="alumni/events-and-reunions">Events &amp; Reunions</a>
                                         <a href="alumni/chapters">Chapters</a>
-                                        <a href="alumni/hsc-alums">HSC Alums</a>
+                                        <a href="alumni/chapters#hsc">HSC Alums</a>
                                         <a href="alumni/students">Students</a>
                                         <a href="alumni/recent-grads">Recent Grads</a>
                                    </div>

@@ -72,7 +72,7 @@
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==3) echo('selected'); ?>" data-li-order="03">
-				<a href="alumni/hsc-alums" class="clearfix">
+				<a href="alumni/chapters#hsc" class="clearfix">
 					<span class="label clearfix">HSC Alums</span>
 				</a>
 			</li>
