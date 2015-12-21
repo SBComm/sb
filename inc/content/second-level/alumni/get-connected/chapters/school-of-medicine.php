@@ -539,10 +539,10 @@
 
                             <div id="more-reunions" class="continue-reading-target hide-accessible">
                                 <div class="border-box one-third past-reunion">
-                                    <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157659693936320">School of Medicine Class of ’90 Reunion Reception</a>
+                                    <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157659145642478">School of Medicine Class of ’90 Reunion Reception</a>
                                     <span class="date">October 17, 2015</span>
                                     <div class="img-wrapper">
-                                        <img src="https://farm6.staticflickr.com/624/21711861114_3f95d868fe_b.jpg" alt="School of Medicine Class of '90 Reunion">
+                                        <img src="https://farm6.staticflickr.com/5697/21994018906_249a4975aa_b.jpg" alt="School of Medicine Class of '90 Reunion">
                                         <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157659693936320" target="_blank">View Photos</a></div>
                                     </div>
                                 </div>
