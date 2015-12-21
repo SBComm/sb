@@ -54,7 +54,7 @@
             <div class="video-promo equal-height-col">
                 <div class="video-promo-wrapper">
                     <div class="videoWrapper">
-                        <iframe width="560" height="349" src="http://www.youtube.com/embed/hsx1Rs8Sgi0?controls=1&showinfo=1&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="349" src="http://www.youtube.com/embed/hsx1Rs8Sgi0?controls=1&amp;showinfo=1&amp;rel=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
