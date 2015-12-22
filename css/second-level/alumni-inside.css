@@ -964,6 +964,12 @@ section.calendar .black-opac-cover {
     padding: 40px 0;
 }
 
+section.calendar ul.calendar-items {
+    width: 100%;
+    float: none;
+    margin: 0;
+}
+
 .center-wrapper .sbu-outline-button {
     margin: 0 auto;
     width: 180px;
