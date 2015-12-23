@@ -31,7 +31,7 @@
 
 	        $og_title        = 'Stony Brook ' . $page_title;
 	        $og_description  = $page_description;
-	        $og_url          = 'alumni';
+	        $og_url          = $relative_page_path;
 
 		    $page_to_top_link = true;
 

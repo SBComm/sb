@@ -33,7 +33,7 @@
 
 	        $og_title        = $page_title_full;
 	        $og_description  = $alumni_page_description;
-	        $og_url          = 'alumni';
+	        $og_url          = $relative_page_path;
 
 		    $page_to_top_link = true;
 

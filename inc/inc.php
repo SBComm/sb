@@ -6,7 +6,7 @@
 
     if($_SERVER['SERVER_NAME'] == 'localhost') {
         $site          = 'sb'; //site folder inside the root dir
-        $css_base_url  = 'http://localhost:8888/sb/';
+        $http_root     = 'http://localhost:8888';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
 
         $is_local_environment = true;
@@ -17,7 +17,7 @@
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb';
-            $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb/';
+            $http_root     = 'http://mobile.cc.stonybrook.edu/development';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
@@ -25,7 +25,7 @@
             $is_local_environment = false; 
         } else {
             $site          = 'sb';
-            $css_base_url  = 'http://mobile.cc.stonybrook.edu/sb/';
+            $http_root     = 'http://mobile.cc.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_production_environment = true;
@@ -36,7 +36,14 @@
         $working_path_relative_start_location = "web/";
     }
 
+    $css_base_url  = $http_root . '/' . $site . '/';
+
     $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
+
+    $relative_page_path = $_SERVER['REQUEST_URI'];
+
+    $xslParams = new XSLTProcessor();
+    $xslParams->setParameter('', 'relative_page_path', $relative_page_path);
 
     $content     = "content/";
         $social  = "social/";
@@ -148,7 +155,7 @@
     date_default_timezone_set("America/New_York");
 
     /* Cache busting for newer asset files */
-    $filename_based_cache_busting = true;
+    $filename_based_cache_busting = false;
     include($path . 'includes/filename_based_cache_busting.php');
 
     /* debugger, see https://github.com/raveren/kint */
