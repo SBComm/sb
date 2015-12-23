@@ -86,16 +86,6 @@
         </div>
         <div class="content white-opac-cover clearfix">
             <div class="wrapper">
-                <!--<h5>Golf for a Cause</h5>
-                <p>Each June, the Alumni Association hosts its annual Scholarship Golf Classic at one of Long Island's finest courses. Proceeds go to scholarships for deserving Stony Brook University students who need your continued support now more than ever.</p>
-                <p>Thanks to our supporters, we raised more than $62,000 for student scholarships and awards at the 14th Annual Scholarship Golf Classic on June 22, 2015. View our sponsors, donors and participants in the 2015 Alumni Association Annual Report (link to Annual Report flipbook when it’s ready).</p>
-                <h5>Save the Date!</h5>
-                <p>The 15th Annual Scholarship Golf Classic will take place Monday, June 20, 2016.</p>
-                <p>Volunteer for the 2016 Committee today! We need your help to make next year’s event a success!</p>
-                <p>Your participation makes a big impact. Thank you!</p>
-                <a class="sbu-outline-button sbu-outline-button--light" href="#">Get Involved</a>
-                <a class="sbu-outline-button sbu-outline-button--light" href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml">Learn More</a>
-                <p>For more information about the upcoming Scholarship Golf Classic, please call (631) 632-4466.</p>-->
                 <p>Every June, the Alumni Association hosts its annual Scholarship Golf Classic at one of Long Island's finest courses. Proceeds go to scholarships for deserving Stony Brook University students who need your continued support now more than ever.</p>
             </div>
         </div>
