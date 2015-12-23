@@ -42,9 +42,6 @@
 
     $relative_page_path = $_SERVER['REQUEST_URI'];
 
-    $xslParams = new XSLTProcessor();
-    $xslParams->setParameter('', 'relative_page_path', $relative_page_path);
-
     $content     = "content/";
         $social  = "social/";
         $test    = "test/";
@@ -155,7 +152,7 @@
     date_default_timezone_set("America/New_York");
 
     /* Cache busting for newer asset files */
-    $filename_based_cache_busting = false;
+    $filename_based_cache_busting = true;
     include($path . 'includes/filename_based_cache_busting.php');
 
     /* debugger, see https://github.com/raveren/kint */
