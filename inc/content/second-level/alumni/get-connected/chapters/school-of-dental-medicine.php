@@ -122,7 +122,7 @@
                         </div>
                         <div class="whole clearfix">
                             <p>View the complete list of Distinguished Alumni and Outstanding Recent Graduate Award recipients, or nominate someone today.</p>
-                            <!--<a class="sbu-outline-button sbu-outline-button--red arrow-after" href="#" target="_blank">See all recipients</a>-->
+                            <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="downloads/pdf/alumni/2015-12-21-DAA-Recipients.pdf" target="_blank">See all recipients</a>
                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/form/dental-medicine-distinguished-alumni-awards-nomination" target="_blank">Nominate an alum</a>
                         </div>
                     </div>
