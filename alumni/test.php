@@ -112,7 +112,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni-test/get-connected/events-and-reunions/events-and-reunions.php";
+								$file = "alumni-test/get-connected/chapters/new-england-boston-alumni-chapter.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
