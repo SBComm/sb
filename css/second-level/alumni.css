@@ -212,8 +212,9 @@ section.activities-and-calendar {
     font-family: 'TradeGothicW01-BoldCn20 675334';
 }
 
-.activities-and-calendar-featured ul.calendar-items {
+.inside-page .activities-and-calendar-featured ul.calendar-items {
     border-bottom: 1px solid #900;
+    width: 100%;
 }
 
 footer.site-footer {
