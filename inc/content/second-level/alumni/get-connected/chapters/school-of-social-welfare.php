@@ -116,7 +116,7 @@
                     </div>
                     <div class="border-box whole clearfix section-border-top">
                         <div class="border-box one-half padding-box equal-height-col-desktop">
-                            <h4>School of Medicine Alumni Board</h4>
+                            <h4>School of Social Welfare Alumni Board</h4>
                             <h5 class="on-red">Board Members</h5>
                             <div class="drop-accordion drop-accordion-1 clearfix">
                                 <div class="item">
