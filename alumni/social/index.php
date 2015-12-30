@@ -110,7 +110,7 @@
 					<!-- </site-nav> -->
 		        </div>
 		        <div class="main-container">
-		            <div class="main clearfix">
+		            <div class="main clearfix" style="background: #dfdfdf url(../../css/images/noize.png) repeat 100% 0;">
 
 		                <?php 
 							$file = "social-alumni.php";

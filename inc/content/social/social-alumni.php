@@ -105,13 +105,8 @@
                     </div>
 
                     <div class="social-channels-main disclaimer-text clearfix">
-                        <div class="sbu-text-shadow">
-                            Our social media efforts encourage active discussion and sharing of information and thoughts.<br />
-                            We are not responsible for comments or wall postings made by visitors. Comments posted also do not in any way reflect the opinions or policies of Stony Brook University.<br />
-                            Please show respect for your fellow users by keeping the discussion civil. Comments are subject to Terms of Use and Code of Conduct applicable to social medium employed.<br />
-                            We reserve the right to remove comments that are racist, sexist, abusive, profane, violent, obscene, spam, that advocate illegal activity, contain falsehoods or are wildly off-topic, or that libel, incite, threaten or make ad hominem attacks on Stony Brook students, employees, guests or other individuals. We also do not permit messages selling products or promoting commercial, political or other ventures.<br />
-                            In addition, election campaign materials or postings otherwise deemed inappropriate will be deleted by the page administrators.<br />
-                            Stony Brook University is not affiliated in any way with ownership of the social media services listed above, nor does the University endorse them.  Each service maintains its own privacy policy, terms of service, privacy statements, and other policies that users must agree to in order to use the services. Stony Brook University is not responsible for your use of these sites. Please consult our <a class="sbu-link" href="http://mobile.cc.stonybrook.edu/sb/social/guidelines" target="_blank">social media guidelines</a> for further advice and best practices.
+                        <div class="sbu-text-shadow" style="text-align: center">
+                           Please consult our <a class="sbu-link" href="alumni/social-media-guidelines/">social media guidelines</a> for  advice and best practices.
                         </div>
                     </div>
                 </div>

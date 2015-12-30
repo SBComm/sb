@@ -116,7 +116,7 @@
             includeAsset('css','css/elements/filter/live-filter-sticky.css','all');
         } ?>
 
-        <?php if($page_type=='second-level') { ?>
+        <?php if($page_type=='second-level' || ($page_type=='social-hub'&&$second_level=='alumni')) { ?>
             <?php includeAsset('css','css/second-level.css'); ?>
             <?php includeAsset('css','css/second-level/'.$second_level.'.css'); ?>
             <?php if($inside_page==true) { ?>
