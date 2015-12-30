@@ -112,7 +112,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni-test/get-connected/chapters/new-england-boston-alumni-chapter.php";
+								$file = "alumni-test/get-connected/chapters/school-of-medicine.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
