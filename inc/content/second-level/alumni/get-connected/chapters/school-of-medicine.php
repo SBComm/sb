@@ -15,7 +15,6 @@
                     <img class="inline-with-copy" src="img/university/hsc-small-portrait-1.jpg" alt="Health Science Center" />
                     <h4>Welcome School of Medicine Alums!</h4>
                     <p><strong>To All of My Fellow Alumni Colleagues:</strong></p>
-                    </p>
                     <p>Please join me in welcoming the 2015 graduates of the School of Medicine who officially became alumni on May 21, 2015! We are so happy to add another 121 members to our growing alumni body.</p>
                     <p>Our goal continues to be building strong and lasting relationships with our alumni across the country, providing support for our current students and advancing the interests of professional education in medicine.</p>
                     <p>The School of Medicine has undergone a tremendous amount of expansion over the past several years. For those of you that live far away, you would be amazed at the sweeping hospital lobby, the Cancer Treatment Center, the rising new clinical and research towers, and the expanded Emergency Department, to name a few of the building projects. We have a state of the art simulation center and ground breaking innovation.</p>
@@ -472,9 +471,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="host-program" class="border-box one-half padding-box news-feature equal-height-col-desktop">
+                        <div class="border-box one-half padding-box news-feature equal-height-col-desktop">
                             <div class="clearfix host">
-                                <h4>"Help Our Students Travel" Program</h4>
+                                <h4 id="host-program">"Help Our Students Travel" Program</h4>
                                 <p>The School of Medicine Alumni Chapter launched the HOST Program to connect Stony Brook Medical Year IV students who are interviewing for their residencies and current School of Medicine students who are seeking advice with School of Medicine alumni who are willing to volunteer their time and share their experiences and hospitality.</p>
                                 <p>Are you an alum who is interested volunteering? Are you a student who wants to connect with an alumni volunteer?</p>
                                 <p>If you have any questions, please contact Mary Hoffmann at 631-632-4995 or mary.hoffmann@stonybrook.edu.</p>
@@ -512,7 +511,7 @@
                                 <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157649005162092/">School of Medicine Class of '99 Reunion</a>
                                 <span class="date">October 25-26, 2014</span>
                                 <div class="img-wrapper">
-                                    <img src="https://farm4.staticflickr.com/3947/15464623268_f0f6d5a44f_b.jpg" alt="School of Medicine Class of '99 Reunion">
+                                    <img src="https://farm4.staticflickr.com/3947/15464623268_f0f6d5a44f_b.jpg" alt="School of Medicine Class of '99 Reunion"/>
                                     <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157649005162092/" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
@@ -520,7 +519,7 @@
                                 <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157644516226631/">School of Medicine Class of '88 Reunion</a>
                                 <span class="date">May 3, 2014</span>
                                 <div class="img-wrapper">
-                                    <img src="https://farm6.staticflickr.com/5034/13927655930_8d57b29ed7_b.jpg" alt="School of Medicine Class of '88 Reunion">
+                                    <img src="https://farm6.staticflickr.com/5034/13927655930_8d57b29ed7_b.jpg" alt="School of Medicine Class of '88 Reunion"/>
                                     <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157644516226631/" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
@@ -528,7 +527,7 @@
                                 <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157637154325255/">School of Medicine Class of '83 Reunion</a>
                                 <span class="date">October 19-20, 2013</span>
                                 <div class="img-wrapper">
-                                    <img src="https://farm4.staticflickr.com/3808/10591048035_ec46c094e4_b.jpg" alt="School of Medicine Class of '83 Reunion">
+                                    <img src="https://farm4.staticflickr.com/3808/10591048035_ec46c094e4_b.jpg" alt="School of Medicine Class of '83 Reunion"/>
                                     <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157637154325255/" target="_blank">View Photos</a></div>
                                 </div>
                             </div>
@@ -542,7 +541,7 @@
                                     <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157659145642478">School of Medicine Class of ’90 Reunion Reception</a>
                                     <span class="date">October 17, 2015</span>
                                     <div class="img-wrapper">
-                                        <img src="https://farm6.staticflickr.com/5697/21994018906_249a4975aa_b.jpg" alt="School of Medicine Class of '90 Reunion">
+                                        <img src="https://farm6.staticflickr.com/5697/21994018906_249a4975aa_b.jpg" alt="School of Medicine Class of '90 Reunion"/>
                                         <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157659145642478" target="_blank">View Photos</a></div>
                                     </div>
                                 </div>
@@ -550,7 +549,7 @@
                                     <a class="title" href="https://www.flickr.com/photos/sbuadvancement/sets/72157657174800614">School of Medicine Class of '85 Reunion Reception</a>
                                     <span class="date">May 3, 2014</span>
                                     <div class="img-wrapper">
-                                        <img src="https://farm6.staticflickr.com/5811/21972148175_6f0e61ed5b_b.jpg" alt="School of Medicine Class of '85 Reunion">
+                                        <img src="https://farm6.staticflickr.com/5811/21972148175_6f0e61ed5b_b.jpg" alt="School of Medicine Class of '85 Reunion"/>
                                         <div class="btn-wrapper"><a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="https://www.flickr.com/photos/sbuadvancement/sets/72157657174800614" target="_blank">View Photos</a></div>
                                     </div>
                                 </div>

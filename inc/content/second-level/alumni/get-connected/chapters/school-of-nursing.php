@@ -508,8 +508,8 @@
                             </div>
                         </div>
                         <div class="border-box one-half padding-box news-feature equal-height-col-desktop">
-                            <div id="host-program" class="clearfix host">
-                                <h4>School of Nursing Alumni Mentoring Program</h4>
+                            <div class="clearfix host">
+                                <h4 id="host-program">School of Nursing Alumni Mentoring Program</h4>
                                 <p>Members of the School of Nursing Alumni Board will mentor Stony Brook School of Nursing recent graduates (graduates of the last five years) as part of the School of Nursing Alumni Mentoring Program. The volunteer alumni mentors are 'assigned' a mentee, who has been selected for the program, in order to provide meaningful support, increase the grad's knowledge of the occupation and ease their transition from nursing school to career.</p>
                                 <p>Are you an alum who is interested in volunteering? Are you a student who wants to connect with an alumni volunteer?</p>
                                 <p>If you have any questions, please contact Mary Hoffmann at 631-632-4995 or <a href="mailto:mary.hoffmann@stonybrook.edu" target="_blank">mary.hoffmann@stonybrook.edu</a>.</p>
