@@ -3588,7 +3588,7 @@ body {
     /* Inside content */
 
     section.inside-content {
-        padding: 0;
+        padding: 0 0 20px;
     }
 
     section.inside-content .wrapper {
