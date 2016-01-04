@@ -112,7 +112,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni-test/get-connected/chapters/school-of-nursing.php";
+								$file = "alumni-test/get-connected/chapters/school-of-social-welfare.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
