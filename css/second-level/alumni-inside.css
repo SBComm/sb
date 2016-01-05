@@ -1296,8 +1296,9 @@ a.authors__book__cta {
 
 .past-reunions,
 .section-border-top {
-    padding-top: 3em;
     border-top: 1px solid #900;
+    margin-top: 2em;
+    padding-top: 3em;
 }
 
 .section-border-bottom {
@@ -1305,6 +1306,34 @@ a.authors__book__cta {
     padding-bottom: 2em;
     margin-bottom: 1.6em;
 }
+
+
+/* overrides for padding and margin classes */
+
+.inside-content .content.pad-top,
+.past-reunions.pad-top,
+.section-border-top.pad-top {
+    padding-top: 2.4em;
+}
+
+.inside-content .content.pad-bottom,
+.past-reunions.pad-bottom,
+.section-border-top.pad-bottom {
+    padding-bottom: 2.4em;
+}
+
+.inside-content .content.margin-top,
+.past-reunions.margin-top,
+.section-border-top.margin-top {
+    margin-top: 2.4em;
+}
+
+.inside-content .content.margin-bottom,
+.past-reunions.margin-bottom,
+.section-border-top.margin-bottom {
+    margin-top: 2.4em;
+}
+
 
 .past-reunion {
     padding-bottom: 2em;
