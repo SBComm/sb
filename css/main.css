@@ -3223,7 +3223,8 @@ body {
 
     /* outline button */
 
-    a.sbu-outline-button {
+    a.sbu-outline-button,
+    .sbu-outline-button--red--transform {
         display: inline-block;
         font-family: 'Trade Gothic W01 Cn 18';
         text-transform: uppercase;
