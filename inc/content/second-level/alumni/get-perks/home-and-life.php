@@ -60,7 +60,7 @@
                             <li>All participants receive an $.08/watt discount. For a 10kW system, this would equate to an $800 total discount</li>
                             <li>Homeowners qualify for utility, state &amp; federal tax credits totaling around 60% of system cost</li>
                             <li>The more homeowners that participate, the more everyone saves! Up to $350 additional savings based on participation</li>
-                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://lets.empower-solar.com/stony-brook/" target="_blank">Get more info</a>
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://lets.empower-solar.com/stony-brook" target="_blank">Get more info</a>
                         <p><em>*Program is for those who reside in the Long Island, New York City and Westchester areas.</em></p>
 
                     </div>
