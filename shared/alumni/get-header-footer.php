@@ -157,13 +157,13 @@
                             </li>
                         </ul>
                         <div class="search-container default clearfix border-box" style="top: -115px;">
-                                            <form name="site-search" class="search-wrapper" action="http://www.stonybrook.edu/search/?" method="get">
-                                    <input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search...">
-                                    <button type="submit" class="btn btn-success" id="search-form-submit1" alt="Do search">
-                                        <i class="icon fa fa-search"></i>
-                                    </button>
-                                </form>
-                            </div>
+                            <!--<form name="site-search" class="search-wrapper" action="http://www.stonybrook.edu/search/?" method="get">
+                                <input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search...">
+                                <button type="submit" class="btn btn-success" id="search-form-submit1" alt="Do search">
+                                    <i class="icon fa fa-search"></i>
+                                </button>
+                            </form>-->
+                        </div>
                     </div>
                 </nav>
 
