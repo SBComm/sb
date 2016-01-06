@@ -104,9 +104,17 @@
                         </div>
                     </div>
 
+                <div class="social-channels-wrapper alumni-app">
+                    <h2><span class="darker">Download</span> the <span class="red">Alumni App</span></h2>
+                    <p><a href="http://www.mycribsheet.com/sunysb" target="_blank"><img class="promo-img" src="img/alumni/misc/app.jpg" alt="Three iPhones with Alumni app sample screens"></a></p>
+                    <p>Stay current with campus news, sports highlights, alumni events, perks and much more!</p>
+                    <p>This app is your "real world" crib sheet on topics like finances, housing, etiquette and health insurance.</p>
+                    <a class="button" href="http://www.mycribsheet.com/sunysb" target="_blank"><div class="sbu-link sbu-cta sbu-cta-1 sbu-cta-1a">Download now</div></a>
+                </div>
+
                     <div class="social-channels-main disclaimer-text clearfix">
                         <div class="sbu-text-shadow" style="text-align: center">
-                           Please consult our <a class="sbu-link" href="alumni/social-media-guidelines/">social media guidelines</a> for  advice and best practices.
+                           For social media advice and best practices, please consult our <a class="sbu-link" href="alumni/social-media-guidelines/">social media guidelines</a> .
                         </div>
                     </div>
                 </div>
