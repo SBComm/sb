@@ -18,34 +18,9 @@
 ?>
 
 <?php if($second_level=='summer-session' && $is_production_environment) { ?>
-    <!--
-    Start of DoubleClick Floodlight Tag: Please do not remove
-    Activity name of this tag: Stony Brook Retargeting Pixel
-    URL of the webpage where the tag is expected to be placed: http://www.stonybrook.edu/
-    This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
-    Creation Date: 03/04/2015
-    -->
-    <iframe src="http://4354196.fls.doubleclick.net/activityi;src=4354196;type=stony0;cat=stony0;ord=[SessionID]?" width="1" height="1" frameborder="0" style="display:none"></iframe>
-    <!-- End of DoubleClick Floodlight Tag: Please do not remove -->
-
-    <!--Begin Stony Brook University FB Retargeting Pixel-->
-    <script>(function() {
-      var _fbq = window._fbq || (window._fbq = []);
-      if (!_fbq.loaded) {
-        var fbds = document.createElement('script');
-        fbds.async = true;
-        fbds.src = '//connect.facebook.net/en_US/fbds.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(fbds, s);
-        _fbq.loaded = true;
-      }
-      _fbq.push(['addPixelId', '1463599190562310']);
-    })();
-    window._fbq = window._fbq || [];
-    window._fbq.push(['track', 'PixelInitialized', {}]);
-    </script>
-    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1463599190562310&amp;ev=PixelInitialized" /></noscript>
-    <!--End Stony Brook University FB Retargeting Pixel-->
+    <!--Begin Stony Brook University Retargeting Pixel-->
+    <img src="https://b.collective-media.net/seg/cm/2or0" width="1" height="1" />
+    <!--End Stony Brook University Retargeting Pixel-->
 <?php } ?>
 
 <?php if($fade_in_page) { ?>
