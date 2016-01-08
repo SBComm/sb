@@ -321,24 +321,64 @@ video.background-video {
     padding-top: 20px;
 }
 
+.no-pad-top {
+    padding-top: 0;
+}
+
 .pad-bottom {
     padding-bottom: 20px;
+}
+
+.no-pad-bottom {
+    padding-bottom: 0;
 }
 
 .pad-left {
     padding-left: 20px;
 }
 
+.no-pad-left {
+    padding-left: 0;
+}
+
 .pad-right {
     padding-right: 20px;
+}
+
+.no-pad-right {
+    padding-right: 0;
 }
 
 .margin-top {
     margin-top: 20px;
 }
 
+.no-margin-top {
+    margin-top: 0;
+}
+
 .margin-bottom {
     margin-bottom: 20px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
+
+.no-margin-left {
+    margin-left: 0;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.no-margin-right {
+    margin-right: 0;
 }
 
 .no-pad {
