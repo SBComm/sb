@@ -464,6 +464,17 @@
         <?php } ?>
         <!-- END Element Specific Includes -->
 
+        <script type="text/javascript">
+	        if($('.sbu-columns').length) {
+				$(window).load(function() {
+					equalheight('.sbu-columns .sbu-columns--column');
+			   	});
+			   	$(window).resize(function(){
+					equalheight('.sbu-columns .sbu-columns--column');
+			   	});
+			}
+		</script>
+
         <!-- window.load() -->
         <script type="text/javascript">
 	        $(window).load(function() { // makes sure the whole site is loaded
