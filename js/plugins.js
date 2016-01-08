@@ -87,7 +87,8 @@ function RegexTest(value, type) {
 };
 
 /* drop-accordion */
-var accordionContent = function() {
+var initializeAccordion  = function() {
+  var accordionContent;
   $('.drop-accordion .tab').on('click',function() {
     $accordionContent = $(this).closest('.item').find('.content');
     $openTab = $(this).closest('.drop-accordion').find('.open').closest('.item').find('.tab');
@@ -112,8 +113,7 @@ var accordionContent = function() {
   });
 };
 
-accordionContent();
-
+initializeAccordion();
 
 /* Add commas to thousands */
 /* from http://anthonybush.com/projects/jquery_fast_live_filter/demo/ */
