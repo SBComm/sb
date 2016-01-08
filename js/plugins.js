@@ -87,29 +87,33 @@ function RegexTest(value, type) {
 };
 
 /* drop-accordion */
-var accordionContent;
-$('.drop-accordion .tab').on('click',function() {
-  $accordionContent = $(this).closest('.item').find('.content');
-  $openTab = $(this).closest('.drop-accordion').find('.open').closest('.item').find('.tab');
+var accordionContent = function() {
+  $('.drop-accordion .tab').on('click',function() {
+    $accordionContent = $(this).closest('.item').find('.content');
+    $openTab = $(this).closest('.drop-accordion').find('.open').closest('.item').find('.tab');
 
-  if($accordionContent.hasClass('hide-accessible')) {
-    $(this).addClass('active');
-    $accordionContent.slideUp(0,function(){
-      $accordionContent.removeClass('hide-accessible').addClass('open')
-        .slideDown('fast');
-      $openTab.click();
-    });
+    if($accordionContent.hasClass('hide-accessible')) {
+      $(this).addClass('active');
+      $accordionContent.slideUp(0,function(){
+        $accordionContent.removeClass('hide-accessible').addClass('open')
+          .slideDown('fast');
+        $openTab.click();
+      });
 
-  } else {
-    $(this).removeClass('active');
-    $accordionContent.slideUp('fast',function(){
-      $accordionContent.addClass('hide-accessible').removeClass('open')
-        .slideDown(0);
-    });
+    } else {
+      $(this).removeClass('active');
+      $accordionContent.slideUp('fast',function(){
+        $accordionContent.addClass('hide-accessible').removeClass('open')
+          .slideDown(0);
+      });
 
-  }
+    }
 
-});
+  });
+};
+
+accordionContent();
+
 
 /* Add commas to thousands */
 /* from http://anthonybush.com/projects/jquery_fast_live_filter/demo/ */
