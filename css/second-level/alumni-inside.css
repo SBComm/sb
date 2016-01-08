@@ -1824,6 +1824,11 @@ section.explore-benefits h3 {
     .inside-page .three-quarter {
         padding-left: 35px;
     }
+
+    .inside-page .right-border-section {
+        border-right: 1px solid #900;
+        padding-right: 35px
+    }
     
     .inside-page .three-quarter + .one-quarter {
         padding-left: 35px;
