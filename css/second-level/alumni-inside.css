@@ -1821,7 +1821,9 @@ section.explore-benefits h3 {
 
     .alumni-chapter .two-third,
     .inside-page .two-third,
-    .inside-page .three-quarter {
+    .inside-page .three-quarter,
+    .inside-page .one-half + .one-half,
+    .inside-page .three-quarter + .one-quarter {
         padding-left: 35px;
     }
 
@@ -1830,10 +1832,6 @@ section.explore-benefits h3 {
         padding-right: 35px
     }
     
-    .inside-page .three-quarter + .one-quarter {
-        padding-left: 35px;
-    }
-
     .inside-page .two-third {
         padding-right: 35px;
     }
