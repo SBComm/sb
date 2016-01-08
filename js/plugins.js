@@ -87,7 +87,7 @@ function RegexTest(value, type) {
 };
 
 /* drop-accordion */
-var initializeAccordion  = function() {
+var initializeAccordion = function() {
   var accordionContent;
   $('.drop-accordion .tab').on('click',function() {
     $accordionContent = $(this).closest('.item').find('.content');
