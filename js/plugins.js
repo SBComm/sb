@@ -91,8 +91,9 @@ var initializeAccordion  = function() {
   var accordionContent;
   $('.drop-accordion .tab').on('click',function() {
     $accordionContent = $(this).closest('.item').find('.content');
+    console.log($accordionContent);
     $openTab = $(this).closest('.drop-accordion').find('.open').closest('.item').find('.tab');
-
+    console.log($openTab);
     if($accordionContent.hasClass('hide-accessible')) {
       $(this).addClass('active');
       $accordionContent.slideUp(0,function(){
