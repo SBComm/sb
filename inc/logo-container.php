@@ -25,7 +25,7 @@
 				            </div>
 			            </header>
 		            </div>
-<?php } elseif($page_cat=='alumni') { ?>
+<?php } elseif($second_level=='alumni') { ?>
 					<div class="logo-container page-cat-sub clearfix border-box">
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
