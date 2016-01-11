@@ -368,6 +368,14 @@ AddDefaultCharset utf-8
 #    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 # </IfModule>
 
+# Force http for now, so that non-securely included asset paths don't break
+
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteCond %{HTTPS} on
+   RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+
 # ----------------------------------------------------------------------
 # | Suppressing / Forcing the `www.` at the beginning of URLs          |
 # ----------------------------------------------------------------------
