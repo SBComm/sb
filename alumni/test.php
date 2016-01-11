@@ -112,7 +112,7 @@
 
 		                <!-- <undergrad-admissions> -->
 							<?php 
-								$file = "alumni-test/info-for/students.php";
+								$file = "alumni-test/misc/privacy-policy.php";
 								include($path . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
