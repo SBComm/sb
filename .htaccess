@@ -372,10 +372,10 @@ AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
    RewriteEngine On
-   # Images, JS and CSS
+   # Serve Images, JS and CSS over https
    RewriteCond %{HTTPS} !=on
    RewriteRule ^(.*)\.(gif|jpg|png|css|js)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-   # all else
+   # Serve all else over http
    RewriteCond %{HTTPS} on
    RewriteCond $1 !\.(gif|jpg|png|css|js)
    RewriteCond $1 !get-json.php
