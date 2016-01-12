@@ -372,6 +372,10 @@ AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
    RewriteEngine On
+   # Images, JS and CSS
+   RewriteCond %{HTTPS} !=on
+   RewriteRule ^(.*)\.(gif|jpg|png|css|js)$ https://%{HTTP_HOST}/$1 [R=301,L]
+   # all else
    RewriteCond %{HTTPS} on
    RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
