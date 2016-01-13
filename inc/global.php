@@ -67,6 +67,10 @@ $site_considerations = array(
 
 $always_use_content_folder = (strpos($site_considerations[$second_level],'always_use_content_folder')!==false ? true : false);
 
+// Set the path to use on DEVELOPMENT, and where the content desited is on PRODUCTION
+if($is_proofing_environment) {
+    $pathForProductionContent = str_replace('development/', '', $path);
+}
 
 // Content paths
 // Default defined in inc.php
@@ -78,6 +82,7 @@ $always_use_content_folder = (strpos($site_considerations[$second_level],'always
             $content = "content/";
         }
         else if($is_proofing_environment) {
+            $pathForContent = $pathForProductionContent;
             $content = "content_ou/";
         }
         else if($is_production_environment) {
@@ -92,6 +97,7 @@ $always_use_content_folder = (strpos($site_considerations[$second_level],'always
             $content = "content/";
         }
         else if($is_proofing_environment) {
+            $pathForContent = $pathForProductionContent;
             $content = "content_ou/";
         }
         else if($is_production_environment) {
