@@ -4,7 +4,7 @@
             <div class="border-box no-pad-wrapper clearfix">
                 <?php
                     $file = "summer-session/summer-audience-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
                 <div class="blurb">
                     <h3>Why Summer at <span class="nowrap">Stony Brook?</span></h3>
@@ -17,12 +17,12 @@
 
     <?php
         $file = "summer-session/widgets/sessions-sky.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
 
     <?php
         $file = "summer-session/widgets/course-circles.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
 
 </article>

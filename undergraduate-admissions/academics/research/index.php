@@ -104,7 +104,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "undergraduate-admissions/academics/academics-research.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

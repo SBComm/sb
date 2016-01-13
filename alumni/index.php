@@ -113,7 +113,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "alumni/home.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

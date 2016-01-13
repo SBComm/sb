@@ -116,7 +116,7 @@
                                             <option id="">All OU Campus Sites</option>
                                             <?php 
                                                 $file = "analytics/site-options.php";
-                                                include($path . $content . $file);
+                                                include($pathForContent . $content . $file);
                                             ?>
                                             <!--
                                             <option id="commcms\/advancement">Advancement</option>

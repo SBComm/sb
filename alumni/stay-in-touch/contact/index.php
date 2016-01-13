@@ -115,7 +115,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "alumni/stay-in-touch/contact.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

@@ -115,7 +115,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "alumni/give-back/alumni-volunteer-for-admissions-program.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

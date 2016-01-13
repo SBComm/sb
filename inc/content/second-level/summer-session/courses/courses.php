@@ -10,7 +10,7 @@
                         <?php
                             $selected_sub_nav = 1;
                             $file = "summer-session/courses/courses-nav.php";
-                            include($path . $content . $secLv . $file);
+                            include($pathForContent . $content . $secLv . $file);
                         ?>
                     </header>
                 </div>
@@ -20,7 +20,7 @@
 
     <?php
         $file = "summer-session/inside-copy.php";
-        //include($path . $content . $secLv . $file);
+        //include($pathForContent . $content . $secLv . $file);
     ?>
 
     <section class="clearfix inside-content alt-headers wrapper">
@@ -28,7 +28,7 @@
         <div id="modify-search" class="clearfix">
             <?php
                 $file = "summer-session/widgets/course-search-form.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
         </div>
 
@@ -66,7 +66,7 @@
 
     <?php
         $file = "summer-session/widgets/course-circles.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
 
 </article>

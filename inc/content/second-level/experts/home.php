@@ -23,7 +23,7 @@
             <h3>Trending Topics</h3>
             <?php
                 $file = "experts/trending-topics.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
             <div class="list browse-list">
                 <a class="fa-arrow-after" href="experts/departments">View all departments</a>
@@ -41,7 +41,7 @@
         </div>
         <?php
             $file = "experts/featured.php";
-            include($path . $content . $secLv . $file);
+            include($pathForContent . $content . $secLv . $file);
         ?>
         <a class="sbu-button view-all-button fa-arrow-after" href="experts/results">View all experts</a>
     </section>

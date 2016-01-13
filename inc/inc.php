@@ -48,6 +48,8 @@
         $secLv   = "second-level/";
         $sites   = "sites/";
 
+    $pathForContent  = $path;
+
     $server          = "server.php";
     $global          = "global.php";
     $header          = "header.php";

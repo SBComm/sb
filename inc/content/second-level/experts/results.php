@@ -10,11 +10,11 @@
 <article class="experts-wrapper">
     <?php
         $file = "experts/splash-header-inside.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
     <?php
         $file = "experts/search-experts-overlay.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
     <section class="clearfix list-experts">
         <div class="clearfix header-wrapper">
@@ -41,7 +41,7 @@
 
             <?php
                 $file = "experts/{$view}.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
 
             <p class="search-text clearfix ital hide-accessible-mobile-tablesaw">Can't find what you're looking for? Keep your search term short &amp; simple to yield the best results, <a href="experts/results" class="clear-search-trigger">browse all experts</a>, or contact the Stony Brook Newsroom for assistance at 631.632.6310</p>

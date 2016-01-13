@@ -3,7 +3,7 @@
         <div class="border-box no-pad-wrapper clearfix">
             <?php
                 $file = "summer-session/summer-audience-nav.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
             <h3 class="page-top wrapper clearfix">Tuition &amp; Aid</h3>
 
@@ -12,7 +12,7 @@
                     <header class="section-header clearfix">
                         <?php
                             $file = "summer-session/tuition-and-aid/tuition-and-aid-nav.php";
-                            include($path . $content . $secLv . $file);
+                            include($pathForContent . $content . $secLv . $file);
                         ?>
                     </header>
                 </div>

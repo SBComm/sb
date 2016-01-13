@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 4;
                     $file = "undergraduate-admissions/info-for/admitted-students/admitted-students-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>

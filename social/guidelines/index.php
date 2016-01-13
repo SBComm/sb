@@ -93,7 +93,7 @@
 		                <!-- <social-main> -->
 							<?php 
 								$file = "social-guidelines.php";
-								include($path . $content . $social . $file);
+								include($pathForContent . $content . $social . $file);
 							?>
 						<!-- </social-main> -->
 

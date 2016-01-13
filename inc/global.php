@@ -116,8 +116,9 @@ $always_use_content_folder = (strpos($site_considerations[$second_level],'always
 
 ?>
 <div class="contentpath_information" style="display: none; visibility: hidden; opacity: 0; font-size: 0;">
-    Site Status: <?php echo $site_status[$second_level]; ?>
-    Content Folder: <?php echo $content; ?>
+    Site Status: <?php echo $site_status[$second_level]; ?><br />     
+    Content Folder: <?php echo $content; ?><br />     
+    Path for Content: <?php echo $pathForContent; ?><br />     
 </div>
 
 

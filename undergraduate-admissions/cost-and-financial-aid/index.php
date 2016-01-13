@@ -104,7 +104,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "undergraduate-admissions/cost-and-financial-aid/cost-and-financial-aid.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

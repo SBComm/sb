@@ -110,7 +110,7 @@
 		                <!-- <faculty-experts> -->
 							<?php 
 								$file = "faculty-directory/home.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </faculty-experts> -->
 

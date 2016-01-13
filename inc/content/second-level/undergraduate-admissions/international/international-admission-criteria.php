@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 2;
                     $file = "undergraduate-admissions/international/international-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>

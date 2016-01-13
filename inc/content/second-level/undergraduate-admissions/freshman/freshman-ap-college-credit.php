@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 3;
                     $file = "undergraduate-admissions/freshman/freshman-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>
@@ -97,7 +97,7 @@
         <div class="border-box no-pad-wrapper">
             <?php
                 $file = "undergraduate-admissions/freshman/freshman-statistics.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
         </div>
     </section>

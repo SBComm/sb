@@ -114,7 +114,7 @@
 
 		                <?php 
 							$file = "social-alumni.php";
-							include($path . $content . $social . $file);
+							include($pathForContent . $content . $social . $file);
 						?>
 
 		            </div> <!-- .main -->

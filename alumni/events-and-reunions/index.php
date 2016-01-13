@@ -115,7 +115,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "alumni/get-connected/events-and-reunions/events-and-reunions.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

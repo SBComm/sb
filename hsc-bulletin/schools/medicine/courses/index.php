@@ -94,7 +94,7 @@
 		                <!-- <hsc-content> -->
 							<?php 
 								$file = "medicine-courses.php";
-								include($path . $content . $sites . 'hsc-bulletin/' . $file);
+								include($pathForContent . $content . $sites . 'hsc-bulletin/' . $file);
 							?>
 						<!-- </hsc-content> -->
 

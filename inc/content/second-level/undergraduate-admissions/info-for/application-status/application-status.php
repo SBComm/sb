@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 1;
                     $file = "undergraduate-admissions/info-for/application-status/application-status-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>
@@ -35,13 +35,13 @@
                 <h4>Freshman: Priority Deadlines and Notification Schedule</h4>
                 <?php
                     $file = "undergraduate-admissions/deadlines/freshman-deadlines.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
 
                 <h4>Transfer: Priority Deadlines and Notification Schedule</h4>
                 <?php
                     $file = "undergraduate-admissions/deadlines/transfer-deadlines.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
                 <p>Applications or credentials received after these dates will be reviewed on a space-available basis. It is each applicant's responsibility to ensure that all credentials are received. Space in our class is limited.</p>
                 <p><em>International applicants follow a separate notification schedule. Fall international applicant credentials are due March 1.</em></p>

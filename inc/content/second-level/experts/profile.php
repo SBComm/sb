@@ -1,11 +1,11 @@
 <article class="experts-wrapper">
     <?php
         $file = "experts/splash-header-inside.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
     <?php
         $file = "experts/search-experts-overlay-get.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
     <section class="clearfix list-experts profile-wrapper">
         <div class="clearfix header-wrapper sticky">
@@ -17,12 +17,12 @@
         <?php
             if(!@include($root . "/" . $site . "/faculty-directory/people/".$_GET["name"].".php")) {
                 $file = "experts/default-profile.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             }
         ?>
     </section>
     <?php
         $file = "experts/profile-nav.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
 </article>

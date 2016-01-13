@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 2;
                     $file = "undergraduate-admissions/transfer/transfer-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>
@@ -88,7 +88,7 @@
                 <p>Applications received after these dates will be reviewed on a space-available basis.</p>
                 <?php
                     $file = "undergraduate-admissions/deadlines/transfer-deadlines.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </div>
 

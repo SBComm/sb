@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 1;
                     $file = "undergraduate-admissions/transfer/transfer-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>

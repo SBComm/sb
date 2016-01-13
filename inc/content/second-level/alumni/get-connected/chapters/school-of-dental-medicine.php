@@ -575,7 +575,7 @@
             <?php
                 $selected_sub_nav = "school-of-dental-medicine";
                 $file = "alumni/get-connected/chapters-nav-dropdown.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
             </div>
         </div>

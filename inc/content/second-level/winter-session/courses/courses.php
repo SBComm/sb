@@ -10,7 +10,7 @@
                         <?php
                             $selected_sub_nav = 1;
                             $file = "winter-session/courses/courses-nav.php";
-                            include($path . $content . $secLv . $file);
+                            include($pathForContent . $content . $secLv . $file);
                         ?>
                     </header>
                 </div>
@@ -23,7 +23,7 @@
         <div id="modify-search" class="clearfix">
             <?php
                 $file = "winter-session/widgets/course-search-form.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
         </div>
 

@@ -117,7 +117,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "alumni/get-informed/authors.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

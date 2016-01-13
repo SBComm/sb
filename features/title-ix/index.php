@@ -94,7 +94,7 @@
 		                <!-- <for-students> -->
 							<?php 
 								$file = "features/title-ix.php";
-								include($path . $content . $file);
+								include($pathForContent . $content . $file);
 							?>
 						<!-- </for-students> -->
 

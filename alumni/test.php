@@ -113,7 +113,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "alumni-test/misc/social-guidelines.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

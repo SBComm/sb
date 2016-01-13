@@ -115,7 +115,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "alumni/get-perks/fitness-and-wellness.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

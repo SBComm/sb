@@ -3,7 +3,7 @@
         <div class="border-box no-pad-wrapper clearfix">
             <?php
                 $file = "summer-session/summer-audience-nav.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
             <h3 class="wrapper clearfix">Resources</h3>
 
@@ -13,7 +13,7 @@
                         <?php
                             $selected_sub_nav = 2;
                             $file = "summer-session/resources/resources-nav.php";
-                            include($path . $content . $secLv . $file);
+                            include($pathForContent . $content . $secLv . $file);
                         ?>
                     </header>
                 </div>

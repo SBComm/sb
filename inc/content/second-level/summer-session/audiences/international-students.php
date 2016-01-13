@@ -4,7 +4,7 @@
             <?php
                 $selected_sub_nav = 5;
                 $file = "summer-session/summer-audience-nav.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
             <h3 class="wrapper clearfix">International Students</h3>
         </div>

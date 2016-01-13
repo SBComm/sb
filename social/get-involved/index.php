@@ -93,7 +93,7 @@
 		                <!-- <social-main> -->
 							<?php 
 								$file = "students-get-involved.php";
-								include($path . $content . $social . $file);
+								include($pathForContent . $content . $social . $file);
 							?>
 						<!-- </social-main> -->
 

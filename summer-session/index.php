@@ -113,7 +113,7 @@
 		                <!-- <summer-session> -->
 							<?php 
 								$file = "summer-session/home.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </summer-session> -->
 

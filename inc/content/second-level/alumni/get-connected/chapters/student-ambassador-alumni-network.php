@@ -16,7 +16,7 @@
                         <?php
                             $selected_sub_nav = "student-ambassador-alumni-network";
                             $file = "alumni/get-connected/chapters-nav-list.php";
-                            include($path . $content . $secLv . $file);
+                            include($pathForContent . $content . $secLv . $file);
                         ?>
                     </nav>
                 </div>
@@ -76,7 +76,7 @@
             <h4>Explore All Chapters &amp; Groups</h4>
             <?php
                 $file = "alumni/get-connected/chapters-nav-dropdown.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
             </div>
         </div>

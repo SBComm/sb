@@ -116,11 +116,11 @@
 			            <article class="experts-wrapper">
 						    <?php
 						        $file = "experts/splash-header-inside.php";
-						        include($path . $content . $secLv . $file);
+						        include($pathForContent . $content . $secLv . $file);
 						    ?>
 						    <?php
 						        $file = "experts/search-experts-overlay-get.php";
-						        include($path . $content . $secLv . $file);
+						        include($pathForContent . $content . $secLv . $file);
 						    ?>
 						    <section class="clearfix list-experts">
 						        <div class="clearfix header-wrapper">
@@ -134,13 +134,13 @@
 			                <!-- <faculty-experts> -->
 								<?php 
 									$file = "experts/topics.php";
-									include($path . $content . $secLv . $file);
+									include($pathForContent . $content . $secLv . $file);
 								?>
 							<!-- </faculty-experts> -->
 
 							<?php
 						        $file = "experts/profile-nav.php";
-						        include($path . $content . $secLv . $file);
+						        include($pathForContent . $content . $secLv . $file);
 						    ?>
 
 						</article>

@@ -99,7 +99,7 @@
 		                <!-- <faculty-staff> -->
 							<?php 
 								$file = "analytics/default-analytics.php";
-								include($path . $content . $file);
+								include($pathForContent . $content . $file);
 							?>
 						<!-- </faculty-staff> -->
 

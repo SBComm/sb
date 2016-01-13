@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 2;
                     $file = "undergraduate-admissions/contact-us/contact-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>
@@ -28,7 +28,7 @@
             <?php
                 $name_id = $_GET['name'];
                 $file = "undergraduate-admissions/contact-us/counselor-data/{$name_id}.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
 
             <div class="content">

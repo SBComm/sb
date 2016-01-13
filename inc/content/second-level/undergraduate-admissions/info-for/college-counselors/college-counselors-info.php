@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 1;
                     $file = "undergraduate-admissions/info-for/college-counselors/college-counselors-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>

@@ -10,7 +10,7 @@
                         <?php
                             $selected_sub_nav = 3;
                             $file = "winter-session/courses/courses-nav.php";
-                            include($path . $content . $secLv . $file);
+                            include($pathForContent . $content . $secLv . $file);
                         ?>
                     </header>
                 </div>
@@ -20,7 +20,7 @@
 
     <?php
         $file = "winter-session/inside-copy.php";
-        //include($path . $content . $secLv . $file);
+        //include($pathForContent . $content . $secLv . $file);
     ?>
 
     <?php
@@ -60,7 +60,7 @@
         <div id="modify-search" class="clearfix">
             <?php
                 $file = "winter-session/widgets/course-search-form.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
         </div>
 
@@ -106,7 +106,7 @@
 
     <?php
         $file = "winter-session/widgets/course-circles.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
 
 </article>

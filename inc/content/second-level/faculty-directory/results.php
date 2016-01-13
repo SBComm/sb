@@ -10,11 +10,11 @@
 <article class="experts-wrapper">
     <?php
         $file = "faculty-directory/splash-header-inside.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
     <?php
         $file = "faculty-directory/search-faculty-overlay.php";
-        include($path . $content . $secLv . $file);
+        include($pathForContent . $content . $secLv . $file);
     ?>
     <section class="clearfix list-experts">
         <div class="clearfix header-wrapper">
@@ -41,7 +41,7 @@
 
             <?php
                 $file = "faculty-directory/{$view}.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
 
             <p class="search-text clearfix ital hide-accessible-mobile-tablesaw">Can't find what you're looking for? Keep your search term short &amp; simple to yield the best results, or <a href="faculty-directory/results">view all faculty</a>.</p>

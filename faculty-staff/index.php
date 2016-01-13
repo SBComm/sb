@@ -99,7 +99,7 @@
 		                <!-- <faculty-staff> -->
 							<?php 
 								$file = "{$second_level}/{$second_level}.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </faculty-staff> -->
 

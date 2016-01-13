@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 0;
                     $file = "undergraduate-admissions/campus-life/campus-life-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>

@@ -112,7 +112,7 @@
 								else {
 									$file = "undergraduate-admissions/contact-us/counselor-list/{$region_id}.php";
 								}
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 

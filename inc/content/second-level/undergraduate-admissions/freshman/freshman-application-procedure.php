@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 2;
                     $file = "undergraduate-admissions/freshman/freshman-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>
@@ -134,7 +134,7 @@
                 <p>Applications will be accepted after these priority deadlines on a space-available basis.</p>
                 <?php
                     $file = "undergraduate-admissions/deadlines/freshman-deadlines.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
                 <p><em>*International applicants follow a separate notification schedule.</em></p>
             </div>
@@ -238,7 +238,7 @@
         <div class="border-box no-pad-wrapper">
             <?php
                 $file = "undergraduate-admissions/freshman/freshman-statistics.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
         </div>
     </section>

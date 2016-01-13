@@ -142,7 +142,7 @@
 		                <!-- <winter-session> -->
 							<?php 
 								$file = "winter-session/courses/results.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </winter-session> -->
 

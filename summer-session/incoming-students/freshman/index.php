@@ -114,7 +114,7 @@
 		                <!-- <summer-session> -->
 							<?php 
 								$file = "summer-session/forms/freshman-pre-registration.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </summer-session> -->
 

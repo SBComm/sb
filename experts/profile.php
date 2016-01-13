@@ -116,7 +116,7 @@
 		                <!-- <profile> -->
 						    <?php
 						    	$file = "experts/profile.php";
-						    	include($path . $content . $secLv . $file);
+						    	include($pathForContent . $content . $secLv . $file);
 						    ?>
 						<!-- </profile> -->
 

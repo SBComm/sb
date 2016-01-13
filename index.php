@@ -80,7 +80,7 @@
 		                <!-- <main-content> -->
 							<?php
 								$file = "sitemap/sitemap.php";
-								include($path . $content . $file);
+								include($pathForContent . $content . $file);
 							?>
 						<!-- </main-content> -->
 

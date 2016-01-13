@@ -233,7 +233,7 @@
                             -->
                             */
                             //$file = "for-students/for-students-calendar.php";
-                            //include($path . $content . $secLv . $file);
+                            //include($pathForContent . $content . $secLv . $file);
                             $file  = "feed/collegiate-link-calendar.php";
                             $rss   = "https://stonybrook.collegiatelink.net/EventRss/EventsRss";
                             $count = 3;

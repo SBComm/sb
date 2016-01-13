@@ -186,7 +186,7 @@
                             -->
                             */
                             //$file = "faculty-staff/faculty-staff-news.php";
-                            //include($path . $content . $secLv . $file);
+                            //include($pathForContent . $content . $secLv . $file);
                             $file  = "feed/happenings-news.php";
                             $rss   = "http://sb.cc.stonybrook.edu/happenings/feed";
                             $count = 5;
@@ -217,7 +217,7 @@
                             -->
                             */
                             //$file = "faculty-staff/faculty-staff-calendar.php";
-                            //include($path . $content . $secLv . $file);
+                            //include($pathForContent . $content . $secLv . $file);
                             $file  = "feed/active-data-calendar.php";
                             $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx";
                             $count = 3;

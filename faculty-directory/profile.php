@@ -116,7 +116,7 @@
 		                <!-- <profile> -->
 						    <?php
 						    	$file = "faculty-directory/profile.php";
-						    	include($path . $content . $secLv . $file);
+						    	include($pathForContent . $content . $secLv . $file);
 						    ?>
 						<!-- </profile> -->
 

@@ -16,7 +16,7 @@
                 <?php
                     $selected_sub_nav = 4;
                     $file = "undergraduate-admissions/contact-us/contact-nav.php";
-                    include($path . $content . $secLv . $file);
+                    include($pathForContent . $content . $secLv . $file);
                 ?>
             </header>
         </div>

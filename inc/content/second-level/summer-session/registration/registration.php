@@ -3,7 +3,7 @@
         <div class="border-box no-pad-wrapper clearfix">
             <?php
                 $file = "summer-session/summer-audience-nav.php";
-                include($path . $content . $secLv . $file);
+                include($pathForContent . $content . $secLv . $file);
             ?>
             <h3 class="wrapper clearfix">Registration</h3>
         </div>

@@ -116,7 +116,7 @@
 		                <!-- <faculty-experts> -->
 							<?php 
 								$file = "experts/results.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </faculty-experts> -->
 

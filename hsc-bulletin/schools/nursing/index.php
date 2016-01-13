@@ -93,7 +93,7 @@
 		                <!-- <hsc-content> -->
 							<?php 
 								$file = "nursing-overview.php";
-								include($path . $content . $sites . 'hsc-bulletin/' . $file);
+								include($pathForContent . $content . $sites . 'hsc-bulletin/' . $file);
 							?>
 						<!-- </hsc-content> -->
 

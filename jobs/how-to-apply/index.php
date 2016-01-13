@@ -89,7 +89,7 @@
 		                <!-- <jobs> -->
 							<?php 
 								$file = "{$second_level}/how-to-apply.php";
-								include($path . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </jobs> -->
 
