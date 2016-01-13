@@ -55,6 +55,7 @@ $site_status = array(
     'faculty-staff'         => 'in_CMS',
     'campus-safety'         => 'in_CMS',
     'alumni'                => 'in_transition',
+    'faculty-experts'       => 'in_CMS',
     'experts'               => 'in_CMS',
     'faculty-directory'     => 'in_CMS'
 );
