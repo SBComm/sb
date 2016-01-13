@@ -374,6 +374,8 @@ AddDefaultCharset utf-8
    RewriteEngine On
    # Serve Images, JS and CSS over https
    RewriteCond %{HTTPS} !=on
+   RewriteCond %{HTTP_HOST} !=localhost
+   RewriteCond %{HTTP_HOST} !=localhost:8888
    RewriteRule ^(.*)\.(gif|jpg|png|css|js)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
    # Serve all else over http
    RewriteCond %{HTTPS} on
