@@ -62,8 +62,9 @@ $site_status = array(
 
 // Define considerations; Comma-separated value for multiple considerations
 $site_considerations = array(
-    //'experts'               => 'always_use_content_folder',
-    //'faculty-directory'     => 'always_use_content_folder'
+    'faculty-experts'       => 'always_use_content_folder',
+    'experts'               => 'always_use_content_folder',
+    'faculty-directory'     => 'always_use_content_folder'
 );
 
 $always_use_content_folder = (strpos($site_considerations[$second_level],'always_use_content_folder')!==false ? true : false);
