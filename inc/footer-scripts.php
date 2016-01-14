@@ -572,6 +572,20 @@
 	        })
 		</script>
 
+		<?php if($site_status[$second_level]=='in_CMS' && $is_proofing_environment) { ?>
+			<script>
+				$(document).ready(function(){
+					var newHref;
+					$('a[href^="/sb/"]').each(function(e) {
+						console.log($(this).attr('href'));
+						newHref = '/development' + $(this).attr('href');
+						console.log(newHref);
+						$(this).attr('href',newHref);
+					});
+				}
+			</script>
+		<?php } ?>
+
 		<?php if($is_production_environment) { ?>
 			<script type="text/javascript">
 				setTimeout(function(){var a=document.createElement("script");
