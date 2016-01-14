@@ -574,8 +574,8 @@
 
 		<?php if($site_status[$second_level]=='in_CMS' && $is_proofing_environment) { ?>
 			<script>
-				$(document).ready(function(){
-					console.log($('a[href^="/sb/"]'));
+				$(document).ready(function() {
+					console.log('hey');
 					var newHref;
 					$('a[href^="/sb/"]').each(function(e) {
 						console.log($(this).attr('href'));
