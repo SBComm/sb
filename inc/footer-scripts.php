@@ -571,6 +571,12 @@
 		        <?php } ?>
 	        })
 		</script>
+		
+		<script>
+			$(document).ready(function() {
+				console.log('hey');
+			}
+		</script>
 
 		<?php if($site_status[$second_level]=='in_CMS' && $is_proofing_environment) { ?>
 			<script>
