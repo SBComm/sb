@@ -578,7 +578,7 @@
 			});
 		</script>
 
-		<?php if($site_status[$second_level]=='in_CMS' && $is_proofing_environment) { ?>
+		<?php if(($site_status[$second_level]=='in_CMS' || $site_status[$second_level]=='in_development') && $is_proofing_environment) { ?>
 			<script>
 				$(document).ready(function() {
 					console.log('hey');
