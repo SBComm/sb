@@ -138,7 +138,7 @@ if($is_proofing_environment) {
 <![endif]-->
 <?php
     if($is_proofing_environment) { ?>
-        <div id="proofing-message">
+        <div id="proofing-message development-message">
             <div class="text content"><i class="fa fa-info-circle"></i></i> You are viewing the <strong>Proofing</strong> Environment. <em>Do not share this link externally.</em><span class="close-proofing-message"><i class="fa fa-times"></i>Close</span></div>
         </div>
     <?php }
