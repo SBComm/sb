@@ -761,7 +761,7 @@ body {
     box-sizing: border-box;
 }
 
-#development-message {
+.development-message {
     background: #72D270;
 }
 
