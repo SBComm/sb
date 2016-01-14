@@ -751,19 +751,22 @@ body {
 #proofing-message {
     display: block;
     padding: 10px 15px;
-    background: #ddd;
-    border-bottom: 1px solid #000;
+    background: #70C1DA;
+    border-bottom: 1px solid #999;
     color: #333;
-    text-shadow: 0 1px 0 #fff;
-    font-size: 1.2em;
+    font-size: 1.05em;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+#development-message {
+    background: #72D270;
+}
+
 #proofing-message em {
-    color: #900;
+    font-weight: bold;
 }
 
 #proofing-message .close-proofing-message {
@@ -774,7 +777,9 @@ body {
     cursor: pointer;
     font-size: .8em;
     border-radius: 4px;
-    margin: 0 0 0 6px;
+    margin: 0 0 0 12px;
+    top: -2px;
+    position: relative;
 }
 
 #proofing-message .close-proofing-message .fa {
