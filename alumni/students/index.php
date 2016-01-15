@@ -112,12 +112,12 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <undergrad-admissions> -->
+		                <!-- <alumni> -->
 							<?php 
 								$file = "alumni/info-for/students.php";
 								include($pathForContent . $content . $secLv . $file);
 							?>
-						<!-- </undergrad-admissions> -->
+						<!-- </alumni> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->

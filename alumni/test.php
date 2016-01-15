@@ -110,12 +110,12 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <undergrad-admissions> -->
+		                <!-- <alumni> -->
 							<?php 
 								$file = "alumni-test/misc/social-guidelines.php";
 								include($pathForContent . $content . $secLv . $file);
 							?>
-						<!-- </undergrad-admissions> -->
+						<!-- </alumni> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
