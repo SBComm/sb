@@ -573,6 +573,7 @@
 		</script>
 
 		<?php if(($site_status[$second_level]=='in_CMS' || $site_status[$second_level]=='in_transition') && $is_proofing_environment) { ?>
+			<!-- Update production links to use /development/ on proofing -->
 			<script>
 				$(document).ready(function() {
 					var newHref;
