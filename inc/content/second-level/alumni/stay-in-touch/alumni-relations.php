@@ -15,7 +15,7 @@
                     <p>The Office of Alumni Relations works collaboratively with the Alumni Association and is committed to helping you sustain a life long and meaningful relationship with Stony Brook University.   We strive to offer you valuable benefits and services, alumni volunteer opportunities and engaging experiences around the globe to keep you close to your alma mater.</p>
                 </div>
 
-                <!--<div class="border-box whole clearfix section-border-bottom">
+                <div class="border-box whole clearfix section-border-bottom">
                     <div class="one-quarter">
                         <img src="img/alumni/staff/colson.jpg" alt="Matthew Colson" />
                     </div>
@@ -26,7 +26,7 @@
                         <p><a class="email-link" href="mailto:matthew.colson@stonybrook.edu">matthew.colson@stonybrook.edu</a></p>
                         <p>(631) 632-4932</p>
                     </div>
-                </div>-->
+                </div>
 
                 <div class="border-box whole clearfix section-border-bottom">
                     <div class="one-quarter">
