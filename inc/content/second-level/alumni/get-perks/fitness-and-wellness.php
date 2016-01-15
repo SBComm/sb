@@ -32,7 +32,7 @@
                         <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
                             <thead>
                                 <tr>
-                                    <th>Membership&nbsp;Duration</th>
+                                    <th>Membership Duration</th>
                                     <th>Price</th>
                                 </tr>
                             </thead>
