@@ -338,7 +338,7 @@ video.background-video {
 }
 
 .no-pad-left {
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 
 .pad-right {
@@ -346,7 +346,7 @@ video.background-video {
 }
 
 .no-pad-right {
-    padding-right: 0;
+    padding-right: 0 !important;
 }
 
 .margin-top {
