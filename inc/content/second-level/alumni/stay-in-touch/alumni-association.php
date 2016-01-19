@@ -53,8 +53,8 @@
                     </div>
                     <div class="two-third">
                         <h4>Today's Students are Tomorrow's Alums</h4>
-                        <p>The Alumni Association offers leadership opportunities and annual scholarships to students who demonstrate Stony Brook’s tradition of excellence inside and outside the classroom.</p>
-                        <p>The Alumni Association has also been an enthusiastic co-sponsor of the Student Ambassador program since its inception. Representing our most excellent "alumni-in-residence", each Student Ambassador exemplifies dedication and commitment to Stony Brook University, and supports and helps "host" major campus functions including alumni events.</p>
+                        <p>The Alumni Association offers leadership opportunities and annual <a href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml" target="_blank">scholarships</a> to students who demonstrate Stony Brook’s tradition of excellence inside and outside the classroom.</p>
+                        <p>The Alumni Association has also been an enthusiastic co-sponsor of the <a href="http://studentaffairs.stonybrook.edu/dos/ambassadors/home.shtml" target="_blank">Student Ambassador program</a> since its inception. Representing our most excellent "alumni-in-residence", each Student Ambassador exemplifies dedication and commitment to Stony Brook University, and supports and helps "host" major campus functions including alumni events.</p>
                     </div>
                 </div>
 

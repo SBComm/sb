@@ -341,20 +341,6 @@
                     </div>
                 </div>
 
-                <div class="border-box one-half equal-height-col clearfix">
-                    <div class="one-quarter">
-                        <img src="img/alumni/board/zhang.jpg" alt="Nathan Zhang" />
-                    </div>
-                    <div class="three-quarter">
-                        <h4>Nathan Zhang</h4>
-                        1991 - BE, Electrical Engineering &amp; Computer Science <br />
-                        Global Capital Markets, <br />
-                        Bank of America Merrill Lynch <br />
-                        Managing Director</p>
-                        <p><a class="email-link" href="mailto:nathanczhang@yahoo.com">nathanczhang@yahoo.com</a></p>
-                    </div>
-                </div>
-
                 <h3>Student Representatives</h3>
 
                 <div class="border-box one-half equal-height-col clearfix">

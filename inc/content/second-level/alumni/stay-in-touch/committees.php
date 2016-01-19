@@ -20,7 +20,7 @@
                         <h4>Remote Opportunities</h4>
                         <p>Don't live near campus? No problem. Many of our volunteers live across the country and around the world. Unless otherwise noted, committee membership is open to all alumni, as well as interested University faculty, staff, and students, pending approval by the Alumni Association President.</p>
                         <h4>Get in Touch</h4>
-                        <p>If you are interested in learning more about these and other volunteer opportunities, please contact the Alumni Relations office at 1-877-SEA-WOLF or <a class="email-link" href="mailto:alumni@stonybrook.edu">alumni@stonybrook.edu</a>.</p>
+                        <p>If you are interested in learning more about these and other <a href="alumni/give-back">volunteer opportunities</a>, please contact the Alumni Relations office at 1-877-SEA-WOLF or <a class="email-link" href="mailto:alumni@stonybrook.edu">alumni@stonybrook.edu</a>.</p>
                     </div>
                 </div>
 
