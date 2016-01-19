@@ -189,6 +189,10 @@
                                     <td>Drazen Bacarra, Vahideh Rasekhi</td>
                                 </tr>
                                 <tr>
+                                    <td class="label">Staff Liaison</td>
+                                    <td>Barbara Hakimi</td>
+                                </tr>
+                                <tr>
                                     <td class="label">Board Members</td>
                                     <td>Ahmed Belazi ’06, ’10, Morgan Cato ’04, ’05, Hilda DeJesus ’07, Sabina Sebastian ’08, Navneet Singh ’08, ’11 and Michelle Stein ’02</td>
                                 </tr>
