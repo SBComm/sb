@@ -64,6 +64,36 @@
                     <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/perks/lifelong-learning">Discover opportunities</a>
                 </div>
             </div>
+            <div class="border-box wrapper clearfix">
+                 <div class="sbu-columns border-box content whole clearfix section-border-top     margin-bottom ">
+                    <div class="sbu-columns--column one-third 
+                    left-col-content">
+                          <p>
+                             <img id="career-services" src="/sb/img/alumni/alum-services.jpg" alt="" width="720" height="auto">
+                          </p>
+                    </div>
+                    <div class="sbu-columns--column two-third" style="height: 412px;">
+                          <h4>Career Services</h4>
+                          <p>
+                             <strong>Welcome, SBU alumni!</strong>
+                          </p>
+                          <p>Alumni Career Services is pleased to offer you a variety of lifetime career services,
+                             tools, and resources. Whether you have recently graduated, are looking to enhance
+                             your skills and training, or are ready to make a career change, we hope you will find
+                             this information helpful!
+                          </p>
+                          <p>SBU alumni may use most Career Center services at 
+                             <em>no cost</em>: programs and events, employer information sessions, job fairs, career coaching and
+                             counseling appointments, career assessments, and Handshake, the SBU job/internship
+                             database. On-Campus Recruiting (OCR) is typically limited to current students, but
+                             at employers’ discretion, may be open to new graduates up until one year after graduation.
+                          </p>
+                          <p>
+                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="http://career.stonybrook.edu/alumni_new/services-for-alumni" target="_blank">Explore Career Services</a>
+                          </p>
+                    </div>
+                 </div>
+              </div>
         </div>
     </section>
 
