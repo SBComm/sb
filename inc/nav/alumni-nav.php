@@ -236,7 +236,7 @@
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="04">
-				<a href="alumni/stay-in-touch/alumni-relations" class="clearfix">
+				<a href="alumni/stay-in-touch/contact" class="clearfix">
 					<span class="label clearfix">Contact</span>
 				</a>
 			</li>
