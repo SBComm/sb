@@ -65,9 +65,9 @@
         </div>
 
         <h4>Course Results</h4>
-        <div class="content application-details alert-message red clearfix">
+        <!--<div class="content application-details alert-message red clearfix">
             <p><em class="fa fa-info-circle"></em> Courses shown are from Summer 2015. Schedule for 2016 coming soon.</p>
-        </div>
+        </div>-->
 
         <?php if($show_Online) { ?>
             <div class="content alert-message alert-message-green clearfix">
