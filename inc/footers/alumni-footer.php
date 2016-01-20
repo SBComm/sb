@@ -31,6 +31,7 @@
                                         <a href="alumni/perks/lifelong-learning">Lifelong Learning</a>
                                         <a href="alumni/perks/spirit-and-pride">SBU Pride</a>
                                         <a href="alumni/perks#email-for-life">Email for Life</a>
+                                        <a href="alumni/perks#career-services">Career Services</a>
                                    </div>
                                    <div class="links">
                                         <h4><a href="alumni/give-back">Give Back</a></h4>

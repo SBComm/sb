@@ -163,6 +163,11 @@
 					<span class="label clearfix">Email for Life</span>
 				</a>
 			</li>
+			<li class="<?php if($drop_nav_selected_tab==17) echo('selected'); ?>" data-li-order="05">
+				<a href="alumni/perks#career-services" class="clearfix">
+					<span class="label clearfix">Career Services</span>
+				</a>
+			</li>
 			<li></li>
 		</ul>
 		<div class="mega-blurb">
