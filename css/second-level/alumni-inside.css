@@ -398,6 +398,11 @@ section.full-width-banner-image {
     margin-bottom: 3%;
 }
 
+.chapters .rounded-image-buttons {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .rounded-image-buttons .reunions {
     background-image: url("../../img/alumni/buttons/reunions-nav-box.jpg");
     background-position: 50% 40%;
