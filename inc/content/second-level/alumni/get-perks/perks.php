@@ -44,26 +44,6 @@
                 $file = "widgets/alumni/alumni-email-for-life.php";
                 include($path . $file);
             ?>
-            <div class="whole clearfix clearfix content section-border-top">
-                <div class="one-third">
-                    <img src="img/alumni/buttons/on-campus-benefits.jpg" alt="Wolfie" />
-                </div>
-                <div class="two-third">
-                    <h4>Spirit and Pride</h4>
-                    <p>The spirit of Stony Brook University stays with you long after graduation. Show that you are a proud Stony Brook alumnus with your class ring, custom Stony Brook license plate or by coming back to the Brook to cheer your Seawolves on to victory.</p>
-                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/perks/spirit-and-pride">Get in the SBU Spirit</a>
-                </div>
-            </div>
-            <div class="whole clearfix clearfix content section-border-top">
-                <div class="one-third">
-                    <img src="img/alumni/perks/workshops.jpg" alt="A Stony Brook Alum Professional" />
-                </div>
-                <div class="two-third">
-                    <h4>Lifelong Learning</h4>
-                    <p>Discover opportunities in continuing education, online courses and special invitations to lectures and programs through Lifelong Learning.</p>
-                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/perks/lifelong-learning">Discover opportunities</a>
-                </div>
-            </div>
             <div class="border-box wrapper clearfix">
                  <div class="sbu-columns border-box content whole clearfix section-border-top     margin-bottom ">
                     <div class="sbu-columns--column one-third 
@@ -94,6 +74,26 @@
                     </div>
                  </div>
               </div>
+            <div class="whole clearfix clearfix content section-border-top">
+                <div class="one-third">
+                    <img src="img/alumni/buttons/on-campus-benefits.jpg" alt="Wolfie" />
+                </div>
+                <div class="two-third">
+                    <h4>Spirit and Pride</h4>
+                    <p>The spirit of Stony Brook University stays with you long after graduation. Show that you are a proud Stony Brook alumnus with your class ring, custom Stony Brook license plate or by coming back to the Brook to cheer your Seawolves on to victory.</p>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/perks/spirit-and-pride">Get in the SBU Spirit</a>
+                </div>
+            </div>
+            <div class="whole clearfix clearfix content section-border-top">
+                <div class="one-third">
+                    <img src="img/alumni/perks/workshops.jpg" alt="A Stony Brook Alum Professional" />
+                </div>
+                <div class="two-third">
+                    <h4>Lifelong Learning</h4>
+                    <p>Discover opportunities in continuing education, online courses and special invitations to lectures and programs through Lifelong Learning.</p>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="alumni/perks/lifelong-learning">Discover opportunities</a>
+                </div>
+            </div>
         </div>
     </section>
 
