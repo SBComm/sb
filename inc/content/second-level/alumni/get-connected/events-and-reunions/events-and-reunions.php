@@ -47,7 +47,7 @@
                     include($path . $file);
                 ?>
                 <div class="center-wrapper clearfix">
-                    <a class="sbu-outline-button sbu-outline-button--white arrow-after" href="http://calendar.activedatax.com/stonybrook/EventList.aspx?fromdate=11%2f1%2f2015&amp;todate=11%2f30%2f2015&amp;display=Month&amp;view=DateTime#events" target="_blank">View All Events</a>
+                    <a class="sbu-outline-button sbu-outline-button--white arrow-after" href="http://calendar.activedatax.com/stonybrook/default.aspx?type=&amp;view=Grid&amp;category=8-0" target="_blank">View All Events</a>
                 </div>
             </div>
         </div>
