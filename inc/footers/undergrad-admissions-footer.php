@@ -37,5 +37,10 @@
                                    <span class="code">SAT: 2548</span><span class="code middle">ACT: 2952</span><span class="code">FAFSA: 002838</span>
                               </span>
                          </div>
+                         <div class="col col-4 clearfix">
+                              <p>Title IX prohibits sex discrimination in all forms, including sexual violence and/or harassment.<br />
+                              Contact <strong>Marjolie Leonard</strong>, Director for Title IX and Risk Management, Title IX Coordinator<br />
+                              Office of Diversity and Affirmative Action, 201 Administration Building, Stony Brook University, Stony Brook, NY 11794-0251<br />Marjolie.Leonard@stonybrook.edu / 631.632.6280</p>
+                         </div>
                     </nav>
                 </footer>
