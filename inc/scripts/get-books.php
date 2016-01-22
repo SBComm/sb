@@ -6,10 +6,10 @@ function removeBOM($data) {
     }
 }
 
-function printBooks($path) {
+function printBooks($path, $content) {
 	/* Obtains book data from JSON and creates HTML */
 
-	$book_data_str = file_get_contents($path . "content/second-level/alumni/get-informed/books.json");
+	$book_data_str = file_get_contents($path . '/' . $content . "/second-level/alumni/get-informed/books.json");
 
 	$book_data_str = stripslashes($book_data_str);
 	removeBOM($book_data_str);
@@ -76,6 +76,6 @@ function printBooks($path) {
 
 }
 
-printBooks($path);
+printBooks($path, $content);
 
 ?>
