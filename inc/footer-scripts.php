@@ -11,7 +11,7 @@
 		</script>
 
         <?php includeAsset('js','js/vendor/jquery.sticky.js'); ?>
-		<script>
+		<script> 
 			$(window).load(function(){
 				if($(window).width()>=1022) {
 					if($('.background-video').length) {
@@ -47,6 +47,13 @@
 			includeAsset('js','js/main.js');
 			includeAsset('js','js/vendor/fastclick.js');
 		?>
+
+		<script>
+			$(document).ready(function(){
+				var bodyClass = '<?=$second_level?>';
+			    $('body').addClass(bodyClass);
+			});
+		</script>
 
         <script>
 	        var pageFadeOverwrite = $.urlParam('pf');

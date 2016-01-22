@@ -1034,8 +1034,9 @@ body {
     h4.on-red,
     h5.on-red,
     .inside-content h3.on-red,
-    .inside-content h4.on-red ,
-    .inside-content h5.on-red{
+    .inside-content h4.on-red,
+    .inside-content h5.on-red,
+    .alumni .inside-content h5 {
         display: block;
         background: #800;
         color: #fff;
@@ -1045,7 +1046,8 @@ body {
         font-weight: normal;
     }
 
-    h5.on-red {
+    h5.on-red,
+    .alumni .inside-content h5 {
         width: auto;
         font-family: 'Trade Gothic W01 Light';
         clear: both;
