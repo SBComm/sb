@@ -329,7 +329,7 @@
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
-                            <a href="undergraduate-admissions/academics/program-details?code=ent">Entreneuership</a>
+                            <a href="undergraduate-admissions/academics/program-details?code=ent">Entrepreneurship</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
