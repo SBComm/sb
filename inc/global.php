@@ -57,7 +57,8 @@ $site_status = array(
     'alumni'                => 'in_transition',
     'faculty-experts'       => 'in_CMS',
     'experts'               => 'in_CMS',
-    'faculty-directory'     => 'in_CMS'
+    'faculty-directory'     => 'in_CMS',
+    'community-relations'   => 'in_transition'
 );
 
 // Define considerations; Comma-separated value for multiple considerations
@@ -108,7 +109,7 @@ if($is_proofing_environment) {
 
     }
 
-    if($site_status[$second_level]=='in_development' || $always_use_content_folder) {
+    if($site_status[$second_level]=='in_development' || $always_use_content_folder || $site_status[$second_level]=='') {
         
         if($is_local_environment) {
             $content = "content/";
