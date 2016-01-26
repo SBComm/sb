@@ -2156,6 +2156,25 @@ body {
         .event-gallery p {
             margin: 1em 0 0;
         }
+
+        .tweets-and-news {
+            font-size: 1.3em;
+        }
+
+        .tweets-and-news .stream .twitter-user {
+            display: block;
+            padding: 5px 0 15px;
+        }
+    }
+
+    @media only screen and (min-width: 520px) {
+        .tweets-and-news .news a strong {
+            width: 10%;
+        }
+
+        .tweets-and-news .news a span {
+            width: 90%;
+        }
     }
 
     @media only screen and (min-width: 540px) {
@@ -2177,9 +2196,27 @@ body {
 
     }
 
+    @media only screen and (min-width: 680px) {
+        .tweets-and-news .news a strong {
+            width: 14%;
+        }
+
+        .tweets-and-news .news a span {
+            width: 86%;
+        }
+    }
+
     @media only screen and (min-width: 768px) {
         .photo-boxes .text {
             font-size: 1.1em;
+        }
+
+        .tweets-and-news .news a strong {
+            width: 8%;
+        }
+
+        .tweets-and-news .news a span {
+            width: 92%;
         }
     }
 
@@ -2208,6 +2245,56 @@ body {
         .photo-boxes-quarter .item {
             width: 23%;
             margin: 1%;
+        }
+
+        .tweets-and-news {
+            padding: 6em 0;
+        }
+
+        .tweets-and-news .wrapper {
+            display: block;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 1060px;
+            margin: 0 auto;
+        }
+
+        .tweets-and-news h3 {
+            padding: .8em 1em;
+        }
+
+        .tweets-and-news .twitter-feed,
+        .tweets-and-news .news-feed {
+            display: inline-block;
+            float: left;
+            width: 50%;
+            margin: 0;
+            padding: 0 4%;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .tweets-and-news .twitter-feed {
+            border-right: 1px solid #ddd;
+        }
+
+        .tweets-and-news .stream, .tweets-and-news .news {
+            padding: 10px 0;
+        }
+
+        .tweets-and-news .news a strong {
+            width: 13%;
+        }
+
+        .tweets-and-news .news a span {
+            width: 87%;
+        }
+
+        .tweets-and-news .cta {
+            font-size: 1.3em;
         }
     }
 
@@ -3118,6 +3205,218 @@ body {
     .wordpress-blue-bkg {
         background: #21759b;
     }
+
+
+
+    /* Tweets and News, as on 40 Under Forty */
+
+    .tweets-and-news {
+        color: #000;
+        background: #fff;
+        margin: 0;
+        padding: 0;
+        font-family:'Trade Gothic Next W01';
+    }
+
+    .tweets-and-news .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    .tweets-and-news h3 {
+        margin: 0 0 10px;
+        color: #fff;
+        background: #4f4c4c;
+        font-family: 'Trade Gothic W01 Bold 2';
+        font-weight: normal;
+        text-transform: uppercase;
+        padding: 1em;
+        font-size: 1.2em;
+    }
+
+    .tweets-and-news h3:before {
+        content: "\f099";
+        font-size: 1em;
+        display: inline-block;
+        color: #78cdf0;
+        margin: 0 10px 0 0;
+    }
+
+    .tweets-and-news strong {
+        font-family: 'Trade Gothic W01 Bold 2';
+        font-weight: normal;
+    }
+
+    .tweets-and-news .stream,
+    .tweets-and-news .news {
+        display: block;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px 5%;
+    }
+
+    .tweets-and-news .stream a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .tweets-and-news .stream li,
+    .tweets-and-news .news li {
+        font-size: 14px;
+        list-style: none;
+        margin: 0 0 10px;
+    }
+
+    .tweets-and-news .stream .section-thumb {
+        display: inline-block;
+        float: left;
+        padding: 0 10px 0 0;
+    }
+
+    .tweets-and-news .stream .twitter-user {
+        display: block;
+        padding: 9px 0 15px;
+        font-size: 1.05em;
+        line-height: 1.2em;
+    }
+
+    .tweets-and-news .stream .section-text a {
+        color: #900;
+    }
+
+    .tweets-and-news .stream .twitter-user a {
+        color: #888;
+    }
+
+    .tweets-and-news .stream .twitter-user strong {
+        display: block;
+        color: #000;
+    }
+
+    .tweets-and-news .stream .section-intro {
+        display: block;
+        float: right;
+        padding: 4px 0 0;
+    }
+
+    .tweets-and-news .stream .section-intro a {
+        color: #888;
+        font-size: .85em;
+        font-family:'TradeGothicNextW02-Ital';
+    }
+
+    .tweets-and-news .stream a:hover,
+    .tweets-and-news .news a:hover {
+        color: #900 !important;
+    }
+
+    .tweets-and-news .dcsns-toolbar {
+        display: none;
+    }
+
+    .tweets-and-news .wrap {
+        display: block;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .tweets-and-news .cta {
+        margin: .8em 0 1.8em;
+    }
+
+    .tweets-and-news .news-feed h3:before {
+        content: "\e90c";
+        color: #fff;
+    }
+
+    .tweets-and-news .news li {
+        padding: .4em 0;
+        margin: 0 0 .4em;
+    }
+
+    .tweets-and-news .news a {
+        color: #000;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+    }
+
+    .tweets-and-news .news a span,
+    .tweets-and-news .news a strong {
+        display: inline-block;
+        float: left;
+    }
+
+    .tweets-and-news .news a span {
+        width: 84%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .tweets-and-news .news a strong {
+        width: 16%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+        color: #900;
+        font-family:'Trade Gothic W01 Bold 2';
+        font-size: 1.2em;
+        padding: 4px 6px 0 0;
+        color: #000;
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    .tweets-and-news .news a:hover {
+        color: #900;
+        text-decoration: none;
+    }
+
+    .tweets-and-news .news a span:after { 
+        font-family: 'sbu-icons';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        letter-spacing: 0;
+        -webkit-font-feature-settings: "liga";
+        -moz-font-feature-settings: "liga=1";
+        -moz-font-feature-settings: "liga";
+        -ms-font-feature-settings: "liga" 1;
+        -o-font-feature-settings: "liga";
+        font-feature-settings: "liga";
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f08e";
+        width: 12px;
+        font-size: .85em;
+        margin: 0 0 0 6px;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        opacity: 0;
+        color: #900;
+    }
+
+
+    .tweets-and-news .news a span:hover:after {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        opacity: 1;
+    }
+
+
+
+
 
     /* General button style (reset) */
 
