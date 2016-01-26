@@ -213,7 +213,7 @@
              </div>
             <div class="border-box wrapper clearfix">
                 <div class="content white">
-                    <ul class="calendar-items clx`earfix">
+                    <ul class="calendar-items clearfix">
                         <?php 
                             /*
                             // PHP will transform event data from RSS feed in following format
@@ -244,19 +244,16 @@
                             <a class="fa-arrow-after" href="https://stonybrook.collegiatelink.net/Events" target="_blank">View All Events</a>
                         </li>
                     </ul>
-
-                    <div class="activities-links clearfix external-link-hover-wrapper">
-                        <a href="http://goseawolves.cstv.com/" target="_blank">Athletics</a>
-                        <a href="http://studentaffairs.stonybrook.edu/rec/" target="_blank">Campus Recreation</a>
-                        <a href="https://stonybrook.collegiatelink.net/" target="_blank">Clubs and Organizations</a>
-                        <a href="http://www.stonybrook.edu/craftcenter" target="_blank">Crafts Center</a>
-                        <a href="http://www.staller.sunysb.edu/" target="_blank">Staller Center for the Arts</a>
-                        <a href="http://studentaffairs.stonybrook.edu/for/index.shtml" target="_blank">SAC and SB Union</a>
-                        <a href="http://studentaffairs.stonybrook.edu/sac/art_gallery/artgalleryhome.shtml" target="_blank">SAC Gallery</a>
-                        <a href="http://studentaffairs.stonybrook.edu/sac/index.shtml" target="_blank">Student Activities</a>
-                        <a href="http://www.universitycafe.org/" target="_blank">The University Café</a>
-                        <a href="http://www.stonybrook.edu/commcms/wang/" target="_blank">Wang Center</a>
-                        <a href="http://studentaffairs.stonybrook.edu/rec/wellness_info.shtml">Wellness Center</a>
+                    <div class="tweets-and-news">
+                        <div class="twitter-feed clearfix">
+                            <div id="wall">
+                                <div id="social-stream" class="dcsns shorten"><div class="dcsns-content"><ul class="stream"><li rel="651" class="clearfix dcsns-li dcsns-twitter dcsns-feed-0"><div class="inner"><span class="section-thumb"><a href="https://www.twitter.com/stonybrookalum" class="thumb" target="_blank"><img src="https://pbs.twimg.com/profile_images/637250259752718336/SxwnLa40_normal.png" alt=""/></a></span><span class="section-text"><span class="twitter-user"><a href="https://www.twitter.com/stonybrookalum"><strong>Stony Brook Alumni </strong>@stonybrookalum</a></span>Looking forward to a night of fun and celebration at tonight's #<a href="http://twitter.com/search/%23SBU40Under40" target="_blank">SBU40Under40</a> reception! <a href="https://t.co/P6LjGfABTR" target="_blank">https://t.co/P6LjGfABTR</a> <a href="https://t.co/a32YfMg3ob" target="_blank">https://t.co/a32YfMg3ob</a></span><span class="clear"></span></div><span class="section-intro"><a href="https://www.twitter.com/stonybrookalum" target="_blank"></a> <span><a href="https://twitter.com/stonybrookalum/status/692021272155439104" target="_blank">10 mins ago</a></span></span><a href="https://www.twitter.com/stonybrookalum"><i class="font-icon fa fa-twitter"></i></a></li><li rel="651" class="clearfix dcsns-li dcsns-twitter dcsns-feed-1"><div class="inner"><span class="section-thumb"><a href="https://www.twitter.com/stonybrookalum" class="thumb" target="_blank"><img src="https://pbs.twimg.com/profile_images/637250259752718336/SxwnLa40_normal.png" alt=""/></a></span><span class="section-text"><span class="twitter-user"><a href="https://www.twitter.com/stonybrookalum"><strong>Stony Brook Alumni </strong>@stonybrookalum</a></span>Looking forward to a night of fun and celebration at tonight's #<a href="http://twitter.com/search/%23SBU40Under40" target="_blank">SBU40Under40</a> reception! <a href="https://t.co/P6LjGfABTR" target="_blank">https://t.co/P6LjGfABTR</a> <a href="https://t.co/a32YfMg3ob" target="_blank">https://t.co/a32YfMg3ob</a></span><span class="clear"></span></div><span class="section-intro"><a href="https://www.twitter.com/stonybrookalum" target="_blank"></a> <span><a href="https://twitter.com/stonybrookalum/status/692021272155439104" target="_blank">10 mins ago</a></span></span><a href="https://www.twitter.com/stonybrookalum"><i class="font-icon fa fa-twitter"></i></a></li><li rel="1755" class="clearfix dcsns-li dcsns-twitter dcsns-feed-1"><div class="inner"><span class="section-thumb"><a href="https://www.twitter.com/StonyBrookBASE" class="thumb" target="_blank"><img src="https://pbs.twimg.com/profile_images/679611515423555585/SDNncnAw_normal.jpg" alt=""/></a></span><span class="section-text"><span class="twitter-user"><a href="https://www.twitter.com/StonyBrookBASE"><strong>Stony Brook Baseball </strong>@StonyBrookBASE</a></span>RT @<a href="http://www.twitter.com/SeawolvesUnited" target="_blank">SeawolvesUnited</a>: Stony Brook's "40 Under Forty" to honor four with ties to @<a href="http://www.twitter.com/sbathletics" target="_blank">sbathletics</a> • <a href="https://t.co/al5XDZ465j" target="_blank">https://t.co/al5XDZ465j</a> #<a href="http://twitter.com/search/%23SBU40Under40" target="_blank">SBU40Under40</a> https:/…</span><span class="clear"></span></div><span class="section-intro"><a href="https://www.twitter.com/StonyBrookBASE" target="_blank"></a> <span><a href="https://twitter.com/StonyBrookBASE/status/692016643644456962" target="_blank">29 mins ago</a></span></span><a href="https://www.twitter.com/StonyBrookBASE"><i class="font-icon fa fa-twitter"></i></a></li></ul></div><div class="dcsns-toolbar"><div class="controls"><ul><li><a href="#" class="prev"></a></li><li><a href="#" class="next"></a></li></ul></div></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="wrap">
+                                <a class="cta cta-outline clearfix arrow-after social-share-link-larger" href="https://twitter.com/hashtag/sbu40under40">View More Tweets</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
