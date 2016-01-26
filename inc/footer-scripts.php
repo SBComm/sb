@@ -334,6 +334,41 @@
 
         <?php } ?>
 
+        <?php if($social_feed_widget) { ?>
+			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
+			<?php includeAsset('js','js/social/jquery.site.js'); ?>
+			<?php includeAsset('js','js/social/jquery.social.stream.1.5.4.js'); ?>
+			<?php includeAsset('js','js/social/preload-messages.js'); ?>
+
+			<script type="text/javascript">
+				jQuery(document).ready(function($){
+					$('#social-stream').dcSocialStream({
+						feeds: {
+							twitter: {
+								id: 'stonybrookalum,#sbu40under40',
+								intro: '',
+								search: '',
+								out: 'intro,thumb,text',
+								thumb: true
+							}
+						},
+						rotate: {
+							delay: 0
+						},
+						control: false,
+						filter: false,
+						wall: false,
+						order: 'date',
+						max: 'limit',
+						limit: 2,
+						iconPath: 'images/dcsns-dark/',
+						imagePath: 'images/dcsns-dark/'
+					});
+								 
+				});
+			</script>
+        <?php } ?>
+
         <?php if($page_type=='second-level' && $second_level=='analytics') { ?>
             <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 			<?php includeAsset('js','plugins/spinner/spin.min.js'); ?>

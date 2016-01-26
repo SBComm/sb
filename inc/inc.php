@@ -116,7 +116,8 @@
 
     $nav_type         = 'default'; //default, big-n-bold
 
-    $social_sidebar   = '';
+    $social_sidebar     = '';
+    $social_feed_widget = false;
 
     $map              = false;
     $live_filter      = false;
