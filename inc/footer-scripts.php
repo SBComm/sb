@@ -335,10 +335,12 @@
         <?php } ?>
 
         <?php 
+        /*
         echo $social_feed_channel["twitter"];
         echo 'social_feed_num_items: '.$social_feed_num_items;
         echo 'social_feed_widget: '.$social_feed_widget;
         echo 'social_channel_id: '.$social_channel_id;
+        */
         if($social_feed_widget) { ?>
 			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
 			<?php includeAsset('js','js/social/jquery.site.js'); ?>
@@ -365,7 +367,7 @@
 						wall: false,
 						order: 'date',
 						max: 'limit',
-						limit: <?=$social_feed_num_items?>,
+						limit: 5,
 						iconPath: 'images/dcsns-dark/',
 						imagePath: 'images/dcsns-dark/'
 					});
