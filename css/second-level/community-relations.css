@@ -75,6 +75,13 @@
     font-size: 1.3em;
 }
 
+.tweets-and-news .stream .section-intro {
+    display: block;
+    float: none;
+    padding: 4px 0 0;
+    text-align: right;
+}
+
 .tweets-and-news .stream .section-intro a {
     color: #ccc;
 }
