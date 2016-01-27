@@ -116,6 +116,10 @@
             includeAsset('css','css/elements/filter/live-filter-sticky.css','all');
         } ?>
 
+        <?php if($page_type=='second-level' && $second_level=='community-relations') { ?>
+            <?php includeAsset('css','css/second-level/for-students.css'); ?>
+        <? } ?>
+
         <?php if($page_type=='second-level' || ($page_type=='social-hub'&&$second_level=='alumni')) { ?>
             <?php includeAsset('css','css/second-level.css'); ?>
             <?php includeAsset('css','css/second-level/'.$second_level.'.css'); ?>
