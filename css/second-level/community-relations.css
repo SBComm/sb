@@ -69,6 +69,14 @@
     color: #fff !important;
 }
 
+.tweets-and-news .dcsns-content {
+    height: auto !important;
+}
+
+.tweets-and-news .bottom-fade {
+    display: none !important;
+}
+
 @media only screen and (min-width: 700px) {
     .tweets-and-news .twitter-feed, .tweets-and-news .news-feed {
         display: inline-block;
