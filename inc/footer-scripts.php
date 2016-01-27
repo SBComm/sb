@@ -367,7 +367,7 @@
 						wall: false,
 						order: 'date',
 						max: 'limit',
-						limit: 5,
+						limit: 1,
 						iconPath: 'images/dcsns-dark/',
 						imagePath: 'images/dcsns-dark/'
 					});
