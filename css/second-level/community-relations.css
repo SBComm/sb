@@ -55,10 +55,24 @@
 }
 
 .tweets-and-news i.font-icon.fa.fa-twitter {
+    display: none;
+}
+
+.tweets-and-news .stream .section-intro:before {
+    display: inline-block;
     color: #4ec2dc;
-    margin-left: 67%;
+    content: "\f099";
+    padding-top: 5px;
+    margin: 0 1px 0 0;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
     font-size: 1.3em;
-    padding-top: 5px
 }
 
 .tweets-and-news .stream .section-intro a {
