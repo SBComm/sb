@@ -16,6 +16,7 @@
 .tweets-and-news .stream li {
     width: 100%;
     padding: 0;
+    margin: 0 0 18px;
 }
 
 .tweets-and-news .stream .twitter-user {
