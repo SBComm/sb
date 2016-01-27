@@ -334,7 +334,9 @@
 
         <?php } ?>
 
-        <?php if($social_feed_widget) { ?>
+        <?php 
+        $social_feed_channel["twitter"] = 'SBUCommunity';
+        if($social_feed_widget) { ?>
 			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
 			<?php includeAsset('js','js/social/jquery.site.js'); ?>
 			<?php includeAsset('js','js/social/jquery.social.stream.1.5.4.js'); ?>
@@ -345,7 +347,7 @@
 					$('#social-stream').dcSocialStream({
 						feeds: {
 							twitter: {
-								id: 'stonybrookalum,#sbu40under40',
+								id: '<?=$social_feed_channel["twitter"]?>',
 								intro: '',
 								search: '',
 								out: 'intro,thumb,text',
