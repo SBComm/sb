@@ -335,7 +335,6 @@
         <?php } ?>
 
         <?php 
-        $social_feed_channel["twitter"] = 'SBUCommunity';
         if($social_feed_widget) { ?>
 			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
 			<?php includeAsset('js','js/social/jquery.site.js'); ?>
@@ -362,7 +361,7 @@
 						wall: false,
 						order: 'date',
 						max: 'limit',
-						limit: 2,
+						limit: <?=$social_feed_num_items?>,
 						iconPath: 'images/dcsns-dark/',
 						imagePath: 'images/dcsns-dark/'
 					});
