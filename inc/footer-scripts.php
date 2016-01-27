@@ -335,6 +335,7 @@
         <?php } ?>
 
         <?php 
+        echo $social_feed_num_items;
         if($social_feed_widget) { ?>
 			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
 			<?php includeAsset('js','js/social/jquery.site.js'); ?>
@@ -361,7 +362,7 @@
 						wall: false,
 						order: 'date',
 						max: 'limit',
-						limit: <?=$social_feed_num_items?>,
+						limit: 5,
 						iconPath: 'images/dcsns-dark/',
 						imagePath: 'images/dcsns-dark/'
 					});
