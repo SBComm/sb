@@ -1,5 +1,5 @@
 (function() {
-	var triggerBttn = document.getElementById( 'trigger-overlay' ),
+	var triggerBttn = document.getElementById( 'trigger-overlay-btn' ),
 		triggerBoxes = document.getElementsByClassName('trigger-overlay'),
 		overlay = document.querySelector( 'div.overlay' ),
 		closeBttn = overlay.querySelector( 'button.overlay-close' );
@@ -22,6 +22,8 @@
 					if( ev.propertyName !== 'visibility' ) return;
 					this.removeEventListener( transEndEventName, onEndTransitionFn );
 				}
+					console.log(ev);
+					console.log(ev.propertyName);
 				classie.remove( overlay, 'close' );
 			};
 			if( support.transitions ) {
