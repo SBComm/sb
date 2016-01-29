@@ -15,7 +15,7 @@
 	margin: 0;
 	max-height: 100%;
 	width: 50%;
-	background: #3085a3;
+	background: url("../img/branding/rays/black-rays-full.jpg") no-repeat 0 0;
 	text-align: center;
 	cursor: pointer;
 	height: auto;
@@ -797,7 +797,7 @@ figure.effect-honey:hover h2 i {
 	width: 100%;
 }
 
-.story-footer .copyright-line {
+.copyright-line {
 	text-align: center;
 	padding: 1em 0;
 	background: #111

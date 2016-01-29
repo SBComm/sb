@@ -43,10 +43,9 @@
 						<img class="desktop-head" src="img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg" alt="The Year in Review: Top 15 Stories of 2015"/>
 					</figure>
 					<figure class="effect-honey trigger-overlay calc-height" data-story-id="1">
-						<img src="img/1.jpg" alt="img04"/>
+						<img src="img/landing/cancer/cancer-1.jpg" alt="Smoke stacks"/>
 						<figcaption>
-							<h2>STONY BROOK RESEARCHERS PROVE EXTERNAL RISKS
-CAUSE MOST CANCERS</h2>
+							<h2>Stony Brook Researchers Prove External Risks Cause Most Cancers</h2>
 						</figcaption>			
 					</figure>
 					<figure class="effect-honey trigger-overlay" data-story-id="2">
@@ -141,10 +140,9 @@ CAUSE MOST CANCERS</h2>
 					</figure>
 				</div>
 			</div>
-			<nav class="codrops-demos">
-				<!--<a class="current-demo" href="index.html">Set 1</a>
-				<a href="index2.html">Set 2</a>-->
-			</nav>
+			<div class="copyright-line">
+				<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
+			</div>
 		</div>
 		<!--
 		<p><button id="trigger-overlay-btn" type="button"></button></p>
@@ -161,11 +159,12 @@ CAUSE MOST CANCERS</h2>
 		<div class="overlay overlay-scale">
 			
 			<div class="overlay-wrapper clearfix" data-story-id="1">
-				<div class="img-box"><button type="button" class="overlay-close overlay-close-x">Close</button></div>
+				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');"><button type="button" class="overlay-close overlay-close-x">Close</button></div>
 				<div class="content-box">
-					<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+					<h2>Stony Brook Researchers Prove External Risks Cause Most Cancers</h2>
 					<div class="story">
-						<p>Earliest Stone Artifacts Push Back Archaeological Record by 700,000 Years—More Thals even earlier than we thought—some 700,000 years older. That’s the finding of the West <img class="mobile-head" src="img/stories/100-thousandth-baby.jpg" alt=""/> Turkanacts, dating to 3.3 million years ago, at a site named Lomekwi 3 on the western shore of Lake Turkana in northern Kenya. “These tools shed light on an unexpected and previously unknown.</p>
+						<p><img class="mobile-head" src="img/stories/cancer-center-group.jpg" alt=""/> An interdisciplinary team of Stony Brook University researchers, led by Yusuf Hannun, MD, director of the Stony Brook University Cancer Center, garnered worldwide press coverage for their paper published in Nature that provided quantitative evidence that lifestyle and environmental exposures weigh heavily on the development of most cancers. Their research was inspired by and contradicted an earlier study published in Science, which concluded
+that most cancers could be attributed to "bad luck."</p>
 						<div class="button-wrapper clearfix">
 							<a class="button" href="#" target="_blank">Read Full Story</a>
 							<a class="button social-share facebook-share" href="#" target="_blank">Share on Facebook</a>
@@ -174,7 +173,7 @@ CAUSE MOST CANCERS</h2>
 					</div>
 				</div>
 				<div class="story-footer clearfix">
-					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to list</button>
+					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
 					<div class="copyright-line">
 						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
 					</div>
@@ -194,7 +193,7 @@ CAUSE MOST CANCERS</h2>
 					</div>
 				</div>
 				<div class="story-footer clearfix">
-					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to list</button>
+					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
 					<div class="copyright-line">
 						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
 					</div>
@@ -214,7 +213,7 @@ CAUSE MOST CANCERS</h2>
 					</div>
 				</div>
 				<div class="story-footer clearfix">
-					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to list</button>
+					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
 					<div class="copyright-line">
 						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
 					</div>
