@@ -18,15 +18,16 @@
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
+	height: auto;
 }
 
 .grid figure img {
 	position: relative;
 	display: block;
-	min-height: 100%;
 	max-width: 100%;
 	opacity: 0.8;
-	width: 100%;;
+	width: 100%;
+	height: auto;
 }
 
 .grid figure.header-image-wraper img {
@@ -618,8 +619,11 @@ figure.effect-honey:hover h2 i {
 	width: 100%;
 	height: 100%;
 	overflow: auto;
-	-webkit-overflow-scrolling: touch;
 	background: #222;
+}
+
+.overlay.open .overlay-wrapper {
+	-webkit-overflow-scrolling: touch;
 }
 
 .overlay-wrapper .img-box {

@@ -16,6 +16,9 @@ function getItem(windowWidth) {
 }
 
 $(document).ready(function(){
+
+	// attach fastclick
+	FastClick.attach(document.body);
 	
 	var $triggerBttn = $('#trigger-overlay-btn'),
 		$triggerBox = $('.trigger-overlay'),
