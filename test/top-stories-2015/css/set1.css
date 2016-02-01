@@ -649,12 +649,11 @@ figure.effect-honey:hover h2 i {
 
 .img-box .sbu-logo {
 	display: block;
-	position: absolute;
-	top: 30px;
-	left: 4%;
+	position: relative;;;
 	width: 50%;
 	max-width: 160px;
-	margin: 0;
+	margin: 30px 0 0 4%;
+	float: left;
 }
 
 .overlay-wrapper .content-box {
