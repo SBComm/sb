@@ -185,7 +185,10 @@
 		<div class="overlay overlay-scale">
 			
 			<div class="overlay-wrapper clearfix" data-story-id="1" data-story-title="Stony Brook Researchers Prove External Risks Cause Most Cancers" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/test/top-stories-2015/img/landing/cancer/cancer-1.jpg">
-				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');"><button type="button" class="overlay-close overlay-close-x">Close</button></div>
+				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');">
+					<img class="sbu-logo" src="img/sbu-logo-white.png" alt="Stony Brook University logo" />
+					<button type="button" class="overlay-close overlay-close-x">Close</button>
+				</div>
 				<div class="content-box">
 					<h2>Stony Brook Researchers Prove External Risks Cause Most Cancers</h2>
 					<div class="story">
@@ -197,50 +200,7 @@ that most cancers could be attributed to "bad luck."</p>
 							<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new">Share on Twitter</a>
 						</div>
 					</div>
-				</div>
-				<div class="story-footer clearfix">
-					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
-					<div class="copyright-line">
-						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
-					</div>
-				</div>
-			</div>
-			
-			<div class="overlay-wrapper clearfix" data-story-id="2" data-story-title="Stony Brook Researchers Prove External Risks Cause Most Cancers" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/test/top-stories-2015/img/landing/cancer/cancer-1.jpg">
-				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');"><button type="button" class="overlay-close overlay-close-x">Close</button></div>
-				<div class="content-box">
-					<h2>Stony Brook Researchers Prove External Risks Cause Most Cancers</h2>
-					<div class="story">
-						<p><img class="mobile-head" src="img/stories/cancer-center-group.jpg" alt=""/> An interdisciplinary team of Stony Brook University researchers, led by Yusuf Hannun, MD, director of the Stony Brook University Cancer Center, garnered worldwide press coverage for their paper published in Nature that provided quantitative evidence that lifestyle and environmental exposures weigh heavily on the development of most cancers. Their research was inspired by and contradicted an earlier study published in Science, which concluded
-that most cancers could be attributed to "bad luck."</p>
-						<div class="button-wrapper clearfix">
-							<a class="button story-read-trigger" href="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" target="_blank">Read Full Story</a>
-							<button class="button social-share facebook-share facebook-share-trigger" target="_blank">Share on Facebook</button>
-							<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new">Share on Twitter</a>
-						</div>
-					</div>
-				</div>
-				<div class="story-footer clearfix">
-					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
-					<div class="copyright-line">
-						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
-					</div>
-				</div>
-			</div>
-			
-			<div class="overlay-wrapper clearfix" data-story-id="3" data-story-title="Stony Brook Researchers Prove External Risks Cause Most Cancers" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/test/top-stories-2015/img/landing/cancer/cancer-1.jpg">
-				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');"><button type="button" class="overlay-close overlay-close-x">Close</button></div>
-				<div class="content-box">
-					<h2>Stony Brook Researchers Prove External Risks Cause Most Cancers</h2>
-					<div class="story">
-						<p><img class="mobile-head" src="img/stories/cancer-center-group.jpg" alt=""/> An interdisciplinary team of Stony Brook University researchers, led by Yusuf Hannun, MD, director of the Stony Brook University Cancer Center, garnered worldwide press coverage for their paper published in Nature that provided quantitative evidence that lifestyle and environmental exposures weigh heavily on the development of most cancers. Their research was inspired by and contradicted an earlier study published in Science, which concluded
-that most cancers could be attributed to "bad luck."</p>
-						<div class="button-wrapper clearfix">
-							<a class="button story-read-trigger" href="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" target="_blank">Read Full Story</a>
-							<button class="button social-share facebook-share facebook-share-trigger" target="_blank">Share on Facebook</button>
-							<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new">Share on Twitter</a>
-						</div>
-					</div>
+					<img class="itk-logo" src="img/sbu-in-the-know.png" />
 				</div>
 				<div class="story-footer clearfix">
 					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
