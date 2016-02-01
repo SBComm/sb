@@ -728,6 +728,8 @@ figure.effect-honey:hover h2 i {
 	display: block;;;
 	width: 100%;
     float: left;
+    line-height: inherit;
+    text-align: left;
 }
 
 .content-box .button {
@@ -766,6 +768,7 @@ figure.effect-honey:hover h2 i {
 	position: relative;
 	z-index: 106;
 	float: none;
+	text-align: center;
 }
 
 .content-box .button-wrapper {
@@ -789,6 +792,25 @@ figure.effect-honey:hover h2 i {
 
 .button.twitter-share:hover {
     background: #4ec2dc;
+}
+
+.button.facebook-share.submitted,
+.button.facebook-share.submitted:hover {
+    background: #3b5998;
+    color: #A9D4FF;
+    opacity: .5;
+}
+
+.button.twitter-share.submitted,
+.button.twitter-share.submitted:hover {
+    background: #4ec2dc;
+    color: #E8FEFF;
+    opacity: .4;
+}
+
+.button.social-share.submitted:after {
+	content: "\f00c";
+    font-size: .9em;
 }
 
 .story-footer {
@@ -1441,7 +1463,7 @@ figure.effect-chico:hover p {
 
 	.content-box .button {
 		width: auto;
-		margin: 30px 25px 20px 0;
+		margin: 20px 30px 10px 0;
 	}
 
 }

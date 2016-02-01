@@ -1,3 +1,9 @@
+String.prototype.trimToLength = function(m) {
+  return (this.length > m) 
+    ? jQuery.trim(this).substring(0, m).split(" ").slice(0, -1).join(" ") + "..."
+    : this;
+};
+
 function calcHeight(item,header) {
 	var newHeight = item.height() * 2;
 	//console.log(newHeight);
@@ -86,6 +92,36 @@ function calcContentHeight(ww,$imgBox,$contentBox,$buttonBox) {
 	}
 }
 
+function getStoryData($overlayContent) {
+
+	var storyData = {
+		storyTitle : 	$overlayContent.attr('data-story-title'),
+		storyURL : 		$overlayContent.attr('data-story-url'),
+		storyImageURL : $overlayContent.attr('data-story-img-url')
+	};
+
+	storyData.storySlug = storyData.storyTitle.replace(/\s+/g, '-').toLowerCase();
+	storyData.storyDesc = $overlayContent.find('.story').text().trimToLength(150);
+
+	return storyData;
+}
+
+function setMetaTags(storyData) {
+	$("meta[property='og\\:title']").attr("content", storyData.storyTitle);
+	$("meta[property='og\\:description']").attr("content", storyData.storyDesc);
+	$("meta[property='og\\:url']").attr("content", storyData.storyURL);
+	$("meta[property='og\\:image']").attr("content", storyData.storyImageURL);
+}
+
+function setTwitterURL($overlayContent) {
+	var tweetHref = 'http://twitter.com/share?text=Check this out! "'+getStoryData($overlayContent).storyTitle+'"&amp;url='+getStoryData($overlayContent).storyURL;
+	console.log(tweetHref);
+
+
+
+	$overlayContent.find('.twitter-share-trigger').attr('href',tweetHref);
+}
+
 $(document).ready(function(){
 
 	// attach fastclick
@@ -108,6 +144,8 @@ $(document).ready(function(){
 	function toggleOverlay(storyID) {
 		//console.log(storyID);
 		//console.log('toggle...');
+		
+		var storyData;
 
 		if($overlay.hasClass('open')) {
 
@@ -149,6 +187,29 @@ $(document).ready(function(){
 			$overlay.addClass('open');
 
 			setContentHeight(ww,getOpenOverlay());
+
+			storyData = getStoryData($overlayContent);
+
+			//setMetaTags(storyData);
+
+			setTwitterURL($overlayContent);
+
+			console.log(storyData.storyTitle);
+			console.log(storyData.storySlug);
+			console.log(storyData.storyURL);
+			console.log(storyData.storyImageURL);
+			console.log(storyData.storyDesc);
+
+			var gaSlug = '/'+storyData.storySlug;
+
+			//send GA pageview
+			/*
+			ga('set', {
+				page: gaSlug,
+				title: storyTitle
+			});
+			ga('send', 'pageview');
+			*/
 		}
 
 		//console.log(getCurrrentStoryId());
@@ -184,6 +245,33 @@ $(document).ready(function(){
 		calcHeight(getItem(ww),header);
 		var $openOverlay = getOpenOverlay();
 		setContentHeight(ww,$openOverlay);
+	});
+
+	/* social share */
+
+	$('.facebook-share-trigger').on('click',function() {
+		var storyURL = getStoryData(getOpenOverlay()).storyURL;
+		console.log(storyURL);
+
+		FB.ui({
+			method: 'share',
+			href: storyURL,
+		}, function(response){
+			var $fbTrigger = getOpenOverlay().find('.facebook-share-trigger');
+			$fbTrigger.addClass('submitted').attr('disabled','disabled');
+		});
+	});
+
+	$('.twitter-share-trigger').on('click',function(e) {
+		window.open(this.href, "Share on Twitter", "width=600, height=600");
+		var $tweetTrigger = getOpenOverlay().find('.twitter-share-trigger');
+		$tweetTrigger.addClass('submitted');
+    	return false;
+	});
+
+	$('.story-read-trigger').on('click',function(e) {
+		window.open(this.href, "Read on SBU", "width=960, height=750");
+    	return false;
 	});
 
 
