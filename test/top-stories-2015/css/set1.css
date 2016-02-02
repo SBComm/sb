@@ -8,7 +8,8 @@
 }
 
 /* Common style */
-.grid figure {
+.grid figure,
+.grid a.figure-link {
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -21,7 +22,8 @@
 	height: auto;
 }
 
-.grid figure img {
+.grid figure img,
+.grid a.figure-link img {
 	position: relative;
 	display: block;
 	max-width: 100%;
@@ -44,7 +46,8 @@
 	display: none;
 }
 
-.grid figure figcaption {
+.grid figure figcaption,
+.grid a.figure-link figcaption {
 	padding: 2em;
 	color: #fff;
 	text-transform: uppercase;
@@ -54,12 +57,16 @@
 }
 
 .grid figure figcaption::before,
-.grid figure figcaption::after {
+.grid figure figcaption::after,
+.grid a.figure-link figcaption::before,
+.grid a.figure-link figcaption::after {
 	pointer-events: none;
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption > a,
+.grid a.figure-link figcaption,
+.grid a.figure-link figcaption > a {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -69,7 +76,8 @@
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.grid figure figcaption > a,
+.grid a.figure-link figcaption > a  {
 	z-index: 1000;
 	text-indent: 200%;
 	white-space: nowrap;
@@ -77,21 +85,26 @@
 	opacity: 0;
 }
 
-.grid figure h2 {
+.grid figure h2,
+.grid a.figure-link h2 {
 	font-weight: 800;
 	word-spacing: 0.15em;
 }
 
-.grid figure h2 span {
+.grid figure h2 span,
+.grid a.figure-link h2 span {
 	font-weight: 800;
 }
 
 .grid figure h2,
-.grid figure p {
+.grid figure p,
+.grid a.figure-link h2,
+.grid a.figure-link p {
 	margin: 0;
 }
 
-.grid figure p {
+.grid figure p,
+.grid a.figure-link p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
 }
@@ -552,23 +565,27 @@ figure.effect-layla:hover img {
 /***** Honey *****/
 /*---------------*/
 
-figure.effect-honey {
+figure.effect-honey,
+.grid a.figure-link img {
 	background: #600;
 	background: url("../img/branding/rays/red-rays-full.jpg") repeat 0 0;
 	background-size: cover;
 }
 
-figure.effect-honey img {
+figure.effect-honey img,
+.grid a.figure-link img {
 	opacity: 0.975;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
-figure.effect-honey:hover img {
+figure.effect-honey:hover img,
+a.effect-honey:hover img {
 	opacity: 0.6;
 }
 
-figure.effect-honey figcaption::before {
+figure.effect-honey figcaption::before,
+a.effect-honey figcaption::before {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -580,7 +597,8 @@ figure.effect-honey figcaption::before {
 	transform: translate3d(0,10px,0);
 }
 
-figure.effect-honey h2 {
+figure.effect-honey h2,
+a.effect-honey h2 {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -593,7 +611,8 @@ figure.effect-honey h2 {
 	text-shadow: 0 0 15px rgba(0, 0, 0, 0.57);
 }
 
-figure.effect-honey h2 i {
+figure.effect-honey h2 i,
+a.effect-honey h2 i {
 	font-style: normal;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -603,14 +622,19 @@ figure.effect-honey h2 i {
 }
 
 figure.effect-honey figcaption::before,
-figure.effect-honey h2 {
+figure.effect-honey h2,
+a.effect-honey figcaption::before,
+a.effect-honey h2 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
 figure.effect-honey:hover figcaption::before,
 figure.effect-honey:hover h2,
-figure.effect-honey:hover h2 i {
+figure.effect-honey:hover h2 i,
+a.effect-honey:hover figcaption::before,
+a.effect-honey:hover h2,
+a.effect-honey:hover h2 i {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
@@ -1399,7 +1423,8 @@ figure.effect-chico:hover p {
 
 @media only screen and (min-width: 400px) {
 
-	figure.effect-honey h2 {
+	figure.effect-honey h2,
+	a.effect-honey h2 {
 		padding: 1em 1.5em 1.6em;
 		font-size: 1.2em;
 	}
@@ -1408,7 +1433,8 @@ figure.effect-chico:hover p {
 
 @media only screen and (min-width: 600px) {
 
-	figure.effect-honey h2 {
+	figure.effect-honey h2,
+	a.effect-honey h2 {
 		padding: 1em 1.5em 1.4em;
 		font-size: 1.3em;
 	}
@@ -1438,7 +1464,8 @@ figure.effect-chico:hover p {
 
 @media only screen and (min-width: 800px) {
 
-	.grid figure {
+	.grid figure,
+	.grid a.figure-link {
 	    max-height: 100%;
     }
 
@@ -1461,7 +1488,8 @@ figure.effect-chico:hover p {
 
 @media only screen and (min-width: 1200px) {
 
-	figure.effect-honey h2 {
+	figure.effect-honey h2,
+	a.effect-honey h2 {
 		padding: 1em 1.5em 1.4em;
 		font-size: 1.5em;
 	}
@@ -1511,7 +1539,8 @@ figure.effect-chico:hover p {
 
 @media only screen and (min-width: 1360px) {
 
-	.grid figure {
+	.grid figure,
+	.grid a.figure-link {
 		position: relative;
 		float: left;
 		overflow: hidden;
