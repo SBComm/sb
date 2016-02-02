@@ -13,7 +13,7 @@
         <meta property="og:title" content="Top 15 Stories of 2015 | Stony Brook University" />
         <meta property="og:description" content="The top 15 stories and news headlines of 2015 from Stony Brook University have made an impact on Long Island, New York and the world.">
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="http://localhost:8888/sb/test/top-stories-2015/" />
+        <meta property="og:url" content="http://stonybrook.edu/top15/" />
         <meta property="og:image" content="http://mobile.cc.stonybrook.edu/sb/test/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg" />
         <meta property="fb:app_id" content="" />
     	<!--END Open Graph Meta Tags-->
@@ -33,13 +33,14 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/set1.css" />
 		<link rel="stylesheet" type="text/css" href="css/overlay/style5.css" />
-  		<script src="js/modernizr.custom.js"></script>
+  		<!--<script src="js/modernizr.custom.js"></script>-->
+  		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		<!--[if IE]>
   			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	</head>
-	<body>
+	<body data-story-slug="<?php echo $_GET['story']?>">
 		<script>
 		  window.fbAsyncInit = function() {
 		    FB.init({
@@ -61,6 +62,7 @@
 			<header class="site-header hide-accessible">
 				<h1><em>20</em>15</h1>
 				<h2>Top stories from <span>Stony Brook University</span></h2>
+				<p>Read the top 15 stories and news headlines of 2015 from Stony Brook University that have made an impact on Long Island, New York and the world.</p>
 			</header>
 			<div class="content clearfix">
 				<div class="grid">
@@ -184,7 +186,7 @@
 		<!-- overlay -->
 		<div class="overlay overlay-scale">
 			
-			<div class="overlay-wrapper clearfix" data-story-id="1" data-story-title="Stony Brook Researchers Prove External Risks Cause Most Cancers" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/test/top-stories-2015/img/landing/cancer/cancer-1.jpg">
+			<div class="overlay-wrapper clearfix" data-story-id="1" data-story-title="Stony Brook Researchers Prove External Risks Cause Most Cancers" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/test/top-stories-2015/img/landing/cancer/cancer-1.jpg" data-story-slug="stony-brook-researchers-prove-external-risks-cause-most-cancers" data-push-state='true'>
 				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');">
 					<img class="sbu-logo" src="img/sbu-logo-white.png" alt="Stony Brook University logo" />
 					<button type="button" class="overlay-close overlay-close-x">Close</button>
@@ -196,8 +198,63 @@
 that most cancers could be attributed to "bad luck."</p>
 						<div class="button-wrapper clearfix">
 							<a class="button story-read-trigger" href="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" target="_blank">Read Full Story</a>
-							<button class="button social-share facebook-share facebook-share-trigger" target="_blank">Share on Facebook</button>
+							<button class="button social-share facebook-share facebook-share-trigger">Share on Facebook</button>
 							<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new">Share on Twitter</a>
+							<!--<button class="button social-share copy-link copy-link-trigger">Copy Link</button>-->
+						</div>
+					</div>
+					<img class="itk-logo" src="img/sbu-in-the-know.png" />
+				</div>
+				<div class="story-footer clearfix">
+					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
+					<div class="copyright-line">
+						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
+					</div>
+				</div>
+			</div>
+			
+			<div class="overlay-wrapper clearfix" data-story-id="2" data-story-title="Story 2" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/test/top-stories-2015/img/landing/cancer/cancer-1.jpg" data-story-slug="story-2" data-push-state='true'>
+				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');">
+					<img class="sbu-logo" src="img/sbu-logo-white.png" alt="Stony Brook University logo" />
+					<button type="button" class="overlay-close overlay-close-x">Close</button>
+				</div>
+				<div class="content-box">
+					<h2>Story 2</h2>
+					<div class="story">
+						<p><img class="mobile-head" src="img/stories/cancer-center-group.jpg" alt=""/> An interdisciplinary team of Stony Brook University researchers, led by Yusuf Hannun, MD, director of the Stony Brook University Cancer Center, garnered worldwide press coverage for their paper published in Nature that provided quantitative evidence that lifestyle and environmental exposures weigh heavily on the development of most cancers. Their research was inspired by and contradicted an earlier study published in Science, which concluded
+that most cancers could be attributed to "bad luck."</p>
+						<div class="button-wrapper clearfix">
+							<a class="button story-read-trigger" href="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" target="_blank">Read Full Story</a>
+							<button class="button social-share facebook-share facebook-share-trigger">Share on Facebook</button>
+							<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new">Share on Twitter</a>
+							<!--<button class="button social-share copy-link copy-link-trigger">Copy Link</button>-->
+						</div>
+					</div>
+					<img class="itk-logo" src="img/sbu-in-the-know.png" />
+				</div>
+				<div class="story-footer clearfix">
+					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
+					<div class="copyright-line">
+						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
+					</div>
+				</div>
+			</div>
+			
+			<div class="overlay-wrapper clearfix" data-story-id="3" data-story-title="Story 3" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/test/top-stories-2015/img/landing/cancer/cancer-1.jpg" data-story-slug="story-3fdfsfdsfdsfd" data-push-state='true'>
+				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');">
+					<img class="sbu-logo" src="img/sbu-logo-white.png" alt="Stony Brook University logo" />
+					<button type="button" class="overlay-close overlay-close-x">Close</button>
+				</div>
+				<div class="content-box">
+					<h2>Story 3</h2>
+					<div class="story">
+						<p><img class="mobile-head" src="img/stories/cancer-center-group.jpg" alt=""/> An interdisciplinary team of Stony Brook University researchers, led by Yusuf Hannun, MD, director of the Stony Brook University Cancer Center, garnered worldwide press coverage for their paper published in Nature that provided quantitative evidence that lifestyle and environmental exposures weigh heavily on the development of most cancers. Their research was inspired by and contradicted an earlier study published in Science, which concluded
+that most cancers could be attributed to "bad luck."</p>
+						<div class="button-wrapper clearfix">
+							<a class="button story-read-trigger" href="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" target="_blank">Read Full Story</a>
+							<button class="button social-share facebook-share facebook-share-trigger">Share on Facebook</button>
+							<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new">Share on Twitter</a>
+							<!--<button class="button social-share copy-link copy-link-trigger">Copy Link</button>-->
 						</div>
 					</div>
 					<img class="itk-logo" src="img/sbu-in-the-know.png" />
@@ -210,8 +267,8 @@ that most cancers could be attributed to "bad luck."</p>
 				</div>
 			</div>
 
-
 		</div>
+
 		<script src="js/classie.js"></script>
 		<!--<script src="js/demo1.js"></script>-->
 

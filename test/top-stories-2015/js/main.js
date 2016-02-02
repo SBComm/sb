@@ -4,6 +4,16 @@ String.prototype.trimToLength = function(m) {
     : this;
 };
 
+$.urlParam = function(name){
+    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+       return null;
+    }
+    else{
+       return results[1] || 0;
+    }
+};
+
 function calcHeight(item,header) {
 	var newHeight = item.height() * 2;
 	//console.log(newHeight);
@@ -28,6 +38,29 @@ function getOpenOverlay() {
 function getCurrrentStoryId() {
 	var $overlay = getOpenOverlay();
 	return $overlay.attr('data-story-id');
+}
+
+function getStoryOverlayBySlug(slug) {
+	return $('.overlay-wrapper[data-story-slug="'+slug+'"]');
+}
+
+function getStoryIdBySlug(slug) {
+	return getStoryOverlayBySlug(slug).attr('data-story-id');
+}
+
+function getStoryTriggerByID(storyID) {
+	return $('.trigger-overlay[data-story-id="'+storyID+'"]');
+}
+
+function getStorySlug() {
+	return $('body').attr('data-story-slug');
+}
+
+function getCurrentStorySlug() {
+	var currentURL = $(location).attr('href');
+	var n = currentURL.lastIndexOf('/');
+	var storySlug = currentURL.substring(n + 1);
+	return storySlug;
 }
 
 function setContentHeight(ww,$openOverlay) {
@@ -97,32 +130,79 @@ function getStoryData($overlayContent) {
 	var storyData = {
 		storyTitle : 	$overlayContent.attr('data-story-title'),
 		storyURL : 		$overlayContent.attr('data-story-url'),
-		storyImageURL : $overlayContent.attr('data-story-img-url')
+		storyImageURL : $overlayContent.attr('data-story-img-url'),
+		storySlug : 	$overlayContent.attr('data-story-slug'),
+		storyDesc : 	$overlayContent.find('.story').text().trimToLength(150)
 	};
-
-	storyData.storySlug = storyData.storyTitle.replace(/\s+/g, '-').toLowerCase();
-	storyData.storyDesc = $overlayContent.find('.story').text().trimToLength(150);
 
 	return storyData;
 }
 
-function setMetaTags(storyData) {
-	$("meta[property='og\\:title']").attr("content", storyData.storyTitle);
-	$("meta[property='og\\:description']").attr("content", storyData.storyDesc);
-	$("meta[property='og\\:url']").attr("content", storyData.storyURL);
-	$("meta[property='og\\:image']").attr("content", storyData.storyImageURL);
+function setMetaTags(storyData,isDefault) {
+	var newTitle, newDesc, newURL, newImageURL;
+	if(isDefault) {
+		newTitle = 'Top 15 Stories of 2015 | Stony Brook University';
+		newDesc = 'The top 15 stories and news headlines of 2015 from Stony Brook University have made an impact on Long Island, New York and the world.';
+		newURL = 'http://stonybrook.edu/top15/';
+		newImageURL = 'http://mobile.cc.stonybrook.edu/sb/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg';
+	} else {
+		newTitle = storyData.storyTitle;
+		newDesc = storyData.storyDesc;
+		newURL = storyData.storyURL;
+		newImageURL = storyData.storyImageURL;
+	}
+	$("title").text(newTitle);
+	$("meta[name='description']").attr("content", newDesc);
+
+	$("meta[property='og\\:title']").attr("content", newTitle);
+	$("meta[property='og\\:description']").attr("content", newDesc);
+	$("meta[property='og\\:url']").attr("content", newURL);
+	$("meta[property='og\\:image']").attr("content", newImageURL);
 }
 
 function setTwitterURL($overlayContent) {
 	var tweetHref = 'http://twitter.com/share?text=Check this out! "'+getStoryData($overlayContent).storyTitle+'"&amp;url='+getStoryData($overlayContent).storyURL;
-	console.log(tweetHref);
-
-
-
 	$overlayContent.find('.twitter-share-trigger').attr('href',tweetHref);
 }
 
+function pushHistoryState(newTitle,linkHref) {
+	if(Modernizr.history) {
+		history.pushState(null, newTitle, linkHref);
+	}
+}
+
+function popHistoryState() {
+	var currentURL = $(location).attr('href');
+	var currentStorySlug = getStorySlug();
+	//console.log(currentStorySlug);
+	var storyTrigger = getStoryTriggerByID(getStoryIdBySlug(currentStorySlug));
+	//console.log(storyTrigger);
+	if(currentURL.match(/top-stories-2015\/$/) || currentURL.match(/top-stories-2015$/)) {
+		//console.log('root');
+		//if the overlay is open, close it
+		if($('.overlay').hasClass('open')) {
+			//console.log(storyTrigger);
+			storyTrigger.trigger('click');
+		}
+	} else {
+		//console.log('story');
+		getStoryOverlayBySlug(currentStorySlug).attr('data-push-state','false');
+		storyTrigger.trigger('click');
+	}
+}
+
+if(Modernizr.history) {
+	window.addEventListener("popstate", function(e) {
+		$(document).ready(function(){
+			//console.log('POPSTATE-------');
+			popHistoryState();
+		});
+	});
+}
+
 $(document).ready(function(){
+
+	var siteURL = '/sb/test/top-stories-2015/';
 
 	// attach fastclick
 	FastClick.attach(document.body);
@@ -175,6 +255,10 @@ $(document).ready(function(){
 			else {
 				onEndTransitionFn();
 			}
+
+			history.pushState(null, null, siteURL);
+			setMetaTags(storyData,true);
+
 		}
 		else if( !$overlay.hasClass('close') ) {
 
@@ -190,17 +274,29 @@ $(document).ready(function(){
 
 			storyData = getStoryData($overlayContent);
 
-			//setMetaTags(storyData);
+			setMetaTags(storyData,false);
 
 			setTwitterURL($overlayContent);
 
-			console.log(storyData.storyTitle);
-			console.log(storyData.storySlug);
-			console.log(storyData.storyURL);
-			console.log(storyData.storyImageURL);
-			console.log(storyData.storyDesc);
+			//console.log(storyData.storyTitle);
+			//console.log(storyData.storySlug);
+			//console.log(storyData.storyURL);
+			//console.log(storyData.storyImageURL);
+			//console.log(storyData.storyDesc);
+
+			var linkHref = siteURL + storyData.storySlug;
+
+			if($overlayContent.attr('data-push-state')!='false') {
+				pushHistoryState(storyData.storyTitle,linkHref);
+			} else {
+				$overlayContent.attr('data-push-state','true');
+			}
+
+			$('body').attr('data-story-slug',storyData.storySlug);
 
 			var gaSlug = '/'+storyData.storySlug;
+
+			//$(window).trigger('resize');
 
 			//send GA pageview
 			/*
@@ -247,11 +343,27 @@ $(document).ready(function(){
 		setContentHeight(ww,$openOverlay);
 	});
 
+	/* default story URL */
+
+	var defaultStorySlug = getStorySlug();
+	var defaultStoryID, defaultStoryTrigger;
+	//console.log(defaultStorySlug);
+	if(defaultStorySlug) {
+		defaultStoryID = getStoryIdBySlug(decodeURIComponent(defaultStorySlug));
+		//console.log(defaultStoryID);
+		toggleOverlay(defaultStoryID);
+
+		ww = $(window).width();
+		calcHeight(getItem(ww),header);
+		var $openOverlay = getOpenOverlay();
+		setContentHeight(ww,$openOverlay);
+	}
+
 	/* social share */
 
 	$('.facebook-share-trigger').on('click',function() {
 		var storyURL = getStoryData(getOpenOverlay()).storyURL;
-		console.log(storyURL);
+		//console.log(storyURL);
 
 		FB.ui({
 			method: 'share',

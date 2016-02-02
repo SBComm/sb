@@ -827,6 +827,10 @@ figure.effect-honey:hover h2 i {
     font-size: .9em;
 }
 
+.copy-link.button:after {
+	content: "\f0c1";
+}
+
 .story-footer {
 	display: block;
 	float: left;
@@ -1520,6 +1524,6 @@ figure.effect-chico:hover p {
 
 @media only screen and (min-width: 1360px) {
 	.content-box img.itk-logo {
-		
+
 	}
 }
