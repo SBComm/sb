@@ -299,13 +299,11 @@ $(document).ready(function(){
 			//$(window).trigger('resize');
 
 			//send GA pageview
-			/*
 			ga('set', {
 				page: gaSlug,
 				title: storyTitle
 			});
 			ga('send', 'pageview');
-			*/
 		}
 
 		//console.log(getCurrrentStoryId());
