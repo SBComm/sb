@@ -15,7 +15,7 @@ $.urlParam = function(name){
 };
 
 function calcHeight(item,header) {
-	var newHeight = item.height() * 2;
+	var newHeight = (item.height() * 2) - 0.5; //shave off a teeny bit for pixel glitch
 	header.height(newHeight);
 	header.css('max-height',newHeight);
 }
