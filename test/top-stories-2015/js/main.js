@@ -259,8 +259,6 @@ $(document).ready(function(){
 
 			var gaSlug = '/'+storyData.storySlug;
 
-			$(window).trigger('resize');
-
 			//send GA pageview
 			ga('set', {
 				page: gaSlug,
