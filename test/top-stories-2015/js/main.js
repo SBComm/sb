@@ -16,7 +16,6 @@ $.urlParam = function(name){
 
 function calcHeight(item,header) {
 	var newHeight = item.height() * 2;
-	//console.log(newHeight);
 	header.height(newHeight);
 	header.css('max-height',newHeight);
 }
@@ -68,10 +67,6 @@ function setContentHeight(ww,$openOverlay) {
 	    $contentBox = $openOverlay.find('.content-box'),
 	    $buttonBox = $openOverlay.find('.story-footer');
 
-	/*console.log($imgBox);
-	//console.log($contentBox);
-	//console.log($buttonBox);*/
-
 	calcContentHeight(ww,$imgBox,$contentBox,$buttonBox);
 }
 
@@ -89,12 +84,6 @@ function calcContentHeight(ww,$imgBox,$contentBox,$buttonBox) {
 	var contentBoxHeight = $contentBox.outerHeight();
 	var buttonBoxHeight = $buttonBox.outerHeight();
 
-	//logginh
-	//console.log(imgBoxHeight);
-	//console.log(contentBoxHeight);
-	//console.log(buttonBoxHeight);
-	//console.log(' ');
-
 	//calculate height of 3 sections combined
 	var totalHeight = imgBoxHeight + contentBoxHeight + buttonBoxHeight;
 	var windowHeight = $(window).height();
@@ -108,8 +97,6 @@ function calcContentHeight(ww,$imgBox,$contentBox,$buttonBox) {
 		$imgBox.height(imgBoxHeightDefault);
 		$contentBox.height(newContentBoxHeight);
 	} else if (ww>=1200) {
-		//height:auto
-		//$contentBox.height('auto');
 		
 		totalHeight = contentBoxHeight + buttonBoxHeight;
 		
@@ -174,18 +161,13 @@ function pushHistoryState(newTitle,linkHref) {
 function popHistoryState() {
 	var currentURL = $(location).attr('href');
 	var currentStorySlug = getStorySlug();
-	//console.log(currentStorySlug);
 	var storyTrigger = getStoryTriggerByID(getStoryIdBySlug(currentStorySlug));
-	//console.log(storyTrigger);
 	if(currentURL.match(/top-stories-2015\/$/) || currentURL.match(/top-stories-2015$/)) {
-		//console.log('root');
 		//if the overlay is open, close it
 		if($('.overlay').hasClass('open')) {
-			//console.log(storyTrigger);
 			storyTrigger.trigger('click');
 		}
 	} else {
-		//console.log('story');
 		getStoryOverlayBySlug(currentStorySlug).attr('data-push-state','false');
 		storyTrigger.trigger('click');
 	}
@@ -194,7 +176,6 @@ function popHistoryState() {
 if(Modernizr.history) {
 	window.addEventListener("popstate", function(e) {
 		$(document).ready(function(){
-			//console.log('POPSTATE-------');
 			popHistoryState();
 		});
 	});
@@ -222,43 +203,31 @@ $(document).ready(function(){
 		support = { transitions : Modernizr.csstransitions };
 
 	function toggleOverlay(storyID) {
-		//console.log(storyID);
-		//console.log('toggle...');
 		
 		var storyData;
 
 		if($overlay.hasClass('open')) {
-
 			$overlay.removeClass('open');
 			$overlay.addClass('close');
-			//console.log('triggered...');
+
 			var onEndTransitionFn = function( ev ) {
-				//console.log('onEndTransitionFn...');
 				if(support.transitions) {
-					//console.log('support.transitions...');
-					//console.log(ev);
-					////console.log(ev.propertyName);
 					//if( ev.propertyName !== 'visibility' ) return;
-					//console.log('unbinding...');
-					//console.log($(this));
 					$(this).unbind( transEndEventName, onEndTransitionFn );
 				}
-				//console.log('removing class...');
+
 				$('body').removeClass('disable-scroll');
 				$overlay.removeClass('close');
-				//console.log('done...');
 			};
+
 			if(support.transitions) {
-				//console.log(transEndEventName);
 				$overlay.on(transEndEventName, onEndTransitionFn);
-			}
-			else {
+			} else {
 				onEndTransitionFn();
 			}
 
 			history.pushState(null, null, siteURL);
 			setMetaTags(storyData,true);
-
 		}
 		else if( !$overlay.hasClass('close') ) {
 
@@ -277,12 +246,6 @@ $(document).ready(function(){
 			setMetaTags(storyData,false);
 
 			setTwitterURL($overlayContent);
-
-			//console.log(storyData.storyTitle);
-			//console.log(storyData.storySlug);
-			//console.log(storyData.storyURL);
-			//console.log(storyData.storyImageURL);
-			//console.log(storyData.storyDesc);
 
 			var linkHref = siteURL + storyData.storySlug;
 
@@ -305,8 +268,6 @@ $(document).ready(function(){
 			});
 			ga('send', 'pageview');
 		}
-
-		//console.log(getCurrrentStoryId());
 	}
 
 	$triggerBttn.on('click',function() {
