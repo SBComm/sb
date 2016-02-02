@@ -160,29 +160,19 @@
 							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
+					<a href="http://sb.cc.stonybrook.edu/happenings/" class="figure-link effect-honey" target="_blank">
 						<img src="img/16.jpg" alt="img05"/>
 						<figcaption>
 							<h2>Read More on SBU</h2>
 						</figcaption>
-					</figure>
+					</a>
 				</div>
 			</div>
 			<div class="copyright-line">
 				<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
 			</div>
 		</div>
-		<!--
-		<p><button id="trigger-overlay-btn" type="button"></button></p>
-		-->
-		<!--
-		<script>
-			// For Demo purposes only (show hover effect on mobile devices)
-			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
-				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
-			} );
-		</script>
-		-->
+
 		<!-- overlay -->
 		<div class="overlay overlay-scale">
 			
@@ -268,8 +258,9 @@ that most cancers could be attributed to "bad luck."</p>
 			</div>
 
 		</div>
+		<!--/overlay-->
 
-		<script src="js/classie.js"></script>
+		<!--<script src="js/classie.js"></script>-->
 		<!--<script src="js/demo1.js"></script>-->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
