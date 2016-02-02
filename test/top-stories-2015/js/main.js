@@ -146,7 +146,7 @@ function setMetaTags(storyData,isDefault) {
 		newURL = 'http://stonybrook.edu/top15/';
 		newImageURL = 'http://mobile.cc.stonybrook.edu/sb/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg';
 	} else {
-		newTitle = storyData.storyTitle;
+		newTitle = storyData.storyTitle + ' | Stony Brook University';
 		newDesc = storyData.storyDesc;
 		newURL = storyData.storyURL;
 		newImageURL = storyData.storyImageURL;
@@ -296,12 +296,12 @@ $(document).ready(function(){
 
 			var gaSlug = '/'+storyData.storySlug;
 
-			//$(window).trigger('resize');
+			$(window).trigger('resize');
 
 			//send GA pageview
 			ga('set', {
 				page: gaSlug,
-				title: storyTitle
+				title: storyData.storyTitle
 			});
 			ga('send', 'pageview');
 		}
