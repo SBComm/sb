@@ -77,87 +77,87 @@
 						</figcaption>			
 					</figure>
 					<figure class="effect-honey trigger-overlay" data-story-id="2">
-						<img src="img/2.jpg" alt="img05"/>
+						<img src="img/landing/physicists/physicists-1.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Stony Brook Physicists Contribute to Science that Won the Nobel and Breakthrough Prizes</h2>
 						</figcaption>			
 					</figure>
 					<figure class="effect-honey trigger-overlay" data-story-id="3">
-						<img src="img/3.jpg" alt="img04"/>
+						<img src="img/landing/leakey/leakey-1.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Earliest Evidence of Stone Tool Making in Cradle</h2>
+							<h2>Angelina Jolie to Direct Film on Richard Leakey</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/4.jpg" alt="img05"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="4">
+						<img src="img/landing/campaign/campaign-1.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Stony Brook Launches Capital Campaign</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/5.jpg" alt="img04"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="5">
+						<img src="img/landing/baby/baby-2.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find Stone Tool Making in Humankind</h2>
+							<h2>Stony Brook University Hospital Marks 100,000th Baby Delivery</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/6.jpg" alt="img05"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="6">
+						<img src="img/landing/masculinity/masculinity-1.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Stony Brook Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>New York Times Profiles Michael Kimmel, Master's in Masculinity</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/7.jpg" alt="img04"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="7">
+						<img src="img/landing/sleep/sleep.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Side Sleeping Clears Brain Waste that Contributes to Alzheimer's Disease</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/8.jpg" alt="img05"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="8">
+						<img src="img/landing/computer-science/computer-science-1.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Capital Construction Projects Mark University Growth</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/9.jpg" alt="img04"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="9">
+						<img src="img/landing/he-for-she/he-for-she-1.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Stony Brook Commits to 'HeForShe'</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/10.jpg" alt="img05"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="10">
+						<img src="img/landing/sawfish/sawfish-2.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Endangered Smalltooth Sawfish Take Reproduction into their Own 'Fins'</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/11.jpg" alt="img04"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="11">
+						<img src="img/landing/dinosaur-mammal/dinosaur-mammal.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>New Clues Show Dinosaurs Were Warm Blooded</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/12.jpg" alt="img05"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="12">
+						<img src="img/landing/billy-joel/billy-joel-1.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Billy Joel Now a Stony Brook Alum</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/13.jpg" alt="img04"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="13">
+						<img src="img/landing/stone-tools/stone-tools-2.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Time to Rewrite the History Books: Stony Brook Team Finds Earliest Stone Tools</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/14.jpg" alt="img05"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="14">
+						<img src="img/landing/jameel-warney/jameel-warney-3.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Slam Dunk for Stony Brook Athletics</h2>
 						</figcaption>			
 					</figure>
-					<figure class="effect-honey trigger-overlay">
-						<img src="img/15.jpg" alt="img05"/>
+					<figure class="effect-honey trigger-overlay" data-story-id="15">
+						<img src="img/landing/face-reconstruction/face-reconstruction.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Stony Brook Archaeologists Find the Earliest Evidence of Stone Tool Making in Cradle of Humankind</h2>
+							<h2>Congolese Boy Left Disfigured by Chimp Attack to Receive Facial Reconstruction at Stony Brook</h2>
 						</figcaption>			
 					</figure>
 					<a href="http://sb.cc.stonybrook.edu/happenings/" class="figure-link effect-honey" target="_blank">
@@ -184,7 +184,7 @@
 				<div class="content-box">
 					<h2>Stony Brook Researchers Prove External Risks Cause Most Cancers</h2>
 					<div class="story">
-						<p><img class="mobile-head" src="img/stories/cancer-center-group.jpg" alt=""/> An interdisciplinary team of Stony Brook University researchers, led by Yusuf Hannun, MD, director of the Stony Brook University Cancer Center, garnered worldwide press coverage for their paper published in Nature that provided quantitative evidence that lifestyle and environmental exposures weigh heavily on the development of most cancers. Their research was inspired by and contradicted an earlier study published in Science, which concluded
+						<p><img class="story-image" src="img/stories/cancer-center-group.jpg" alt=""/> An interdisciplinary team of Stony Brook University researchers, led by Yusuf Hannun, MD, director of the Stony Brook University Cancer Center, garnered worldwide press coverage for their paper published in Nature that provided quantitative evidence that lifestyle and environmental exposures weigh heavily on the development of most cancers. Their research was inspired by and contradicted an earlier study published in Science, which concluded
 that most cancers could be attributed to "bad luck."</p>
 						<div class="button-wrapper clearfix">
 							<a class="button story-read-trigger" href="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" target="_blank">Read Full Story</a>
