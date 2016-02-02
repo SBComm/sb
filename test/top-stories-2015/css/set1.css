@@ -36,6 +36,7 @@
     opacity: 1;
     cursor: default;
     min-height: auto;
+    box-shadow: 0 5px 0 #fff;
 }
 
 .header-image-wraper .mobile-head {
