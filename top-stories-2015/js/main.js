@@ -183,7 +183,7 @@ if(Modernizr.history) {
 
 $(document).ready(function(){
 
-	var siteURL = '/sb/test/top-stories-2015/';
+	var siteURL = '/sb/top-stories-2015/';
 
 	// attach fastclick
 	FastClick.attach(document.body);
