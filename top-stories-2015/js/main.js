@@ -310,7 +310,7 @@ $(document).ready(function(){
 	var defaultStoryID, defaultStoryTrigger;
 	setStorySlug(defaultStorySlug);
 	//console.log(defaultStorySlug);
-	if(defaultStorySlug && (!defaultStorySlug.startsWith('index.')) && (!defaultStorySlug.startsWith('content?')) ) {
+	if( defaultStorySlug && (!defaultStorySlug.startsWith('index.')) && (!defaultStorySlug.startsWith('content?')) && defaultStorySlug!=null && defaultStorySlug!='undefined' ) {
 		defaultStoryID = getStoryIdBySlug(decodeURIComponent(defaultStorySlug));
 		//console.log(defaultStoryID);
 		toggleOverlay(defaultStoryID);
