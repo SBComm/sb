@@ -92,6 +92,12 @@ function calcContentHeight(ww,$imgBox,$contentBox,$buttonBox) {
 	var totalHeight = imgBoxHeight + contentBoxHeight + buttonBoxHeight;
 	var windowHeight = $(window).height();
 
+	console.log('totalHeight: '+totalHeight);
+	console.log('windowHeight: '+windowHeight);
+	console.log('imgBoxHeight: '+imgBoxHeight);
+	console.log('contentBoxHeight: '+contentBoxHeight);
+	console.log('buttonBoxHeight: '+buttonBoxHeight);
+
 	var newContentBoxHeight, difference;
 
 	if(totalHeight<windowHeight && ww<1200) {
