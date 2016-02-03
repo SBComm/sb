@@ -62,6 +62,10 @@ function getCurrentStorySlug() {
 	return storySlug;
 }
 
+function setStorySlug(slug) {
+	return $('body').attr('data-story-slug',slug);
+}
+
 function setContentHeight(ww,$openOverlay) {
 	var $imgBox = $openOverlay.find('.img-box'),
 	    $contentBox = $openOverlay.find('.content-box'),
@@ -302,8 +306,9 @@ $(document).ready(function(){
 
 	/* default story URL */
 
-	var defaultStorySlug = getStorySlug();
+	var defaultStorySlug = getCurrentStorySlug();
 	var defaultStoryID, defaultStoryTrigger;
+	setStorySlug(defaultStorySlug);
 	//console.log(defaultStorySlug);
 	if(defaultStorySlug) {
 		defaultStoryID = getStoryIdBySlug(decodeURIComponent(defaultStorySlug));
