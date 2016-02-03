@@ -101,13 +101,13 @@
 						</figcaption>			
 					</figure>
 					<figure class="effect-honey trigger-overlay" data-story-id="6">
-						<img src="img/landing/masculinity/masculinity-1.jpg" alt="img05"/>
+						<img src="img/landing/masculinity/masculinity-3.jpg" alt="img05"/>
 						<figcaption>
 							<h2>New York Times Profiles Michael Kimmel, Master's in Masculinity</h2>
 						</figcaption>			
 					</figure>
 					<figure class="effect-honey trigger-overlay" data-story-id="7">
-						<img src="img/landing/sleep/sleep.jpg" alt="img04"/>
+						<img src="img/landing/sleep/sleep-3.jpg" alt="img04"/>
 						<figcaption>
 							<h2>Side Sleeping Clears Brain Waste that Contributes to Alzheimer's Disease</h2>
 						</figcaption>			
@@ -161,7 +161,7 @@
 						</figcaption>			
 					</figure>
 					<a href="http://sb.cc.stonybrook.edu/happenings/" class="figure-link effect-honey" target="_blank">
-						<img src="img/16.jpg" alt="img05"/>
+						<img src="img/stock/16.jpg" alt="img05"/>
 						<figcaption>
 							<h2>Read More on SBU</h2>
 						</figcaption>
