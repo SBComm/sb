@@ -672,6 +672,10 @@ a.effect-honey:hover h2 i {
     background-size: cover;
 }
 
+.overlay-wrapper .img-box a {
+	border: 0 none;
+}
+
 .img-box .sbu-logo {
 	display: block;
 	position: relative;;;
@@ -679,6 +683,7 @@ a.effect-honey:hover h2 i {
 	max-width: 160px;
 	margin: 30px 0 0 4%;
 	float: left;
+	border: 0 none;
 }
 
 .overlay-wrapper .content-box {
