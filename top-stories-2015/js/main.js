@@ -309,7 +309,7 @@ $(document).ready(function(){
 	var defaultStorySlug = getCurrentStorySlug();
 	var defaultStoryID, defaultStoryTrigger;
 	setStorySlug(defaultStorySlug);
-	console.log(defaultStorySlug);
+	//console.log(defaultStorySlug);
 	if(defaultStorySlug) {
 		defaultStoryID = getStoryIdBySlug(decodeURIComponent(defaultStorySlug));
 		//console.log(defaultStoryID);
