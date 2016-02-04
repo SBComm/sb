@@ -170,7 +170,7 @@
 				</div>
 			</div>
 			<div class="copyright-line">
-				<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
+				<span class="copyright">&copy;</span> <?php echo date("Y") ?> <a href="http://stonybrook.edu" target="_blank">Stony Brook University</a>
 			</div>
 		</div>
 
