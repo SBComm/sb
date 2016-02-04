@@ -69,6 +69,7 @@
 					<figure class="header-image-wraper">
 						<img class="mobile-head" src="img/header/stony-brook-top-15-stories-of-2015-masthead-1066.jpg" alt="The Year in Review: Top 15 Stories of 2015"/>
 						<img class="desktop-head" src="img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg" alt="The Year in Review: Top 15 Stories of 2015"/>
+						<a class="logo-link" href="http://stonybrook.edu" target="_blank">Stony Brook University</a>
 					</figure>
 					<figure class="effect-honey trigger-overlay calc-height" data-story-id="1">
 						<img src="img/landing/cancer/cancer-1.jpg" alt="Smoke stacks"/>
