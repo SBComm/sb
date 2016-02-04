@@ -350,8 +350,15 @@ $(document).ready(function(){
 	});
 
 	$('.story-read-trigger').on('click',function(e) {
-		window.open(this.href, "Read on SBU", "width=960, height=750");
-    	return false;
+		if($(window).width()>1200) {
+			window.open(this.href, "Read on SBU", "width=1024, height=850");
+    		return false;
+		} else if($(window).width()>960) {
+			window.open(this.href, "Read on SBU", "width=960, height=750");
+    		return false;
+		} else {
+			return;
+		}
 	});
 
 
