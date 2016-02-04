@@ -898,6 +898,13 @@ a.effect-honey:hover h2 i {
 	background: #111
 }
 
+.copyright-line a,
+.copyright-line a:hover,
+.copyright-line a:active,
+.copyright-line a:visited {
+	color: #fff;
+}
+
 /*---------------*/
 /***** Oscar *****/
 /*---------------*/
