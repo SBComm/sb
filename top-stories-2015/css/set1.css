@@ -32,6 +32,31 @@
 	height: auto;
 }
 
+.header-image-wraper a.logo-link {
+	position: absolute;
+	background: transparent;
+	opacity: 0.1;
+	top: 8%;
+	left: 14.5%;
+	width: 20%;
+	text-indent: -999999px;
+	line-height: 0;
+	height: 11%;
+	z-index: 5;
+	outline: none;
+}
+
+/*
+.header-image-wraper a.logo-link:hover {
+	background: #500;
+	opacity: .07;
+	border-radius: 50%;
+	height: 13%;
+	top: 7.5%;
+	width: 20.25%;
+}
+*/
+
 .grid figure.header-image-wraper img {
     opacity: 1;
     cursor: default;
