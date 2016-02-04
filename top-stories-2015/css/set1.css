@@ -1444,7 +1444,8 @@ figure.effect-chico:hover p {
 		padding: 0;
 		text-align: center;
 	}
-	.grid figure {
+	.grid figure,
+	.grid a.figure-link {
 		display: inline-block;
 		float: left;
 		margin: 0 auto;
