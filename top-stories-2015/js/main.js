@@ -350,7 +350,10 @@ $(document).ready(function(){
 	});
 
 	$('.story-read-trigger').on('click',function(e) {
-		if($(window).width()>1200) {
+		if($(window).width()>1800) {
+			window.open(this.href, "Read on SBU", "width=1260, height=1000");
+    		return false;
+		} else if($(window).width()>1200) {
 			window.open(this.href, "Read on SBU", "width=1024, height=850");
     		return false;
 		} else if($(window).width()>960) {
