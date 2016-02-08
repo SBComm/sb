@@ -26,11 +26,11 @@
                     <h4>On-Campus Housing</h4>
                     <p>The West Apartments offer the option of apartment living for undergraduate and graduate students. These apartments offer both single occupancy and shared accommodations and are fully furnished. The apartments are air conditioned and provide both high speed internet access and extended cable TV service in each bedroom.</p>
                     <!--<p>The Summer Housing Application will be available April 1, 2014.</p>-->
-                    <p>To apply for Summer Housing on Campus at Stony Brook University you must complete the online <a href="https://www.studentaffairs.stonybrook.edu/SummerHousing/" target="_blank">application</a> in its entirety.</p>
+                    <p>To apply for Summer Housing on Campus at Stony Brook University you must complete the online <a href="http://studentaffairs.stonybrook.edu/res/housing_facilities/housing_information.html" target="_blank">application</a> in its entirety.</p>
                     <p></p>
                 </div>
                 <div class="one-half padding-top">
-                    <a class="img-button clearfix margin-top margin-bottom" href="https://www.studentaffairs.stonybrook.edu/SummerHousing/">
+                    <a class="img-button clearfix margin-top margin-bottom" href="http://studentaffairs.stonybrook.edu/res/housing_facilities/housing_information.html">
                     <img class="clearfix" src="img/student-life/west-apartments.jpg" />
                     <span><span class="fa-arrow-after">Submit Application</span></span>
                 </a>

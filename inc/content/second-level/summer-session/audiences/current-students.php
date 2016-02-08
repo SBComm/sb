@@ -42,28 +42,10 @@
                         <span class="line-2">(MEC 280)</span>
                     </span>
                 </a>
-                <a class="science-fiction" href="summer-session/courses/results/?department=EGL&catalog_number=389">
-                    <span>
-                        <span class="line-1">Science Fiction</span>
-                        <span class="line-2">(EGL 389)</span>
-                    </span>
-                </a>
                 <a class="bio-lab" href="summer-session/courses/results/?department=BIO&catalog_number=204">
                     <span>
                         <span class="line-1">Intro Biology Lab I</span>
                         <span class="line-2">(BIO 204)</span>
-                    </span>
-                </a>
-                <!--<a class="disneys-america" href="summer-session/courses/results/?department=HIS&catalog_number=363">
-                    <span>
-                        <span class="line-1">Disney’s America</span>
-                        <span class="line-2">(HIS 363 Online)</span>
-                    </span>
-                </a>-->
-                <a class="religion-culture" href="summer-session/courses/results/?department=ANT&catalog_number=390">
-                    <span>
-                        <span class="line-1">Religion in Cross-Cultural Perspective</span>
-                        <span class="line-2">(ANT 390)</span>
                     </span>
                 </a>
                 <a class="org-chem" href="summer-session/courses/results/?department=CHE&catalog_number=321">
@@ -90,18 +72,6 @@
                         <span class="line-2">(PHY 121)</span>
                     </span>
                 </a>
-                <!--<a class="cultural-diversity" href="summer-session/courses/results/?department=ANT&catalog_number=390">
-                    <span>
-                        <span class="line-1">Cultural Diversity</span>
-                        <span class="line-2">(ANT 390)</span>
-                    </span>
-                </a>-->
-                <!--<a class="mythology" href="summer-session/courses/results/?department=CLL&catalog_number=215">
-                    <span>
-                        <span class="line-1">Classical Mythology</span>
-                        <span class="line-2">(CLL 215)</span>
-                    </span>
-                </a>-->
                 <a class="calculus" href="summer-session/courses/results/?department=MAT&catalog_number=123">
                     <span>
                         <span class="line-1">Introduction to Calculus</span>
@@ -114,22 +84,10 @@
                         <span class="line-2">(PSY 103)</span>
                     </span>
                 </a>
-                <a class="hiphop" href="summer-session/courses/results/?department=MUS&catalog_number=320">
-                    <span>
-                        <span class="line-1">Hip Hop</span>
-                        <span class="line-2">(MUS 320)</span>
-                    </span>
-                </a>
-                <a class="confucianism" href="summer-session/courses/results/?department=AAS&catalog_number=240">
-                    <span>
-                        <span class="line-1">Confucianism and Daoism</span>
-                        <span class="line-2">(AAS 240)</span>
-                    </span>
-                </a>
-                <a class="mozart" href="summer-session/courses/results/?department=MUS&catalog_number=101">
+                <a class="mozart" href="summer-session/courses/results/?keywords=&department=MUS&course_level=UGRD&location=ONLINE&session_code=&SBC=&DEC=">
                     <span>
                         <span class="line-1">Music Online</span>
-                        <span class="line-2">(MUS 101)</span>
+                        <span class="line-2">(Various)</span>
                     </span>
                 </a>
             </div>

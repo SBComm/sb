@@ -19,15 +19,16 @@
                     <li><strong>Take courses that fulfill your major requirements, including prerequisites for entry to health sciences and engineering fields</strong></li>
                     <li><strong>Academic advising services available to help you select the best course(s) for your intended area of study</strong></li>
                 </ul>
-                <!--<div class="grey-box-1 clearfix">
+                <div class="grey-box-1 clearfix">
                     <h4>Steps to Enroll</h4>
+                    <p>Applications will open on March 1, 2016. At that time, you may follow these steps to enroll.</p>
                     <ol class="number large-number">
-                        <li><a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Register Now</a> and complete the <strong>Summer Session Application</strong> (undergraduates). There is no fee required. If you enrolled at Stony Brook in a previous term (including summer or winter), do not complete this application. Call the Summer Session Office at <strong><span class="nowrap">(631) 632-6175</span></strong>.</li>
+                        <li><!--<a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Register Now</a>-->Register and complete the <strong>Summer Session Application</strong> (undergraduates). There is no fee required. If you enrolled at Stony Brook in a previous term (including summer or winter), do not complete this application. Call the Summer Session Office at <strong><span class="nowrap">(631) 632-6175</span></strong>.</li>
                         <li>Allow (3-5) business days for processing. You will be sent a <strong>Stony Brook ID Number and registration instructions</strong>.</li>
                         <li>Register for courses in the <a href="http://it.stonybrook.edu/services/solar" target="_blank">SOLAR System</a>. <em>If you need help registering for courses in SOLAR, <a href="https://www.youtube.com/watch?v=sgnX_p5BNg0" target="_blank" class="external-link">view a tutorial</a>.</em></li>
                     </ol>
-                    <a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Apply Now</a>
-                </div>-->
+                    <!--<a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Apply Now</a>-->
+                </div>
                 <p><strong>* Visiting International Students</strong> should apply through <a href="http://www.stonybrook.edu/commcms/studyabroad/incoming/summer" target="_blank" class="external-link">IAP</a>.</p>
             </div>
         </div>
@@ -47,12 +48,6 @@
                     <span>
                         <span class="line-1">Classical Physics</span>
                         <span class="line-2">(PHY 131)</span>
-                    </span>
-                </a>
-                <a class="macroeconomics" href="summer-session/courses/results/?department=ECO&catalog_number=305">
-                    <span>
-                        <span class="line-1">Macroeconomics</span>
-                        <span class="line-2">(ECO 305)</span>
                     </span>
                 </a>
                 <a class="psychology" href="summer-session/courses/results/?department=PSY&catalog_number=103">
@@ -93,36 +88,10 @@
                 </a>
                 <a class="afro-brazilian" href="summer-session/courses/results/?department=DAN&catalog_number=369">
                     <span>
-                        <span class="line-1">Afro-Brazilian Dance</span>
+                        <span class="line-1">Latin Dance</span>
                         <span class="line-2">(DAN 369)</span>
                     </span>
                 </a>
-                <a class="socio-sport" href="summer-session/courses/results/?department=SOC&catalog_number=391">
-                    <span>
-                        <span class="line-1">Sociology of Sport</span>
-                        <span class="line-2">(SOC 391)</span>
-                    </span>
-                </a>
-                <!--
-                <a class="the-american-musical" href="summer-session/courses/results/?department=ACC&catalog_number=325">
-                    <span>
-                        <span class="line-1">The American Musical</span>
-                        <span class="line-2">(MUS 325)</span>
-                    </span>
-                </a>
-                <a class="activism" href="summer-session/courses/results/?department=SUS&catalog_number=350">
-                    <span>
-                        <span class="line-1">Utopia, Activism and Dystopia</span>
-                        <span class="line-2">(SUS 350)</span>
-                    </span>
-                </a>
-                <a class="iran" href="summer-session/courses/results/?department=LIN&catalog_number=355">
-                    <span>
-                        <span class="line-1">Iran</span>
-                        <span class="line-2">(LIN 355)</span>
-                    </span>
-                </a>
-                -->
             </div>
             <a class="full-width-red-button" href="summer-session/courses/results/#summer-courses">View All Courses</a>
         </div>

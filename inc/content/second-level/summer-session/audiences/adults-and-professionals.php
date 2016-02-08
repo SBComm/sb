@@ -33,10 +33,10 @@
                         <span class="line-2">(HEA 503)</span>
                     </span>
                 </a>
-                <a class="books" href="https://egl584sum2015.wordpress.com/" target="_blank">
+                <a class="books" href="http://mobile.cc.stonybrook.edu/sb/summer-session/courses/results/?keywords=&department=EGL&course_level=GRAD&location=&session_code=&SBC=&DEC=">
                     <span>
-                        <span class="line-1">American Tales and Sketches</span>
-                        <span class="line-2">(EGL 584 Online)</span>
+                        <span class="line-1">British &amp; American Literature</span>
+                        <span class="line-2">(EGL 575 Online)</span>
                     </span>
                 </a>
                 <a class="childrens-literature" href="summer-session/courses/results/?department=CEE&catalog_number=509">

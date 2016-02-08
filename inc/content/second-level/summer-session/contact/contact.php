@@ -62,7 +62,7 @@
                         (631) 632-8530
                     </p>
                     <p>
-                        <strong><a href="http://www.stonybrook.edu/sb/departments/business.shtml" target="_blank">Business Management</a></strong><br />
+                        <strong><a href="http://www.stonybrook.edu/commcms/business/" target="_blank">Business Management</a></strong><br />
                         Harriman School for Management<br />
                         102 Harriman Hall<br />
                         (631 632-7180
@@ -98,7 +98,7 @@
                         (631) 632-7540
                     </p>
                     <p>
-                        <strong><a href="http://www.ee.sunysb.edu/" target="_blank">Electrical Engineering</a></strong><br />
+                        <strong><a href="http://www.stonybrook.edu/commcms/electrical/" target="_blank">Electrical Engineering</a></strong><br />
                         273 Light Engineering Lab Building<br />
                         (631) 632-8400
                     </p>
@@ -108,19 +108,21 @@
                         (631) 632-7400
                     </p>
                     <p>
-                        <strong><a href="http://www.somas.stonybrook.edu/education/undergrad_ba_ens.html" target="_blank">Environmental Studies</a></strong><br />
+                        <strong><a href="http://www.somas.stonybrook.edu/" target="_blank">Environmental Studies</a></strong><br />
                         Marine Sciences Research Center<br />
                         (631) 632-8700
                     </p>
                     <p>
                         <strong>Foreign Languages &amp; Cultures</strong><br />
-                        Arabic: 631/632-7777<br />
-                        Chinese 631/632-9013<br />
+                        <a href="http://www.stonybrook.edu/commcms/llrc/" target="_blank">Arabic</a>: (631) 632-7777<br />
+                        <a href="http://www.stonybrook.edu/commcms/asianamerican/" target="_blank">Chinese</a> (631) 632-9013<br />
                         <a href="http://www.stonybrook.edu/eurolangs/" target="_blank">French</a>: (631) 632-7440<br />
                         <a href="http://www.stonybrook.edu/eurolangs/" target="_blank">German</a>: (631) 632-7440<br />
                         <a href="http://www.stonybrook.edu/eurolangs/" target="_blank">Italian</a>: (631) 632-7440<br />
-                        <a href="http://www.stonybrook.edu/commcms/asian/contact.shtml" target="_blank">Japanese</a>: 631) 632-7690<br />
-                        <a href="http://www.stonybrook.edu/hispanic/" target="_blank">Spanish</a>: (631) 632-6935
+                        <a href="http://www.stonybrook.edu/commcms/asianamerican/" target="_blank">Japanese</a>: 631) 632-7690<br />
+                        <a href="http://www.stonybrook.edu/commcms/llrc/" target="_blank">Korean</a>: 631) 632-7690<br />
+                        <a href="http://www.stonybrook.edu/hispanic/" target="_blank">Spanish</a>: (631) 632-6935<br />
+                        <a href="http://www.stonybrook.edu/commcms/llrc/" target="_blank">Turkish</a>: (631) 632-7690
                     </p>
                 </div>
                 <div class="one-half">
@@ -155,7 +157,7 @@
                         (631) 632-7330
                     </p>
                     <p>
-                        <strong><a href="http://www.stonybrook.edu/sb/departments/nursing.shtml" target="_blank">Nursing </a></strong><br />
+                        <strong><a href="http://www.nursing.stonybrookmedicine.edu/" target="_blank">Nursing </a></strong><br />
                         The School of Nursing<br />
                         Level 2<br />
                         235 Health Sciences Center<br />
@@ -165,11 +167,6 @@
                         <strong><a href="http://www.stonybrook.edu/philosophy/index.html" target="_blank">Philosophy</a></strong><br />
                         213 Harriman Hall<br />
                         (631) 632-7570
-                    </p>
-                    <p>
-                        <strong><a href="http://www.hsc.stonybrook.edu/shtm/at_index.cfm" target="_blank">Physical Education</a></strong><br />
-                        Sports Complex<br />
-                        (631) 632-7200
                     </p>
                     <p>
                         <strong><a href="http://www.physics.sunysb.edu/Physics/" target="_blank">Physics &amp; Astronomy</a></strong><br />

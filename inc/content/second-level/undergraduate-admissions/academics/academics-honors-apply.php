@@ -70,6 +70,8 @@
                         SAT Code: <strong>2548</strong>
                         <br />
                         ACT Code: <strong>2952</strong>
+                        <br />
+                        <em>Note for Scholars for Medicine, Engineering Scholars for Medicine, and Scholars for Dental Medical Applicants: These programs require SAT scores; the ACT will not be used as a substitute).</em>
                     </li>
                     <li>
                     Send two Teacher Evaluations. Electronic submission through The Common Application's School Forms System is preferred. Paper recommendations must be faxed to (631) 632-9898. <strong>WISE applicants:</strong> at least one evaluation should be from a science or math teacher.
