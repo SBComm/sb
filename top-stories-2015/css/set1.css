@@ -720,7 +720,10 @@ a.effect-honey:hover h2 i {
 	margin-bottom: 0;
 	float: left;
 	padding: 0 0 0;
+}
 
+.overlay-wrapper .story-preview {
+	display: none;
 }
 
 .content-box h2 {
@@ -830,7 +833,7 @@ a.effect-honey:hover h2 i {
     transition: all 0.2s;
 }
 
-.overlay .back-button {
+.overlay .story-footer .button {
 	display: block;
 	font-size: 1.3em;
 	width: 100%;
@@ -839,6 +842,7 @@ a.effect-honey:hover h2 i {
 	z-index: 106;
 	float: none;
 	text-align: center;
+	border-radius: 0;
 }
 
 .content-box .button-wrapper {
@@ -890,12 +894,32 @@ a.effect-honey:hover h2 i {
 	display: block;
 	float: left;
 	width: 100%;
+	position: relative;
+}
+
+.overlay .story-footer .button-nav-wrapper {
+	display: block;
+	width: 100%;
+}
+
+.overlay .story-footer button.story-nav-button {
+	width: 50%;
+	float: left;
+	border-radius: 0;
+	text-align: center;
+	background: #333333;
+	font-size: 1.1em;
+}
+
+.overlay .story-footer button.story-nav-button + button.story-nav-button {
+	background: #292929;
 }
 
 .copyright-line {
 	text-align: center;
 	padding: 1em 0;
-	background: #111
+	background: #111;
+	clear: both;;
 }
 
 .copyright-line a,
@@ -1572,6 +1596,70 @@ figure.effect-chico:hover p {
 		max-width: 250px;
 		margin: 10px 5% 3%;
 		float: right;
+	}
+
+	.overlay-wrapper .story-preview {
+		display: none;
+	    position: fixed;
+	    top: 30%;
+	    left: 20%;
+	    right: 20%;
+	    text-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
+	    font-size: 1.6em;
+	    z-index: 1000;
+	    text-transform: uppercase;
+	    text-align: center;
+	    letter-spacing: .03em;
+	    word-spacing: .25em;
+	    padding: 10px 20px 20px;
+	    background: url("../img/branding/rays/black-rays-full.jpg") no-repeat 0 0;
+	    opacity: .925;
+	    max-width: 750px;
+	    margin: 0 auto;
+	    box-shadow: 0 0 30px rgba(0,0,0,.7);
+	}
+
+	.overlay-wrapper .story-preview.show {
+		display: block;
+	}
+
+	.blur .img-box,
+	.blur .content-box {
+		-webkit-filter: blur(20px);
+		-moz-filter: blur(20px);
+		filter: blur(20px);
+	}
+
+	.story-footer .button-nav-wrapper {
+		display: block;
+		width: 100%;
+		position: absolute;
+		z-index: 110;
+	}
+
+	.overlay .story-footer button.story-nav-button {
+		font-size: 1.3em;
+		display: inline-block;
+		float: left;
+		width: 13%;
+		background: #7D0000;
+	}
+
+	.overlay .story-footer button.story-nav-button + button.story-nav-button {
+		float: right;
+		background: #820101;
+	}
+
+	.overlay .story-footer button.story-nav-button:hover,
+	.overlay .story-footer button.story-nav-button + button.story-nav-button:hover {
+		background: #710202;
+	}
+
+	.overlay .story-footer .back-button {
+		position: absolute;
+		left: 13%;
+		right: 44%;
+		width: 74%;;
 	}
 
 }

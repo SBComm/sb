@@ -14,6 +14,12 @@ $.urlParam = function(name){
     }
 };
 
+
+var siteURL = '/sb/top-stories-2015/';
+var totalNumStories = 15;
+
+
+
 function calcHeight(item,header) {
 	var newHeight = (item.height() * 2) - 0.5; //shave off a teeny bit for pixel glitch
 	header.height(newHeight);
@@ -43,12 +49,28 @@ function getStoryOverlayBySlug(slug) {
 	return $('.overlay-wrapper[data-story-slug="'+slug+'"]');
 }
 
+function getOverlayWrapperByID(storyID) {
+	return $('.overlay-wrapper[data-story-id="'+storyID+'"]');
+}
+
 function getStoryIdBySlug(slug) {
 	return getStoryOverlayBySlug(slug).attr('data-story-id');
 }
 
+function getStorySlugByID(storyID) {
+	return getOverlayWrapperByID(storyID).attr('data-story-slug');
+}
+
+function getStoryURLByID(storyID) {
+	return getOverlayWrapperByID(storyID).attr('data-story-url');
+}
+
 function getStoryTriggerByID(storyID) {
 	return $('.trigger-overlay[data-story-id="'+storyID+'"]');
+}
+
+function getTitleByStoryID(storyID) {
+	return $('.overlay-wrapper[data-story-id="'+storyID+'"]').attr('data-story-title');
 }
 
 function getStorySlug() {
@@ -92,11 +114,11 @@ function calcContentHeight(ww,$imgBox,$contentBox,$buttonBox) {
 	var totalHeight = imgBoxHeight + contentBoxHeight + buttonBoxHeight;
 	var windowHeight = $(window).height();
 
-	console.log('totalHeight: '+totalHeight);
-	console.log('windowHeight: '+windowHeight);
-	console.log('imgBoxHeight: '+imgBoxHeight);
-	console.log('contentBoxHeight: '+contentBoxHeight);
-	console.log('buttonBoxHeight: '+buttonBoxHeight);
+	//console.log('totalHeight: '+totalHeight);
+	//console.log('windowHeight: '+windowHeight);
+	//console.log('imgBoxHeight: '+imgBoxHeight);
+	//console.log('contentBoxHeight: '+contentBoxHeight);
+	//console.log('buttonBoxHeight: '+buttonBoxHeight);
 
 	var newContentBoxHeight, difference;
 
@@ -170,17 +192,89 @@ function pushHistoryState(newTitle,linkHref) {
 
 function popHistoryState() {
 	var currentURL = $(location).attr('href');
-	var currentStorySlug = getStorySlug();
-	var storyTrigger = getStoryTriggerByID(getStoryIdBySlug(currentStorySlug));
+	var currentStorySlug = getCurrentStorySlug();
+	var storyID = getStoryIdBySlug(currentStorySlug);
+	var storyTrigger = getStoryTriggerByID(storyID);
+		//console.log(currentURL);
+		//console.log(currentStorySlug);
+		//console.log(getCurrentStorySlug());
+		//console.log('langing');
 	if(currentURL.match(/top-stories-2015\/$/) || currentURL.match(/top-stories-2015$/)) {
 		//if the overlay is open, close it
 		if($('.overlay').hasClass('open')) {
-			storyTrigger.trigger('click');
+			//storyTrigger.trigger('click');
+			//console.log($(this));
+			var $overlayWrapper = getOverlayWrapperByID(getStoryIdBySlug(getStorySlug()));
+			$overlayWrapper.attr('data-push-state','false');
+			//console.log(getStoryIdBySlug(getStorySlug()));
+			//console.log($overlayWrapper);
+			//console.log($overlayWrapper.attr('data-push-state'));
+			getOpenOverlay().find('.button.overlay-close').trigger('click');
+			//updateOverlayContent(storyID);
 		}
 	} else {
 		getStoryOverlayBySlug(currentStorySlug).attr('data-push-state','false');
-		storyTrigger.trigger('click');
+		updateOverlayContent(storyID);
 	}
+}
+
+function updateOverlayContent(storyID) {
+	//reset the open overlay-wrapper to be hidden
+	$('.overlay-wrapper').hide();
+
+	$overlayContent = $('.overlay-wrapper[data-story-id="'+storyID+'"]');
+	$overlayContent.show();
+	$('body').addClass('disable-scroll');
+	$('.overlay').addClass('open');
+
+	var ww = $(window).width();
+
+	setContentHeight(ww,getOpenOverlay());
+	storyData = getStoryData($overlayContent);
+	setMetaTags(storyData,false);
+	setTwitterURL($overlayContent);
+
+	//console.log(storyData.storySlug);
+
+	var linkHref = siteURL + storyData.storySlug;
+	if($overlayContent.attr('data-push-state')!='false') {
+		pushHistoryState(storyData.storyTitle,linkHref);
+	} else {
+		$overlayContent.attr('data-push-state','true');
+	}
+
+	$('body').attr('data-story-slug',storyData.storySlug);
+
+	var gaSlug = '/'+storyData.storySlug;
+	//send GA pageview
+	ga('set', {
+		page: gaSlug,
+		title: storyData.storyTitle
+	});
+	ga('send', 'pageview');
+
+	//build next/prev text
+	var prevID = parseInt(storyID) - 1;
+	var nextID = parseInt(storyID) + 1;
+
+	if(prevID < 1) {
+		prevID = totalNumStories;
+	}
+	if(nextID > totalNumStories) {
+		nextID = 1;
+	}
+
+	$('.previous-story-trigger').attr('data-story-id',prevID);
+	$('.next-story-trigger').attr('data-story-id',nextID);
+
+	var prevTitle = getTitleByStoryID(prevID);
+	var nextTitle = getTitleByStoryID(nextID);
+
+	$('.previous-story-trigger').attr('data-story-title',prevTitle);
+	$('.next-story-trigger').attr('data-story-title',nextTitle);
+
+	$('.prev-story-preview h4').text(prevTitle);
+	$('.next-story-preview h4').text(nextTitle);
 }
 
 if(Modernizr.history) {
@@ -192,8 +286,6 @@ if(Modernizr.history) {
 }
 
 $(document).ready(function(){
-
-	var siteURL = '/sb/top-stories-2015/';
 
 	// attach fastclick
 	FastClick.attach(document.body);
@@ -212,86 +304,82 @@ $(document).ready(function(){
 		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
 		support = { transitions : Modernizr.csstransitions };
 
-	function toggleOverlay(storyID) {
-		
-		var storyData;
+	function toggleOverlay(storyID, nextStoryID, pushState) {
 
-		if($overlay.hasClass('open')) {
-			$overlay.removeClass('open');
-			$overlay.addClass('close');
+		if(typeof getStorySlugByID(storyID) == 'undefined') {
 
-			var onEndTransitionFn = function( ev ) {
+			//console.log('story summary not found');
+
+		} else {
+
+			var storyData;
+			var $overlayWrapper = getOverlayWrapperByID(storyID);
+
+			if($overlay.hasClass('open')) {
+				$overlay.removeClass('open');
+				$overlay.addClass('close');
+
+				var onEndTransitionFn = function( ev ) {
+					if(support.transitions) {
+						//if( ev.propertyName !== 'visibility' ) return;
+						$(this).unbind( transEndEventName, onEndTransitionFn );
+					}
+
+					$('body').removeClass('disable-scroll');
+					$overlay.removeClass('close');
+				};
+
 				if(support.transitions) {
-					//if( ev.propertyName !== 'visibility' ) return;
-					$(this).unbind( transEndEventName, onEndTransitionFn );
+					$overlay.on(transEndEventName, onEndTransitionFn);
+				} else {
+					onEndTransitionFn();
 				}
 
-				$('body').removeClass('disable-scroll');
-				$overlay.removeClass('close');
-			};
+				//console.log(storyID);
+				//console.log($overlayWrapper);
+				//console.log($overlayWrapper.attr('data-push-state'));
 
-			if(support.transitions) {
-				$overlay.on(transEndEventName, onEndTransitionFn);
-			} else {
-				onEndTransitionFn();
+				if($overlayWrapper.attr('data-push-state')=='false') {
+					pushState = false;
+				}
+				//console.log(pushState);
+				//console.log();
+
+				//console.log(getCurrentStorySlug());
+				if(pushState===true) {
+					history.pushState(null, null, siteURL);
+				} else {
+					$overlayWrapper.attr('data-push-state','');
+				}
+				setMetaTags(storyData,true);
+
+				if(nextStoryID>0) {
+					toggleOverlay(nextStoryID);
+				}
+			}
+			else if( !$overlay.hasClass('close') ) {
+				updateOverlayContent(storyID);
 			}
 
-			history.pushState(null, null, siteURL);
-			setMetaTags(storyData,true);
-		}
-		else if( !$overlay.hasClass('close') ) {
-
-			//reset the open overlay-wrapper to be hidden
-			$('.overlay-wrapper').hide();
-
-			$overlayContent = $('.overlay-wrapper[data-story-id="'+storyID+'"]');
-			$overlayContent.show();
-			$('body').addClass('disable-scroll');
-			$overlay.addClass('open');
-
-			setContentHeight(ww,getOpenOverlay());
-
-			storyData = getStoryData($overlayContent);
-
-			setMetaTags(storyData,false);
-
-			setTwitterURL($overlayContent);
-
-			var linkHref = siteURL + storyData.storySlug;
-
-			if($overlayContent.attr('data-push-state')!='false') {
-				pushHistoryState(storyData.storyTitle,linkHref);
-			} else {
-				$overlayContent.attr('data-push-state','true');
-			}
-
-			$('body').attr('data-story-slug',storyData.storySlug);
-
-			var gaSlug = '/'+storyData.storySlug;
-
-			//send GA pageview
-			ga('set', {
-				page: gaSlug,
-				title: storyData.storyTitle
-			});
-			ga('send', 'pageview');
 		}
 	}
 
 	$triggerBttn.on('click',function() {
 		var storyID = '1';
-		toggleOverlay(storyID);
+		toggleOverlay(storyID, false);
 	});
 
 	$triggerBox.on('click',function() {
 		var storyID = $(this).attr('data-story-id');
-		toggleOverlay(storyID);
+		toggleOverlay(storyID, false);
 	});
 
 
 	$closeBttn.on('click',function() {
-		var storyID = $(this).closest('.overlay').attr('data-story-id');
-		toggleOverlay(storyID);
+		var storyID = $(this).closest('.overlay-wrapper').attr('data-story-id');
+		//console.log($(this).closest('.overlay-wrapper'));
+		//console.log(storyID);
+		toggleOverlay(storyID, false, true);
 	});
 
 	/* calc header height */
@@ -319,7 +407,7 @@ $(document).ready(function(){
 	if( defaultStorySlug && (!defaultStorySlug.startsWith('index.')) && (!defaultStorySlug.startsWith('content?')) && defaultStorySlug!=null && defaultStorySlug!='undefined' ) {
 		defaultStoryID = getStoryIdBySlug(decodeURIComponent(defaultStorySlug));
 		//console.log(defaultStoryID);
-		toggleOverlay(defaultStoryID);
+		toggleOverlay(defaultStoryID, false);
 
 		ww = $(window).width();
 		calcHeight(getItem(ww),header);
@@ -362,6 +450,38 @@ $(document).ready(function(){
 		} else {
 			return;
 		}
+	});
+
+	$('.story-nav-button').hover(
+		function() {
+			if($('.overlay').attr('disable-preview-hover')!='true') {
+				var type = $(this).attr('data-page-type');
+				var previewSelector = '.' + type + '-story-preview';
+				getOpenOverlay().addClass('blur');
+				$(previewSelector).addClass('show');
+			}
+		}, function() {
+			var type = $(this).attr('data-page-type');
+			var previewSelector = '.' + type + '-story-preview';
+			getOpenOverlay().removeClass('blur');
+			$(previewSelector).removeClass('show');
+		}
+	);
+
+	$('.content-box, .img-box').hover(
+		function() {
+			if($('.overlay').attr('disable-preview-hover')=='true') {
+				$('.overlay').attr('disable-preview-hover','false');
+			}
+		}
+	);
+
+	$('.story-nav-button').on('click',function() {
+		var storyID = $(this).attr('data-story-id');
+		updateOverlayContent(storyID);
+		$('.story-preview').removeClass('show');
+		$('.overlay-wrapper').removeClass('blur');
+		$('.overlay').attr('disable-preview-hover','true');
 	});
 
 
