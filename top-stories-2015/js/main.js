@@ -214,7 +214,14 @@ function popHistoryState() {
 		}
 	} else {
 		getStoryOverlayBySlug(currentStorySlug).attr('data-push-state','false');
-		updateOverlayContent(storyID);
+		if($('.overlay').hasClass('open')) {
+			$('.overlay-mask').fadeIn(200, function() {
+				updateOverlayContent(storyID);
+				$('.overlay-mask').fadeOut(200);
+			});
+		} else {
+			updateOverlayContent(storyID);
+		}
 	}
 }
 
@@ -275,6 +282,9 @@ function updateOverlayContent(storyID) {
 
 	$('.prev-story-preview h4').text(prevTitle);
 	$('.next-story-preview h4').text(nextTitle);
+
+	$('.overlay-wrapper').removeClass('preview');
+	$('.story-preview').removeClass('show');
 }
 
 if(Modernizr.history) {
@@ -308,7 +318,7 @@ $(document).ready(function(){
 
 		if(typeof getStorySlugByID(storyID) == 'undefined') {
 
-			//console.log('story summary not found');
+			console.log('story summary not found');
 
 		} else {
 
@@ -457,14 +467,15 @@ $(document).ready(function(){
 			if($('.overlay').attr('disable-preview-hover')!='true') {
 				var type = $(this).attr('data-page-type');
 				var previewSelector = '.' + type + '-story-preview';
-				getOpenOverlay().addClass('blur');
+				getOpenOverlay().addClass('preview');
+				$('.story-preview').removeClass('show');
 				$(previewSelector).addClass('show');
 			}
 		}, function() {
 			var type = $(this).attr('data-page-type');
 			var previewSelector = '.' + type + '-story-preview';
-			getOpenOverlay().removeClass('blur');
-			$(previewSelector).removeClass('show');
+			//getOpenOverlay().removeClass('blur');
+			//$(previewSelector).removeClass('show');
 		}
 	);
 
@@ -476,12 +487,24 @@ $(document).ready(function(){
 		}
 	);
 
-	$('.story-nav-button').on('click',function() {
+	$('.next-story-trigger, .previous-story-trigger').on('click',function() {
 		var storyID = $(this).attr('data-story-id');
-		updateOverlayContent(storyID);
-		$('.story-preview').removeClass('show');
-		$('.overlay-wrapper').removeClass('blur');
-		$('.overlay').attr('disable-preview-hover','true');
+		$('.overlay-mask').fadeIn(200, function() {
+			updateOverlayContent(storyID);
+			$('.overlay-wrapper').removeClass('preview');
+			$('.story-preview').removeClass('show');
+			$('.overlay').attr('disable-preview-hover','true');
+			$('.overlay-mask').fadeOut(200);
+		});
+	});
+
+	$('.img-box, .content-box').on('click',function(e) {
+		console.log('clicked');
+		if($(this).closest('.overlay-wrapper').hasClass('preview')) {
+			e.preventDefault();
+			$('.overlay-wrapper').removeClass('preview');
+			$('.story-preview').removeClass('show');
+		}
 	});
 
 
