@@ -672,6 +672,23 @@ a.effect-honey:hover h2 i {
 
 /* custom overlay styles */
 
+.overlay-mask {
+	display: none;
+	background: #000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	border: 0;
+	left: 0;
+	z-index: 10000000;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	background: url("../img/branding/rays/black-rays-full.jpg") no-repeat 0 0;
+	background-size: cover;
+
+}
+
 .overlay-wrapper {
 	display: block;
 	width: 100%;
@@ -1601,7 +1618,7 @@ figure.effect-chico:hover p {
 	.overlay-wrapper .story-preview {
 		display: none;
 	    position: fixed;
-	    top: 30%;
+	    top: 34%;
 	    left: 20%;
 	    right: 20%;
 	    text-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
@@ -1617,17 +1634,28 @@ figure.effect-chico:hover p {
 	    max-width: 750px;
 	    margin: 0 auto;
 	    box-shadow: 0 0 30px rgba(0,0,0,.7);
+	    cursor: pointer;
+	    -webkit-transition: all 0.2s;
+	    -moz-transition: all 0.2s;
+	    transition: all 0.2s;
+	}
+
+	.overlay-wrapper .story-preview:hover {
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
 	}
 
 	.overlay-wrapper .story-preview.show {
 		display: block;
 	}
 
+	.preview .img-box,
+	.preview .content-box,
 	.blur .img-box,
-	.blur .content-box {
-		-webkit-filter: blur(20px);
-		-moz-filter: blur(20px);
-		filter: blur(20px);
+	.blur .content-box  {
+		-webkit-filter: blur(5px);
+		-moz-filter: blur(5px);
+		filter: blur(5px);
 	}
 
 	.story-footer .button-nav-wrapper {
@@ -1643,6 +1671,25 @@ figure.effect-chico:hover p {
 		float: left;
 		width: 13%;
 		background: #7D0000;
+	    -webkit-transition: all 0.2s;
+	    -moz-transition: all 0.2s;
+	    transition: all 0.2s;
+	}
+
+	.overlay .preview .story-footer button.story-nav-button:hover {
+		width: 13%;
+	}
+
+	.overlay .preview .story-footer button.story-nav-button {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+	}
+
+	.overlay .preview .story-footer button.story-nav-button + button.story-nav-button {
+		left: auto;
+		right: 0;
 	}
 
 	.overlay .story-footer button.story-nav-button + button.story-nav-button {
@@ -1659,7 +1706,11 @@ figure.effect-chico:hover p {
 		position: absolute;
 		left: 13%;
 		right: 44%;
-		width: 74%;;
+		width: 74%;
+	}
+
+	.overlay .preview .story-footer .back-button {
+		position: relative;
 	}
 
 }
