@@ -197,10 +197,8 @@ that most cancers could be attributed to "bad luck."</p>
 					<img class="itk-logo" src="img/sbu-in-the-know.png" />
 				</div>
 				<div class="story-footer clearfix">
-					<button type="button" class="button story-nav-button previous-story-trigger clearfix" data-page-type="prev"><i class="fa fa-angle-left"></i> <span class="mobile-label">Prev </span><span class="hide-accessible">Story</span></button>
-					<button type="button" class="button story-nav-button next-story-trigger clearfix" data-page-type="next"> <span class="mobile-label">Next </span><span class="hide-accessible">Story</span> <i class="fa fa-angle-right"></i></button>
-					<span class="story-preview prev-story-preview"><h3>Last Story:</h3><h4>Read previous story</h4></span>
-					<span class="story-preview next-story-preview"><h3>Up Next:</h3><h4>Read next story</h4></span>
+					<button type="button" class="button story-nav-button previous-story-trigger clearfix" data-page-type="prev"><span class="title-label">Stony Brook Researchers Prove External Risks Cause Most Cancers</span><i class="fa fa-angle-left"></i> <span class="mobile-label">Prev </span><span class="hide-accessible">Story</span></button>
+					<button type="button" class="button story-nav-button next-story-trigger clearfix" data-page-type="next"> <span class="mobile-label">Next </span><span class="hide-accessible">Story</span> <span class="title-label">Stony Brook Researchers Prove External Risks Cause Most Cancers</span><i class="fa fa-angle-right"></i></button>
 					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
 					<div class="copyright-line clearfix">
 						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
@@ -228,10 +226,8 @@ that most cancers could be attributed to "bad luck."</p>
 					<img class="itk-logo" src="img/sbu-in-the-know.png" />
 				</div>
 				<div class="story-footer clearfix">
-					<button type="button" class="button story-nav-button previous-story-trigger clearfix" data-page-type="prev"><i class="fa fa-angle-left"></i> <span class="mobile-label">Prev </span><span class="hide-accessible">Story</span></button>
-					<button type="button" class="button story-nav-button next-story-trigger clearfix" data-page-type="next"> <span class="mobile-label">Next </span><span class="hide-accessible">Story</span> <i class="fa fa-angle-right"></i></button>
-					<span class="story-preview prev-story-preview"><h3>Last Story:</h3><h4>Read previous story</h4></span>
-					<span class="story-preview next-story-preview"><h3>Next Story:</h3><h4>Read next story</h4></span>
+					<button type="button" class="button story-nav-button previous-story-trigger clearfix" data-page-type="prev"><span class="title-label">Stony Brook Researchers Prove External Risks Cause Most Cancers</span><i class="fa fa-angle-left"></i> <span class="mobile-label">Prev </span><span class="hide-accessible">Story</span></button>
+					<button type="button" class="button story-nav-button next-story-trigger clearfix" data-page-type="next"> <span class="mobile-label">Next </span><span class="hide-accessible">Story</span> <span class="title-label">Stony Brook Researchers Prove External Risks Cause Most Cancers</span><i class="fa fa-angle-right"></i></button>
 					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
 					<div class="copyright-line clearfix">
 						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University
@@ -259,10 +255,8 @@ that most cancers could be attributed to "bad luck."</p>
 					<img class="itk-logo" src="img/sbu-in-the-know.png" />
 				</div>
 				<div class="story-footer clearfix">
-					<button type="button" class="button story-nav-button previous-story-trigger clearfix" data-page-type="prev"><i class="fa fa-angle-left"></i> <span class="mobile-label">Prev </span><span class="hide-accessible">Story</span></button>
-					<button type="button" class="button story-nav-button next-story-trigger clearfix" data-page-type="next"> <span class="mobile-label">Next </span><span class="hide-accessible">Story</span> <i class="fa fa-angle-right"></i></button>
-					<span class="story-preview prev-story-preview previous-story-trigger" data-page-type="prev"><h3>Last Story:</h3><h4>Read previous story</h4></span>
-					<span class="story-preview next-story-preview next-story-trigger" data-page-type="next"><h3>Up Next:</h3><h4>Read next story</h4></span>
+					<button type="button" class="button story-nav-button previous-story-trigger clearfix" data-page-type="prev"><span class="title-label">Stony Brook Researchers Prove External Risks Cause Most Cancers</span><i class="fa fa-angle-left"></i> <span class="mobile-label">Prev </span><span class="hide-accessible">Story</span></button>
+					<button type="button" class="button story-nav-button next-story-trigger clearfix" data-page-type="next"> <span class="mobile-label">Next </span><span class="hide-accessible">Story</span> <span class="title-label">Stony Brook Researchers Prove External Risks Cause Most Cancers</span><i class="fa fa-angle-right"></i></button>
 					<button type="button" class="overlay-close back-button button"><i class="fa fa-angle-double-left"></i> Back to top 15</button>
 					<div class="copyright-line clearfix">
 						<span class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University

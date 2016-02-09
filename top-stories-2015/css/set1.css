@@ -932,6 +932,10 @@ a.effect-honey:hover h2 i {
 	background: #292929;
 }
 
+.overlay .story-footer button.story-nav-button .title-label {
+	display: none;
+}
+
 .copyright-line {
 	text-align: center;
 	padding: 1em 0;
@@ -1583,7 +1587,7 @@ figure.effect-chico:hover p {
 
 	.img-box .sbu-logo {
 		position: relative;
-		margin: 6% 12.5%;
+		margin: 6% 12.5% 6% 16%;
 		width: 75%;
 		max-width: 100%;
 		top: 0;
@@ -1635,9 +1639,9 @@ figure.effect-chico:hover p {
 	    margin: 0 auto;
 	    box-shadow: 0 0 30px rgba(0,0,0,.7);
 	    cursor: pointer;
-	    -webkit-transition: all 0.2s;
-	    -moz-transition: all 0.2s;
-	    transition: all 0.2s;
+	    -webkit-transition: none;
+	    -moz-transition: none;
+	    transition: none;
 	}
 
 	.overlay-wrapper .story-preview:hover {
@@ -1665,48 +1669,85 @@ figure.effect-chico:hover p {
 		z-index: 110;
 	}
 
-	.overlay .story-footer button.story-nav-button {
+	.overlay .story-footer button.story-nav-button,
+	.overlay .story-footer button.story-nav-button + button.story-nav-button {
 		font-size: 1.3em;
 		display: inline-block;
 		float: left;
-		width: 13%;
+		width: 1.5%;
 		background: #7D0000;
-	    -webkit-transition: all 0.2s;
-	    -moz-transition: all 0.2s;
-	    transition: all 0.2s;
-	}
-
-	.overlay .preview .story-footer button.story-nav-button:hover {
-		width: 13%;
-	}
-
-	.overlay .preview .story-footer button.story-nav-button {
+		background: url("../img/branding/rays/red-rays-full.jpg") repeat 20% 0;
+		background-size: cover;
+		opacity: 1;
+	    -webkit-transition: none;
+	    -moz-transition: none;
+	    transition: none;
 		position: fixed;
 		top: 0;
 		left: 0;
 		bottom: 0;
-	}
-
-	.overlay .preview .story-footer button.story-nav-button + button.story-nav-button {
-		left: auto;
-		right: 0;
+		padding: 0;
+	    z-index: 10000;
+	    padding: 0 .3%;
 	}
 
 	.overlay .story-footer button.story-nav-button + button.story-nav-button {
 		float: right;
-		background: #820101;
+		left: auto;
+		right: 0;
 	}
 
-	.overlay .story-footer button.story-nav-button:hover,
-	.overlay .story-footer button.story-nav-button + button.story-nav-button:hover {
-		background: #710202;
+	.overlay .story-footer button.story-nav-button .fa {
+		display: block;
+		font-size: 1.4em;
+		float: right;
+		margin: 0;
+	}
+
+	.overlay .story-footer button.story-nav-button + button.story-nav-button .fa {
+		float: left;
+	}
+
+	.overlay .preview .story-footer button.story-nav-button:hover {
+		width: 15%;
+		padding: 0 0.75%;
+	}
+
+	.overlay .story-footer button.story-nav-button .mobile-label {
+		display: none;
+	}
+
+	.overlay .story-footer button.story-nav-button .title-label {
+		display: block;
+		opacity: 0;
+		font-size: 0;
+	    -webkit-transition: none;
+	    -moz-transition: none;
+	    transition: none;
+		line-height: 0;
+		text-align: right;
+	}
+
+	.overlay .story-footer button.story-nav-button + button.story-nav-button .title-label {
+		text-align: left;
+	}
+
+
+	.overlay .preview .story-footer button.story-nav-button:hover .title-label {
+		font-size: 1em;
+		line-height: 1.1;
+		opacity: 1;
+	}
+
+	.overlay .preview .story-footer button.story-nav-button + button.story-nav-button:hover {
+
 	}
 
 	.overlay .story-footer .back-button {
-		position: absolute;
-		left: 13%;
-		right: 44%;
-		width: 74%;
+		position: relative;
+		left: 0;
+		right: 0;
+		width: 100%;
 	}
 
 	.overlay .preview .story-footer .back-button {
@@ -1727,10 +1768,20 @@ figure.effect-chico:hover p {
 		width: 33.333333%;
 	}
 
+	.overlay .story-footer button.story-nav-button .fa {
+		font-size: 1.7em;
+	}
+
 }
 
 @media only screen and (min-width: 1360px) {
 	.content-box img.itk-logo {
 
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.overlay .story-footer button.story-nav-button .fa {
+		font-size: 2em;
 	}
 }

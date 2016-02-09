@@ -417,7 +417,8 @@ $(document).ready(function(){
 	if( defaultStorySlug && (!defaultStorySlug.startsWith('index.')) && (!defaultStorySlug.startsWith('content?')) && defaultStorySlug!=null && defaultStorySlug!='undefined' ) {
 		defaultStoryID = getStoryIdBySlug(decodeURIComponent(defaultStorySlug));
 		//console.log(defaultStoryID);
-		toggleOverlay(defaultStoryID, false);
+		//toggleOverlay(defaultStoryID, false);
+		updateOverlayContent(defaultStoryID);
 
 		ww = $(window).width();
 		calcHeight(getItem(ww),header);
@@ -465,20 +466,13 @@ $(document).ready(function(){
 	$('.story-nav-button').hover(
 		function() {
 			if($('.overlay').attr('disable-preview-hover')!='true') {
-				var type = $(this).attr('data-page-type');
-				var previewSelector = '.' + type + '-story-preview';
-				getOpenOverlay().addClass('preview');
-				$('.story-preview').removeClass('show');
-				$(previewSelector).addClass('show');
+				$('.overlay-wrapper').addClass('preview');
 			}
 		}, function() {
-			var type = $(this).attr('data-page-type');
-			var previewSelector = '.' + type + '-story-preview';
-			//getOpenOverlay().removeClass('blur');
-			//$(previewSelector).removeClass('show');
+			$('.overlay-wrapper').removeClass('preview');
 		}
 	);
-
+	
 	$('.content-box, .img-box').hover(
 		function() {
 			if($('.overlay').attr('disable-preview-hover')=='true') {

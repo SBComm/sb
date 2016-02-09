@@ -13,7 +13,7 @@
 .overlay .overlay-close-x {
     width: 80px;
     height: 80px;
-    position: relative;;;
+    position: relative;
     overflow: hidden;
     border: none;
     background: url(../../img/cross.png) no-repeat center center;
@@ -22,7 +22,7 @@
     outline: none;
     z-index: 100;
     float: right;
-    margin: 20px;;
+    margin: 20px;
 }
 
 /* Menu style */
@@ -101,7 +101,7 @@
 	.overlay .overlay-close-x {
 		position: fixed;
 		top: 0;
-		right: 0;
+		right: 2%;
 		float: none;
 		z-index: 100;
 	}
