@@ -226,6 +226,9 @@ function popHistoryState() {
 }
 
 function updateOverlayContent(storyID) {
+	//move current overlay content to top
+	getOpenOverlay().scrollTop(0);
+
 	//reset the open overlay-wrapper to be hidden
 	$('.overlay-wrapper').hide();
 
@@ -253,6 +256,7 @@ function updateOverlayContent(storyID) {
 	$('body').attr('data-story-slug',storyData.storySlug);
 
 	var gaSlug = '/'+storyData.storySlug;
+
 	//send GA pageview
 	ga('set', {
 		page: gaSlug,
@@ -318,7 +322,7 @@ $(document).ready(function(){
 
 		if(typeof getStorySlugByID(storyID) == 'undefined') {
 
-			console.log('story summary not found');
+			console.log('Undefined: story summary not found');
 
 		} else {
 
@@ -493,7 +497,6 @@ $(document).ready(function(){
 	});
 
 	$('.img-box, .content-box').on('click',function(e) {
-		console.log('clicked');
 		if($(this).closest('.overlay-wrapper').hasClass('preview')) {
 			e.preventDefault();
 			$('.overlay-wrapper').removeClass('preview');
