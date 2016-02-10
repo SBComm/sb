@@ -10,7 +10,7 @@
             <div class="content pad-top">
                 <div class="border-box whole clearfix margin-bottom">
                     <div class="one-third">
-                        <img src="https://farm8.staticflickr.com/3832/18970984950_d5ca8d47d1_z.jpg" alt="Three Golfers on a course in red shirts" />
+                        <img src="img/alumni/sponsors/19152947102_bef5603410_z.jpg" alt="Golf course" />
                     </div>
                     <div class="two-third">
                         <h4>Annual Scholarship Golf Classic</h4>
@@ -22,8 +22,29 @@
                 <div class="border-box whole clearfix pad-top section-border-top">
                     <div class="two-third left-col-content">
                         <h4>Save the Date!</h4>
-                        <p>The 15th Annual Scholarship Golf Classic will take place <strong>Monday, June 20, 2016</strong>.</p>
+                        <p>The 15th Annual Scholarship Golf Classic will take place <strong>Monday, June 27, 2016</strong>.</p>
                         <p>Your participation makes a big impact in contribution to the <a href="http://studentaffairs.stonybrook.edu/alumniawards/index.shtml" target="_blank">Alumni Association Annual Student Awards</a>. Thank you!</p>
+                        <p><br /></p>
+
+                        <h4>Title Sponsor</h4>
+                        <p><img src="img/alumni/sponsors/myVRM-logo.jpg" alt="MyVRM logo" /></p>
+                        <p><br /></p>
+
+                        <h4>Where &amp; When</h4>
+                        <p><strong>June 27, 2016</strong><br />
+                        Indian Hills Country Club<br />
+                        21 Breeze Hill Road, Northport, NY<br />
+                        10:30 AM - Registration and Breakfast<br />
+                        12 PM - Shotgun </p>
+                        <p><br /></p>
+
+                        <h4>Thank You to Our Sponsors!</h4>
+                        <p><img src="img/alumni/sponsors/myVRM-logo.jpg" alt="MyVRM logo" style="display: inline; float: left; margin-right: 20px;" />Cocktail Hour Sponsor<br />
+                        David C. Leviton '84<br />
+                        CBRE</p>
+                        <p><br /></p>
+
+                        <h4>More Information</h4>
                         <p>For more information about the upcoming Scholarship Golf Classic, please call (631) 632-4466.</p>
                     </div>
                     <div class="one-third">
