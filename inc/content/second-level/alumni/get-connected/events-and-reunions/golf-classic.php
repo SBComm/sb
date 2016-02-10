@@ -39,7 +39,7 @@
                         <p><br /></p>
 
                         <h4>Thank You to Our Sponsors!</h4>
-                        <p><img src="img/alumni/sponsors/CBRE.jpg" alt="MyVRM logo" style="display: inline; float: left; margin-right: 20px;" />Cocktail Hour Sponsor<br />
+                        <p><img src="img/alumni/sponsors/CBRE.jpg" alt="MyVRM logo" style="display: inline; float: left; margin-right: 20px; width: 100%; max-width: 400px;" />Cocktail Hour Sponsor<br />
                         David C. Leviton '84<br />
                         CBRE</p>
                         <p><br /></p>
