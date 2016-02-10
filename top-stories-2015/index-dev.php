@@ -194,7 +194,7 @@ that most cancers could be attributed to "bad luck."</p>
 							<!--<button class="button social-share copy-link copy-link-trigger">Copy Link</button>-->
 						</div>
 					</div>
-					<img class="itk-logo" src="img/sbu-in-the-know.png" />
+					<img class="itk-logo clearfix" src="img/sbu-in-the-know.png" />
 				</div>
 				<div class="story-footer clearfix">
 					<button type="button" class="button story-nav-button previous-story-trigger clearfix" data-page-type="prev"><span class="title-label">Stony Brook Researchers Prove External Risks Cause Most Cancers</span><i class="fa fa-angle-left"></i> <span class="mobile-label">Prev </span><span class="hide-accessible">Story</span></button>
@@ -223,7 +223,7 @@ that most cancers could be attributed to "bad luck."</p>
 							<!--<button class="button social-share copy-link copy-link-trigger">Copy Link</button>-->
 						</div>
 					</div>
-					<img class="itk-logo" src="img/sbu-in-the-know.png" />
+					<img class="itk-logo clearfix" src="img/sbu-in-the-know.png" />
 				</div>
 				<div class="story-footer clearfix">
 					<button type="button" class="button story-nav-button previous-story-trigger clearfix" data-page-type="prev"><span class="title-label">Stony Brook Researchers Prove External Risks Cause Most Cancers</span><i class="fa fa-angle-left"></i> <span class="mobile-label">Prev </span><span class="hide-accessible">Story</span></button>
@@ -252,7 +252,7 @@ that most cancers could be attributed to "bad luck."</p>
 							<!--<button class="button social-share copy-link copy-link-trigger">Copy Link</button>-->
 						</div>
 					</div>
-					<img class="itk-logo" src="img/sbu-in-the-know.png" />
+					<img class="itk-logo clearfix" src="img/sbu-in-the-know.png" />
 				</div>
 				<div class="story-footer clearfix">
 					<button type="button" class="button story-nav-button previous-story-trigger clearfix" data-page-type="prev"><span class="title-label">Stony Brook Researchers Prove External Risks Cause Most Cancers</span><i class="fa fa-angle-left"></i> <span class="mobile-label">Prev </span><span class="hide-accessible">Story</span></button>
