@@ -88,7 +88,6 @@ function getCurrentStorySlug() {
 	var currentURL = $(location).attr('href');
 	var n = currentURL.lastIndexOf('/');
 	var storySlug = currentURL.substring(n + 1);
-	console.log(storySlug);
 	return storySlug;
 }
 
@@ -122,11 +121,11 @@ function calcContentHeight(ww,$imgBox,$contentBox,$buttonBox) {
 	var totalHeight = imgBoxHeight + contentBoxHeight + buttonBoxHeight;
 	var windowHeight = $(window).height();
 
-	console.log('totalHeight: '+totalHeight);
-	console.log('windowHeight: '+windowHeight);
-	console.log('imgBoxHeight: '+imgBoxHeight);
-	console.log('contentBoxHeight: '+contentBoxHeight);
-	console.log('buttonBoxHeight: '+buttonBoxHeight);
+	//console.log('totalHeight: '+totalHeight);
+	//console.log('windowHeight: '+windowHeight);
+	//console.log('imgBoxHeight: '+imgBoxHeight);
+	//console.log('contentBoxHeight: '+contentBoxHeight);
+	//console.log('buttonBoxHeight: '+buttonBoxHeight);
 
 	var newContentBoxHeight, difference;
 
@@ -392,7 +391,6 @@ $(document).ready(function(){
 	$('.overlay').on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', 
     function() {
     	if(!transitionEndComplete) {
-			console.log('here');
 			setContentHeight(ww,getOpenOverlay());
 	    	transitionEndComplete = true;
     	}
