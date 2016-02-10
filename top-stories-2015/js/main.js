@@ -379,6 +379,17 @@ $(document).ready(function(){
 		}
 	}
 
+	var transitionEndComplete = false;
+
+	$('.overlay').on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', 
+    function() {
+    	if(!transitionEndComplete) {
+			console.log('here');
+			setContentHeight(ww,getOpenOverlay());
+	    	transitionEndComplete = true;
+    	}
+    });
+
 	$triggerBttn.on('click',function() {
 		var storyID = '1';
 		toggleOverlay(storyID, false);
