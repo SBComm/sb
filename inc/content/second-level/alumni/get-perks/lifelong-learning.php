@@ -72,7 +72,7 @@
                         <img src="img/alumni/perks/kaplan.jpg" alt="Kaplan test prep logo" />
                     </div>
                     <div class="two-third">
-                        <h4>Kaplan Test Prep</h4>
+                        <h4 id="kaplan">Kaplan Test Prep</h4>
                         <p><strong>Save 10% off Kaplan Test Prep courses!</strong></p>
                         <p>Kaplan Test Prep and the Stony Brook University (SBU) Alumni Association have teamed up to offer you a great deal on test preparation courses.</p>
                         <p>Members of the SBU Alumni Association can save big! Contact the Office of Alumni Relations at the contact information below to get your SBU Alumni Discount Code. You will then contact 1-800-KAPTEST to enroll.</p>
