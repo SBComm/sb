@@ -114,11 +114,11 @@ function calcContentHeight(ww,$imgBox,$contentBox,$buttonBox) {
 	var totalHeight = imgBoxHeight + contentBoxHeight + buttonBoxHeight;
 	var windowHeight = $(window).height();
 
-	//console.log('totalHeight: '+totalHeight);
-	//console.log('windowHeight: '+windowHeight);
-	//console.log('imgBoxHeight: '+imgBoxHeight);
-	//console.log('contentBoxHeight: '+contentBoxHeight);
-	//console.log('buttonBoxHeight: '+buttonBoxHeight);
+	console.log('totalHeight: '+totalHeight);
+	console.log('windowHeight: '+windowHeight);
+	console.log('imgBoxHeight: '+imgBoxHeight);
+	console.log('contentBoxHeight: '+contentBoxHeight);
+	console.log('buttonBoxHeight: '+buttonBoxHeight);
 
 	var newContentBoxHeight, difference;
 
@@ -283,9 +283,10 @@ function updateOverlayContent(storyID) {
 
 	$('.previous-story-trigger').attr('data-story-title',prevTitle);
 	$('.next-story-trigger').attr('data-story-title',nextTitle);
-
+	/*
 	$('.prev-story-preview h4').text(prevTitle);
 	$('.next-story-preview h4').text(nextTitle);
+	*/
 
 	$('.overlay-wrapper').removeClass('preview');
 	$('.story-preview').removeClass('show');
@@ -423,11 +424,6 @@ $(document).ready(function(){
 		//console.log(defaultStoryID);
 		//toggleOverlay(defaultStoryID, false);
 		updateOverlayContent(defaultStoryID);
-
-		ww = $(window).width();
-		calcHeight(getItem(ww),header);
-		var $openOverlay = getOpenOverlay();
-		setContentHeight(ww,$openOverlay);
 	}
 
 	/* social share */
