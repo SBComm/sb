@@ -81,6 +81,7 @@ function getCurrentStorySlug() {
 	var currentURL = $(location).attr('href');
 	var n = currentURL.lastIndexOf('/');
 	var storySlug = currentURL.substring(n + 1);
+	console.log(storySlug);
 	return storySlug;
 }
 
