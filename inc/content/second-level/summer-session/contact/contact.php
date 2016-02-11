@@ -109,7 +109,7 @@
                     </p>
                     <p>
                         <strong><a href="http://www.somas.stonybrook.edu/" target="_blank">Environmental Studies</a></strong><br />
-                        Marine Sciences Research Center<br />
+                        Endeavor Hall<br />
                         (631) 632-8700
                     </p>
                     <p>
