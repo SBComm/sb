@@ -44,7 +44,7 @@
         <?php includeAsset('css','css/vendor/tooltipster/themes/tooltipster-light.css'); ?>
         <!--<link rel="stylesheet" href="fonts/icomoon/style.css">-->
         <!--<link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">-->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!--END CSS Style Includes-->
 
         <?php if($carousel) { ?>
