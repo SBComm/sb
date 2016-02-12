@@ -1,4 +1,4 @@
-<section class="white-background logo-container">
+<section class="white-background partners-logo-container">
     <div class="wrapper border-box pad-top pad-bottom">
         <div class="one-half clearfix">
             <a href="https://www.islandfcu.org/Island-at-Stony-Brook.aspx" title="Visit Island Federal at Stony Brook"><img class="icon grayscale-to-color-hover" src="img/logo/partners/logo-island-federal-550.png" alt="Logo of Island Federal Credit Union" /></a>
