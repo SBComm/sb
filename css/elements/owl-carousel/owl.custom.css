@@ -69,11 +69,6 @@
 	position: relative;
 }
 
-#the-carousel-1 .carousel-image {
-	height: auto;
-	max-height: 260px;
-}
-
 .carousel-image {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -90,11 +85,6 @@
 	.carousel-image {
 		height: 320px;
 	}
-	#the-carousel-1 .item,
-	#the-carousel-1 .carousel-image {
-		height: auto;
-		max-height: 320px;
-	}
 }
 
 @media only screen and (min-width: 940px) {
@@ -109,11 +99,6 @@
 	.carousel-wrapper .item,
 	.carousel-image {
 		height: 358px;
-	}
-	#the-carousel-1 .item,
-	#the-carousel-1 .carousel-image {
-		height: auto;
-		max-height: 358px;
 	}
 	.owl-next,
 	.owl-prev {
