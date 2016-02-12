@@ -21,7 +21,7 @@
 				<option value="2" data-href="http://www.stonybrook.edu/sb/faculty.shtml">Faculty &amp; Staff</option>
 				<option value="3" data-href="http://www.stonybrook.edu/sb/alumni.shtml">Alumni &amp; Friends</option>
 				<option value="4" data-href="http://www.stonybrook.edu/sb/parents.shtml">Parents</option>
-				<option value="5" data-href="http://www.stonybrook.edu/commcms/community_relations">Neighbors</option>
+				<option value="5" data-href="http://mobile.cc.stonybrook.edu/sb/community-relations/">Neighbors</option>
 				<option value="6" data-href="http://www.stonybrook.edu/economic-development">Economic Development</option>
 			</select>
 		</div>
