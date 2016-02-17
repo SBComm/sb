@@ -27,9 +27,9 @@
             <div class="content application-details alert-message green clearfix">
                 <p>Applications are being accepted for the fall 2016 semester.</p>
             </div>
-            <div class="content application-details alert-message red clearfix">
+            <!--<div class="content application-details alert-message red clearfix">
                 <p>We are no longer accepting applications for the spring 2016 semester.</p>
-            </div>
+            </div>-->
              <div class="content application-details clearfix">
                 <div class="inner-wrapper">
                     <p>Follow these steps to apply as an International Applicant:</p>

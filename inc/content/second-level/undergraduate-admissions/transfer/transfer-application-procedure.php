@@ -27,9 +27,9 @@
             <div class="content application-details alert-message green clearfix">
                 <p>Applications are being accepted for the fall 2016 semester.</p>
             </div>
-            <div class="content application-details alert-message red clearfix">
+            <!--<div class="content application-details alert-message red clearfix">
                 <p>We are no longer accepting applications for the spring 2016 semester.</p>
-            </div>
+            </div>-->
             <div class="content application-details clearfix">
                 <div class="inner-wrapper">
                     <p>To apply to Stony Brook University as a transfer student, please follow these application procedures. Before submitting an application, be sure to review our list of <a href="undergraduate-admissions/academics/">academic offerings</a>. Students applying for admission to Health Sciences programs must follow <a href="undergraduate-admissions/apply/hsc-admission-criteria/">special application procedures</a>.</p>
