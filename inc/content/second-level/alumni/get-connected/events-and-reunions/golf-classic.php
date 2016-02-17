@@ -10,7 +10,7 @@
             <div class="content pad-top">
                 <div class="border-box whole clearfix margin-bottom">
                     <div class="one-third">
-                        <img src="img/alumni/sponsors/19152947102_bef5603410_z.jpg" alt="Golf course" />
+                        <img src="img/alumni/golf-hole-12.jpg" alt="Golf course" />
                     </div>
                     <div class="two-third">
                         <h4>Annual Scholarship Golf Classic</h4>
