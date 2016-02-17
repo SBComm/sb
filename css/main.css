@@ -154,6 +154,11 @@ select.rounded-input {
     color: blue;
 }
 
+.targeting-pixel {
+    display: block;
+    margin-top: -1px;
+}
+
 img {
     max-width: 100%;
 }

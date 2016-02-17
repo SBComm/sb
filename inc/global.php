@@ -155,7 +155,7 @@ if($is_proofing_environment) {
 
 <?php if($second_level=='summer-session' && $is_production_environment) { ?>
     <!--Begin Stony Brook University Retargeting Pixel-->
-    <img src="https://b.collective-media.net/seg/cm/2or0" width="1" height="1" />
+    <img class="targeting-pixel" src="https://b.collective-media.net/seg/cm/2or0" width="1" height="1" />
     <!--End Stony Brook University Retargeting Pixel-->
 <?php } ?>
 
