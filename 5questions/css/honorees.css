@@ -168,12 +168,12 @@
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Trade Gothic W01 Light';
+    font-family: 'Trade Gothic W01 Bold 2';
     font-size: .9em;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     padding: 4px 0 0;
-    letter-spacing: .175em;
+    letter-spacing: 0.075em;
 }
 
 .view-label:after {
@@ -222,6 +222,7 @@
     right: auto;
     bottom: auto;
     left: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .video-overlay {
@@ -699,6 +700,9 @@
 	    width: 33.333%;
 	    padding-bottom: 36.25%; /* ratio for 33.333% of 522/480 */
 	}
+	.overlay.show {
+	    height: 86%;
+	}
 }
 
 @media only screen and (min-width: 540px) {
@@ -785,6 +789,10 @@
 	    font-size: 1em;
 	    line-height: 1.8em;
 	    padding: 0 0 12px
+	}
+
+	.overlay.show {
+	    height: 89%;
 	}
 }
 

@@ -1,7 +1,7 @@
 <div class="filters category-nav category-nav-sticky">
     <h3 class="stars-around hide-accessible-desktop" role="button" tabindex="0">Select a Topic</h3>
     <ul class="clearfix">
-        <li><button class="show-all selected" data-filter="*">All Topics</button></li>
+        <li><button class="show-all selected" data-filter="*">All Interviews</button></li>
         <li><button data-filter="Arts & Entertainment">Arts &amp; Entertainment</button></li>
         <li><button data-filter="Civil Service & Activism">Civil Service &amp; Activism</button></li>
         <li><button data-filter="Education">Education</button></li>
