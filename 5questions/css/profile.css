@@ -1,0 +1,22 @@
+/* 
+   File: profile.css
+   Created by: Josh Palmeri
+   2015.05.06
+   used on profile.php
+*/
+
+html,
+body {
+	background: #414141;
+}
+
+.overlay {
+	display: block;
+	position: relative;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	opacity: 1;
+	visibility: visible;
+	max-height: 2000px;
+	padding-bottom: 60px;
+	background: #414141;
+}

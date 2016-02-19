@@ -1,0 +1,238 @@
+/* 
+   File: contact-form.css
+   Created by: Josh Palmeri, joshpalmeri.com
+   2015.01.25
+   As a part of dayspringdanceministries.com/contact
+
+   Dependencies:
+    <link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">
+*/
+
+.contact h2 {
+    text-align: center;
+    padding: 0 0 20px;
+    margin: 40px 0 36px;
+}
+
+.contact .contact-container,
+.contact .input-wrapper {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contact-container {
+    padding-bottom: 40px;
+}
+
+.contact .input-wrapper {
+    margin: 0 0 20px;
+}
+
+.contact .input-wrapper input,
+.contact .input-wrapper textarea {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 10px 5px 12px 15px;
+    border: 0 none;
+    background: #fff;
+    outline: 0 none;
+    font-family: 'Rosario', arial, sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #457bb6;
+    height: 40px;
+    border-radius: 0;
+    text-indent: 2px;
+}
+
+.contact .input-wrapper textarea {
+    min-height: 110px;
+}
+
+.contact .input-wrapper label,
+.contact .input-wrapper span.label {
+    display: block;
+    font-size: 1.2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 0 6px 10px;
+    background: url("img/colors/000/transparent-black-75.png") 0 0 repeat;
+    background: rgba(10, 55, 90, .8);
+}
+
+.contact .input-wrapper label.error {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 0 4px 10px;
+    background: #8a1317;
+    -webkit-animation: pulsing-opacity 2s infinite; /* Safari 4+ */
+    -moz-animation:    pulsing-opacity 2s infinite; /* Fx 5+ */
+    -o-animation:      pulsing-opacity 2s infinite; /* Opera 12+ */
+    animation:         pulsing-opacity 2s infinite;
+}
+
+.contact .input-wrapper label.error:before {
+    content: "\f0d8";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    margin: 0 5px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+    opacity: 1;
+}
+
+.contact .input-wrapper input[type="checkbox"] {
+    display:none;
+}
+.contact .input-wrapper input[type="checkbox"] + label {
+    padding: 0;
+    margin: 4px 0;
+    cursor: pointer;
+    background: none;
+}
+.contact .input-wrapper input[type="checkbox"] + label span {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin:  0 6px 0 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+}
+.contact .input-wrapper input[type="checkbox"] + label span:before {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: left;
+
+    content: "\f096";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 2.2em;
+    opacity: 1;
+}
+.contact .input-wrapper input[type="checkbox"] + label:hover span:before {
+    content: "\f0c8";
+    opacity: .5;
+    font-size: 2.1em;
+}
+.contact .input-wrapper input[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
+.contact .input-wrapper input[type="checkbox"]:checked + label span:before {
+    content: "\f14a";
+    opacity: 1;
+    font-size: 2.1em;
+}
+
+@media only screen and (min-width: 740px) {
+    section .serif-header {
+        font-size: 3.6em;
+        margin: 20px 0;
+    }
+    section .serif-header.smaller {
+        font-size: 2.8em;
+        margin: 10px auto;
+    }
+    section.serif-copy p,
+    .serif-text {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+    .core-values .sub-line {
+        font-size: 1.8em;
+        padding: 40px 0 20px;
+    }
+    .core-values .sub-line .fa {
+        margin: 0 12px 0 0;
+    }
+
+    .half-right .half {
+        width: 70%;
+        max-width: 512px;
+        float: right;
+        display: block;
+    }
+
+    .half-left .half {
+        width: 70%;
+        max-width: 512px;
+        float: left;
+        display: block;
+    }
+
+
+    .offer.purple-bkg .half {
+        background: #5f2173;
+        background: rgba(95, 33, 115, .95);
+    }
+    .offer.green-bkg .half {
+        color: #bbffc3;
+        background: #068e16;
+        background: rgba(6, 142, 22, .95);
+    }
+    .offer.blue-bkg .half {
+        color: #a0c2ea;
+        background: #22548d;
+        background: rgba(34, 84, 141, .95);
+    }
+
+    section.contact {
+        font-size: 1.2em;
+    }
+    .contact .input-wrapper input[type="checkbox"] + label {
+        margin: 10px 0;
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    .contact .input-wrapper input[type="checkbox"] + label span {
+        margin:  0 10px 0 0;
+        font-size: .9em;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .contact h2 {
+        text-align: center;
+        padding: 0 0 20px;
+        margin: 40px auto 36px;
+        font-size: 3.4em;
+    }
+    .contact .input-wrapper-half {
+        display: inline-block;
+        float: left;
+        width: 44%;
+        display: block;
+        margin: 0 3% 35px;
+    }
+}
+

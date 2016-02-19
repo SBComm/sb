@@ -1,0 +1,2618 @@
+/* 
+   File: main.css
+   Starting point: HTML5 Boilerplate, h5bp.com
+   Development by: Josh Palmeri, Stony Brook University, NY
+   20145.05.11
+/*
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #000;
+}
+
+body {
+    font-size: 12px;
+    color: #000;
+    background-color: #000;
+    background: url('../img/rays/black-rays-full.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+::-moz-selection {
+    background: #900;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #900;
+    color: #fff;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #900;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0.4em;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.desktop-960,
+.desktop-1024 {
+    display: none;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Reusable styles */
+
+.animated-pulse {
+    -webkit-animation-name: 'pulse_animation';
+    -webkit-animation-duration: 5000ms;
+    -webkit-animation-delay: 3s;
+    -webkit-transform-origin: 70% 70%;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+}
+
+@-webkit-keyframes pulse_animation {
+    0% { -webkit-transform: scale(1); }
+    37% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.1); }
+    63% { -webkit-transform: scale(1); }
+    100% { -webkit-transform: scale(1); }
+}
+
+.border-shadow {
+    border-bottom: 1px solid #444444;
+    border-top: 1px solid #444444;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 8px 7px -8px #111111, 0 -8px 7px -8px #111111, 0 0 60px #222222 inset;
+    -moz-box-shadow: 0 8px 7px -8px #111111, 0 -8px 7px -8px #111111, 0 0 60px #222222 inset;
+    box-shadow: 0 8px 7px -8px #111111, 0 -8px 7px -8px #111111, 0 0 60px #222222 inset;
+}
+
+.bottom-shadow {
+    -webkit-box-shadow: 0 10px 8px -8px #000000;
+    -moz-box-shadow: 0 10px 8px -8px #000000;
+    box-shadow: 0 10px 8px -8px #000000;
+}
+
+.top-shadow {
+    -webkit-box-shadow: 0 -10px 8px -8px #000000;
+    -moz-box-shadow: 0 -10px 8px -8px #000000;
+    box-shadow: 0 -10px 8px -8px #000000;
+}
+
+.top-and-bottom-shadow {
+    -webkit-box-shadow: 0 -10px 8px -8px #000000, 0 10px 8px -8px #000000;
+    -moz-box-shadow: 0 -10px 8px -8px #000000, 0 10px 8px -8px #000000;
+    box-shadow: 0 -10px 8px -8px #000000, 0 10px 8px -8px #000000;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #013765;
+}
+
+.border-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.relative {
+    position: relative;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.back-black-op65 {
+    background: url("../img/bkg/transparent-black-65.png") repeat scroll 0 0;
+}
+
+/* Video */
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 49.5%; /* 16:9 */
+    /* padding-bottom: 75%; */ /* 4:3; */
+    height: 0;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS3 animations for changing css properties */
+.transition {
+    -webkit-transition: font-size .2s ease-in-out;
+    -moz-transition: font-size .2s ease-in-out;
+    -o-transition: font-size .2s ease-in-out;
+    transition: font-size .2s ease-in-out;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.hide-accessible {
+   position: absolute !important;
+   top: -99999px !important;
+   left: -99999px !important;
+   width: 2000px;
+   height: 2000px;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* External Links */
+/* Requires the reservation of :after on all link elements */
+
+a[target='_blank']:hover:after {
+    content: "This link will open in a new window.";
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(153, 0, 0, .7);
+    padding: 10px 0;
+    z-index: 19;
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    font-family:'Trade Gothic Next W01';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Widgets */
+
+#totop {
+    position: fixed;
+    bottom: 3px;
+    left: 3px;
+    z-index: 18;
+    display: block;
+    visibility: visible;
+    padding: 4px 7px;
+    font-size: 2em;
+    color: #eee;
+    cursor: pointer;
+    text-shadow: 0 0 8px #333, 0 1px 1px #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    opacity: .2;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#totop .to-top {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+    font-size: .5em;
+    font-family:'Trade Gothic Next W01';
+}
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:999999; /* makes sure it stays on top */
+}
+
+.plusone {
+    display: inline-block;
+    background: #fff;
+    padding: 6px 5px 6px;
+    border-radius: 50%;
+    font-size: .8em;
+    text-align: center;
+    line-height: 1;
+    margin: 0 4px 0 0
+}
+
+/* Loader */
+
+.loader {
+  width: 100px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  display: none;
+  z-index: 100000;
+}
+
+.loader.show {
+    display: block;
+}
+
+.loader .ball {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-animation: motion 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+          animation: motion 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+
+@-webkit-keyframes motion {
+  0% {
+    -webkit-transform: translateX(0) scale(1.5);
+            transform: translateX(0) scale(1.5);
+  }
+  25% {
+    -webkit-transform: translateX(-50px) scale(0.3);
+            transform: translateX(-50px) scale(0.3);
+  }
+  50% {
+    -webkit-transform: translateX(0) scale(1.5);
+            transform: translateX(0) scale(1.5);
+  }
+  75% {
+    -webkit-transform: translateX(50px) scale(0.3);
+            transform: translateX(50px) scale(0.3);
+  }
+  100% {
+    -webkit-transform: translateX(0) scale(1.5);
+            transform: translateX(0) scale(1.5);
+  }
+}
+
+@keyframes motion {
+  0% {
+    -webkit-transform: translateX(0) scale(1);
+            transform: translateX(0) scale(1);
+  }
+  25% {
+    -webkit-transform: translateX(-50px) scale(0.3);
+            transform: translateX(-50px) scale(0.3);
+  }
+  50% {
+    -webkit-transform: translateX(0) scale(1);
+            transform: translateX(0) scale(1);
+  }
+  75% {
+    -webkit-transform: translateX(50px) scale(0.3);
+            transform: translateX(50px) scale(0.3);
+  }
+  100% {
+    -webkit-transform: translateX(0) scale(1);
+            transform: translateX(0) scale(1);
+  }
+}
+
+
+/* Carousel */
+
+#the-carousel {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.owl-wrapper-outer,
+.owl-item {
+    background: transparent;
+    border: 0 none;
+}
+
+.owl-next,
+.owl-prev {
+    background: transparent;
+    color: #444;
+    border: 0 none;
+    font-size: 3em;
+    position: absolute;
+    top: 0;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+    line-height: 0;
+    padding: 13% .2%;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: .4;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+    background: rgba(30,30,30,.15);
+    color: #222;
+    box-shadow: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    opacity: .6;
+}
+
+.owl-controls {
+    display: none !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.owl-item {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.owl-item a {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.owl-item a img {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 3%;
+    width: 94%;
+}
+
+.carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.nivo-lightbox-image {
+    height: auto !important;
+}
+
+/* Containers */
+
+.wrapper {
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    position: relative;
+}
+
+.no-pad-wrapper {
+    display: block;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+/* tables */
+
+table.light-grey-table {
+    background: #eee;
+    border: 8px solid #fff;
+    box-shadow: 0 0 0 1px #900;
+}
+
+table.tablesaw {
+    position: relative;
+    margin: 10px .5% 20px;
+    width: 99% !important;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    font-family: 'Trade Gothic Next W01', Arial, sans-serif;
+    color: #333;
+}
+
+.light-grey-table th,
+.light-grey-table td {
+    font-weight: normal;
+    border-right: 1px solid #bbb;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 6px 8px;
+}
+
+table.light-grey-table tbody tr:nth-child(odd) {
+    background: #e3e3e3;
+}
+
+table.tablesaw tr {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+table.tablesaw th,
+table.tablesaw .tablesaw-cell-label {
+    font-weight: normal;
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+/* Site Styles */
+
+.marquee {
+    position: relative;
+    padding-bottom: 85%;
+    height: 0;
+    padding-top: 25px;
+    background: url("../img/40-under-red-banner-small.jpg") repeat scroll 0 0;
+    background-size: cover;
+}
+
+.marquee video,
+.marquee .quote {
+    display: none;
+}
+
+.marquee-logo-mobile {
+    display: block;
+    width: 30%;
+    margin: 3% 35% 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.marquee-logo-desktop {
+    display: none;
+}
+
+.first-section {
+    margin-top: 66px;
+}
+
+/* Fixed Positioning */
+
+.overlay-controls.stuck {
+    position: fixed;
+    top: 68px;
+    left: 0;
+    right: 0;;
+}
+
+/* Buttons */
+
+.cta {
+    display: inline-block;
+    background: #8a0000;
+    font-family: 'Trade Gothic W01 Cn 18';
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.6em;
+    padding: 7px 14px;
+    text-decoration: none;
+    margin: 0 auto;
+    cursor: pointer;
+    letter-spacing: .075em;
+    text-rendering: optimizeLegibility;
+}
+
+.cta-outline {
+    background: #fff;
+    border: 2px solid #900;
+    color: #900;
+}
+
+.arrow-after {
+    padding: 7px 10px 7px 13px;
+}
+
+.cta:hover {
+    background: #980606;
+}
+
+.cta-outline:hover {
+    color: #fff;
+}
+
+.cta.view-gallery,
+.cta.submit-nom {
+    width: 170px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.icon-after:after,
+.icon-before:before,
+.arrow-after:after,
+.twitter-share-link:hover:after {
+    font-family: 'sbu-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.arrow-after:after,
+.twitter-share-link:hover:after {
+    content: "\edba";
+    font-size: .8em;
+    display: inline-block;
+    margin: 0 0 0 6px;
+}
+
+.arrow-before:before {
+    content: "\edc2";
+    font-size: .8em;
+    display: inline-block;
+    margin: 0 0 0 6px;
+}
+
+.grid-icon-before:before {
+    content: "\ec5a";
+    font-size: .8em;
+    display: inline-block;
+    margin: 0 6px 0 0;
+}
+
+.close-icon-before:before {
+    content: "\f00d";
+    font-size: .95em;
+    display: inline-block;
+    margin: 0 6px 0 0;
+}
+
+.dots-icon-before:before {
+    content: "\ec67";
+    font-size: .95em;
+    display: inline-block;
+    margin: 0 6px 0 0;
+}
+
+.twitter-before:before {
+    color: #4ec2dc;
+    content: "\f099";
+    font-size: 1.1em;
+    line-height: 0;
+    margin: 0 6px 0 -6px;
+}
+
+.linkedin-before:before {
+    color: #00aabf;
+    content: "\f0e1";
+    font-size: 1.1em;
+    line-height: 0;
+    margin: 0 6px 0 -6px;
+}
+
+.play-icon-before:before {
+    content: "\f04b";
+    font-size: .8em;
+    display: inline-block;
+    margin: 0 14px 0 0;
+}
+
+.calendar-before:before {
+    content: "\f073";
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 6px 0 0;
+}
+
+.clock-before:before {
+    content: "\f017";
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 6px 0 0;
+}
+
+.mapmarker-before:before {
+    content: "\f041";
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 6px 0 0;
+}
+
+.ticket-before:before {
+    content: "\f145";
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 6px 0 0;
+}
+
+.marquee .cta {
+    display: block;
+    width: 178px;
+    margin: 9% auto 0;
+    text-align: center;
+    position: relative;
+}
+
+.sbu-button,
+a.sbu-button {
+    display: inline-block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 18px 10px;
+    font-family: 'Trade Gothic Next W01', Arial, sans-serif;
+    font-weight: normal;
+    font-size: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    box-shadow: 0 0 10px #fff;
+    background: #900;
+    border: 1px solid #800;
+    color: #fff !important;
+    margin: 0 10px 5px 0;
+}
+.sbu-button:hover,
+a.sbu-button:hover {
+    background: #a00;
+    text-decoration: none !important;
+}
+.sbu-button:active,
+a.sbu-button:active {
+    background: #900;
+}
+
+/* Header */
+
+h2.section-header {
+    font-family:'Trade Gothic W01 Cn 18';
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    background: url('../img/rays/black-rays-full.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    position: relative;
+}
+
+h2.section-header .year {
+    font-family:'TradeGothicW01-BoldCn20 675334';
+}
+
+
+h2.section-header .text {
+    display: inline-block;
+    background: #222;
+    box-shadow: 0 0 30px #222;
+    padding: 10px;
+    font-size: 2em;
+    text-rendering: optimizeLegibility;
+    position: relative;
+    z-index: 2;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+h2.section-header:after {
+    display: block;
+    width: 97%;
+    content: " ";
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    left: 1.5%;
+    right: 1.5%;
+    bottom: 28px;
+    z-index: 1;
+}
+
+h2.section-header.on-grey {
+    background: transparent;
+}
+
+h2.section-header.on-grey .text {
+    display: inline-block;
+    background: #505050;
+    box-shadow: 0 0 30px #505050;
+}
+
+/* Sections */
+
+.attend-the-event {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 8;
+    background: url("../img/background/edison-ballroom-mobile-1.jpg") repeat scroll 0 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-size: 1em;
+}
+
+.attend-the-event.coming-soon {
+    background: url("../img/background/coming-soon-mobile.jpg") repeat scroll 0 0;
+    background-size: cover;
+    background-position: 30% 50%;
+}
+
+.attend-the-event .note {
+    display: none;
+}
+
+.attend-the-event h2 {
+    font-family:'Great Vibes','Carl Beck W00 Regular',cursive;
+    font-size: 1.5em;
+    text-transform: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    position: relative;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .025em;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    opacity: .9;
+    background: #000;
+    background: rgba(0,0,0,.85);
+}
+
+.attend-the-event h2 .text {
+    display: inline-block;
+    background: #000;
+    padding: 15px 10px 7px 10px;
+    font-size: 2.2em;
+    text-rendering: optimizeLegibility;
+    position: relative;
+    z-index: 2;
+}
+
+.attend-the-event h2:after {
+    display: block;
+    width: 97%;
+    content: " ";
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    left: 1.5%;
+    right: 1.5%;
+    bottom: 28px;
+    z-index: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: .8;
+}
+
+.attend-the-event .content {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.attend-the-event h3 {
+    font-family:'TradeGothicW01-BoldCn20 675334';
+    text-transform: uppercase;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgba(255,255,255,.8);
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: .025em;
+    text-rendering: optimizeLegibility;
+    margin: 30px 0 25px;
+    text-shadow: -1px 1.5px 0 rgba(0,0,0,.6), 0 0 10px rgba(0,0,0,1);
+}
+
+.attend-the-event h3 span {
+    display: inline-block;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 22px
+}
+
+.attend-the-event ul,
+.attend-the-event p.promo {
+    display: block;
+    width: 76%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 0 12%;
+    padding: 0 0 0 8%;
+}
+
+.attend-the-event p.promo {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Trade Gothic W01 Light';
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 0 auto 2.4em;
+    text-align: center;
+    padding: 0 5px;
+    color: #fff;
+}
+
+.attend-the-event p.promo strong {
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+.attend-the-event li {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Trade Gothic W01 Cn 18';
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgba(255,255,255,.8);
+    color: #fff;
+    font-size: 1.7em;
+    padding: 0 7px 0 12px;
+    margin: 0 auto 21px;
+    letter-spacing: .025em;
+    text-rendering: optimizeLegibility;
+    text-shadow: -1px 1.5px 0 rgba(0,0,0,.6), 0 0 10px rgba(0,0,0,1);
+    position: relative;
+}
+
+.attend-the-event .icon-before:before {
+    position: absolute;
+    left: -26px;
+    width: 26px;
+    text-align: center;
+    margin: 0;
+}
+
+.attend-the-event .cta {
+    margin: 15px auto 20%;
+}
+
+/* Tweet This */
+
+.tweet-this {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fefefe;
+    padding: 40px 20px;
+}
+
+.tweet-this .text {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'CenturySchlbkW15-Italic';
+    font-size: 1.8em;
+    color: #a7a7a7;
+    line-height: 1.45em;
+}
+
+.tweet-this .wrap {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.tweet-this .text em {
+    font-style: normal;
+}
+
+.tweet-this .text span {
+    color: #990000;
+}
+
+.tweet-this .text:before {
+    font-family: 'sbu-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f081";
+    font-size: 6em;
+    display: block;
+    margin: 0 auto .1em;
+    width: 185px;
+    text-align: center;
+    color: #78cdf0;
+}
+
+.tweet-this .cta {
+    font-size: 1.6em;
+    margin: 1em auto .5em;
+    float: right;
+}
+
+/* Nominations */
+
+.nominations-promo {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("../img/background/mac-glasses-mobile.jpg") no-repeat scroll 50% 100% #d6dcee;
+    background-size: 100%;
+    text-align: center;
+}
+
+.nominations-promo .wrap {
+    display: block;
+    width: 88%;
+    margin: 0 6%;
+    padding: 3.2em 0 17.4em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+.text-wrapper {
+    font-family: 'Trade Gothic Next W01', Arial, sans-serif;
+    font-size: 1em;
+}
+
+.text-wrapper strong {
+    font-weight: normal;
+    font-family: 'Trade Gothic W01 Bold 2';
+}
+
+.text-wrapper em {
+    font-family:'TradeGothicNextW02-Ital';
+    font-style: normal;
+}
+
+.nominations-promo p,
+.inside-page p.text {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Trade Gothic W01 Light';
+    font-size: 1.6em;
+    line-height: 1.4em;
+    margin: 0 0 1.4em;
+}
+
+.inside-page p.text {
+    font-size: 1.3em;
+    text-align: center;
+    margin: 30px 0 40px;
+}
+
+.inside-page p.text strong {
+    font-weight: normal;
+    font-family: 'Trade Gothic W01 Bold 2';
+    color: #000;
+}
+
+.inside-page p.text a {
+    font-family: 'Trade Gothic W01 Bold 2';
+    color: #900;
+}
+
+.inside-page p.text a:hover {
+    color: #a00;
+}
+
+.nominations-promo strong {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin: 0 0 1.1em;
+}
+
+.nominations-promo strong a {
+    font-family: 'Trade Gothic W01 Bold 2';
+    color: #900;
+    text-decoration: none;
+    word-wrap: nowrap;
+    display: inline-block;
+}
+
+.nominations-promo strong a:hover {
+    text-decoration: underline;
+}
+
+.nominations-promo .cta {
+    margin: .4em .4em .8em;
+}
+
+/* Contact */
+
+.contact {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("../img/background/sb-landscape-bw-mobile.jpg") no-repeat scroll 50% 50% #d6dcee;
+    background-size: cover;
+    text-align: center;
+    padding: 9em .5em;
+}
+
+.contact p {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trade Gothic W01 Cn 18';
+    text-transform: uppercase;
+    font-size: 1.4em;
+    line-height: 1.3em;
+}
+
+/* Tweets and News */
+
+.tweets-and-news {
+    color: #000;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-family:'Trade Gothic Next W01';
+}
+
+.tweets-and-news .wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+.tweets-and-news h3 {
+    margin: 0 0 10px;
+    color: #fff;
+    background: #4f4c4c;
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.tweets-and-news h3:before {
+    content: "\f099";
+    font-size: 1em;
+    display: inline-block;
+    color: #78cdf0;
+    margin: 0 10px 0 0;
+}
+
+.tweets-and-news strong {
+    font-family: 'Trade Gothic W01 Bold 2';
+    font-weight: normal;
+}
+
+.tweets-and-news .stream,
+.tweets-and-news .news {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 5%;
+}
+
+.tweets-and-news .stream a {
+    color: #000;
+    text-decoration: none;
+}
+
+.tweets-and-news .stream li,
+.tweets-and-news .news li {
+    list-style: none;
+    margin: 0 0 10px;
+}
+
+.tweets-and-news .stream .section-thumb {
+    display: inline-block;
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.tweets-and-news .stream .twitter-user {
+    display: block;
+    padding: 9px 0 15px;
+    font-size: 1.05em;
+    line-height: 1.2em;
+}
+
+.tweets-and-news .stream .section-text a {
+    color: #900;
+}
+
+.tweets-and-news .stream .twitter-user a {
+    color: #888;
+}
+
+.tweets-and-news .stream .twitter-user strong {
+    display: block;
+    color: #000;
+}
+
+.tweets-and-news .stream .section-intro {
+    display: block;
+    float: right;
+    padding: 4px 0 0;
+}
+
+.tweets-and-news .stream .section-intro a {
+    color: #888;
+    font-size: .85em;
+    font-family:'TradeGothicNextW02-Ital';
+}
+
+.tweets-and-news .stream a:hover,
+.tweets-and-news .news a:hover {
+    color: #900 !important;
+}
+
+.tweets-and-news .dcsns-toolbar {
+    display: none;
+}
+
+.tweets-and-news .wrap {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.tweets-and-news .cta {
+    margin: .8em 0 1.8em;
+}
+
+.tweets-and-news .news-feed h3:before {
+    content: "\e90c";
+    color: #fff;
+}
+
+.tweets-and-news .news li {
+    padding: .4em 0;
+    margin: 0 0 .4em;
+}
+
+.tweets-and-news .news a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.tweets-and-news .news a span,
+.tweets-and-news .news a strong {
+    display: inline-block;
+    float: left;
+}
+
+.tweets-and-news .news a span {
+    width: 84%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tweets-and-news .news a strong {
+    width: 16%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    color: #900;
+    font-family:'Trade Gothic W01 Bold 2';
+    font-size: 1.2em;
+    padding: 4px 6px 0 0;
+    color: #000;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.tweets-and-news .news a:hover {
+    color: #900;
+    text-decoration: none;
+}
+
+.tweets-and-news .news a span:after { 
+    font-family: 'sbu-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f08e";
+    width: 12px;
+    font-size: .85em;
+    margin: 0 0 0 6px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    color: #900;
+}
+
+
+.tweets-and-news .news a span:hover:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
+}
+
+/* Event Gallery */
+
+.event-gallery {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 1em 0 5em;
+}
+
+.event-gallery h3 {
+    font-family:'Trade Gothic W01 Bold 2';
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0 0 .8em;
+    color: #555;
+}
+
+.event-gallery p {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'TradeGothicNextW02-Ligh 694374';
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #333;
+    margin: 1em 0 0;
+}
+
+.event-gallery p a {
+    font-family:'TradeGothicNextW01-Bold 693235';
+    color: #900;
+    text-decoration: none;
+}
+
+/* Honorees Grid Promo*/
+
+.honorees-grid-promo {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    background: #fff;
+}
+
+.honorees-grid-promo a {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("../img/people/people-collage-2014.jpg") repeat-x scroll 0 0 #d6dcee;
+    background-size: cover;
+    width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
+}
+
+.honorees-grid-promo a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+    opacity: .95;
+}
+
+.honorees-grid-promo a span {
+    margin: 32.625% auto;
+    width: auto;
+}
+
+.honorees-grid-promo a:hover span {
+    box-shadow: 0 0 150px #000;
+}
+
+/* nomination promo */
+
+.nomination-period-notice {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 28px 10px 34px;
+    color: #fff;
+    background: url("../img/background/az-subtle.png") repeat 0 0 scroll #5F0202;
+    border-top: 1px solid #540000;
+    border-bottom: 1px solid #540000;
+}
+
+.nomination-period-notice span {
+    font-family: 'CenturySchlbkW15-Italic';
+    font-size: 1.4em;
+    display: block;
+    margin: 0 0 18px;
+    line-height: 1.4em;
+}
+
+.nomination-period-notice span em {
+    font-style: normal;
+}
+
+.nomination-period-notice .icon {
+    display: inline-block;
+    margin: 0 6px 0 0;
+}
+
+.nomination-period-notice a {
+    width: auto;
+}
+
+/* inside page */
+
+.inside-page {
+    background: #fff;
+    margin: 66px 0 0 0;
+}
+
+.inside-page .sbu-button .icon {
+    margin-right: 4px;
+}
+
+.inside-page .tweets-and-news {
+    margin: 0 5%;
+    padding-bottom: 30px;
+}
+
+.news p.text {
+    margin: 30px 0 10px;
+}
+
+/* footer */
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 20px 10px 60px;
+    background: #fff;
+}
+
+footer .logos a {
+    display: inline-block;
+    padding: 0 12px 0 18px;
+    border: 0 none;
+}
+
+footer .logos a + a {
+    border-left: 1px dotted #ddd;
+}
+
+footer img {
+    display: block;
+    width: 100px;
+}
+
+footer span {
+    display: inline-block;
+    font-family: 'Trade Gothic W01 Cn 18';
+    font-size: 1em;
+    margin: 15px 0 0;
+}
+
+footer span a {
+    color: #900;
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    .hide-accessible-smaller {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    table.tablesaw thead tr {
+        display: none;
+    }
+    table.tablesaw th, table.tablesaw td {
+        border-right: 0 none;
+        height: auto;
+    }
+    table.light-grey-table tbody tr:nth-child(odd) {
+        border-top: 8px solid #fff;
+        border-bottom: 8px solid #fff;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 959px) {
+    .hide-accessible-mobile {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+
+    .disable-scroll-mobile {
+        overflow: hidden;
+    }
+
+    .marquee .quote {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+
+    table.tablesaw {
+        font-size: 1.3em;
+    }
+
+    .attend-the-event .content {
+        font-size: 1.25em;
+    }
+
+    .attend-the-event ul,
+    .attend-the-event p.promo {
+        display: block;
+        width: 275px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: left;
+        margin: 0 auto;
+        padding: 0 0 0 9px;
+        text-align: center;
+    }
+
+    .attend-the-event p.promo {
+        width: 350px;
+        font-size: 1.225em;
+        margin: 0 auto 2.4em;
+    }
+
+    .attend-the-event ul li {
+        width: auto;
+    }
+
+    .nominations-promo {
+        font-size: 1.15em;
+    }
+
+    .nominations-promo .wrap {
+        display: block;
+        width: 88%;
+        margin: 0 6%;
+        padding: 5.2em 0 65%;
+    }
+
+
+.inside-page p.text {
+        font-size: 1.6em;
+    }
+
+    .contact p {
+        font-size: 1.7em;
+        line-height: 1.3em;
+    }
+
+    .tweets-and-news {
+        font-size: 1.3em;
+    }
+
+    .tweets-and-news .stream .twitter-user {
+        display: block;
+        padding: 5px 0 15px;
+    }
+
+    .owl-next,
+    .owl-prev {
+        padding: 14% 1.5%;
+        font-size: 4em;
+    }
+
+    .event-gallery h3 {
+        font-size: 2.2em;
+    }
+
+    .event-gallery p {
+        font-size: 1.4em;
+        margin: 1em 0 0;
+    }
+
+    footer {
+        padding: 20px 10px 80px;
+    }
+
+    footer img {
+        width: 120px;
+    }
+
+    footer span {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .attend-the-event h2 .text {
+        display: inline-block;
+        background: #000;
+        padding: 20px 13px 12px 13px;
+    }
+    .attend-the-event h2:after {
+        bottom: 33px;
+    }
+    .owl-next,
+    .owl-prev {
+        top: 0;
+        padding: 15% 1.5%;
+        font-size: 4.4em;
+    }
+}
+
+
+@media only screen and (min-width: 520px) {
+    .tweets-and-news .news a strong {
+        width: 10%;
+    }
+
+    .tweets-and-news .news a span {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .tweet-this {
+        padding: 60px 0;
+        font-size: 1.15em;
+    }
+
+    .tweet-this .text:before {
+        margin: 0 auto .15em;
+    }
+
+    .tweet-this .wrap {
+        margin: 0 10%;
+        width: 80%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .tweet-this .text {
+        display: block;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-family: 'CenturySchlbkW15-Italic';
+        font-size: 1.8em;
+        color: #a7a7a7;
+        line-height: 1.45em;
+    }
+
+    #the-carousel {
+        width: 85%;
+        margin: 0 7.5%;
+    }
+
+    .owl-next,
+    .owl-prev {
+        font-size: 4em;
+        padding: 10% 1.5%;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+    .marquee {
+        position: relative;
+        padding-bottom: 55%;
+    }
+    .marquee-logo-desktop {
+        display: block;
+        width: 84%;
+        max-width: 1132px;
+        margin: 19% auto 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+
+        -webkit-transition: all 1.75s cubic-bezier(0.42, 0, 0.22, 1.01);
+        -moz-transition: all 1.75s cubic-bezier(0.42, 0, 0.22, 1.01);
+        -o-transition: all 1.75s cubic-bezier(0.42, 0, 0.22, 1.01);
+        transition: all 1.75s cubic-bezier(0.42, 0, 0.22, 1.01);
+    }
+    .marquee-logo-desktop.rotate-this {
+        width: 24%;
+        margin: 26% auto 0;
+        -webkit-transform: rotate(380deg);
+        -moz-transform: rotate(380deg);
+        -ms-transform: rotate(380deg);
+        -o-transform: rotate(-80deg);
+        transform: rotate(380deg);
+    }
+    .marquee-logo-mobile {
+        display: none;
+    }
+    .marquee .cta {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+        opacity: .7;
+    }
+
+    .attend-the-event {
+        background: url("../img/background/edison-ballroom.jpg") repeat scroll 0 0;
+        background-size: cover;
+        background-position: 100% 50%;
+    }
+
+    .attend-the-event.coming-soon {
+        background: url("../img/background/coming-soon-desktop.jpg") repeat scroll 0 0;
+        background-size: cover;
+        background-position: 100% 50%;
+    }
+
+    .attend-the-event .content {
+        display: block;
+        float: right;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        padding: 20px 0 50px;
+    }
+
+    .attend-the-event h3 {
+        text-align: left;
+        padding: 0;
+    }
+
+    .attend-the-event ul {
+        display: block;
+        width: 100%;
+        margin: 0 ;
+        padding: 0 0 0 24px;
+        text-align: left;
+    }
+
+    .attend-the-event p.promo {
+        width: 300px;
+        margin: 0 0 1.8em;
+        text-align: left;
+    }
+
+    .attend-the-event .cta {
+        margin: 15px 0 30px 0;
+    }
+
+    .tweets-and-news .news a strong {
+        width: 14%;
+    }
+
+    .tweets-and-news .news a span {
+        width: 86%;
+    }
+
+    .honorees-grid-promo a {
+        font-size: 1.4em;
+        max-height: 975px;
+    }
+
+    .nomination-period-notice span {
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+
+    h2.section-header {
+        font-size: 1.8em;
+    }
+    
+    h2.section-header .text {
+        padding: 15px;
+    }
+    
+    h2.section-header:after {
+        bottom: 35px;
+    }
+
+    .honoree-box {
+        width: 25%;
+        padding-bottom: 27.1875%; /* ratio for 25% of 522/480 */
+    }
+    .attend-the-event h2 {
+        font-size: 1.8em;
+    }
+    .attend-the-event h2 .text {
+        padding: 20px 15px 12px 15px;
+    }
+    .attend-the-event h2:after {
+        bottom: 36px;
+    }
+    .attend-the-event .cta {
+        margin: 15px 0 30px 40px;
+    }
+
+    .attend-the-event.coming-soon .cta {
+        margin: 15px 0 30px 0;
+    }
+
+    .attend-the-event .content {
+        width: 45%;
+    }
+
+    .attend-the-event h3 {
+        font-size: 2.1em;
+    }
+
+    .attend-the-event li {
+        font-size: 1.75em;
+        padding: 0 0 0 16px;
+    }
+
+    .nominations-promo .wrap {
+        width: 84%;
+        margin: 0 8%;
+        padding: 6em 0 65%;
+    }
+
+    .contact {
+        padding: 14em .5em;
+        background: url("../img/background/sb-landscape-bw-desktop.jpg") no-repeat scroll 50% 50% #d6dcee;
+        background-size: cover;
+    }
+
+    .contact p {
+        font-size: 1.85em;
+        line-height: 1.4em;
+    }
+
+    .tweets-and-news .news a strong {
+        width: 8%;
+    }
+
+    .tweets-and-news .news a span {
+        width: 92%;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    .owl-next,
+    .owl-prev {
+        font-size: 4em;
+        padding: 8% 1.5%;
+    }
+
+    #totop {
+        font-size: 2.2em;
+    }
+
+    #totop:hover {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+        opacity: .9;
+    }
+
+    #totop:hover .to-top {
+        position: relative;
+        top: auto;
+        left: -2px;
+        bottom: 7px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .mobile-960 {
+        display: none;
+    }
+    .desktop-960 {
+        display: block;
+    }
+
+    table.tablesaw {
+        font-size: 1.4em;
+    }
+
+    .tablesaw th, .tablesaw td {
+        padding: .8em 1em;
+    }
+    
+    h2.section-header {
+        font-size: 2em;
+    }
+    
+    h2.section-header:after {
+        bottom: 40px;
+    }
+
+    .hide-accessible-desktop {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+
+    .marquee {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+        /* padding-top: 25px; */
+        padding-top: 0;
+        background: url("../img/40-under-red-banner-large.jpg") no-repeat scroll 0 0;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .first-section {
+        /* margin: 102px; */
+        margin: 0;
+    }
+
+    .marquee video,
+    .marquee .quote {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100.25%; /* account for rendering inaccuracies */
+        z-index: 5;
+    }
+
+    .marquee video {
+        display: none;
+    }
+
+    .marquee .quote {
+        display: none;
+        background: #900;
+        background: url("../img/background/az-subtle.png") repeat 0 0 scroll #900;
+        color: #fff;
+        text-align: center;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=96)";
+        opacity: .96;
+    }
+
+    .marquee .quote span {
+        display: block;
+        margin: 19.5% auto 0;
+        font-family: 'Trade Gothic W01 Cn 18';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2.8em;
+        width: 510px;
+        letter-spacing: .01em;
+        line-height: 1.4em;
+    }
+
+    .marquee .quote strong {
+        font-family: 'TradeGothicW01-BoldCn20 675334';
+        font-weight: normal;
+        display: block;
+    }
+
+    .marquee .quote em {
+        display: block;
+        font-family: 'CenturySchlbkW15-Italic';
+        font-size: 1.6em;
+        font-style: normal;
+        margin: 15px 0 0;
+    }
+
+    .marquee .close-quote {
+        position: absolute;
+        top: 67px;
+        right: 0;
+        width: 55px;
+        height: 55px;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        background: #700;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+        opacity: .7;
+        font-size: 1.6em;
+        padding: 12px 0 0 7px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .marquee .close-quote:hover {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+        opacity: .9;
+    }
+
+    .marquee .cta {
+        z-index: 8;
+    }
+
+    .overlay-controls.stuck {
+        top: 228px;
+    }
+
+    .nomination-period-notice {
+        padding: 5% 10px 5.5%;
+        color: #fff;
+        background: url("../img/background/az-subtle.png") repeat 0 0 scroll #4D0000;
+        border-top: 1px solid #540000;
+        border-bottom: 1px solid #540000;
+        font-size: 1.2em;
+    }
+
+    .nomination-period-notice span {
+        font-size: 1.95em;
+        margin: 0 0 40px;
+    }
+
+    .attend-the-event h2 {
+        font-size: 2.2em;
+        background: #000;
+        background: rgba(0,0,0,.85);
+    }
+    .attend-the-event h2 .text {
+        padding: 30px 15px 19px 15px;
+        background: #000;
+    }
+    .attend-the-event h2:after {
+        bottom: 50px;
+    }
+
+    .attend-the-event .content {
+        padding: 30px 0 60px;
+    }
+
+    .attend-the-event h3 {
+        font-size: 2.8em;
+        margin: 30px 0 35px;
+    }
+
+    .attend-the-event h3 span {
+        padding: 0 0 28px;
+    }
+
+    .attend-the-event li {
+        font-size: 2em;
+        padding: 0 0 0 16px;
+        margin: 0 auto 24px;
+    }
+
+    .attend-the-event p.promo {
+        width: 400px;
+        text-align: left;
+    }
+
+    .tweet-this {
+        padding: 80px 0;
+        font-size: 1.4em;
+    }
+
+    .tweet-this .wrap {
+        padding: 20px 0;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .tweet-this .text {
+        line-height: 1.55em;
+        display: table;
+    }
+
+    .tweet-this em {
+        display: table-cell; 
+        vertical-align: middle; 
+        text-align: left; 
+    }
+
+    .tweet-this .text:before {
+        font-size: 182px;
+        width: auto;
+        text-align: center;
+        display: inline-block;
+        float: left;
+        padding: 0 10px 0 25px;
+        margin: 0;
+    }
+
+    .tweet-this .cta {
+        font-size: 1.3em;
+        margin: 0 auto .5em;
+        float: right;
+    }
+
+    .nominations-promo {
+        background: url("../img/background/mac-glasses-desktop.jpg") no-repeat scroll 50% 200% #d6dcee;
+        background-size: 100%;
+        text-align: left;
+
+    }
+
+    .nominations-promo .wrap {
+        width: 100%;
+        margin: 0 auto;
+        padding: 7em 4em 33% 10%;
+    }
+
+    .nominations-promo .text {
+        width: 58%;
+        font-size: 1.7em;
+        line-height: 1.5em;
+        text-shadow: 0 1px 1px #fff;
+    }
+
+    .nominations-promo strong {
+        font-size: 1.6em;
+    }
+
+    .nominations-promo .cta {
+        display: block;
+        width: auto;
+        float: left;
+        clear: both;
+        margin: .5em 0;
+        font-size: 1.8em;
+    }
+
+
+    .inside-page p.text {
+        margin: 0 0 40px;
+    }
+
+    .tweets-and-news {
+        padding: 6em 0;
+    }
+
+    .tweets-and-news .wrapper {
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .tweets-and-news h3 {
+        padding: .8em 1em;
+    }
+
+    .tweets-and-news .twitter-feed,
+    .tweets-and-news .news-feed {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        margin: 0;
+        padding: 0 4%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .tweets-and-news .twitter-feed {
+        border-right: 1px solid #ddd;
+    }
+
+    .tweets-and-news .stream, .tweets-and-news .news {
+        padding: 10px 0;
+    }
+
+    .tweets-and-news .news a strong {
+        width: 13%;
+    }
+
+    .tweets-and-news .news a span {
+        width: 87%;
+    }
+
+    .tweets-and-news .cta {
+        font-size: 1.3em;
+    }
+
+    .event-gallery {
+        padding-bottom: 8em;
+    }
+
+    .event-gallery h3 {
+        font-size: 2.4em;
+        margin: 0 0 1em;
+    }
+
+    .event-gallery p {
+        font-size: 1.4em;
+        margin: 2em 0 0;
+    }
+
+    .owl-next,
+    .owl-prev {
+        font-size: 4em;
+        padding: 5.5% 2%;
+    }
+
+    .honorees-grid-promo {
+        padding-bottom: 72px;
+    }
+
+    /* inside page */
+
+    .inside-page {
+        background: #fff;
+        margin: 167px 0 0 0;
+    }
+
+    .inside-page .container {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 45px 0 0;
+    }
+
+    .inside-page.news a strong {
+        width: 6%;
+        margin-left: 16%;
+        padding: 2px 0;
+
+    }
+
+    .inside-page.news a span {
+        width: 74%;
+    }
+
+    .inside-page.news .tweets-and-news {
+        padding-bottom: 55px;
+    }
+
+    footer {
+        padding: 20px 10px 25px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .mobile-1024 {
+        display: none;
+    }
+    .desktop-1024 {
+        display: block;
+    }
+
+    .marquee .quote {
+        font-size: 1.2em;
+    }
+
+    .marquee .quote span {
+        margin: 17.5% auto 0;
+        width: 610px;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    .no-pad-wrapper,
+    .container {
+        width: 1024px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .attend-the-event .content {
+        padding: 50px 0 80px;
+    }
+
+    .attend-the-event h3 {
+        font-size: 3em;
+        margin: 35px 0 40px;
+    }
+
+    .attend-the-event h3 span {
+        padding: 0 0 35px;
+    }
+
+    .attend-the-event li {
+        font-size: 2.2em;
+        padding: 0 0 0 25px;
+    }
+
+    .attend-the-event .cta {
+        margin: 15px 0 30px 50px;
+    }
+
+    .owl-next,
+    .owl-prev {
+        font-size: 4em;
+        padding: 4.5% 2%;
+    }
+
+}
+
+@media only screen and (min-width: 1260px) {
+    
+    h2.section-header:after {
+        bottom: 38px;
+    }
+
+    .marquee .quote {
+        font-size: 1.3em;
+    }
+
+    .marquee .quote span {
+        margin: 18.5% auto 0;
+        width: 700px;
+    }
+    .attend-the-event h2 {
+        font-size: 2.4em;
+    }
+    .attend-the-event h2 .text {
+        padding: 28px 15px 10px 15px;
+    }
+    .attend-the-event h2:after {
+        bottom: 45px;
+    }
+
+    .attend-the-event .content {
+        padding: 50px 0 100px;
+    }
+
+    .nominations-promo {
+        background: url("../img/background/mac-glasses-desktop.jpg") no-repeat scroll 50% 25% #d6dcee;
+        background-size: 100%;
+
+    }
+
+    .nominations-promo .wrap {
+        padding: 8em 4em 24% 10%;
+    }
+
+    .event-gallery h3 {
+        font-size: 2.8em;
+        margin: 0 0 1.2em;
+    }
+
+    .owl-next,
+    .owl-prev {
+        font-size: 4em;
+        padding: 4.1% 2%;
+    }
+}
+
+@media only screen and (min-width: 1340px) {
+    .owl-next,
+    .owl-prev {
+        font-size: 4em;
+        padding: 4.8% 2%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .attend-the-event .note {
+        display: block;
+        padding: 15px;
+        position: absolute;
+        top: 52%;
+        left: 3%;
+        font-size: 3.15em;
+        background: #290101;
+        background: rgba(255, 0, 0, .17);
+        font-family: 'Cookie',cursive;
+        color: #a89e9e;
+        font-weight: normal;
+        line-height: .85;
+        -webkit-transform: rotate(-4deg);
+        -moz-transform: rotate(-4deg);
+        -ms-transform: rotate(-4deg);
+        -o-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+
+        -webkit-animation: pulse-opacity 5s infinite; /* Safari 4+ */
+        -moz-animation:    pulse-opacity 5s infinite; /* Fx 5+ */
+        -o-animation:      pulse-opacity 5s infinite; /* Opera 12+ */
+        animation:         pulse-opacity 5s infinite; /* IE 10+, Fx 29+ */
+    }
+    .attend-the-event .note span {
+        display: block;
+        margin: 0 0 0 22px;
+
+    }
+    .attend-the-event h2 {
+        font-size: 2.7em;
+    }
+    .attend-the-event h2 .text {
+        padding: 43px 22px 25px 20px;
+    }
+    .attend-the-event h2:after {
+        bottom: 63px;
+    }
+
+    .attend-the-event .content {
+        padding: 50px 0 120px;
+    }
+
+    .attend-the-event .cta {
+        margin: 15px 0 30px 65px;
+    }
+
+    .attend-the-event h3 {
+        font-size: 3.3em;
+    }
+
+    .attend-the-event li {
+        font-size: 2.4em;
+        padding: 0 0 0 40px;
+        margin: 0 auto 30px;
+    }
+
+    .attend-the-event p.promo {
+        width: 480px;
+        font-size: 1.35em;
+        margin: 0 0 1.7em;
+        text-align: left;
+    }
+
+    .owl-next,
+    .owl-prev {
+        font-size: 4em;
+        padding: 4% 2%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .honorees-grid-promo a {
+        max-height: 975px;
+        background: url("../img/people/people-collage-2014.jpg") repeat-x scroll 0 0 #d6dcee;
+        background-size: 1500px 975px;
+        font-size: 1.65em;
+    }
+
+    .honorees-grid-promo a span {
+        margin: 468px auto;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .attend-the-event .note {
+        top: 52%;
+        left: 7%;
+    }
+
+    .event-gallery h3 {
+        font-size: 3.1em;
+        margin: 0 0 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .attend-the-event .note {
+        top: 51%;
+        left: 16%;
+    }
+
+    .nominations-promo .wrap {
+        padding: 4em 4em 25% 10%;
+    }
+
+    .owl-next,
+    .owl-prev {
+        font-size: 4em;
+        padding: 4% 2%;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .attend-the-event .note {
+        font-size: 3.6em;
+        top: 51%;
+        left: 17%;
+    }
+}
+
+@media only screen and (min-width: 2200px) {
+    .attend-the-event .note {
+        font-size: 4em;
+        top: 53%;
+        left: 18%;
+    }
+
+    .owl-next,
+    .owl-prev {
+        font-size: 4em;
+        padding: 4% 2.8%;
+    }
+}

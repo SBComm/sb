@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Print-only styles
+   ========================================================================== */
+
+#nav, #sidebar { display: none; }
+
+#main { width: 100%; margin: 0; float: none; background: transparent; color: #000; }
+
+body { background: white; }
+
+a:link:after { content: " (" attr(href) ") "; }
+
+a:link { font-weight: bold; text-decoration: underline; color: #06c; }
+
+* { font-size: 12pt; font-family: 'Georgia', 'Times New Roman', serif; }
+
+#comments { page-break-before: always; }
+
+#printMsg { display: block; }

@@ -1,0 +1,233 @@
+/* 
+   File: nominees.css
+   Created by: Josh Palmeri
+   2015.05.05
+   for /nominees page of 40 Under Forty site
+*/
+
+.nivo-lightbox-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 200001;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.nivo-lightbox-theme-default.nivo-lightbox-overlay {
+	background: #222;
+	background: rgba(0,0,0,0.95);
+}
+
+.nivo-lightbox-theme-default .nivo-lightbox-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 200002;
+	background-color: #000;
+	background-size: 14px;
+	background-position: 14px 13px;
+	width: 32px;
+	height: 32px;
+	opacity: .8;
+}
+
+.nivo-lightbox-theme-default .after-done-with-form {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 200002;
+	background-color: #000;
+	width: 100%;
+	height: 50px;
+	opacity: .8;
+	color: #eee;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 4px 8px;
+	text-align: center;
+	opacity: .9;
+	font-family:'Trade Gothic Next W01';
+	font-weight: normal;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.nivo-lightbox-theme-default .after-done-with-form:hover {
+	background: #111;
+	color: #fff;
+}
+
+.nivo-lightbox-wrap {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.nivo-lightbox-content {
+	position: relative;
+	padding-bottom: 0;
+	padding-top: 0;
+	height: 100%;
+	margin: 0;
+	max-width: 720px;
+	margin: 0 auto;
+	-webkit-overflow-scrolling: touch;
+	overflow-y: scroll;
+}
+
+.nivo-lightbox-content iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.endorse-link {
+	color: #111;
+	text-decoration: none;
+}
+
+.endorse-link:hover {
+	color: #900;
+}
+
+.nomination-guidelines {
+	background: #fff;
+	padding: 60px 0;
+	font-size: 1em;
+}
+
+.nomination-guidelines .container {
+	margin: 7% 10%;
+	width: 80%;
+}
+
+.nomination-guidelines h3,
+.nomination-guidelines h4 {
+	font-weight: normal;
+    font-family: 'Trade Gothic W01 Bold 2';
+    color: #000;
+}
+
+.nomination-guidelines li {
+	margin: 8px 0;
+}
+
+.nomination-guidelines h3 {
+	font-size: 1.3em;
+}
+
+.nomination-guidelines h4 {
+	font-size: 1.1em;
+}
+
+.nomination-guidelines ul,
+.nomination-guidelines p {
+	font-size: 1.1em;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 0px) and (max-width: 959px) {
+    
+}
+
+@media only screen and (min-width: 400px) {
+    .nomination-guidelines .container {
+    	font-size: 1.3em;
+    }
+
+    .nomination-guidelines .cta {
+    	font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 680px) {
+
+}
+
+@media only screen and (min-width: 720px) {
+	.nivo-lightbox-wrap {
+		position: absolute;
+		top: 4%;
+		bottom: 5%;
+		left: 6%;
+		right: 6%;
+	}
+}
+
+@media only screen and (min-width: 860px) {
+    .nivo-lightbox-wrap {
+		position: absolute;
+		top: 4%;
+		bottom: 5%;
+		left: 6%;
+		right: 6%;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+    .nivo-lightbox-theme-default .nivo-lightbox-close {
+		text-indent: 0;
+		font-size: 20px;
+		font-family: 'TradeGothicW01-BoldCn20 675334';
+		font-weight: normal;
+	    text-transform: none;
+	    color: #ddd;
+	    text-decoration: none;
+	    width: 98px;
+	    height: auto;
+	    padding: 8px 5px 8px 38px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.nivo-lightbox-wrap {
+		position: absolute;
+		top: 4%;
+		bottom: 5%;
+		left: 12%;
+		right: 12%;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+   	.nomination-guidelines .container {
+		width: 960px;
+		margin: 60px auto;
+	}
+}
+
+@media only screen and (min-width: 1140px) {
+	.nivo-lightbox-wrap {
+		position: absolute;
+		top: 4%;
+		bottom: 5%;
+		left: 16%;
+		right: 16%;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+
+}

@@ -1,0 +1,344 @@
+/* 
+   File: gallery.css
+   Created by: Josh Palmeri, joshpalmeri.com
+   2014.11.15
+*/
+
+/* Button Groups */
+
+.button-group-wrapper {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    max-width: 380px;
+    position: relative;
+}
+
+.button-group + .button-group {
+    margin-bottom: 40px;
+}
+
+.button-group-wrapper button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 1;
+    background: url("img/colors/000/transparent-black-75.png") 0 0 repeat;
+    background: rgba(10, 55, 90, .8);
+    font-family: 'Enriqueta', Georgia, serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 8px 20px;
+    text-align: left;
+    font-style: normal;
+    position: relative;
+    outline: 0 none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button-group-wrapper button.is-checked {
+    background: url("img/colors/000/transparent-black-30.png") 0 0 repeat;
+    background: rgba(10, 55, 90, .4);
+    border: 1px solid #000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button-group-wrapper button.gallery-show-all:after {
+    display: block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    margin: 0;
+    padding: 0 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 2.4em;
+    opacity: 1;
+    content: "\f107";
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .5;
+    background: url("img/colors/000/transparent-black-40.png") 0 0 repeat;
+    background: rgba(0,0,0,.4);
+
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+.button-group-wrapper button.gallery-show-all:hover:after {
+    opacity: .9;
+}
+
+.button-group-wrapper .button-sub-group {
+    display: block;
+    height: 0;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .5s ease-in-out;
+    -moz-transition: max-height .5s ease-in-out;
+    -o-transition: max-height .5s ease-in-out;
+    transition: max-height .5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    z-index: 90;
+    background: url("img/colors/000/transparent-black-70.png") 0 0 repeat;
+    background: rgba(0,0,0,.7);
+}
+
+.button-group-wrapper .button-sub-group button:hover {
+    background: url("img/colors/000/transparent-black-30.png") 0 0 repeat;
+    background: rgba(0,0,0,.3);
+}
+
+.button-group-wrapper .button-sub-group.active {
+    display: block;
+    height: auto;
+    max-height: 800px;
+    overflow: hidden;
+}
+
+/* Media Gallery */
+
+.media-gallery {
+    height: 80%;
+}
+
+.media-gallery .gallery-item {
+    display: block;
+    width: 95%;
+    padding: 0;
+    margin: 20px 2.5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .media-gallery .gallery-item .media-details {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .media-gallery .gallery-item .title {
+        display: block;
+        width: 100%;
+        padding: 14px 20px;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+        font-family: 'Enriqueta', Georgia, serif;
+        font-weight: 400;
+        font-size: 2em;
+        overflow: hidden;
+        text-decoration: none;
+
+        background: url("../../../css/img/home-take-a-class.jpg") 50% 0 no-repeat transparent;
+        background-size: 100%;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .media-gallery .gallery-item.video .title {
+        background: url("../../../css/img/ministry-opportunities.jpg") 50% 0 no-repeat transparent;
+        background-size: 100%;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .media-gallery .gallery-item.audio .title {
+        background: url("../../../css/img/home-faq-dancers.jpg") 50% 0 no-repeat transparent;
+        background-size: 100%;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .media-gallery .gallery-item.photo .title {
+        background: url("../../../css/img/home-take-a-class.jpg") 50% 0 no-repeat transparent;
+        background-size: 100%;
+        background-size: cover;
+        color: #fff;
+        padding: 0;
+    }
+
+    .media-gallery .gallery-item .title {
+        opacity: .8;
+    }
+
+    .media-gallery .gallery-item:hover .title {
+        -webkit-transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -o-transition: opacity .1s ease-in-out;
+        transition: opacity .1s ease-in-out;
+        opacity: 1;
+    }
+
+    .media-gallery .title-bar {
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .title-bar .category {
+        display: block;
+        width: 100%;
+        height: 48px;
+    }
+
+    .title-bar .category span {
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        float: left;
+        width: 80%;
+        height: 100%;
+        font-family: 'Enriqueta', Georgia, serif;
+        font-weight: 400;
+        font-size: 1.6em;
+        line-height: 2em;
+        padding: 4px 20px;
+        background: url("img/colors/000/transparent-black-50.png") 0 0 repeat;
+        background: rgba(0,0,0,.5);
+        color: #fff;
+    }
+    .title-bar .category .icon {
+        display: inline-block;
+        width: 20%;
+        height: 100%;
+        text-align: center;
+        font-size: 2.6em;
+        padding: 0;
+        line-height: 1.4;
+        background: url("img/colors/000/transparent-black-75.png") 0 0 repeat;
+        background: rgba(10, 55, 90, .8);
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        color: #fff;
+    }
+
+/* Media Queries */
+@media only screen and (min-width: 0px) and (max-width: 959px) {
+    
+}
+
+@media only screen and (min-width: 400px) {
+    .button-group-wrapper button {
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+    .button-group-wrapper {
+        text-align: center;
+        margin: 40px 0 0;
+    }
+    .button-group {
+        margin: 0 14px 20px;
+        width: 300px;
+        display: inline-block;
+    }
+    .button-group + .button-group {
+        margin-bottom: 40px;
+    }
+    .button-group-wrapper .button-sub-group {
+        position: absolute;
+        width: 300px;
+        z-index: 90;
+    }
+    .media-gallery .gallery-item {
+        display: block;
+        width: 45%;
+        padding: 0;
+        margin: 20px 2.5%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .media-gallery .gallery-item.video .title {
+        padding: 18px 30px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+
+}
+
+@media only screen and (min-width: 740px) {
+    
+}
+
+@media only screen and (min-width: 860px) {
+    
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .media-gallery .gallery-item {
+        display: block;
+        width: 30.333%;
+        padding: 0;
+        margin: 26px 1.5%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .media-gallery .gallery-item.video .title {
+        padding: 18px 30px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+}
