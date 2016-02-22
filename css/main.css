@@ -5002,6 +5002,10 @@ footer.site-footer a {
     margin: 0 0 10px;
 }
 
+footer.site-footer p a {
+    display: inline-block
+}
+
 footer.site-footer a:hover {
     color: #fff;
 }
