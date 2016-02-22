@@ -24,7 +24,7 @@
         <div class="border-box wrapper clearfix">
             <div class="content">
                 <h4>Billing Statements</h4>
-                <p>In Summer, we’re GREEN! The billing statement will be available in SOLAR under the STUDENT FINANCIAL SERVICES menu. No paper billing statements will be printed or mailed. All billing communication will be done via email and SOLAR. Please ensure that a valid email address exists on your student record. All charges are estimated as of March 31, 2015 and are subject to change without notice. College, student activity, and comprehensive fees are mandatory for all Summer Sessions students.</p>
+                <p>In Summer, we’re GREEN! The billing statement will be available in SOLAR under the STUDENT FINANCIAL SERVICES menu. No paper billing statements will be printed or mailed. All billing communication will be done via email and SOLAR. Please ensure that a valid email address exists on your student record. All charges are estimated as of February 19, 2016 and are subject to change without notice. College, student activity, and comprehensive fees are mandatory for all Summer Sessions students.</p>
 
                 <h3 id="tuition">Tuition Rate</h3>
                 <p>Summer enrollment is very affordable! Stony Brook’s tuition is a fraction of the cost of private universities, and financial aid is available to those who qualify.</p>
@@ -106,33 +106,33 @@
                         </tr>
                         <tr>
                             <td>Technology</td>
-                            <td>61.00</td>
-                            <td>61.00</td>
+                            <td>63.00</td>
+                            <td>63.00</td>
                         </tr>
                         <tr>
                             <td>Transportation</td>
-                            <td>36.00</td>
-                            <td>36.00</td>
+                            <td>37.00</td>
+                            <td>37.00</td>
                         </tr>
                         <tr>
                             <td>Academic Excellence</td>
-                            <td>23.00</td>
-                            <td>23.00</td>
+                            <td>29.00</td>
+                            <td>29.00</td>
                         </tr>
                         <tr>
                             <td>Recreation Center/ Facilities</td>
-                            <td>37.00</td>
-                            <td>37.00</td>
+                            <td>38.00</td>
+                            <td>38.00</td>
                         </tr>
                         <tr>
                             <td>Student Health Services</td>
-                            <td>46.00</td>
-                            <td>46.00</td>
+                            <td>48.00</td>
+                            <td>48.00</td>
                         </tr>
                         <tr>
                             <td><strong>Total</strong></td>
-                            <td><strong>992.55</strong></td>
-                            <td><strong>1,250.40</strong></td>
+                            <td><strong>1,004.55</strong></td>
+                            <td><strong>1,262.40</strong></td>
                         </tr>
                     </tbody>
                 </table>
@@ -165,28 +165,28 @@
                         </tr>
                         <tr>
                             <td>Technology</td>
-                            <td>61.00</td>
-                            <td>61.00</td>
+                            <td>63.00</td>
+                            <td>63.00</td>
                         </tr>
                         <tr>
                             <td>Transportation</td>
-                            <td>36.00</td>
-                            <td>36.00</td>
+                            <td>37.00</td>
+                            <td>37.00</td>
                         </tr>
                         <tr>
                             <td>Academic Excellence</td>
-                            <td>23.00</td>
-                            <td>23.00</td>
+                            <td>29.00</td>
+                            <td>29.00</td>
                         </tr>
                         <tr>
                             <td>Student Health Services</td>
-                            <td>46.00</td>
-                            <td>46.00</td>
+                            <td>48.00</td>
+                            <td>48.00</td>
                         </tr>
                         <tr>
                             <td><strong>Total</strong></td>
-                            <td><strong>1,469.55</strong></td>
-                            <td><strong>1,902.40</strong></td>
+                            <td><strong>1,480.55</strong></td>
+                            <td><strong>1,913.40</strong></td>
                         </tr>
                     </tbody>
                 </table>
@@ -219,28 +219,28 @@
                         </tr>
                         <tr>
                             <td>Technology</td>
-                            <td>61.00</td>
-                            <td>61.00</td>
+                            <td>63.00</td>
+                            <td>63.00</td>
                         </tr>
                         <tr>
                             <td>Transportation</td>
-                            <td>36.00</td>
-                            <td>36.00</td>
+                            <td>37.00</td>
+                            <td>37.00</td>
                         </tr>
                         <tr>
                             <td>Academic Excellence</td>
-                            <td>23.00</td>
-                            <td>23.00</td>
+                            <td>29.00</td>
+                            <td>29.00</td>
                         </tr>
                         <tr>
                             <td>Student Health Services</td>
-                            <td>46.00</td>
-                            <td>46.00</td>
+                            <td>48.00</td>
+                            <td>48.00</td>
                         </tr>
                         <tr>
                             <td><strong>Total</strong></td>
-                            <td><strong>1,826.55</strong></td>
-                            <td><strong>2,378.40</strong></td>
+                            <td><strong>1,837.55</strong></td>
+                            <td><strong>2,389.40</strong></td>
                         </tr>
                     </tbody>
                 </table>
@@ -279,7 +279,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Academic Excellence Fee ($23 per session)</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Academic Excellence Fee ($28 per session)</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -290,7 +290,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Campus Recreation Facilities Fee ($37 per session, undergraduates only)</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Campus Recreation Facilities Fee ($38 per session, undergraduates only)</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -301,19 +301,19 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Student Health Services Fee ($46 per session)</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Student Health Services Fee ($48 per session)</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>Revenue from this fee is directed to health counseling and prevention services  and related programs. The fee funds the operation of the Student Health  Services Office. <a href="http://studentaffairs.stonybrook.edu/shs/" target="_blank"> Read more about the Student Health Services/Infirmary Fee</a>.</p>
-                                <p>Students enrolled in zero credit courses (for example, Summer 800 level Research) will be charged the full summer Student Health Services fee - $92.00 total. ($46.00 each session).</p>
+                                <p>Students enrolled in zero credit courses (for example, Summer 800 level Research) will be charged the full summer Student Health Services fee - $96.00 total. ($48.00 each session).</p>
                                 <p>The Student Health Services Fee is assessed to all students, and is prorated for part time enrollment. Waivers of the Infirmary Fee are granted only for students enrolled in courses or Research/Internships <strong>ALL</strong> listed with a designation of ON-LINE or OFF-CAMPUS, or <strong>ALL</strong> meeting after 5:00 PM or on Saturday/Sunday. Courses, internships, and credit bearing research without officially listed meeting times or locations are generally charged this fee by default. Students who reside in on-campus dormitories or University apartments are not eligible for a waiver. Requests for a waiver of this fee should be made in writing to the Office of Student Accounts if eligible as outlined above.</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Technology Fee ($61 per session)</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Technology Fee ($63 per session)</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -324,7 +324,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Transportation Fee ($36 per session)</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Transportation Fee ($37 per session)</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -404,11 +404,11 @@
 
                 <h3 id="payment">Payment Policies and Procedures</h3>
                 <h4>Summer Session 1 and Extended Session</h4>
-                <p>Payment for Summer Session 1 and Extended Session is due in full by May 26, 2015. Summer Session 1 includes all O, C, Z, and MM1 and MM2 Mod Sessions. A $40 late payment fee will be posted to all Summer Session I or Extended accounts that remain unpaid after May 26, 2015.</p>
-                <p>An additional $40 late payment fee will be added to all Session I and Extended Session accounts that remain unpaid after July 5, 2015.</p>
+                <p>Payment for Summer Session 1 and Extended Session is due in full by May 31, 2016. Summer Session 1 includes all O, C, Z, and MM1 and MM2 Mod Sessions. A $40 late payment fee will be posted to all Summer Session I or Extended accounts that remain unpaid after May 31, 2016.</p>
+                <p>An additional $40 late payment fee will be added to all Session I and Extended Session accounts that remain unpaid after July 10, 2016.</p>
                 <h4>Summer Session 2 </h4>
-                <p>Payment for Summer Session 2 is due in full by July 6, 2015. Summer Session 2 includes all D, 9, M, MM and MM3 Mod Sessions.  A $40 late payment fee will be posted to all Summer Session II accounts that remain unpaid after July 6, 2015.</p>
-                <p>An additional $40 late payment fee will added to all Session II accounts that remain unpaid after August 16, 2015.</p>
+                <p>Payment for Summer Session 2 is due in full by July 11, 2016. Summer Session 2 includes all D, 9, M, MM and MM3 Mod Sessions.  A $40 late payment fee will be posted to all Summer Session II accounts that remain unpaid after July 11, 2016.</p>
+                <p>An additional $40 late payment fee will added to all Session II accounts that remain unpaid after August 21, 2016.</p>
 
                 <h4>Payment Deadline</h4>
                 <p><strong>Payment is due by the first day of the session.</strong> The billing statement will be posted in SOLAR. You may pay by credit card or electronic check in SOLAR or mail a check to:</p>
@@ -453,8 +453,8 @@
                 </ul>
 
                 <h4>Summer Tuition Refund &amp; Liability Schedule</h4>
-                <p>A student must officially withdraw from Summer Session I or Extended session class(es) by June 1, 2015, to avoid tuition &amp; fee liability.</p>
-                <p>A student must officially withdraw from Summer Session II class(es) by July 10, 2015, to avoid tuition &amp; fee liability.</p>
+                <p>A student must officially withdraw from Summer Session I or Extended session class(es) by June 6, 2016, to avoid tuition &amp; fee liability.</p>
+                <p>A student must officially withdraw from Summer Session II class(es) by July 17, 2016, to avoid tuition &amp; fee liability.</p>
                 <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
                     <thead>
                         <tr>
@@ -472,24 +472,24 @@
                             <td>100%</td>
                             <td>0%</td>
                             <td>0%</td>
-                            <td>on or before 06/01/15</td>
-                            <td>on or before 07/10/15</td>
+                            <td>on or before 06/06/16</td>
+                            <td>on or before 07/17/16</td>
                         </tr>
                         <tr>
                             <td class="red">2nd week </td>
                             <td>30%</td>
                             <td>70%</td>
                             <td>100%</td>
-                            <td>06/02/15 - 06/08/15</td>
-                            <td>07/11/15 - 07/17/15</td>
+                            <td>06/07/16 - 06/13/16</td>
+                            <td>07/18/16 - 07/24/16</td>
                         </tr>
                         <tr>
                             <td class="red">3rd week </td>
                             <td>0%</td>
                             <td>100%</td>
                             <td>100%</td>
-                            <td>effective 06/09/15</td>
-                            <td>effective 7/18/15</td>
+                            <td>effective 06/14/16</td>
+                            <td>effective 7/25/16</td>
                         </tr>
                     </tbody>
                 </table>
