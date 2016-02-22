@@ -279,7 +279,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Academic Excellence Fee ($28 per session)</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Academic Excellence Fee ($29 per session)</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
