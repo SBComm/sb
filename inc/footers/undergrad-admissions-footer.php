@@ -38,6 +38,7 @@
                               </span>
                          </div>
                          <div class="col col-4 clearfix">
+                              <p>Questions ? Contact <a class="email-link" href="mailto:enroll@stonybrook.edu">enroll@stonybrook.edu</a></p>
                               <p>Title IX prohibits sex discrimination in all forms, including sexual violence and/or harassment.<br />
                               Contact <strong>Marjolie Leonard</strong>, Director for Title IX and Risk Management, Title IX Coordinator<br />
                               Office of Diversity and Affirmative Action, 201 Administration Building, Stony Brook University, Stony Brook, NY 11794-0251<br />Marjolie.Leonard@stonybrook.edu / 631.632.6280</p>
