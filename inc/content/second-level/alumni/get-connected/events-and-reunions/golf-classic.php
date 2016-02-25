@@ -23,6 +23,7 @@
                 <div class="border-box whole clearfix ">
                     <p>Each June, the Alumni Association hosts its annual Scholarship Golf Classic at one of Long Island's finest courses. Proceeds go to scholarships for deserving Stony Brook University students who need your continued support now more than ever.</p>
                     <p>Thanks to our supporters, we have distributed more than $347,000 in student scholarships and awards to more than 220 deserving students since the Golf Classic’s inception 15 years ago.</p>
+                    <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://alumniandfriends.stonybrook.edu/2016-sbu-alumni-association-scholarship-golf-classic" target="_blank">Register Now</a>
                 </div>
                 <div class="border-box whole clearfix pad-top section-border-top">
                     <div class="two-third left-col-content">
@@ -37,6 +38,8 @@
                         21 Breeze Hill Road, Northport, NY<br />
                         10:30 AM - Registration and Breakfast<br />
                         12 PM - Shotgun </p>
+
+                        <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="https://alumniandfriends.stonybrook.edu/2016-sbu-alumni-association-scholarship-golf-classic" target="_blank">Register Now</a>
                     </div>
                     <div class="one-third">
                         <img class="pad-bottom" src="img/alumni/misc/golf.jpg" alt="Four golfers posing for a shot" />
