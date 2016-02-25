@@ -28,14 +28,7 @@
                     <li>Apply for and be admitted to an Associate in Arts (A.A.) or Associate in Science (A.S.) degree program at Nassau or Suffolk Community College. Note: Those enrolled in Associate in Applied Science (A.A.S.) degree programs are not eligible for participation in the Joint Admissions Programs.</li>
                     <li>Indicate on your application for admission to Nassau or Suffolk Community College your intention to enroll in the Joint Admissions Program. Or visit the Office of Admissions at Nassau or Suffolk Community College to formally enroll in the Joint Admissions Program prior to the completion of 24 college credits. Note: Students on visas are not eligible for participation in the Joint Admissions Programs.</li>
                     <li>Meet with Stony Brook University transfer advisors when they visit your community college each semester to ensure a smooth transition to Stony Brook University. During your final semester, submit an Intent to Enroll form.</li>
-                    <li>Complete your Associate in Arts (A.A.) or Associate in Science (A.S.) degree program at Nassau or Suffolk Community College with a cumulative G.P.A. of 2.8 or higher. Note: Additional admission requirements must be met for the following Stony Brook majors:
-                        <ul class="default-bullets">
-                            <li>The major in Computer Science requires completion of an AS degree in Computer Science, a cumulative GPA of 3.0 or higher, and grades of "B" or better in required courses.</li>
-                            <li>The major in Information Systems requires completion of an AS degree in Computer Science with a cumulative GPA of 3.0 and grades of "C" or better in required courses.</li>
-                            <li>Majors in Computer Engineering, Electrical Engineering, Engineering Science and Mechanical Engineering require completion of an AS degree in Engineering Science with a cumulative GPA of 3.0.</li>
-                            <li>The major in Business Management requires completion of an AA degree in Liberal Arts, an AS degree in Business Administration, or an AS degree in Accounting, as well as a cumulative GPA of 3.1 or higher.</li>
-                        </ul>
-                    </li>
+                    <li>Complete your Associate in Arts (A.A.) or Associate in Science (A.S.) degree program at Nassau or Suffolk Community College with a cumulative G.P.A. of 2.8 or higher. Additional admission requirements must be met for several majors as noted below.</li>
                     <li>Enter Stony Brook University as a junior to complete your baccalaureate degree.</li>
                 </ol>
                 <h4>Joint Admissions Majors</h4>
@@ -45,42 +38,42 @@
                     <li>Africana Studies</li>
                     <li>American Studies</li>
                     <li>Anthropology</li>
-                    <li>Applied Mathematics and Statistics</li>
+                    <li>Applied Mathematics &amp; Statistics</li>
                     <li>Art History and Criticism</li>
-                    <li>Asian and Asian American Studies</li>
+                    <li>Art, Studio</li>
+                    <li>Asian &amp; Asian American Studies</li>
                     <li>Astronomy/Planetary Sciences</li>
                     <li>Atmospheric and Oceanic Sciences</li>
                     <li>Biochemistry</li>
                     <li>Biology</li>
-                    <li>Business Management</li>
+                    <li>*Business Management</li>
                     <li>Chemistry</li>
                     <li>Cinema and Cultural Studies</li>
                     <li>Comparative Literature</li>
-                    <li>Computer Engineering</li>
-                    <li>Computer Science</li>
+                    <li>***Computer Engineering</li>
+                    <li>**Computer Science</li>
                     <li>Earth and Space Sciences</li>
                     <li>Economics</li>
-                    <li>Electrical Engineering</li>
+                    <li>***Electrical Engineering</li>
                     <li>Engineering Chemistry</li>
-                    <li>Engineering Science</li>
+                    <li>***Engineering Science</li>
                     <li>English</li>
-                    <li>Environmental Studies</li>
                 </ul>
             </div>
             <div class="content clearfix col-2">
                 <ul class="default-bullets">
+                    <li>Environmental Studies</li>
                     <li>European Studies</li>
-                    <li>French Language and Literature</li>
+                    <li>French Language &amp; Literature</li>
                     <li>Geology</li>
-                    <li>German Language and Literature</li>
+                    <li>German Language &amp; Literature</li>
                     <li>History</li>
-                    <li>Information Systems</li>
+                    <li>**Information Systems</li>
                     <li>Italian Studies</li>
-                    <li>Linguistics</li>
                     <li>Marine Sciences</li>
                     <li>Marine Vertebrate Biology</li>
                     <li>Mathematics</li>
-                    <li>Mechanical Engineering</li>
+                    <li>***Mechanical Engineering</li>
                     <li>Multidisciplinary Studies</li>
                     <li>Philosophy</li>
                     <li>Physics</li>
@@ -88,11 +81,16 @@
                     <li>Psychology</li>
                     <li>Religious Studies</li>
                     <li>Sociology</li>
-                    <li>Spanish Language and Literature</li>
-                    <li>Studio Art</li>
+                    <li>Spanish Language & Literature</li>
                     <li>Theatre Arts</li>
-                    <li>Women’s and Gender Studies</li>
+                    <li>Women’s Studies</li>
                 </ul>
+            </div>
+            <div class="content clearfix">
+                <p>*<strong>BUSINESS MANAGEMENT</strong>: Students who receive an AA degree in Liberal Arts, an AS degree in Business Administration, or an AS degree in Accounting with a cumulative GPA of  3.1 or higher will be guaranteed admission to  Stony Brook’s Business Management major.  Suggested courses; Microeconomics,  Introduction to Business and Calculus for Non  Science Majors.</p>
+                <p>**<strong>COMPUTER SCIENCE</strong>:  Students who  receive an AS degree in Computer Science with  a cumulative GPA of 3.0 or higher and receive  grades of “B” or higher in required courses  evaluated as equivalent to CSE 114 and CSE 215  at Stony Brook will be guaranteed admission  into the Computer Science major.</p>
+                <p>**<strong>INFORMATION SYSTEMS</strong>:  Students who  receive an AS in Computer Science with a  cumulative average of 3.0 or higher and receive  grades of “C” or higher in required courses may  also choose to enroll in the Information Systems  major at Stony Brook.</p>
+                <p>***<strong>ENGINEERING</strong>:  Students who receive an  AS degree in Engineering Science with a  cumulative average of 3.0 or higher and receive  grades of “C”  or higher in required courses will  be guaranteed admission into Stony Brook’s  Computer Engineering major, Electrical  Engineering major, Engineering Science  major, or the Mechanical Engineering major.</p>
             </div>
         </div>
     </section>
