@@ -27,7 +27,7 @@
 
             $og_title        = 'Stony Brook ' . $page_title_sub;
             //$og_description  = 'Did you know? Stony Brook University generates more than $2.5 billion annually in regional economic impact and is one of the few campuses anywhere with a Vice President for Economic Development. Read more...';
-            $og_url          = 'http://www.stonybrook.edu/jobs';
+            $og_url          = 'http://www.stonybrook.edu/';
 
             $page_to_top_link = false;
 
@@ -47,7 +47,7 @@
             $error_code = $_GET['e'];
             switch($error_code) {
                 //maintenance
-                case 0:
+                case 1:
                     $error_title = 'System Maintenance';
                     $error_msg = 'This page is under temporary maintenance. Check back soon.';
                     $show_search_msg = false;
@@ -112,7 +112,7 @@
                                     <div class="content">
                                         <p><?php echo $error_msg; ?></p>
                                         <?php if($show_search_msg) { ?>
-                                            <p>Try searching for what you're looking for.</p>
+                                            <p>Try going back, or you can search stonybrook.edu.</p>
                                             <a class="sbu-outline-button sbu-outline-button--red arrow-after" href="search">Search</a>
                                         <?php } ?>
                                         <div style="height: 100px"></div>
