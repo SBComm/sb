@@ -11,6 +11,8 @@ function printBooks($path, $content) {
 
 	$book_data_str = file_get_contents($path . '/' . $content . "/second-level/alumni/get-informed/books.json");
 
+	echo($path . '/' . $content . "/second-level/alumni/get-informed/books.json");
+
 	$book_data_str = stripslashes($book_data_str);
 	removeBOM($book_data_str);
 	$book_data_str = str_replace('&quot;', '"', $book_data_str);
