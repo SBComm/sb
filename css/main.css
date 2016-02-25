@@ -2845,7 +2845,6 @@ body {
         width: 90%;
         margin: 0 5%;
     }
-
     .social-sidebar a {
         width: 100%;
         display: block;
@@ -2858,6 +2857,7 @@ body {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
+
     .social-sidebar a em {
         display: block;
         font-size: 28px;
@@ -2865,6 +2865,10 @@ body {
 
     .social-sidebar a:hover {
         background: #fff;
+    }
+
+    .inside-content .social-sidebar a {
+        color: #fff;
     }
 
     .social-sidebar a.circle em {
