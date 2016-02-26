@@ -40,38 +40,38 @@
                     <tbody>
                         <tr>
                             <td>Undergraduate</td>
-                            <td>$257/credit</td>
-                            <td>$816/credit</td>
+                            <td>$270/credit</td>
+                            <td>$898/credit</td>
                         </tr>
                         <tr>
                             <td>Graduate**</td>
-                            <td>$432/credit</td>
-                            <td>$841/credit</td>
+                            <td>$453/credit</td>
+                            <td>$925/credit</td>
                         </tr>
                         <tr>
                             <td>Graduate MBA students</td>
-                            <td>$551/credit</td>
-                            <td>$924/credit</td>
+                            <td>$600/credit</td>
+                            <td>$1,016/credit</td>
                         </tr>
                         <tr>
                             <td>Physical Therapy Grad Students</td>
-                            <td>$888/credit</td>
-                            <td>$1,624/credit</td>
+                            <td>$968/credit</td>
+                            <td>$1,705/credit</td>
                         </tr>
                         <tr>
                             <td>Doctor of Nursing Practice</td>
-                            <td>$888/credit</td>
-                            <td>$1,624/credit</td>
+                            <td>$968/credit</td>
+                            <td>$1,787/credit</td>
                         </tr>
                         <tr>
                             <td>Social Work</td>
-                            <td>$495/credit</td>
-                            <td>$841/credit</td>
+                            <td>$540/credit</td>
+                            <td>$925/credit</td>
                         </tr>
                         <tr>
                             <td>Physician Assistant</td>
-                            <td>$492/credit</td>
-                            <td>$1,000/credit</td>
+                            <td>$536/credit</td>
+                            <td>$1,200/credit</td>
                         </tr>
                     </tbody>
                 </table>
@@ -91,8 +91,8 @@
                     <tbody>
                         <tr>
                             <td>Tuition</td>
-                            <td>771.00</td>
-                            <td>1,028.00</td>
+                            <td>810.00</td>
+                            <td>1,080.00</td>
                         </tr>
                         <tr>
                             <td>Ugrad Activity</td>
@@ -131,8 +131,8 @@
                         </tr>
                         <tr>
                             <td><strong>Total</strong></td>
-                            <td><strong>1,004.55</strong></td>
-                            <td><strong>1,262.40</strong></td>
+                            <td><strong>1,043.55</strong></td>
+                            <td><strong>1,314.40</strong></td>
                         </tr>
                     </tbody>
                 </table>
@@ -150,8 +150,8 @@
                     <tbody>
                         <tr>
                             <td>Tuition</td>
-                            <td>1,296.00</td>
-                            <td>1,728.00</td>
+                            <td>1,359.00</td>
+                            <td>1,812.00</td>
                         </tr>
                         <tr>
                             <td>Activity</td>
@@ -185,8 +185,8 @@
                         </tr>
                         <tr>
                             <td><strong>Total</strong></td>
-                            <td><strong>1,480.55</strong></td>
-                            <td><strong>1,913.40</strong></td>
+                            <td><strong>1,984.55</strong></td>
+                            <td><strong>1,997.40</strong></td>
                         </tr>
                     </tbody>
                 </table>
@@ -204,8 +204,8 @@
                     <tbody>
                         <tr>
                             <td>Tuition</td>
-                            <td>1,653.00</td>
-                            <td>2,204.00</td>
+                            <td>1,800.00</td>
+                            <td>2,400.00</td>
                         </tr>
                         <tr>
                             <td>Activity</td>
@@ -239,8 +239,8 @@
                         </tr>
                         <tr>
                             <td><strong>Total</strong></td>
-                            <td><strong>1,837.55</strong></td>
-                            <td><strong>2,389.40</strong></td>
+                            <td><strong>1,984.55</strong></td>
+                            <td><strong>2,585.40</strong></td>
                         </tr>
                     </tbody>
                 </table>
