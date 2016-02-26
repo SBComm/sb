@@ -52,7 +52,7 @@
                         <p>All Scholars are eligible to attend special symposia and field trips, obtain special academic advising throughout their career at Stony Brook, participate in the Scholars Council, partake in a variety of outreach activities and have priority registration for classes. Scholars in the program are typically involved in outreach initiatives on campus and in the community-at-large and are frequently the recipients of prestigious awards such as the SUNY Chancellor’s Awards, Undergraduate Recognition Awards and Provost’s Awards for academic excellence. About ten percent of Scholars participate in the Undergraduate Research and Creative Activities (URECA) celebration every year. There are approximately 250 Scholars enrolled in the program each fall.</p>
                         <p>Admission: All high-achieving freshman applicants are automatically considered for the University Scholars program. You may request special consideration within Stony   Brook's Member Questions section of The Common Application.</p>
                         <p><a href="undergraduate-admissions/academics/honors/apply" class="fa-arrow-after">How To Apply</a></p>
-                        <p><a class="external-link" href="https://uaa.stonybrook.edu/university-scholars">University Scholars Website</a></p>
+                        <p><a class="external-link" href="http://www.stonybrook.edu/uscholars/">University Scholars Website</a></p>
                     </div>
                 </div>
             </div>
