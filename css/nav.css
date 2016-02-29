@@ -784,6 +784,17 @@
 	text-decoration: underline;
 }
 
+.footer-bar span a.copyright {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 3px;
+	background: transparent;
+	border: 0 none;
+	font-size: inherit;
+}
+
+
 @media only screen and (min-width: 310px) {
 	.more-nav ul li {
 		width: 50%;
