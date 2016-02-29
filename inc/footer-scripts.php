@@ -644,3 +644,14 @@
 				a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 			</script>
 		<?php } ?>
+
+		<!--OU Direct Edit-->
+		<script>
+			$(document).ready(function() {
+				var $de = $('#de'), $directedit = $('#directedit');
+				if($de.length && $directedit.length) {
+					$directedit.replaceWith($de.html());
+				}
+			});
+		</script>
+		
