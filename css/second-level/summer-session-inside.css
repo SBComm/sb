@@ -119,6 +119,20 @@ section.main-inside-content {
     padding: 10px 0 20px;
 }
 
+.inside-content .wrapper.content {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 5%;
+}
+
+@media only screen and (min-width: 1140px) {
+    .inside-content .wrapper.content {
+        width: 1026px;
+        margin: 0 auto;
+        float: none;
+    }
+}
+
 .suny-callout {
     height: 320px
 }
