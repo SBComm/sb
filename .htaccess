@@ -969,7 +969,7 @@ FileETag None
     RewriteRule ^summer-session/courses/courses/search$ summer-session/courses/courses/search.php$1
 
     #temp redirect for summer courses
-    RewriteRule ^summer-session/calendar/index.php$ http://www.stonybrook.edu/commcms/registrar/calendars/summercal.html
+    #RewriteRule ^summer-session/calendar/index.php$ http://www.stonybrook.edu/commcms/registrar/calendars/summercal.html
 </IfModule>
 
 
