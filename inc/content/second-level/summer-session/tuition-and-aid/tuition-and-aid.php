@@ -185,7 +185,7 @@
                         </tr>
                         <tr>
                             <td><strong>Total</strong></td>
-                            <td><strong>1,984.55</strong></td>
+                            <td><strong>1,543.55</strong></td>
                             <td><strong>1,997.40</strong></td>
                         </tr>
                     </tbody>
