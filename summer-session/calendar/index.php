@@ -115,7 +115,7 @@
 
 		                <!-- <summer-session> -->
 							<?php 
-								$file = "summer-session/calendar/".date("Y")."php";
+								$file = "summer-session/calendar/".date("Y").".php";
 								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </summer-session> -->
