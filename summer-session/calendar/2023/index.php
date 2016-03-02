@@ -115,7 +115,7 @@
 
 		                <!-- <summer-session> -->
 							<?php 
-								$file = "summer-session/calendar/2016.php";
+								$file = "summer-session/calendar/2023.php";
 								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </summer-session> -->
