@@ -380,7 +380,7 @@
             <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 			<?php includeAsset('js','plugins/spinner/spin.min.js'); ?>
 			<?php includeAsset('js','plugins/analytics/main.js'); ?>
-        <? } ?>
+        <?php } ?>
 
 		<?php if($page_type=='bulletin') { ?>
 			<?php includeAsset('js','js/vendor/jquery.fastLiveFilter.js'); ?>
@@ -457,7 +457,7 @@
         <!-- BEGIN Element Specific Includes -->
         <?php if($tablesaw) { ?>
         	<?php includeAsset('js','plugins/tablesaw/tablesaw.js'); ?>
-        <? } ?>
+        <?php } ?>
 
         <?php if($map==true) { ?>
 			<?php includeAsset('js','plugins/map/js/raphael.js'); ?>
