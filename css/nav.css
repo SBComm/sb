@@ -1503,7 +1503,8 @@
 	}
 
 	.site-nav .search-container button[type="submit"],
-	.sub-nav .search-container button[type="submit"] {
+	.sub-nav .search-container button[type="submit"],
+	.cms-search .search-container button[type="submit"] {
 		height: 32px;
 		width: 40px;
 	}
@@ -1517,7 +1518,8 @@
 	}
 
 	.site-nav .search-container.stay-in-nav,
-	.sub-nav .search-container.stay-in-nav {
+	.sub-nav .search-container.stay-in-nav,
+	.cms-search .search-container.stay-in-nav {
 		margin: 0;
 		position: absolute;
 		width: 300px;
@@ -1529,12 +1531,14 @@
 	}
 
 	.site-nav.big-n-bold .search-container.stay-in-nav,
-	.sub-nav.big-n-bold .search-container.stay-in-nav {
+	.sub-nav.big-n-bold .search-container.stay-in-nav,
+	.cms-search.big-n-bold .search-container.stay-in-nav {
 		top: 7px;
 	}
 
 	.site-nav .search-container.default,
-	.sub-nav .search-container.default {
+	.sub-nav .search-container.default,
+	.cms-search .search-container.default {
 		margin: 0;
 		position: absolute;
 		width: 155px;
@@ -1549,35 +1553,40 @@
 	}
 
 	.site-nav .search-container.default ::-webkit-input-placeholder,
-	.sub-nav .search-container.default ::-webkit-input-placeholder {
+	.sub-nav .search-container.default ::-webkit-input-placeholder,
+	.cms-search .search-container.default ::-webkit-input-placeholder {
 		color: #333;
 		text-shadow: none;
 		font-size: 11px;
 	}
 
 	.site-nav .search-container.default :-moz-placeholder,
-	.sub-nav .search-container.default :-moz-placeholder { /* Firefox 18- */
+	.sub-nav .search-container.default :-moz-placeholder,
+	.cms-search .search-container.default :-moz-placeholder { /* Firefox 18- */
 		color: #333;
 		text-shadow: none;
 		font-size: 11px;
 	}
 
 	.site-nav .search-container.default ::-moz-placeholder,
-	.sub-nav .search-container.default ::-moz-placeholder {  /* Firefox 19+ */
+	.sub-nav .search-container.default ::-moz-placeholder,
+	.cms-search .search-container.default ::-moz-placeholder {  /* Firefox 19+ */
 		color: #333;
 		text-shadow: none;
 		font-size: 11px;
 	}
 
 	.site-nav .search-container.default :-ms-input-placeholder,
-	.sub-nav .search-container.default :-ms-input-placeholder {
+	.sub-nav .search-container.default :-ms-input-placeholder,
+	.cms-search .search-container.default :-ms-input-placeholder {
 		color: #333;
 		text-shadow: none;
 		font-size: 11px;
 	}
 
 	.site-nav .search-container.default input[type="text"],
-	.sub-nav .search-container.default input[type="text"] {
+	.sub-nav .search-container.default input[type="text"],
+	.cms-search .search-container.default input[type="text"] {
 		font-size: 11px;
 		/*border-right: 1px solid #800;*/
 		height: 21px;
@@ -1590,7 +1599,8 @@
 	}
 
 	.site-nav.big-n-bold .search-container.stay-in-nav input[type="text"],
-	.sub-nav.big-n-bold .search-container.stay-in-nav input[type="text"] {
+	.sub-nav.big-n-bold .search-container.stay-in-nav input[type="text"],
+	.cms-search.big-n-bold .search-container.stay-in-nav input[type="text"] {
 		border: 1px solid #fff;
 		border-radius: 0;
 		width: 100%;
@@ -1616,7 +1626,8 @@
 	}
 */
 	.site-nav .search-container.default input[type="text"]:focus,
-	.sub-nav .search-container.default input[type="text"]:focus {
+	.sub-nav .search-container.default input[type="text"]:focus,
+	.cms-search .search-container.default input[type="text"]:focus {
 		box-shadow: 0 0 5px #ccc inset;
 	}
 
@@ -1636,12 +1647,14 @@
 */
 
 	.site-nav.big-n-bold .search-container.stay-in-nav,
-	.sub-nav.big-n-bold .search-container.stay-in-nav {
+	.sub-nav.big-n-bold .search-container.stay-in-nav,
+	.cms-search.big-n-bold .search-container.stay-in-nav {
 		width: 190px;
 	}
 
 	.site-nav .search-container.default button[type="submit"],
-	.sub-nav .search-container.default button[type="submit"] {
+	.sub-nav .search-container.default button[type="submit"],
+	.cms-search .search-container.default button[type="submit"] {
 		height: 29px;
 		width: 20%;
 		margin: 6px 0 4px 0;
@@ -1697,7 +1710,8 @@
 	}
 */
 	.site-nav .search-container.default button .icon,
-	.sub-nav .search-container.default button .icon {
+	.sub-nav .search-container.default button .icon,
+	.cms-search .search-container.default button .icon {
 		margin-top: -2px;
 		display: block;
 	}
