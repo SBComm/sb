@@ -490,7 +490,8 @@
 }
 
 .site-nav.default .search-container ::-webkit-input-placeholder,
-.sub-nav.default .search-container ::-webkit-input-placeholder {
+.sub-nav.default .search-container ::-webkit-input-placeholder,
+.cms-search .search-container ::-webkit-input-placeholder {
 	font-weight: normal;
 	color: #eeeeee;
 	text-shadow: 0 1px 0 #000;
@@ -499,7 +500,8 @@
 }
 
 .site-nav.default .search-container :-moz-placeholder,
-.sub-nav.default .search-container :-moz-placeholder { /* Firefox 18- */
+.sub-nav.default .search-container :-moz-placeholder,
+.cms-search .search-container :-moz-placeholder { /* Firefox 18- */
 	font-weight: normal;
 	color: #eeeeee;
 	text-shadow: 0 1px 0 #000;
@@ -508,7 +510,8 @@
 }
 
 .site-nav.default .search-container ::-moz-placeholder,
-.sub-nav.default .search-container ::-moz-placeholder {  /* Firefox 19+ */
+.sub-nav.default .search-container ::-moz-placeholder,
+.cms-search .search-container ::-moz-placeholder {  /* Firefox 19+ */
 	font-weight: normal;
 	color: #eeeeee;
 	text-shadow: 0 1px 0 #000;
@@ -517,7 +520,8 @@
 }
 
 .site-nav.default .search-container :-ms-input-placeholder,
-.sub-nav.default .search-container :-ms-input-placeholder {
+.sub-nav.default .search-container :-ms-input-placeholder,
+.cms-search .search-container :-ms-input-placeholder {
 	font-weight: normal;
 	color: #eeeeee;
 	text-shadow: 0 1px 0 #000;
@@ -551,21 +555,24 @@
 }
 
 .site-nav .search-container button[type="submit"],
-.sub-nav .search-container button[type="submit"] {
+.sub-nav .search-container button[type="submit"],
+.cms-search .search-container button[type="submit"] {
 	height: 34px;
 	margin: 5px 0 7px 0;
 	width: 30px;
 }
 
 .site-nav .search-container button .icon,
-.sub-nav .search-container button .icon {
+.sub-nav .search-container button .icon,
+.cms-search .search-container button .icon {
 	margin-top: -1px;
 	display: block;
 }
 
 
 .site-nav .search-container input[type="text"],
-.sub-nav .search-container input[type="text"] {
+.sub-nav .search-container input[type="text"],
+.cms-search .search-container input[type="text"] {
 	width: 85px;
 	border: 1px solid #800;
 	box-shadow: 0 0 15px #800 inset;
@@ -574,8 +581,10 @@
 
 .site-nav .search-container input[type="text"]:focus,
 .site-nav .search-container input[type="text"].focus,
+.cms-search .search-container input[type="text"].focus,
 .sub-nav .search-container input[type="text"]:focus,
-.sub-nav .search-container input[type="text"].focus {
+.sub-nav .search-container input[type="text"].focus,
+.cms-search .search-container input[type="text"].focus {
 	font-family: 'Trade Gothic W01 Light';
 	width: 110px;
 }
