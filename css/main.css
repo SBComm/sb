@@ -3315,8 +3315,10 @@ body {
 
     .tweets-and-news .stream .section-intro {
         display: block;
-        float: right;
+        float: none;
         padding: 4px 0 0;
+        width: 100%;
+        text-align: right;
     }
 
     .tweets-and-news .stream .section-intro a {
@@ -4149,14 +4151,14 @@ body {
         font-size: 1em;
         line-height: 1.6em;
         font-family: 'Trade Gothic Next W01', Arial, sans-serif;
-        color: #333;
-        margin: 5px 0 0;
+        color: #333;;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        width: 100%;
-        float: left;
+        box-sizing: border-box;;
         text-rendering: optimizeLegibility;
+        margin: 5px 0 0;
+        float: left;
+        width: 100%;
     }
 
     .inside-content .content.grey-box {

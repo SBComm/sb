@@ -290,9 +290,145 @@ footer.site-footer .img-col + .link-col {
     display: none;
 }
 
-@media only screen and (min-width: 360px) {
+/* social */
 
+.tweets-and-news .stream li,
+.tweets-and-news .stream li:hover {
+    font-size: 15px;
+    clear: both;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+
+.stream li,
+.stream li:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Trade Gothic Next W01';
+}
+
+.tweets-and-news h3 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #800;
+    margin: 0;
+}
+
+.tweets-and-news h3:before {
+    font-family: FontAwesome;
+    color: #400
+}
+
+.tweets-and-news .insta-promo h3:before {
+    content: "\f16d";
+}
+
+.tweets-and-news .font-icon.fa-twitter {
+    display: none;
+}
+
+.tweets-and-news .bottom-fade {
+    display: none;
+}
+
+.tweets-and-news .cta {
+    margin: 1.5em 0 2.6em;
+    font-size: 1.2em;
+}
+
+.tweets-and-news .dcsns-content {
+    height: auto !important;
+}
+
+.tweets-and-news .wrapper {
+    max-width: 100%;
+}
+
+.tweets-and-news .social-promo {
+    background-image: url("../../img/branding/rays/black-rays-full.jpg");
+    background-size: 500%;
+    background-repeat: repeat;
+}
+
+.tweets-and-news .social-promo .stream,
+.tweets-and-news .social-promo .inner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+}
+
+.tweets-and-news .social-promo li,
+.tweets-and-news .social-promo li:hover {
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    border: 0 none;
+    clear: none;
+    overflow: hidden;
+}
+
+.tweets-and-news .social-promo .section-thumb,
+.tweets-and-news .social-promo .section-thumb a,
+.tweets-and-news .social-promo .section-thumb a img {
+    display: block;
+    width: 100%;
+}
+
+.tweets-and-news .social-promo .section-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background: rgba(255,255,255,0.7);
+    padding: 4px;
+    max-height: 100px;
+    display: block;
+    font-size: .7em;
+    line-height: 1.4em;
+
+}
+
+.tweets-and-news .social-promo li:hover .section-text {
+    top: auto;
+}
+
+.tweets-and-news .social-promo .section-intro,
+.tweets-and-news .social-promo .font-icon.fa-instagram {
+    display: none;
+}
+
+.tweets-and-news .social-promo {
     
+}
+
+.tweets-and-news .social-promo {
+    
+}
+
+.tweets-and-news .social-promo {
+    
+}
+
+.tweets-and-news .social-promo {
+    
+}
+
+@media only screen and (min-width: 400px) {
+    .tweets-and-news .social-promo .section-text {
+        font-size: .95em;
+        line-height: 1.5em;
+    }
 }
 
 @media only screen and (min-width: 480px) {
@@ -322,6 +458,19 @@ footer.site-footer .img-col + .link-col {
         max-width: 200px;
     }
 
+    .tweets-and-news .social-promo li,
+    .tweets-and-news .social-promo li:hover {
+        width: 33.33333%;
+    }
+
+}
+
+
+@media only screen and (min-width: 680px) {
+    .tweets-and-news .social-promo li,
+    .tweets-and-news .social-promo li:hover {
+        width: 25%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -448,6 +597,13 @@ footer.site-footer .img-col + .link-col {
     }
 }
 
+@media only screen and (min-width: 840px) {
+    .tweets-and-news .social-promo li,
+    .tweets-and-news .social-promo li:hover {
+        width: 20%;
+    }
+}
+
 @media only screen and (max-width: 959px) {
     .alumni-home-promo:after {
         display: none;
@@ -553,6 +709,28 @@ footer.site-footer .img-col + .link-col {
         margin-top: 0;
     }
 
+    .tweets-and-news .twitter-feed, .tweets-and-news .news-feed {
+        padding: 0;
+        width: 38%;
+        border: 0 none;
+    }
+
+    .tweets-and-news .cta {
+        margin: 1.3em 0 0;
+        font-size: 1.2em;
+    }
+
+    .tweets-and-news .social-promo {
+        display: inline-block;
+        float: left;
+        width: 62%;
+    }
+
+    .tweets-and-news .social-promo li,
+    .tweets-and-news .social-promo li:hover {
+        width: 25%;
+    }
+
 }
 
 @media only screen and (min-width: 1022px) {
@@ -613,5 +791,10 @@ footer.site-footer .img-col + .link-col {
         font-size: 11em;
         right: 15px;
         bottom: -10px;
+    }
+
+    .tweets-and-news .social-promo li,
+    .tweets-and-news .social-promo li:hover {
+        width: 20%;
     }
 }

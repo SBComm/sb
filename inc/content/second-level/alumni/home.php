@@ -152,7 +152,7 @@
     ?>
 
     <?php
-        $file = "widgets/alumni/alumni-social.php";
+        $file = "widgets/alumni/alumni-social-twitter-insta.php";
         include($path . $file);
     ?>
 
