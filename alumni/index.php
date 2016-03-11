@@ -66,6 +66,7 @@
 
 	<head>
 		<?php 
+			header("Access-Control-Allow-Origin: *");
 			$file  = $header;
 			include($path . $file);
 		?>
