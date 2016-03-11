@@ -430,6 +430,64 @@
 
         <?php if($page_type=='second-level' && $second_level=='alumni') { ?>
 			<?php includeAsset('js','js/alumni.js'); ?>
+
+
+			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
+			<?php includeAsset('js','js/social/jquery.site.js'); ?>
+			<?php includeAsset('js','js/social/jquery.social.stream.1.5.4.js'); ?>
+			<?php includeAsset('js','js/social/preload-messages.js'); ?>
+			<script type="text/javascript">
+				jQuery(document).ready(function($){
+					$('#social-stream').dcSocialStream({
+						feeds: {
+							twitter: {
+								id: 'stonybrookalum',
+								intro: '',
+								search: '',
+								out: 'intro,thumb,text',
+								thumb: true
+							}
+						},
+						rotate: {
+							delay: 0
+						},
+						control: false,
+						filter: false,
+						wall: false,
+						order: 'date',
+						max: 'limit',
+						limit: 5,
+						iconPath: 'images/dcsns-dark/',
+						imagePath: 'images/dcsns-dark/'
+					});
+
+					$('#insta-stream').dcSocialStream({
+						feeds: {
+							instagram: {
+								id: '!211449390',
+								accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
+								clientId: '992187b36560494abe8ea63eebf2c9c3',
+								out: 'intro,thumb,text',
+								thumb: 'thumbnail',
+								comments: 3,
+								likes: 10
+							}
+						},
+						rotate: {
+							delay: 0
+						},
+						control: false,
+						filter: false,
+						wall: false,
+						order: 'date',
+						max: 'limit',
+						limit: 20,
+						iconPath: 'images/dcsns-dark/',
+						imagePath: 'images/dcsns-dark/'
+					});
+								 
+				});
+			</script>
 			
 		<?php } ?>
 
