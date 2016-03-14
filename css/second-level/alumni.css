@@ -408,21 +408,40 @@ footer.site-footer .img-col + .link-col {
     display: none;
 }
 
-.tweets-and-news .social-promo {
-    
-}
 
-.tweets-and-news .social-promo {
-    
-}
 
-.tweets-and-news .social-promo {
-    
-}
+    .tweets-and-news .twitter-feed, .tweets-and-news .news-feed {
+        position: relative;
+    }
 
-.tweets-and-news .social-promo {
-    
-}
+    .tweets-and-news .twitter-feed {
+        overflow: hidden;
+    }
+
+    .tweets-and-news .twitter-feed  .wall-wrapper {
+        overflow: auto;
+        height: 100%;
+        padding-bottom: 70px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .tweets-and-news .twitter-feed  .wall-wrapper > .bottom-fade {
+        display: block;
+        position: absolute;
+        padding: 0;
+        height: 150px;
+        width: 100%;
+        background: url(../images/bottom-fade.png) repeat-x 0 0;
+        bottom: 0;
+        cursor: pointer;
+        z-index: 9;
+    }
+
+    .tweets-and-news .twitter-feed  #wall .bottom-fade .button {
+        display: none;
+    }
 
 @media only screen and (min-width: 400px) {
     .tweets-and-news .social-promo .section-text {
@@ -741,7 +760,7 @@ footer.site-footer .img-col + .link-col {
         display: none;
     }
 
-    .tweets-and-news .cta {;
+    .tweets-and-news .cta {
         font-size: 1.2em;
     }
 

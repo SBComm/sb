@@ -496,10 +496,18 @@
 					var $instaPromo = $('.insta-promo');
 					var $tweetPromo = $('.twitter-feed');
 					$(window).load(function() {
-						$tweetPromo.height($instaPromo.outerHeight());
+						if($(window).width()>=960) {
+							$tweetPromo.height($instaPromo.outerHeight());
+						} else {
+							$tweetPromo.height('500px');
+						}
 				   	});
 				   	$(window).resize(function(){
-						$tweetPromo.height($instaPromo.outerHeight());
+						if($(window).width()>=960) {
+							$tweetPromo.height($instaPromo.outerHeight());
+						} else {
+							$tweetPromo.height('500px');
+						}
 				   	});
 				   }
 			</script>
