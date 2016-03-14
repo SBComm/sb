@@ -456,7 +456,9 @@
 						wall: false,
 						order: 'date',
 						max: 'limit',
-						limit: 5,
+						limit: 80,
+						retweets: true,
+						order: 'date',
 						iconPath: 'images/dcsns-dark/',
 						imagePath: 'images/dcsns-dark/'
 					});
@@ -482,6 +484,55 @@
 						order: 'date',
 						max: 'limit',
 						limit: 20,
+						iconPath: 'images/dcsns-dark/',
+						imagePath: 'images/dcsns-dark/'
+					});
+								 
+				});
+			</script>
+
+			<script type="text/javascript">
+				if($('.tweets-and-news').length) {
+					var $instaPromo = $('.insta-promo');
+					var $tweetPromo = $('.twitter-feed');
+					$(window).load(function() {
+						$tweetPromo.height($instaPromo.outerHeight());
+				   	});
+				   	$(window).resize(function(){
+						$tweetPromo.height($instaPromo.outerHeight());
+				   	});
+				   }
+			</script>
+			
+		<?php } ?>
+
+		<?php if($page_type=='second-level' && $second_level=='athletics') { ?>
+
+			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
+			<?php includeAsset('js','js/social/jquery.site.js'); ?>
+			<?php includeAsset('js','js/social/jquery.social.stream.1.5.4.js'); ?>
+			<?php includeAsset('js','js/social/preload-messages.js'); ?>
+			<script type="text/javascript">
+				jQuery(document).ready(function($){
+					$('#social-stream').dcSocialStream({
+						feeds: {
+							twitter: {
+								id: 'stonybrookalum',
+								intro: '',
+								search: '',
+								out: 'intro,thumb,text',
+								thumb: true
+							}
+						},
+						rotate: {
+							delay: 0
+						},
+						control: false,
+						filter: false,
+						wall: false,
+						order: 'date',
+						max: 'limit',
+						limit: 5,
 						iconPath: 'images/dcsns-dark/',
 						imagePath: 'images/dcsns-dark/'
 					});
