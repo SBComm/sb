@@ -713,10 +713,35 @@ footer.site-footer .img-col + .link-col {
         padding: 0;
         width: 38%;
         border: 0 none;
+        position: relative;
     }
 
-    .tweets-and-news .cta {
-        margin: 1.3em 0 0;
+    .tweets-and-news .twitter-feed  .wall-wrapper {
+        overflow: auto;
+        height: 100%;
+        padding-bottom: 70px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .tweets-and-news .twitter-feed  .wall-wrapper > .bottom-fade {
+        display: block;
+        position: absolute;
+        padding: 0;
+        height: 150px;
+        width: 100%;
+        background: url(../images/bottom-fade.png) repeat-x 0 0;
+        bottom: 0;
+        cursor: pointer;
+        z-index: 9;
+    }
+
+    .tweets-and-news .twitter-feed  #wall .bottom-fade .button {
+        display: none;
+    }
+
+    .tweets-and-news .cta {;
         font-size: 1.2em;
     }
 
