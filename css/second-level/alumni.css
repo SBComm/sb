@@ -445,6 +445,7 @@ footer.site-footer .img-col + .link-col {
 
     .tweets-and-news .wrap {
         z-index: 10;
+        position: relative;
     }
 
 @media only screen and (min-width: 400px) {
