@@ -449,6 +449,8 @@ $(document).ready(function(){
 		
 		if(defaultStoryID > -1) {
 			updateOverlayContent(defaultStoryID);
+		} else {
+			history.pushState(null, null, siteURL);
 		}
 		
 	}
