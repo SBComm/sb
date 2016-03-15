@@ -24,12 +24,12 @@
     <section class="clearfix inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
             <h3>How to Apply as an International Applicant</h3>
-            <div class="content application-details alert-message green clearfix">
+            <!--<div class="content application-details alert-message green clearfix">
                 <p>Applications are being accepted for the fall 2016 semester.</p>
-            </div>
-            <!--<div class="content application-details alert-message red clearfix">
-                <p>We are no longer accepting applications for the spring 2016 semester.</p>
             </div>-->
+            <div class="content application-details alert-message red clearfix">
+                <p>Please note: Freshman applications are no longer being accepted for the fall 2016 semester. <a href="undergraduate-admissions/apply/transfer/">Transfer</a> student applications are still being accepted.</p>
+            </div>
              <div class="content application-details clearfix">
                 <div class="inner-wrapper">
                     <p>Follow these steps to apply as an International Applicant:</p>

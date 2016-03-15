@@ -24,12 +24,12 @@
     <section class="clearfix inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
             <h3>How to Apply to Stony Brook as a Freshman</h3>
-            <div class="content application-details alert-message green clearfix">
+            <!--<div class="content application-details alert-message green clearfix">
                 <p>Applications are being accepted for the fall 2016 semester.</p>
-            </div>
-            <!--<div class="content application-details alert-message red clearfix">
-                <p>We are no longer accepting applications for the spring 2016 semester.</p>
             </div>-->
+            <div class="content application-details alert-message red clearfix">
+                <p>Please note: Freshman applications are no longer being accepted for the fall 2016 semester.</p>
+            </div>
             <div class="content application-details clearfix">
                 <p>There are two options to apply for admission as a freshman:</p>
             </div>

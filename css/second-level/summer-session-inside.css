@@ -542,7 +542,7 @@ ul.course-list .tablesaw-cell-label {
     }
 
     .pre-reg-form {
-        height: 2900px;
+        height: 3400px;
     }
 }
 @media only screen and (min-width: 400px) {
@@ -655,7 +655,7 @@ ul.course-list .tablesaw-cell-label {
     }
 
     .pre-reg-form {
-        height: 2350px;
+        height: 3300px;
     }
 }
 
