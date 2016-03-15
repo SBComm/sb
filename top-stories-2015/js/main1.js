@@ -224,7 +224,7 @@ function popHistoryState() {
 		if($('.overlay').hasClass('open')) {
 			$('.overlay-mask').fadeIn(200, function() {
 				if(storyID > -1) {
-					updateOverlayContent('');
+					updateOverlayContent(storyID);
 				}
 				$('.overlay-mask').fadeOut(200);
 			});
