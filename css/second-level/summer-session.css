@@ -473,6 +473,34 @@
     background-position: center;
 }
 
+.filter-buttons a.human-anatomy {
+    background-image: url('../../img/circle-buttons/anp-300.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.bio-anthro {
+    background-image: url('../../img/circle-buttons/anp-120.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.eco-online {
+    background-image: url('../../img/circle-buttons/eco-online.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.oceanog-online {
+    background-image: url('../../img/circle-buttons/mar-104.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media only screen and (min-width: 360px) {
     .filter-buttons p {
         font-size: 1.2em;
