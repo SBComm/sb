@@ -14,7 +14,7 @@
         <div class="border-box wrapper clearfix">
             <div class="content">
                 <div class="two-third">
-                    <h3>Get a jump on college credits</h3>
+                    <h3>Get a jump on college credits!</h3>
                     <p>Stony Brook University offers an exciting variety of opportunities for high school students, ranging from genuine hands-on research to credit bearing academic classes that can jump start your college career.</p>
                     <ul class="star-bullets red-before-children">
                         <li><strong>Stony Brook is one of the most affordable, top-ranked universities in the nation</strong></li>
@@ -92,7 +92,7 @@
                         <li>Make your course selection and credits.</li>
                         <li>Complete our high school student <strong>Online Application</strong>.</li>
                         <li>Allow (3-5) business days for processing. You will be sent a <strong>Stony Brook ID Number and registration instructions</strong>.</li>
-                        <li>When you have completed your course work, you can order an <a href="http://www.stonybrook.edu/commcms/registrar/transcripts/ordertranscript" target="_blank">official transcript</a>. </li>
+                        <li>When you have completed your course work, you can order an <a href="http://www.stonybrook.edu/commcms/registrar/transcripts/ordertranscript" target="_blank">official transcript</a>.</li>
                     </ol>
                     <a href="https://webapp1.cc.stonybrook.edu/Applynow/Login.aspx">Apply Now</a>
                 </div>
