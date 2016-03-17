@@ -513,6 +513,11 @@ img {
     padding: 10px 20px 10px;
 }
 
+.sbu-columns {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .border-thin-dark {
     padding: 0;
 }
@@ -5469,6 +5474,11 @@ footer.site-footer .social .small-button:after {
 
     .two-third {
         width: 66.667%;
+    }
+
+    .sbu-columns {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .sbu-columns--column.two-third,
