@@ -518,6 +518,18 @@ img {
     padding-right: 0;
 }
 
+.section-border-top {
+    border-top: 1px solid #900;
+    margin-top: 2em;
+    padding-top: 3em;
+}
+
+.section-border-bottom {
+    border-bottom: 1px solid #900;
+    padding-bottom: 2em;
+    margin-bottom: 1.6em;
+}
+
 .border-thin-dark {
     padding: 0;
 }
@@ -5499,16 +5511,16 @@ footer.site-footer .social .small-button:after {
         padding-right: 35px
     }
 
-    .section-border-top {
-        border-top: 1px solid #900;
-        margin-top: 2em;
-        padding-top: 3em;
+    .sbu-columns--column.one-third:nth-child(3) {
+        padding-right: 0
     }
 
-    .section-border-bottom {
-        border-bottom: 1px solid #900;
-        padding-bottom: 2em;
-        margin-bottom: 1.6em;
+    .sbu-columns--column.one-third.right-border-section {
+        padding-right: 25px
+    }
+
+    .sbu-columns--column.one-third.right-border-section + .one-third {
+        padding-left: 25px
     }
 
     /* overrides for padding and margin classes */
