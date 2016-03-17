@@ -3343,6 +3343,7 @@ body {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         text-align: center;
+        position: relative;
     }
 
     .tweets-and-news .cta {
@@ -5468,6 +5469,56 @@ footer.site-footer .social .small-button:after {
 
     .two-third {
         width: 66.667%;
+    }
+
+    .sbu-columns--column.two-third,
+    .sbu-columns--column.two-third,
+    .sbu-columns--column.three-quarter,
+    .sbu-columns--column.one-half + .one-half,
+    .sbu-columns--column.three-quarter + .one-quarter {
+        padding-left: 35px;
+    }
+
+    .sbu-columns--column.left-col-content {
+        padding-left: 0;
+    }
+
+    .section-border-top {
+        border-top: 1px solid #900;
+        margin-top: 2em;
+        padding-top: 3em;
+    }
+
+    .section-border-bottom {
+        border-bottom: 1px solid #900;
+        padding-bottom: 2em;
+        margin-bottom: 1.6em;
+    }
+
+    /* overrides for padding and margin classes */
+
+    .inside-content .content.pad-top,
+    .past-reunions.pad-top,
+    .section-border-top.pad-top {
+        padding-top: 2.4em;
+    }
+
+    .inside-content .content.pad-bottom,
+    .past-reunions.pad-bottom,
+    .section-border-top.pad-bottom {
+        padding-bottom: 2.4em;
+    }
+
+    .inside-content .content.margin-top,
+    .past-reunions.margin-top,
+    .section-border-top.margin-top {
+        margin-top: 2.4em;
+    }
+
+    .inside-content .content.margin-bottom,
+    .past-reunions.margin-bottom,
+    .section-border-top.margin-bottom {
+        margin-top: 2.4em;
     }
 
     .flip-on-hover {
