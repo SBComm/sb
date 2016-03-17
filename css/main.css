@@ -5444,7 +5444,8 @@ footer.site-footer .social .small-button:after {
     .margin-top {
         margin-top: 40px;
     }
-    .margin-bottom {
+    .margin-bottom,
+    .section-border-bottom .margin-bottom {
         margin-bottom: 40px;
     }
     .whole,
@@ -5491,6 +5492,11 @@ footer.site-footer .social .small-button:after {
 
     .sbu-columns--column.left-col-content {
         padding-left: 0;
+    }
+
+    .sbu-columns--column.right-border-section {
+        border-right: 1px solid #900;
+        padding-right: 35px
     }
 
     .section-border-top {
