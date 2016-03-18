@@ -5511,15 +5511,15 @@ footer.site-footer .social .small-button:after {
         padding-right: 35px
     }
 
-    .sbu-columns--column.one-third:nth-child(3) {
+    .sbu-columns--column:last-child {
         padding-right: 0
     }
 
-    .sbu-columns--column.one-third.right-border-section {
+    .sbu-columns--column.right-border-section {
         padding-right: 25px
     }
 
-    .sbu-columns--column.one-third.right-border-section + .one-third {
+    .sbu-columns--column.right-border-section + .sbu-columns--column {
         padding-left: 25px
     }
 
