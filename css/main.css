@@ -2890,7 +2890,7 @@ body {
 
     .social-sidebar a.circle em {
         font-size: 22px;
-        padding: 2px;
+        padding: 12px;
     }
 
     .social-sidebar a .label {
@@ -5748,28 +5748,49 @@ footer.site-footer .social .small-button:after {
         right: 0;
         top: 220px;
         z-index: 100001;
-        padding: 15px 14px 4px 16px;
+        padding: 0;
         background: #000;
-        border-radius: 17px 0 0 17px;
-        border: 2px solid #fff;
+        border-radius: 0;
+        border: 0;
         border-right: 0 none;
         box-shadow: 0 0 5px #333;
         opacity: .875;
         text-align: left;
     }
 
+    .social-sidebar .sidebar-wrapper {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        border-right: 0 none;
+    }
+
     .social-sidebar a {
-        width: 40px;
-        height: 40px;
+        width: auto;
+        height: auto;
         float: none;
         padding: 5px;
-        border-radius: 30px;
-        margin: 0 0 14px;
-        padding: 7px 5px 5px;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         display: block;
+        background: #000;
+    }
+
+
+.social-sidebar a + a {
+}
+
+    .social-sidebar a:hover {
+        background: #900 !important;
+        color: #fff !important;
+    }
+
+    .social-sidebar a:hover em {
+        color: #fff !important;
     }
 
     .social-sidebar a.print {
