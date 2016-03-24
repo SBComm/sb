@@ -323,6 +323,11 @@
                             <td>Business Administration</td>
                         </tr>
                         <tr>
+                            <td>Linguistics</td>
+                            <td>BA/MAT</td>
+                            <td>French</td>
+                        </tr>
+                        <tr>
                             <td>Marine Sciences</td>
                             <td>BS/MS</td>
                             <td>Atmospheric Science</td>
