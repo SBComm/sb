@@ -2882,6 +2882,7 @@ body {
 
     .social-sidebar a:hover {
         background: #fff;
+        text-decoration: none;
     }
 
     .inside-content .social-sidebar a {
