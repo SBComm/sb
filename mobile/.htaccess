@@ -1,0 +1,8 @@
+# ----------------------------------------------------------
+# | Story URLs to target index page with querystring param |
+# ----------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^([a-zA-Z0-9\-]+)$ index.php?story=$1
+</IfModule>
