@@ -84,20 +84,20 @@
                             <td class="label">Tuition</td>
                             <td>
                                 <span class="amount">6,470</span> (NY Residents)<br />
-                                <span class="amount">21,550</span> (Out-of-state <span class="nowrap intl-label">&amp; International)</span>
+                                <span class="amount">23,710</span> (Out-of-state <span class="nowrap intl-label">&amp; International)</span>
                             </td>
                         </tr>
                         <tr>
                             <td class="label">Fees ****</td>
-                            <td><span class="amount">2,388</span></td>
+                            <td><span class="amount">2,556</span></td>
                         </tr>
                         <tr>
                             <td class="label">Room ***</td>
-                            <td><span class="amount">7,778</span></td>
+                            <td><span class="amount">8,090</span></td>
                         </tr>
                         <tr>
                             <td class="label">Meal Plan ***</td>
-                            <td><span class="amount">4,178</span></td>
+                            <td><span class="amount">4,700</span></td>
                         </tr>
                     </table>
 
