@@ -17,7 +17,7 @@
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb';
-            $http_root     = 'http://992eaab8.ngrok.io';
+            $http_root     = 'http://mobile.cc.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
@@ -25,7 +25,7 @@
             $is_local_environment = false; 
         } else {
             $site          = 'sb';
-            $http_root     = 'http://mobile.cc.stonybrook.edu';
+            $http_root     = 'http://992eaab8.ngrok.io';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_production_environment = true;
