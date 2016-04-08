@@ -146,6 +146,10 @@
 
         <?php if($map==true) { ?>
             <?php includeAsset('css','plugins/map/css/map.css','all'); ?>
+        <?php } ?>    
+
+        <?php if($page_type=='home') { ?>
+            <?php includeAsset('css','css/home-apr15/homepage-styles.css','all'); ?>
         <?php } ?>
 
 

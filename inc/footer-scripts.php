@@ -66,8 +66,18 @@
         	<?php includeAsset('js','plugins/nivo-lightbox/nivo-lightbox.min.js'); ?>
         	<script>
 				$(document).ready(function(){
-				    $('.nivo-lightbox').nivoLightbox();
+				    $('.nivo-lightbox').nivoLightbox({
+					    afterShowLightbox: function() {
+					    	options = $('.nivo-lightbox').attr('data-options');
+					    	if(options.length) {
+					    		$iframe = $('.nivo-lightbox-content > iframe');
+					    		src = $iframe.attr('src');
+					        	$iframe.attr('src', src + '?' + options);
+					    	}
+					    }
+					});
 				});
+
 			</script>
         <?php } ?>
 
@@ -737,6 +747,27 @@
 		        <?php } ?>
 	        })
 		</script>
+
+		<?php if($page_type=='home') { ?>
+			<script>
+				$(document).ready(function() {
+					$('.boldMovesBox').hover(function(){
+						$(this).toggleClass('engaged');
+					});
+					$('.apply-form-trigger').on('click',function(e) {
+						e.preventDefault();
+						var $form = $('.apply-form-1');
+						if($form.hasClass('hide-accessible')) {
+							$(this).addClass('active');
+							toggleAccessible($form);
+						}
+						$('body').scrollTo($form, 400, {
+					    	axis: 'y'
+					    });
+					});
+				});
+			</script>
+        <?php } ?>
 
 		<?php if(($site_status[$second_level]=='in_CMS' || $site_status[$second_level]=='in_transition') && $is_proofing_environment) { ?>
 			<!-- Update production links to use /development/ on proofing -->

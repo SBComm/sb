@@ -54,6 +54,22 @@ function toggleAccessible(element) {
     }
 }
 
+function toggleAccessibleSlide(element) {
+	if(element.hasClass('open')) {
+        element.fadeIn(0,function(){
+          element.removeClass('open')
+            .slideUp('fast',function() {
+                element.addClass('hide-accessible').fadeIn('fast');
+            });
+        });
+    } else {
+        element.fadeOut(0,function(){
+          element.removeClass('hide-accessible').addClass('open')
+            .slideDown('fast');
+        });
+    }
+}
+
 function scrollToTop(scrollToClass) {
 	$('body').scrollTo( scrollToClass, 500, {
 		easing:'easeOutQuad', 
@@ -140,7 +156,7 @@ $(window).resize(function(){
 });
 
 /* reset height of .more-nav to prevent padding jump on slideDown() */
-var $moreNav = $('.more-nav');
+var $moreNav = $('.header-container .more-nav-v3');
 //var moreNavHeight = $moreNav.height();
 /*$moreNav.hide().css('height',0);*/
 
@@ -228,23 +244,20 @@ var initReady = function() {
 		//console.log('clicked more-trigger');
 
 		if($(window).width()>=1008) {
-			if ( $audienceNav.is( ":visible" ) && $moreNav.is( ":hidden" ) ) {
+			if ( $audienceNav.is( ":visible" ) && $moreNav.hasClass('hide-accessible') ) {
 				//console.log('audienceNav:visible and moreNav:hidden');
 				$('.audience-trigger').click();
 			}
 		}
 
-		if ( $moreNav.is( ":hidden" ) ) {
-			$moreNav.slideDown();
-			//$moreNav.show().animate({ height : moreNavHeight }, { duration: 600 });
-			$(this).addClass('selected');
+
+
+		if ( $moreNav.hasClass('hide-accessible') ) {
+			$(this).find('.fa-caret-right').addClass('fa-caret-up').removeClass('fa-caret-right');
+			toggleAccessibleSlide($moreNav)
 		} else {
-			$moreNav.slideUp();
-			/*$moreNav.animate({ height: 0 }, { duration: 600, complete: function () {
-		        $moreNav.hide();
-		      } 
-		    });*/
-			$(this).removeClass('selected');
+			$(this).find('.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-right');
+			toggleAccessibleSlide($moreNav)
 		}
 	});
 

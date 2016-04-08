@@ -17,7 +17,17 @@ textarea {
 
 body {
     color: #000;
-    background: url('../img/bkg/bg2.jpg') repeat 0 0;
+    background: #fff;
+}
+
+.sbu-wrapper {
+    overflow: hidden;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 ::-moz-selection {
@@ -723,14 +733,16 @@ section.breaker {
     padding: 4% 0;
 }
 
-.black-rays-bkg {
+.black-rays-bkg,
+.black-rays-bkg-hover:hover {
     background-image: url("../img/branding/rays/black-rays-full.jpg");
     background-size: 100%;
     background-size: cover;
     background-position: 0 0;
 }
 
-.red-rays-bkg {
+.red-rays-bkg,
+.red-rays-bkg-hover:hover {
     background-image: url("../img/branding/rays/red-rays-full.jpg");
     background-size: 100%;
     background-size: cover;
@@ -3125,72 +3137,73 @@ body {
 
     .youtube-red,
     .fa-youtube:hover,
+    .youtube-red-hover:hover,
     .fa-youtube-square:hover,
     .fa-youtube-play:hover {
-        color: #DF1F1C;
+        color: #DF1F1C !important;
     }
 
     .pinterest-red,
     .pinterest-red-hover:hover,
     .fa-pinterest:hover,
     .fa-pinterest-square:hover {
-        color: #CB2528;
+        color: #CB2528 !important;
     }
 
     .facebook-blue,
     .facebook-blue-hover:hover,
     .fa-facebook:hover,
     .fa-facebook-square:hover {
-        color: #3b5998;
+        color: #3b5998 !important;
     }
 
     .twitter-blue,
     .twitter-blue-hover:hover,
     .fa-twitter:hover,
     .fa-twitter-square:hover {
-        color: #4ec2dc;
+        color: #4ec2dc !important;
     }
 
     .flickr-pink,
     .flickr-pink-hover:hover,
     .fa-flickr:hover,
     .fa-flickr-square:hover {
-        color: #f90784;
+        color: #f90784 !important;
     }
 
     .flickr-blue,
     .flickr-blue-hover:hover,
     .fa-flickr.blue:hover,
     .fa-flickr-square.blue:hover {
-        color: #0063DC;
+        color: #0063DC !important;
     }
 
     .instagram-blue,
     .instagram-blue-hover:hover,
     .fa-instagram:hover,
     .fa-instagram-square:hover {
-        color: #427097;
+        color: #427097 !important;
     }
 
     .linkedin-blue,
     .linkedin-blue-hover:hover,
     .fa-linkedin:hover,
     .fa-linkedin-square:hover {
-        color: #007bb6;
+        color: #007bb6 !important;
     }
 
     .tumblr-blue,
     .tumblr-blue-hover:hover,
     .fa-tumblr:hover,
     .fa-tumblr-square:hover {
-        color: #32506d;
+        color: #32506d !important;
     }
 
     .wordpress-blue,
     .wordpress-blue-hover:hover,
     .fa-wordpress:hover,
     .fa-wordpress-square:hover {
-        color: #21759b;
+        color: #21759b !important;
     }
 
     .facebook-blue-bkg {
@@ -5899,6 +5912,19 @@ footer.site-footer .social .small-button:after {
 
 }
 
+@media only screen and (min-width: 1160px) {
+    .no-pad-wrapper {
+        margin: 0 auto;
+        max-width: 1160px;
+    }
+
+
+.wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+}
+
 @media only screen and (min-width: 1200px) {
     .quick-nav a.persistent-flag,
     .quick-nav a.persistent-flag:hover {
@@ -6022,6 +6048,27 @@ footer.site-footer .social .small-button:after {
         height: 2000px;
     }
 }
+
+@media only screen and (min-width: 1160px) {
+    .hide-accessible-1160 {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    .hide-accessible-1240 {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+}
+
 
 .visuallyhidden {
     border: 0;

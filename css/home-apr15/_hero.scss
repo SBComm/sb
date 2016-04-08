@@ -1,0 +1,199 @@
+/*
+--------------------
+HERO IMAGE SECTION -- GLOBAL
+--------------------
+*/
+// INTERIOR HERO (DEFAULT)
+.hero--interior {
+  position: relative;
+}
+.hero--interior__image {
+  height: 120px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: table;
+  width: 100%;
+  position: relative;
+  margin-top: 0px;
+  display: block;
+  margin-top: 0px;
+  @media (min-width: 641px) {
+    height: 350px; // SOME EXTRA SPACING TO ACCODMMODATE OVERLAPPING NAVBAR
+  }
+  @media (min-width: 1024px){
+    height: 520px;
+    background-attachment: fixed;
+  }
+  @media (min-width: 1639px) {
+    background-size: 100% auto; //Sit Tight to the sites when the screen is XL
+  }
+}
+.hero--interior__image {
+  background-image: url(../../img/home-apr15/Jonathan-Conyers.png);      
+}
+@media (min-width: 641px) {
+  .hero--interior__image {
+    background-image: url(../../img/home-apr15/Jonathan-Conyers.png);      
+  }
+}
+.hero--interior__overlay {
+  background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 65%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  
+}
+
+.hero--interior__content {
+  z-index: 2;
+  bottom: 20px;
+  position: absolute;
+  @media (min-width: 641px) {
+    bottom: 25px;
+  }  
+  @media (min-width: 1024px){
+    bottom: 100px;
+  }
+}
+
+.hero--interior__content__title  {
+  margin: 0px;
+  line-height: 1;
+  color: #fff;
+  font-size: 36px;
+  max-width: 315px;
+  @media (min-width: 641px) {
+    font-size: 60px;
+    max-width: 315px;
+  }
+  @media (min-width: 1024px){
+    font-size: 80px;
+    max-width: 560px;
+  }
+}
+
+.hero--interior__content__description {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  width: 100%;
+  display: block;
+  padding: 15px 20px;
+  @media (min-width: 641px) {
+    margin-top: 10px;
+    max-width: 290px;
+    padding: 0px;
+    background: none;
+  }
+  @media (min-width: 1024px){
+    font-size: 30px;
+    line-height: 1.2;
+    margin-top: 30px;
+    max-width: 500px;    
+  }
+}
+
+// HOMEPAGE
+.home-hero {
+  height: 250px;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: table;
+  width: 100%;
+  @media (min-width: 641px) {
+    height: 420px;
+    margin-top: -1px;
+  }
+  @media (min-width: 1024px){
+    height: 740px;
+    background-attachment: fixed;
+  }
+  @media (min-width: 1475px) {
+    background-size: 100% auto;
+  }
+}
+.home-hero__content {
+  text-align: center;
+  max-width: 995px;
+  margin: 0 auto;  
+  padding: 0 20px;
+  display: table-cell;
+  vertical-align: middle;
+  span {
+    color: white;
+    display: block;    
+  }
+}
+
+.home-hero__content__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #fff;
+  margin: 0;
+  margin: 0 auto;
+  max-width: 260px;
+  @media (min-width: 641px) {
+    max-width: 430px;
+  }
+  @media (min-width: 1024px){
+    font-size: 140px;
+    max-width: 780px;    
+  }  
+  @media (max-width: 641px) {
+    font-size: 44px;
+  }
+}
+
+.home-hero__content__description {
+  font-weight: 100;
+  font-size: 18px;
+  max-width: 420px;  
+  margin: 20px auto auto;
+  @media (min-width: 1024px){
+    max-width: 860px;
+    font-size: 30px;
+  }    
+}
+
+//WHY SCS HERO
+.hero--interior--whyscs {
+  @media (min-width: 641px) {
+    border-bottom: 5px solid #800000;    
+  }
+  @media (min-width: 1024px){
+    height: 650px;
+  }
+  
+  .hero--interior__content__title {
+    @media (min-width: 641px) {
+      max-width: 430px;
+    }
+    @media (min-width: 1024px){
+      max-width: 780px;    
+    }  
+    
+  }
+  .hero--interior__content {
+    max-width: 180px;
+    @media (min-width: 641px) {
+      max-width: 300px;
+    }  
+    @media (min-width: 1024px){
+      max-width: 500px;
+    }
+  }
+  
+}
+.hero .padded-row {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+a.video-link {
+  @include btn-custom(#800000);
+  padding: 0.5rem;
+}

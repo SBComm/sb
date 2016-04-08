@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/// collecting a button style
+
+@mixin btn-custom($color) {
+  font-family: "Effra W01", Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: $color;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0.5rem 0; 
+  border: 3px solid $color;
+  &:hover {
+    background: transparent;
+    border-color: #fff;
+  }
+}

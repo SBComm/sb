@@ -54,12 +54,13 @@
     $global          = "global.php";
     $header          = "header.php";
     $quick_nav       = "quick-nav-v2.php";
-    $more_nav        = "more-nav-v2.php";
+    $more_nav        = "more-nav-v3.php";
     $audience_nav    = "audience-nav.php";
     $logo_container  = "logo-container.php";
     $site_nav        = "site-nav.php";
     $sub_nav         = "sub-nav.php";
     $footerbar       = "footerbar.php";
+    $footer          = "footers/sbu-footer.php";
     $site_config     = "site-config.php";
 
     /* Meta Variables Defaults */
@@ -155,7 +156,7 @@
     date_default_timezone_set("America/New_York");
 
     /* Cache busting for newer asset files */
-    $filename_based_cache_busting = true;
+    $filename_based_cache_busting = false;
     include($path . 'includes/filename_based_cache_busting.php');
 
     /* debugger, see https://github.com/raveren/kint */

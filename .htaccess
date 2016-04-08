@@ -955,10 +955,10 @@ FileETag None
 # ----------------------------------------------------------------------
 # | /sb/ index                                                 |
 # ----------------------------------------------------------------------
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^index.php$ 404/index.php
-</IfModule>
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#    RewriteRule ^index.php$ 404/index.php
+#</IfModule>
 
 
 # ----------------------------------------------------------------------
