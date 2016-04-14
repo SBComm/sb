@@ -166,7 +166,7 @@
 		                        </li>
 		                        <li>
 		                        	<a href="http://www.stonybrook.edu/happenings">
-		                        		<span class="label clearfix">News</span>
+		                        		<span class="label clearfix">Newsroom</span>
 		                        	</a>
 		                        </li>
 		                        <li class="tablet mobile desktop">

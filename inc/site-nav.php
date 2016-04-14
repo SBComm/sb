@@ -37,9 +37,9 @@
             		<span class="label clearfix">Medicine</span>
             	</a>
             </li>
-            <li class="clearfix<?php if($main_nav_selected_tab==7) echo(' selected'); ?> hide-accessible-1240">
-                <a href="http://www.stonybrook.edu/campaign/" class="clearfix">
-                    <span class="label clearfix">Campaign</span>
+            <li class="clearfix<?php if($main_nav_selected_tab==7) echo(' selected'); ?>">
+                <a href="http://www.stonybrook.edu/giving/" class="clearfix">
+                    <span class="label clearfix">Giving</span>
                 </a>
             </li>
 		</ul>
