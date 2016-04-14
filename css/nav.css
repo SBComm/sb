@@ -26,10 +26,9 @@
 	color: #ddd;
 	display: block;
 	padding: 10px 0;
-	text-shadow: 0 1px 0 #000;
-	font-size: 12px;
+	font-size: 11px;
 	font-family:"Effra W01", Helvetica, sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 	text-transform: none;
 }
 
@@ -863,7 +862,7 @@
 	}
 	.site-nav .search-container input[type="text"],
 	.sub-nav .search-container input[type="text"] {
-		width: 140px;
+		width: 0;
 	}
 	.site-nav .search-container input[type="text"]:focus,
 	.site-nav .search-container input[type="text"].focus,
@@ -1095,7 +1094,7 @@
 	}
 
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1022px) {
 	.cd-dropdown {
 		width: 100% !important;
 		margin: 0 !important;
@@ -1351,7 +1350,7 @@
 	    -moz-box-sizing: border-box;
 	    box-sizing: border-box;
 	    margin: 0 10px 0 0;
-	    text-align: left;
+	    text-align: left;;
 	}
 
 	.quick-nav ul:hover .label {;
@@ -1414,11 +1413,11 @@
 		color: #000;
 		display: block;
 		text-shadow: none;
-		font-size: 14px;
+		font-size: 12px;
 		font-family:"Effra W01", Helvetica, sans-serif;
 		font-weight: 700;
-		text-transform: none;
-		padding: 11px 0 0 11px;
+		text-transform: uppercase;
+		padding: 12px 0 0 11px;
 		border: 0 none;
 		height: 100%;
 	}
@@ -1871,6 +1870,9 @@
 		display: inline-block;
 		width: 5.5%;
 	}
+	.site-nav ul li.home a {
+		padding: 14px 5px;
+	}
 
 	.site-nav ul li {
 		width: 13.5%;
@@ -2085,13 +2087,13 @@
 }
 @media only screen and (min-width: 1240px) {
 	.site-nav {
-		position: relative;;;
+		position: relative;
 	}
 	.site-nav ul li {
 	    width: auto;
 	}
 	.site-nav a {
-	    padding: 14px 28px;
+		padding: 14px 25px;
 	}
 	.site-nav .campaign-badge {
 		display: block;
@@ -2102,7 +2104,8 @@
         -moz-transition: all 0.1s;
         transition: all 0.1s;
 	}
-	.site-nav .campaign-badge a {
+	.site-nav .campaign-badge a,
+	.site-nav .campaign-badge a:hover {
 		padding: 9px 50px 9px 20px;
 		background: #111;
 	}
@@ -2111,12 +2114,6 @@
 	}
 	.site-nav .campaign-badge:hover {
 		/*right: 0;*/
-	}
-	.site-nav .campaign-badge a:hover {
-	    background: url("../img/branding/rays/black-rays-full.jpg") #111;
-	    background-size: 100%;
-	    background-size: cover;
-	    background-position: 0 0;
 	}
 	.site-nav .campaign-badge a:after {
 		font-size: 36px;
@@ -2140,18 +2137,19 @@
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         transition: all 0.2s;
+		margin: 0 6px;
 	}
 	.site-nav .campaign-badge:hover .join-us {
 		height: auto;
 		max-height: 100px;
-		padding: 5px 0 0 0;
+		padding: 6px 0 0 0;
 	}
 	.site-nav .campaign-badge .join-us span {
 		display: block;
 		background: #900;
-		padding: 4px 10px;
+		padding: 6px 10px;
 		margin: 8px 0 5px;
-		border: 3px solid #900;
+		border: 2px solid #900;
 		-webkit-box-sizing: border-box;
 	    -moz-box-sizing: border-box;
 	    box-sizing: border-box;
@@ -2160,6 +2158,22 @@
 		background: transparent;
 		border-color: #a69b90;
 		color: #D8CBBD;
+	}
+}
+
+@media only screen and (min-width: 1360px) {
+	.site-nav a {
+		padding: 13px 27px;
+		font-size: 18px;
+	}
+	.site-nav ul li.home a {
+	    padding: 13px 5px;
+	}
+}
+
+@media only screen and (min-width: 1580px) {
+	.site-nav a {
+		padding: 13px 34px;
 	}
 }
 
@@ -2179,6 +2193,14 @@
 
 .more-nav-v3-col {
 	font-size: 1em;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.more-nav-v3-col + .more-nav-v3-col {
+	margin-top: 15px;
 }
 
 .more-nav-v3-col strong,
@@ -2192,7 +2214,7 @@
 .more-nav-v3-col strong {
 	color: #828282;
 	text-transform: uppercase;
-	margin: 20px 0 5px 0;
+	margin: 0 0 5px 0;
 	font-family: "Effra W01", Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 1.05em;
@@ -2243,19 +2265,25 @@
 	}
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 500px) {
 	.more-nav-v3-wrapper {
 		padding: 20px 0 0 0;
 	}
 	.more-nav-v3-col {
 		font-size: 1em;
-		width: 25%;
+		width: 50%;
 		float: left;
 		padding: 0 2% 5px 0;
+		clear: none;
+		margin-top: 0;
 	}
-	.more-nav-v3-col:nth-child(2),
-	.more-nav-v3-col:nth-child(3) {
-		padding-right: 2%;
+
+	.more-nav-v3-col + .more-nav-v3-col {
+		margin-top: 0;
+	}
+	.more-nav-v3-col:nth-child(3),
+	.more-nav-v3-col:nth-child(4) {
+		padding-top: 15px;
 	}
 	.more-nav-v3-col ul li {
 		width: 100%;
@@ -2267,6 +2295,21 @@
 	}
 	.more-nav-v3-col strong {
 		margin: 0 0 5px 0;
+	}
+}
+
+@media only screen and (min-width: 860px) {
+	.more-nav-v3-col {
+		width: 25%;
+		padding: 0 2% 5px 0;
+	}
+	.more-nav-v3-col:nth-child(2),
+	.more-nav-v3-col:nth-child(3) {
+		padding-right: 2%;
+	}
+	.more-nav-v3-col:nth-child(3),
+	.more-nav-v3-col:nth-child(4) {
+		padding-top: 0;
 	}
 }
 
@@ -2328,22 +2371,30 @@
 	float: left;
 }
 .sbu-footer .social-footer-wrapper {
+	background: transparent;
 	background: #000;
 	margin: 20px 0 0;
 }
 
 .sbu-footer .social-footer-wrapper a {
+	background: #000;
 	width: 20%;
 	float: left;
 	display: inline-block;
 	text-align: center;
 	font-size: 2em;
 	padding: 15px 0;
-	color: #fff
+	color: #fff;
+	margin: 0;
 }
 
 .sbu-footer .social-footer-wrapper a:hover {
-	background: #fff;
+	background: #900;
+	color: #fff;
+}
+
+.sbu-footer .social-footer-wrapper a:hover .fa {
+	color: #fff !important;
 }
 
 .sbu-footer .univ-logo-stacked {
@@ -2393,13 +2444,14 @@
 		margin: 0;
 	}
 	.sbu-footer .social-footer-wrapper a {
-		width: 14%;
-		margin: 0 3%;
+		width: 16%;
+		margin: 0px 2%;
 		border: 1px solid #828282;
 		border-radius: 50%;
 		color: #828282;
+		background: #fff;
 		font-size: 1.2em;
-		padding: 6px 0;
+		padding: 7px 0;
 	}
 	.sbu-footer .social-footer-wrapper a:hover,
 	.sbu-footer .social-footer-wrapper a:hover * {
@@ -2427,7 +2479,7 @@
 		font-size: 1.05em;
 	}
 	.sbu-footer .social-footer-wrapper a {
-		padding: 8px 0;
+		padding: 11px 0;
 	}
 }
 

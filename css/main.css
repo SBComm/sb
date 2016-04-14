@@ -681,6 +681,16 @@ img {
     background: transparent;
 }
 
+.animated-preload_background {
+    background-image: url("images/preload_pattern.png");
+    background-repeat: repeat;
+    background-color: transparent;
+    background-attachment: scroll;
+    background-size: inherit;
+    animation: animatedBackground 40s linear infinite;
+    -webkit-animation: animatedBackground 40s linear infinite;
+}
+
 .ie9 .white-fade-background,
 .ie9 .gradient {
    filter: none; /* to work on ie9 */
