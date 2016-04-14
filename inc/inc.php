@@ -152,11 +152,14 @@
     $page_scroll_time   = 0;      //Time for scroll function in milliseconds
     $page_scroll_mobile = false;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 
+    /* Site URLs (MUST end with a slash) */
+    $sbu_site_url['happenings'] = 'http://stonybrook.edu/happenings/';
+
     /* Default date timezone */
     date_default_timezone_set("America/New_York");
 
     /* Cache busting for newer asset files */
-    $filename_based_cache_busting = false;
+    $filename_based_cache_busting = true;
     include($path . 'includes/filename_based_cache_busting.php');
 
     /* debugger, see https://github.com/raveren/kint */
