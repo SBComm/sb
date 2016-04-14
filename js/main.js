@@ -250,8 +250,7 @@ var initReady = function() {
 			}
 		}
 
-
-
+		$(this).toggleClass('selected');
 		if ( $moreNav.hasClass('hide-accessible') ) {
 			$(this).find('.fa-caret-right').addClass('fa-caret-up').removeClass('fa-caret-right');
 			toggleAccessibleSlide($moreNav)
