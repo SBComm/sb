@@ -68,14 +68,16 @@
 			/* --- TEMPLATE --- */
 			/*
 				<div class="boldMovesBox">
-					<a href="#;" class="boldMovesBox-title">
+					<a href="javascript:void(0);" class="boldMovesBox-title">
 						<h3>Research Headline Goes Here Lorum Ipsum Sit Research Headline Goes Here Lorum Ipsum Sit</h3>
-					</a>  
+					</a>
 					<div class="boldMovesBox-story">
+						<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat eda faucibus, tortor neque</p>
 						<a href="" class="boldMovesBox-fullStory">Read Story</a>
+						<a href="javascript:void(0);" class="close-boldMovesBox">Back to story</a>
 					</div>
 					<a href="#" class="boldMovesBox-link"><span>All </span>Athletics<span> News <i class="fa fa-long-arrow-right"></i></span></a>
-				</div> 
+				</div>
 			 */
             $file = "scripts/get-homepage-spotlights.php";
             include($path . $file);

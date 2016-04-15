@@ -751,8 +751,13 @@
 		<?php if($page_type=='home') { ?>
 			<script>
 				$(document).ready(function() {
-					$('.boldMovesBox').hover(function(){
-						$(this).toggleClass('engaged');
+					$('.boldMovesBox').on('click',function(e) {
+
+						if(!$(this).hasClass('engaged') && !$(e.target).hasClass('boldMovesBox-link')) {
+							$(this).toggleClass('engaged');
+						} else if($(e.target).hasClass('close-boldMovesBox')) {
+							$(this).closest('.boldMovesBox').removeClass('engaged');
+						}
 					});
 					$('.apply-form-trigger').on('click',function(e) {
 						e.preventDefault();

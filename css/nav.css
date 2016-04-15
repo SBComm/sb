@@ -26,7 +26,7 @@
 	color: #ddd;
 	display: block;
 	padding: 10px 0;
-	font-size: 11px;
+	font-size: 12px;
 	font-family:"Effra W01", Helvetica, sans-serif;
 	font-weight: 500;
 	text-transform: none;
@@ -2206,7 +2206,7 @@
 }
 
 .more-nav-v3-col {
-	font-size: 1em;
+	font-size: 1.05em;
 	clear: both;
 	float: left;
 	width: 100%;
@@ -2242,12 +2242,13 @@
 
 }
 
-.more-nav-v3-col ul li {
-	width: auto;
+.more-nav-v3-col ul li {;
 	margin: 0 10% 2px 0;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+	min-width: 100%;
+	width: auto;
 }
 
 .more-nav-v3-col ul li a {
@@ -2255,7 +2256,7 @@
 	clear: both;
 	cursor: pointer;
 	float: left;
-	width: 100%;
+	width: auto;
 	color: #fff;
 	font-family: "Effra W01", Helvetica, sans-serif;
 	font-weight: 400;
