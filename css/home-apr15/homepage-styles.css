@@ -628,13 +628,15 @@ h2, .changingWorld h3,
   .boldMovesBox .boldMovesBox-story .boldMovesBox-fullStory {
     bottom: 160px;
   }
-  .boldMovesBox .boldMovesBox-story p {;
-  }
   .boldMovesBox .boldMovesBox-title h3 .fa {
     opacity: 0;
   }
   .boldMovesBox:hover .boldMovesBox-title h3 .fa {
     opacity: 1;
+  }
+  .boldMovesBox:hover .close-boldMovesBox,
+  .close-boldMovesBox {
+    display: none;
   }
 }
 @media (min-width: 1101px) {

@@ -752,11 +752,17 @@
 			<script>
 				$(document).ready(function() {
 					$('.boldMovesBox').on('click',function(e) {
-
-						if(!$(this).hasClass('engaged') && !$(e.target).hasClass('boldMovesBox-link')) {
+						if($(window).width()<1024) {
+							if(!$(this).hasClass('engaged') && !$(e.target).hasClass('boldMovesBox-link')) {
+								$(this).toggleClass('engaged');
+							} else if($(e.target).hasClass('close-boldMovesBox')) {
+								$(this).closest('.boldMovesBox').removeClass('engaged');
+							}
+						}
+					});
+					$('.boldMovesBox').hover(function() {
+						if($(window).width()>=1024) {
 							$(this).toggleClass('engaged');
-						} else if($(e.target).hasClass('close-boldMovesBox')) {
-							$(this).closest('.boldMovesBox').removeClass('engaged');
 						}
 					});
 					$('.apply-form-trigger').on('click',function(e) {

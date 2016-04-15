@@ -892,8 +892,7 @@
 	}
 
 	.quick-nav li:last-child .label,
-	.quick-nav:hover .label {
-		border-color: transparent;
+	.quick-nav:hover .label {;
 	}
 
 	.quick-nav .more-trigger,
@@ -2228,7 +2227,7 @@
 .more-nav-v3-col strong {
 	color: #828282;
 	text-transform: uppercase;
-	margin: 0 0 5px 0;
+	margin: 8px 0 5px 0;
 	font-family: "Effra W01", Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 1.05em;
@@ -2279,7 +2278,7 @@
 		padding: 20px 0 0 0;
 	}
 	.more-nav-v3-col {
-		font-size: 1em;
+		font-size: 1.1em;
 		width: 50%;
 		float: left;
 		padding: 0 2% 5px 0;
@@ -2300,7 +2299,7 @@
 	.more-nav-v3-col ul li a {
 		float: left;
 		width: auto;
-		padding: 2px 0 2px 0;
+		padding: 2px 0 2px 0;;
 	}
 	.more-nav-v3-col strong {
 		margin: 0 0 5px 0;

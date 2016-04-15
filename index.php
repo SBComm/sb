@@ -27,6 +27,8 @@
 		    $audience_nav_selected_tab = 0;
 		    $page_footer = true;
 		    $lightbox = true;
+	        $html_dom_parser = true;
+	        $page_to_top_link = false;
 		?>
 
 	<head>

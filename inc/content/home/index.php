@@ -89,30 +89,25 @@
 	<div class="wpb_wrapper"> 
 		<h2>What&rsquo;s Coming Up?</h2>
 		<ul class="clearfix">
-			<li>
-				<a class="clearfix" href="#">
-					<div class="eventDate"><span class="eventDate_day">24</span><span class="eventDate_month">Feb</span></div>
-					<div class="eventTitle"><span class="item">NCAA Tournament Watch Parties</span></div>
-				</a>
-			</li>
-			<li>
-				<a class="clearfix" href="#">
-					<div class="eventDate"><span class="eventDate_day">12</span><span class="eventDate_month">Mar</span></div>
-					<div class="eventTitle"><span class="item">Women's Leadership Symposium</span></div>
-				</a>
-			</li> 
-			<li>
-				<a class="clearfix" href="#">
-					<div class="eventDate"><span class="eventDate_day">5</span><span class="eventDate_month">Jun</span></div>
-					<div class="eventTitle"><span class="item">Baroque Sundays at Three and a Really Long Title Goes Here</span></div>
-				</a>
-			</li> 
-			<li>
-				<a class="clearfix" href="#">
-					<div class="eventDate"><span class="eventDate_day">14</span><span class="eventDate_month">Sep</span></div>
-					<div class="eventTitle"><span class="item">Art Crawl: A Guided Tour of Campus Galleries</span></div>
-				</a>
-			</li>  
+			<?php 
+                /*
+                // PHP will transform event data from RSS feed in following format
+                //
+                <!--
+				<li>
+					<a class="clearfix" href="#">
+						<div class="eventDate"><span class="eventDate_day">14</span><span class="eventDate_month">Sep</span></div>
+						<div class="eventTitle"><span class="item">Art Crawl: A Guided Tour of Campus Galleries</span></div>
+					</a>
+				</li>
+                -->
+                */
+                $file  = "feed/active-data-calendar_v2.php";
+                $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx?type=N&category=43-0&ihc=y&sortorder=ASC";
+                $count = 4;
+                $end = 4;
+                include($path . $file);
+            ?>
 		</ul>
 		<p class="jumpAwayLink"><a href="http://calendar.activedatax.com/stonybrook/">See All Events&nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
 	</div><!-- /.wpb_wrapper -->	
