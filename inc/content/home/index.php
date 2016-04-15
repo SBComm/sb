@@ -60,7 +60,7 @@
 </div><!-- /.seawolfStrip -->	
 <div class="boldMoves">
 	<div class="wpb_wrapper">   
-		<h2>We&rsquo;re Making Bold Moves</h2>
+		<h2>We&rsquo;re Making <span>Bold Moves</span></h2>
 		<p class="jumpAwayLink"><a href="">See All Stories&nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
 
 		<?php

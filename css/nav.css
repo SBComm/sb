@@ -839,10 +839,23 @@
 	}
 }
 
+.quick-nav .more-trigger .extra-label {
+	display: none;
+}
+
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+@media only screen and (min-width: 540px) {
+	.quick-nav .more-trigger .extra-label {
+		display: inline;
+	}
+	.quick-nav .more-trigger .extra-label-mobile {
+		display: none;
+	}
+}
 
 @media only screen and (min-width: 400px) {
 
@@ -2189,6 +2202,7 @@
 .more-nav-v3 {
 	background: #000;
 	padding: 0 0 20px;
+	border-top: 1px solid #4b4b4b;
 }
 
 .more-nav-v3-col {
@@ -2259,13 +2273,7 @@
 	}
 }
 
-@media only screen and (min-width: 640px) {
-	.more-nav-v3-col ul li {
-		margin: 0 5.5% 2px 0;
-	}
-}
-
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 400px) {
 	.more-nav-v3-wrapper {
 		padding: 20px 0 0 0;
 	}
@@ -2295,6 +2303,12 @@
 	}
 	.more-nav-v3-col strong {
 		margin: 0 0 5px 0;
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	.more-nav-v3-col ul li {
+		margin: 0 5.5% 2px 0;
 	}
 }
 
@@ -2337,8 +2351,7 @@
 }
 
 .sbu-footer .more-nav-v3-col ul li a {
-	color: #900;
-	font-family: "Museo Slab W01 Regular", "Museo Slab", Gerogia, serif;
+	color: #900;;
 	font-weight: 500;
 	padding: 5px 0 3px 0;
 	border-bottom: 2px solid transparent;
@@ -2419,8 +2432,8 @@
 	float: left;
 	width: 100%;
 	color: #000;
-	font-family: "Museo Slab W01 Regular", "Museo Slab", Gerogia, serif;
-	font-weight: 500;
+	font-family: "Museo Slab W01", "Museo Slab", Gerogia, serif;
+	font-weight: 300;
 	margin: 5px 0 0;
 	padding: 10px;
 	text-align: center;

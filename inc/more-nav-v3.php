@@ -19,10 +19,10 @@
                 	<a href="http://mobile.cc.stonybrook.edu/sb/community-relations/" class="clearfix">Neighbors</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/economic-development/" class="clearfix">Economic Development</a>
+                	<a href="http://sb.cc.stonybrook.edu/news/media_relations/reporters_toolkit.php" class="clearfix">Media</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://sb.cc.stonybrook.edu/news/media_relations/reporters_toolkit.php" class="clearfix">Media</a>
+                    <a href="http://www.stonybrook.edu/economic-development/" class="clearfix">Economic Development</a>
                 </li>
             </ul>
         </div>
@@ -97,10 +97,10 @@
                 	<a href="http://it.stonybrook.edu/" class="clearfix">IT Services</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/pres/" class="clearfix">Office of the President</a>
+                	<a href="http://www.stonybrook.edu/registrar/" class="clearfix">Registrar</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/registrar/" class="clearfix">Registrar</a>
+                    <a href="http://www.stonybrook.edu/pres/" class="clearfix">Office of the President</a>
                 </li>
             </ul>
         </div>

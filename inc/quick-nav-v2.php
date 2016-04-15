@@ -161,12 +161,12 @@
 		                    <ul class="no-pad-wrapper border-box clearfix">
 		                        <li>
 		                        	<a href="http://www.stonybrook.edu/sb/calendars.shtml" class="clearfix">
-		                        		<span class="label clearfix">Calendars</span>
+		                        		<span class="label clearfix">Calendar<span class="hide-accessible-540">s</span></span>
 		                        	</a>
 		                        </li>
 		                        <li>
 		                        	<a href="http://www.stonybrook.edu/happenings">
-		                        		<span class="label clearfix">Newsroom</span>
+		                        		<span class="label clearfix">News<span class="hide-accessible-540">room</span></span>
 		                        	</a>
 		                        </li>
 		                        <li class="tablet mobile desktop">
@@ -191,7 +191,7 @@
 		                        </li>
 		                        <li>
 		                        	<span class="more-trigger">
-		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>More<span class="extra-label"> Links</span></span>
+		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>More<span class="extra-label">&nbsp;Links</span><span class="extra-label-mobile">...</span></span>
 		                        	</span>
 		                        </li>
 		                        <!--<li class="desktop for-info">

@@ -6027,6 +6027,16 @@ footer.site-footer .social .small-button:after {
     }
 }
 
+@media only screen and (max-width: 540px) {
+    .hide-accessible-540 {
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 2000px;
+        height: 2000px;
+    }
+}
+
 @media only screen and (min-width: 770px) {
     .hide-accessible-770,
     .hide-accessible-tablesaw {
