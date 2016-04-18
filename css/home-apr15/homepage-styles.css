@@ -715,47 +715,6 @@ h2, .changingWorld h3,
     -webkit-transform: rotate(-8deg) translate(5%, -12%);
     transform: rotate(-8deg) translate(5%, -12%);; } }
 
-.boldMovesBox:nth-child(3) {;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.boldMovesBox:nth-child(4) {
-  background: #800000 url(../../img/home-apr15/news-arts.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.boldMovesBox:nth-child(5) {
-  background: #800000 url(../../img/home-apr15/news-research.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.boldMovesBox:nth-child(6) {
-  background: #800000 url(../../img/home-apr15/news-medicine.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.boldMovesBox:nth-child(7) {
-  background: #800000 url(../../img/home-apr15/news-students.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.boldMovesBox:nth-child(8) {
-  background: #800000 url(../../img/home-apr15/news-lab.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 .boldMovesBox:nth-child(3) {
   clear: both; }
 
