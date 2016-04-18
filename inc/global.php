@@ -136,8 +136,26 @@ if($is_proofing_environment) {
     Added 04-07-16 by Josh Palmeri */
 ?>
     <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P43R9T"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P43R9T');</script>
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P43R9T&gtm_auth=jCHsNovKQBjtTL9y_RXzMQ&gtm_preview=env-1&gtm_cookies_win=x"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl+'&gtm_auth=jCHsNovKQBjtTL9y_RXzMQ&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P43R9T');</script>
+    <!-- End Google Tag Manager -->
+<?php } else if(!$is_production_environment) {
+    /* As per acob Levich <jacob.levich@stonybrook.edu> via Sara Wallace <swallace@butlertill.com>
+    Added 04-07-16 by Josh Palmeri */
+?>
+    <!-- Google Tag Manager - DEV Environment -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P43R9T&gtm_auth=bFNoRNv0WjetsHieVxUTeg&gtm_preview=env-4&gtm_cookies_win=x"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl+'&gtm_auth=bFNoRNv0WjetsHieVxUTeg&gtm_preview=env-4&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P43R9T');</script>
     <!-- End Google Tag Manager -->
 <?php } ?>
 
