@@ -1,4 +1,4 @@
-<section class="red-background numbers-wrapper arrow-below arrow-below-red">
+<section class="red-rays-bkg numbers-wrapper arrow-below arrow-below-red">
     <div class="wrapper border-box">
         <div class="item rtl rtl2 last clearfix">
             <div class="text-wrapper">
