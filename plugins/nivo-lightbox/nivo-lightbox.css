@@ -219,6 +219,12 @@
 	}
 }
 
+@media only screen and (max-height: 380px) and (max-width: 720px) {
+	.nivo-lightbox-content {
+		margin-top: 0%;
+	}
+}
+
 .nivo-lightbox-content {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
