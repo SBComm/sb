@@ -3,18 +3,18 @@
 	<div class="hero-sb_text" >
 		<div>
 			<h1 class="clearfix">Far Beyond Maximum Impact</h1>
-			<p class="clearfix">At Stony Brook, Bronx native Jonathan Conyers is forging a future he didn&rsquo;t believe was in reach.</p> 
-			<a class="clearfix video-link nivo-lightbox" href="http://www.youtube.com/watch?v=NBCsNNSOlZ0" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
+			<p class="clearfix">We are the curious. The explorers. The&nbsp;innovators. Relentless in pursuit of tomorrow’s big ideas.</p> 
+			<a class="clearfix video-link nivo-lightbox" href="https://www.youtube.com/watch?v=knlQVa1g1Tg" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
 		</div>  
 	</div>
 </section>
-<div class="optionalCallout clearfix">
+<!--<div class="optionalCallout clearfix">
 	<p class="clearfix">
 		<a class="clearfix" href="#">
 			<span class="optionalCallout_text"><i class="fa fa-thumb-tack fa-floatleft"></i><strong>Sign up for classes!</strong> Spring registration begins October 3rd, 2016&nbsp;<i class="fa fa-long-arrow-right"></i></span>
 		</a>
 	</p>
-</div><!-- /.optionalCallout -->
+</div>--><!-- /.optionalCallout -->
 <div class="seawolfStrip">
 	<div class="wpb_wrapper"> 
 		<h2 class="clearfix">Become a Seawolf</h2>
@@ -109,7 +109,7 @@
                 include($path . $file);
             ?>
 		</ul>
-		<p class="jumpAwayLink"><a href="http://calendar.activedatax.com/stonybrook/">See All Events&nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
+		<p class="jumpAwayLink"><a href="<?php echo $sbu_site_url['calendar_next_month']; ?>">See All Events&nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
 	</div><!-- /.wpb_wrapper -->	
 </div><!-- /.whatsComingUp -->
 <div class="changingWorld clearfix">
