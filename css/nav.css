@@ -782,6 +782,27 @@
 	font-weight: 300;
 }
 
+.footer-bar .policy-links {
+	margin-top: 12px;
+	font-size: .85em;
+}
+
+.footer-bar .policy-links span,
+.footer-bar .policy-links .item {
+	display: inline-block;
+	padding-right: 12px;
+	padding-left: 9px;
+	border-right: 1px solid #aaa;
+	color: #ddd;
+	opacity: .7;
+}
+
+.footer-bar .policy-links span:last-child,
+.footer-bar .policy-links .item:last-child,
+.footer-bar span.last {
+	border-right: 0 none;
+}
+
 .footer-bar span .copyright {
 	display: inline-block;
 	margin: 0;
