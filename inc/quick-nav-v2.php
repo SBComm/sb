@@ -165,7 +165,7 @@
 		                        	</a>
 		                        </li>
 		                        <li>
-		                        	<a href="http://www.stonybrook.edu/happenings">
+		                        	<a href="http://www.stonybrook.edu/newsroom">
 		                        		<span class="label clearfix">News<span class="hide-accessible-540">room</span></span>
 		                        	</a>
 		                        </li>
