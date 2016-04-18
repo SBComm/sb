@@ -501,6 +501,23 @@ img:hover {
 } 
 
 img {
+
+}
+
+.inline-image {
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 760px) {
+
+    .inline-image {
+        float: right;
+        max-width: 50%;
+        margin: 15px;
+    }
+
 }
 
 /* lightbox image override */
@@ -757,6 +774,7 @@ section.breaker {
     background-size: 100%;
     background-size: cover;
     background-position: 0 0;
+    background-attachment: fixed;
 }
 
 .fixed-background {
@@ -2835,7 +2853,7 @@ body {
 
     section.numbers-wrapper {
         text-align: center;
-        background: url('../img/bkg/thin-diagonal-stripe-pattern.png') repeat #900;
+        /*background: url('../img/bkg/thin-diagonal-stripe-pattern.png') repeat #900;*/
     }
 
     .numbers-wrapper p {
@@ -4888,7 +4906,7 @@ body {
             display: block;
             margin: 0 auto;
             font-size: 1.4em;
-            width: 4.5em;
+            width: 170px;
             text-align: center;
         }
     }

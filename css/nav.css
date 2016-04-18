@@ -2222,6 +2222,9 @@
 .more-nav-v3 {
 	background: #000;
 	padding: 0 0 20px;
+}
+
+.header-container .more-nav-v3 {
 	border-top: 1px solid #4b4b4b;
 }
 
