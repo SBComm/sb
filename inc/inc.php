@@ -154,6 +154,7 @@
 
     /* Site URLs (MUST end with a slash) */
     $sbu_site_url['happenings'] = 'http://stonybrook.edu/happenings/';
+    $sbu_site_url['calendar_next_month'] = 'http://calendar.activedatax.com/stonybrook/EventList.aspx?fromdate='.date("n/j/Y").'&amp;todate='.date("n/j/Y", strtotime("+30 days")).'&amp;display=Month&amp;view=DateTime';
 
     /* Default date timezone */
     date_default_timezone_set("America/New_York");
