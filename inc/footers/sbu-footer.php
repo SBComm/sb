@@ -27,7 +27,7 @@
                             <a href="http://www.stonybrook.edu/medicine" class="clearfix">Medicine</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/campaign" class="clearfix">Campaign</a>
+                            <a href="http://www.stonybrook.edu/giving" class="clearfix">Giving</a>
                         </li>
                     </ul>
                 </div>
@@ -111,10 +111,10 @@
                             <a href="http://www.stonybrook.edu/pres/" class="clearfix">Office of the President</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/access" class="clearfix">Accessibility</a>
+                            <a href="http://stonybrook.edu/southampton" class="clearfix">SB Southampton</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/privacy.shtml" class="clearfix">Privacy</a>
+                            <a href="http://stonybrook.edu/commcms/bnl/" class="clearfix">Brookhaven National Lab</a>
                         </li>
                     </ul>
                 </div>

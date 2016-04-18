@@ -19,10 +19,10 @@
                 	<a href="http://mobile.cc.stonybrook.edu/sb/community-relations/" class="clearfix">Neighbors</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://sb.cc.stonybrook.edu/news/media_relations/reporters_toolkit.php" class="clearfix">Media</a>
+                    <a href="http://www.stonybrook.edu/economic-development/" class="clearfix">Economic Development</a>
                 </li>
                 <li class="clearfix">
-                    <a href="http://www.stonybrook.edu/economic-development/" class="clearfix">Economic Development</a>
+                	<a href="http://sb.cc.stonybrook.edu/news/media_relations/reporters_toolkit.php" class="clearfix">Media</a>
                 </li>
             </ul>
         </div>
