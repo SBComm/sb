@@ -68,7 +68,8 @@ h2, .changingWorld h3,
     float: left;;
     height: 390px;;
     width: auto;;
-    max-width: 1000px;; }
+    max-width: 1000px;;
+    margin: 0 0 0 -60px;; }
   .hero-sb .hero-sb_text {
     position: absolute;
     top: 0;
@@ -722,6 +723,11 @@ h2, .changingWorld h3,
 
 .boldMovesBox:nth-child(3) {
   clear: both; }
+
+.boldMovesBox {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
 
 .boldMovesBox:nth-child(3) .boldMovesBox-story,
 .boldMovesBox:nth-child(7) .boldMovesBox-story {
