@@ -1,0 +1,17 @@
+.header-title-image-flowers {
+    background-image: url("../../img/university/flowers-bokeh-2000.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.header-title-image-science {
+    background-image: url("../../img/university/science-banner-2000.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (min-width: 1024px) {
+    .header-title-image {
+        /* background-attachment: fixed; */
+    }
+}
