@@ -10,8 +10,19 @@
     background-size: cover;
     background-position: center;
 }
+.header-title-image-grad {
+    background-image: url("../../img/students/graduation-1600.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
 @media only screen and (min-width: 1024px) {
     .header-title-image {
         /* background-attachment: fixed; */
     }
+}
+
+.second-level-header p.content {
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,1), 0 0 2px rgba(0,0,0,1),  0 0 4px rgba(0,0,0,.8),  0 0 8px rgba(0,0,0,.6),  0 0 15px rgba(0,0,0,.8);
 }

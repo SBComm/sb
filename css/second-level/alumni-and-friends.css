@@ -1,0 +1,8 @@
+section.admissions-promo-wrapper {
+    background-image: url("../../img/university/campus-sky-over-fountain-2.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 90%;
+    padding: 10px 0 40px;
+    overflow: visible;
+}
