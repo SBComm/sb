@@ -13,6 +13,7 @@
 		</div>
     </nav>
 <?php } else { ?>
+<?php /*
     <nav class="audience-nav clearfix">
 		<div class="dropdown-nav clearfix"<?php if($audience_nav_selected_tab>0) echo(' data-selected-tab="' . $audience_nav_selected_tab . '"') ?>>
 			<select id="cd-dropdown" name="cd-dropdown" class="cd-select">
@@ -26,4 +27,5 @@
 			</select>
 		</div>
     </nav>
+*/ ?>
 <?php } ?>
