@@ -515,7 +515,12 @@ img {
     .inline-image {
         float: right;
         max-width: 50%;
-        margin: 15px;
+        margin: 0 0 15px 25px;
+    }
+
+    .inline-image-left {
+        float: left;
+        margin: 0 25px 15px 0;
     }
 
 }
