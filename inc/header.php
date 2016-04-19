@@ -33,6 +33,8 @@
     <!--END Cross-device Favicon code-->
     <?php } ?>
 
+    <meta name="google-site-verification" content="_wIbG5pSJMndkARMYBYGrkYSI1PYUAisKfNnGzD4g8U" />
+
     <!--BEGIN CSS Includes-->
         <?php includeAsset('css','css/vendor/normalize.min.css'); ?>
         <?php includeAsset('css','css/main.css'); ?>
