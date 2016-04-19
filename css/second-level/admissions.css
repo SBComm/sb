@@ -346,7 +346,7 @@ section.virtual-tour {
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: auto;
+        height: 181px;
     }
     a.floating-button,
     a.floating-button:hover {
