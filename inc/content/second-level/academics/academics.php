@@ -1,18 +1,16 @@
 <article class="clearfix second-level-header">
     <section class="header-title-image-science page-title">
         <div class="wrapper border-box">
-            <h1><a href="for-students/">Academics</a></h1>
+            <h1><a href="academics/">Academics</a></h1>
         </div>
     </section>
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix pad-top">
 
             <div class="content pad-top">
-                <img class="inline-image" src="img/university/sac-red-chairs.jpg" />
                 <p>Stony Brook is home to an exceptionally diverse student body of <strong>more than 25,200 high-achieving students</strong> — including <strong>more than 16,000 undergraduates</strong> — from nearly all 50 states and more than <strong>150 countries</strong>.</p>
-                <p>Stony Brook University offers <strong>more than 200 undergraduate programs</strong>, more than 100 master’s programs and <strong>more than 40 doctoral programs</strong>. Innovative programs include a combined-degree fast-track MBA program and the award-winning Undergraduate Research and Creative Activities (URECA) program, which involves undergraduates in research in nearly every discipline and has produced <strong>Beckman, Goldwater, Marshall and Truman scholars</strong>. Students in all disciplines have the opportunity to enrich their education by pursuing their academic interests in an overseas location while still earning credits toward their bachelor’s degree.
+                <p>Stony Brook University offers <strong>more than 200 undergraduate programs</strong>, <strong>more than 100 master’s programs</strong> and <strong>more than 40 doctoral programs</strong>. Innovative programs include a combined-degree fast-track MBA program and the award-winning Undergraduate Research and Creative Activities (URECA) program, which involves undergraduates in research in nearly every discipline and has produced <strong>Beckman, Goldwater, Marshall and Truman scholars</strong>. Students in all disciplines have the opportunity to enrich their education by pursuing their academic interests in an overseas location while still earning credits toward their bachelor’s degree.
                 <p>Stony Brook also offers unique semester, academic year, and summer and winter programs in locations such as Argentina, Italy, Jamaica, Korea, Madagascar and Tanzania.</p>
-
             </div>
 
             <div class="content col-2">
