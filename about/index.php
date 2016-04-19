@@ -28,6 +28,7 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Stony Brook University is one of America’s most dynamic public universities, a center of academic excellence and an internationally recognized research institution that is changing the world.';
 		    $og_url          = 'http://www.stonybrook.edu/about';
+		    $main_nav_selected_tab = 1;
 
 		    $page_to_top_link = true;
 
@@ -40,8 +41,6 @@
 		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
-
-		    $motio 		  = true;
 		?>
 
 	<head>
