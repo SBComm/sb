@@ -760,11 +760,22 @@
 							}
 						}
 					});
-					$('.boldMovesBox').hover(function() {
-						if($(window).width()>=1024) {
-							$(this).toggleClass('engaged');
+					$('.boldMovesBox').hover(
+						function() {
+							console.log();
+							if($(window).width()>=1024) {
+								if(!$(this).hasClass('engaged')) {
+									$(this).addClass('engaged');
+								}
+							}
+						}, function() {
+							if($(window).width()>=1024) {
+								if($(this).hasClass('engaged')) {
+									$(this).removeClass('engaged');
+								}
+							}
 						}
-					});
+					);
 					$('.apply-form-trigger').on('click',function(e) {
 						e.preventDefault();
 						var $form = $('.apply-form-1');
