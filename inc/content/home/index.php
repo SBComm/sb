@@ -1,5 +1,5 @@
 <section class="hero-sb animated-preload_background clearfix">
-	<img src="img/home-apr15/Jonathan-Conyers.png" alt="Bronx native Jonathan Conyers" />     
+	<img class="align-image-top" src="img/home-apr15/maximum-impact-1.jpg" alt="Student writing on transparent board" />     
 	<div class="hero-sb_text" >
 		<div>
 			<h1 class="clearfix">Far Beyond Maximum Impact</h1>

@@ -170,8 +170,7 @@ h2, .changingWorld h3,
     .hero-sb .hero-sb_text div {
       width: 1160px;
       margin: 0 auto;
-      display: block;
-      background: 0, 0, 0, 0.2; }
+      display: block; }
       .hero-sb .hero-sb_text div h1, .hero-sb .hero-sb_text div p {
         width: 50%;
         display: block;
@@ -276,11 +275,17 @@ h2, .changingWorld h3,
       margin-top: -10%;
       width: 110%;
     }
+    .hero-sb img.align-image-top {
+      margin-top: -2%;
+    }
   }
   @media (min-width: 1160px) {
     .hero-sb img {
       margin-top: -12%;
       width: 100%;
+    }
+    .hero-sb img.align-image-top {
+      margin-top: -3%;
     }
   }
   @media (min-width: 1400px) {
