@@ -123,7 +123,7 @@
         <?php if($page_type=='second-level' || ($page_type=='social-hub'&&$second_level=='alumni')) { ?>
             <?php includeAsset('css','css/second-level.css','all'); ?>
             <?php includeAsset('css','css/second-level/'.$second_level.'.css','all'); ?>
-            <?php if($second_level=='about' || $second_level=='academics' || $second_level=='alumni-and-friends') { ?>
+            <?php if($second_level=='about' || $second_level=='academics' || $second_level=='alumni-and-friends' || $second_level=='admissions') { ?>
                 <?php includeAsset('css','css/second-level/branded-second-level.css','all'); ?>
             <? } ?>
             <?php if($second_level=='alumni-and-friends') { ?>
