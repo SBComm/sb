@@ -1,7 +1,7 @@
 <article class="clearfix second-level-header">
     <section class="header-title-image-flowers page-title">
         <div class="wrapper border-box">
-            <h1><a href="for-students/">About Stony Brook</a></h1>
+            <h1><a href="about/">About Stony Brook</a></h1>
         </div>
     </section>
     <section class="clearfix inside-content main-inside-content two-col white-background">
