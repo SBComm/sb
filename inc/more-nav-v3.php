@@ -65,7 +65,7 @@
                 	<a href="http://blackboard.stonybrook.edu/" class="clearfix">Blackboard</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://stonybrook.edu/mycloud" class="clearfix">University Email</a>
+                	<a href="http://stonybrook.edu/mycloud" class="clearfix">Google Apps</a>
                 </li>
                 <li class="clearfix">
                 	<a href="http://outlook.office365.com" class="clearfix">Medicine Email</a>
