@@ -209,7 +209,7 @@
 			$(document).ready(function() {
 			    //<![CDATA[
 					$(".site-name").fitText({ minFontSize: '20px', maxFontSize: '27px' });
-					$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '46px' });
+					$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '52px' });
 					/*$(".site-carousel h1").fitText(1, { minFontSize: '30px', maxFontSize: '100px' });*/
 			    //]]>
 

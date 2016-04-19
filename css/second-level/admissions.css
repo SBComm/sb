@@ -17,6 +17,27 @@
     display: none;
 }
 
+.second-level-header h1 {
+    color: #000;
+    text-shadow: 0 0 15px #fff;
+}
+.second-level-header p.content {
+    color: #000 !important;
+    text-shadow: 0 0 15px #fff !important;
+}
+
+.second-level-header h1 {
+    color: #000;
+    text-shadow: 0 0 15px #fff;
+
+}
+
+.second-level-header p.content {
+    color: #000 !important;
+    text-shadow: 0 0 15px #fff !important;
+
+}
+
 section.admissions-promo-wrapper {
     background-image: url("../../img/misc/blue-chalkboard-admissions-marquee.jpg");
     background-size: 100%;
@@ -247,7 +268,7 @@ section.virtual-tour {
         display: inline-block;
     }
     .admissions-promo-wrapper h2 {
-        line-height: 4.8em;
+        line-height: 4.4em;
         margin: 0 0 60px;
         -webkit-text-shadow: 0 0 15px rgba(0,0,0,.8), 0 0 10px rgba(0,0,0,.8);
         -moz-text-shadow: 0 0 15px rgba(0,0,0,.8), 0 0 10px rgba(0,0,0,.8);
@@ -258,7 +279,7 @@ section.virtual-tour {
     }
 
     .admissions-promo-wrapper h2 .larger {
-        font-size: 5em;
+        font-size: 4.2em;
     }
     .compare-table {
         position: relative;

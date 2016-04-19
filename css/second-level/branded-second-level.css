@@ -1,3 +1,9 @@
+.header-title-image-white-rays {
+    background-image: url("../../img/branding/rays/white-rays.png");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
 .header-title-image-flowers {
     background-image: url("../../img/university/flowers-bokeh-2000.jpg");
     background-size: 100%;
@@ -16,6 +22,7 @@
     background-size: cover;
     background-position: center;
 }
+
 @media only screen and (min-width: 1024px) {
     .header-title-image {
         /* background-attachment: fixed; */
@@ -25,4 +32,31 @@
 .second-level-header p.content {
     color: #fff;
     text-shadow: 0 0 1px rgba(0,0,0,1), 0 0 2px rgba(0,0,0,1),  0 0 4px rgba(0,0,0,.8),  0 0 8px rgba(0,0,0,.6),  0 0 15px rgba(0,0,0,.8);
+}
+
+.second-level-header .page-title h1 {
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: -0.015em;
+    padding: 1em 1em 0.6em;
+}
+
+@media only screen and (min-width: 740px) {
+    .second-level-header h1 + p {
+        margin: 0 0 15px !important;
+    }
+}
+
+.admissions-promo-wrapper h2 .smaller {
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-shadow: 0 0 10px rgba(0,0,0,.7);
+}
+
+.admissions-promo-wrapper h2 .larger {
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0,0,0,.7);
 }

@@ -1,8 +1,8 @@
 <article class="clearfix second-level-header">
-    <section class="header-title-image-grad page-title admissions-header">
+    <section class="header-title-image-white-rays page-title admissions-header">
         <div class="wrapper border-box inside-content">
             <h1>Alumni &amp; Friends</h1>
-            <p class="content">Every great university has a great community of alumni, donors, and friends behind it. Stony&nbsp;Brook is no exception. <br />Thank you for supporting great minds at work on new knowledge, creative expression, and solutions that will impact generations to come.</p>
+            <p class="content">Every great university has a great community of alumni, donors, and friends behind it. Stony&nbsp;Brook is no exception. <br />Thank you for your interest in supporting great minds at work on new knowledge, new creative expression, <br />and new solutions that will impact generations to come.</p>
         </div>
     </section>
 </article>
@@ -10,7 +10,7 @@
     <section class="admissions-promo-wrapper">
         <div class="wrapper border-box clearfix inside-content">
             <h2>
-                <span class="smaller">Help Take Us</span> 
+                <span class="smaller">Help take us</span> 
                 <span class="larger"><span class="nowrap">FAR BEYOND</span></span>
             </h2>
             <div class="border-box clearfix compare-table">
