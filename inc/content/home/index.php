@@ -20,7 +20,7 @@
 		<h2 class="clearfix">Become a Seawolf</h2>
 		<h3 class="clearfix"><span>Want to change the great big world?</span> <span><strong>So&nbsp;do we.</strong> Join our community of explorers.</span></h3>
 		<ul class="clearfix">
-			<li class="btn"><a href="">Visit us</a></li>
+			<li class="btn"><a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/visit/">Visit us</a></li>
 			<li class="btn"><a class="nivo-lightbox" href="https://www.youvisit.com/tour/59968/?pl=v&amp;hover=0" data-lightbox-type="iframe">Take a virtual tour</a></li>
 			<li class="btn"><a href="http://mobile.cc.stonybrook.edu/sb/admissions/">Apply</a></li>
 		</ul>
@@ -61,7 +61,7 @@
 <div class="boldMoves">
 	<div class="wpb_wrapper">   
 		<h2>We&rsquo;re Making <span>Bold Moves</span></h2>
-		<p class="jumpAwayLink"><a href="">See All Stories&nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
+		<p class="jumpAwayLink"><a href="http://stonybrook.edu/happenings/">See All Stories&nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
 
 		<?php
 			/* Outputs the spotlights from Happenings */

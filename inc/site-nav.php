@@ -28,7 +28,7 @@
             	</a>
             </li>
 			<li class="clearfix<?php if($main_nav_selected_tab==5) echo(' selected'); ?>">
-            	<a href="http://goseawolves.cstv.com/" class="clearfix">
+            	<a href="http://www.stonybrook.edu/athletics/" class="clearfix">
             		<span class="label clearfix">Athletics</span>
             	</a>
             </li>

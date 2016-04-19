@@ -744,23 +744,25 @@ h2, .changingWorld h3,
   background: #d52027;
   border-top: 24px solid maroon; }
 
-.boldMovesBox.engaged .boldMovesBox-title {;
-  position: relative;; }
 
-.boldMovesBox.engaged .boldMovesBox-story {
-  -webkit-transform: rotate(0) translate(0, 0);
-  -ms-transform: rotate(0) translate(0, 0);
-  transform: rotate(0) translate(0, 0);
-  top: 0;
-  border-top: none;
-  background: rgba(213, 32, 39, 0.75);
-  left: 0;
-  width: 100%;
-  right: 0;
-  z-index: 2;; }
+  .boldMovesBox.engaged .boldMovesBox-title {;
+    position: relative;; }
 
-.boldMovesBox.engaged .boldMovesBox-link span {
-  display: inline; }
+  .boldMovesBox.engaged .boldMovesBox-story {
+    -webkit-transform: rotate(0) translate(0, 0);
+    -ms-transform: rotate(0) translate(0, 0);
+    transform: rotate(0) translate(0, 0);
+    top: 0;
+    border-top: none;
+    background: rgba(213, 32, 39, 0.75);
+    left: 0;
+    width: 100%;
+    right: 0;
+    z-index: 2; }
+
+  .boldMovesBox.engaged .boldMovesBox-link span {
+    display: inline; }
+
 
 .whatsComingUp {
   background: #800000 url(../../img/branding/rays/rays-vertical-1.jpg) repeat top center fixed;

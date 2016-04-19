@@ -6,13 +6,13 @@
                     <strong>Main Nav</strong>
                     <ul class="border-box clearfix">
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/about" class="clearfix">About</a>
+                            <a href="http://www.stonybrook.edu/sb/aboutsb.shtml" class="clearfix">About</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/admissions" class="clearfix">Admissions</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/academics" class="clearfix">Academics</a>
+                            <a href="http://www.stonybrook.edu/sb/academics.shtml" class="clearfix">Academics</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/research" class="clearfix">Research</a>
@@ -21,10 +21,10 @@
                             <a href="http://www.stonybrook.edu/athletics" class="clearfix">Athletics</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/arts" class="clearfix">Arts &amp; Culture</a>
+                            <a href="http://www.stonybrook.edu/sb/arts" class="clearfix">Arts &amp; Culture</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/medicine" class="clearfix">Medicine</a>
+                            <a href="http://stonybrookmedicine.edu" class="clearfix">Medicine</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/giving" class="clearfix">Giving</a>
@@ -50,7 +50,7 @@
                             <a href="http://mobile.cc.stonybrook.edu/sb/community-relations/" class="clearfix">Neighbors</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/sb/campus-safety/" class="clearfix">Campus Safety</a>
+                            <a href="http://stonybrook.edu/campus-safety/" class="clearfix">Campus Safety</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/economic-development/" class="clearfix">Economic Development</a>
@@ -102,10 +102,10 @@
                             <a href="http://blackboard.stonybrook.edu/" class="clearfix">Blackboard</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/mycloud" class="clearfix">University Email</a>
+                            <a href="http://stonybrook.edu/mycloud" class="clearfix">Google Apps</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://outlook.office365.com" class="clearfix">Medicine Email</a>
+                            <a href="stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/pres/" class="clearfix">Office of the President</a>
@@ -127,8 +127,8 @@
                     <a class="circle" href="https://www.flickr.com/photos/37984249@N06/" title="See Stony Brook photos on Flickr!" target="_blank"><span class="label hide-accessible">flickr</span><em class="fa fa-flickr"></em></a>
                     <a class="circle" href="http://www.youtube.com/sbcomm" title="View Stony Brook pins on youtube!" target="_blank"><span class="label hide-accessible">youtube</span><em class="fa fa-youtube-play"></em></a>
                 </div>
-                <a class="social-wall-link" href="http://stonybrook.edu/social"><span>Check out our Social Media Wall&nbsp;<i class="fa fa-long-arrow-right"></i></span></a>
-                <a href="#" class="univ-logo-stacked clearfix"><img src="img/logo/sbu-stack-2-web.jpg" alt="Stony Brook University logo" /></a>
+                <a class="social-wall-link" href="http://stonybrook.edu/social/"><span>Check out our Social Media Wall&nbsp;<i class="fa fa-long-arrow-right"></i></span></a>
+                <a href="http://stonybrook.edu/" class="univ-logo-stacked clearfix"><img src="img/logo/sbu-stack-2-web.jpg" alt="Stony Brook University logo" /></a>
              </div>
         </div>
     </nav>
