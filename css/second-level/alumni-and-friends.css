@@ -6,3 +6,6 @@ section.admissions-promo-wrapper {
     padding: 10px 0 40px;
     overflow: visible;
 }
+.compare-table-col img {
+    height: 204px;
+}

@@ -23,7 +23,7 @@
                         <a href="http://mobile.cc.stonybrook.edu/sb/alumni/perks/" alt="Get Perks"><i class="fa fa-graduation-cap"></i>Get Perks</a>
                     </div>
                     <div class="image desktop">
-                        <img src="img/students/red-bag-small.jpg" alt="Student walking from behind" />
+                        <img src="img/misc/alumni-association.jpg" alt="Student walking from behind" />
                     </div>
                 </div>
                 <div class="compare-table-col border-box">
@@ -35,7 +35,7 @@
                         <a href="http://www.stonybrook.edu/commcms/advancement/people" alt="People"><i class="fa fa-star"></i>People</a>
                     </div>
                     <div class="image desktop">
-                        <img src="img/students/graduate-professional-small.jpg" alt="Student walking from behind" />
+                        <img src="img/misc/advancement.jpg" alt="Student walking from behind" />
                     </div>
                 </div>
                 <div class="compare-table-col border-box">
@@ -47,7 +47,7 @@
                         <a href="http://www.stonybrook.edu/commcms/foundation/faqs" alt="FAQs"><i class="fa fa-university"></i>FAQs</a>
                     </div>
                     <div class="image desktop">
-                        <img src="img/students/health-sciences-small.jpg" alt="Student walking from behind" />
+                        <img src="img/misc/sb-foundation.jpg" alt="Student walking from behind" />
                     </div>
                 </div>
                 <div class="compare-table-col border-box">
@@ -59,7 +59,7 @@
                         <a href="http://www.stonybrook.edu/commcms/donors/FAQs" alt="FAQs"><i class="fa fa-plus-square"></i>FAQs</a>
                     </div>
                     <div class="image desktop">
-                        <img src="img/students/summer-winter-small.jpg" alt="Student walking from behind" />
+                        <img src="img/misc/donor-services.jpg" alt="Student walking from behind" />
                     </div>
                 </div>
             </div>
