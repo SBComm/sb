@@ -6,6 +6,9 @@
                     <strong>Main Nav</strong>
                     <ul class="border-box clearfix">
                         <li class="clearfix">
+                            <a href="http://www.stonybrook.edu/" class="clearfix">Home</a>
+                        </li>
+                        <li class="clearfix">
                             <a href="http://www.stonybrook.edu/sb/aboutsb.shtml" class="clearfix">About</a>
                         </li>
                         <li class="clearfix">
@@ -19,9 +22,6 @@
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/athletics" class="clearfix">Athletics</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/arts" class="clearfix">Arts &amp; Culture</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://stonybrookmedicine.edu" class="clearfix">Medicine</a>
