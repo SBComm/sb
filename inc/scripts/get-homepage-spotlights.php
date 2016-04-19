@@ -50,7 +50,7 @@ function printBooks($path, $pathForContent, $content, $sbu_site_url) {
 
 		$html .= '
 	        <div class="boldMovesBox" style="background-image: url(\''.$spotlight_image.'\')">
-				<a href="javascript:void(0);" class="boldMovesBox-title">
+				<a href="'.$post->link.'" class="boldMovesBox-title">
 					<h3>'.$post->acf->homepage_spotlight_title.' <i class="fa fa-angle-right"></i></h3>
 				</a>
 				<div class="boldMovesBox-story">
