@@ -1,5 +1,5 @@
 <article class="clearfix second-level-header">
-    <section class="header-title-image page-title">
+    <section class="header-title-image-flowers page-title">
         <div class="wrapper border-box">
             <h1><a href="for-students/">About Stony Brook</a></h1>
         </div>
@@ -7,7 +7,7 @@
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix pad-top">
 
-            <div class="content">
+            <div class="content pad-top">
                 <img class="inline-image" src="img/university/pole-banners.jpg" />
                 <p>Stony Brook University is one of America’s most dynamic public
                 universities, a center of academic excellence and an internationally
@@ -161,6 +161,8 @@
             <p>&nbsp;</p>
             <h3>Schools &amp; Colleges</h3>
             <div class="content">
+                <p>The University is divided into 12 schools and colleges: the College of Arts and Sciences, the College of Business, the College of Engineering and Applied Sciences, the Graduate School, the School of Journalism, the School of Marine and Atmospheric Sciences, the School of Professional Development, and the five health sciences schools: Dental Medicine, Health Technology and Management, Medicine, Nursing and Social Welfare.</p>
+
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
@@ -179,16 +181,6 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>The College of Business provides comprehensive education and research for the business, public, and nonprofit sectors. Our MBA program is taught by senior Stony Brook faculty with decades of experience. They are complemented by key executives recruited as visiting professors from throughout the tri-state region — industry leaders who have built stellar careers in today’s global business world. Also included is an Executive MBA program. <a class="arrow-after" href="http://www.sunysb.edu/sbbusiness/">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>College of Arts and Science</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <p>The College of Arts and Science offers degree programs in fine arts and humanities, in biological and physical sciences, in mathematics and in social and behavioral sciences. In addition to departmental majors, special interdisciplinary majors using the resources of two or more departments are offered, as well as programs leading to provisional certification in secondary education. <a class="arrow-after" href="http://stonybrook.edu/cas">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -214,11 +206,19 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Schools &amp; Colleges</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Health Sciences</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Stony Brook Medicine, our health science and medical enterprise, includes the schools of <a href="http://www.stonybrookmedicalcenter.org/som/">Medicine</a>, <a href="http://www.stonybrookmedicalcenter.org/dental/">Dental Medicine</a>, <a href="http://www.nursing.stonybrook.edu/">Nursing</a>, <a href="http://www.hsc.stonybrook.edu/shtm/index.cfm">Health Technology and Management</a> and <a href="http://www.hsc.stonybrook.edu/ssw/index.cfm">Social Welfare</a> as well as the Hospital, our major centers and institutes, programs, clinics and community-based healthcare settings, and the <a href="http://www.listateveteranshome.org/">Long Island State Veterans Home</a>.</p>
+                                <p>Stony Brook Medicine, our health science and medical enterprise, includes:</p>
+                                <ul class="default-bullets">
+                                    <li><a href="http://www.stonybrookmedicalcenter.org/som/">Medicine</a></li>
+                                    <li><a href="http://www.stonybrookmedicalcenter.org/dental/">Dental Medicine</a></li>
+                                    <li><a href="http://www.nursing.stonybrook.edu/">Nursing</a></li>
+                                    <li><a href="http://www.hsc.stonybrook.edu/shtm/index.cfm">Health Technology and Management</a></li>
+                                    <li><a href="http://www.hsc.stonybrook.edu/ssw/index.cfm">Social Welfare</a></li>
+                                </ul>
+                                <p>Also included in our medical programs and facilities are Stony Brook Hospital, various other major centers and institutes, programs, clinics and community-based healthcare settings, and the <a href="http://www.listateveteranshome.org/">Long Island State Veterans Home</a>.</p>
                             </div>
                         </div>
                     </div>
