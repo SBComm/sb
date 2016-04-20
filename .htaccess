@@ -1020,6 +1020,6 @@ FileETag None
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu [NC]
-    RewriteRule ^index.php$ http://stonybrook.edu
+    RewriteRule ^index.php$ http://stonybrook.edu [R=301]
 
 </IfModule>
