@@ -28,7 +28,6 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Every great university has a great community of alumni, donors, and friends behind it. Stony Brook is no exception. Thank you for your interest in supporting great minds at work on new knowledge, new creative expression, and new solutions that will impact generations to come.';
 		    $og_url          = 'http://www.stonybrook.edu/alumni-and-friends';
-		    $main_nav_selected_tab = 3;
 
 		    $page_to_top_link = true;
 
