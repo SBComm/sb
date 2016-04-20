@@ -160,6 +160,11 @@
 						<div class="quick-nav-wrapper">
 		                    <ul class="no-pad-wrapper border-box clearfix">
 		                        <li>
+		                        	<a href="http://www.library.stonybrook.edu/" class="clearfix">
+		                        		<span class="label clearfix">Libraries</span>
+		                        	</a>
+		                        </li>
+		                        <li>
 		                        	<a href="http://www.stonybrook.edu/sb/calendars.shtml" class="clearfix">
 		                        		<span class="label clearfix">Calendar<span class="hide-accessible-540">s</span></span>
 		                        	</a>
@@ -170,11 +175,6 @@
 		                        	</a>
 		                        </li>
 		                        <li class="tablet mobile desktop">
-		                        	<a href="http://www.library.stonybrook.edu/" class="clearfix">
-		                        		<span class="label clearfix">Libraries</span>
-		                        	</a>
-		                        </li>
-		                        <li>
 		                        	<a href="http://www.stonybrook.edu/sb/directories.shtml">
 		                        		<span class="label clearfix">Directory</span>
 		                        	</a>
