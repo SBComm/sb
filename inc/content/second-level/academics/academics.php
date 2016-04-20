@@ -37,14 +37,13 @@
                 <a href="http://www.sunysb.edu/healthed/">Prehealth Advising</a><br /></p>
 
                 <h4>Resources and Reference</h4>
-                <p><a href="http://www.stonybrook.edu/uaa/academicjudiciary/">Academic Judiciary</a><br />
-                <a href="http://studentaffairs.stonybrook.edu/apac/index.shtml">Academic and  Transfer Advising</a><br />
+                <p><a href="http://www.stonybrook.edu/commcms/academic_integrity/">Academic Judiciary</a><br />
+                <a href="http://www.stonybrook.edu/commcms/advising/">Academic and  Transfer Advising</a><br />
                 <a href="http://www.stonybrook.edu/registrar/calendar-academic.shtml">Academic Calendars</a><br />
-                <a href="http://www.stonybrook.edu/aadvising/academic_standing/">Academic Standing</a><br />
+                <a href="http://www.stonybrook.edu/commcms/advising/_acadstanding/acadstand_toc.html">Academic Standing</a><br />
                 <a href="http://www.stonybrook.edu/commcms/academic_success/">Academic Success  &amp; Tutoring Center</a><br />
                 <a href="http://blackboard.stonybrook.edu/">Blackboard</a><br />
                 <a href="http://stonybrook.digication.com/">ePortfolios</a><br />
-                <a href="https://tlt.stonybrook.edu/FacultyServices/TFC/Pages/TheFacultyCenter.aspx">Faculty Center</a><br />
                 <a href="http://www.stonybrook.edu/iec">Intensive English Center</a><br />
                 <a href="http://www.stonybrook.edu/commcms/llrc/">Language Learning Center (LLRC)</a><br />
                 <a href="http://wordpress.psy.sunysb.edu/lgbtq/">LGBTQ Classroom Resource</a><br />
