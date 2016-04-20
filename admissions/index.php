@@ -28,7 +28,7 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Stony Brook offers thriving second-level education and research programs. Apply today!';
 		    $og_url          = 'http://www.stonybrook.edu/admissions';
-		    $main_nav_selected_tab = 3;
+		    $main_nav_selected_tab = 2;
 
 		    $page_to_top_link = true;
 
