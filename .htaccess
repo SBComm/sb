@@ -1021,9 +1021,13 @@ FileETag None
     RewriteEngine On
     RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu [NC]
     RewriteRule ^index.php$ http://stonybrook.edu
+    RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu [NC]
     RewriteRule ^about/index.php$ http://stonybrook.edu/about
+    RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu [NC]
     RewriteRule ^academics/index.php$ http://stonybrook.edu/academics
+    RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu [NC]
     RewriteRule ^admissions/index.php$ http://stonybrook.edu/admissions
+    RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu [NC]
     RewriteRule ^alumni-and-friends/index.php$ http://stonybrook.edu/alumni-and-friends
 
 </IfModule>
