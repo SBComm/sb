@@ -752,6 +752,9 @@
 			<script>
 				$(document).ready(function() {
 					$('.boldMovesBox').on('click',function(e) {
+						if($(e.target).hasClass('boldMovesBox-title') || $(e.target).parents('.boldMovesBox-title').length) {
+							e.preventDefault();
+						}
 						if($(window).width()<1024) {
 							if(!$(this).hasClass('engaged') && !$(e.target).hasClass('boldMovesBox-link')) {
 								$(this).toggleClass('engaged');
