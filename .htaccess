@@ -1013,3 +1013,13 @@ FileETag None
 
     RewriteRule ^alumni/form/index.php$ alumni
 </IfModule>
+
+# ----------------------------------------------------------------------
+# | April 20 2016 Brand Launch using pages on main web server          |
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu [NC]
+    RewriteRule ^index.php$ http://stonybrook.edu
+
+</IfModule>
