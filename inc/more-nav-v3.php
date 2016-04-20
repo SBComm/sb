@@ -1,6 +1,6 @@
 <nav class="more-nav-v3 hide-accessible clearfix">
 	<div class="wrapper more-nav-v3-wrapper">
-		<div class="no-pad-wrapper more-nav-v3-col">
+		<div class="more-nav-v3-col">
 			<strong>Info For</strong>
             <ul class="border-box clearfix">
                 <li class="clearfix">
@@ -26,7 +26,7 @@
                 </li>
             </ul>
         </div>
-		<div class="no-pad-wrapper more-nav-v3-col">
+		<div class="more-nav-v3-col">
 			<strong>Find</strong>
             <ul class="border-box clearfix">
                 <li class="clearfix">
@@ -52,7 +52,7 @@
                 </li>
             </ul>
         </div>
-		<div class="no-pad-wrapper more-nav-v3-col">
+		<div class="more-nav-v3-col">
 			<strong>Shortcuts</strong>
             <ul class="border-box clearfix">
                 <li class="clearfix">
@@ -78,7 +78,7 @@
                 </li>
             </ul>
         </div>
-		<div class="no-pad-wrapper more-nav-v3-col">
+		<div class="more-nav-v3-col">
 			<strong>Offices &amp; Services</strong>
             <ul class="border-box clearfix">
                 <li class="clearfix">
