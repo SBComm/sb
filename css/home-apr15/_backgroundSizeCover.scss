@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/// shorthand for adding background-size of cover
+
+@mixin bgSizeCover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}

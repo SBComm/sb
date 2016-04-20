@@ -1,7 +1,7 @@
-<article class="ghosted-campus">
-    <section class="transparent-background page-title admissions-header">
+<article class="clearfix second-level-header">
+    <section class="header-title-image-white-rays page-title admissions-header">
         <div class="wrapper border-box inside-content">
-            <h1 class="serif">Admissions</h1>
+            <h1>Admissions</h1>
             <p class="content">Here at Stony Brook, you’ll discover the advantages of a major university — excellence in education, <br />an active research environment, and one of the best university-teaching hospitals in the region.</p>
         </div>
     </section>
@@ -10,8 +10,8 @@
     <section class="admissions-promo-wrapper">
         <div class="wrapper border-box clearfix inside-content">
             <h2>
-                <span class="smaller">Become a part of</span> 
-                <span class="larger">tomorrow&#8217;s <span class="nowrap">big ideas.</span></span>
+                <span class="smaller">Become a part of tomorrow&#8217;s</span> 
+                <span class="larger"><span class="nowrap">BIG IDEAS</span></span>
             </h2>
             <div class="border-box clearfix compare-table">
                 <div class="compare-table-col border-box">

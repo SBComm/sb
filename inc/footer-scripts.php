@@ -66,8 +66,18 @@
         	<?php includeAsset('js','plugins/nivo-lightbox/nivo-lightbox.min.js'); ?>
         	<script>
 				$(document).ready(function(){
-				    $('.nivo-lightbox').nivoLightbox();
+				    $('.nivo-lightbox').nivoLightbox({
+					    afterShowLightbox: function() {
+					    	options = $('.nivo-lightbox').attr('data-options');
+					    	if(options.length) {
+					    		$iframe = $('.nivo-lightbox-content > iframe');
+					    		src = $iframe.attr('src');
+					        	$iframe.attr('src', src + '?' + options);
+					    	}
+					    }
+					});
 				});
+
 			</script>
         <?php } ?>
 
@@ -199,7 +209,7 @@
 			$(document).ready(function() {
 			    //<![CDATA[
 					$(".site-name").fitText({ minFontSize: '20px', maxFontSize: '27px' });
-					$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '46px' });
+					$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '52px' });
 					/*$(".site-carousel h1").fitText(1, { minFontSize: '30px', maxFontSize: '100px' });*/
 			    //]]>
 
@@ -737,6 +747,49 @@
 		        <?php } ?>
 	        })
 		</script>
+
+		<?php if($page_type=='home') { ?>
+			<script>
+				$(document).ready(function() {
+					$('.boldMovesBox').on('click',function(e) {
+						if($(window).width()<1024) {
+							if(!$(this).hasClass('engaged') && !$(e.target).hasClass('boldMovesBox-link')) {
+								$(this).toggleClass('engaged');
+							} else if($(e.target).hasClass('close-boldMovesBox')) {
+								$(this).closest('.boldMovesBox').removeClass('engaged');
+							}
+						}
+					});
+					$('.boldMovesBox').hover(
+						function() {
+							console.log();
+							if($(window).width()>=1024) {
+								if(!$(this).hasClass('engaged')) {
+									$(this).addClass('engaged');
+								}
+							}
+						}, function() {
+							if($(window).width()>=1024) {
+								if($(this).hasClass('engaged')) {
+									$(this).removeClass('engaged');
+								}
+							}
+						}
+					);
+					$('.apply-form-trigger').on('click',function(e) {
+						e.preventDefault();
+						var $form = $('.apply-form-1');
+						if($form.hasClass('hide-accessible')) {
+							$(this).addClass('active');
+							toggleAccessible($form);
+						}
+						$('body').scrollTo($form, 400, {
+					    	axis: 'y'
+					    });
+					});
+				});
+			</script>
+        <?php } ?>
 
 		<?php if(($site_status[$second_level]=='in_CMS' || $site_status[$second_level]=='in_transition') && $is_proofing_environment) { ?>
 			<!-- Update production links to use /development/ on proofing -->

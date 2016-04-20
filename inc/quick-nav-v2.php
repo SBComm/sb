@@ -13,13 +13,7 @@
 		                        		<i class="icon fa fa-calendar clearfix"></i>
 		                        		<span class="label clearfix">Calendar</span>
 		                        	</a>
-		                        </li><!--
-		                        <li>
-		                        	<a href="http://www.stonybrook.edu/sb/contact/">
-		                        		<i class="icon fa fa-mobile clearfix"></i>
-		                        		<span class="label clearfix">Contact</span>
-		                        	</a>
-		                        </li>-->
+		                        </li>
 		                        <li class="mobile">
 		                        	<a href="summer-session/registration">
 		                        		<i class="icon fa fa-check-square-o clearfix"></i>
@@ -50,12 +44,12 @@
 		                        		<span class="label clearfix">More<span class="extra-label"> Links</span></span>
 		                        	</span>
 		                        </li>
-		                        <li class="desktop for-info">
+		                        <!--<li class="desktop for-info">
 		                        	<span class="audience-trigger">
 		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
 		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>Info for</span>
 		                        	</span>
-		                        </li>
+		                        </li>-->
 		                    </ul>
 	                    </div>
 		            </nav>
@@ -123,12 +117,12 @@
 		                        		<span class="label clearfix">More<span class="extra-label"> Links</span></span>
 		                        	</span>
 		                        </li>-->
-		                        <li class="desktop for-info">
+		                        <!--<li class="desktop for-info">
 		                        	<span class="audience-trigger">
 		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
 		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>Info for</span>
 		                        	</span>
-		                        </li>
+		                        </li>-->
 		                    </ul>
 	                    </div>
 		            </nav>
@@ -167,58 +161,45 @@
 		                    <ul class="no-pad-wrapper border-box clearfix">
 		                        <li>
 		                        	<a href="http://www.stonybrook.edu/sb/calendars.shtml" class="clearfix">
-		                        		<i class="icon fa fa-calendar clearfix"></i>
-		                        		<span class="label clearfix">Calendars</span>
+		                        		<span class="label clearfix">Calendar<span class="hide-accessible-540">s</span></span>
+		                        	</a>
+		                        </li>
+		                        <li>
+		                        	<a href="http://www.stonybrook.edu/newsroom">
+		                        		<span class="label clearfix">News<span class="hide-accessible-540">room</span></span>
+		                        	</a>
+		                        </li>
+		                        <li class="tablet mobile desktop">
+		                        	<a href="http://www.library.stonybrook.edu/" class="clearfix">
+		                        		<span class="label clearfix">Libraries</span>
 		                        	</a>
 		                        </li>
 		                        <li>
 		                        	<a href="http://www.stonybrook.edu/sb/directories.shtml">
-		                        		<i class="icon fa fa-book clearfix"></i>
 		                        		<span class="label clearfix">Directory</span>
-		                        	</a>
-		                        </li><!--
-		                        <li>
-		                        	<a href="http://www.stonybrook.edu/sb/contact/">
-		                        		<i class="icon fa fa-mobile clearfix"></i>
-		                        		<span class="label clearfix">Contact</span>
-		                        	</a>
-		                        </li>-->
-		                        <li class="mobile">
-		                        	<a href="http://www.stonybrook.edu/sb/jobs.shtml">
-		                        		<i class="icon fa fa-briefcase clearfix"></i>
-		                        		<span class="label clearfix">Jobs</span>
 		                        	</a>
 		                        </li>
 		                        <li>
 		                        	<a href="http://it.stonybrook.edu/services/solar/">
-		                        		<i class="icon fa fa-shield clearfix"></i>
 		                        		<span class="label clearfix">Solar</span>
 		                        	</a>
 		                        </li>
 		                        <li class="tablet mobile">
 		                        	<a href="http://www.stonybrook.edu/mycloud/">
-		                        		<i class="icon fa fa-envelope-o clearfix"></i>
-		                        		<span class="label clearfix">Google Apps</span>
-		                        	</a>
-		                        </li>
-		                        <li class="tablet mobile">
-		                        	<a href="https://blackboard.stonybrook.edu/" class="clearfix">
-		                        		<i class="icon fa fa-desktop clearfix"></i>
-		                        		<span class="label clearfix">Blackboard</span>
+		                        		<span class="label clearfix">Email</span>
 		                        	</a>
 		                        </li>
 		                        <li>
 		                        	<span class="more-trigger">
-		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
-		                        		<span class="label clearfix">More<span class="extra-label"> Links</span></span>
+		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>More<span class="extra-label">&nbsp;Links</span><span class="extra-label-mobile">...</span></span>
 		                        	</span>
 		                        </li>
-		                        <li class="desktop for-info">
+		                        <!--<li class="desktop for-info">
 		                        	<span class="audience-trigger">
 		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
 		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>Info for</span>
 		                        	</span>
-		                        </li>
+		                        </li>-->
 		                    </ul>
 	                    </div>
 		            </nav>

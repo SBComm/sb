@@ -37,12 +37,12 @@
 
 .nivo-lightbox-theme-default .nivo-lightbox-close {
 	display: block;
-	background: url(close.png) no-repeat 5px 5px;
-	width: 16px;
-	height: 16px;
+    background: url(../../../../img/controls/x.png) no-repeat 5px 5px;
+	width: 80px;
+	height: 80px;
 	text-indent: -9999px;
 	padding: 5px;
-	opacity: 0.5;
+	opacity: .8;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-close:hover { opacity: 1; }
 

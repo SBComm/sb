@@ -54,12 +54,13 @@
     $global          = "global.php";
     $header          = "header.php";
     $quick_nav       = "quick-nav-v2.php";
-    $more_nav        = "more-nav-v2.php";
+    $more_nav        = "more-nav-v3.php";
     $audience_nav    = "audience-nav.php";
     $logo_container  = "logo-container.php";
     $site_nav        = "site-nav.php";
     $sub_nav         = "sub-nav.php";
     $footerbar       = "footerbar.php";
+    $footer          = "footers/sbu-footer.php";
     $site_config     = "site-config.php";
 
     /* Meta Variables Defaults */
@@ -150,6 +151,10 @@
     $page_scroll_el     = '';     //Options are audience-nav, logo, main-nav, bottom
     $page_scroll_time   = 0;      //Time for scroll function in milliseconds
     $page_scroll_mobile = false;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
+
+    /* Site URLs (MUST end with a slash) */
+    $sbu_site_url['happenings'] = 'http://stonybrook.edu/happenings/';
+    $sbu_site_url['calendar_next_month'] = 'http://calendar.activedatax.com/stonybrook/EventList.aspx?fromdate='.date("n/j/Y").'&amp;todate='.date("n/j/Y", strtotime("+30 days")).'&amp;display=Month&amp;view=DateTime';
 
     /* Default date timezone */
     date_default_timezone_set("America/New_York");

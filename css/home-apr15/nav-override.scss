@@ -1,0 +1,83 @@
+// styles for overriding the navigation styles from http://mobile.cc.stonybrook.edu/sb/admissions/
+
+body {
+  background: #fff;
+}
+.no-pad-wrapper {
+  max-width: 1160px;
+}
+.quick-nav ul,
+.quick-nav ul li:first-child a, .quick-nav ul li:first-child .more-trigger, .quick-nav ul li:first-child .audience-trigger {
+  border-radius: 0;
+}
+/*
+.site-nav .search-container.default, .sub-nav .search-container.default, .cms-search .search-container.default {
+  left: unset;
+  right: 10px;
+} */
+.site-nav ul li:first-child, .sub-nav ul li:first-child {
+  border-left: none;
+}
+@media only screen and (min-width: 1022px) {
+  .quick-nav ul {
+    border: none; 
+  }
+}
+@media only screen and (min-width: 1022px) {
+  .quick-nav a, .quick-nav .more-trigger, .quick-nav .audience-trigger {
+    text-decoration: none;
+    color: #800000;
+    display: block;
+    text-shadow: none;
+    font-size: 14px;
+    font-family: "Effra W01", Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    padding: 11px 0 13px 10px;
+    border: 0 none;
+    &:hover {
+      color: #000;
+      background: #fff;
+      text-shadow: none;
+    }
+  } 
+}
+@media only screen and (min-width: 768px) {
+  .site-nav ul li:nth-child(n+1), .sub-nav ul li:nth-child(n+1) {
+       border-right: none; 
+  }
+}
+@media only screen and (min-width: 490px) {
+  .site-nav ul li:nth-child(2n+1), .sub-nav ul li:nth-child(2n+1) {
+    border-right: none; 
+  }  
+}
+.site-nav a {
+  text-decoration: none;
+  border: 0 none;
+  color: #eeeeee;
+  display: block;
+  text-shadow: none;
+  font-size: 14px;
+  font-family: 'Trade Gothic Next W01';
+  font-weight: normal;
+}
+.site-nav, .sub-nav, .logo-container {
+  box-shadow: none;
+}
+.quick-nav ul li:hover .label,
+.quick-nav ul:hover .label,
+.quick-nav ul li .label {
+  border-right: 1px solid #ccc;
+}
+
+
+@media only screen and (min-width: 1022px) {
+  .search-container.default.clearfix.border-box {
+    top: -122px;
+    left: 900px;
+  }
+  .site-nav ul li {
+    width: 14.5%;
+  }
+}

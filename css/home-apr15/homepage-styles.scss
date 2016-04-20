@@ -1,0 +1,768 @@
+// styles for new homepage by OHO Interactive 
+
+@import "include-media";
+@import "clearfix";
+@import "backgroundSizeCover";
+@import "buttonCustom";
+
+// ------------------------------------------ Typography
+
+h2,h3,h4,h5{
+  margin-top: 0;
+  text-transform: none;
+}
+h2 {
+  font-size: 2rem;
+}
+h1, h3,
+.hero-sb span a,
+.boldMovesBox-link,
+.jumpAwayLink a,
+.eventDate_day, .eventTitle a,
+.boldMovesBox-story p,
+footer .footer-section ul li a,
+footer .footer-section p,
+.site-nav a
+ {
+  font-family: "Effra W01", Helvetica, sans-serif;
+  font-weight: 900;
+}
+.eventTitle a,
+footer .footer-section ul li a, 
+footer .footer-section p,
+.boldMovesBox-story p,
+.site-nav a {
+  font-weight: 700;
+}
+.site-nav a {
+  text-transform: uppercase;
+}
+.hero-sb p,
+h2, .changingWorld h3, 
+.footer-address p, 
+.optionalCallout p,
+.eventDate_month,
+.hero--interior__content__description {
+  font-family: "Museo Slab W01", "Museo Slab", Gerogia, serif;
+  font-weight: 300;
+}
+.hero--interior__content__description {
+  font-size: 1.5rem;
+}
+.eventDate_month  {
+  font-weight: 700;
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wpb_wrapper {
+  width: 90%;
+  max-width: 1160px;
+  margin: 0 auto;
+  @include media('>1160px') {
+    width: 100%;
+  }
+}
+// ------------------------------------------ Hero Image
+.hero-sb {
+  position: relative;
+  width: 100%;
+  img {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 10;
+  }
+  .hero-sb_text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    padding: 0.25rem 5% 0;
+    z-index: 20;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 66%); 
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 66%); 
+    background: linear-gradient(to right,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 66%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); 
+    h1 {
+      color: #fff;
+      font-size: 35px;
+      line-height: 90%;
+      width: 100%;
+    }
+    p, span a {
+      color: #fff;
+    }
+    p {
+      font-size: 0.75rem;
+      margin-bottom: 2rem;
+    }
+    span a {
+      @include btn-custom(#800000);
+      padding: 0.5rem 2rem;
+    }
+    @include media ('>480px') {
+      padding-top: 1rem;
+      width: 75%;
+      p {
+        font-size: 1rem;
+      }
+    }
+    @include media ('>640px') {
+      padding-top: 1.5rem;
+      width: 66%;
+      h1 {
+        font-size: 60px;
+      }
+      p {
+        font-size: 1.25rem;
+      }
+    } 
+    @include media ('>800px') {
+      padding-top: 3rem;
+      h1 {
+        font-size: 80px;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    } 
+    @include media ('>940px') {
+      padding-top: 4rem;
+      h1 {
+        font-size: 100px;
+      }
+      p {
+        font-size: 1.66rem;
+      }
+    }            
+  }
+}
+@include media ('>=1160px') {
+  .hero-sb {
+    max-height: 650px;
+    overflow: hidden;
+    img {
+      margin-top: -20%;
+    }
+    .hero-sb_text {
+      width: 50%;
+      padding-top: 2rem;
+    }
+  }
+}
+@include media ('>=1280px') {
+    .hero-sb .hero-sb_text {
+      width: 100%;
+      padding-top: 2rem;
+      div {
+        width: 1160px;
+        margin: 0 auto;
+        display: block;
+        background: (0,0,0,0.2);
+        h1, p {
+          width: 50%;
+        }
+      }
+    }
+}
+// ------------------------------------------ Optional Callout
+.optionalCallout p {
+  color: #800000;
+  background: #fff;
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 1rem;
+  z-index: 20;
+  position: relative;
+  top: 1.5rem;
+  margin-top: -3.5rem;
+  strong {
+    display: block;
+    font-weight: 500;
+  }
+  a {  
+    color: #800000;
+    text-decoration:none;
+    &:hover {
+      color: #000;
+    }
+  }
+  .fa-floatleft {
+    float: left;
+    display: block;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+  @include media('>580px') {
+    width: 90%;
+    text-align: center;
+    strong {
+      display: inline;
+    }
+    .fa-floatleft {
+      float: none;
+      display: inline;
+    }
+  }
+  @include media('>900px') {    
+    font-size: 1.25rem;
+  }
+}
+// ------------------------------------------ Become a Seawolf strip
+.seawolfStrip .wpb_wrapper {
+  width: 90%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.seawolfStrip {
+  background: #800000 url(../../img/home-apr15/redSwooshes.jpg) repeat top center fixed;
+  @include bgSizeCover; 
+  padding: 6rem 0 4rem;
+  margin-bottom: 3rem;
+  @include clearfix;
+  z-index: 10;
+  h2, h3 {
+    color: #fff;
+  }
+  h3 {
+    font-size: 4vw;
+    line-height: 1;
+    @include media('>1160px') {
+      font-size: 62px;
+    }
+    @include media('<500px') {
+      font-size: 20px;
+    }    
+  }
+  ul {
+    list-style: none;
+    max-width: 1160px;
+    margin: 0 auto;
+    li {
+      float: left;
+      width: 100%;
+      a {
+        float: left;
+        display: block;
+        width: 100%;
+        margin-bottom: 9px;
+        font-size: 3vw;
+        @include btn-custom(#000);
+      }
+    }
+  }
+  h3 {
+    @include media('>800px') {
+      width: 100%;
+    }
+  }    
+  ul {
+    width: 100%;
+    @include media('>800px') {
+      width: 90%;      
+      li {
+        width: 33.33%;
+        padding: 0 0.33rem;
+        &:first-child {
+          padding: 0 0.66rem 0 0;
+        }
+        &:last-child {
+          padding: 0 0 0 0.66rem;
+        }
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+    @include media ('>1160px') {
+      width: 70%;
+    }
+  }
+}
+// ------------------------------------------ We're Making Bold Moves
+@include media('<=1160px') {
+  .boldMoves .wpb_wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@include media('<=600px') {
+  .boldMoves .wpb_wrapper {
+    width: 90%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+.boldMoves {
+  @include clearfix;
+  padding-bottom: 2rem;
+  h2 {
+    color: #828282;
+  }
+}
+.boldMovesBox {
+  background: #800000 url(http://placekitten.com/388/424) no-repeat center center;
+  @include bgSizeCover;  
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  float: left;
+  clear: right;
+  height: 360px;
+  @include clearfix;
+  &:first-child {
+    clear: both;
+  }
+  .boldMovesBox-title {
+    display: block;
+    width: 66%;
+    margin: 0 auto 10rem;
+    padding: 3rem 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    &:hover {
+      border-bottom: 4px solid white;
+    }
+    h3 {
+      display: inline;
+      color: #fff;
+      font-size: 2rem;
+    } 
+  }
+  @include media('>600px','<=900px') {
+    width: 50%;
+    height: 420px;
+  }
+  @include media('>900px') {
+    width: 33.33%;
+    height: 420px;
+  }
+  .boldMovesBox-story {
+    position: absolute;
+    width: 110%;
+    height: 100%;
+    z-index: 20;
+  -webkit-transform: rotate(-8deg) translate(5%, -8%); 
+      -ms-transform: rotate(-8deg) translate(5%, -8%);  
+          transform: rotate(-8deg) translate(5%, -8%);  
+    p {
+      color: #fff;
+      font-size: 1rem;
+      padding: 3rem 5rem 3rem 6rem;
+      line-height: 1.66;
+      @include media ('>900px','<=1200px') {
+        padding: 2rem 3rem 1rem 4rem;
+      }
+      @include media ('>600px','<=800px') {
+        padding: 2rem 3rem 1rem 4rem;
+      }
+      @include media ('<=600px') {
+        padding: 2rem 3rem 1rem 4rem;
+      }   
+      @include media ('<=360px') {
+        padding: 1rem 3rem 1rem 4rem;
+      }                  
+    }
+    .boldMovesBox-fullStory {
+      @include btn-custom(#000);
+      padding: 0.5rem;
+      margin-left: 6rem;
+      @include media ('>900px','<=1100px') {
+        margin-left: 4rem;
+      } 
+      @include media ('>600px','<=740px') {
+        margin-left: 4rem;
+      } 
+      @include media ('<=600px') {
+        margin-left: 4rem;
+      }  
+      @include media ('<=360px') {
+        margin-left: 4rem;
+      }                 
+    }
+  }
+  .boldMovesBox-link {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 30;
+    color: #fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    span {
+      display: none;
+    }
+    &:hover {
+      color: #000;
+    }
+  }
+}
+// ------------------------------------------ Blunt instrument to get the swooshes to work at all sizes
+.boldMovesBox .boldMovesBox-story {
+  @include media('<=600px') {
+  -webkit-transform: rotate(-8deg) translate(5%, -17%); 
+      -ms-transform: rotate(-8deg) translate(5%, -17%);  
+          transform: rotate(-8deg) translate(5%, -17%);      
+  }
+  @include media('>600px','<=700px') {
+  -webkit-transform: rotate(-8deg) translate(5%, -9%); 
+      -ms-transform: rotate(-8deg) translate(5%, -9%);  
+          transform: rotate(-8deg) translate(5%, -9%);      
+  }  
+  @include media('>700px','<=900px') {
+  -webkit-transform: rotate(-8deg) translate(5%, -1%); 
+      -ms-transform: rotate(-8deg) translate(5%, -1%);  
+          transform: rotate(-8deg) translate(5%, -1%);      
+  }    
+  @include media('>900px','<=1053px') {
+  -webkit-transform: rotate(-8deg) translate(5%, -10%); 
+      -ms-transform: rotate(-8deg) translate(5%, -10%);  
+          transform: rotate(-8deg) translate(5%, -10%);      
+  }  
+  @include media('>1053px') {
+  -webkit-transform: rotate(-8deg) translate(5%, -1%); 
+      -ms-transform: rotate(-8deg) translate(5%, -1%);  
+          transform: rotate(-8deg) translate(5%, -1%);          
+  }     
+}
+// ------------------------------------------ End of the Blunt instrument
+.boldMovesBox:nth-child(3) {
+  background: #800000 url(../../img/home-apr15/news-athletics.jpg) no-repeat center center;
+  @include bgSizeCover
+}
+.boldMovesBox:nth-child(4) {
+  background: #800000 url(../../img/home-apr15/news-arts.jpg) no-repeat center center;
+  @include bgSizeCover
+}
+.boldMovesBox:nth-child(5) {
+  background: #800000 url(../../img/home-apr15/news-research.jpg) no-repeat center center;
+  @include bgSizeCover
+}
+.boldMovesBox:nth-child(6) {
+  background: #800000 url(../../img/home-apr15/news-medicine.jpg) no-repeat center center;
+  @include bgSizeCover
+}
+.boldMovesBox:nth-child(7) {
+  background: #800000 url(../../img/home-apr15/news-students.jpg) no-repeat center center;
+  @include bgSizeCover
+}
+.boldMovesBox:nth-child(8) {
+  background: #800000 url(../../img/home-apr15/news-lab.jpg) no-repeat center center;
+  @include bgSizeCover
+}
+
+.boldMovesBox:nth-child(3) {
+  clear: both;
+}
+.boldMovesBox:nth-child(3) .boldMovesBox-story,
+.boldMovesBox:nth-child(7) .boldMovesBox-story {
+  background: rgba(128,0,0,1);
+  border-top: 12px solid #d52027;
+}
+.boldMovesBox:nth-child(5) .boldMovesBox-story,
+.boldMovesBox:nth-child(6) .boldMovesBox-story {
+  background: rgba(128,0,0,1);
+  border-top: 6px solid #d52027;
+}
+.boldMovesBox:nth-child(4) .boldMovesBox-story,
+.boldMovesBox:nth-child(8) .boldMovesBox-story {
+  background: #d52027;
+  border-top: 24px solid rgba(128,0,0,1);;
+}
+.boldMovesBox.engaged {
+   .boldMovesBox-title  {
+     visibility: hidden;
+   }
+   .boldMovesBox-story {
+        -webkit-transform: rotate(0) translate(0,0); 
+      -ms-transform: rotate(0) translate(0,0);  
+          transform: rotate(0) translate(0,0);  
+      top: 0; left: -10%;  
+      border-top: none;
+      background: rgba(213,32,39,0.75); 
+    }
+    .boldMovesBox-link span {
+      display: inline
+    }
+}
+// ------------------------------------------ What's Coming Up
+.whatsComingUp {
+  background: #800000 url(../../img/home-apr15/redSwooshes.jpg) repeat top center fixed;
+  @include bgSizeCover; 
+  padding: 4rem 5px;
+  @include clearfix;
+
+  h2, p, a, ul, li {
+    color: #fff;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      clear: left;
+      @include media('>480px','<=900px') {
+         float: left;
+         clear: none;
+         width: 48%;
+         padding-right: 20px;
+      }
+      &:nth-child(2),
+      &:last-child {
+        @include media('>480px','<=900px') {
+           padding-right: 0;
+        }        
+      }
+      @include media('>900px') {
+         float: left;
+         clear: none;
+         width: 24%;
+         padding-right: 20px;
+         &:first-child {
+           clear:both;
+         }
+      }  
+      &:last-child {
+        @include media('>900px') {
+           padding-right: 0;
+        }        
+      }    
+    }
+  }
+  .eventTitle a {
+    text-decoration: none;
+    &:hover {
+      color: #666;
+    }
+  }
+  .eventDate {
+    text-transform: uppercase;
+    width: 60px;
+    height: 60px;
+    margin: 0 20px 20px 0;
+    float: left;
+    background: #fff;
+    color: #800000;
+    span {
+      display: block;
+      text-align: center;
+      &.eventDate_day {
+        font-size: 2rem
+      }
+    }
+  }
+}
+// ------------------------------------------ Title treatment for 
+// ------------------------------------------ We're Making Bold Moves AND
+// ------------------------------------------ What's Coming Up
+@include media('>600px') {
+  .boldMoves h2, .whatsComingUp h2 {
+    float: left;
+    width: 66%;
+  }
+  .whatsComingUp h2 {
+    margin-bottom: 3rem;
+  }
+  .jumpAwayLink {
+    float: right;
+    width: 33%;
+    line-height: 2rem;
+    text-align: right;
+    margin-top: 0.5rem;
+    a {
+      text-decoration: none;
+      &:hover {
+        color: #666;
+      }
+    }  
+  }
+}
+.boldMoves .jumpAwayLink a {
+  color: #800000;
+}
+// ------------------------------------------ We Are Changing the World
+.changingWorld {
+  background: #ccc url(../../img/home-apr15/photoPetri.jpg) no-repeat center center;
+  @include bgSizeCover;
+  padding: 1rem 0 2rem;
+  @include clearfix;
+  img {
+    padding-top: 1rem;
+    float: left;
+    width: 25%;
+    @include media('>900px') {
+       width: 30%
+    }
+  }
+  .pitch {
+    float: right;
+    width: 66%;
+    h3 {
+      color: #fff;
+      margin: 0 0 3rem;
+      font-size: 1rem;
+      @include media('>640px','<=900px') {
+        font-size: 2rem;
+      }
+      @include media('>900px') {
+        font-size: 4rem;
+      }
+    }
+    a {
+      @include btn-custom(#800000);
+      padding: 0.5rem 3rem;
+    }
+  }
+  @include media('>900px') {
+    padding: 6rem 0;
+    }
+}
+@include media('<580px') {
+  .changingWorld img {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+  .changingWorld .pitch {
+    width: 100%;
+    clear: left;
+    h3 {
+      font-size: 2rem;
+    }
+  }
+}
+// ------------------------------------------ Footers
+footer .wpb_wrapper {
+  width: 100%;
+  }
+footer {
+  padding: 2rem 0 0;
+  img {
+    width: 90%;
+    max-width: 357px;
+    display: block;
+    margin: 1rem auto 0;
+    @include media('>900px','<=1160px') {
+      float: left;
+      width: 33%;  
+    }
+    @include media('>1160px') {
+      float: left;
+      width: 260px;
+      margin-right: 40px;
+    }
+  }
+}  
+footer .footer-section {
+  @include clearfix;
+  background: #fff;
+  padding: 1rem;
+  ul {
+    float: left;
+    width: 50%;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    li {
+      margin-bottom: 1rem;
+      a {
+        color: #800000;
+        text-decoration: none;
+        &:hover {
+          color: #000;
+        }
+      }  
+    } 
+  }
+  p a {
+  color: #800000;
+  text-decoration: none;
+    &:hover {
+      color: #000;
+    }
+  }
+  &:nth-child(2) ul:first-child li a {
+    font-weight: 900;
+    font-size: 1.25em;
+  }
+  &:nth-child(3) {
+    background: #ebebeb;
+  }
+  &:nth-child(4) {
+    text-align: center;
+    background: #ebebeb;
+  }
+  @include media('>900px','<=1160px') {
+      &:nth-child(2),
+      &:nth-child(3) {
+        float:left;
+        width: 33%;
+        background: #fff;
+      }
+      &:nth-child(4) {
+        clear: both;
+      }
+  }
+  @include media('>1160px') {
+      &:nth-child(2),
+      &:nth-child(3) {
+        float:left;
+        width: 340px;
+        background: #fff;
+      } 
+      &:nth-child(4) {
+        float:right;
+        width: 180px;
+        background: #fff;
+        p {
+          margin-top: 0;
+        }
+      }
+  }
+}
+footer .footer-section:first-child {
+  background: #fff;
+}
+footer .footer-section:last-child a {
+  color: #800000;
+  font-size: 24px;
+  margin: 0 4px 0 0;
+  &:hover {
+    color: #000;
+  }
+}
+.footer-address {
+  clear:both;
+  background: #333;
+  padding: 0.5rem 0;
+  p {
+    color: #fff;
+    text-align: center;
+    span {
+      display: block;
+      &:last-child {
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+      }
+    }
+    @include media('>900px') {
+      span {
+        display: inline-block;
+        border-right: 1px solid #fff;
+        padding-right: 0.5rem;
+        margin-right: 0.5rem;
+        &:last-child {
+          font-size: inherit;
+          padding: 0;
+          border-right: none;
+        }
+      }
+    }
+  }
+}

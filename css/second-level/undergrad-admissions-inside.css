@@ -245,10 +245,6 @@ section.full-width-banner-image {
     margin: 20px 0;
 }
 
-.social-sidebar a:hover {
-    box-shadow: 0 0 12px #ddd inset;
-}
-
 .freshman-stats {
     background-image: url("../../img/students/staller-lawn-768.jpg");
     background-size: cover;

@@ -20,10 +20,15 @@
 	<!-- </inc> -->
 	<!--site variables-->
 		<?php
+			$page_type = 'home';
 		    $page_to_top_link = true;
 		    $page_footerbar = true;
 		    $main_nav_selected_tab = 0;
 		    $audience_nav_selected_tab = 0;
+		    $page_footer = true;
+		    $lightbox = true;
+	        $html_dom_parser = true;
+	        $page_to_top_link = false;
 		?>
 
 	<head>
@@ -56,9 +61,9 @@
 							?>
 						<!-- </more-nav> -->
 			            <!-- <audience-nav> -->
-							<?php 
+							<?php /*
 								include($path . $audience_nav);
-							?>
+							*/ ?>
 						<!-- </audience-nav> -->
 					</div>
 					<!-- <logo-container> -->
@@ -79,7 +84,7 @@
 
 		                <!-- <main-content> -->
 							<?php
-								$file = "sitemap/sitemap.php";
+								$file = "home/index.php";
 								include($pathForContent . $content . $file);
 							?>
 						<!-- </main-content> -->
@@ -87,6 +92,10 @@
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
+		        	<?php if($page_footer) {
+						$file = $footer;
+						include($path . $file);
+					} ?>
 					<?php 
 						if($page_footerbar) {
 							$file = $footerbar;

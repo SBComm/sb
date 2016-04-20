@@ -28,6 +28,17 @@
     text-decoration: none;
 }
 
+.second-level-header h1 {
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1.2em 1em;
+    font-size: 1.1em;
+    letter-spacing: .025em;
+    text-shadow: 0 0 10px rgba(0,0,0,.7);
+}
+
 /* Carousel */
 
 .owl-wrapper-outer {

@@ -1,0 +1,19 @@
+section.admissions-promo-wrapper {
+    background-image: url("../../img/university/alumni-bkgnd-photo.jpg") !important;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 90%;
+    padding: 10px 0 40px;
+    overflow: visible;
+}
+.second-level-header h1 {
+    color: #000;
+    text-shadow: 0 0 15px #fff;
+}
+.second-level-header p.content {
+    color: #000 !important;
+    text-shadow: 0 0 15px #fff !important;
+}
+.compare-table-col img {
+    height: 204px;
+}
