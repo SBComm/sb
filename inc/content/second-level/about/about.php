@@ -166,11 +166,11 @@
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>College of Arts and Science</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>College of Arts and Sciences</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The College of Arts and Science offers degree programs in fine arts and humanities, in biological and physical sciences, in mathematics and in social and behavioral sciences. In addition to departmental majors, special interdisciplinary majors using the resources of two or more departments are offered, as well as programs leading to provisional certification in secondary education. <a class="arrow-after" href="http://www.stonybrook.edu/commcms/cas/">Learn more</a></p>
+                                <p>The College of Arts and Sciences offers degree programs in fine arts and humanities, in biological and physical sciences, in mathematics and in social and behavioral sciences. In addition to departmental majors, special interdisciplinary majors using the resources of two or more departments are offered, as well as programs leading to provisional certification in secondary education. <a class="arrow-after" href="http://www.stonybrook.edu/commcms/cas/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -539,7 +539,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/writers/index.shtml">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/sb/southampton/index.shtml">Learn more</a></p>
+                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/southampton/mfa/">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/sb/southampton/index.shtml">Learn more</a></p>
                             </div>
                         </div>
                     </div>
