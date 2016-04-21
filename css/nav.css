@@ -1256,9 +1256,10 @@
 	}
 
 	.logo-container .logo {
-		width: 357px;
 		display: inline-block;
 		float: left;
+		width: 558px;
+		max-width: 558px;
 	}
 
 	.logo-wrapper img {
