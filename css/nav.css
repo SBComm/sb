@@ -2353,7 +2353,9 @@
 
 .sbu-footer .more-nav-v3 {
 	background: #fff;
-	padding:10px 0 0;
+	padding: 10px 0 0;
+    border-top: 1px solid #ddd;
+    background: #fcfcfc;
 }
 
 @media only screen and (max-width: 1023px) {
