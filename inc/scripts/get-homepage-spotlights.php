@@ -45,17 +45,19 @@ function printBooks($path, $pathForContent, $content, $sbu_site_url) {
 
 		$cat_link = $sbu_site_url['happenings'] . 'category/' . $spotlight_slug;
 
+		$post_link = $post->link . '?spotlight=' . $i;
+
 		$spotlight_image = preg_replace('/\s+/', '', $post->acf->homepage_spotlight_image);
 
 
 		$html .= '
 	        <div class="boldMovesBox" style="background-image: url(\''.$spotlight_image.'\')">
-				<a href="'.$post->link.'" class="boldMovesBox-title">
+				<a href="'.$post_link.'" class="boldMovesBox-title">
 					<h3>'.$post->acf->homepage_spotlight_title.' <i class="fa fa-angle-right"></i></h3>
 				</a>
 				<div class="boldMovesBox-story">
 					<p>'.$post->acf->homepage_spotlight_sub.'</p>
-					<a href="'.$post->link.'" class="boldMovesBox-fullStory">Read Story</a>
+					<a href="'.$post_link.'" class="boldMovesBox-fullStory">Read Story</a>
 					<a href="javascript:void(0);" class="close-boldMovesBox">Back to story</a>
 				</div>
 				<a href="'.$cat_link.'" class="boldMovesBox-link"><span>All </span>'.$spotlight_category.'<span> News <i class="fa fa-long-arrow-right"></i></span></a>
