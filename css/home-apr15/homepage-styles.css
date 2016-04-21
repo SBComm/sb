@@ -536,22 +536,28 @@ h2, .changingWorld h3,
       padding: 0 0 2.2rem;
       display: none;
     }
-
 .close-boldMovesBox {
     display: none;
-    background: url(../../img/controls/x.png) no-repeat center center;
     text-indent: -9999px;
-    padding: 5px;
+    padding: 12px;
     opacity: 1;
     z-index: 20;
     position: absolute;
-    top: 12px;
-    right: 12px;
-    width: 34px;
-    height: 33px;
+    top: 0;
+    right: 0;
+    width: 56px;
+    height: 55px;
     box-sizing: border-box;
     opacity: .5;
     cursor: pointer;
+}
+
+.close-boldMovesBox .close-boldMovesBox-x {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../../img/controls/x.png) no-repeat center center;
     background-size: cover;
 }
 .close-boldMovesBox:hover {
@@ -583,8 +589,7 @@ h2, .changingWorld h3,
       color: #fff;
       font-size: 1.3rem;
       padding: 28px 35px 0 40px;
-      line-height: 1.66;
-      cursor: default;
+      line-height: 1.66;;
       z-index: 1;
       display: none;
       max-height: 175px;
@@ -593,6 +598,11 @@ h2, .changingWorld h3,
       -webkit-box-orient: vertical;
       font-weight: 400;
       overflow: hidden; }
+    .boldMovesBox .boldMovesBox-story p a {
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+    }
     .boldMovesBox.engaged .boldMovesBox-story p {
       display: block;
     }
@@ -663,7 +673,7 @@ h2, .changingWorld h3,
   .boldMovesBox .boldMovesBox-link {
     display: block;
     position: absolute;
-    bottom: 0.7rem;
+    bottom: 0.5rem;
     right: 1rem;
     z-index: 30;
     color: #fff;
@@ -671,7 +681,7 @@ h2, .changingWorld h3,
     text-decoration: none;
     left: auto;
     text-align: right;
-    padding: 0 0 2px;
+    padding: 5px 0;
     border-bottom: 2px solid transparent;
   }
   .boldMovesBox .boldMovesBox-link:hover {

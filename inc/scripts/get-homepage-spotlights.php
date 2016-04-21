@@ -55,11 +55,11 @@ function printBooks($path, $pathForContent, $content, $sbu_site_url) {
 				<a href="'.$post_link.'" class="boldMovesBox-title">
 					<h3>'.$post->acf->homepage_spotlight_title.' <i class="fa fa-angle-right"></i></h3>
 				</a>
-				<div class="boldMovesBox-story">
+				<a href="'.$post_link.'" class="boldMovesBox-story">
 					<p>'.$post->acf->homepage_spotlight_sub.'</p>
-					<a href="'.$post_link.'" class="boldMovesBox-fullStory">Read Story</a>
-					<a href="javascript:void(0);" class="close-boldMovesBox">Back to story</a>
-				</div>
+					<span class="boldMovesBox-fullStory">Read Story</span>
+					<span href="javascript:void(0);" class="close-boldMovesBox"><span class="close-boldMovesBox-x">Back to story</span></span>
+				</a>
 				<a href="'.$cat_link.'" class="boldMovesBox-link"><span>All </span>'.$spotlight_category.'<span> News <i class="fa fa-long-arrow-right"></i></span></a>
 			</div>
 		';

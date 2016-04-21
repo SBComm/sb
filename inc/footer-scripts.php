@@ -758,7 +758,8 @@
 						if($(window).width()<1024) {
 							if(!$(this).hasClass('engaged') && !$(e.target).hasClass('boldMovesBox-link')) {
 								$(this).toggleClass('engaged');
-							} else if($(e.target).hasClass('close-boldMovesBox')) {
+							} else if($(e.target).hasClass('close-boldMovesBox') || $(e.target).hasClass('close-boldMovesBox-x')) {
+								e.preventDefault();
 								$(this).closest('.boldMovesBox').removeClass('engaged');
 							}
 						}
