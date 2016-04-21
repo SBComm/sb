@@ -17,27 +17,6 @@
     display: none;
 }
 
-.second-level-header h1 {
-    color: #000;
-    text-shadow: 0 0 15px #fff;
-}
-.second-level-header p.content {
-    color: #000 !important;
-    text-shadow: 0 0 15px #fff !important;
-}
-
-.second-level-header h1 {
-    color: #000;
-    text-shadow: 0 0 15px #fff;
-
-}
-
-.second-level-header p.content {
-    color: #000 !important;
-    text-shadow: 0 0 15px #fff !important;
-
-}
-
 section.admissions-promo-wrapper {
     background-image: url("../../img/misc/blue-chalkboard-admissions-marquee.jpg");
     background-size: 100%;

@@ -41,6 +41,23 @@
     padding: 1em 1em 0.6em;
 }
 
+.second-level-header.with-carousel .page-title h1 {
+    margin: 0;
+    padding: .7em 1em;
+}
+
+.second-level-header.header-title-image-white-rays h1,
+.header-title-image-white-rays .second-level-header h1 {
+    color: #000;
+    text-shadow: 0 0 15px #fff;
+}
+
+.second-level-header.header-title-image-white-rays p.content,
+.header-title-image-white-rays .second-level-header p.content {
+    color: #000;
+    text-shadow: 0 0 15px #fff;
+}
+
 @media only screen and (min-width: 740px) {
     .second-level-header h1 + p {
         margin: 0 0 15px !important;

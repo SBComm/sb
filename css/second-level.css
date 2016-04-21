@@ -26,6 +26,8 @@
 .page-title h1 a {
     color: inherit;
     text-decoration: none;
+    text-rendering: optimizeLegibility;
+    word-spacing: 0.125em;;
 }
 
 .second-level-header h1 {
