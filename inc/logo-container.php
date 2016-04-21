@@ -2,7 +2,7 @@
 		            <div class="logo-container page-cat-main clearfix border-box">
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
-				            	<div class="logo"><a href="http://www.stonybrook.edu/"><img src="img/branding/logo/sbu/newlogohomepage.gif" title="Stony Brook University" /></a></div>
+				            	<div class="logo"><a href="http://www.stonybrook.edu/"><img src="//mobile.cc.stonybrook.edu/sb/img/branding/logo/sbu/newlogohomepage.gif" title="Stony Brook University" /></a></div>
 				            	<!--<div class="site-tagline">The State University of <span>New York</span></div>-->
 				            </div>
 			            </header>
