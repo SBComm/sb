@@ -1,7 +1,7 @@
 <article class="ghosted-campus">
-    <section class="transparent-background page-title">
+    <section class="header-title-image-white-rays page-title second-level-header">
         <div class="wrapper border-box">
-            <h1 class="serif"><a href="for-students/">For Students</a></h1>
+            <h1><a href="for-students/">For Students</a></h1>
         </div>
     </section>
     <section class="clearfix inside-content main-inside-content two-col white-background">

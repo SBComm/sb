@@ -1,10 +1,10 @@
-<article>
-    <section class="page-title">
+<article class="clearfix header-title-image-white-rays second-level-header with-carousel">
+    <section class="white-background page-title">
         <div class="wrapper border-box">
-            <h1 class="serif">Stony<span class="no-space"> </span>Brook<span class="at-text"></span><span class="hide-text"> at </span>Work</h1>
+            <h1>Stony Brook <span class="at-text"></span> <span class="hide-text"> at </span>Work</h1>
         </div>
     </section>
-    <section class="transparent-background arrow-below arrow-below-white">
+    <section class="white-background arrow-below arrow-below-white">
         <div class="no-pad-wrapper border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-01">

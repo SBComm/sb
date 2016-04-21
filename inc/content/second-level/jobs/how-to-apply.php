@@ -1,7 +1,7 @@
-<article class="ghosted-campus">
-    <section class="page-title">
+<article class="clearfix header-title-image-white-rays second-level-header with-carousel">
+    <section class="transparent-background page-title">
         <div class="wrapper border-box">
-            <a href="jobs"><h1 class="serif">Stony<span class="no-space"> </span>Brook<span class="at-text"></span><span class="hide-text"> at </span>Work</h1></a>
+            <a href="jobs"><h1>Stony Brook <span class="at-text"></span> <span class="hide-text"> at </span>Work</h1></a>
         </div>
     </section>
 </article>

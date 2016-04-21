@@ -1,5 +1,5 @@
-<article class="clearfix second-level-header">
-    <section class="header-title-image-white-rays page-title admissions-header">
+<article class="clearfix header-title-image-white-rays second-level-header with-carousel">
+    <section class="transparent-background page-title admissions-header">
         <div class="wrapper border-box inside-content">
             <h1>Admissions</h1>
             <p class="content">Here at Stony Brook, you’ll discover the advantages of a major university — excellence in education, <br />an active research environment, and one of the best university-teaching hospitals in the region.</p>

@@ -1,7 +1,7 @@
-<article class="ghosted-campus">
+<article class="clearfix header-title-image-white-rays second-level-header with-carousel">
     <section class="transparent-background page-title">
         <div class="wrapper border-box">
-            <h1 class="serif"><a href="faculty-staff/">For Faculty &amp; Staff</a></h1>
+            <h1><a href="faculty-staff/">For Faculty &amp; Staff</a></h1>
         </div>
     </section>
     <section class="transparent-background arrow-below arrow-below-grey">
