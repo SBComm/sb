@@ -124,7 +124,7 @@
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
 		        	<?php if($page_footer) {
-						$file = "footers/for-students-footer.php";
+						$file = $footer;
 						include($path . $file);
 					} ?>
 					<?php if($page_footerbar) {
