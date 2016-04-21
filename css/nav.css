@@ -2436,13 +2436,15 @@
 	color: #fff !important;
 }
 
-.sbu-footer .univ-logo-stacked {
+.sbu-footer .univ-logo-stacked,
+.sbu-footer .suny-logo-stacked {
 	display: block;
 	cursor: pointer;
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding: 25px 0 30px;
+	margin: 40px 0 0;
+	clear: both;
 }
 
 .sbu-footer .univ-logo-stacked img {
@@ -2451,6 +2453,11 @@
 	display: inline-block;
 	float: none;
 	clear: none;
+}
+
+.sbu-footer .suny-logo-stacked img {
+	width: 190px;
+	margin: 5px 0 40px;
 }
 
 .sbu-footer .social-wall-link {
@@ -2466,7 +2473,30 @@
 	font-size: 1.1em;
 }
 
+
+@media only screen and (min-width: 540px) {
+
+	.sbu-footer .univ-logo-stacked,
+	.sbu-footer .suny-logo-stacked {
+		width: 50%;
+		float: left;
+		display: inline-block;
+		clear: none;
+	}
+
+}
+
 @media only screen and (min-width: 1024px) {
+	.sbu-footer .univ-logo-stacked,
+	.sbu-footer .suny-logo-stacked {
+		width: 100%;
+		clear: both;
+		margin: 26px 0 0;
+	}
+	.sbu-footer .suny-logo-stacked img {
+		width: 150px;
+		margin: 5px 0 40px;
+	}
 	.sbu-footer .more-nav-v3-wrapper {
 		width: 76%;
 		float: left;
@@ -2505,11 +2535,9 @@
 	.sbu-footer .social-wall-link:hover {
 		color: #900;
 	}
-	.sbu-footer .univ-logo-stacked {
-		margin-top: 53px;
-	}
 	.sbu-footer .univ-logo-stacked img {
-		width: 105px;
+		width: 241px;
+		padding-right: 7px;
 	}
 }
 
