@@ -4,7 +4,7 @@
             <h1><a href="faculty-staff/">For Faculty &amp; Staff</a></h1>
         </div>
     </section>
-    <section class="transparent-background arrow-below arrow-below-grey">
+    <section class="transparent-background arrow-below arrow-below-white">
         <div class="no-pad-wrapper border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
