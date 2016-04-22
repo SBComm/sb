@@ -23,6 +23,7 @@
 			<li class="btn"><a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/visit/">Visit us</a></li>
 			<li class="btn"><a class="nivo-lightbox" href="https://www.youvisit.com/tour/59968/?pl=v&amp;hover=0" data-lightbox-type="iframe">Take a virtual tour</a></li>
 			<li class="btn"><a href="http://mobile.cc.stonybrook.edu/sb/admissions/">Apply</a></li>
+			<li class="btn"><a href="http://stonybrook.edu/summer/">Summer Sessions</a></li>
 		</ul>
 		<?php
 			/* Apply flow, saving for home 2.0, if that ever comes. ran into issues with how the schools are devided, namely grad vs spd and hsc as its own entity. for now simply linking to the admissions page */

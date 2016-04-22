@@ -420,26 +420,33 @@ h2, .changingWorld h3,
     width: 100%; }
     @media (min-width: 801px) {
       .seawolfStrip ul {
-        width: 90%; }
+        width: 100%; }
         .seawolfStrip ul li {
-          width: 33.33%;
+          width: 50%;
           padding: 0 0.33rem; }
-          .seawolfStrip ul li:first-child {
-            padding: 0 0.66rem 0 0;
-          }
-          .seawolfStrip ul li:nth-child(3),
-          .seawolfStrip ul li:nth-child(6) {
-            padding: 0 0 0 0.66rem;
-          }
-          .seawolfStrip ul li:nth-child(4),
-          .seawolfStrip ul li:nth-child(7) {
+          .seawolfStrip ul li:first-child,
+          .seawolfStrip ul li:nth-child(3) {
             padding: 0 0.66rem 0 0;
           }
           .seawolfStrip ul li a {; } }
+    @media (min-width: 960px) {
+        .seawolfStrip ul li,
+        .seawolfStrip ul li:first-child,
+        .seawolfStrip ul li:nth-child(3) {
+          width: 25%;
+          padding: 0 0.66rem;
+        }
+        .seawolfStrip ul li:first-child {
+          padding: 0 0.66rem 0 0;
+        }
+        .seawolfStrip ul li:last-child {
+          padding: 0 0 0 0.66rem;
+        }
+    }
     @media (min-width: 1161px) {
       .seawolfStrip ul {
         display: block;
-        padding: 0 30% 0 0; } }
+        padding: 0; } }
     @media (min-width: 1161px) {
       .seawolfStrip .apply-form ul {
         display: block;
@@ -589,7 +596,7 @@ h2, .changingWorld h3,
       color: #fff;
       font-size: 1.3rem;
       padding: 28px 35px 0 40px;
-      line-height: 1.66;;
+      line-height: 1.66;
       z-index: 1;
       display: none;
       max-height: 175px;
