@@ -751,6 +751,8 @@
 		<?php if($page_type=='home') { ?>
 			<script>
 				$(document).ready(function() {
+					/* re-enable for mobile tap-overlay */
+					/*
 					$('.boldMovesBox').on('click',function(e) {
 						if($(e.target).hasClass('boldMovesBox-title') || $(e.target).parents('.boldMovesBox-title').length) {
 							e.preventDefault();
@@ -764,6 +766,7 @@
 							}
 						}
 					});
+					*/
 					$('.boldMovesBox').hover(
 						function() {
 							console.log();
