@@ -40,8 +40,7 @@
 		                        </li>
 		                        <li>
 		                        	<span class="more-trigger">
-		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
-		                        		<span class="label clearfix">More<span class="extra-label"> Links</span></span>
+		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>More<span class="extra-label">&nbsp;Links</span><span class="extra-label-mobile">...</span></span>
 		                        	</span>
 		                        </li>
 		                        <!--<li class="desktop for-info">
