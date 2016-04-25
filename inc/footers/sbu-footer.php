@@ -128,7 +128,7 @@
                     <a class="circle" href="http://www.youtube.com/sbcomm" title="View Stony Brook pins on youtube!" target="_blank"><span class="label hide-accessible">youtube</span><em class="fa fa-youtube-play"></em></a>
                 </div>
                 <a class="social-wall-link" href="http://stonybrook.edu/social/"><span>Check out our Social Media Wall&nbsp;<i class="fa fa-long-arrow-right"></i></span></a>
-                <a href="http://stonybrook.edu/" class="univ-logo-stacked clearfix"><img class="hide-accessible-desktop" src="img/branding/logo/sbu/primary/72/stony-brook-university-logo-vertical.png" alt="Stony Brook University logo" /><img class="hide-accessible-mobile" src="img/branding/logo/sbu/primary/72/stony-brook-university-logo-horizontal.png" alt="Stony Brook University logo" /></a>
+                <a href="http://stonybrook.edu/" class="univ-logo-stacked clearfix"><img class="hide-accessible-desktop" src="//mobile.cc.stonybrook.edu/sb/img/branding/logo/sbu/primary/72/stony-brook-university-logo-vertical.png" alt="Stony Brook University logo" /><img class="hide-accessible-mobile" src="//mobile.cc.stonybrook.edu/sb/img/branding/logo/sbu/primary/72/stony-brook-university-logo-horizontal.png" alt="Stony Brook University logo" /></a>
              </div>
         </div>
     </nav>
