@@ -24,7 +24,7 @@
 						$footer_path = 'footers/alumni-footer.php';
 					} else {
 						$nav_type = 'default';
-						$footer_path = 'footers/for-students-footer.php';
+						$footer_path = 'footers/sbu-footer.php';
 					}
 					include($path . $footer_path);
 				} ?>
