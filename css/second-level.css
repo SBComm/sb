@@ -428,7 +428,11 @@ h4 {
     }
 
     .carousel-style-02  .carousel-image {
-        height: 335px;
+        height: 380px;
+    }
+
+    .carousel-style-02  .carousel-image img {
+        width: 100%;
     }
 
     .carousel-style-02 .carousel-text {
