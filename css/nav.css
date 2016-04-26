@@ -5410,7 +5410,8 @@
 	}
 }
 
-.quick-nav .more-trigger .extra-label {
+.quick-nav .more-trigger .extra-label,
+.quick-nav .more-trigger .sbu-nav-trigger {
 	display: none;
 }
 
@@ -5420,10 +5421,12 @@
    ========================================================================== */
 
 @media only screen and (min-width: 540px) {
-	.quick-nav .more-trigger .extra-label {
+	.quick-nav .more-trigger .extra-label,
+	.quick-nav .more-trigger .sbu-nav-trigger {
 		display: inline;
 	}
-	.quick-nav .more-trigger .extra-label-mobile {
+	.quick-nav .more-trigger .extra-label-mobile,
+	.quick-nav .more-trigger .sbu-nav-trigger-mobile {
 		display: none;
 	}
 }
