@@ -5411,7 +5411,7 @@
 }
 
 .quick-nav .more-trigger .extra-label,
-.quick-nav .more-trigger .sbu-nav-trigger {
+.quick-nav .sbu-nav-trigger .extra-label {
 	display: none;
 }
 
@@ -5422,11 +5422,11 @@
 
 @media only screen and (min-width: 540px) {
 	.quick-nav .more-trigger .extra-label,
-	.quick-nav .more-trigger .sbu-nav-trigger {
+	.quick-nav .sbu-nav-trigger .extra-label {
 		display: inline;
 	}
 	.quick-nav .more-trigger .extra-label-mobile,
-	.quick-nav .more-trigger .sbu-nav-trigger-mobile {
+	.quick-nav .sbu-nav-trigger .extra-label-mobile {
 		display: none;
 	}
 }
