@@ -6231,7 +6231,8 @@
 	    padding-right: 35px;
 	    height: 40px;
 	    line-height: 2em;
-	    font-size: 1.2em;
+	    font-size: 1.3em;
+	    padding-left: 9px;
 	}
 /*)
 	.sub-nav .search-container input[type="text"] {
