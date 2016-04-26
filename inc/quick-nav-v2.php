@@ -74,7 +74,7 @@
 		                        		<span class="label clearfix">Get Info</span>
 		                        	</a>
 		                        </li>
-		                        <li class="tablet mobile">
+		                        <li class="tablet mobile desktop">
 		                        	<a href="undergraduate-admissions/contact/brochures/">
 		                        		<i class="icon fa fa-book clearfix"></i>
 		                        		<span class="label clearfix">Brochures</span>
@@ -98,13 +98,13 @@
 		                        		<span class="label clearfix">Majors</span>
 		                        	</a>
 		                        </li>
-		                        <li class="mobile">
+		                        <li>
 		                        	<a href="undergraduate-admissions/visit/" class="clearfix">
 		                        		<i class="icon fa fa-map-marker clearfix"></i>
 		                        		<span class="label clearfix">Visit</span>
 		                        	</a>
 		                        </li>
-		                        <li class="tablet mobile">
+		                        <li class="tablet mobile desktop">
 		                        	<a href="undergraduate-admissions/visit/directions-and-parking/">
 		                        		<i class="icon fa fa-arrow-circle-right clearfix"></i>
 		                        		<span class="label clearfix">Directions</span>

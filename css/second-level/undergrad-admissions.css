@@ -1,6 +1,3 @@
-.carousel-wrapper {
-}
-
 .big-n-bold .search-container.stay-in-nav input[type="text"] {
     width: 150px;
 }
@@ -1056,7 +1053,12 @@ footer.site-footer {
 
 }
 
-@media only screen and (min-width: 1022px) {
+@media only screen and (min-width: 1024px) {
+
+    .quick-nav ul li:last-child {
+        padding-right: 0;
+    }
+
     .site-carousel .carousel-wrapper .item,
     .site-carousel .carousel-image {
         height: 600px;
