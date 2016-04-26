@@ -1254,7 +1254,7 @@
 
 
 
-@media only screen and (min-width: 0px) and (max-width: 1022px) {
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
 }
 
 
@@ -2915,7 +2915,7 @@
 }
 
 
-@media only screen and (min-width: 0px) and (max-width: 1022px) {
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
 }
 
 
@@ -3394,14 +3394,14 @@
 
 
 
-@media only screen and (min-width: 1022px) {
+@media only screen and (min-width: 1024px) {
 }
 
 
 
 
 
-@media only screen and (min-width: 1022px) {
+@media only screen and (min-width: 1024px) {
 }
 
 
@@ -4097,7 +4097,7 @@
 
 
 
-@media only screen and (min-width: 1022px) {
+@media only screen and (min-width: 1024px) {
 }
 
 
@@ -4139,7 +4139,7 @@
 }
 
 
-@media only screen and (min-width: 1022px) {
+@media only screen and (min-width: 1024px) {
 }
 
 
@@ -4228,7 +4228,7 @@
 
 
 
-@media only screen and (min-width: 0px) and (max-width: 1022px) {
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
 }
 
 
@@ -4278,7 +4278,7 @@
 }
 
 
-@media only screen and (min-width: 1022px) {
+@media only screen and (min-width: 1024px) {
 }
 
 
@@ -4990,7 +4990,7 @@
 
 /* since mobile sticky == problems, force sticky site-nav to un-stick on mobile */
 
-@media only screen and (min-width: 0px) and (max-width: 1022px) {
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
 
 	.audience-nav {
 		display: block !important;
@@ -5677,7 +5677,7 @@
 	}
 
 }
-@media only screen and (min-width: 1022px) {
+@media only screen and (min-width: 1024px) {
 	.cd-dropdown {
 		width: 100% !important;
 		margin: 0 !important;
@@ -5860,13 +5860,13 @@
 
 }
 
-@media only screen and (min-width: 1022px) {
+@media only screen and (min-width: 1024px) {
 
 	.cd-dropdown ul {
 		box-shadow: none !important;
 		height: 40px !important;
 		width: 100% !important;
-		max-width: 1022px;
+		max-width: 1024px;
 	}
 
 	.audience-nav {
@@ -5886,7 +5886,7 @@
 	}
 
 	.quick-nav-wrapper {
-		width: 1022px;
+		width: 1024px;
 		margin: 0 auto;
 		position: relative;
 	}
@@ -7110,5 +7110,5 @@
 
 
 
-@media only screen and (min-width: 1022px) {
+@media only screen and (min-width: 1024px) {
 }
