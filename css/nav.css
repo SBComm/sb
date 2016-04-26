@@ -865,6 +865,7 @@
 }
 
 .quick-nav .more-trigger .extra-label,
+.quick-nav .search-trigger .extra-label,
 .quick-nav .sbu-nav-trigger .extra-label {
 	display: none;
 }
@@ -876,10 +877,12 @@
 
 @media only screen and (min-width: 540px) {
 	.quick-nav .more-trigger .extra-label,
+	.quick-nav .search-trigger .extra-label,
 	.quick-nav .sbu-nav-trigger .extra-label {
 		display: inline;
 	}
 	.quick-nav .more-trigger .extra-label-mobile,
+	.quick-nav .search-trigger .extra-label-mobile,
 	.quick-nav .sbu-nav-trigger .extra-label-mobile {
 		display: none;
 	}
@@ -889,6 +892,7 @@
 
 	.quick-nav a,
 	.quick-nav .more-trigger,
+	.quick-nav .search-trigger,
 	.quick-nav .audience-trigger {
 		font-size: 14px;
 	}
@@ -920,13 +924,17 @@
 	}
 
 	.quick-nav li:last-child .label,
-	.quick-nav:hover .label {;
+	.quick-nav:hover .label {
+
 	}
 
 	.quick-nav .more-trigger,
 	.quick-nav .more-trigger .label,
+	.quick-nav .search-trigger,
+	.quick-nav .search-trigger .label,
 	.quick-nav a:hover .label,
-	.quick-nav:hover a .label {;
+	.quick-nav:hover a .label {
+
 	}
 }
 
@@ -1406,10 +1414,9 @@
 	}
 
 
-.quick-nav ul li .more-trigger.selected .label {;
+	.quick-nav ul li .more-trigger.selected .label {
 
-
-}
+	}
 
 	.quick-nav ul li:hover .label {;
 	}
@@ -1445,6 +1452,7 @@
 
 	.quick-nav a,
 	.quick-nav .more-trigger,
+	.quick-nav .search-trigger,
 	.quick-nav .audience-trigger {
 		text-decoration: none;
 		color: #000;
@@ -1466,6 +1474,7 @@
 	}
 
 	.quick-nav ul .audience-trigger .label,
+	.quick-nav ul .search-trigger .label,
 	.quick-nav ul .more-trigger .label {
 		padding-left: 13px;
 		position: relative;
@@ -1478,6 +1487,8 @@
 
 	.quick-nav a:hover,
 	.quick-nav a.selected,
+	.quick-nav .search-trigger:hover,
+	.quick-nav .search-trigger.selected,
 	.quick-nav .more-trigger:hover,
 	.quick-nav .more-trigger.selected {
 	color: #900;
@@ -1493,6 +1504,7 @@
 */
 	.quick-nav .audience-trigger.selected .label:after,
 	.quick-nav .more-trigger.selected .label:after,
+	.quick-nav .search-trigger.selected .label:after,
 	.quick-nav ul li:last-child:hover .label:after {
 		color: #fff;
 	}
