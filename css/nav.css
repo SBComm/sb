@@ -1467,10 +1467,6 @@
 		height: 100%;
 	}
 
-	.quick-nav .audience-trigger {
-		padding: 11px 0 12px 10px;
-	}
-
 	.quick-nav ul .audience-trigger .label,
 	.quick-nav ul .search-trigger .label,
 	.quick-nav ul .more-trigger .label {
