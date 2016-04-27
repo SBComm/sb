@@ -2306,6 +2306,7 @@
 
 .more-nav-v3-col ul li a:hover {
 	border-bottom: 2px solid #fff;
+	text-decoration: none;
 }
 
 @media only screen and (min-width: 400px) {
