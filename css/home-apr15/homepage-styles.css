@@ -84,7 +84,7 @@ h2, .changingWorld h3,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); }
     .hero-sb .hero-sb_text h1 {
       color: #fff;
-      font-size: 38px;
+      font-size: 35px;
       line-height: 0.85em;
       width: 100%;
       text-shadow: 0 0 10px rgba(0,0,0,.4); }
@@ -158,17 +158,19 @@ h2, .changingWorld h3,
 @media (min-width: 1160px) {
   .hero-sb {;
     overflow: hidden;;
-    max-height: 680px; }
+    max-height: 610px;; }
     .hero-sb img {
       margin-top: -20%; }
     .hero-sb .hero-sb_text {
       width: 66%;
-      padding-top: 2rem; } }
+      padding-top: 2rem;
+      min-height: 540px; } }
 
 @media (min-width: 1280px) {
   .hero-sb .hero-sb_text {
     width: 100%;
-    padding-top: 2rem;; }
+    padding-top: 2rem;
+    min-height: 580px;; }
     .hero-sb .hero-sb_text div {
       width: 1160px;
       margin: 0 auto;
@@ -192,6 +194,14 @@ h2, .changingWorld h3,
   }
   .hero-sb {
     max-height: 700px;
+  }
+}
+@media (min-width: 1760px) {
+  .hero-sb .hero-sb_text {
+      min-height: 760px;
+  }
+  .hero-sb {
+    max-height: 760px;
   }
 }
 .optionalCallout {
@@ -261,11 +271,11 @@ h2, .changingWorld h3,
       padding: 0;
     }
       .hero-sb img {
-        float: none;
+        float: right;
         height: auto;
         max-width: 185%;
-        width: 118%;
-        margin-left: -9%;
+        width: 124%;
+        margin-left: 0;
       }
     }
   @media (min-width: 941px) {
@@ -274,12 +284,13 @@ h2, .changingWorld h3,
       z-index: 1;
       margin-top: 0;
       margin-left: 0;
+      right: 0;;
     }
   }
   @media (min-width: 1024px) {
     .hero-sb img {
       margin-top: -10%;
-      width: 110%;
+      width: 104%;
     }
     .hero-sb img.align-image-top {
       margin-top: -2%;
@@ -291,13 +302,25 @@ h2, .changingWorld h3,
       width: 100%;
     }
     .hero-sb img.align-image-top {
-      margin-top: -3%;
+      margin-top: -5%;
     }
   }
   @media (min-width: 1400px) {
     .hero-sb img {
       margin-top: -18%;
       width: 100%;
+    }
+    .hero-sb img.align-image-top {
+      margin-top: -6%;
+    }
+  }
+  @media (min-width: 1760px) {
+    .hero-sb img {
+      margin-top: -18%;
+      width: 100%;
+    }
+    .hero-sb img.align-image-top {
+      margin-top: -5%;
     }
   }
   @media (min-width: 901px) {

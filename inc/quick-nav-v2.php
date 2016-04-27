@@ -14,7 +14,7 @@
 		                        		<span class="label clearfix">Calendar</span>
 		                        	</a>
 		                        </li>
-		                        <li class="mobile">
+		                        <li>
 		                        	<a href="summer-session/registration">
 		                        		<i class="icon fa fa-check-square-o clearfix"></i>
 		                        		<span class="label clearfix">Register</span>
@@ -40,6 +40,7 @@
 		                        </li>
 		                        <li>
 		                        	<span class="more-trigger">
+		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
 		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>More<span class="extra-label">&nbsp;Links</span><span class="extra-label-mobile">...</span></span>
 		                        	</span>
 		                        </li>
@@ -98,7 +99,7 @@
 		                        		<span class="label clearfix">Majors</span>
 		                        	</a>
 		                        </li>
-		                        <li>
+		                        <li class="mobile">
 		                        	<a href="undergraduate-admissions/visit/" class="clearfix">
 		                        		<i class="icon fa fa-map-marker clearfix"></i>
 		                        		<span class="label clearfix">Visit</span>
