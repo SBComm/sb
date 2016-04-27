@@ -31,6 +31,7 @@
 		    $page_to_top_link = true;
 
 		    $page_footerbar   = true;
+		    $page_footer      = true;
 
 		    $page_scroll      = false;
 		    $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
@@ -100,6 +101,10 @@
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
+		        	<?php if($page_footer) {
+						$file = $footer;
+						include($path . $file);
+					} ?>
 					<?php if($page_footerbar) {
 						$file = "footerbar.php";
 						include($path . $file);
@@ -134,7 +139,7 @@
 		<!-- <googleanalytics> -->
 			<?php 
 				$file = "site-analytics.php";
-				include($path . $file);
+				include($path . $file); 
 			?>
 		<!-- </googleanalytics> -->
     </body>

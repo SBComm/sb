@@ -64,7 +64,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Stony Brook University was established in 1957 as a college for the preparation of secondary school teachers of mathematics and science. The first campus was located in Oyster Bay, Long Island, on the grounds of a former Gold Coast estate. In 1962, a new campus was built near the historic village of Stony Brook on land donated by local philanthropist Ward Melville. Part of the State University of New York system, the University has grown tremendously and is now recognized as one of the nation’s important centers of learning and scholarship — carrying out the mandate given by the State Board of Regents in 1960 to become a university that would “stand with the finest in the country.” The University campus lies about 60 miles east of Manhattan and 60 miles west of Montauk Point. It is only a short distance to the Atlantic beaches of the south shore and the vineyards of the East End.</p>
+                                <p>Stony Brook University was established in 1957 as a college for the preparation of secondary school teachers of mathematics and science. The first campus was located in Oyster Bay, Long Island, on the grounds of a former Gold Coast estate. In 1962, a new campus was built near the historic village of Stony Brook on land donated by local philanthropist Ward Melville. Part of the State University of New York system, the University has grown tremendously and is now recognized as one of the nation’s important centers of learning and scholarship — carrying out the mandate given by the State Board of Regents in 1960 to become a university that would “stand with the finest in the country.” The University campus lies about 60 miles east of Manhattan and 60 miles west of Montauk Point. It is only a short distance to the Atlantic beaches of the south shore and the vineyards of the East End. Situated on 1,039 acres on the north shore of Long Island, Stony Brook University is a four-season climate, tempered by proximity to the Atlantic Ocean and Long Island Sound</p>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,13 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The Office of Student Financial Aid Services provides information about available federal and state programs that provide grants, loans, and work-study to assist eligible students in pursuing their academic goals and also info about student employment opportunities not based on financial need. <a class="arrow-after" href="http://stonybrook.edu/finaid">Visit the office</a></p>
+                                <p>The Office of Student Financial Aid Services provides information about available federal and state programs that provide grants, loans, and work-study to assist eligible students in pursuing their academic goals and also info about student employment opportunities not based on financial need.
+                                <ul class="default-bullets">
+                                <li>55% of full-time enrolled freshmen receive need-based aid; average amount $8,768</li>
+                                <li>41% of full-time enrolled freshmen receive merit-based aid; average amount $3,314</li>
+                                <li>50% of full-time enrolled freshmen receive self-help aid; average amount $5,200</li>
+                                </ul>
+                                 <a class="arrow-after" href="http://stonybrook.edu/finaid">Visit the office</a></p>
                             </div>
                         </div>
                     </div>
@@ -94,7 +100,13 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>More than 24,500 students are enrolled at Stony Brook during fall terms and more than 28,000 students enroll over the course of an entire calendar year. The <a href="http://www.stonybrook.edu/commcms/irpe/index.html">Office of Institutional Research, Planning &amp; Effectiveness</a> maintains official statistics for the University, including <a href="http://www.stonybrook.edu/commcms/irpe/data/enrollment/index.html">enrollment history</a>.</p>
+                                <p>More than 24,500 students are enrolled at Stony Brook during fall terms and more than 28,000 students enroll over the course of an entire calendar year. The <a href="http://www.stonybrook.edu/commcms/irpe/index.html">Office of Institutional Research, Planning &amp; Effectiveness</a> maintains official statistics for the University, including <a href="http://www.stonybrook.edu/commcms/irpe/data/enrollment/index.html">enrollment history</a>.
+                                <ul class="default-bullets">
+                                <li>For freshmen entering in Fall 2013: 89% returned for second year</li>
+                                <li>For freshmen entering in Fall 2008: 68% graduated within six years; 2% still enrolled after six years</li>
+                                <li> Nearly 90% of our recent graduates are either employed or enrolled in graduate or professional school.</li>
+                                </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -151,6 +163,105 @@
                                     <li>Tamara Schnurr '96, former flight surgeon for the U.S. Navy Blue Angels</li>
                                     <li>Marilyn Simons '74, '84, president of The Simons Foundation</li>
                                     <li>Concetta M. Tomaino '76, pioneer in music therapy for victims of brain trauma or degenerative neurological diseases</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Faculty</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+
+                            <p> Stony Brook's Faculty is Responsible for: </p>
+                            <ul class="default-bullets">
+                                <li>91% of tenured/tenure-track faculty hold doctoral degrees or highest degrees in their fields.</li>
+
+                                <li>Stony Brook's faculty is responsible for more than 2,000 inventions and more than 580 U.S. patents.</li>
+
+                                <li>Stony Brook's Faculty mentor on average 10% of the 300 Intel Science Talent Search competition finalists and semifinalists each year, making Stony Brook a major incubator of Intel talent in the country.</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Student Body</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                            <h4>Enrollment Status: </h4>
+                                <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Level</th>
+                                            <th>Full-time</th>
+                                            <th>Part-time</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Undegraduate</td>
+                                            <td>15,714</td>
+                                            <td>1,117</td>
+                                            <td>16,831</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Graduate</td>
+                                            <td>5,336</td>
+                                            <td>3,105</td>
+                                            <td>8,441</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Grand Total</strong></td>
+                                            <td>21,050</td>
+                                            <td>4,222</td>
+                                            <td><strong>25,272</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Spring 2016</strong></td>
+                                            <td>November 1</td>
+                                            <td>November 1</td>
+                                            <td>Beginning Mid-November</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                                             
+                                <p> Applications: 34,110; 
+                                    Accepted: 13,981; 
+                                    Enrolled: 2,800</p>
+                                <p> Academic Profile for Students Entering: </p>
+                                <ul class="default-bullets">
+                                <li>GPA: mid-50% range 90-96</li>
+                                <li>SAT: mid-50% range for Math: 600-720; Critical Reading: 540-660; Writing: 540-660</li>
+                                <li>ACT: mid-50% range 26-31</li>
+                                <li>For freshmen entering in Fall 2013: 89% returned for second year</li>
+                                <li>For freshmen entering in Fall 2008: 68% graduated within six years; 2% still enrolled after six years</li>
+                                <ul>
+                                <br>
+                                <p> Nearly 90% of our recent graduates are either employed or enrolled in graduate or professional school.</p>
+                                <p>The return on investment of a Stony Brook University education is more than $1 million over 30 years, according to PayScale.com.</p>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Campus Residences</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <ul class="default-bullets">
+                                <li>Our 28 residence halls and 23 apartment-style buildings house 9,445 residents (8,230 undergraduate and 1,215 graduate students)</li>
+                                <li>Included are two new residence halls that incorporate eco-friendly materials and energy-efficient features.</li>
+                                <li>All residence halls and apartments offer wireless Internet access
+                                Each quad has computing and fitness centers and all rooms have high-speed Internet and cable TV</li>
+                                <li>Approximately 83% of freshmen live on campus</li>
+                                <li> Room &amp; Board: $12,032 (varies according to meal plan) </li>
                                 </ul>
                             </div>
                         </div>
@@ -254,6 +365,16 @@
                     </div>
                     <div class="item">
                         <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Office Of the Provost</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <p>The Office of the Provost carries responsibility for the academic mission of the west campus, providing direct supervision for all academic units, support services and operations, and coordinating all academic programs. The Deans and Directors of the Colleges, Schools, Libraries, Centers and Institutes, other than those in the Health Science Center, report to the Provost. The Provost acts on behalf of the President in the absence of the President. The Provost works closely with the Dean of the Medical School/Vice President of the Health Sciences Center and the Vice President for Research in academic and research issues that concern the University as a whole. <a class="arrow-after" href="http://www.stonybrook.edu/commcms/provost/">Visit the Office of the Provost</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>Undergraduate Colleges</span>
                         </div>
                         <div class="content clearfix hide-accessible">
@@ -262,7 +383,16 @@
                             </div>
                         </div>
                     </div>
-
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Majors & Minors</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <p>At Stony Brook there are 68 Majors and 82 Minors to choose from.</p> <p> The most popular majors/minors include are Undergraduate Majors: Biology, Psychology, Health Science, Business Management, Computer Science, Biochemistry, Economics, Mechanical Engineering, Applied Mathematics and Statistics, and Mathematics.<a class="arrow-after" href="http://stonybrook.edu/undergraduate-admissions/academics/">Full List of Majors/Minors</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -350,6 +480,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Institutional Research</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <p>The Office of Institutional Research, Planning &amp; Effectiveness (IRPE) collects, analyzes, organizes and communicates data and information to provide a valid, consistent and accurate understanding of how Stony Brook University is advancing its mission. We also serve as the central repository for official university statistics and institutional effectiveness efforts. <a class="arrow-after" href="http://www.stonybrook.edu/commcms/irpe/">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -386,7 +526,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The CEWIT Incubator, located in the Research and Development Park on the campus of Stony Brook University, is space that is home to companies within the CEWIT building. CEWIT provides an integrated suite of services designed to fit the needs of diverse incubator companies. <a class="arrow-after" href="http://www.cewit.org/incubator/CEWIT%20Incubator.html">Learn more</a></p>
+                                <p>The CEWIT Incubator, located in the Research and Development Park on the campus of Stony Brook University, is space that is home to companies within the CEWIT building. CEWIT provides an integrated suite of services designed to fit the needs of diverse incubator companies. <a class="arrow-after" href="http://www.cewit.org/incubator/index.html">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -427,6 +567,119 @@
             <h3>Libraries</h3>
             <div class="content">
                 <p><a href="http://www.library.stonybrook.edu/">Frank Melville Jr. Memorial Library</a>, the main library building on the West Campus, houses collections serving the fine arts, humanities, music, social sciences, engineering, biology, and geosciences. Special areas in the Melville Library provide ready access to current periodicals, government documents and legal materials, maps and microforms. Other facilities of note are a <a href="http://sunysb.libguides.com/music-library">Music Library</a> and Audio Center, a variety of individualized study carrels, and a student lounge. The <a href="http://www.stonybrook.edu/libspecial/">Department of Special Collections</a> houses Senator Jacob K. Javits' collection of public papers and memorabilia — one of the nation’s leading archives of 20th-century congressional papers — the William Butler Yeats Microfilmed Manuscripts Collection, and the University Archives. The branch libraries, including the <a href="http://sunysb.libguides.com/chemistry-library">Chemistry</a>, <a href="http://sunysb.libguides.com/MASIC">Marine and Atmospheric Science</a>,<a href="http://sunysb.libguides.com/science-and-engineering-library"> Science and Engineering</a> and <a href="http://sunysb.libguides.com/math-physics-astronomy-library">Mathematics/Physics/Astronomy</a> libraries, are located in departmental buildings. The <a href="http://www.hsclib.sunysb.edu/">Health Sciences Library</a> is located on the East Campus.</p>
+            </div>
+
+            <p>&nbsp;</p>
+            <h3>Centers and Institutes</h3>
+            <div class="content">
+                <div class="drop-accordion drop-accordion-1 clearfix">
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Education, Arts, and Culture</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <ul class="star-bullets star-bullets-red">
+                                    <li><a href="http://www.stonybrook.edu/commcms/dance/">Center for Dance, Movement and Somatic Learning</a></li>
+                                    <li><a href="http://www.stonybrook.edu/italianstudies">Center for Italian Studies</a> </li>
+                                    <li><a href="http://www.stonybrook.edu/commcms/mic/">Center for Multilingual and Intercultural Communication</a></li>
+                                    <li><a href="http://www.stonybrook.edu/wang/">Charles B. Wang Center </a></li>
+                                    <li><a href="http://www.stonybrook.edu/japancenter">Japan Center</a></li>
+                                    <li><a href="http://www.stonybrook.edu/humanities/">Humanities Institute</a></li>
+                                    <li><a href="http://stonybrook.edu/pkhouse">Pollock-Krasner House &amp; Study Center</a></li>
+                                    <li><a href="http://www.staller.sunysb.edu/">Staller Center for the Arts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Social and Behavior Sciences</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <ul class="star-bullets star-bullets-red">
+                                    <li><a href="http://www.stonybrook.edu/globalhistory/">Center for Global History</a></li>
+                                    <li><a href="http://www.stonybrook.edu/workingclass/">Center for Study of Working Class Life</a></li>
+                                    <li><a href="http://www.stonybrook.edu/surveys/">Center for Survey Research</a></li>
+                                    <li><a href="http://www.stonybrook.edu/tbi/">Turkana Basin Institute</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Environmental Sciences</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                               <ul class="star-bullets star-bullets-red">
+                                    <li><a href="http://www.stonybrook.edu/commcms/gelfond/index.html">Gelfond Fund for Mercury Research and Outreach</a></li>
+                                    <li><a href="http://www.seagrant.sunysb.edu/">New York State Sea Grant Institute </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Medicne and Biotechnology</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                               <ul class="star-bullets star-bullets-red">
+                                    <li><a href="http://cancer.stonybrookmedicine.edu/">Cancer Center</a></li>
+                                    <li><a href="http://www.biotech.sunysb.edu/index.html">Center for Biotechnology</a></li>
+                                    <li><a href="http://www.stonybrook.edu/ovprpub/cmm/infectiousdiseas.html">Center for Infectious Diseases</a></li>
+                                    <li><a href="http://www.stonybrook.edu/bioethics/">Center for Medical Humanities, Compassionate Care, and Bioethics</a></li>
+                                    <li><a href="http://ws.cc.stonybrook.edu/ovprpub/cmm/cmmhome.html">Centers for Molecular Medicine</a></li>
+                                    <li><a href="http://www.stonybrook.edu/ovprpub/cmm/structuralbiolog.html">Center for Structural Biology</a></li>
+                                    <li><a href="http://www.stonybrook.edu/ovprpub/cmm/infectiousdiseas.html">Center for Infectious Diseases</a></li>
+                                    <li><a href="http://www.stonybrookmedicalcenter.org/codycenter/">Cody Center for Autism and Developmental Disabilities</a></li>
+                                    <li><a href="http://www.stonybrook.edu/commcms/icbdd/">Institute of Chemical Biology &amp; Drug Discovery </a></li>
+                                    <li><a href="http://www.laufercenter.org/">Laufer Center for Physical and Quantitative Biology</a></li>
+                                    <li><a href="http://www.psychology.sunysb.edu/scancenter/">The SCAN Center (Social, Cognitive, and Affective Neuroscience)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Mathematics, Physical Sciences and Engineering</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <ul class="star-bullets star-bullets-red">
+                                    <li><a href="http://www.ctsr-sunysb.org/new/index.shtml">Center for Thermal Spray Research</a></li>
+                                    <li><a href="http://stonybrook.edu/garcia">Garcia Center for Polymers at Engineered Interfaces</a></li>
+                                    <li><a href="http://laufercenter.stonybrook.edu/">Laufer Center for Physical and Quantitative Biology</a></li>
+                                    <li><a href="http://istem.stonybrook.edu/"> The Institute for STEM Education (I-STEM)</a></li>
+                                    <li><a href="http://www.stonybrook.edu/m2m"> m2M: Center for Mesoscale Transport Properties</a></li>
+                                    <li><a href="http://www.sensorcat.sunysb.edu/">NYS Center for Advanced Technology in Sensor Systems and Diagnostic Tools</a></li>
+                                    <li><a href="http://www.scgp.stonybrook.edu/">Simons Center for Geometry and Physics</a></li>
+                                    <li><a href="http://insti.physics.sunysb.edu/itp/">C.N. Yang Institute for Theoretical Physics</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Technology and Business</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                               <ul class="star-bullets star-bullets-red">
+                                    <li><a href="http://www.aertc.org/">Advanced Energy Research and Technology Center</a></li>
+                                    <li><a href="http://www.center-for-behavioral-finance.com">Center for Behavioral Finance</a></li>
+                                    <li><a href="http://www.stonybrook.edu/commcms/cet/">Center for Corporate Education and Training</a></li>
+                                    <li><a href="http://www.cewit.org/">Center of Excellence in Wireless and Information Technology</a></li>
+                                    <li><a href="http://www.thelclab.com/LC/Home.html">Leadership and Creativity Research Lab in the College of Business</a></li>
+                                    <li><a href="http://stonybrooksbdc.com/">Small Business Development Center</a></li>
+                                    <li><a href="http://www.spir.sunysb.edu/">Strategic Partnership for Industrial Resurgence (SPIR)</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
             </div>
 
             <p>&nbsp;</p>
@@ -694,6 +947,140 @@
                     <li>Balzan Prize in Mathematics </li>
                 </ul>
             </div>
+
+            <p>&nbsp;</p>
+            <h3>Presidents</h3>
+            <div class="content">
+                <p>The University is divided into 12 schools and colleges: the College of Arts and Sciences, the College of Business, the College of Engineering and Applied Sciences, the Graduate School, the School of Journalism, the School of Marine and Atmospheric Sciences, the School of Professional Development, and the five health sciences schools: Dental Medicine, Health Technology and Management, Medicine, Nursing and Social Welfare. <a class="arrow-after" href="http://www.stonybrook.edu/pres/">Visit Office of the President </a>
+                &nbsp;
+                <a class="arrow-after" href="http://www.stonybrook.edu/sb/sbcouncil/index.shtml">Visit Stony Brook Council </a> </p>
+                
+                <p> </p>
+                <div class="drop-accordion drop-accordion-1 clearfix">
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i> July 1, 2009– Present: Samuel L. Stanley Jr., MD, President</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                    
+                                <p> <img class="president_image" src="img/presidents/stanleysamuel.jpg"> "Samuel L. Stanley Jr., MD is fifth President of Stony Brook University. He received his MD (1980) from Harvard Medical School. After completing his internship and residency at Massachusetts General Hospital, he did postdoctoral work in immunology at Washington University, St. Louis, and was appointed to the faculty in the Division of Infectious Diseases of Washington University Medical School, one of the nation’s most highly ranked Schools of Medicine. In 2003, he was named Director of the Midwest Regional Center for Excellence for Biodefense and Emerging Infectious Diseases Research and Vice Chancellor for Research in 2006. Dr. Stanley is a distinguished medical researcher and has published extensively." <a class="arrow-after" href="https://web.archive.org/web/20160403115726/http://www.stonybrook.edu/pres/bio.html">More Info</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>1994–2009: Shirley Strum Kenny, President</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                        
+                                <p> <img class="president_image" src="img/presidents/shirley2.jpg"> "Shirley Strum Kenny was the first woman and humanist to serve as President of Stony Brook University. After a distinguished career as a literary scholar, teacher, and academic administrator, she came to Stony Brook as its fourth president in 1994. She strengthened the core academic and research operations of the University, fostered close links with business and industry, and established new working relationships with the Long Island community. Kenny launched and chaired the Boyer Commission on Educating Undergraduates in the Research University with funding from the Carnegie Foundation for the Advancement of Teaching. Prior to her tenure at Stony Brook, Kenny was President of Queens College from 1985 to 1994."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>1980–1994: John H. Marburger III, President</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                   
+                                <p> <img class="president_image" src="img/presidents/marburger.jpg"> In 1980, John H. Marburger III became the third president of Stony Brook University, a position he held until 1994 when he became University Professor of Physics and Electrical Engineering. Marburger's presidency coincided with the opening of University Medical Center and the development of the biological sciences as a major strength of the university. During the 1980s, federally sponsored scientific research at Stony Brook grew to exceed that of any other public university in the Northeast. In 1998, he became director of <a href="https://web.archive.org/web/20160403115726/http://www.bnl.gov/world/">Brookhaven National Laboratory</a> and president of Brookhaven Science Associates. He also served President George W. Bush as science advisor and director of the Office of Science and Technology Policy.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>1979–1980: Richard Schmidt, President, Upstate Medical Center, Acting Presiden</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                            <br>
+                                <p> Acting President from 1979-1980. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>1978–1979: T. Alexander Pond, Executive Vice President, Acting President</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                            <br>
+                                <p> Acting President from 1978-1979</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Sept. 1, 1965–Aug. 31, 1978: John S. Toll, President</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                         
+                                <p>  <img class="president_image" src="img/presidents/toll.jpg"> "In 1965, John S. Toll, a Princeton-trained physicist and former professor and chairman of the Department of Physics and Astronomy at the University of Maryland, became the second president of Stony Brook University. By the time he left, the school of 1,800 students had been built to one of 17,000 students and, in addition to arts and sciences and engineering, he added schools of public affairs, medicine, dentistry, nursing, allied health professions, basic health sciences and social work. Toll recruited elite researchers and scholars, including Nobel Prize recipient CN Yang, to develop competitive academic departments. For his contributions to the University, Toll was listed among “100 Who Shaped the Century” by Newsday."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Sept. 1, 1962–Aug. 31, 1965: Karl D. Hartzell, Executive Dean in SUNY Central </span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                            <br>
+                                <p> Karl D. Hartzell was a one-year appointment at Stony Brook as Acting Chief Administrative Officer and Dean of the College of Arts and Sciences</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>961–1962: SUNY President Thomas H. Hamilton, Acting Administrative Head</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                            <br>
+                                <p> From 1961-1962 Thoms H. Hamilton was the Acting Administrative Head, and subsequently SUNY Provost Harry W. Porter, Acting Dean of the College of Arts and Sciences, and Hamilton's representative.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>1961: John Lee, President </span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+
+                                <p> <img class="president_image" src="img/presidents/lee2.jpg"> John Francis Lee, the former chairman of the Mechanical Engineering Department at North Carolina State, was appointed as the University's first president on January 1, 1961. His mandate from SUNY was to convert the Long Island Center from a science and engineering college to a full-scale university, complete with liberal arts and sciences programs and a graduate school. On June 25, 1961, the University's first commencement ceremony awarded 25 Bachelor of Science degrees at the Coe Estate In Oyster Bay. Lee served as the University's president until November 9, 1961. Stony Brook: State University of New York, The College History Series]</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>1957–1961: Dean Leonard K. Olson</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                            
+                             <p> <img class="president_image" src="img/presidents/olson.jpg"> Leonard K. Olson was named dean of the State University College on Long Island on February 14, 1957. His administrative duties included managing the Oyster Bay campus and overseeing the planning of the Stony Brook campus. Olson traveled throughout the United States recruiting top faculty as he intended "this college to set a high standard of academic excellence." The fourteen professors President Olson appointed had formerly held positions at the University of Oxford, Columbia University, Yale University and the University of Chicago. [Stony Brook: State University of New York, The College History Series]</p>
+                            </div>
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+            
+
 
         </div>
     </section>
