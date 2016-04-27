@@ -1410,7 +1410,7 @@
 	}
 
 	.quick-nav ul li .audience-trigger.selected .label {
-		border-right: 1px solid #900;
+		border-right: 0 none;
 	}
 
 
@@ -1481,7 +1481,7 @@
 
 	.quick-nav .audience-trigger .label,
 	.quick-nav ul:hover .audience-trigger .label {
-		border-right: 1px solid #fff;
+		border-right: 0 none;
 	}
 
 	.quick-nav a:hover,
