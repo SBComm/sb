@@ -454,8 +454,8 @@ ul.stream {
 }
 .dcsns-toolbar .filter .link-all {
 	color: #fff;
-	height: 21px;
-	padding: 7px 7px 4px 7px;
+	height: 35px;
+	padding: 7px 8px 4px 8px;
 	text-shadow: 0 0 1px #555;
 	font-weight: bold;
 	-webkit-text-shadow: -1px 1px 0 #555;
@@ -474,7 +474,7 @@ ul.stream {
 	display: block;
 	float: left;
 	background: #777;
-	height: 28px;
+	height: 35px;
 	border: 1px solid #616161;
 	box-shadow: 0 0 5px #696969 inset;
 }
@@ -520,6 +520,9 @@ ul.stream {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+.dcsns-toolbar .filter li .font-icon:hover {
+	color: #fff !important;
 }
 /* Controls */
 .dcsns .controls {

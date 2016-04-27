@@ -46,7 +46,7 @@
         <?php includeAsset('css','css/vendor/tooltipster/themes/tooltipster-light.css'); ?>
         <!--<link rel="stylesheet" href="fonts/icomoon/style.css">-->
         <!--<link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">-->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
     <!--END CSS Style Includes-->
 
         <?php if($carousel) { ?>
@@ -125,9 +125,7 @@
         <?php if($page_type=='second-level' || ($page_type=='social-hub'&&$second_level=='alumni')) { ?>
             <?php includeAsset('css','css/second-level.css','all'); ?>
             <?php includeAsset('css','css/second-level/'.$second_level.'.css','all'); ?>
-            
-                <?php includeAsset('css','css/second-level/branded-second-level.css','all'); ?>
-
+            <?php includeAsset('css','css/second-level/branded-second-level.css','all'); ?>
             <?php if($second_level=='alumni-and-friends') { ?>
                 <?php includeAsset('css','css/second-level/admissions.css','all'); ?>
                 <?php includeAsset('css','css/second-level/alumni-inside.css','all'); ?>

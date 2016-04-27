@@ -85,7 +85,7 @@ h2, .changingWorld h3,
     .hero-sb .hero-sb_text h1 {
       color: #fff;
       font-size: 38px;
-      line-height: 90%;
+      line-height: 0.85em;
       width: 100%;
       text-shadow: 0 0 10px rgba(0,0,0,.4); }
     .hero-sb .hero-sb_text p, .hero-sb .hero-sb_text span a {
@@ -130,7 +130,8 @@ h2, .changingWorld h3,
         padding-top: 1.5rem;
         width: 70%; }
         .hero-sb .hero-sb_text h1 {
-          font-size: 60px; }
+          font-size: 60px;
+          line-height: 0.em; }
         .hero-sb .hero-sb_text p {
           font-size: 1.25rem; } }
     @media (min-width: 801px) {
@@ -175,7 +176,11 @@ h2, .changingWorld h3,
       .hero-sb .hero-sb_text div h1, .hero-sb .hero-sb_text div p {
         width: 50%;
         display: block;
-        clear: both; } }
+        clear: both; }
+        .hero-sb .hero-sb_text div h1 {
+         line-height: .78em;
+        }
+      }
 @media (min-width: 1400px) {
   .hero-sb .hero-sb_text {
       min-height: 750px;

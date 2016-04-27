@@ -26,7 +26,7 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Current students at Stony Brook University find class schedules, links, clubs and opportunities to thrive in campus life.';
+		    $og_description  = 'Faculty and Staff at SBU find links and resources to Campus Services, as well as the latest campus news.';
 		    $og_url          = 'http://www.stonybrook.edu/faculty-staff';
 
 		    $page_to_top_link = true;

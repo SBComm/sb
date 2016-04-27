@@ -379,6 +379,7 @@ footer.site-footer .img-col + .link-col {
 .tweets-and-news .social-promo .section-thumb a img {
     display: block;
     width: 100%;
+    padding: 0;
 }
 
 .tweets-and-news .social-promo .section-text {

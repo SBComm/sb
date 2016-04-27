@@ -21,7 +21,7 @@
 		<h3 class="clearfix"><span>Want to change the great big world?</span> <span><strong>So&nbsp;do we.</strong> Join our community of explorers.</span></h3>
 		<ul class="clearfix">
 			<li class="btn"><a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/visit/">Visit us</a></li>
-			<li class="btn"><a class="nivo-lightbox" href="https://www.youvisit.com/tour/59968/?pl=v&amp;hover=0" data-lightbox-type="iframe">Take a virtual tour</a></li>
+			<li class="btn"><a href="http://m.stonybrook.edu/sb/undergraduate-admissions/virtual-tour/">Take a virtual tour</a></li>
 			<li class="btn"><a href="http://www.stonybrook.edu/sb/far-beyond/admissions/">Apply</a></li>
 			<li class="btn"><a href="http://stonybrook.edu/summer/">Summer Sessions</a></li>
 		</ul>

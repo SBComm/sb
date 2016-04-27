@@ -31,7 +31,7 @@
 }
 
 .second-level-header h1 {
-    font-family: "Effra W01", "Arial", sans-serif;
+    font-family: "Effra W01", "Effra W01 Heavy", "Arial", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
@@ -428,7 +428,11 @@ h4 {
     }
 
     .carousel-style-02  .carousel-image {
-        height: 335px;
+        height: 380px;
+    }
+
+    .carousel-style-02  .carousel-image img {
+        width: 100%;
     }
 
     .carousel-style-02 .carousel-text {

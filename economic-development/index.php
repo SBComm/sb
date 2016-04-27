@@ -102,7 +102,7 @@
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
 		        	<?php if($page_footer) {
-						$file = "footers/eco-dev-footer.php";
+						$file = $footer;
 						include($path . $file);
 					} ?>
 					<?php if($page_footerbar) {

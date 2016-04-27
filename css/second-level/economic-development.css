@@ -20,6 +20,7 @@
 
 .title-link-box-wrapper {
     background: #fff;
+    margin-top: 40px;
 }
 
 .left-link-box .more-button,
@@ -500,7 +501,7 @@ section.resources-wrapper {
     }
     section.title-link-box-wrapper {
         width: 96%;
-        margin: 0 auto;
+        margin: 60px auto 0;
         max-width: 1022px;
         padding-bottom: 40px;
     }

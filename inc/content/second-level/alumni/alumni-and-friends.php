@@ -10,7 +10,7 @@
     <section class="admissions-promo-wrapper">
         <div class="wrapper border-box clearfix inside-content">
             <h2>
-                <span class="smaller">Help take us</span> 
+                <span class="smaller">Together We Go</span> 
                 <span class="larger"><span class="nowrap">FAR BEYOND</span></span>
             </h2>
             <div class="border-box clearfix compare-table">

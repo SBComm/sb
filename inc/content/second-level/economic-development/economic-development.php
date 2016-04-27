@@ -1,10 +1,10 @@
-<article>
-    <section class="grey-background page-title">
+<article class="clearfix header-title-image-white-rays second-level-header with-carousel">
+    <section class="transparent-background page-title">
         <div class="wrapper border-box">
-            <h1 class="serif">Economic Development</h1>
+            <h1>Economic Development</h1>
         </div>
     </section>
-    <section class="grey-background arrow-below arrow-below-grey">
+    <section class="transparent-background arrow-below arrow-below-white">
         <div class="no-pad-wrapper border-box">
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-02">
@@ -45,6 +45,8 @@
             </div>
         </div>
     </section>
+</article>
+<article class="clearfix">
     <section class="clearfix title-link-box-wrapper arrow-below arrow-below-white">
         <div class="border-box clearfix title-link-box-container">
             <div class="title-link-box-1 left-link-box">

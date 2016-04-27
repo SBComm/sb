@@ -40,8 +40,7 @@
 		                        </li>
 		                        <li>
 		                        	<span class="more-trigger">
-		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
-		                        		<span class="label clearfix">More<span class="extra-label"> Links</span></span>
+		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>More<span class="extra-label">&nbsp;Links</span><span class="extra-label-mobile">...</span></span>
 		                        	</span>
 		                        </li>
 		                        <!--<li class="desktop for-info">
@@ -75,7 +74,7 @@
 		                        		<span class="label clearfix">Get Info</span>
 		                        	</a>
 		                        </li>
-		                        <li class="tablet mobile">
+		                        <li class="tablet mobile desktop">
 		                        	<a href="undergraduate-admissions/contact/brochures/">
 		                        		<i class="icon fa fa-book clearfix"></i>
 		                        		<span class="label clearfix">Brochures</span>
@@ -99,13 +98,13 @@
 		                        		<span class="label clearfix">Majors</span>
 		                        	</a>
 		                        </li>
-		                        <li class="mobile">
+		                        <li>
 		                        	<a href="undergraduate-admissions/visit/" class="clearfix">
 		                        		<i class="icon fa fa-map-marker clearfix"></i>
 		                        		<span class="label clearfix">Visit</span>
 		                        	</a>
 		                        </li>
-		                        <li class="tablet mobile">
+		                        <li class="tablet mobile desktop">
 		                        	<a href="undergraduate-admissions/visit/directions-and-parking/">
 		                        		<i class="icon fa fa-arrow-circle-right clearfix"></i>
 		                        		<span class="label clearfix">Directions</span>
