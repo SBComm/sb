@@ -2237,7 +2237,8 @@
 	padding: 0 0 20px;
 }
 
-.header-container .more-nav-v3 {
+.header-container .more-nav-v3,
+#main .more-nav-v3 {
 	border-top: 1px solid #4b4b4b;
 }
 
