@@ -1402,7 +1402,7 @@
 	}
 
 	.quick-nav ul li:hover .audience-trigger .label {
-		border-right: 1px solid #900;
+		border-right: 0 none;
 	}
 
 	.quick-nav ul li.before-selected .label {
@@ -1489,9 +1489,11 @@
 	.quick-nav .search-trigger:hover,
 	.quick-nav .search-trigger.selected,
 	.quick-nav .more-trigger:hover,
-	.quick-nav .more-trigger.selected {
-	color: #900;
-	background-color: transparent;
+	.quick-nav .more-trigger.selected,
+	.quick-nav .audience-trigger:hover,
+	.quick-nav .audience-trigger.selected {
+		color: #900;
+		background-color: transparent;
 	}
 	
 /*
