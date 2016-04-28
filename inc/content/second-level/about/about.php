@@ -8,7 +8,7 @@
         <div class="border-box wrapper clearfix pad-top">
 
             <div class="content pad-top">
-                <img class="inline-image" src="img/university/pole-banners.jpg" />
+                <img class="inline-image" src="img/university/pole-banners-far-beyond.jpg" />
                 <p>Stony Brook University is one of America’s most dynamic public
                 universities, a center of academic excellence and an internationally
                 recognized research institution that is changing the world. After less than
@@ -126,8 +126,8 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The <a href="http://alumniandfriends.stonybrook.edu/page.aspx?pid=352">Stony Brook Alumni Association</a> represents more than 160,000 alumni nationwide and abroad. Established in 1965, the Association works to increase communication, encourage involvement, and expand services for alumni, while we build support for Stony Brook University. For more info, see <a href="http://stonybrook.edu/offires/alumni/alumnidegrees.shtml">Alumni &amp; Degrees Granted</a>.</p>
-                                <p>Stony Brook graduates rank among the highest in the nation when it comes to earnings potential, according to the PayScale College Salary Report. More » <a class="arrow-after" href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/cost-and-financial-aid/">See the numbers</a></p>
+                                <p>The <a href="http://alumniandfriends.stonybrook.edu/page.aspx?pid=352">Stony Brook Alumni Association</a> represents more than 160,000 alumni nationwide and abroad. Established in 1965, the Association works to increase communication, encourage involvement, and expand services for alumni, while we build support for Stony Brook University. For more info, <a href="http://stonybrook.edu/offires/alumni/alumnidegrees.shtml">See Alumni &amp; Degrees Granted</a>.</p>
+                                <p>Stony Brook graduates rank among the highest in the nation when it comes to earnings potential, according to the PayScale College Salary Report.<a class="arrow-after" href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/cost-and-financial-aid/">See the numbers</a></p>
                                 <p>Some Stony Brook Alumni success stories:</p>
                                 <ul class="default-bullets">
                                     <li>Craig Allen '79, chief meteorologist CBS "This Morning" and WCBS Newsradio 88</li>
@@ -369,7 +369,8 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The Office of the Provost carries responsibility for the academic mission of the west campus, providing direct supervision for all academic units, support services and operations, and coordinating all academic programs. The Deans and Directors of the Colleges, Schools, Libraries, Centers and Institutes, other than those in the Health Science Center, report to the Provost. The Provost acts on behalf of the President in the absence of the President. The Provost works closely with the Dean of the Medical School/Vice President of the Health Sciences Center and the Vice President for Research in academic and research issues that concern the University as a whole. <a class="arrow-after" href="http://www.stonybrook.edu/commcms/provost/">Visit the Office of the Provost</a></p>
+                                <p>The Office of the Provost carries responsibility for the academic mission of the west campus, providing direct supervision for all academic units, support services and operations, and coordinating all academic programs. The Deans and Directors of the Colleges, Schools, Libraries, Centers and Institutes, other than those in the Health Science Center, report to the Provost. The Provost acts on behalf of the President in the absence of the President. The Provost works closely with the Dean of the Medical School/Vice President of the Health Sciences Center and the Vice President for Research in academic and research issues that concern the University as a whole. <br>
+                                <a class="arrow-after" href="http://www.stonybrook.edu/commcms/provost/">Visit the Office of the Provost</a></p>
                             </div>
                         </div>
                     </div>
@@ -652,8 +653,8 @@
                                     <li><a href="http://www.ctsr-sunysb.org/new/index.shtml">Center for Thermal Spray Research</a></li>
                                     <li><a href="http://stonybrook.edu/garcia">Garcia Center for Polymers at Engineered Interfaces</a></li>
                                     <li><a href="http://laufercenter.stonybrook.edu/">Laufer Center for Physical and Quantitative Biology</a></li>
-                                    <li><a href="http://istem.stonybrook.edu/"> The Institute for STEM Education (I-STEM)</a></li>
-                                    <li><a href="http://www.stonybrook.edu/m2m"> m2M: Center for Mesoscale Transport Properties</a></li>
+                                    <li><a href="http://istem.stonybrook.edu/">The Institute for STEM Education (I-STEM)</a></li>
+                                    <li><a href="http://www.stonybrook.edu/m2m">m2M: Center for Mesoscale Transport Properties</a></li>
                                     <li><a href="http://www.sensorcat.sunysb.edu/">NYS Center for Advanced Technology in Sensor Systems and Diagnostic Tools</a></li>
                                     <li><a href="http://www.scgp.stonybrook.edu/">Simons Center for Geometry and Physics</a></li>
                                     <li><a href="http://insti.physics.sunysb.edu/itp/">C.N. Yang Institute for Theoretical Physics</a></li>
@@ -676,10 +677,10 @@
                                     <li><a href="http://stonybrooksbdc.com/">Small Business Development Center</a></li>
                                     <li><a href="http://www.spir.sunysb.edu/">Strategic Partnership for Industrial Resurgence (SPIR)</a></li>
                                 </ul>
-
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
 
             <p>&nbsp;</p>
@@ -732,7 +733,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The Long Island State Veterans Home is a 350-bed facility on campus providing high-quality health care services for US veterans and their families. <a class="arrow-after" href="http://www.listateveteranshome.org/">Learn more</a></p>
+                                <p>The Long Island State Veterans Home is a 350-bed facility on campus providing high-quality health care services for US veterans and their families. <br> <a class="arrow-after" href="http://www.listateveteranshome.org/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -806,7 +807,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -951,43 +951,36 @@
             <p>&nbsp;</p>
             <h3>Presidents</h3>
             <div class="content">
-                <p>The University is divided into 12 schools and colleges: the College of Arts and Sciences, the College of Business, the College of Engineering and Applied Sciences, the Graduate School, the School of Journalism, the School of Marine and Atmospheric Sciences, the School of Professional Development, and the five health sciences schools: Dental Medicine, Health Technology and Management, Medicine, Nursing and Social Welfare. <a class="arrow-after" href="http://www.stonybrook.edu/pres/">Visit Office of the President </a>
-                &nbsp;
-                <a class="arrow-after" href="http://www.stonybrook.edu/sb/sbcouncil/index.shtml">Visit Stony Brook Council </a> </p>
-                
-                <p> </p>
+                <p>The University is divided into 12 schools and colleges: the College of Arts and Sciences, the College of Business, the College of Engineering and Applied Sciences, the Graduate School, the School of Journalism, the School of Marine and Atmospheric Sciences, the School of Professional Development, and the five health sciences schools: Dental Medicine, Health Technology and Management, Medicine, Nursing and Social Welfare.</p> 
+                <p> <a class="arrow-after" href="http://www.stonybrook.edu/pres/">Visit Office of the President </a></p>
+                <p><a class="arrow-after" href="http://www.stonybrook.edu/sb/sbcouncil/index.shtml">Visit Stony Brook Council </a></p> 
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i> July 1, 2009– Present: Samuel L. Stanley Jr., MD, President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>July 1, 2009– Present: Samuel L. Stanley Jr., MD, President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                    
-                                <p> <img class="president_image" src="img/presidents/stanleysamuel.jpg"> "Samuel L. Stanley Jr., MD is fifth President of Stony Brook University. He received his MD (1980) from Harvard Medical School. After completing his internship and residency at Massachusetts General Hospital, he did postdoctoral work in immunology at Washington University, St. Louis, and was appointed to the faculty in the Division of Infectious Diseases of Washington University Medical School, one of the nation’s most highly ranked Schools of Medicine. In 2003, he was named Director of the Midwest Regional Center for Excellence for Biodefense and Emerging Infectious Diseases Research and Vice Chancellor for Research in 2006. Dr. Stanley is a distinguished medical researcher and has published extensively." <a class="arrow-after" href="https://web.archive.org/web/20160403115726/http://www.stonybrook.edu/pres/bio.html">More Info</a></p>
+                            <div class="content-wrap">    
+                                <p> <img class="president_image" src="img/presidents/stanleysamuel.jpg">Samuel L. Stanley Jr., MD is fifth President of Stony Brook University. He received his MD (1980) from Harvard Medical School. After completing his internship and residency at Massachusetts General Hospital, he did postdoctoral work in immunology at Washington University, St. Louis, and was appointed to the faculty in the Division of Infectious Diseases of Washington University Medical School, one of the nation’s most highly ranked Schools of Medicine. In 2003, he was named Director of the Midwest Regional Center for Excellence for Biodefense and Emerging Infectious Diseases Research and Vice Chancellor for Research in 2006. Dr. Stanley is a distinguished medical researcher and has published extensively.<a class="arrow-after" href="https://web.archive.org/web/20160403115726/http://www.stonybrook.edu/pres/bio.html">More Info</a></p>
                             </div>
                         </div>
                     </div>
-
                     <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>1994–2009: Shirley Strum Kenny, President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                        
-                                <p> <img class="president_image" src="img/presidents/shirley2.jpg"> "Shirley Strum Kenny was the first woman and humanist to serve as President of Stony Brook University. After a distinguished career as a literary scholar, teacher, and academic administrator, she came to Stony Brook as its fourth president in 1994. She strengthened the core academic and research operations of the University, fostered close links with business and industry, and established new working relationships with the Long Island community. Kenny launched and chaired the Boyer Commission on Educating Undergraduates in the Research University with funding from the Carnegie Foundation for the Advancement of Teaching. Prior to her tenure at Stony Brook, Kenny was President of Queens College from 1985 to 1994."</p>
+                                <p> <img class="president_image" src="img/presidents/shirley2.jpg">Shirley Strum Kenny was the first woman and humanist to serve as President of Stony Brook University. After a distinguished career as a literary scholar, teacher, and academic administrator, she came to Stony Brook as its fourth president in 1994. She strengthened the core academic and research operations of the University, fostered close links with business and industry, and established new working relationships with the Long Island community. Kenny launched and chaired the Boyer Commission on Educating Undergraduates in the Research University with funding from the Carnegie Foundation for the Advancement of Teaching. Prior to her tenure at Stony Brook, Kenny was President of Queens College from 1985 to 1994.</p>
                             </div>
                         </div>
                     </div>
-
                      <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>1980–1994: John H. Marburger III, President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                   
                                 <p> <img class="president_image" src="img/presidents/marburger.jpg"> In 1980, John H. Marburger III became the third president of Stony Brook University, a position he held until 1994 when he became University Professor of Physics and Electrical Engineering. Marburger's presidency coincided with the opening of University Medical Center and the development of the biological sciences as a major strength of the university. During the 1980s, federally sponsored scientific research at Stony Brook grew to exceed that of any other public university in the Northeast. In 1998, he became director of <a href="https://web.archive.org/web/20160403115726/http://www.bnl.gov/world/">Brookhaven National Laboratory</a> and president of Brookhaven Science Associates. He also served President George W. Bush as science advisor and director of the Office of Science and Technology Policy.</p>
                             </div>
                         </div>
@@ -999,19 +992,16 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                            <br>
                                 <p> Acting President from 1979-1980. </p>
                             </div>
                         </div>
                     </div>
-
                       <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>1978–1979: T. Alexander Pond, Executive Vice President, Acting President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                            <br>
                                 <p> Acting President from 1978-1979</p>
                             </div>
                         </div>
@@ -1023,8 +1013,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                         
-                                <p>  <img class="president_image" src="img/presidents/toll.jpg"> "In 1965, John S. Toll, a Princeton-trained physicist and former professor and chairman of the Department of Physics and Astronomy at the University of Maryland, became the second president of Stony Brook University. By the time he left, the school of 1,800 students had been built to one of 17,000 students and, in addition to arts and sciences and engineering, he added schools of public affairs, medicine, dentistry, nursing, allied health professions, basic health sciences and social work. Toll recruited elite researchers and scholars, including Nobel Prize recipient CN Yang, to develop competitive academic departments. For his contributions to the University, Toll was listed among “100 Who Shaped the Century” by Newsday."</p>
+                                <p>  <img class="president_image" src="img/presidents/toll.jpg">In 1965, John S. Toll, a Princeton-trained physicist and former professor and chairman of the Department of Physics and Astronomy at the University of Maryland, became the second president of Stony Brook University. By the time he left, the school of 1,800 students had been built to one of 17,000 students and, in addition to arts and sciences and engineering, he added schools of public affairs, medicine, dentistry, nursing, allied health professions, basic health sciences and social work. Toll recruited elite researchers and scholars, including Nobel Prize recipient CN Yang, to develop competitive academic departments. For his contributions to the University, Toll was listed among “100 Who Shaped the Century” by Newsday.</p>
                             </div>
                         </div>
                     </div>
@@ -1035,19 +1024,16 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                            <br>
                                 <p> Karl D. Hartzell was a one-year appointment at Stony Brook as Acting Chief Administrative Officer and Dean of the College of Arts and Sciences</p>
                             </div>
                         </div>
                     </div>
-
                      <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>961–1962: SUNY President Thomas H. Hamilton, Acting Administrative Head</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                            <br>
                                 <p> From 1961-1962 Thoms H. Hamilton was the Acting Administrative Head, and subsequently SUNY Provost Harry W. Porter, Acting Dean of the College of Arts and Sciences, and Hamilton's representative.</p>
                             </div>
                         </div>
@@ -1059,37 +1045,28 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-
                                 <p> <img class="president_image" src="img/presidents/lee2.jpg"> John Francis Lee, the former chairman of the Mechanical Engineering Department at North Carolina State, was appointed as the University's first president on January 1, 1961. His mandate from SUNY was to convert the Long Island Center from a science and engineering college to a full-scale university, complete with liberal arts and sciences programs and a graduate school. On June 25, 1961, the University's first commencement ceremony awarded 25 Bachelor of Science degrees at the Coe Estate In Oyster Bay. Lee served as the University's president until November 9, 1961. Stony Brook: State University of New York, The College History Series]</p>
                             </div>
                         </div>
                     </div>
-
                     <div class="item">
                         <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>1957–1961: Dean Leonard K. Olson</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                            
                              <p> <img class="president_image" src="img/presidents/olson.jpg"> Leonard K. Olson was named dean of the State University College on Long Island on February 14, 1957. His administrative duties included managing the Oyster Bay campus and overseeing the planning of the Stony Brook campus. Olson traveled throughout the United States recruiting top faculty as he intended "this college to set a high standard of academic excellence." The fourteen professors President Olson appointed had formerly held positions at the University of Oxford, Columbia University, Yale University and the University of Chicago. [Stony Brook: State University of New York, The College History Series]</p>
                             </div>
                         </div>
                     </div>
-
                  </div>
             </div>
-            
-
-
         </div>
     </section>
-
     <?php
         $campaignColor = "black";
         $file = "widgets/campaign-banner.php";
         include($path . $file);
     ?>
-
 </article>
 
