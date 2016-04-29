@@ -988,7 +988,7 @@
 
                       <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1979–1980: Richard Schmidt, President, Upstate Medical Center, Acting Presiden</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1979–1980: Richard Schmidt, President, Upstate Medical Center, Acting President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
