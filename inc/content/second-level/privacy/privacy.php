@@ -1,7 +1,7 @@
 <article class="clearfix second-level-header">
     <section class="header-title-image-flowers page-title">
         <div class="wrapper border-box">
-            <h1><a href="about/">About Stony Brook</a></h1>
+            <h1><a href="about/">Privacy Policy</a></h1>
         </div>
     </section>
     <section class="clearfix inside-content main-inside-content two-col white-background">
@@ -22,7 +22,7 @@
                       <li>The date and time of the <em>user's</em> request </li>
                       <li>The pages that were visited and the amount of time spent at each page </li>
                 </ul>
-                <p>None of the above-mentioned information is deemed to constitute <em>personal   information</em> by the <a href="http://public.leginfo.state.ny.us/LAWSSEAF.cgi?QUERYTYPE=LAWS+&amp;QUERYDATA=@PLSTT0A2+&amp;LIST=SEA5+&amp;BROWSER=43090560+&amp;TOKEN=50339927+&amp;TARGET=VIEW" target="_blank">Internet Privacy and Security Act</a>.  The information that is collected automatically is used to improve the  content of this Web site and to help Stony Brook University understand  how <em>users</em> are interacting with its Web site. This information  is collected for statistical analysis and to determine what information  is of most and least interest to our<em> users</em>. The information is  not collected for commercial marketing purposes and Stony Brook  University is not authorized to sell or otherwise disclose the  information collected from this Web site for commercial marketing  purposes. </p>
+                <p>None of the above-mentioned information is deemed to constitute <em>personal   information</em> by the <a href="https://www.its.ny.gov/nys-technology-law#art2" target="_blank">Internet Privacy and Security Act</a>.  The information that is collected automatically is used to improve the  content of this Web site and to help Stony Brook University understand  how <em>users</em> are interacting with its Web site. This information  is collected for statistical analysis and to determine what information  is of most and least interest to our<em> users</em>. The information is  not collected for commercial marketing purposes and Stony Brook  University is not authorized to sell or otherwise disclose the  information collected from this Web site for commercial marketing  purposes. </p>
                 <p>The Website may employ, either directly or through trusted third parties, tracking pixels. Tracking pixels are tiny, transparent graphics with a unique identifier, similar in function to cookies, and are used to provide analytical information concerning the user experience as well as to support custom marketing activities for users of the Website. In contrast to cookies, which are stored on a user's computer hard drive, tracking pixels are embedded invisibly on web pages. The Website may use tracking pixels to help us better manage content, such as by improving the user interface or improving our marketing programs. We also may use non-personally identifiable information to create aggregate tracking information reports regarding user demographics, traffic patterns and purchases and may link tracking information with personal information provided by users.</p>
                 <h4>Information Collected When You E-Mail the University or Complete a Transaction </h4>
                 <p>During your visit to this Web site you may send an e-mail to the  University. Your e-mail address and the contents of your message will  be collected. The information collected is not limited to text  characters and may include audio, video, and graphic information  formats included in the message. Your e-mail address and the  information included in your message will be used to respond to you, to  address issues you identify, to improve this Web site, or to forward  your message to the appropriate campus office for response. Your e-mail  address is not collected for commercial purposes and Stony Brook  University is not authorized to sell or otherwise disclose your e-mail  address for commercial purposes.</p>
@@ -56,11 +56,11 @@
                      <p>Cookies are small pieces of information that are stored by the user's browser on the hard drive of the user's computer. This Web site uses cookies for some of its applications.</p>
                      <h4>Disclaimer</h4>
                      <p>The information provided in this privacy policy should not be construed as giving business, legal, or other advice, or warranting as failproof, the security of information provided through this Web site.</p>
-                     <p>Contact Information <br>
-                    For questions regarding this Internet privacy policy, please contact our privacy officer via e-mail at <a class="email-link" href="mailto:privacy@stonybrook.edu">privacy@stonybrook.edu</a> or by regular mail at:</p>
+                <h4>Contact Information</h4>
+                    <p>For questions regarding this Internet privacy policy, please contact our privacy officer via e-mail at <a class="email-link" href="mailto:privacy@stonybrook.edu">privacy@stonybrook.edu</a> or by regular mail at:</p>
                     <blockquote>
                         <p>Office of University Counsel<br>
-                         State University of New York at Stony   Brook<br>
+                         State University of New York at Stony Brook<br>
                         Administration Room 328<br>
                         Stony Brook, New York 11794 </p>
                     </blockquote>

@@ -1,0 +1,9 @@
+.inline-image {
+	display: none;
+}
+@media only screen and (min-width: 760px) {
+	.inline-image {
+		display: inline-block;
+		width: 25%;
+	}
+}

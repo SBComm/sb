@@ -28,7 +28,7 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Stony Brook University is one of America’s most dynamic public universities, a center of academic excellence and an internationally recognized research institution that is changing the world.';
 		    $og_url          = 'http://www.stonybrook.edu/about';
-		    $main_nav_selected_tab = 1;
+		    $main_nav_selected_tab = 0;
 
 		    $page_to_top_link = true;
 
