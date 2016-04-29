@@ -3,7 +3,7 @@
 	<div class="hero-sb_text" >
 		<div>
 			<h1 class="clearfix">Far Beyond Commencement</h1>
-			<p class="clearfix">Eric Holder, Soledad O'Brien to receive honorary degrees.</p> 
+			<p class="clearfix">Eric Holder, Jr., Soledad O'Brien to receive honorary degrees.</p> 
 			<a class="clearfix" href="http://www.stonybrook.edu/happenings/oncampus/eric-holder-soledad-obrien-to-receive-honorary-degrees-at-2016-commencement/">Learn more</a>
 			<!--<a class="clearfix video-link nivo-lightbox" href="https://www.youtube.com/watch?v=knlQVa1g1Tg" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>-->
 		</div>  
