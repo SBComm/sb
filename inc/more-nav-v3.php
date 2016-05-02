@@ -24,6 +24,9 @@
                 <li class="clearfix">
                 	<a href="http://sb.cc.stonybrook.edu/news/media_relations/reporters_toolkit.php" class="clearfix">Media</a>
                 </li>
+                <li class="clearfix">
+                    <a href="http://www.stonybrook.edu/sb/arts" class="clearfix">Arts &amp; Culture</a>
+                </li>
             </ul>
         </div>
 		<div class="more-nav-v3-col">
@@ -43,6 +46,9 @@
                 </li>
                 <li class="clearfix">
                 	<a href="http://www.stonybrook.edu/sb/directions.shtml" class="clearfix">Directions</a>
+                </li>
+                <li class="clearfix">
+                    <a href="http://www.stonybrook.edu/parking/" class="clearfix">Parking</a>
                 </li>
                 <li class="clearfix">
                 	<a href="http://www.stonybrook.edu/sb/majors.shtml" class="clearfix">Majors &amp; Minors</a>
