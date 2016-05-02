@@ -1,11 +1,10 @@
 <section class="hero-sb animated-preload_background clearfix">
-	<img class="align-image-top" src="img/home-apr15/beyond-commencement-desktop-2.jpg" alt="Eric Holder, Soledad O'Brien to receive honorary degrees" />     
+	<img src="img/home-apr15/Jonathan-Conyers.png" alt="Bronx native Jonathan Conyers" />    
 	<div class="hero-sb_text" >
 		<div>
-			<h1 class="clearfix">Far Beyond Commencement</h1>
-			<p class="clearfix">Eric Holder, Jr., Soledad O'Brien to receive honorary degrees.</p> 
-			<a class="clearfix" href="http://www.stonybrook.edu/happenings/oncampus/eric-holder-soledad-obrien-to-receive-honorary-degrees-at-2016-commencement/">Learn more</a>
-			<!--<a class="clearfix video-link nivo-lightbox" href="https://www.youtube.com/watch?v=knlQVa1g1Tg" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>-->
+			<h1 class="clearfix">Far Beyond New&nbsp;York</h1>
+			<p class="clearfix">At Stony Brook, Bronx native Jonathan Conyers is forging a future he didn&rsquo;t believe was in reach.</p> 
+			<a class="clearfix video-link nivo-lightbox" href="http://www.youtube.com/watch?v=HSWHH4lKEI4" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
 		</div>  
 	</div>
 </section>
