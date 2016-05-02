@@ -114,7 +114,7 @@
                             <a href="stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://it.stonybrook.edu/it-system-status" class="clearfix">IT System Status</a>
+                            <a href="http://stonybrook.edu/happenings" class="clearfix">Happenings</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/pres/" class="clearfix">Office of the President</a>

@@ -84,7 +84,7 @@ h2, .changingWorld h3,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); }
     .hero-sb .hero-sb_text h1 {
       color: #fff;
-      font-size: 35px;
+      font-size: 38px;
       line-height: 0.85em;
       width: 100%;
       text-shadow: 0 0 10px rgba(0,0,0,.4); }
@@ -158,7 +158,7 @@ h2, .changingWorld h3,
 @media (min-width: 1160px) {
   .hero-sb {;
     overflow: hidden;;
-    max-height: 610px;; }
+    max-height: 680px;; }
     .hero-sb img {
       margin-top: -20%; }
     .hero-sb .hero-sb_text {
@@ -271,11 +271,11 @@ h2, .changingWorld h3,
       padding: 0;
     }
       .hero-sb img {
-        float: right;
+        float: none;
         height: auto;
         max-width: 185%;
-        width: 124%;
-        margin-left: 0;
+        width: 118%;
+        margin-left: -9%;
       }
     }
   @media (min-width: 941px) {
@@ -302,7 +302,7 @@ h2, .changingWorld h3,
       width: 100%;
     }
     .hero-sb img.align-image-top {
-      margin-top: -5%;
+      margin-top: -3%;
     }
   }
   @media (min-width: 1400px) {

@@ -82,6 +82,9 @@
                 <li class="clearfix">
                 	<a href="http://it.stonybrook.edu/it-system-status" class="clearfix">IT System Status</a>
                 </li>
+                <li class="clearfix">
+                    <a href="http://stonybrook.edu/happenings" class="clearfix">Happenings</a>
+                </li>
             </ul>
         </div>
 		<div class="more-nav-v3-col">
