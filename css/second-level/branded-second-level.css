@@ -10,6 +10,16 @@
     background-size: cover;
     background-position: center;
 }
+.arts-and-culture-strip-3 {
+    background-image: url("../../img/marquees/arts-and-culture-strip-3.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    text-shadow: 0 0 15px #fff;
+    
+}
+
 .header-title-image-science {
     background-image: url("../../img/university/science-banner-2000.jpg");
     background-size: 100%;
