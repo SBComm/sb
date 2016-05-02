@@ -306,7 +306,8 @@
                                 <a href="http://www.facebook.com/stonybrookmed" target="_blank"><i class="fa fa-facebook-square"></i></a>
                                 <a href="https://twitter.com/StonyBrookMed" target="_blank"><i class="fa fa-twitter"></i></a>
                                 <a href="http://www.youtube.com/stonybrookmedicine" target="_blank"><i class="fa fa-youtube"></i></a>
-                                <a href="http://www.flickr.com/photos/stonybrookmedicine" target="_blank"><i class="fa fa-flickr"></i></a>
+                                <a href="http://instagram.com/stonybrookmedicine" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/company/stony-brook-medicine" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
