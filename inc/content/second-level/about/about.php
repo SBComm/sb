@@ -251,6 +251,16 @@
                     </div>
                     <div class="item">
                         <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Athletics</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <p>Stony Brook Athletics supports 20 Division I varsity intercollegiate athletic programs that compete at the highest level within the NCAA, and in world-class facilities such as the 8,300-seat Kenneth P.LaValle Stadium and a sports complex housing our new 4,000-seat Stony Brook Arena, opening in Fall 2014. <a class="arrow-after" href="http://goseawolves.cstv.com/">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>Campus Residences</span>
                         </div>
                         <div class="content clearfix hide-accessible">
@@ -263,6 +273,26 @@
                                 <li>Approximately 83% of freshmen live on campus</li>
                                 <li> Room &amp; Board: $12,032 (varies according to meal plan) </li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Southampton</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/southampton/mfa/">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/sb/southampton/index.shtml">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Manhattan</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <p>Stony Brook Manhattan, at 27th Street and Park Avenue South, is a state-of-the-art facility featuring undergraduate and graduate classes, conference rooms, offices and a reception space for special events. <a class="arrow-after" href="http://www.stonybrook.edu/sb/nyc/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -774,36 +804,6 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>Staller Center for the Arts hosts international theatrical and musical performances, and an independent <a href="http://stonybrookfilmfestival.com/">film festival</a> each July. <a class="arrow-after" href="http://www.staller.sunysb.edu/">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Athletics</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <p>Stony Brook Athletics supports 20 Division I varsity intercollegiate athletic programs that compete at the highest level within the NCAA, and in world-class facilities such as the 8,300-seat Kenneth P.LaValle Stadium and a sports complex housing our new 4,000-seat Stony Brook Arena, opening in Fall 2014. <a class="arrow-after" href="http://goseawolves.cstv.com/">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Southampton</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/southampton/mfa/">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/sb/southampton/index.shtml">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Manhattan</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <p>Stony Brook Manhattan, at 27th Street and Park Avenue South, is a state-of-the-art facility featuring undergraduate and graduate classes, conference rooms, offices and a reception space for special events. <a class="arrow-after" href="http://www.stonybrook.edu/sb/nyc/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
