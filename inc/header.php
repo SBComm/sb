@@ -38,6 +38,7 @@
     <!--BEGIN CSS Includes-->
         <?php includeAsset('css','css/vendor/normalize.min.css'); ?>
         <?php includeAsset('css','css/main.css'); ?>
+        <?php includeAsset('css','css/new-brand.css'); ?>
         <?php includeAsset('css','css/nav.css'); ?>
         <?php includeAsset('css','css/elements/cd-dropdown/cd-dropdown.css'); ?>
         <?php includeAsset('css','css/elements/tables/responsive-table.css'); ?>
@@ -157,9 +158,11 @@
 
         <?php if($page_type=='home') { ?>
             <?php includeAsset('css','css/home-apr15/homepage-styles.css','all'); ?>
+        <?php } ?> 
+
+        <?php if($mag_article) { ?>
+            <?php includeAsset('css','css/second-level/magazine-article.css','all'); ?>
         <?php } ?>
-
-
 
         <!--BEGIN IE Specific CSS Includes and Polyfills-->
             <!--[if IE 11]>
