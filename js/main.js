@@ -196,12 +196,29 @@ var initReady = function() {
 	$('a[href^="#"]').on('click',function(event) {
 		var target = $(this).attr('href');
 		var isTrigger = $(this).hasClass('is-trigger');
-		if(target.length>1 && !isTrigger) {
+		var isGallery = $(this).hasClass('nivo-lightbox');
+		var triggerRole = $(this).attr('data-trigger-role');
+		var disableHistoryState = $(this).attr('data-disable-history-state');
+		var offset = $(this).attr('data-offset')=='true' ? true : false;
+		var offsetTop = parseInt($(this).attr('data-offset-top'));
+		var offsetBreakpointStart = $(this).attr('data-offset-breakpoint-start') ? parseInt($(this).attr('data-offset-breakpoint-start')) : 0;
+		/*	
+		console.log(isTrigger);
+		console.log(triggerRole);
+		console.log(disableHistoryState);
+		console.log(offset);
+		console.log(offsetTop);
+		console.log(offsetBreakpointStart);
+		console.log($(window).width() >= offsetBreakpointStart);
+		*/
+		if(target.length>1 && !isTrigger && !isGallery) {
 			event.preventDefault();
 		    var hash = target.substring(1); //strip off the #
-		    window.location.hash = "view-"+hash;
+		    if(disableHistoryState != 'true') {
+		    	window.location.hash = "view-"+hash;
+		    }
 
-		    if($(this).attr('data-trigger-role') == 'show-content') {
+		    if(triggerRole == 'show-content') {
 		    	$('#tabbed-nav-content li').removeClass('open');
 		    	$(target).addClass('open');
 		    	$('#tabbed-nav li').removeClass('selected');
@@ -209,6 +226,19 @@ var initReady = function() {
 	    		$('body').scrollTo($(target), 400, {
 			    	axis: 'y'
 			    });
+		    } else if(offset) {
+		    	if(offsetTop && ($(window).width() >= offsetBreakpointStart)) {
+		    		$('body').scrollTo($(target), 400, {
+				    	axis: 'y',
+				    	offset: {
+				    		top: offsetTop
+				    	}
+				    });
+		    	} else  {
+			    	$('body').scrollTo($(target), 400, {
+				    	axis: 'y'
+				    });
+				}
 		    } else {
 		    	$('body').scrollTo($(target), 400, {
 			    	axis: 'y'
