@@ -251,6 +251,16 @@
                     </div>
                     <div class="item">
                         <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Athletics</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <p>Stony Brook Athletics supports 20 Division I varsity intercollegiate athletic programs that compete at the highest level within the NCAA, and in world-class facilities such as the 8,300-seat Kenneth P.LaValle Stadium and a sports complex housing our new 4,000-seat Stony Brook Arena, opening in Fall 2014. <a class="arrow-after" href="http://goseawolves.cstv.com/">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
                             <span class="label"><i class="fa fa-plus-circle"></i>Campus Residences</span>
                         </div>
                         <div class="content clearfix hide-accessible">
@@ -263,6 +273,26 @@
                                 <li>Approximately 83% of freshmen live on campus</li>
                                 <li> Room &amp; Board: $12,032 (varies according to meal plan) </li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Southampton</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/southampton/mfa/">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/sb/southampton/index.shtml">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tab">
+                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Manhattan</span>
+                        </div>
+                        <div class="content clearfix hide-accessible">
+                            <div class="content-wrap">
+                                <p>Stony Brook Manhattan, at 27th Street and Park Avenue South, is a state-of-the-art facility featuring undergraduate and graduate classes, conference rooms, offices and a reception space for special events. <a class="arrow-after" href="http://www.stonybrook.edu/sb/nyc/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -777,36 +807,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Athletics</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <p>Stony Brook Athletics supports 20 Division I varsity intercollegiate athletic programs that compete at the highest level within the NCAA, and in world-class facilities such as the 8,300-seat Kenneth P.LaValle Stadium and a sports complex housing our new 4,000-seat Stony Brook Arena, opening in Fall 2014. <a class="arrow-after" href="http://goseawolves.cstv.com/">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Southampton</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/southampton/mfa/">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/sb/southampton/index.shtml">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Stony Brook Manhattan</span>
-                        </div>
-                        <div class="content clearfix hide-accessible">
-                            <div class="content-wrap">
-                                <p>Stony Brook Manhattan, at 27th Street and Park Avenue South, is a state-of-the-art facility featuring undergraduate and graduate classes, conference rooms, offices and a reception space for special events. <a class="arrow-after" href="http://www.stonybrook.edu/sb/nyc/">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -961,7 +961,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">    
-                                <p> <img class="president_image" src="img/presidents/stanleysamuel.jpg">Samuel L. Stanley Jr., MD is fifth President of Stony Brook University. He received his MD (1980) from Harvard Medical School. After completing his internship and residency at Massachusetts General Hospital, he did postdoctoral work in immunology at Washington University, St. Louis, and was appointed to the faculty in the Division of Infectious Diseases of Washington University Medical School, one of the nation’s most highly ranked Schools of Medicine. In 2003, he was named Director of the Midwest Regional Center for Excellence for Biodefense and Emerging Infectious Diseases Research and Vice Chancellor for Research in 2006. Dr. Stanley is a distinguished medical researcher and has published extensively.<a class="arrow-after" href="https://web.archive.org/web/20160403115726/http://www.stonybrook.edu/pres/bio.html">More Info</a></p>
+                                <p> <img class="president_image" src="img/presidents/stanleysamuel.jpg" alt="Picture of President Samuel L. Stanley Jr.">Samuel L. Stanley Jr., MD is fifth President of Stony Brook University. He received his MD (1980) from Harvard Medical School. After completing his internship and residency at Massachusetts General Hospital, he did postdoctoral work in immunology at Washington University, St. Louis, and was appointed to the faculty in the Division of Infectious Diseases of Washington University Medical School, one of the nation’s most highly ranked Schools of Medicine. In 2003, he was named Director of the Midwest Regional Center for Excellence for Biodefense and Emerging Infectious Diseases Research and Vice Chancellor for Research in 2006. Dr. Stanley is a distinguished medical researcher and has published extensively.<a class="arrow-after" href="https://web.archive.org/web/20160403115726/http://www.stonybrook.edu/pres/bio.html">More Info</a></p>
                             </div>
                         </div>
                     </div>
@@ -971,7 +971,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p> <img class="president_image" src="img/presidents/shirley2.jpg">Shirley Strum Kenny was the first woman and humanist to serve as President of Stony Brook University. After a distinguished career as a literary scholar, teacher, and academic administrator, she came to Stony Brook as its fourth president in 1994. She strengthened the core academic and research operations of the University, fostered close links with business and industry, and established new working relationships with the Long Island community. Kenny launched and chaired the Boyer Commission on Educating Undergraduates in the Research University with funding from the Carnegie Foundation for the Advancement of Teaching. Prior to her tenure at Stony Brook, Kenny was President of Queens College from 1985 to 1994.</p>
+                                <p> <img class="president_image" src="img/presidents/shirley2.jpg" alt="Picture of Shirley Strum Kenny">Shirley Strum Kenny was the first woman and humanist to serve as President of Stony Brook University. After a distinguished career as a literary scholar, teacher, and academic administrator, she came to Stony Brook as its fourth president in 1994. She strengthened the core academic and research operations of the University, fostered close links with business and industry, and established new working relationships with the Long Island community. Kenny launched and chaired the Boyer Commission on Educating Undergraduates in the Research University with funding from the Carnegie Foundation for the Advancement of Teaching. Prior to her tenure at Stony Brook, Kenny was President of Queens College from 1985 to 1994.</p>
                             </div>
                         </div>
                     </div>
@@ -981,7 +981,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p> <img class="president_image" src="img/presidents/marburger.jpg"> In 1980, John H. Marburger III became the third president of Stony Brook University, a position he held until 1994 when he became University Professor of Physics and Electrical Engineering. Marburger's presidency coincided with the opening of University Medical Center and the development of the biological sciences as a major strength of the university. During the 1980s, federally sponsored scientific research at Stony Brook grew to exceed that of any other public university in the Northeast. In 1998, he became director of <a href="https://web.archive.org/web/20160403115726/http://www.bnl.gov/world/">Brookhaven National Laboratory</a> and president of Brookhaven Science Associates. He also served President George W. Bush as science advisor and director of the Office of Science and Technology Policy.</p>
+                                <p> <img class="president_image" src="img/presidents/marburger.jpg" alt="Picture of John H. Marburger III"> In 1980, John H. Marburger III became the third president of Stony Brook University, a position he held until 1994 when he became University Professor of Physics and Electrical Engineering. Marburger's presidency coincided with the opening of University Medical Center and the development of the biological sciences as a major strength of the university. During the 1980s, federally sponsored scientific research at Stony Brook grew to exceed that of any other public university in the Northeast. In 1998, he became director of <a href="https://web.archive.org/web/20160403115726/http://www.bnl.gov/world/">Brookhaven National Laboratory</a> and president of Brookhaven Science Associates. He also served President George W. Bush as science advisor and director of the Office of Science and Technology Policy.</p>
                             </div>
                         </div>
                     </div>
@@ -1013,7 +1013,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>  <img class="president_image" src="img/presidents/toll.jpg">In 1965, John S. Toll, a Princeton-trained physicist and former professor and chairman of the Department of Physics and Astronomy at the University of Maryland, became the second president of Stony Brook University. By the time he left, the school of 1,800 students had been built to one of 17,000 students and, in addition to arts and sciences and engineering, he added schools of public affairs, medicine, dentistry, nursing, allied health professions, basic health sciences and social work. Toll recruited elite researchers and scholars, including Nobel Prize recipient CN Yang, to develop competitive academic departments. For his contributions to the University, Toll was listed among “100 Who Shaped the Century” by Newsday.</p>
+                                <p>  <img class="president_image" src="img/presidents/toll.jpg" alt="Picture of John S. Toll">In 1965, John S. Toll, a Princeton-trained physicist and former professor and chairman of the Department of Physics and Astronomy at the University of Maryland, became the second president of Stony Brook University. By the time he left, the school of 1,800 students had been built to one of 17,000 students and, in addition to arts and sciences and engineering, he added schools of public affairs, medicine, dentistry, nursing, allied health professions, basic health sciences and social work. Toll recruited elite researchers and scholars, including Nobel Prize recipient CN Yang, to develop competitive academic departments. For his contributions to the University, Toll was listed among “100 Who Shaped the Century” by Newsday.</p>
                             </div>
                         </div>
                     </div>
@@ -1045,7 +1045,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p> <img class="president_image" src="img/presidents/lee2.jpg"> John Francis Lee, the former chairman of the Mechanical Engineering Department at North Carolina State, was appointed as the University's first president on January 1, 1961. His mandate from SUNY was to convert the Long Island Center from a science and engineering college to a full-scale university, complete with liberal arts and sciences programs and a graduate school. On June 25, 1961, the University's first commencement ceremony awarded 25 Bachelor of Science degrees at the Coe Estate In Oyster Bay. Lee served as the University's president until November 9, 1961. Stony Brook: State University of New York, The College History Series]</p>
+                                <p> <img class="president_image" src="img/presidents/lee2.jpg" alt="Picture of John Francis Lee"> John Francis Lee, the former chairman of the Mechanical Engineering Department at North Carolina State, was appointed as the University's first president on January 1, 1961. His mandate from SUNY was to convert the Long Island Center from a science and engineering college to a full-scale university, complete with liberal arts and sciences programs and a graduate school. On June 25, 1961, the University's first commencement ceremony awarded 25 Bachelor of Science degrees at the Coe Estate In Oyster Bay. Lee served as the University's president until November 9, 1961. Stony Brook: State University of New York, The College History Series]</p>
                             </div>
                         </div>
                     </div>
@@ -1055,7 +1055,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                             <p> <img class="president_image" src="img/presidents/olson.jpg"> Leonard K. Olson was named dean of the State University College on Long Island on February 14, 1957. His administrative duties included managing the Oyster Bay campus and overseeing the planning of the Stony Brook campus. Olson traveled throughout the United States recruiting top faculty as he intended "this college to set a high standard of academic excellence." The fourteen professors President Olson appointed had formerly held positions at the University of Oxford, Columbia University, Yale University and the University of Chicago. [Stony Brook: State University of New York, The College History Series]</p>
+                             <p> <img class="president_image" src="img/presidents/olson.jpg" alt="Picture of Leonard K. Olson"> Leonard K. Olson was named dean of the State University College on Long Island on February 14, 1957. His administrative duties included managing the Oyster Bay campus and overseeing the planning of the Stony Brook campus. Olson traveled throughout the United States recruiting top faculty as he intended "this college to set a high standard of academic excellence." The fourteen professors President Olson appointed had formerly held positions at the University of Oxford, Columbia University, Yale University and the University of Chicago. [Stony Brook: State University of New York, The College History Series]</p>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,32 @@
+/*.map-image{
+	align: left;
+	display: block;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 5px 10px 0px;
+}*/
+.inline-image-link{
+
+	display: block;
+
+
+}
+
+a.inline-image-link[href$=".pdf"]:after{
+
+	content: "";
+
+}
+
+p{
+	display: block;
+}
+
+@media only screen and (min-width: 400px) {
+
+.inline-image-link{
+	float: left;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+}
