@@ -41,20 +41,6 @@ $(document).ready(function() {
         }
     });
 
-    $('.boldMovesBox').on('click',function(e) {
-        if($(e.target).hasClass('boldMovesBox-title') || $(e.target).parents('.boldMovesBox-title').length) {
-            e.preventDefault();
-        }
-        if($(window).width()<1024) {
-            if(!$(this).hasClass('engaged') && !$(e.target).hasClass('boldMovesBox-link')) {
-                $(this).toggleClass('engaged');
-            } else if($(e.target).hasClass('close-boldMovesBox') || $(e.target).hasClass('close-boldMovesBox-x')) {
-                e.preventDefault();
-                $(this).closest('.boldMovesBox').removeClass('engaged');
-            }
-        }
-    });
-
     initCaptionTrigger();
 
     $(".magazine-feature_title").fitText(1.4, { minFontSize: '48px', maxFontSize: '80px' });
@@ -63,5 +49,23 @@ $(document).ready(function() {
 
     //force resize for fitText bug
     
-    setTimeout(function(){ $(window).resize(); }, 1000);
+    setTimeout(function(){
+        $(window).resize();
+        if(window.location.hash=='#stories') {
+            if($(window).width() >= 1320) {
+                $('body').scrollTo($('#stories'), 0, {
+                    axis: 'y',
+                    offset: {
+                        top: -124
+                    }
+                });
+            } else {
+                $('body').scrollTo($('#stories'), 0, {
+                    axis: 'y'
+                });
+            }
+        }
+    }, 500);
+
+    
 });
