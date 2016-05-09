@@ -2,9 +2,9 @@
 	<h2 class="magazine-feature_title">Ocean <br />Hero</h2>
 	<p class="magazine-feature_sub">Ellen Pikitch has gracefully assumed the role of a traveling expert on fisheries management <cite class="magazine-feature_author">by Elizabeth Royte</cite></p>
 	<a class="magazine-feature_button brand-button" href="magazine/2016-spring/ocean-hero">Full Story</a>
-	<a class="magazine-feature_more-button" href="#more" data-disable-history-state="true" data-offset="true" data-offset-top="-124" data-offset-breakpoint-start="1320">More from <span>Stony Brook Magazine</span></a>
+	<a class="magazine-feature_more-button" href="#stories" data-disable-history-state="true" data-offset="true" data-offset-top="-124" data-offset-breakpoint-start="1320">More from <span>Stony Brook Magazine</span></a>
 </section>
-<section id="more" class="mag-articles grid-3 clearfix">
+<section id="stories" class="mag-articles grid-3 clearfix">
 
 	<?php
 		/* Outputs the spotlights from Happenings */
@@ -208,6 +208,8 @@
 				</div>
 			</div>
 		</div>
+
+		<a class="clearfix mag-gallery_images-hidden nivo-lightbox" href="http://www.youtube.com/watch?v=w4fYSDeYX9c" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
 		
 		<a class="item nivo-lightbox mag-gallery_images_thumb" href="#image-2" data-lightbox-type="inline" data-caption="true" data-lightbox-gallery="mag-gallery">
 			<img src="magazine/2016-spring/images/gallery/gallery-thumb-2.jpg" alt="" />
@@ -250,6 +252,8 @@
 				</div>
 			</div>
 		</div>
+
+		<a class="clearfix mag-gallery_images-hidden nivo-lightbox" href="http://www.youtube.com/watch?v=m6AKwb9TprM" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
 
 		<!--<a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=ACRpdj5wjQc" data-lightbox-type="inline" data-caption="true" data-lightbox-gallery="mag-gallery"><img class="grid-item_hover-hide" src="magazine/2016-spring/images/gallery/gallery-thumb-1.jpg" alt="" /></a>-->
 	</div>

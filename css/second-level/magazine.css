@@ -264,6 +264,10 @@ h2 {
 	display: block;
 }
 
+.mag-gallery_images-hidden {
+	display: none;
+}
+
 .inline-lightbox-content {
 	display: none;
 }
