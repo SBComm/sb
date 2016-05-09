@@ -61,7 +61,7 @@
 						<p class="subline">'.$story_sub.'</p>
 						<p class="author">'.$author.$photog.'</p>
 					</div>
-					<div>
+					<div class="mag-article_content_wrapper">
 						'.$story_html.'
 						<div class="social-bar">
 							'.$prev_link.'

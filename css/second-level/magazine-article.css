@@ -1048,6 +1048,10 @@ button.trigger span::before {
 	margin: 70px 0 80px;
 }
 
+.mag-article_content_wrapper {
+	z-index: 100;
+}
+
 .intro-effect-sidefixed .content div:nth-child(2) {
 	opacity: 0;
 	-webkit-transform: translateY(100px);
