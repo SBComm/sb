@@ -125,6 +125,8 @@
 .grid-item .mag-articles_title h3 {
     position: absolute;
     top: 43%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 95%;
     left: 2.5%;
@@ -200,6 +202,8 @@
     display: block;
     position: absolute;
     top: 83%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 36%;
     left: 32%;
