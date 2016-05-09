@@ -240,12 +240,12 @@
 
 
 .grid-item--hover-image img {
-    opacity: 0.065;
+    opacity: 0.275;
 }
 
 
 .grid-item--hover-image:hover img {
-    opacity: .275;
+    opacity: .375;
 }
 
 
