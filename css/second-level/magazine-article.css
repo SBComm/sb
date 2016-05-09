@@ -150,6 +150,7 @@ button.trigger {
 	-webkit-animation-delay: 5s;
 	animation-duration: 1s;
 	animation-delay: 5s;
+	overflow: visible;
 }
 
 .mag-article-container:not(.notrans) button.trigger {
@@ -188,7 +189,7 @@ button.trigger::before {
 button.trigger span {
 	position: relative;
 	display: block;
-	overflow: hidden;
+	overflow: visible;
 	width: 100%;
 	height: 100%;
 }
