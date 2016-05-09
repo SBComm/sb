@@ -54,7 +54,7 @@
 				<header class="mag-article_header">
 					<div class="mag-article_header_bg-img"><img src="'.$story_hero_image_url.'" alt="'.$story_hero_image_alt.'" /></div>
 				</header>
-				<button class="trigger animated pulse" data-info="Read the story"><span class="hide-accessible">Read Story</span></button>
+				<button class="trigger animated pulse" data-info="Read the story"><span>Read Story</span></button>
 				<article class="content">
 					<div class="title">
 						<h1>'.$story_title.'</h1>
