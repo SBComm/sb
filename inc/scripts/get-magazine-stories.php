@@ -43,9 +43,9 @@
 		$grid_item_banner = "";
 
 		if($grid_banner=='default') {
-			$grid_item_banner_class = "item_category";
+			$grid_item_banner_class = "grid-item_category--primary";
 			$grid_item_banner = '<span class="grid-item_category '.$grid_item_banner_class.'">'.$grid_item_banner_line_1.'</span>';
-		} else if($grid_display=='white') {
+		} else if($grid_banner=='white') {
 			$grid_item_banner_class = "grid-item_category--secondary";
 			$grid_item_banner = '<span class="grid-item_category '.$grid_item_banner_class.'">'.$grid_item_banner_line_1.' <span>'.$grid_item_banner_line_2.'</span></span>';
 		}
