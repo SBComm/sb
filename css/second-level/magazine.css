@@ -78,6 +78,8 @@ h2 {
 	background: #000;
 	border-top: 1px solid #777;
 	color: #777;
+
+	display: none;
 }
 
 .mag-nav a {

@@ -41,6 +41,16 @@ $(document).ready(function() {
         }
     });
 
+    $('.mag-article_view-gallery').on('click',function(e) {
+        e.preventDefault();
+        $('.mag-article_gallery .nivo-lightbox:first-child').trigger('click');
+    });
+
+    $('.mag-article_watch-video').on('click',function(e) {
+        e.preventDefault();
+        $('.mag-article_gallery .nivo-lightbox:last-child').trigger('click');
+    });
+
     initCaptionTrigger();
 
     $(".magazine-feature_title").fitText(1.4, { minFontSize: '48px', maxFontSize: '80px' });

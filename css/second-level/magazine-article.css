@@ -73,7 +73,8 @@ html, body, .mag-article-container, .mag-article_header {
 
 
 
-#mag-article-container h3 {
+#mag-article-container h3,
+#mag-article-container h4 {
 	font-family: "Effra W01", Arial, serif;
 	font-weight: 700;
 	color: #000;
@@ -81,6 +82,16 @@ html, body, .mag-article-container, .mag-article_header {
 	display: block;
 	clear: both;
 	float: left;
+	line-height: 105%;
+	width: 100%;
+}
+
+#mag-article-container h4 {
+	text-transform: uppercase;
+	font-size: 1.15em;
+	letter-spacing: -.005em;
+	margin: 1.4em 0 2em;
+	display: block;
 }
 
 .title {
@@ -235,7 +246,7 @@ button.trigger span::before {
 }
 
 .content > div:not(.title) {
-	margin: -80px auto 0;
+	margin: 0;
 	max-width: 900px;
 	padding: 0 1.25em;
 }
@@ -250,10 +261,11 @@ button.trigger span::before {
     font-weight: 300;
     text-rendering: optimizeLegibility;
     letter-spacing: -.03em;
+	font-size: 1.1em;
 }
 
 .content > div:not(.title) p:first-child {
-	font-size: 1.35em;
+	font-size: 1.25em;
 }
 
 .content h3 {
@@ -279,6 +291,19 @@ button.trigger span::before {
 	padding: 0;
 	display: inline;
 	color: #900;
+}
+
+@media screen and (max-width: 799px) {
+	.content blockquote {
+		line-height: 1;
+		padding: .45em 0;
+		margin-left: 11%;
+	}
+	.content blockquote p,
+	.content blockquote span {
+		line-height: 1;
+		font-size: 1.5rem;
+	}
 }
 
 .content blockquote::before {
@@ -985,6 +1010,8 @@ button.trigger span::before {
 	-ms-transform: translateY(100px);
 	transform: translateY(100px);
 	text-shadow: 0 0 20px rgba(255,255,255,.5);
+	margin: 70px 0 30px;
+	display: block;
 }
 
 @media only screen and (max-height: 800px) {
@@ -1010,6 +1037,30 @@ button.trigger span::before {
 	-moz-transform: translateY(0);
 	-ms-transform: translateY(0);
 	transform: translateY(0);
+}
+
+a.mag-article_gallery-trigger {
+	margin: 0 0 30px;
+	display: block;
+	text-transform: uppercase;
+    font-family: "Effra W01", Arial, serif;
+    font-weight: 400;
+    display: block;
+    width: auto;
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    float: none;
+    text-align: left;
+}
+
+a.mag-article_gallery-trigger:hover {
+	color: #900;
+    text-decoration: none;
+}
+
+a.mag-article_gallery-trigger em {
+	margin-right: 3px;
 }
 
 .intro-effect-sidefixed .title h1 {
@@ -1056,11 +1107,11 @@ button.trigger span::before {
 .intro-effect-sidefixed .content div {
 	position: relative;
 	color: #4b4b4b;
-	margin: 70px 0 80px;
 }
 
-.mag-article_content_wrapper {
+.content > div:not(.title) .mag-article_content_wrapper {
 	z-index: 100;
+	margin: 70px 0 25px;
 }
 
 .intro-effect-sidefixed .content div:nth-child(2) {
@@ -1081,13 +1132,14 @@ button.trigger span::before {
 
 .intro-effect-sidefixed .content div.social-bar {
 	background: #fff;
-	margin: 40px 0 0;
+	margin: 40px 0 25px;
 	padding: 0;
 	text-transform: uppercase;
 	font-family: "Effra W01", Arial, serif;
 	font-weight: 400;
 	display: block;
 	width: 100%;
+	float: left;
 }
 
 .intro-effect-sidefixed .content div.social-bar a {
@@ -1471,6 +1523,43 @@ button.trigger span::before {
 	transform: translateY(-100%);
 }
 
+.mag-article_content_wrapper .alignright,
+.mag-article_content_wrapper .alignleft {
+	position: relative;
+    float: none;
+    max-width: 100%;
+    width: auto;
+    display: block;
+    margin: 25px auto;
+    box-sizing: border-box;
+    height: auto;
+}
+
+/* article images */
+@media screen and (min-width: 400px) {
+	.mag-article_content_wrapper .alignright,
+	.mag-article_content_wrapper .alignleft {
+		position: relative;
+	    float: right;
+	    margin: 0 0 25px 25px;
+	    display: inline-block;
+    	max-width: 100%;
+	}
+	.mag-article_content_wrapper .alignleft {
+		float: left;
+	    margin: 0 25px 25px 0;
+	}
+}
+
+
+@media screen and (min-width: 800px) {
+	.mag-article_content_wrapper .alignright,
+	.mag-article_content_wrapper .alignleft {
+		max-width: 50%;
+		max-height: 400px;
+	}
+}
+
 /* Media Queries */
 @media screen and (max-width: 47em) {
 	.title, .content {
@@ -1597,6 +1686,17 @@ button.trigger span::before {
 		-ms-transform: translateY(120px);
 		transform: translateY(120px);
 	}
+	.content > div:not(.title) p {
+		font-size: 1.0em;
+	}
+
+	.content > div:not(.title) p:first-child {
+		font-size: 1.15em;
+	}
+
+	a.mag-article_gallery-trigger {
+	    margin: 0 0 40px;
+	}
 }
 
 @media only screen and (min-width: 400px) and (max-width: 752px) {
@@ -1628,8 +1728,8 @@ button.trigger span::before {
 		font-size: .95em;
 		line-height: 1.2em;
 	}
-	.intro-effect-sidefixed .content div {
-		margin: 70px 0 100px;
+	.mag-article_content_wrapper {
+		margin: 70px 0 25px;
 	}
 }
 
