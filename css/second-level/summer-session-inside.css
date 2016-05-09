@@ -439,6 +439,7 @@ ul.course-list .tablesaw-cell-label {
 .nivo-lightbox-inline, .nivo-lightbox-ajax {
     max-height: 10000px;
     padding: 16px 0 !important;
+    height: auto;
 }
 
 .nivo-lightbox-content {
