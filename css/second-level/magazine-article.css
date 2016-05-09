@@ -216,12 +216,22 @@ button.trigger span::before {
 	display: inline-block;
 }
 
+.lt-ie9 button.trigger {
+	display: none;
+}
+
 /* Conent */
 .content {
 	margin: 0 auto;
-	padding: 0 0 3em;
+    padding: 0 0 3em;
+    background: transparent;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.lt-ie9 .content {
 	background: #fff;
-	overflow: hidden;
 }
 
 .content > div:not(.title) {
