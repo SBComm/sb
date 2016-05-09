@@ -163,7 +163,6 @@
 									
 									function scrollPage() {
 										scrollVal = scrollY();
-										console.log(scrollVal);
 										
 										if( noscroll && !ie ) {
 											if( scrollVal < 0 ) return false;
