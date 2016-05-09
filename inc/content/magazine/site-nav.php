@@ -6,10 +6,8 @@
 			<span class="mag-header_issue-info"><span>Issue 01 | Spring/Summer 2016</span></span>
 		</header>
 		<nav class="mag-nav clearfix">
-			<a class="mag-nav_current" href="#">Current Issue</a>
-			<a class="mag-nav_topics" href="#">Topics</a>
-			<a class="mag-nav_archive" href="#">Archives</a>
-			<a class="mag-nav_search" href="#"><span class="hide-accessible">Search</span><em class="fa fa-search"></em></a>
+			<a class="mag-nav_topics smooth-scroll-hash" href="magazine/#stories" data-disable-history-state="true" data-offset="true" data-offset-top="-124" data-offset-breakpoint-start="1320">Current Issue</a>
+			<!--<a class="mag-nav_search" href="#"><span class="hide-accessible">Search</span><em class="fa fa-search"></em></a>-->
 		</nav>
 	</div>
 </div>
