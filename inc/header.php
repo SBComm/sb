@@ -15,10 +15,12 @@
     <!--BEGIN Open Graph Meta Tags-->
     <!--See http://davidwalsh.name/facebook-meta-tags-->
         <meta property="og:title" content="<?php echo $og_title; ?>" />
+        <meta property="og:title" content="<?php echo $og_title; ?>" />
         <meta property="og:description" content="<?php echo $og_description; ?>">
         <meta property="og:type" content="<?php echo $og_type; ?>" />
         <meta property="og:url" content="<?php echo $og_url; ?>" />
         <meta property="og:image" content="<?php echo $og_image; ?>" />
+        <meta property="fb:app_id" content="1111836582191622" />
     <!--END Open Graph Meta Tags-->
 
     <!--BEGIN Cross-device Favicon code-->
