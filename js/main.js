@@ -77,6 +77,22 @@ function scrollToTop(scrollToClass) {
 	} );
 }
 
+function setPageMetaTags(newTitle, newDesc, newURL, newImageURL, includeOgTags) {
+	$("title").text(newTitle);
+	$("meta[name='description']").attr("content", newDesc);
+	if(includeOgTags) {
+		$("meta[property='og\\:title']").attr("content", newTitle);
+		$("meta[property='og\\:description']").attr("content", newDesc);
+		$("meta[property='og\\:url']").attr("content", newURL);
+		$("meta[property='og\\:image']").attr("content", newImageURL);
+	}
+}
+
+function setTwitterURL(twitterTitle,twitterUrl,$twitterLink) {
+	var tweetHref = 'http://twitter.com/share?text="'+twitterTitle+'"&amp;url='+twitterUrl;
+	$twitterLink.attr('href',tweetHref);
+}
+
 function pageHasCarousel() {
 	var carouselIDs = [
 							"#the-carousel-1",
