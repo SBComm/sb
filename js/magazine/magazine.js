@@ -101,7 +101,8 @@ $(document).ready(function() {
     //disable here, doing in PHP
     //setPageMetaTags(newTitle, newDesc, newURL, newImageURL, includeOgTags);
 
-    var twitterTitle = 'Check out this story on Stony Brook MAGAZINE: '+newTitle;
+    //var twitterTitle = 'Check out this story on Stony Brook MAGAZINE: '+newTitle;
+    var twitterTitle = '';
     var $twitterLink = $('.twitter-share-trigger');
     setTwitterURL(twitterTitle,newURL,$twitterLink);
 
