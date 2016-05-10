@@ -79,7 +79,7 @@ $(document).ready(function() {
 
     if($(window).width() < 768) {
         setTimeout(function(){
-            $('#mag-article-container').addClass('modify');
+            $('#mag-article-container .trigger').trigger('click');
         }, 550);
     }
 
