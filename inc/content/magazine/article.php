@@ -42,6 +42,7 @@
 				}
 			}
 
+			$gallery_img_0 = $post->acf->magazine_large_hero_image;
 			$gallery_img_1 = $post->acf->magazine_gallery_image_1;
 			$gallery_img_2 = $post->acf->magazine_gallery_image_2;
 			$gallery_img_3 = $post->acf->magazine_gallery_image_3;
@@ -55,11 +56,11 @@
 
 			$j = $k = 0;
 			while($j<10) {
-				$j++;
 				if(${"gallery_img_".$j} != '') {
 					$gallery_imgs[$k] = ${"gallery_img_".$j};
 					$k++;
 				}
+				$j++;
 			}
 
 			$gallery = '';
