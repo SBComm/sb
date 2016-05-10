@@ -44,7 +44,8 @@
 		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 
-		    $magazine_this_year  = '2016-spring';
+		    $magazine_this_year  = '2016-spring'; //slug, folder name, for url
+		    $wp_cat = '179'; //category ID from wordpress for this mag edition
 		?>
 
 	<head>

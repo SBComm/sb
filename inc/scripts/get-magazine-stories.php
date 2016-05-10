@@ -1,6 +1,4 @@
 <?php
-
-	$wp_cat = '179';
 	$file = "scripts/get-magazine-json.php";
     include($path . $file);
 
