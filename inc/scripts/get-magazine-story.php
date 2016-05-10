@@ -12,7 +12,7 @@
     		//get mag story
     		$story_slug =  $post->slug;
 			$story_url = 'magazine/'.$magazine_this_year.'/'.$story_slug;
-			$story_url_absolute = 'http://stonybrook.edu/magazine/'.$magazine_this_year.'/'.$story_slug;
+			$story_url_absolute = 'http://mobile.cc.stonybrook.edu/sb/magazine/'.$magazine_this_year.'/'.$story_slug;
 
 			$story_title = $post->title->rendered;
 			$story_grid_title = $post->acf->magazine_grid_title;
