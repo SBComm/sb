@@ -126,7 +126,6 @@ h2 {
 	padding: 25% 0 0;
 	text-align: center;
     background-image: url("../../img/branding/rays/red-rays-full-2.png");
-	background-attachment: fixed;
 }
 
 .magazine-feature_title {
@@ -151,11 +150,12 @@ h2 {
 	margin: 0 20% 20px;
 	color: #fff;
     font-family: "Effra W01", "Arial", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     max-width: 440px;
     margin: 0 auto 20px;
     font-size: 14px;
+    text-shadow: 0 0 5px rgba(0,0,0,.5);
 }
 
 .magazine-feature_author {
@@ -424,6 +424,9 @@ h2 {
 }
 
 @media only screen and (min-width: 660px) {
+	.magazine-feature_sub {
+	    font-weight: 300;
+	}
 	.mag-gallery_images .inline-lightbox-content {
 		display: block;
 		float: left;
@@ -657,6 +660,7 @@ h2 {
 	.magazine-feature {
     	padding: 300px 0 0 0;
 		margin-top: 124px;
+		background-attachment: fixed;
 	}
     .magazine-feature_title {
 	    font-size: 80px;
