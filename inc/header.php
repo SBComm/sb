@@ -15,12 +15,17 @@
     <!--BEGIN Open Graph Meta Tags-->
     <!--See http://davidwalsh.name/facebook-meta-tags-->
         <meta property="og:title" content="<?php echo $og_title; ?>" />
-        <meta property="og:title" content="<?php echo $og_title; ?>" />
         <meta property="og:description" content="<?php echo $og_description; ?>">
         <meta property="og:type" content="<?php echo $og_type; ?>" />
         <meta property="og:url" content="<?php echo $og_url; ?>" />
         <meta property="og:image" content="<?php echo $og_image; ?>" />
         <meta property="fb:app_id" content="1111836582191622" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@stonybrooku">
+        <meta name="twitter:creator" content="@stonybrooku">
+        <meta name="twitter:title" content="<?php echo $og_title; ?>">
+        <meta name="twitter:description" content="<?php echo $og_description; ?>">
+        <meta name="twitter:image" content="<?php echo $og_image; ?>">
     <!--END Open Graph Meta Tags-->
 
     <!--BEGIN Cross-device Favicon code-->
