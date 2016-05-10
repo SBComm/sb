@@ -28,6 +28,7 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Stony Brook Magazine features dynamic stories from the University and throughout the globe, showcasing academic excellence, proven research and the endless possibilities that originate from a Stony Brook education.';
 		    $og_url          = 'http://www.stonybrook.edu/magazine';
+		    $og_type         = 'article';
 		    $main_nav_selected_tab = 0;
 
 		    $page_to_top_link = false;
