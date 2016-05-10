@@ -52,7 +52,8 @@
 			$gallery_img_7 = $post->acf->magazine_gallery_image_7;
 			$gallery_img_8 = $post->acf->magazine_gallery_image_8;
 			$gallery_img_9 = $post->acf->magazine_gallery_image_9;
-			$gallery_img_10 = $post->acf->magazine_gallery_image_10;
+
+			$gallery_illustration = $post->acf->magazine_gallery_illustration;
 
 			$j = $k = 0;
 			while($j<10) {
@@ -85,7 +86,7 @@
 			}
 
 			$gallery_trigger = '';
-			if($gallery_imgs != '') {
+			if(count($gallery_imgs) > 1) {
 				$gallery_trigger = '
 					<a class="mag-article_view-gallery mag-article_gallery-trigger" href="#"><em class="fa fa-camera-retro"></em> View Gallery</a>
 				';
@@ -96,10 +97,32 @@
 			$gallery_video_trigger = '';
 			if($youtube_id != '') {
 				$gallery_video = '
-					<a class="clearfix mag-gallery_images-hidden nivo-lightbox" href="http://www.youtube.com/watch?v='.$youtube_id.'?autoplay=1" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
+					<a class="clearfix mag-gallery_images-hidden nivo-lightbox gallery-video-lightbox" href="http://www.youtube.com/watch?v='.$youtube_id.'?autoplay=1" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
 				';
 				$gallery_video_trigger = '
 					<a class="mag-article_watch-video mag-article_gallery-trigger" href="#"><em class="fa fa-youtube-play"></em> Watch Video</a>
+				';
+			}
+
+			$gallery_illustration_trigger = '';
+			if($gallery_illustration != '') {
+				$gallery_illustration_image = '
+					<a class="item nivo-lightbox mag-gallery_images_thumb gallery-illustration-lightbox" href="#image-'.$n.'" data-lightbox-type="inline" data-caption="true">
+						<img src="'.$gallery_illustration->url.'" alt="'.$gallery_illustration->caption.'" />
+					</a>
+					<div id="image-'.$n.'" class="inline-lightbox-content">
+						<img class="mag-gallery_images_image" src="'.$gallery_illustration->url.'" alt="'.$gallery_illustration->caption.'" />
+						<div class="mag-gallery_images_caption">
+							<button class="mag-gallery_images_caption_view-trigger"><span>View</span> caption</button>
+							<div>
+								<h4>'.$story_title.'</h4>
+								<p>'.$gallery_illustration->caption.'</p>
+							</div>
+						</div>
+					</div>
+				';;
+				$gallery_illustration_trigger = '
+					<a class="mag-article_view-illustration mag-article_gallery-trigger" href="#"><em class="fa fa-picture-o"></em> View Illustration</a>
 				';
 			}
 
@@ -129,6 +152,7 @@
 						'.$story_html.'
 						'.$gallery_trigger.'
 						'.$gallery_video_trigger.'
+						'.$gallery_illustration_trigger.'
 						<div class="social-bar">
 							'.$prev_link.'
 							'.$next_link.'
@@ -139,6 +163,7 @@
 				<div class="mag-article_gallery hide-accessible">
 					'.$gallery.'
 					'.$gallery_video.'
+					'.$gallery_illustration_image.'
 				</div>
 			';
 

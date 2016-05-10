@@ -48,7 +48,12 @@ $(document).ready(function() {
 
     $('.mag-article_watch-video').on('click',function(e) {
         e.preventDefault();
-        $('.mag-article_gallery .nivo-lightbox:last-child').trigger('click');
+        $('.mag-article_gallery .nivo-lightbox.gallery-video-lightbox').trigger('click');
+    });
+
+    $('.mag-article_view-illustration').on('click',function(e) {
+        e.preventDefault();
+        $('.mag-article_gallery .nivo-lightbox.gallery-illustration-lightbox').trigger('click');
     });
 
     initCaptionTrigger();
