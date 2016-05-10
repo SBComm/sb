@@ -98,7 +98,8 @@ $(document).ready(function() {
 
     var $facebookLink = $('.facebook-share-trigger');
 
-    setPageMetaTags(newTitle, newDesc, newURL, newImageURL, includeOgTags);
+    //disable here, doing in PHP
+    //setPageMetaTags(newTitle, newDesc, newURL, newImageURL, includeOgTags);
 
     var twitterTitle = 'Check out this story on Stony Brook MAGAZINE: '+newTitle;
     var $twitterLink = $('.twitter-share-trigger');

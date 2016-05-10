@@ -20,14 +20,22 @@
 	<!-- </inc> -->
 	<!--site variables-->
 		<?php
+			$magazine_this_year  = '2016-spring'; //slug, folder name, for url
+			$mag_article     = true; // pulls in css/js for fancy article page
+		    $wp_cat = '179'; //category ID from wordpress for this mag edition
+			
+			$file = "scripts/get-magazine-story.php";
+		    include($path . $file);
+
 			$page_type       = 'second-level';
 			$second_level    = 'magazine';
 			$page_title_sub  = 'MAGAZINE';
-			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
+			$page_title_full = $story_title . ' | Stony Brook University MAGAZINE';
 
-		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook Magazine features dynamic stories from the University and throughout the globe, showcasing academic excellence, proven research and the endless possibilities that originate from a Stony Brook education.';
-		    $og_url          = 'http://www.stonybrook.edu/magazine';
+		    $og_title        = $page_title_full;
+		    $og_description  = $story_excerpt;
+		    $og_url          = $story_url_absolute;
+		    $og_image        = $story_hero_image_url;
 		    $og_type         = 'article';
 		    $main_nav_selected_tab = 0;
 
@@ -44,10 +52,6 @@
 		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
-
-			$magazine_this_year  = '2016-spring'; //slug, folder name, for url
-			$mag_article     = true; // pulls in css/js for fancy article page
-		    $wp_cat = '179'; //category ID from wordpress for this mag edition
 		?>
 
 	<head>
