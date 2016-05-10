@@ -12,10 +12,12 @@
     		//get mag story
     		$story_slug =  $post->slug;
 			$story_url = 'magazine/'.$magazine_this_year.'/'.$story_slug;
+			$story_url_absolute = 'http://stonybrook.edu/magazine/'.$magazine_this_year.'/'.$story_slug;
 
 			$story_title = $post->title->rendered;
 			$story_grid_title = $post->acf->magazine_grid_title;
 			$story_sub = strip_tags($post->acf->magazine_story_sub);
+			$story_excerpt = strip_tags($post->excerpt->rendered);
 			$story_author = $post->acf->magazine_author_name;
 			$story_photog = $post->acf->magazine_photographer_name;
 			$author = '';
@@ -134,7 +136,14 @@
 			}
 
 			$social_share = '';
-			//$social_share = '<button>Share</button>';
+			$social_share = '
+				<!--<button class="social-share-trigger">Share</button>-->
+				<div class="social-share-button-wrapper clearfix">
+					<button class="button social-share facebook-share facebook-share-trigger"><em class="fa fa-share"></em> Share on Facebook</button>
+					<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new"><em class="fa fa-share"></em> Share on Twitter</a>
+					<!--<button class="button social-share copy-link copy-link-trigger">Copy Link</button>-->
+				</div>
+			';
 
 			$html .= '
 				<header class="mag-article_header">
@@ -152,10 +161,12 @@
 						'.$gallery_trigger.'
 						'.$gallery_video_trigger.'
 						'.$gallery_illustration_trigger.'
+						<div class="social-share-button-wrapper">
+							'.$social_share.'
+						</div>
 						<div class="social-bar">
 							'.$prev_link.'
 							'.$next_link.'
-							'.$social_share.'
 						</div>
 					</div>
 				</article>
@@ -164,6 +175,7 @@
 					'.$gallery_video.'
 					'.$gallery_illustration_image.'
 				</div>
+				<div id="meta-override" class="hidden" data-title="'.$story_title.'" data-description="'.$story_excerpt.'" data-url="'.$story_url_absolute.'" data-image="'.$story_hero_image_url.'"></div>
 			';
 
     		echo $html;

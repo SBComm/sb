@@ -88,5 +88,38 @@ $(document).ready(function() {
         }, 550);
     }
 
+    var newTitle, newDesc, newURL, newImageURL, includeOgTags, $metaDiv;
+    $metaDiv = $('#meta-override');
+    newTitle = $metaDiv.attr('data-title');
+    newDesc = $metaDiv.attr('data-description');
+    newURL = $metaDiv.attr('data-url');
+    newImageURL = $metaDiv.attr('data-image');
+    includeOgTags = true;
+
+    var $facebookLink = $('.facebook-share-trigger');
+
+    setPageMetaTags(newTitle, newDesc, newURL, newImageURL, includeOgTags);
+
+    var twitterTitle = 'Check out this story on Stony Brook MAGAZINE: '+newTitle;
+    var $twitterLink = $('.twitter-share-trigger');
+    setTwitterURL(twitterTitle,newURL,$twitterLink);
+
+    $facebookLink.on('click',function() {
+        FB.ui({
+            method: 'share',
+            href: newURL,
+        }, function(response){
+            var $fbTrigger = $('.facebook-share-trigger');
+            $fbTrigger.addClass('submitted').attr('disabled','disabled');
+        });
+    });
+
+    $twitterLink.on('click',function(e) {
+        window.open(this.href, "Share on Twitter", "width=600, height=600");
+        var $tweetTrigger = $('.twitter-share-trigger');
+        $tweetTrigger.addClass('submitted');
+        return false;
+    });
+
     
 });
