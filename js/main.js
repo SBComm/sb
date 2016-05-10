@@ -89,7 +89,7 @@ function setPageMetaTags(newTitle, newDesc, newURL, newImageURL, includeOgTags) 
 }
 
 function setTwitterURL(twitterTitle,twitterUrl,$twitterLink) {
-	var tweetHref = 'http://twitter.com/share?text="'+twitterTitle+'"&amp;url='+twitterUrl;
+	var tweetHref = 'http://twitter.com/share?url='+twitterUrl;
 	$twitterLink.attr('href',tweetHref);
 }
 
