@@ -194,7 +194,10 @@
 	<div class="mag-gallery_images">
 
 		<h3>Gallery</h3>
-		
+
+		<?php echo $main_gallery; ?>
+
+<?php /*
 		<a class="item nivo-lightbox mag-gallery_images_thumb" href="#image-1" data-lightbox-type="inline" data-caption="true" data-lightbox-gallery="mag-gallery">
 			<img src="magazine/2016-spring/images/gallery/gallery-thumb-1.jpg" alt="" />
 		</a>
@@ -256,5 +259,6 @@
 		<a class="clearfix mag-gallery_images-hidden nivo-lightbox" href="http://www.youtube.com/watch?v=m6AKwb9TprM" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
 
 		<!--<a class="item nivo-lightbox" href="http://www.youtube.com/watch?v=ACRpdj5wjQc" data-lightbox-type="inline" data-caption="true" data-lightbox-gallery="mag-gallery"><img class="grid-item_hover-hide" src="magazine/2016-spring/images/gallery/gallery-thumb-1.jpg" alt="" /></a>-->
+*/ ?>
 	</div>
 </section>

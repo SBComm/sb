@@ -4,6 +4,10 @@
 
 	$mainHtml = '';
 
+	//image counters
+	$i = $j = $k = $n = 0;
+	$gallery = '';
+
 	//for each post
 	foreach ($posts as $post) {
 		$gallery_config = $post->acf->magazine_main_gallery;
@@ -70,7 +74,112 @@
 					</a>
 				</article>
 			';
+
+			//Now compile the images to be used for the gallery later, once out of this loop
+			$gallery_img_0 = $post->acf->magazine_large_hero_image;
+			$gallery_img_1 = $post->acf->magazine_gallery_image_1;
+			$gallery_img_2 = $post->acf->magazine_gallery_image_2;
+			$gallery_img_3 = $post->acf->magazine_gallery_image_3;
+			$gallery_img_4 = $post->acf->magazine_gallery_image_4;
+			$gallery_img_5 = $post->acf->magazine_gallery_image_5;
+			$gallery_img_6 = $post->acf->magazine_gallery_image_6;
+			$gallery_img_7 = $post->acf->magazine_gallery_image_7;
+			$gallery_img_8 = $post->acf->magazine_gallery_image_8;
+			$gallery_img_9 = $post->acf->magazine_gallery_image_9;
+			
+			$i = 0;
+			while($i<10) {
+				if(${"gallery_img_".$i} != '') {
+					$gallery_imgs[$k] = ${"gallery_img_".$i};
+					$gallery_title[$k] = $post->title->rendered;
+					$gallery_url[$k] = $story_url;
+					$k++;
+				}
+				$i++;
+			}
+
+			$youtube_id = $post->acf->magazine_youtube_id;
+
+			$gallery_video_trigger = '';
+			if($youtube_id != '') {
+				$gallery_imgs[$k] = $youtube_id;
+				$k++;
+			}
+
+		} else { //if gallery config post
+
+			//Get the main 4 gallery images
+			$main_gallery_img_1 = $post->acf->magazine_main_gallery_full_1;
+			$main_gallery_img_2 = $post->acf->magazine_main_gallery_full_2;
+			$main_gallery_img_3 = $post->acf->magazine_main_gallery_full_3;
+			$main_gallery_img_4 = $post->acf->magazine_main_gallery_full_4;
+			$main_gallery_thumb_1 = $post->acf->magazine_main_gallery_thumb_1;
+			$main_gallery_thumb_2 = $post->acf->magazine_main_gallery_thumb_2;
+			$main_gallery_thumb_3 = $post->acf->magazine_main_gallery_thumb_3;
+			$main_gallery_thumb_4 = $post->acf->magazine_main_gallery_thumb_4;
+
+			$r = $s = 0;
+			while($r<4) {
+				$r++;
+				if(${"main_gallery_img_".$r} != '') {
+					$main_gallery_imgs[$s] = ${"main_gallery_img_".$r};
+					$main_gallery_thumbs[$s] = ${"main_gallery_thumb_".$r};
+					$s++;
+				}
+			}
 		}
+	}
+
+	//Set the gallery output
+	$main_gallery = '';
+	//First get the main 4 images
+	$n = 0;
+	foreach ($main_gallery_imgs as $main_gallery_img) {
+		$n++;
+		$main_gallery .= '
+			<a class="item nivo-lightbox mag-gallery_images_thumb" href="#image-'.$n.'" data-lightbox-type="inline" data-caption="true" data-lightbox-gallery="mag-gallery">
+				<img src="'.$main_gallery_thumbs[$n-1]->url.'" alt="'.$main_gallery_img->caption.'" />
+			</a>
+			<div id="image-'.$n.'" class="inline-lightbox-content">
+				<img class="mag-gallery_images_image" src="'.$main_gallery_img->url.'" alt="'.$main_gallery_img->caption.'" />
+				<div class="mag-gallery_images_caption">
+					<button class="mag-gallery_images_caption_view-trigger"><span>View</span> caption</button>
+					<div>
+						<h4>'.$main_gallery_img->title.'</h4>
+						<p>'.$main_gallery_img->caption.'</p>
+					</div>
+				</div>
+			</div>
+		';
+	}
+
+	//Now add on the rest of the images and youtube videos found in the articles
+	$t = 0;
+	foreach ($gallery_imgs as $gallery_img) {
+		if($gallery_img->url != '') { //image
+			$n++;
+			$main_gallery .= '
+				<a class="item nivo-lightbox mag-gallery_images_thumb hidden" href="#image-'.$n.'" data-lightbox-type="inline" data-caption="true" data-lightbox-gallery="mag-gallery">
+					<img src="'.$gallery_img->url.'" alt="'.$gallery_img->caption.'" />
+				</a>
+				<div id="image-'.$n.'" class="inline-lightbox-content">
+					<img class="mag-gallery_images_image" src="'.$gallery_img->url.'" alt="'.$gallery_img->caption.'" />
+					<div class="mag-gallery_images_caption">
+						<button class="mag-gallery_images_caption_view-trigger"><span>View</span> caption</button>
+						<div>
+							<h4>'.$gallery_title[$t].'</h4>
+							<p>'.$gallery_img->caption.' <a href="'.$gallery_url[$t].'">Read Story</a></p>
+						</div>
+					</div>
+				</div>
+			';
+		} else { //youtube
+			$youtube_id = $gallery_img;
+			$main_gallery .= '
+				<a class="clearfix mag-gallery_images-hidden nivo-lightbox gallery-video-lightbox" href="http://www.youtube.com/watch?v='.$youtube_id.'?autoplay=1" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
+			';
+		}
+		$t++;
 	}
 
     $mainHtml .= $html;
