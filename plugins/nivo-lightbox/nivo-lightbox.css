@@ -232,7 +232,8 @@
     height: 0;
 }
 
-.nivo-lightbox-content iframe {
+.nivo-lightbox-content iframe,
+.nivo-lightbox-inline {
     position: absolute;
     top: 0;
     left: 0;

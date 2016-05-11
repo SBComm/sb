@@ -992,16 +992,16 @@ FileETag None
     # RewriteRule ^faculty-experts/profile/([a-zA-Z0-9\-]+)$ faculty-experts/profile.php?name=$1
     
     # new structure using only experts
-    RewriteRule ^experts/profile$ experts/results
-    RewriteRule ^experts/profile/([a-zA-Z0-9\-]+)$ experts/profile.php?name=$1
+    RewriteRule ^experts/profile/?$ experts/results
+    RewriteRule ^experts/profile/([a-zA-Z0-9\-]+)/?$ experts/profile.php?name=$1
 
     # Accommodate for old URLs with faculty-experts
-    RewriteRule ^faculty-experts/profile$ experts/results
-    RewriteRule ^faculty-experts/profile/([a-zA-Z0-9\-]+)$ experts/profile.php?name=$1
+    RewriteRule ^faculty-experts/profile/?$ experts/results
+    RewriteRule ^faculty-experts/profile/([a-zA-Z0-9\-]+)/?$ experts/profile.php?name=$1
     RewriteRule ^faculty-experts/(.*)$ /sb/experts/$1 [R=301]
 
-    RewriteRule ^faculty-directory/profile$ faculty-directory/results
-    RewriteRule ^faculty-directory/profile/([a-zA-Z0-9\-]+)$ faculty-directory/profile.php?name=$1
+    RewriteRule ^faculty-directory/profile/?$ faculty-directory/results
+    RewriteRule ^faculty-directory/profile/([a-zA-Z0-9\-]+)/?$ faculty-directory/profile.php?name=$1
 </IfModule>
 
 # ----------------------------------------------------------------------
@@ -1030,4 +1030,18 @@ FileETag None
     RewriteCond %{HTTP_HOST} ^mobile\.cc\.stonybrook\.edu [NC]
     RewriteRule ^alumni-and-friends/index.php$ http://stonybrook.edu/alumni-and-friends
 
+</IfModule>
+
+
+# ----------------------------------------------------------------------
+# | Stony Brook Magazine                                               |
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    #rewrite current mag year
+    RewriteRule ^magazine/$ magazine/2016-spring/index.php
+    RewriteRule ^magazine/index.php$ magazine/2016-spring/index.php
+    RewriteRule ^magazine/([a-zA-Z0-9\-]+)$ /sb/magazine/2016-spring/$1 [R=301]
+
+    RewriteRule ^magazine/2016-spring/([a-zA-Z0-9\-]+)/?$ magazine/2016-spring/article.php?story=$1
 </IfModule>

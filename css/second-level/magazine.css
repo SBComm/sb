@@ -1,0 +1,733 @@
+body {
+	background: #000;
+}
+
+h2 {
+	color: #fff;
+	text-transform: uppercase;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.message-404 a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.mag-head {
+	background: #000;
+	padding: 0;
+    color: #fff;
+    font-size: 1em;
+}
+
+.head_wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.mag-head a {
+	text-decoration: none;
+}
+
+.mag-head a img {
+	border: 0 none;
+	outline: none;
+}
+
+.mag-header {
+	padding: 4% 5%;
+	text-align: center;
+}
+
+.mag-header_sbu-logo {
+	width: 203px;
+	display: block;
+	margin: 0 auto;
+}
+
+.mag-header_mag-logo {
+	display: block;
+	text-align: center;
+	width: 75%;
+	margin: 0em auto .2em;
+	text-transform: uppercase;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2em;
+}
+
+.mag-header_issue-info {
+	text-transform: uppercase;
+	font-size: .75em;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 300;
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin: .25em 0 .5em;
+	clear: both;
+}
+
+.mag-nav {
+	display: block;
+	width: 100%;
+	background: #000;
+	border-top: 1px solid #777;
+	color: #777;
+
+	display: none;
+}
+
+.mag-nav a {
+	font-size: .9em;
+	color: inherit;
+	width: auto;
+	width: 25%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+	padding: .6em .6em;
+	text-transform: uppercase;
+    font-family: "Effra W01", "Arial", sans-serif;
+}
+
+.mag-nav a:hover {
+	color: #fff;
+}
+
+.mag-nav a:first-child {
+	margin-left: 0;
+	width: 35%;
+	padding-left: 4%;
+}
+
+.mag-nav a:last-child {
+	float: right;
+	width: 15%;
+	text-align: right;
+}
+
+/* feature */
+
+.magazine-feature {
+	min-height: 550px;
+	display: block;
+	float: left;
+	width: 100%;
+	background-size: 100%;
+	background-size: cover;
+	background-position: 15% 50%;
+	padding: 25% 0 0;
+	text-align: center;
+	background-image: url("../../img/branding/rays/red-rays-full-2.png");
+}
+
+.magazine-feature_title {
+	text-transform: uppercase;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 900;
+    color: #fff;
+    display: block;
+    width: 70%;
+    margin: 0 15% 25px;
+    text-align: center;
+    line-height: .8;
+    -webkit-text-shadow: 0 0 15px rgba(0,0,0,.25);
+    -moz-text-shadow: 0 0 15px rgba(0,0,0,.25);
+    -ms-text-shadow: 0 0 15px rgba(0,0,0,.25);
+    text-shadow: 0 0 15px rgba(0,0,0,.25);
+    font-size: 48px;
+}
+
+.magazine-feature_sub {
+	width: 60%;
+	margin: 0 20% 20px;
+	color: #fff;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    max-width: 440px;
+    margin: 0 auto 20px;
+    font-size: 14px;
+    text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+.magazine-feature_author {
+	clear: both;
+	display: block;
+	margin: 25px 0 0 0;
+    font-family: "Museo Slab W01", "Times", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: .85em;
+    text-transform: uppercase;
+}
+
+.magazine-feature_more-button {
+	position: fixed;
+	bottom: 0;
+	right: 6%;
+	left: 6%;
+	width: 88%;
+	background: #fff;
+	padding: 1.2em .2em;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: .925em;
+    text-transform: uppercase;
+    color: #4b4b4b;
+    word-spacing: 0em;
+    border-radius: 8px 8px 0 0;
+}
+.magazine-feature_more-button:before,
+.magazine-feature_more-button:after {
+    display: inline-block;
+    content: "\f106";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: 1em;
+    position: relative;
+    top: -1px;
+}
+.magazine-feature_more-button:before {
+	padding: 0 4px 0 0;
+}
+.magazine-feature_more-button:after {
+	padding: 0 0 0 5px;
+}
+
+.magazine-feature_more-button span {
+	font-weight: 900;
+	color: #900;
+	padding-left: 2px;
+}
+
+/* mag articles */
+
+.mag-articles {
+    background: url("../../img/branding/rays/black-rays-full.jpg") no-repeat 0 0;
+    background-size: cover;
+    float: left;
+}
+
+/* gallery and lightbox */
+
+.mag-gallery {
+    background-image: url("../../img/branding/rays/red-rays-full-2.png");
+	background-attachment: fixed;
+	padding-bottom: 2.5%;
+	z-index: 1;
+	position: relative;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+.mag-gallery h3 {
+	color: #fff;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: .075em;
+    font-size: 2.8em;
+    margin: 1.4em 0 .5em;
+    display: block;
+    clear: both;
+    float: left;
+    width: 100%;
+    text-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+.nivo-lightbox-theme-default .nivo-lightbox-inline {
+	padding: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+.mag-gallery_images .inline-lightbox-content,
+.mag-gallery_images_thumb {
+	float: left;
+	width: 95%;
+	margin: 2% 2.5%;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	border: 3px solid #fff;
+	display: block;
+}
+
+.mag-gallery_images-hidden {
+	display: none;
+}
+
+.inline-lightbox-content {
+	display: none;
+}
+
+.nivo-lightbox-overlay .inline-lightbox-content {
+	text-align: center;
+	display: block;
+}
+
+.nivo-lightbox-overlay .mag-gallery_images_image {
+	width: auto;
+	display: inline-block;
+	margin: 0 auto;
+	border: 3px solid #fff;
+}
+
+.nivo-lightbox-overlay .nivo-lightbox-content {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.mag-gallery_images_thumb {
+	display: none;
+}
+
+.mag-gallery_images .inline-lightbox-content .mag-gallery_images_image {
+	display: block;
+	width: 100%;
+}
+
+.mag-gallery_images_caption {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+    font-family: "Museo Slab W01", "Times", serif;
+    font-weight: 200;
+    font-style: normal;
+    top: 100%;
+    -webkit-transform: translateY(-46px);
+    -moz-transform: translateY(-46px);
+    -ms-transform: translateY(-46px);
+    transform: translateY(-46px);
+}
+
+.mag-gallery_images_caption a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.nivo-lightbox-theme-default.nivo-lightbox-overlay {
+    background: rgba(40,40,40,.995);
+}
+
+.nivo-lightbox-overlay .mag-gallery_images_caption {
+	position: fixed;
+	padding: 0;
+	background: rgba(0,0,0,.8);
+}
+
+.nivo-lightbox-overlay .mag-gallery_images_caption div {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.mag-gallery_images_caption--show {
+    top: auto;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.mag-gallery_images_caption_view-trigger {
+	color: #fff;
+    font-family: "Museo Slab W01", "Times", serif;
+    font-weight: 200;
+    font-style: normal;
+    background: #000;
+    padding: 15px 15px
+}
+
+.mag-gallery_images_caption_view-trigger:before {
+    display: inline-block;
+    content: "\f106";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: 1.2em;
+    position: relative;
+    top: 0px;
+    padding: 0 8px 0 0;
+}
+
+.mag-gallery_images_caption--show .mag-gallery_images_caption_view-trigger:before {
+    content: "\f107";
+}
+
+.mag-gallery_images_caption div {
+	display: block;
+	text-align: left;
+	width: 100%;
+	padding: 5px 10px;
+	font-size: 1em;
+}
+
+.mag-gallery_images_caption div h4 {
+	display: block;
+    color: #fff;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 4px 0;
+}
+
+.mag-gallery_images_caption div p {
+	display: block;
+	margin: 0;
+    padding: 4px 0 10px;
+
+}
+
+@media only screen and (min-width: 400px) {
+	.mag-gallery_images_caption div {
+		font-size: 1.1em;
+		padding: 6px 15px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.mag-gallery_images .nivo-lightbox-content {
+	    padding-bottom: 100%;
+	}
+	.nivo-lightbox-overlay .nivo-lightbox-content {
+	    margin-top: 12%;
+	}
+}
+
+@media only screen and (min-width: 660px) {
+	.magazine-feature_sub {
+	    font-weight: 300;
+	}
+	.mag-gallery_images .inline-lightbox-content {
+		display: block;
+		float: left;
+		width: 46.25%;
+		margin: 2% 2.5% 2% 1.25%;
+	}
+
+	.mag-gallery_images .inline-lightbox-content:nth-child(even) {
+		margin: 2% 1.25% 2% 2.5%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.mag-gallery {
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+		border-top: 1px solid #fff;
+		margin-top: -1px;
+		padding-bottom: 5em;
+	}
+
+	.mag-gallery h3 {
+		font-size: 4.2em;
+    	margin: 1em 0 .2em;
+	}
+
+	.nivo-lightbox-content {
+	    position: relative;
+	    padding-bottom: 0;
+	    height: 100%;
+	}
+
+	.inline-lightbox-content {
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		position: relative;
+		display: none;
+		margin: 0;
+		width: auto;
+		float: none;
+	    border: 0 none;
+	}
+
+	.mag-gallery_images .inline-lightbox-content {
+		display: none;
+	}
+
+	.inline-lightbox-content .mag-gallery_images_image {
+		height: 100%;
+		margin: 0 auto;
+		display: inline-block;
+		width: auto;
+		float: none;
+		border: 3px solid #fff;
+	}
+
+	.mag-gallery_images_thumb {
+		display: inline-block;
+		width: 23%;
+		margin: 2% 1%;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+
+	.mag-gallery {
+		padding-bottom: 7em;
+	}
+
+	.mag-gallery h3 {
+		font-size: 4.8em;
+    	margin: 1em 0 0em;
+	}
+}
+
+/* footer */
+
+.footer-container {
+	position: relative;
+	z-index: 101;
+}
+
+@media only screen and (max-height: 500px) {
+	.magazine-feature {
+		padding: 8% 0 0;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	.mag-header_sbu-logo {
+		width: 263px;
+	}
+    .mag-head {
+    	font-size: 1.2em;
+    }
+    .magazine-feature_title {
+	    font-size: 54px;
+	}
+	.magazine-feature_sub {
+	    font-size: 18px;
+	}
+    .magazine-feature_more-button {
+    	font-size: 1.1em;
+    	max-width: 356px;
+    	margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+	.mag-header_sbu-logo,
+	.mag-header_mag-logo {
+		display: inline-block;
+		float: none;
+		margin: 0;
+	}
+	.mag-header_sbu-logo img {
+		margin-top: -15px;
+	}
+	.mag-header_mag-logo {
+		width: auto;
+		clear: right;
+		padding: 0 0 0 15px;
+	}
+	.mag-header_issue-info {
+		font-size: .85em;
+		margin: .8em 0 .0;
+	}
+	.magazine-feature {
+		padding: 27% 0 0;
+	}
+
+}
+
+@media only screen and (min-width: 860px) {
+	.mag-header {
+		padding: 35px 0;
+	}
+	.mag-header_sbu-logo {
+		width: 220px;
+	}
+	.mag-header_mag-logo {
+		clear: none;
+		padding: 0 0 0 20px;
+	}
+	.mag-header_issue-info {
+		float: none;
+		width: auto;
+		padding: 0 0 0 20px;
+		clear: none;
+		margin: 0;
+		font-size: .8em;
+		display: inline-block;
+	}
+	.mag-header_issue-info span {
+		clear: both;
+		display: inline-block;
+		float: left;
+		width: auto;
+		line-height: 1.75em;
+	}
+
+	.magazine-feature {
+		padding: 20% 0 0;
+	}
+    .magazine-feature_title {
+	    font-size: 59px;
+	}
+	.magazine-feature_sub {
+	    font-size: 22px;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	.mag-header {
+		display: inline-block;
+		float: left;
+		font-size: 1.1em;
+		padding: 35px;
+	}
+	.mag-header_sbu-logo img {
+		margin-top: -17px;
+	}
+	.mag-nav {
+		display: inline-block;
+		float: right;
+		width: auto;
+		margin-top: 51px;
+		background: transparent;
+		border-top: 0 none;
+		color: #aaa;
+	}
+	.mag-nav a,
+	.mag-nav a:first-child {
+		padding: 0;
+		margin: 0 .6em .3em;
+		width: auto;
+
+	}
+	.mag-nav a:hover {
+		border-bottom: 2px solid #fff;
+	}
+	.mag-nav a.mag-nav_search:hover {
+		border-bottom: 0 none;
+	}
+	.mag-nav a:last-child {
+		width: auto;
+	}
+	.magazine-feature {
+		padding: 20% 0 0;
+	}
+    .magazine-feature_title {
+	    font-size: 72px;
+	}
+	.magazine-feature_sub {
+	    font-size: 22px;
+	    margin: 0 auto 30px;
+	}
+	.magazine-feature_button {
+		opacity: .85;
+	}
+	.magazine-feature_button:hover {
+		opacity: 1;
+	}
+}
+
+@media only screen and (min-width: 1320px) {
+	.mag-head_wrapper {
+		font-size: 1.2em;
+	}
+	.magazine-feature {
+    	padding: 300px 0 0 0;
+		margin-top: 124px;
+		background-attachment: fixed;
+	}
+    .magazine-feature_title {
+	    font-size: 80px;
+	}
+	.magazine-feature_sub {
+	    margin: 0 auto 30px;
+	}
+	.mag-head {
+		height: 124px;
+		position: fixed;
+		z-index: 2;
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	.magazine-feature {
+    	padding: 18% 0 0;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-height: 900px) {
+	.magazine-feature {
+    	padding: 16% 0 0;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-height: 800px) {
+	.magazine-feature {
+    	padding: 13% 0 0;
+	}
+}
+
+@media only screen and (max-height: 700px) {
+	.magazine-feature {
+    	padding: 15% 0 0;
+	}
+}
+
+@media only screen and (max-width: 400px) and (min-height: 400px) {
+	.magazine-feature {
+    	padding: 15% 0 0;
+	}
+}
+
+@media only screen and (max-width: 400px) and (min-height: 560px) {
+	.magazine-feature {
+    	padding: 18% 0 0;
+	}
+}
+
+@media only screen and (max-width: 400px) and (min-height: 600px) {
+	.magazine-feature {
+    	padding: 23% 0 0;
+	}
+}
+
+@media only screen and (max-width: 400px) and (min-height: 800px) {
+	.magazine-feature {
+    	padding: 40% 0 0;
+	}
+}
+
+@media only screen and (max-width: 400px) and (min-height: 1000px) {
+	.magazine-feature {
+    	padding: 55% 0 0;
+	}
+}

@@ -19,6 +19,13 @@
         <meta property="og:type" content="<?php echo $og_type; ?>" />
         <meta property="og:url" content="<?php echo $og_url; ?>" />
         <meta property="og:image" content="<?php echo $og_image; ?>" />
+        <meta property="fb:app_id" content="1111836582191622" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@stonybrooku">
+        <meta name="twitter:creator" content="@stonybrooku">
+        <meta name="twitter:title" content="<?php echo $og_title; ?>">
+        <meta name="twitter:description" content="<?php echo $og_description; ?>">
+        <meta name="twitter:image" content="<?php echo $og_image; ?>">
     <!--END Open Graph Meta Tags-->
 
     <!--BEGIN Cross-device Favicon code-->
@@ -38,6 +45,7 @@
     <!--BEGIN CSS Includes-->
         <?php includeAsset('css','css/vendor/normalize.min.css'); ?>
         <?php includeAsset('css','css/main.css'); ?>
+        <?php includeAsset('css','css/new-brand.css'); ?>
         <?php includeAsset('css','css/nav.css'); ?>
         <?php includeAsset('css','css/elements/cd-dropdown/cd-dropdown.css'); ?>
         <?php includeAsset('css','css/elements/tables/responsive-table.css'); ?>
@@ -157,9 +165,11 @@
 
         <?php if($page_type=='home') { ?>
             <?php includeAsset('css','css/home-apr15/homepage-styles.css','all'); ?>
+        <?php } ?> 
+
+        <?php if($mag_article) { ?>
+            <?php includeAsset('css','css/second-level/magazine-article.css','all'); ?>
         <?php } ?>
-
-
 
         <!--BEGIN IE Specific CSS Includes and Polyfills-->
             <!--[if IE 11]>

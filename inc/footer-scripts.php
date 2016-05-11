@@ -66,13 +66,27 @@
         	<?php includeAsset('js','plugins/nivo-lightbox/nivo-lightbox.min.js'); ?>
         	<script>
 				$(document).ready(function(){
+			    	options = $('.nivo-lightbox').attr('data-options');
+			    	caption = $('.nivo-lightbox').attr('data-caption');
 				    $('.nivo-lightbox').nivoLightbox({
 					    afterShowLightbox: function() {
-					    	options = $('.nivo-lightbox').attr('data-options');
-					    	if(options.length) {
+					    	if(options) {
 					    		$iframe = $('.nivo-lightbox-content > iframe');
 					    		src = $iframe.attr('src');
 					        	$iframe.attr('src', src + '?' + options);
+					    	}
+					    	if(caption=='true') {
+					    		initCaptionTrigger();
+					    	}
+					    }, 
+					    onPrev: function() {
+					    	if(caption=='true') {
+					    		initCaptionTrigger();
+					    	}
+					    }, 
+					    onNext: function() {
+					    	if(caption=='true') {
+					    		initCaptionTrigger();
 					    	}
 					    }
 					});
@@ -403,6 +417,10 @@
 
         <?php if($page_type=='search') {
         	includeAsset('js','js/search/search.js');
+        } ?>
+
+        <?php if($second_level=='magazine') {
+        	includeAsset('js','js/magazine/magazine.js');
         } ?>
 
         <?php if($page_type=='second-level' && $second_level=='economic-development') { ?>
@@ -747,6 +765,56 @@
 		        <?php } ?>
 	        })
 		</script>
+
+		<?php if($page_type=='home') { ?>
+			<script>
+				$(document).ready(function() {
+					/* re-enable for mobile tap-overlay */
+					/*
+					$('.boldMovesBox').on('click',function(e) {
+						if($(e.target).hasClass('boldMovesBox-title') || $(e.target).parents('.boldMovesBox-title').length) {
+							e.preventDefault();
+						}
+						if($(window).width()<1024) {
+							if(!$(this).hasClass('engaged') && !$(e.target).hasClass('boldMovesBox-link')) {
+								$(this).toggleClass('engaged');
+							} else if($(e.target).hasClass('close-boldMovesBox') || $(e.target).hasClass('close-boldMovesBox-x')) {
+								e.preventDefault();
+								$(this).closest('.boldMovesBox').removeClass('engaged');
+							}
+						}
+					});
+					*/
+					$('.boldMovesBox').hover(
+						function() {
+							console.log();
+							if($(window).width()>=1024) {
+								if(!$(this).hasClass('engaged')) {
+									$(this).addClass('engaged');
+								}
+							}
+						}, function() {
+							if($(window).width()>=1024) {
+								if($(this).hasClass('engaged')) {
+									$(this).removeClass('engaged');
+								}
+							}
+						}
+					);
+					$('.apply-form-trigger').on('click',function(e) {
+						e.preventDefault();
+						var $form = $('.apply-form-1');
+						if($form.hasClass('hide-accessible')) {
+							$(this).addClass('active');
+							toggleAccessible($form);
+						}
+						$('body').scrollTo($form, 400, {
+					    	axis: 'y'
+					    });
+					});
+				});
+			</script>
+        <?php } ?>
 
 		<?php if($page_type=='home') { ?>
 			<script>

@@ -416,6 +416,10 @@ video.background-video {
     text-align: center !important;
 }
 
+.text-transform-none {
+    text-transform: none !important;
+}
+
 .left {
     float: left;
 }
@@ -785,6 +789,42 @@ section.breaker {
 .fixed-background {
     background-size: cover;
     background-attachment: fixed;
+}
+
+.rays-border-left,
+.rays-border-right {
+    position: relative;
+}
+
+.rays-border-left:before,
+.rays-border-right:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2.5%;
+    max-width: 20px;
+    background-image: url("../img/branding/rays/red-rays-full.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 0 0;
+    content: "";
+}
+
+.rays-border-left:before {
+    left: 0;
+    background-image: url("../img/branding/rays/border/marquee-ray-strip-left.png");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.rays-border-right:after {
+    right: 0;
+    background-image: url("../img/branding/rays/border/marquee-ray-strip-right.png");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 0 0;
 }
 
 /* Custom resets and other declarations */

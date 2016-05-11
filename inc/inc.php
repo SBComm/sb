@@ -140,6 +140,12 @@
 
     $flickr_feed = false;
 
+    $mag_article = false;
+
+    $magazine_current_year  = '2016';
+
+    $is_404 = false;
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;
