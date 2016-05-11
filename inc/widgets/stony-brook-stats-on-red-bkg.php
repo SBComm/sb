@@ -25,7 +25,7 @@
         <div class="item rtl2 clearfix">
             <div class="text-wrapper">
                 <p class="equal-col">
-                    <span class="stat"><em>16:1</em> <span class="nowrap">student-faculty</span><br />ratio</span>
+                    <span class="stat"><em>17:1</em> <span class="nowrap">student-faculty</span><br />ratio</span>
                     <span class="source">~Stony Brook University</span>
                 </p>
             </div>
