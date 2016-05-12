@@ -163,6 +163,10 @@
 	}
 
 	//Now add on the rest of the images and youtube videos found in the articles
+	
+	$main_gallery .= '<button class="view-more-gallery-trigger clearfix">View more photos</button>';
+	$main_gallery .= '<div class="mobile-more-gallery-items">';
+
 	$t = 0;
 	foreach ($gallery_imgs as $gallery_img) {
 		if($gallery_img->url != '') { //image
@@ -190,6 +194,8 @@
 		}
 		$t++;
 	}
+
+	$main_gallery .= '</div>';
 
     $mainHtml .= $html;
 

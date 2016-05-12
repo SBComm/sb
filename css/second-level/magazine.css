@@ -269,8 +269,13 @@ h2 {
 	display: block;
 }
 
-.mag-gallery_images-hidden {
+.mag-gallery_images-hidden,
+.mobile-more-gallery-items {
 	display: none;
+}
+
+.mobile-more-gallery-items--show {
+	display: block;
 }
 
 .inline-lightbox-content {
@@ -352,13 +357,21 @@ h2 {
     transform: translateY(0);
 }
 
-.mag-gallery_images_caption_view-trigger {
+.mag-gallery_images_caption_view-trigger,
+.view-more-gallery-trigger {
 	color: #fff;
     font-family: "Museo Slab W01", "Times", serif;
     font-weight: 200;
     font-style: normal;
     background: #000;
-    padding: 15px 15px
+    padding: 15px 15px;
+}
+
+.view-more-gallery-trigger {
+	width: 100%;
+	margin: 0;
+	background: transparent;
+    padding: 20px 15px;
 }
 
 .mag-gallery_images_caption_view-trigger:before {
@@ -380,6 +393,23 @@ h2 {
 
 .mag-gallery_images_caption--show .mag-gallery_images_caption_view-trigger:before {
     content: "\f107";
+}
+
+.view-more-gallery-trigger:after {
+    display: inline-block;
+    content: "\f107";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: 1.2em;
+    position: relative;
+    top: 0px;
+    padding: 0 0 0 8px;
 }
 
 .mag-gallery_images_caption div {
@@ -432,10 +462,6 @@ h2 {
 		float: left;
 		width: 46.25%;
 		margin: 2% 2.5% 2% 1.25%;
-	}
-
-	.mag-gallery_images .inline-lightbox-content:nth-child(even) {
-		margin: 2% 1.25% 2% 2.5%;
 	}
 }
 
@@ -675,6 +701,9 @@ h2 {
 		left: 0;
 		right: 0;
 		width: 100%;
+	}
+	.view-more-gallery-trigger {
+		display: none;
 	}
 }
 

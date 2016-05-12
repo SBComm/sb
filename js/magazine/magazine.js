@@ -41,6 +41,11 @@ $(document).ready(function() {
         }
     });
 
+    $('.view-more-gallery-trigger').on('click',function(e) {
+        $('.mobile-more-gallery-items').addClass('mobile-more-gallery-items--show');
+        $('.view-more-gallery-trigger').hide();
+    });
+
     $('.mag-article_view-gallery').on('click',function(e) {
         e.preventDefault();
         $('.mag-article_gallery .nivo-lightbox:first-child').trigger('click');
