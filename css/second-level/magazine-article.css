@@ -1146,6 +1146,7 @@ a.mag-article_gallery-trigger em {
 	display: inline-block;
 	float: left;
 	color: #000;
+    padding: 10px 5px;
 }
 
 .intro-effect-sidefixed .content div.social-bar a + a {
@@ -1191,7 +1192,7 @@ a.mag-article_gallery-trigger em {
 	display: inline-block;
 	float: left;
 	margin: 0 25px 32px 0;
-	padding: 0;
+	padding: 10px 0;
 	border: 0;
 }
 
@@ -1220,7 +1221,7 @@ a.mag-article_gallery-trigger em {
 	display: block;
 	clear: both;
 	float: right;
-	margin: 25px 0 5px 0;
+	margin: 20px 0 5px 0;
 	width: 100%;
 	text-align: center;
 	padding: 0 0 0 15px;
@@ -1766,6 +1767,12 @@ a.mag-article_gallery-trigger em {
 	.mag-article_content_wrapper {
 		margin: 70px 0 25px;
 	}
+	.intro-effect-sidefixed .content div.social-bar a {
+		display: inline-block;
+		float: left;
+		color: #000;
+	    padding: 10px 0;
+	}
 
 	.social-bar .current-issue,
 	.intro-effect-sidefixed .content div.social-bar a + a.current-issue {
@@ -1773,6 +1780,7 @@ a.mag-article_gallery-trigger em {
 		float: none;
 		margin: 2px 28% 0 32%;
 		width: 40%;
+	    padding: 10px 0;
 	}
 }
 
