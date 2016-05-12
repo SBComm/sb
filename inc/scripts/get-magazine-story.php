@@ -135,16 +135,6 @@
 				$prev_link = '<a class="prev" href="'.$story_url_prev.'">Previous</a>';
 			}
 
-			$social_share = '';
-			$social_share = '
-				<!--<button class="social-share-trigger">Share</button>-->
-				<div class="social-share-button-wrapper clearfix">
-					<button class="button social-share facebook-share facebook-share-trigger"><em class="fa fa-share"></em> Share on Facebook</button>
-					<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new"><em class="fa fa-share"></em> Share on Twitter</a>
-					<!--<button class="button social-share copy-link copy-link-trigger">Copy Link</button>-->
-				</div>
-			';
-
 			$magazine_article_html .= '
 				<header class="mag-article_header">
 					<div class="mag-article_header_bg-img"><img src="'.$story_hero_image_url.'" alt="'.$story_hero_image_alt.'" /></div>
@@ -162,11 +152,15 @@
 						'.$gallery_video_trigger.'
 						'.$gallery_illustration_trigger.'
 						<div class="social-share-button-wrapper">
-							'.$social_share.'
+							<div class="social-share-button-wrapper clearfix">
+								<button class="button social-share facebook-share facebook-share-trigger"><em class="fa fa-share"></em> Share on Facebook</button>
+								<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new"><em class="fa fa-share"></em> Share on Twitter</a>
+							</div>
 						</div>
 						<div class="social-bar">
 							'.$prev_link.'
 							'.$next_link.'
+							<a class="current-issue" href="magazine/#stories"><em class="fa fa-th-large"></em> Current Issue</a>
 						</div>
 					</div>
 				</article>

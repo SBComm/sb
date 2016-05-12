@@ -1150,6 +1150,7 @@ a.mag-article_gallery-trigger em {
 
 .intro-effect-sidefixed .content div.social-bar a + a {
 	margin-left: 35px;
+	float: right;
 }
 
 .intro-effect-sidefixed .content div.social-bar a.prev:before,
@@ -1206,12 +1207,28 @@ a.mag-article_gallery-trigger em {
 	line-height: 1;
 }
 
+.intro-effect-sidefixed .content div.social-bar a:hover,
+.intro-effect-sidefixed .content div.social-bar button:hover,
 .intro-effect-sidefixed .content .social-share-button-wrapper a:hover,
 .intro-effect-sidefixed .content .social-share-button-wrapper button:hover {
 	color: #900;
 	text-decoration: none;
 }
 
+.social-bar .current-issue,
+.intro-effect-sidefixed .content div.social-bar a + a.current-issue {
+	display: block;
+	clear: both;
+	float: right;
+	margin: 25px 0 5px 0;
+	width: 100%;
+	text-align: center;
+	padding: 0 0 0 15px;
+}
+
+.intro-effect-sidefixed .content div.social-bar a + a.current-issue .fa {
+	margin: 0 3px 0 0;
+}
 
 
 /* Delays */
@@ -1748,6 +1765,14 @@ a.mag-article_gallery-trigger em {
 	}
 	.mag-article_content_wrapper {
 		margin: 70px 0 25px;
+	}
+
+	.social-bar .current-issue,
+	.intro-effect-sidefixed .content div.social-bar a + a.current-issue {
+		clear: none;
+		float: none;
+		margin: 2px 28% 0 32%;
+		width: 40%;
 	}
 }
 
