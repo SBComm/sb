@@ -2,6 +2,7 @@
 	$file = "scripts/get-magazine-json.php";
     include($path . $file);
 
+    $featured_post = new stdClass();
 	$mainHtml = '';
 
 	//image counters
@@ -106,6 +107,14 @@
 				$k++;
 			}
 
+			if($post->acf->magazine_hero_story) {
+				$featured_post->title = $story_grid_title;
+				$featured_post->sub = $post->acf->magazine_hero_sub;
+				$featured_post->author = $post->acf->magazine_author_name;
+				$featured_post->img = $post->acf->magazine_hero_image->url;
+				$featured_post->url = $story_url;
+			}
+
 		} else { //if gallery config post
 
 			//Get the main 4 gallery images
@@ -183,7 +192,5 @@
 	}
 
     $mainHtml .= $html;
-
-	echo $mainHtml;
 
 ?>

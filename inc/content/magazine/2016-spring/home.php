@@ -1,7 +1,12 @@
-<section class="magazine-feature rays-border-left rays-border-right" style="background-image: url('magazine/2016-spring/images/hero/ocean.jpg')">
-	<h2 class="magazine-feature_title">Ocean <br />Hero</h2>
-	<p class="magazine-feature_sub">Ellen Pikitch has gracefully assumed the role of a traveling expert on fisheries management <cite class="magazine-feature_author">by Elizabeth Royte</cite></p>
-	<a class="magazine-feature_button brand-button" href="magazine/2016-spring/ocean-hero">Full Story</a>
+<?php
+    $file = "scripts/get-magazine-stories.php";
+    include($path . $file);
+?>
+
+<section class="magazine-feature rays-border-left rays-border-right" style="background-image: url('<?php echo($featured_post->img); ?>')">
+	<h2 class="magazine-feature_title"><?php echo($featured_post->title); ?></h2>
+	<p class="magazine-feature_sub"><?php echo($featured_post->sub); ?> <cite class="magazine-feature_author">by <?php echo($featured_post->author); ?></cite></p>
+	<a class="magazine-feature_button brand-button" href="<?php echo($featured_post->url); ?>">Full Story</a>
 	<a class="magazine-feature_more-button" href="#stories" data-disable-history-state="true" data-offset="true" data-offset-top="-124" data-offset-breakpoint-start="1320">More from <span>Stony Brook Magazine</span></a>
 </section>
 <section id="stories" class="mag-articles grid-3 clearfix">
@@ -21,8 +26,8 @@
 				</a>
 			</article>
 		 */
-        $file = "scripts/get-magazine-stories.php";
-        include($path . $file);
+
+		echo $mainHtml;
     ?>
 
 <?php /*
