@@ -78,9 +78,9 @@ h2, .changingWorld h3,
     right: 0;
     padding: 0.25rem 5% 0;
     z-index: 20;
-    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.75) 0%, transparent 66%);
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.75) 0%, transparent 66%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, transparent 66%);
+    background: -moz-linear-gradientt(to right, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
+    background: -webkit-linear-gradientt(to right, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); }
     .hero-sb .hero-sb_text h1 {
       color: #fff;
@@ -132,7 +132,7 @@ h2, .changingWorld h3,
         width: 70%; }
         .hero-sb .hero-sb_text h1 {
           font-size: 60px;
-          line-height: 0.em; }
+          line-height: 0em; }
         .hero-sb .hero-sb_text p {
           font-size: 1.25rem; } }
     @media (min-width: 801px) {
@@ -171,7 +171,11 @@ h2, .changingWorld h3,
   .hero-sb .hero-sb_text {
     width: 100%;
     padding-top: 2rem;
-    min-height: 580px;; }
+    min-height: 580px;
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.75) 0%, transparent 66%);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.75) 0%, transparent 66%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, transparent 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); }
     .hero-sb .hero-sb_text div {
       width: 1160px;
       margin: 0 auto;
@@ -294,7 +298,7 @@ h2, .changingWorld h3,
       width: 104%;
     }
     .hero-sb img.align-image-top {
-      margin-top: -2%;
+      margin-top: 0%;
     }
   }
   @media (min-width: 1160px) {
@@ -303,7 +307,7 @@ h2, .changingWorld h3,
       width: 100%;
     }
     .hero-sb img.align-image-top {
-      margin-top: -3%;
+      margin-top: 0%;
     }
   }
   @media (min-width: 1400px) {
@@ -312,7 +316,7 @@ h2, .changingWorld h3,
       width: 100%;
     }
     .hero-sb img.align-image-top {
-      margin-top: -6%;
+      margin-top: 0%;
     }
   }
   @media (min-width: 1760px) {
@@ -321,7 +325,7 @@ h2, .changingWorld h3,
       width: 100%;
     }
     .hero-sb img.align-image-top {
-      margin-top: -5%;
+      margin-top: 0%;
     }
   }
   @media (min-width: 901px) {
