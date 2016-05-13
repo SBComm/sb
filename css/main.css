@@ -5023,12 +5023,6 @@ body {
 
 }
 
-.main-container {
-    -webkit-box-shadow: 0px -8px 11px -11px #333 inset;
-    -moz-box-shadow: 0px -8px 11px -11px #333 inset;
-    box-shadow: 0px -8px 11px -11px #333 inset;
-}
-
 .footer-container {
     
 }
