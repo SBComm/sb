@@ -117,12 +117,12 @@
 		                        		<span class="label clearfix">More<span class="extra-label"> Links</span></span>
 		                        	</span>
 		                        </li>-->
-		                        <!--<li class="desktop for-info">
+		                        <li class="desktop for-info">
 		                        	<span class="audience-trigger">
 		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
 		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>Info for</span>
 		                        	</span>
-		                        </li>-->
+		                        </li>
 		                    </ul>
 	                    </div>
 		            </nav>
