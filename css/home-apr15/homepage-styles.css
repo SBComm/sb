@@ -362,7 +362,7 @@ h2, .changingWorld h3,
 }
 
 .seawolfStrip {
-  background: #800000 url(../../img/branding/rays/rays-vertical-1.jpg) repeat top center fixed;
+  background: #800000 url(../../img/branding/rays/rays-vertical-1.jpg) repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -815,7 +815,7 @@ h2, .changingWorld h3,
 
 
 .whatsComingUp {
-  background: #800000 url(../../img/branding/rays/rays-vertical-1.jpg) repeat top center fixed;
+  background: #800000 url(../../img/branding/rays/rays-vertical-1.jpg) repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
