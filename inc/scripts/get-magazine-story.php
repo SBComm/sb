@@ -34,11 +34,11 @@
 			$story_position = intval($post->acf->magazine_grid_position);
 			$story_position_next = $story_position + 1;
 			$story_position_prev = $story_position - 1;
-
+			
 			foreach ($posts as $post_n) {
-				if($story_position_next == $post_n->acf->magazine_grid_position) {
+				if($story_position_next == $post_n->acf->magazine_grid_position && $story_position_next>0) {
 					$story_url_next = 'magazine/'.$magazine_this_year.'/'.$post_n->slug;
-				} else if($story_position_prev == $post_n->acf->magazine_grid_position) {
+				} else if($story_position_prev==$post_n->acf->magazine_grid_position && $story_position_prev>0) {
 					$story_url_prev = 'magazine/'.$magazine_this_year.'/'.$post_n->slug;
 				}
 			}

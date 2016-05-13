@@ -1149,7 +1149,8 @@ a.mag-article_gallery-trigger em {
     padding: 10px 5px;
 }
 
-.intro-effect-sidefixed .content div.social-bar a + a {
+.intro-effect-sidefixed .content div.social-bar a + a,
+.intro-effect-sidefixed .content div.social-bar a.next {
 	margin-left: 35px;
 	float: right;
 }
