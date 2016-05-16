@@ -723,7 +723,7 @@ img {
 }
 
 .grey-background {
-    background: #e2e2e2;
+    background: #bebebe;
 }
 
 .red-background {
@@ -979,7 +979,7 @@ body {
         font-family: 'ITCFranklinGothicW01-Md 812695', Helvetica, Helvetica Neue, Arial, sans-serif;
         font-weight: 200;
         text-transform: uppercase;
-        color: #444;
+        color: #000;
         cursor: default;
         width: 100%;
         display: block;
@@ -1005,8 +1005,9 @@ body {
     h4,
     .subtitle {
         display: block;
-        font-family:'CenturySchoolbookW01-It 927458';
-        font-weight: 400;
+        font-family: "Museo Slab W01", "Times", serif;
+        font-weight: 200;
+        font-style: normal;
         cursor: default;
         margin: 20px 0;
         padding: 0;
@@ -3587,19 +3588,19 @@ body {
         cursor: pointer;
         outline: none;
         position: relative;
-        border-radius: 3px;
+        border-radius: 0;
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         transition: all 0.2s;
         text-decoration: none !important;
         -moz-box-sizing: border-box;
         text-transform: uppercase;
-        font-weight: normal;
+        font-weight: inherit;
         box-shadow: 0 0 50px #FFFFFF;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        padding: 5px 15px;
+        padding: 10px 15px;
         display: inline-block;
     }
 
@@ -4694,18 +4695,15 @@ body {
     }
 
     section.social h2 {
-        font-family: 'ITCFranklinGothicW01-Md 812695';
-        font-weight: 200;
-        text-align: center;
+        font-family: "Effra W01", "Arial", sans-serif;
+        font-weight: 700;
         text-transform: uppercase;
-        -webkit-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
-        -moz-text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
-        text-shadow: -1px 1px 0 #eee, -2px 2px 0 #888;
-        color: #444;
+        text-align: center;
+        color: #4b4b4b;
         cursor: default;
         width: 100%;
         display: block;
-        font-size: 2.6em;
+        font-size: 2.8em;
     }
 
     section.social h3 {
@@ -4726,7 +4724,7 @@ body {
         width: 100%;
         height: 351px;
         background: url("../img/social-posts/social-collab.png") 0 0 repeat-x;
-        margin: 20px 0 20px;
+        margin: 20px 0 70px;
     }
 
     section.social img {
@@ -4735,14 +4733,14 @@ body {
     }
 
     section.social .button {
-        font-size: 24px;
-        font-family: 'TradeGothicW01-BoldCn20 675334';
-        font-weight: normal;
+        font-size: 20px;
+        font-family: "Effra W01", "Arial", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
         width: 240px;
         display: block;
         cursor: pointer;
         margin: 100px auto;
-        text-transform: uppercase;
     }
 
     section.social .button .sbu-cta {
@@ -4782,7 +4780,7 @@ body {
     }
     @media only screen and (min-width: 1024px) {
         section.social h2 {
-            font-size: 3.5em;
+            font-size: 4.5em;
         }
     }
 

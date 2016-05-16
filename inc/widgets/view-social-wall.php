@@ -1,7 +1,7 @@
 <section class="grey-background social clearfix">
     <div class="wrapper border-box">
     <h2>We're <span class="black">Social</span></h2>
-    <h3 class="subtitle sbu-text-shadow">Get the latest in <span class="red nowrap">Stony Brook University</span> <span class="nowrap">social media!</span></h3>
+    <h3 class="subtitle">Get the latest in <span class="red nowrap">Stony Brook University</span> <span class="nowrap">social media!</span></h3>
     <!-- <social-sidebar> -->
         <?php if($social_sidebar!='') {
             $file = "sidebars/".$social_sidebar."-social-sidebar.php";
