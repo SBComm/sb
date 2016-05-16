@@ -3687,7 +3687,7 @@ body {
 
     .cta.view-gallery,
     .cta.submit-nom {
-        width: 170px;
+        width: 170+px;
         text-align: center;
         margin: 0 auto;
         display: block;
@@ -3698,15 +3698,16 @@ body {
     a.sbu-outline-button,
     .sbu-outline-button--red--transform {
         display: inline-block;
-        font-family: 'Trade Gothic W01 Cn 18';
+        font-family: "Effra W01", "Arial", sans-serif;
+        font-weight: 700;
         text-transform: uppercase;
         color: #fff;
-        font-size: 1.6em;
-        padding: 7px 14px;
+        font-size: 1.25em;
+        padding: 9px 14px;
         text-decoration: none !important;
         margin: 0 auto;
         cursor: pointer;
-        letter-spacing: .075em;
+        letter-spacing: 0;
         text-rendering: optimizeLegibility;
         border-width: 2px;
         border-style: solid;
@@ -3750,7 +3751,7 @@ body {
     }
 
     a.sbu-outline-button.arrow-after {
-        padding: 7px 10px 7px 13px;
+        padding: 9px 10px 9px 13px;
     }
 
     /* simple button, as on /alumni/chapters/school-of-medicine/ */
