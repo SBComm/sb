@@ -263,19 +263,19 @@
     ?>
 
 </article>
-
+<?php /*
 <script type="text/javascript">
-    /**
-    * Configure Campus Connect to work on your site
-    * cwl_site - //www.collegeweeklive.com
-    * cwl_pageExternalId - set to your page external id.
-    * cwl_bgColor - the color to use as the base color for the chat UI background
-    * cwl_topPosition – the distance from the top in pixels
-    */
+    // Configure Campus Connect to work on your site
+    // cwl_site - //www.collegeweeklive.com
+    // cwl_pageExternalId - set to your page external id.
+    // cwl_bgColor - the color to use as the base color for the chat UI background
+    // cwl_topPosition – the distance from the top in pixels
+    
     var cwl_site = "//www.collegeweeklive.com";
-    var cwl_pageExternalId = "StonyBrookUniversitysp"; /** To be provided by CWL */
-    var cwl_bgColor = "#961B1B"; /** Color code corresponding to the color you would like to see */
-    var cwl_topPosition = "96"; /** Indicate position of the widget */
+    var cwl_pageExternalId = "StonyBrookUniversitysp";
+    var cwl_bgColor = "#961B1B";
+    var cwl_topPosition = "96";
 </script>
 <style type="text/css">.campusConnect {position:fixed !important;opacity:.95;}</style>
 <script type="text/javascript" src="//www.collegeweeklive.com/js/chat/embed_chat.js"></script>
+*/ ?>
