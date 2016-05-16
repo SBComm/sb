@@ -132,7 +132,7 @@ h2, .changingWorld h3,
         width: 70%; }
         .hero-sb .hero-sb_text h1 {
           font-size: 60px;
-          line-height: 0em; }
+          line-height: .78em; }
         .hero-sb .hero-sb_text p {
           font-size: 1.25rem; } }
     @media (min-width: 801px) {
