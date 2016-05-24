@@ -35,7 +35,7 @@
         <div class="border-box wrapper clearfix">
             <div class="content">
                 <h4>Brookhaven National Laboratory</h4>
-                <p>The University co-manages <a class="external-link" href="http://www.bnl.gov/world/" target="_blank">Brookhaven National Laboratory</a></strong>, joining an elite group of universities–including Berkeley, University of Chicago, Cornell, MIT, and Princeton–that run federal laboratories. BNL houses large, state-of-the-art facilities such as the Relativistic Heavy Ion Collider (RHIC), the National Synchrotron Light Source (NSLS), and the Center for Functional Nanomaterials.</p>
+                <p>The University co-manages <a class="external-link" href="http://www.bnl.gov/world/" target="_blank">Brookhaven National Laboratory</a></strong>, joining an elite group of universities–including Berkeley, University of Chicago, Princeton and Stanford–that have a role in running federal laboratories. BNL houses large, state-of-the-art facilities such as the Relativistic Heavy Ion Collider (RHIC), the National Synchrotron Light Source (NSLS), and the Center for Functional Nanomaterials.</p>
                 <p>Brookhaven National Laboratory offers outstanding research opportunities for students in physics, material sciences, environmental studies, biology, chemistry, engineering and other areas. BNL offers qualified students:</p>
                 <ul class="default-bullets">
                     <li>research opportunities with the world’s top scientists</li>
