@@ -261,7 +261,9 @@
 
 
 .grid-item--swap-images-on-hover .grid-item_hover-hide,
-.grid-item--swap-images-on-hover:hover .grid-item_hover-show {
+.no-touch .grid-item--swap-images-on-hover .grid-item_hover-hide,
+.grid-item--swap-images-on-hover:hover .grid-item_hover-show,
+.no-touch .grid-item--swap-images-on-hover:hover .grid-item_hover-show {
     opacity: 1;
     display: inline;
 }
