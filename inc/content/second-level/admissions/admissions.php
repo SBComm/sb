@@ -36,6 +36,7 @@
                         <a href="http://www.stonybrook.edu/spd/" alt="School of Professional Development" target="_blank"><i class="fa fa-university"></i>School of Professional Development</a>
                         <a href="http://www.stonybrook.edu/sb/masters/" alt="Master's Education"><i class="fa fa-university"></i>Master's Education</a>
                         <a href="http://www.stonybrook.edu/southampton" alt="Stony Brook Southhampton"><i class="fa fa-university"></i>Stony Brook Southampton</a>
+                        <a href="http://www.stonybrook.edu/spd/graduate/nonmatric" alt="Non-Matriculated Student Application"><i class="fa fa-university"></i>Non-Matriculated Students</a>
                     </div>
                     <div class="image desktop">
                         <img src="img/students/graduate-professional-small.jpg" alt="Student walking from behind" />
