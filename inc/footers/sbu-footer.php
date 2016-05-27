@@ -111,7 +111,7 @@
                             <a href="http://stonybrook.edu/mycloud" class="clearfix">Google Apps</a>
                         </li>
                         <li class="clearfix">
-                            <a href="stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
+                            <a href="http://stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://stonybrook.edu/happenings" class="clearfix">Happenings</a>
