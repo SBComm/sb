@@ -13,7 +13,7 @@
                 <ul class="star-bullets star-bullets-red">
                 <li><a href="http://calendar.activedatax.com/stonybrook/default.aspx?type=&amp;view=DateTime&amp;category=1-0">University Calendar (Arts &amp; Entertainment listings)</a></li>
                 <li><a href="http://scgp.stonybrook.edu/art">Simons Center</a></li>
-                <li><a href="http://stallercenter.com/calendar/&#10;">Staller Center</a></li>
+                <li><a href="http://stallercenter.com/&#10;">Staller Center</a></li>
                 <li><a href="http://www.stonybrook.edu/wang/programs/">Wang Center</a></li>
                 <li><a href="http://www.art.sunysb.edu/galleries.html">Art Galleries</a></li>
                 </ul>
