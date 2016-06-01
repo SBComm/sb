@@ -24,6 +24,9 @@
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix">
             <h3>What We Look for in a Transfer Applicant</h3>
+            <div class="content application-details alert-message green clearfix">
+                <p><strong>Message for Dowling College Students:</strong> Stony Brook is still accepting transfer applications for the fall semester. Students are encouraged to speak with an admissions counselor about our application requirements and transfer options. Please call (631) 632-6872 or e-mail <a class="email-link" href="mailto:enroll@stonybrook.edu">enroll@stonybrook.edu</a>. Please also examine our <a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/academics/">academic programs of study</a> and <a href="http://www.stonybrook.edu/commcms/advising/_transferinfo/course_eqiv.html">course equivalencies database</a>.</p>
+            </div>
             <div class="content col-2">
                 <h4>Applying as a Transfer Student</h4>
                 <p>For admission purposes, you are a transfer student if you have registered at a college or university after graduating from high school. Applicants are required to have performed well in a strong academic program, and typically will have completed at least 24 credits with a GPA of 3.0 or higher by the time they submit their application.</p>
