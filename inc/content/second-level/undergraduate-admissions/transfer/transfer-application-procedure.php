@@ -28,7 +28,7 @@
                 <p>Applications are being accepted for the fall 2016 semester.</p>
             </div>-->
             <div class="content application-details alert-message green clearfix">
-                <p><strong>Message for Dowling College Students:</strong> Stony Brook is still accepting transfer applications for the fall semester. Students are encouraged to speak with an admissions counselor about our application requirements and transfer options. Please call (631) 632-6872 or e-mail <a class="email-link" href="mailto:enroll@stonybrook.edu">enroll@stonybrook.edu</a>. Please also examine our <a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/academics/">academic programs of study</a> and <a href="http://www.stonybrook.edu/commcms/advising/_transferinfo/course_eqiv.html">course equivalencies database</a>.</p>
+                <p><strong>Message for Dowling College Students:</strong> Stony Brook is still accepting transfer applications for the fall semester. Students are encouraged to speak with an admissions counselor about our application requirements and transfer options. Please call (631) 632-6868 or e-mail <a class="email-link" href="mailto:enroll@stonybrook.edu">enroll@stonybrook.edu</a>. Please also examine our <a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/academics/">academic programs of study</a> and <a href="http://www.stonybrook.edu/commcms/advising/_transferinfo/course_eqiv.html">course equivalencies database</a>.</p>
             </div>
             <!--<div class="content application-details alert-message red clearfix">
                 <p>We are no longer accepting applications for the spring 2016 semester.</p>
