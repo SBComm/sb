@@ -1,11 +1,11 @@
 <section class="hero-sb animated-preload_background clearfix">
-	<img class="align-image-top" src="img/home-apr15/pikitch-ocean-hero-3.jpg" alt="Ellen Pikitch has gracefully assumed the role of a traveling expert on fisheries management" />    
+	<img class="align-image-top" src="img/home-apr15/personalizing-brain-surgery-1.jpg" alt="A vascular simulator is revolutionizing neurosurgery" />    
 	<div class="hero-sb_text" >
 		<div>
-			<h1 class="clearfix">Far Beyond The Classroom</h1>
-			<p class="clearfix">From Shinnecock Bay to the UN, Ellen Pikitch is saving the sea.</p> 
-			<a class="clearfix video-link nivo-lightbox" href="http://www.youtube.com/watch?v=w4fYSDeYX9c​" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
-			<a class="clearfix video-link" href="http://mobile.cc.stonybrook.edu/sb/magazine/2016-spring/ocean-hero">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
+			<h1 class="clearfix">Far Beyond Brain Surgery</h1>
+			<p class="clearfix">A vascular simulator is revolutionizing neurosurgery.</p> 
+			<a class="clearfix video-link nivo-lightbox" href="http://www.youtube.com/watch?v=xFobgM01M2A​" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
+			<a class="clearfix video-link" href="http://mobile.cc.stonybrook.edu/sb/magazine/2016-spring/personalizing-brain-surgery">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
 		</div>  
 	</div>
 </section>
