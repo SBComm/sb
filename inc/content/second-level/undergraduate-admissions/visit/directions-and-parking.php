@@ -26,9 +26,9 @@
             <h3>Directions to Stony Brook</h3>
             <div class="content">
                 <p>The Undergraduate Admissions Office is located on the first level of the Administration Building.</p>
-                <p>In the summer, parking is available for prospective students and family members attending campus tours and information sessions in the Mendelsohn &amp; H-Quad (M&amp;H) Resident Parking Lot, highlighted in blue on the map below. The Administration Building, highlighted in red, is a very short walk from the M&amp;H Parking Lot.</p>
+                <p>In the summer, parking is available for prospective students and family members attending campus tours and information sessions in the Faculty/Staff Parking Lot, highlighted in red on the map below. The Administration Building, also highlighted in red, is a very short walk from the Parking Lot.</p>
                 <p>Parking may also be available in the Administration Garage, located adjacent to the Administration Building (highlighted in black below). The Garage charges a nominal fee on weekdays and is free on weekends. The Garage is presently undergoing maintenance and has limited parking space.</p>
-                <img src="img/maps/summer-parking-map-2016.jpg" alt="Map of alternate H-Quad Resident Parking Lot" />
+                <img src="img/maps/summer-parking-faculty-staff.png" alt="Map of alternate H-Quad Resident Parking Lot" />
                 <p><br /></p>
             </div>
         </div>
