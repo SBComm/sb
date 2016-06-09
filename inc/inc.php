@@ -1,10 +1,11 @@
 <?php 
     /* Include Variables */
-    $root        = $_SERVER['DOCUMENT_ROOT'];
+    $root        = '/user/far-beyond/www';
     $inc_loc     = 'inc';   //include folder
     $dir         = dirname(__FILE__);
 
     if($_SERVER['SERVER_NAME'] == 'localhost') {
+        $root          = $_SERVER['DOCUMENT_ROOT'];
         $site          = 'sb'; //site folder inside the root dir
         $http_root     = 'http://localhost:8888';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
@@ -17,7 +18,7 @@
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb';
-            $http_root     = 'http://mobile.cc.stonybrook.edu';
+            $http_root     = 'http://www.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
@@ -25,7 +26,7 @@
             $is_local_environment = false; 
         } else {
             $site          = 'sb';
-            $http_root     = 'http://mobile.cc.stonybrook.edu';
+            $http_root     = 'http://www.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_production_environment = true;
