@@ -6,6 +6,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
+			$root = '/user/far-beyond/www';
+
 			$this_dir = $_SERVER['REQUEST_URI'];
 			$dev_dir = '/development/sb/';
 			$is_dev = strpos($this_dir,$dev_dir);

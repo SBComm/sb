@@ -5,6 +5,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
+			$root = '/user/far-beyond/www';
+
 			$this_dir = $_SERVER['REQUEST_URI'];
 			$dev_dir  = '/development/5questions/';
 			$prod_dir = '/5questions/';

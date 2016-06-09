@@ -6,6 +6,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js" style="height: 100%;"> <!--<![endif]-->
 	<!-- <inc> -->
 		<?php
+			$root = '/user/far-beyond/www';
+
 			$this_dir = $_SERVER['REQUEST_URI'];
 			$dev_dir  = '/development/sb/';
 			$prod_dir = '/sb/';
