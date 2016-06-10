@@ -12,7 +12,9 @@
 			$dev_dir  = '/development/sb/';
 			$prod_dir = '/sb/';
 			$is_dev = strpos($this_dir,$dev_dir);
-			if($is_dev !== false) {
+			if($_SERVER['SERVER_NAME'] == 'localhost') {
+				$inc = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . "inc/inc.php";
+			} else if($is_dev !== false) {
 				$inc = $root . $dev_dir . "inc/inc.php";
 			} else {
 				$inc = $root . $prod_dir . "inc/inc.php";

@@ -8,10 +8,12 @@
 			$root = '/user/far-beyond/www';
 
 			$this_dir = $_SERVER['REQUEST_URI'];
-			$dev_dir  = '/development/5questions/';
-			$prod_dir = '/5questions/';
+			$dev_dir  = '/development/sb/5questions/';
+			$prod_dir = '/sb/5questions/';
 			$is_dev = strpos($this_dir,$dev_dir);
-			if($is_dev !== false) {
+			if($_SERVER['SERVER_NAME'] == 'localhost') {
+				$inc = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . "inc/inc.php";
+			} else if($is_dev !== false) {
 				$inc = $root . $dev_dir . "inc/inc.php";
 			} else {
 				$inc = $root . $prod_dir . "inc/inc.php";
