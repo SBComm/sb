@@ -16,6 +16,8 @@
         $is_production_environment = false;
 
         $working_path_relative_start_location = "localhost/";
+        $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
+
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb';
@@ -37,10 +39,10 @@
             $is_local_environment = false;
         }
 
-        $working_path_relative_start_location = "web/";
-    }
+        //$working_path_relative_start_location = "web/";
+        $working_path_asset_dir = '/user/far-beyond/www/sb/';
 
-    $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
+    }
 
     $relative_page_path = $_SERVER['REQUEST_URI'];
 
@@ -168,7 +170,7 @@
     date_default_timezone_set("America/New_York");
 
     /* Cache busting for newer asset files */
-    $filename_based_cache_busting = false;
+    $filename_based_cache_busting = true;
     include($path . 'includes/filename_based_cache_busting.php');
 
     /* debugger, see https://github.com/raveren/kint */
