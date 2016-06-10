@@ -1,10 +1,11 @@
 <?php 
     /* Include Variables */
-    $root        = $_SERVER['DOCUMENT_ROOT'];       //server root
+    $root        = '/user/far-beyond/www';       //server root
     $inc_loc     = 'inc';                          //location for php includes
     $dir         = dirname(__FILE__);
 
     if($_SERVER['SERVER_NAME'] == 'localhost') {
+        $root          = $_SERVER['DOCUMENT_ROOT'];
         $site          = 'sb/5questions'; //site folder inside the root dir
         $css_base_url  = 'http://localhost:8888/sb/5questions/';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
@@ -17,7 +18,7 @@
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb/5questions';
-            $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb/5questions/';
+            $css_base_url  = 'http://stonybrook.edu/development/sb/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
@@ -25,7 +26,7 @@
             $is_local_environment = false; 
         } else {
             $site          = 'sb/5questions';
-            $css_base_url  = 'http://mobile.cc.stonybrook.edu/sb/5questions/';
+            $css_base_url  = 'http://stonybrook.edu/sb/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_production_environment = true;

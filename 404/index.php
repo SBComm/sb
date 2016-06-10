@@ -6,14 +6,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <!-- <inc> -->
         <?php
+            $root = '/user/far-beyond/www';
+
             $this_dir = $_SERVER['REQUEST_URI'];
             $dev_dir  = '/development/sb/';
             $prod_dir = '/sb/';
             $is_dev = strpos($this_dir,$dev_dir);
             if($is_dev !== false) {
-                $inc = $_SERVER['DOCUMENT_ROOT'] . $dev_dir . "inc/inc.php";
+                $inc = $root . $dev_dir . "inc/inc.php";
             } else {
-                $inc = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . "inc/inc.php";
+                $inc = $root . $prod_dir . "inc/inc.php";
             }
             include($inc);
         ?>
