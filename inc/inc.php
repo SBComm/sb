@@ -9,6 +9,7 @@
         $site          = 'sb'; //site folder inside the root dir
         $http_root     = 'http://localhost:8888';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+        $css_base_url  = $http_root . '/' . $site . '/';
 
         $is_local_environment = true;
         $is_proofing_environment = false;
@@ -20,6 +21,7 @@
             $site          = 'development/sb';
             $http_root     = 'http://www.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+            $css_base_url  = $http_root . '/' . 'far-beyond' . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
             $is_production_environment = false;
@@ -28,6 +30,7 @@
             $site          = 'sb';
             $http_root     = 'http://www.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+            $css_base_url  = $http_root . '/' . 'far-beyond' . '/';
             $working_path_asset_dir = '';
             $is_production_environment = true;
             $is_proofing_environment = false;
@@ -36,8 +39,6 @@
 
         $working_path_relative_start_location = "web/";
     }
-
-    $css_base_url  = $http_root . '/' . $site . '/';
 
     $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
 
