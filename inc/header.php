@@ -145,7 +145,7 @@
 
         <?php if($page_type=='second-level' && $second_level=='analytics') { ?>
             <?php includeAsset('css','plugins/analytics/jquery.css','all'); ?>
-        <? } ?>
+        <?php } ?>
 
         <?php if($page_type=='bulletin') { ?>
             <?php includeAsset('css','css/page-types/bulletin.css','all'); ?>
