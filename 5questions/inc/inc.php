@@ -15,10 +15,11 @@
         $is_production_environment = false;
 
         $working_path_relative_start_location = "localhost/";
+        $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb/5questions';
-            $css_base_url  = 'http://stonybrook.edu/development/sb/5questions/';
+            $css_base_url  = 'http://stonybrook.edu/development/far-beyond/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
@@ -26,7 +27,7 @@
             $is_local_environment = false; 
         } else {
             $site          = 'sb/5questions';
-            $css_base_url  = 'http://stonybrook.edu/sb/5questions/';
+            $css_base_url  = 'http://stonybrook.edu/far-beyond/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_production_environment = true;
@@ -34,10 +35,10 @@
             $is_local_environment = false;
         }
 
-        $working_path_relative_start_location = "web/";
-    }
+        //$working_path_relative_start_location = "web/";
+        $working_path_asset_dir = '/user/far-beyond/www/sb/';
 
-    $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
+    }
 
     $content     = "content/";                  //directory for php content
         $test    = "test/";                     //custom directory variables
