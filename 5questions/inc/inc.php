@@ -67,7 +67,7 @@
     $og_description    = $page_description;     //OpenGraph description
     $og_type           = 'website';             //OpenGraph type: for options see http://ogp.me/ 
     $og_url            = 'http://stonybrook.edu/5questions';             //site URL for OpenGraph
-    $og_image          = 'http://mobile.cc.stonybrook.edu/sb/5questions/img/branding/5-questions-logo.png';             //image for OpenGraph
+    $og_image          = 'http://stonybrook.edu/far-beyond/5questions/img/branding/5-questions-logo.png';             //image for OpenGraph
 
 
     /* Page Include Controls */

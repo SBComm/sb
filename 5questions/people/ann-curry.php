@@ -21,7 +21,7 @@
     </div>
     <div class="social-share clearfix">
         <span class="share-header clearfix">Share on...</span>
-        <a href="http://facebook.com/sharer.php?s=100&p[title]=Stony Brook 40 Under Forty Recognition Program&p[summary]=See%20who%20made%20the%20list%20for%20%40stonybrooku%27s%20best%20and%20brightest%20Alumni%20in%20the%202015%20%23SBU40Under40%20Recognition%20Program!&p[url]=http://stonybrook.edu/40underforty&p[images][0]=http://mobile.cc.stonybrook.edu/sb/img/logo/40-under-red-banner-logo-large.png"><span class="icon sbuicon-facebook4"></a>
+        <a href="http://facebook.com/sharer.php?s=100&p[title]=Stony Brook 40 Under Forty Recognition Program&p[summary]=See%20who%20made%20the%20list%20for%20%40stonybrooku%27s%20best%20and%20brightest%20Alumni%20in%20the%202015%20%23SBU40Under40%20Recognition%20Program!&p[url]=http://stonybrook.edu/40underforty&p[images][0]=http://stonybrook.edu/far-beyond/img/logo/40-under-red-banner-logo-large.png"><span class="icon sbuicon-facebook4"></a>
         <a href="http://twitter.com/share?text=See%20who%20made%20the%20list%20for%20%40stonybrooku%27s%20best%20and%20brightest%20Alumni%20in%20the%202015%20%23SBU40Under40%20Recognition%20Program!&url=http://stonybrook.edu/40underforty"><span class="icon sbuicon-twitter"></a>
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://stonybrook.edu/40underforty&title=Stony%20Brook%2040%20Under%20Forty&summary=See%20who%20made%20the%20list%20for%20%40stonybrooku's%20best%20and%20brightest%20Alumni%20in%20the%202015%20%23SBU40Under40%20Recognition%20Program!&source="><span class="icon sbuicon-linkedin"></a>
     </div>
