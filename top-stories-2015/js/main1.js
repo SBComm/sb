@@ -21,8 +21,12 @@ if (!String.prototype.startsWith) {
   };
 }
 
-
-var siteURL = '/sb/top-stories-2015/';
+var siteURL;
+if(document.location.hostname=='loalhost') {
+	siteURL = '/sb/top-stories-2015/';
+} else {
+	siteURL = '/far-beyond/top-stories-2015/';
+}
 var totalNumStories = 15;
 
 
@@ -170,7 +174,7 @@ function setMetaTags(storyData,isDefault) {
 		newTitle = 'Top 15 Stories of 2015 | Stony Brook University';
 		newDesc = 'The top 15 stories and news headlines of 2015 from Stony Brook University have made an impact on Long Island, New York and the world.';
 		newURL = 'http://stonybrook.edu/top15/';
-		newImageURL = 'http://mobile.cc.stonybrook.edu/sb/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg';
+		newImageURL = 'http://stonybrook.edu/far-beyond/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg';
 	} else {
 		newTitle = storyData.storyTitle + ' | Stony Brook University';
 		newDesc = storyData.storyDesc;
