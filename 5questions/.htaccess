@@ -390,12 +390,12 @@ AddDefaultCharset utf-8
 
 # Option 1: rewrite www.example.com → example.com
 
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{HTTPS} !=on
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
-</IfModule>
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#    RewriteCond %{HTTPS} !=on
+#    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+#    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+#</IfModule>
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -955,6 +955,6 @@ FileETag None
     # RewriteRule ^(2[0-9]{3})$/people/([a-zA-Z0-9\-]+)$ $1/profile.php?name=$2
     RewriteRule ^people/([a-zA-Z0-9\-]+)$ profile.php?name=$1
     RewriteRule ^category/([a-zA-Z0-9&*\-]+)$ index.php?category=$1
-    RewriteRule ^people/?$ http://mobile.cc.stonybrook.edu/sb/5questions/ [R]
-    RewriteRule ^category/?$ http://mobile.cc.stonybrook.edu/sb/5questions/ [R]
+    RewriteRule ^people/?$ http://stonybrook.edu/far-beyond/5questions/ [R]
+    RewriteRule ^category/?$ http://stonybrook.edu/far-beyond/5questions/ [R]
 </IfModule>
