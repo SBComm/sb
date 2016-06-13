@@ -113,7 +113,7 @@
 
 		<?php if($tablesaw) { ?>
         	<?php includeAsset('js','plugins/tablesaw/tablesaw.js'); ?>
-        <? } ?>
+        <?php } ?>
 
 		<?php if($validation) { ?>
 	        <script src="js/vendor/jquery-validation/jquery.validate.min.js"></script>
