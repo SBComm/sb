@@ -28,7 +28,7 @@
                 <p>Applications are being accepted for the fall 2016 semester.</p>
             </div>-->
             <div class="content application-details alert-message red clearfix">
-                <p>Please note: Freshman applications are no longer being accepted for the fall 2016 semester. <a href="undergraduate-admissions/apply/transfer/">Transfer</a> student applications are still being accepted.</p>
+                <p>Applications are no longer being accepted for the fall 2016 semester. Spring and fall 2017 applications will be available in August.</p>
             </div>
              <div class="content application-details clearfix">
                 <div class="inner-wrapper">
