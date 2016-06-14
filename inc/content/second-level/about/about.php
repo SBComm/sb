@@ -321,7 +321,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The College of Business provides comprehensive education and research for the business, public, and nonprofit sectors. Our MBA program is taught by senior Stony Brook faculty with decades of experience. They are complemented by key executives recruited as visiting professors from throughout the tri-state region — industry leaders who have built stellar careers in today’s global business world. Also included is an Executive MBA program. <a class="arrow-after" href="http://www.sunysb.edu/sbbusiness/">Learn more</a></p>
+                                <p>The College of Business provides comprehensive education and research for the business, public and nonprofit sectors. Our MBA, MS and undergraduate programs are taught by faculty from around the world who have met rigorous standards for research productivity and teaching effectiveness. Students participate in vibrant learning communities where they gain the knowledge, skills and insights necessary to manage complex organizations. Dedicated faculty have both academic and business experience, and teach not only the broad principles of accounting, management, finance and marketing, but also the more intangible aspects of leadership, communications and business strategy. The College of Business offers flexible full- and part-time programs, with day, evening, Saturday and online courses available. <a class="arrow-after" href="http://www.sunysb.edu/sbbusiness/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
