@@ -36,10 +36,10 @@
 }
 
 .splash-header-inside .fa {
-    display: inline-block;
-    float: left;
-    font-size: 3.7em;
-    margin: 14px 10px 0 0;
+    /* display: inline-block; */
+    /* float: left; */
+    /* font-size: 3.7em; */
+    /* margin: 14px 10px 0 0; */
 }
 
 .splash-header h1 {
@@ -118,8 +118,8 @@ a.splash-wrapper h1 {
 .splash-header-inside img,
 .splash-header-inside .fa,
 .splash-header-inside h1 {
-    display: inline-block;
-    float: left;
+    /* display: inline-block; */
+    /* float: left; */
 }
 
 .splash-header-inside img {
@@ -1105,7 +1105,7 @@ p.default-font-size {
     }
 
     .splash-header-inside .fa {
-        font-size: 4.5em;
+        /* font-size: 4.5em; */
     }
 
     .browse-choices {
