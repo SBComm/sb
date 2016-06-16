@@ -122,7 +122,7 @@
                     <li><strong>Fitness.</strong> Each quad has its own fitness center featuring Nautilus and Cybex equipment. Some fitness centers offer aerobics classes, and all are staffed by trained students who can provide assistance.</li>
                     <li><strong>Staff.</strong> Our diverse staff includes Quad Directors, Residence Hall Directors, and administrative offices within each quad. Each Residence Hall is supervised by a full-time, live-in professional Residence Hall Director who is available daily for guidance on academic and interpersonal issues.</li>
                     <li><strong>Transportation.</strong> The University bus system provides free service seven days a week around campus and to a major indoor mall.</li>
-                    <li><strong>Our Housing Guarantee.</strong> Students in good standing who enter the University as freshmen and successfully complete all required room selection processes are guaranteed eight semesters of campus housing (six semesters of housing for those entering as transfers).</li>
+                    <li><strong>Our Housing Guarantee:</strong></li>
                 </ul>
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
