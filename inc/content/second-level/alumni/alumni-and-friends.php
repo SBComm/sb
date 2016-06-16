@@ -18,9 +18,9 @@
                     <h3 role="button" data-accordion-trigger="true" data-target="compare-links-1" data-screen-size="mobile">Alumni Association</h3>
                     <div class="links hide-accessible-mobile equal-height-col compare-links-1">
                         <a href="http://www.stonybrook.edu/alumni/" alt="Admission Criteria"><i class="fa fa-graduation-cap"></i>Alumni Home</a>
-                        <a href="http://mobile.cc.stonybrook.edu/sb/alumni/events-and-reunions/" alt="Get Connected"><i class="fa fa-graduation-cap"></i>Get Connected</a>
-                        <a href="http://mobile.cc.stonybrook.edu/sb/alumni/news-and-spotlight/#news" alt="Get Informed"><i class="fa fa-graduation-cap"></i>Get Informed</a>
-                        <a href="http://mobile.cc.stonybrook.edu/sb/alumni/perks/" alt="Get Perks"><i class="fa fa-graduation-cap"></i>Get Perks</a>
+                        <a href="http://www.stonybrook.edu/alumni/events-and-reunions/" alt="Get Connected"><i class="fa fa-graduation-cap"></i>Get Connected</a>
+                        <a href="http://www.stonybrook.edu/alumni/news-and-spotlight/#news" alt="Get Informed"><i class="fa fa-graduation-cap"></i>Get Informed</a>
+                        <a href="http://www.stonybrook.edu/alumni/perks/" alt="Get Perks"><i class="fa fa-graduation-cap"></i>Get Perks</a>
                     </div>
                     <div class="image desktop">
                         <img src="img/misc/alumni-association.jpg" alt="Student walking from behind" />

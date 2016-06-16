@@ -132,7 +132,7 @@
                                 <a href="http://www.stonybrook.edu/pres/" target="_blank">Office of the President</a>
                                 <a href="http://www.stonybrook.edu/commcms/provost/" target="_blank">Office of the Provost</a>
                                 <a href="http://www.stonybrook.edu/commcms/audit/policies/" target="_blank">Policies and Procedures Manual</a>
-                                <a href="http://mobile.cc.stonybrook.edu/sb/social/guidelines/" target="_blank">Social Media Guidelines</a>
+                                <a href="http://www.stonybrook.edu/social/guidelines/" target="_blank">Social Media Guidelines</a>
                                 <a href="http://www.stonybrook.edu/sb/sbcouncil/" target="_blank">Stony Brook Council</a>
                                 <a href="http://www.suny.edu/about/leadership/board-of-trustees/" target="_blank">SUNY Policies</a>
                                 <a href="http://www.stonybrook.edu/pres/council.html" target="_blank">University Council</a>

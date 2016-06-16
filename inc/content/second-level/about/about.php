@@ -74,7 +74,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Stony Brook's tuition makes it one of the most affordable top-ranked schools in the world. <a class="arrow-after" href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/cost-and-financial-aid/">See the numbers</a></p>
+                                <p>Stony Brook's tuition makes it one of the most affordable top-ranked schools in the world. <a class="arrow-after" href="http://www.stonybrook.edu/undergraduate-admissions/cost-and-financial-aid/">See the numbers</a></p>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>The <a href="http://alumniandfriends.stonybrook.edu/page.aspx?pid=352">Stony Brook Alumni Association</a> represents more than 160,000 alumni nationwide and abroad. Established in 1965, the Association works to increase communication, encourage involvement, and expand services for alumni, while we build support for Stony Brook University. For more info, <a href="http://stonybrook.edu/offires/alumni/alumnidegrees.shtml">See Alumni &amp; Degrees Granted</a>.</p>
-                                <p>Stony Brook graduates rank among the highest in the nation when it comes to earnings potential, according to the PayScale College Salary Report.<a class="arrow-after" href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/cost-and-financial-aid/">See the numbers</a></p>
+                                <p>Stony Brook graduates rank among the highest in the nation when it comes to earnings potential, according to the PayScale College Salary Report.<a class="arrow-after" href="http://www.stonybrook.edu/undergraduate-admissions/cost-and-financial-aid/">See the numbers</a></p>
                                 <p>Some Stony Brook Alumni success stories:</p>
                                 <ul class="default-bullets">
                                     <li>Craig Allen '79, chief meteorologist CBS "This Morning" and WCBS Newsradio 88</li>
