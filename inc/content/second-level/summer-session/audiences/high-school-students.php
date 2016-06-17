@@ -29,58 +29,20 @@
             </div>
             <div class="content courses-content">
                 <div class="one-third hs-long">
-                    <h4>Special Courses for <span class="nowrap">High School Students</span></h4>
-                    <ul class="hs-long">
-                        <li><a href="summer-session/courses/results/?department=THR&catalog_number=105">Acting I</a>
-                        <li><a href="summer-session/courses/results/?department=MAP&catalog_number=103">Algebra</a>
-                        <li><a href="summer-session/courses/results/?department=POL&catalog_number=102">American Government</a>
-                        <li><a href="summer-session/courses/results/?department=LIN&catalog_number=110">Anatomy of English Words (Online)</a>
-                        <li><a href="summer-session/courses/results/?department=DAN&catalog_number=166">Ballet</a>
-                        <li><a href="summer-session/courses/results/?department=ANP&catalog_number=120">Biological Anthropology (Online)</a>
-                        <li><a href="summer-session/courses/results/?department=BUS&catalog_number=111">Business</a>
-                        <li><a href="summer-session/courses/results/?department=CCS&catalog_number=101">Cinema Studies</a>
-                        <li><a href="summer-session/courses/results/?department=BIO&catalog_number=114">Dinosaur Paleontology</a>
-                        <li><a href="summer-session/courses/results/?department=ARS&catalog_number=154">Drawing</a>
-                        <li><a href="summer-session/courses/results/?department=GEO&catalog_number=102">Earth</a>
-                        <li><a href="summer-session/courses/results/?department=EGL&catalog_number=192">Fiction</a>
-                        <li><a href="summer-session/courses/results/?department=GER&catalog_number=101">German</a>
-                        <li><a href="summer-session/courses/results/?department=ITL&catalog_number=111">Italian</a>
-                        <li><a href="summer-session/courses/results/?department=MAR&catalog_number=104">Marine Oceanography</a>
-                        <li><a href="summer-session/courses/results/?department=EST&catalog_number=194">Patterns of Problem Solving</a>
-                        <li><a href="summer-session/courses/results/?department=PHI&catalog_number=108">Philosophy</a>
-                        <li><a href="summer-session/courses/results/?department=THR&catalog_number=104">Play Analysis</a>
-                        <li><a href="summer-session/courses/results/?department=PSY&catalog_number=103">Psychology</a>
-                        <li><a href="summer-session/courses/results/?department=MUS&catalog_number=109">Rock Music (Online)</a>
-                        <li><a href="summer-session/courses/results/?department=SOC&catalog_number=105">Sociology</a>
-                        <li><a href="summer-session/courses/results/?department=SPN&catalog_number=111">Spanish</a>
-                        <li><a href="summer-session/courses/results/?department=AMS&catalog_number=102">Statistics</a>
-                        <li><a href="summer-session/courses/results/?department=JRN&catalog_number=105">The Mind of a Reporter</a>
-                        <li><a href="summer-session/courses/results/?department=WST&catalog_number=103">Women, Culture, and Difference</a>
-                        <li><a href="summer-session/courses/results/?department=DAN&catalog_number=102">World Dance Cultures</a>
-                        <li><a href="summer-session/courses/results/?department=CLT&catalog_number=101">World Literatures</a>
-                        <li><a href="summer-session/courses/results/?department=WRT&catalog_number=101">Writing</a>
-                    </ul>
+                    <?php
+                        $file = "shared/high-school/high-school-summer-courses.php";
+                        include($pathForContent . $content . $file);
+                    ?>
                     <p><em><a class="fa-arrow-after" href="summer-session/courses/">View all courses</a></em></p>
                 </div>
                 <div class="two-third">
                     <div class="programs-box-wrapper clearfix">
                         <img class="clearfix" src="img/university/fountain-vertical.jpg" />
                         <div class="programs-box-content external-link-hover-wrapper clearfix">
-                            <h4>Summer Programs:</h4>
-                            <ul class="box-bullets">
-                                <li><a href="http://www.stonybrook.edu/simons/" target="_blank">Simons Summer Research Fellowship</a></li>
-                                <li><a href="http://istem.stonybrook.edu/content/biotechnology-summer-camp" target="_blank">Biotechnology Summer Camp</a></li>
-                                <li><a href="http://istem.stonybrook.edu/content/engineering-summer-program" target="_blank">Engineering Summer Camp</a></li>
-                                <li><a href="http://istem.stonybrook.edu/content/explorations-forensics-camp" target="_blank">Explorations in Forensics Camp</a></li>
-                                <li><a href="http://www.stonybrook.edu/commcms/explore/" target="_blank">International Enrichment Program</a></li>
-                                <li><a href="http://greenegazette.com/" target="_blank">Robert W. Greene Summer Institute for High School Journalists</a></li>
-                                <li><a href="http://istem.stonybrook.edu/content/mathematics-summer-program" target="_blank">Mathematics Summer Program</a></li>
-                                <li><a href="http://istem.stonybrook.edu/content/physics-summer-camp" target="_blank">Physics Summer Camp</a></li>
-                                <li><a href="http://www.stonybrook.edu/cesame/teachers/Competitions/ProteinModelingChallengeHome.html" target="_blank">Protein Modeling Challenge</a></li>
-                                <li><a href="http://anesthesia.stonybrook.edu/SARAS" target="_blank">SARAS: Science And Research Awareness Series</a></li>
-                                <li><a href="https://llrc.stonybrook.edu/node/1424" target="_blank">StarTalk Program</a></li>
-                                <li><a href="http://www.stonybrook.edu/commcms/music/community_programs/summer.html" target="_blank">Summer Music Camps</a></li>
-                            </ul>
+                            <?php
+                                $file = "shared/high-school/high-school-summer-programs.php";
+                                include($pathForContent . $content . $file);
+                            ?>
                         </div>
                     </div>
                 </div>

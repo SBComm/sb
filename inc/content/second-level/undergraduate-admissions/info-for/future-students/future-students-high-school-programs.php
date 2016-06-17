@@ -21,16 +21,35 @@
             </header>
         </div>
     </section>
-    <section class="clearfix inside-content main-inside-content two-col white-background">
+
+    <section class="clearfix inside-content main-inside-content alt-headers two-col white-background high-school-content">
         <div class="border-box wrapper clearfix">
-            <h3>High School Programs</h3>
             <div class="content">
-                <p>Stony Brook offers an exciting variety of opportunities for high school students, ranging from genuine hands-on research to credited summer courses that can jump-start your college career.</p>
-                <ul class="default-bullets">
-                    <li>Our <a class="external-link" href="http://www.stonybrook.edu/ugadmissions/programs/youngscholars.shtml" target="_blank">Young Scholars Program</a> gives academically talented high school juniors and seniors an opportunity to complement their studies by enrolling in courses not traditionally included in the secondary school curriculum. Students selected for the Young Scholars Program participate in regular college classes with matriculated Stony Brook students on the Stony Brook campus in the afternoon and early evening.</li>
-                    <li>SB's <a class="external-link" href="http://www.stonybrook.edu/ugadmissions/programs/ace.shtml" target="_blank">Accelerated College Education (ACE) Program</a> provides students with the academic challenges of a college-level curriculum within the high school setting. Enrollment in ACE courses may provide future opportunities to students, such as the ability to enroll in higher-level college courses or to complete a four-year degree in a shorter amount of time.</li>
-                </ul>
-                <p><a class="external-link" href="http://www.stonybrook.edu/sb/highschool.shtml" target="_blank">See more High School Programs that Stony Brook offers.</a></p>
+                <div class="three-quarter">
+                    <h3>Jump Start Your Future</h3>
+                    <p>Stony Brook offers an exciting variety of opportunities for high school students, ranging from genuine hands-on research to credited summer courses that can jump-start your college career.
+                </div>
+                <div class="one-quarter padding-top">
+                    <img class="clearfix margin-top margin-bottom" src="img/students/red-bag-small.jpg" />
+                </div>
+            </div>
+            <div class="content courses-content">
+                <div class="one-half hs-long">
+                    <?php
+                        $file = "shared/high-school/high-school-summer-courses.php";
+                        include($pathForContent . $content . $file);
+                    ?>
+                </div>
+                <div class="one-half">
+                    <div class="programs-box-wrapper clearfix">
+                        <div class="programs-box-content external-link-hover-wrapper clearfix star-bullets">
+                            <?php
+                                $file = "shared/high-school/high-school-summer-programs.php";
+                                include($pathForContent . $content . $file);
+                            ?>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
