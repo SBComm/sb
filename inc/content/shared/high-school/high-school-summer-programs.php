@@ -1,4 +1,4 @@
-<h4>High School Programs</h4>
+<h4>High School Summer Programs</h4>
 <ul class="box-bullets">
     <li><a href="http://www.stonybrook.edu/simons/" target="_blank">Simons Summer Research Fellowship</a></li>
     <li><a href="http://istem.stonybrook.edu/content/biotechnology-summer-camp" target="_blank">Biotechnology Summer Camp</a></li>

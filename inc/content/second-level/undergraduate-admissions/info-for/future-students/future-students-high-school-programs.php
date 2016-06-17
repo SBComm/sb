@@ -30,9 +30,48 @@
                     <p>Stony Brook offers an exciting variety of opportunities for high school students, ranging from genuine hands-on research to credited summer courses that can jump-start your college career.
                 </div>
                 <div class="one-quarter padding-top">
-                    <img class="clearfix margin-top margin-bottom" src="img/students/red-bag-small.jpg" />
+                    <img class="clearfix margin-top" src="img/students/red-bag-small.jpg" />
                 </div>
             </div>
+
+        <div class="content">
+            <div class="one-third">
+        
+                    <h4>Research Opportunities</h4>
+                    <ul class="star-bullets star-bullets-red">
+                        <li><a href="http://www.stonybrook.edu/commcms/simons/useful_information/hsresearch.html">Independent High School Research</a></li>
+                        <li><a href="http://laser.physics.sunysb.edu/">Laser Teaching Center</a></li>
+                        <li><a href="http://www.stonybrook.edu/commcms/garcia/">Garcia Research Scholar Program</a></li>
+                        <li><a href="http://www.sunysb.edu/simons/">Simons Summer Research Fellowship</a></li>
+                    </ul>
+        
+                </div>
+        
+                <div class="one-third">
+        
+                    <h4>Outreach</h4>
+                    <ul class="star-bullets star-bullets-red">
+                        <li><a href="http://istem.stonybrook.edu/">The Institute for STEM Education (I-STEM)</a></li>
+                        <li><a href="http://ws.cc.stonybrook.edu/stepprogram/">Science and Technology Entry Program (STEP)</a></li>
+                        <li><a href="http://www.stonybrook.edu/commcms/wise/middle-high/highschoolwise">WISE (Women in Science and Engineering)</a></li>
+                    </ul>
+        
+                </div>
+        
+                <div class="one-third">
+        
+                    <h4>Academic Year Programs</h4>
+                    <ul class="star-bullets star-bullets-red">
+                        <li><a href="http://www.stonybrook.edu/ace">Accelerated College Education (ACE)</a></li>
+                        <li><a href="http://istem.stonybrook.edu/content/della-pietra-high-school-applied-math-program">Della Pietra High School Applied Math Program</a></li>
+                        <li><a href="http://www.stonybrook.edu/cesame/students/MathChampCamp/mathchampcamp.html">High School Applied Math Program</a></li>
+                        <li><a href="http://istem.stonybrook.edu/content/holiday-science-camp">Holiday Science Camp (grades 5-7)</a></li>
+                        <li><a href="http://ws.cc.stonybrook.edu/ugadmissions/youngscholars">Young Scholars</a></li>
+                    </ul>
+        
+                </div>
+            </div>
+
             <div class="content courses-content">
                 <div class="one-half hs-long">
                     <?php
