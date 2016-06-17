@@ -9,8 +9,9 @@
     <li><a href="http://istem.stonybrook.edu/content/mathematics-summer-program" target="_blank">Mathematics Summer Program</a></li>
     <li><a href="http://istem.stonybrook.edu/content/middle-school-math-camp" target="_blank">Middle School Math Camp</a></li>
     <li><a href="http://istem.stonybrook.edu/content/physics-summer-camp" target="_blank">Physics Summer Camp</a></li>
-    <li><a href="https://sites.google.com/a/stonybrook.edu/saras/" target="_blank">Science Exploration Camps (grades 6-9)</a></li>
+    <li><a href="https://sites.google.com/a/stonybrook.edu/saras/" target="_blank">Science And Research Awareness Series (SARAS)</a></li>
     <li><a href="http://istem.stonybrook.edu/content/science-exploration-camp" target="_blank">Middle School Math Camp</a></li>
+    <li><a href="http://www.somas.stonybrook.edu/education/undergrad_course_mar104/" target="_blank">Oceanography at Stony Brook Southampton</a></li>
     <li><a href="https://llrc.stonybrook.edu/node/1424" target="_blank">StarTalk Program</a></li>
     <li><a href="http://www.stonybrook.edu/commcms/music/community_programs/summer.html" target="_blank">Summer Music Camps</a></li>
     <li><a href="http://www.stonybrook.edu/commcms/wise/middle-high/highschoolwise.html" target="_blank">Women in Science &amp; Engineering (WISE)</a></li>
