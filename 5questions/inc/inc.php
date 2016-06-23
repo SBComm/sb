@@ -16,16 +16,16 @@
         $working_path_relative_start_location = "localhost/";
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
-            $site          = 'development/sb/5questions';
-            $css_base_url  = 'http://mobile.cc.stonybrook.edu/development/sb/5questions/';
+            $site          = 'sb/5questions';
+            $css_base_url  = 'http://www.stonybrook.edu/development/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
             $is_production_environment = false;
             $is_local_environment = false; 
         } else {
-            $site          = 'sb/5questions';
-            $css_base_url  = 'http://mobile.cc.stonybrook.edu/sb/5questions/';
+            $site          = '5questions';
+            $css_base_url  = 'http://www.stonybrook.edu/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_production_environment = true;
@@ -64,8 +64,8 @@
     $og_title          = 'Stony Brook 5 Questions With';                    //OpenGraph title
     $og_description    = $page_description;     //OpenGraph description
     $og_type           = 'website';             //OpenGraph type: for options see http://ogp.me/ 
-    $og_url            = 'http://stonybrook.edu/5questions';             //site URL for OpenGraph
-    $og_image          = 'http://mobile.cc.stonybrook.edu/sb/5questions/img/branding/5-questions-logo.png';             //image for OpenGraph
+    $og_url            = 'http://www.stonybrook.edu/5questions';             //site URL for OpenGraph
+    $og_image          = 'http://www.stonybrook.edu/far-beyond/5questions/img/branding/5-questions-logo.png';             //image for OpenGraph
 
 
     /* Page Include Controls */
