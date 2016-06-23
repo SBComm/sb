@@ -26,7 +26,7 @@
             $is_production_environment = false;
             $is_local_environment = false; 
         } else {
-            $site          = '5questions';
+            $site          = 'sb/5questions';
             $css_base_url  = 'http://www.stonybrook.edu/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
