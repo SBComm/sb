@@ -193,7 +193,8 @@ if($is_proofing_environment) {
         </div>
     <?php }
     if(!$is_local_environment) {
-        include ($_SERVER['DOCUMENT_ROOT'] . '/emergency/message.html');
+        $file = "emergency/message.php";
+        include($root . '/' . $site . '/' . $file);
     }
 ?>
 
