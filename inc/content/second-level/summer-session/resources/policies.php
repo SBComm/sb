@@ -50,7 +50,7 @@
                                 <p>Please note that admission to summer classes is for Summer Sessions only. Admission to our Undergraduate and Graduate Programs is a separate Admissions process.</p>
                                 <p>For information about undergraduate degree programs and admission for the fall semester visit <a href="http://www.stonybrook.edu/undergraduate-admissions/">Undergraduate Admissions</a>.</p>
                                 <p>For information about graduate admission contact: <a target="https://www.grad.stonybrook.edu/">Graduate School</a> or <a href="http://www.stonybrook.edu/spd/">School of Professional Development</a>.</p>
-                                <p>For information about International admission contact: <a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/apply/international/">International Services</a>.</p>
+                                <p>For information about International admission contact: <a href="http://www.stonybrook.edu/undergraduate-admissions/apply/international/">International Services</a>.</p>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                                 <p>Visiting students, who currently hold a valid F-1 visa and attend a U.S. institution, are eligible to take summer courses, as long as they have obtained permission from their home institution.</p>
                                 <p>Visiting students who currently reside and attend school outside the U.S. (and do not already hold an F-1) <strong>may be eligible</strong> to take summer (&amp; winter) classes. Please visit the International Summer School for more information.</p>
                                 <p>Students visiting the U.S. and currently hold a B1/2 visa are not eligible to take Summer Classes.</p>
-                                <p><a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/apply/international/" target="_blank">Get more information</a></p>
+                                <p><a href="http://www.stonybrook.edu/undergraduate-admissions/apply/international/" target="_blank">Get more information</a></p>
                             </div>
                         </div>
                     </div>

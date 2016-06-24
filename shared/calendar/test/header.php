@@ -1,1 +1,1 @@
-<?php echo file_get_contents('http://mobile.cc.stonybrook.edu/sb/shared/sbu-header.php?include=1') ?>
+<?php echo file_get_contents('http://www.stonybrook.edu/far-beyond/shared/sbu-header.php?include=1') ?>

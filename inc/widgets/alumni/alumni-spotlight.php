@@ -1,4 +1,4 @@
-<section id="spotlight" class="photo-boxes-wrapper clearfix">
+<section id="spotlight" class="photo-boxes-wrapper clearfix inside-content">
     <h2 class="rule-header-white-on-black"><span class="text">Alumni Spotlight</span></h2>
     <div class="photo-boxes photo-boxes-quarter border-box clearfix">
         <a class="item" href="http://sb.cc.stonybrook.edu/happenings/alumni/al-bello-89-chief-sports-photographer-getty-images/" title="View story for Al Bello" target="_blank">
@@ -90,4 +90,5 @@
             </div>
         </a>
     </div>
+    <a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="http://sb.cc.stonybrook.edu/happenings/alumni/" target="_blank">See More Spotlights</a>
 </section>

@@ -1,10 +1,11 @@
 <?php 
     /* Include Variables */
-    $root        = $_SERVER['DOCUMENT_ROOT'];       //server root
+    $root        = '/user/far-beyond/www';       //server root
     $inc_loc     = 'inc';                          //location for php includes
     $dir         = dirname(__FILE__);
 
     if($_SERVER['SERVER_NAME'] == 'localhost') {
+        $root          = $_SERVER['DOCUMENT_ROOT'];
         $site          = 'sb/5questions'; //site folder inside the root dir
         $css_base_url  = 'http://localhost:8888/sb/5questions/';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
@@ -14,6 +15,7 @@
         $is_production_environment = false;
 
         $working_path_relative_start_location = "localhost/";
+        $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'sb/5questions';
@@ -24,7 +26,7 @@
             $is_production_environment = false;
             $is_local_environment = false; 
         } else {
-            $site          = '5questions';
+            $site          = 'sb/5questions';
             $css_base_url  = 'http://www.stonybrook.edu/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
@@ -33,10 +35,10 @@
             $is_local_environment = false;
         }
 
-        $working_path_relative_start_location = "web/";
-    }
+        //$working_path_relative_start_location = "web/";
+        $working_path_asset_dir = '/user/far-beyond/www/sb/';
 
-    $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
+    }
 
     $content     = "content/";                  //directory for php content
         $test    = "test/";                     //custom directory variables
@@ -65,7 +67,7 @@
     $og_description    = $page_description;     //OpenGraph description
     $og_type           = 'website';             //OpenGraph type: for options see http://ogp.me/ 
     $og_url            = 'http://www.stonybrook.edu/5questions';             //site URL for OpenGraph
-    $og_image          = 'http://www.stonybrook.edu/far-beyond/5questions/img/branding/5-questions-logo.png';             //image for OpenGraph
+    $og_image          = 'http://www.stonybrook.edu/far-beyond/5questions/img/branding/5-questions-logo.png';             //image 
 
 
     /* Page Include Controls */

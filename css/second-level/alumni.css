@@ -225,6 +225,14 @@ section.activities-and-calendar {
     font-family: 'TradeGothicW01-BoldCn20 675334';
 }
 
+.photo-boxes + .sbu-outline-button {
+    margin: 20px auto;
+    width: 250px;
+    text-align: center;
+    float: none;
+    display: block;
+}
+
 .inside-page .activities-and-calendar-featured ul.calendar-items {
     border-bottom: 1px solid #900;
     width: 100%;

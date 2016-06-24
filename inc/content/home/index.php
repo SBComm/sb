@@ -5,7 +5,7 @@
 			<h1 class="clearfix">Far Beyond Brain Surgery</h1>
 			<p class="clearfix">A vascular simulator is revolutionizing neurosurgery.</p> 
 			<a class="clearfix video-link nivo-lightbox" href="http://www.youtube.com/watch?v=xFobgM01M2A​" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
-			<a class="clearfix video-link" href="http://mobile.cc.stonybrook.edu/sb/magazine/2016-spring/personalizing-brain-surgery">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
+			<a class="clearfix video-link" href="http://www.stonybrook.edu/magazine/2016-spring/personalizing-brain-surgery">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
 		</div>  
 	</div>
 </section>
@@ -21,7 +21,7 @@
 		<h2 class="clearfix">Become a Seawolf</h2>
 		<h3 class="clearfix"><span>Want to change the great big world?</span> <span><strong>So&nbsp;do we.</strong> Join our community of explorers.</span></h3>
 		<ul class="clearfix">
-			<li class="btn"><a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/visit/">Visit us</a></li>
+			<li class="btn"><a href="http://www.stonybrook.edu/undergraduate-admissions/visit/">Visit us</a></li>
 			<li class="btn"><a href="http://m.stonybrook.edu/sb/undergraduate-admissions/virtual-tour/">Take a virtual tour</a></li>
 			<li class="btn"><a href="http://www.stonybrook.edu/sb/far-beyond/admissions/">Apply</a></li>
 			<li class="btn"><a href="http://stonybrook.edu/summer/">Summer Sessions</a></li>

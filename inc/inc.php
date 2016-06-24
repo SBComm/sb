@@ -1,44 +1,48 @@
 <?php 
     /* Include Variables */
-    $root        = $_SERVER['DOCUMENT_ROOT'];
+    $root        = '/user/far-beyond/www';
     $inc_loc     = 'inc';   //include folder
     $dir         = dirname(__FILE__);
 
     if($_SERVER['SERVER_NAME'] == 'localhost') {
+        $root          = $_SERVER['DOCUMENT_ROOT'];
         $site          = 'sb'; //site folder inside the root dir
         $http_root     = 'http://localhost:8888';
         $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+        $css_base_url  = $http_root . '/' . $site . '/';
 
         $is_local_environment = true;
         $is_proofing_environment = false;
         $is_production_environment = false;
 
         $working_path_relative_start_location = "localhost/";
+        $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
+
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb';
-            $http_root     = 'http://mobile.cc.stonybrook.edu';
+            $http_root     = 'http://www.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+            $css_base_url  = $http_root . '/' . 'far-beyond' . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
             $is_production_environment = false;
             $is_local_environment = false; 
         } else {
             $site          = 'sb';
-            $http_root     = 'http://mobile.cc.stonybrook.edu';
+            $http_root     = 'http://www.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
+            $css_base_url  = $http_root . '/' . 'far-beyond' . '/';
             $working_path_asset_dir = '';
             $is_production_environment = true;
             $is_proofing_environment = false;
             $is_local_environment = false;
         }
 
-        $working_path_relative_start_location = "web/";
+        //$working_path_relative_start_location = "web/";
+        $working_path_asset_dir = '/user/far-beyond/www/sb/';
+
     }
-
-    $css_base_url  = $http_root . '/' . $site . '/';
-
-    $working_path_asset_dir = substr_replace($dir, $working_path_relative_start_location.$site, strpos($dir,$working_path_relative_start_location));
 
     $relative_page_path = $_SERVER['REQUEST_URI'];
 

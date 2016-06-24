@@ -13,10 +13,10 @@
                 	<a href="http://www.stonybrook.edu/sb/alumni.shtml" class="clearfix">Alumni &amp; Friends</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://mobile.cc.stonybrook.edu/sb/undergraduate-admissions/parents/" class="clearfix">Parents</a>
+                	<a href="http://www.stonybrook.edu/undergraduate-admissions/parents/" class="clearfix">Parents</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://mobile.cc.stonybrook.edu/sb/community-relations/" class="clearfix">Neighbors</a>
+                	<a href="http://www.stonybrook.edu/community-relations/" class="clearfix">Neighbors</a>
                 </li>
                 <li class="clearfix">
                     <a href="http://www.stonybrook.edu/economic-development/" class="clearfix">Economic Development</a>

@@ -128,7 +128,7 @@
 
         <?php if($page_type=='second-level' && $second_level=='community-relations') { ?>
             <?php includeAsset('css','css/second-level/for-students.css','all'); ?>
-        <? } ?>
+        <?php } ?>
 
         <?php if($page_type=='second-level' || ($page_type=='social-hub'&&$second_level=='alumni')) { ?>
             <?php includeAsset('css','css/second-level.css','all'); ?>
@@ -137,7 +137,7 @@
             <?php if($second_level=='alumni-and-friends') { ?>
                 <?php includeAsset('css','css/second-level/admissions.css','all'); ?>
                 <?php includeAsset('css','css/second-level/alumni-inside.css','all'); ?>
-            <? } ?>
+            <?php } ?>
             <?php if($inside_page==true) { ?>
                 <?php includeAsset('css','css/second-level/'.$second_level.'-inside.css','all'); ?>
             <?php } ?>
@@ -145,7 +145,7 @@
 
         <?php if($page_type=='second-level' && $second_level=='analytics') { ?>
             <?php includeAsset('css','plugins/analytics/jquery.css','all'); ?>
-        <? } ?>
+        <?php } ?>
 
         <?php if($page_type=='bulletin') { ?>
             <?php includeAsset('css','css/page-types/bulletin.css','all'); ?>

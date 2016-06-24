@@ -120,7 +120,7 @@
                                 <a href="for-students/academic-advising/">Academic Advising</a>
                                 <a href="http://stonybrook.edu/advisingmedia" target="_blank">Advising Tutorials</a>
                                 <a href="http://www.stonybrook.edu/commcms/academic_success/" target="_blank">Academic Success &amp; Tutoring Center</a>
-                                <a href="http://mobile.cc.stonybrook.edu/sb/campus-safety/" target="_blank">Campus Safety</a>
+                                <a href="http://www.stonybrook.edu/campus-safety/" target="_blank">Campus Safety</a>
                                 <a href="http://studentaffairs.stonybrook.edu/cpo/index.shtml" target="_blank">Center for Prevention &amp; Outreach</a>
                                 <a href="http://www.studentaffairs.stonybrook.edu/caps/" target="_blank">Counseling &amp; Psychological Services (CAPS) </a>
                                 <a href="http://it.stonybrook.edu/services/client-support-service-center" target="_blank">Computer Support</a>

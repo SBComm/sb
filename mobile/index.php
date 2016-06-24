@@ -106,7 +106,7 @@
 							<h2>Solar</h2>
 						</figcaption>			
 					</a>
-					<a href="http://mobile.cc.stonybrook.edu/sb/admissions/" class="figure-link effect-sadie">
+					<a href="http://www.stonybrook.edu/admissions/" class="figure-link effect-sadie">
 						<img src="img/landing/computer-science/computer-science-1.jpg" alt="img05"/>
 						<figcaption>
 							<h2>Admissions</h2>

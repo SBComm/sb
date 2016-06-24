@@ -1,5 +1,5 @@
 <?php
-header('Access-Control-Allow-Origin: http://stonybrook.edu');
+header('Access-Control-Allow-Origin: http://www.stonybrook.edu');
 require_once('functions.php');
 
 if (isset($_POST['data']) && $_POST['data'] != "") {
@@ -10,7 +10,7 @@ if (isset($_POST['data']) && $_POST['data'] != "") {
     $include = $data->area;
     $filter = $data->filter;
 
-    $siteUrl = 'http://stonybrook.edu/' . str_replace('\\','',($include.'/'.$filter));
+    $siteUrl = 'http://www.stonybrook.edu/' . str_replace('\\','',($include.'/'.$filter));
 
     try {
         $temp = explode(",", $metrics);
