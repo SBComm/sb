@@ -1,3 +1,146 @@
+  /*************************/
+ /*       Headings        */
+/*************************/
+
+/* Defaults */
+
+h2 {
+    font-family: "Museo Slab W01", "Museo Slab", Gerogia, serif;
+    font-weight: 300;
+    text-transform: none;
+    font-size: 1.7rem;
+    margin: 5% 0 10%;
+}
+
+@media (min-width: 400px) { 
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 680px) { 
+    h2 {
+        margin: 15px 0 50px;
+    }
+}
+
+@media (min-width: 1160px) { 
+    h2 {
+        font-size: 2.2rem;
+    }
+}
+
+
+
+
+  /***********************/
+ /* Section Backgrounds */
+/***********************/
+
+
+/* Rays */
+
+.rays-bkg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10% 0;
+    z-index: 10;
+}
+
+.rays-bkg--black {
+    background: #000;
+}
+
+.rays-bkg--red {
+    background: #800;
+}
+
+.rays-bkg--red--1 {
+    background: #800 url(../img/branding/rays/rays-vertical-1.jpg) repeat top center;
+}
+
+.rays-bkg--red h1,
+.rays-bkg--red h2,
+.rays-bkg--red h3,
+.rays-bkg--red h4,
+.rays-bkg--red h5,
+.rays-bkg--red h6,
+.rays-bkg--red p,
+.rays-bkg--red a.brand-button,
+.rays-bkg--red a.brand-button:hover,
+.rays-bkg--black h1,
+.rays-bkg--black h2,
+.rays-bkg--black h3,
+.rays-bkg--black h4,
+.rays-bkg--black h5,
+.rays-bkg--black h6,
+.rays-bkg--black p {
+    color: #fff;
+    border-color: #fff;
+    background: transparent;
+}
+
+.rays-bkg--red a.brand-button {
+    background: #000;
+    border-color: #000;
+}
+
+/* Colors */
+
+.white-bkg {
+    padding: 10% 0;
+}
+
+.white-bkg h1,
+.white-bkg h2,
+.white-bkg h3,
+.white-bkg h4,
+.white-bkg h5,
+.white-bkg h6 {
+    color: #828282;
+}
+
+.white-bkg p {
+    color: #000;
+}
+
+.white-bkg a.brand-button {
+    color: #900;
+    border-color: #900;
+}
+
+.white-bkg a.brand-button:hover {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+/* Section customizations */
+
+@media (min-width: 400px) { 
+    .rays-bkg a.brand-button,
+    .white-bkg a.brand-button {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 680px) { 
+    .rays-bkg,
+    .white-bkg {
+        padding: 40px 0 60px;
+    }
+}
+
+
+
+  /**********************/
+ /*      Buttons       */
+/**********************/
+
+/* Standard brand buttons */
+
 .brand-button {
     display: inline-block;
     width: auto;
@@ -16,6 +159,230 @@
     transition: none;
 }
 
+
+
+
+
+
+  /**********************/
+ /*      Wrappers      */
+/**********************/
+
+/* Four buttons */
+
+.four-buttons,
+.four-buttons li,
+.four-buttons li a {
+    display: block;
+    width: 100%;
+}
+
+.four-buttons li a {
+    margin: 0 0 15px;
+    float: left;
+}
+
+@media (min-width: 680px) { 
+    .four-buttons li a {
+        margin: 0 0 5%;
+    }
+
+    .four-buttons li {
+        margin: 0;
+        float: left;
+        width: 50%;
+    }
+
+    .four-buttons li:nth-child(even) {
+        margin-left: 1%;
+        width: 48%;
+    }
+
+    .four-buttons li:nth-child(odd) {
+        margin-right: 1%;
+        width: 48%;
+    }
+}
+
+@media (min-width: 1160px) { 
+    .four-buttons li {
+        margin: 0 1%;
+        float: left;
+        width: 23%;
+    }
+
+    .four-buttons li:first-child {
+        margin-left: 0;
+        width: 23.5%;
+    }
+
+    .four-buttons li:nth-child(even) {
+        margin-left: 1%;
+        width: 23.5%;
+    }
+
+    .four-buttons li:nth-child(odd) {
+        margin-right: 1%;
+        width: 23.5%;
+    }
+
+    .four-buttons li:last-child {
+        margin-right: 0;
+        width: 23.5%;
+    }
+
+}
+
+
+
+
+
+  /****************************/
+ /*     Section Elements     */
+/****************************/
+
+/* Events widget */
+
+.events-widget ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+.events-widget ul li {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 30px;
+    font-family: "Effra W01", Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.events-widget ul li a {
+    display: block;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.events-widget .eventDate {
+    text-transform: uppercase;
+    width: 66px;
+    height: 64px;
+    margin: 0 0 0 0;
+    float: left;
+    background: #fff;
+    color: #900;
+    padding: 3px 0 0 0;
+    transition: all .3s ease;
+}
+
+.events-widget .eventTitle {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 7px 0 0 84px;
+    right: 0;
+    min-height: 67px;
+    border-top: 2px solid transparent;
+    top: -1px;
+}
+
+.events-widget .eventDate span {
+    display: block;
+    text-align: center;
+}
+
+.events-widget .eventDate span.eventDate_day {
+    font-size: 2rem;
+}
+
+.events-widget .eventDate_month {
+    font-weight: 700;
+    font-family: "Museo Slab W01", "Museo Slab", Gerogia, serif;
+}
+
+.events-widget a {
+    color: #fff;
+}
+
+.events-widget a:hover .eventTitle {
+    border-color: #fff;
+    background: rgba(0,0,0,0.05);
+}
+
+.events-widget .eventTitle .item {
+    font-family: "Effra W01", Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.025rem;
+    line-height: 1em;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+@media (min-width: 600px) {
+    .events-widget ul li {
+        float: left;
+        clear: none;
+        width: 50%;
+        padding-right: 35px;
+    }
+}
+
+@media (min-width: 1160px) {
+    .events-widget ul li {
+        float: left;
+        clear: none;
+        width: 25%;
+        padding-right: 35px;
+        margin: 0 0 60px;
+    }
+}
+
+/* Events - on white */
+
+.events-widget--on-white a {
+    color: #900;
+}
+
+.events-widget--on-white .eventDate {
+    background: #800 url(../img/branding/rays/rays-vertical-1.jpg) repeat top center;
+}
+
+.events-widget--on-white .eventDate span {
+    color: #fff;
+}
+
+.events-widget--on-white .eventDate_month {
+    font-weight: 300;
+}
+
+.events-widget--on-white a:hover .eventTitle {
+    border-color: #900;
+    background: rgba(0,0,0,0.05);
+}
+
+.events-widget .jump-away-link {
+    font-family: "Effra W01", Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.events-widget .jump-away-link a {
+    float: right;
+}
+
+
+
+
+
+  /**********************/
+ /*     Grid Items     */
+/**********************/
+
+/* Magazine style Grid Items */
 
 .grid-item_category {
     position: absolute;
@@ -153,6 +520,7 @@
 
 
 @media only screen and (max-width: 399px) {
+
 }
 
 
@@ -431,23 +799,4 @@
     .grid-item .mag-articles_title {
         font-size: 49px;
     }
-}
-
-
-.brand-button {
-    display: inline-block;
-    width: auto;
-    border: 2px solid #fff;
-    font-family: "Effra W01", "Arial", sans-serif;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: .025em;
-    word-spacing: .3em;
-    padding: 10px 15px;
-    -webkit-transition: none;
-    -moz-transition: none;
-    transition: none;
 }
