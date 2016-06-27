@@ -34,7 +34,7 @@
 
 ';
 		    $og_url          = 'http://www.stonybrook.edu/calendars';
-		    $main_nav_selected_tab = 3;
+		    $main_nav_selected_tab = 0;
 
 		    $page_to_top_link = true;
 
