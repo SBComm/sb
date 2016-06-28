@@ -26,7 +26,7 @@
 		<?php
 			$page_type       = 'second-level';
 			$second_level    = 'faculty-staff';
-			$page_title_sub  = 'For Students';
+			$page_title_sub  = 'For Faculty and Staff';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
