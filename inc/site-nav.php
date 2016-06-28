@@ -45,7 +45,7 @@
 		</ul>
     	<div class="search-container <?php echo $search_style ?> clearfix border-box">
     		<form class="search-wrapper" action="http://stonybrook.edu/search">
-        		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search SBU"><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Search">
+        		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search SBU"><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Search" aria-label="search">
 	                <i class="icon fa fa-search"></i>
 	            </button>
             </form>
