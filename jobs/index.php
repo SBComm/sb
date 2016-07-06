@@ -42,7 +42,7 @@
 
 		    $equal_col_desktop = true;
 
-		    $site_breadcrumbs = false;
+		    $site_breadcrumbs = true;
 		?>
 
 	<head>
