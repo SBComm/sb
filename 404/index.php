@@ -38,6 +38,8 @@
             $page_footerbar   = true;
 
             $carousel         = false;
+
+            $site_breadcrumbs = false;
         ?>
 
     <head>
