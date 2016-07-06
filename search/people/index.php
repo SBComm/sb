@@ -98,14 +98,14 @@
 
 		                <!-- <search-results> -->
 							<article>
-							    <section class="search-wrapper">
-							        <div class="site-input-wrapper wrapper border-box">
-							            <h1 class="serif">Search</h1>
+							    <section class="search-wrapper pad-top">
+							        <div class="site-input-wrapper wrapper border-box pad-top">
+							            <h2>Search People</h2>
 
 							            <div id="site-search-input" class="clearfix">
 								            <div class="site-input-box">
 								            	<div class="site-input">
-								                	<input autocomplete="off" type="search" size="10" name="search" title="search" placeholder="Search directory...">
+								                	<input autocomplete="off" type="search" size="10" name="search" title="search" placeholder="Search people...">
 								            	</div>
 								            </div>
 								            <div id="people-search-btn" class="search-button" title="search">Search</div>
@@ -116,8 +116,8 @@
 							            </div>
 
 							            <ul id="tabbed-nav">
-							                <li class="search-pages-link"><a href="http://www.stonybrook.edu/search/">Pages</a></li>
-							                <li class="selected search-people-link"><a href="http://www.stonybrook.edu/search/people/">People</a></li>
+							                <li class="search-pages-link"><a href="http://www.stonybrook.edu/search/">Website Results</a></li>
+							                <li class="selected search-people-link"><a href="http://www.stonybrook.edu/search/people/">People Results</a></li>
 							            </ul>
 
 							        </div>

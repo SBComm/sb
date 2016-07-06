@@ -4,10 +4,9 @@
             <h1><a href="about/">About Stony Brook</a></h1>
         </div>
     </section>
-    <section class="clearfix inside-content main-inside-content two-col white-background">
-        <div class="border-box wrapper clearfix pad-top">
-
-            <div class="content pad-top">
+    <section class="clearfix page-content">
+        <div class="wrapper clearfix pad-top pad-bottom">
+            <div class="pad-top pad-bottom">
                 <img class="inline-image" src="img/university/pole-banners-far-beyond.jpg" />
                 <p>Stony Brook University is one of America’s most dynamic public
                 universities, a center of academic excellence and an internationally
@@ -41,7 +40,6 @@
                 in Stony Brook, N.Y. — a powerful incubator of teaching and research
                 innovation as well as a driving engine for the Long Island economy — with
                 satellite locations in Southampton, Manhattan and South Korea.</p>
-
             </div>
         </div>
     </section>
@@ -51,7 +49,7 @@
         include($path . $file);
     ?>
 
-    <section class="clearfix inside-content main-inside-content two-col white-background">
+    <section class="clearfix inside-content main-inside-content two-col white-background page-content">
         <div class="border-box wrapper clearfix pad-top">
 
             <p>&nbsp;</p>
@@ -952,8 +950,6 @@
             <h3>Presidents</h3>
             <div class="content">
                 <p>The University is divided into 12 schools and colleges: the College of Arts and Sciences, the College of Business, the College of Engineering and Applied Sciences, the Graduate School, the School of Journalism, the School of Marine and Atmospheric Sciences, the School of Professional Development, and the five health sciences schools: Dental Medicine, Health Technology and Management, Medicine, Nursing and Social Welfare.</p> 
-                <p> <a class="arrow-after" href="http://www.stonybrook.edu/pres/">Visit Office of the President </a></p>
-                <p><a class="arrow-after" href="http://www.stonybrook.edu/sb/sbcouncil/index.shtml">Visit Stony Brook Council </a></p> 
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
@@ -1059,7 +1055,9 @@
                             </div>
                         </div>
                     </div>
-                 </div>
+                </div>
+                <p><a class="brand-button arrow-after" href="http://www.stonybrook.edu/pres/">Visit Office of the President </a></p>
+                <p><a class="brand-button arrow-after" href="http://www.stonybrook.edu/sb/sbcouncil/index.shtml">Visit Stony Brook Council </a></p> 
             </div>
         </div>
     </section>

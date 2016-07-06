@@ -30,8 +30,8 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook University is one of America’s most dynamic public universities, a center of academic excellence and an internationally recognized research institution that is changing the world.';
-		    $og_url          = 'http://www.stonybrook.edu/maps';
+		    $og_description  = 'Find your way around campus with these maps and get directions to Stony Brook University\'s main campus as well as Southampton campus.';
+		    $og_url          = 'http://www.stonybrook.edu/maps-and-directions';
 		    $main_nav_selected_tab = 0;
 
 		    $page_to_top_link = true;

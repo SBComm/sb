@@ -22,11 +22,11 @@
 		<?php
 			$page_type       = 'second-level';
 			$second_level    = 'site-directory';
-			$page_title_sub  = 'About Stony Brook';
+			$page_title_sub  = 'Site Directory';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook University is one of America’s most dynamic public universities, a center of academic excellence and an internationally recognized research institution that is changing the world.';
+		    $og_description  = 'Directory of Stony Brook University\'s website.';
 		    $og_url          = 'http://www.stonybrook.edu/site-directory';
 		    //$main_nav_selected_tab = 1;
 
@@ -36,6 +36,7 @@
 		    $page_footer      = true;
 
 		    $carousel 		  = true;
+		    $live_filter	  = true;
 
 		    $page_scroll        = true;
 		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom

@@ -150,6 +150,8 @@
 
     $is_404 = false;
 
+    $site_breadcrumbs = true;
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;
@@ -165,6 +167,10 @@
     /* Site URLs (MUST end with a slash) */
     $sbu_site_url['happenings'] = 'http://stonybrook.edu/happenings/';
     $sbu_site_url['calendar_next_month'] = 'http://calendar.activedatax.com/stonybrook/EventList.aspx?fromdate='.date("n/j/Y").'&amp;todate='.date("n/j/Y", strtotime("+30 days")).'&amp;display=Month&amp;view=DateTime';
+
+    $sbu_site_url['directions']['stony-brook'] = 'https://www.google.com/maps/dir//Stony+Brook+University,+Stony+Brook,+NY+11794/@40.9123708,-73.1584941,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e83f33e67438bf:0x734c1ca56abdcc85!2m2!1d-73.1233889!2d40.9123761';
+    $sbu_site_url['directions']['southampton'] = 'https://www.google.com/maps/dir//Stony+Brook+Southampton,+239+Montauk+Hwy,+Southampton,+NY+11968/@40.8859384,-72.5090227,13z/data=!4m16!1m7!3m6!1s0x89e893498f781fed:0x708f84b10db705c6!2sStony+Brook+Southampton!3b1!8m2!3d40.8885502!4d-72.4450467!4m7!1m0!1m5!1m1!1s0x89e893498f781fed:0x708f84b10db705c6!2m2!1d-72.4450467!2d40.8885502';
+    $sbu_site_url['directions']['manhattan'] = 'https://www.google.com/maps/dir//Stony+Brook+Manhattan,+Park+Avenue+South,+New+York,+NY/@40.7426948,-73.9927198,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c259a776f9c5f1:0xd3ef7c789fd0b91d!2m2!1d-73.983963!2d40.742716';
 
     /* Default date timezone */
     date_default_timezone_set("America/New_York");

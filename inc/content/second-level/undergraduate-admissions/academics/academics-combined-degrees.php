@@ -31,7 +31,7 @@
                 <table class="tablesaw tablesaw-stack light-grey-table" data-tablesaw-mode="stack" border="0" cellpadding="0" cellspacing="0">
                     <thead>
                         <tr>
-                            <th>Undergraduate Program</th>
+                            <th>Undergrad Program</th>
                             <th>Degree Combination</th>
                             <th>Graduate Program</th>
                         </tr>

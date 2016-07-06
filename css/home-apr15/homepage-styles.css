@@ -87,7 +87,9 @@ h2, .changingWorld h3,
       font-size: 38px;
       line-height: 0.85em;
       width: 100%;
-      text-shadow: 0 0 10px rgba(0,0,0,.4); }
+      text-shadow: 0 0 10px rgba(0,0,0,.4);
+      text-transform: uppercase;
+      margin: 20px 0; }
     .hero-sb .hero-sb_text p, .hero-sb .hero-sb_text span a {
       color: #fff; }
     .hero-sb .hero-sb_text p {

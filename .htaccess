@@ -981,6 +981,13 @@ FileETag None
     RewriteRule ^winter-session/$ http://stonybrook.edu/commcms/winter
 </IfModule>
 
+# ----------------------------------------------------------------------
+# | Temporary reroute of inactive pages                                |
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^academics/resources/?$ http://stonybrook.edu/academics
+</IfModule>
 
 # ----------------------------------------------------------------------
 # | Stony Brook Faculty Experts Directory                              |

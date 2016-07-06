@@ -8,37 +8,37 @@
             	</a>
             </li>
 			<li class="clearfix<?php if($main_nav_selected_tab==1) echo(' selected'); ?>">
-            	<a href="http://www.stonybrook.edu/sb/aboutsb.shtml" class="clearfix">
+            	<a href="about/" class="clearfix">
             		<span class="label clearfix">About</span>
             	</a>
             </li>
 			<li class="clearfix<?php if($main_nav_selected_tab==2) echo(' selected'); ?>">
-            	<a href="http://www.stonybrook.edu/sb/admissions.shtml" class="clearfix">
+            	<a href="admissions/" class="clearfix">
             		<span class="label clearfix">Admissions</span>
             	</a>
             </li>
 			<li class="clearfix<?php if($main_nav_selected_tab==3) echo(' selected'); ?>">
-            	<a href="http://www.stonybrook.edu/sb/academics.shtml" class="clearfix">
+            	<a href="academics/" class="clearfix">
             		<span class="label clearfix">Academics</span>
             	</a>
             </li>
 			<li class="clearfix<?php if($main_nav_selected_tab==4) echo(' selected'); ?>">
-            	<a href="http://www.stonybrook.edu/research/" class="clearfix">
+            	<a href="research/" class="clearfix">
             		<span class="label clearfix">Research</span>
             	</a>
             </li>
 			<li class="clearfix<?php if($main_nav_selected_tab==5) echo(' selected'); ?>">
-            	<a href="http://www.stonybrook.edu/athletics/" class="clearfix">
+            	<a href="athletics/" class="clearfix">
             		<span class="label clearfix">Athletics</span>
             	</a>
             </li>
 			<li class="clearfix<?php if($main_nav_selected_tab==6) echo(' selected'); ?>">
-            	<a href="http://www.stonybrookmedicine.edu/" class="clearfix">
+            	<a href="medicine/" class="clearfix">
             		<span class="label clearfix">Medicine</span>
             	</a>
             </li>
             <li class="clearfix<?php if($main_nav_selected_tab==7) echo(' selected'); ?>">
-                <a href="http://www.stonybrook.edu/giving/" class="clearfix">
+                <a href="giving/" class="clearfix">
                     <span class="label clearfix">Giving</span>
                 </a>
             </li>
@@ -59,3 +59,8 @@
     	</a>
     </div>
 </nav>
+<?php
+    if($site_breadcrumbs) {
+        printBreadcrumbs();
+    }
+?>

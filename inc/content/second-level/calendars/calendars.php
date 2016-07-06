@@ -1,9 +1,14 @@
 <article class="clearfix second-level-header">
+    <section class="header-title-image-wang page-title">
+        <div class="wrapper border-box">
+            <h1><a href="calendars/">Calendars</a></h1>
+        </div>
+    </section>
     <section class="clearfix">
 
         <div class="white-bkg">
             <div class="wrapper clearfix"> 
-                <h2 class="clearfix">Calendars</h2>
+                <h2 class="clearfix">Dates and Deadlines</h2>
                 <ul class="four-buttons clearfix">
                     <li><a class="brand-button external-link-hover" href="http://www.stonybrook.edu/registrar/calendar-academic.shtml" target="_blank">Academic Calendar</a></li>
                     <li><a class="brand-button external-link-hover" href="http://www.stonybrook.edu/commcms/registrar/registration/exams.html" target="_blank">Exam Schedules</a></li>

@@ -102,7 +102,7 @@ function pageHasCarousel() {
 						 ];
 	$(carouselIDs).each(function(index,id) {
 		if($(id).length){
-			console.log(id);
+			//console.log(id);
 		}
 	});
 }
@@ -160,6 +160,15 @@ function initializeFlexList(eventType) {
 			$('*[class^="flex-list"]').css('height','auto, !important');
 		}
 	}
+}
+
+function doBreadcrumbs() {
+	var crumbContainerWidth = 0;
+	$('.breadcrumbs__crumb').each(function() {
+		crumbContainerWidth += $(this).outerWidth();
+	});
+	crumbContainerWidth = crumbContainerWidth + 5; //pad it for rounding
+	$('.breadcrumbs__wrapper').width(crumbContainerWidth);
 }
 
 $(window).load(function(){
@@ -461,7 +470,6 @@ var initReady = function() {
 
 	// To top trigger
 	// See footer-scripts.js for totop listener
-	
 	$('.to-top-trigger').on('click',function(event) {
 		event.preventDefault();
 		var scrollToClass = '0px';
@@ -473,8 +481,7 @@ var initReady = function() {
 		scrollToTop(scrollToClass);
 	});
 
-	// Poopstate back triggeer
-	
+	// Popstate back triggeer
 	$('.popstate-back-trigger').on('click',function(event) {
 		if(Modernizr.history) {
 			event.preventDefault();
@@ -483,7 +490,6 @@ var initReady = function() {
 	});
 
 	/* Partial Print */
-
 	$('.partial-print-trigger').on('click',function(event) {
 		event.preventDefault();
 		var printTarget = $(this).attr('data-partial-print-target');
@@ -503,10 +509,23 @@ var initReady = function() {
 	$('#alert-message .close-alert-message').on('click',function() {
 		$('#alert-message').slideUp(400);
 	});
+
 	/* Eco dev */
 	$('.show-center-info').click(function(event) {
 		event.preventDefault();
 		$('.center-info').slideToggle();
 		$(this).toggleClass('selected');
+	});
+
+	/* map overlay */
+	$('.map-container-full--remove-overlay').on('click',function() {
+		$(this).closest('.map-container-full--disable-zoom-overlay').remove();
+	});
+	$('.map-container-full--show-options').on('click',function() {
+		$(this).hide().closest('.map-container-full--disable-zoom-overlay').addClass('map-container-full--disable-zoom-overlay_grey-background').find('.map-container-full--button-options').fadeIn(1000);
+	});
+
+	$('.do-live-filter-search-term').on('click',function() {
+		$('#live-filter-search').val($(this).attr('data-live-filter-term')).change();
 	});
 };

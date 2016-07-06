@@ -33,6 +33,7 @@
 		    $lightbox = true;
 	        $html_dom_parser = true;
 	        $page_to_top_link = false;
+		    $site_breadcrumbs = false;
 		?>
 
 	<head>

@@ -46,6 +46,8 @@
 		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 
+		    $site_breadcrumbs = false;
+
 		    $html_dom_parser = true;
 		?>
 

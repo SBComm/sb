@@ -98,9 +98,9 @@
 
 		                <!-- <search-results> -->
 							<article>
-							    <section class="search-wrapper">
-							        <div class="cse-input-wrapper wrapper border-box">
-							            <h1 class="serif">Search</h1>
+							    <section class="search-wrapper pad-top">
+							        <div class="site-input-wrapper wrapper border-box pad-top">
+							            <h2>Search SBU</h2>
 
 							            <div id="cse-search-input">
 							                <gcse:searchbox></gcse:searchbox>
@@ -111,8 +111,8 @@
 							            </div>
 
 							            <ul id="tabbed-nav">
-							                <li class="selected search-pages-link"><a href="http://www.stonybrook.edu/search/">Pages</a></li>
-							                <li class="search-people-link"><a href="http://www.stonybrook.edu/search/people/">People</a></li>
+							                <li class="selected search-pages-link"><a href="http://www.stonybrook.edu/search/">Website Results</a></li>
+							                <li class="search-people-link"><a href="http://www.stonybrook.edu/search/people/">People Results</a></li>
 							            </ul>
 
 							        </div>

@@ -1128,11 +1128,6 @@ section.program-details {
 
 .program-details .program-content h2,
 .program-details .program-content h3 {
-    font-family: 'Trade Gothic W01 Light' !important;
-    font-size: 1.3em !important;
-    margin: 10px 0 0 !important;
-    display: block !important;
-    color: #555 !important;
     text-transform: capitalize !important;
 }
 

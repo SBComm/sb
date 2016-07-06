@@ -13,6 +13,8 @@
         <?php includeAsset('js','js/vendor/jquery.sticky.js'); ?>
 		<script> 
 			$(window).load(function(){
+				doBreadcrumbs();
+				$('.breadcrumbs').scrollTo('100%', 400);
 				if($(window).width()>=1022) {
 					if($('.background-video').length) {
 						$('.background-video').get(0).play();
@@ -20,6 +22,7 @@
 				}
 			});
 			$(window).resize(function(){
+				doBreadcrumbs();
 				if($(window).width()>=1022) {
 					if ($('.sticky-wrapper').length == 0) { 
 						if($('.background-video').length) {
