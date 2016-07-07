@@ -64,10 +64,10 @@
                     U.S.A.</span>
                 </p>
 
-                <h4>Resources</h4>
+                <!--<h4>Resources</h4>
                 <ul class="default-bullets">
                     <li><a href="undergraduate-admissions/contact/brochures" target="_blank">View Downloadable Brochures</a>
-                </li>
+                </li>-->
             </div>
         </div>
     </section>

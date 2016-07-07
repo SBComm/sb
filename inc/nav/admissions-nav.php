@@ -215,7 +215,7 @@
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==35) echo('selected'); ?>" data-li-order="05">
 				<a href="undergraduate-admissions/contact/brochures" class="clearfix">
-					<span class="label clearfix">Brochures &amp;<br />Downloads</span>
+					<span class="label clearfix">Mobile<br />Apps</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="06" data-last-child="true" data-image="iphone">

@@ -23,9 +23,9 @@
     </section>
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix">
-            <h3>Download Apps &amp; Brochures</h3>
+            <h3>Mobile Apps</h3>
             <div class="content col-2">
-                <h4>Mobile App</h4>
+                <p><strong>iTourSB</strong></p>
                 <p>Navigate the campus and learn about our unique programs and culture through self-guided tours. Whether at home or on campus, our interactive student guide will accompany you as you explore our university's offerings through the use of the GPS-enabled campus map, student videos and photos.</p>
                 <p><a href="https://itunes.apple.com/us/app/itoursb/id388468351" target="_blank"><img src="img/buttons/app-store.png" /></a></p>
                 <p><a href="https://play.google.com/store/apps/details?id=com.yc360.college.stonybrook&feature=search_result" target="_blank"><img src="img/buttons/google-play.png" /></a></p>
@@ -33,6 +33,17 @@
             <div class="content col-2 admissions-app">
                 <img src="img/devices/iphone-comp-app.jpg" />
             </div>
+            <div class="content col-2 admissions-app pad-bottom">
+                <img src="img/devices/iphone-comp-app-2.jpg" />
+            </div>
+            <div class="content col-2 pad-top">
+                <p><strong>iTourSB</strong></p>
+                <p>Download Stony Brook Virtual Reality today and explore Stony Brook University in VR.</p>
+                <p>Stony Brook Virtual Reality is compatible with leading Google Cardboard virtual reality headsets.</p>
+                <p><a href="https://itunes.apple.com/us/app/stony-brook-vr/id1094842854?mt=8" target="_blank"><img src="img/buttons/app-store.png" /></a></p>
+                <p><a href="https://play.google.com/store/apps/details?id=com.yv.college.stonybrookvr" target="_blank"><img src="img/buttons/google-play.png" /></a></p>
+            </div>
+            <!--
             <div class="content clearfix">
                 <h4>Application &amp; University Publications</h4>
                 <p><em>The following archived brochures include academic programs and costs which may have changed since their date of publication. Please reference the appropriate pages on this website for the most up-to-date information on our costs and offerings.</em></p>
@@ -157,6 +168,7 @@
                     <li><a href="downloads/pdf/admissions/programs/Stony-Brook-Teacher-Preparation.pdf">Teacher Education</a></li>
                 </ul>
             </div>
+            -->
         </div>
     </section>
 

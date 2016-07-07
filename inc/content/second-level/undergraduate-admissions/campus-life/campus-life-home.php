@@ -50,11 +50,11 @@
                     <p>The fun begins with Opening Week and is sustained throughout the year with such events as Homecoming, Midnight Madness, the Roth Regatta, and the Strawberry Festival. A wide variety of lectures, seminars, concerts, exhibits, theatrical performances, movies, and sporting events are also scheduled regularly throughout the academic year.</p>
                     <h5>At Stony Brook, you will find:</h5>
                     <ul class="star-bullets">
-                        <li>More than <strong>300 student-interest clubs and organizations</strong>. <a class="external-link nowrap" href="https://stonybrook.collegiatelink.net/organizations" target="_blank">See all Clubs &amp; Organizations</a></li>
+                        <li>More than <strong>400 student-interest clubs and organizations</strong>. <a class="external-link nowrap" href="https://stonybrook.collegiatelink.net/organizations" target="_blank">See all Clubs &amp; Organizations</a></li>
                         <li>Student-run print and online <strong>newspapers</strong>; a 24-hour-a-day broadcast <strong>FM and webcast radio station</strong>; one-on-campus <strong>broadcast TV station</strong>; two <strong>student journals</strong>; and a <strong>yearbook</strong>.</li>
                         <li>More than <strong>30 fraternities and sororities</strong> for students interested in building leadership skills, serving the community, creating life long bonds, and enriching their college experience.</li>
                         <li><strong>Red Hot After Hours</strong>, including craft nights, movie nights, live shows and off-campus trips, which will keep you busy on weekends!</li>
-                        <li><strong>Intramural and Club Sports</strong> — flag football, badminton, basketball, volleyball, indoor soccer &amp; outdoor soccer, softball, tennis, whiffleball, and bowling; fitness classes in hatha yoga, spinning, kickboxing or hip hop dance; equestrian, crew, ice hockey, and rugby.</li>
+                        <li><strong>Intramural and Club Sports</strong> — flag football, badminton, basketball, volleyball, indoor soccer &amp; outdoor soccer, softball, tennis, wiffleball, and bowling; fitness classes in hatha yoga, spinning, kickboxing or hip hop dance; equestrian, crew, ice hockey, and rugby.</li>
                     </ul>
                 </div>
             </div>
@@ -117,11 +117,11 @@
                 <p>At Stony Brook University, we offer outstanding academic programs, a thriving research environment, hundreds of clubs and activities, and a dynamic first-year experience in one of six small Undergraduate Communities. Living on campus puts you at the center of everything SB has to offer.</p>
                 <ul>
                     <li><strong>Location.</strong> Our six traditional quads and undergraduate apartments are within easy walking distance of the Academic Mall.</li>
-                    <li><strong>Furnishings.</strong> All rooms come furnished with an extra-long twin bed, desk, chair, dresser, and bookcase for each resident, have high-speed access to the Internet, and are equipped with state-of-the-art phone systems featuring conference calling and call forwarding. A cable access connection in each room provides Cablevision’s® premium service (currently offering HBO1 and 2).</li>
+                    <li><strong>Furnishings.</strong> All rooms come furnished with an extra-long twin bed, desk, chair, dresser, and bookcase for each resident, have high-speed access to the Internet, and WI-FI. A cable access connection in each room provides premium service which include access to HBO GO App on all your devices.</li>
                     <li><strong>Computing.</strong> All rooms offer high-speed Internet access. Each quad also has its own state-of-the-art computing center open seven days a week, offering daytime and late-night hours for residents.</li>
                     <li><strong>Fitness.</strong> Each quad has its own fitness center featuring Nautilus and Cybex equipment. Some fitness centers offer aerobics classes, and all are staffed by trained students who can provide assistance.</li>
                     <li><strong>Staff.</strong> Our diverse staff includes Quad Directors, Residence Hall Directors, and administrative offices within each quad. Each Residence Hall is supervised by a full-time, live-in professional Residence Hall Director who is available daily for guidance on academic and interpersonal issues.</li>
-                    <li><strong>Transportation.</strong> The University bus system provides free service seven days a week around campus and to a major indoor mall.</li>
+                    <li><strong>Transportation.</strong> The University bus system provides free service seven days a week around campus.</li>
                     <li><strong>Our Housing Guarantee:</strong></li>
                 </ul>
                 <div class="drop-accordion drop-accordion-1 clearfix">
@@ -172,9 +172,8 @@
                 </div>
                 <div class="border-box wrapper clearfix">
                     <div class="content">
-                        <p>At Stony Brook University, we offer exciting and convenient dining choices at a great value. Campus Dining offers many reliable and convenient locations within walking distance from key points on campus.</p>
-                        <p><strong>Residential Dining.</strong> There are four food service locations in the residential quads. If you will be living in Roth Quad or Tabler Quad, the Roth Food Court and Tabler Café are nearby; if you will be living in Roosevelt Quad or Kelly Quad, the West Side Dining Center is right around the corner.</p>
-                        <p><strong>Student Activities Center (SAC) Food Court.</strong> Situated in the center of the Academic Mall, you'll find Yogurtmania and Omelet Pan, which offers made-to-order omelets with your choice of fillings for a hearty breakfast. For lunch and dinner, pick from the extensive salad bar, Mulberry Street's New York style pizza and Italian cuisine, Charcoals Grill, Native Spice, and Wrap-it-Up sandwiches and wraps. There are also plenty of Grab-N-Go options for anyone looking for Vegan, Vegetarian, Kosher, and sushi options.</p>
+                        <p>Stony Brook University Campus Dining offers something for every taste. A diverse array of delicious, high-quality food that emphasizes fresh ingredients ensures that you can always find the right meal to fit your mood. Inviting settings create opportunities for socializing and engaging experiences.</p>
+                        <p>Dining venues across campus offer the elements that create enjoyable experiences, starting with serving great food with diverse options when and where you want it. Students with specific dietary requirements or preferences will also appreciate the multitude of options, including Halal, Kosher, gluten-free, and vegetarian/vegan selections.</p>
                         <p class="clearfix"><a class="external-link" href="http://stonybrook.edu/dining/" target="_blank">Visit Campus Dining for more information.</a></p>
                         <img class="clearfix" src="img/student-life/campus-life-eating-inset.jpg" />
                     </div>
