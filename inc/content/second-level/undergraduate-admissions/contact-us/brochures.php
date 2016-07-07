@@ -37,7 +37,7 @@
                 <img src="img/devices/iphone-comp-app-2.jpg" />
             </div>
             <div class="content col-2 pad-top">
-                <p><strong>iTourSB</strong></p>
+                <p><strong>Virtual Reality App</strong></p>
                 <p>Download Stony Brook Virtual Reality today and explore Stony Brook University in VR.</p>
                 <p>Stony Brook Virtual Reality is compatible with leading Google Cardboard virtual reality headsets.</p>
                 <p><a href="https://itunes.apple.com/us/app/stony-brook-vr/id1094842854?mt=8" target="_blank"><img src="img/buttons/app-store.png" /></a></p>
