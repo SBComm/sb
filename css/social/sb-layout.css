@@ -196,6 +196,7 @@ a.sbu-link:hover {
 	cursor: default;
 	width: 100%;
 	display: block;
+	margin: 0;
 }
 
 #wrapper .darker {
