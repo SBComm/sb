@@ -36,7 +36,7 @@
                 <p>Stony Brook's campus is set among <strong>1,039 wooded acres</strong>, complete with a <strong>nature preserve</strong>.</p>
                 <p><em>Bring your bike for the best tour!</em> The Paul Simons Memorial Bike Path, six miles of pristine pavement for walking, biking, running, and rollerblading, encircles the campus. Nearby villages and harbors of the beautiful North Shore of Long Island are just a leisurely bike ride away.</p>
                 <p>Take a Virtual Tour of Campus or consult the Campus Map for more information.</p>
-                <p><a href="http://www.stonybrook.edu/virtual-tour/" class="brand-button arrow-after" target="_blank">Explore the Virtual Tour</a></p>
+                <p><a href="http://www.stonybrook.edu/virtual-tour/" class="brand-button external-link" target="_blank">Explore the Virtual Tour</a></p>
                 <p><a href="maps-and-directions/" class="brand-button arrow-after">View Campus Maps</a></p>
                 <br />
                 <br />
