@@ -60,7 +60,7 @@
                     break;
                 default:
                     $error_title = 'Page Not Found';
-                    $error_msg = 'Hmmm... We can\'t find that page. Perhaps the link was spelled incorrectly, or the page the page you\'re looking for does not exist.';
+                    $error_msg = 'Hmmm... We can\'t find that page. Perhaps the link was spelled incorrectly, or the page you\'re looking for does not exist.';
                     $show_search_msg = true;
                     break;
             }
