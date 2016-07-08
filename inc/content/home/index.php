@@ -32,7 +32,7 @@
 			<ul class="clearfix">
 				<li class="btn"><a href="">Visit us</a></li>
 				<li class="btn"><a href="">Take a virtual tour</a></li>
-				<li class="btn"><a class="apply-form-trigger" href="http://mobile.cc.stonybrook.edu/sb/admissions/">Apply</a></li>
+				<li class="btn"><a class="apply-form-trigger" href="http://www.stonybrook.edu/admissions/">Apply</a></li>
 			</ul>
 			<div class="apply-form apply-form-1 clearfix hide-accessible">
 				<h3 class="clearfix"><span>Take the next step to greatness.</span></h3>

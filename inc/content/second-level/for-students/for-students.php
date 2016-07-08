@@ -43,7 +43,7 @@
                     </div>
                     <!--
                     <div class="item">
-                        <a href="http://mobile.cc.stonybrook.edu/sb/features/title-ix/?=marquee1" target="_blank" title="Here to Help: How ​the University Supports Title IX">
+                        <a href="http://www.stonybrook.edu/features/title-ix/?=marquee1" target="_blank" title="Here to Help: How ​the University Supports Title IX">
                             <div class="carousel-image clearfix" data-image="03">
                             </div>
                             <div class="carousel-text clearfix">

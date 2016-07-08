@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="content col-2 col-2-right">
-                <img class="margin-top" src="https://mobile.cc.stonybrook.edu/sb/img/misc/analytics-800.jpg" />
+                <img class="margin-top" src="//www.stonybrook.edu/img/misc/analytics-800.jpg" />
             </div>
             <div id="run-report" class="content grey-box-2">
                 <h4>Run Your Report</h4>

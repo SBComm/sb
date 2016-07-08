@@ -8,7 +8,7 @@
                 </a>
             </li>
             <li class="clearfix<?php if($sub_nav_selected_tab==1) echo(' selected'); ?>">
-                <a href="http://mobile.cc.stonybrook.edu/sb/winter-session/courses/" class="clearfix">
+                <a href="http://www.stonybrook.edu/winter-session/courses/" class="clearfix">
                     <span class="label clearfix">Class Schedules</span>
                 </a>
             </li>

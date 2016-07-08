@@ -31,7 +31,7 @@
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Stony Brook Site Analytics.';
-		    $og_url          = 'http://mobile.cc.stonybrook.edu/analytics';
+		    $og_url          = 'http://stonybrook.edu/analytics';
 
 		    $page_to_top_link = true;
 

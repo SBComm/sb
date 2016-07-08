@@ -14,7 +14,7 @@
         <meta property="og:description" content="The top 15 stories and news headlines of 2015 from Stony Brook University have made an impact on Long Island, New York and the world.">
         <meta property="og:type" content="article" />
         <meta property="og:url" content="http://stonybrook.edu/top15/" />
-        <meta property="og:image" content="http://mobile.cc.stonybrook.edu/sb/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg" />
+        <meta property="og:image" content="http://www.stonybrook.edu/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg" />
         <meta property="fb:app_id" content="" />
     	<!--END Open Graph Meta Tags-->
 
@@ -177,7 +177,7 @@
 		<!-- overlay -->
 		<div class="overlay overlay-scale">
 			
-			<div class="overlay-wrapper clearfix" data-story-id="1" data-story-title="Stony Brook Researchers Prove External Risks Cause Most Cancers" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/top-stories-2015/img/landing/cancer/cancer-1.jpg" data-story-slug="stony-brook-researchers-prove-external-risks-cause-most-cancers" data-push-state='true'>
+			<div class="overlay-wrapper clearfix" data-story-id="1" data-story-title="Stony Brook Researchers Prove External Risks Cause Most Cancers" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://www.stonybrook.edu/top-stories-2015/img/landing/cancer/cancer-1.jpg" data-story-slug="stony-brook-researchers-prove-external-risks-cause-most-cancers" data-push-state='true'>
 				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');">
 					<a href="http://stonybrook.edu/" target="_blank"><img class="sbu-logo" src="img/sbu-logo-white.png" alt="Stony Brook University logo" /></a>
 					<button type="button" class="overlay-close overlay-close-x">Close</button>
@@ -206,7 +206,7 @@ that most cancers could be attributed to "bad luck."</p>
 				</div>
 			</div>
 			
-			<div class="overlay-wrapper clearfix" data-story-id="2" data-story-title="Story 2" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/top-stories-2015/img/landing/cancer/cancer-1.jpg" data-story-slug="story-2" data-push-state='true'>
+			<div class="overlay-wrapper clearfix" data-story-id="2" data-story-title="Story 2" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://www.stonybrook.edu/top-stories-2015/img/landing/cancer/cancer-1.jpg" data-story-slug="story-2" data-push-state='true'>
 				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');">
 					<a href="http://stonybrook.edu/" target="_blank"><img class="sbu-logo" src="img/sbu-logo-white.png" alt="Stony Brook University logo" /></a>
 					<button type="button" class="overlay-close overlay-close-x">Close</button>
@@ -235,7 +235,7 @@ that most cancers could be attributed to "bad luck."</p>
 				</div>
 			</div>
 			
-			<div class="overlay-wrapper clearfix" data-story-id="3" data-story-title="Story 3" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://mobile.cc.stonybrook.edu/sb/top-stories-2015/img/landing/cancer/cancer-1.jpg" data-story-slug="story-3fdfsfdsfdsfd" data-push-state='true'>
+			<div class="overlay-wrapper clearfix" data-story-id="3" data-story-title="Story 3" data-story-url="http://sb.cc.stonybrook.edu/news/general/2015-12-16-study-reveals-environment-behavior-contribute-to-some-80-percent-of-cancer.php" data-story-img-url="https://www.stonybrook.edu/top-stories-2015/img/landing/cancer/cancer-1.jpg" data-story-slug="story-3fdfsfdsfdsfd" data-push-state='true'>
 				<div class="img-box" style="background-image: url('img/landing/cancer/cancer-1.jpg');">
 					<a href="http://stonybrook.edu/" target="_blank"><img class="sbu-logo" src="img/sbu-logo-white.png" alt="Stony Brook University logo" /></a>
 					<button type="button" class="overlay-close overlay-close-x">Close</button>

@@ -143,6 +143,10 @@
                         <span class="key-icons--icon key-icons--icon_yellow">A<span class="hide-accessible">pparel / Store</span></span>
                     </li>
                     <li>
+                        <a href="http://www.stonybrook.edu/bnl/">Office of Brookhaven National Laboratory Affairs</a>
+                        <span class="key-icons--icon key-icons--icon_aqua">O<span class="hide-accessible">ffice</span></span>
+                    </li>
+                    <li>
                         <a href="http://www.stonybrook.edu/budgetoffice">Budget Office</a>
                         <span class="key-icons--icon key-icons--icon_aqua">O<span class="hide-accessible">ffice</span></span>
                     </li>

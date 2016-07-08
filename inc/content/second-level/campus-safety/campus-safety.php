@@ -20,7 +20,7 @@
                         </div>
                     </a>
                     -->
-                    <a href="http://mobile.cc.stonybrook.edu/sb/features/title-ix/" target="_blank">
+                    <a href="http://www.stonybrook.edu/features/title-ix/" target="_blank">
                         <div class="item">
                             <img src="campus-safety/images/title_ix_safety_marquee.jpg" />
                         </div>
