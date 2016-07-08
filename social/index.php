@@ -42,6 +42,8 @@
 		    $page_scroll_time = 0;     		//Time for scroll function in milliseconds
 
 		    $page_loader      = true;
+
+		    $site_breadcrumbs = false;
 		?>
 
 	<head>
