@@ -968,6 +968,6 @@ FileETag None
     RewriteEngine On
     
     # new structure using only experts
-    RewriteRule ^profile/?$ experts/results
-    RewriteRule ^profile/([a-zA-Z0-9\-]+)/?$ experts/profile.php?name=$1
+    RewriteRule profile/?$ experts/results
+    RewriteRule profile/([a-zA-Z0-9\-]+)/?$ experts/profile.php?name=$1
 </IfModule>
