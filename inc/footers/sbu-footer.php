@@ -9,25 +9,25 @@
                             <a href="http://www.stonybrook.edu/" class="clearfix">Home</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/aboutsb.shtml" class="clearfix">About</a>
+                            <a href="http://www.stonybrook.edu/about/" class="clearfix">About</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/admissions" class="clearfix">Admissions</a>
+                            <a href="http://www.stonybrook.edu/admissions/" class="clearfix">Admissions</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/academics.shtml" class="clearfix">Academics</a>
+                            <a href="http://www.stonybrook.edu/academics/" class="clearfix">Academics</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/research" class="clearfix">Research</a>
+                            <a href="http://www.stonybrook.edu/research/" class="clearfix">Research</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/athletics" class="clearfix">Athletics</a>
+                            <a href="http://www.stonybrook.edu/athletics/" class="clearfix">Athletics</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://stonybrookmedicine.edu" class="clearfix">Medicine</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/giving" class="clearfix">Giving</a>
+                            <a href="http://www.stonybrook.edu/giving/" class="clearfix">Giving</a>
                         </li>
                     </ul>
                 </div>
@@ -41,7 +41,7 @@
                             <a href="http://www.stonybrook.edu/faculty-staff/" class="clearfix">Faculty &amp; Staff</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/alumni.shtml" class="clearfix">Alumni &amp; Friends</a>
+                            <a href="http://www.stonybrook.edu/alumni-and-friends/" class="clearfix">Alumni &amp; Friends</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/undergraduate-admissions/parents/" class="clearfix">Parents</a>
@@ -59,7 +59,7 @@
                             <a href="http://sb.cc.stonybrook.edu/news/media_relations/reporters_toolkit.php" class="clearfix">Media</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/arts" class="clearfix">Arts &amp; Culture</a>
+                            <a href="http://www.stonybrook.edu/arts-and-culture/" class="clearfix">Arts &amp; Culture</a>
                         </li>
                     </ul>
                 </div>
@@ -70,16 +70,13 @@
                             <a href="http://www.stonybrook.edu/search/people/" class="clearfix">People Directory</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/a-z.shtml" class="clearfix">A-Z Web Directory</a>
+                            <a href="http://www.stonybrook.edu/site-directory/" class="clearfix">A-Z Web Directory</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/calendars.shtml" class="clearfix">Calendars</a>
+                            <a href="http://www.stonybrook.edu/sb/majors.shtml" class="clearfix">Majors &amp; Minors</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/maps.shtml" class="clearfix">Campus Maps</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/directions.shtml" class="clearfix">Directions</a>
+                            <a href="http://www.stonybrook.edu/calendars/" class="clearfix">Calendars</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/jobs/" class="clearfix">Jobs</a>
@@ -88,13 +85,13 @@
                             <a href="http://library.stonybrook.edu/" class="clearfix">Libraries</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/majors.shtml" class="clearfix">Majors &amp; Minors</a>
+                            <a href="http://www.stonybrook.edu/maps-and-directions/" class="clearfix">Maps &amp; Directions</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/parking/" class="clearfix">Parking</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/visiting" class="clearfix">Visiting</a>
+                            <a href="http://www.stonybrook.edu/visit/" class="clearfix">Visiting</a>
                         </li>
                     </ul>
                 </div>
@@ -114,16 +111,16 @@
                             <a href="http://stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/happenings" class="clearfix">Happenings</a>
+                            <a href="http://stonybrook.edu/happenings/" class="clearfix">Happenings</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/magazine" class="clearfix">Magazine</a>
+                            <a href="http://stonybrook.edu/magazine/" class="clearfix">Magazine</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/pres/" class="clearfix">Office of the President</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/southampton" class="clearfix">SB Southampton</a>
+                            <a href="http://stonybrook.edu/southampton/" class="clearfix">SB Southampton</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://stonybrook.edu/commcms/bnl/" class="clearfix">Brookhaven National Lab</a>

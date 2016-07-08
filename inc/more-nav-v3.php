@@ -10,7 +10,7 @@
                 	<a href="http://www.stonybrook.edu/faculty-staff/" class="clearfix">Faculty &amp; Staff</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/sb/alumni.shtml" class="clearfix">Alumni &amp; Friends</a>
+                	<a href="http://www.stonybrook.edu/alumni-and-friends/" class="clearfix">Alumni &amp; Friends</a>
                 </li>
                 <li class="clearfix">
                 	<a href="http://www.stonybrook.edu/undergraduate-admissions/parents/" class="clearfix">Parents</a>
@@ -36,22 +36,22 @@
                 	<a href="http://www.stonybrook.edu/search/people/" class="clearfix">People Directory</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/sb/a-z.shtml" class="clearfix">A-Z Web Directory</a>
+                	<a href="http://www.stonybrook.edu/site-directory/" class="clearfix">A-Z Web Directory</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/sb/calendars.shtml" class="clearfix">Calendars</a>
+                    <a href="http://www.stonybrook.edu/sb/majors.shtml" class="clearfix">Majors &amp; Minors</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/sb/maps.shtml" class="clearfix">Campus Maps</a>
+                	<a href="http://www.stonybrook.edu/calendars/" class="clearfix">Calendars</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/sb/directions.shtml" class="clearfix">Directions</a>
+                	<a href="http://www.stonybrook.edu/maps-and-directions/" class="clearfix">Maps &amp; Directions</a>
+                </li>
+                <li class="clearfix">
+                	<a href="http://www.stonybrook.edu/visit/" class="clearfix">Visit</a>
                 </li>
                 <li class="clearfix">
                     <a href="http://www.stonybrook.edu/parking/" class="clearfix">Parking</a>
-                </li>
-                <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/sb/majors.shtml" class="clearfix">Majors &amp; Minors</a>
                 </li>
                 <li class="clearfix">
                 	<a href="http://www.stonybrook.edu/jobs/" class="clearfix">Jobs</a>
