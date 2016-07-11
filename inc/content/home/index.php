@@ -1,11 +1,11 @@
 <section class="hero-sb animated-preload_background clearfix">
-	<img class="align-image-top" src="img/home-apr15/roy-lacey.jpg" alt="A vascular simulator is revolutionizing neurosurgery" />    
+	<img class="align-image-top" src="img/home-apr15/maeve-1.jpg" alt="World-renowned paleoanthropologist Meave Leakey in the field at Turkana Basin Institute" />    
 	<div class="hero-sb_text" >
 		<div>
-			<h1 class="clearfix">Far Beyond Maximum Impact</h1>
-			<p class="clearfix">Stony Brook faculty at the forefront of discovery</p> 
-			<a class="clearfix video-link nivo-lightbox" href="http://www.youtube.com/watch?v=v81rG43NfM8" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
-			<a class="clearfix video-link" href="http://www.stonybrook.edu/magazine/2016-spring/roy-lacey-an-accelerating-career-in-nuclear-chemistry">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
+			<h1 class="clearfix">Exploring <br />Human <br />Origins</h1>
+			<p class="clearfix">Hubbard Medal honors world-renowned paleoanthropologist Meave Leakey</p> 
+			<!--<a class="clearfix video-link nivo-lightbox" href="http://www.youtube.com/watch?v=v81rG43NfM8" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>-->
+			<a class="clearfix video-link" href="http://www.stonybrook.edu/happenings/facultystaff/meave-leakey-awarded-hubbard-medal-national-geographic-societys-highest-honor">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
 		</div>  
 	</div>
 </section>
