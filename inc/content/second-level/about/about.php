@@ -21,12 +21,11 @@
                 </ul>
                 <p><strong>ACCOLADES</strong></p>
                 <ul class="default-bullets">
+                    <li>Among the top 1 percent of higher education institutions in the world (Center for World University Rankings).</li>
                     <li>Among the top 100 universities in the nation (<em>U.S.News &amp;
                     World Report</em>).</li>
                     <li>Among the top 40 public universities in the nation (<em>U.S.News
                     &amp; World Report</em>).</li>
-                    <li>Our global ranking by <em>U.S.News &amp; World Report</em> places
-                    us in the top 1 percent of institutions worldwide.</li>
                     <li>Member of the invitation-only Association of American Universities,
                     comprising the 62 leading research institutions in North America.</li>
                     <li>Proud home to Nobel laureates, Guggenheim fellows and MacArthur
@@ -428,7 +427,7 @@
             <p>&nbsp;</p>
             <h3>Research</h3>
             <div class="content">
-                <p>Stony Brook has been one of only 94 institutions in the country to be designated a "Very High Research University" by the Carnegie Foundation. Our faculty have been responsible for more than 1,900 inventions and 550 U.S. patents. With more than 70 academic departments, Stony Brook is among the top 40 institutions funded by the National Science Foundation, and expenditures on organized research, from external and internal sponsors, are at more than $160 million.</p>
+                <p>Stony Brook has been one of only 94 institutions in the country to be designated a "Very High Research University" by the Carnegie Foundation. Our faculty have been responsible for more than 2,000 inventions and 580 U.S. patents. With more than 70 academic departments, Stony Brook is among the top 40 institutions funded by the National Science Foundation, and expenditures on organized research, from external and internal sponsors, are at nearly $170 million.</p>
 
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
