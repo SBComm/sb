@@ -968,7 +968,7 @@ FileETag None
     RewriteEngine On
     #rewrite current mag year
     # RewriteRule /?$ magazine/2016-spring/index.php
-    RewriteRule index.php$ http://www.stonybrook.edu/magazine/2016-spring/index.php
+    RewriteRule /index.php$ http://www.stonybrook.edu/magazine/2016-spring/index.php
     # RewriteRule ([a-zA-Z0-9\-]+)$ http://www.stonybrook.edu/magazine/2016-spring/$1 [R=301]
 
     RewriteRule ^2016-spring/([a-zA-Z0-9\-]+)/?$ http://www.stonybrook.edu/magazine/2016-spring/article.php?story=$1
