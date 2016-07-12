@@ -958,5 +958,5 @@ FileETag None
 # ----------------------------------------------------------------------
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule resources/?$ http://www.stonybrook.edu/academics/
+    RewriteRule ^/$ http://www.stonybrook.edu/academics/
 </IfModule>
