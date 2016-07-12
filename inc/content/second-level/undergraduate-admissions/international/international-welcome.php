@@ -34,9 +34,9 @@
             <div class="content col-2">
                 <h4>Why Choose Stony Brook?</h4>
                 <ul class="arrow-bullets">
-                    <li>Stony Brook’s global ranking by U.S. News &amp; World Report places us in the 1% of institutions worldwide</li>
-                    <li>U.S. News &amp; World Report has ranked SB among the top 100 universities and top 40 public universities</li>
-                    <li>98% of full-time faculty hold doctoral degrees or the highest degrees in their fields</li>
+                    <li>The Center for World University Rankings lists Stony Brook among the top 1% of higher education institutions in the world</li>
+                    <li>U.S. News &amp; World Report ranks SBU among the top 100 universities and top 40 public universities in the nation</li>
+                    <li>98% of tenured/tenure-track faculty hold doctoral degrees or the highest degrees in their fields</li>
                     <li>You'll find first-rate opportunities for research at facilities such as Brookhaven National Laboratory</li>
                 </ul>
             </div>

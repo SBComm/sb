@@ -235,8 +235,6 @@
                             <a href="undergraduate-admissions/academics/program-details?code=dia">Digital Arts</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
-                    </ul>
-                    <ul class="three-col-list" data-search-id="course-list">
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=ess">Earth &amp; Space Sciences, BA</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
@@ -250,6 +248,8 @@
                                 <li>Physics</li>
                             </ul>
                         </li>
+                    </ul>
+                    <ul class="three-col-list" data-search-id="course-list">
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=eco">Economics, BA</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
@@ -364,6 +364,10 @@
                             </ul>
                         </li>
                         <li>
+                            <a href="undergraduate-admissions/academics/program-details?code=eth">Ethnomusicology</a>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
+                        </li>
+                        <li>
                             <a href="undergraduate-admissions/academics/program-details?code=eur">European Studies, BA</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
@@ -423,8 +427,6 @@
                                 <li>Radiologic Technology</li>
                             </ul>
                         </li>
-                    </ul>
-                    <ul class="three-col-list" data-search-id="course-list">
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=lhw">Health and Wellness</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
@@ -433,6 +435,8 @@
                             <a href="undergraduate-admissions/academics/program-details?code=hls">Hellenic Studies</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
+                    </ul>
+                    <ul class="three-col-list" data-search-id="course-list">
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=his">History, BA</a>
                             <span class="major">M<span class="hide-accessible">ajor</span></span>
@@ -562,6 +566,10 @@
                         </li>
                         <li>
                             <a href="undergraduate-admissions/academics/program-details?code=mtx">Music and Technology Studies</a>
+                            <span class="minor">m<span class="hide-accessible">inor</span></span>
+                        </li>
+                        <li>
+                            <a href="undergraduate-admissions/academics/program-details?code=mty">Music Theory</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
