@@ -959,6 +959,6 @@ FileETag None
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    RewriteRule profile/?$ faculty-directory/results
-    RewriteRule profile/([a-zA-Z0-9\-]+)/?$ faculty-directory/profile.php?name=$1
+    RewriteRule profile/?$ results
+    RewriteRule profile/([a-zA-Z0-9\-]+)/?$ profile.php?name=$1
 </IfModule>
