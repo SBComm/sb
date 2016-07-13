@@ -952,7 +952,7 @@
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>July 1, 2009– Present: Samuel L. Stanley Jr., MD, President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>July 1, 2009 – Present: Samuel L. Stanley Jr., MD, President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">    
@@ -962,7 +962,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1994–2009: Shirley Strum Kenny, President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1994 – 2009: Shirley Strum Kenny, President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -972,7 +972,7 @@
                     </div>
                      <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1980–1994: John H. Marburger III, President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1980 – 1994: John H. Marburger III, President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -983,7 +983,7 @@
 
                       <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1979–1980: Richard Schmidt, President, Upstate Medical Center, Acting President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1979 – 1980: Richard Schmidt, President, Upstate Medical Center, Acting President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -993,7 +993,7 @@
                     </div>
                       <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1978–1979: T. Alexander Pond, Executive Vice President, Acting President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1978 – 1979: T. Alexander Pond, Executive Vice President, Acting President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -1015,7 +1015,7 @@
 
                      <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Sept. 1, 1962–Aug. 31, 1965: Karl D. Hartzell, Executive Dean in SUNY Central </span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Sept. 1, 1962 – Aug. 31, 1965: Karl D. Hartzell, Executive Dean in SUNY Central </span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -1025,7 +1025,7 @@
                     </div>
                      <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>961–1962: SUNY President Thomas H. Hamilton, Acting Administrative Head</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1961–1962: SUNY President Thomas H. Hamilton, Acting Administrative Head</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -1046,7 +1046,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1957–1961: Dean Leonard K. Olson</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1957 – 1961: Dean Leonard K. Olson</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
