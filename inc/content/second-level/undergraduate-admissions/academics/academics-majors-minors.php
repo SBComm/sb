@@ -406,8 +406,7 @@
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
-                            <a href="undergraduate-admissions/academics/program-details?code=ger">German Language and Literature, BA</a>
-                            <span class="major">M<span class="hide-accessible">ajor</span></span>
+                            <a href="undergraduate-admissions/academics/program-details?code=ger">German Language and Literature</a>
                             <span class="minor">m<span class="hide-accessible">inor</span></span>
                         </li>
                         <li>
