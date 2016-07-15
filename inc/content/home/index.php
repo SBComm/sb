@@ -118,6 +118,6 @@
 	<div class="wpb_wrapper clearfix"> 
 		<img src="img/home-apr15/Campaign_LockUp_white.png" alt="The Campaign for Stony Brook" />  
 		<div class="pitch"><h3>Through research and discovery, we are changing the world.</h3>
-			<a href="http://stonybrook.edu/campaign">Join Us</a></div>
+			<a class="gtm_join-the-campaign-click" href="http://stonybrook.edu/campaign">Join Us</a></div>
 	</div><!-- /.wpb_wrapper -->	  
 </div><!-- /.changingWorld -->
