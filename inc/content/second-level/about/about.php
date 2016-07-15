@@ -279,7 +279,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/southampton/mfa/">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/sb/southampton/index.shtml">Learn more</a></p>
+                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/southampton/mfa/">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/southampton/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -289,7 +289,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Stony Brook Manhattan, at 27th Street and Park Avenue South, is a state-of-the-art facility featuring undergraduate and graduate classes, conference rooms, offices and a reception space for special events. <a class="arrow-after" href="http://www.stonybrook.edu/sb/nyc/">Learn more</a></p>
+                                <p>Stony Brook Manhattan, at 27th Street and Park Avenue South, is a state-of-the-art facility featuring undergraduate and graduate classes, conference rooms, offices and a reception space for special events. <a class="arrow-after" href="http://www.stonybrook.edu/nyc/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -308,7 +308,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The College of Arts and Sciences offers degree programs in fine arts and humanities, in biological and physical sciences, in mathematics and in social and behavioral sciences. In addition to departmental majors, special interdisciplinary majors using the resources of two or more departments are offered, as well as programs leading to provisional certification in secondary education. <a class="arrow-after" href="http://www.stonybrook.edu/commcms/cas/">Learn more</a></p>
+                                <p>The College of Arts and Sciences offers degree programs in fine arts and humanities, in biological and physical sciences, in mathematics and in social and behavioral sciences. In addition to departmental majors, special interdisciplinary majors using the resources of two or more departments are offered, as well as programs leading to provisional certification in secondary education. <a class="arrow-after" href="/cas/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -318,7 +318,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The College of Business provides comprehensive education and research for the business, public and nonprofit sectors. Our MBA, MS and undergraduate programs are taught by faculty from around the world who have met rigorous standards for research productivity and teaching effectiveness. Students participate in vibrant learning communities where they gain the knowledge, skills and insights necessary to manage complex organizations. Dedicated faculty have both academic and business experience, and teach not only the broad principles of accounting, management, finance and marketing, but also the more intangible aspects of leadership, communications and business strategy. The College of Business offers flexible full- and part-time programs, with day, evening, Saturday and online courses available. <a class="arrow-after" href="http://www.sunysb.edu/sbbusiness/">Learn more</a></p>
+                                <p>The College of Business provides comprehensive education and research for the business, public and nonprofit sectors. Our MBA, MS and undergraduate programs are taught by faculty from around the world who have met rigorous standards for research productivity and teaching effectiveness. Students participate in vibrant learning communities where they gain the knowledge, skills and insights necessary to manage complex organizations. Dedicated faculty have both academic and business experience, and teach not only the broad principles of accounting, management, finance and marketing, but also the more intangible aspects of leadership, communications and business strategy. The College of Business offers flexible full- and part-time programs, with day, evening, Saturday and online courses available. <a class="arrow-after" href="/business/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -328,7 +328,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The College of Engineering and Applied Sciences offers a wide range of programs that provide students with opportunities to find work in industry or proceed to graduate study in a variety of fields. Seven ABET-accredited programs give the student latitude to plan a course of study within traditional engineering disciplines or in new interdisciplinary fields. <a class="arrow-after" href="http://www.ceas.sunysb.edu/">Learn more</a></p>
+                                <p>The College of Engineering and Applied Sciences offers a wide range of programs that provide students with opportunities to find work in industry or proceed to graduate study in a variety of fields. Seven ABET-accredited programs give the student latitude to plan a course of study within traditional engineering disciplines or in new interdisciplinary fields. <a class="arrow-after" href="/ceas/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -338,7 +338,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The Graduate School offers advanced degree programs in many fields leading to the master's and doctoral degrees. Stony Brook's advanced graduate programs are internationally recognized and consistently receive exceptionally high ratings from external evaluation agencies and scholarly studies. <a class="arrow-after" href="http://www.grad.sunysb.edu/">Learn more</a></p>
+                                <p>The Graduate School offers advanced degree programs in many fields leading to the master's and doctoral degrees. Stony Brook's advanced graduate programs are internationally recognized and consistently receive exceptionally high ratings from external evaluation agencies and scholarly studies. <a class="arrow-after" href="https://www.grad.stonybrook.edu/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -407,7 +407,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Every first-year student enters Stony Brook as a member of one of six Undergraduate Colleges organized around themes of general interest to students. <a class="arrow-after" href="http://www.stonybrook.edu/sb/colleges/">Learn more</a></p>
+                                <p>Every first-year student enters Stony Brook as a member of one of six Undergraduate Colleges organized around themes of general interest to students. <a class="arrow-after" href="http://ucolleges.stonybrook.edu/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -417,7 +417,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>At Stony Brook there are 68 Majors and 82 Minors to choose from.</p> <p> The most popular majors/minors include are Undergraduate Majors: Biology, Psychology, Health Science, Business Management, Computer Science, Biochemistry, Economics, Mechanical Engineering, Applied Mathematics and Statistics, and Mathematics.<a class="arrow-after" href="http://stonybrook.edu/undergraduate-admissions/academics/">Full List of Majors/Minors</a></p>
+                                <p>At Stony Brook there are 68 Majors and 82 Minors to choose from.</p> <p> The most popular majors/minors include are Undergraduate Majors: Biology, Psychology, Health Science, Business Management, Computer Science, Biochemistry, Economics, Mechanical Engineering, Applied Mathematics and Statistics, and Mathematics.<a class="arrow-after" href="/undergraduate-admissions/academics/">Full List of Majors/Minors</a></p>
                             </div>
                         </div>
                     </div>
@@ -780,7 +780,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The University manages the Pollock-Krasner House and Study Center, where painters Jackson Pollock, leader of the Abstract Expressionist movement, and Lee Krasner lived and worked. <a class="arrow-after" href="http://sb.cc.stonybrook.edu/pkhouse/">Learn more</a></p>
+                                <p>The University manages the Pollock-Krasner House and Study Center, where painters Jackson Pollock, leader of the Abstract Expressionist movement, and Lee Krasner lived and worked. <a class="arrow-after" href="http://www.stonybrook.edu/pkhouse/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -790,7 +790,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The Simons Center for Geometry and Physics was started in 2007 by a gift from the James and Marilyn Simons Foundation. The Center's mission is to develop the interaction of geometry in the broadest sense with theoretical physics. The Stony Brook tradition is exemplified by the joint ITP-Math seminars initiated by Jim Simons and Frank Yang in the 1970s; these stimulated interest worldwide in the mathematics of gauge theories. <a class="arrow-after" href="http://www.scgp.stonybrook.edu/">Learn more</a></p>
+                                <p>The Simons Center for Geometry and Physics was started in 2007 by a gift from the James and Marilyn Simons Foundation. The Center's mission is to develop the interaction of geometry in the broadest sense with theoretical physics. The Stony Brook tradition is exemplified by the joint ITP-Math seminars initiated by Jim Simons and Frank Yang in the 1970s; these stimulated interest worldwide in the mathematics of gauge theories. <a class="arrow-after" href="/simonscenter/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
