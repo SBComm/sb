@@ -253,7 +253,7 @@
                     <div class="logo-container page-cat-sub clearfix border-box">
                         <header class="no-pad-wrapper">
                             <div class="logo-wrapper">
-                                <div class="logo"><a href="http://www.stonybrook.edu/"><img src="//mobile.cc.stonybrook.edu/sb/img/stony-brook-university-logo.jpg"></a></div>
+                                <div class="logo"><a href="http://www.stonybrook.edu/"><img src="//www.stonybrook.edu/sb/img/stony-brook-university-logo.jpg"></a></div>
                                 <h1 class="site-name serif"><a href="">Calendar</a></h1>
                             </div>
                         </header>
