@@ -21,10 +21,10 @@
 		<h2 class="clearfix">Become a Seawolf</h2>
 		<h3 class="clearfix"><span>Want to change the great big world?</span> <span><strong>So&nbsp;do we.</strong> Join our community of explorers.</span></h3>
 		<ul class="clearfix">
-			<li class="btn gtm_visit-us-link-click"><a href="undergraduate-admissions/visit/">Visit us</a></li>
-			<li class="btn gtm_take-a-virtual-tour-link-click"><a href="undergraduate-admissions/virtual-tour/">Take a virtual tour</a></li>
-			<li class="btn gtm_apply-link-click"><a href="admissions/">Apply</a></li>
-			<li class="btn gtm_summer-sessions-link-click"><a href="summer-session/">Summer Sessions</a></li>
+			<li class="btn"><a class="gtm_visit-us-link-click" href="undergraduate-admissions/visit/">Visit us</a></li>
+			<li class="btn"><a class="gtm_take-a-virtual-tour-link-click" href="undergraduate-admissions/virtual-tour/">Take a virtual tour</a></li>
+			<li class="btn"><a class="gtm_apply-link-click" href="admissions/">Apply</a></li>
+			<li class="btn"><a class="gtm_summer-sessions-link-click" href="summer-session/">Summer Sessions</a></li>
 		</ul>
 		<?php
 			/* Apply flow, saving for home 2.0, if that ever comes. ran into issues with how the schools are devided, namely grad vs spd and hsc as its own entity. for now simply linking to the admissions page */

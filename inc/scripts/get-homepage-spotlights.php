@@ -51,7 +51,7 @@ function printBooks($path, $pathForContent, $content, $sbu_site_url) {
 
 
 		$html .= '
-	        <div class="boldMovesBox" style="background-image: url(\''.$spotlight_image.'\')">
+	        <div class="boldMovesBox gtm_read-story-link-click" style="background-image: url(\''.$spotlight_image.'\')">
 				<a href="'.$post_link.'" class="boldMovesBox-title gtm_read-story-link-click" title="Read '.$post->acf->homepage_spotlight_title.'">
 					<h3>'.$post->acf->homepage_spotlight_title.' <i class="fa fa-angle-right"></i></h3>
 				</a>
