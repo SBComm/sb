@@ -43,13 +43,10 @@
                 <h4>Step 2: Send all additional application materials by February 1</h4>
                 <p>Be sure to include your full name, date of birth, and home address on all correspondence. It is each applicant's responsibility to ensure that all application credentials are received.</p>
                 <ol class="number">
-                    <li><strong>Submit your high school transcript(s).</strong> There are 3 ways that you can do this:
+                    <li><strong>Submit your high school transcript(s).</strong> There are 2 ways that you can do this:
                         <ol class="upper-alpha">
                             <li>
                                 <span class="instruction">Ask your high school to submit your transcript electronically, using either The Common Application School Forms System or <a class="external-link" href="https://www.suny.edu/counselor/" target="_blank">SUNY CounselorConnect</a>.)</span>
-                            </li>
-                            <li>
-                                <span class="instruction">Self-report your academic record using <a class="external-link" href="http://www.suny.edu/attend/apply-to-suny/suny-online-academic-record-soar/" target="_blank">SOAR</a>.</span>
                             </li>
                             <li>
                                 <span class="instruction">Ask your high school to fax or mail us your official high school transcript, along with the <a href="downloads/pdf/admissions/Guidance-Counselor-Transmittal.pdf" target="_blank">Transmittal Form</a>.
@@ -70,8 +67,6 @@
                         SAT Code: <strong>2548</strong>
                         <br />
                         ACT Code: <strong>2952</strong>
-                        <br />
-                        <em>Note for Scholars for Medicine, Engineering Scholars for Medicine, and Scholars for Dental Medical Applicants: These programs require SAT scores; the ACT will not be used as a substitute).</em>
                     </li>
                     <li>
                     Send two Teacher Evaluations. Electronic submission through The Common Application's School Forms System is preferred. Paper recommendations must be faxed to (631) 632-9898. <strong>WISE applicants:</strong> at least one evaluation should be from a science or math teacher.

@@ -268,7 +268,6 @@
                                 <li>Earth Science</li>
                                 <li>English</li>
                                 <li>French</li>
-                                <li>German</li>
                                 <li>Italian</li>
                                 <li>Japanese</li>
                                 <li>Korean</li>
