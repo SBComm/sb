@@ -4,8 +4,8 @@
 		<div>
 			<h1 class="clearfix">Exploring <br />Human <br />Origins</h1>
 			<p class="clearfix">Hubbard Medal honors world-renowned paleoanthropologist Meave Leakey</p> 
-			<!--<a class="clearfix video-link nivo-lightbox" href="http://www.youtube.com/watch?v=v81rG43NfM8" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>-->
-			<a class="clearfix video-link" href="http://www.stonybrook.edu/happenings/facultystaff/meave-leakey-awarded-hubbard-medal-national-geographic-societys-highest-honor">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
+			<!--<a class="clearfix video-link nivo-lightbox gtm_watch-the-video-link-click" href="http://www.youtube.com/watch?v=v81rG43NfM8" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>-->
+			<a class="clearfix video-link gtm_read-the-story-button-click" href="http://www.stonybrook.edu/happenings/facultystaff/meave-leakey-awarded-hubbard-medal-national-geographic-societys-highest-honor">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
 		</div>  
 	</div>
 </section>
@@ -21,10 +21,10 @@
 		<h2 class="clearfix">Become a Seawolf</h2>
 		<h3 class="clearfix"><span>Want to change the great big world?</span> <span><strong>So&nbsp;do we.</strong> Join our community of explorers.</span></h3>
 		<ul class="clearfix">
-			<li class="btn"><a href="http://www.stonybrook.edu/undergraduate-admissions/visit/">Visit us</a></li>
-			<li class="btn"><a href="http://m.stonybrook.edu/sb/undergraduate-admissions/virtual-tour/">Take a virtual tour</a></li>
-			<li class="btn"><a href="http://www.stonybrook.edu/sb/far-beyond/admissions/">Apply</a></li>
-			<li class="btn"><a href="http://stonybrook.edu/summer/">Summer Sessions</a></li>
+			<li class="btn gtm_visit-us-link-click"><a href="undergraduate-admissions/visit/">Visit us</a></li>
+			<li class="btn gtm_take-a-virtual-tour-link-click"><a href="undergraduate-admissions/virtual-tour/">Take a virtual tour</a></li>
+			<li class="btn gtm_apply-link-click"><a href="admissions/">Apply</a></li>
+			<li class="btn gtm_summer-sessions-link-click"><a href="summer-session/">Summer Sessions</a></li>
 		</ul>
 		<?php
 			/* Apply flow, saving for home 2.0, if that ever comes. ran into issues with how the schools are devided, namely grad vs spd and hsc as its own entity. for now simply linking to the admissions page */
