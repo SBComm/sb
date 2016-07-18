@@ -650,7 +650,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Medicne and Biotechnology</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Medicine and Biotechnology</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
