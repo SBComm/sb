@@ -18,7 +18,7 @@ if(siteToSearch!=null &&siteToSearch!=0 &&siteToSearch!='') {
     	googleResultsCode = '<gcse:searchresults as_sitesearch="'+siteToSearch+'"></gcse:searchresults>';
 
     	if(siteToSearch.indexOf('http')<0) {
-    		siteToSearch = 'http://' + siteToSearch;
+    		siteToSearch = '//' + siteToSearch;
     	}
 
     	$('#cse-search-input').html(googleInputCode);
@@ -97,7 +97,7 @@ $(document).ready(function() {
 
     function getSearchTarget() {
     	var searchInputValue = $('input.gsc-input').val();
-    	var searchHref = "http://www.stonybrook.edu/search/"; //update link;
+    	var searchHref = "//www.stonybrook.edu/search/"; //update link;
 
     	if(searchInputValue!=null && searchInputValue!='') {
     		searchHref += "?q="+searchInputValue;
