@@ -39,48 +39,14 @@
 	<head>
 
 <?php
-
-	echo "SERVER['HTTP_X_FORWARDED_PROTO'] = ".$_SERVER['HTTP_X_FORWARDED_PROTO'];
-	echo '<br />';
-	echo "SERVER['HTTPS'] = ".$_SERVER['HTTPS'];
-	echo '<br />';
-	echo "!empty(SERVER['HTTPS']) = ".(!empty($_SERVER['HTTPS']));
-	echo '<br />';
-	echo "SERVER['HTTPS'] !== 'off' = "; echo $_SERVER['HTTPS'] !== 'off';
-	echo '<br />';
-	echo "SERVER['SERVER_PORT'] = ".$_SERVER['SERVER_PORT'];
-	echo '<br />';
-	echo "SERVER['SERVER_PROTOCOL'] = ".$_SERVER['SERVER_PROTOCOL'];
-	echo '<br />';
-	echo "SERVER['REQUEST_METHOD'] = ".$_SERVER['REQUEST_METHOD'];
-	echo '<br />';
-	echo "SERVER['REMOTE_HOST'] = ".$_SERVER['REMOTE_HOST'];
-	echo '<br />';
-	echo "SERVER['REMOTE_ADDR'] = ".$_SERVER['REMOTE_ADDR'];
-	echo '<br />';
-	echo "SERVER['REMOTE_PORT'] = ".$_SERVER['REMOTE_PORT'];
-	echo '<br />';
-	echo "SERVER['SCRIPT_NAME'] = ".$_SERVER['SCRIPT_NAME'];
-	echo '<br />';
-	echo "SERVER['AUTH_TYPE'] = ".$_SERVER['AUTH_TYPE'];
-	echo '<br />';
-	echo "SERVER['ORIG_PATH_INFO'] = ".$_SERVER['ORIG_PATH_INFO'];
-	echo '<br />';
-	echo "SERVER['PATH_INFO'] = ".$_SERVER['PATH_INFO'];
-	echo '<br />';
-	echo "SERVER['SERVER_NAME'] = ".$_SERVER['SERVER_NAME'];
-	echo '<br />';
-	echo "SERVER['REMOTE_ADDR'] = ".$_SERVER['REMOTE_ADDR'];
-	echo '<br />';
-	$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-	echo '<br />';
-	echo 'Protocol = '.$protocol;
-
+	
+	$http_protocol = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+	$final_base_url = $http_protocol . "://www.stonybrook.edu/far-beyond/";
 ?>
 
 
     <?php if($meta) { ?>
-        <base href="https://www.stonybrook.edu/"><!--[if IE]></base><![endif]-->
+        <base href="<?php echo $final_base_url; ?>"><!--[if IE]></base><![endif]-->
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
