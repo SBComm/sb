@@ -4,7 +4,7 @@
     $inc_loc       = 'inc';   //include folder
     $dir           = dirname(__FILE__);
     $http_protocol = ($_SERVER['HTTP_X_FORWARDED_PROTO']!='') ? $_SERVER['HTTP_X_FORWARDED_PROTO'] : 'http';
-
+    echo "<!--".$_SERVER['HTTP_X_FORWARDED_PROTO']."-->";
     if($_SERVER['SERVER_NAME'] == 'localhost') {
         $root          = $_SERVER['DOCUMENT_ROOT'];
         $site          = 'sb'; //site folder inside the root dir
