@@ -39,6 +39,9 @@
 	<head>
 
 <?php
+
+	echo "SERVER['HTTP_X_FORWARDED_PROTO'] = ".$_SERVER['HTTP_X_FORWARDED_PROTO'];
+	echo '<br />';
 	echo "SERVER['HTTPS'] = ".$_SERVER['HTTPS'];
 	echo '<br />';
 	echo "!empty(SERVER['HTTPS']) = ".(!empty($_SERVER['HTTPS']));
