@@ -48,7 +48,7 @@ function printBooks($path, $pathForContent, $content, $sbu_site_url) {
 		$post_link = $post->link . '?spotlight=' . $i;
 
 		$spotlight_image = preg_replace('/\s+/', '', $post->acf->homepage_spotlight_image);
-
+		$spotlight_image = str_replace('http://','//',$spotlight_image);
 
 		$html .= '
 	        <div class="boldMovesBox gtm_read-story-link-click" style="background-image: url(\''.$spotlight_image.'\')">
