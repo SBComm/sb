@@ -4717,7 +4717,7 @@ body {
     /* View Social section */
 
     section.social {
-
+        padding-top: 25px;
     }
 
     section.social h2 {
