@@ -40,7 +40,7 @@
         </article>
         <article class="grid-item">
             <img src="img/maps/southampton-map-2.jpg" alt="Map of Stony Brook Southampton" />
-            <a href="http://www.stonybrook.edu/sb/map/images/sbshmap.pdf" title="Download Southampton map (PDF)" target="_blank">
+            <a href="downloads/pdf/maps/Southampton-Map-2016-17.pdf" title="Download Southampton map (PDF)" target="_blank">
                 <span class="grid-item_category grid-item_category--secondary">Map</span>
                 <div class="mag-articles_title">
                     <h3>Southampton <br />Campus Map</h3>
