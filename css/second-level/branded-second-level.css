@@ -17,9 +17,44 @@
     background-position: center;
     color: #000;
     text-shadow: 0 0 15px #fff;
-    
 }
 
+.header-title-image-roadway {
+    background-image: url("../../img/university/campus-drive-roadway-2.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.header-title-image-wang {
+    background-image: url("../../img/university/pathway-to-wang.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.header-title-image-sac {
+    background-image: url("../../img/university/students-by-sac.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.header-title-image-trafflights {
+    background-image: url("../../img/university/traffic-lights.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.header-title-image-student-writing {
+    background-image: url("../../img/university/student-writing-abstract.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.header-title-image-physics {
+    background-image: url("../../img/university/physics-building-with-grass-2.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
 .header-title-image-science {
     background-image: url("../../img/university/science-banner-2000.jpg");
     background-size: 100%;
@@ -49,6 +84,7 @@
     font-weight: 900;
     letter-spacing: -0.015em;
     padding: 1em 1em 0.6em;
+    padding: 1em;
     font-size: 48px;
 }
 

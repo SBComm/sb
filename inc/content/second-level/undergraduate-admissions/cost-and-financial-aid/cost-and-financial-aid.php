@@ -97,7 +97,7 @@
                         </tr>
                         <tr>
                             <td class="label">Meal Plan ***</td>
-                            <td><span class="amount">4,700</span></td>
+                            <td><span class="amount">4,800</span></td>
                         </tr>
                     </table>
 

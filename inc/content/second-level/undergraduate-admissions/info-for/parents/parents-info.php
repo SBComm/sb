@@ -38,11 +38,11 @@
                     <li><a class="external-link" href="http://www.stonybrook.edu/sb/safety.shtml" target="_blank">Campus Safety</a></li>
                 </ul>
 
-                <h4>Resources</h4>
+                <!--<h4>Resources</h4>
                 <ul class="default-bullets">
                     <li><a href="undergraduate-admissions/contact/brochures">View Downloadable Brochures</a>
                     <li><a href="downloads/pdf/admissions/Stony-Brook-For-Parents.pdf" target="_blank">8 Reasons Why You'll Love Stony Brook University</a>
-                </li>
+                </li>-->
             </div>
         </div>
     </section>

@@ -183,7 +183,8 @@ a[href$=".xlsx"]:after,
 a[href$=".doc"]:after,
 a[href$=".docx"]:after,
 a[href$=".ppt"]:after,
-a[href$=".pptx"]:after {
+a[href$=".pptx"]:after,
+.pdf-icon-after:after {
     display: inline-block;
     margin: 0 2px 0 5px;
     font-family: FontAwesome;
@@ -198,7 +199,12 @@ a[href$=".pptx"]:after {
     text-indent: 0;
 }
 
-a[href$=".pdf"]:after {
+.pdf-icon-after:after {
+    margin: 0 0 0 10px;
+}
+
+a[href$=".pdf"]:after,
+.pdf-icon-after:after {
     content: "\f1c1";
 }
 
@@ -3796,6 +3802,7 @@ body {
         border-bottom: 1px solid #aa0000;
     }
 
+    .external-link:after,
     a.external-link:after,
     a.email-link:after,
     a.external-link-hover:after,
@@ -3841,11 +3848,23 @@ body {
         content: "\f003";
     }
 
+    .tooltip {
+        cursor: help;
+    }
+
+    a .tooltip {
+        cursor: pointer;
+    }
+
     .tooltip:after {
         content: "\f059";
         font-size: .865em;
         color: #aaa;
         cursor: default;
+    }
+
+    .tooltip--no-icon-after:after {
+        display: none;
     }
 
     a.info-link-hover:hover:after,
@@ -4258,7 +4277,14 @@ body {
         font-size: 1em;
         line-height: 1.6em;
         font-family: 'Trade Gothic Next W01', Arial, sans-serif;
-        color: #333;;
+        color: #333;
+
+        font-family: "Effra W01", Helvetica, sans-serif;
+        font-weight: 400;
+        color: #4b4b4b;
+        font-size: 16px;
+        line-height: 23px;
+
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;;
@@ -4277,20 +4303,20 @@ body {
     .inside-content p {
         font-size: 1em;
         line-height: 1.6em;
-        font-family: 'Trade Gothic Next W01', Arial, sans-serif;
+        font-family: "Effra W01", Helvetica, sans-serif;
         /* color: #333; */
     }
 
     .inside-content .content strong {
-        font-family: 'Trade Gothic W01 Bold 2';
+        font-family: "Effra W01", Helvetica, sans-serif;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 700;
     }
 
     .inside-content .content em {
         font-weight: normal;
-        font-style: normal;
-        font-family: 'TradeGothicNextW02-Ligh 694374';
+        font-style: italic;
+        font-family: "Effra W01", Helvetica, sans-serif;
     }
 
     .inside-content .content em.fa {
@@ -4626,12 +4652,11 @@ body {
 
     .drop-accordion-1 .tab {
         background: #f2f2f2;
-        color: #444;
+        color: #000;
         display: block;
         border: 1px solid #d9d9d9;
         border-radius: 20px 0 0 20px;
         font-size: 1.05em;
-        font-family: 'Trade Gothic W01 Light';
         cursor: pointer;
         z-index: 101;
         position: relative;
@@ -4692,7 +4717,7 @@ body {
     /* View Social section */
 
     section.social {
-
+        padding-top: 25px;
     }
 
     section.social h2 {

@@ -31,7 +31,7 @@
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Stony Brook Site Analytics.';
-		    $og_url          = 'http://mobile.cc.stonybrook.edu/analytics';
+		    $og_url          = 'http://stonybrook.edu/analytics';
 
 		    $page_to_top_link = true;
 
@@ -45,6 +45,8 @@
 		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
+
+		    $site_breadcrumbs = false;
 
 		    $html_dom_parser = true;
 		?>

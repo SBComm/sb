@@ -46,6 +46,8 @@
 
 		    $carousel 		  = true;
 		    $carousel_2       = true;
+
+		    $site_breadcrumbs = true;
 		?>
 
 	<head>

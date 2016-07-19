@@ -26,8 +26,7 @@
             <h3>Home-Schooled Applicant Guidelines</h3>
             <div class="content">
                 <h4>The Application Process</h4>
-                <p>Stony Brook University is happy to accept and review applications from students who have been home-schooled. Home-schooled students comprise a small yet growing percentage of our applicant pool. Several home-schooled students are admitted and enroll at Stony Brook each year.
-We prefer home-schooled applicants to submit the Common Application, as well as the Common Application’s Home School Supplement. However, if you choose to submit the SUNY application and SUNY supplement instead, we ask that you also submit a personal statement describing:</p>
+                <p>Stony Brook University is happy to accept and review applications from students who have been home-schooled. Home-schooled students comprise a small yet growing percentage of our applicant pool. Several home-schooled students are admitted and enroll at Stony Brook each year. We prefer home-schooled applicants to submit the Common Application. However, if you choose to submit the SUNY application, we ask that you also submit a personal statement describing:</p>
                 <ul class="default-bullets">
                     <li>how and why your family chose home schooling</li>
                     <li>how your learning process was organized</li>

@@ -103,9 +103,6 @@
                                 <span class="instruction">Ask your high school to submit your transcript electronically, using either The Common Application School Forms System or <a class="external-link" href="https://www.suny.edu/counselor/">SUNY CounselorConnect</a>.)</span>
                             </li>
                             <li>
-                                <span class="instruction">Self-report your academic record using <a class="external-link" href="http://www.suny.edu/attend/apply-to-suny/suny-online-academic-record-soar/" target="_blank">SOAR</a>.</span>
-                            </li>
-                            <li>
                                 <span class="instruction">Ask your high school to fax or mail us your official high school transcript, along with the <a href="downloads/pdf/admissions/Guidance-Counselor-Transmittal.pdf" target="_blank">Transmittal Form</a>.
                                     <span class="phone">Fax: <strong>(631) 632-9898</strong></span>
                                     Credentials faxed directly from the high school should not be mailed. Send items that cannot be faxed to:
@@ -119,7 +116,7 @@
                         </ol>
                     </li>
                     <li>
-                        <strong>Your SAT or ACT (with writing) scores should be reported directly from the testing agency.</strong>
+                        <strong>Your SAT or ACT scores should be reported directly from the testing agency.</strong>
                         <br />
                         SAT Code: <strong>2548</strong>
                         <br />
@@ -199,7 +196,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>The undergraduate major in music balances studies in the performance, composition, theory, and history of Western art music with the broad general education implied by a liberal arts degree.</p>
-                                <p><a href="undergraduate-admissions/academics/program-details/?code=mus">Get more information</a></p>
+                                <p><a href="http://www.stonybrook.edu/commcms/music/degree_programs/undergraduate/undergrad_application.html ">View music major application</a></p>
                             </div>
                         </div>
                     </div>

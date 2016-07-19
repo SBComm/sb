@@ -19,11 +19,11 @@
 			<select id="cd-dropdown" name="cd-dropdown" class="cd-select">
 				<option value="-1" selected>View information for...</option>
 				<option value="1" data-href="http://www.stonybrook.edu/for-students/">For Students</option>
-				<option value="2" data-href="http://www.stonybrook.edu/sb/faculty.shtml">Faculty &amp; Staff</option>
-				<option value="3" data-href="http://www.stonybrook.edu/sb/alumni.shtml">Alumni &amp; Friends</option>
-				<option value="4" data-href="http://www.stonybrook.edu/sb/parents.shtml">Parents</option>
-				<option value="5" data-href="http://mobile.cc.stonybrook.edu/sb/community-relations/">Neighbors</option>
-				<option value="6" data-href="http://www.stonybrook.edu/economic-development">Economic Development</option>
+				<option value="2" data-href="http://www.stonybrook.edu/faculty-staff/">Faculty &amp; Staff</option>
+				<option value="3" data-href="http://www.stonybrook.edu/alumni-and-friends/">Alumni &amp; Friends</option>
+				<option value="4" data-href="http://www.stonybrook.edu/parents/">Parents</option>
+				<option value="5" data-href="http://www.stonybrook.edu/community-relations/">Neighbors</option>
+				<option value="6" data-href="http://www.stonybrook.edu/economic-development/">Economic Development</option>
 			</select>
 		</div>
     </nav>

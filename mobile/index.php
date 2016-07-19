@@ -14,7 +14,7 @@
         <meta property="og:description" content="The top 15 stories and news headlines of 2015 from Stony Brook University have made an impact on Long Island, New York and the world.">
         <meta property="og:type" content="article" />
         <meta property="og:url" content="http://stonybrook.edu/top15/" />
-        <meta property="og:image" content="http://mobile.cc.stonybrook.edu/sb/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg" />
+        <meta property="og:image" content="http://www.stonybrook.edu/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg" />
         <meta property="fb:app_id" content="" />
     	<!--END Open Graph Meta Tags-->
 
@@ -60,7 +60,7 @@
 		</script>
 		<div class="container">
 			<header class="site-logo">
-				<a href="http://www.stonybrook.edu/"><img src="//mobile.cc.stonybrook.edu/sb/img/stony-brook-university-logo.jpg" alt="Stony Brook University logo" /></a>
+				<a href="http://www.stonybrook.edu/"><img src="//www.stonybrook.edu/img/stony-brook-university-logo.jpg" alt="Stony Brook University logo" /></a>
 			</header>
 			<div class="content clearfix">
 				<div class="grid">
@@ -71,7 +71,7 @@
 						</figcaption>			
 					</a>
 					<a href="http://www.stonybrook.edu/safety" class="figure-link effect-sadie">
-						<img src="//mobile.cc.stonybrook.edu/sb/img/wide-landing/sb-frey-800x245.jpg" alt="img05"/>
+						<img src="//www.stonybrook.edu/img/wide-landing/sb-frey-800x245.jpg" alt="img05"/>
 						<figcaption>
 							<h2>Campus Safety</h2>
 						</figcaption>			

@@ -1,7 +1,7 @@
 <article>
     <section>
         <div class="cse-input-wrapper wrapper border-box">
-            <h1 class="serif">Search</h1>
+            <h2>Search</h2>
 
             <div id="cse-search-input">
 

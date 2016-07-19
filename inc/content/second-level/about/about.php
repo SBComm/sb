@@ -4,10 +4,9 @@
             <h1><a href="about/">About Stony Brook</a></h1>
         </div>
     </section>
-    <section class="clearfix inside-content main-inside-content two-col white-background">
-        <div class="border-box wrapper clearfix pad-top">
-
-            <div class="content pad-top">
+    <section class="clearfix page-content">
+        <div class="wrapper clearfix pad-top pad-bottom">
+            <div class="pad-top pad-bottom">
                 <img class="inline-image" src="img/university/pole-banners-far-beyond.jpg" />
                 <p>Stony Brook University is one of America’s most dynamic public
                 universities, a center of academic excellence and an internationally
@@ -22,12 +21,11 @@
                 </ul>
                 <p><strong>ACCOLADES</strong></p>
                 <ul class="default-bullets">
+                    <li>Among the top 1 percent of higher education institutions in the world (Center for World University Rankings).</li>
                     <li>Among the top 100 universities in the nation (<em>U.S.News &amp;
                     World Report</em>).</li>
                     <li>Among the top 40 public universities in the nation (<em>U.S.News
                     &amp; World Report</em>).</li>
-                    <li>Our global ranking by <em>U.S.News &amp; World Report</em> places
-                    us in the top 1 percent of institutions worldwide.</li>
                     <li>Member of the invitation-only Association of American Universities,
                     comprising the 62 leading research institutions in North America.</li>
                     <li>Proud home to Nobel laureates, Guggenheim fellows and MacArthur
@@ -41,7 +39,6 @@
                 in Stony Brook, N.Y. — a powerful incubator of teaching and research
                 innovation as well as a driving engine for the Long Island economy — with
                 satellite locations in Southampton, Manhattan and South Korea.</p>
-
             </div>
         </div>
     </section>
@@ -51,7 +48,7 @@
         include($path . $file);
     ?>
 
-    <section class="clearfix inside-content main-inside-content two-col white-background">
+    <section class="clearfix inside-content main-inside-content two-col white-background page-content">
         <div class="border-box wrapper clearfix pad-top">
 
             <p>&nbsp;</p>
@@ -282,7 +279,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/southampton/mfa/">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/sb/southampton/index.shtml">Learn more</a></p>
+                                <p>Stony Brook Southampton, on the shores of the Atlantic Ocean, is home to the <a href="http://www.stonybrook.edu/southampton/mfa/">Southampton Arts</a> MFA programs and summer workshops, the waterfront research and teaching facilities of the School of Marine and Atmospheric Sciences, including the new Marine Sciences Center, and the undergraduate residential Semester by the Sea programs in marine sciences and the arts. <a class="arrow-after" href="http://www.stonybrook.edu/southampton/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -292,7 +289,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Stony Brook Manhattan, at 27th Street and Park Avenue South, is a state-of-the-art facility featuring undergraduate and graduate classes, conference rooms, offices and a reception space for special events. <a class="arrow-after" href="http://www.stonybrook.edu/sb/nyc/">Learn more</a></p>
+                                <p>Stony Brook Manhattan, at 27th Street and Park Avenue South, is a state-of-the-art facility featuring undergraduate and graduate classes, conference rooms, offices and a reception space for special events. <a class="arrow-after" href="http://www.stonybrook.edu/nyc/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -311,7 +308,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The College of Arts and Sciences offers degree programs in fine arts and humanities, in biological and physical sciences, in mathematics and in social and behavioral sciences. In addition to departmental majors, special interdisciplinary majors using the resources of two or more departments are offered, as well as programs leading to provisional certification in secondary education. <a class="arrow-after" href="http://www.stonybrook.edu/commcms/cas/">Learn more</a></p>
+                                <p>The College of Arts and Sciences offers degree programs in fine arts and humanities, in biological and physical sciences, in mathematics and in social and behavioral sciences. In addition to departmental majors, special interdisciplinary majors using the resources of two or more departments are offered, as well as programs leading to provisional certification in secondary education. <a class="arrow-after" href="/cas/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -321,7 +318,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The College of Business provides comprehensive education and research for the business, public and nonprofit sectors. Our MBA, MS and undergraduate programs are taught by faculty from around the world who have met rigorous standards for research productivity and teaching effectiveness. Students participate in vibrant learning communities where they gain the knowledge, skills and insights necessary to manage complex organizations. Dedicated faculty have both academic and business experience, and teach not only the broad principles of accounting, management, finance and marketing, but also the more intangible aspects of leadership, communications and business strategy. The College of Business offers flexible full- and part-time programs, with day, evening, Saturday and online courses available. <a class="arrow-after" href="http://www.sunysb.edu/sbbusiness/">Learn more</a></p>
+                                <p>The College of Business provides comprehensive education and research for the business, public and nonprofit sectors. Our MBA, MS and undergraduate programs are taught by faculty from around the world who have met rigorous standards for research productivity and teaching effectiveness. Students participate in vibrant learning communities where they gain the knowledge, skills and insights necessary to manage complex organizations. Dedicated faculty have both academic and business experience, and teach not only the broad principles of accounting, management, finance and marketing, but also the more intangible aspects of leadership, communications and business strategy. The College of Business offers flexible full- and part-time programs, with day, evening, Saturday and online courses available. <a class="arrow-after" href="/business/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -331,7 +328,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The College of Engineering and Applied Sciences offers a wide range of programs that provide students with opportunities to find work in industry or proceed to graduate study in a variety of fields. Seven ABET-accredited programs give the student latitude to plan a course of study within traditional engineering disciplines or in new interdisciplinary fields. <a class="arrow-after" href="http://www.ceas.sunysb.edu/">Learn more</a></p>
+                                <p>The College of Engineering and Applied Sciences offers a wide range of programs that provide students with opportunities to find work in industry or proceed to graduate study in a variety of fields. Seven ABET-accredited programs give the student latitude to plan a course of study within traditional engineering disciplines or in new interdisciplinary fields. <a class="arrow-after" href="/ceas/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -341,7 +338,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The Graduate School offers advanced degree programs in many fields leading to the master's and doctoral degrees. Stony Brook's advanced graduate programs are internationally recognized and consistently receive exceptionally high ratings from external evaluation agencies and scholarly studies. <a class="arrow-after" href="http://www.grad.sunysb.edu/">Learn more</a></p>
+                                <p>The Graduate School offers advanced degree programs in many fields leading to the master's and doctoral degrees. Stony Brook's advanced graduate programs are internationally recognized and consistently receive exceptionally high ratings from external evaluation agencies and scholarly studies. <a class="arrow-after" href="https://www.grad.stonybrook.edu/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -410,7 +407,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>Every first-year student enters Stony Brook as a member of one of six Undergraduate Colleges organized around themes of general interest to students. <a class="arrow-after" href="http://www.stonybrook.edu/sb/colleges/">Learn more</a></p>
+                                <p>Every first-year student enters Stony Brook as a member of one of six Undergraduate Colleges organized around themes of general interest to students. <a class="arrow-after" href="http://ucolleges.stonybrook.edu/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -420,7 +417,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>At Stony Brook there are 68 Majors and 82 Minors to choose from.</p> <p> The most popular majors/minors include are Undergraduate Majors: Biology, Psychology, Health Science, Business Management, Computer Science, Biochemistry, Economics, Mechanical Engineering, Applied Mathematics and Statistics, and Mathematics.<a class="arrow-after" href="http://stonybrook.edu/undergraduate-admissions/academics/">Full List of Majors/Minors</a></p>
+                                <p>At Stony Brook there are 68 Majors and 82 Minors to choose from.</p> <p> The most popular majors/minors include are Undergraduate Majors: Biology, Psychology, Health Science, Business Management, Computer Science, Biochemistry, Economics, Mechanical Engineering, Applied Mathematics and Statistics, and Mathematics.<a class="arrow-after" href="/undergraduate-admissions/academics/">Full List of Majors/Minors</a></p>
                             </div>
                         </div>
                     </div>
@@ -430,7 +427,7 @@
             <p>&nbsp;</p>
             <h3>Research</h3>
             <div class="content">
-                <p>Stony Brook has been one of only 94 institutions in the country to be designated a "Very High Research University" by the Carnegie Foundation. Our faculty have been responsible for more than 1,900 inventions and 550 U.S. patents. With more than 70 academic departments, Stony Brook is among the top 40 institutions funded by the National Science Foundation, and expenditures on organized research, from external and internal sponsors, are at more than $160 million.</p>
+                <p>Stony Brook has been one of only 94 institutions in the country to be designated a "Very High Research University" by the Carnegie Foundation. Our faculty have been responsible for more than 2,000 inventions and 580 U.S. patents. With more than 70 academic departments, Stony Brook is among the top 40 institutions funded by the National Science Foundation, and expenditures on organized research, from external and internal sponsors, are at nearly $170 million.</p>
 
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
@@ -653,7 +650,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Medicne and Biotechnology</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Medicine and Biotechnology</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -783,7 +780,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The University manages the Pollock-Krasner House and Study Center, where painters Jackson Pollock, leader of the Abstract Expressionist movement, and Lee Krasner lived and worked. <a class="arrow-after" href="http://sb.cc.stonybrook.edu/pkhouse/">Learn more</a></p>
+                                <p>The University manages the Pollock-Krasner House and Study Center, where painters Jackson Pollock, leader of the Abstract Expressionist movement, and Lee Krasner lived and worked. <a class="arrow-after" href="http://www.stonybrook.edu/pkhouse/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -793,7 +790,7 @@
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
-                                <p>The Simons Center for Geometry and Physics was started in 2007 by a gift from the James and Marilyn Simons Foundation. The Center's mission is to develop the interaction of geometry in the broadest sense with theoretical physics. The Stony Brook tradition is exemplified by the joint ITP-Math seminars initiated by Jim Simons and Frank Yang in the 1970s; these stimulated interest worldwide in the mathematics of gauge theories. <a class="arrow-after" href="http://www.scgp.stonybrook.edu/">Learn more</a></p>
+                                <p>The Simons Center for Geometry and Physics was started in 2007 by a gift from the James and Marilyn Simons Foundation. The Center's mission is to develop the interaction of geometry in the broadest sense with theoretical physics. The Stony Brook tradition is exemplified by the joint ITP-Math seminars initiated by Jim Simons and Frank Yang in the 1970s; these stimulated interest worldwide in the mathematics of gauge theories. <a class="arrow-after" href="/simonscenter/">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -952,12 +949,10 @@
             <h3>Presidents</h3>
             <div class="content">
                 <p>The University is divided into 12 schools and colleges: the College of Arts and Sciences, the College of Business, the College of Engineering and Applied Sciences, the Graduate School, the School of Journalism, the School of Marine and Atmospheric Sciences, the School of Professional Development, and the five health sciences schools: Dental Medicine, Health Technology and Management, Medicine, Nursing and Social Welfare.</p> 
-                <p> <a class="arrow-after" href="http://www.stonybrook.edu/pres/">Visit Office of the President </a></p>
-                <p><a class="arrow-after" href="http://www.stonybrook.edu/sb/sbcouncil/index.shtml">Visit Stony Brook Council </a></p> 
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>July 1, 2009– Present: Samuel L. Stanley Jr., MD, President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>July 1, 2009 – Present: Samuel L. Stanley Jr., MD, President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">    
@@ -967,7 +962,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1994–2009: Shirley Strum Kenny, President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1994 – 2009: Shirley Strum Kenny, President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -977,7 +972,7 @@
                     </div>
                      <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1980–1994: John H. Marburger III, President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1980 – 1994: John H. Marburger III, President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -988,7 +983,7 @@
 
                       <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1979–1980: Richard Schmidt, President, Upstate Medical Center, Acting President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1979 – 1980: Richard Schmidt, President, Upstate Medical Center, Acting President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -998,7 +993,7 @@
                     </div>
                       <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1978–1979: T. Alexander Pond, Executive Vice President, Acting President</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1978 – 1979: T. Alexander Pond, Executive Vice President, Acting President</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -1020,7 +1015,7 @@
 
                      <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>Sept. 1, 1962–Aug. 31, 1965: Karl D. Hartzell, Executive Dean in SUNY Central </span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>Sept. 1, 1962 – Aug. 31, 1965: Karl D. Hartzell, Executive Dean in SUNY Central </span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -1030,7 +1025,7 @@
                     </div>
                      <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>961–1962: SUNY President Thomas H. Hamilton, Acting Administrative Head</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1961–1962: SUNY President Thomas H. Hamilton, Acting Administrative Head</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -1051,7 +1046,7 @@
                     </div>
                     <div class="item">
                         <div class="tab">
-                            <span class="label"><i class="fa fa-plus-circle"></i>1957–1961: Dean Leonard K. Olson</span>
+                            <span class="label"><i class="fa fa-plus-circle"></i>1957 – 1961: Dean Leonard K. Olson</span>
                         </div>
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
@@ -1059,7 +1054,9 @@
                             </div>
                         </div>
                     </div>
-                 </div>
+                </div>
+                <p><a class="brand-button arrow-after" href="http://www.stonybrook.edu/pres/">Visit Office of the President </a></p>
+                <p><a class="brand-button arrow-after" href="http://www.stonybrook.edu/sb/sbcouncil/index.shtml">Visit Stony Brook Council </a></p> 
             </div>
         </div>
     </section>

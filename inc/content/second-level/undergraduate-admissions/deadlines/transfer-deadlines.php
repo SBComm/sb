@@ -9,19 +9,19 @@
     </thead>
     <tbody>
         <tr>
-            <td><strong>Fall 2016</strong></td>
+            <td><strong>Fall 2017</strong></td>
             <td>March 1</td>
             <td>March 1</td>
             <td>Beginning Late-March</td>
         </tr>
         <tr>
-            <td><strong>Fall 2016 EOP</strong></td>
+            <td><strong>Fall 2017 EOP</strong></td>
             <td>March 1</td>
             <td>March 1</td>
             <td>Beginning Late-March</td>
         </tr>
         <tr>
-            <td><strong>Spring 2016</strong></td>
+            <td><strong>Spring 2017</strong></td>
             <td>November 1</td>
             <td>November 1</td>
             <td>Beginning Mid-November</td>

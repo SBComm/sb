@@ -65,8 +65,20 @@
                             <td>6.5</td>
                         </tr>
                         <tr>
-                            <td>SAT Critical Reading</td>
+                            <td>ACT English</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>SAT Critical Reading (Old Exam)</td>
                             <td>430</td>
+                        </tr>
+                        <tr>
+                            <td>SAT Evidence-Based Reading and Writing (New Exam)</td>
+                            <td>480</td>
+                        </tr>
+                        <tr>
+                            <td>PTE Academic</td>
+                            <td>53</td>
                         </tr>
                     </tbody>
                 </table>

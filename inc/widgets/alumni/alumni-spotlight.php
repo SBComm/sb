@@ -90,5 +90,5 @@
             </div>
         </a>
     </div>
-    <a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="http://sb.cc.stonybrook.edu/happenings/alumni/" target="_blank">See More Spotlights</a>
+    <a class="sbu-outline-button sbu-outline-button--on-white arrow-after" href="http://www.stonybrook.edu/happenings/category/alumni/alumni-spotlight/" target="_blank">See More Spotlights</a>
 </section>

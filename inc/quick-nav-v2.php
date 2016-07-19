@@ -77,8 +77,8 @@
 		                        </li>
 		                        <li class="tablet mobile desktop">
 		                        	<a href="undergraduate-admissions/contact/brochures/">
-		                        		<i class="icon fa fa-book clearfix"></i>
-		                        		<span class="label clearfix">Brochures</span>
+		                        		<i class="icon fa fa-mobile clearfix"></i>
+		                        		<span class="label clearfix">Mobile Apps</span>
 		                        	</a>
 		                        </li><!--
 		                        <li>

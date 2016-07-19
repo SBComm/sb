@@ -25,8 +25,8 @@
     <!--site variables-->
         <?php
             $page_type       = 'second-level';
-            $second_level    = 'jobs';
-            $page_title_sub  = 'Jobs';
+            $second_level    = '404';
+            $page_title_sub  = 'Page Not Found';
             $page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
             $og_title        = 'Stony Brook ' . $page_title_sub;
@@ -38,6 +38,8 @@
             $page_footerbar   = true;
 
             $carousel         = false;
+
+            $site_breadcrumbs = false;
         ?>
 
     <head>
@@ -58,7 +60,7 @@
                     break;
                 default:
                     $error_title = 'Page Not Found';
-                    $error_msg = 'Hmmm... We can\'t find that page. Perhaps the link was spelled incorrectly, or the page the page you\'re looking for does not exist.';
+                    $error_msg = 'Hmmm... We can\'t find that page. Perhaps the link was spelled incorrectly, or the page you\'re looking for does not exist.';
                     $show_search_msg = true;
                     break;
             }

@@ -4,7 +4,7 @@
             <h1><a href="academics/">Academics</a></h1>
         </div>
     </section>
-    <section class="clearfix inside-content main-inside-content two-col white-background">
+    <section class="clearfix page-content two-col white-background">
         <div class="border-box wrapper clearfix pad-top">
 
             <div class="content pad-top">
@@ -13,7 +13,7 @@
                 <p>Stony Brook also offers unique semester, academic year, and summer and winter programs in locations such as Argentina, Italy, Jamaica, Korea, Madagascar and Tanzania.</p>
             </div>
 
-            <div class="content col-2">
+            <div class="content one-half">
 
                 <br /><br />
 
@@ -58,7 +58,7 @@
 
             </div>
 
-            <div class="content col-2">
+            <div class="content one-half">
 
                 <br /><br />
 

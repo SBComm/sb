@@ -42,7 +42,7 @@
                     (631) 632-6702</span>
                 </p>
                 <h4>Student Organizations</h4>
-                <p>Stony Brook offers an active <a class="external-link" href="https://www.facebook.com/sbuveso" target="_blank">Veterans Student Organization</a> and the <a class="external-link" href="http://studentaffairs.stonybrook.edu/vets/rotc.shtml" target="_blank">Stony Brook ROTC Club</a></p>
+                <p>Stony Brook offers an active <a class="external-link" href="https://www.facebook.com/sbuveso" target="_blank">Veterans Student Organization</a> and the <a class="external-link" href="http://studentaffairs.stonybrook.edu/vets/links/rotc.html" target="_blank">Stony Brook ROTC Club</a></p>
                 <h4>Veterans Home</h4>
                 <p>The <a class="external-link" href="http://www.listateveteranshome.org/" target="_blank">Long Island State Veterans Home</a>, facility where our veterans receive the care and respect they deserve, is operated by Stony Brook University.</p>
             </div>

@@ -64,7 +64,7 @@
                 <p>Be sure to include your full name, date of birth, and home address on all correspondence. It is each applicant's responsibility to ensure that all application credentials are received.</p>
                 <ol class="number">
                     <li>
-                        <strong>Submit your English Proficiency</strong> via an official score report for the TOEFL, SAT, or IELTS.
+                        <strong>Submit your English Proficiency</strong> via an official score report for the TOEFL, SAT, ACT, IELTS, or PTE Academic.
                         <ul class="default-bullets">
                             <li>Stony Brook's code is 2548.</li>
                             <li><a class="nowrap" href="undergraduate-admissions/apply/international/admission-criteria#english-proficiency">View eligibility requirements</a>.</li>
@@ -114,19 +114,19 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>Fall 2016 Freshmen</strong></td>
+                            <td><strong>Fall 2017 Freshmen</strong></td>
                             <td>January 15</td>
                             <td>March 1</td>
                             <td>By April 1</td>
                         </tr>
                         <tr>
-                            <td><strong>Fall 2016 Transfers</strong></td>
+                            <td><strong>Fall 2017 Transfers</strong></td>
                             <td>March 1</td>
                             <td>March 1</td>
                             <td>Rolling</td>
                         </tr>
                         <tr>
-                            <td><strong>Spring 2016</strong></td>
+                            <td><strong>Spring 2017</strong></td>
                             <td>November 1*</td>
                             <td>November 1</td>
                             <td>Rolling</td>

@@ -143,7 +143,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>The undergraduate major in music balances studies in the performance, composition, theory, and history of Western art music with the broad general education implied by a liberal arts degree.</p>
-                                <p><a href="undergraduate-admissions/academics/program-details/?code=mus">Get more information</a></p>
+                                <p><a href="http://www.stonybrook.edu/commcms/music/degree_programs/undergraduate/undergrad_application.html ">View music major application</a></p>
                             </div>
                         </div>
                     </div>

@@ -52,4 +52,24 @@
             return 0;
         });
     }
+
+    function printBreadcrumbs() {
+        $crumbs = explode("/",$_SERVER["REQUEST_URI"]);
+        $crumbsOut .= "<a class='breadcrumbs__crumb' href='/' title='Breadcrumb link: SBU Home'>Home</a>";
+        foreach($crumbs as $crumb){
+            if($crumb!='') {
+                $crumbLink = $crumbLink . '/' . $crumb;
+                if($crumb!='sb' && $crumb!='development' && $crumb!='far-beyond' && substr($crumb,0,1)!='?') {
+                    $thisCrumb = ucwords(str_replace(array(".php","_","-"),array(""," "," "),$crumb));
+                    $crumbsOut .= "<a class='breadcrumbs__crumb' href='{$crumbLink}' title='Breadcrumb link: {$thisCrumb}'>{$thisCrumb}</a>";
+                    //echo $thisCrumb.'<br />';
+                    //echo $crumb.'<br />';
+                    //echo $crumbLink.'<br />';
+                    //echo $thisCrumbOut;
+                    //echo '<br />-------<br />';
+                }
+            }
+        }
+        echo('<div class="breadcrumbs"><div class="breadcrumbs__wrapper wrapper">'.$crumbsOut.'</div></div>');
+    }
 ?>

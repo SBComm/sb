@@ -17,7 +17,7 @@
                 <div class="compare-table-col border-box">
                     <h3 role="button" data-accordion-trigger="true" data-target="compare-links-1" data-screen-size="mobile">Undergraduate</h3>
                     <div class="links hide-accessible-mobile equal-height-col compare-links-1">
-                        <a href="http://stonybrook.edu/undergraduate-admissions/" alt="Admission Criteria"><i class="fa fa-check"></i>Admissions</a>
+                        <a href="http://stonybrook.edu/undergraduate-admissions/" alt="Admission Criteria"><i class="fa fa-check"></i>Undergrad Admissions</a>
                         <a href="http://stonybrook.edu/undergraduate-admissions/apply/" alt="Apply Now"><i class="fa fa-paper-plane"></i>Apply Now</a>
                         <a href="http://stonybrook.edu/undergraduate-admissions/academics/" alt="Majors &amp; Minors"><i class="fa fa-graduation-cap"></i>Majors &amp; Minors</a>
                         <a href="http://stonybrook.edu/undergraduate-admissions/cost-and-financial-aid/" alt="Costs &amp; Aid"><i class="fa fa-dollar"></i>Costs &amp; Aid</a>
@@ -45,7 +45,7 @@
                 <div class="compare-table-col border-box">
                     <h3 role="button" data-accordion-trigger="true" data-target="compare-links-3" data-screen-size="mobile">Health Sciences</h3>
                     <div class="links hide-accessible-mobile equal-height-col compare-links-3">
-                        <a href="http://www.stonybrook.edu/hscstudents/hscadmissions.shtml" alt="Admission Criteria" title="_blank"><i class="fa fa-check"></i>Admissions</a>
+                        <a href="http://www.stonybrook.edu/hscstudents/hscadmissions.shtml" alt="Admission Criteria" title="_blank"><i class="fa fa-check"></i>HSC Admissions</a>
                         <a href="http://dentistry.stonybrookmedicine.edu/" alt="Dental Medicine"><i class="fa fa-plus-square"></i>Dental Medicine</a>
                         <a href="http://healthtechnology.stonybrookmedicine.edu/" alt="Health Technology &amp; Management"><i class="fa fa-stethoscope"></i>Health Technology &amp; Management</a>
                         <a href="http://medicine.stonybrookmedicine.edu/" alt="Medicine"><i class="fa fa-user-md"></i>Medicine</a>
