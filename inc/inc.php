@@ -1,8 +1,9 @@
 <?php 
     /* Include Variables */
-    $root        = '/user/far-beyond/www';
-    $inc_loc     = 'inc';   //include folder
-    $dir         = dirname(__FILE__);
+    $root          = '/user/far-beyond/www';
+    $inc_loc       = 'inc';   //include folder
+    $dir           = dirname(__FILE__);
+    $http_protocol = ($_SERVER['HTTP_X_FORWARDED_PROTO']!='') ? $_SERVER['HTTP_X_FORWARDED_PROTO'] : 'http';
 
     if($_SERVER['SERVER_NAME'] == 'localhost') {
         $root          = $_SERVER['DOCUMENT_ROOT'];
@@ -21,7 +22,7 @@
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'development/sb';
-            $http_root     = 'http://www.stonybrook.edu';
+            $http_root     = $http_protocol.'://www.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $css_base_url  = $http_root . '/' . 'far-beyond' . '/';
             $working_path_asset_dir = '';
@@ -30,7 +31,7 @@
             $is_local_environment = false; 
         } else {
             $site          = 'sb';
-            $http_root     = 'http://www.stonybrook.edu';
+            $http_root     = $http_protocol.'://www.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $css_base_url  = $http_root . '/' . 'far-beyond' . '/';
             $working_path_asset_dir = '';
@@ -82,8 +83,8 @@
     $og_title          = 'Stony Brook University';
     $og_description    = $page_description;
     $og_type           = 'website';
-    $og_url            = 'http://www.stonybrook.edu/';
-    $og_image          = 'http://www.stonybrook.edu/sb/images/newlogohomepage.gif';
+    $og_url            = $http_protocol.'://www.stonybrook.edu/';
+    $og_image          = $http_protocol.'://www.stonybrook.edu/sb/images/newlogohomepage.gif';
 
     $meta = true;
 
