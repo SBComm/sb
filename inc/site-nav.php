@@ -3,7 +3,7 @@
     	<div class="menu-trigger border-box clearfix"><i class="icon fa fa-bars"></i></div>
 		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
 			<li class="clearfix home">
-            	<a href="http://www.stonybrook.edu/" class="clearfix">
+            	<a href="//www.stonybrook.edu/" class="clearfix">
             		<span class="label clearfix"><i class="fa fa-home"><span class="hide-accessible">Home</span></i></span>
             	</a>
             </li>
@@ -44,7 +44,7 @@
             </li>
 		</ul>
     	<div class="search-container <?php echo $search_style ?> clearfix border-box">
-    		<form class="search-wrapper" action="http://stonybrook.edu/search">
+    		<form class="search-wrapper" action="//stonybrook.edu/search">
         		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search SBU"><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Search" aria-label="search">
 	                <i class="icon fa fa-search"></i>
 	            </button>
