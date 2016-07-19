@@ -59,7 +59,10 @@
         foreach($crumbs as $crumb){
             if($crumb!='') {
                 $crumbLink = $crumbLink . '/' . $crumb;
-                if($crumb!='sb' && $crumb!='development' && $crumb!='far-beyond' && substr($crumb,0,1)!='?') {
+                if($crumb!='sb' && $crumb!='development' && $crumb!='far-beyond') {
+                    if(substr($crumb,0,1)=='?') {
+                        break;
+                    }
                     $thisCrumb = ucwords(str_replace(array(".php","_","-"),array(""," "," "),$crumb));
                     $crumbsOut .= "<a class='breadcrumbs__crumb' href='{$crumbLink}' title='Breadcrumb link: {$thisCrumb}'>{$thisCrumb}</a>";
                     //echo $thisCrumb.'<br />';
