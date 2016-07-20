@@ -25,7 +25,7 @@
                 	<a href="http://sb.cc.stonybrook.edu/news/media_relations/reporters_toolkit.php" class="clearfix">Media</a>
                 </li>
                 <li class="clearfix">
-                    <a href="http://www.stonybrook.edu/sb/arts" class="clearfix">Arts &amp; Culture</a>
+                    <a href="http://www.stonybrook.edu/arts-and-culture/" class="clearfix">Arts &amp; Culture</a>
                 </li>
             </ul>
         </div>

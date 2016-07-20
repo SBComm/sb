@@ -165,7 +165,7 @@
 		                        	</a>
 		                        </li>
 		                        <li>
-		                        	<a href="http://www.stonybrook.edu/sb/calendars.shtml" class="clearfix">
+		                        	<a href="http://www.stonybrook.edu/calendars" class="clearfix">
 		                        		<span class="label clearfix">Calendar<span class="hide-accessible-540">s</span></span>
 		                        	</a>
 		                        </li>
@@ -175,7 +175,7 @@
 		                        	</a>
 		                        </li>
 		                        <li class="tablet mobile desktop">
-		                        	<a href="http://www.stonybrook.edu/sb/directories.shtml">
+		                        	<a href="http://www.stonybrook.edu/search/people/">
 		                        		<span class="label clearfix">Directory</span>
 		                        	</a>
 		                        </li>

@@ -137,7 +137,7 @@
                     <a class="circle" href="https://twitter.com/stonybrooku" title="Check out Stony Brook tweets!" target="_blank"><span class="label hide-accessible">Twitter</span><em class="fa fa-twitter"></em></a>
                     <a class="circle" href="http://instagram.com/stonybrooku" title="View Instagram posts by Stony Brook University!" target="_blank"><span class="label hide-accessible">instagram</span><em class="fa fa-instagram"></em></a>
                     <a class="circle" href="https://www.flickr.com/photos/37984249@N06/" title="See Stony Brook photos on Flickr!" target="_blank"><span class="label hide-accessible">flickr</span><em class="fa fa-flickr"></em></a>
-                    <a class="circle" href="http://www.youtube.com/sbcomm" title="View Stony Brook pins on youtube!" target="_blank"><span class="label hide-accessible">youtube</span><em class="fa fa-youtube-play"></em></a>
+                    <a class="circle" href="http://www.youtube.com/stonybrook" title="View Stony Brook pins on youtube!" target="_blank"><span class="label hide-accessible">youtube</span><em class="fa fa-youtube-play"></em></a>
                 </div>
                 <a class="social-wall-link" href="http://stonybrook.edu/social/"><span>Check out our Social Media Wall&nbsp;<i class="fa fa-long-arrow-right"></i></span></a>
                 <a href="http://stonybrook.edu/" class="univ-logo-stacked clearfix"><img src="//www.stonybrook.edu/img/branding/logo/sbu/primary/72/stony-brook-university-logo-vertical.png" alt="Stony Brook University logo" /></a>

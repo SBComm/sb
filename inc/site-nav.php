@@ -38,7 +38,7 @@
             	</a>
             </li>
             <li class="clearfix<?php if($main_nav_selected_tab==7) echo(' selected'); ?>">
-                <a href="giving/" class="clearfix">
+                <a href="advancement/" class="clearfix">
                     <span class="label clearfix">Giving</span>
                 </a>
             </li>
