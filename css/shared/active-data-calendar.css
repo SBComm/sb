@@ -11,6 +11,12 @@ body {
     margin: 0 auto;
 }
 
+/* breadcrumbs */
+
+.breadcrumbs__wrapper {
+    display: none;
+}
+
 /* general */
 
 td,
