@@ -71,10 +71,10 @@
                 	<a href="http://blackboard.stonybrook.edu/" class="clearfix">Blackboard</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://stonybrook.edu/mycloud" class="clearfix">Google Apps</a>
+                	<a href="http://www.stonybrook.edu/mycloud" class="clearfix">Google Apps</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
+                	<a href="http://www.stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
                 </li>
                 <li class="clearfix">
                 	<a href="http://www.stonybrook.edu/brand" class="clearfix">Brand Toolkit</a>
@@ -83,7 +83,7 @@
                 	<a href="http://it.stonybrook.edu/it-system-status" class="clearfix">IT System Status</a>
                 </li>
                 <li class="clearfix">
-                    <a href="http://stonybrook.edu/happenings" class="clearfix">Happenings</a>
+                    <a href="http://www.stonybrook.edu/happenings" class="clearfix">Happenings</a>
                 </li>
             </ul>
         </div>
@@ -91,10 +91,10 @@
 			<strong>Offices &amp; Services</strong>
             <ul class="border-box clearfix">
                 <li class="clearfix">
-                	<a href="http://stonybrook.edu/bursar/" class="clearfix">Bursar</a>
+                	<a href="http://www.stonybrook.edu/bursar/" class="clearfix">Bursar</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://stonybrook.edu/campus-safety/" class="clearfix">Campus Safety</a>
+                	<a href="http://www.stonybrook.edu/campus-safety/" class="clearfix">Campus Safety</a>
                 </li>
                 <li class="clearfix">
                 	<a href="http://career.stonybrook.edu/" class="clearfix">Career Center</a>

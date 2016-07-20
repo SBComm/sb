@@ -50,7 +50,7 @@
                             <a href="http://www.stonybrook.edu/community-relations/" class="clearfix">Neighbors</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/campus-safety/" class="clearfix">Campus Safety</a>
+                            <a href="http://www.stonybrook.edu/campus-safety/" class="clearfix">Campus Safety</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/economic-development/" class="clearfix">Economic Development</a>
@@ -105,13 +105,13 @@
                             <a href="http://blackboard.stonybrook.edu/" class="clearfix">Blackboard</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/mycloud" class="clearfix">Google Apps</a>
+                            <a href="http://www.stonybrook.edu/mycloud" class="clearfix">Google Apps</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
+                            <a href="http://www.stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/happenings/" class="clearfix">Happenings</a>
+                            <a href="http://www.stonybrook.edu/happenings/" class="clearfix">Happenings</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/magazine/" class="clearfix">Magazine</a>
@@ -120,10 +120,10 @@
                             <a href="http://www.stonybrook.edu/pres/" class="clearfix">Office of the President</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/southampton/" class="clearfix">SB Southampton</a>
+                            <a href="http://www.stonybrook.edu/southampton/" class="clearfix">SB Southampton</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrook.edu/commcms/bnl/" class="clearfix">Brookhaven National Lab</a>
+                            <a href="http://www.stonybrook.edu/commcms/bnl/" class="clearfix">Brookhaven National Lab</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/sustainability/" class="clearfix">Sustainability</a>
@@ -139,8 +139,8 @@
                     <a class="circle" href="https://www.flickr.com/photos/37984249@N06/" title="See Stony Brook photos on Flickr!" target="_blank"><span class="label hide-accessible">flickr</span><em class="fa fa-flickr"></em></a>
                     <a class="circle" href="http://www.youtube.com/stonybrook" title="View Stony Brook pins on youtube!" target="_blank"><span class="label hide-accessible">youtube</span><em class="fa fa-youtube-play"></em></a>
                 </div>
-                <a class="social-wall-link" href="http://stonybrook.edu/social/"><span>Check out our Social Media Wall&nbsp;<i class="fa fa-long-arrow-right"></i></span></a>
-                <a href="http://stonybrook.edu/" class="univ-logo-stacked clearfix"><img src="//www.stonybrook.edu/img/branding/logo/sbu/primary/72/stony-brook-university-logo-vertical.png" alt="Stony Brook University logo" /></a>
+                <a class="social-wall-link" href="http://www.stonybrook.edu/social/"><span>Check out our Social Media Wall&nbsp;<i class="fa fa-long-arrow-right"></i></span></a>
+                <a href="http://www.stonybrook.edu/" class="univ-logo-stacked clearfix"><img src="//www.stonybrook.edu/img/branding/logo/sbu/primary/72/stony-brook-university-logo-vertical.png" alt="Stony Brook University logo" /></a>
              </div>
         </div>
     </nav>

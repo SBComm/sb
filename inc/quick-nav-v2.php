@@ -150,7 +150,7 @@
 		                        </li>
 		                    </ul>
 	                    </div>
-                         <a href="http://stonybrook.edu/give" class="give-flag persistent-flag">
+                         <a href="http://www.stonybrook.edu/give" class="give-flag persistent-flag">
                               <span class="hide-accessible">Give Now!</span>
                               <img src="img/buttons/give-now-flag.png" />
                          </a>
