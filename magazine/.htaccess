@@ -970,9 +970,9 @@ FileETag None
 <IfModule mod_rewrite.c>
     RewriteEngine On
     #rewrite current mag year
-    RewriteRule ^$ %{HTTP:X-Forwarded-Proto}://www.stonybrook.edu/magazine/2016-spring/ [R=301]
-    RewriteRule ^index.php$ %{HTTP:X-Forwarded-Proto}://www.stonybrook.edu/magazine/2016-spring/ [R=301]
-    RewriteRule ^([a-zA-Z0-9\-]+)$ %{HTTP:X-Forwarded-Proto}://www.stonybrook.edu/magazine/2016-spring/$1 [R=301]
+    RewriteRule ^$ https://www.stonybrook.edu/magazine/2016-spring/ [R=301]
+    RewriteRule ^index.php$ https://www.stonybrook.edu/magazine/2016-spring/ [R=301]
+    RewriteRule ^([a-zA-Z0-9\-]+)$ https://www.stonybrook.edu/magazine/2016-spring/$1 [R=301]
 
-    RewriteRule ^2016-spring/([a-zA-Z0-9\-]+)/?$ %{HTTP:X-Forwarded-Proto}://www.stonybrook.edu/2016-spring/article.php?story=$1
+    RewriteRule ^2016-spring/([a-zA-Z0-9\-]+)/?$ http://www.stonybrook.edu/2016-spring/article.php?story=$1
 </IfModule>
