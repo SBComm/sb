@@ -19,12 +19,12 @@
 			$story_grid_title = $post->acf->magazine_grid_title;
 			$story_sub = $post->acf->magazine_story_sub;
 
-			$grid_item_img_href = $post->acf->magazine_grid_image->url;
+			$grid_item_img_href = makeHTTPS($post->acf->magazine_grid_image->url);
 			$grid_item_img_alt = $post->acf->magazine_grid_image->alt;
 			$grid_item_img = "";
 			$grid_item_img_class = "";
 
-			$grid_item_img_2_href = $post->acf->magazine_grid_hover_image->url;
+			$grid_item_img_2_href = makeHTTPS($post->acf->magazine_grid_hover_image->url);
 			$grid_item_img_2_alt = $post->acf->magazine_grid_hover_image->alt;
 			$grid_item_hover_img = "";
 
@@ -147,10 +147,10 @@
 		$n++;
 		$main_gallery .= '
 			<a class="item nivo-lightbox mag-gallery_images_thumb" href="#image-'.$n.'" data-lightbox-type="inline" data-caption="true" data-lightbox-gallery="mag-gallery">
-				<img src="'.$main_gallery_thumbs[$n-1]->url.'" alt="'.$main_gallery_img->caption.'" />
+				<img src="'.makeHTTPS($main_gallery_thumbs[$n-1]->url).'" alt="'.$main_gallery_img->caption.'" />
 			</a>
 			<div id="image-'.$n.'" class="inline-lightbox-content">
-				<img class="mag-gallery_images_image" src="'.$main_gallery_img->url.'" alt="'.$main_gallery_img->caption.'" />
+				<img class="mag-gallery_images_image" src="'.makeHTTPS($main_gallery_img->url).'" alt="'.$main_gallery_img->caption.'" />
 				<div class="mag-gallery_images_caption">
 					<button class="mag-gallery_images_caption_view-trigger"><span>View</span> caption</button>
 					<div>
@@ -173,10 +173,10 @@
 			$n++;
 			$main_gallery .= '
 				<a class="item nivo-lightbox mag-gallery_images_thumb hidden" href="#image-'.$n.'" data-lightbox-type="inline" data-caption="true" data-lightbox-gallery="mag-gallery">
-					<img src="'.$gallery_img->url.'" alt="'.$gallery_img->caption.'" />
+					<img src="'.makeHTTPS($gallery_img->url).'" alt="'.$gallery_img->caption.'" />
 				</a>
 				<div id="image-'.$n.'" class="inline-lightbox-content">
-					<img class="mag-gallery_images_image" src="'.$gallery_img->url.'" alt="'.$gallery_img->caption.'" />
+					<img class="mag-gallery_images_image" src="'.makeHTTPS($gallery_img->url).'" alt="'.$gallery_img->caption.'" />
 					<div class="mag-gallery_images_caption">
 						<button class="mag-gallery_images_caption_view-trigger"><span>View</span> caption</button>
 						<div>
