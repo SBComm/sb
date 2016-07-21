@@ -9,5 +9,5 @@
 }
 
 .large-info-box:after {
-	display: none;
+	font-size: 23px !important;
 }
