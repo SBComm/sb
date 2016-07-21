@@ -2062,7 +2062,7 @@ body {
         margin: 0 auto;
     }
 
-    .large-info-box::after {
+    .large-info-box:after {
         content: "\f059";
         display: inline-block;
         font-family: FontAwesome;

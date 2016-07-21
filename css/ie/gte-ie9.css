@@ -8,3 +8,6 @@
 	width: 88px !important;
 }
 
+.large-info-box:after {
+	display: none;
+}
