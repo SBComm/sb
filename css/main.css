@@ -2086,6 +2086,8 @@ body {
         -ms-transform: rotate(15deg);
         /* Opera */
         -o-transform: rotate(15deg);
+        /* All */
+        transform: rotate(15deg);
     }
 
     .large-info-box > * {
