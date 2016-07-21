@@ -12,7 +12,7 @@
     		//get mag story
     		$story_slug =  $post->slug;
 			$story_url = 'magazine/'.$magazine_this_year.'/'.$story_slug;
-			$story_url_absolute = 'http://www.stonybrook.edu/magazine/'.$magazine_this_year.'/'.$story_slug;
+			$story_url_absolute = '//www.stonybrook.edu/magazine/'.$magazine_this_year.'/'.$story_slug;
 
 			$story_title = $post->title->rendered;
 			$story_grid_title = $post->acf->magazine_grid_title;
@@ -71,10 +71,10 @@
 				$n++;
 				$gallery .= '
 					<a class="item nivo-lightbox mag-gallery_images_thumb" href="#image-'.$n.'" data-lightbox-type="inline" data-caption="true" data-lightbox-gallery="mag-gallery">
-						<img src="'.$gallery_img->url.'" alt="'.$gallery_img->caption.'" />
+						<img src="'.makeHTTPS($gallery_img->url).'" alt="'.$gallery_img->caption.'" />
 					</a>
 					<div id="image-'.$n.'" class="inline-lightbox-content">
-						<img class="mag-gallery_images_image" src="'.$gallery_img->url.'" alt="'.$gallery_img->caption.'" />
+						<img class="mag-gallery_images_image" src="'.makeHTTPS($gallery_img->url).'" alt="'.$gallery_img->caption.'" />
 						<div class="mag-gallery_images_caption">
 							<button class="mag-gallery_images_caption_view-trigger"><span>View</span> caption</button>
 							<div>
@@ -98,7 +98,7 @@
 			$gallery_video_trigger = '';
 			if($youtube_id != '') {
 				$gallery_video = '
-					<a class="clearfix mag-gallery_images-hidden nivo-lightbox gallery-video-lightbox" href="http://www.youtube.com/watch?v='.$youtube_id.'?autoplay=1" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
+					<a class="clearfix mag-gallery_images-hidden nivo-lightbox gallery-video-lightbox" href="https://www.youtube.com/watch?v='.$youtube_id.'?autoplay=1" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
 				';
 				$gallery_video_trigger = '
 					<a class="mag-article_watch-video mag-article_gallery-trigger" href="#"><em class="fa fa-youtube-play"></em> Watch Video</a>
@@ -109,10 +109,10 @@
 			if($gallery_illustration != '') {
 				$gallery_illustration_image = '
 					<a class="item nivo-lightbox mag-gallery_images_thumb gallery-illustration-lightbox" href="#image-'.$n.'" data-lightbox-type="inline" data-caption="true">
-						<img src="'.$gallery_illustration->url.'" alt="'.$gallery_illustration->caption.'" />
+						<img src="'.makeHTTPS($gallery_illustration->url).'" alt="'.$gallery_illustration->caption.'" />
 					</a>
 					<div id="image-'.$n.'" class="inline-lightbox-content">
-						<img class="mag-gallery_images_image" src="'.$gallery_illustration->url.'" alt="'.$gallery_illustration->caption.'" />
+						<img class="mag-gallery_images_image" src="'.makeHTTPS($gallery_illustration->url).'" alt="'.$gallery_illustration->caption.'" />
 						<div class="mag-gallery_images_caption">
 							<button class="mag-gallery_images_caption_view-trigger"><span>View</span> caption</button>
 							<div>
@@ -137,7 +137,7 @@
 
 			$magazine_article_html .= '
 				<header class="mag-article_header">
-					<div class="mag-article_header_bg-img"><img src="'.$story_hero_image_url.'" alt="'.$story_hero_image_alt.'" /></div>
+					<div class="mag-article_header_bg-img"><img src="'.makeHTTPS($story_hero_image_url).'" alt="'.$story_hero_image_alt.'" /></div>
 				</header>
 				<button class="trigger animated pulse" data-info="Read the story"><span>Read Story</span></button>
 				<article class="content">
@@ -169,7 +169,7 @@
 					'.$gallery_video.'
 					'.$gallery_illustration_image.'
 				</div>
-				<div id="meta-override" class="hidden" data-title="'.$story_title.'" data-description="'.$story_excerpt.'" data-url="'.$story_url_absolute.'" data-image="'.$story_hero_image_url.'"></div>
+				<div id="meta-override" class="hidden" data-title="'.$story_title.'" data-description="'.$story_excerpt.'" data-url="'.$story_url_absolute.'" data-image="'.makeHTTPS($story_hero_image_url).'"></div>
 			';
 
 			break; //break loop
