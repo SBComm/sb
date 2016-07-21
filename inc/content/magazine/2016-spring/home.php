@@ -3,7 +3,7 @@
     include($path . $file);
 ?>
 
-<section class="magazine-feature rays-border-left rays-border-right" style="background-image: url('<?php echo($featured_post->img); ?>')">
+<section class="magazine-feature rays-border-left rays-border-right" style="background-image: url('<?php echo(makeHTTPS($featured_post->img)); ?>')">
 	<h2 class="magazine-feature_title"><?php echo($featured_post->title); ?></h2>
 	<p class="magazine-feature_sub"><?php echo($featured_post->sub); ?> <cite class="magazine-feature_author">by <?php echo($featured_post->author); ?></cite></p>
 	<a class="magazine-feature_button brand-button" href="<?php echo($featured_post->url); ?>">Full Story</a>
