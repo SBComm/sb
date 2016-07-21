@@ -75,4 +75,13 @@
         }
         echo('<div class="breadcrumbs"><div class="breadcrumbs__wrapper wrapper">'.$crumbsOut.'</div></div>');
     }
+
+    function makeHTTPS($url) {
+        //return(str_replace('http://','https://',$url));
+        return(str_replace('http://','//',$url));
+    }
+
+    function makeProtocolRelative($url) {
+        return(str_replace('http://','//',$url));
+    }
 ?>
