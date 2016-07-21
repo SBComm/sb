@@ -974,5 +974,5 @@ FileETag None
     RewriteRule ^index.php$ /magazine/2016-spring/ [R=301]
     RewriteRule ^([a-zA-Z0-9\-]+)$ /magazine/2016-spring/$1 [R=301]
 
-    RewriteRule ^2016-spring/([a-zA-Z0-9\-]+)/?$ https://www.stonybrook.edu/2016-spring/article.php?story=$1
+    RewriteRule ^2016-spring/([a-zA-Z0-9\-]+)/?$ https://www.stonybrook.edu/magazine/2016-spring/article.php?story=$1
 </IfModule>
