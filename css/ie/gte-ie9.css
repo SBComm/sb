@@ -7,7 +7,3 @@
 .site-nav .search-container input[type="text"].focus {
 	width: 88px !important;
 }
-
-.large-info-box:after {
-	font-size: 23px !important;
-}

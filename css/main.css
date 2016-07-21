@@ -2061,7 +2061,7 @@ body {
         max-width: 450px;
         margin: 0 auto;
     }
-
+/*
     .large-info-box:after {
         content: "\f059";
         display: inline-block;
@@ -2078,18 +2078,13 @@ body {
         right: 12px;
         line-height: 1;
         z-index: 1;
-        /* Safari */
         -webkit-transform: rotate(15deg);
-        /* Firefox */
         -moz-transform: rotate(15deg);
-        /* IE */
         -ms-transform: rotate(15deg);
-        /* Opera */
         -o-transform: rotate(15deg);
-        /* All */
         transform: rotate(15deg);
     }
-
+*/
     .large-info-box > * {
         z-index: 2;
         position: relative;
