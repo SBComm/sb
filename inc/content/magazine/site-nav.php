@@ -1,8 +1,8 @@
 <div class="mag-head">
 	<div class="mag-head_wrapper clearfix">
 		<header class="mag-header">
-			<a href="http://www.stonybrook.edu" class="mag-header_sbu-logo"><img src="//www.stonybrook.edu/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University logo" /></a>
-			<a href="http://stonybrook.edu/magazine" class="mag-header_mag-logo">MAGAZINE</a>
+			<a href="//www.stonybrook.edu" class="mag-header_sbu-logo"><img src="//www.stonybrook.edu/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University logo" /></a>
+			<a href="//www.stonybrook.edu/magazine" class="mag-header_mag-logo">MAGAZINE</a>
 			<span class="mag-header_issue-info"><span>Issue 01 | Spring/Summer 2016</span></span>
 		</header>
 		<nav class="mag-nav clearfix">
