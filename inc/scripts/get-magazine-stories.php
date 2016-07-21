@@ -189,7 +189,7 @@
 		} else { //youtube
 			$youtube_id = $gallery_img;
 			$main_gallery .= '
-				<a class="clearfix mag-gallery_images-hidden nivo-lightbox gallery-video-lightbox" href="http://www.youtube.com/watch?v='.$youtube_id.'?autoplay=1" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
+				<a class="clearfix mag-gallery_images-hidden nivo-lightbox gallery-video-lightbox" href="https://www.youtube.com/watch?v='.$youtube_id.'?autoplay=1" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0" data-lightbox-gallery="mag-gallery">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
 			';
 		}
 		$t++;
