@@ -64,6 +64,10 @@
                         break;
                     }
                     $thisCrumb = ucwords(str_replace(array(".php","_","-"),array(""," "," "),$crumb));
+                    $hasQuerystring = strpos($thisCrumb, "?") > 0;
+                    if($hasQuerystring) {
+                        $thisCrumb = substr($thisCrumb, 0, strpos($thisCrumb, "?"));
+                    }
                     $crumbsOut .= "<a class='breadcrumbs__crumb' href='{$crumbLink}' title='Breadcrumb link: {$thisCrumb}'>{$thisCrumb}</a>";
                     //echo $thisCrumb.'<br />';
                     //echo $crumb.'<br />';
