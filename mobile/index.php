@@ -64,66 +64,67 @@
 			</header>
 			<div class="content clearfix">
 				<div class="grid">
-					<a href="http://m.stonybrook.edu/emergency/" class="figure-link effect-sadie">
+					<a href="https://it.stonybrook.edu/help/kb/blackboard-mobile" class="figure-link effect-sadie">
 						<img src="img/landing/cancer/cancer-1.jpg" alt="Smoke stacks"/>
 						<figcaption>
-							<h2>Campus Alerts</h2>
+							<h2>Blackboard Mobile App</h2>
 						</figcaption>			
 					</a>
-					<a href="http://www.stonybrook.edu/safety" class="figure-link effect-sadie">
+					<a href="https://it.stonybrook.edu/services/hbo-go" class="figure-link effect-sadie">
 						<img src="//www.stonybrook.edu/img/wide-landing/sb-frey-800x245.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Campus Safety</h2>
+							<h2>HBO GO</h2>
 						</figcaption>			
 					</a>
-					<a href="http://stonybrook.edu/calendar" class="figure-link effect-sadie">
+					<a href="https://it.stonybrook.edu/help/kb/signing-in-to-the-lyndacom-mobile-app" class="figure-link effect-sadie">
 						<img src="img/landing/leakey/leakey-1.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Events</h2>
+							<h2>Lynda</h2>
 						</figcaption>			
 					</a>
-					<a href="http://m.stonybrook.edu/map/" class="figure-link effect-sadie">
+					<a href="https://services.jsatech.com/index.php?skey=d4fdcba9dc867a3d85424df8f910da1a&cid=129" class="figure-link effect-sadie">
 						<img src="img/landing/campaign/campaign-1.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Maps</h2>
+							<h2>Campus Card</h2>
 						</figcaption>			
 					</a>
-					<a href="http://www.stonybrook.edu/transportation/campusbus/" class="figure-link effect-sadie">
+					<a href="https://it.stonybrook.edu/services/sbu-311-app" class="figure-link effect-sadie">
 						<img src="img/landing/baby/baby-2.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Bus Schedules</h2>
+							<h2>SBU 311</h2>
 						</figcaption>			
 					</a>
-					<a href="https://blackboard.stonybrook.edu/" class="figure-link effect-sadie">
+					<a href="http://smarttransit.cewit.stonybrook.edu/" class="figure-link effect-sadie">
 						<img src="img/landing/masculinity/masculinity-3.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Blackboard</h2>
+							<h2>SBU Transit</h2>
 						</figcaption>			
 					</a>
-					<a href="https://psns.cc.stonybrook.edu/psp/he90prods/?cmd=login&amp;languageCd=ENG" class="figure-link effect-sadie">
+					<a href="https://it.stonybrook.edu/services/solar/solar-mobile" class="figure-link effect-sadie">
 						<img src="img/landing/sleep/sleep-3.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Solar</h2>
+							<h2>SOLAR Mobile</h2>
 						</figcaption>			
 					</a>
-					<a href="http://www.stonybrook.edu/admissions/" class="figure-link effect-sadie">
+					<a href="https://voicethread.com/mobile/" class="figure-link effect-sadie">
 						<img src="img/landing/computer-science/computer-science-1.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Admissions</h2>
+							<h2>VoiceThread</h2>
 						</figcaption>			
 					</a>
-					<a href="http://www.goseawolves.org/m/" class="figure-link effect-sadie">
+					<a href="http://www.stonybrook.edu/commcms/emergency/alerts/guardian.html" class="figure-link effect-sadie">
 						<img src="img/landing/he-for-she/he-for-she-1.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Athletics</h2>
+							<h2>Guardian</h2>
 						</figcaption>			
 					</a>
 					<a href="http://stonybrook.edu/happenings/" class="figure-link effect-sadie">
 						<img src="img/stock/16.jpg" alt="img05"/>
 						<figcaption>
-							<h2>Happenings</h2>
+							<h2>The Buzz (Coming Soon)</h2>
 						</figcaption>			
 					</a>
+					<!--
 					<a href="http://stonybrook.edu/newsroom/" class="figure-link effect-sadie">
 						<img src="img/stock/13.jpg" alt="img05"/>
 						<figcaption>
@@ -190,6 +191,7 @@
 							<h2>Bulletin</h2>
 						</figcaption>
 					</a>
+					-->
 				</div>
 			</div>
 			<div class="copyright-line">
