@@ -1,5 +1,6 @@
 <section class="hero-sb animated-preload_background clearfix">
-	<img class="align-image-top" src="img/home-apr15/louis-susca-parkinsons.jpg" alt="Neurobiology student Louis Susca dances with Parkinson's patients" />    
+	<img class="align-image-top hero-sb--desktop" src="img/home-apr15/louis-susca-parkinsons.jpg" alt="Neurobiology student Louis Susca dances with Parkinson's patients" />
+	<img class="align-image-top hero-sb--mobile" src="img/home-apr15/louis-susca-parkinsons-mobile.jpg" alt="Neurobiology student Louis Susca dances with Parkinson's patients" />
 	<div class="hero-sb_text" >
 		<div>
 			<h1 class="clearfix">Beyond <br />the <br />Classroom</h1>
