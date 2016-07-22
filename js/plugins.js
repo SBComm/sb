@@ -86,6 +86,10 @@ function RegexTest(value, type) {
   }
 };
 
+function makeHTTPS(url) {
+  return(url.replace('http://','https://'));
+}
+
 /* drop-accordion */
 var initializeAccordion = function() {
   var accordionContent;
@@ -158,8 +162,8 @@ function makeFlickrGallery(setId) {
       var img_thumb_src = src_start + "_q.jpg";
       var img_large_src = src_start + "_b.jpg";
 
-      var img_html = '<a class="item nivo-lightbox" href="'+ img_large_src +'" data-lightbox-gallery="event-gallery">';
-      img_html += '<img src="' + img_thumb_src + '" />';
+      var img_html = '<a class="item nivo-lightbox" href="'+ makeHTTPS(img_large_src) +'" data-lightbox-gallery="event-gallery">';
+      img_html += '<img src="' + makeHTTPS(img_thumb_src) + '" />';
       img_html += '</a>';
 
       $(img_html).appendTo("#the-carousel");
