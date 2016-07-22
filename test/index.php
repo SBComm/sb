@@ -92,7 +92,7 @@
 		                <!-- <economic-development> -->
 							<?php 
 								$file = "main-content-styles-playground.php";
-								include($pathForContent . $content . $test . $file);
+								echo($pathForContent . $content . $test . $file);
 							?>
 						<!-- </economic-development> -->
 
