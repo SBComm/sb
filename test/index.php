@@ -91,7 +91,6 @@
 
 		                <!-- <economic-development> -->
 							<?php 
-								opcache_get_configuration();
 								$file = "main-content-styles-playground.php";
 								include($pathForContent . $content . $test . $file);
 							?>
