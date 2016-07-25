@@ -1,11 +1,12 @@
 <section class="hero-sb animated-preload_background clearfix">
-	<img class="align-image-top" src="img/home-apr15/maeve-1.jpg" alt="World-renowned paleoanthropologist Meave Leakey in the field at Turkana Basin Institute" />    
+	<img class="align-image-top hero-sb--desktop" src="img/home-apr15/louis-susca-parkinsons.jpg" alt="Neurobiology student Louis Susca dances with Parkinson's patients" />
+	<img class="align-image-top hero-sb--mobile" src="img/home-apr15/louis-susca-parkinsons-mobile.jpg" alt="Neurobiology student Louis Susca dances with Parkinson's patients" />
 	<div class="hero-sb_text" >
 		<div>
-			<h1 class="clearfix">Exploring <br />Human <br />Origins</h1>
-			<p class="clearfix">Hubbard Medal honors world-renowned paleoanthropologist Meave Leakey</p> 
-			<!--<a class="clearfix video-link nivo-lightbox gtm_watch-the-video-link-click" href="http://www.youtube.com/watch?v=v81rG43NfM8" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>-->
-			<a class="clearfix video-link gtm_read-the-story-button-click" href="http://www.stonybrook.edu/happenings/facultystaff/meave-leakey-awarded-hubbard-medal-national-geographic-societys-highest-honor">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
+			<h1 class="clearfix">Beyond <br />the <br />Classroom</h1>
+			<p class="clearfix">Neurobiology student Louis Susca dances with Parkinson's patients</p> 
+			<a class="clearfix video-link nivo-lightbox gtm_watch-the-video-link-click" href="http://www.youtube.com/watch?v=k1r9xPfwbpI" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
+			<a class="clearfix video-link gtm_read-the-story-button-click" href="http://www.stonybrook.edu/happenings/research/dance-as-therapy/">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
 		</div>  
 	</div>
 </section>

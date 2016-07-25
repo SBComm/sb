@@ -70,6 +70,14 @@ h2, .changingWorld h3,
     width: auto;;
     max-width: 1000px;;
     margin: 0 0 0 -60px;; }
+  .hero-sb img.hero-sb--desktop {
+    display: none;
+  }
+  .hero-sb img.hero-sb--mobile {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
   .hero-sb .hero-sb_text {
     position: absolute;
     top: 0;
@@ -136,7 +144,14 @@ h2, .changingWorld h3,
           font-size: 60px;
           line-height: .78em; }
         .hero-sb .hero-sb_text p {
-          font-size: 1.25rem; } }
+          font-size: 1.25rem; }
+      .hero-sb img.hero-sb--desktop {
+        display: block;
+      }
+      .hero-sb img.hero-sb--mobile {
+        display: none;
+      }
+    }
     @media (min-width: 801px) {
       .hero-sb .hero-sb_text {
         padding-top: 3rem; }
