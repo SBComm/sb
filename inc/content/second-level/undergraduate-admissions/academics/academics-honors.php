@@ -35,6 +35,7 @@
                 <a class="wise-scholars" href="#wise-scholars"><div class="label">Women in Science and Engineering (WISE)</div></a>
                 <a class="medicine-scholars" href="#medicine-scholars"><div class="label">Scholars for Medicine</div></a>
                 <a class="dental-scholars" href="#dental-scholars"><div class="label">Scholars for Dental Medicine</div></a>
+                <a class="nursing-scholars" href="#nursing-scholars"><div class="label">School of Nursing Scholars</div></a>
                 <a class="computer-science-scholars" href="#computer-science-scholars"><div class="label">Computer Science Honors</div></a>
                 <a class="majors-honors" href="#majors-honors" target="_blank"><div class="label">Majors with Honors Components</div></a>
             </div>
@@ -84,7 +85,7 @@
         <div class="border-box wrapper clearfix">
             <h4>Women in Science and Engineering (WISE)</h4>
             <div class="content col-2">
-                <p>WISE is a unique program designed to encourage talented women interested in math, science or engineering. If you are considering a career in physical sciences, life sciences, computer science, information technology, math, medicine, engineering or a similar field, you will benefit from WISE’s special enrichment courses, extracurricular activities and interaction with other like-minded women.<p>
+                <p>WISE is a unique program designed to encourage talented women interested in math, science or engineering. If you are considering a career in physical sciences, life sciences, computer science, information technology, math, medicine, engineering or a similar field, you will benefit from WISE’s special enrichment courses, extracurricular activities and interaction with other like-minded women.</p>
                 <p>As a WISE scholar, you will pursue a regular academic program, with the addition of courses developed especially for WISE that give you firsthand experience in a variety of disciplines.</p>
                 <p>The curriculum consists of special courses designed to introduce students to the diversity and multiple opportunities within science and engineering in very personalized ways. Highlights of the program include research opportunities in first year, personalized academic advising, advanced priority registration, special residence hall, professional development and small study groups with advanced undergraduate mentors.</p>
                 <p>The beauty of WISE is that it combines the vast resources of a major university with the close bonds and support of a small community of like-minded students and faculty. Fifty-five to 60 students are enrolled in WISE each year.</p>
@@ -153,10 +154,27 @@
                         </ul>
                         <p>Scholars for Dental Medicine program applicants are notified in March whether they have been recommended for review by the School of Dental Medicine Admissions Committee.  If recommended for review, applicants are then notified, usually within two weeks, if they will be offered an interview. Final decisions are typically made prior to April 1.</p>
                         <p>Minimum Requirements for Consideration: GPA of 95 (or 3.8), and a combined SAT Math and Critical Reading score of 1350 or higher (the ACT will not be used as a substitute for the SAT). Candidates must also have documentation of U.S. citizenship or permanent residency in the United States.</p>
-                        <p><em>Note: Student may ONLY apply for one of the following: Scholars for Medicine, Engineering Scholars for Medicine, or Scholars for Dental Medicine.</p></em>
+                        <p><em>Note: Student may ONLY apply for one of the following: Scholars for Medicine, Engineering Scholars for Medicine, or Scholars for Dental Medicine.</em></p>
                         <p><a href="undergraduate-admissions/academics/honors/apply" class="fa-arrow-after">How To Apply</a></p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nursing-scholars" class="clearfix cl cl-nursing-scholars inside-content white-background">
+        <div class="border-box wrapper clearfix">
+            <h4>School of Nursing Scholars Program</h4>
+            <div class="content col-2">
+                <p>The School of Nursing Scholars Program offers a select number of students early assurance of a seat in the nursing program upon successful completion of core requirements and foundation courses. During freshman and sophomore year, Nursing Scholars will participate in lower division nursing seminars and School of Nursing activities, and will develop relationships with faculty mentors and advisors.</p>
+                <p>Admission to the program is highly competitive, and based on a variety of factors including high school academic record, standardized test scores, strength of curriculum, honors and awards, leadership skills, extracurricular achievements, and unique individual talents.</p>
+                <p>Stony Brook nursing students enjoy all the advantages of being a part of an Academic Medical Center. Clinical experiences are highlighted at Stony Brook University Medical Center which is a dynamic 560 bed tertiary care hospital that is the only level one trauma center in the area. All of the students from the University’s Health Sciences Center, Medicine, Dentistry, Social Welfare and Health Management and Technology, interact closely playing a major role in shaping your future as a practitioner. These learning partnerships are what give Stony Brook Nurses the competitive edge upon graduation.</p>
+                <h5>How to Apply</h5>
+                <p>To apply to the School of Nursing Scholars Program, complete the Common Application and select "Pre-Nursing" as your intended major to be considered.</p>
+                <p><a href="undergraduate-admissions/academics/honors/apply" class="fa-arrow-after">Apply</a></p>
+            </div>
+            <div class="content col-2">
+                <img class="promo-img" src="img/student-life/ruchi.jpg" />
             </div>
         </div>
     </section>
@@ -167,7 +185,7 @@
                 <div class="black-box clearfix">
                     <h4>Computer Science Honors</h4>
                     <div class="content">
-                         <img class="clearfix" src="img/student-life/computer-science-honors-inset.jpg" />
+                        <img class="clearfix" src="img/student-life/computer-science-honors-inset.jpg" />
                         <p>Stony Brook’s Computer Science Honors Program is designed to enhance the undergraduate experience for highly motivated and talented students like you. Students in the program attend some special, limited-enrollment classes, receive personalized academic advising sessions, get priority registration for computer science courses, enjoy a sense of community and fun social events with other honors students and faculty, and take advanced special topics courses.</p>
                         <p><strong>Admission</strong>: All high-achieving freshman applicants to the Computer Science major are automatically considered for the program.</p>
                         <p><a class="external-link" href="https://www.cs.stonybrook.edu/admissions/undergrad-honors-program">More Information</a></p>

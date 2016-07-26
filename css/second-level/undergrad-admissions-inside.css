@@ -1312,6 +1312,12 @@ section.campus-life-header {
     background-size: cover;
 }
 
+.rounded-image-buttons .nursing-scholars {
+    background-image: url("../../img/buttons/admissions-campus-life/nursing-scholars.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
 section.cl {
     padding: 40px 0;
 }
@@ -1932,7 +1938,7 @@ section.cl-majors-honors {
     }
 
     .rounded-image-buttons .dental-scholars {
-        margin-left: 14%;
+        /* margin-left: 14%; */
     }
 
 }
