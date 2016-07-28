@@ -112,7 +112,7 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "undergraduate-admissions/academics/academics-honors.php";
-								include($pathForContent . $content . $secLv . $file);
+								echo($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 
