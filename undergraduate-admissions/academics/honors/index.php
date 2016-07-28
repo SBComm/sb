@@ -46,6 +46,10 @@
     		$social_sidebar   = 'admissions';
 
     		$inside_page = true;
+
+    		if($is_production_environment) {
+	            $content = "content_ou/";
+	        }
 		?>
 
 	<!-- <site config> -->
