@@ -112,7 +112,12 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "undergraduate-admissions/academics/academics-honors.php";
-								echo($pathForContent . $content . $secLv . $file);
+								
+
+    		if($is_production_environment) {
+	            $content = "content_ou/";
+	        }
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
 
