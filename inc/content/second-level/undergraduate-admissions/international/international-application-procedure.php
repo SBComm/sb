@@ -24,8 +24,11 @@
     <section class="clearfix inside-content main-inside-content white-background">
         <div class="border-box wrapper clearfix">
             <h3>How to Apply as an International Applicant</h3>
+            <div class="content application-details alert-message green clearfix">
+                <p>Applications are now available for the spring and fall 2017 semesters</p>
+            </div>
             <!--<div class="content application-details alert-message green clearfix">
-                <p>Applications are being accepted for the fall 2016 semester.</p>
+                <p>Applications are no longer being accepted for the fall 2016 semester. Spring and fall 2017 applications will be available in August.</p>
             </div>-->
             <div class="content application-details alert-message red clearfix">
                 <p>Applications are no longer being accepted for the fall 2016 semester. Spring and fall 2017 applications will be available in August.</p>

@@ -30,9 +30,12 @@
             <!--<div class="content application-details alert-message green clearfix">
                 <p><strong>Message for Dowling College Students:</strong> Stony Brook is still accepting transfer applications for the fall semester. Students are encouraged to speak with an admissions counselor about our application requirements and transfer options. Please call (631) 632-6868 or e-mail <a class="email-link" href="mailto:enroll@stonybrook.edu">enroll@stonybrook.edu</a>. Please also examine our <a href="http://www.stonybrook.edu/undergraduate-admissions/academics/">academic programs of study</a> and <a href="http://www.stonybrook.edu/commcms/advising/_transferinfo/course_eqiv.html">course equivalencies database</a>.</p>
             </div>-->
-            <div class="content application-details alert-message red clearfix">
-                <p>Applications are no longer being accepted for the fall 2016 semester. Spring and fall 2017 applications will be available in August.</p>
+            <div class="content application-details alert-message green clearfix">
+                <p>Applications are now available for the spring and fall 2017 semesters</p>
             </div>
+            <!--<div class="content application-details alert-message green clearfix">
+                <p>Applications are no longer being accepted for the fall 2016 semester. Spring and fall 2017 applications will be available in August.</p>
+            </div>-->
             <div class="content application-details clearfix">
                 <div class="inner-wrapper">
                     <p>To apply to Stony Brook University as a transfer student, please follow these application procedures. Before submitting an application, be sure to review our list of <a href="undergraduate-admissions/academics/">academic offerings</a>. Students applying for admission to Health Sciences programs must follow <a href="undergraduate-admissions/apply/hsc-admission-criteria/">special application procedures</a>.</p>
