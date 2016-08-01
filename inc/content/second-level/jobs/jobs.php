@@ -80,6 +80,7 @@
                 <ul class="star-bullets clearfix">
                     <li><a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a></li>
                     <li><a href="jobs/how-to-apply">How to Apply Online</a></li>
+                    <li><a href="http://www.stonybrook.edu/commcms/fsa/employment/">FSA Jobs</a></li>
                 </ul>
             </div>
         </div>
