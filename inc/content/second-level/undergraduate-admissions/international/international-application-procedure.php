@@ -30,9 +30,9 @@
             <!--<div class="content application-details alert-message green clearfix">
                 <p>Applications are no longer being accepted for the fall 2016 semester. Spring and fall 2017 applications will be available in August.</p>
             </div>-->
-            <div class="content application-details alert-message red clearfix">
+            <!--<div class="content application-details alert-message red clearfix">
                 <p>Applications are no longer being accepted for the fall 2016 semester. Spring and fall 2017 applications will be available in August.</p>
-            </div>
+            </div>-->
              <div class="content application-details clearfix">
                 <div class="inner-wrapper">
                     <p>Follow these steps to apply as an International Applicant:</p>
