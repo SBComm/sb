@@ -31,7 +31,7 @@
                     <ul class="default-bullets clearfix step-bullets">
                         <li>Apply for honors programs within Stony Brook's <strong>Member Questions</strong> section of <a class="external-link" href="https://apply.commonapp.org/Login?ma=346" target="_blank">The Common Application</a></li>
                         <li>Submit an essay on any of The Common Application's accepted topics in the <strong>Writing</strong> section (up to 650 words)</li>
-                        <li>Scholars for Medicine, Scholars for Dental Medicine and Engineering Scholars for Medicine applicants are required to submit an additional essay within our Common Application <strong>Writing Supplement</strong> on the topic: "What aspects about medicine (or dental medicine) intrigue you? Describe how these aspects influence your life" (up to 650 words)</li>
+                        <li>Scholars for Medicine and Scholars for Dental Medicine applicants are required to submit an additional essay within our Common Application <strong>Writing Supplement</strong> on the topic: "What aspects about medicine (or dental medicine) intrigue you? Describe how these aspects influence your life" (up to 650 words)</li>
                     </ul>
                 </div>
             </div>
