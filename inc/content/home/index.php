@@ -1,12 +1,12 @@
 <section class="hero-sb animated-preload_background clearfix">
-	<img class="align-image-top hero-sb--desktop" src="img/home-apr15/louis-susca-parkinsons.jpg" alt="Neurobiology student Louis Susca dances with Parkinson's patients" />
-	<img class="align-image-top hero-sb--mobile" src="img/home-apr15/louis-susca-parkinsons-mobile.jpg" alt="Neurobiology student Louis Susca dances with Parkinson's patients" />
+	<img class="align-image-top hero-sb--desktop" src="img/home-apr15/social-mobility.jpg" alt="Stony Brook programs promote social and economic mobility" />
+	<img class="align-image-top hero-sb--mobile" src="img/home-apr15/social-mobility-mobile.jpg" alt="Stony Brook programs promote social and economic mobility" />
 	<div class="hero-sb_text" >
 		<div>
-			<h1 class="clearfix">Beyond <br />the <br />Classroom</h1>
-			<p class="clearfix">Neurobiology student Louis Susca dances with Parkinson's patients</p> 
-			<a class="clearfix video-link nivo-lightbox gtm_watch-the-video-link-click" href="http://www.youtube.com/watch?v=k1r9xPfwbpI" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
-			<a class="clearfix video-link gtm_read-the-story-button-click" href="http://www.stonybrook.edu/happenings/research/dance-as-therapy/">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
+			<h1 class="clearfix">Making a <br />Difference</h1>
+			<p class="clearfix">Stony Brook programs promote social and economic mobility</p> 
+			<a class="clearfix video-link nivo-lightbox gtm_watch-the-video-link-click" href="http://www.youtube.com/watch?v=AtBlFa6ki-E" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
+			<a class="clearfix video-link gtm_read-the-story-button-click" href="http://www.stonybrook.edu/happenings/student-spotlight/at-stony-brook-promoting-social-and-economic-mobility-happens-everywhere/">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
 		</div>  
 	</div>
 </section>
