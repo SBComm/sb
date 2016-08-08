@@ -133,12 +133,17 @@
                         <span class="key-icons--icon key-icons--icon_purple">C<span class="hide-accessible">enter / Institute</span></span>
                     </li>
                     <li>
-                        <a href="http://www.stonybrook.edu/provostliasn/bookstore/">Bookstore (University, West Campus)</a>
+                        <a href="http://www.stonybrook.edu/bookstore/">Bookstore: University, West Campus</a>
                         <span class="key-icons--icon key-icons--icon_red">R<span class="hide-accessible">esource</span></span>
                         <span class="key-icons--icon key-icons--icon_yellow">A<span class="hide-accessible">pparel / Store</span></span>
                     </li>
                     <li>
-                        <a href="http://www.webmedbooks.com/suny/default2.aspx">Bookstore (Health Sciences Center)</a>
+                        <a href="http://www.sunysb.bncollege.com/">Bookstore: Shop Red</a>
+                        <span class="key-icons--icon key-icons--icon_red">R<span class="hide-accessible">esource</span></span>
+                        <span class="key-icons--icon key-icons--icon_yellow">A<span class="hide-accessible">pparel / Store</span></span>
+                    </li>
+                    <li>
+                        <a href="http://www.webmedbooks.com/suny/default2.aspx">Bookstore: Health Sciences Center</a>
                         <span class="key-icons--icon key-icons--icon_red">R<span class="hide-accessible">esource</span></span>
                         <span class="key-icons--icon key-icons--icon_yellow">A<span class="hide-accessible">pparel / Store</span></span>
                     </li>
@@ -326,6 +331,8 @@
                         <a href="http://pbisotopes.ess.sunysb.edu/Earth_Science_Education/">Earth Science Education Program</a>
                         <span class="key-icons--icon key-icons--icon_green">P<span class="hide-accessible">rogram</span></span>
                     </li>
+                </ul>
+                <ul class="three-col-list" data-search-id="course-list">
                     <li>
                         <a href="http://life.bio.sunysb.edu/ee/">Ecology and Evolution</a>
                         <span class="key-icons--icon key-icons--icon_green">P<span class="hide-accessible">rogram</span></span>
@@ -334,8 +341,6 @@
                         <a href="http://www.sunysb.edu/economics/">Economics</a> 
                         <span class="key-icons--icon key-icons--icon_green">P<span class="hide-accessible">rogram</span></span>
                     </li>
-                </ul>
-                <ul class="three-col-list" data-search-id="course-list">
                     <li>
                         <a href="http://it.stonybrook.edu/services/audio-visual-services">Education Technologies (A/V)</a>
                         <span class="key-icons--icon key-icons--icon_red">R<span class="hide-accessible">esource</span></span>
@@ -630,12 +635,12 @@
                         <a href="http://clio.rad.sunysb.edu/mil">Medical Imaging Laboratories</a>
                         <span class="key-icons--icon key-icons--icon_blue">B<span class="hide-accessible">uilding</span></span>
                     </li>
+                </ul>
+                <ul class="three-col-list" data-search-id="course-list">
                     <li>
                         <a href="http://www.pharm.sunysb.edu/mstp/index.html">Medical Scientist Training Program</a>
                         <span class="key-icons--icon key-icons--icon_green">P<span class="hide-accessible">rogram</span></span>
                     </li>
-                </ul>
-                <ul class="three-col-list" data-search-id="course-list">
                     <li>
                         <a href="http://medicine.stonybrookmedicine.edu/mediaservices">Media Services (East Campus)</a>
                         <span class="key-icons--icon key-icons--icon_red">R<span class="hide-accessible">esource</span></span>
@@ -945,8 +950,8 @@
             <div class="content padding-box red-border clearfix margin-top margin-bottom">
                 <h4>Still can't find what you're looking for?</h4>
                 <p>That's okay. We'll get you there.</p>
-                <p><a href="search/" class="brand-button arrow-after" target="_blank">Search the website</a></p>
-                <p><a href="search/people/" class="brand-button arrow-after" target="_blank">Search people</a></p>
+                <p><a href="search/" class="brand-button arrow-after">Search the website</a></p>
+                <p><a href="search/people/" class="brand-button arrow-after">Search people</a></p>
             </div>
         </div>
     </section>
