@@ -3702,7 +3702,7 @@ body {
     .sbu-outline-button--red--transform {
         display: inline-block;
         font-family: "Effra W01", "Arial", sans-serif;
-        font-weight: 700;
+        font-weight: 500;
         text-transform: uppercase;
         color: #fff;
         font-size: 1.25em;
