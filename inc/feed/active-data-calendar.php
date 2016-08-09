@@ -17,8 +17,8 @@
     if (!isset($callback))
         $callback = "";
 
-    if (!isset($calendar_button_color))
-        $calendar_button_color = "aqua";
+    if (!isset($calendar_title_color))
+        $calendar_title_color = "aqua";
     
     $rssFeed = simplexml_load_file($rss);
 
@@ -92,7 +92,7 @@
                 $html .= '<span class="event-date">'.$eventDay.'</span>';
                 $html .= '</a>';
                 $html .= '<a class="event-details" href="'.$rss_url.'" title="'.$rss_title.'" target="_blank">';
-                $html .= '<span class="event-title '.$calendar_button_color.'">'.$rss_title.'</span>';
+                $html .= '<span class="event-title '.$calendar_title_color.'">'.$rss_title.'</span>';
                 //$html .= '<span class="event-time">'.$eventWeekday.', '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
                 $html .= '<span class="event-desc">'.$rss_output_desc.'</span>';
                 $html .= '</a>';
