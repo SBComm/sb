@@ -17,7 +17,7 @@
     if (!isset($callback))
         $callback = "";
 
-    if (!isset($calendar_title_color))
+    if ($calendar_title_color=="")
         $calendar_title_color = "aqua";
     
     $rssFeed = simplexml_load_file($rss);
