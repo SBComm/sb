@@ -47,11 +47,11 @@ section.cards-wrapper {
 }
 
 .box-3 h3 {
-	font-family: 'Trade Gothic W01 Light';
+	font-family: 'Effra W01','Trade Gothic W01 Light','Arial',sans-serif;
+	font-weight: 500;
 	color: #fff;
 	font-size: 1.2em;
 	margin: 0 0 20px 5px;
-	text-transform: uppercase;
 	border-bottom: 1px solid #fff;
 	text-indent: -5px;
 	width: auto;
@@ -73,6 +73,8 @@ section.cards-wrapper {
 
 .red-background .star-bullets li a {
 	color: #ddd;
+	font-family: 'Museo Slab W01','Trade Gothic W01 Light','Arial',sans-serif;
+	font-weight: 300;
 }
 
 .red-background .star-bullets li a:hover {
@@ -187,7 +189,7 @@ section.diversity-wrapper {
 		width: 31.333%;
 		float: left;
 	    margin: 60px 1%;
-	    padding: 20px 30px;
+	    padding: 23px 30px;
 	}
 }
 

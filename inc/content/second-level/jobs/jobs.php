@@ -60,27 +60,28 @@
     <section class="red-background boxes-wrapper clearfix">
         <div class="wrapper border-box clearfix external-link-hover-wrapper">
             <div class="box-3 equal-height-col">
-                <h3 class="clearfix"><span>For</span> Students</h3>
+                <h3 class="clearfix">Student Employment</h3>
                 <ul class="star-bullets clearfix">
-                    <li><a href="http://career.stonybrook.edu/" target="_blank">Career Counseling</a></li>
                     <li><a href="http://career.stonybrook.edu/students/connect/internship-coop-services" target="_blank">Internships</a></li>
                     <li><a href="http://www.stonybrook.edu/ureca/" target="_blank">Undergraduate Research</a></li>
                     <li><a href="http://www.stonybrook.edu/commcms/finaid/typesofaid/fws.html" target="_blank">Work Study Programs</a></li>
-                </ul>
-            </div>
-            <div class="box-3 equal-height-col">
-                <h3 class="clearfix"><span>For</span> Employers</h3>
-                <ul class="star-bullets clearfix">
                     <li><a href="http://career.stonybrook.edu/employers/hiring-sb-students/on-campus-recruiting" target="_blank">On-Campus Student Recruitment</a></li>
                     <li><a href="http://career.stonybrook.edu/employers/hiring-sb-students/post-a-job-or-internship" target="_blank">Post Jobs for Students</a></li>
                 </ul>
             </div>
             <div class="box-3 equal-height-col">
-                <h3 class="clearfix"><span>General</span> Info</h3>
+                <h3 class="clearfix">Faculty Student Association Jobs</h3>
                 <ul class="star-bullets clearfix">
+                    <li><a href="http://www.stonybrook.edu/commcms/fsa/employment/ssr/">Student Staffing Resources</a></li>
+                    <li><a href="http://www.stonybrook.edu/commcms/fsa/employment/professional/">Non-Student / Professional Employment</a></li>
+                </ul>
+            </div>
+            <div class="box-3 equal-height-col">
+                <h3 class="clearfix">General Info</h3>
+                <ul class="star-bullets clearfix">
+                    <li><a href="http://career.stonybrook.edu/" target="_blank">Career Counseling</a></li>
                     <li><a href="http://www.stonybrook.edu/sb/directions.shtml" target="_blank">Directions</a></li>
                     <li><a href="jobs/how-to-apply">How to Apply Online</a></li>
-                    <li><a href="http://www.stonybrook.edu/commcms/fsa/employment/">FSA Jobs</a></li>
                 </ul>
             </div>
         </div>
