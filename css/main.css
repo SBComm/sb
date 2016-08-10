@@ -3757,6 +3757,18 @@ body {
         padding: 9px 10px 9px 13px;
     }
 
+    a.sbu-outline-button--black {
+        color: #fff !important;
+        border-color: #fff !important;
+        background: #000 !important;
+    }
+
+    a.sbu-outline-button--black--hover-transparent:hover {
+        color: #fff !important;
+        border-color: #fff !important;
+        background: transparent !important;
+    }
+
     /* simple button, as on /alumni/chapters/school-of-medicine/ */
 
     .simple-button,
