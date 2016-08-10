@@ -3769,6 +3769,12 @@ body {
         background: transparent !important;
     }
 
+    a.sbu-outline-button--black--hover-white:hover {
+        color: #000 !important;
+        border-color: #000 !important;
+        background: #fff !important;
+    }
+
     /* simple button, as on /alumni/chapters/school-of-medicine/ */
 
     .simple-button,
