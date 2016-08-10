@@ -3696,6 +3696,10 @@ body {
         display: block;
     }
 
+    .cool-cats {
+        display: block;
+    }
+
     /* outline button */
 
     a.sbu-outline-button,
