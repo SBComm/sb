@@ -1044,7 +1044,7 @@ FileETag None
 # | Stony Brook Magazine                                               |
 # ----------------------------------------------------------------------
 <IfModule mod_rewrite.c>
-    RewriteEngine On
+    #RewriteEngine On
     #rewrite current mag year
     #RewriteRule ^magazine/?$ magazine/2016-spring/ [R=301]
     #RewriteRule ^magazine/index.php$ magazine/2016-spring/index.php
