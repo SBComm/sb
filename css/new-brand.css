@@ -4,6 +4,10 @@
 
 /* Defaults */
 
+.test {
+    line-height: normal;
+}
+
 h1 {
     font-family: "Effra W01", Helvetica, sans-serif;
     font-weight: 700;
