@@ -2730,7 +2730,7 @@ body {
                 display: block;
                 width: 100%;
                 text-align: center;
-                font-size: .9em;
+                font-size: .9rem;
                 line-height: 1;
                 margin: 0;
                 padding: 0;
@@ -2742,7 +2742,7 @@ body {
                 width: 100%;
                 text-align: center;
                 font-family: 'CenturyExpandedLTW01-Ro';
-                font-size: 2.1em;
+                font-size: 2.1rem;
                 line-height: 1;
                 margin: 0;
                 padding: 0;
@@ -2756,7 +2756,7 @@ body {
         }
 
         .activities-and-calendar .event-title {
-            font-size: 1.2em;
+            font-size: 1.2rem;
             width: 100%;
             display: block;
         }
@@ -2773,13 +2773,13 @@ body {
             display: block;
             width: 100%;
             margin: 2px 0;
-            font-size: .8em;
+            font-size: .8rem;
             font-family: 'Trade Gothic W01 Bold 2';
         }
 
         .activities-and-calendar .event-desc {
-            font-size: .9em;
-            line-height: .7em;
+            font-size: .9rem;
+            line-height: .7rem;
         }
 
         .activities-and-calendar .calendar-items .more-link a {
@@ -3693,10 +3693,6 @@ body {
         width: 170px;
         text-align: center;
         margin: 0 auto;
-        display: block;
-    }
-
-    .cool-cats-3 {
         display: block;
     }
 
