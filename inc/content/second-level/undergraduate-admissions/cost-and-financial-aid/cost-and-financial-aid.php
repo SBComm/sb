@@ -35,9 +35,9 @@
                     <li>Stony Brook has been named to Kiplinger's list of <strong>35 Best Values</strong> in public colleges and universities.</li>
                     <li><em>U.S. News &amp; World Report</em> has ranked SB among the <strong>top 100 universities</strong> and top 40 public universities.</li>
                 </ul>
-                <p>Nearly 90% of our recent graduates are either employed or continuing their education.</p>
+                <p>Nearly 95% of our recent graduates are either employed or continuing their education.</p>
                 <p>Stony Brook’s affordable tuition means less future debt and real savings that can help you pay for your graduate studies or any number of life passages yet to come.</p>
-                <p class="sub-text"><em>* Stony Brook’s global ranking by U.S. News &amp; World Report places us in the 1% of institutions worldwide.</em></p>
+                <p class="sub-text"><em>* Among the top 1 percent of higher education institutions in the world (Center for World University Rankings).</em></p>
             </div>
 
             <div class="content col-2">
