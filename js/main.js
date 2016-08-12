@@ -162,15 +162,6 @@ function initializeFlexList(eventType) {
 	}
 }
 
-function doBreadcrumbs() {
-	var crumbContainerWidth = 0;
-	$('.breadcrumbs__crumb').each(function() {
-		crumbContainerWidth += $(this).outerWidth();
-	});
-	crumbContainerWidth = crumbContainerWidth + 5; //pad it for rounding
-	$('.breadcrumbs__wrapper').width(crumbContainerWidth);
-}
-
 $(window).load(function(){
 	initializeFlexList('load');
 	$(".sticky").sticky({ topSpacing: 0 });
@@ -179,6 +170,15 @@ $(window).load(function(){
 $(window).resize(function(){
 	initializeFlexList('resize');
 });
+
+function doBreadcrumbs() {
+	var crumbContainerWidth = 0;
+	$('.breadcrumbs__crumb').each(function() {
+		crumbContainerWidth += $(this).outerWidth();
+	});
+	crumbContainerWidth = crumbContainerWidth + 5; //pad it for rounding
+	$('.breadcrumbs__wrapper').width(crumbContainerWidth);
+}
 
 /* reset height of .more-nav to prevent padding jump on slideDown() */
 var $moreNav = $('.header-container .more-nav-v3');
