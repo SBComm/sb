@@ -103,7 +103,7 @@
 		                <!-- <for-students> -->
 							<?php 
 								$file = "{$second_level}/mobile-apps.php";
-								echo($pathForContent . $content . $secLv . $file);
+								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </for-students> -->
 
