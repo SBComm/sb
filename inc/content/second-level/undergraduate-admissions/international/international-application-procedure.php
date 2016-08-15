@@ -94,7 +94,7 @@
 
             <div class="content clearfix">
                 <h4>Step 3: Submit Your Financial Documentation</h4>
-                <p>International applicants must document their ability to meet educational and living expenses for <strong>one-year of study</strong> so that Stony Brook University can issue a Certiﬁcate of Visa Eligibility (I-20). Currently, students must show proof of $40,650 (as of September 2014; subject to change) by way of bank statement(s).</p>
+                <p>International applicants must document their ability to meet educational and living expenses for <strong>one-year of study</strong> so that Stony Brook University can issue a Certiﬁcate of Visa Eligibility (I-20). Currently, students must show proof of $43,400 (as of September 2016; subject to change) by way of bank statement(s).</p>
                 <p>Shortly after applying, you will receive login instructions for <em>accessVIS</em>, Stony Brook's portal for visa and immigration services. In <em>accessVIS</em>, you must upload scanned copies of the following documents:</p>
                 <ul class="default-bullets">
                     <li>Bank Letter or Statement for Each Source of Funds (submitted in English)</li>

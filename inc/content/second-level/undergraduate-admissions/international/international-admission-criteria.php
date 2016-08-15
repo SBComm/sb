@@ -84,7 +84,7 @@
                 </table>
                 <p>Satisfactory completion of Stony Brook's <a href="http://www.stonybrook.edu/commcms/iec/">Intensive English Center</a> program at the advanced level with a grade of B or better will be accepted in place of a TOEFL score. For more information on Stony Brook's Intensive English Center, please call (631)632-7031.</p>
                 <h4>Financial Documentation</h4>
-                <p>International applicants must document their ability to meet educational and living expenses for <strong>one-year of study</strong> so that Stony Brook University can issue a Certiﬁcate of Visa Eligibility (I-20). Currently, students must show proof of $40,650 (as of September 2014; subject to change).</p>
+                <p>International applicants must document their ability to meet educational and living expenses for <strong>one-year of study</strong> so that Stony Brook University can issue a Certiﬁcate of Visa Eligibility (I-20). Currently, students must show proof of $43,400 (as of September 2016; subject to change).</p>
                 <p>Fore more information on Financial Requirements, see <a href="undergraduate-admissions/apply/international/application-procedures">International Application Procedures and Deadlines</a>.</p>
                 <h4>Secondary School Documentation Guide</h4>
                 <p><a href="undergraduate-admissions/apply/international/guide">View the valid forms of documentation from each nation</a>.</p>
