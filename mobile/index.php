@@ -68,62 +68,93 @@
 						<img src="img/landing/cancer/cancer-1.jpg" alt="Smoke stacks"/>
 						<figcaption>
 							<h2>Blackboard Mobile App</h2>
+							<div>
+								<p><span>Students &amp; faculty</span> <br />Get class announcements, grades, course work, assignments, class material, and more</p>
+							</div>
 						</figcaption>			
 					</a>
 					<a href="https://it.stonybrook.edu/services/hbo-go" class="figure-link effect-sadie">
-						<img src="//www.stonybrook.edu/img/wide-landing/sb-frey-800x245.jpg" alt="img05"/>
+						<img src="img/landing/baby/baby-2.jpg" alt="img05"/>
 						<figcaption>
 							<h2>HBO GO</h2>
+							<div>
+								<p><span>On-campus residents</span> <br />Get instant, unlimited access to HBO programming - anytime, anywhere - at no extra charge</p>
+							</div>
 						</figcaption>			
 					</a>
 					<a href="https://it.stonybrook.edu/help/kb/signing-in-to-the-lyndacom-mobile-app" class="figure-link effect-sadie">
-						<img src="img/landing/leakey/leakey-1.jpg" alt="img04"/>
+						<img src="img/landing/baby/baby-2.jpg" alt="img04"/>
 						<figcaption>
-							<h2>Lynda</h2>
+							<h2>Lynda.com</h2>
+							<div>
+								<p><span>Students, faculty &amp; staff</span> <br />Browse high-quality video tutorials for common computer applications and other skills</p>
+							</div>
 						</figcaption>			
 					</a>
 					<a href="https://services.jsatech.com/index.php?skey=d4fdcba9dc867a3d85424df8f910da1a&cid=129" class="figure-link effect-sadie">
 						<img src="img/landing/campaign/campaign-1.jpg" alt="img05"/>
 						<figcaption>
 							<h2>Campus Card</h2>
+							<div>
+								<p><span>Students</span> <br />Manage your meal plan and Wolfie Wallet. Add money, check your balance, and manage your account.</p>
+							</div>
 						</figcaption>			
 					</a>
 					<a href="https://it.stonybrook.edu/services/sbu-311-app" class="figure-link effect-sadie">
 						<img src="img/landing/baby/baby-2.jpg" alt="img04"/>
 						<figcaption>
 							<h2>SBU 311</h2>
+							<div>
+								<p><span>On-campus residents</span> <br />Quickly and easily request routine maintenance in the residence halls</p>
+							</div>
 						</figcaption>			
 					</a>
 					<a href="http://smarttransit.cewit.stonybrook.edu/" class="figure-link effect-sadie">
 						<img src="img/landing/masculinity/masculinity-3.jpg" alt="img05"/>
 						<figcaption>
 							<h2>SBU Transit</h2>
+							<div>
+								<p><span>Students</span> <br />Get real-time updates on bus locations and schedules</p>
+							</div>
 						</figcaption>			
 					</a>
 					<a href="https://it.stonybrook.edu/services/solar/solar-mobile" class="figure-link effect-sadie">
 						<img src="img/landing/sleep/sleep-3.jpg" alt="img04"/>
 						<figcaption>
 							<h2>SOLAR Mobile</h2>
+							<div>
+								<p><span>Students</span> <br />Manage areas of your student account, including Messages, My Weekly Schedule, and Holds &amp; To-Dos</p>
+							</div>
 						</figcaption>			
 					</a>
 					<a href="https://voicethread.com/mobile/" class="figure-link effect-sadie">
 						<img src="img/landing/computer-science/computer-science-1.jpg" alt="img05"/>
 						<figcaption>
 							<h2>VoiceThread</h2>
+							<div>
+								<p><span>Students &amp; faculty</span> <br />Create and share dynamic conversations around documents, snapshots, diagrams and videos</p>
+							</div>
 						</figcaption>			
 					</a>
 					<a href="http://www.stonybrook.edu/commcms/emergency/alerts/guardian.html" class="figure-link effect-sadie">
 						<img src="img/landing/he-for-she/he-for-she-1.jpg" alt="img04"/>
 						<figcaption>
 							<h2>Guardian</h2>
+							<div>
+								<p><span>Students &amp; faculty</span> <br />Get class announcements, grades, course work, assignments, class material, and more</p>
+							</div>
 						</figcaption>			
 					</a>
 					<a href="http://stonybrook.edu/happenings/" class="figure-link effect-sadie">
 						<img src="img/stock/16.jpg" alt="img05"/>
 						<figcaption>
 							<h2>The Buzz (Coming Soon)</h2>
+							<div>
+								<p>Students and faculty: access announcements, grades, course work, content, and more</p>
+							</div>
 						</figcaption>			
 					</a>
+
 					<!--
 					<a href="http://stonybrook.edu/newsroom/" class="figure-link effect-sadie">
 						<img src="img/stock/13.jpg" alt="img05"/>

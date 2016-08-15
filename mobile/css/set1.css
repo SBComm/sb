@@ -136,6 +136,11 @@
 	font-size: 68.5%;
 }
 
+/* description */
+.grid a.figure-link figcaption div {
+	display: none;
+}
+
 /* Individual effects */
 
 /*---------------*/
@@ -1549,6 +1554,23 @@ figure.effect-chico:hover p {
 	.content-box .story {
 		font-size: 1.5em;
 		line-height: 1.6em;
+	}
+
+	.grid figure, .grid a.figure-link {
+	    max-height: 220px;
+	}
+
+	/* description */
+	.grid a.figure-link figcaption div {
+		display: block;
+	}
+
+	.grid a.figure-link figcaption div span {
+		display: inline-block;
+		background: #000;
+		clear: right;
+		margin: 0 auto 3px;
+		padding: 2px 5px;
 	}
 
 }
