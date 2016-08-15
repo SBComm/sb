@@ -59,7 +59,8 @@ $site_status = array(
     'experts'               => 'in_CMS',
     'faculty-directory'     => 'in_CMS',
     'community-relations'   => 'in_CMS',
-    'summer-session'        => 'in_CMS'
+    'summer-session'        => 'in_CMS',
+    'resources'             => 'in_CMS'
 );
 
 // Define considerations; Comma-separated value for multiple considerations
