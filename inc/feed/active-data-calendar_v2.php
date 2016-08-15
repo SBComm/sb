@@ -89,7 +89,7 @@
                 $html .= '<li>';
                 $html .= '<a class="clearfix" href="'.$rss_url.'" title="'.$rss_title.'">';
                 $html .= '<div class="eventDate"><span class="eventDate_day">'.$eventDay.'</span><span class="eventDate_month">'.$eventMonth.'</span></div>';
-                $html .= '<span class="event-title '.$calendar_title_color.'">'.$rss_title.'</span>';
+                $html .= '<span class="event-title '.$calendar_title_color.'"><span class="item">'.$rss_title.'</span></span>';
                 //$html .= '<span class="event-time">'.$eventWeekday.', '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
                 $html .= '</a>';
                 $html .= '</li>';
