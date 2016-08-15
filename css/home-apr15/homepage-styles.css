@@ -15,7 +15,7 @@ h1, h3,
 .hero-sb span a,
 .boldMovesBox-link,
 .jumpAwayLink a,
-.eventDate_day, .eventTitle a,
+.eventDate_day, .event-title a,
 .boldMovesBox-story p,
 footer .footer-section ul li a,
 footer .footer-section p,
@@ -23,7 +23,7 @@ footer .footer-section p,
   font-family: "Effra W01", Helvetica, sans-serif;
   font-weight: 900; }
 
-.eventTitle a,
+.event-title a,
 footer .footer-section ul li a,
 footer .footer-section p,
 .boldMovesBox-story p,
@@ -874,14 +874,16 @@ h2, .changingWorld h3,
     text-align: right;
     margin-bottom: 0;
   }
-  .whatsComingUp .eventTitle .item {
+  .whatsComingUp .event-title .item {
       font-family: "Effra W01", Helvetica, sans-serif;
       font-weight: 700;
     text-decoration: none;
       font-size: 1.025rem;
       line-height: 1em;
       padding-right: 5px;
-      display: inline-block;; }
+      display: inline-block;;
+      color: #fff;
+    }
   .whatsComingUp .eventDate {
     text-transform: uppercase;
     width: 66px;
@@ -900,7 +902,7 @@ h2, .changingWorld h3,
     -ms-transform: rotate(-2deg);
     -o-transform: rotate(-2deg);
     transform: rotate(-2deg);*/ }
-  .whatsComingUp .eventTitle {
+  .whatsComingUp .event-title {
     float: right;
     display: inline-block;
     position: absolute;
@@ -911,7 +913,7 @@ h2, .changingWorld h3,
     border-top: 2px solid transparent;
     top: -1px;
   }
-  .whatsComingUp a:hover .eventTitle {
+  .whatsComingUp a:hover .event-title {
     border-color: #fff;
     background: rgba(0,0,0,0.05);
   }
@@ -931,10 +933,10 @@ h2, .changingWorld h3,
   .whatsComingUp ul li:hover .eventDate {
     color: #b00;
   }
-  .whatsComingUp ul li a .eventTitle {
+  .whatsComingUp ul li a .event-title {
     color: #f4f4f4;
   }
-  .whatsComingUp ul li:hover a .eventTitle {
+  .whatsComingUp ul li:hover a .event-title {
     color: #fff;
   }
   .boldMoves h2, .whatsComingUp h2 {
