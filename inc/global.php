@@ -61,7 +61,8 @@ $site_status = array(
     'community-relations'   => 'in_CMS',
     'summer-session'        => 'in_CMS',
     'resources'             => 'in_CMS',
-    'about'                 => 'in_CMS'
+    'about'                 => 'in_CMS',
+    'academics'             => 'in_CMS'
 );
 
 // Define considerations; Comma-separated value for multiple considerations
