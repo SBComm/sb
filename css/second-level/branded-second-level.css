@@ -1,3 +1,10 @@
+.page-title {
+    background-image: url("../../img/branding/rays/red-rays-landscape.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 0 0
+}
+
 .header-title-image-white-rays {
     background-image: url("../../img/branding/rays/white-rays.png");
     background-size: 100%;
