@@ -41,6 +41,7 @@
     <?php } ?>
 
     <meta name="google-site-verification" content="_wIbG5pSJMndkARMYBYGrkYSI1PYUAisKfNnGzD4g8U" />
+    <meta name="google-site-verification" content="sn28KzKOMkM49zHyt7iry30DIcxTDOUuEvTGOQWyRyE" /><!--Search Console-->
 
     <!--BEGIN CSS Includes-->
         <?php includeAsset('css','css/vendor/normalize.min.css'); ?>
