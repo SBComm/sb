@@ -406,7 +406,8 @@ h4 {
     transition: all .3s ease;
 }
 
-.events-widget .eventTitle {
+.events-widget .eventTitle,
+.events-widget .event-title {
     float: right;
     display: inline-block;
     position: absolute;
@@ -436,12 +437,14 @@ h4 {
     color: #fff;
 }
 
-.events-widget a:hover .eventTitle {
+.events-widget a:hover .eventTitle,
+.events-widget a:hover .event-title {
     border-color: #fff;
     background: rgba(0,0,0,0.05);
 }
 
-.events-widget .eventTitle .item {
+.events-widget .eventTitle .item,
+.events-widget .event-title .item {
     font-family: "Effra W01", Helvetica, sans-serif;
     font-weight: 700;
     text-decoration: none;
