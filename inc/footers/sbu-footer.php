@@ -29,6 +29,9 @@
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/giving/" class="clearfix">Giving</a>
                         </li>
+                        <li class="clearfix">
+                            <a href="http://www.stonybrook.edu/contact/" class="clearfix">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="more-nav-v3-col">
