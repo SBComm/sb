@@ -51,19 +51,23 @@ Watch out for files that are included using the content variable in the path nam
 
 // Define site status
 $site_status = array(
-    'for-students'          => 'in_CMS',
-    'faculty-staff'         => 'in_CMS',
-    'campus-safety'         => 'in_CMS',
     'alumni'                => 'in_CMS',
-    'faculty-experts'       => 'in_CMS',
+    'about'                 => 'in_transition',
+    'academics'             => 'in_transition',
+    'accessibility'         => 'in_transition',
+    'arts-and-culture'      => 'in_transition',
+    'campus-safety'         => 'in_CMS',
+    'community-relations'   => 'in_CMS',
+    'contact'               => 'in_transition',
     'experts'               => 'in_CMS',
     'faculty-directory'     => 'in_CMS',
-    'community-relations'   => 'in_CMS',
-    'summer-session'        => 'in_CMS',
-    'resources'             => 'in_CMS'/*,
-    'about'                 => 'in_CMS',
-    'academics'             => 'in_CMS'*/
-    
+    'faculty-experts'       => 'in_CMS',
+    'faculty-staff'         => 'in_CMS',
+    'for-students'          => 'in_CMS',
+    'privacy'               => 'in_transition',
+    'resources'             => 'in_CMS',
+    'site-directory'        => 'in_transition',
+    'summer-session'        => 'in_CMS'
 );
 
 // Define considerations; Comma-separated value for multiple considerations
