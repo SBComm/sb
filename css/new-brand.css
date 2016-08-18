@@ -550,6 +550,10 @@ ul.three-col-list {
     width: 85%;
 }
 
+.three-col-list li a:hover {
+    text-decoration: underline;
+}
+
 .three-col-list li .major,
 .three-col-list li .minor {
     position: absolute;
