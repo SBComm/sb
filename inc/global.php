@@ -58,6 +58,7 @@ $site_status = array(
     'academics'             => 'in_transition',
     'accessibility'         => 'in_transition',
     'arts-and-culture'      => 'in_transition',
+    'calendars'             => 'in_transition',
     'campus-safety'         => 'in_CMS',
     'community-relations'   => 'in_CMS',
     'contact'               => 'in_transition',
