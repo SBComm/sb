@@ -24,7 +24,7 @@
             $site          = 'development/sb';
             $http_root     = $http_protocol.'://www.stonybrook.edu';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
-            $css_base_url  = $http_root . '/' . 'far-beyond' . '/';
+            $css_base_url  = $http_root . '/development/' . 'far-beyond' . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
             $is_production_environment = false;
