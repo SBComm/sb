@@ -552,6 +552,7 @@ ul.three-col-list {
 
 .three-col-list li a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .three-col-list li .major,
