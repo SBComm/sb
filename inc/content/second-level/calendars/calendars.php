@@ -71,6 +71,7 @@
                         $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx?type=N&category=43-0&ihc=y&sortorder=ASC";
                         $count = 8;
                         $end = 8;
+                        $calendar_title_color  = "white";
                         include($path . $file);
                     ?>
                 </ul>
