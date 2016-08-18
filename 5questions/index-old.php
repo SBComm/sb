@@ -10,7 +10,7 @@
 			$this_dir = $_SERVER['REQUEST_URI'];
 			$dev_dir  = '/development/sb/5questions/';
 			$prod_dir = '/sb/5questions/';
-			$is_dev = strpos($this_dir,$dev_dir);
+			$is_dev = strpos($this_dir,'/development/');
 			if($_SERVER['SERVER_NAME'] == 'localhost') {
 				$inc = $_SERVER['DOCUMENT_ROOT'] . $prod_dir . "inc/inc.php";
 			} else if($is_dev !== false) {
