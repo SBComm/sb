@@ -51,7 +51,9 @@ Watch out for files that are included using the content variable in the path nam
 
 // Define site status
 $site_status = array(
+    'admissions'            => 'in_transition',
     'alumni'                => 'in_CMS',
+    'alumni-and-friends'    => 'in_transition',
     'about'                 => 'in_transition',
     'academics'             => 'in_transition',
     'accessibility'         => 'in_transition',
