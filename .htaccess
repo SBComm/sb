@@ -1006,7 +1006,6 @@ FileETag None
     RewriteRule ^faculty-experts/profile/?$ experts/results
     RewriteRule ^faculty-experts/profile/([a-zA-Z0-9\-]+)/?$ experts/profile.php?name=$1
     RewriteRule ^faculty-experts/(.*)$ /sb/experts/$1 [R=301]
-
     RewriteRule ^faculty-directory/profile/?$ faculty-directory/results
     RewriteRule ^faculty-directory/profile/([a-zA-Z0-9\-]+)/?$ faculty-directory/profile.php?name=$1
 </IfModule>
@@ -1017,7 +1016,6 @@ FileETag None
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteRule ^alumni/hsc-alums$ alumni/chapters/school-of-medicine/$1
-
     RewriteRule ^alumni/form/index.php$ alumni
 </IfModule>
 
@@ -1039,7 +1037,6 @@ FileETag None
 
 </IfModule>
 
-
 # ----------------------------------------------------------------------
 # | Stony Brook Magazine                                               |
 # ----------------------------------------------------------------------
@@ -1049,6 +1046,5 @@ FileETag None
     #RewriteRule ^magazine/?$ magazine/2016-spring/ [R=301]
     #RewriteRule ^magazine/index.php$ magazine/2016-spring/index.php
     #RewriteRule ^magazine/([a-zA-Z0-9\-]+)$ /sb/magazine/2016-spring/$1 [R=301]
-
     #RewriteRule ^magazine/2016-spring/([a-zA-Z0-9\-]+)/?$ magazine/2016-spring/article.php?story=$1
 </IfModule>
