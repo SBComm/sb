@@ -1,7 +1,7 @@
 <section class="white-background partners-logo-container">
     <div class="wrapper border-box pad-top pad-bottom">
         <div class="one-half clearfix">
-            <a href="https://www.islandfcu.org/Island-at-Stony-Brook.aspx" title="Visit Island Federal at Stony Brook"><img class="icon grayscale-to-color-hover" src="img/logo/partners/logo-island-federal-550.png" alt="Logo of Island Federal Credit Union" /></a>
+            <a href="https://www.islandfcu.org/Stony-Brook-Alumni-Exclusives.aspx" title="Visit Island Federal at Stony Brook"><img class="icon grayscale-to-color-hover" src="img/logo/partners/logo-island-federal-550.png" alt="Logo of Island Federal Credit Union" /></a>
         </div>
         <?php /*<div class="one-third clearfix">
             <a href="http://www.petro.com/articles/stony-brook-alumni-special-offers" title="Get special offers from Petro Home Services for Stony Brook Alumni"><img class="icon grayscale-to-color-hover" src="img/logo/partners/logo-petro-mutual-550.png" alt="Logo of Petro Home Services" /></a>
