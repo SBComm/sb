@@ -1,20 +1,13 @@
 <section class="hero-sb animated-preload_background clearfix">
-	<img class="align-image-top hero-sb--desktop" src="img/home-apr15/mt-sinai-desktop.jpg" alt="Stony Brook Medicine building" />
-	<img class="align-image-top hero-sb--mobile" src="img/home-apr15/mt-sinai-mobile.jpg" alt="Stony Brook Medicine building" />
+	<img class="align-image-top hero-sb--desktop" src="img/home-apr15/social-mobility.jpg" alt="Stony Brook student in a class" />
+	<img class="align-image-top hero-sb--mobile" src="img/home-apr15/social-mobility-mobile.jpg" alt="Stony Brook student in a class" />
 	<div class="hero-sb_text" >
-		<div>
-			<h1 class="clearfix">Partners in Discovery</h1>
-			<p class="clearfix">Stony Brook Medicine and Mount Sinai announce "momentous" affiliation</p> 
-			<a class="clearfix video-link gtm_read-the-story-button-click" href="http://www.stonybrook.edu/happenings/sb_medicine/mount-sinai-and-stony-brook-announce-affiliation/">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
-		</div>
-		<?php /*
 		<div>
 			<h1 class="clearfix">Making a <br />Difference</h1>
 			<p class="clearfix">Stony Brook programs promote social and economic mobility</p> 
 			<a class="clearfix video-link nivo-lightbox gtm_watch-the-video-link-click" href="http://www.youtube.com/watch?v=AtBlFa6ki-E" data-options="autoplay=1&amp;modestbranding=1&amp;rel=0">Watch the video&nbsp;<i class="fa fa-play-circle"></i></a>
 			<a class="clearfix video-link gtm_read-the-story-button-click" href="http://www.stonybrook.edu/happenings/student-spotlight/at-stony-brook-promoting-social-and-economic-mobility-happens-everywhere/">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>
 		</div>  
-		*/ ?>
 	</div>
 </section>
 <!--<div class="optionalCallout clearfix">
