@@ -51,25 +51,25 @@ Watch out for files that are included using the content variable in the path nam
 
 // Define site status
 $site_status = array(
-    'admissions'            => 'in_transition',
+    'about'                 => 'in_CMS',
+    'academics'             => 'in_CMS',
+    'accessibility'         => 'in_CMS',
+    'admissions'            => 'in_CMS',
     'alumni'                => 'in_CMS',
-    'alumni-and-friends'    => 'in_transition',
-    'about'                 => 'in_transition',
-    'academics'             => 'in_transition',
-    'accessibility'         => 'in_transition',
-    'arts-and-culture'      => 'in_transition',
-    'calendars'             => 'in_transition',
+    'alumni-and-friends'    => 'in_CMS',
+    'arts-and-culture'      => 'in_CMS',
+    'calendars'             => 'in_CMS',
     'campus-safety'         => 'in_CMS',
     'community-relations'   => 'in_CMS',
-    'contact'               => 'in_transition',
+    'contact'               => 'in_CMS',
     'experts'               => 'in_CMS',
     'faculty-directory'     => 'in_CMS',
     'faculty-experts'       => 'in_CMS',
     'faculty-staff'         => 'in_CMS',
     'for-students'          => 'in_CMS',
-    'jobs'                  => 'in_transition',
-    'maps-and-directions'   => 'in_transition',
-    'privacy'               => 'in_transition',
+    'jobs'                  => 'in_CMS',
+    'maps-and-directions'   => 'in_CMS',
+    'privacy'               => 'in_CMS',
     'resources'             => 'in_CMS',
     'site-directory'        => 'in_transition',
     'summer-session'        => 'in_CMS'
@@ -89,11 +89,17 @@ if($is_proofing_environment) {
     $pathForProductionContent = str_replace('development/', '', $path);
 }
 
+$in_CMS_override = $in_transition_override = $in_development_override = false;
+
+if($page_type=='home') {
+    $in_transition_override = true;
+}
+
 // Content paths
 // Default defined in inc.php
 //  $content = "content/";
 
-    if($site_status[$second_level]=='in_CMS') {
+    if($site_status[$second_level]=='in_CMS' || $in_CMS_override) {
 
         if($is_local_environment) {
             $content = "content/";
@@ -108,7 +114,7 @@ if($is_proofing_environment) {
 
     }
 
-    if($site_status[$second_level]=='in_transition') {
+    if($site_status[$second_level]=='in_transition' || $in_transition_override) {
         
         if($is_local_environment) {
             $content = "content/";
@@ -123,7 +129,7 @@ if($is_proofing_environment) {
 
     }
 
-    if($site_status[$second_level]=='in_development' || $always_use_content_folder || $site_status[$second_level]=='') {
+    if($site_status[$second_level]=='in_development' || $always_use_content_folder || $site_status[$second_level]=='' || $in_development_override) {
         
         if($is_local_environment) {
             $content = "content/";
