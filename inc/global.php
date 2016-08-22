@@ -95,6 +95,10 @@ if($page_type=='home') {
     $in_transition_override = true;
 }
 
+if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_override) {
+    $in_development_override = true;
+}
+
 // Content paths
 // Default defined in inc.php
 //  $content = "content/";
@@ -129,7 +133,7 @@ if($page_type=='home') {
 
     }
 
-    if($site_status[$second_level]=='in_development' || $always_use_content_folder || $site_status[$second_level]=='' || $in_development_override) {
+    if($site_status[$second_level]=='in_development' || $always_use_content_folder || $in_development_override) {
         
         if($is_local_environment) {
             $content = "content/";
