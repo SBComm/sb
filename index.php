@@ -89,7 +89,7 @@
 
 		                <!-- <main-content> -->
 							<?php
-								$file = "home/index.php";
+								$file = "home/home.php";
 								include($pathForContent . $content . $file);
 							?>
 						<!-- </main-content> -->
