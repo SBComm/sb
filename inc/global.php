@@ -92,7 +92,7 @@ if($is_proofing_environment) {
 $in_CMS_override = $in_transition_override = $in_development_override = false;
 
 if($page_type=='home') {
-    $in_transition_override = true;
+    $in_CMS_override = true;
 }
 
 if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_override) {
