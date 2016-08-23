@@ -3780,6 +3780,14 @@ body {
         background: #fff !important;
     }
 
+    @media only screen and (max-width: 959px) {
+        a.sbu-outline-button.center-on-mobile {
+            margin: 0 auto;
+            float: none;
+            display: block;
+        }
+    }
+
     /* simple button, as on /alumni/chapters/school-of-medicine/ */
 
     .simple-button,
