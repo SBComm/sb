@@ -3780,8 +3780,24 @@ body {
         background: #fff !important;
     }
 
+    a.sbu-outline-button.float-left {
+        float: left;
+    }
+
+    a.sbu-outline-button.float-right {
+        float: right;
+    }
+
     @media only screen and (max-width: 959px) {
         a.sbu-outline-button.center-on-mobile {
+            margin: 0 auto;
+            float: none;
+            display: block;
+        }
+    }
+
+    @media only screen and (min-width: 960px) {
+        a.sbu-outline-button.center-on-desktop {
             margin: 0 auto;
             float: none;
             display: block;
