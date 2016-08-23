@@ -3718,6 +3718,7 @@ body {
         text-rendering: optimizeLegibility;
         border-width: 2px;
         border-style: solid;
+        text-align: center;
     }
 
     a.sbu-outline-button:hover {
