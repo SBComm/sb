@@ -108,7 +108,7 @@
 }
 
 section.main-cta {
-    background: url('../../img/bkg/sbu-shield-grey-35-opac.png') 55% 35% no-repeat #000;
+    background: #000;
 }
 
 .side-title-links-wrapper {
@@ -753,7 +753,6 @@ section.student-body {
 
 footer.site-footer {
     background-color: #252525;
-    background: url('../../img/bkg/sbu-shield-black-9-opac.png') 70% 50% no-repeat #252525;
 }
 
 /* Major minor badges */
@@ -994,7 +993,7 @@ footer.site-footer {
 
     section.main-cta {
         padding-bottom: 20px;
-        background: url('../../img/bkg/sbu-shield-grey-35-opac.png') 12% 52% no-repeat #000;
+        background: #000;
     }
 
     .side-title-links-wrapper,
