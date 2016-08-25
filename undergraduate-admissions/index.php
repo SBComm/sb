@@ -28,6 +28,8 @@
     		$page_cat        = 'sub'; // for site tagline logo container
 			$second_level    = 'undergrad-admissions';
 
+			$home_page = true;
+
 			$keywords          = "Stony Brook University,Undergraduate Admissions,Admissions,Majors,Minors,Special Programs,Visiting,About,Transfer Office,Transfer,Young Scholars Program,Honors,University Scholars,Admitted,International,Open House,Tour,Scholarships";
 	        $page_title        = 'Stony Brook University, New York';
 	        $page_title_sub    = 'Undergraduate Admissions';

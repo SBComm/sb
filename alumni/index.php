@@ -28,6 +28,7 @@
     		$page_cat        = 'sub'; // for site tagline logo container
 			$second_level    = 'alumni';
 
+			$home_page   = true;
 		    $inside_page = true; //pulling inside styles in
 
 			$keywords        = $alumni_keywords;

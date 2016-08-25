@@ -53,9 +53,11 @@
         });
     }
 
-    function printBreadcrumbs() {
+    function printBreadcrumbs($showHome) {
         $crumbs = explode("/",$_SERVER["REQUEST_URI"]);
-        $crumbsOut .= "<a class='breadcrumbs__crumb' href='/' title='Breadcrumb link: SBU Home'>Home</a>";
+        if($showHome != false) {
+            $crumbsOut .= "<a class='breadcrumbs__crumb' href='/' title='Breadcrumb link: SBU Home'>Home</a>";
+        }
         foreach($crumbs as $crumb){
             if($crumb!='') {
                 $crumbLink = $crumbLink . '/' . $crumb;

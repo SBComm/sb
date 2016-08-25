@@ -43,7 +43,7 @@
 		    $carousel 		  = true;
 		    $carousel_2       = true;
 
-		    $site_breadcrumbs = true;
+		    $site_breadcrumbs = false;
 		?>
 
 	<head>

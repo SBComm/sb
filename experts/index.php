@@ -60,6 +60,8 @@
 	        $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 	        $page_scroll_time = 0;
 	        $page_scroll_mobile = true;
+
+		    $site_breadcrumbs = false;
 		?>
 
 	<head>

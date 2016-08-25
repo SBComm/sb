@@ -28,7 +28,9 @@
     		$page_cat        = 'sub'; // for site tagline logo container
 			$second_level    = 'undergrad-admissions';
 
-		    		    $page_to_top_link = true;
+		    $page_to_top_link = true;
+
+		    $home_page = true;
 
 		    $page_footerbar   = true;
 		    $page_footer      = true;

@@ -258,3 +258,8 @@
 		<span aria-role="button">Close Menu</span>
 	</div>
 </nav>
+<?php
+    if($site_breadcrumbs & $home_page!=true) {
+        printBreadcrumbs(false);
+    }
+?>

@@ -61,6 +61,6 @@
 </nav>
 <?php
     if($site_breadcrumbs) {
-        printBreadcrumbs();
+        printBreadcrumbs(true);
     }
 ?>
