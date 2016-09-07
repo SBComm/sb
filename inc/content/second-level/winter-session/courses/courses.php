@@ -31,6 +31,9 @@
 
             <p>Winter Sessions courses are offered in a variety of formats: on-campus at Stony Brook, at our Manhattan location (Park Avenue South between 27th and 28th Streets), at Stony Brook Southampton, and online. There are also opportunities for study abroad, independent study, and academic internships.</p>
             <p>Please note that the university registration system (SOLAR) is the official repository of class information. Class notes in SOLAR are used to indicate additional requirements of courses.</p>
+            <div class="content application-details alert-message green clearfix">
+                <p><strong>Please Note</strong>: Courses displayed below are from winter 2016. Winter 2017 courses will be posted in October.</p>
+            </div>
         </div>
 
         <h4 id="browse-departments" class="clearfix">Winter Courses by Department</h4>
