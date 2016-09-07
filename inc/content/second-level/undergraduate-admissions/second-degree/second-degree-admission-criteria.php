@@ -27,7 +27,7 @@
                 <p>The following restrictions apply to Stony Brook University’s Second Bachelor Degree Program.</p>
                 <ul class="default-bullets">
                     <li>A second bachelor's degree may only be earned in a discipline that is significantly different from the first bachelor's degree.</li>
-                    <li>Admission to our Second Bachelor’s Degree Program is extremely limited due to a lack of capacity in most of our undergraduate programs and second-degree candidates are typically not admitted to our Civil Engineering, Computer Science, or Information Systems majors.</li>
+                    <li>Admission to our Second Bachelor’s Degree Program is extremely limited due to a lack of capacity in most of our undergraduate programs and second-degree candidates are typically not admitted to majors within the College of Engineering and Applied Sciences.</li>
                     <li>Priority for admission to the University is given to first-degree candidates. We will not begin notifying fall applicants to our Second Bachelor’s Degree Program of admission decisions until August, after first-degree applicants are notified and we have determined what, if any, capacity remains in our undergraduate programs.</li>
                     <li>We reserve the right to restrict enrollment to only those courses required for the second bachelor's degree.</li>
                     <li>Those admitted to our Second Bachelor's Degree Program may not change their major without the approval of the Dean of Admissions.</li>
