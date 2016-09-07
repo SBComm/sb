@@ -213,7 +213,7 @@
              </div>
             <div class="border-box wrapper clearfix">
                 <div class="content white">
-                    <ul class="calendar-items clx`earfix">
+                    <ul class="calendar-items clearfix">
                         <?php 
                             /*
                             // PHP will transform event data from RSS feed in following format
