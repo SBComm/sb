@@ -153,6 +153,9 @@
 
     $site_breadcrumbs = true;
 
+    $calendar_title_color = '';
+    $col = '';
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;

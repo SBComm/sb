@@ -19,6 +19,9 @@
 
     if ($calendar_title_color=="")
         $calendar_title_color = "aqua";
+
+    if (!isset($showTime))
+        $showTime = false;
     
     $rssFeed = simplexml_load_file($rss);
 
@@ -51,20 +54,24 @@
             $rss_desc = str_replace("<![CDATA[","",$rss_desc);
             $rss_desc = str_replace("]]>","",$rss_desc);
 
-            //$dateFormat = 'D, j M Y H:i:s O'; // Mon, 24 Aug 2015 04:00:00 GMT
-            //$eventDate = DateTime::createFromFormat($dateFormat, $rss_datetime);
-            
             $dateFormat = 'n/d/Y'; // 12/1/2015 04:00:00 GMT
             $eventDate = DateTime::createFromFormat($dateFormat, $rss_readable_date);
 
+            $dateTimeFormat = 'D, j M Y H:i:s O'; // Mon, 24 Aug 2015 04:00:00 GMT
+            $eventDateTime = DateTime::createFromFormat($dateTimeFormat, $rss_datetime);
+            
+            $tz = new DateTimeZone('America/New_York');
+            $eventDateTime->setTimezone($tz);
+
             $eventMonth = $eventDate->format('M');
+            $eventMonthNum = $eventDate->format('n');
             $eventDay   = $eventDate->format('j');
             $eventYear  = $eventDate->format('Y');
 
             $eventWeekday  = $eventDate->format('l');
-            //$eventHour     = $eventDate->format('g');
-            //$eventMinute   = $eventDate->format('i');
-            //$eventAMPM     = $eventDate->format('A');
+            $eventHour     = $eventDateTime->format('g');
+            $eventMinute   = $eventDateTime->format('i');
+            $eventAMPM     = $eventDateTime->format('A');
 
             $rss_output_desc = substr($rss_desc,0,140).'...';
 
@@ -90,7 +97,9 @@
                 $html .= '<a class="clearfix" href="'.$rss_url.'" title="'.$rss_title.'">';
                 $html .= '<div class="eventDate"><span class="eventDate_day">'.$eventDay.'</span><span class="eventDate_month">'.$eventMonth.'</span></div>';
                 $html .= '<span class="event-title '.$calendar_title_color.'"><span class="item">'.$rss_title.'</span></span>';
-                //$html .= '<span class="event-time">'.$eventWeekday.', '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
+                if($showTime) {
+                    $html .= '<span class="event-time">'.$eventWeekday.', '.$eventMonthNum.'/'.$eventDay.' at '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
+                }
                 $html .= '</a>';
                 $html .= '</li>';
                 $count--;
