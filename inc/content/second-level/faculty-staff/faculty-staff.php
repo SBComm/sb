@@ -222,6 +222,7 @@
                             $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx";
                             $count = 3;
                             $end = 3;
+                            $showTime = true;
                             include($path . $file);
                         ?>
                         <li class="clearfix more-link">
