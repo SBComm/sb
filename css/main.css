@@ -3362,8 +3362,8 @@ body {
     }
 
     .tweets-and-news strong {
-        font-family: 'Trade Gothic W01 Bold 2';
-        font-weight: normal;
+        font-family: 'Effra W01';
+        font-weight: 700;
     }
 
     .tweets-and-news .stream,
@@ -3407,7 +3407,7 @@ body {
 
     .tweets-and-news .stream .twitter-user {
         display: block;
-        padding: 9px 0 15px;
+        padding: 4px 0 15px;
         font-size: 1.05em;
         line-height: 1.2em;
     }
@@ -3417,7 +3417,10 @@ body {
     }
 
     .tweets-and-news .stream .twitter-user a {
-        color: #888;
+        color: #900;
+        font-family: 'Museo Slab';
+        font-weight: 400;
+        line-height: 1.4em;
     }
 
     .tweets-and-news .stream .twitter-user strong {
@@ -3436,7 +3439,8 @@ body {
     .tweets-and-news .stream .section-intro a {
         color: #888;
         font-size: .85em;
-        font-family:'TradeGothicNextW02-Ital';
+        font-family: 'Effra W01';
+        font-style: italic;
     }
 
     .tweets-and-news .stream a:hover,
