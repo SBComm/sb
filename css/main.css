@@ -3426,6 +3426,7 @@ body {
     .tweets-and-news .stream .twitter-user strong {
         display: block;
         color: #000;
+        font-size: 1.2em;
     }
 
     .tweets-and-news .stream .section-intro {
