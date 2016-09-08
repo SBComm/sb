@@ -35,7 +35,7 @@ if($social_feed_widget) { ?>
 						wall: false,
 						order: 'date',
 						max: 'limit',
-						limit: 5,
+						limit: <?php echo($social_feed_num_items); ?>,
 						iconPath: 'images/dcsns-dark/',
 						imagePath: 'images/dcsns-dark/'
 					});
