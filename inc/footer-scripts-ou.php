@@ -8,7 +8,7 @@ echo 'social_channel_id: '.$social_channel_id;
 if($social_feed_widget) { ?>
 	<script type="text/javascript" src="/js/social/jquery.plugins.js"></script>
 	<script type="text/javascript" src="/js/social/jquery.site.js"></script>
-	<script type="text/javascript" src="/js/social/jquery.social.stream.1.5.4.js"></script>
+	<script type="text/javascript" src="/js/social/jquery.social.stream.ou.1.5.4.js"></script>
 	<script type="text/javascript" src="/js/social/preload-messages.js"></script>
 
 	<?php
@@ -16,7 +16,7 @@ if($social_feed_widget) { ?>
 		if($social_channel=='twitter') { ?>
 
 			<script type="text/javascript">
-				jQuery(document).ready(function($){
+				$(document).ready(function($){
 					$('#social-stream').dcSocialStream({
 						feeds: {
 							twitter: {
