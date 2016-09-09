@@ -124,6 +124,7 @@
 
     $social_sidebar     = '';
     $social_feed_widget = false;
+    $social_feed_widget_num = 0;
 
     $map              = false;
     $live_filter      = false;
