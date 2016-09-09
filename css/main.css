@@ -2715,7 +2715,7 @@ body {
             margin: 0 2%;
             background: #fff;
             border: 2px solid #900;
-            border-radius: 7px;
+            border-radius: 0;
             padding: 6px;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
@@ -2734,10 +2734,12 @@ body {
                 display: block;
                 width: 100%;
                 text-align: center;
-                font-size: .9rem;
+                font-size: 1rem;
                 line-height: 1;
                 margin: 0;
                 padding: 0;
+                font-family: 'Effra W01';
+                font-weight: 700;
             }
 
             .activities-and-calendar .event-date {
@@ -2750,6 +2752,8 @@ body {
                 line-height: 1;
                 margin: 0;
                 padding: 0;
+                font-family: 'Effra W01';
+                font-weight: 700;
             }
 
         .activities-and-calendar .event-details {
@@ -3378,7 +3382,7 @@ body {
 
 
 .tweets-and-news .stream a {
-    color: #000;
+    color: #888;
     text-decoration: none;
 }
 
