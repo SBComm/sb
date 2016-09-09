@@ -2729,7 +2729,7 @@ body {
         }
 
             .activities-and-calendar .event-month {
-                color: #000;
+                color: #900;
                 text-transform: uppercase;
                 display: block;
                 width: 100%;
@@ -2767,6 +2767,8 @@ body {
             font-size: 1.2rem;
             width: 100%;
             display: block;
+            font-family: 'Effra W01';
+            font-weight: 700;
         }
 
         .activities-and-calendar-on-white .event-title {
@@ -2780,9 +2782,10 @@ body {
         .activities-and-calendar .event-time {
             display: block;
             width: 100%;
-            margin: 2px 0;
-            font-size: .8rem;
-            font-family: 'Trade Gothic W01 Bold 2';
+            margin: 6px 0 2px;
+            font-size: 0.9rem;
+            font-family: 'Effra W01', 'Trade Gothic W01 Bold 2';
+            font-weight: 700;
         }
 
         .activities-and-calendar .event-desc {
