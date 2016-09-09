@@ -15,7 +15,7 @@ if($social_feed_widget) { ?>
 		$social_feeds = '';
 		for($i=1; $i<=$social_feed_widget_num; $i++) {
 
-			if($social_channel=='twitter') { ?>
+			if($social_channel[$i]=='twitter') { ?>
 				<script type="text/javascript">
 					$(document).ready(function($){
 						$('#social-stream-<?=$i?>').dcSocialStream({
@@ -36,14 +36,14 @@ if($social_feed_widget) { ?>
 							wall: false,
 							order: 'date',
 							max: 'limit',
-							limit: <?php echo($social_feed_num_items); ?>,
+							limit: <?php echo($social_feed_num_items[$i]); ?>,
 							iconPath: 'images/dcsns-dark/',
 							imagePath: 'images/dcsns-dark/'
 						});
 									 
 					});
 				</script>
-			<?php } else if($social_channel=='facebook') { ?>
+			<?php } else if($social_channel[$i]=='facebook') { ?>
 				<script type="text/javascript">
 					jQuery(document).ready(function($){
 						$('#social-stream-<?=$i?>').dcSocialStream({
@@ -61,14 +61,14 @@ if($social_feed_widget) { ?>
 							wall: false,
 							order: 'date',
 							max: 'limit',
-							limit: <?php echo($social_feed_num_items); ?>,
+							limit: <?php echo($social_feed_num_items[$i]); ?>,
 							iconPath: 'images/dcsns-dark/',
 							imagePath: 'images/dcsns-dark/'
 						});
 									 
 					});
 				</script>
-			<?php } else if($social_channel=='flickr') { ?>
+			<?php } else if($social_channel[$i]=='flickr') { ?>
 				<script type="text/javascript">
 					jQuery(document).ready(function($){
 						$('#social-stream-<?=$i?>').dcSocialStream({
@@ -85,14 +85,14 @@ if($social_feed_widget) { ?>
 							wall: false,
 							order: 'date',
 							max: 'limit',
-							limit: <?php echo($social_feed_num_items); ?>,
+							limit: <?php echo($social_feed_num_items[$i]); ?>,
 							iconPath: 'images/dcsns-dark/',
 							imagePath: 'images/dcsns-dark/'
 						});
 									 
 					});
 				</script>
-			<?php } else if($social_channel=='instagram') { ?>
+			<?php } else if($social_channel[$i]=='instagram') { ?>
 				<script type="text/javascript">
 					jQuery(document).ready(function($){
 						$('#social-stream-<?=$i?>').dcSocialStream({
@@ -114,7 +114,7 @@ if($social_feed_widget) { ?>
 							wall: false,
 							order: 'date',
 							max: 'limit',
-							limit: <?php echo($social_feed_num_items); ?>,
+							limit: <?php echo($social_feed_num_items[$i]); ?>,
 							iconPath: 'images/dcsns-dark/',
 							imagePath: 'images/dcsns-dark/'
 						});
