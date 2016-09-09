@@ -13,13 +13,12 @@ if($social_feed_widget) { ?>
 
 	<?php
 		$social_feeds = '';
-		for($i=0; $i<$social_feed_widget_num; $i++) {
-			echo('num: '.$social_feed_widget_num);
-			echo('chan: '.$social_feed_channel["twitter"]);
+		for($i=1; $i<=$social_feed_widget_num; $i++) {
+
 			if($social_channel=='twitter') { ?>
 				<script type="text/javascript">
 					$(document).ready(function($){
-						$('#<?=$social_feed_id?>').dcSocialStream({
+						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
 								twitter: {
 									id: '<?=$social_feed_channel["twitter"]?>',
@@ -47,7 +46,7 @@ if($social_feed_widget) { ?>
 			<?php } else if($social_channel=='facebook') { ?>
 				<script type="text/javascript">
 					jQuery(document).ready(function($){
-						$('#<?=$social_feed_id?>').dcSocialStream({
+						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
 								facebook: {
 									id: '<?=$social_feed_channel["facebook"]?>',
@@ -72,7 +71,7 @@ if($social_feed_widget) { ?>
 			<?php } else if($social_channel=='flickr') { ?>
 				<script type="text/javascript">
 					jQuery(document).ready(function($){
-						$('#<?=$social_feed_id?>').dcSocialStream({
+						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
 								flickr: {
 									id: '<?=$social_feed_channel["flickr"]?>'
@@ -96,7 +95,7 @@ if($social_feed_widget) { ?>
 			<?php } else if($social_channel=='instagram') { ?>
 				<script type="text/javascript">
 					jQuery(document).ready(function($){
-						$('#<?=$social_feed_id?>').dcSocialStream({
+						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
 								flickr: {
 									id: '<?=$social_feed_channel["instagram"]?>',
