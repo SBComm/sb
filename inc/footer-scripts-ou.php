@@ -21,7 +21,7 @@ if($social_feed_widget) { ?>
 						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
 								twitter: {
-									id: '<?=$social_feed_channel["twitter"]?>',
+									id: '<?=$social_feed_channel[$i]?>',
 									intro: '',
 									search: '',
 									out: 'intro,thumb,text',
@@ -49,7 +49,7 @@ if($social_feed_widget) { ?>
 						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
 								facebook: {
-									id: '<?=$social_feed_channel["facebook"]?>',
+									id: '<?=$social_feed_channel[$i]?>',
 									text: 'contentSnippet'
 								}
 							},
@@ -74,7 +74,7 @@ if($social_feed_widget) { ?>
 						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
 								flickr: {
-									id: '<?=$social_feed_channel["flickr"]?>'
+									id: '<?=$social_feed_channel[$i]?>'
 								}
 							},
 							rotate: {
@@ -98,7 +98,7 @@ if($social_feed_widget) { ?>
 						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
 								flickr: {
-									id: '<?=$social_feed_channel["instagram"]?>',
+									id: '<?=$social_feed_channel[$i]?>',
 									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
 									clientId: '992187b36560494abe8ea63eebf2c9c3',
 									thumb: 'thumbnail',
