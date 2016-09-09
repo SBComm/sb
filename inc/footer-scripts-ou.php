@@ -13,121 +13,117 @@ if($social_feed_widget) { ?>
 
 	<?php
 		$social_feeds = '';
-		if($social_channel=='twitter') { ?>
+		for($i=0; $i<$social_feed_widget_num; $i++) {
 
-			<script type="text/javascript">
-				$(document).ready(function($){
-					$('#social-stream').dcSocialStream({
-						feeds: {
-							twitter: {
-								id: '<?=$social_feed_channel["twitter"]?>',
-								intro: '',
-								search: '',
-								out: 'intro,thumb,text',
-								thumb: true
-							}
-						},
-						rotate: {
-							delay: 0
-						},
-						control: false,
-						filter: false,
-						wall: false,
-						order: 'date',
-						max: 'limit',
-						limit: <?php echo($social_feed_num_items); ?>,
-						iconPath: 'images/dcsns-dark/',
-						imagePath: 'images/dcsns-dark/'
+			if($social_channel=='twitter') { ?>
+				<script type="text/javascript">
+					$(document).ready(function($){
+						$('#<?=$social_feed_id?>').dcSocialStream({
+							feeds: {
+								twitter: {
+									id: '<?=$social_feed_channel["twitter"]?>',
+									intro: '',
+									search: '',
+									out: 'intro,thumb,text',
+									thumb: true
+								}
+							},
+							rotate: {
+								delay: 0
+							},
+							control: false,
+							filter: false,
+							wall: false,
+							order: 'date',
+							max: 'limit',
+							limit: <?php echo($social_feed_num_items); ?>,
+							iconPath: 'images/dcsns-dark/',
+							imagePath: 'images/dcsns-dark/'
+						});
+									 
 					});
-								 
-				});
-			</script>
-
-		<?php } else if($social_channel=='facebook') { ?>
-			
-			<script type="text/javascript">
-				jQuery(document).ready(function($){
-					$('#social-stream').dcSocialStream({
-						feeds: {
-							facebook: {
-								id: '<?=$social_feed_channel["facebook"]?>',
-								text: 'contentSnippet'
-							}
-						},
-						rotate: {
-							delay: 0
-						},
-						control: false,
-						filter: false,
-						wall: false,
-						order: 'date',
-						max: 'limit',
-						limit: 5,
-						iconPath: 'images/dcsns-dark/',
-						imagePath: 'images/dcsns-dark/'
+				</script>
+			<?php } else if($social_channel=='facebook') { ?>
+				<script type="text/javascript">
+					jQuery(document).ready(function($){
+						$('#<?=$social_feed_id?>').dcSocialStream({
+							feeds: {
+								facebook: {
+									id: '<?=$social_feed_channel["facebook"]?>',
+									text: 'contentSnippet'
+								}
+							},
+							rotate: {
+								delay: 0
+							},
+							control: false,
+							filter: false,
+							wall: false,
+							order: 'date',
+							max: 'limit',
+							limit: <?php echo($social_feed_num_items); ?>,
+							iconPath: 'images/dcsns-dark/',
+							imagePath: 'images/dcsns-dark/'
+						});
+									 
 					});
-								 
-				});
-			</script>
-
-		<?php } else if($social_channel=='flickr') { ?>
-			
-			<script type="text/javascript">
-				jQuery(document).ready(function($){
-					$('#social-stream').dcSocialStream({
-						feeds: {
-							flickr: {
-								id: '<?=$social_feed_channel["flickr"]?>'
-							}
-						},
-						rotate: {
-							delay: 0
-						},
-						control: false,
-						filter: false,
-						wall: false,
-						order: 'date',
-						max: 'limit',
-						limit: 5,
-						iconPath: 'images/dcsns-dark/',
-						imagePath: 'images/dcsns-dark/'
+				</script>
+			<?php } else if($social_channel=='flickr') { ?>
+				<script type="text/javascript">
+					jQuery(document).ready(function($){
+						$('#<?=$social_feed_id?>').dcSocialStream({
+							feeds: {
+								flickr: {
+									id: '<?=$social_feed_channel["flickr"]?>'
+								}
+							},
+							rotate: {
+								delay: 0
+							},
+							control: false,
+							filter: false,
+							wall: false,
+							order: 'date',
+							max: 'limit',
+							limit: <?php echo($social_feed_num_items); ?>,
+							iconPath: 'images/dcsns-dark/',
+							imagePath: 'images/dcsns-dark/'
+						});
+									 
 					});
-								 
-				});
-			</script>
-
-		<?php } else if($social_channel=='instagram') { ?>
-
-			<script type="text/javascript">
-				jQuery(document).ready(function($){
-					$('#social-stream').dcSocialStream({
-						feeds: {
-							flickr: {
-								id: '<?=$social_feed_channel["instagram"]?>',
-								accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
-								clientId: '992187b36560494abe8ea63eebf2c9c3',
-								thumb: 'thumbnail',
-								comments: 3,
-								likes: 10
-							}
-						},
-						rotate: {
-							delay: 0
-						},
-						control: false,
-						filter: false,
-						wall: false,
-						order: 'date',
-						max: 'limit',
-						limit: 5,
-						iconPath: 'images/dcsns-dark/',
-						imagePath: 'images/dcsns-dark/'
+				</script>
+			<?php } else if($social_channel=='instagram') { ?>
+				<script type="text/javascript">
+					jQuery(document).ready(function($){
+						$('#<?=$social_feed_id?>').dcSocialStream({
+							feeds: {
+								flickr: {
+									id: '<?=$social_feed_channel["instagram"]?>',
+									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
+									clientId: '992187b36560494abe8ea63eebf2c9c3',
+									thumb: 'thumbnail',
+									comments: 3,
+									likes: 10
+								}
+							},
+							rotate: {
+								delay: 0
+							},
+							control: false,
+							filter: false,
+							wall: false,
+							order: 'date',
+							max: 'limit',
+							limit: <?php echo($social_feed_num_items); ?>,
+							iconPath: 'images/dcsns-dark/',
+							imagePath: 'images/dcsns-dark/'
+						});
+									 
 					});
-								 
-				});
-			</script>
+				</script>
+			<?php } 
 
-		<?php } 
+		}
 	?>
 	
 	<script type="text/javascript" src="/js/social/custom.js"></script>
