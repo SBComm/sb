@@ -14,7 +14,8 @@ if($social_feed_widget) { ?>
 	<?php
 		$social_feeds = '';
 		for($i=0; $i<$social_feed_widget_num; $i++) {
-
+			echo('num: '.$social_feed_widget_num);
+			echo('chan: '.$social_feed_channel["twitter"]);
 			if($social_channel=='twitter') { ?>
 				<script type="text/javascript">
 					$(document).ready(function($){
