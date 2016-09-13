@@ -269,7 +269,7 @@
 						$('#social-stream').dcSocialStream({
 							feeds: {
 								twitter: {
-									id: 'stonybrooku,sbubuzz,PresStanley,sbunewsdesk',
+									id: 'stonybrooku,sbubuzz,sbunewsdesk',
 									thumb: true,
 									url: 'social/v2/twitter.php'
 								},
