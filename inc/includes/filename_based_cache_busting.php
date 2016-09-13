@@ -29,22 +29,6 @@
         $extras = '';
         if($GLOBALS['filename_based_cache_busting']) {
             $asset_path = $GLOBALS['working_path_asset_dir'] . '/' . $filename;
-            /* echo $filename . '<br />';
-            echo $asset_path . '<br />';
-            echo 'fexists: ' . file_exists($asset_path) . '<br />';
-            echo 'fexists: ' . file_exists('far-beyond/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('../far-beyond/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('/far-beyond/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('/user/far-beyond/www/sb/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('user/far-beyond/www/sb/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('/far-beyond/www/sb/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('far-beyond/www/sb/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('/www/sb/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('www/sb/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('/sb/css/vendor/normalize.min.css') . '<br />';
-            echo 'fexists: ' . file_exists('sb/css/vendor/normalize.min.css') . '<br />'; */
             if(file_exists($asset_path)) {
                 clearstatcache();
                 $lastModDate = filemtime($asset_path);
