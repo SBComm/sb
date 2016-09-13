@@ -50,7 +50,8 @@ if($social_feed_widget) { ?>
 							feeds: {
 								facebook: {
 									id: '<?=$social_feed_channel[$i]?>',
-									out: 'intro,share,title,user',
+									intro: '',
+									search: '',
 									text: 'contentSnippet',
 									url: '/social/v2/facebook.php'
 								}
@@ -77,7 +78,8 @@ if($social_feed_widget) { ?>
 						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
 								flickr: {
-									id: '<?=$social_feed_channel[$i]?>'
+									id: '<?=$social_feed_channel[$i]?>',
+									intro: ''
 								}
 							},
 							rotate: {
@@ -100,14 +102,67 @@ if($social_feed_widget) { ?>
 					jQuery(document).ready(function($){
 						$('#social-stream-<?=$i?>').dcSocialStream({
 							feeds: {
-								flickr: {
+								instagram: {
 									id: '<?=$social_feed_channel[$i]?>',
+									intro: '',
 									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
 									clientId: '992187b36560494abe8ea63eebf2c9c3',
 									thumb: 'thumbnail',
 									comments: 3,
 									likes: 10
 								}
+							},
+							rotate: {
+								delay: 0
+							},
+							control: false,
+							filter: false,
+							wall: false,
+							order: 'date',
+							max: 'limit',
+							limit: <?php echo($social_feed_num_items[$i]); ?>,
+							iconPath: 'images/dcsns-dark/',
+							imagePath: 'images/dcsns-dark/'
+						});
+									 
+					});
+				</script>
+			<?php } else if($social_channel[$i]=='youtube') { ?>
+				<script type="text/javascript">
+					jQuery(document).ready(function($){
+						$('#social-stream-<?=$i?>').dcSocialStream({
+							feeds: {
+								youtube: {
+									id: '<?=$social_feed_channel[$i]?>',
+									intro: '',
+									thumb: 'default'
+								}
+							},
+							rotate: {
+								delay: 0
+							},
+							control: false,
+							filter: false,
+							wall: false,
+							order: 'date',
+							max: 'limit',
+							limit: <?php echo($social_feed_num_items[$i]); ?>,
+							iconPath: 'images/dcsns-dark/',
+							imagePath: 'images/dcsns-dark/'
+						});
+									 
+					});
+				</script>
+			<?php } else if($social_channel[$i]=='rss') { ?>
+				<script type="text/javascript">
+					jQuery(document).ready(function($){
+						$('#social-stream-<?=$i?>').dcSocialStream({
+							feeds: {
+								rss: {
+									id: '<?=$social_feed_channel[$i]?>',
+									intro: '',
+									url: '/social/v2/rss.php'
+								},
 							},
 							rotate: {
 								delay: 0
