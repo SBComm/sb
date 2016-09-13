@@ -3412,7 +3412,8 @@ body {
         padding: 0 10px 0 0;
     }
 
-    .tweets-and-news .stream .twitter-user {
+    .tweets-and-news .stream .twitter-user,
+    .social-snippet_facebook .stream .section-user {
         display: block;
         padding: 4px 0 15px;
         font-size: 1.05em;
@@ -3430,10 +3431,13 @@ body {
         line-height: 1.4em;
     }
 
-    .tweets-and-news .stream .twitter-user strong {
+    .tweets-and-news .stream .twitter-user strong,
+    .social-snippet_facebook .stream .section-user a,
+    .social-snippet_instagram .stream .section-user a {
         display: block;
         color: #000;
         font-size: 1.2em;
+        font-weight: 600;
     }
 
     .tweets-and-news .stream .section-intro {
