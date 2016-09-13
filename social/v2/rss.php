@@ -1,8 +1,4 @@
 <?php
-// allow script on stonybrook.edu
-header('Access-Control-Allow-Origin: http://www.stonybrook.edu');
-header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
-
 ini_set('display_errors', '0');
 error_reporting(E_ALL | E_STRICT);
 
@@ -27,6 +23,17 @@ if($type == 'pinterest')
 	$feed_url = 'http://' . $page_id;
 	
 }
+
+$opts = array(
+	"ssl"=>array(
+		"cafile" => "/usr/local/ssl/certs/cacert.pem",
+		"verify_peer"=> true,
+		"verify_peer_name"=> true,
+	)
+);
+
+$context = stream_context_create($opts);
+libxml_set_streams_context($context);
 
 $feed->load($feed_url);
 $count = 0;
