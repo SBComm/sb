@@ -823,7 +823,8 @@
 								st = dl.useTitle;
 								break;
 							}
-							icon = '<a href="'+href+'"><span class="socicon socicon-'+type+'"></span></a>';
+							//icon = '<a href="'+href+'"><span class="socicon socicon-'+type+'"></span></a>';
+							icon = '<a href="'+href+'"><i class="font-icon fa fa-'+ type +'"></i></a>';
 							if(type == 'twitter'){
 								var intent = 'https://twitter.com/intent/';
 								s = '<a href="'+intent+'tweet?in_reply_to='+sq+'&via='+opt.twitterId+'" class="share-reply"></a>';
