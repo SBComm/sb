@@ -36,8 +36,8 @@
         <div class="item clearfix">
             <div class="text-wrapper">
                 <p class="equal-col">
-                    <span class="stat"><em>Top 40</em> public<br />university</span>
-                    <span class="source">~US News</span>
+                    <span class="stat"><em>Top 1%</em> in the <br />world</span>
+                    <span class="source">~Center for World University Rankings</span>
                 </p>
             </div>
             <div class="image-wrapper">

@@ -50,7 +50,7 @@ if($social_feed_widget) { ?>
 							feeds: {
 								facebook: {
 									id: '<?=$social_feed_channel[$i]?>',
-									text: 'contentSnippet'
+									text: 'intro,thumb,text'
 								}
 							},
 							rotate: {
