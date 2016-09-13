@@ -259,10 +259,6 @@
 		<!-- BEGIN Page Specific Includes -->
 		<?php if($page_type=='social-hub') { ?>
 
-			<!--<?php includeAsset('js','js/social/jquery.social.stream.wall.1.3.js'); ?>
-			<?php includeAsset('js','js/social/jquery.social.stream.1.5.4.js'); ?>
-			<?php includeAsset('js','js/social/preload-messages.js'); ?>-->
-
 			<?php includeAsset('js','js/social-v2/js/jquery.social.stream.wall.1.7.js'); ?>
 			<?php includeAsset('js','js/social-v2/js/jquery.social.stream.1.6.js'); ?>
 			<?php includeAsset('js','js/social/preload-messages.js'); ?>
