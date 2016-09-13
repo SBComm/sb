@@ -71,7 +71,7 @@ $site_status = array(
     'maps-and-directions'   => 'in_CMS',
     'privacy'               => 'in_CMS',
     'resources'             => 'in_CMS',
-    'site-directory'        => 'in_transition',
+    'site-directory'        => 'in_CMS',
     'summer-session'        => 'in_CMS'
 );
 
