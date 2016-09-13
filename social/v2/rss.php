@@ -1,4 +1,8 @@
 <?php
+// allow script on stonybrook.edu
+header('Access-Control-Allow-Origin: http://www.stonybrook.edu');
+header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
+
 ini_set('display_errors', '0');
 error_reporting(E_ALL | E_STRICT);
 
