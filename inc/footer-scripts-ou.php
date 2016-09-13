@@ -25,7 +25,7 @@ if($social_feed_widget) { ?>
 									search: '',
 									out: 'intro,thumb,text',
 									thumb: true,
-									url: 'social/v2/twitter.php'
+									url: '/social/v2/twitter.php'
 								}
 							},
 							rotate: {
@@ -52,7 +52,7 @@ if($social_feed_widget) { ?>
 									id: '<?=$social_feed_channel[$i]?>',
 									out: 'intro,share,title,user',
 									text: 'contentSnippet',
-									url: 'social/v2/facebook.php'
+									url: '/social/v2/facebook.php'
 								}
 							},
 							rotate: {
