@@ -259,10 +259,12 @@
 		<!-- BEGIN Page Specific Includes -->
 		<?php if($page_type=='social-hub') { ?>
 
-			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
-			<?php includeAsset('js','js/social/jquery.site.js'); ?>
-			<?php includeAsset('js','js/social/jquery.social.stream.wall.1.3.js'); ?>
+			<!--<?php includeAsset('js','js/social/jquery.social.stream.wall.1.3.js'); ?>
 			<?php includeAsset('js','js/social/jquery.social.stream.1.5.4.js'); ?>
+			<?php includeAsset('js','js/social/preload-messages.js'); ?>-->
+
+			<?php includeAsset('js','js/social-v2/js/jquery.social.stream.wall.1.7.js'); ?>
+			<?php includeAsset('js','js/social-v2/js/jquery.social.stream.1.6.js'); ?>
 			<?php includeAsset('js','js/social/preload-messages.js'); ?>
 
 			<script type="text/javascript">
@@ -272,14 +274,17 @@
 							feeds: {
 								twitter: {
 									id: 'stonybrooku,sbubuzz,PresStanley,sbunewsdesk',
-									thumb: true
+									thumb: true,
+									url: 'social/v2/twitter.php'
 								},
 								rss: {
-									id: '//sb.cc.stonybrook.edu/news/_resources/rss/all.rss'
+									id: 'http://sb.cc.stonybrook.edu/news/_resources/rss/all.rss',
+									url: 'social/v2/rss.php'
 								},
 								facebook: {
 									id: '30450493231,218862101583940',
-									text: 'contentSnippet'
+									text: 'contentSnippet',
+									url: 'social/v2/facebook.php'
 								},
 								youtube: {
 									id: 'sbcomm,UCbOzIblxmg-Ing9NSEms8Tw',
@@ -287,6 +292,7 @@
 								},
 								pinterest: {
 									id: 'stonybrooku',
+									url: 'social/v2/rss.php'
 								},
 								flickr: {
 									id: '37984249@N06,101383158@N02'
