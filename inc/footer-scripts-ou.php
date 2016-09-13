@@ -6,9 +6,9 @@ echo 'social_feed_widget: '.$social_feed_widget;
 echo 'social_channel_id: '.$social_channel_id;
 */
 if($social_feed_widget) { ?>
-	<script src="js/social-v2/js/jquery.social.stream.wall.1.7.js"></script>
-	<script src="js/social-v2/js/jquery.social.stream.1.6.js"></script>
-	<?php includeAsset('js','js/social/preload-messages.js'); ?>
+	<script src="/js/social-v2/js/jquery.social.stream.wall.1.7.js"></script>
+	<script src="/js/social-v2/js/jquery.social.stream.1.6.js"></script>
+	<?php includeAsset('js','/js/social/preload-messages.js'); ?>
 
 	<?php
 		$social_feeds = '';
@@ -25,7 +25,7 @@ if($social_feed_widget) { ?>
 									search: '',
 									out: 'intro,thumb,text',
 									thumb: true,
-									url: 'http://www/stonybrook.edu/social/v2/twitter.php'
+									url: '/social/v2/twitter.php'
 								}
 							},
 							rotate: {
@@ -52,7 +52,7 @@ if($social_feed_widget) { ?>
 									id: '<?=$social_feed_channel[$i]?>',
 									out: 'intro,share,title,user',
 									text: 'contentSnippet',
-									url: 'http://www/stonybrook.edu/social/v2/facebook.php'
+									url: '/social/v2/facebook.php'
 								}
 							},
 							rotate: {
