@@ -3487,7 +3487,8 @@ body {
 
     .social-snippet_facebook .stream li .inner,
     .social-snippet_instagram .stream li .inner,
-    .social-snippet_flickr .stream li .inner {
+    .social-snippet_flickr .stream li .inner,
+    .social-snippet_youtube .stream li .inner {
         padding-top: 40px;
         display: block;
     }
@@ -3500,12 +3501,14 @@ body {
         text-align: right;
     }
 
-    .social-snippet_flickr .stream .section-intro {
+    .social-snippet_flickr .stream .section-intro,
+    .social-snippet_youtube .stream .section-intro {
         text-align: left;
         padding-left: 40px
     }
 
-    .social-snippet_flickr .stream .section-intro + a {
+    .social-snippet_flickr .stream .section-intro + a,
+    .social-snippet_youtube .stream .section-intro + a {
         display: block;
         position: absolute;
         top: 5px;
@@ -3513,13 +3516,14 @@ body {
         left: 0;
         padding: 0 0 0 2px;
     }
-
-
-    .tweets-and-news .stream .section-intro a {
+    
+    .tweets-and-news .stream .section-intro span,
+    .social-snippet .stream .section-intro span {
         color: #888;
-        font-size: .85em;
+        font-size: .8rem;
         font-family: 'Effra W01';
         font-style: italic;
+        padding: 0 3px 0 0;
     }
 
     .tweets-and-news .stream a:hover,
