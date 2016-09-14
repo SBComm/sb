@@ -3505,7 +3505,8 @@ body {
     .social-snippet_rss .stream .section-title {
         max-width: 70%;
     }
-
+    
+    .social-snippet_youtube .stream .section-title a,
     .social-snippet_rss .stream .section-title a {
         color: #000;
     }
@@ -3514,7 +3515,8 @@ body {
         padding-bottom: 0;
     }
 
-    .social-snippet_rss .stream .section-user {
+    .social-snippet_rss .stream .section-user,
+    .social-snippet_youtube .stream .section-user {
         display: none;
     }
 
