@@ -3411,7 +3411,7 @@ body {
     }
 
     .social-snippet .stream li:nth-child(even) {
-        background: #eeecec;
+        background: #f7f7f7;
     }
 
     .tweets-and-news .stream .section-thumb {
@@ -3545,7 +3545,7 @@ body {
         font-family: "Museo Slab W01", "Times", serif;
         font-weight: 200;
         font-style: normal;
-        color: #808080;
+        color: #900;
         font-size: 0.875rem;
         margin: 0 4px 0 0;
     }
