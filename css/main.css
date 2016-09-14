@@ -3462,7 +3462,7 @@ body {
         height: 0;
         border-style: solid;
         border-width: 21px 0 21px 36.4px;
-        border-color: transparent transparent transparent #990000;
+        border-color: transparent transparent transparent #900;
     }
 
     .social-snippet_youtube .stream .section-thumb a:before {
@@ -3475,7 +3475,15 @@ body {
         height: 0;
         border-style: solid;
         border-width: 26px 0 26px 44.8px;
-        border-color: transparent transparent transparent #ffffff;
+        border-color: transparent transparent transparent #900;
+    }
+
+    .social-snippet_youtube .stream .section-thumb a:hover:before {
+        border-color: transparent transparent transparent #900;
+    }
+
+    .social-snippet_youtube .stream .section-thumb a:hover:after {
+        border-color: transparent transparent transparent #fff;
     }
 
 
