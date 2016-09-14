@@ -62,7 +62,7 @@ if($social_feed_widget) { ?>
 							control: false,
 							filter: false,
 							wall: false,
-							image_width: 3, //3 = 600 4 = 480 5 = 320 6 = 180
+							image_width: 6, //3 = 600 4 = 480 5 = 320 6 = 180
 							order: 'date',
 							max: 'limit',
 							limit: <?php echo($social_feed_num_items[$i]); ?>,
@@ -88,6 +88,7 @@ if($social_feed_widget) { ?>
 							control: false,
 							filter: false,
 							wall: false,
+							image_width: 6, //3 = 600 4 = 480 5 = 320 6 = 180
 							order: 'date',
 							max: 'limit',
 							limit: <?php echo($social_feed_num_items[$i]); ?>,
