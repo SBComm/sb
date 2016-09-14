@@ -23,7 +23,7 @@ if($social_feed_widget) { ?>
 									id: '<?=$social_feed_channel[$i]?>',
 									intro: '',
 									search: '',
-									out: 'intro,thumb,text',
+									out: 'intro,thumb,text,share',
 									thumb: true,
 									url: '/social/v2/twitter.php'
 								}
