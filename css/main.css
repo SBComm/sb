@@ -3406,6 +3406,14 @@ body {
         text-shadow: none;
     }
 
+    .social-snippet .stream li {
+        padding: 8px 10px;
+    }
+
+    .social-snippet .stream li:nth-child(even) {
+        background: #eeecec;
+    }
+
     .tweets-and-news .stream .section-thumb {
         display: inline-block;
         float: left;
@@ -3480,8 +3488,8 @@ body {
     .social-snippet_instagram .stream .section-user {
         display: block;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 10px;
+        left: 10px;
         z-index: 1;
     }
 
@@ -3516,6 +3524,14 @@ body {
     .social-snippet_youtube .stream li .inner {
         padding-top: 40px;
         display: block;
+    }
+
+    .social-snippet .stream .section-share {
+        opacity: 0;
+    }
+
+    .social-snippet .stream li:hover .section-share {
+        opacity: 1;
     }
 
     .social-snippet .stream .section-share {
@@ -3571,7 +3587,7 @@ body {
         font-size: .8rem;
         font-family: 'Effra W01';
         font-style: italic;
-        padding: 0 3px 0 0;
+        padding: 0 15px 0 0;
     }
 
     .tweets-and-news .stream a:hover,
