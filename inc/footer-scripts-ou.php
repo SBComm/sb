@@ -135,7 +135,6 @@ if($social_feed_widget) { ?>
 							feeds: {
 								youtube: {
 									id: '<?=$social_feed_channel[$i]?>',
-									intro: '',
 									thumb: 'default'
 								}
 							},
