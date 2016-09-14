@@ -3506,12 +3506,39 @@ body {
         padding-bottom: 0;
     }
 
+    .social-snippet_rss .stream .section-user {
+        display: none;
+    }
+
     .social-snippet_facebook .stream li .inner,
     .social-snippet_instagram .stream li .inner,
     .social-snippet_flickr .stream li .inner,
     .social-snippet_youtube .stream li .inner {
         padding-top: 40px;
         display: block;
+    }
+
+    .social-snippet .stream .section-share {
+        display: block;
+        margin: 10px 0 0;
+        font-size: 1rem;
+    }
+
+    .social-snippet .stream .section-share:before {
+        content: "Share:";
+        font-family: "Museo Slab W01", "Times", serif;
+        font-weight: 200;
+        font-style: normal;
+        color: #808080;
+        font-size: 0.875rem;
+        margin: 0 4px 0 0;
+    }
+
+    .social-snippet .stream .section-share a {
+        display: inline-block;
+        margin: 0 4px 0 0;
+        font-size: 1.1rem;
+        line-height: 1rem;
     }
 
     .tweets-and-news .stream .section-intro {

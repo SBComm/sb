@@ -1195,10 +1195,10 @@
 		
 		function share(st,sq,twitterId){
 			var s = '', sq = encodeURIComponent(sq), st = encodeURIComponent(st);
-			s = '<a href="http://www.facebook.com/sharer.php?u='+sq+'&t='+st+'" class="share-facebook" target="_blank"></a>';
-			s += '<a href="https://twitter.com/share?url='+sq+'&text='+st+'&via='+twitterId+'" class="share-twitter" target="_blank"></a>';
-			s += '<a href="https://plus.google.com/share?url='+sq+'" class="share-google" target="_blank"></a>';
-			s += '<a href="http://www.linkedin.com/shareArticle?mini=true&url='+sq+'&title='+st+'" class="share-linkedin" target="_blank"></a>';
+			s = '<a href="http://www.facebook.com/sharer.php?u='+sq+'&t='+st+'" class="share-facebook fa fa-facebook-official" target="_blank"></a>';
+			s += '<a href="https://twitter.com/share?url='+sq+'&text='+st+'&via='+twitterId+'" class="share-twitter fa fa-twitter-square" target="_blank"></a>';
+			s += '<a href="https://plus.google.com/share?url='+sq+'" class="share-google fa fa-google-plus-square" target="_blank"></a>';
+			s += '<a href="http://www.linkedin.com/shareArticle?mini=true&url='+sq+'&title='+st+'" class="share-linkedin fa fa-linkedin-square" target="_blank"></a>';
 			return s;
         }
 })(jQuery);
