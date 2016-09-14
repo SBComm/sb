@@ -634,11 +634,13 @@
 								break;
 								
 								case 'youtube':
-								x =	item.snippet.title;
+								//2016.09.14 Josh Palmeri
+								//x =	item.snippet.title;
 								var vidId = cq.length > 1 ? item.id.videoId : item.snippet.resourceId.videoId ;
 								var ytthumb = o.thumb == '0' ? 'medium' : o.thumb ;
 								q = 'https://www.youtube.com/watch?v='+vidId+'&feature=youtube_gdata';
 								sq = q;
+								x =	'<a href="'+q+'" title="'+item.snippet.title+'">'+item.snippet.title+'</a>';
 								if(item.snippet.thumbnails){
 									y = '<a href="'+q+'" title="'+item.snippet.title+'"><img src="'+item.snippet.thumbnails[ytthumb].url+'" alt="" /></a>';
 								} else {
@@ -646,7 +648,7 @@
 								}
 								z = o.text > 0 ? cut(item.snippet.description,o.text) : item.snippet.description ;
 								d = item.snippet.publishedAt;
-								var profile = 'Youtube';
+								var profile = 'YouTube';
 								if(cq.length > 1){
 									profile = decodeURIComponent(id);
 								} else if(cp.length > 1){
@@ -654,9 +656,9 @@
 								} else if(cc.length > 1){
 									profile = cc[0];
 								}
+								u='<a href="'+href+'" class="link-user">'+profile+'</a>';
 								//2016.09.14 Josh Palmeri
-								//u='<a href="'+href+'" class="link-user">'+profile+'</a>';
-								u=' <a href="'+href+'" class="link-user">Watch on YouTube</a>';
+								//u=' <a href="'+q+'" class="link-user">Watch on YouTube</a>';
 								st = item.snippet.title + ' ';
 								break;
 								
