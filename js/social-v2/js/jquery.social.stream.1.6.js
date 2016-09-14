@@ -654,7 +654,7 @@
 									profile = cc[0];
 								}
 								//u='<a href="'+href+'" class="link-user">'+profile+'</a>';
-								u=' <a href="'+href+'" class="link-user">'+Watch on Youtube+'</a>';
+								u=' <a href="'+href+'" class="link-user">Watch on YouTube</a>';
 								st = item.snippet.title + ' ';
 								break;
 								
