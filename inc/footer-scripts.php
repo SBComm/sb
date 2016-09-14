@@ -283,7 +283,7 @@
 									url: 'social/v2/facebook.php'
 								},
 								youtube: {
-									id: 'sbcomm,UCbOzIblxmg-Ing9NSEms8Tw',
+									id: 'stonybrook,UCbOzIblxmg-Ing9NSEms8Tw',
 									thumb: 'default'
 								},
 								pinterest: {
