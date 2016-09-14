@@ -3409,7 +3409,7 @@ body {
     .tweets-and-news .stream .section-thumb {
         display: inline-block;
         float: left;
-        padding: 0 10px 0 0;
+        padding: 0 12px 6px 0;
     }
 
     .social-snippet_facebook .stream .section-thumb,
@@ -3483,6 +3483,14 @@ body {
         top: 0;
         left: 0;
         z-index: 1;
+    }
+
+    .social-snippet_youtube .stream .section-title {
+        font-weight: 800;
+        display: block;
+        margin: 0 0 10px;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
     }
 
     .social-snippet_facebook .stream li .inner,
