@@ -660,7 +660,11 @@
 								case 'flickr':
 								d = parseTwitterDate(item.published);
 								x =	item.title;
-								y = '<a href="' + q + '" title="'+ item.title +'"><img src="' + item.media.m + '" alt="" /></a>';
+								//y = '<a href="' + q + '" title="'+ item.title +'"><img src="' + item.media.m + '" alt="" /></a>';
+								//Added 2016.09.14 Josh Palmeri
+								var flickrImage = item.media.m;
+								var flickrImageLg = flickrImage.replace(/_m./i,'_z.');
+								y = '<a href="' + q + '" title="'+ item.title +'"><img src="' + flickrImageLg + '" alt="" /></a>';
 								break;
 								
 								case 'lastfm':
