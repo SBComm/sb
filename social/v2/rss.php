@@ -60,7 +60,7 @@ foreach($items as $item) {
    
    
    $standardimage = $item->getElementsByTagName('standardimage')->item(0)->firstChild->nodeValue;
-   $link = $item->getElementsByTagName('guid')->item(0)->firstChild->nodeValue;  
+   $link = isset($item->getElementsByTagName('guid')->item(0)->firstChild->nodeValue) ? $item->getElementsByTagName('guid')->item(0)->firstChild->nodeValue : $item->getElementsByTagName('link')->item(0)->firstChild->nodeValue;
    $publishedDate = $item->getElementsByTagName('pubDate')->item(0)->firstChild->nodeValue;
    
    $json['item'][$count] = array("title"=>$title,"description"=>$description,"link"=>$link,"publishedDate"=>$publishedDate,"text"=>$clear,"feedTitle"=>$feed_title,"image"=>$image);

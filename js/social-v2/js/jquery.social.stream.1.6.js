@@ -615,7 +615,9 @@
 								break;
 								
 								case 'rss':
-								z = item.text;
+								//2016.09.14 Josh Palmeri
+								//z = item.text;
+								z = item.text + ' <a href="'+q+'" class="link-user" target="_blank">Read More...</a>';
 								var src = item.image;
 								y = src ? '<a href="'+q+'"><img src="'+src+'" alt="" /></a>' : '' ;
 								break;
@@ -628,7 +630,6 @@
 								}
 								
 								y = src ? '<a href="'+q+'"><img src="'+res+'" alt="" /></a>' : '' ;
-								z = item.text;
 								st = z;
 								break;
 								
@@ -653,6 +654,7 @@
 								} else if(cc.length > 1){
 									profile = cc[0];
 								}
+								//2016.09.14 Josh Palmeri
 								//u='<a href="'+href+'" class="link-user">'+profile+'</a>';
 								u=' <a href="'+href+'" class="link-user">Watch on YouTube</a>';
 								st = item.snippet.title + ' ';
