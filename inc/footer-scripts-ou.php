@@ -24,6 +24,7 @@ if($social_feed_widget) { ?>
 									intro: '',
 									search: '',
 									out: 'intro,thumb,text,share',
+									feed: 'posts',
 									thumb: true,
 									url: '/social/v2/twitter.php'
 								}
