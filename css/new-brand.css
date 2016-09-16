@@ -589,6 +589,10 @@ ul.three-col-list {
         margin: 0 1%;
         display: inline-block;
     }
+
+    ul.three-col-list .key-icons--icon {
+        display: none;
+    }
 }
 
 /* Key badges */
