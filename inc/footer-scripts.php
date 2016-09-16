@@ -280,6 +280,7 @@
 								facebook: {
 									id: '30450493231,218862101583940',
 									text: 'contentSnippet',
+									feed: 'posts',
 									url: 'social/v2/facebook.php'
 								},
 								youtube: {
@@ -297,7 +298,7 @@
 									id: '!46695629,!320497946',
 									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
 									clientId: '992187b36560494abe8ea63eebf2c9c3',
-									thumb: 'thumbnail',
+									thumb: 'standard_resolution',
 									comments: 3,
 									likes: 10
 								}
@@ -328,6 +329,7 @@
 								},
 								facebook: {
 									id: '43925669753',
+									feed: 'posts',
 									text: 'contentSnippet'
 								},
 								flickr: {
@@ -337,7 +339,7 @@
 									id: '!211449390',
 									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
 									clientId: '992187b36560494abe8ea63eebf2c9c3',
-									thumb: 'thumbnail',
+									thumb: 'standard_resolution',
 									comments: 3,
 									likes: 10
 								}

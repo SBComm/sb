@@ -109,7 +109,7 @@ if($social_feed_widget) { ?>
 									intro: '',
 									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
 									clientId: '992187b36560494abe8ea63eebf2c9c3',
-									thumb: 'thumbnail',
+									thumb: 'standard_resolution',
 									comments: 3,
 									likes: 10
 								}
