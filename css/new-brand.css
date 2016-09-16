@@ -590,7 +590,7 @@ ul.three-col-list {
         display: inline-block;
     }
 
-    ul.three-col-list .key-icons--icon {
+    .site-directory ul.three-col-list .key-icons--icon {
         display: none;
     }
 }
