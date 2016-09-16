@@ -24,7 +24,6 @@ if($social_feed_widget) { ?>
 									intro: '',
 									search: '',
 									out: 'intro,thumb,text,share',
-									feed: 'posts',
 									thumb: true,
 									url: '/social/v2/twitter.php'
 								}
@@ -53,6 +52,7 @@ if($social_feed_widget) { ?>
 									id: '<?=$social_feed_channel[$i]?>',
 									intro: '',
 									search: '',
+									feed: 'posts',
 									text: 'contentSnippet',
 									url: '/social/v2/facebook.php'
 								}
