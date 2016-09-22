@@ -169,6 +169,11 @@
 					<span class="label clearfix">Campus<br />Maps</span>
 				</a>
 			</li>
+			<li>
+				<a href="visit#staying-here" class="clearfix">
+					<span class="label clearfix">Nearby<br />Accommodations</span>
+				</a>
+			</li>
 			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="04">
 				<a href="undergraduate-admissions/visit/coming-to-you" class="clearfix">
 					<span class="label clearfix">Coming to<br />You</span>
