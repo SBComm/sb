@@ -170,7 +170,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="visit#staying-here" class="clearfix">
+				<a href="visit#staying-here" class="clearfix" target="_blank">
 					<span class="label clearfix">Nearby<br />Hotels</span>
 				</a>
 			</li>
