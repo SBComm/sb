@@ -171,7 +171,7 @@
 			</li>
 			<li>
 				<a href="visit#staying-here" class="clearfix">
-					<span class="label clearfix">Nearby<br />Accommodations</span>
+					<span class="label clearfix">Nearby<br />Hotels</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="04">
