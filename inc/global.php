@@ -72,7 +72,8 @@ $site_status = array(
     'privacy'               => 'in_CMS',
     'resources'             => 'in_CMS',
     'site-directory'        => 'in_CMS',
-    'summer-session'        => 'in_CMS'
+    'summer-session'        => 'in_CMS',
+    'visit'                 => 'in_CMS'
 );
 
 // Define considerations; Comma-separated value for multiple considerations
