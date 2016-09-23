@@ -1,12 +1,12 @@
-<h2 class="red">Fall 2015 <span class="nowrap">Class Profile<em>*</em></span></h2>
+<h2 class="red">Fall 2016 <span class="nowrap">Class Profile<em>*</em></span></h2>
 <div class="carousel-wrapper">
     <div id="the-carousel-3" class="owl-carousel carousel-style-03">
         <div class="item first">
-            <span class="stat">90-96</span>
+            <span class="stat">90-97</span>
             <span class="label">High School<br />GPA (3.5-4.0)</span>
         </div>
         <div class="item">
-            <span class="stat">1170-1340</span>
+            <span class="stat">1170-1350</span>
             <span class="label">SAT Scores<br />(Math/Critical Reading)**</span>
         </div>
         <div class="item">
@@ -14,7 +14,7 @@
             <span class="label">SAT<br />Critical Reading**</span>
         </div>
         <div class="item">
-            <span class="stat">600-720</span>
+            <span class="stat">600-710</span>
             <span class="label">SAT<br />Math**</span>
         </div>
         <div class="item">

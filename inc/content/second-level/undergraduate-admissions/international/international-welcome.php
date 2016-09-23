@@ -66,17 +66,17 @@
             <ul class="clearfix">
                 <li class="clearfix"><span>1737</span> <em>International Undergrads</em></li>
                 <li class="clearfix"><span>109</span> <em>Countries</em></li>
-                <li class="clearfix"><span>90-96</span> <em>High School GPA</em></li>
+                <li class="clearfix"><span>90-97</span> <em>High School GPA (3.5-4.0)</em></li>
                 <li class="clearfix"><span>81-91</span> <em>TOEFL iBT</em></li>
-                <li class="clearfix"><span>600-720</span> <em>SAT scores: math</em></li>
+                <li class="clearfix"><span>600-710</span> <em>SAT scores: math</em></li>
                 <li class="clearfix"><span>550-660</span> <em>SAT scores: critical reading</em></li>
                 <li class="clearfix"><span>26-31</span> <em>ACT scores</em></li>
-                <li class="clearfix"><span>2836</span> <em>Full-time freshmen</em></li>
-                <li class="clearfix"><span>16,831</span> <em>Undergraduates</em></li>
-                <li class="clearfix"><span>25,272</span> <em>Total students</em></li>
+                <li class="clearfix"><span>2931</span> <em>Full-time freshmen</em></li>
+                <li class="clearfix"><span>17,026</span> <em>Undergraduates</em></li>
+                <li class="clearfix"><span>25,734</span> <em>Total students</em></li>
                 <li class="clearfix"><span>54:46%</span> <em>Males:Females</em></li>
             </ul>
-            <span class="note">*Academic figures reflect middle 50% of Fall 2015 Freshmen</span>
+            <span class="note">*Academic figures reflect middle 50% of Fall 2016 Freshmen</span>
         </div>
     </section>
 
