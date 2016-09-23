@@ -46,10 +46,6 @@
     		$social_sidebar   = 'admissions';
 
     		$inside_page = true;
-
-    		if($is_production_environment) {
-	            $content = "content_ou/";
-	        }
 		?>
 
 	<!-- <site config> -->
@@ -112,11 +108,6 @@
 		                <!-- <undergrad-admissions> -->
 							<?php 
 								$file = "undergraduate-admissions/academics/academics-honors.php";
-								
-
-    		if($is_production_environment) {
-	            $content = "content_ou/";
-	        }
 								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </undergrad-admissions> -->
