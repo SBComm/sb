@@ -73,7 +73,7 @@ $site_status = array(
     'resources'                 => 'in_CMS',
     'site-directory'            => 'in_CMS',
     'summer-session'            => 'in_CMS',
-    'undergraduate-admissions'  => 'in_CMS',
+    'undergrad-admissions'      => 'in_CMS',
     'visit'                     => 'in_CMS'
 );
 
