@@ -159,27 +159,32 @@
 					<span class="label clearfix">Campus<br />Tours</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==20) echo('selected'); ?>" data-li-order="02">
+			<li data-li-order="02">
+  				<a href="http://www.stonybrook.edu/commcms/redcarpet/" class="clearfix" target="_blank">
+  					<span class="label clearfix">Red Carpet Days</span>
+  				</a>
+  			</li>
+			<li class="<?php if($drop_nav_selected_tab==20) echo('selected'); ?>" data-li-order="03">
 				<a href="undergraduate-admissions/visit/directions-and-parking" class="clearfix">
 					<span class="label clearfix">Directions &amp; Parking</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==21) echo('selected'); ?>" data-li-order="03">
+			<li class="<?php if($drop_nav_selected_tab==21) echo('selected'); ?>" data-li-order="04">
 				<a href="undergraduate-admissions/visit/campus-maps" class="clearfix">
 					<span class="label clearfix">Campus<br />Maps</span>
 				</a>
 			</li>
 			<li>
-				<a href="visit#staying-here" class="clearfix" target="_blank">
+				<a href="visit#staying-here" class="clearfix" target="_blank" data-li-order="05">
 					<span class="label clearfix">Nearby<br />Hotels</span>
 				</a>
 			</li>
-			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="04">
+			<?php /*<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="05">
 				<a href="undergraduate-admissions/visit/coming-to-you" class="clearfix">
 					<span class="label clearfix">Coming to<br />You</span>
 				</a>
-			</li>
-			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="05" data-last-child="true" data-image="map">
+			</li>*/ ?>
+			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="06" data-last-child="true" data-image="map">
 				<a href="undergraduate-admissions/visit" class="clearfix">
 					<span class="label clearfix">Plan Your Visit</span>
 				</a>
