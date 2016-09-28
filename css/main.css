@@ -2959,8 +2959,8 @@ body {
 
     .social-sidebar .sidebar-wrapper {
         display: block;
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
+        margin: 0;
     }
     .social-sidebar a {
         width: 100%;
