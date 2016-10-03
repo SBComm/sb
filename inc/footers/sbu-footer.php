@@ -131,6 +131,9 @@
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/sustainability/" class="clearfix">Sustainability</a>
                         </li>
+                        <li class="clearfix">
+                            <a href="http://response.suny.edu" class="clearfix">Sexual Assault &amp; Violence Response Resources</a>
+                        </li>
                     </ul>
                 </div>
             </div>
