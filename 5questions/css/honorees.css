@@ -261,7 +261,8 @@
 
 .overlay-control {
 	display: inline-block;
-	font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-family: 'Effra W01';
+    font-weight: 500;
 	font-weight: normal;
     text-transform: none;
     color: #fff;
@@ -365,7 +366,7 @@
 	color: #fff;
 	text-decoration: none;
     font-family: 'Effra W01';
-    font-weight: 300;
+    font-weight: 400;
 	font-size: 1.1em;
 	padding: 10px 0;
 	width: 50%;
@@ -828,7 +829,8 @@
 	.overlay-control span {
 		line-height: 1;
 		text-transform: uppercase;
-		font-family: 'Trade Gothic Next W01';
+		font-family: 'Effra W01';
+		font-weight: 500;
 		font-size: .5em;
 		display: inline-block;
 		float: left;
@@ -1122,7 +1124,8 @@
 	.overlay-control span {
 		line-height: 1;
 		text-transform: uppercase;
-		font-family: 'Trade Gothic Next W01';
+		font-family: 'Effra W01';
+		font-weight: 500;
 		font-size: .5em;
 		display: inline-block;
 		float: left;
