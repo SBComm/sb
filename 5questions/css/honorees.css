@@ -1078,8 +1078,8 @@
 	}
 
 	.honoree-box .category {
-	    padding: 0;
-	    font-size: 1.1em;;
+	    padding: 0 5px;
+	    font-size: 1.1em;
 	    margin: 1em 0 0;
 	}
 	.honoree-box .category:before {
