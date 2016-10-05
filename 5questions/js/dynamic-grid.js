@@ -103,6 +103,12 @@ function setUpListeners() {
 	//back button to close overlay
 	$('.overlay-control.back').on('click',function(e) {
 		e.preventDefault();
+		//unser and reset video frame source to stop video play
+		var currentVideoFrame = $('.bio-overlay .video-wrapper iframe');
+		var currentVideoFrameSrc = currentVideoFrame.attr('src');
+		currentVideoFrame.attr('src','');
+		currentVideoFrame.attr('src',currentVideoFrameSrc);
+		//close overlay
 		closeItem($('.bio-overlay'));
 		bodyScroll();
 		var category = ($('.overlay-controls h3').attr('data-category'));
