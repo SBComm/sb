@@ -792,19 +792,26 @@ a.sbu-button:active {
 
 h2.section-header {
     font-family:'Trade Gothic W01 Cn 18';
+    font-family: "Museo Slab W01", "Times", serif;
+    font-weight: 200;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: normal;
-    margin: 0;
+    margin: 20px 0 10px;
     padding: 0;
     background: #000;
     background: url('../img/rays/black-rays-full.jpg');
     background-size: cover;
     background-attachment: fixed;
-    color: #fff;
+    color: #bebebe;
     line-height: 1;
     text-align: center;
     position: relative;
+}
+
+h2.section-header span {
+    font-family: "Museo Slab W01", "Times", serif;
+    font-weight: 200;
 }
 
 h2.section-header .year {

@@ -110,6 +110,9 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 	font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-family: 'Effra W01';
+    font-weight: 500;
+    letter-spacing: 0;
     font-size: 1.3em;
 	text-transform: uppercase;
 }
@@ -120,6 +123,8 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Trade Gothic W01 Light';
+    font-family: 'Effra W01';
+    font-weight: 300;
     text-transform: uppercase;
     color: #fff;
     padding: 5px 0 0;
@@ -169,11 +174,13 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Trade Gothic W01 Bold 2';
+    font-family: 'Effra W01';
+    font-weight: 500;
     font-size: .9em;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     padding: 4px 0 0;
-    letter-spacing: 0.075em;
+    letter-spacing: 0.08em;
 }
 
 .view-label:after {
@@ -1065,7 +1072,7 @@
 	    font-size: 1.9em;
 	    width: 100%;
 	    margin: 0;
-	    letter-spacing: .03em;
+    	letter-spacing: 0;
 	    padding: 30% 0 0;
 	    text-rendering: optimizeLegibility;
 	}
@@ -1204,7 +1211,7 @@
 	    box-sizing: border-box;
 		width: 60%;
 		padding: 0 0 0 3%;
-		border-left: 1px solid #eaeaea
+		border-left: 2px solid #bebebe;
 	}
 
 	.featured-interview .bio-wrapper {
