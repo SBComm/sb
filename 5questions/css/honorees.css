@@ -322,7 +322,8 @@
 }
 
 .name-detail .name {
-	font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-family: 'Effra W01';
+    font-weight: 700;
 	font-size: 1.8em;
 	display: block;
 	width: 100%;
@@ -336,8 +337,9 @@
 
 .name-detail .name .year {
 	color: #fff;
-	font-family: 'Trade Gothic W01 Light';
-	letter-spacing: 0.03em;
+    font-family: 'Effra W01';
+    font-weight: 400;
+	letter-spacing: 0em;
 	font-size: 0.6em;
 	margin: 10px 0 0 0;
 	display: block;
@@ -362,7 +364,8 @@
     box-sizing: border-box;
 	color: #fff;
 	text-decoration: none;
-	font-family: 'Trade Gothic W01 Light';
+    font-family: 'Effra W01';
+    font-weight: 300;
 	font-size: 1.1em;
 	padding: 10px 0;
 	width: 50%;
@@ -466,10 +469,60 @@
 }
 
 .bio-text {
+	display: block;
+	float: left;
+	margin: 10px 0 0;
+}
+
+.bio-text p {
+    font-family: 'Effra W01';
+    font-weight: 400;
+}
+
+.bio-text,
+.related-tags {
     font-size: 1.2em;
     line-height: 1.8em;
     color: #fff;
-	font-family: 'Trade Gothic W01 Light';
+    font-family: 'Effra W01';
+    font-weight: 500;
+}
+
+.bio-text h3 {
+    font-family: 'Effra W01';
+    font-weight: 500;
+    border-bottom: 2px solid #bebebe;
+    padding: 0 0 5px;
+}
+
+.related-tags {
+	display: block;
+	float: left;
+	margin: 20px 0 0;
+}
+
+.related-tags span {
+	text-transform: none;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.related-tags a {
+    font-family: 'Effra W01';
+    font-family: 'Trade Gothic W01 Cn 18';
+    font-weight: 400;
+    display: inline-block;
+    float: left;
+    margin: 0 5px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+.related-tags a:hover {
+	background: #900;
 }
 
 .video-trigger {
@@ -824,7 +877,7 @@
 	.overlay .name-detail .name .year {
 		display: inline-block;
 		margin: 0;
-		font-size: .525em;
+		font-size: .5em;
 	}
 
 	.overlay .name-detail .social {
