@@ -39,7 +39,7 @@
 			foreach ($interviewList as $interview){
 				if($interview->INTERVIEW_ID == $bio_name) {
 					$og_title          = $interview->FULL_NAME;
-					$og_description    = urlencode($interview->SHORT_BIO_TEXT);
+					$og_description    = addslashes($interview->SHORT_BIO_TEXT);
 					$og_type           = 'website';
 					$og_url            = $interview->PROFILE_URL_ABSOLUTE;
 					$og_image          = $interview->PROFILE_IMAGE_URL_ABSOLUTE;
