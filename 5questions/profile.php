@@ -43,6 +43,7 @@
 					$og_type           = 'website';
 					$og_url            = $interview->PROFILE_URL_ABSOLUTE;
 					$og_image          = $interview->PROFILE_IMAGE_URL_ABSOLUTE;
+					break;
 				}
 				$k++;
 			}
