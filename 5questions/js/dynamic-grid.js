@@ -172,6 +172,10 @@ function setUpListeners() {
 		//ga('send', 'pageview', location.pathname);
 	});
 
+	$('.overlay .social-share a').on('click',function() {
+		window.open(this.href, "Share", "width=600, height=600");
+	});
+
 	$('.nivo-lightbox').nivoLightbox();
 }
 
