@@ -61,5 +61,10 @@ $(document).ready(function() {
 		closeItem($('.category-nav .close'));
 		bodyScroll();
 	});
+
+	$('.social-share a').on('click',function(e) {
+		e.preventDefault();
+		window.open(this.href, "Share", "width=600, height=600");
+	});
 	
 });
