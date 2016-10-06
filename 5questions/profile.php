@@ -38,7 +38,7 @@
 			$k = 0;
 			foreach ($interviewList as $interview){
 				if($interview->INTERVIEW_ID == $bio_name) {
-					$og_title          = $interview->FULL_NAME;
+					$og_title          = 'Watch ' . $interview->FULL_NAME . ' at Stony Brook University';
 					$og_description    = str_replace('"', '', $interview->SHORT_BIO_TEXT);
 					$og_type           = 'website';
 					$og_url            = $interview->PROFILE_URL_ABSOLUTE;
