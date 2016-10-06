@@ -27,6 +27,25 @@
 			$profile_page = true;
 		    $main_nav_selected = 1;
 		    $page_footer = false;
+			$html_dom_parser  = true;
+		    $bio_name = urlencode($_GET["name"]);
+		?>
+
+		<?php
+			//set og:meta tags based on profile
+			$interviewsXML = 'http://www.stonybrook.edu/5questions/_data/get-interviews.xml';
+			$interviewList = simplexml_load_file($interviewsXML);
+			$k = 0;
+			foreach ($interviewList as $interview){
+				if($interview->INTERVIEW_ID == $bio_name) {
+					$og_title          = $interview->FULL_NAME;
+					$og_description    = urlencode($interview->SHORT_BIO_TEXT);
+					$og_type           = 'website';
+					$og_url            = $interview->PROFILE_URL_ABSOLUTE;
+					$og_image          = $interview->PROFILE_IMAGE_URL_ABSOLUTE;
+				}
+				$k++;
+			}
 		?>
 
 	<!-- <head> -->
@@ -60,7 +79,7 @@
 							    <!-- <profile data> -->
 								    <?php
 								        
-								    if(!@include($root . "/" . $site . "/" . $program_year . "/people/".$_GET["name"].".php")) {
+								    if(!@include($root . "/" . $site . "/" . $program_year . "/people/".$bio_name.".php")) {
 								    	include($path . $content . "default-profile.php");
 								    } 
 								    ?>
