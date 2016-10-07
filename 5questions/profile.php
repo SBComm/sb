@@ -86,6 +86,13 @@
 								    ?>
 								<!-- </profile data> -->
 
+								<!-- <email-subscribe> -->
+								    <?php
+								        $file = "email-subscribe.php";
+								        include($path . $file);
+								    ?>
+								<!-- </email-subscribe> -->
+
 							</section>
 
 							<!-- <category-nav> -->
