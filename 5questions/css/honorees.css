@@ -1023,8 +1023,8 @@
 
 @media only screen and (min-width: 960px) {
 	.honorees-grid {
-	    padding-bottom: 66px;
-	    margin: 227px 0 0;
+		padding-bottom: 66px;
+		margin: 187px 0 0;
 	}
 	.honoree-box {
 	    position: relative;

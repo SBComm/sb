@@ -395,7 +395,7 @@ nav.home .trigger-label {
 
 	header .site-logo-wrapper {
 		display: block;
-    	width: 	160px;
+    	width: 109px;
     	position: relative;
     	margin: -10px auto 0;
     	float: none;
@@ -411,7 +411,7 @@ nav.home .trigger-label {
 
 	.site-logo-desktop:hover .site-logo-wrapper,
 	header.showing-all .site-logo-wrapper {
-		width: 210px;
+		width: 155px;
 		padding: 20px 70px 15px 70px;
 	}
 
@@ -488,7 +488,7 @@ nav.home .trigger-label {
     	display: block;
     	position: absolute;
     	left: 0;
-    	top: 162px;
+    	top: 122px;
     	right: 0;
     	margin: 0;
     	padding: 0;
