@@ -35,6 +35,8 @@
         <meta name="msapplication-TileImage" content="apple-touch-icon-144x144-precomposed.png">
     <!--END Cross-device Favicon code-->
 
+        <meta name="specificfeeds-verification-code" content="HkHZYNv62P0vlPLAZVA5"/>
+
     <!--BEGIN main CSS Includes-->
         <link rel="stylesheet" href="css/vendor/normalize.min.css">
         <?php includeAsset('css','plugins/nivo-lightbox/nivo-lightbox.css','all'); ?>
