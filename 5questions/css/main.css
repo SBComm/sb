@@ -788,6 +788,40 @@ a.sbu-button:active {
     background: #900;
 }
 
+.brand-button {
+    display: inline-block;
+    width: auto;
+    border: 2px solid #fff;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    word-spacing: .3em;
+    padding: 10px 15px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+.brand-button--hover-fill-white:hover {
+    background: #fff;
+    color: #4b4b4b;
+}
+
+.brand-button--red {
+    background: #900;
+    border-color: transparent;
+}
+
+.brand-button--red:hover {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
 /* Header */
 
 h2.section-header {
@@ -1562,6 +1596,53 @@ h2.section-header.on-grey .text {
     margin: 30px 0 10px;
 }
 
+/* email subscribe */
+
+.email-subscribe {
+    display: block;
+    width: 100%;
+    padding: 0 0 100px;
+    background: #000;
+    text-align: center;
+}
+
+.email-subscribe form {
+    max-width: 860px;
+    margin: 0 4%;
+}
+
+.email-subscribe h3 {
+    font-family: "Museo Slab W01", "Times", serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.email-subscribe input[type="text"],
+.email-subscribe input[type="email"] {
+    border: 0 none;
+    line-height: 1;
+    display: inline-block;
+    width: auto;
+    border: 2px solid #fff;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    color: #000;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid transparent;
+    width: 145px;
+}
+
+.email-subscribe input[type="text"]:focus,
+.email-subscribe input[type="email"]:focus {
+    border-color: #900;
+    color: #900;
+}
+
 /* footer */
 
 footer {
@@ -1687,7 +1768,7 @@ footer span a {
     }
 
 
-.inside-page p.text {
+    .inside-page p.text {
         font-size: 1.6em;
     }
 
@@ -1730,6 +1811,16 @@ footer span a {
 
     footer span {
         font-size: 1.2em;
+    }
+
+    .email-subscribe {
+        font-size: 1.2em;
+    }
+
+    .email-subscribe input[type="text"],
+    .email-subscribe input[type="email"] {
+        width: 45%;
+        max-width: 340px;
     }
 }
 
@@ -2369,6 +2460,14 @@ footer span a {
 
     footer {
         padding: 20px 10px 25px;
+    }
+
+    .email-subscribe {
+        padding: 0 0 50px;
+    }
+
+    .email-subscribe form {
+        margin: 0 auto;
     }
 
 }
