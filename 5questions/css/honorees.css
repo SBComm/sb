@@ -23,7 +23,8 @@
 }
 
 .featured-interview .name-text {
-	font-family: 'Trade Gothic W01 Cn 18';
+	font-family: 'Effra W01';
+    font-weight: 700;
 	text-transform: uppercase;
 	color: #fff;
 	display: block;

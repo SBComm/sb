@@ -586,6 +586,58 @@ table.tablesaw .tablesaw-cell-label {
     margin-top: 66px;
 }
 
+/* Image Splash */
+
+.intro-section--image {
+    background: url('../img/rays/black-rays-full.jpg');
+    background: url('../img/home/151130_Video-Link-Studio_020-bw-4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 7% 0 8%;
+}
+
+.q-logo-wrapper {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    padding: 0 0 2.2em;
+}
+
+.q-logo-wrapper img {
+    width: 40%;
+    max-width: 255px;
+}
+
+.intro-section_text {
+    display: block;
+    clear: both;
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    max-width: 500px;
+}
+
+.intro-section .brand-button {
+    width: 200px;
+    background: #900;
+    text-decoration: none;
+    border-color: #900;
+    font-size: 1.2rem;
+    margin: 1.8em auto;
+    float: none;
+    display: block;
+}
+
+.intro-section .brand-button:hover {
+    background: transparent;
+    border-color: #fff;
+}
+
 /* Fixed Positioning */
 
 .overlay-controls.stuck {
@@ -1679,7 +1731,111 @@ footer span a {
     text-decoration: underline;
 }
 
+/**
+ * CSS3 keyboard arrow keys
+ */
+
+.keyboard-arrow {
+    display: none;
+}
+
+.disable-scroll-mobile .keyboard-arrow {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    line-height: 240px;
+    background-color: #f1f1f1;
+    border: 15px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    font-size: 180px;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-name: showAndHideArrow;
+    animation-delay: .5s;
+    position: fixed;
+    z-index: 10;
+    top: 38%;
+    opacity: 0;
+}
+
+.keyboard-arrow:after {
+    display: block;
+    position: absolute;
+    content: "Use keyboard arrows to navigate";
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.keyboard-arrow_left {
+    left: 2%;
+}
+
+.keyboard-arrow_right {
+    right: 2%;
+}
+
+.keyboard-arrow li:nth-child(1) {
+    top: 8px;
+    left: 56px;
+    animation-name: clickUp;
+}
+
+.keyboard-arrow li:nth-child(2) {
+    left: 8px;
+    opacity: .3;
+}
+
+.keyboard-arrow li:nth-child(3) {
+    left: 56px;
+    animation-name: clickDown;
+    animation-delay: .75s}
+
+.keyboard-arrow li:nth-child(4) {
+    left: 104px;
+    opacity: .3;
+}
+
+@keyframes showAndHideArrow {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    5% {
+        display: none;
+        opacity: .3;
+    }
+    55% {
+        display: block;
+        opacity: .3;
+    }
+    100% {
+        display: none;
+        opacity: 0;
+    }
+}
+
 /* Media Queries */
+
+@media only screen and (max-width: 1700px) {
+
+    .keyboard-arrow_left {
+        left: 3.5%;
+    }
+
+    .keyboard-arrow_right {
+        right: 3.5%;
+    }
+
+}
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
     .hide-accessible-smaller {
@@ -1688,6 +1844,35 @@ footer span a {
         left: -99999px !important;
         width: 2000px;
         height: 2000px;
+    }
+}
+
+
+@media only screen and (min-width: 1270px) and (max-width: 1500px) {
+    .disable-scroll-mobile .keyboard-arrow {
+        width: 140px;
+        height: 140px;
+        line-height: 120px;
+        font-size: 100px;
+        top: 43%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1269px) {
+    .disable-scroll-mobile .keyboard-arrow {
+        width: 100px;
+        height: 140px;
+        line-height: 100px;
+        font-size: 90px;
+        top: 44%;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1199px) {
+    .disable-scroll-mobile .keyboard-arrow {
+        display: none;
     }
 }
 
@@ -2105,6 +2290,11 @@ footer span a {
     }
     .desktop-960 {
         display: block;
+    }
+
+    .intro-section_text {
+        font-size: 1.8rem;
+        max-width: 550px
     }
 
     table.tablesaw {

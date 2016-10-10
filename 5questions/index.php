@@ -48,6 +48,9 @@
 		        <div class="content-container">
 		            <div class="content clearfix">
 
+						<div class="keyboard-arrow keyboard-arrow_left">&#8592;</div>
+						<div class="keyboard-arrow keyboard-arrow_right">&#8594;</div>
+
 		                <!-- <main-content> -->
 							<?php
 								$file = "people-grid.php";

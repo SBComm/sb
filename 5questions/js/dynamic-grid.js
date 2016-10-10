@@ -177,7 +177,13 @@ function setUpListeners() {
 		window.open(this.href, "Share", "width=600, height=600");
 	});
 
-	$('.nivo-lightbox').nivoLightbox();
+	$('.nivo-lightbox').nivoLightbox({
+	    afterShowLightbox: function() {
+    		$iframe = $('.nivo-lightbox-content > iframe');
+    		src = $iframe.attr('src');
+        	$iframe.attr('src', src + '?autoplay=1&rel=0');
+	    }
+	});
 }
 
 function setBioContainerHeight() {
@@ -455,4 +461,26 @@ $(window).load(function(){
 	// trigger resize event to fix faux black borders
 	$('.isotope').isotope();
 
+});
+
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        $('.overlay .pagination-trigger.back').trigger('click');
+    	e.preventDefault(); // prevent the default action (scroll / move caret)
+        break;
+
+        case 38: // up
+        break;
+
+        case 39: // right
+        $('.overlay .pagination-trigger.next').trigger('click');
+    	e.preventDefault(); // prevent the default action (scroll / move caret)
+        break;
+
+        case 40: // down
+        break;
+
+        default: return; // exit this handler for other keys
+    }
 });
