@@ -1740,7 +1740,7 @@ footer span a {
 }
 
 .disable-scroll-mobile .keyboard-arrow {
-    display: block;
+    display: none;
     text-decoration: none;
     text-align: center;
     width: 240px;
