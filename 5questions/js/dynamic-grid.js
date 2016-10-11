@@ -353,7 +353,7 @@ $(window).load(function(){
 			defaultFilter = function() {
 				var category = $(this).attr('data-category');
 				// return true to show, false to hide
-				if(defaultCategory==category || category=="Show All") {
+				if(category.indexOf(defaultCategory) >= 0 || category=="Show All") {
 					return true;
 				} else {
 					return false;
