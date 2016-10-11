@@ -448,7 +448,7 @@ $(window).load(function(){
 		    }
 		});
 
-		$('.trending-filters').on( 'click', 'a', function(e) { 
+		$('.trending-filters, .related-tags').on( 'click', 'a', function(e) { 
 			e.preventDefault();
 			var text = $(this).text();
 			$('.filters button[data-filter="'+text+'"]').trigger('click');
