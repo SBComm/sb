@@ -231,7 +231,7 @@ if(Modernizr.history) {
 				$container.isotope({ filter: function() {
 					var category = $(this).attr('data-category');
 					// return true to show, false to hide
-					if(filterValue==category || category=="Show All") {
+					if(category.indexOf(filterValue) >= 0 || category=="Show All") {
 						return true;
 					} else {
 						return false;
