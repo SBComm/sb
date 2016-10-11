@@ -1740,7 +1740,7 @@ footer span a {
 }
 
 .disable-scroll-mobile .keyboard-arrow {
-    display: none;
+    display: block;
     text-decoration: none;
     text-align: center;
     width: 240px;
@@ -1751,13 +1751,13 @@ footer span a {
     border-radius: 8px;
     box-shadow: 0 6px 10px rgba(0,0,0,.3);
     font-size: 180px;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
     animation-name: showAndHideArrow;
     animation-delay: .5s;
     position: fixed;
-    z-index: 10;
+    z-index: 1;
     top: 38%;
     opacity: 0;
 }
@@ -1809,13 +1809,13 @@ footer span a {
         display: none;
         opacity: 0;
     }
-    5% {
-        display: none;
-        opacity: .3;
-    }
-    55% {
+    3% {
         display: block;
-        opacity: .3;
+        opacity: .8;
+    }
+    65% {
+        display: block;
+        opacity: .8;
     }
     100% {
         display: none;

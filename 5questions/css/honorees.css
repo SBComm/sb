@@ -53,6 +53,7 @@
     display: inline-block;
     float: left;
     cursor: pointer;
+    z-index: 2;
 }
 
 .honoree-box:focus {
