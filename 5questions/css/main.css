@@ -877,16 +877,16 @@ a.sbu-button:active {
 /* Header */
 
 h2.section-header {
-    font-family:'Trade Gothic W01 Cn 18';
+    font-family: 'Trade Gothic W01 Cn 18';
     font-family: "Museo Slab W01", "Times", serif;
     font-weight: 200;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: normal;
-    margin: 20px 0 10px;
-    padding: 0;
+    padding: 30px 0 30px;
+    margin: 0;
     background: #000;
-    background: url('../img/rays/black-rays-full.jpg');
+    /* background: url(../img/rays/black-rays-full.jpg); */
     background-size: cover;
     background-attachment: fixed;
     color: #bebebe;
@@ -907,8 +907,8 @@ h2.section-header .year {
 
 h2.section-header .text {
     display: inline-block;
-    background: #222;
-    box-shadow: 0 0 30px #222;
+    background: #000;
+    /* box-shadow: 0 0 30px #222; */
     padding: 10px;
     font-size: 2em;
     text-rendering: optimizeLegibility;
@@ -926,7 +926,7 @@ h2.section-header:after {
     position: absolute;
     left: 1.5%;
     right: 1.5%;
-    bottom: 28px;
+    bottom: 56px;
     z-index: 1;
 }
 
@@ -2197,7 +2197,7 @@ footer span a {
     }
     
     h2.section-header:after {
-        bottom: 35px;
+        bottom: 65px;
     }
 
     .honoree-box {
@@ -2310,7 +2310,7 @@ footer span a {
     }
     
     h2.section-header:after {
-        bottom: 40px;
+        bottom: 67px;
     }
 
     .hide-accessible-desktop {
@@ -2721,7 +2721,7 @@ footer span a {
 @media only screen and (min-width: 1260px) {
     
     h2.section-header:after {
-        bottom: 38px;
+        bottom: 67px;
     }
 
     .marquee .quote {
@@ -2849,6 +2849,10 @@ footer span a {
 }
 
 @media only screen and (min-width: 1500px) {
+
+    .intro-section--image {
+        padding: 120px 0 135px;
+    }
 
     .honorees-grid-promo a {
         max-height: 975px;

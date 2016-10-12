@@ -113,7 +113,7 @@
     box-sizing: border-box;
 	font-family: 'TradeGothicW01-BoldCn20 675334';
     font-family: 'Effra W01';
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0;
     font-size: 1.3em;
 	text-transform: uppercase;
@@ -1229,10 +1229,15 @@
 	.featured-interview .bio-wrapper .name {
 		border-bottom: 0 none;
 		padding: 0;
+		margin-top: 0;
 	}
 
 	.featured-interview .video-wrapper {
 		margin: 0;
+	}
+
+	.name-detail .name {
+	    margin: 0;
 	}
 }
 
