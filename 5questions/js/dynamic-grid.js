@@ -61,7 +61,7 @@ function getBioData(item) {
 				history.pushState(null, newTitle, linkHref);
 			}
 			setNewTitle(newTitle);
-			//ga('send', 'pageview', location.pathname);
+			ga('send', 'pageview', location.pathname);
 		}
 		closeItem($('.loader'));
 	});
@@ -93,7 +93,7 @@ function popstateBioDataByName(name) {
 			setUpWaypoints();
 			appendNextAndPrevNavigation(honoreeBox);
 			setNewTitle(newTitle);
-			//ga('send', 'pageview', location.pathname);
+			ga('send', 'pageview', location.pathname);
 		}
 		closeItem($('.loader'));
 	});
@@ -169,7 +169,7 @@ function setUpListeners() {
 		}
 		var newTitle = $(this).attr('data-filter');
 		setNewTitle(addGenericTitle(newTitle));
-		//ga('send', 'pageview', location.pathname);
+		ga('send', 'pageview', location.pathname);
 	});
 
 	$('.social-share a').on('click',function(e) {
