@@ -11,6 +11,11 @@ header .logo-link {
 	display: block;
 }
 
+header .logo-link.sbu-logo {
+	position: relative;
+	z-index: 1;
+}
+
 header .sb-logo,
 header .ribbon-logo-desktop,
 header .site-logo-desktop {
