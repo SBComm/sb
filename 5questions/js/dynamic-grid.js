@@ -451,6 +451,7 @@ $(window).load(function(){
 		$('.trending-filters, .related-tags').on( 'click', 'a', function(e) { 
 			e.preventDefault();
 			var text = $(this).text();
+			if($(this).attr('data-filter-value')=='*') { text = '*' };
 			$('.filters button[data-filter="'+text+'"]').trigger('click');
 		});
 
