@@ -100,7 +100,7 @@
                 	<a href="http://career.stonybrook.edu/" class="clearfix">Career Center</a>
                 </li>
                 <li class="clearfix">
-                    <a href="http://www.stonybrook.edu/commcms/diversityplan/" class="clearfix">Diversity Plan</a>
+                    <a href="http://www.stonybrook.edu/commcms/diversityplan/" class="clearfix">Diversity</a>
                 </li>   
                 <li class="clearfix">
                 	<a href="http://www.stonybrook.edu/hr/" class="clearfix">Human Resources</a>
