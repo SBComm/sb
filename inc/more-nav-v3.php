@@ -74,9 +74,6 @@
                 	<a href="http://www.stonybrook.edu/mycloud" class="clearfix">Google Apps</a>
                 </li>
                 <li class="clearfix">
-                	<a href="http://www.stonybrook.edu/medicine-webmail" class="clearfix">Medicine Email</a>
-                </li>
-                <li class="clearfix">
                 	<a href="http://www.stonybrook.edu/brand" class="clearfix">Brand Toolkit</a>
                 </li>
                 <li class="clearfix">
@@ -99,6 +96,9 @@
                 <li class="clearfix">
                 	<a href="http://career.stonybrook.edu/" class="clearfix">Career Center</a>
                 </li>
+                <li class="clearfix">
+                    <a href="http://www.stonybrook.edu/commcms/diversityplan/" class="clearfix">Diversity Plan</a>
+                </li>   
                 <li class="clearfix">
                 	<a href="http://www.stonybrook.edu/hr/" class="clearfix">Human Resources</a>
                 </li>
