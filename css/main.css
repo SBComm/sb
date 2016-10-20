@@ -3560,6 +3560,12 @@ body {
         font-size: 1.1rem;
         line-height: 1rem;
     }
+    
+    .social-snippet_facebook .stream .section-text {
+        max-height: 270px;
+        overflow: hidden;
+        display: block;
+    }
 
     .tweets-and-news .stream .section-intro {
         display: block;
