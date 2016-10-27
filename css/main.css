@@ -930,6 +930,7 @@ body {
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
+    height: auto;
 }
 
 .quick-nav a.persistent-flag:hover,
