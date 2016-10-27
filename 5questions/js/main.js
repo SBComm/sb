@@ -154,7 +154,7 @@ function getNewTitle(item) {
 }
 
 function addGenericTitle(title) {
-	return (title + " | Stony Brook 40 Under Forty");
+	return ("5 Questions With " + title);
 }
 
 function setNewTitle(newTitle) {
