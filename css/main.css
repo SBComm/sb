@@ -3913,7 +3913,7 @@ body {
     a.sbu-outline-button--on-red,
     a.sbu-outline-button--on-red-hover:hover {
         color: #fff !important;
-        background: #800 !important;
+        background: #900 !important;
     }
 
     a.sbu-outline-button--on-red:hover {
