@@ -8,6 +8,6 @@
     <?php } if($selected_sub_nav!="school-of-nursing") { ?>
     <a class="nursing<?php if($selected_sub_nav=="school-of-nursing") { ?> selected<?php } ?>" href="alumni/chapters/school-of-nursing"><div class="label"><span>School of</span> Nursing</div></a>
     <?php } if($selected_sub_nav!="school-of-health-technology-management") { ?>
-    <a class="htm<?php if($selected_sub_nav=="school-of-health-technology-management") { ?> selected<?php } ?>" href="alumni/chapters/school-of-health-technology-management"><div class="label"><span>School of</span> Health Technology Management</div></a>
+    <a class="htm<?php if($selected_sub_nav=="school-of-htm") { ?> selected<?php } ?>" href="alumni/chapters/school-of-health-technology-management"><div class="label"><span>School of</span> Health Technology Management</div></a>
     <?php } ?>
 </div>
