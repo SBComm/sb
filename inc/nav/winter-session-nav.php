@@ -18,7 +18,7 @@
             	</a>
             </li>
 			<li class="clearfix<?php if($sub_nav_selected_tab==3) echo(' selected'); ?>">
-            	<a href="http://http://www.stonybrook.edu/commcms/winter/calendar" class="clearfix">
+            	<a href="http://www.stonybrook.edu/commcms/winter/calendar" class="clearfix">
             		<span class="label clearfix">Calendar</span>
             	</a>
             </li>
