@@ -451,6 +451,12 @@ section.full-width-banner-image {
     background-size: cover;
 }
 
+.rounded-image-buttons .htm {
+    background-image: url("../../img/alumni/buttons/health-tech-mgmt.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
 .rounded-image-buttons .spd {
     background-image: url("../../img/alumni/buttons/business.jpg");
     background-position: 50% 40%;
