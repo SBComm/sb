@@ -4850,10 +4850,10 @@ body {
     }
 
     .drop-accordion-1 .item {
-        margin: 0 0 7px;
+        margin: 0 0 16px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        box-sizing: border-box;    
+        box-sizing: border-box;
     }
 
     .drop-accordion-1 .tab {
@@ -4873,7 +4873,7 @@ body {
 
     .drop-accordion-1 .label {
         display: block;
-        margin: 4px 4px 5px 8px;
+        margin: 10px 4px 10px 12px;
     }
 
     .drop-accordion-1 .label .fa {
@@ -4882,8 +4882,8 @@ body {
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
-        color: #00acc6;
-        margin: 0 8px 0 5px;
+        color: #bebebe;
+        margin: 0 12px 0 5px;
     }
 
     .drop-accordion-1 .active .label .fa {
