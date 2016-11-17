@@ -5826,11 +5826,11 @@ footer.site-footer .social .small-button:after {
         padding-right: 0
     }
 
-    .sbu-columns--column.right-border-section {
+    .sbu-columns--column {
         padding-right: 25px
     }
 
-    .sbu-columns--column.right-border-section + .sbu-columns--column {
+    .sbu-columns--column + .sbu-columns--column {
         padding-left: 25px
     }
 
