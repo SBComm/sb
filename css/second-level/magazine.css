@@ -113,6 +113,12 @@ h2 {
 	text-align: right;
 }
 
+/* OU Styles */
+
+#de {
+	display: none !important;
+}
+
 /* feature */
 
 .magazine-feature {
