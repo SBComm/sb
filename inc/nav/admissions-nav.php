@@ -159,11 +159,11 @@
 					<span class="label clearfix">Campus<br />Tours</span>
 				</a>
 			</li>
-			<li data-li-order="02">
+			<?php /* <li data-li-order="02">
   				<a href="http://www.stonybrook.edu/commcms/redcarpet/" class="clearfix" target="_blank">
   					<span class="label clearfix">Red Carpet Days</span>
   				</a>
-  			</li>
+  			</li> */ ?>
 			<li class="<?php if($drop_nav_selected_tab==20) echo('selected'); ?>" data-li-order="03">
 				<a href="undergraduate-admissions/visit/directions-and-parking" class="clearfix">
 					<span class="label clearfix">Maps &amp; Directions</span>
