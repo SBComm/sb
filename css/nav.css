@@ -1349,7 +1349,7 @@
 
 
 	.nav-elements-container {
-		padding: 0 0 38px 0;
+		padding: 0 0 44px 0;
 	}
 
 	.quick-nav-wrapper {
@@ -1373,7 +1373,7 @@
 		border-radius: 0 0 18px 18px;
 		border: 1px solid #ccc;
 		border-top: 0 none;
-		height: 38px;
+		height: 44px;
 	}
 
 	.quick-nav ul li {
@@ -1464,7 +1464,7 @@
 		font-family:"Effra W01", Helvetica, sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		padding: 12px 0 0 11px;
+		padding: 14px 0 0 11px;
 		border: 0 none;
 		height: 100%;
 	}
@@ -1674,7 +1674,7 @@
 		font-size: 11px;
 		/*border-right: 1px solid #800;*/
 		height: 21px;
-		margin: 10px 1% 4px 9%;
+		margin: 12px 1% 4px 9%;
 		box-shadow: none;
 		border: 1px solid #ddd;
 		background: #ddd;
@@ -1743,7 +1743,7 @@
 	.cms-search .search-container.default button[type="submit"] {
 		height: 29px;
 		width: 20%;
-		margin: 6px 0 4px 0;
+		margin: 8px 0 4px 0;
 		border-right: 0 none;
 		padding: 0;
 		-webkit-box-sizing: border-box;
@@ -1755,7 +1755,7 @@
 		font-size: 12px;
 		position: absolute;
 		top: 0;
-		right: 5px;
+		right: 0;
 		z-index: 99;
 	}
 
