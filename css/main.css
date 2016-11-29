@@ -3871,7 +3871,7 @@ body {
         font-weight: 500;
         text-transform: uppercase;
         color: #fff;
-        font-size: 1.25rem;
+        font-size: 18px;
         padding: 9px 14px;
         text-decoration: none !important;
         margin: 0 auto;
@@ -3881,6 +3881,8 @@ body {
         border-width: 2px;
         border-style: solid;
         text-align: center;
+        padding: 10px;
+        line-height: 1;
     }
 
     a.sbu-outline-button:hover {
@@ -3921,7 +3923,7 @@ body {
     }
 
     a.sbu-outline-button.arrow-after {
-        padding: 9px 10px 9px 13px;
+        padding: 10px 10px 10px 16px;
     }
 
     a.sbu-outline-button--black {
