@@ -4018,6 +4018,7 @@ body {
     a.info-link-hover:after,
     .info-link-hover:after,
     .external-link-hover-wrapper a:after,
+    .external-link-wrapper a:after,
     .tooltip:after { 
         display: inline-block;
         font-family: FontAwesome;
