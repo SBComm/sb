@@ -4048,7 +4048,8 @@ body {
     .external-link:after,
     a.external-link-hover:hover:after,
     .external-link-hover:hover:after,
-    .external-link-hover-wrapper a:hover:after {
+    .external-link-hover-wrapper a:hover:after,
+    .external-link-wrapper a:after {
         content: "\f08e";
     }
 
