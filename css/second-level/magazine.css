@@ -74,12 +74,13 @@ h2 {
 
 .mag-nav {
 	display: block;
-	width: 100%;
+	width: auto;;
 	background: #000;
-	border-top: 1px solid #777;
-	color: #777;
-
-	display: none;
+	color: #444;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
 }
 
 .mag-nav a {
@@ -111,6 +112,29 @@ h2 {
 	float: right;
 	width: 15%;
 	text-align: right;
+}
+
+.magazine-category-nav_link {
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+    font-family: "Effra W01", "Arial", sans-serif;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.magazine-category-nav_link a {
+	border-bottom: 2px solid transparent;
+	display: inline-block;
+	font-size: 22px;
+	color: #fff;
+}
+
+.magazine-category-nav_link a:hover {
+	border-bottom: 2px solid #fff;
 }
 
 /* OU Styles */
