@@ -897,13 +897,24 @@
 			</script>
 		<?php } ?>
 
-		<!--OU Direct Edit-->
+		<!--OU-->
 		<script>
 			$(document).ready(function() {
 				var $de = $('#de'), $directedit = $('#directedit');
 				if($de.length && $directedit.length) {
 					$directedit.replaceWith($de.html());
 				}
+
+				$('img.gif-tutorial').each(function(){
+					$(this).click(function(){
+						var $img = $(this);
+						var $imgSrc = $(this).attr('src');
+						console.log($imgSrc);
+						setTimeout(function() {
+							$img.attr('src', $imgSrc);
+						}, 0);
+					});
+				});
 			});
 		</script>
 		
