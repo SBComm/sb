@@ -93,6 +93,29 @@
 					    	}
 					    }
 					});
+
+					$('.nivo-lightbox-2').nivoLightbox({
+					    afterShowLightbox: function() {
+					    	if(options) {
+					    		$iframe = $('.nivo-lightbox-content > iframe');
+					    		src = $iframe.attr('src');
+					        	$iframe.attr('src', src + '?' + options);
+					    	}
+					    	if(caption=='true') {
+					    		initCaptionTrigger();
+					    	}
+					    }, 
+					    onPrev: function() {
+					    	if(caption=='true') {
+					    		initCaptionTrigger();
+					    	}
+					    }, 
+					    onNext: function() {
+					    	if(caption=='true') {
+					    		initCaptionTrigger();
+					    	}
+					    }
+					});
 				});
 
 			</script>
