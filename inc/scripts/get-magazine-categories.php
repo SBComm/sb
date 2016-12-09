@@ -19,7 +19,7 @@
 		$cat_slug = str_replace('magazine-','',$cat->slug);
 
 		$html .= '
-			<span class="magazine-category-nav_link"><a href="magazine/'.$cat_slug.'">'.$cat_name.'</a></span>
+			<span class="magazine-category-nav_link"><a href="/magazine/'.$cat_slug.'">'.$cat_name.'</a></span>
 		';
 	}
 
