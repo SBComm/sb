@@ -16,7 +16,7 @@
 
 	foreach ($cats as $cat) {
 		$cat_name = str_replace('Magazine ','',$cat->name);
-		$cat_slug = str_replace('magazine-','',$cat->slug);
+		$cat_slug = $cat->description;
 
 		$html .= '
 			<span class="magazine-category-nav_link"><a href="/magazine/'.$cat_slug.'">'.$cat_name.'</a></span>
