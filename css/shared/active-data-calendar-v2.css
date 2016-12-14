@@ -1,0 +1,178 @@
+/* containers */
+
+body {
+    background: #fff;
+}
+
+/* breadcrumbs */
+
+.breadcrumbs__wrapper {
+    display: none;
+}
+
+/* general */
+
+div.wrap {
+    width: 95.833333%;
+    max-width: 1160px;
+}
+
+#main-content {
+    /* background-color: red; */
+    width: 77.173913%;
+    max-width: 910px;
+    position: relative;
+}
+
+header#top-main {
+    display: none;
+}
+
+nav#view-type ul li h3 {
+    margin: 0 10px 0 0;
+    font-size: 19px;
+    line-height: 21px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.view-icon {
+    display: block;
+    color: #CCCCCC;
+    font-size: 22px;
+}
+
+    .view-icon:hover {
+        display: block;
+        color: #900;
+    }
+
+    .view-icon.here {
+        display: block;
+        color: #000;
+    }
+
+.wrapper-dropdown {
+    background: #fff;
+    width: 220px;
+    margin: 0 auto;
+    padding: 6px;
+    font-size: 19px;
+    line-height: 21px;
+    color: #000;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Effra W01';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#search_range {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 26px;
+    line-height: 22px;
+    color: #000;
+    border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+    font-family: 'Effra W01';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#view-search {
+    padding: 20px 0 25px 0;
+    border-top: 0 none;
+}
+
+#search-link {
+    height: 21px;
+    margin: 5px 45px 0 0;
+    padding: 0 0 0 25px;
+    font-size: 19px;
+    line-height: 21px;
+    color: #CCCCCC;
+    text-transform: none;
+    float: right;
+    font-family: 'Effra W01';
+    font-weight: 400;
+}
+
+#search-link:hover {
+    color: #900;
+}
+
+/* Previous / Next */
+#view_by_prev {
+    font-size: 12px;
+    position: absolute;
+    left: -10px;
+    bottom: 8px;
+    z-index: 100;
+    color: #000;
+}
+
+#view_by_next {
+    font-size: 12px;
+    position: absolute;
+    right: -10px;
+    bottom: 8px;
+    z-index: 100;
+    color: #000;
+}
+
+#sidebar h3 {
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 0 none;
+}
+
+.list2 #main-content h4 {
+    margin: 10px 0 3px 0;
+    padding: 4px 0 4px 1.5%;
+    font-size: 18px;
+    background-color: #222;
+    color: #FFFFFF;
+}
+
+.list2 .quick-link-container ul li a {
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.list2 .quick-link-container ul li a:hover {
+    color: #900;
+}
+
+.list2 .list-event-preview h3 {
+    font-size: 16px;
+    font-family: 'Effra W01';
+    color: #000;
+}
+
+.list-event-preview h3 a {
+    color: #000;
+}
+
+.list-event-preview h3 a:hover {
+    color: #900;
+}
+
+#main-content {
+    font-family: 'Effra W01';
+}
+
+@media only screen and (min-width: 960px) {
+    #search_range {
+        text-align: left;
+    }
+}
