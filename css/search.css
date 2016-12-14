@@ -659,6 +659,10 @@ input.gsc-search-button {
     border-left: 1px solid #333;
   }
 
+  #tabbed-nav li + li.tabbed-nav-no-border {
+    border-left: 1px solid #fff;
+  }
+
   #tabbed-nav:hover li + li {
     border-left: 1px solid #ddd;
   }

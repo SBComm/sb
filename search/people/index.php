@@ -118,6 +118,7 @@
 							            <ul id="tabbed-nav">
 							                <li class="search-pages-link"><a href="http://www.stonybrook.edu/search/">Website Results</a></li>
 							                <li class="selected search-people-link"><a href="http://www.stonybrook.edu/search/people/">People Results</a></li>
+							                <li class="tabbed-nav-no-border"><a href="http://www.stonybrook.edu/site-directory/">Site Directory</a></li>
 							            </ul>
 
 							        </div>
