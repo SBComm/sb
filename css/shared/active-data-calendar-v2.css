@@ -15,6 +15,7 @@ body {
 div.wrap {
     width: 95.833333%;
     max-width: 1160px;
+    margin-bottom: 40px;
 }
 
 #main-content {
@@ -171,8 +172,209 @@ nav#view-type ul li h3 {
     font-family: 'Effra W01';
 }
 
+#sitefooter {
+    display: none !important;
+}
+
+#search-box {
+    border: 0 solid #000;
+    background: #eee;
+}
+
+div.core-input-container {
+    margin: 0 0 12px !important;
+}
+
+.core-text {
+    width: 94%;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: normal;
+    border: 2px solid #b5b5b5;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+    color: #828282;
+    text-align: left !important;
+    font-family: 'Effra W01';
+    background: #f8f8f8;
+}
+
+.core-text:focus,
+.core-text:hover,
+#search-box select:hover {
+    border: 2px solid #900;
+    color: #900;
+}
+
+#core_search_category,
+#core_search_location {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+}
+
+#core_search_category:after,
+#core_search_location:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    z-index: 1;
+    font-size: 1em;
+    padding: 0;
+    bottom: 26px;
+    right: 15px;
+    color: #828282;
+}
+
+#core_search_category:hover:after,
+#core_search_location:hover:after {
+    font-size: 0;
+}
+
+#core_search_start_date input,
+#core_search_end_date input,
+#search-box select {
+    cursor: pointer;
+}
+
+
+.core-label {
+    width: 100%;
+    margin: 0 0 3px 6px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    display: block;
+    font-family: 'Effra W01';
+    text-align: left;
+}
+
+.core-dropdown {
+    display: inline-block;
+    width: 94%;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: normal;
+    border: 2px solid #b5b5b5;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Effra W01';
+    color: #828282 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f8f8f8;
+}
+
+#core_search_category a,
+#core_search_location a {
+    text-align: right;
+    margin: 4px 7px 3px 0;
+    font-family: 'Effra W01';
+    color: #828282;
+    display: block;
+    width: auto;
+    float: right;
+}
+
+#core_search_category a:hover,
+#core_search_location a:hover {
+    color: #900;
+}
+
+#core_search .core-button-container .core-button-submit,
+#core_search .core-button-container .core-button-clear {
+    background-color: #4d4d4d;
+    width: 98%;
+    height: auto !important;
+    max-width: 100px;
+    margin: 19px 0 0 0;
+    padding: 6px 0;
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    border: none !important;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Effra W01';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#core_search .core-button-container .core-button-submit {
+    background-color: #900;
+}
+
+#core_search .core-button-container .core-button-submit:hover,
+.core-button-submit:hover {
+    background-color: #aa0000;
+}
+
+#core_search .core-button-container .core-button-clear:hover {
+    background-color: #393939;
+}
+
+/* Modal */
+.adx-modal {
+    font-family: 'Effra W01';
+}
+
+.adx-modal h2 {
+    margin: 40px 0 5px 0;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    font-weight: bold;
+}
+
+.core-button-submit {
+    background-color: #900;
+    padding: 0.5em 0.75em;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
 @media only screen and (min-width: 960px) {
     #search_range {
         text-align: left;
+    }
+
+    #core_search .core-button-container .core-button-submit,
+    #core_search .core-button-container .core-button-clear {
+        background-color: #4d4d4d;
+        width: 98%;
+        height: auto !important;
+        max-width: 80px;
+        margin: 18px 8px 0 0;
+        padding: 7px 0 8px;
+        font-size: 12px !important;
+        color: #fff;
+        text-transform: uppercase;
+        outline: none;
+        border: none !important;
+        display: inline-block;
+        cursor: pointer;
+        font-family: 'Effra W01';
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    #core_search .core-button-container .core-button-submit {
+        background-color: #900;
+    }
+
+    #core_search #core_search_submit {
+        width: 18% !important;
     }
 }
