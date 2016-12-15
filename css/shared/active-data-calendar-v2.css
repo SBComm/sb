@@ -21,9 +21,22 @@ div.wrap {
 
 #main-content {
     /* background-color: red; */
-    width: 77.173913%;
-    max-width: 910px;
+    width: 100%;
+    max-width: 1160px;
     position: relative;
+    font-family: 'Effra W01';
+}
+
+#sidebar {
+    width: 100%;
+    max-width: 1160px;
+    float: none;
+}
+
+#sidebar section {
+    width: 50%;
+    margin: 50px 0 0 0;
+    float: left;
 }
 
 header#top-main {
@@ -72,9 +85,9 @@ nav#view-type ul li h3 {
 }
 
 #search_range {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-size: 26px;
     line-height: 22px;
     color: #000;
@@ -83,11 +96,16 @@ nav#view-type ul li h3 {
     font-family: 'Effra W01';
     font-weight: 700;
     text-transform: uppercase;
+    float: left;
+    clear: both;
+    display: block;
+    width: 100%;
 }
 
 #view-search {
     padding: 20px 0 25px 0;
     border-top: 0 none;
+    position: relative;
 }
 
 #search-link {
@@ -136,6 +154,10 @@ nav#view-type ul li h3 {
     border-bottom: 0 none;
 }
 
+.list2 .list-event-preview {
+    width: 75%;
+}
+
 .list2 #main-content h4 {
     margin: 10px 0 3px 0;
     padding: 4px 0 4px 1.5%;
@@ -162,15 +184,20 @@ nav#view-type ul li h3 {
 }
 
 .list-event-preview h3 a {
+    font-size: 23px;
     color: #000;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.list2 .list-event-preview h3 a {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .list-event-preview h3 a:hover {
     color: #900;
-}
-
-#main-content {
-    font-family: 'Effra W01';
 }
 
 #sitefooter {
@@ -346,6 +373,107 @@ div.core-input-container {
     display: inline-block;
 }
 
+/* Summary View */
+
+.list-event-preview {
+    width: 100%;
+    max-width: 820px;
+    margin: 0;
+    position: relative;
+    float: right;
+}
+
+.list-event-preview h3 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000;
+    font-weight: 700;
+}
+
+.list-event-preview .list-event-date {
+    width: 35%;
+    padding: 10px 0 0 8px;
+    border-right: 1px solid #dcdcdc;
+    min-height: 55px;
+    float: left;
+    max-width: 1000px;
+}
+
+.list-event-preview .list-event-date p {
+    padding: 0 10px 0 30px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7c7c7c;
+}
+
+.list-event-preview .list-event-locale {
+    width: 52%;
+    padding: 10px 0 0 8px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    border-left: 0 none;
+    min-height: 55px;
+    max-width: 1000px;
+    margin: 0;
+}
+
+.list-event-preview .list-event-locale p {
+    padding: 0 0 0 28px;
+    min-height: 35px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7c7c7c;
+    display: block;
+    cursor: default;
+    margin: 0;
+    background-position-x: 5px;
+}
+
+.list-event-preview .list-event-link {
+    width: 13%;
+    max-width: 120px;
+    padding: 10px 0 0 0;
+    border-left: 0 none;
+    min-height: 45px;
+    text-align: center;
+    float: left;
+}
+
+.list-event-preview .list-event-link a {
+    background-color: #900;
+    width: 87%;
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.list-event-preview .list-event-link a:hover {
+    background-color: #a00;
+}
+
+.list-event-preview .quick-link-container {
+    padding: 0;
+}
+
+.list-event-preview .quick-link-container ul li a span,
+.list-event-preview .list-event-locale p a.link-more-locations {
+    text-decoration: none;
+}
+
+.list-event-preview p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 23px;
+    color: #7c7c7c;
+}
+
 /* Event Details */
 
 #theme-event-detail-view #event-details-main-content h2 {
@@ -441,7 +569,8 @@ div.core-input-container {
     margin-top: 20px
 }
 
-#event-favorite-container #event-favorite {
+#event-favorite-container #event-favorite,
+.list-event-preview .quick-link-container a {
     color: #900;
     font-size: 14px;
     cursor: pointer;
@@ -449,10 +578,65 @@ div.core-input-container {
     border-radius: 2px;
 }
 
-#event-favorite-container #event-favorite:hover {
+.list-event-preview .quick-link-container a {
+    background-position: 2px 4px;
+    height: auto;
+    background: 0 none;
+    margin: 0 0 0 8px;
+}
+
+#event-favorite-container #event-favorite:hover,
+.list-event-preview .quick-link-container a:hover {
     background-color: #900;
     color: #fff;
 }
+
+.list-event-preview .quick-link-container a.quick-link-email:before,
+.list-event-preview .quick-link-container a.quick-link-remind:before,
+.list-event-preview .quick-link-container a.quick-link-add:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: 1;
+    font-size: 1em;
+    padding: 0 6px 0 0;
+    color: #828282;
+}
+
+.list-event-preview .quick-link-container a.quick-link-email:before {
+    content: "\f003";
+    color: #900;
+}
+
+.list-event-preview .quick-link-container a.quick-link-email:hover:before {
+    content: "\f003";
+    color: #fff;
+}
+
+.list-event-preview .quick-link-container a.quick-link-remind:before {
+    content: "\f0a2";
+    color: #900;
+}
+
+.list-event-preview .quick-link-container a.quick-link-remind:hover:before {
+    content: "\f0a2";
+    color: #fff;
+}
+
+.list-event-preview .quick-link-container a.quick-link-add:before {
+    content: "\f055";
+    color: #900;
+}
+
+.list-event-preview .quick-link-container a.quick-link-add:hover:before {
+    content: "\f055";
+    color: #fff;
+}
+
+
 
 #accordion-container {
     width: 100%;
@@ -543,4 +727,118 @@ div.core-input-container {
     #core_search #core_search_submit {
         width: 18% !important;
     }
+    #sidebar section {
+        width: 50%;
+        margin: 50px 0 0 0;
+        float: left;
+    }
+}
+
+/* Mobile Overrides */
+
+@media only screen and (max-width: 480px) {
+    #featuredEvents {
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0;
+    }
+    #view-by-container {
+        width: 250px;
+        margin: 20px auto;
+        float: none;
+        clear: both;
+    }
+    #view-search {
+        padding: 20px 0 10px 0;
+    }
+    #view-search #search-link {
+        height: 21px;
+        margin: 0;
+        padding: 0 0 0 25px;
+        font-size: 19px;
+        line-height: 21px;
+        text-transform: none;
+        float: right;
+        font-family: 'Effra W01';
+        font-weight: 400;
+        position: absolute;
+        top: 25px;
+        right: 0;
+        width: auto;
+    }
+    #search_range {
+        margin-top: 10px;
+    }
+    #core_search_category a, #core_search_location a {
+        text-align: right;
+        margin: 4px 14px 3px 0;
+    }
+    #core_search_category:after, #core_search_location:after {
+        right: 20px;
+    }
+    .list2 .list-event {
+        width: 100%;
+        padding: 10px 0 5px 0;
+        clear: both;
+    }
+    .list2 .list-event-preview {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        float: none;
+        clear: both;
+    }
+    .list2 .list-event-preview h3 a {
+        margin-bottom: 6px;
+        display: block;
+    }
+    .list2 .quick-link-container {
+        width: 100%;
+        max-width: none;
+        margin: 10px 0 0 0;
+        padding: 0;
+        position: relative;
+        float: left;
+        clear: both;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    /* Sidebar ----- */
+    #sidebar {
+        width: 100%;
+        max-width: none;
+        margin: 40px auto 0;
+        position: relative;
+        float: left;
+    }
+
+        #sidebar section {
+            width: 50%;
+            margin: 0 0 10px;
+            position: relative;
+            float: left;
+        }
+
+            #sidebar section#social-share {
+                margin: 0 auto;
+            }
+
+            #sidebar section h3 {
+                margin: 0 auto 10px;
+                padding: 0 0 5px 0;
+                font-size: 19px;
+                line-height: 22px;
+                color: #000;
+                text-transform: uppercase;
+                border-bottom: 0 none;
+            }
+            
+        #sidebar ul li {
+            margin: 20px auto 10px auto;
+            position: relative;
+            display: inline-block;
+        }
 }
