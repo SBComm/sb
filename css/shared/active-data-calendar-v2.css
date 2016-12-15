@@ -108,6 +108,48 @@ nav#view-type ul li h3 {
     position: relative;
 }
 
+.wrapper-dropdown {
+    border: 2px solid #fff;
+    padding-right: 10px
+}
+
+.wrapper-dropdown:hover {
+    color: #000;
+    position: relative;
+    border: 2px solid #eee;
+}
+
+.wrapper-dropdown.active {
+    background: #900;
+    color: #fff;
+    position: relative;
+    border: 2px solid #fff;
+}
+
+.wrapper-dropdown:hover:after,
+.wrapper-dropdown.active:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    z-index: 1;
+    font-size: 1em;
+    padding: 0;
+    top: 7px;
+    right: 12px;
+    color: #000;
+}
+
+.wrapper-dropdown.active:after {
+    content: "\f107";
+    color: #fff;
+    top: 10px;
+}
+
 #search-link {
     height: 21px;
     margin: 5px 45px 0 0;
@@ -129,19 +171,25 @@ nav#view-type ul li h3 {
 #view_by_prev {
     font-size: 12px;
     position: absolute;
-    left: -10px;
+    left: -18px;
     bottom: 8px;
     z-index: 100;
     color: #000;
+    padding: 2px;
+    margin: 0;
+    width: auto;
 }
 
 #view_by_next {
     font-size: 12px;
     position: absolute;
-    right: -10px;
+    right: -18px;
     bottom: 8px;
     z-index: 100;
     color: #000;
+    padding: 2px;
+    margin: 0;
+    width: auto;
 }
 
 #sidebar h3 {
