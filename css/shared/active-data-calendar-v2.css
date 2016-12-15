@@ -152,7 +152,7 @@ nav#view-type ul li h3 {
 
 #search-link {
     height: 21px;
-    margin: 5px 45px 0 0;
+    margin: 5px 0 0 0;
     padding: 0 0 0 25px;
     font-size: 19px;
     line-height: 21px;
@@ -402,6 +402,7 @@ div.core-input-container {
 /* Modal */
 .adx-modal {
     font-family: 'Effra W01';
+    z-index: 999999;
 }
 
 .adx-modal h2 {
