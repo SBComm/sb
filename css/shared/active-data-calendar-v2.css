@@ -537,6 +537,7 @@ div.core-input-container {
     border-bottom: 1px solid #dcdcdc;
     display: inline-block;
     width: 100%;
+    font-family: 'Effra W01';
 }
 
 #search_results_list {
@@ -549,6 +550,14 @@ div.core-input-container {
     line-height: 15px;
     color: #7c7c7c;
     text-transform: none;
+}
+
+#search_results_links a.custom-clear-trigger {
+    color: #7c7c7c;
+}
+
+a.custom-clear-trigger:hover {
+    text-decoration: underline;
 }
 
 /* Event Details */
