@@ -560,6 +560,15 @@ div.core-input-container {
     text-decoration: underline;
 }
 
+#search_results_list .result_set {
+    max-height: 59px;
+    display: inline-block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
 /* Event Details */
 
 #theme-event-detail-view #event-details-main-content h2 {
