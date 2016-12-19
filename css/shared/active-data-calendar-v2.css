@@ -552,11 +552,11 @@ div.core-input-container {
     text-transform: none;
 }
 
-#search_results_links a.custom-clear-trigger {
+#search_results_links a {
     color: #7c7c7c;
 }
 
-a.custom-clear-trigger:hover {
+#search_results_links a:hover {
     text-decoration: underline;
 }
 
