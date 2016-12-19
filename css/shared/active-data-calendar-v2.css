@@ -523,6 +523,34 @@ div.core-input-container {
     color: #7c7c7c;
 }
 
+#search_results > div > h2 {
+    font-size: 19px;
+    line-height: 21px;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0 0 8px;
+}
+
+#search_results {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcdc;
+    display: inline-block;
+    width: 100%;
+}
+
+#search_results_list {
+    font-family: 'Effra W01';
+    max-width: 1000px;
+}
+
+#search_results_list > span {
+    font-size: 13px;
+    line-height: 15px;
+    color: #7c7c7c;
+    text-transform: none;
+}
+
 /* Event Details */
 
 #theme-event-detail-view #event-details-main-content h2 {
