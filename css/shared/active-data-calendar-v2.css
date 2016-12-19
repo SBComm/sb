@@ -575,6 +575,66 @@ div.core-input-container {
     -webkit-box-orient: vertical;
 }
 
+/* Grid view */
+
+#calendar-month {
+    background-color: #900;
+    margin: 0 0 1px 0;
+    padding: 6px 0;
+    border: 0 none;
+    position: relative;
+}
+
+#calendar-month h2 {
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.month-jump {
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 4px;
+    cursor: pointer;
+}
+
+#month thead tr {
+    border: 0 none;
+    border-right: 1px solid #4d4d4d;
+}
+
+#month th {
+    border: 0 none;
+}
+
+#month td {
+    border: 1px solid #b5b5b5;
+}
+
+.day a {
+    width: 100%;
+    margin: 0 0 0px 0;
+    padding: 2px 0 2px 2.25%;
+    white-space: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-overflow: ellipsis;
+    color: #4d4d4d;
+    display: block;
+}
+
+.day a:hover {
+    color: #900;
+    text-decoration: underline;
+}
+
+td.today {
+    background-color: #ffddae;
+}
+
 /* Event Details */
 
 #theme-event-detail-view #event-details-main-content h2 {
