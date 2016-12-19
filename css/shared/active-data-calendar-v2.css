@@ -635,6 +635,40 @@ td.today {
     background-color: #ffddae;
 }
 
+/* Locations view */
+
+
+#publicBody_siteBody_pageBody_divMain {
+    padding-top: 10px;
+    font-family: 'Effra W01';
+    display: block;
+    clear: both;
+}
+
+#divMap:before,
+#divMap:after {
+    content: " ";
+    display: table;
+}
+
+#divMap:after {
+    clear: both;
+}
+
+#divMap {
+    *zoom: 1;
+}
+
+#publicBody_siteBody_pageBody_divMain #location_details h3 {
+    margin-bottom: -40px;
+}
+
+#publicBody_siteBody_pageBody_divMain #upcoming_events {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
 /* Event Details */
 
 #theme-event-detail-view #event-details-main-content h2 {
