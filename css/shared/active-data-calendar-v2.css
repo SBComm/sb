@@ -929,6 +929,11 @@ td.today {
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    div.wrap {
+        padding: 0;
+    }
+
 /* Mobile Overrides */
 
 @media only screen and (max-width: 480px) {
