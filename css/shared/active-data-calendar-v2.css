@@ -552,8 +552,14 @@ div.core-input-container {
     text-transform: none;
 }
 
+#search_results_links {
+    margin: 6px 0;
+}
+
 #search_results_links a {
     color: #7c7c7c;
+    margin-top: 4px;
+    display: block;
 }
 
 #search_results_links a:hover {
