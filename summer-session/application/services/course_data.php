@@ -141,7 +141,7 @@ class CourseData{
 
 		$locations = array(
 					"WESTCAMPUS" => "Main Campus",
-					"MANHATTAN" => "Manhattan Campus",
+					"MANHATTAN" => "Manhattan",
 					"SOUTHAMPTN" => "Southampton Campus",
 					"ONLINE" => "Online Courses",
 					"HSC" => "Health Sciences",

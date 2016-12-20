@@ -463,7 +463,7 @@ class Render{
 			$location = (string) $class_detail->LOCATION_DESCR;
 			$campus_description = (string) $class_detail->CAMPUS_DESCR;
 
-			if($campus_description=="Manhattan Campus") {
+			if($campus_description=="Manhattan Campus" || $campus_description=="Manhattan") {
 				$location = "NYC";
 			}
 
