@@ -465,6 +465,7 @@ class Render{
 
 			if($campus_description=="Manhattan Campus" || $campus_description=="Manhattan") {
 				$location = "NYC";
+				$campus_description = "Manhattan";
 			}
 
 			$course_offerings[$count] = array(
