@@ -1,5 +1,3 @@
-console.log(topStoriesYear);
-
 String.prototype.trimToLength = function(m) {
   return (this.length > m) 
     ? jQuery.trim(this).substring(0, m).split(" ").slice(0, -1).join(" ") + "..."
@@ -25,9 +23,9 @@ if (!String.prototype.startsWith) {
 
 var siteURL;
 if(document.location.hostname=='loalhost') {
-	siteURL = '/sb/top-stories-2015/';
+	siteURL = '/sb/'.topStoriesSiteSlug.'/';
 } else {
-	siteURL = '/far-beyond/top-stories-2015/';
+	siteURL = '/far-beyond/'.topStoriesSiteSlug.'/';
 }
 var totalNumStories = 15;
 
@@ -173,10 +171,10 @@ function getStoryData($overlayContent) {
 function setMetaTags(storyData,isDefault) {
 	var newTitle, newDesc, newURL, newImageURL;
 	if(isDefault) {
-		newTitle = 'Top 15 Stories of 2015 | Stony Brook University';
-		newDesc = 'The top 15 stories and news headlines of 2015 from Stony Brook University have made an impact on Long Island, New York and the world.';
-		newURL = 'http://stonybrook.edu/top15/';
-		newImageURL = 'http://stonybrook.edu/far-beyond/top-stories-2015/img/header/stony-brook-top-15-stories-of-2015-masthead-1600.jpg';
+		newTitle = topStoriesMetaTitle;
+		newDesc = topStoriesMetaDesc;
+		newURL = topStoriesSiteURL;
+		newImageURL = topStoriesLargeImage;
 	} else {
 		newTitle = storyData.storyTitle + ' | Stony Brook University';
 		newDesc = storyData.storyDesc;
@@ -212,7 +210,7 @@ function popHistoryState() {
 		//console.log(currentStorySlug);
 		//console.log(getCurrentStorySlug());
 		//console.log('langing');
-	if(currentURL.match(/top-stories-2015\/$/) || currentURL.match(/top-stories-2015$/)) {
+	if(currentURL.match(/top-stories-20([0-9])*\/$/) || currentURL.match(/top-stories-20([0-9])*$/)) {
 		//if the overlay is open, close it
 		if($('.overlay').hasClass('open')) {
 			//storyTrigger.trigger('click');
