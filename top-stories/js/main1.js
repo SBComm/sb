@@ -32,8 +32,7 @@ var totalNumStories = 15;
 
 
 function calcHeight(item,header) {
-	//var newHeight = (item.height() * 2) - 0.5; //shave off a teeny bit for pixel glitch
-	var newHeight = (item.height() * 2); //leave as-is so that grid does not shift and leave a gaping hole below mag cover
+	var newHeight = (item.height() * 2) - 1; //shave off a teeny bit for pixel glitch
 	header.height(newHeight);
 	header.css('max-height',newHeight);
 }
