@@ -23,9 +23,9 @@ if (!String.prototype.startsWith) {
 
 var siteURL;
 if(document.location.hostname=='loalhost') {
-	siteURL = '/sb/'.topStoriesSiteSlug.'/';
+	siteURL = '/sb/'+topStoriesSiteSlug+'/';
 } else {
-	siteURL = '/far-beyond/'.topStoriesSiteSlug.'/';
+	siteURL = '/far-beyond/'+topStoriesSiteSlug+'/';
 }
 var totalNumStories = 15;
 
