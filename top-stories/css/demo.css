@@ -1,0 +1,139 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'feathericons';
+	src:url('../fonts/feathericons/feathericons.eot?-8is7zf');
+	src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),
+		url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
+		url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
+		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.hide-accessible {
+   position: absolute !important;
+   top: -99999px !important;
+   left: -99999px !important;
+   width: 2000px;
+   height: 2000px;
+}
+
+body {
+	background: #2f3238;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Effra W01', Arial, sans-serif;
+}
+
+.disable-scroll {
+	overflow: hidden;
+}
+
+a {
+	outline: none;
+	color: #3498db;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #528cb3;
+}
+
+section {
+	padding: 1em;
+	text-align: center;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.content > h2 {
+	clear: both;
+	margin: 0;
+	padding: 4em 1% 0;
+	color: #484B54;
+	font-weight: 800;
+	font-size: 1.5em;
+}
+
+.content > h2:first-child {
+	padding-top: 0em;
+}
+
+/* Header */
+.site-header {
+	margin: 0 auto;
+	padding: 4em 1em;
+	text-align: center;
+	/*
+	background: url("../img/branding/rays/black-rays-full.jpg") no-repeat 0 0;
+	background-size: cover;
+	background-attachment: fixed;
+	*/
+}
+
+.site-header h1 {
+	margin: 0;
+	font-weight: 800;
+	font-size: 12em;
+	line-height: 1;
+	letter-spacing: .03em;
+}
+
+.site-header h1 em {
+	font-weight: 300;
+	font-style: normal;
+	font-size: .975em;
+	letter-spacing: -.06em;
+	display: inline-block;
+	padding: 0 8px 0 0;
+}
+
+.site-header h2 {
+	display: block;
+	padding: 0 0 0.6em 0.1em;
+	color: #ccc;
+	font-weight: 300;
+	font-size: 2em;
+	line-height: 1.4em;
+	font-family:'Museo Slab W01';
+}
+
+.site-header h2 span {
+	white-space: nowrap;
+}
+
+.desktop-head {
+
+}
+
+@media screen and (max-width: 25em) {
+	.site-header {
+		font-size: 75%;
+	}
+	.codrops-icon span {
+		display: none;
+	}
+}
