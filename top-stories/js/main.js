@@ -27,7 +27,7 @@ if(document.location.hostname=='loalhost') {
 } else {
 	siteURL = '/far-beyond/'+topStoriesSiteSlug+'/';
 }
-var totalNumStories = 15;
+var totalNumStories = numberOfStories;
 
 
 
