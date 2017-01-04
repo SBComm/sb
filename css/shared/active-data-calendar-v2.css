@@ -676,7 +676,13 @@ td.today {
 
 #divMap #map_canvas {
     margin: 0;
-    height: 500px !important;
+    height: 250px !important;
+}
+
+@media only screen and (min-width: 750px) {
+    #divMap #map_canvas {
+        height: 500px !important;
+    }
 }
 
 /* Event Details */
