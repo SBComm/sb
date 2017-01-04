@@ -660,13 +660,23 @@ td.today {
 }
 
 #publicBody_siteBody_pageBody_divMain #location_details h3 {
-    margin-bottom: -40px;
+    margin: 20px 0 2px;
 }
+
+#publicBody_siteBody_pageBody_divMain #location_details span[itemprop="address"] * {
+    font-size: 16px;
+}
+
 
 #publicBody_siteBody_pageBody_divMain #upcoming_events {
     display: block;
     float: left;
     width: 100%;
+}
+
+#divMap #map_canvas {
+    margin: 0;
+    height: 500px !important;
 }
 
 /* Event Details */
