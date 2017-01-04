@@ -713,6 +713,7 @@ a.effect-honey:hover h2 i {
     height: 120px;
     background: url("../img/13.jpg") no-repeat 0 0;
     background-size: cover;
+	background: url("../img/branding/rays/black-rays-full.jpg") no-repeat 0 0 !important;
 }
 
 .overlay-wrapper .img-box a {
