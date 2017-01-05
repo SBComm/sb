@@ -632,7 +632,9 @@ div.core-input-container {
 }
 
 td.today {
-    background-color: #ffddae;
+    background-color: #fbfbfb;
+    border: 2px solid #900 !important;
+    outline: 2px solid #900;
 }
 
 /* Locations view */
