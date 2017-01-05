@@ -1674,23 +1674,23 @@ figure.effect-chico:hover p {
 	.overlay .story-footer button.story-nav-button,
 	.overlay .story-footer button.story-nav-button + button.story-nav-button {
 		font-size: 1.3em;
-		display: inline-block;
-		float: left;
-		width: 1.5%;
-		background: #7D0000;
-		background: url("../img/branding/rays/red-rays-full.jpg") repeat 20% 0;
-		background-size: cover;
-		opacity: 1;
+	    display: inline-block;
+	    float: left;
+	    width: 2%;
+	    background: #7D0000;
+	    background: url(../img/branding/rays/red-rays-full.jpg) repeat 20% 0;
+	    background-size: cover;
+	    opacity: 1;
 	    -webkit-transition: none;
 	    -moz-transition: none;
 	    transition: none;
-		position: fixed;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		padding: 0;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    padding: 0;
 	    z-index: 10000;
-	    padding: 0 .3%;
+	    padding: 0 0.5%;
 	}
 
 	.overlay .story-footer button.story-nav-button + button.story-nav-button {
