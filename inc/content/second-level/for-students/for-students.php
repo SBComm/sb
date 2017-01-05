@@ -234,10 +234,13 @@
                             */
                             //$file = "for-students/for-students-calendar.php";
                             //include($pathForContent . $content . $secLv . $file);
-                            $file  = "feed/collegiate-link-calendar.php";
-                            $rss   = "https://stonybrook.collegiatelink.net/EventRss/EventsRss";
+                            error_reporting(1);
+                            $file  = "feed/active-calendar_2016.php";
+                            $rss   = "https://calendar.stonybrook.edu/page/rss/?id=47d0e689-72f7-48b3-9f8d-fef27c64ccb3";
                             $count = 3;
                             $end = 3;
+                            $col = 1;
+                            $no_results_text = "Oops! nothin to see here.";
                             include($path . $file);
                         ?>
                         <li class="clearfix more-link">
