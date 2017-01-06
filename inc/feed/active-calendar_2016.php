@@ -22,6 +22,17 @@
 
     if (!isset($showTime))
         $showTime = false;
+
+    $opts = array(
+        "ssl"=>array(
+            "cafile" => "/usr/local/ssl/certs/cacert.pem",
+            "verify_peer"=> true,
+            "verify_peer_name"=> true,
+        )
+    );
+
+    $context = stream_context_create($opts);
+    libxml_set_streams_context($context);
     
     $rssFeed = simplexml_load_file($rss);
 
@@ -85,8 +96,8 @@
 
                 $html .= '<li class="clearfix">';
                 $html .= '<a class="date-marker" href="'.$rss_url.'" title="'.$rss_title.'" target="_blank">';
-                $html .= '<span class="event-month">'.$eventMonth.'</span>';
                 $html .= '<span class="event-date">'.$eventDay.'</span>';
+                $html .= '<span class="event-month">'.$eventMonth.'</span>';
                 $html .= '</a>';
                 $html .= '<a class="event-details" href="'.$rss_url.'" title="'.$rss_title.'" target="_blank">';
                 $html .= '<span class="event-title '.$calendar_title_color.'">'.$rss_title.'</span>';
