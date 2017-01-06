@@ -94,17 +94,13 @@
             if ($proceed) {
                 $no_items = false;
 
-                $html .= '<li class="clearfix">';
-                $html .= '<a class="date-marker" href="'.$rss_url.'" title="'.$rss_title.'" target="_blank">';
-                $html .= '<span class="event-date">'.$eventDay.'</span>';
-                $html .= '<span class="event-month">'.$eventMonth.'</span>';
-                $html .= '</a>';
-                $html .= '<a class="event-details" href="'.$rss_url.'" title="'.$rss_title.'" target="_blank">';
-                $html .= '<span class="event-title '.$calendar_title_color.'">'.$rss_title.'</span>';
+                $html .= '<li>';
+                $html .= '<a class="clearfix" href="'.$rss_url.'" title="'.$rss_title.'">';
+                $html .= '<div class="eventDate"><span class="eventDate_day">'.$eventDay.'</span><span class="eventDate_month">'.$eventMonth.'</span></div>';
+                $html .= '<span class="event-title '.$calendar_title_color.'"><span class="item">'.$rss_title.'</span></span>';
                 if($showTime) {
                     $html .= '<span class="event-time">'.$eventWeekday.', '.$eventMonthNum.'/'.$eventDay.' at '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
                 }
-                $html .= '<span class="event-desc">'.$rss_output_desc.'</span>';
                 $html .= '</a>';
                 $html .= '</li>';
                 $count--;
