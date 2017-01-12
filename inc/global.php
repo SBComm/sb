@@ -62,6 +62,7 @@ $site_status = array(
     'campus-safety'             => 'in_CMS',
     'community-relations'       => 'in_CMS',
     'contact'                   => 'in_CMS',
+    'economic-development'      => 'in_CMS',
     'experts'                   => 'in_CMS',
     'faculty-directory'         => 'in_CMS',
     'faculty-experts'           => 'in_CMS',
