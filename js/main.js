@@ -406,7 +406,7 @@ var initReady = function() {
 		} else {
 			if(!($(inputEl).hasClass('vasearch'))) {
 				var queryString = inputEl.val();
-				var searchUrl = "http://www.stonybrook.edu/search/?q="+queryString;
+				var searchUrl = "https://www.stonybrook.edu/search/?q="+queryString;
 				event.preventDefault();
 				event.stopPropagation();
 				inputEl.val('').focusout();
@@ -424,7 +424,7 @@ var initReady = function() {
 			} else {
 				if(!($(inputEl).hasClass('vasearch'))) {
 					var queryString = inputEl.val();
-					var searchUrl = "http://www.stonybrook.edu/search/?q="+queryString;
+					var searchUrl = "https://www.stonybrook.edu/search/?q="+queryString;
 					event.preventDefault();
 					event.stopPropagation();
 					inputEl.val('').focusout();
