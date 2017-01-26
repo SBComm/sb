@@ -546,7 +546,9 @@ img {
 .whole,
 .one-half,
 .one-third, .two-third,
-.one-quarter, .three-quarter {
+.one-quarter, .three-quarter,
+.one-fifth,
+.one-sixth {
     width: 100%;
     display: block;
     -webkit-box-sizing: border-box;
@@ -5774,7 +5776,9 @@ footer.site-footer .social .small-button:after {
     .whole,
     .one-half,
     .one-third, .two-third,
-    .one-quarter, .three-quarter {
+    .one-quarter, .three-quarter,
+    .one-fifth,
+    .one-sixth {
         display: inline-block;
         float: left;
         padding: 15px;
@@ -5798,6 +5802,14 @@ footer.site-footer .social .small-button:after {
 
     .two-third {
         width: 66.667%;
+    }
+
+    .one-fifth {
+        width: 20%;
+    }
+
+    .one-sixth {
+        width: 16.66%;
     }
 
     .sbu-columns {
