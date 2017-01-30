@@ -59,4 +59,9 @@
         include($path . $file);
     ?>
 </article>
+<?php
+    $file = "widgets/forms/google_admissions_2017_form_section.php";
+    include($path . $file);
+?>
+
 
