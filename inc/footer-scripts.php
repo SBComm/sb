@@ -269,6 +269,14 @@
 				$('.tooltip').tooltipster({
 					theme: 'tooltipster-light'
 				});
+
+				var campaignID = "<?php echo htmlspecialchars($_GET['campaign']); ?>";
+				if(campaignID!='') {
+					$('body').addClass('promo-overlay');
+					setTimeout( function(){ 
+						$('#campaign_trigger_onload[data-campaign-id="'+campaignID+'"]').click()
+					}  , 2000 );
+				}
 			});
 		</script>
 		<?php includeAsset('js','js/vendor/selectivizr-min.js'); ?>
@@ -844,48 +852,19 @@
 					});
 				});
 			</script>
-        <?php } ?>
 
-		<?php if($page_type=='home') { ?>
+			<!-- for request-assistance demo -->
 			<script>
 				$(document).ready(function() {
-					/* re-enable for mobile tap-overlay */
-					/*
-					$('.boldMovesBox').on('click',function(e) {
-						if($(e.target).hasClass('boldMovesBox-title') || $(e.target).parents('.boldMovesBox-title').length) {
-							e.preventDefault();
-						}
-						if($(window).width()<1024) {
-							if(!$(this).hasClass('engaged') && !$(e.target).hasClass('boldMovesBox-link')) {
-								$(this).toggleClass('engaged');
-							} else if($(e.target).hasClass('close-boldMovesBox') || $(e.target).hasClass('close-boldMovesBox-x')) {
-								e.preventDefault();
-								$(this).closest('.boldMovesBox').removeClass('engaged');
-							}
-						}
-					});
-					*/
-					$('.boldMovesBox').hover(
-						function() {
-							console.log();
-							if($(window).width()>=1024) {
-								if(!$(this).hasClass('engaged')) {
-									$(this).addClass('engaged');
-								}
-							}
-						}, function() {
-							if($(window).width()>=1024) {
-								if($(this).hasClass('engaged')) {
-									$(this).removeClass('engaged');
-								}
-							}
-						}
-					);
-					$('.apply-form-trigger').on('click',function(e) {
+					$('.show-form-trigger').on('click',function(e) {
+						var thisButton = $(this);
 						e.preventDefault();
-						var $form = $('.apply-form-1');
+						var formName = '#' + thisButton.attr('data-target-form');
+						console.log(formName);
+						var $form = $(formName);
+						console.log($form);
 						if($form.hasClass('hide-accessible')) {
-							$(this).addClass('active');
+							thisButton.addClass('active');
 							toggleAccessible($form);
 						}
 						$('body').scrollTo($form, 400, {
