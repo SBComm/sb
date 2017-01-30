@@ -110,7 +110,7 @@
 
     $slick_slider     = false;
 
-    $lightbox         = false;
+    $lightbox         = true;
 
     $motio            = false;
 
