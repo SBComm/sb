@@ -235,6 +235,52 @@ select.rounded-input {
     font-size: 18px;
 }
 
+/* Promo Overlay */
+
+.brand-form-promo-overlay .brand-form_container input {
+    margin-bottom: 10px;
+}
+
+.brand-form-promo-overlay h4 {
+    font-size: 46px;
+    font-weight: 900 !important;
+    word-spacing: 4px;
+    line-height: .85em;
+}
+
+.brand-form-promo-overlay p {
+    font-size: 20px !important;
+}
+
+.brand-form-promo-overlay .brand-form {
+    width: 100%;
+    margin: 0;
+}
+
+.brand-form-promo-overlay .brand-form .brand-form_container {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+@media only screen and (min-width: 960px) {
+    .brand-form-promo-overlay .brand-form .brand-form_container:first-child {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    body.promo-overlay .nivo-lightbox-content {
+        display: block;
+        height: 100% !important;
+        position: relative;
+        padding-bottom: 100%;
+        padding-top: 0;
+        height: 0;
+        margin-top: 0;
+    }
+}
+
 
 .chromeframe {
     margin: 0.2em 0;
