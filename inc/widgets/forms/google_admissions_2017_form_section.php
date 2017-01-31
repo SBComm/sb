@@ -1,4 +1,4 @@
-<article class="clearfix second-level-header">
+<article class="clearfix second-level-header basic-contact-form_admissions-2017_section">
     <section class="clearfix page-content white-background">
         <div class="wrapper clearfix pad-top pad-bottom">
             <div class="pad-top pad-bottom">

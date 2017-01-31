@@ -116,6 +116,13 @@
 					    	}
 					    }
 					});
+
+					$('.nivo-lightbox_captcha-form').nivoLightbox({
+					    afterShowLightbox: function() {
+					    	$('.nivo-lightbox-overlay #basic-contact-form_admissions-2017 .submit-container').before('<div id="recaptcha-location"></div>');
+					    	$('.nivo-lightbox-overlay #basic-contact-form_admissions-2017').append('<script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaOnloadCallback&render=explicit"async defer>');
+					    }
+					});
 				});
 
 			</script>
@@ -274,9 +281,13 @@
 				if(campaignID!='') {
 					$('body').addClass('promo-overlay');
 					setTimeout( function(){ 
-						$('#campaign_trigger_onload[data-campaign-id="'+campaignID+'"]').click()
+						$('#campaign_trigger_onload[data-campaign-id="'+campaignID+'"]').click();
 					}  , 2000 );
 				}
+
+				$('.basic-contact-form_admissions-2017_section input').on('focus',function() {
+					$('.basic-contact-form_admissions-2017_section #recaptcha-location').fadeIn();
+				});
 			});
 		</script>
 		<?php includeAsset('js','js/vendor/selectivizr-min.js'); ?>

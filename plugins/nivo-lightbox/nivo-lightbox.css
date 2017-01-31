@@ -233,7 +233,8 @@
 }
 
 .nivo-lightbox-content iframe,
-.nivo-lightbox-inline {
+.nivo-lightbox-inline,
+.nivo-lightbox-ajax {
     position: absolute;
     top: 0;
     left: 0;

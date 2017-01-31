@@ -156,8 +156,8 @@ select.rounded-input {
     padding: 0;
     background: transparent;
     text-align: center;
-    width: 92%;
-    max-width: 1100px;
+    width: 100%;
+    max-width: 1160px;
     margin: 0 auto;
 }
 
@@ -237,8 +237,8 @@ select.rounded-input {
 
 /* Promo Overlay */
 
-.brand-form-promo-overlay .brand-form_container input {
-    margin-bottom: 10px;
+.brand-form_container input {
+    margin-bottom: 15px;
 }
 
 .brand-form-promo-overlay h4 {
@@ -262,10 +262,78 @@ select.rounded-input {
     padding-left: 0;
 }
 
+.brand-form-promo-overlay .g-recaptcha {
+    float: left;
+}
+
+.g-recaptcha iframe {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    height: auto;
+}
+
+#recaptcha-location {
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.brand-form .brand-form_container {
+    padding-left: 0;
+}
+    
+.brand-form #recaptcha-location {
+    margin-right: 20px;
+}
+
+.brand-form .submit-container {
+    max-width: 700px;
+}
+
 @media only screen and (min-width: 960px) {
     .brand-form-promo-overlay .brand-form .brand-form_container:first-child {
         margin-left: 0;
         padding-left: 0;
+    }
+    
+    #recaptcha-location {
+        clear: left;
+        width: 304px;
+    }
+    
+    #recaptcha-location + .submit-container {
+        margin-left: 0;
+        clear: both;
+    }
+    
+    .nivo-lightbox-content #recaptcha-location + .submit-container {
+        margin-left: 0;
+        clear: none;
+    }
+
+    .brand-form .brand-form_container {
+        padding: 0;
+    }
+
+    .brand-form_container input {
+        margin-bottom: 20px;
+    }
+
+    .nivo-lightbox-content #basic-contact-form_admissions-2017_wrapper {
+        margin-bottom: 20px;
+    }
+
+    .basic-contact-form_admissions-2017_section #recaptcha-location {
+        display: none;
+        margin-right: 20px;
+    }
+
+    .basic-contact-form_admissions-2017_section #recaptcha-location + .submit-container {
+        display: inline-block;
+        float: left;
+        clear: none;
     }
 }
 

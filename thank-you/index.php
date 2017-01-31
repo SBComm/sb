@@ -100,26 +100,38 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 							<?php 
-								if($_POST['first-name']!='' && $_POST['last-name']!='' && $_POST['email']!='') {
-									echo('<div id="google-response" style="display: none;">');
+								$secret = '6Lc01RMUAAAAAE1scPKyWckbsoIhWFhxxf6tLnIh';
+                                require($root . '/' . $site . '/plugins/recaptcha/src/autoload.php');
+                                $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 
-								    $url = 'https://docs.google.com/forms/d/e/1FAIpQLScY6qguvhSnmaZRA4PB_QLsjJN61cK2zjgMNnR36tw_kyD2TQ/formResponse?entry.400857025='.htmlspecialchars($_POST['first-name']).'&entry.417680940='.htmlspecialchars($_POST['last-name']).'&entry.1523563919='.htmlspecialchars($_POST['email']).'&submit=Submit';
-								    $ch = curl_init($url);
+                                $gRecaptchaResponse = $_POST['g-recaptcha-response'];
 
-								    curl_setopt($ch, CURLOPT_POST, 1);
-								    curl_setopt($ch, CURLOPT_POSTFIELDS, $xml);
-								    //curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+                                $resp = $recaptcha->verify($gRecaptchaResponse, $remoteIp);
+                                if ($resp->isSuccess()) {
+                                	if($_POST['first-name']!='' && $_POST['last-name']!='' && $_POST['email']!='' && $_POST['g-recaptcha-response']!='') {
+										echo('<div id="google-response" style="display: none;">');
 
-								    $response = curl_exec($ch);
-								    curl_close($ch);
+									    $url = 'https://docs.google.com/forms/d/e/1FAIpQLScY6qguvhSnmaZRA4PB_QLsjJN61cK2zjgMNnR36tw_kyD2TQ/formResponse?entry.400857025='.htmlspecialchars($_POST['first-name']).'&entry.417680940='.htmlspecialchars($_POST['last-name']).'&entry.1523563919='.htmlspecialchars($_POST['email']).'&submit=Submit';
+									    $ch = curl_init($url);
 
-								    echo('</div>');
+									    curl_setopt($ch, CURLOPT_POST, 1);
+									    curl_setopt($ch, CURLOPT_POSTFIELDS, $xml);
+									    //curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
-									include($path . 'content/forms/submit_google_admissions_2017_form.php');
+									    $response = curl_exec($ch);
+									    curl_close($ch);
 
-								} else {
-									include($path . 'content/forms/re-submit_google_admissions_2017_form.php');
-								}
+									    echo('</div>');
+
+										include($path . 'content/forms/submit_google_admissions_2017_form.php');
+
+									} else {
+										include($path . 'content/forms/re-submit_google_admissions_2017_form.php');
+									}
+                                } else {
+                                    $errors = $resp->getErrorCodes();
+                                     include($path . 'content/forms/re-submit_google_admissions_2017_form.php');
+                                }
 							?>
 						</div>
 		                <!-- <for-students> -->

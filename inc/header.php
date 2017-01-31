@@ -214,3 +214,16 @@
         <!--BEGIN Modernizr Include-->
             <?php includeAsset('js','js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'); ?>
         <!--END Modernizr Include-->
+
+        <!--BEGIN reCAPTCHA-->
+        <script type="text/javascript">
+            var reCaptchaOnloadCallback = function() {
+                grecaptcha.render('recaptcha-location', {
+                    'sitekey' : '6Lc01RMUAAAAAEngxFd7N5atkvrhjyZRG4-zWO7R',
+                    callback: function () {
+                        $('#basic-contact-form_admissions-2017 .submit-container').removeClass('hide-accessible');
+                    }
+                });
+            };
+        </script>
+        <!--END reCAPTCHA-->
