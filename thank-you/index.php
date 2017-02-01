@@ -102,7 +102,7 @@
 							<?php 
 								$secret = '6Lc01RMUAAAAAE1scPKyWckbsoIhWFhxxf6tLnIh';
                                 require($root . '/' . $site . '/plugins/recaptcha/src/autoload.php');
-                                $recaptcha = new \ReCaptcha\ReCaptcha($secret);
+                                $recaptcha = new \ReCaptcha\ReCaptcha($secret, new \ReCaptcha\RequestMethod\CurlPost());
 
                                 $gRecaptchaResponse = $_POST['g-recaptcha-response'];
 
