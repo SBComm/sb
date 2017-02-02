@@ -163,7 +163,7 @@ select.rounded-input {
 
 .brand-form h3 {
     font-family: "Museo Slab W01", "Times", serif;
-    font-weight: 300;li
+    font-weight: 300;
     font-size: 1.75em;
     color: #fff;
 }
@@ -2500,7 +2500,8 @@ body {
 
         .photo-boxes .title {
             display: block;
-            font-size: 1.2em;        }
+            font-size: 1.2em;        
+        }
 
         .photo-boxes .item:after {
             font-size: 7em;
