@@ -336,6 +336,7 @@
                                 <a href="http://www.facebook.com/somas.sbu" target="_blank"><i class="fa fa-facebook-square"></i></a>
                                 <a href="http://twitter.com/SoMAS_SBU" target="_blank"><i class="fa fa-twitter"></i></a>
                                 <a href="https://www.youtube.com/user/SoMASSBU" target="_blank"><i class="fa fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/somas.sbu/" target="_blank"><i class="fa fa-instagram"></i></a>
                             </div>
                         </li>
                         <li class="social-other-item sbu-border-bottom">
