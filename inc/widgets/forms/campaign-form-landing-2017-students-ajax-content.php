@@ -4,7 +4,7 @@
             <h4>A Brighter Future</h4>
             <p>Take the first step towards an education that will take you far beyond.</p>
             <div id="basic-contact-form_admissions-2017_wrapper">
-                <form id="basic-contact-form_admissions-2017" class="brand-form brand-form_label_above clearfix" action="http://www.stonybrook.edu//thank-you/index.php" method="POST">
+                <form id="basic-contact-form_admissions-2017" class="brand-form brand-form_label_above clearfix" action="http://www.stonybrook.edu/thank-you/index.php" method="POST">
                     <div class="brand-form_container one-quarter">
                         <label class="brand-form_control-label" for="first-name">First Name</label>
                         <input id="input-first-name" class="" name="first-name" type="text" placeholder="Wolfie" required="required" value="<?php echo htmlspecialchars($_POST['first-name']); ?>" />
@@ -35,7 +35,10 @@
                             <option value="Transfer">Transfer</option>
                         </select>
                     </div>
-
+                    <div class="brand-form_container one-fifth">
+                        <label class="brand-form_control-label" for="last-name">Source URL</label>
+                        <input id="input-source-url" class="" name="source-url" type="text" placeholder="URL" value="<?php echo htmlspecialchars($_POST['source-url']); ?>" />
+                    </div>
                     <div id="recaptcha-location"></div>
                     <div class="brand-form_container one-quarter submit-container">
                         <button id="form-submit" class="clearfix search-button brand-button" type="submit">SUBMIT</button>
