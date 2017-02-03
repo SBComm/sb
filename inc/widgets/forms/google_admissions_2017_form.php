@@ -14,7 +14,7 @@
         </div>
         <div class="brand-form_container one-fifth">
             <label class="brand-form_control-label" for="term">College Entry Term</label>
-            <select id="input-term" class="" name="term" placeholder="Starting Term" required="required" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+            <select id="input-term" class="" name="term" placeholder="Starting Term" required="required" value="<?php echo htmlspecialchars($_POST['term']); ?>">
                 <option value="Fall_2017">Fall 2017</option>
                 <option value="Spring_2018">Spring 2018</option>
                 <option value="Fall_2018">Fall 2018</option>
@@ -24,10 +24,14 @@
         </div>
         <div class="brand-form_container one-fifth">
             <label class="brand-form_control-label" for="type">Student Type</label>
-            <select id="input-type" class="" name="type" placeholder="Freshman or Transfer" required="required" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+            <select id="input-type" class="" name="type" placeholder="Freshman or Transfer" required="required" value="<?php echo htmlspecialchars($_POST['type']); ?>">
                 <option value="Freshman">Freshman</option>
                 <option value="Transfer">Transfer</option>
             </select>
+        </div>
+        <div class="brand-form_container one-fifth hidden" style="display: none !important">
+            <label class="brand-form_control-label" for="last-name">Source URL</label>
+            <input id="input-source-url" class="" name="source-url" type="text" placeholder="URL" value="<?php echo htmlspecialchars($_POST['source-url']); ?>" />
         </div>
         <div id="recaptcha-location"></div>
         <div class="brand-form_container one-quarter submit-container">
