@@ -169,7 +169,8 @@ select.rounded-input {
 }
 
 .brand-form input[type="text"],
-.brand-form input[type="email"] {
+.brand-form input[type="email"],
+.brand-form select {
     border: 0 none;
     line-height: 1;
     display: inline-block;
@@ -183,16 +184,45 @@ select.rounded-input {
     padding: 10px 15px;
     outline: none;
     width: 145px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 41px;
+    appearance: none;
+    border-radius: 0;
+    background: #fff;
+}
+
+.brand-form select {
+    cursor: pointer;
+}
+
+.brand-form .brand-form_container_select {
+    position: relative;
+    overflow: none;
+}
+
+.brand-form input[type="text"]:hover,
+.brand-form input[type="email"]:hover,
+.brand-form select:hover {
+    background: #f8f8f8;
 }
 
 .brand-form input[type="text"]:focus,
-.brand-form input[type="email"]:focus {
+.brand-form input[type="email"]:focus,
+.brand-form select:focus {
     border-color: #900;
     color: #900;
+    background: #f8f8f8;
 }
 
-.brand-form_container.one-quarter input {
+.brand-form_container.one-quarter input,
+.brand-form_container.one-quarter select {
     width: 92%;
+}
+
+.brand-form_container.one-fifth input,
+.brand-form_container.one-fifth select {
+    width: 91%;
 }
 
 .brand-form_label_above .brand-form_control-label {
@@ -205,7 +235,8 @@ select.rounded-input {
 }
 
 .brand-form_label_above .brand-form_control-label,
-.brand-form_label_above .brand-form_control-label + input {
+.brand-form_label_above .brand-form_control-label + input,
+.brand-form_label_above .brand-form_control-label + select {
     display: block;
     float: left;
     clear: both;
@@ -235,9 +266,36 @@ select.rounded-input {
     font-size: 18px;
 }
 
+@media only screen and (min-width: 960px) {
+    .brand-form .brand-form_container_select:after {
+        content: "\f107";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: absolute;
+        z-index: 1;
+        font-size: 24px;
+        padding: 0;
+        top: 25px;
+        right: 34px;
+        color: #999;
+    }
+
+    .brand-form .brand-form_container_select:hover:after {
+        top: 550px;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+    }
+}
+
 /* Promo Overlay */
 
-.brand-form_container input {
+.brand-form_container input,
+.brand-form_container select {
     margin-bottom: 15px;
 }
 
@@ -283,6 +341,10 @@ select.rounded-input {
 .brand-form .brand-form_container {
     padding-left: 0;
 }
+
+.brand-form .brand-form_container_break-left {
+    clear: left;
+}
     
 .brand-form #recaptcha-location {
     margin-right: 20px;
@@ -317,7 +379,8 @@ select.rounded-input {
         padding: 0;
     }
 
-    .brand-form_container input {
+    .brand-form_container input,
+    .brand-form_container select {
         margin-bottom: 20px;
     }
 
@@ -326,7 +389,6 @@ select.rounded-input {
     }
 
     .basic-contact-form_admissions-2017_section #recaptcha-location {
-        display: none;
         margin-right: 20px;
     }
 
