@@ -123,6 +123,8 @@
 					    	$('.nivo-lightbox-overlay #basic-contact-form_admissions-2017').append('<script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaOnloadCallback&render=explicit"async defer>');
 					    }
 					});
+
+					$('.basic-contact-form_admissions-2017_section #recaptcha-location, .basic-contact-form_admissions-2017_section .submit-container').addClass('hide-accessible-desktop');
 				});
 
 			</script>
@@ -286,7 +288,8 @@
 				}
 
 				$('.basic-contact-form_admissions-2017_section input').on('focus',function() {
-					$('.basic-contact-form_admissions-2017_section #recaptcha-location').fadeIn();
+					$('.basic-contact-form_admissions-2017_section #recaptcha-location').removeClass('hide-accessible-desktop');
+					$('.basic-contact-form_admissions-2017_section .submit-container').removeClass('hide-accessible-desktop');
 				});
 			});
 		</script>
