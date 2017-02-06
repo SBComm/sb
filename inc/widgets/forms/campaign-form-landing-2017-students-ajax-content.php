@@ -35,7 +35,7 @@
                             <option value="Transfer">Transfer</option>
                         </select>
                     </div>
-                    <div class="brand-form_container one-fifth">
+                    <div class="brand-form_container one-fifth hidden" style="display: none !important">
                         <label class="brand-form_control-label" for="last-name">Source URL</label>
                         <input id="input-source-url" class="" name="source-url" type="text" placeholder="URL" value="<?php echo htmlspecialchars($_POST['source-url']); ?>" />
                     </div>
