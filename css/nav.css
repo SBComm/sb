@@ -1439,6 +1439,22 @@
 	.quick-nav ul li:first-child {
 	}
 
+	.quick-nav ul.quicknav_selected_1 li:first-child a {
+		color: #900;
+	}
+	.quick-nav ul.quicknav_selected_2 li:nth-child(2) a {
+		color: #900;
+	}
+	.quick-nav ul.quicknav_selected_3 li:nth-child(3) a {
+		color: #900;
+	}
+	.quick-nav ul.quicknav_selected_4 li:nth-child(4) a {
+		color: #900;
+	}
+	.quick-nav ul.quicknav_selected_5 li:nth-child(5) a {
+		color: #900;
+	}
+
 	.quick-nav ul li.for-info {
 	}
 
