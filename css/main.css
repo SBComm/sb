@@ -3675,7 +3675,7 @@ body {
     }
 
     .social-snippet .stream li:nth-child(even) {
-        background: #f7f7f7;
+        /* background: #f7f7f7; */
     }
 
     .tweets-and-news .stream .section-thumb {
