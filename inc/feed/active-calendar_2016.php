@@ -23,6 +23,9 @@
     if (!isset($showTime))
         $showTime = false;
 
+    if (!isset($show_description))
+        $show_description = '';
+
     $opts = array(
         "ssl"=>array(
             "cafile" => "/usr/local/ssl/certs/cacert.pem",
@@ -104,7 +107,9 @@
                 if($showTime) {
                     $html .= '<span class="event-time">'.$eventWeekday.', '.$eventMonthNum.'/'.$eventDay.' at '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
                 }
-                $html .= '<span class="event-desc">'.$rss_output_desc.'</span>';
+                if($show_description!='hide') {
+                    $html .= '<span class="event-desc">'.$rss_output_desc.'</span>';
+                }
                 $html .= '</a>';
                 $html .= '</li>';
                 $count--;
