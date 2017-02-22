@@ -161,7 +161,6 @@ if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_overr
     /* As per Jacob Levich <jacob.levich@stonybrook.edu> via Sara Wallace <swallace@butlertill.com>
     Added 04-07-16 by Josh Palmeri */
 ?>
-    <div class="gtm-include">
     <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P43R9T&gtm_auth=jCHsNovKQBjtTL9y_RXzMQ&gtm_preview=env-1&gtm_cookies_win=x"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -171,7 +170,6 @@ if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_overr
     '//www.googletagmanager.com/gtm.js?id='+i+dl+'&gtm_auth=jCHsNovKQBjtTL9y_RXzMQ&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-P43R9T');</script>
     <!-- End Google Tag Manager -->
-    </div>
 <?php } else if(!$is_production_environment) {
     /* As per Jacob Levich <jacob.levich@stonybrook.edu> via Sara Wallace <swallace@butlertill.com>
     Added 04-07-16 by Josh Palmeri */
