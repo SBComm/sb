@@ -342,6 +342,7 @@ input.gsc-search-button {
   }
   #cse-search-input .gsc-input input.gsc-input {
     background: none !important;
+    text-indent: 0 !important;
   }
 
 
