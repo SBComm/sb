@@ -1499,6 +1499,7 @@
 
 	.quick-nav a:hover,
 	.quick-nav a.selected,
+	.quick-nav li a.selected,
 	.quick-nav .search-trigger:hover,
 	.quick-nav .search-trigger.selected,
 	.quick-nav .more-trigger:hover,
