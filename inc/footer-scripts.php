@@ -126,13 +126,9 @@
 
 					$('.basic-contact-form_admissions-2017_section #recaptcha-location, .basic-contact-form_admissions-2017_section .submit-container').addClass('hide-accessible-desktop');
 
-					console.log($('.basic-contact-form_admissions-2017 input#input-source-url').val());
 					var $sourceUrlInput = $('.basic-contact-form_admissions-2017 input#input-source-url');
 					var $sourceUrlValue = "<?php echo htmlspecialchars($_POST['type']); ?>";
-					console.log(typeof $sourceUrlInput.val());
-					console.log($sourceUrlValue=='');
 					if($sourceUrlValue=='') {
-						console.log($sourceUrlInput);
 						$sourceUrlInput.val(window.location);
 					}
 				});
