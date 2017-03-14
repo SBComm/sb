@@ -10,6 +10,10 @@ h2 {
     color: #fff;
 }
 
+#alert-message {
+	display: none !important; /* hide emergency alert */
+}
+
 .message-404 a {
 	color: #fff;
 	text-decoration: underline;
