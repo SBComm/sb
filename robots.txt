@@ -9,3 +9,4 @@ Disallow: /tools/
 Disallow: /index.php
 Disallow: /top-stories-2015/index-dev.php
 Disallow: /mobile/
+Disallow: /request-assistance/
