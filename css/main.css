@@ -1068,7 +1068,7 @@ section.breaker {
 
 .rays-border-left:before,
 .rays-border-right:after {
-    display: block;
+    display: block !important;
     position: absolute;
     top: 0;
     bottom: 0;
