@@ -2,7 +2,7 @@
 		            <div class="logo-container page-cat-main clearfix border-box">
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
-				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
+				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
 				            	<div class="site-tagline">The State University of <span>New York</span></div>
 				            </div>
 			            </header>
@@ -11,7 +11,7 @@
 					<div class="logo-container page-cat-sub clearfix border-box">
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
-				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
+				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
 				            	<h1 class="site-name"><a href="<?php echo $og_url; ?>"><?php echo htmlentities($page_title_sub); ?></a></h1>
 				            </div>
 			            </header>
@@ -20,7 +20,7 @@
 					<div class="logo-container page-cat-sub clearfix border-box">
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
-				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
+				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
 				            	<h1 class="site-name"><a href="//stonybrook.edu/newsroom/"><?php echo htmlentities($page_title_sub); ?></a></h1>
 				            </div>
 			            </header>
@@ -29,7 +29,7 @@
 					<div class="logo-container page-cat-sub clearfix border-box">
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
-				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
+				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
 				            	<h1 class="site-name"><a href="//stonybrook.edu/alumni"><?php echo htmlentities($page_title_sub); ?></a></h1>
 				            </div>
 			            </header>
@@ -38,7 +38,7 @@
 					<div class="logo-container page-cat-sub clearfix border-box">
 		            	<header class="no-pad-wrapper">
 				            <div class="logo-wrapper">
-				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
+				            	<div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/primary/300/stony-brook-university-logo-horizontal-300.png" alt="Stony Brook University" /></a></div>
 				            	<h1 class="site-name"><a href="<?php echo $og_url; ?>"><?php echo htmlentities($page_title_sub); ?></a></h1>
 				            </div>
 			            </header>
