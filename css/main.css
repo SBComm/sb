@@ -3971,7 +3971,6 @@ body {
     }
 
     /* caption-snippet */
-
     .caption-snippet {
         display: block;
         width: 100%;
@@ -3989,6 +3988,10 @@ body {
     .caption-snippet__caption {
         background: rgba(255,255,255,.75);
         padding: 15px 30px 10px;
+        max-width: 840px;
+        margin: 0 auto;
+        display: block;
+        float: none;
     }
     .caption-snippet__caption--dark-theme {
         background: rgba(0,0,0,.75);
@@ -4076,7 +4079,6 @@ body {
 
 
     /* General button style (reset) */
-
     .sbu-button,
     a.sbu-button {
         display: inline-block;
