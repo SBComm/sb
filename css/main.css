@@ -3970,8 +3970,83 @@ body {
         opacity: 1;
     }
 
+    /* caption-snippet */
 
+    .caption-snippet {
+        display: block;
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .caption-snippet__text,
+    .caption-snippet__caption {
+        background: rgba(255,255,255,.3);
+        padding: 10px;
+    }
+    .caption-snippet__caption {
+        background: rgba(255,255,255,.75);
+        padding: 15px 30px 10px;
+    }
+    .caption-snippet__text__title,
+    .caption-snippet__caption__title {
+        font-family: "Effra W01", "Arial", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #000;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .caption-snippet__caption__title {
+        margin-top: 5px;
+    }
+    .caption-snippet__text__button {
+        border: 0;
+        outline: 0;
+        font-family: "Effra W01", "Arial", sans-serif;
+        font-weight: 400;
+        color: #000;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .caption-snippet__text__button:hover {
+        color: #900;
+    }
+    .caption-snippet__text__button:after {
+        content: "\f106";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        font-size: 1em;
+        padding: 0 0 0 7px;
+    }
+    .inside-content p.caption-snippet__caption__text {
+        font-size: .9em;
+        text-align: left;
+        margin-top: 10px;
+        line-height: 1.3em;
+        color: #000;
+    }
 
+    @media only screen and (min-width: 960px) {
+        .caption-snippet__text__title,
+        .caption-snippet__text__button {
+            width: auto;
+            display: inline-block;
+            float: none;
+        }
+        .caption-snippet__text__title {
+            padding: 0 17px 0 0;
+            margin: 0 15px 0 0;
+            border-right: 1px solid #000;
+        }
+    }
 
 
     /* General button style (reset) */
