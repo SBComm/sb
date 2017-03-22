@@ -4002,6 +4002,7 @@ body {
         display: block;
         width: 100%;
         text-align: center;
+        line-height: 1.2;
     }
     .caption-snippet__caption__title {
         margin-top: 5px;
@@ -4015,6 +4016,8 @@ body {
         display: block;
         width: 100%;
         text-align: center;
+        font-size: 1em;
+        cursor: pointer;
     }
     .caption-snippet__text--dark-theme .caption-snippet__text__title,
     .caption-snippet__text--dark-theme .caption-snippet__text__button {
