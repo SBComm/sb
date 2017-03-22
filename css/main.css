@@ -3977,6 +3977,7 @@ body {
         width: 100%;
         float: left;
         text-align: center;
+        font-size: 17px;
     }
     .caption-snippet__text {
         background: rgba(255,255,255,.3);
