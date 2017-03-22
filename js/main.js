@@ -489,6 +489,19 @@ var initReady = function() {
 	    }
 	});
 
+	// Make Space and Enter activate the role='button' click handler
+    $("[role='button']").keydown(function(event) {
+        if(event.which==13) {
+            $(this).click();
+        }
+    });
+
+    $('.caption-snippet__text__button').on('click',function() {
+    	var $c = $(this).closest('.caption-snippet');
+    	$c.find('.caption-snippet__text').hide();
+    	$c.find('.caption-snippet__caption').removeClass('hide-accessible');
+    });
+
 	/* Partial Print */
 	$('.partial-print-trigger').on('click',function(event) {
 		event.preventDefault();
