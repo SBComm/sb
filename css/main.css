@@ -3978,14 +3978,19 @@ body {
         float: left;
         text-align: center;
     }
-    .caption-snippet__text,
-    .caption-snippet__caption {
+    .caption-snippet__text {
         background: rgba(255,255,255,.3);
         padding: 10px;
+    }
+    .caption-snippet__text--dark-theme {
+        background: rgba(0,0,0,.3);
     }
     .caption-snippet__caption {
         background: rgba(255,255,255,.75);
         padding: 15px 30px 10px;
+    }
+    .caption-snippet__caption--dark-theme {
+        background: rgba(0,0,0,.75);
     }
     .caption-snippet__text__title,
     .caption-snippet__caption__title {
@@ -4010,8 +4015,21 @@ body {
         width: 100%;
         text-align: center;
     }
-    .caption-snippet__text__button:hover {
+    .caption-snippet__text--dark-theme .caption-snippet__text__title,
+    .caption-snippet__text--dark-theme .caption-snippet__text__button {
+        color: #eee;
+    }
+    .caption-snippet__text__button:hover,
+    .caption-snippet__text__button:focus {
         color: #900;
+    }
+
+    .caption-snippet__text--dark-theme .caption-snippet__text__button:hover,
+    .caption-snippet__text--dark-theme .caption-snippet__text__button:focus {
+        color: #fff;
+    }
+    .caption-snippet__text__button:focus {
+        text-decoration: underline;
     }
     .caption-snippet__text__button:after {
         content: "\f106";
@@ -4032,6 +4050,10 @@ body {
         margin-top: 10px;
         line-height: 1.3em;
         color: #000;
+    }
+    .caption-snippet__caption--dark-theme .caption-snippet__caption__title,
+    .inside-content .caption-snippet__caption--dark-theme p.caption-snippet__caption__text {
+        color: #fff;
     }
 
     @media only screen and (min-width: 960px) {
