@@ -910,15 +910,6 @@
 			</script>
 		<?php } ?>
 
-		<?php if($is_production_environment) { ?>
-			<script type="text/javascript">
-				setTimeout(function(){var a=document.createElement("script");
-				var b=document.getElementsByTagName("script")[0];
-				a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0003/0382.js?"+Math.floor(new Date().getTime()/3600000);
-				a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-			</script>
-		<?php } ?>
-
 		<!--OU-->
 		<script>
 			$(document).ready(function() {
