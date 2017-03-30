@@ -24,7 +24,7 @@
         </div>
         <div class="brand-form_container whole">
             <label class="brand-form_control-label" for="topic">Please indicate what you would like to discuss with President Stanley.</label>
-            <input id="input-topic" class="" name="topic" type="topic" required="required" value="<?php echo htmlspecialchars($_POST['topic']); ?>"  />
+            <input id="input-topic" class="" name="topic" type="text" required="required" value="<?php echo htmlspecialchars($_POST['topic']); ?>"  />
         </div>
         <div class="brand-form_container one-fifth hidden" style="display: none !important">
             <label class="brand-form_control-label" for="last-name">Source URL</label>
