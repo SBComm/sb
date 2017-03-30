@@ -225,6 +225,11 @@ select.rounded-input {
     width: 91%;
 }
 
+.brand-form_container.whole input,
+.brand-form_container.whole select {
+    width: 98%;
+}
+
 .brand-form_label_above .brand-form_control-label {
     font-family: "Effra W01", "Arial", sans-serif;
     font-weight: 700;
