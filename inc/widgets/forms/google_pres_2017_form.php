@@ -1,5 +1,5 @@
 <div id="basic-contact-form_pres-2017_wrapper" class="basic-contact-form_pres-2017">
-    <form id="basic-contact-form_pres-2017" class="brand-form brand-form_label_above clearfix" action="http://www.stonybrook.edu/thank-you/index.php" method="POST">
+    <form id="basic-contact-form_pres-2017" class="brand-form brand-form_label_above clearfix" action="http://www.stonybrook.edu/thank-you/office-hours.php" method="POST">
         <div class="brand-form_container one-quarter">
             <label class="brand-form_control-label" for="first-name">First Name</label>
             <input id="input-first-name" class="" name="first-name" type="text" placeholder="Wolfie" required="required" value="<?php echo htmlspecialchars($_POST['first-name']); ?>" />
