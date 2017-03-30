@@ -1,7 +1,7 @@
 <article class="clearfix second-level-header">
     <section class="header-title-image-sac page-title">
         <div class="wrapper border-box">
-            <h1>Request a Meeting</h1>
+            <h1>President's Office Hours</h1>
         </div>
     </section>
 
