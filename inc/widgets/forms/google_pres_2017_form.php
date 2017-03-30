@@ -10,7 +10,7 @@
         </div>
         <div class="brand-form_container one-quarter">
             <label class="brand-form_control-label" for="email">Email Address</label>
-            <input id="input-email" class="" name="email" type="email" placeholder="your@email.com" required="required" value="<?php echo htmlspecialchars($_POST['email']); ?>"  />
+            <input id="input-email" class="" name="email" type="email" placeholder="your.name@stonybrook.edu" required="required" value="<?php echo htmlspecialchars($_POST['email']); ?>"  />
         </div>
         <div class="brand-form_container one-quarter">
             <label class="brand-form_control-label" for="date">Date Requested</label>
