@@ -1950,7 +1950,7 @@ body {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 0 10px 0 60px;
+        padding: 0 15px 0 60px;
         border-radius: 0 15px 0 0;
         color: #fff;
         font-size: 22px;
@@ -5011,6 +5011,38 @@ body {
     .inside-content ul {
         margin: 0 0 10px;
     }
+
+    /* CMS section split semi-transparent background */
+
+    .cms-section-transparent-background-left,
+    .cms-section-transparent-background-left .whole,
+    .cms-section-transparent-background-left .sbu-columns,
+    .cms-section-transparent-background-left--black,
+    .cms-section-transparent-background-left--black .whole,
+    .cms-section-transparent-background-left--black .sbu-columns,
+    .clear-all-padding,
+    .clear-all-margin,
+    .clear-all-padding-on-container .whole,
+    .clear-all-margin-on-container .whole {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .cms-section-transparent-background-left .sbu-columns .sbu-columns--column:first-child,
+    .cms-section-transparent-background-right .sbu-columns .sbu-columns--column:last-child {
+         background-image: url('/commcms/_images/section-backgrounds/transparent-colors/transparent-white-90.png');
+         background-size: cover;
+         padding: 30px 40px
+    }
+
+    .cms-section-transparent-background-left--black .sbu-columns .sbu-columns--column:first-child,
+    .cms-section-transparent-background-left--black .sbu-columns .sbu-columns--column:last-child {
+         background-image: url('/commcms/_images/section-backgrounds/transparent-colors/transparent-black-80.png');
+         background-size: cover;
+         padding: 30px 40px
+    }
+
+    /* bullets */
 
     .arrow-bullets li {
         text-indent: -15px;
