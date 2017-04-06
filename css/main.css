@@ -1911,6 +1911,83 @@ body {
         text-shadow: 0 0 2px #20798E;
     }
 
+    /* black-button-with-red-rays-sidewall */
+
+    ul.black-button-with-red-rays-sidewall-wrapper {
+        
+    }
+
+    .black-button-with-red-rays-sidewall-wrapper li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 0 20px !important;
+        text-indent: 0 !important;
+        padding: 0;
+        width: 100%;
+        float: left;
+        color: #fff;
+        font-family: "Effra W01", "Arial", sans-serif;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 130px;
+        position: relative;
+    }
+
+    .black-button-with-red-rays-sidewall-wrapper li:before {
+        content: "" !important;
+        display: none !important;
+    }
+
+    .black-button-with-red-rays-sidewall-wrapper li a {
+        display: block;
+        background: #000;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 10px 0 60px;
+        border-radius: 0 15px 0 0;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .black-button-with-red-rays-sidewall-wrapper li a:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 35px;
+        background-image: url("../img/branding/rays/red-rays-full.jpg");
+        content: " ";
+        z-index: 1000;
+        background-attachment: fixed;
+    }
+
+    .black-button-with-red-rays-sidewall {
+        display: block;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .black-button-with-red-rays-sidewall-wrapper li {
+            margin: 0 2% 20px !important;
+            width: 46%;
+        }
+    }
+
+    @media only screen and (min-width: 1140px) {
+        .black-button-with-red-rays-sidewall-wrapper li {
+            margin: 0 1.5% 30px !important;
+            width: 21%;
+        }
+    }
+
     /* Tables */
 
     .simple-two-col-table {
