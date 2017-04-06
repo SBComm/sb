@@ -5036,7 +5036,7 @@ body {
     }
 
     .cms-section-transparent-background-left--black .sbu-columns .sbu-columns--column:first-child,
-    .cms-section-transparent-background-left--black .sbu-columns .sbu-columns--column:last-child {
+    .cms-section-transparent-background-right--black .sbu-columns .sbu-columns--column:last-child {
          background-image: url('/commcms/_images/section-backgrounds/transparent-colors/transparent-black-80.png');
          background-size: cover;
          padding: 30px 40px
