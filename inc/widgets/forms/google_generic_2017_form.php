@@ -14,7 +14,7 @@
         </div>
         <div class="brand-form_container one-quarter">
             <label class="brand-form_control-label" for="date">Date Requested</label>
-            <select id="input-date" class="" name="date" placeholder="Date Requested" required="required" value="<?php echo htmlspecialchars($_POST['date']); ?>">
+            <select id="input-date" class="" name="date" placeholder="Date Requested" required="required">
                 <option value="<?php echo htmlspecialchars($_POST['date']); ?>"><?php echo htmlspecialchars($_POST['date']); ?></option>
             </select>
         </div>
