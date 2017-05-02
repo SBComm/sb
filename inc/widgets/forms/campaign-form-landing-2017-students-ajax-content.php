@@ -21,7 +21,6 @@
                     <div class="brand-form_container one-quarter brand-form_container_break-left">
                         <label class="brand-form_control-label" for="term">College Entry Term</label>
                         <select id="input-term" class="" name="term" placeholder="Starting Term" required="required" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-                            <option value="Fall_2017">Fall 2017</option>
                             <option value="Spring_2018">Spring 2018</option>
                             <option value="Fall_2018">Fall 2018</option>
                             <option value="Spring_2019">Spring 2019</option>
