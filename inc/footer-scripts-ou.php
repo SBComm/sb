@@ -10,6 +10,13 @@ if($social_feed_widget) { ?>
 	<script src="/js/social-v2/js/jquery.social.stream.1.6.js"></script>
 	<?php includeAsset('js','/js/social/preload-messages.js'); ?>
 
+	<?php if($live_filter==true) { ?>
+		<?php includeAsset('js','js/vendor/jquery.fastLiveFilter.js'); ?>
+		<script>
+			$('#live-filter-search').fastLiveFilter('#live-filter-list ul');
+		</script>
+    <?php } ?>
+
 	<?php
 		$social_feeds = '';
 		for($i=1; $i<=$social_feed_widget_num; $i++) {
