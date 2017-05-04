@@ -2224,6 +2224,85 @@ body {
         height: 1600px;
     }
 
+    ul.course-program-list {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .course-program-list li {
+        border-top: 1px solid #ccc;
+        display: block;
+        position: relative;
+        padding: 8px 0;
+    }
+
+    .course-program-list.flex-list-2 > li,
+    .course-program-list.flex-list-3 > li {
+        padding: 8px 0;
+
+    }
+
+    .course-program-list li a {
+        display: inline-block;
+        width: 85%;
+    }
+
+    .major-minor-badges--wider-badges .course-program-list li a {
+        display: inline-block;
+        width: 65%;
+    }
+
+    .course-program-list li .major,
+    .course-program-list li .minor {
+        position: absolute;
+    }
+
+    .course-program-list li .major {
+        right: 20px;
+        top: 10px;
+    }
+
+    .course-program-list li .minor {
+        right: 2px;
+        top: 10px;
+    }
+
+    .major-minor-badges--wider-badges .course-program-list li .major,
+    .major-minor-badges--wider-badges .course-program-list li .minor {
+        position: relative;
+    }
+
+    .major-minor-badges--wider-badges .course-program-list li .major {
+        right: auto;
+        top: auto;
+    }
+
+    .major-minor-badges--wider-badges .course-program-list li .minor {
+        right: auto;
+        top: auto;
+    }
+
+    .major-minor-badges--wider-badges .course-program-list .wider-badges-wrapper {
+        float: right;
+        width: 35%;
+        text-align: right;
+    }
+
+    .course-program-list li ul {
+        margin: 4px 0 0 15px;
+        padding: 0;
+    }
+
+    .course-program-list li li {
+        border: 0 none;
+        font-size: .85em;
+        padding: 0;
+        color: #555
+    }
+
+
     @media only screen and (min-width: 560px) {
         .flex-list-4 li {
             width: 50%;
@@ -2234,20 +2313,24 @@ body {
     @media only screen and (min-width: 768px) {
         .flex-list-2 li,
         .flex-list-3 li {
-            width: 50%;
+            width: 48%;
             padding: 0;
+            margin: 0 1%;
         }
         .flex-list-4 li {
-            width: 33.333%;
+            width: 31.333%;
+            margin: 0 1%;
         }
     }
 
     @media only screen and (min-width: 960px) {
         .flex-list-3 li {
-            width: 33.333%;
+            width: 31.333%;
+            margin: 0 1%;
         }
         .flex-list-4 li {
-            width: 25%;
+            width: 24%;
+            margin: 0 0.5%;
         }
     }
 
