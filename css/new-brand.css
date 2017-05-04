@@ -607,6 +607,11 @@ ul.three-col-list {
     line-height: 13px;
 }
 
+.major-minor-badges--wider-badges .key-icons--icon {
+    width: auto;
+    min-width: 18px;
+}
+
 .key-icons--icon_red {
     color: #fff;
     background: #900;
