@@ -639,11 +639,6 @@ class Render{
 						}
 					}
 
-					$shareTitle = "$subject $catalog_number: $course_name";
-					$shareSummary = "";
-					$shareTwitterURL = "https://twitter.com/intent/tweet?hashtags=NikonSupport&related=NikonUSA&url=http://support.nikonusa.com/app/answers/detail/a_id/61&text=Current%20versions%20of%20Nikon%20software";
-					$shareFacebookURL = "http://www.facebook.com/sharer.php?s=100&p[title]=Current%20versions%20of%20Nikon%20software&p[summary]=Where%20can%20I%20download%20the%20latest%20Nikon%20software%20updates%3F&p[url]=http://support.nikonusa.com/app/answers/detail/a_id/61&p[images][0]=http%3A%2F%2Fsupport.nikonusa.com%2Feuf%2Fassets%2Fimages%2Fnikon%2Fnikon_logo_360.jpg";
-
 
 					$html .= "</tbody></table>
 								<span class=\"partial-print-trigger\" data-partial-print-target=\"li\"><i class=\"fa fa-print\"></i></span>
