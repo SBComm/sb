@@ -117,10 +117,14 @@ function hasNoFlexbox() {
 
 function setContainerHeight(numColumns, flexList) {
 	var $containerEl = 	flexList;
-	var itemHeight = 	$containerEl.find('li:first-child').height();
-	var numItems = 		$containerEl.children('li:visible').length;
-	var newContainerHeight = ((numItems * itemHeight) / numColumns) + itemHeight;
-	$containerEl.height(newContainerHeight);
+	var totalHeight = 	0;
+	$containerEl.children('li').each(function() {
+		totalHeight += $(this).outerHeight();
+		console.log(totalHeight);
+	});
+		var numItems = 		$containerEl.children('li:visible').length;
+	totalHeight = (totalHeight / numColumns) + (1.7 * (totalHeight / numItems)); //add the average height of an li for extra margin
+	$containerEl.height(totalHeight);
 }
 
 function initializeFlexList(eventType) {
