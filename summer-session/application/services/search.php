@@ -63,9 +63,16 @@ class Search{
 			$instructor = (string) $class_detail->INSTRUCTOR;
 			$title = (string) $class_detail->DESCR;
 			$description = (string) $class_detail->DESCRLONG;
+			$department = (string) $class_detail->COURSE_CATEGORY;
 
 			// Loop through keywords
 			foreach ($keywords_array as $keyword) {
+
+				// Search class number
+				$department_matches = preg_match_all("/\b$keyword\b/i", $department, $cn_match_details);
+				if($department_matches > 0){
+					$match_strength += $department_matches * 24;
+				}
 
 				// Search class number
 				$class_number_matches = preg_match_all("/\b$keyword\b/i", $class_number, $cn_match_details);
