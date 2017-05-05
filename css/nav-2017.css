@@ -1,0 +1,19 @@
+.sbu-nav-bar {
+	width: 100%;
+	background: #000;
+}
+
+.sbu-nav-bar .logo {
+	display: block;
+	float: left;
+	width: 269px;
+	padding: 18px;
+}
+
+@media only screen and (max-width: 340px) {
+	.sbu-nav-bar .logo {
+		padding: 21px 18px;
+		width: 230px;
+	}
+
+}
