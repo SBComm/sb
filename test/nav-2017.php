@@ -57,6 +57,7 @@
         <?php includeAsset('css','css/elements/mlpushmenu/icons.css'); ?>
         <?php includeAsset('css','css/elements/mlpushmenu/component.css'); ?>
         <?php includeAsset('css','css/nav-2017.css'); ?>
+        <?php includeAsset('css','css/nav-2017-desktop.css'); ?>
 	</head>
     <body>
         <!-- <global> -->

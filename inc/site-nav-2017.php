@@ -16,10 +16,36 @@
                             <h2 class="nav-icon nav-icon-display">About</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
-                                <li><a href="#">History</a></li>
-                                <li><a href="#">Visiting</a></li>
+                                <li><a href="#">About SBU</a></li>
+                                <li><a href="#">History &amp; Traditions</a></li>
                                 <li><a href="#">Administration &amp; Leadership</a></li>
-                                <li><a href="#">Fast Facts</a></li>
+                                <li><a href="#">Facts &amp; Rankings</a></li>
+                                <li class="nav-icon nav-icon-arrow-left">
+                                    <a class="nav-icon nav-icon-map" href="#">Visit</a>
+                                    <div class="mp-level">
+                                        <h2>Visit</h2>
+                                        <a class="mp-back" href="#">back</a>
+                                        <ul>
+                                            <li><a href="#">Directions</a></li>
+                                            <li><a href="#">Maps</a></li>
+                                            <li><a href="#">Virtual Tour</a></li>
+                                            <li><a href="#">Parking &amp; Transportation</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-icon nav-icon-arrow-left">
+                                    <a class="nav-icon nav-icon-globe" href="#">Centers &amp; Institutes</a>
+                                    <div class="mp-level">
+                                        <h2>Centers &amp; Institutes</h2>
+                                        <a class="mp-back" href="#">back</a>
+                                        <ul>
+                                            <li><a href="#">Turkana Basin Institute</a></li>
+                                            <li><a href="#">Global Health Institute</a></li>
+                                            <li><a href="#">Brookhaven National Lab</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Site Directory</a></li>
                             </ul>
                         </div>
                     </li>
@@ -30,6 +56,9 @@
                             <a class="mp-back" href="#">back</a>
                             <ul>
                                 <li>
+                                    <a class="nav-icon nav-icon-diamond" href="#">Overview</a>
+                                </li>
+                                <li>
                                     <a class="nav-icon nav-icon-diamond" href="#">Majors &amp; Minors</a>
                                 </li>
                                 <li class="nav-icon nav-icon-arrow-left">
@@ -39,43 +68,54 @@
                                         <a class="mp-back" href="#">back</a>
                                         <ul>
                                             <li class="nav-icon nav-icon-arrow-left">
-                                                <a class="nav-icon nav-icon-female" href="#">Women's Clothing</a>
+                                                <a class="nav-icon nav-icon-display" href="#">General Studies</a>
                                                 <div class="mp-level">
-                                                    <h2>Women's Clothing</h2>
+                                                    <h2>General Studies</h2>
                                                     <a class="mp-back" href="#">back</a>
                                                     <ul>
-                                                        <li><a href="#">Tops</a></li>
-                                                        <li><a href="#">Dresses</a></li>
-                                                        <li><a href="#">Trousers</a></li>
-                                                        <li><a href="#">Shoes</a></li>
-                                                        <li><a href="#">Sale</a></li>
+                                                        <li><a href="#">College of Arts and Sciences</a></li>
+                                                        <li><a href="#">College of Business</a></li>
+                                                        <li><a href="#">College of Engineering and Applied Sciences</a></li>
+                                                        <li><a href="#">School of Journalism</a></li>
+                                                        <li><a href="#">School of Social Welfare</a></li>
+                                                        <li><a href="#">School of Professional Development</a></li>
+                                                        <li><a href="#">Sustainability Studies Program</a></li>
+                                                        <li><a href="#">Professional Education Program</a></li>
+                                                        <li><a href="#">Graduate School</a></li>
                                                     </ul>
                                                 </div>
                                             </li>
                                             <li class="nav-icon nav-icon-arrow-left">
-                                                <a class="nav-icon nav-icon-male" href="#">Men's Clothing</a>
+                                                <a class="nav-icon nav-icon-display" href="#">Health Sciences</a>
                                                 <div class="mp-level">
-                                                    <h2>Men's Clothing</h2>
+                                                    <h2>Health Sciences</h2>
                                                     <a class="mp-back" href="#">back</a>
                                                     <ul>
-                                                        <li><a href="#">Shirts</a></li>
-                                                        <li><a href="#">Trousers</a></li>
-                                                        <li><a href="#">Shoes</a></li>
-                                                        <li><a href="#">Sale</a></li>
+                                                        <li><a href="#">School of Dental Medicine</a></li>
+                                                        <li><a href="#">School of Health Technology and Management</a></li>
+                                                        <li><a href="#">School of Marine and Atmospheric Sciences</a></li>
+                                                        <li><a href="#">School of Medicine</a></li>
+                                                        <li><a href="#">School of Nursing</a></li>
+                                                        <li><a href="#">School of Pharmacology</a></li>
+                                                        <li><a href="#">Graduate Program in Public Health</a></li>
                                                     </ul>
                                                 </div>
                                             </li>
+                                            <li><a href="#">Honors College</a></li>
                                         </ul>
                                     </div>
                                 </li>
-                                <li>
-                                    <a class="nav-icon nav-icon-diamond" href="#">Libraries</a>
-                                </li>
-                                <li>
-                                    <a class="nav-icon nav-icon-music" href="#">Academic Excellence</a>
-                                </li>
-                                <li>
-                                    <a class="nav-icon nav-icon-food" href="#">Resources</a>
+                                <li class="nav-icon nav-icon-arrow-left">
+                                    <a class="nav-icon nav-icon-globe" href="#">Resources &amp; References</a>
+                                    <div class="mp-level">
+                                        <h2>Resources &amp; References</h2>
+                                        <a class="mp-back" href="#">back</a>
+                                        <ul>
+                                            <li><a href="#">Academic Calendars</a></li>
+                                            <li><a href="#">Resource 2</a></li>
+                                            <li><a href="#">Resource 3</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -104,6 +144,19 @@
                                 <li><a href="#">Dining &amp; Housing</a></li>
                                 <li><a href="#">Health &amp; Wellness</a></li>
                                 <li><a href="#">Explore Stony Brook, NY</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-icon nav-icon-arrow-left">
+                        <a class="nav-icon nav-icon-news" href="#">News</a>
+                        <div class="mp-level">
+                            <h2>News</h2>
+                            <a class="mp-back" href="#">back</a>
+                            <ul>
+                                <li><a href="#">Publications &amp; News</a></li>
+                                <li><a href="#">Experts</a></li>
+                                <li><a href="#">Magazine</a></li>
+                                <li><a href="#">5 Questions</a></li>
                             </ul>
                         </div>
                     </li>

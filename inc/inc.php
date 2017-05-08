@@ -181,7 +181,7 @@
     $sbu_site_url['directions']['manhattan'] = 'https://www.google.com/maps/dir//Stony+Brook+Manhattan,+Park+Avenue+South,+New+York,+NY/@40.7426948,-73.9927198,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c259a776f9c5f1:0xd3ef7c789fd0b91d!2m2!1d-73.983963!2d40.742716';
 
     /* Cache busting for newer asset files */
-    $filename_based_cache_busting = true;
+    $filename_based_cache_busting = false;
     include($path . 'includes/filename_based_cache_busting.php');
 
     /* debugger, see https://github.com/raveren/kint */
