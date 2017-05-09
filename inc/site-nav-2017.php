@@ -8,12 +8,12 @@
         <!-- mp-menu -->
         <nav id="mp-menu" class="mp-menu">
             <div class="mp-level">
-                <h2 class="nav-icon nav-icon-world"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University" /></h2>
+                <h2 class="inmenu-logo"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University" /></h2>
                 <ul>
                     <li class="nav-icon nav-icon-arrow-left">
                         <a class="nav-icon nav-icon-location" href="#">About</a>
                         <div class="mp-level">
-                            <h2 class="nav-icon nav-icon-display">About</h2>
+                            <h2 class="nav-icon nav-icon-arrow-right">About</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
                                 <li><a href="#">Overview</a></li>
@@ -24,7 +24,7 @@
                                 <li><a href="#">News</a></li>
                                 <li><a href="#">Centers &amp; Institutes</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="#">Visit</a>
+                                    <a href="#">Visit</a>
                                     <div class="mp-level">
                                         <h2>Visit</h2>
                                         <a class="mp-back" href="#">back</a>
@@ -42,7 +42,7 @@
                     <li class="nav-icon nav-icon-arrow-left">
                         <a class="nav-icon nav-icon-study" href="#">Academics</a>
                         <div class="mp-level">
-                            <h2 class="nav-icon nav-icon-shop">Academics</h2>
+                            <h2 class="nav-icon nav-icon-arrow-right">Academics</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
                                 <li><a href="#">Overview</a></li>
@@ -53,7 +53,7 @@
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Programs</a>
                                     <div class="mp-level">
-                                        <h2>Programs</h2>
+                                        <h2 class="nav-icon nav-icon-arrow-right">Programs</h2>
                                         <a class="mp-back" href="#">back</a>
                                         <ul>
                                             <li><a href="#">Undergraduate Programs</a></li>
@@ -66,7 +66,7 @@
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Bulletins</a>
                                     <div class="mp-level">
-                                        <h2>Bulletins</h2>
+                                        <h2 class="nav-icon nav-icon-arrow-right">Bulletins</h2>
                                         <a class="mp-back" href="#">back</a>
                                         <ul>
                                             <li><a href="#">Undergraduate</a></li>
@@ -81,7 +81,7 @@
                     <li class="nav-icon nav-icon-arrow-left">
                         <a class="nav-icon nav-icon-note" href="#">Admissions</a>
                         <div class="mp-level">
-                            <h2 class="nav-icon nav-icon-news">Admissions</h2>
+                            <h2 class="nav-icon nav-icon-arrow-right">Admissions</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
                                 <li><a href="#">Overview</a></li>
@@ -99,7 +99,7 @@
                     <li class="nav-icon nav-icon-arrow-left">
                         <a class="nav-icon nav-icon-t-shirt" href="#">Campus Life</a>
                         <div class="mp-level">
-                            <h2 class="nav-icon nav-icon-news">Campus Life</h2>
+                            <h2 class="nav-icon nav-icon-arrow-right">Campus Life</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
                                 <li><a href="#">Arts &amp; Culture</a></li>
@@ -132,7 +132,7 @@
                     <li class="nav-icon nav-icon-arrow-left inmenu--cta--half inmenu--logins">
                         <a class="nav-icon nav-icon-user" href="#">Logins</a>
                         <div class="mp-level">
-                            <h2 class="nav-icon nav-icon-news">Logins</h2>
+                            <h2 class="nav-icon nav-icon-arrow-right">Logins</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
                                 <li><a href="#">SOLAR</a></li>
@@ -145,7 +145,7 @@
                     <li class="nav-icon nav-icon-arrow-left inmenu--cta--half inmenu--audiences">
                         <a href="#">I'm a &nbsp;____</a>
                         <div class="mp-level">
-                            <h2 class="nav-icon nav-icon-news">Audiences</h2>
+                            <h2 class="nav-icon nav-icon-arrow-right">Audiences</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
                                 <li><a href="#">Student</a></li>
