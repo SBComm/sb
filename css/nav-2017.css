@@ -1,6 +1,10 @@
+.main-nav-container {
+}
+
 .sbu-nav-bar {
 	width: 100%;
-	background: #000;
+	background: #000;;
+	z-index: 2000;;
 }
 
 .sbu-nav-bar .logo {
@@ -77,6 +81,11 @@ li.inmenu--cta {
 	width: 50%;
 	float: left;
 	border-right: 2px solid rgba(0,0,0,0.1);
+}
+
+.mp-menu ul li.inmenu--audiences > a {
+    padding: 0.7em 1.5em 0.7em 0.9em;
+    text-align: center;
 }
 
 @media only screen and (max-width: 340px) {

@@ -19,23 +19,36 @@
                                 <li><a href="#">Overview</a></li>
                                 <li><a href="#">History</a></li>
                                 <li><a href="#">Administration</a></li>
-                                <li><a href="#">Facts</a></li>
-                                <li><a href="#">Experts</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Centers &amp; Institutes</a></li>
+                                <li><a href="#">Facts &amp; Rankings</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a href="#">Visit</a>
                                     <div class="mp-level">
                                         <h2>Visit</h2>
                                         <a class="mp-back" href="#">back</a>
                                         <ul>
-                                            <li><a href="#">Directions</a></li>
-                                            <li><a href="#">Maps</a></li>
+                                            <li><a href="#">Maps &amp; Directions</a></li>
                                             <li><a href="#">Virtual Tour</a></li>
                                             <li><a href="#">Parking &amp; Transportation</a></li>
+                                            <li><a href="#">Stony Brook Southampton</a></li>
                                         </ul>
                                     </div>
                                 </li>
+                                <li class="nav-icon nav-icon-arrow-left">
+                                    <a href="#">News &amp; Media</a>
+                                    <div class="mp-level">
+                                        <h2>News &amp; Media</h2>
+                                        <a class="mp-back" href="#">back</a>
+                                        <ul>
+                                            <li><a href="#">News</a></li>
+                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">Publications</a></li>
+                                            <li><a href="#">Experts</a></li>
+                                            <li><a href="#">5 Questions</a></li>
+                                            <li><a href="#">Magazine</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Centers &amp; Institutes</a></li>
                             </ul>
                         </div>
                     </li>
@@ -47,16 +60,15 @@
                             <ul>
                                 <li><a href="#">Overview</a></li>
                                 <li><a href="#">Colleges &amp; Schools</a></li>
-                                <li><a href="#">Majors &amp; Minors</a></li>
+                                <li><a href="#">Majors, Minors &amp; Programs</a></li>
                                 <li><a href="#">Academic Calendars</a></li>
-                                <li><a href="#">Resources</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="#">Programs</a>
+                                    <a class="nav-icon nav-icon-map" href="#">Resources</a>
                                     <div class="mp-level">
-                                        <h2 class="nav-icon nav-icon-arrow-right">Programs</h2>
+                                        <h2 class="nav-icon nav-icon-arrow-right">Resources</h2>
                                         <a class="mp-back" href="#">back</a>
                                         <ul>
-                                            <li><a href="#">Undergraduate Programs</a></li>
+                                            <li><a href="#">Undergraduate</a></li>
                                             <li><a href="#">Graduate &amp; Professional</a></li>
                                             <li><a href="#">Health Professional</a></li>
                                             <li><a href="#">Additional Programs</a></li>
@@ -143,121 +155,21 @@
                     </li>
 
                     <li class="nav-icon nav-icon-arrow-left inmenu--cta--half inmenu--audiences">
-                        <a href="#">I'm a &nbsp;____</a>
+                        <a href="#">Info for...</a>
                         <div class="mp-level">
                             <h2 class="nav-icon nav-icon-arrow-right">Audiences</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
-                                <li><a href="#">Student</a></li>
+                                <li><a href="#">Students</a></li>
                                 <li><a href="#">Faculty / Staff</a></li>
                                 <li><a href="#">Alumni &amp; Friends</a></li>
-                                <li><a href="#">Parent</a></li>
+                                <li><a href="#">Parents</a></li>
                                 <li><a href="#">Community</a></li>
                                 <li><a href="#">Business</a></li>
                             </ul>
                         </div>
                     </li>
 
-<!--
-                    <li class="nav-icon nav-icon-arrow-left">
-                        <a class="nav-icon nav-icon-display" href="#">About</a>
-                        <div class="mp-level">
-                            <h2 class="nav-icon nav-icon-display">About</h2>
-                            <a class="mp-back" href="#">back</a>
-                            <ul>
-                                <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-phone" href="#">Mobile Phones</a>
-                                    <div class="mp-level">
-                                        <h2>Mobile Phones</h2>
-                                        <a class="mp-back" href="#">back</a>
-                                        <ul>
-                                            <li><a href="#">Super Smart Phone</a></li>
-                                            <li><a href="#">Thin Magic Mobile</a></li>
-                                            <li><a href="#">Performance Crusher</a></li>
-                                            <li><a href="#">Futuristic Experience</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-tv" href="#">Televisions</a>
-                                    <div class="mp-level">
-                                        <h2>Televisions</h2>
-                                        <a class="mp-back" href="#">back</a>
-                                        <ul>
-                                            <li><a href="#">Flat Superscreen</a></li>
-                                            <li><a href="#">Gigantic LED</a></li>
-                                            <li><a href="#">Power Eater</a></li>
-                                            <li><a href="#">3D Experience</a></li>
-                                            <li><a href="#">Classic Comfort</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-camera" href="#">Cameras</a>
-                                    <div class="mp-level">
-                                        <h2>Cameras</h2>
-                                        <a class="mp-back" href="#">back</a>
-                                        <ul>
-                                            <li><a href="#">Smart Shot</a></li>
-                                            <li><a href="#">Power Shooter</a></li>
-                                            <li><a href="#">Easy Photo Maker</a></li>
-                                            <li><a href="#">Super Pixel</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-icon nav-icon-arrow-left">
-                        <a class="nav-icon nav-icon-display" href="#">About</a>
-                        <div class="mp-level">
-                            <h2 class="nav-icon nav-icon-display">About</h2>
-                            <a class="mp-back" href="#">back</a>
-                            <ul>
-                                <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-phone" href="#">Mobile Phones</a>
-                                    <div class="mp-level">
-                                        <h2>Mobile Phones</h2>
-                                        <a class="mp-back" href="#">back</a>
-                                        <ul>
-                                            <li><a href="#">Super Smart Phone</a></li>
-                                            <li><a href="#">Thin Magic Mobile</a></li>
-                                            <li><a href="#">Performance Crusher</a></li>
-                                            <li><a href="#">Futuristic Experience</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-tv" href="#">Televisions</a>
-                                    <div class="mp-level">
-                                        <h2>Televisions</h2>
-                                        <a class="mp-back" href="#">back</a>
-                                        <ul>
-                                            <li><a href="#">Flat Superscreen</a></li>
-                                            <li><a href="#">Gigantic LED</a></li>
-                                            <li><a href="#">Power Eater</a></li>
-                                            <li><a href="#">3D Experience</a></li>
-                                            <li><a href="#">Classic Comfort</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-camera" href="#">Cameras</a>
-                                    <div class="mp-level">
-                                        <h2>Cameras</h2>
-                                        <a class="mp-back" href="#">back</a>
-                                        <ul>
-                                            <li><a href="#">Smart Shot</a></li>
-                                            <li><a href="#">Power Shooter</a></li>
-                                            <li><a href="#">Easy Photo Maker</a></li>
-                                            <li><a href="#">Super Pixel</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    -->
                 </ul>
                     
             </div>
