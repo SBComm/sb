@@ -179,7 +179,7 @@ html, body, .container, .scroller {
 
 .mp-menu h2 {
 	margin: 0;
-	padding: 13px 22px;
+	padding: 0.55em 0.7em;
 	color: rgba(255, 255, 255, 0.9);
 	text-shadow: 0 0 1px rgba(0,0,0,0.1);
 	font-weight: 300;
