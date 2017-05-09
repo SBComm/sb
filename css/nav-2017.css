@@ -10,6 +10,76 @@
 	padding: 18px;
 }
 
+.mp-menu .search-container input[type="text"],
+.mp-menu .search-container input[type="text"] {
+	background: #fff;
+    background: rgba(231, 231, 231, 0.93);
+    border: 0 none;
+    color: #333;
+    padding: 0 10px 0 36px;
+    margin: 0;
+    border-radius: 0;
+    width: 80%;
+    height: 48px;
+	font-size: 18px;
+	font-family: "Effra W01", Helvetica, sans-serif;
+	font-weight: 400;
+}
+.mp-menu .search-container input[type="text"]:focus,
+.mp-menu .search-container input[type="text"].focus {
+	background: #fff;
+    background: rgba(255, 255, 255, 1);
+}
+
+.mp-menu .search-container ::-webkit-input-placeholder {
+	font-weight: normal;
+	color: #333;
+	font-size: 18px;
+	font-family: "Effra W01", Helvetica, sans-serif;
+	font-weight: 400;
+    padding: 0 10px 0 0;
+}
+
+.search-container button[type="submit"] {
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	background: rgba(0,0,0,0.1);
+    height: 48px;
+}
+
+.search-container button[type="submit"] .fa {
+	margin: 0;
+	padding: 0;
+}
+
+.search-container button[type="submit"]:hover,
+.search-container button[type="submit"]:focus {
+	background: rgba(0,0,0,0.2);
+}
+
+li.inmenu--cta {
+	width: 100%;
+	clear: both;
+}
+
+.mp-menu ul li.inmenu--cta a {
+	width: 33.333%;
+	float: left;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+	border-right: 2px solid rgba(0,0,0,0.1);
+}
+
+.mp-menu ul li.inmenu--cta--half {
+	width: 50%;
+	float: left;
+	border-right: 2px solid rgba(0,0,0,0.1);
+	background: rgba(0,0,0,.15)
+}
+
 @media only screen and (max-width: 340px) {
 	.sbu-nav-bar .logo {
 		padding: 21px 18px;

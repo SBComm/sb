@@ -8,18 +8,21 @@
         <!-- mp-menu -->
         <nav id="mp-menu" class="mp-menu">
             <div class="mp-level">
-                <h2 class="nav-icon nav-icon-world">All Sections</h2>
+                <h2 class="nav-icon nav-icon-world"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University" /></h2>
                 <ul>
                     <li class="nav-icon nav-icon-arrow-left">
-                        <a class="nav-icon nav-icon-shop" href="#">About</a>
+                        <a class="nav-icon nav-icon-location" href="#">About</a>
                         <div class="mp-level">
                             <h2 class="nav-icon nav-icon-display">About</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
-                                <li><a href="#">About SBU</a></li>
-                                <li><a href="#">History &amp; Traditions</a></li>
-                                <li><a href="#">Administration &amp; Leadership</a></li>
-                                <li><a href="#">Facts &amp; Rankings</a></li>
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Administration</a></li>
+                                <li><a href="#">Facts</a></li>
+                                <li><a href="#">Experts</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Centers &amp; Institutes</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Visit</a>
                                     <div class="mp-level">
@@ -33,19 +36,6 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-globe" href="#">Centers &amp; Institutes</a>
-                                    <div class="mp-level">
-                                        <h2>Centers &amp; Institutes</h2>
-                                        <a class="mp-back" href="#">back</a>
-                                        <ul>
-                                            <li><a href="#">Turkana Basin Institute</a></li>
-                                            <li><a href="#">Global Health Institute</a></li>
-                                            <li><a href="#">Brookhaven National Lab</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="#">Site Directory</a></li>
                             </ul>
                         </div>
                     </li>
@@ -55,65 +45,33 @@
                             <h2 class="nav-icon nav-icon-shop">Academics</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
-                                <li>
-                                    <a class="nav-icon nav-icon-diamond" href="#">Overview</a>
-                                </li>
-                                <li>
-                                    <a class="nav-icon nav-icon-diamond" href="#">Majors &amp; Minors</a>
-                                </li>
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Colleges &amp; Schools</a></li>
+                                <li><a href="#">Majors &amp; Minors</a></li>
+                                <li><a href="#">Academic Calendars</a></li>
+                                <li><a href="#">Resources</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-t-shirt" href="#">Colleges &amp; Schools</a>
+                                    <a class="nav-icon nav-icon-map" href="#">Programs</a>
                                     <div class="mp-level">
-                                        <h2 class="nav-icon nav-icon-t-shirt">Colleges &amp; Schools</h2>
+                                        <h2>Programs</h2>
                                         <a class="mp-back" href="#">back</a>
                                         <ul>
-                                            <li class="nav-icon nav-icon-arrow-left">
-                                                <a class="nav-icon nav-icon-display" href="#">General Studies</a>
-                                                <div class="mp-level">
-                                                    <h2>General Studies</h2>
-                                                    <a class="mp-back" href="#">back</a>
-                                                    <ul>
-                                                        <li><a href="#">College of Arts and Sciences</a></li>
-                                                        <li><a href="#">College of Business</a></li>
-                                                        <li><a href="#">College of Engineering and Applied Sciences</a></li>
-                                                        <li><a href="#">School of Journalism</a></li>
-                                                        <li><a href="#">School of Social Welfare</a></li>
-                                                        <li><a href="#">School of Professional Development</a></li>
-                                                        <li><a href="#">Sustainability Studies Program</a></li>
-                                                        <li><a href="#">Professional Education Program</a></li>
-                                                        <li><a href="#">Graduate School</a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li class="nav-icon nav-icon-arrow-left">
-                                                <a class="nav-icon nav-icon-display" href="#">Health Sciences</a>
-                                                <div class="mp-level">
-                                                    <h2>Health Sciences</h2>
-                                                    <a class="mp-back" href="#">back</a>
-                                                    <ul>
-                                                        <li><a href="#">School of Dental Medicine</a></li>
-                                                        <li><a href="#">School of Health Technology and Management</a></li>
-                                                        <li><a href="#">School of Marine and Atmospheric Sciences</a></li>
-                                                        <li><a href="#">School of Medicine</a></li>
-                                                        <li><a href="#">School of Nursing</a></li>
-                                                        <li><a href="#">School of Pharmacology</a></li>
-                                                        <li><a href="#">Graduate Program in Public Health</a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li><a href="#">Honors College</a></li>
+                                            <li><a href="#">Undergraduate Programs</a></li>
+                                            <li><a href="#">Graduate &amp; Professional</a></li>
+                                            <li><a href="#">Health Professional</a></li>
+                                            <li><a href="#">Additional Programs</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-globe" href="#">Resources &amp; References</a>
+                                    <a class="nav-icon nav-icon-map" href="#">Bulletins</a>
                                     <div class="mp-level">
-                                        <h2>Resources &amp; References</h2>
+                                        <h2>Bulletins</h2>
                                         <a class="mp-back" href="#">back</a>
                                         <ul>
-                                            <li><a href="#">Academic Calendars</a></li>
-                                            <li><a href="#">Resource 2</a></li>
-                                            <li><a href="#">Resource 3</a></li>
+                                            <li><a href="#">Undergraduate</a></li>
+                                            <li><a href="#">Graduate</a></li>
+                                            <li><a href="#">Health Sciences</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -121,20 +79,25 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left">
-                        <a class="nav-icon nav-icon-news" href="#">Admissions</a>
+                        <a class="nav-icon nav-icon-note" href="#">Admissions</a>
                         <div class="mp-level">
                             <h2 class="nav-icon nav-icon-news">Admissions</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
+                                <li><a href="#">Overview</a></li>
                                 <li><a href="#">Undergraduate Admissions</a></li>
                                 <li><a href="#">Graduate Admissions</a></li>
-                                <li><a href="#">Summer, Winter &amp; More</a></li>
+                                <li><a href="#">Health Sciences Admissions</a></li>
+                                <li><a href="#">Summer &amp; Winter</a></li>
+                                <li><a href="#">High School Programs</a></li>
+                                <li><a href="#">Study Abroad</a></li>
                                 <li><a href="#">Financial Aid</a></li>
+                                <li><a href="#">Tuition &amp; Costs</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left">
-                        <a class="nav-icon nav-icon-user" href="#">Campus Life</a>
+                        <a class="nav-icon nav-icon-t-shirt" href="#">Campus Life</a>
                         <div class="mp-level">
                             <h2 class="nav-icon nav-icon-news">Campus Life</h2>
                             <a class="mp-back" href="#">back</a>
@@ -147,22 +110,54 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="nav-icon nav-icon-arrow-left">
-                        <a class="nav-icon nav-icon-news" href="#">News</a>
+                    <li><a class="nav-icon nav-icon-lab" href="#">Research</a></li>
+                    <li><a class="nav-icon nav-icon-star" href="#">Medicine</a></li>
+
+                    <li class="inmenu--search">
+                        <div class="search-container clearfix border-box">
+                            <form class="search-wrapper" action="//stonybrook.edu/search">
+                                <input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search"><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Search" aria-label="search">
+                                    <i class="icon fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </li>
+
+                    <li class="inmenu--cta clearfix">
+                        <a href="#">Apply</a>
+                        <a href="#">Giving</a>
+                        <a href="#">Visit</a>
+                    </li>
+
+                    <li class="nav-icon nav-icon-arrow-left inmenu--cta--half inmenu--logins">
+                        <a class="nav-icon nav-icon-user" href="#">Logins</a>
                         <div class="mp-level">
-                            <h2>News</h2>
+                            <h2 class="nav-icon nav-icon-news">Logins</h2>
                             <a class="mp-back" href="#">back</a>
                             <ul>
-                                <li><a href="#">Publications &amp; News</a></li>
-                                <li><a href="#">Experts</a></li>
-                                <li><a href="#">Magazine</a></li>
-                                <li><a href="#">5 Questions</a></li>
+                                <li><a href="#">SOLAR</a></li>
+                                <li><a href="#">Blackboard</a></li>
+                                <li><a href="#">Google Apps</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a class="nav-icon nav-icon-lab" href="#">Research</a></li>
-                    <li><a class="nav-icon nav-icon-wallet" href="#">Medicine</a></li>
-                    
+
+                    <li class="nav-icon nav-icon-arrow-left inmenu--cta--half inmenu--audiences">
+                        <a href="#">I'm a &nbsp;____</a>
+                        <div class="mp-level">
+                            <h2 class="nav-icon nav-icon-news">Audiences</h2>
+                            <a class="mp-back" href="#">back</a>
+                            <ul>
+                                <li><a href="#">Student</a></li>
+                                <li><a href="#">Faculty / Staff</a></li>
+                                <li><a href="#">Alumni &amp; Friends</a></li>
+                                <li><a href="#">Parent</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Business</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
 <!--
                     <li class="nav-icon nav-icon-arrow-left">
                         <a class="nav-icon nav-icon-display" href="#">About</a>
