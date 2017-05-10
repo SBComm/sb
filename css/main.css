@@ -1061,6 +1061,15 @@ section.breaker {
     background-attachment: fixed;
 }
 
+.grey-rays-bkg,
+.grey-rays-bkg-hover:hover {
+    background-image: url("../img/branding/rays/white-rays.png");
+    background-size: 100%;
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: fixed;
+}
+
 .fixed-background {
     background-size: cover;
     background-attachment: fixed;
@@ -1141,6 +1150,8 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    z-index: 100000000000000;
+    position: relative;
 }
 
 #proofing-message.development-message {

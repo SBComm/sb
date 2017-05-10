@@ -1,0 +1,395 @@
+@media only screen and (min-width: 1160px) {
+
+	.inmenu--desktop-only {
+		display: inline-block !important;
+	}
+
+	.inmenu--mobile-only {
+		display: none !important;
+	}
+
+	.primary-nav {
+		position: relative;
+		padding-bottom: 87px;
+		background-attachment: initial;
+	}
+
+	.primary-nav_quicklinks {
+		background: #333;
+		background: rgba(0,0,0,.65);
+		height: 44px;
+	}
+
+	.primary-nav_logobar {
+		display: block;
+		height: 140px;
+	}
+
+	.primary-nav_logobar .wrapper {
+		width: 1160px;
+		margin: 0 auto;
+	}
+
+	.primary-nav_logobar .logo {
+		width: 336px;
+		padding: 43px 0 0 20px;
+	}
+
+	.primary-nav_logobar .logo a {
+		display: block;
+		position: relative;
+		padding: 0 0 10px;
+		overflow: visible;
+	}
+
+	.primary-nav_logobar .logo span {
+		position: absolute;
+		top: 43px;
+		left: 53px;
+        font-family: "Effra W01", "Arial", sans-serif;
+        font-size: 12px;
+        color: #999;
+	}
+
+	.sbu-nav-bar {
+		display: none;
+	}
+
+	.inmenu-logo {
+		display: none;
+	}
+
+	#mp-pusher, #mp-menu, .mp-level {
+		position: relative;
+		display: block;
+		float: left;
+		width: 100%;
+		top: auto;
+		left: auto;
+		height: auto;
+		transform: none !important;
+	}
+
+	#mp-pusher {
+		bottom: 0;
+		position: absolute;
+	}
+
+	.mp-level .mp-level {
+		display: none;
+	}
+
+	.nav-icon:before {
+		content: "";
+		display: none;
+	}
+
+	#mp-menu {
+		background: #900;
+	}
+
+	.mp-level {
+		width: 100%;
+		max-width: 1160px;
+		margin: 0 auto;
+		float: none;
+		background: #900;
+	}
+
+	.mp-level ul,
+	.mp-level li,
+	.mp-level li a {
+		background: transparent;
+		box-shadow: none !important;
+		border: 0 none !important;
+	}
+
+	#mp-menu .mp-level ul > li {
+		float: left;
+		width: 13.4%;
+		width: auto;
+		padding: 0;
+		display: inline-block;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu-homeicon {
+		display: block;
+		width: 7%;
+	}
+	
+	#mp-menu .mp-level ul > li > a {
+		display: block;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 1.25em;
+		width: auto;
+		padding: 1.9em 1.8em;
+		position: relative;
+	}
+	
+	#mp-menu .mp-level ul > li > a.selected:after {
+		content: "";
+		width: 0; 
+		height: 0; 
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+
+		border-bottom: 20px solid #fff;
+		bottom: 0;
+		left: 37.5%;
+		position: absolute;
+	}
+
+	.inmenu--cta {
+		display: block;
+		position: absolute;
+		top: -173px;
+		left: 20px;
+	}
+
+	.inmenu--logins {
+		display: block;
+		position: absolute;
+		top: -173px;
+		right: 20px;
+	}
+	
+	#mp-menu .mp-level ul > li.inmenu--cta > a,
+	#mp-menu .mp-level ul > li.inmenu--logins a,
+	#mp-menu .mp-level ul > li.inmenu--audiences a,
+	#mp-menu .inmenu--primary-nav > .mp-level ul > li a {
+		padding: 2px 1px;
+		font-size: .95em;
+		font-weight: 500;
+		margin: 0 20px 0 0;
+		display: inline-block;
+		border-bottom: 2px solid transparent !important;
+		text-align: left;
+	}
+	
+	#mp-menu .mp-level ul > li.inmenu--cta > a:hover,
+	#mp-menu .mp-level ul > li.inmenu--logins a:hover,
+	#mp-menu .mp-level ul > li.inmenu--audiences a:hover,
+	#mp-menu .inmenu--primary-nav > .mp-level ul > li a:hover {
+		background: transparent;
+		text-decoration: none;
+		border-bottom: 2px solid #fff !important;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--logins > .inmenu--logins-link {
+		float: right;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--logins > .inmenu--logins-link:after {
+        content: "\f107";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        z-index: 1;
+        font-size: 1em;
+        padding: 0 0 0 9px;
+    }
+
+	#mp-menu .mp-level ul > li.inmenu--logins {
+		float: left;
+		display: inline-block;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--logins ul {
+		padding: 0;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--logins ul li {
+		padding: 0;
+		width: 100%;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--logins ul li a {
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 10px 15px;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--logins ul li a:hover {
+		text-decoration: none;
+		border-bottom:  2px solid transparent !important;
+		background: rgba(0,0,0,.1);
+	}
+
+	.inmenu--logins .mp-level-open {
+		display: block;
+	}
+
+	.inmenu--logins .mp-level {
+		position: absolute;
+		top: 33px;
+		right: 0;
+		background: #333;
+		background: rgba(0,0,0,.65);
+		background: #444;
+		width: auto;
+		max-width: 135px;;
+	}
+
+	.inmenu--logins .mp-level h2,
+	.inmenu--logins .mp-level h2 + .mp-back {
+		display: none !important;
+	}
+
+
+	#mp-menu .mp-level ul > li.inmenu--audiences {
+		display: block;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--audiences > a,
+	#mp-menu .mp-level ul > li.inmenu--audiences h2,
+	#mp-menu .mp-level ul > li.inmenu--audiences a.mp-back {
+		display: none;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level,
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level > ul {
+		display: block;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level {
+		position: absolute;
+		right: 0;
+		top: -82px;
+		width: 662px;
+		background: transparent;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level li {
+		
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level a {
+		color: #4b4b4b;
+		font-size: 1.1em;
+		text-transform: none;
+		margin: 0 32px 0 0;
+		font-weight: 400;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level li:last-child a {
+		margin-right: 0;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level a:hover {
+		border-color: #4b4b4b !important;
+	}
+
+
+	.inmenu--primary-nav--academics .mp-level {
+		display: none !important;
+	}
+
+	.inmenu--primary-nav--academics .mp-level {
+		display: block !important;
+	}
+
+	.inmenu--primary-nav > .mp-level {
+		position: absolute;
+		top: 87px;
+		left: 0;
+		right: 0;
+		border: 10px solid #fff;
+		background: #fff;
+	}
+
+	.inmenu--primary-nav .mp-level h2,
+	.inmenu--primary-nav .mp-level .mp-back {
+		display: none;
+	}
+
+	.inmenu--primary-nav--image {
+		display: inline-block;
+		float: left;
+		width: 323px;
+	}
+
+	.inmenu--primary-nav > .mp-level > .inmenu--desktop-nav {
+		display: inline-block;
+		float: left;
+		width: 817px;
+		background: transparent;
+		padding: 25px 40px 0 40px;
+		background: #dedede;
+		height: 361px;
+	}
+
+	.inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul {
+		width: 29.333%;
+		margin: 0 4% 0 0;
+	}
+
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li {
+		background: transparent;
+		display: block;
+		float: none;
+		border-bottom: 1px solid #bebebe !important;
+		padding: 0;
+		margin-bottom: 1px;
+
+	}
+
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a {
+		color: #000;
+		padding: 4px 0;
+		margin: 0;
+		text-decoration: none;
+		text-transform: none;
+		font-size: 1.2em;
+		font-weight: 500;
+		text-align: left;
+		width: 100%;
+	}
+
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a:hover {
+		background: transparent;
+		color: #900;
+		border-color: transparent !important;
+	}
+
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li:hover {
+		border-bottom: 2px solid #900 !important;
+		margin-bottom: 0;
+	}
+
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head {
+		padding-bottom: 5px;
+	}
+
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head h4 {
+		font-size: 1.15em;
+		color: #828282;
+		font-weight: 500 !important;
+	}
+
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head h4:after {
+		content: ":";
+	}
+
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head:hover {
+		border-bottom: 1px solid #bebebe !important;
+		margin-bottom: 1px;
+	}
+
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a.mp-back {
+		display: none;
+	}
+
+
+
+	.inmenu--search {
+		display: none !important;
+	}
+
+}

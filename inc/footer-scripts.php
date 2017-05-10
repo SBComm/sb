@@ -35,6 +35,16 @@
 						resetSearchPosition();
 					}
 				}
+
+				/* 2017 nav 
+				$('.mp-level, .mp-pusher').each(function() {
+					console.log($(this).attr('style'));
+					if ($(this).attr('style') !== 'transform: translate3d(0px, 0px, 0px);' && $(this).attr('style') !== '') { 
+						$(this).attr('style','transform: translate3d(0px, 0px, 0px);');
+					}
+				});
+				$('#mp-pusher').removeClass('mp-pushed'); 
+				*/
 			});
 		</script>
 
