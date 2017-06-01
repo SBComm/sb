@@ -116,7 +116,7 @@ $(document).ready(function() {
         if($(window).width()>=1160) {
             megaIndex = $(this).attr('data-mega-menu-id');
             megaCache[megaIndex] = true;
-            //console.log('clearing triggerHideTimer');
+            //console.log('clearing triggerHideTimer and triggerShowTimer');
             clearTimeout(triggerHideTimer);
             clearTimeout(triggerShowTimer);
         }
@@ -150,51 +150,33 @@ $(document).ready(function() {
         }
     });
 
-    var dropNavId,
-        dropNav,
-        subNavLi;
-
-    $('.main-nav-list li a').click(function(event) {
-
-        dropNavId = $(this).data('drop-nav-id');
-
-        if(dropNavId>0) {
-            event.preventDefault();
-
-            dropNav = $("nav.drop-nav[data-drop-nav-id='" + dropNavId + "']");
-            subNavLi = $(this).closest('li');
-
-            if($(dropNav).hasClass('open')) {
-                $(subNavLi).removeClass('active');
-                hideDropNav(dropNavId);
-            } else {
-                $('.main-nav-list li').removeClass('active');
-                hideAllDropNav();
-                $(subNavLi).addClass('active');
-                showDropNav(dropNavId);
-            }
-        }
-
-    });
-/*
-    $('.inmenu--primary-nav--mega-trigger').mouseenter(function(e) {
-
-        if($(window).width()>=1160) {
-            megaIndex = $(this).attr('data-mega-menu-id');
+    $(document.body).on('click',function() {
+        //console.log('got a click!');
+        if($(".inmenu--primary-nav--mega-trigger").hasClass('selected')) {
+            //console.log('hiding all mega menu');
             hideAllMegaMenu();
-            showMegaMenu(megaIndex);
         }
-        
-    }).mouseleave(function(e) {
-
-        if($(window).width()>=1160) {
-
-            
-
-        }
-        
     });
-*/
+
+    /*
+        $('.inmenu--primary-nav--mega-trigger').mouseenter(function(e) {
+
+            if($(window).width()>=1160) {
+                megaIndex = $(this).attr('data-mega-menu-id');
+                hideAllMegaMenu();
+                showMegaMenu(megaIndex);
+            }
+            
+        }).mouseleave(function(e) {
+
+            if($(window).width()>=1160) {
+
+                
+
+            }
+            
+        });
+    */
     $('.inmenu--logins-link').mouseenter(function() {
 
         if($(window).width()>=1160) {
@@ -208,17 +190,8 @@ $(document).ready(function() {
 
     });
 
-    $('.main-container').mouseenter(function() {
-        //hideAllMegaMenu();
-    });
-
     $('.primary-nav_logobar').mouseenter(function() {
         $('.inmenu--logins').find('.mp-level').addClass('hide-accessible-1160');
     });
-
-    $('.inmenu--primary-nav--link').mouseenter(function() {
-        //hideAllMegaMenu();
-    });
-
 
 });
