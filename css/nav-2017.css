@@ -1,4 +1,6 @@
 .main-nav-container {
+	-webkit-font-smoothing: subpixel-antialiased;
+	z-index: 1;
 }
 
 

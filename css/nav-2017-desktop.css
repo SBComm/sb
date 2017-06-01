@@ -10,7 +10,7 @@
 
 	.primary-nav {
 		position: relative;
-		padding-bottom: 87px;
+		padding-bottom: 88px;
 		background-attachment: initial;
 	}
 
@@ -120,7 +120,8 @@
 		font-weight: 700;
 		font-size: 1.25em;
 		width: auto;
-		padding: 1.9em 1.8em;
+		padding: 33px 30px;
+		height: 88px;
 		position: relative;
 	}
 	
@@ -286,7 +287,7 @@
 
 	.inmenu--primary-nav > .mp-level {
 		position: absolute;
-		top: 87px;
+		top: 88px;
 		left: 0;
 		right: 0;
 		border: 10px solid #fff;
@@ -302,6 +303,7 @@
 		display: inline-block;
 		float: left;
 		width: 323px;
+		height: 361px;
 	}
 
 	.inmenu--primary-nav > .mp-level > .inmenu--desktop-nav {
@@ -339,6 +341,7 @@
 		font-weight: 500;
 		text-align: left;
 		width: 100%;
+		height: auto;
 	}
 
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a:hover {
@@ -402,13 +405,14 @@
 	.inmenu--desktop-nav_related-links_link + .inmenu--desktop-nav_related-links_link:before {
 		content: " ";
 		height: 16px;
-		width: 1px;
-		background: #888;
+		width: 0;;
 		position: relative;
 		display: inline-block;
 		top: 2px;
 		left: -14px;
 		position: absolute;
+		border-left: 1px solid #888;
+		text-indent: 1px;;
 	}
 
 	.inmenu--desktop-nav_related-links_link:hover {

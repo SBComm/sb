@@ -29,7 +29,7 @@
                         <a class="nav-icon nav-icon-location inmenu--primary-nav--mega-trigger" href="#">About</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">About</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg)" />
                             <a class="mp-back" href="#">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Overview</a></li>
@@ -103,7 +103,7 @@
                         <a class="nav-icon nav-icon-study inmenu--primary-nav--mega-trigger" href="#">Academics</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Academics</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg" alt="" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg)" />
                             <a class="mp-back" href="#">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Overview</a></li>
@@ -171,7 +171,7 @@
                         <a class="nav-icon nav-icon-note inmenu--primary-nav--mega-trigger" href="#">Admissions</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Admissions</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg)" />
                             <a class="mp-back" href="#">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Overview</a></li>
