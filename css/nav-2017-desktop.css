@@ -177,6 +177,7 @@
 
 	#mp-menu .mp-level ul > li.inmenu--logins > .inmenu--logins-link {
 		float: right;
+		cursor: default;
 	}
 
 	#mp-menu .mp-level ul > li.inmenu--logins > .inmenu--logins-link:hover {
@@ -230,7 +231,7 @@
 
 	#mp-menu .mp-level ul > li.inmenu--logins ul:before {
 		top: -30px;
-		right: 19px;
+		right: 20px;
 		content: "\f107";
         font-family: FontAwesome;
         font-style: normal;
@@ -239,7 +240,7 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-size: 1em;
-        padding: 7px 1px;
+        padding: 7px 2px;
         color: #fff;
         height: 12px;
         background: #505050;
