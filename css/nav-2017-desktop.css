@@ -163,6 +163,7 @@
 		display: inline-block;
 		border-bottom: 2px solid transparent !important;
 		text-align: left;
+		height: auto;
 	}
 	
 	#mp-menu .mp-level ul > li.inmenu--cta > a:hover,
