@@ -235,7 +235,7 @@
                     <li class="inmenu--search">
                         <div class="search-container clearfix border-box">
                             <form class="search-wra pper" action="//stonybrook.edu/search">
-                                <input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search"><em class="fa fa-close inmenu--search_desktop-close"></em><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Search" aria-label="search">
+                                <input type="text" id="search-form-query1" name="q" title="Search stonybrook.edu" value="" class="populate" size="30" placeholder="Search"><em class="fa fa-close inmenu--search_desktop-close"></em><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Search" aria-label="search">
                                     <i class="icon fa fa-search"></i>
                                 </button>
                             </form>
