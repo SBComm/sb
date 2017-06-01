@@ -26,6 +26,19 @@ function hideMegaMenu(megaIndex) {
     hideAllMegaMenu();
 }
 
+/* reset the menu if window resized from desktop to mobile */
+$(window).resize(function(){
+    if($(window).width()<1160 && $('body').attr('data-mobile-menu-reset')!='true') {
+        $('body').attr('data-mobile-menu-reset','true');
+        $('#mp-pusher').removeClass('mp-pushed').attr('style','');
+        $('.mp-level').attr('style','');
+        $('.mp-level-overlay').removeClass('mp-level-overlay');
+    }
+    if($(window).width()>=1160 && $('body').attr('data-mobile-menu-reset')=='true') {
+        $('body').attr('data-mobile-menu-reset','false');
+    }
+});
+
 $(document).ready(function() {
 
     /* clear search */
@@ -190,7 +203,7 @@ $(document).ready(function() {
 
     });
 
-    $('.primary-nav_logobar').mouseenter(function() {
+    $('.primary-nav_logobar, .mp-menu .search-container input[type="text"]').mouseenter(function() {
         $('.inmenu--logins').find('.mp-level').addClass('hide-accessible-1160');
     });
 
