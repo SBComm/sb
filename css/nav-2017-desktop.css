@@ -247,6 +247,7 @@
         position: absolute;
         display: block;
         text-align: center;
+        z-index: 1;
 	}
 
 	.inmenu--logins .mp-level-open {
@@ -504,11 +505,13 @@
         -webkit-transition: none;
         -moz-transition: none;
         -o-transition: none;
+		z-index: 2;
 	}
 
 	.mp-menu .search-container input[type="text"].focus + .inmenu--search_desktop-close {
 		display: block;
 		color: #777;
+		z-index: 3;
 	}
 
 	.mp-menu .search-container input[type="text"].focus + .inmenu--search_desktop-close:hover {
