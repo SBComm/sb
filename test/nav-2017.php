@@ -130,6 +130,7 @@
 				$file = "footer-scripts.php";
 				include($path . $file);
 			?>
+			<script src="js/mega-nav-2017.js"></script>
 		<!-- </scripts> -->
 
 		<!-- <googleanalytics> -->
