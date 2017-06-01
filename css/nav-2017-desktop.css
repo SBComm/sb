@@ -245,7 +245,6 @@
         height: 12px;
         background: #505050;
         position: absolute;
-        display: block;
         text-align: center;
         z-index: 1;
 	}
@@ -263,6 +262,10 @@
 		background: #444;
 		width: auto;
 		max-width: 135px;;
+	}
+
+	.mp-overlap .mp-level.mp-level-open {
+		z-index: 1;
 	}
 
 	.inmenu--logins .mp-level h2,
