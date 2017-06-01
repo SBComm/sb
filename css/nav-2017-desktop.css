@@ -213,6 +213,7 @@
 		width: 100%;
 		margin: 0;
 		padding: 10px 15px;
+		height: auto;
 	}
 
 	#mp-menu .mp-level ul > li.inmenu--logins ul li a:hover {
