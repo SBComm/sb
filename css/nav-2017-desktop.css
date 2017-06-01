@@ -179,8 +179,13 @@
 		float: right;
 	}
 
+	#mp-menu .mp-level ul > li.inmenu--logins > .inmenu--logins-link:hover {
+		text-decoration: none;
+		border-bottom: 0 none !important;
+	}
+
 	#mp-menu .mp-level ul > li.inmenu--logins > .inmenu--logins-link:after {
-        content: "\f107";
+        content: "\f023";
         font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
@@ -221,6 +226,26 @@
 		text-decoration: none;
 		border-bottom:  2px solid transparent !important;
 		background: rgba(0,0,0,.1);
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--logins ul:before {
+		top: -30px;
+		right: 19px;
+		content: "\f107";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 1em;
+        padding: 7px 1px;
+        color: #fff;
+        height: 12px;
+        background: #505050;
+        position: absolute;
+        display: block;
+        text-align: center;
 	}
 
 	.inmenu--logins .mp-level-open {
