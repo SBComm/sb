@@ -417,6 +417,7 @@ var initReady = function() {
 				window.open(searchUrl, '_self');
 			}
 		}
+		$('.inmenu--logins').find('.mp-level').addClass('hide-accessible-1160');
 	});
 
 	$('.search-container input').keypress(function(event) {
