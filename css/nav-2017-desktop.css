@@ -169,7 +169,11 @@
 	#mp-menu .mp-level ul > li.inmenu--cta > a:hover,
 	#mp-menu .mp-level ul > li.inmenu--logins a:hover,
 	#mp-menu .mp-level ul > li.inmenu--audiences a:hover,
-	#mp-menu .inmenu--primary-nav > .mp-level ul > li a:hover {
+	#mp-menu .inmenu--primary-nav > .mp-level ul > li a:hover,
+	#mp-menu .mp-level ul > li.inmenu--cta > a:focus,
+	#mp-menu .mp-level ul > li.inmenu--logins a:focus,
+	#mp-menu .mp-level ul > li.inmenu--audiences a:focus,
+	#mp-menu .inmenu--primary-nav > .mp-level ul > li a:focus {
 		background: transparent;
 		text-decoration: none;
 		border-bottom: 2px solid #fff !important;
@@ -223,7 +227,8 @@
 		height: auto;
 	}
 
-	#mp-menu .mp-level ul > li.inmenu--logins ul li a:hover {
+	#mp-menu .mp-level ul > li.inmenu--logins ul li a:hover,
+	#mp-menu .mp-level ul > li.inmenu--logins ul li a:focus {
 		text-decoration: none;
 		border-bottom:  2px solid transparent !important;
 		background: rgba(0,0,0,.1);
@@ -313,7 +318,8 @@
 		margin-right: 0;
 	}
 
-	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level a:hover {
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level a:hover,
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level a:focus {
 		border-color: #4b4b4b !important;
 	}
 
@@ -376,7 +382,8 @@
 		height: auto;
 	}
 
-	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a:hover {
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a:hover,
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a:focus {
 		background: transparent;
 		color: #900;
 		border-color: transparent !important;
