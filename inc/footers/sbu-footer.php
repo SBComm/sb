@@ -1,4 +1,4 @@
-<footer class="sbu-footer">
+<footer class="sbu-footer" id="footer-navigation">
     <nav class="more-nav-v3 clearfix">
         <div class="wrapper">
             <div class="more-nav-v3-wrapper">
