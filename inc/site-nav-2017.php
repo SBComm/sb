@@ -10,8 +10,8 @@
         </div>
     </div>
 
-    <a class="skip-navigation-link is-trigger" href="#main-site-content" tabindex="2">Skip Navigation</a>
-    <a class="footer-navigation-link is-trigger" href="#footer-navigation" tabindex="3">More Navigation</a>
+    <a class="skip-navigation-link" href="#main-site-content" tabindex="2">Skip Navigation</a>
+    <a class="footer-navigation-link" href="#footer-links" tabindex="3">More Navigation</a>
 
     <div class="sbu-nav-bar clearfix">
         <div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University" /></a></div>
@@ -292,4 +292,4 @@
     </div><!-- /pusher -->
 
 </nav>
-<span id="main-site-content"></span>
+<a href="#" id="main-site-content"></a>

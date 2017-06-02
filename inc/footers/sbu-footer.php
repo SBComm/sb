@@ -6,7 +6,7 @@
                     <strong>Main Nav</strong>
                     <ul class="border-box clearfix">
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/" class="clearfix">Home</a>
+                            <a id="footer-links" href="http://www.stonybrook.edu/" class="clearfix">Home</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/about/" class="clearfix">About</a>

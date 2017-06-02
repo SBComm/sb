@@ -264,15 +264,18 @@ var initReady = function() {
 				    		top: offsetTop
 				    	}
 				    });
+				    $(target).focus();
 		    	} else  {
 			    	$('body').scrollTo($(target), 400, {
 				    	axis: 'y'
 				    });
+				    $(target).focus();
 				}
 		    } else {
 		    	$('body').scrollTo($(target), 400, {
 			    	axis: 'y'
 			    });
+			    $(target).focus();
 		    }
 
 		}
