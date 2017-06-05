@@ -5,6 +5,7 @@
 	}
 
 	.inmenu--mobile-only,
+	.inmenu--mobile-only *,
 	.sbu-nav-bar .menu-trigger {
 		display: none !important;
 	}
