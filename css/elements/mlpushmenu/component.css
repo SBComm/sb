@@ -304,21 +304,25 @@ html, body, .container, .scroller {
 	color: transparent;
 }
 
-/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
-/* We'll show the first level only */
-.no-csstransforms3d .mp-pusher,
-.no-js .mp-pusher {
-	padding-left: 300px;
-}
+@media only screen and (max-width: 1159px) {
 
-.no-csstransforms3d .mp-menu .mp-level,
-.no-js .mp-menu .mp-level {
-	display: none;
-}
+	/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+	/* We'll show the first level only */
+	.no-csstransforms3d .mp-pusher,
+	.no-js .mp-pusher {
+		padding-left: 300px;
+	}
 
-.no-csstransforms3d .mp-menu > .mp-level,
-.no-js .mp-menu > .mp-level {
-	display: block;
+	.no-csstransforms3d .mp-menu .mp-level,
+	.no-js .mp-menu .mp-level {
+		display: none;
+	}
+
+	.no-csstransforms3d .mp-menu > .mp-level,
+	.no-js .mp-menu > .mp-level {
+		display: block;
+	}
+
 }
 
 @media only screen and (max-height: 550px) {
