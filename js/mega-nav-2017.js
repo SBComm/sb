@@ -12,6 +12,7 @@ function showMegaMenu(megaIndex) {
     var $megaMenu = $("div[data-mega-menu-id='"+megaIndex+"']");
     //console.log($megaMenu.hasClass('hide-accessible-1160'));
 
+    console.log($('.inmenu--desktop-nav-link:focus'));
     $megaNav.addClass('selected');
 
     if($megaMenu.hasClass('hide-accessible-1160')) {
@@ -329,6 +330,7 @@ $(document).ready(function() {
 
     $(document.body).on('mouseenter','.inmenu--primary-nav--mega-trigger',function(){
         showMegaMenuOnEnter($(this), 500);
+        $(this).focus();
     });
 
     $(document.body).on('mouseleave','.inmenu--primary-nav--mega-trigger',function(){

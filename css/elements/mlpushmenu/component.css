@@ -320,3 +320,14 @@ html, body, .container, .scroller {
 .no-js .mp-menu > .mp-level {
 	display: block;
 }
+
+@media only screen and (max-height: 550px) {
+	.mp-menu ul li > a,
+	.mp-menu ul li.inmenu--audiences > a {
+	    font-size: 1.2em;
+	    padding: 0.6em 1em 0.6em 1.8em !important;
+	}
+	.mp-menu ul li::before {
+	    line-height: 3;
+	}
+}	

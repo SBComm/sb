@@ -357,8 +357,12 @@
 	}
 
 	.inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul {
-		width: 29.333%;
+		width: 30.66%;
 		margin: 0 4% 0 0;
+	}
+
+	.inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul:nth-child(3) {
+		margin-right: 0;
 	}
 
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li {
