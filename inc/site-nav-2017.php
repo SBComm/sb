@@ -33,7 +33,7 @@
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">About</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg)" />
-                            <a class="mp-back" href="#">back</a>
+                            <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Overview</a></li>
                                 <li><a href="#">History</a></li>
@@ -43,7 +43,7 @@
                                     <a href="#">Visit</a>
                                     <div class="mp-level">
                                         <h2>Visit</h2>
-                                        <a class="mp-back" href="#">back</a>
+                                        <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
                                             <li><a href="#">Maps &amp; Directions</a></li>
                                             <li><a href="#">Virtual Tour</a></li>
@@ -56,7 +56,7 @@
                                     <a href="#">News &amp; Media</a>
                                     <div class="mp-level">
                                         <h2>News &amp; Media</h2>
-                                        <a class="mp-back" href="#">back</a>
+                                        <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
                                             <li><a href="#">News</a></li>
                                             <li><a href="#">Events</a></li>
@@ -107,7 +107,7 @@
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Academics</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg)" />
-                            <a class="mp-back" href="#">back</a>
+                            <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Overview</a></li>
                                 <li><a href="#">Colleges &amp; Schools</a></li>
@@ -117,7 +117,7 @@
                                     <a class="nav-icon nav-icon-map" href="#">Resources</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Resources</h2>
-                                        <a class="mp-back" href="#">back</a>
+                                        <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
                                             <li><a href="#">Undergraduate</a></li>
                                             <li><a href="#">Graduate &amp; Professional</a></li>
@@ -130,7 +130,7 @@
                                     <a class="nav-icon nav-icon-map" href="#">Bulletins</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Bulletins</h2>
-                                        <a class="mp-back" href="#">back</a>
+                                        <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
                                             <li><a href="#">Undergraduate</a></li>
                                             <li><a href="#">Graduate</a></li>
@@ -175,7 +175,7 @@
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Admissions</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg)" />
-                            <a class="mp-back" href="#">back</a>
+                            <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Overview</a></li>
                                 <li><a href="#">Undergraduate Admissions</a></li>
@@ -221,7 +221,7 @@
                         <a class="nav-icon nav-icon-t-shirt" href="#">Campus&nbsp;Life</a>
                         <div class="mp-level">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Campus&nbsp;Life</h2>
-                            <a class="mp-back" href="#">back</a>
+                            <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Arts &amp; Culture</a></li>
                                 <li><a href="#">Activities &amp; Clubs</a></li>
@@ -255,7 +255,7 @@
                         <a class="nav-icon nav-icon-user inmenu--logins-link" href="#" tabindex="23">Logins</a>
                         <div class="mp-level hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Logins</h2>
-                            <a class="mp-back" href="#">back</a>
+                            <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul>
                                 <li><a href="#" tabindex="31">SOLAR</a></li>
                                 <li><a href="#" tabindex="32">Blackboard</a></li>
@@ -271,7 +271,7 @@
                         <a href="#">Info for...</a>
                         <div class="mp-level">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Audiences</h2>
-                            <a class="mp-back" href="#">back</a>
+                            <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul>
                                 <li><a href="#" tabindex="51">Students</a></li>
                                 <li><a href="#" tabindex="52">Faculty / Staff</a></li>
