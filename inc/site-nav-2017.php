@@ -10,12 +10,13 @@
         </div>
     </div>
 
-    <a class="skip-navigation-link" href="#main-site-content" tabindex="2">Skip Navigation</a>
-    <a class="footer-navigation-link" href="#footer-links" tabindex="3">More Navigation</a>
+    <a class="main-navigation-link" href="#main-nav" tabindex="2">Go to Main Navigation</a>
+    <a class="skip-navigation-link" href="#main-site-content" tabindex="3">Skip Navigation</a>
+    <a class="footer-navigation-link" href="#footer-links" tabindex="4">Go to more Navigation</a>
 
     <div class="sbu-nav-bar clearfix">
         <div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University" /></a></div>
-        <button id="trigger" class="menu-trigger" tabindex="0"><span class="hide-accessible">Open/Close Menu</span></button>
+        <button id="trigger" class="menu-trigger" tabindex="0" aria-hidden="true"><span class="hide-accessible">Open/Close </span><span class="label">Menu</span></button>
     </div>
 <!-- Push Wrapper -->
     <div class="mp-pusher" id="mp-pusher">
@@ -26,10 +27,10 @@
                 <h2 class="inmenu-logo"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University" /></h2>
                 <ul>
                     <li class="inmenu-homeicon inmenu--primary-nav">
-                        <a class="nav-icon nav-icon-home inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="60"><em class="fa fa-home"></em><span class="hide-accessible">Home</span></a>
+                        <a id="main-nav" class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="60"><em class="fa fa-home"></em><span class="hide-accessible">Home</span></a>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--about">
-                        <a class="nav-icon nav-icon-location inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="100">About</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="100">About</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">About</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg)" />
@@ -72,15 +73,13 @@
 
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>About</h4></li>
                                     <li><a href="#" tabindex="101">Overview</a></li>
                                     <li><a href="#" tabindex="102">History</a></li>
                                     <li><a href="#" tabindex="103">Administration</a></li>
-                                    <li><a href="#" tabindex="104">Facts &amp; Rankings</a></li>
+                                    <li><a href="#" tabindex="104">Parking &amp; Transportation</a></li>
                                     <li><a href="#" tabindex="105">Centers &amp; Institutes</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Visit</h4></li>
                                     <li><a href="#" tabindex="106">Maps &amp; Directions</a></li>
                                     <li><a href="#" tabindex="107">Virtual Tour</a></li>
                                     <li><a href="#" tabindex="108">Parking &amp; Transportation</a></li>
@@ -93,7 +92,7 @@
                                     <li><a href="#" tabindex="112">Publications</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
-                                    <span class="inmenu--desktop-nav_related-links_label">Related:</span>
+                                    <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
                                     <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="180">Jobs</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="181">Safety</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="182">Diversity</a>
@@ -103,7 +102,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--academics">
-                        <a class="nav-icon nav-icon-study inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="200">Academics</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="200">Academics</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Academics</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg)" />
@@ -142,14 +141,12 @@
 
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Academics</h4></li>
                                     <li><a href="#" tabindex="201">Overview</a></li>
                                     <li><a href="#" tabindex="202">Colleges &amp; Schools</a></li>
                                     <li><a href="#" tabindex="203">Majors, Minors &amp; Programs</a></li>
                                     <li><a href="#" tabindex="204">Academic Calendars</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Resources</h4></li>
                                     <li><a href="#" tabindex="205">Undergraduate</a></li>
                                     <li><a href="#" tabindex="206">Graduate &amp; Professional</a></li>
                                     <li><a href="#" tabindex="207">Health Professional</a></li>
@@ -162,7 +159,7 @@
                                     <li><a href="#" tabindex="211">Health Sciences</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
-                                    <span class="inmenu--desktop-nav_related-links_label">Related:</span>
+                                    <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
                                     <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="280">Campus Housing</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="281">Bursar</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="282">Virtual Tour</a>
@@ -171,7 +168,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--admissions">
-                        <a class="nav-icon nav-icon-note inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="300">Admissions</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="300">Admissions</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Admissions</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg)" />
@@ -190,14 +187,12 @@
 
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Admissions</h4></li>
                                     <li><a href="#" tabindex="301">Overview</a></li>
                                     <li><a href="#" tabindex="302">Undergraduate Admissions</a></li>
                                     <li><a href="#" tabindex="303">Graduate Admissions</a></li>
                                     <li><a href="#" tabindex="304">Health Sciences Admissions</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Programs</h4></li>
                                     <li><a href="#" tabindex="305">Summer &amp; Winter</a></li>
                                     <li><a href="#" tabindex="306">High School Programs</a></li>
                                     <li><a href="#" tabindex="307">Study Abroad</a></li>
@@ -209,16 +204,16 @@
                                     <li><a href="#" tabindex="310">Tuition &amp; Costs</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
-                                    <span class="inmenu--desktop-nav_related-links_label">Related:</span>
+                                    <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
                                     <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="380">Libraries</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="381">Registrar</a>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link nav-icon nav-icon-t-shirt" href="#" tabindex="400">Campus&nbsp;Life</a></li>
+                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="400">Campus&nbsp;Life</a></li>
                     <!--<li class="nav-icon nav-icon-arrow-left inmenu--primary-nav">
-                        <a class="nav-icon nav-icon-t-shirt" href="#">Campus&nbsp;Life</a>
+                        <a class="" href="#">Campus&nbsp;Life</a>
                         <div class="mp-level">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Campus&nbsp;Life</h2>
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
@@ -231,9 +226,9 @@
                             </ul>
                         </div>
                     </li>-->
-                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link nav-icon nav-icon-lab" href="#" tabindex="500">Research</a></li>
-                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link nav-icon nav-icon-music" href="#" tabindex="600">Athletics</a></li>
-                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link nav-icon nav-icon-star" href="#" tabindex="700">Medicine</a></li>
+                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="500">Research</a></li>
+                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="600">Athletics</a></li>
+                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="700">Medicine</a></li>
 
                     <li class="inmenu--search">
                         <div class="search-container clearfix border-box">
@@ -252,7 +247,7 @@
                     </li>
 
                     <li class="nav-icon nav-icon-arrow-left inmenu--cta--half inmenu--logins">
-                        <a class="nav-icon nav-icon-user inmenu--logins-link" href="#" tabindex="23">Logins</a>
+                        <a class="inmenu--logins-link" href="#" tabindex="23"><em class="fa fa-lock"></em>Logins</a>
                         <div class="mp-level hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Logins</h2>
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
@@ -284,6 +279,12 @@
                     </li>
 
                 </ul>
+                <div class="clearfix campaign-badge">
+                    <a href="http://www.stonybrook.edu/campaign" class="arrow-after">
+                        <span class="label hide-accessible clearfix">The Campaign for Stony Brook</span>
+                        <img src="//www.stonybrook.edu/img/branding/logo/campaign-lockup-two-line-358-60.png" alt="The Campaign for Stony Brook logo" />
+                    </a>
+                </div>
                     
             </div>
         </nav>

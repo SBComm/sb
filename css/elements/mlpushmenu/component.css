@@ -29,9 +29,25 @@ html, body, .container, .scroller {
 	display: inline-block;
 	float: right;
 	position: relative;
-	padding: 0 40px;
+	padding: 0 0 0 25px;
 	font-size: 0.9em;
 	height: 75px;
+	width: 90px;
+}
+
+.menu-trigger .label {
+    display: block;
+    float: left;
+    position: absolute;
+    top: 49px;
+    width: 50px;
+    text-align: center;
+    left: 20px;
+    font-family: 'Effra W01', 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 12px;
+    color: #ccc;
+    text-transform: uppercase;
+
 }
 
 .menu-trigger:focus {
@@ -41,8 +57,8 @@ html, body, .container, .scroller {
 .menu-trigger:before {
 	content: '';
 	position: absolute;
-	top: 23px;
-	left: 20px;
+	top: 16px;
+	left: 25px;
 	width: 40px;
 	height: 5px;
 	background: #ccc;
@@ -244,6 +260,7 @@ html, body, .container, .scroller {
 	z-index: -1;
 	color: rgba(255,255,255,.7);
 	line-height: 3.5;
+	display: block;
 }
 
 .mp-level > ul > li:first-child > a {
@@ -325,7 +342,7 @@ html, body, .container, .scroller {
 
 }
 
-@media only screen and (max-height: 550px) {
+@media only screen and (max-height: 550px) and (max-width: 1159px) {
 	.mp-menu ul li > a,
 	.mp-menu ul li.inmenu--audiences > a {
 	    font-size: 1.2em;

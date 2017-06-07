@@ -4,7 +4,8 @@
 }
 
 .skip-navigation-link,
-.footer-navigation-link {
+.footer-navigation-link,
+.main-navigation-link {
     color: #404040;
     position: absolute;
     display: inline-block;
@@ -17,7 +18,9 @@
 .skip-navigation-link:focus,
 .skip-navigation-link:active,
 .footer-navigation-link:focus,
-.footer-navigation-link:active {
+.footer-navigation-link:active,
+.main-navigation-link:focus,
+.main-navigation-link:active {
     color: #404040;
     position: absolute;
     left: 0;
@@ -36,9 +39,8 @@
 
 nav.primary-nav {
 	background-image: url(../img/branding/rays/light-gray-rays-masthead-2200px.png);
-    background-size: 100%;
-    background-size: cover;
     background-position: center;
+	background-size: cover;
 }
 
 .sbu-nav-bar {
@@ -132,9 +134,18 @@ li.inmenu--cta {
     text-align: center;
 }
 
+.inmenu--logins-link .fa {
+	margin: 0 7px 0 0;
+	font-size: .9em;
+}
+
 .primary-nav_logobar,
 .inmenu-homeicon,
 .inmenu--primary-nav--image {
+	display: none;
+}
+
+.primary-nav .campaign-badge {
 	display: none;
 }
 
