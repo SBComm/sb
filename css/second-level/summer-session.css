@@ -501,6 +501,48 @@
     background-position: center;
 }
 
+.filter-buttons a.music-tech {
+    background-image: url('../../img/circle-buttons/music-tech-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.geology {
+    background-image: url('../../img/circle-buttons/geology-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.decision-making {
+    background-image: url('../../img/circle-buttons/decision-making-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.hip-hop {
+    background-image: url('../../img/circle-buttons/hip-hop-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.narrative-games {
+    background-image: url('../../img/circle-buttons/narrative-games-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.buddhism {
+    background-image: url('../../img/circle-buttons/buddhism-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media only screen and (min-width: 360px) {
     .filter-buttons p {
         font-size: 1.2em;
