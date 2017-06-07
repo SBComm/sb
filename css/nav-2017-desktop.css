@@ -4,6 +4,10 @@
 		margin-top: 0;
 	}
 
+	.main-nav-container + .main-container > .main > article > section {
+		padding-top: 88px;
+	}
+
 	.inmenu--desktop-only {
 		display: inline-block !important;
 	}
@@ -92,7 +96,7 @@
 
 	#mp-menu {
 		background: #900;
-		background: rgba(153, 0, 0, .9);
+		background: rgba(153, 0, 0, .85);
 	}
 
 	.mp-level {
