@@ -25,7 +25,7 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$second_level    = 'about';
+			$second_level    = 'site-directory';
 			$page_title_sub  = 'Academics';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
