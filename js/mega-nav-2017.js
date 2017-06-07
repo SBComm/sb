@@ -11,12 +11,12 @@ function switchNavFocus($megaNav,megaIndex) {
     var $currentFocused = getFocusedMegaMenuLink();
     var currentFocusedIndex = getMegaMenuIdFromEl($currentFocused);
 
-    console.log(currentFocusedIndex);
-    console.log(megaIndex);
+    //console.log(currentFocusedIndex);
+    //console.log(megaIndex);
 
 
     if(currentFocusedIndex !== megaIndex) {
-        console.log($megaNav);
+        //console.log($megaNav);
         //$megaNav.focus();
         $currentFocused.blur();
     }
@@ -25,7 +25,7 @@ function switchNavFocus($megaNav,megaIndex) {
 function showMegaMenu(megaIndex) {
     var $megaNav = $("a[data-mega-menu-id='"+megaIndex+"']");
     var $megaMenu = $("div[data-mega-menu-id='"+megaIndex+"']");
-    console.log($megaMenu.hasClass('hide-accessible-1160'));
+    //console.log($megaMenu.hasClass('hide-accessible-1160'));
 
     $megaNav.addClass('selected');
 
@@ -48,10 +48,10 @@ function hideMegaMenu(megaIndex,boolClearFocus) {
 
     clearActiveMegaMenuID();
 
-    console.log(boolClearFocus);
+    //console.log(boolClearFocus);
     if(boolClearFocus!==false) {
         var $currentFocused = getFocusedMegaMenuLink();
-        console.log($currentFocused);
+        //console.log($currentFocused);
         $currentFocused.blur();
     }
 }
@@ -92,7 +92,7 @@ function tabNextElement($currEl) {
     var currTab = parseInt($currEl.attr('tabindex'));
     for(var i = currTab; i < 9999; i++) {
         var nextIndex = i + 1;
-        console.log($('a[tabindex="'+nextIndex+'"]'));
+        //console.log($('a[tabindex="'+nextIndex+'"]'));
         var $nextTab = $('a[tabindex="'+nextIndex+'"]');
         if($nextTab.length) {
             $nextTab.focus();
@@ -105,7 +105,7 @@ function tabPrevElement($currEl) {
     var currTab = parseInt($currEl.attr('tabindex'));
     for(var i = currTab; i > -1; i--) {
         var prevIndex = i - 1;
-        console.log($('a[tabindex="'+prevIndex+'"]'));
+        //console.log($('a[tabindex="'+prevIndex+'"]'));
         var $prevTab = $('a[tabindex="'+prevIndex+'"]');
         if($prevTab.length) {
             $prevTab.focus();
@@ -177,13 +177,13 @@ $(document).ready(function() {
             
 
             triggerShowTimer = setTimeout(function(){
-                console.log(megaIndex);
-                console.log(megaTriggerCache[megaIndex]);
+                //console.log(megaIndex);
+                //console.log(megaTriggerCache[megaIndex]);
                 if(megaTriggerCache[megaIndex]) {
-                    console.log('hey!');
-                    console.log('hiding all');
+                    //console.log('hey!');
+                    //console.log('hiding all');
                     hideAllMegaMenu();
-                    console.log('showing '+megaIndex);
+                    //console.log('showing '+megaIndex);
 
                     showMegaMenu(megaIndex);
                 }
@@ -195,26 +195,26 @@ $(document).ready(function() {
         if($(window).width()>=1160) {
             megaIndex = $menuTrigger.attr('data-mega-menu-id');
             megaTriggerCache[megaIndex] = false;
-            console.log($(this));
-            console.log(megaIndex);
+            //console.log($(this));
+            //console.log(megaIndex);
 
-            console.log('clearing then setting triggerHideTimer');
+            //console.log('clearing then setting triggerHideTimer');
             clearTimeout(triggerHideTimer);
             triggerHideTimer = setTimeout(function(){
-                console.log(megaIndex);
+                //console.log(megaIndex);
                 $.each(megaTriggerCache, function() {
-                    console.log(this);
-                    console.log(this.valueOf());
-                    console.log(Boolean(this));
+                    //console.log(this);
+                    //console.log(this.valueOf());
+                    //console.log(Boolean(this));
                     if(this.valueOf()) {
                         megaTriggerFlag = true;
                         return false;
                     }
                 });
 
-                console.log(megaIndex);
+                //console.log(megaIndex);
                 if(!megaTriggerFlag) {
-                    console.log('hiding '+megaIndex);
+                    //console.log('hiding '+megaIndex);
                     hideMegaMenu(megaIndex);
                 }
                 megaTriggerFlag = false;
@@ -240,8 +240,8 @@ $(document).ready(function() {
     $(document.body).on('focusin','.inmenu--desktop-nav_related-links a:last-child',function(){
         var parentMenu = getParentMegaMenuID($(this));
         var currentMenu = getActiveMegaMenuID();
-        console.log(parentMenu);
-        console.log(currentMenu);
+        //console.log(parentMenu);
+        //console.log(currentMenu);
         if(getParentMegaMenuID($(this)) != getActiveMegaMenuID()) {
             hideAllMegaMenu();
             showMegaMenu(parentMenu);
@@ -254,7 +254,7 @@ $(document).ready(function() {
 
     $(document.body).on('keydown',function(e) {
         var $focusedEl = $(':focus');
-        console.log($focusedEl);
+        //console.log($focusedEl);
 
         //right and left
             //if focused element is one of the main nav links
@@ -282,12 +282,12 @@ $(document).ready(function() {
             if (e.keyCode == 39) { //right
                 e.preventDefault();
                 var $nextLink = $focusedEl.closest('li.inmenu--primary-nav').next('li.inmenu--primary-nav').find('.inmenu--desktop-nav-link');
-                console.log($nextLink);
+                //console.log($nextLink);
                 $nextLink.focus();
             } else if (e.keyCode == 37) { //left
                 e.preventDefault();
                 var $prevLink = $focusedEl.closest('li.inmenu--primary-nav').prev('li.inmenu--primary-nav').find('.inmenu--desktop-nav-link');
-                console.log($prevLink);
+                //console.log($prevLink);
                 $prevLink.focus();
             } else if (e.keyCode == 38) { //up
                 e.preventDefault();
@@ -296,8 +296,8 @@ $(document).ready(function() {
                 }
             } else if (e.keyCode == 40 || e.keyCode == 13) { //down
                 e.preventDefault();
-                console.log(megaMenuIsShowing());
-                console.log(getMegaMenuIdFromEl($focusedEl));
+                //console.log(megaMenuIsShowing());
+                //console.log(getMegaMenuIdFromEl($focusedEl));
                 if(!megaMenuIsShowing()) {
                     showMegaMenu(getMegaMenuIdFromEl($focusedEl));
                 } else if(megaMenuIsShowing()) {
@@ -376,7 +376,7 @@ $(document).ready(function() {
         if($(window).width()>=1160) {
             megaIndex = $(this).attr('data-mega-menu-id');
             megaCache[megaIndex] = true;
-            console.log('clearing triggerHideTimer and triggerShowTimer');
+            //console.log('clearing triggerHideTimer and triggerShowTimer');
             clearTimeout(triggerHideTimer);
             clearTimeout(triggerShowTimer);
         }
@@ -386,23 +386,23 @@ $(document).ready(function() {
         if($(window).width()>=1160) {
             megaIndex = $(this).attr('data-mega-menu-id');
             megaCache[megaIndex] = false;
-            console.log($(this));
-            console.log(megaIndex);
+            //console.log($(this));
+            //console.log(megaIndex);
 
             setTimeout(function(){
-                console.log(megaIndex);
+                //console.log(megaIndex);
                 $.each(megaCache, function() {
-                    console.log(this.valueOf());
-                    console.log(Boolean(this));
+                    //console.log(this.valueOf());
+                    //console.log(Boolean(this));
                     if(this.valueOf()) {
                         megaFlag = true;
                         return false;
                     }
                 });
 
-                console.log(megaIndex);
+                //console.log(megaIndex);
                 if(!megaFlag) {
-                    console.log('hey!');
+                    //console.log('hey!');
                     hideMegaMenu(megaIndex);
                 }
                 megaFlag = false;
@@ -411,9 +411,9 @@ $(document).ready(function() {
     });
 
     $(document.body).on('click',function() {
-        console.log('got a click!');
+        //console.log('got a click!');
         if($(".inmenu--primary-nav--mega-trigger").hasClass('selected')) {
-            console.log('hiding all mega menu');
+            //console.log('hiding all mega menu');
             hideAllMegaMenu();
         }
     });
@@ -450,12 +450,12 @@ $(document).ready(function() {
     };
 
     $('.inmenu--logins-link').mouseenter(function() {
-        console.log(showLoginMenuDropdown);
+        //console.log(showLoginMenuDropdown);
         showLoginMenuDropdown($(this));
     });
 
     $('.inmenu--logins-link').on('focus', function() {
-        console.log(showLoginMenuDropdown);
+        //console.log(showLoginMenuDropdown);
         showLoginMenuDropdown($(this));
     });
 
