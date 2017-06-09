@@ -46,7 +46,10 @@ nav.primary-nav {
 .sbu-nav-bar {
 	width: 100%;
 	background: #000;;
-	z-index: 2000;;
+	z-index: 2000;
+	background-image: url("../img/branding/rays/black-rays-full.jpg");
+	background-size: cover;
+	background-position: 0 0;
 }
 
 .sbu-nav-bar .logo {
