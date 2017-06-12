@@ -1764,6 +1764,15 @@ body {
 
     }
 
+    .rounded-image-buttons--none a {
+        box-shadow: none;
+    }
+
+    .rounded-image-buttons--none a:hover {
+        border: 0 none;
+        padding: 0;
+    }
+
     .rounded-image-buttons a .label {
         display: table-cell;
         width: 100%;
@@ -1784,6 +1793,9 @@ body {
             margin: 2%;
             font-size: 1.5em;
             box-shadow: rgba(6, 169, 191, 1) -110px 0 140px -30px inset;
+        }
+        .rounded-image-buttons--none a {
+            box-shadow: none;
         }
     }
 
