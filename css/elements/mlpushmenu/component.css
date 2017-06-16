@@ -62,12 +62,12 @@ html, body, .container, .scroller {
 	width: 40px;
 	height: 5px;
 	background: #ccc;
-	box-shadow: 0 5px #000, 0 11px #ccc, 0 17px #000, 0 22px #ccc;
+	box-shadow: 0 5px transparent, 0 11px #ccc, 0 17px transparent, 0 22px #ccc;
 }
 
 .menu-trigger:hover:before {
 	background: #f7f7f7;
-	box-shadow: 0 5px #000, 0 11px #f7f7f7, 0 17px #000, 0 22px #f7f7f7;
+	box-shadow: 0 5px transparent, 0 11px #f7f7f7, 0 17px transparent, 0 22px #f7f7f7;
 }
 
 .menu-trigger:focus:before {
@@ -275,6 +275,7 @@ html, body, .container, .scroller {
 .mp-menu ul li a:focus {
 	background: rgba(0,0,0,0.1);
 	box-shadow: inset 0 -1px rgba(0,0,0,0);
+	text-decoration: none;
 }
 
 .mp-menu .mp-level.mp-level-overlay > ul > li > a,
