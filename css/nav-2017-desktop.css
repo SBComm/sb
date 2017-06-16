@@ -628,8 +628,11 @@
 
 	.primary-nav .search-container button[type="submit"] {
 		height: 44px;
-		width: 50px;
-		background: transparent;
+	    width: 50px;
+	    background: transparent;
+	    border: 0 none;
+	    float: none;
+	    padding: 0;
 	}
 
 }
