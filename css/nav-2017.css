@@ -112,19 +112,6 @@ nav.primary-nav {
 	display: none;
 }
 
-/* icons */
-.primary-nav .nav-icon:before {
-	font-family: 'linecons';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	margin-right: 0.6em;
-	-webkit-font-smoothing: antialiased;
-}
-
 li.inmenu--cta {
 	width: 100%;
 	clear: both;
