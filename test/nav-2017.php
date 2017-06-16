@@ -84,7 +84,7 @@
 							<?php 
 								$file = "{$second_level}/{$second_level}.php";
 								//include($pathForContent . $content . $secLv . $file);
-								include('/user/commcms/www/graduate-admissions/test-2.php');
+								include('/user/commcms/www/_second-level/_template.php');
 							?>
 						<!-- </content> -->
 
