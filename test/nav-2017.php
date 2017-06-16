@@ -54,10 +54,6 @@
 			$file  = $header;
 			include($path . $file);
 		?>
-        <?php includeAsset('css','css/elements/mlpushmenu/icons.css'); ?>
-        <?php includeAsset('css','css/elements/mlpushmenu/component.css'); ?>
-        <?php includeAsset('css','css/nav-2017.css'); ?>
-        <?php includeAsset('css','css/nav-2017-desktop.css'); ?>
 	</head>
     <body>
         <!-- <global> -->
@@ -88,12 +84,6 @@
 								include('/user/commcms/www/graduate-admissions/test.php');
 							?>
 						<!-- </content> -->
-
-						<script src="js/mlpushmenu/classie.js"></script>
-						<script src="js/mlpushmenu/mlpushmenu.js"></script>
-						<script>
-							new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
-						</script>
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
@@ -128,7 +118,7 @@
 
 	    <!-- <scripts> -->
 			<?php 
-				$file = "footer-scripts.php";
+				$file = "footer-scripts-ou.php";
 				include($path . $file);
 			?>
 			<script src="js/mega-nav-2017.js"></script>
