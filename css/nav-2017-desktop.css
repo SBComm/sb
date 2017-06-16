@@ -4,8 +4,15 @@
 		margin-top: 0;
 	}
 
-	.main-nav-container + .main-container > .main > article > section {
+	.main-nav-container + .main-container {
+		margin-top: 88px;
+	}
+
+	.main-nav-container + .main-container > .main > article > section:first-child {
+		margin-top: -88px;
 		padding-top: 88px;
+		padding-bottom: 0;
+		margin-bottom: 0;
 	}
 
 	.inmenu--desktop-only {
@@ -479,6 +486,8 @@
         font-size: .8em;
         margin-left: 6px;
         text-indent: 0;
+        padding: 0;
+    	margin: 0;
 	}
 
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head {
@@ -622,6 +631,8 @@
 		background: transparent;
 	}
 
+}
+@media only screen and (min-width: 1600px) {
 	.primary-nav .campaign-badge {
 		display: block;
 		position: absolute;
@@ -651,8 +662,4 @@
 		top: 24px;
 		right: 8px;
 	}
-
-}
-@media only screen and (min-width: 1160px) {
-
 }
