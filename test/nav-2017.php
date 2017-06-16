@@ -47,6 +47,9 @@
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 
 		    $site_breadcrumbs = false;
+
+		    $mega_nav = true;
+		    $mega_nav_ou = true;
 		?>
 
 	<head>
@@ -118,10 +121,9 @@
 
 	    <!-- <scripts> -->
 			<?php 
-				$file = "footer-scripts-ou.php";
+				$file = "footer-scripts-ou-2017.php";
 				include($path . $file);
 			?>
-			<script src="js/mega-nav-2017.js"></script>
 		<!-- </scripts> -->
 
 		<!-- <googleanalytics> -->

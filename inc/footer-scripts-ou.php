@@ -1,9 +1,3 @@
-<?php includeAsset('js','js/mlpushmenu/classie.js'); ?>
-<?php includeAsset('js','js/mlpushmenu/mlpushmenu.js'); ?>
-<script>
-	new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
-</script>
-
 <?php 
 /*
 echo $social_feed_channel["twitter"];
