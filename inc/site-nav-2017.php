@@ -226,7 +226,68 @@
                             </ul>
                         </div>
                     </li>-->
-                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="500">Research</a></li>
+                    <!--<li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="500">Research</a></li>-->
+
+
+                    <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--research">
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="500">Research</a>
+                        <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
+                            <h2 class="nav-icon nav-icon-arrow-right-2">Research</h2>
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg)" />
+                            <a class="mp-back" href="#" aria-hidden="true">back</a>
+                            <ul class="inmenu--mobile-only">
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Research Centers</a></li>
+                                <li><a href="#">VP for Research</a></li>
+                                <li><a href="#">Researcher's Guide</a></li>
+                                <li><a href="#">Libraries</a></li>
+                                <li><a href="#">Corporate Research</a></li>
+                                <li><a href="#">Institutional Research</a></li>
+                                <li class="nav-icon nav-icon-arrow-left">
+                                    <a class="nav-icon nav-icon-map" href="#">Student Research</a>
+                                    <div class="mp-level">
+                                        <h2 class="nav-icon nav-icon-arrow-right-2">Students</h2>
+                                        <a class="mp-back" href="#" aria-hidden="true">back</a>
+                                        <ul>
+                                            <li><a href="#">High School</a></li>
+                                            <li><a href="#">Undergraduate</a></li>
+                                            <li><a href="#">Graduate</a></li>
+                                            <li><a href="#">Post-Docs</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="inmenu--desktop-only inmenu--desktop-nav">
+                                <ul>
+                                    <li><a href="#" tabindex="501">Overview</a></li>
+                                    <li><a href="#" tabindex="502">Research Centers</a></li>
+                                    <li><a href="#" tabindex="503">VP for Research</a></li>
+                                    <li><a href="#" tabindex="504">Researcher's Guide</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#" tabindex="504">Libraries</a></li>
+                                    <li><a href="#" tabindex="505">Corporate Research</a></li>
+                                    <li><a href="#" tabindex="506">Institutional Research</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="inmenu--desktop-nav--head"><h4>Student Research</h4></li>
+                                    <li><a href="#" tabindex="507">High School</a></li>
+                                    <li><a href="#" tabindex="508">Undergraduate</a></li>
+                                    <li><a href="#" tabindex="509">Graduate</a></li>
+                                    <li><a href="#" tabindex="510">Post-Docs</a></li>
+                                </ul>
+                                <div class="inmenu--desktop-nav_related-links">
+                                    <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="580">BNL</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="581">AERTC</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="582">CEWIT</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
                     <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="600">Athletics</a></li>
                     <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="700">Medicine</a></li>
 
