@@ -486,8 +486,6 @@
         font-size: .8em;
         margin-left: 6px;
         text-indent: 0;
-        padding: 0;
-    	margin: 0;
 	}
 
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head {
@@ -499,6 +497,8 @@
 		font-size: 1.15em;
 		color: #828282;
 		font-weight: 500 !important;
+		margin: 0;
+    	padding: 0;
 	}
 
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head h4:after {
@@ -565,7 +565,7 @@
 		background: #000;
 	}
 
-	.inmenu--search_desktop-close {
+	.inmenu--search_desktop-close.fa {
         z-index: 1;
         font-size: .9em;
         padding: 9px;
@@ -613,6 +613,7 @@
         -moz-transition: none;
         -o-transition: none;
 		z-index: 2;
+		border: 0 none;
 	}
 
 	.mp-menu .search-container input[type="text"].focus + .inmenu--search_desktop-close {
@@ -625,7 +626,7 @@
 		color: #444;
 	}
 
-	.search-container button[type="submit"] {
+	.primary-nav .search-container button[type="submit"] {
 		height: 44px;
 		width: 50px;
 		background: transparent;
