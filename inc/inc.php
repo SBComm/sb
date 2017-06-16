@@ -157,6 +157,9 @@
     $calendar_title_color = '';
     $col = '';
 
+    $mega_nav = false;
+    $mega_nav_ou = false;
+
     /* Display Configurations, Default Highlights */
 
     $main_nav_selected_tab      = 0;
