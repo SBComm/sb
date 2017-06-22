@@ -2813,6 +2813,11 @@ body {
             margin: 1%;
         }
 
+        .photo-boxes-third .item {
+            width: 31.333%;
+            margin: 1%;
+        }
+
         .tweets-and-news {
             padding: 6em 0;
         }
