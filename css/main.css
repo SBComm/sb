@@ -1552,17 +1552,21 @@ body {
             display: block;
         }
 
-        .second-level-2017 .sbu-columns--column.one-third {
-            width: 100%;
-            margin: 0 0 30px;
-            padding: 30px 20px 10px;
-        }
-
         .content-wrapper h1.second-level-promo-header {
             font-size: 44px;
             margin-top: 18px !important;
         }
 
+    }
+
+    @media only screen and (max-width: 1099px) {
+
+        .second-level-2017 .sbu-columns--column.one-third {
+            width: 100%;
+            margin: 0 0 30px;
+            padding: 30px 20px 10px;
+        }
+        
     }
 
     @media only screen and (min-width: 768px) {
