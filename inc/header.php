@@ -173,9 +173,11 @@
         <?php } ?>
 
         <!-- Mega Menu -->
-        <?php includeAsset('css','css/elements/mlpushmenu/component.css'); ?>
-        <?php includeAsset('css','css/nav-2017.css'); ?>
-        <?php includeAsset('css','css/nav-2017-desktop.css'); ?>
+        <?php if($mega_nav==true) { ?>
+            <?php includeAsset('css','css/elements/mlpushmenu/component.css'); ?>
+            <?php includeAsset('css','css/nav-2017.css'); ?>
+            <?php includeAsset('css','css/nav-2017-desktop.css'); ?>
+        <?php } ?>
 
         <?php if($mega_nav_ou==true) { ?>
             <link href="http://www.stonybrook.edu/commcms/_resources/css/main-v2.css" rel="stylesheet" type="text/css"></link>

@@ -5,7 +5,7 @@
 	}
 
 	.main-nav-container + .main-container {
-		/* margin-top: 88px; */
+		margin-top: 88px;
 	}
 
 	.main-nav-container + .main-container > .main > article > section:first-child {
