@@ -1528,6 +1528,11 @@ body {
         background: #111 !important;
     }
 
+    .second-level-2017 .photo-boxes-third .item {
+        width: 100%;
+        margin: 0 0 25px;
+    }
+
     .second-level-2017 .three-button-columns .layout-col {
         background: transparent;
     }
