@@ -1454,6 +1454,10 @@ body {
 
     /* second level 2017 */
 
+    .second-level-2017 h1 {
+        border-bottom: 0 none !important;
+    }
+
     .second-level-head-region .section-bkg-container {
         padding: 0;
         border-bottom: 12px solid #fff;
