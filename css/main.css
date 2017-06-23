@@ -2132,6 +2132,40 @@ body {
         }
     }
 
+    /* Super Simple Image Promo Button */
+
+    a.super-simple-promo-image-button {
+        width: 100%;
+        display: block;
+        font-size: 40px;
+        font-family: Effra;
+        font-weight: 900;
+        color: #fff;
+        padding: 170px 10px 10px;
+        height: 300px;
+        position: relative;
+        border: 3px solid #fff;
+        background-size: cover;
+        box-shadow: 0 0 50px #7b7b7b;
+    }
+
+    a.super-simple-promo-image-button:hover {
+        box-shadow: 0 0 50px #7b7b7b;
+    }
+
+    a.super-simple-promo-image-button span {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 0 15px;
+        box-shadow: 0 -80px 70px -40px rgba(0,0,0,.7)inset;
+        padding-bottom: 20px;
+        line-height: 40px;
+    }
+
     /* Tables */
 
     .simple-two-col-table {
