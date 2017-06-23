@@ -1535,6 +1535,10 @@ body {
 
     @media only screen and (max-width: 767px) {
 
+        .content-wrapper h1.second-level-head-region_heading span {
+            font-size: 38px;
+        }
+
         .second-level-2017 .photo-boxes-third .item {
             width: 100%;
             margin: 0 0 25px;
