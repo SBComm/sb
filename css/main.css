@@ -2186,10 +2186,14 @@ body {
         width: 100%;
         height: 100px;
         overflow: hidden;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
     }
 
     .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover .rays-promo-box-with-hover-text_wrapper {
         height: 480px;
+        opacity: .9;
     }
 
     .content-wrapper h3.rays-promo-box-with-hover-text_title,
@@ -2207,12 +2211,13 @@ body {
 
     .content-wrapper .rays-promo-box-with-hover-text_text {
         margin: 30px;
-        font-size: .6em;
+        font-size: .575em;
         text-align: left;
-        line-height: 1.4em;
+        line-height: 1.6em;
         padding: 20px 30px;
         background: rgba(240,240,240,.75);
         border: 3px solid #d52027;
+        color: #000;
     }
 
     .content-wrapper .rays-promo-box-with-hover-text_button {
