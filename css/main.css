@@ -1533,6 +1533,10 @@ body {
         background: transparent;
     }
 
+    .second-level-2017 .background-scroll .section-bkg-container {
+        background-attachment: fixed;
+    }
+
     @media only screen and (max-width: 768px) {
 
         .second-level-2017 .photo-boxes-third .item {
