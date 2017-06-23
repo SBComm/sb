@@ -1459,7 +1459,7 @@ body {
         border-bottom: 12px solid #fff;
     }
 
-    .new-brand .content-wrapper h1.second-level-head-region_heading {
+    .content-wrapper h1.second-level-head-region_heading {
         display: block;
         font-family: "Effra W01", "Arial", sans-serif;
         text-align: center;
@@ -1468,7 +1468,7 @@ body {
         padding: 0;
     }
 
-    .new-brand .content-wrapper h1.second-level-head-region_heading span {
+    .content-wrapper h1.second-level-head-region_heading span {
         display: inline-block;
         font-family: "Effra W01", "Arial", sans-serif;
         text-align: center;
