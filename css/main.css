@@ -2146,7 +2146,6 @@ body {
         position: relative;
         border: 3px solid #fff;
         background-size: cover;
-        box-shadow: 0 0 50px #7b7b7b;
     }
 
     a.super-simple-promo-image-button:hover {
