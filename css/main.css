@@ -1529,16 +1529,16 @@ body {
         background: #111 !important;
     }
 
-    .second-level-2017 .photo-boxes-third .item {
-        width: 100%;
-        margin: 0 0 25px;
-    }
-
     .second-level-2017 .three-button-columns .layout-col {
         background: transparent;
     }
 
     @media only screen and (max-width: 768px) {
+
+        .second-level-2017 .photo-boxes-third .item {
+            width: 100%;
+            margin: 0 0 25px;
+        }
 
         .second-level-head-region .section-bkg-container {
             padding: 80px 0 0;
