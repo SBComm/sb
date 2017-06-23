@@ -1485,6 +1485,52 @@ body {
         border-bottom: 0 none;
     }
 
+    .content-wrapper h1.second-level-promo-header {
+        font-size: 64px;
+        line-height: 53px;
+        font-weight: 700;
+    }
+
+    .content-wrapper p.second-level-promo-text {
+        font-size: 30px;
+        line-height: 40px;
+        font-family: "Effra W01", Helvetica, sans-serif;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .second-level-2017 a.sbu-outline-button.sbu-outline-button--red,
+    .second-level-2017 a.sbu-outline-button.sbu-outline-button--black {
+        font-size: 1.3rem;
+        padding: 1.1rem;
+        min-width: 240px;
+        cursor: pointer !important;
+    }
+
+    .second-level-2017 a.sbu-outline-button.sbu-outline-button--red {
+        background: #900 !important; 
+        border: #900 !important;
+        color: #fff !important;
+    }
+
+    .second-level-2017 a.sbu-outline-button.sbu-outline-button--red:hover {
+
+    }
+
+    .second-level-2017 a.sbu-outline-button.sbu-outline-button--black {
+        background: #000 !important; 
+        border: #000 !important;
+        color: #fff !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .second-level-2017 a.sbu-outline-button {
+            display: block;
+        }
+
+    }
+    
     /* Colors */
 
     .black {
