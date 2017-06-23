@@ -1544,6 +1544,10 @@ body {
             padding: 30px 20px 10px;
         }
 
+        .content-wrapper h1.second-level-promo-header {
+            font-size: 44px;
+            margin-top: 18px;
+
     }
 
     /* Colors */
