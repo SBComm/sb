@@ -1515,13 +1515,21 @@ body {
     }
 
     .second-level-2017 a.sbu-outline-button.sbu-outline-button--red:hover {
-
+        background: #a00 !important; 
     }
 
     .second-level-2017 a.sbu-outline-button.sbu-outline-button--black {
         background: #000 !important; 
         border: #000 !important;
         color: #fff !important;
+    }
+
+    .second-level-2017 a.sbu-outline-button.sbu-outline-button--black:hover {
+        background: #111 !important;
+    }
+
+    .second-level-2017 .three-button-columns .layout-col {
+        background: transparent;
     }
 
     @media only screen and (max-width: 768px) {
