@@ -2214,18 +2214,76 @@ body {
     }
 
     .content-wrapper .rays-promo-box-with-hover-text_text {
-        margin: 30px;
-        font-size: .575em;
+        margin: 30px 6% 0;
+        font-size: .55em;
         text-align: left;
-        line-height: 1.6em;
+        line-height: 1.5em;
         padding: 20px 30px;
         background: rgba(240,240,240,.75);
         border: 3px solid #d52027;
         color: #000;
+        width: 88%;
+        box-sizing: border-box;
+        float: left;
     }
 
     .content-wrapper .rays-promo-box-with-hover-text_button {
         margin: 20px auto 0;
+    }
+
+    .rays-promo-box-with-hover-text-snippet .rays-promo-box-with-hover-text {
+        margin: 0 0 30px;
+    }
+
+    @media only screen and (max-width: 1023px) {
+        .new-brand .content-wrapper .rays-promo-box-with-hover-text,
+        .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover {
+            height: auto;
+        }
+        .new-brand .content-wrapper .rays-promo-box-with-hover-text .rays-promo-box-with-hover-text_wrapper,
+        .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover .rays-promo-box-with-hover-text_wrapper {
+            height: auto;
+            opacity: .9;
+        }
+    }
+
+    @media only screen and (min-width: 960px) {
+        .rays-promo-box-with-hover-text-snippet .sbu-columns {
+            padding: 0 25px;
+        }
+        .rays-promo-box-with-hover-text-snippet .one-quarter {
+            width: 46%;
+            margin: 0 2% 10px;
+        }
+    }
+
+    @media only screen and (min-width: 1500px) {
+        .rays-promo-box-with-hover-text-snippet .sbu-columns {
+            padding: 0 15px;
+        }
+        .rays-promo-box-with-hover-text-snippet .one-quarter {
+            width: 23%;
+            margin: 0 1% 0;
+        }
+
+        .new-brand .content-wrapper .rays-promo-box-with-hover-text {
+            height: 540px;
+        }
+
+        .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover .rays-promo-box-with-hover-text_wrapper {
+            height: 540px;
+        }
+    }
+    
+    @media only screen and (min-width: 1650px) {
+        .new-brand .content-wrapper .rays-promo-box-with-hover-text {
+            height: 480px;
+        }
+
+        .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover .rays-promo-box-with-hover-text_wrapper {
+            height: 480px;
+        }
+
     }
 
     /* Tables */
