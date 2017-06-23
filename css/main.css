@@ -1566,7 +1566,7 @@ body {
             margin: 0 0 30px;
             padding: 30px 20px 10px;
         }
-        
+
     }
 
     @media only screen and (min-width: 768px) {
@@ -2223,7 +2223,7 @@ body {
     }
 
     .content-wrapper .rays-promo-box-with-hover-text_text {
-        margin: 30px 6% 0;
+        margin: 30px 6%;
         font-size: .55em;
         text-align: left;
         line-height: 1.5em;
