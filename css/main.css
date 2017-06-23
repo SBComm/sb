@@ -1533,8 +1533,7 @@ body {
         background: transparent;
     }
 
-    .second-level-2017 .background-scroll .section-bkg-container,
-    .second-level-2017 .second-level-head-region .section-bkg-container {
+    .second-level-2017 .background-scroll .section-bkg-container {
         background-attachment: fixed;
     }
 
