@@ -2159,9 +2159,8 @@ body {
         left: 0;
         right: 0;
         text-align: center;
-        padding: 0 15px;
         box-shadow: 0 -80px 70px -40px rgba(0,0,0,.7)inset;
-        padding-bottom: 20px;
+        padding: 20px 15px;
         line-height: 40px;
     }
 
