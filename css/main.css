@@ -1533,11 +1533,7 @@ body {
         background: transparent;
     }
 
-    .second-level-2017 .background-scroll .section-bkg-container {
-        background-attachment: fixed;
-    }
-
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
 
         .second-level-2017 .photo-boxes-third .item {
             width: 100%;
@@ -1561,6 +1557,14 @@ body {
         .content-wrapper h1.second-level-promo-header {
             font-size: 44px;
             margin-top: 18px !important;
+        }
+
+    }
+
+    @media only screen and (min-width: 768px) {
+
+        .second-level-2017 .background-scroll .section-bkg-container {
+            background-attachment: fixed;
         }
 
     }
