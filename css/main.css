@@ -1538,6 +1538,11 @@ body {
             display: block;
         }
 
+        .second-level-2017 .semi-transparent-white-boxes .sbu-columns--column.one-third {
+            width: 100%;
+            margin: 0 30px;
+        }
+
     }
 
     /* Colors */
