@@ -2229,6 +2229,8 @@ body {
 
     .content-wrapper .rays-promo-box-with-hover-text_button {
         margin: 20px auto 0;
+        display: block;
+        width: 100%;
     }
 
     .rays-promo-box-with-hover-text-snippet .rays-promo-box-with-hover-text {
