@@ -1540,7 +1540,8 @@ body {
 
         .second-level-2017 .semi-transparent-white-boxes .sbu-columns--column.one-third {
             width: 100%;
-            margin: 0 30px;
+            margin: 0 0 30px;
+            padding: 30px 20px 10px;
         }
 
     }
