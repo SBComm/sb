@@ -112,7 +112,8 @@
                                 <li><a href="#">Undergraduate Admissions</a></li>
                                 <li><a href="#">Graduate Admissions</a></li>
                                 <li><a href="#">Health Sciences Admissions</a></li>
-                                <li><a href="#">Summer &amp; Winter</a></li>
+                                <li><a href="#">Summer Sessions</a></li>
+                                <li><a href="#">Winter Session</a></li>
                                 <li><a href="#">High School Programs</a></li>
                                 <li><a href="#">Study Abroad</a></li>
                                 <li><a href="#">Financial Aid</a></li>
@@ -127,10 +128,10 @@
                                     <li><a href="#" tabindex="204">Health Sciences Admissions</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#" tabindex="205">Summer &amp; Winter</a></li>
-                                    <li><a href="#" tabindex="206">High School Programs</a></li>
-                                    <li><a href="#" tabindex="207">Study Abroad</a></li>
-                                    <li><a href="#" tabindex="208">Additional Programs</a></li>
+                                    <li><a href="#" tabindex="205">Summer Sessions</a></li>
+                                    <li><a href="#" tabindex="206">Winter Session</a></li>
+                                    <li><a href="#" tabindex="207">High School Programs</a></li>
+                                    <li><a href="#" tabindex="208">Study Abroad</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Cost &amp; Aid</h4></li>
