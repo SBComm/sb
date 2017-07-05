@@ -213,22 +213,62 @@
                             </div>
                         </div>
                     </li>
-                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="400">Campus&nbsp;Life</a></li>
-                    <?php /* <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav">
-                        <a class="" href="#">Campus&nbsp;Life</a>
-                        <div class="mp-level">
-                            <h2 class="nav-icon nav-icon-arrow-right-2">Campus&nbsp;Life</h2>
+                    <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--campus-life">
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="400">Campus Life</a>
+                        <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
+                            <h2 class="nav-icon nav-icon-arrow-right-2">Campus Life</h2>
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
-                                <li><a href="#">Arts &amp; Culture</a></li>
-                                <li><a href="#">Activities &amp; Clubs</a></li>
-                                <li><a href="#">Dining &amp; Housing</a></li>
-                                <li><a href="#">Health &amp; Wellness</a></li>
-                                <li><a href="#">Explore Stony Brook, NY</a></li>
+                                <li><a href="#">Living on Campus</a></li>
+                                <li><a href="#">Eating on Campus</a></li>
+                                <li><a href="#">Commuting to SBU</a></li>
+                                <li><a href="#">The Arts at SBU</a></li>
+                                <li><a href="#">Athletics</a></li>
+                                <li><a href="#">Campus Recreation</a></li>
+                                <li><a href="#">Student Life</a></li>
+                                <li class="nav-icon nav-icon-arrow-left">
+                                    <a class="nav-icon nav-icon-map" href="#">Things to Do</a>
+                                    <div class="mp-level">
+                                        <h2 class="nav-icon nav-icon-arrow-right-2">Things to Do</h2>
+                                        <a class="mp-back" href="#" aria-hidden="true">back</a>
+                                        <ul>
+                                            <li><a href="#">Activities</a></li>
+                                            <li><a href="#">Beyond the Brook</a></li>
+                                            <li><a href="#">Spirit &amp; Tradition</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
                             </ul>
+
+                            <div class="inmenu--desktop-only inmenu--desktop-nav">
+                                <ul>
+                                    <li><a href="#" tabindex="401">Overview</a></li>
+                                    <li><a href="#" tabindex="402">Living on Campus</a></li>
+                                    <li><a href="#" tabindex="403">Eating on Campus</a></li>
+                                    <li><a href="#" tabindex="404">Commuting to SBU</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#" tabindex="405">The Arts at SBU</a></li>
+                                    <li><a href="#" tabindex="406">Athletics</a></li>
+                                    <li><a href="#" tabindex="407">Campus Recreation</a></li>
+                                    <li><a href="#" tabindex="408">Student Life</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="inmenu--desktop-nav--head"><h4>Things to Do</h4></li>
+                                    <li><a href="#" tabindex="110">Activities &amp; Clubs</a></li>
+                                    <li><a href="#" tabindex="111">Beyond the Brook</a></li>
+                                    <li><a href="#" tabindex="112">Spirit &amp; Tradition</a></li>
+                                </ul>
+                                <div class="inmenu--desktop-nav_related-links">
+                                    <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="480">Safety</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="481">Diversity</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="482">Campus Jobs</a>
+                                </div>
+                            </div>
                         </div>
-                    </li>-->
-                    <!--<li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="500">Research</a></li> */ ?>
+                    </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--research">
                         <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="500">Research</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
@@ -287,9 +327,62 @@
                         </div>
                     </li>
 
-
                     <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="600">Athletics</a></li>
-                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="700">Medicine</a></li>
+
+                    <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--medicine">
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="700">Medicine</a>
+                        <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
+                            <h2 class="nav-icon nav-icon-arrow-right-2">Medicine</h2>
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />
+                            <a class="mp-back" href="#" aria-hidden="true">back</a>
+                            <ul class="inmenu--mobile-only">
+                                <li><a href="#">Health Sciences Schools</a></li>
+                                <li><a href="#">Health Sciences Library</a></li>
+                                <li><a href="#">Health Sciences Student Services</a></li>
+                                <li><a href="#">University Hospital</a></li>
+                                <li><a href="#">Childrens Hospital</a></li>
+                                <li><a href="#">Long Island State Veterans Home</a></li>
+                                <li class="nav-icon nav-icon-arrow-left">
+                                    <a class="nav-icon nav-icon-map" href="#">Resources</a>
+                                    <div class="mp-level">
+                                        <h2 class="nav-icon nav-icon-arrow-right-2">Resources</h2>
+                                        <a class="mp-back" href="#" aria-hidden="true">back</a>
+                                        <ul>
+                                            <li><a href="#">Find A Doctor</a></li>
+                                            <li><a href="#">Patient Portal</a></li>
+                                            <li><a href="#">Vistor Information</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="inmenu--desktop-only inmenu--desktop-nav">
+                                <ul>
+                                    <li><a href="#" tabindex="701">Overview</a></li>
+                                    <li><a href="#" tabindex="702">Health Sciences Schools</a></li>
+                                    <li><a href="#" tabindex="703">Health Sciences Library</a></li>
+                                    <li><a href="#" tabindex="704">Health Sciences Student Services</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#" tabindex="705">University Hospital</a></li>
+                                    <li><a href="#" tabindex="706">Childrens Hospital</a></li>
+                                    <li><a href="#" tabindex="707">Long Island State Veterans&nbsp;Home</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="inmenu--desktop-nav--head"><h4>Resources</h4></li>
+                                    <li><a href="#" tabindex="110">Find A Doctor</a></li>
+                                    <li><a href="#" tabindex="111">Patient Portal</a></li>
+                                    <li><a href="#" tabindex="112">Vistor Information</a></li>
+                                </ul>
+                                <div class="inmenu--desktop-nav_related-links">
+                                    <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="780">Blood Band</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="781">Health Connect</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="782">Campus Jobs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
 
                     <li class="inmenu--search">
                         <div class="search-container clearfix border-box">
