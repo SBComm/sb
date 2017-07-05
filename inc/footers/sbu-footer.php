@@ -17,6 +17,10 @@
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/academics/" class="clearfix">Academics</a>
                         </li>
+
+                        <li class="clearfix">
+                            <a href="http://www.stonybrook.edu/campus-life/" class="clearfix">Campus Life</a>
+                        </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/research/" class="clearfix">Research</a>
                         </li>
@@ -28,9 +32,6 @@
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/giving/" class="clearfix">Giving</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/contact/" class="clearfix">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -50,13 +51,10 @@
                             <a href="http://www.stonybrook.edu/undergraduate-admissions/parents/" class="clearfix">Parents</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/community-relations/" class="clearfix">Neighbors</a>
+                            <a href="http://www.stonybrook.edu/community-relations/" class="clearfix">Community</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/campus-safety/" class="clearfix">Campus Safety</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/economic-development/" class="clearfix">Economic Development</a>
+                            <a href="http://www.stonybrook.edu/economic-development/" class="clearfix">Business</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://sb.cc.stonybrook.edu/news/media_relations/reporters_toolkit.php" class="clearfix">Media</a>
@@ -76,10 +74,7 @@
                             <a href="http://www.stonybrook.edu/site-directory/" class="clearfix">A-Z Web Directory</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sb/majors.shtml" class="clearfix">Majors &amp; Minors</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/calendars/" class="clearfix">Calendars</a>
+                            <a href="#" class="clearfix">News &amp; Publications</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/jobs/" class="clearfix">Jobs</a>
@@ -95,41 +90,6 @@
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/visit/" class="clearfix">Visiting</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="more-nav-v3-col">
-                    <strong>Shortcuts</strong>
-                    <ul class="border-box clearfix">
-                        <li class="clearfix">
-                            <a href="http://it.stonybrook.edu/services/solar" class="clearfix">Solar</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://blackboard.stonybrook.edu/" class="clearfix">Blackboard</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/mycloud" class="clearfix">Google Apps</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/happenings/" class="clearfix">Happenings</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/magazine/" class="clearfix">Magazine</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/pres/" class="clearfix">Office of the President</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/southampton/" class="clearfix">SB Southampton</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/commcms/bnl/" class="clearfix">Brookhaven National Lab</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/sustainability/" class="clearfix">Sustainability</a>
-                        </li>
-                        <li class="clearfix">
-                            <a href="http://response.suny.edu" class="clearfix">Sexual Assault &amp; Violence Response Resources</a>
                         </li>
                     </ul>
                 </div>
