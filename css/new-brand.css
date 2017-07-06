@@ -454,6 +454,11 @@ h4 {
     display: inline-block;
 }
 
+.second-level-2017.new-brand .events-widget h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
 @media (min-width: 600px) {
     .events-widget ul li {
         float: left;
