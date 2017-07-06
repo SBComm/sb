@@ -412,9 +412,8 @@
                             </ul>
                         </div>
 
-                        <a class="inmenu--desktop-only" href="#" tabindex="21">Libraries</a>
-                        <a class="inmenu--desktop-only" href="#" tabindex="22">News &amp; Events</a>
-                        <a class="inmenu--desktop-only" href="#" tabindex="23">Directory</a>
+                        <a class="inmenu--desktop-only" href="#" tabindex="21">News &amp; Events</a>
+                        <a class="inmenu--desktop-only" href="#" tabindex="22">Directory</a>
                     </li>
 
                     <li class="nav-icon nav-icon-arrow-left inmenu--cta--half inmenu--audiences">
