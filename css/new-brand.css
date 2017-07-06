@@ -107,6 +107,7 @@ h4 {
 
 .rays-bkg--red--1 {
     background: #800 url(../img/branding/rays/rays-vertical-1.jpg) repeat top center;
+    background-size: cover;
 }
 
 .rays-bkg--red h1,
