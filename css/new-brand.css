@@ -110,6 +110,10 @@ h4 {
     background-size: cover;
 }
 
+.second-level-2017 .rays-bkg--red--1 {
+    background-attachment: fixed;
+}
+
 .rays-bkg--red h1,
 .rays-bkg--red h2,
 .rays-bkg--red h3,
