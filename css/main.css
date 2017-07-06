@@ -1571,7 +1571,8 @@ body {
 
     @media only screen and (min-width: 768px) {
 
-        .second-level-2017 .background-scroll .section-bkg-container {
+        .second-level-2017 .background-scroll .section-bkg-container,
+        .second-level-2017 .background-scroll .promo-section {
             background-attachment: fixed;
         }
 
