@@ -447,7 +447,7 @@
 .mp-menu ul li a:hover,
 .mp-level > ul > li:first-child > a:hover,
 .mp-menu ul li a.selected,
-.mp-menu:hover ul li a.active,
+.mp-menu ul li a.active,
 .mp-menu ul li a:focus {
 	background: rgba(0,0,0,0.1);
 	box-shadow: inset 0 -1px rgba(0,0,0,0);
