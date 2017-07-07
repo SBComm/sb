@@ -1470,6 +1470,7 @@ body {
         width: 100%;
         margin: 0 !important;
         padding: 0;
+        position: relative;
     }
 
     .content-wrapper h1.second-level-head-region_heading span {
@@ -1479,10 +1480,42 @@ body {
         width: auto;
         background: rgba(0,0,0,.7);
         font-weight: 300;
-        padding: 20px 40px;
+        padding: 24px 40px;
         font-size: 50px;
         border: 12px solid #fff;
         border-bottom: 0 none;
+    }
+
+    .content-wrapper h1.second-level-head-region_heading .breadcrumbs + span {
+        padding: 36px 40px 23px;
+    }
+
+    .second-level-head-region_heading .breadcrumbs {
+        display: block;
+        background: transparent;
+        position: absolute;
+        top: 16px;
+        font-size: 13px;
+        max-height: 27px;
+        overflow: hidden;
+        opacity: .75;
+    }
+
+    .second-level-head-region_heading .breadcrumbs__wrapper {
+        min-width: 0;
+        width: auto;
+    }
+
+    .second-level-head-region_heading .breadcrumbs__crumb {
+        padding: 2px 0;
+    }
+
+    .second-level-head-region_heading .breadcrumbs a {
+        color: #fff;
+    }
+
+    .second-level-head-region_heading .breadcrumbs__crumb, .breadcrumbs__crumb:last-child:before {
+        color: #fff !important;
     }
 
     .content-wrapper h1.second-level-promo-header {
