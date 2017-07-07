@@ -30,7 +30,7 @@
                         <a id="main-nav" class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="60"><em class="fa fa-home"></em><span class="hide-accessible">Home</span></a>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--about">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="100">About</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==2) echo(' active'); ?>" href="#" tabindex="100">About</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">About</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg)" />
@@ -102,7 +102,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--admissions">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="200">Admissions</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==3) echo(' active'); ?>" href="#" tabindex="200">Admissions</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Admissions</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg)" />
@@ -166,7 +166,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--academics">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="300">Academics</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==4) echo(' active'); ?>" href="#" tabindex="300">Academics</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Academics</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg)" />
@@ -228,7 +228,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--campus-life">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="400">Campus Life</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==5) echo(' active'); ?>" href="#" tabindex="400">Campus Life</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Campus Life</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg)" />
@@ -284,7 +284,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--research">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="500">Research</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==6) echo(' active'); ?>" href="#" tabindex="500">Research</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Research</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg)" />
@@ -341,10 +341,10 @@
                         </div>
                     </li>
 
-                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="#" tabindex="600">Athletics</a></li>
+                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link <?php if($main_nav_selected_tab==7) echo(' active'); ?>" href="#" tabindex="600">Athletics</a></li>
 
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--medicine">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger" href="#" tabindex="700">Medicine</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==8) echo(' active'); ?>" href="#" tabindex="700">Medicine</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Medicine</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />
