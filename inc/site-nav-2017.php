@@ -164,9 +164,7 @@
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Resources</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
-                                            <li><a href="#">Undergraduate</a></li>
-                                            <li><a href="#">Graduate &amp; Professional</a></li>
-                                            <li><a href="#">Health Professional</a></li>
+                                            <li><a href="#">Academic Resources</a></li>
                                             <li><a href="#">Additional Programs</a></li>
                                         </ul>
                                     </div>
@@ -193,16 +191,14 @@
                                     <li><a href="#" tabindex="304">Academic Calendars</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#" tabindex="305">Undergraduate</a></li>
-                                    <li><a href="#" tabindex="306">Graduate &amp; Professional</a></li>
-                                    <li><a href="#" tabindex="307">Health Professional</a></li>
-                                    <li><a href="#" tabindex="308">Additional Programs</a></li>
+                                    <li><a href="#" tabindex="305">Academic Resources</a></li>
+                                    <li><a href="#" tabindex="306">Additional Programs</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Bulletins</h4></li>
-                                    <li><a href="#" tabindex="309">Undergraduate</a></li>
-                                    <li><a href="#" tabindex="310">Graduate</a></li>
-                                    <li><a href="#" tabindex="311">Health Sciences</a></li>
+                                    <li><a href="#" tabindex="307">Undergraduate</a></li>
+                                    <li><a href="#" tabindex="308">Graduate</a></li>
+                                    <li><a href="#" tabindex="309">Health Sciences</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
