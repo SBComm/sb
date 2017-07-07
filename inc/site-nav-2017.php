@@ -112,12 +112,30 @@
                                 <li><a href="#">Undergraduate Admissions</a></li>
                                 <li><a href="#">Graduate Admissions</a></li>
                                 <li><a href="#">Health Sciences Admissions</a></li>
-                                <li><a href="#">Summer Sessions</a></li>
-                                <li><a href="#">Winter Session</a></li>
-                                <li><a href="#">High School Programs</a></li>
-                                <li><a href="#">Study Abroad</a></li>
-                                <li><a href="#">Financial Aid</a></li>
-                                <li><a href="#">Tuition &amp; Costs</a></li>
+                                <li class="nav-icon nav-icon-arrow-left">
+                                    <a class="nav-icon nav-icon-map" href="#">Cost &amp; Aid</a>
+                                    <div class="mp-level">
+                                        <h2 class="nav-icon nav-icon-arrow-right-2">Cost &amp; Aid</h2>
+                                        <a class="mp-back" href="#" aria-hidden="true">back</a>
+                                        <ul>
+                                            <li><a href="#">Financial Aid</a></li>
+                                            <li><a href="#">Tuition &amp; Costs</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-icon nav-icon-arrow-left">
+                                    <a class="nav-icon nav-icon-map" href="#">Additional Programs</a>
+                                    <div class="mp-level">
+                                        <h2 class="nav-icon nav-icon-arrow-right-2">Additional Programs</h2>
+                                        <a class="mp-back" href="#" aria-hidden="true">back</a>
+                                        <ul>
+                                            <li><a href="#">Summer Sessions</a></li>
+                                            <li><a href="#">Winter Session</a></li>
+                                            <li><a href="#">High School Programs</a></li>
+                                            <li><a href="#">Study Abroad</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
                             </ul>
 
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
@@ -339,7 +357,7 @@
                                 <li><a href="#">Childrens Hospital</a></li>
                                 <li><a href="#">Long Island State Veterans Home</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="#">Resources</a>
+                                    <a class="nav-icon nav-icon-map" href="#">Patients &amp; Visitors</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Resources</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
