@@ -48,7 +48,7 @@
 
 		    $html_dom_parser = true;
 
-		    $site_breadcrumbs = false;
+		    $site_breadcrumbs = true;
 
 		    $mega_nav = true;
 		    $mega_nav_ou = true;
