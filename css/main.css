@@ -1566,6 +1566,14 @@ body {
         background: transparent;
     }
 
+    @media only screen and (max-width: 1099px) {
+
+        .second-level-head-region .section-bkg-container {
+            padding: 210px 0 0;
+        }
+    
+    }
+
     @media only screen and (max-width: 767px) {
 
         .content-wrapper h1.second-level-head-region_heading span {
