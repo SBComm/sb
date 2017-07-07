@@ -296,7 +296,6 @@
                                 <li><a href="#">Researcher's Guide</a></li>
                                 <li><a href="#">Libraries</a></li>
                                 <li><a href="#">Corporate Research</a></li>
-                                <li><a href="#">Institutional Research</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Student Research</a>
                                     <div class="mp-level">
@@ -322,14 +321,13 @@
                                 <ul>
                                     <li><a href="#" tabindex="504">Libraries</a></li>
                                     <li><a href="#" tabindex="505">Corporate Research</a></li>
-                                    <li><a href="#" tabindex="506">Institutional Research</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Student Research</h4></li>
-                                    <li><a href="#" tabindex="507">High School</a></li>
-                                    <li><a href="#" tabindex="508">Undergraduate</a></li>
-                                    <li><a href="#" tabindex="509">Graduate</a></li>
-                                    <li><a href="#" tabindex="510">Post-Docs</a></li>
+                                    <li><a href="#" tabindex="506">High School</a></li>
+                                    <li><a href="#" tabindex="507">Undergraduate</a></li>
+                                    <li><a href="#" tabindex="508">Graduate</a></li>
+                                    <li><a href="#" tabindex="509">Post-Docs</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
