@@ -291,11 +291,10 @@
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Overview</a></li>
-                                <li><a href="#">Research Centers</a></li>
-                                <li><a href="#">VP for Research</a></li>
-                                <li><a href="#">Researcher's Guide</a></li>
-                                <li><a href="#">Libraries</a></li>
-                                <li><a href="#">Corporate Research</a></li>
+                                <li><a href="#">For Researchers</a></li>
+                                <li><a href="#">Centers &amp; Institutes</a></li>
+                                <li><a href="#">MyResearch</a></li>
+                                <li><a href="#">Facts &amp; Figures</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Student Research</a>
                                     <div class="mp-level">
@@ -314,13 +313,12 @@
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
                                     <li><a href="#" tabindex="501">Overview</a></li>
-                                    <li><a href="#" tabindex="502">Research Centers</a></li>
-                                    <li><a href="#" tabindex="503">VP for Research</a></li>
-                                    <li><a href="#" tabindex="504">Researcher's Guide</a></li>
+                                    <li><a href="#" tabindex="502">For Researchers</a></li>
+                                    <li><a href="#" tabindex="503">Centers &amp; Institutes</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#" tabindex="504">Libraries</a></li>
-                                    <li><a href="#" tabindex="505">Corporate Research</a></li>
+                                    <li><a href="#" tabindex="504">MyResearch</a></li>
+                                    <li><a href="#" tabindex="505">Facts &amp; Figures</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Student Research</h4></li>
@@ -331,9 +329,9 @@
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="580">BNL</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="581">AERTC</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="582">CEWIT</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="580">Libraries</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="581">Brookhaven National Lab Affairs</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="582">Economic Development</a>
                                 </div>
                             </div>
                         </div>
