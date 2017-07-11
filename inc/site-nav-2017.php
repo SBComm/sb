@@ -322,7 +322,7 @@
                                 </ul>
                                 <ul>
                                     <li><a href="#" tabindex="505">MyResearch</a></li>
-                                    <li><a href="#" tabindex="506">Facts &amp; Figures</a></li>>
+                                    <li><a href="#" tabindex="506">Facts &amp; Figures</a></li>
                                     <li><a href="#" tabindex="507">Libraries</a></li>
                                 </ul>
                                 <ul>
