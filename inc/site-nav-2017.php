@@ -184,6 +184,7 @@
                                         <ul>
                                             <li><a href="#">Academic Resources</a></li>
                                             <li><a href="#">Additional Programs</a></li>
+                                            <li><a href="#">Libraries</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -296,6 +297,7 @@
                                 <li><a href="#">Centers &amp; Institutes</a></li>
                                 <li><a href="#">MyResearch</a></li>
                                 <li><a href="#">Facts &amp; Figures</a></li>
+                                <li><a href="#">Libraries</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Student Research</a>
                                     <div class="mp-level">
@@ -320,14 +322,15 @@
                                 </ul>
                                 <ul>
                                     <li><a href="#" tabindex="505">MyResearch</a></li>
-                                    <li><a href="#" tabindex="506">Facts &amp; Figures</a></li>
+                                    <li><a href="#" tabindex="506">Facts &amp; Figures</a></li>>
+                                    <li><a href="#" tabindex="507">Libraries</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Student Research</h4></li>
-                                    <li><a href="#" tabindex="506">High School</a></li>
-                                    <li><a href="#" tabindex="507">Undergraduate</a></li>
-                                    <li><a href="#" tabindex="508">Graduate</a></li>
-                                    <li><a href="#" tabindex="509">Post-Docs</a></li>
+                                    <li><a href="#" tabindex="508">High School</a></li>
+                                    <li><a href="#" tabindex="509">Undergraduate</a></li>
+                                    <li><a href="#" tabindex="510">Graduate</a></li>
+                                    <li><a href="#" tabindex="511">Post-Docs</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
