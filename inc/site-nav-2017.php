@@ -325,14 +325,13 @@
                                     <li><a href="#" tabindex="505">Research Highlights</a></li>
                                     <li><a href="#" tabindex="506">MyResearch</a></li>
                                     <li><a href="#" tabindex="507">Facts &amp; Figures</a></li>
-                                    <li><a href="#" tabindex="508">Libraries</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Student Research</h4></li>
-                                    <li><a href="#" tabindex="509">High School</a></li>
-                                    <li><a href="#" tabindex="510">Undergraduate</a></li>
-                                    <li><a href="#" tabindex="511">Graduate</a></li>
-                                    <li><a href="#" tabindex="512">Post-Docs</a></li>
+                                    <li><a href="#" tabindex="508">High School</a></li>
+                                    <li><a href="#" tabindex="509">Undergraduate</a></li>
+                                    <li><a href="#" tabindex="510">Graduate</a></li>
+                                    <li><a href="#" tabindex="511">Post-Docs</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
