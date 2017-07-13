@@ -59,8 +59,7 @@
                                         <h2>News &amp; Media</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
-                                            <li><a href="#">News</a></li>
-                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">News &amp; Events</a></li>
                                             <li><a href="#">Publications</a></li>
                                             <li><a href="#">Experts</a></li>
                                             <li><a href="#">Magazine</a></li>
@@ -87,9 +86,8 @@
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>News &amp; Publications</h4></li>
-                                    <li><a href="#" tabindex="110">News</a></li>
-                                    <li><a href="#" tabindex="111">Events</a></li>
-                                    <li><a href="#" tabindex="112">Publications</a></li>
+                                    <li><a href="#" tabindex="110">News &amp; Events</a></li>
+                                    <li><a href="#" tabindex="111">Publications</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
@@ -360,14 +358,14 @@
                                 <li><a href="https://www.stonybrookchildrens.org/">Childrens Hospital</a></li>
                                 <li><a href="http://www.listateveteranshome.org/">Long Island State Veterans Home</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="#">Resources</a>
+                                    <a class="nav-icon nav-icon-map" href="#">Visitor Resources</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Resources</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
                                             <li><a href="https://www.stonybrookmedicine.edu/find-a-doctor">Find A Doctor</a></li>
                                             <li><a href="https://www.stonybrookmedicine.edu/patient-portal">Patient Portal</a></li>
-                                            <li><a href="https://www.stonybrookmedicine.edu/patients-visitors">Vistor Information</a></li>
+                                            <li><a href="https://www.stonybrookmedicine.edu/patients-visitors">Visitor Information</a></li>
                                             <li><a href="https://www.stonybrookmedicine.edu/patientcare/bloodbank">Blood Band</a></li>
                                             <li><a href="https://www.stonybrookmedicine.edu/patientcare/healthconnect">Health Connect</a></li>
                                             <li><a href="https://www.stonybrookmedicine.edu/careers">Jobs</a></li>
@@ -392,7 +390,7 @@
                                     <li class="inmenu--desktop-nav--head"><h4>Resources</h4></li>
                                     <li><a href="https://www.stonybrookmedicine.edu/find-a-doctor" tabindex="110">Find A Doctor</a></li>
                                     <li><a href="https://www.stonybrookmedicine.edu/patient-portal" tabindex="111">Patient Portal</a></li>
-                                    <li><a href="https://www.stonybrookmedicine.edu/patients-visitors" tabindex="112">Vistor Information</a></li>
+                                    <li><a href="https://www.stonybrookmedicine.edu/patients-visitors" tabindex="112">Visitor Information</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
