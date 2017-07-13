@@ -46,10 +46,10 @@
                                         <h2>Visit</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
-                                            <li><a href="#">Maps &amp; Directions</a></li>
-                                            <li><a href="#">Virtual Tour</a></li>
-                                            <li><a href="#">Parking &amp; Transportation</a></li>
-                                            <li><a href="#">Stony Brook Southampton</a></li>
+                                            <li><a href="http://www.stonybrook.edu/maps-and-directions/">Maps &amp; Directions</a></li>
+                                            <li><a href="http://www.stonybrook.edu/virtual-tour/">Virtual Tour</a></li>
+                                            <li><a href="http://www.stonybrook.edu/parking/">Parking &amp; Transportation</a></li>
+                                            <li><a href="http://www.stonybrook.edu/southampton/">Stony Brook Southampton</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -80,10 +80,10 @@
                                     <li><a href="#" tabindex="105">Centers &amp; Institutes</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#" tabindex="106">Maps &amp; Directions</a></li>
-                                    <li><a href="#" tabindex="107">Virtual Tour</a></li>
-                                    <li><a href="#" tabindex="108">Parking &amp; Transportation</a></li>
-                                    <li><a href="#" tabindex="109">Stony Brook Southampton</a></li>
+                                    <li><a href="http://www.stonybrook.edu/maps-and-directions/" tabindex="106">Maps &amp; Directions</a></li>
+                                    <li><a href="http://www.stonybrook.edu/virtual-tour/" tabindex="107">Virtual Tour</a></li>
+                                    <li><a href="http://www.stonybrook.edu/parking/" tabindex="108">Parking &amp; Transportation</a></li>
+                                    <li><a href="http://www.stonybrook.edu/southampton/" tabindex="109">Stony Brook Southampton</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>News &amp; Publications</h4></li>
@@ -93,10 +93,10 @@
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="180">Jobs</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="181">Safety</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="182">Diversity</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="183">Sustainability</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/jobs/" tabindex="180">Jobs</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/campus-safety/" tabindex="181">Safety</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/diversity/" tabindex="182">Diversity</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/sustainability/" tabindex="183">Sustainability</a>
                                 </div>
                             </div>
                         </div>
@@ -109,17 +109,17 @@
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Overview</a></li>
-                                <li><a href="#">Undergraduate Admissions</a></li>
-                                <li><a href="#">Graduate Admissions</a></li>
-                                <li><a href="#">Health Sciences Admissions</a></li>
+                                <li><a href="http://www.stonybrook.edu/undergraduate-admissions/">Undergraduate Admissions</a></li>
+                                <li><a href="http://www.stonybrook.edu/graduate-admissions/">Graduate Admissions</a></li>
+                                <li><a href="http://www.stonybrook.edu/commcms/hsstudents/admissions/">Health Sciences Admissions</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Cost &amp; Aid</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Cost &amp; Aid</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
-                                            <li><a href="#">Financial Aid</a></li>
-                                            <li><a href="#">Tuition &amp; Costs</a></li>
+                                            <li><a href="http://www.stonybrook.edu/finaid/">Financial Aid</a></li>
+                                            <li><a href="http://www.stonybrook.edu/bursar/">Tuition &amp; Costs</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -129,10 +129,10 @@
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Additional Programs</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
-                                            <li><a href="#">Summer Sessions</a></li>
-                                            <li><a href="#">Winter Session</a></li>
-                                            <li><a href="#">High School Programs</a></li>
-                                            <li><a href="#">Study Abroad</a></li>
+                                            <li><a href="http://www.stonybrook.edu/summer-session/">Summer Sessions</a></li>
+                                            <li><a href="http://www.stonybrook.edu/winter/">Winter Session</a></li>
+                                            <li><a href="http://www.stonybrook.edu/undergraduate-admissions/future-students/programs-for-high-school-students/">High School Programs</a></li>
+                                            <li><a href="http://www.stonybrook.edu/studyabroad/">Study Abroad</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -141,26 +141,26 @@
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
                                     <li><a href="#" tabindex="201">Overview</a></li>
-                                    <li><a href="#" tabindex="202">Undergraduate Admissions</a></li>
-                                    <li><a href="#" tabindex="203">Graduate Admissions</a></li>
-                                    <li><a href="#" tabindex="204">Health Sciences Admissions</a></li>
+                                    <li><a href="http://www.stonybrook.edu/undergraduate-admissions/" tabindex="202">Undergraduate Admissions</a></li>
+                                    <li><a href="http://www.stonybrook.edu/graduate-admissions/" tabindex="203">Graduate Admissions</a></li>
+                                    <li><a href="http://www.stonybrook.edu/commcms/hsstudents/admissions/" tabindex="204">Health Sciences Admissions</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#" tabindex="205">Summer Sessions</a></li>
-                                    <li><a href="#" tabindex="206">Winter Session</a></li>
-                                    <li><a href="#" tabindex="207">High School Programs</a></li>
-                                    <li><a href="#" tabindex="208">Study Abroad</a></li>
+                                    <li><a href="http://www.stonybrook.edu/summer-session/" tabindex="205">Summer Sessions</a></li>
+                                    <li><a href="http://www.stonybrook.edu/winter/" tabindex="206">Winter Session</a></li>
+                                    <li><a href="http://www.stonybrook.edu/undergraduate-admissions/future-students/programs-for-high-school-students/" tabindex="207">High School Programs</a></li>
+                                    <li><a href="http://www.stonybrook.edu/studyabroad/" tabindex="208">Study Abroad</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Cost &amp; Aid</h4></li>
-                                    <li><a href="#" tabindex="209">Financial Aid</a></li>
-                                    <li><a href="#" tabindex="210">Tuition &amp; Costs</a></li>
+                                    <li><a href="http://www.stonybrook.edu/finaid/" tabindex="209">Financial Aid</a></li>
+                                    <li><a href="http://www.stonybrook.edu/bursar/" tabindex="210">Tuition &amp; Costs</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="280">Campus Housing</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="281">Bursar</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="282">Virtual Tour</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://studentaffairs.stonybrook.edu/res/housing_facilities/" tabindex="280">Campus Housing</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/bursar/" tabindex="281">Bursar</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/virtual-tour/" tabindex="282">Virtual Tour</a>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +175,7 @@
                                 <li><a href="#">Overview</a></li>
                                 <li><a href="#">Colleges &amp; Schools</a></li>
                                 <li><a href="#">Majors, Minors &amp; Programs</a></li>
-                                <li><a href="#">Academic Calendars</a></li>
+                                <li><a href="http://www.stonybrook.edu/registrar/calendars/academic_calendars">Academic Calendars</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Resources</a>
                                     <div class="mp-level">
@@ -207,7 +207,7 @@
                                     <li><a href="#" tabindex="301">Overview</a></li>
                                     <li><a href="#" tabindex="302">Colleges &amp; Schools</a></li>
                                     <li><a href="#" tabindex="303">Majors, Minors &amp; Programs</a></li>
-                                    <li><a href="#" tabindex="304">Academic Calendars</a></li>
+                                    <li><a href="http://www.stonybrook.edu/registrar/calendars/academic_calendars" tabindex="304">Academic Calendars</a></li>
                                 </ul>
                                 <ul>
                                     <li><a href="#" tabindex="305">Academic Resources</a></li>
@@ -215,15 +215,15 @@
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Bulletins</h4></li>
-                                    <li><a href="#" tabindex="307">Undergraduate</a></li>
-                                    <li><a href="#" tabindex="308">Graduate</a></li>
-                                    <li><a href="#" tabindex="309">Health Sciences</a></li>
+                                    <li><a href="http://www.stonybrook.edu/ugbulletin" tabindex="307">Undergraduate</a></li>
+                                    <li><a href="http://www.stonybrook.edu/gradbulletin" tabindex="308">Graduate</a></li>
+                                    <li><a href="http://www.stonybrook.edu/hsstudents/bulletin" tabindex="309">Health Sciences</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="380">Libraries</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="381">Blackboard</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="381">Registrar</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.library.stonybrook.edu/" tabindex="380">Libraries</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="https://blackboard.stonybrook.edu/" tabindex="381">Blackboard</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/registrar" tabindex="381">Registrar</a>
                                 </div>
                             </div>
                         </div>
@@ -235,22 +235,22 @@
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
-                                <li><a href="#">Living on Campus</a></li>
-                                <li><a href="#">Eating on Campus</a></li>
-                                <li><a href="#">Commuting to SBU</a></li>
+                                <li><a href="http://studentaffairs.stonybrook.edu/res/">Living on Campus</a></li>
+                                <li><a href="http://www.stonybrook.edu/dining/">Eating on Campus</a></li>
+                                <li><a href="http://studentaffairs.stonybrook.edu/css/">Commuting to SBU</a></li>
+                                <li><a href="http://studentaffairs.stonybrook.edu/athletic-bands/">Athletic Bands</a></li>
                                 <li><a href="#">The Arts at SBU</a></li>
-                                <li><a href="#">Athletics</a></li>
-                                <li><a href="#">Campus Recreation</a></li>
-                                <li><a href="#">Student Life</a></li>
+                                <li><a href="http://studentaffairs.stonybrook.edu/rec/">Campus Recreation</a></li>
+                                <li><a href="http://studentaffairs.stonybrook.edu/studentlife/">Student Life</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Things to Do</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Things to Do</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
-                                            <li><a href="#">Activities</a></li>
-                                            <li><a href="#">Beyond the Brook</a></li>
-                                            <li><a href="#">Spirit &amp; Tradition</a></li>
+                                            <li><a href="http://studentaffairs.stonybrook.edu/sac/">Activities &amp; Clubs</a></li>
+                                            <li><a href="http://studentaffairs.stonybrook.edu/beyondthebrook/">Beyond the Brook</a></li>
+                                            <li><a href="http://www.stonybrook.edu/traditions/">Spirit &amp; Tradition</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -259,27 +259,28 @@
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
                                     <li><a href="#" tabindex="401">Overview</a></li>
-                                    <li><a href="#" tabindex="402">Living on Campus</a></li>
-                                    <li><a href="#" tabindex="403">Eating on Campus</a></li>
-                                    <li><a href="#" tabindex="404">Commuting to SBU</a></li>
+                                    <li><a href="http://studentaffairs.stonybrook.edu/res/" tabindex="402">Living on Campus</a></li>
+                                    <li><a href="http://www.stonybrook.edu/dining/" tabindex="403">Eating on Campus</a></li>
+                                    <li><a href="http://studentaffairs.stonybrook.edu/css/" tabindex="404">Commuting to SBU</a></li>
                                 </ul>
                                 <ul>
                                     <li><a href="#" tabindex="405">The Arts at SBU</a></li>
                                     <li><a href="#" tabindex="406">Athletics</a></li>
-                                    <li><a href="#" tabindex="407">Campus Recreation</a></li>
-                                    <li><a href="#" tabindex="408">Student Life</a></li>
+                                    <li><a href="http://studentaffairs.stonybrook.edu/rec/" tabindex="407">Campus Recreation</a></li>
+                                    <li><a href="http://studentaffairs.stonybrook.edu/studentlife/" tabindex="408">Student Life</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Things to Do</h4></li>
-                                    <li><a href="#" tabindex="110">Activities &amp; Clubs</a></li>
-                                    <li><a href="#" tabindex="111">Beyond the Brook</a></li>
-                                    <li><a href="#" tabindex="112">Spirit &amp; Tradition</a></li>
+                                    <li><a href="http://studentaffairs.stonybrook.edu/sac/" tabindex="110">Activities &amp; Clubs</a></li>
+                                    <li><a href="http://studentaffairs.stonybrook.edu/beyondthebrook/" tabindex="111">Beyond the Brook</a></li>
+                                    <li><a href="http://www.stonybrook.edu/traditions/" tabindex="112">Spirit &amp; Tradition</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="480">Safety</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="481">Diversity</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="482">Campus Jobs</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/campus-safety/" tabindex="480">Safety</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/diversity/" tabindex="481">Diversity</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://career.stonybrook.edu/" tabindex="482">Campus Jobs</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://studentaffairs.stonybrook.edu/shs/" tabindex="482">Health Services</a>
                                 </div>
                             </div>
                         </div>
@@ -292,23 +293,23 @@
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="#">Overview</a></li>
-                                <li><a href="#">For Researchers</a></li>
-                                <li><a href="#">Research Offices</a></li>
-                                <li><a href="#">Centers &amp; Institutes</a></li>
-                                <li><a href="#">Research Highlights</a></li>
-                                <li><a href="#">MyResearch</a></li>
-                                <li><a href="#">Facts &amp; Figures</a></li>
-                                <li><a href="#">Libraries</a></li>
+                                <li><a href="http://research.stonybrook.edu/">For Researchers</a></li>
+                                <li><a href="http://research.stonybrook.edu/offices">Research Offices</a></li>
+                                <li><a href="http://research.stonybrook.edu/centers-and-institutes">Centers &amp; Institutes</a></li>
+                                <li><a href="http://www.stonybrook.edu/happenings/category/sb_medicine/">Research Highlights</a></li>
+                                <li><a href="http://myresearch.stonybrook.edu/">MyResearch</a></li>
+                                <li><a href="http://research.stonybrook.edu/vpr/statistics.shtml">Facts &amp; Figures</a></li>
+                                <li><a href="http://www.library.stonybrook.edu/">Libraries</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Student Research</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Students</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
-                                            <li><a href="#">High School</a></li>
-                                            <li><a href="#">Undergraduate</a></li>
-                                            <li><a href="#">Graduate</a></li>
-                                            <li><a href="#">Post-Docs</a></li>
+                                            <li><a href="http://www.stonybrook.edu/undergraduate-admissions/future-students/programs-for-high-school-students/">High School</a></li>
+                                            <li><a href="http://www.stonybrook.edu/ureca">Undergraduate</a></li>
+                                            <li><a href="http://grad.stonybrook.edu/">Graduate</a></li>
+                                            <li><a href="http://www.stonybrook.edu/postdoc/">Post-Docs</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -317,27 +318,27 @@
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
                                     <li><a href="#" tabindex="501">Overview</a></li>
-                                    <li><a href="#" tabindex="502">For Researchers</a></li>
-                                    <li><a href="#" tabindex="503">Research Offices</a></li>
-                                    <li><a href="#" tabindex="504">Centers &amp; Institutes</a></li>
+                                    <li><a href="http://research.stonybrook.edu/" tabindex="502">For Researchers</a></li>
+                                    <li><a href="http://research.stonybrook.edu/offices" tabindex="503">Research Offices</a></li>
+                                    <li><a href="http://research.stonybrook.edu/centers-and-institutes" tabindex="504">Centers &amp; Institutes</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#" tabindex="505">Research Highlights</a></li>
-                                    <li><a href="#" tabindex="506">MyResearch</a></li>
-                                    <li><a href="#" tabindex="507">Facts &amp; Figures</a></li>
+                                    <li><a href="http://www.stonybrook.edu/happenings/category/sb_medicine/" tabindex="505">Research Highlights</a></li>
+                                    <li><a href="http://myresearch.stonybrook.edu/" tabindex="506">MyResearch</a></li>
+                                    <li><a href="http://research.stonybrook.edu/vpr/statistics.shtml" tabindex="507">Facts &amp; Figures</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Student Research</h4></li>
-                                    <li><a href="#" tabindex="508">High School</a></li>
-                                    <li><a href="#" tabindex="509">Undergraduate</a></li>
-                                    <li><a href="#" tabindex="510">Graduate</a></li>
-                                    <li><a href="#" tabindex="511">Post-Docs</a></li>
+                                    <li><a href="http://www.stonybrook.edu/undergraduate-admissions/future-students/programs-for-high-school-students/" tabindex="508">High School</a></li>
+                                    <li><a href="http://www.stonybrook.edu/ureca" tabindex="509">Undergraduate</a></li>
+                                    <li><a href="http://grad.stonybrook.edu/" tabindex="510">Graduate</a></li>
+                                    <li><a href="http://www.stonybrook.edu/postdoc/" tabindex="511">Post-Docs</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="580">Libraries</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="581">Brookhaven National Lab Affairs</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="582">Economic Development</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.library.stonybrook.edu/" tabindex="580">Libraries</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/commcms/bnl/" tabindex="581">Brookhaven National Lab Affairs</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/economic-development/" tabindex="582">Economic Development</a>
                                 </div>
                             </div>
                         </div>
@@ -352,21 +353,24 @@
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
-                                <li><a href="#">Health Sciences Schools</a></li>
-                                <li><a href="#">Health Sciences Library</a></li>
-                                <li><a href="#">Health Sciences Student Services</a></li>
-                                <li><a href="#">University Hospital</a></li>
-                                <li><a href="#">Childrens Hospital</a></li>
-                                <li><a href="#">Long Island State Veterans Home</a></li>
+                                <li><a href="https://www.stonybrookmedicine.edu/education">Health Sciences Schools</a></li>
+                                <li><a href="http://library.stonybrook.edu/healthsciences/">Health Sciences Library</a></li>
+                                <li><a href="http://www.stonybrook.edu/commcms/hsstudents/">Health Sciences Student Services</a></li>
+                                <li><a href="https://www.stonybrookmedicine.edu/sbuh">University Hospital</a></li>
+                                <li><a href="https://www.stonybrookchildrens.org/">Childrens Hospital</a></li>
+                                <li><a href="http://www.listateveteranshome.org/">Long Island State Veterans Home</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="#">Patients &amp; Visitors</a>
+                                    <a class="nav-icon nav-icon-map" href="#">Resources</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Resources</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
-                                            <li><a href="#">Find A Doctor</a></li>
-                                            <li><a href="#">Patient Portal</a></li>
-                                            <li><a href="#">Vistor Information</a></li>
+                                            <li><a href="https://www.stonybrookmedicine.edu/find-a-doctor">Find A Doctor</a></li>
+                                            <li><a href="https://www.stonybrookmedicine.edu/patient-portal">Patient Portal</a></li>
+                                            <li><a href="https://www.stonybrookmedicine.edu/patients-visitors">Vistor Information</a></li>
+                                            <li><a href="https://www.stonybrookmedicine.edu/patientcare/bloodbank">Blood Band</a></li>
+                                            <li><a href="https://www.stonybrookmedicine.edu/patientcare/healthconnect">Health Connect</a></li>
+                                            <li><a href="https://www.stonybrookmedicine.edu/careers">Jobs</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -375,26 +379,26 @@
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
                                     <li><a href="#" tabindex="701">Overview</a></li>
-                                    <li><a href="#" tabindex="702">Health Sciences Schools</a></li>
-                                    <li><a href="#" tabindex="703">Health Sciences Library</a></li>
-                                    <li><a href="#" tabindex="704">Health Sciences Student Services</a></li>
+                                    <li><a href="https://www.stonybrookmedicine.edu/education" tabindex="702">Health Sciences Schools</a></li>
+                                    <li><a href="http://library.stonybrook.edu/healthsciences/" tabindex="703">Health Sciences Library</a></li>
+                                    <li><a href="http://www.stonybrook.edu/commcms/hsstudents/" tabindex="704">Health Sciences Student Services</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#" tabindex="705">University Hospital</a></li>
-                                    <li><a href="#" tabindex="706">Childrens Hospital</a></li>
-                                    <li><a href="#" tabindex="707">Long Island State Veterans&nbsp;Home</a></li>
+                                    <li><a href="https://www.stonybrookmedicine.edu/sbuh" tabindex="705">University Hospital</a></li>
+                                    <li><a href="https://www.stonybrookchildrens.org/" tabindex="706">Childrens Hospital</a></li>
+                                    <li><a href="http://www.listateveteranshome.org/" tabindex="707">Long Island State Veterans&nbsp;Home</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Resources</h4></li>
-                                    <li><a href="#" tabindex="110">Find A Doctor</a></li>
-                                    <li><a href="#" tabindex="111">Patient Portal</a></li>
-                                    <li><a href="#" tabindex="112">Vistor Information</a></li>
+                                    <li><a href="https://www.stonybrookmedicine.edu/find-a-doctor" tabindex="110">Find A Doctor</a></li>
+                                    <li><a href="https://www.stonybrookmedicine.edu/patient-portal" tabindex="111">Patient Portal</a></li>
+                                    <li><a href="https://www.stonybrookmedicine.edu/patients-visitors" tabindex="112">Vistor Information</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="780">Blood Band</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="781">Health Connect</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="#" tabindex="782">Campus Jobs</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="https://www.stonybrookmedicine.edu/patientcare/bloodbank" tabindex="780">Blood Band</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="https://www.stonybrookmedicine.edu/patientcare/healthconnect" tabindex="781">Health Connect</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="https://www.stonybrookmedicine.edu/careers" tabindex="782">Jobs</a>
                                 </div>
                             </div>
                         </div>
@@ -411,9 +415,9 @@
                     </li>
 
                     <li class="inmenu--cta clearfix">
-                        <a href="#" tabindex="11">Apply</a>
-                        <a href="#" tabindex="12">Giving</a>
-                        <a href="#" tabindex="13">Visit</a>
+                        <a href="http://www.stonybrook.edu/apply/" tabindex="11">Apply</a>
+                        <a href="http://www.stonybrook.edu/advancement/" tabindex="12">Giving</a>
+                        <a href="http://www.stonybrook.edu/visit/" tabindex="13">Visit</a>
                     </li>
 
                     <li class="nav-icon nav-icon-arrow-left inmenu--cta--half inmenu--logins">
@@ -422,9 +426,9 @@
                             <h2 class="nav-icon nav-icon-arrow-right-2">Logins</h2>
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul>
-                                <li><a href="#" tabindex="31">SOLAR</a></li>
-                                <li><a href="#" tabindex="32">Blackboard</a></li>
-                                <li><a href="#" tabindex="33">Google&nbsp;Apps</a></li>
+                                <li><a href="http://it.stonybrook.edu/services/solar" tabindex="31">SOLAR</a></li>
+                                <li><a href="https://blackboard.stonybrook.edu" tabindex="32">Blackboard</a></li>
+                                <li><a href="http://www.stonybrook.edu/google" tabindex="33">Google&nbsp;Apps</a></li>
                             </ul>
                         </div>
 
@@ -438,12 +442,12 @@
                             <h2 class="nav-icon nav-icon-arrow-right-2">Audiences</h2>
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul>
-                                <li><a href="#" tabindex="51">Students</a></li>
-                                <li><a href="#" tabindex="52">Faculty / Staff</a></li>
-                                <li><a href="#" tabindex="53">Alumni &amp; Friends</a></li>
-                                <li><a href="#" tabindex="54">Parents</a></li>
-                                <li><a href="#" tabindex="55">Community</a></li>
-                                <li><a href="#" tabindex="56">Business</a></li>
+                                <li><a href="http://www.stonybrook.edu/for-students/" tabindex="51">Students</a></li>
+                                <li><a href="http://www.stonybrook.edu/faculty-staff/" tabindex="52">Faculty / Staff</a></li>
+                                <li><a href="http://www.stonybrook.edu/alumni-and-friends/" tabindex="53">Alumni &amp; Friends</a></li>
+                                <li><a href="http://www.stonybrook.edu/undergraduate-admissions/parents/" tabindex="54">Parents</a></li>
+                                <li><a href="http://www.stonybrook.edu/community-relations/" tabindex="55">Community</a></li>
+                                <li><a href="http://www.stonybrook.edu/for-business" tabindex="56">Business</a></li>
                             </ul>
                         </div>
                     </li>
