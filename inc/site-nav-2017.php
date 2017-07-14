@@ -239,7 +239,7 @@
                                 <li><a href="http://www.stonybrook.edu/dining/">Eating on Campus</a></li>
                                 <li><a href="http://studentaffairs.stonybrook.edu/css/">Commuting to SBU</a></li>
                                 <li><a href="http://studentaffairs.stonybrook.edu/athletic-bands/">Athletic Bands</a></li>
-                                <li><a href="#">The Arts at SBU</a></li>
+                                <li><a href="http://www.stonybrook.edu/about/arts/">The Arts at SBU</a></li>
                                 <li><a href="http://studentaffairs.stonybrook.edu/rec/">Campus Recreation</a></li>
                                 <li><a href="http://studentaffairs.stonybrook.edu/studentlife/">Student Life</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
@@ -264,8 +264,8 @@
                                     <li><a href="http://studentaffairs.stonybrook.edu/css/" tabindex="404">Commuting to SBU</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#" tabindex="405">The Arts at SBU</a></li>
-                                    <li><a href="#" tabindex="406">Athletics</a></li>
+                                    <li><a href="http://www.stonybrook.edu/about/arts/" tabindex="405">The Arts at SBU</a></li>
+                                    <li><a href="http://studentaffairs.stonybrook.edu/athletic-bands/" tabindex="406">Athletic Bands</a></li>
                                     <li><a href="http://studentaffairs.stonybrook.edu/rec/" tabindex="407">Campus Recreation</a></li>
                                     <li><a href="http://studentaffairs.stonybrook.edu/studentlife/" tabindex="408">Student Life</a></li>
                                 </ul>
