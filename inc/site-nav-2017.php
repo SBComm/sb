@@ -38,7 +38,7 @@
                             <ul class="inmenu--mobile-only">
                                 <li><a href="http://www.stonybrook.edu/development/far-beyond/test/nav-2017/about.php">Overview</a></li>
                                 <li><a href="http://www.stonybrook.edu/about/history/">History</a></li>
-                                <li><a href="http://www.stonybrook.edu/about/administration-and-leadership/">Administration</a></li>
+                                <li><a href="http://www.stonybrook.edu/about/administration/">Administration</a></li>
                                 <li><a href="http://www.stonybrook.edu/about/facts-and-rankings/">Facts &amp; Rankings</a></li>
                                 <li><a href="http://www.stonybrook.edu/about/centers-and-institutes/">Centers &amp; Institutes</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
