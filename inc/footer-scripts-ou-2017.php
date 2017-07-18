@@ -1,5 +1,9 @@
 <?php if($mega_nav_ou==true) { ?>
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/jquery/jquery-1.11.1.min.js"></script>
+
+	<?php includeAsset('js','js/plugins.js'); ?>
+	<?php includeAsset('js','js/main.js'); ?>
+
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/jquery.animateNumber.min.js"></script>
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/responsive.js"></script>
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/plugins.js"></script>
