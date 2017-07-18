@@ -2964,7 +2964,7 @@ body {
 
     .photo-boxes .item {
         position: relative;
-        opacity: .85;
+        opacity: 1;
         cursor: pointer;
         overflow: hidden;
     }
@@ -3128,7 +3128,7 @@ body {
         }
 
         .photo-boxes .item {
-            opacity: .75;
+            opacity: 1;
         }
 
         .photo-boxes .text {
