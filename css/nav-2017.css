@@ -59,6 +59,10 @@ nav.primary-nav {
 	padding: 18px;
 }
 
+.mp-menu .search-container {
+	display: block;
+}
+
 .mp-menu .search-container input[type="text"],
 .mp-menu .search-container input[type="text"] {
 	background: #fff;
