@@ -23,7 +23,7 @@
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/waypoints/shortcuts/inview.js"></script>
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/countUp.min.js"></script>
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/plugins/slick/slick.min.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/nivo-lightbox.min.js"></script>
+	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/nivo-lightbox.js"></script>
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/main.js"></script>
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/plugins/tablesaw/tablesaw.js"></script>
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb/accordion-nav/accordion-nav.js"></script>
