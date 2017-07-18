@@ -86,7 +86,7 @@
 							<?php 
 								$file = "{$second_level}/{$second_level}.php";
 								//include($pathForContent . $content . $secLv . $file);
-								include('/user/commcms/www/_second-level/about/leadership.php');
+								include('/user/commcms/www/_second-level/about/administration.php');
 							?>
 						<!-- </content> -->
 
