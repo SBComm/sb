@@ -1520,7 +1520,7 @@ body {
 
     .content-wrapper h1.second-level-promo-header {
         font-size: 64px;
-        line-height: 42px !important;
+        line-height: .825em !important;
         font-weight: 900;
         text-align: center;
         margin-top: 60px !important;
