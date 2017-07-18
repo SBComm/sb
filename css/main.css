@@ -3175,7 +3175,7 @@ body {
         }
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1140px) {
         .photo-boxes {
             margin-bottom: 1%;
         }
@@ -3206,9 +3206,7 @@ body {
             width: 31.333%;
             margin: 1%;
         }
-    }
 
-    @media only screen and (min-width: 1140px) {
         .photo-boxes .text {
             font-size: 1em;
         }
