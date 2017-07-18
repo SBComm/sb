@@ -407,7 +407,7 @@
 
                     <li class="inmenu--search">
                         <div class="search-container clearfix border-box">
-                            <form class="search-wra pper" action="//stonybrook.edu/search">
+                            <form class="search-wrapper" action="//stonybrook.edu/search">
                                 <input type="text" id="search-form-query1" name="q" title="Search stonybrook.edu" value="" class="populate" size="30" placeholder="Search" tabindex="41"><em class="fa fa-close inmenu--search_desktop-close"></em><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Search" aria-label="search"  tabindex="42">
                                     <i class="icon fa fa-search"></i>
                                 </button>
