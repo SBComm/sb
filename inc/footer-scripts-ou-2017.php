@@ -25,7 +25,7 @@
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb/accordion-nav/accordion-nav.js"></script>
 	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb/vendor/tooltipster/jquery.tooltipster.min.js"></script>
 <?php } ?>
-<?php if($mega_nav_ou==true) { ?>
+<?php if($mega_nav==true) { ?>
 	<?php includeAsset('js','js/mega-nav-2017.js'); ?>
 	<?php includeAsset('js','js/mlpushmenu/classie.js'); ?>
 	<?php includeAsset('js','js/mlpushmenu/mlpushmenu.js'); ?>
