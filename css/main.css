@@ -1562,6 +1562,19 @@ body {
         background: #1b1b1b !important;
     }
 
+    .second-level-2017 .semi-transparent-white-boxes .sbu-columns--column {
+        position: relative;
+        padding-bottom: 55px !important;
+    }
+
+    .second-level-2017 .semi-transparent-white-boxes a.sbu-outline-button {
+        position: absolute;
+        bottom: 25px;
+        left: 12%;
+        right: 12%;
+        max-width: 300px;
+    }
+
     .second-level-2017 .three-button-columns .layout-col {
         background: transparent;
     }
