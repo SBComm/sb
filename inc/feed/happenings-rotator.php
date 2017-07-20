@@ -21,6 +21,9 @@
     
     $rssFeed = simplexml_load_file($rss);
     $html = '';
+
+    $html .= '<div class="slick-content-wrapper slick-content-wrapper--one-up">';
+    $html .= '<div class="slick-slider promo-section-inside {$display_type}" data-num-slides="1">';
     
     foreach ($rssFeed->channel->item as $item){
         
@@ -116,6 +119,9 @@
         if($count == 0)
             break;
     }
+
+    $html .= '</div>';
+    $html .= '</div>';
 
     if($no_items) {
         if(is_null($no_results_text)) {
