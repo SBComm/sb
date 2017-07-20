@@ -2241,7 +2241,7 @@ body {
         background-image: url(../img/branding/rays/red-rays-full.jpg);
         background-size: 100%;
         background-position: top center;
-        padding: 0;
+        padding: 0 10px;
         margin: 0;
         line-height: 1;
         display: block;
