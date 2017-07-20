@@ -23,7 +23,7 @@
     $html = '';
 
     $html .= '<div class="slick-content-wrapper slick-content-wrapper--one-up">';
-    $html .= '<div class="slick-slider promo-section-inside {$display_type}" data-num-slides="1">';
+    $html .= '<div class="slick-slider promo-section-inside one-up-promo-slider" data-num-slides="1">';
     
     foreach ($rssFeed->channel->item as $item){
         
