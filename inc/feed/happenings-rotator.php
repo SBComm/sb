@@ -59,7 +59,8 @@
             $eventMinute   = $eventDate->format('i');
             $eventAMPM     = $eventDate->format('A');
 
-            $rss_output_desc = substr(strip_tags($rss_desc),0,80).'...';
+            //$rss_output_desc = substr(strip_tags($rss_desc),0,300).'...';
+            $rss_output_desc = strip_tags($rss_desc);
 
 
             $todaysDate = DateTime::createFromFormat($dateFormat, date('Y-m-d 00:00:00'));
