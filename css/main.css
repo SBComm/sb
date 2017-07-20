@@ -4404,6 +4404,8 @@ body {
         font-family: 'Effra W01';
         font-style: italic;
         padding: 0 15px 0 0;
+        right: 0;
+        position: absolute;
     }
 
     .tweets-and-news .stream a:hover,
