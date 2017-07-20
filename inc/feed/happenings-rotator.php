@@ -83,7 +83,7 @@
                         <div class="one-up-promo-slider_content">
                             <div class="one-up-promo-slider_content_wrapper">
                                 <p><strong>'.$rss_title.'</strong></p>
-                                '.$rss_output_desc.'
+                                <p>'.$rss_output_desc.'</p>
                                 <a class="sbu-outline-button sbu-outline-button--red sbu-outline-button--on-red arrow-after" href="'.$rss_url.'">Continue Reading</a>
                             </div>
                         </div>
