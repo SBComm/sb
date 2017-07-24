@@ -11,6 +11,10 @@
 		margin-bottom: 0;
 	}
 
+	.main-nav-container + .main-container > .main > .second-level-header {
+		padding-top: 88px;
+	}
+
 	.second-level-2017_interior {
 		padding-top: 88px;
 	}
