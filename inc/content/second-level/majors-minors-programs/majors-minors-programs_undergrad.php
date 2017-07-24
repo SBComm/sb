@@ -16,7 +16,8 @@
                 <div id="live-filter-list" class="three-col-list-wrapper searchable major-minor-badges major-minor-badges--wider-badges" data-search-id="course-list">
                     
                     <?php
-                        include($path . 'scripts/get-academics-programs_undergrad.php');
+                        //include($path . 'scripts/get-academics-programs_undergrad.php');
+                        include('/user/far-beyond/www/development/sb/inc/scripts/get-academics-programs_undergrad.php');
                     ?>
 
                 </div>
