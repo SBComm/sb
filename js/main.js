@@ -120,7 +120,7 @@ function setContainerHeight(numColumns, flexList) {
 	var totalHeight = 	0;
 	$containerEl.children('li').each(function() {
 		totalHeight += $(this).outerHeight();
-		console.log(totalHeight);
+		//console.log(totalHeight);
 	});
 		var numItems = 		$containerEl.children('li:visible').length;
 	totalHeight = (totalHeight / numColumns) + (1.7 * (totalHeight / numItems)); //add the average height of an li for extra margin
