@@ -173,7 +173,7 @@
                             <ul class="inmenu--mobile-only">
                                 <li><a href="http://www.stonybrook.edu/development/far-beyond/test/nav-2017/academics.php">Overview</a></li>
                                 <li><a href="http://www.stonybrook.edu/academics/colleges-and-schools/">Colleges &amp; Schools</a></li>
-                                <li><a href="http://www.stonybrook.edu/academics/majors-minors-and-programs">Majors, Minors &amp; Programs</a></li>
+                                <li><a href="http://www.stonybrook.edu/academics/majors-minors-and-programs#UndergraduatePrograms">Majors, Minors &amp; Programs</a></li>
                                 <li><a href="http://www.stonybrook.edu/registrar/calendars/academic_calendars">Academic Calendars</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="#">Resources</a>
@@ -205,7 +205,7 @@
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/development/far-beyond/test/nav-2017/academics.php" tabindex="301">Overview</a></li>
                                     <li><a href="http://www.stonybrook.edu/academics/colleges-and-schools/" tabindex="302">Colleges &amp; Schools</a></li>
-                                    <li><a href="http://www.stonybrook.edu/academics/majors-minors-and-programs/" tabindex="303">Majors, Minors &amp; Programs</a></li>
+                                    <li><a href="http://www.stonybrook.edu/academics/majors-minors-and-programs#UndergraduatePrograms" tabindex="303">Majors, Minors &amp; Programs</a></li>
                                     <li><a href="http://www.stonybrook.edu/registrar/calendars/academic_calendars" tabindex="304">Academic Calendars</a></li>
                                 </ul>
                                 <ul>
