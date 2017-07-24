@@ -31,8 +31,8 @@
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Find your way around campus with these maps and get directions to Stony Brook University\'s main campus as well as Southampton campus.';
-		    $og_url          = 'http://www.stonybrook.edu/maps-and-directions';
-		    $main_nav_selected_tab = 0;
+		    $og_url          = 'http://www.stonybrook.edu/about/maps-and-directions';
+		    $main_nav_selected_tab = 2;
 
 		    $page_to_top_link = true;
 
@@ -47,6 +47,9 @@
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 
 		    $site_breadcrumbs = false;
+
+		    $mega_nav = true;
+		    $mega_nav_ou = true;
 		?>
 
 	<head>
@@ -66,46 +69,21 @@
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">
 
-		        <div class="header-container">
-		        	<div class="nav-elements-container">
-			        	<!-- <quick-nav> -->
-							<?php
-								include($path . $quick_nav);
-							?>
-						<!-- </quick-nav> -->
-			            <!-- <more-nav> -->
-							<?php 
-								include($path . $more_nav);
-							?>
-						<!-- </more-nav> -->
-			            <!-- <audience-nav> -->
-							<?php 
-								include($path . $audience_nav);
-							?>
-						<!-- </audience-nav> -->
-					</div>
-					<!-- <logo-container> -->
-						<?php 
-							include($path . $logo_container);
-						?>
-					<!-- </logo-container> -->
-		        </div>
 		        <div class="main-nav-container clearfix">
 		        	<!-- <site-nav> -->
 						<?php 
-							include($path . $site_nav);
+							//include($path . $site_nav);
+							include($path . "site-nav-2017.php");
 						?>
 					<!-- </site-nav> -->
 		        </div>
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <for-students> -->
 							<?php 
 								$file = "{$second_level}/{$second_level}.php";
 								include($pathForContent . $content . $secLv . $file);
 							?>
-						<!-- </for-students> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
@@ -140,7 +118,7 @@
 
 	    <!-- <scripts> -->
 			<?php 
-				$file = "footer-scripts.php";
+				$file = "footer-scripts-ou-2017.php";
 				include($path . $file);
 			?>
 		<!-- </scripts> -->

@@ -49,6 +49,9 @@
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 
 		    $site_breadcrumbs = true;
+
+		    $mega_nav = true;
+		    $mega_nav_ou = true;
 		?>
 
 	<head>
@@ -68,74 +71,48 @@
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">
 
-		        <div class="header-container">
-		        	<div class="nav-elements-container">
-			        	<!-- <quick-nav> -->
-							<?php
-								include($path . $quick_nav);
-							?>
-						<!-- </quick-nav> -->
-			            <!-- <more-nav> -->
-							<?php 
-								include($path . $more_nav);
-							?>
-						<!-- </more-nav> -->
-			            <!-- <audience-nav> -->
-							<?php 
-								include($path . $audience_nav);
-							?>
-						<!-- </audience-nav> -->
-					</div>
-					<!-- <logo-container> -->
-						<?php 
-							include($path . $logo_container);
-						?>
-					<!-- </logo-container> -->
-		        </div>
 		        <div class="main-nav-container clearfix">
 		        	<!-- <site-nav> -->
 						<?php 
-							include($path . $site_nav);
+							//include($path . $site_nav);
+							include($path . "site-nav-2017.php");
 						?>
 					<!-- </site-nav> -->
 		        </div>
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <for-students> -->
-							
-						<!-- </for-students> -->
+						<article class="clearfix second-level-header">
+				            <section class="header-title-image-wang page-title">
+							    <div class="wrapper border-box">
+							        <h1><a href="site-directory/">Site Directory</a></h1>
+							    </div>
+							</section>
+						    <section class="search-wrapper pad-top">
+						        <div class="site-input-wrapper wrapper border-box pad-top">
+						            <ul id="tabbed-nav">
+						                <li class="search-pages-link"><a href="http://www.stonybrook.edu/search/">Website Results</a></li>
+						                <li class="search-people-link"><a href="http://www.stonybrook.edu/search/people/">People Results</a></li>
+						                <li class="selected tabbed-nav-no-border"><a href="http://www.stonybrook.edu/site-directory/">Site Directory</a></li>
+						            </ul>
 
-						<!-- <search-results> -->
-							<article>
-							    <section class="search-wrapper pad-top">
-							        <div class="site-input-wrapper wrapper border-box pad-top">
-							            <h2>Site Directory</h2>
+						        </div>
 
-							            <ul id="tabbed-nav">
-							                <li class="search-pages-link"><a href="http://www.stonybrook.edu/search/">Website Results</a></li>
-							                <li class="search-people-link"><a href="http://www.stonybrook.edu/search/people/">People Results</a></li>
-							                <li class="selected tabbed-nav-no-border"><a href="http://www.stonybrook.edu/site-directory/">Site Directory</a></li>
-							            </ul>
+						        <div class="cse-wrapper border-box">
 
-							        </div>
+						            <div id="cse-search-results" class="wrapper">
+						               
+							            <?php 
+											$file = "{$second_level}/{$second_level}.php";
+											include($pathForContent . $content . $secLv . $file);
+										?>
 
-							        <div class="cse-wrapper border-box">
+						            </div>
 
-							            <div id="cse-search-results" class="wrapper">
-							               
-								            <?php 
-												$file = "{$second_level}/{$second_level}.php";
-												include($pathForContent . $content . $secLv . $file);
-											?>
+						        </div>
 
-							            </div>
-
-							        </div>
-
-							    </section>
-							</article>
-						<!-- </search-results> -->
+						    </section>
+						</article>
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
@@ -170,7 +147,7 @@
 
 	    <!-- <scripts> -->
 			<?php 
-				$file = "footer-scripts.php";
+				$file = "footer-scripts-ou-2017.php";
 				include($path . $file);
 			?>
 		<!-- </scripts> -->

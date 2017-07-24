@@ -48,6 +48,9 @@
 		    $carousel_2       = true;
 
 		    $site_breadcrumbs = false;
+
+		    $mega_nav = true;
+		    $mega_nav_ou = true;
 		?>
 
 	<head>
@@ -67,46 +70,21 @@
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">
 
-		        <div class="header-container">
-		        	<div class="nav-elements-container">
-			        	<!-- <quick-nav> -->
-							<?php
-								include($path . $quick_nav);
-							?>
-						<!-- </quick-nav> -->
-			            <!-- <more-nav> -->
-							<?php 
-								include($path . $more_nav);
-							?>
-						<!-- </more-nav> -->
-			            <!-- <audience-nav> -->
-							<?php 
-								include($path . $audience_nav);
-							?>
-						<!-- </audience-nav> -->
-					</div>
-					<!-- <logo-container> -->
-						<?php 
-							include($path . $logo_container);
-						?>
-					<!-- </logo-container> -->
-		        </div>
 		        <div class="main-nav-container clearfix">
 		        	<!-- <site-nav> -->
 						<?php 
-							include($path . $site_nav);
+							//include($path . $site_nav);
+							include($path . "site-nav-2017.php");
 						?>
 					<!-- </site-nav> -->
 		        </div>
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <economic-development> -->
-							<?php 
-								$file = "{$second_level}/{$second_level}.php";
-								include($pathForContent . $content . $secLv . $file);
-							?>
-						<!-- </economic-development> -->
+						<?php 
+							$file = "{$second_level}/{$second_level}.php";
+							include($pathForContent . $content . $secLv . $file);
+						?>
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
@@ -141,7 +119,7 @@
 
 	    <!-- <scripts> -->
 			<?php 
-				$file = "footer-scripts.php";
+				$file = "footer-scripts-ou-2017.php";
 				include($path . $file);
 			?>
 		<!-- </scripts> -->
