@@ -732,7 +732,8 @@ ul.three-col-list {
     background: rgba(75,75,75,.925);
 }
 
-.map-container-full--main-button {
+.map-container-full--main-button,
+.brand-button.map-container-full--main-button {
     display: block;
     margin: 250px auto 0;
     opacity: 1;
