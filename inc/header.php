@@ -152,7 +152,7 @@
             <?php includeAsset('css','css/page-types/bulletin.css','all'); ?>
         <?php } ?>
 
-        <?php if($page_type=='search') { ?>
+        <?php if($page_type=='search' || $second_level=='site-directory') { ?>
             <?php includeAsset('css','css/search.css','all'); ?>
         <?php } ?>
 

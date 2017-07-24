@@ -34,12 +34,13 @@
 		    $og_url          = 'http://www.stonybrook.edu/site-directory';
 		    //$main_nav_selected_tab = 1;
 
+		    $tabbed_nav       = true;
+		    $mobile_tabs      = true;
+
 		    $page_to_top_link = true;
 
 		    $page_footerbar   = true;
-		    $page_footer      = true;
 
-		    $carousel 		  = true;
 		    $live_filter	  = true;
 
 		    $page_scroll        = true;
@@ -47,7 +48,7 @@
 		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 
-		    $site_breadcrumbs = false;
+		    $site_breadcrumbs = true;
 		?>
 
 	<head>
@@ -102,11 +103,39 @@
 		            <div class="main clearfix">
 
 		                <!-- <for-students> -->
-							<?php 
-								$file = "{$second_level}/{$second_level}.php";
-								include($pathForContent . $content . $secLv . $file);
-							?>
+							
 						<!-- </for-students> -->
+
+						<!-- <search-results> -->
+							<article>
+							    <section class="search-wrapper pad-top">
+							        <div class="site-input-wrapper wrapper border-box pad-top">
+							            <h2>Site Directory</h2>
+
+							            <ul id="tabbed-nav">
+							                <li class="search-pages-link"><a href="http://www.stonybrook.edu/search/">Website Results</a></li>
+							                <li class="search-people-link"><a href="http://www.stonybrook.edu/search/people/">People Results</a></li>
+							                <li class="selected tabbed-nav-no-border"><a href="http://www.stonybrook.edu/site-directory/">Site Directory</a></li>
+							            </ul>
+
+							        </div>
+
+							        <div class="cse-wrapper border-box">
+
+							            <div id="cse-search-results" class="wrapper">
+							               
+								            <?php 
+												$file = "{$second_level}/{$second_level}.php";
+												include($pathForContent . $content . $secLv . $file);
+											?>
+
+							            </div>
+
+							        </div>
+
+							    </section>
+							</article>
+						<!-- </search-results> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
