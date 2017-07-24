@@ -4,7 +4,7 @@
 		margin-top: 0;
 	}
 
-	.main-nav-container + .main-container > .main > article > section:first-child {
+	.main-nav-container + .main-container > .main > article:first-child > section:first-child {
 		margin-top: -88px;
 		padding-top: 88px;
 		padding-bottom: 0;
