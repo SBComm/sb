@@ -1538,7 +1538,6 @@ body {
     .second-level-2017 a.sbu-outline-button.sbu-outline-button--black {
         font-size: 1.3rem;
         padding: 1.1rem;
-        min-width: 240px;
         cursor: pointer !important;
     }
 
@@ -1634,6 +1633,11 @@ body {
         .second-level-2017 .background-scroll .section-bkg-container,
         .second-level-2017 .background-scroll .promo-section {
             background-attachment: fixed;
+        }
+
+        .second-level-2017 a.sbu-outline-button.sbu-outline-button--red,
+        .second-level-2017 a.sbu-outline-button.sbu-outline-button--black {
+            min-width: 240px;
         }
 
     }
