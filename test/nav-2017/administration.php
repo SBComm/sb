@@ -31,7 +31,7 @@
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Learn about Stony Brook University\'s presidents from 1957 to present.';
-		    $og_url          = 'http://www.stonybrook.edu/about/administration';
+		    $og_url          = 'http://www.stonybrook.edu/about/administration/';
 		    $main_nav_selected_tab = 2;
 
 		    $page_to_top_link = true;

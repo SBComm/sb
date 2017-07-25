@@ -31,7 +31,7 @@
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = '"With more than 200 majors, minors and combined-degree programs, Stony Brook delivers a world-class education that will exceed your expectations. The University is a trailblazer in integrating research and undergraduate education.';
-		    $og_url          = 'http://www.stonybrook.edu/academics/majors-minors-and-programs';
+		    $og_url          = 'http://www.stonybrook.edu/academics/majors-minors-and-programs/';
 		    $main_nav_selected_tab = 4;
 
 		    $page_to_top_link = true;
