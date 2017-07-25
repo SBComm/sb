@@ -75,6 +75,15 @@
 	});
 </script>
 
+<script type="text/javascript">
+	$(window).load(function() {
+		equalheight('.faculty-list .li');
+   	});
+   	$(window).resize(function(){
+		equalheight('.faculty-list .li');
+   	});
+</script>
+
 <?php if($page_type=='search') {
 	includeAsset('js','js/search/search.js');
 } ?>
