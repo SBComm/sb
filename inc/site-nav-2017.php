@@ -68,7 +68,7 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="#">Centers &amp; Institutes</a></li>
+                                <li><a href="http://www.stonybrook.edu/about/centers-and-institutes/">Centers &amp; Institutes</a></li>
                             </ul>
 
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
@@ -101,7 +101,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--admissions">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==3) echo(' active'); ?>" href="#" tabindex="200">Admissions</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==3) echo(' active'); ?>" href="http://www.stonybrook.edu/admissions/" tabindex="200">Admissions</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Admissions</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg)" />
@@ -123,7 +123,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="#">Additional Programs</a>
+                                    <a class="nav-icon nav-icon-map" href="http://www.stonybrook.edu/academics/additional-programs/">Additional Programs</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Additional Programs</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
@@ -176,7 +176,7 @@
                                 <li><a href="http://www.stonybrook.edu/academics/majors-minors-and-programs#UndergraduatePrograms">Majors, Minors &amp; Programs</a></li>
                                 <li><a href="http://www.stonybrook.edu/registrar/calendars/academic_calendars">Academic Calendars</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="#">Resources</a>
+                                    <a class="nav-icon nav-icon-map" href="http://www.stonybrook.edu/academics/resources/">Resources</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Resources</h2>
                                         <a class="mp-back" href="http://www.stonybrook.edu/academics/resources/" aria-hidden="true">back</a>
@@ -188,7 +188,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="#">Bulletins</a>
+                                    <a class="nav-icon nav-icon-map" href="http://www.stonybrook.edu/ugbulletin">Bulletins</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Bulletins</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
@@ -243,7 +243,7 @@
                                 <li><a href="http://studentaffairs.stonybrook.edu/rec/">Campus Recreation</a></li>
                                 <li><a href="http://studentaffairs.stonybrook.edu/studentlife/">Student Life</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="#">Things to Do</a>
+                                    <a class="nav-icon nav-icon-map" href="http://studentaffairs.stonybrook.edu/sac/">Things to Do</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Things to Do</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
@@ -344,7 +344,7 @@
                         </div>
                     </li>
 
-                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link <?php if($main_nav_selected_tab==7) echo(' active'); ?>" href="#" tabindex="600">Athletics</a></li>
+                    <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link <?php if($main_nav_selected_tab==7) echo(' active'); ?>" href="http://www.stonybrook.edu/athletics/" tabindex="600">Athletics</a></li>
 
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--medicine">
                         <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==8) echo(' active'); ?>" href="http://medicine.stonybrook.edu/" tabindex="700">Medicine</a>
@@ -468,4 +468,4 @@
     </div><!-- /pusher -->
 
 </nav>
-<a href="#" id="main-site-content"></a>
+<a href="#" id="main-site-content" class="hide-accessible"></a>
