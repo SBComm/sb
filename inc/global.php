@@ -259,7 +259,6 @@ if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_overr
     include($path . $file);
 } ?>
 
-<!-- Campaign Forms -->
 <?php
     $file = "widgets/forms/campaign-form-landing-2017-students-ajax.php";
     //include($path . $file);
