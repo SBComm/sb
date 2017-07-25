@@ -1584,6 +1584,10 @@ body {
         padding: 20px;
     }
 
+    .second-level-2017 .events-widget .eventDate {
+        padding: 12px 0 0 0;
+    }
+
     @media only screen and (max-width: 1099px) {
 
         .second-level-head-region .section-bkg-container {
