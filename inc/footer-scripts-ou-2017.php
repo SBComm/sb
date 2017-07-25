@@ -45,6 +45,8 @@
 		//$("h1.second-level-head-region_heading").fitText(1.2, { minFontSize: '30px', maxFontSize: '52px' });
 		/*$(".site-carousel h1").fitText(1, { minFontSize: '30px', maxFontSize: '100px' });*/
 
+		equalheight('.faculty-list li');
+
 		$('.apply-form-trigger').on('click',function(e) {
 			e.preventDefault();
 			var $form = $('.apply-form-1');
@@ -73,15 +75,6 @@
 		    });
 		});
 	});
-</script>
-
-<script type="text/javascript">
-	$(window).load(function() {
-		equalheight('.faculty-list li');
-   	});
-   	$(window).resize(function(){
-		equalheight('.faculty-list li');
-   	});
 </script>
 
 <?php if($page_type=='search') {
@@ -446,3 +439,12 @@ if($social_feed_widget) { ?>
 	<script type="text/javascript" src="/js/social/custom.js"></script>
 
 <?php } ?>
+
+<script type="text/javascript">
+	$(window).load(function() {
+		equalheight('.faculty-list li');
+   	});
+   	$(window).resize(function(){
+		equalheight('.faculty-list li');
+   	});
+</script>
