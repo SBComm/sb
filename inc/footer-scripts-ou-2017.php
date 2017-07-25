@@ -77,10 +77,10 @@
 
 <script type="text/javascript">
 	$(window).load(function() {
-		equalheight('.faculty-list .li');
+		equalheight('.faculty-list li');
    	});
    	$(window).resize(function(){
-		equalheight('.faculty-list .li');
+		equalheight('.faculty-list li');
    	});
 </script>
 
