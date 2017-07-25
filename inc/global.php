@@ -226,12 +226,6 @@ if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_overr
     }
 ?>
 
-<?php if($second_level=='summer-session' && $is_production_environment) { ?>
-    <!--Begin Stony Brook University Retargeting Pixel-->
-    <img class="targeting-pixel" src="https://b.collective-media.net/seg/cm/2or0" width="1" height="1" />
-    <!--End Stony Brook University Retargeting Pixel-->
-<?php } ?>
-
 <?php if($fade_in_page) { ?>
     <div class="fade-in-page absolute-white-cover"></div>
 <?php } ?>
@@ -268,5 +262,5 @@ if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_overr
 <!-- Campaign Forms -->
 <?php
     $file = "widgets/forms/campaign-form-landing-2017-students-ajax.php";
-    include($path . $file);
+    //include($path . $file);
 ?>
