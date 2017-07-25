@@ -130,7 +130,7 @@
                                         <ul>
                                             <li><a href="http://www.stonybrook.edu/summer-session/">Summer Sessions</a></li>
                                             <li><a href="http://www.stonybrook.edu/winter/">Winter Session</a></li>
-                                            <li><a href="http://www.stonybrook.edu/undergraduate-admissions/future-students/programs-for-high-school-students/">High School Programs</a></li>
+                                            <li><a href="http://www.stonybrook.edu/admissions/high-school/">High School Programs</a></li>
                                             <li><a href="http://www.stonybrook.edu/studyabroad/">Study Abroad</a></li>
                                         </ul>
                                     </div>
@@ -147,7 +147,7 @@
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/summer-session/" tabindex="205">Summer Sessions</a></li>
                                     <li><a href="http://www.stonybrook.edu/winter/" tabindex="206">Winter Session</a></li>
-                                    <li><a href="http://www.stonybrook.edu/undergraduate-admissions/future-students/programs-for-high-school-students/" tabindex="207">High School Programs</a></li>
+                                    <li><a href="http://www.stonybrook.edu/admissions/high-school/" tabindex="207">High School Programs</a></li>
                                     <li><a href="http://www.stonybrook.edu/studyabroad/" tabindex="208">Study Abroad</a></li>
                                 </ul>
                                 <ul>
@@ -306,7 +306,7 @@
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Students</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
                                         <ul>
-                                            <li><a href="http://www.stonybrook.edu/undergraduate-admissions/future-students/programs-for-high-school-students/">High School</a></li>
+                                            <li><a href="http://www.stonybrook.edu/admissions/high-school/">High School</a></li>
                                             <li><a href="http://www.stonybrook.edu/ureca">Undergraduate</a></li>
                                             <li><a href="http://grad.stonybrook.edu/">Graduate</a></li>
                                             <li><a href="http://www.stonybrook.edu/postdoc/">Post-Docs</a></li>
@@ -329,7 +329,7 @@
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Student Research</h4></li>
-                                    <li><a href="http://www.stonybrook.edu/undergraduate-admissions/future-students/programs-for-high-school-students/" tabindex="508">High School</a></li>
+                                    <li><a href="http://www.stonybrook.edu/admissions/high-school/" tabindex="508">High School</a></li>
                                     <li><a href="http://www.stonybrook.edu/ureca" tabindex="509">Undergraduate</a></li>
                                     <li><a href="http://grad.stonybrook.edu/" tabindex="510">Graduate</a></li>
                                     <li><a href="http://www.stonybrook.edu/postdoc/" tabindex="511">Post-Docs</a></li>
@@ -397,7 +397,7 @@
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="https://www.stonybrookmedicine.edu/patientcare/bloodbank" tabindex="780">Blood Band</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="https://www.stonybrookmedicine.edu/patientcare/bloodbank" tabindex="780">Blood Bank</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="https://www.stonybrookmedicine.edu/patientcare/healthconnect" tabindex="781">Health Connect</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="https://www.stonybrookmedicine.edu/careers" tabindex="782">Jobs</a>
                                 </div>

@@ -30,8 +30,9 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook University is going beyond the expectations of what today’s public universities can accomplish.  This young university has grown to become one of only four University Center campuses in the State of New York (SUNY) system with more than 25,200 students and faculty that have earned prestigious awards, including the Nobel Prize, Pulitzer Prize, Indianapolis Prize for animal conservation, Abel Prize and the inaugural Breakthrough Prize in Mathematics.';
-		    $og_url          = 'http://www.stonybrook.edu/about/centers-and-institutes';
+		    $og_description  = 'Spanning arts and sciences, educational and clinical, Stony Brook has more than 100 specialized centers and institutes that provide services and resources to thousands locally and globally.
+';
+		    $og_url          = 'http://www.stonybrook.edu/about/centers-and-institutes/';
 		    $main_nav_selected_tab = 2;
 
 		    $page_to_top_link = true;

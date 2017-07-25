@@ -30,8 +30,8 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Located at 100 Engineering in Stony Brook University, this office works closely with business organizations and state and municipal economic development agencies to promote Industry-University collaboration.';
-		    $og_url          = 'http://www.stonybrook.edu/economic-development';
+		    $og_description  = 'The Economic Development office works closely with business organizations and state and municipal agencies to promote Industry-University collaboration.';
+		    $og_url          = 'http://www.stonybrook.edu/economic-development/';
 
 		    $page_to_top_link = true;
 

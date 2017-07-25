@@ -30,8 +30,8 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook University is going beyond the expectations of what today’s public universities can accomplish.  This young university has grown to become one of only four University Center campuses in the State of New York (SUNY) system with more than 25,200 students and faculty that have earned prestigious awards, including the Nobel Prize, Pulitzer Prize, Indianapolis Prize for animal conservation, Abel Prize and the inaugural Breakthrough Prize in Mathematics.';
-		    $og_url          = 'http://www.stonybrook.edu/campus-life/arts';
+		    $og_description  = 'Whether you play a musical instrument, paint, dance or enjoying watching from the audience, you’ll find many opportunities to explore your creative side at Stony Brook. Staller Center for the Arts offers professional performances by popular artists from around the world. Campus art galleries provide forums for visual artists to showcase their work. We also offer many courses that examine historical, sociological and cultural implications of the arts.';
+		    $og_url          = 'http://www.stonybrook.edu/campus-life/arts-and-culture/';
 		    $main_nav_selected_tab = 2;
 
 		    $page_to_top_link = true;

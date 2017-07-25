@@ -30,8 +30,8 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook University is going beyond the expectations of what today’s public universities can accomplish.  This young university has grown to become one of only four University Center campuses in the State of New York (SUNY) system with more than 25,200 students and faculty that have earned prestigious awards, including the Nobel Prize, Pulitzer Prize, Indianapolis Prize for animal conservation, Abel Prize and the inaugural Breakthrough Prize in Mathematics.';
-		    $og_url          = 'http://www.stonybrook.edu/medicine';
+		    $og_description  = 'Stony Brook Medicine, our health science and medical enterprise, includes the schools of Medicine, Dental Medicine, Nursing, Health Technology and Management, Pharmacy and Pharmaceutical Sciences, and Social Welfare, as well as the Hospital, our major centers and institutes, programs, clinics and community-based healthcare settings, and the Long Island State Veterans Home.';
+		    $og_url          = 'http://www.stonybrook.edu/medicine/';
 		    $main_nav_selected_tab = 8;
 
 		    $page_to_top_link = true;

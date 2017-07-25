@@ -30,7 +30,7 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook University is going beyond the expectations of what today’s public universities can accomplish.  This young university has grown to become one of only four University Center campuses in the State of New York (SUNY) system with more than 25,200 students and faculty that have earned prestigious awards, including the Nobel Prize, Pulitzer Prize, Indianapolis Prize for animal conservation, Abel Prize and the inaugural Breakthrough Prize in Mathematics.';
+		    $og_description  = '"With more than 200 majors, minors and combined-degree programs, Stony Brook delivers a world-class education that will exceed your expectations. The University is a trailblazer in integrating research and undergraduate education.';
 		    $og_url          = 'http://www.stonybrook.edu/academics/majors-minors-and-programs';
 		    $main_nav_selected_tab = 4;
 

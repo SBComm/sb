@@ -30,8 +30,8 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook University is going beyond the expectations of what today’s public universities can accomplish.  This young university has grown to become one of only four University Center campuses in the State of New York (SUNY) system with more than 25,200 students and faculty that have earned prestigious awards, including the Nobel Prize, Pulitzer Prize, Indianapolis Prize for animal conservation, Abel Prize and the inaugural Breakthrough Prize in Mathematics.';
-		    $og_url          = 'http://www.stonybrook.edu/research';
+		    $og_description  = 'Stony Brook has been one of only 94 institutions in the country to be designated a "Very High Research University" by the Carnegie Foundation. Our faculty have been responsible for more than 2,100 inventions and 600 U.S. patents. With more than 70 academic departments, Stony Brook is among the top 40 institutions funded by the National Science Foundation, and expenditures on organized research, from external and internal sponsors, are at nearly $170 million.';
+		    $og_url          = 'http://www.stonybrook.edu/research/';
 		    $main_nav_selected_tab = 6;
 
 		    $page_to_top_link = true;

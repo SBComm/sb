@@ -30,8 +30,8 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook University is going beyond the expectations of what today’s public universities can accomplish.  This young university has grown to become one of only four University Center campuses in the State of New York (SUNY) system with more than 25,200 students and faculty that have earned prestigious awards, including the Nobel Prize, Pulitzer Prize, Indianapolis Prize for animal conservation, Abel Prize and the inaugural Breakthrough Prize in Mathematics.';
-		    $og_url          = 'http://www.stonybrook.edu/academics/colleges-and-schools';
+		    $og_description  = 'The University is divided into 13 schools and colleges: the College of Arts and Sciences, the College of Business, the College of Engineering and Applied Sciences, the Graduate School, the School of Journalism, the School of Marine and Atmospheric Sciences, the School of Professional Development, and the six health sciences schools: Dental Medicine, Health Technology and Management, Medicine, Nursing, Social Welfare, and the new School of Pharmacy and Pharmaceutical Sciences.';
+		    $og_url          = 'http://www.stonybrook.edu/academics/colleges-and-schools/';
 		    $main_nav_selected_tab = 4;
 
 		    $page_to_top_link = true;

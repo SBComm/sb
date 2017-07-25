@@ -30,7 +30,7 @@
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook University is going beyond the expectations of what today’s public universities can accomplish.  This young university has grown to become one of only four University Center campuses in the State of New York (SUNY) system with more than 25,200 students and faculty that have earned prestigious awards, including the Nobel Prize, Pulitzer Prize, Indianapolis Prize for animal conservation, Abel Prize and the inaugural Breakthrough Prize in Mathematics.';
+		    $og_description  = 'Stony Brook’s active and vibrant campus life is filled with co-curricular experiences to complement our academic curriculum and enhance the overall college experience. Hundreds of clubs and student organizations, intramural and Division I sports teams, art, music and cultural events throughout the year keep our diverse student body involved, active and entertained.';
 		    $og_url          = 'http://www.stonybrook.edu/campus-life';
 		    $main_nav_selected_tab = 5;
 

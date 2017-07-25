@@ -31,7 +31,7 @@
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Find your way around campus with these maps and get directions to Stony Brook University\'s main campus as well as Southampton campus.';
-		    $og_url          = 'http://www.stonybrook.edu/about/maps-and-directions';
+		    $og_url          = 'http://www.stonybrook.edu/about/maps-and-directions/';
 		    $main_nav_selected_tab = 2;
 
 		    $page_to_top_link = true;

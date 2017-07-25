@@ -1,8 +1,4 @@
-<article class="ghosted-campus">
-    <section class="transparent-background page-title">
-    </section>
-</article>
-<article>
+<article class="second-level-header">
     <section class="clearfix inside-content main-inside-content two-col white-background">
         <div class="border-box wrapper clearfix pad-top">
             <h3><em class="fa fa-line-chart"></em> Stony Brook Analytics Dashboard</h3>
