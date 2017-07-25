@@ -44,8 +44,40 @@
 		$(".page-title h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '52px' });
 		//$("h1.second-level-head-region_heading").fitText(1.2, { minFontSize: '30px', maxFontSize: '52px' });
 		/*$(".site-carousel h1").fitText(1, { minFontSize: '30px', maxFontSize: '100px' });*/
+
+		$('.apply-form-trigger').on('click',function(e) {
+			e.preventDefault();
+			var $form = $('.apply-form-1');
+			if($form.hasClass('hide-accessible')) {
+				$(this).addClass('active');
+				toggleAccessible($form);
+			}
+			$('body').scrollTo($form, 400, {
+		    	axis: 'y'
+		    });
+		});
+
+		$('.show-form-trigger').on('click',function(e) {
+			var thisButton = $(this);
+			e.preventDefault();
+			var formName = '#' + thisButton.attr('data-target-form');
+			console.log(formName);
+			var $form = $(formName);
+			console.log($form);
+			if($form.hasClass('hide-accessible')) {
+				thisButton.addClass('active');
+				toggleAccessible($form);
+			}
+			$('body').scrollTo($form, 400, {
+		    	axis: 'y'
+		    });
+		});
 	});
 </script>
+
+<?php if($page_type=='search') {
+	includeAsset('js','js/search/search.js');
+} ?>
 
 <script> 
 	$(window).load(function(){
@@ -200,6 +232,12 @@
 		});
 	</script>
 <?php } ?>
+
+<?php if($page_type=='second-level' && $second_level=='analytics') { ?>
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+			<?php includeAsset('js','plugins/spinner/spin.min.js'); ?>
+			<?php includeAsset('js','plugins/analytics/main.js'); ?>
+        <?php } ?>
 
 <?php 
 /*

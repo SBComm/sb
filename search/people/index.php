@@ -43,6 +43,9 @@
 		    $page_scroll_el     = 'main-nav';     //Options are audience-nav, logo, main-nav, bottom
 		    $page_scroll_time   = 0;      //Time for scroll function in milliseconds
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
+
+		    $mega_nav = true;
+		    $mega_nav_ou = true;
 		?>
 
 	<head>
@@ -62,34 +65,11 @@
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">
 
-		        <div class="header-container">
-		        	<div class="nav-elements-container">
-			        	<!-- <quick-nav> -->
-							<?php
-								include($path . $quick_nav);
-							?>
-						<!-- </quick-nav> -->
-			            <!-- <more-nav> -->
-							<?php 
-								include($path . $more_nav);
-							?>
-						<!-- </more-nav> -->
-			            <!-- <audience-nav> -->
-							<?php 
-								include($path . $audience_nav);
-							?>
-						<!-- </audience-nav> -->
-					</div>
-					<!-- <logo-container> -->
-						<?php 
-							include($path . $logo_container);
-						?>
-					<!-- </logo-container> -->
-		        </div>
 		        <div class="main-nav-container clearfix">
 		        	<!-- <site-nav> -->
 						<?php 
-							include($path . $site_nav);
+							//include($path . $site_nav);
+							include($path . "site-nav-2017.php");
 						?>
 					<!-- </site-nav> -->
 		        </div>
@@ -97,15 +77,19 @@
 		            <div class="main clearfix">
 
 		                <!-- <search-results> -->
-							<article>
+							<article class="clearfix second-level-header">
+							    <section class="header-title-image-wang page-title">
+							        <div class="wrapper border-box">
+							            <h1 style="font-size: 52px;"><a href="search/people">Search</a></h1>
+							        </div>
+							    </section>
 							    <section class="search-wrapper pad-top">
 							        <div class="site-input-wrapper wrapper border-box pad-top">
-							            <h2>Search People</h2>
 
 							            <div id="site-search-input" class="clearfix">
 								            <div class="site-input-box">
 								            	<div class="site-input">
-								                	<input autocomplete="off" type="search" size="10" name="search" title="search" placeholder="Search people...">
+								                	<input autocomplete="off" type="search" size="10" name="search" title="search" placeholder="Search people directory...">
 								            	</div>
 								            </div>
 								            <div id="people-search-btn" class="search-button" title="search">Search</div>
@@ -167,7 +151,7 @@
 
 	    <!-- <scripts> -->
 			<?php 
-				$file = "footer-scripts.php";
+				$file = "footer-scripts-ou-2017.php";
 				include($path . $file);
 			?>
 		<!-- </scripts> -->

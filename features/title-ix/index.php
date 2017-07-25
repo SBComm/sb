@@ -31,7 +31,7 @@
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'When it comes to Title IX, Stony Brook University works hard and plays fair..';
-		    $og_url          = 'http://www.stonybrook.edu/features/title-ix';
+		    $og_url          = 'http://www.stonybrook.edu/features/title-ix/';
 
 		    $page_to_top_link = true;
 
@@ -42,6 +42,9 @@
 		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
 		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
+
+		    $mega_nav = true;
+		    $mega_nav_ou = true;
 		?>
 
 	<head>
@@ -61,34 +64,11 @@
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">
 
-		        <div class="header-container">
-		        	<div class="nav-elements-container">
-			        	<!-- <quick-nav> -->
-							<?php
-								include($path . $quick_nav);
-							?>
-						<!-- </quick-nav> -->
-			            <!-- <more-nav> -->
-							<?php 
-								include($path . $more_nav);
-							?>
-						<!-- </more-nav> -->
-			            <!-- <audience-nav> -->
-							<?php 
-								include($path . $audience_nav);
-							?>
-						<!-- </audience-nav> -->
-					</div>
-					<!-- <logo-container> -->
-						<?php 
-							include($path . $logo_container);
-						?>
-					<!-- </logo-container> -->
-		        </div>
 		        <div class="main-nav-container clearfix">
 		        	<!-- <site-nav> -->
 						<?php 
-							include($path . $site_nav);
+							//include($path . $site_nav);
+							include($path . "site-nav-2017.php");
 						?>
 					<!-- </site-nav> -->
 		        </div>
@@ -135,7 +115,7 @@
 
 	    <!-- <scripts> -->
 			<?php 
-				$file = "footer-scripts.php";
+				$file = "footer-scripts-ou-2017.php";
 				include($path . $file);
 			?>
 		<!-- </scripts> -->

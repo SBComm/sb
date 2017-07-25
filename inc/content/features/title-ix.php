@@ -1,4 +1,4 @@
-<article class="ghosted-campus">
+<article class="second-level-header">
     <section class="transparent-background page-title">
     </section>
 </article>

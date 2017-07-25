@@ -154,6 +154,8 @@
 
         <?php if($page_type=='search' || $second_level=='site-directory') { ?>
             <?php includeAsset('css','css/search.css','all'); ?>
+            <?php includeAsset('css','css/second-level.css','all'); ?>
+            <?php includeAsset('css','css/second-level/branded-second-level.css','all'); ?>
         <?php } ?>
 
         <?php if($tablesaw==true) { ?>
