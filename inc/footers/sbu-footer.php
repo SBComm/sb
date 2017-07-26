@@ -103,7 +103,7 @@
                     <a class="circle" href="http://www.youtube.com/stonybrook" title="View Stony Brook pins on youtube!" target="_blank"><span class="label hide-accessible">youtube</span><em class="fa fa-youtube-play"></em></a>
                 </div>
                 <a class="social-wall-link" href="http://www.stonybrook.edu/social/"><span>Check out our Social Media Wall&nbsp;<i class="fa fa-long-arrow-right"></i></span></a>
-                <a href="http://www.stonybrook.edu/" class="univ-logo-stacked clearfix"><img src="//www.stonybrook.edu/img/branding/logo/sbu/primary/72/stony-brook-university-logo-vertical.png" alt="Stony Brook University logo" /></a>
+                <a href="http://www.stonybrook.edu/" class="univ-logo-stacked clearfix"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/primary/72/stony-brook-university-logo-vertical.png" alt="Stony Brook University logo" /></a>
              </div>
         </div>
     </nav>
