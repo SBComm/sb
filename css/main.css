@@ -2378,21 +2378,21 @@ body {
         }
 
         .new-brand .content-wrapper .rays-promo-box-with-hover-text {
-            height: 540px;
+            height: 560px;
         }
 
         .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover .rays-promo-box-with-hover-text_wrapper {
-            height: 540px;
+            height: 560px;
         }
     }
     
     @media only screen and (min-width: 1820px) {
         .new-brand .content-wrapper .rays-promo-box-with-hover-text {
-            height: 480px;
+            height: 520px;
         }
 
         .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover .rays-promo-box-with-hover-text_wrapper {
-            height: 480px;
+            height: 520px;
         }
 
     }
