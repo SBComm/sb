@@ -1588,12 +1588,23 @@ body {
         padding: 12px 0 0 0;
     }
 
-    .second-level-2017 .large-story-title-red {
+    .second-level-2017 .large-story-title-red span {
         color: #900;
     }
 
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (max-width: 460px) {
         .second-level-2017 .large-story-title-red {
+            font-size: 30px;
+            line-height: 26px;
+        }
+
+        .second-level-2017 .large-story-title-red span {
+            font-size: 30px;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .second-level-2017 .large-story-title-red span {
             font-size: 72px;
             line-height: 52px;
         }
