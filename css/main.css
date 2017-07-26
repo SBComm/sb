@@ -1652,6 +1652,19 @@ body {
 
     }
 
+    @media only screen and (max-width: 475px) {
+
+        .content-wrapper h1.second-level-promo-header {
+            font-size: 36px;
+            margin-top: 18px !important;
+        }
+
+        .content-wrapper h1.second-level-head-region_heading span {
+            font-size: 30px;
+            padding: 24px 20px;
+        }
+    }
+
     @media only screen and (max-width: 1099px) {
 
         .second-level-2017 .sbu-columns--column.one-third {
