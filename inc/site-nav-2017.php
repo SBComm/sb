@@ -457,7 +457,7 @@
                 <div class="clearfix campaign-badge">
                     <a href="http://www.stonybrook.edu/campaign" class="arrow-after">
                         <span class="label hide-accessible clearfix">The Campaign for Stony Brook</span>
-                        <img src="//www.stonybrook.edu/img/branding/logo/campaign-lockup-two-line-358-60.png" alt="The Campaign for Stony Brook logo" />
+                        <img src="//www.stonybrook.edu/far-beyond/img/branding/logo/campaign-lockup-two-line-358-60.png" alt="The Campaign for Stony Brook logo" />
                     </a>
                 </div>
                     
