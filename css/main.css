@@ -1709,6 +1709,16 @@ body {
             min-width: 240px;
         }
 
+        .second-level-2017 .col-3 a.sbu-outline-button.sbu-outline-button--red,
+        .second-level-2017 .col-3 a.sbu-outline-button.sbu-outline-button--black {
+            min-width: 210px;
+        }
+
+        .second-level-2017 .col-4 a.sbu-outline-button.sbu-outline-button--red,
+        .second-level-2017 .col-4 a.sbu-outline-button.sbu-outline-button--black {
+            min-width: 180px;
+        }
+
     }
 
     /* Colors */
