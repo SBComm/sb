@@ -49,7 +49,7 @@
                                         <ul>
                                             <li><a href="http://www.stonybrook.edu/maps-and-directions/">Maps &amp; Directions</a></li>
                                             <li><a href="http://www.stonybrook.edu/virtual-tour/">Virtual Tour</a></li>
-                                            <li><a href="http://www.stonybrook.edu/parking/">Parking &amp; Transportation</a></li>
+                                            <li><a href="http://www.stonybrook.edu/commcms/transportation-and-parking/">Parking &amp; Transportation</a></li>
                                             <li><a href="http://www.stonybrook.edu/southampton/">Stony Brook Southampton</a></li>
                                         </ul>
                                     </div>
@@ -82,7 +82,7 @@
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/maps-and-directions/" tabindex="106">Maps &amp; Directions</a></li>
                                     <li><a href="http://www.stonybrook.edu/virtual-tour/" tabindex="107">Virtual Tour</a></li>
-                                    <li><a href="http://www.stonybrook.edu/parking/" tabindex="108">Parking &amp; Transportation</a></li>
+                                    <li><a href="http://www.stonybrook.edu/commcms/transportation-and-parking/" tabindex="108">Parking &amp; Transportation</a></li>
                                     <li><a href="http://www.stonybrook.edu/southampton/" tabindex="109">Stony Brook Southampton</a></li>
                                 </ul>
                                 <ul>
