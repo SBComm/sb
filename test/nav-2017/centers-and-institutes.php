@@ -45,7 +45,7 @@
 		    $page_scroll        = false;
 		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
 		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
-		    $page_scroll_mobile = true;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
+		    $page_scroll_mobile = false;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 
 		    $html_dom_parser = true;
 
