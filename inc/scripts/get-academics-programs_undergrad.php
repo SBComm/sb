@@ -140,7 +140,8 @@
 	                			break;
 	                	}
 
-	                	if($degree_level == 'undergrad') {
+	                	//remove $degree_type != 'bachelor' when ready to show
+	                	if($degree_level == 'undergrad' && $degree_type != 'bachelor') {
 		                	$program_output .= "
 		                		<span class=\"key-icons--icon key-icons--icon_$degree_color tooltip tooltip--no-icon-after\" title=\"$degree_label\">$degree_abbr<span class=\"hide-accessible\">$degree_type: $degree_label</span></span>
 		                	";
