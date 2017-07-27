@@ -40,7 +40,7 @@
 		    $page_footerbar   = true;
 		    $page_footer      = true;
 
-		    $carousel 		  = true;
+		    $carousel 		  = false;
 
 		    $page_scroll        = true;
 		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
