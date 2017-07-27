@@ -688,7 +688,14 @@ ul.three-col-list {
     border-radius: 2px;
 }
 
+@media only screen and (max-width: 1024px) {
 
+.do-live-filter-search-term {
+    cursor: pointer;
+    padding: 5px 6px;
+}
+
+}
 
 
 
