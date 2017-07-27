@@ -547,8 +547,20 @@ var initReady = function() {
 	});
 
 	$('.do-live-filter-search-term').on('click',function() {
-		$('#live-filter-search').val($(this).attr('data-live-filter-term')).change();
-		$('.do-live-filter-search-term').removeClass('selected');
-		$(this).addClass('selected');
+
+		var dataFilterID = $(this).closest('.key-icons').attr('data-filter-input-id');
+
+		if(dataFilterID==undefined) {
+			$('#live-filter-search').val($(this).attr('data-live-filter-term')).change();
+			$('.do-live-filter-search-term').removeClass('selected');
+			$(this).addClass('selected');
+		} else {
+			var $inputFilterEl = $('#'+dataFilterID);
+			console.log($inputFilterEl);
+			$inputFilterEl.val($(this).attr('data-live-filter-term')).change();
+			$('.do-live-filter-search-term').removeClass('selected');
+			$(this).addClass('selected');
+		}
+
 	});
 };
