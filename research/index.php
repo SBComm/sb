@@ -25,14 +25,14 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$second_level    = 'campus-life';
-			$page_title_sub  = 'Campus Life';
+			$second_level    = 'site-directory';
+			$page_title_sub  = 'Research';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook’s active and vibrant campus life is filled with co-curricular experiences to complement our academic curriculum and enhance the overall college experience. Hundreds of clubs and student organizations, intramural and Division I sports teams, art, music and cultural events throughout the year keep our diverse student body involved, active and entertained.';
-		    $og_url          = 'http://www.stonybrook.edu/campus-life';
-		    $main_nav_selected_tab = 5;
+		    $og_description  = 'Stony Brook has been one of only 94 institutions in the country to be designated a "Very High Research University" by the Carnegie Foundation. Our faculty have been responsible for more than 2,100 inventions and 600 U.S. patents. With more than 70 academic departments, Stony Brook is among the top 40 institutions funded by the National Science Foundation, and expenditures on organized research, from external and internal sponsors, are at nearly $170 million.';
+		    $og_url          = 'http://www.stonybrook.edu/research/';
+		    $main_nav_selected_tab = 6;
 
 		    $page_to_top_link = true;
 
@@ -86,7 +86,7 @@
 							<?php 
 								$file = "{$second_level}/{$second_level}.php";
 								//include($pathForContent . $content . $secLv . $file);
-								include('/user/commcms/www/_second-level/campus-life/index.php');
+								include('/user/commcms/www/_second-level/research/index.php');
 							?>
 						<!-- </content> -->
 

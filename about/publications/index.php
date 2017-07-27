@@ -25,14 +25,14 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$second_level    = 'campus-life';
-			$page_title_sub  = 'Campus Life';
+			$second_level    = 'publications';
+			$page_title_sub  = 'Publications';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook’s active and vibrant campus life is filled with co-curricular experiences to complement our academic curriculum and enhance the overall college experience. Hundreds of clubs and student organizations, intramural and Division I sports teams, art, music and cultural events throughout the year keep our diverse student body involved, active and entertained.';
-		    $og_url          = 'http://www.stonybrook.edu/campus-life';
-		    $main_nav_selected_tab = 5;
+		    $og_description  = 'We highlight Stony Brook’s driven, imaginative community and convey our key strengths and mission through a variety of platforms.';
+		    $og_url          = 'http://www.stonybrook.edu/about/publications/';
+		    $main_nav_selected_tab = 2;
 
 		    $page_to_top_link = true;
 
@@ -48,7 +48,7 @@
 
 		    $html_dom_parser = true;
 
-		    $site_breadcrumbs = false;
+		    $site_breadcrumbs = true;
 
 		    $mega_nav = true;
 		    $mega_nav_ou = true;
@@ -86,7 +86,7 @@
 							<?php 
 								$file = "{$second_level}/{$second_level}.php";
 								//include($pathForContent . $content . $secLv . $file);
-								include('/user/commcms/www/_second-level/campus-life/index.php');
+								include('/user/commcms/www/_second-level/about/publications.php');
 							?>
 						<!-- </content> -->
 

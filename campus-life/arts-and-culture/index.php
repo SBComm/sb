@@ -25,13 +25,13 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$second_level    = 'campus-life';
-			$page_title_sub  = 'Campus Life';
+			$second_level    = 'arts';
+			$page_title_sub  = 'The Arts at Stony Brook';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook’s active and vibrant campus life is filled with co-curricular experiences to complement our academic curriculum and enhance the overall college experience. Hundreds of clubs and student organizations, intramural and Division I sports teams, art, music and cultural events throughout the year keep our diverse student body involved, active and entertained.';
-		    $og_url          = 'http://www.stonybrook.edu/campus-life';
+		    $og_description  = 'Whether you play a musical instrument, paint, dance or enjoying watching from the audience, you’ll find many opportunities to explore your creative side at Stony Brook. Staller Center for the Arts offers professional performances by popular artists from around the world. Campus art galleries provide forums for visual artists to showcase their work. We also offer many courses that examine historical, sociological and cultural implications of the arts.';
+		    $og_url          = 'http://www.stonybrook.edu/campus-life/arts-and-culture/';
 		    $main_nav_selected_tab = 5;
 
 		    $page_to_top_link = true;
@@ -48,7 +48,7 @@
 
 		    $html_dom_parser = true;
 
-		    $site_breadcrumbs = false;
+		    $site_breadcrumbs = true;
 
 		    $mega_nav = true;
 		    $mega_nav_ou = true;
@@ -86,7 +86,7 @@
 							<?php 
 								$file = "{$second_level}/{$second_level}.php";
 								//include($pathForContent . $content . $secLv . $file);
-								include('/user/commcms/www/_second-level/campus-life/index.php');
+								include('/user/commcms/www/_second-level/campus-life/arts.php');
 							?>
 						<!-- </content> -->
 

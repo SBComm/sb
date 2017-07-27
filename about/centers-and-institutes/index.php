@@ -25,25 +25,31 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$second_level    = 'economic-development';
-			$page_title_sub  = 'Economic Development';
+			$second_level    = 'centers-and-institutes';
+			$page_title_sub  = 'Centers and Institutes';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'The Economic Development office works closely with business organizations and state and municipal agencies to promote Industry-University collaboration.';
-		    $og_url          = 'http://www.stonybrook.edu/economic-development/';
+		    $og_description  = 'Spanning arts and sciences, educational and clinical, Stony Brook has more than 100 specialized centers and institutes that provide services and resources to thousands locally and globally.
+';
+		    $og_url          = 'http://www.stonybrook.edu/about/centers-and-institutes/';
+		    $main_nav_selected_tab = 2;
 
 		    $page_to_top_link = true;
 
 		    $page_footerbar   = true;
 		    $page_footer      = true;
 
-		    //$audience_nav_selected_tab = 6;
+		    $carousel 		  = false;
 
-		    $carousel 		  = true;
-		    $carousel_2       = true;
+		    $page_scroll        = false;
+		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
+		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
+		    $page_scroll_mobile = false;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
 
-		    $site_breadcrumbs = false;
+		    $html_dom_parser = true;
+
+		    $site_breadcrumbs = true;
 
 		    $mega_nav = true;
 		    $mega_nav_ou = true;
@@ -77,16 +83,19 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 
+		                <!-- <content> -->
 							<?php 
-								$file = "economic-development/economic-development.php";
-								include($pathForContent . $content . $secLv . $file);
+								$file = "{$second_level}/{$second_level}.php";
+								//include($pathForContent . $content . $secLv . $file);
+								include('/user/commcms/www/_second-level/about/centers-and-institutes.php');
 							?>
+						<!-- </content> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
 		        	<?php if($page_footer) {
-						$file = $footer;
+						$file = "footers/sbu-footer.php";
 						include($path . $file);
 					} ?>
 					<?php if($page_footerbar) {

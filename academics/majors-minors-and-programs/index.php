@@ -25,14 +25,14 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'second-level';
-			$second_level    = 'campus-life';
-			$page_title_sub  = 'Campus Life';
+			$second_level    = 'majors-and-minors';
+			$page_title_sub  = 'Majors, Minors and Programs';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook’s active and vibrant campus life is filled with co-curricular experiences to complement our academic curriculum and enhance the overall college experience. Hundreds of clubs and student organizations, intramural and Division I sports teams, art, music and cultural events throughout the year keep our diverse student body involved, active and entertained.';
-		    $og_url          = 'http://www.stonybrook.edu/campus-life';
-		    $main_nav_selected_tab = 5;
+		    $og_description  = '"With more than 200 majors, minors and combined-degree programs, Stony Brook delivers a world-class education that will exceed your expectations. The University is a trailblazer in integrating research and undergraduate education.';
+		    $og_url          = 'http://www.stonybrook.edu/academics/majors-minors-and-programs/';
+		    $main_nav_selected_tab = 4;
 
 		    $page_to_top_link = true;
 
@@ -48,7 +48,7 @@
 
 		    $html_dom_parser = true;
 
-		    $site_breadcrumbs = false;
+		    $site_breadcrumbs = true;
 
 		    $mega_nav = true;
 		    $mega_nav_ou = true;
@@ -86,7 +86,7 @@
 							<?php 
 								$file = "{$second_level}/{$second_level}.php";
 								//include($pathForContent . $content . $secLv . $file);
-								include('/user/commcms/www/_second-level/campus-life/index.php');
+								include('/user/commcms/www/_second-level/academics/majors-minors-and-programs.php');
 							?>
 						<!-- </content> -->
 
