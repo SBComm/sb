@@ -1584,6 +1584,12 @@ body {
         padding: 20px;
     }
 
+    .programs-promo_cope .sbu-columns--column.one-third {
+        width: 48%;
+        margin: 0 1%;
+        padding: 20px;
+    }
+
     .second-level-2017 .events-widget .eventDate {
         padding: 12px 0 0 0;
     }
@@ -2431,6 +2437,12 @@ body {
 
         .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover .rays-promo-box-with-hover-text_wrapper {
             height: 560px;
+        }
+
+        .programs-promo_cope .sbu-columns--column.one-third {
+            width: 31.333%;
+            margin: 0 1%;
+            padding: 20px;
         }
     }
     
