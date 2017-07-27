@@ -417,7 +417,7 @@
                     </li>
 
                     <li class="inmenu--cta clearfix">
-                        <a href="http://www.stonybrook.edu/apply/" tabindex="11">Apply</a>
+                        <a href="http://www.stonybrook.edu/undergraduate-admissions/apply/" tabindex="11">Apply</a>
                         <a href="http://www.stonybrook.edu/advancement/" tabindex="12">Giving</a>
                         <a href="http://www.stonybrook.edu/visit/" tabindex="13">Visit</a>
                     </li>
