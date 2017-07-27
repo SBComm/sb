@@ -2,7 +2,7 @@
     <div class="border-box wrapper clearfix">
         <h3>Undergraduate Programs</h3>
         <div class="content clearfix">
-            <input id="live-filter-search" class="rounded-input" placeholder="Search programs, degrees, etc.">
+            <!--<input id="live-filter-search" class="rounded-input" placeholder="Search programs, degrees, etc.">-->
             <div class="key-icons pad-top">
                 <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Major"><span class="key-icons--icon key-icons--icon_red key-icons--icon_circle">M</span> = Major</div>
                 <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Minor"><span class="key-icons--icon key-icons--icon_aqua key-icons--icon_circle">m</span> = minor</div>
