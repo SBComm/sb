@@ -23,6 +23,7 @@
         <div class="content padding-box red-border clearfix margin-top margin-bottom">
             <h4>Undergraduate Bulletin</h4>
             <p>Please note that program information is maintained in the Undergraduate Bulletin. In some cases, not all program information is displayed. For complete information including academic policies and regulations as well as archived bulletins, please <a class="external-link" href="http://sb.cc.stonybrook.edu/bulletin/current/" target="_blank"><span class="hide-accessible">Click here to </span>visit the Undergraduate Bulletin</a>.</p>
+            <p>For information on combined degrees, <a class="external-link" href="http://www.stonybrook.edu/undergraduate-admissions/academics/combined-degrees/" target="_blank"><span class="hide-accessible">click here to </span>visit Undergraduate Admissions</a>.</p>
             <h4>Majors and Careers</h4>
             <p><a class="external-link" href="http://career.stonybrook.edu/students/educate/relate-majors-to-careers" target="_blank"><span class="hide-accessible">Click here to </span>Learn more about transferable skills and possible career paths</a>.</p>
         </div>
