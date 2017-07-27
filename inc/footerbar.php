@@ -7,7 +7,7 @@
 		        <div class="footer-container clearfix">
                     <footer class="footer-bar">
                         <nav class="wrapper">
-                            <span><span id="directedit" class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University</span><span><?php echo $physical_address ?>Stony Brook, NY 11794</span><span class="last">(631) 632-6000</span>
+                            <span><span id="directedit" class="copyright">&copy;</span> <?php echo date("Y") ?> Stony Brook University</span><span><?php echo $physical_address ?>Stony Brook, NY 11794</span><span>(631) 632-6000</span><span class="last"><a class="footer-bar_link" href="http://www.stonybrook.edu/contact/">Contact</a></span>
                             <div class="clearfix policy-links">
                                 <a class="item" href="http://www.stonybrook.edu/accessibility/">Accessibility</a>
                                 <a class="item" href="http://www.stonybrook.edu/privacy/">Privacy Policy</a>

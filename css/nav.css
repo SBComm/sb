@@ -836,6 +836,25 @@
 	font-size: inherit;
 }
 
+.footer-bar span a.footer-bar_link {
+	color: #fff;
+	border-radius: 0;
+	border: 0 none; 
+	font-size: inherit;
+	display: inline-block;
+	opacity: 1;
+	line-height: inherit;
+	font-size: 1em;
+	display: block;
+	background: transparent;
+	padding: 0 0 2px;
+	border-bottom: 2px solid transparent;
+}
+
+.footer-bar span a.footer-bar_link:hover {
+	border-color: #fff;
+}
+
 
 @media only screen and (min-width: 310px) {
 	.more-nav ul li {
