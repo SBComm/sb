@@ -211,18 +211,19 @@
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/academics/resources/" tabindex="305">Academic Resources</a></li>
                                     <li><a href="http://www.stonybrook.edu/academics/additional-programs/" tabindex="306">Additional Programs</a></li>
+                                    <li><a href="http://www.library.stonybrook.edu/" tabindex="307">Libraries</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Bulletins</h4></li>
-                                    <li><a href="http://www.stonybrook.edu/ugbulletin" tabindex="307">Undergraduate</a></li>
-                                    <li><a href="http://www.stonybrook.edu/gradbulletin" tabindex="308">Graduate</a></li>
-                                    <li><a href="http://www.stonybrook.edu/hsstudents/bulletin" tabindex="309">Health Sciences</a></li>
+                                    <li><a href="http://www.stonybrook.edu/ugbulletin" tabindex="308">Undergraduate</a></li>
+                                    <li><a href="http://www.stonybrook.edu/gradbulletin" tabindex="309">Graduate</a></li>
+                                    <li><a href="http://www.stonybrook.edu/hsstudents/bulletin" tabindex="310">Health Sciences</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.library.stonybrook.edu/" tabindex="380">Libraries</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/advising/" tabindex="380">Academic Advising</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="https://blackboard.stonybrook.edu/" tabindex="381">Blackboard</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/registrar" tabindex="381">Registrar</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/registrar" tabindex="382">Registrar</a>
                                 </div>
                             </div>
                         </div>
@@ -353,7 +354,7 @@
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
-                                <li><a href="http://www.stonybrook.edu/development/far-beyond/test/nav-2017/medicine.php">Medicine</a></li>
+                                <li><a href="http://www.stonybrook.edu/development/far-beyond/test/nav-2017/medicine.php">Overview</a></li>
                                 <li><a href="https://www.stonybrookmedicine.edu/education">Health Sciences Schools</a></li>
                                 <li><a href="http://library.stonybrook.edu/healthsciences/">Health Sciences Library</a></li>
                                 <li><a href="http://www.stonybrook.edu/commcms/hsstudents/">Health Sciences Student Services</a></li>
