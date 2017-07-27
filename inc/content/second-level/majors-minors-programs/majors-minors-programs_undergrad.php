@@ -2,7 +2,7 @@
     <div class="border-box wrapper clearfix">
         <h3>Undergraduate Programs</h3>
         <div class="content clearfix">
-            <!--<input id="live-filter-search" class="rounded-input" placeholder="Search programs, degrees, etc.">-->
+            <input id="live-filter-search-1" class="rounded-input" placeholder="Search programs, degrees, etc.">
             <div class="key-icons pad-top">
                 <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Major"><span class="key-icons--icon key-icons--icon_red key-icons--icon_circle">M</span> = Major</div>
                 <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Minor"><span class="key-icons--icon key-icons--icon_aqua key-icons--icon_circle">m</span> = minor</div>
@@ -11,7 +11,7 @@
                 <!--<div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Non-Degree"><span class="key-icons--icon key-icons--icon_black">&nbsp;</span> = Non-Degree</div>-->
                 <div class="key-icons--item do-live-filter-search-term" data-live-filter-term=""><span class="key-icons--icon key-icons--icon_grey key-icons--icon_circle"><em class="fa fa-eye"></em></span> Show All</div>
             </div>
-            <div id="live-filter-list" class="three-col-list-wrapper searchable major-minor-badges major-minor-badges--wider-badges" data-search-id="course-list">
+            <div id="live-filter-list-1" class="three-col-list-wrapper searchable major-minor-badges major-minor-badges--wider-badges" data-search-id="course-list">
                 
                 <?php
                     //include($path . 'scripts/get-academics-programs_undergrad.php');

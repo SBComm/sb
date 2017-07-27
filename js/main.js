@@ -548,5 +548,7 @@ var initReady = function() {
 
 	$('.do-live-filter-search-term').on('click',function() {
 		$('#live-filter-search').val($(this).attr('data-live-filter-term')).change();
+		$('.do-live-filter-search-term').removeClass('selected');
+		$(this).addClass('selected');
 	});
 };

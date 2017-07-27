@@ -257,6 +257,8 @@ if($social_feed_widget) { ?>
 		<?php includeAsset('js','js/vendor/jquery.fastLiveFilter.js'); ?>
 		<script>
 			$('#live-filter-search').fastLiveFilter('#live-filter-list ul');
+			$('#live-filter-search-1').fastLiveFilter('#live-filter-list-1 ul');
+			$('#live-filter-search-2').fastLiveFilter('#live-filter-list-2 ul');
 		</script>
     <?php } ?>
 
