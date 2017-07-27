@@ -2,11 +2,12 @@ h2, h3, h4, h5 {
   margin-top: 0;
   text-transform: none; }
 
-h2 {
+.wpb_wrapper h2 {
   font-size: 1.7rem;
+  font-weight: 300;
 }
 @media (min-width: 400px) {
-  h2 {
+  .wpb_wrapper h2 {
     font-size: 2rem;
   }
 }
@@ -385,7 +386,6 @@ h2, .changingWorld h3,
   -o-background-size: cover;
   background-size: cover;
   padding: 10% 0;
-  margin-bottom: 5rem;
   z-index: 10; }
 @media (min-width: 800px) {
   .seawolfStrip {
@@ -520,7 +520,10 @@ h2, .changingWorld h3,
     margin: 0 auto; } }
 
 .boldMoves {
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  background: #fff;
+  display: block;
+  padding-top: 5rem; }
   .boldMoves::after {
     clear: both;
     content: "";
@@ -826,6 +829,10 @@ h2, .changingWorld h3,
     width: 100%;
     right: 0;
     z-index: 2; }
+
+  .boldMovesBox.engaged a.boldMovesBox-story:hover {
+    text-decoration: none;
+  }
 
   .boldMovesBox.engaged .boldMovesBox-link span {
     display: inline; }

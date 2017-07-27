@@ -15,6 +15,14 @@
 		padding-top: 88px;
 	}
 
+	.main-nav-container + .main-container > .main >.hero-sb {
+		padding-top: 0;
+	}
+
+	.hero-sb .hero-sb_text {
+	    padding-top: 120px;
+	}
+
 	.second-level-2017_interior {
 		padding-top: 88px;
 	}
