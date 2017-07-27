@@ -32,7 +32,7 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Whether you play a musical instrument, paint, dance or enjoying watching from the audience, you’ll find many opportunities to explore your creative side at Stony Brook. Staller Center for the Arts offers professional performances by popular artists from around the world. Campus art galleries provide forums for visual artists to showcase their work. We also offer many courses that examine historical, sociological and cultural implications of the arts.';
 		    $og_url          = 'http://www.stonybrook.edu/campus-life/arts-and-culture/';
-		    $main_nav_selected_tab = 2;
+		    $main_nav_selected_tab = 5;
 
 		    $page_to_top_link = true;
 
