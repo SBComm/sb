@@ -690,15 +690,25 @@ ul.three-col-list {
 
 @media only screen and (max-width: 1024px) {
 
-.do-live-filter-search-term {
-    cursor: pointer;
-    padding: 5px 6px;
-}
+    .second-level-2017 section.majors-minors > div.wrapper {
+        width: 97%;
+        margin: 0 1.5%;
+    }
+
+    .do-live-filter-search-term {
+        cursor: pointer;
+        padding: 5px 6px;
+    }
 
 }
 
+@media only screen and (min-width: 1025px) {
 
+    .second-level-2017 section.majors-minors input.rounded-input {
+        max-width: 50%;
+    }
 
+}
 
 
 
