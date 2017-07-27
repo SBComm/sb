@@ -2391,7 +2391,7 @@ body {
         margin: 0 0 30px;
     }
 
-    @media only screen and (max-width: 1023px), (any-hover: none) {
+    @media only screen and (max-width: 1023px) {
         .new-brand .content-wrapper .rays-promo-box-with-hover-text,
         .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover {
             height: auto;
