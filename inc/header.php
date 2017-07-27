@@ -7,7 +7,7 @@
         <title><?php echo $page_title_full; ?></title>
 
         <meta name="author" content="Stony Brook Office of Communications">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <meta name="description" content="<?php echo $og_description; ?>">
         <meta name="keywords" content="<?php echo $keywords; ?>">
         <!--<meta name="format-detection" content="telephone=no">-->
