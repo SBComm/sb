@@ -1697,12 +1697,15 @@ body {
 
     }
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 768px) and (any-hover) {
 
         .second-level-2017 .background-scroll .section-bkg-container,
         .second-level-2017 .background-scroll .promo-section {
             background-attachment: fixed;
         }
+    }
+
+    @media only screen and (min-width: 768px) {
 
         .second-level-2017 a.sbu-outline-button.sbu-outline-button--red,
         .second-level-2017 a.sbu-outline-button.sbu-outline-button--black {
@@ -2391,7 +2394,7 @@ body {
         margin: 0 0 30px;
     }
 
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: 1023px), (any-hover: none) {
         .new-brand .content-wrapper .rays-promo-box-with-hover-text,
         .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover {
             height: auto;
