@@ -7,8 +7,8 @@
                 <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Major"><span class="key-icons--icon key-icons--icon_red key-icons--icon_circle">M</span> = Major</div>
                 <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Minor"><span class="key-icons--icon key-icons--icon_aqua key-icons--icon_circle">m</span> = minor</div>
                 <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Bachelor"><span class="key-icons--icon key-icons--icon_blue">&nbsp;</span> = Bachelor</div>
-                <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Special"><span class="key-icons--icon key-icons--icon_purple">&nbsp;</span> = Special</div>
-                <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Non-Degree"><span class="key-icons--icon key-icons--icon_black">&nbsp;</span> = Non-Degree</div>
+                <div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Secondary Teacher Education"><span class="key-icons--icon key-icons--icon_purple">&nbsp;</span> = Secondary Teacher Education</div>
+                <!--<div class="key-icons--item do-live-filter-search-term" data-live-filter-term="Non-Degree"><span class="key-icons--icon key-icons--icon_black">&nbsp;</span> = Non-Degree</div>-->
                 <div class="key-icons--item do-live-filter-search-term" data-live-filter-term=""><span class="key-icons--icon key-icons--icon_grey key-icons--icon_circle"><em class="fa fa-eye"></em></span> Show All</div>
             </div>
             <div id="live-filter-list" class="three-col-list-wrapper searchable major-minor-badges major-minor-badges--wider-badges" data-search-id="course-list">
