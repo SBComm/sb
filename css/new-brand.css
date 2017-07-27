@@ -527,7 +527,7 @@ h4 {
 
 .key-icons--item {
     display: inline-block;
-    margin: 0 15px 0 0;
+    margin: 0 5px 0 0;
 }
 
 
@@ -675,7 +675,19 @@ ul.three-col-list {
 
 .do-live-filter-search-term {
     cursor: pointer;
+    padding: 2px 5px;
 }
+
+.do-live-filter-search-term:hover {
+    color: #900;
+}
+
+.do-live-filter-search-term.selected {
+    background-color: #e8e8e8;
+    color: #900;
+    border-radius: 2px;
+}
+
 
 
 
