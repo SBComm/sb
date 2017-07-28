@@ -232,7 +232,7 @@
                         <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==5) echo(' active'); ?>" href="http://www.stonybrook.edu/campus-life/" tabindex="400">Campus Life</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Campus Life</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg)" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col-campus-life-2.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="http://www.stonybrook.edu/campus-life/">Overview</a></li>
