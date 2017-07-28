@@ -1,33 +1,33 @@
 <?php if($mega_nav_ou==true) { ?>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/jquery/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/jquery/jquery-1.11.1.min.js"></script>
 
 	<?php includeAsset('js','js/plugins.js'); ?>
 	<?php includeAsset('js','js/main.js'); ?>
 
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/jquery.animateNumber.min.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/responsive.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/plugins.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/jquery.animateNumber.min.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/responsive.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/plugins.js"></script>
 
-	<script type="text/javascript" src="http://www.stonybrook.edu/js/vendor/jquery.sticky.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/js/vendor/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/js/vendor/jquery.easing.compatibility.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/jquery.fittext.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/jquery.fastLiveFilter.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/jquery.scrollTo.min.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/jquery.localScroll.min.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/js/vendor/jquery.ba-bbq.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/js/vendor/jquery.motio.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/js/vendor/jquery.tooltipster.min.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/filter/text-filter.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/waypoints/jquery.waypoints.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/waypoints/shortcuts/inview.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/countUp.min.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/plugins/slick/slick.min.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/nivo-lightbox.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb-v2/main.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/plugins/tablesaw/tablesaw.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb/accordion-nav/accordion-nav.js"></script>
-	<script type="text/javascript" src="http://www.stonybrook.edu/commcms/_resources/js/sb/vendor/tooltipster/jquery.tooltipster.min.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/js/vendor/jquery.sticky.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/js/vendor/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/js/vendor/jquery.easing.compatibility.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/jquery.fittext.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/jquery.fastLiveFilter.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/jquery.scrollTo.min.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/jquery.localScroll.min.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/js/vendor/jquery.ba-bbq.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/js/vendor/jquery.motio.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/js/vendor/jquery.tooltipster.min.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/filter/text-filter.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/waypoints/jquery.waypoints.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/waypoints/shortcuts/inview.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/vendor/countUp.min.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/plugins/slick/slick.min.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/nivo-lightbox.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb-v2/main.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/plugins/tablesaw/tablesaw.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb/accordion-nav/accordion-nav.js"></script>
+	<script type="text/javascript" src="//www.stonybrook.edu/commcms/_resources/js/sb/vendor/tooltipster/jquery.tooltipster.min.js"></script>
 <?php } ?>
 <?php if($mega_nav==true) { ?>
 	<?php includeAsset('js','js/mega-nav-2017.js'); ?>
