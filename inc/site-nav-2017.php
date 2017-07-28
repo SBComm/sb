@@ -287,13 +287,13 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--research">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==6) echo(' active'); ?>" href="http://www.stonybrook.edu/research/" tabindex="500">Research</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==6) echo(' active'); ?>" href="http://www.stonybrook.edu/research/?overview" tabindex="500">Research</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Research</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
-                                <li><a href="http://www.stonybrook.edu/research/">Overview</a></li>
+                                <li><a href="http://www.stonybrook.edu/research/?overview">Overview</a></li>
                                 <li><a href="http://research.stonybrook.edu/researchers">For Researchers</a></li>
                                 <li><a href="http://research.stonybrook.edu/offices">Research Offices</a></li>
                                 <li><a href="http://research.stonybrook.edu/centers-and-institutes">Centers &amp; Institutes</a></li>
@@ -318,7 +318,7 @@
 
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
-                                    <li><a href="http://www.stonybrook.edu/research/" tabindex="501">Overview</a></li>
+                                    <li><a href="http://www.stonybrook.edu/research/?overview" tabindex="501">Overview</a></li>
                                     <li><a href="http://research.stonybrook.edu/researchers" tabindex="502">For Researchers</a></li>
                                     <li><a href="http://research.stonybrook.edu/offices" tabindex="503">Research Offices</a></li>
                                     <li><a href="http://research.stonybrook.edu/centers-and-institutes" tabindex="504">Centers &amp; Institutes</a></li>
@@ -348,13 +348,13 @@
                     <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link <?php if($main_nav_selected_tab==7) echo(' active'); ?>" href="http://www.stonybrook.edu/athletics/" tabindex="600">Athletics</a></li>
 
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--medicine">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==8) echo(' active'); ?>" href="http://www.stonybrook.edu/medicine/" tabindex="700">Medicine</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==8) echo(' active'); ?>" href="http://www.stonybrook.edu/medicine/?overview" tabindex="700">Medicine</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Medicine</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
-                                <li><a href="http://www.stonybrook.edu/medicine/">Overview</a></li>
+                                <li><a href="http://www.stonybrook.edu/medicine/?overview">Overview</a></li>
                                 <li><a href="https://www.stonybrookmedicine.edu/education">Health Sciences Schools</a></li>
                                 <li><a href="http://library.stonybrook.edu/healthsciences/">Health Sciences Library</a></li>
                                 <li><a href="http://www.stonybrook.edu/commcms/hsstudents/">Health Sciences Student Services</a></li>
@@ -380,7 +380,7 @@
 
                             <div class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
-                                    <li><a href="http://www.stonybrook.edu/medicine/" tabindex="701">Overview</a></li>
+                                    <li><a href="http://www.stonybrook.edu/medicine/?overview" tabindex="701">Overview</a></li>
                                     <li><a href="https://www.stonybrookmedicine.edu/education" tabindex="702">Health Sciences Schools</a></li>
                                     <li><a href="http://library.stonybrook.edu/healthsciences/" tabindex="703">Health Sciences Library</a></li>
                                     <li><a href="http://www.stonybrook.edu/commcms/hsstudents/" tabindex="704">Health Sciences Student Services</a></li>
