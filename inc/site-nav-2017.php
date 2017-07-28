@@ -348,7 +348,7 @@
                     <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link <?php if($main_nav_selected_tab==7) echo(' active'); ?>" href="http://www.stonybrook.edu/athletics/" tabindex="600">Athletics</a></li>
 
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--medicine">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==8) echo(' active'); ?>" href="http://medicine.stonybrook.edu/" tabindex="700">Medicine</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==8) echo(' active'); ?>" href="http://www.stonybrook.edu/medicine/" tabindex="700">Medicine</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Medicine</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />
