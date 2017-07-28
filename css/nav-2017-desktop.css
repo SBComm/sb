@@ -218,6 +218,18 @@
 		border-bottom: 2px solid #fff !important;
 	}
 
+	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level a.active-current {
+		color: #900;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--audiences:hover .mp-level a.active-current {
+		color: #000;
+	}
+
+	#mp-menu .mp-level ul > li.inmenu--audiences:hover .mp-level a.active-current:hover {
+		color: #900;
+	}
+
 	#mp-menu .mp-level ul > li.inmenu--logins > .inmenu--logins-link {
 		float: right;
 		cursor: default;

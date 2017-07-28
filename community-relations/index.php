@@ -32,6 +32,7 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'The Office of Community Relations is the liaison between Stony Brook University and the neighboring communities.';
 		    $og_url          = 'http://www.stonybrook.edu/community-relations';
+		    $audience_nav_selected_tab = 5;
 
 		    $page_to_top_link = true;
 

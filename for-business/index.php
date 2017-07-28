@@ -32,6 +32,7 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'The Economic Development office works closely with business organizations and state and municipal agencies to promote Industry-University collaboration.';
 		    $og_url          = 'http://www.stonybrook.edu/for-business/';
+		    $audience_nav_selected_tab = 6;
 
 		    $page_to_top_link = true;
 

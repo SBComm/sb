@@ -444,12 +444,12 @@
                             <h2 class="nav-icon nav-icon-arrow-right-2">Audiences</h2>
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul>
-                                <li><a href="http://www.stonybrook.edu/for-students/" tabindex="51">Students</a></li>
-                                <li><a href="http://www.stonybrook.edu/faculty-staff/" tabindex="52">Faculty / Staff</a></li>
-                                <li><a href="http://www.stonybrook.edu/alumni-and-friends/" tabindex="53">Alumni &amp; Friends</a></li>
-                                <li><a href="http://www.stonybrook.edu/undergraduate-admissions/parents/" tabindex="54">Parents</a></li>
-                                <li><a href="http://www.stonybrook.edu/community-relations/" tabindex="55">Community</a></li>
-                                <li><a href="http://www.stonybrook.edu/for-business" tabindex="56">Business</a></li>
+                                <li><a class="<?php if($audience_nav_selected_tab==1) echo(' active-current'); ?>" href="http://www.stonybrook.edu/for-students/" tabindex="51">Students</a></li>
+                                <li><a class="<?php if($audience_nav_selected_tab==2) echo(' active-current'); ?>" href="http://www.stonybrook.edu/faculty-staff/" tabindex="52">Faculty / Staff</a></li>
+                                <li><a class="<?php if($audience_nav_selected_tab==3) echo(' active-current'); ?>" href="http://www.stonybrook.edu/alumni-and-friends/" tabindex="53">Alumni &amp; Friends</a></li>
+                                <li><a class="<?php if($audience_nav_selected_tab==4) echo(' active-current'); ?>" href="http://www.stonybrook.edu/undergraduate-admissions/parents/" tabindex="54">Parents</a></li>
+                                <li><a class="<?php if($audience_nav_selected_tab==5) echo(' active-current'); ?>" href="http://www.stonybrook.edu/community-relations/" tabindex="55">Community</a></li>
+                                <li><a class="<?php if($audience_nav_selected_tab==6) echo(' active-current'); ?>" href="http://www.stonybrook.edu/for-business" tabindex="56">Business</a></li>
                             </ul>
                         </div>
                     </li>

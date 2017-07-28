@@ -32,6 +32,7 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Faculty and Staff at SBU find links and resources to Campus Services, as well as the latest campus news.';
 		    $og_url          = 'http://www.stonybrook.edu/faculty-staff';
+		    $audience_nav_selected_tab = 2;
 
 		    $page_to_top_link = true;
 

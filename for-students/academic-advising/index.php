@@ -32,6 +32,7 @@
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Current students at Stony Brook University find class schedules, links, clubs and opportunities to thrive in campus life.';
 		    $og_url          = 'http://www.stonybrook.edu/for-students';
+		    $audience_nav_selected_tab = 1;
 
 		    $page_to_top_link = true;
 
