@@ -22,13 +22,13 @@
                             <a href="http://www.stonybrook.edu/campus-life/" class="clearfix">Campus Life</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://www.stonybrook.edu/research/" class="clearfix">Research</a>
+                            <a href="http://www.stonybrook.edu/research/?overview" class="clearfix">Research</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/athletics/" class="clearfix">Athletics</a>
                         </li>
                         <li class="clearfix">
-                            <a href="http://stonybrookmedicine.edu" class="clearfix">Medicine</a>
+                            <a href="http://www.stonybrook.edu/medicine/?overview" class="clearfix">Medicine</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/giving/" class="clearfix">Giving</a>
