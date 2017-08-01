@@ -266,7 +266,7 @@ echo 'social_feed_widget: '.$social_feed_widget;
 echo 'social_channel_id: '.$social_channel_id;
 */
 if($social_feed_widget) { ?>
-	<script src="/js/social-v2/js/jquery.social.stream.wall.1.7.js"></script>
+	<!--<script src="/js/social-v2/js/jquery.social.stream.wall.1.7.js"></script>-->
 	<script src="/js/social-v2/js/jquery.social.stream.1.6.js"></script>
 	<?php includeAsset('js','/js/social/preload-messages.js'); ?>
 
