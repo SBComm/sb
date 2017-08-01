@@ -310,7 +310,7 @@
                                             <li><a href="http://www.stonybrook.edu/admissions/high-school/">High School</a></li>
                                             <li><a href="http://www.stonybrook.edu/ureca">Undergraduate</a></li>
                                             <li><a href="http://grad.stonybrook.edu/">Graduate</a></li>
-                                            <li><a href="http://www.stonybrook.edu/postdoc/">Post-Docs</a></li>
+                                            <li><a href="http://www.stonybrook.edu/postdocs">Post-Docs</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -333,7 +333,7 @@
                                     <li><a href="http://www.stonybrook.edu/admissions/high-school/" tabindex="508">High School</a></li>
                                     <li><a href="http://www.stonybrook.edu/ureca" tabindex="509">Undergraduate</a></li>
                                     <li><a href="http://grad.stonybrook.edu/" tabindex="510">Graduate</a></li>
-                                    <li><a href="http://www.stonybrook.edu/postdoc/" tabindex="511">Post-Docs</a></li>
+                                    <li><a href="http://www.stonybrook.edu/postdocs" tabindex="511">Post-Docs</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
