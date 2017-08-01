@@ -297,7 +297,7 @@
                                 <li><a href="http://research.stonybrook.edu/researchers">For Researchers</a></li>
                                 <li><a href="http://research.stonybrook.edu/offices">Research Offices</a></li>
                                 <li><a href="http://research.stonybrook.edu/centers-and-institutes">Centers &amp; Institutes</a></li>
-                                <li><a href="http://www.stonybrook.edu/happenings/category/sb_medicine/">Research Highlights</a></li>
+                                <li><a href="http://www.stonybrook.edu/happenings/category/research/">Research Highlights</a></li>
                                 <li><a href="http://myresearch.stonybrook.edu/">MyResearch</a></li>
                                 <li><a href="http://research.stonybrook.edu/vpr/statistics.shtml">Facts &amp; Figures</a></li>
                                 <li><a href="http://www.library.stonybrook.edu/">Libraries</a></li>
@@ -324,7 +324,7 @@
                                     <li><a href="http://research.stonybrook.edu/centers-and-institutes" tabindex="504">Centers &amp; Institutes</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="http://www.stonybrook.edu/happenings/category/sb_medicine/" tabindex="505">Research Highlights</a></li>
+                                    <li><a href="http://www.stonybrook.edu/happenings/category/research/" tabindex="505">Research Highlights</a></li>
                                     <li><a href="http://myresearch.stonybrook.edu/" tabindex="506">MyResearch</a></li>
                                     <li><a href="http://research.stonybrook.edu/vpr/statistics.shtml" tabindex="507">Facts &amp; Figures</a></li>
                                 </ul>
