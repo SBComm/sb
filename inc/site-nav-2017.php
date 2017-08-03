@@ -221,7 +221,7 @@
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/advising/" tabindex="380">Academic Advising</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/for-students/academic-advising/" tabindex="380">Academic Advising</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="https://blackboard.stonybrook.edu/" tabindex="381">Blackboard</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/registrar" tabindex="382">Registrar</a>
                                 </div>
