@@ -390,6 +390,7 @@ h2, .changingWorld h3,
 @media (min-width: 800px) {
   .seawolfStrip {
     background: #800000 url(../../img/home-apr15/redSwooshes.jpg) repeat top center fixed;
+    background-size: cover;
   }
 }
   .seawolfStrip::after {
@@ -849,6 +850,7 @@ h2, .changingWorld h3,
 @media (min-width: 800px) {
   .whatsComingUp {
     background: #800000 url(../../img/home-apr15/redSwooshes.jpg) repeat top center fixed;
+    background-size: cover;
   }
 }
   .whatsComingUp::after {
