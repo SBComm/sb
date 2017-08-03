@@ -360,7 +360,8 @@
                                 <li><a href="http://www.stonybrook.edu/commcms/hsstudents/">Health Sciences Student Services</a></li>
                                 <li><a href="https://www.stonybrookmedicine.edu/sbuh">University Hospital</a></li>
                                 <li><a href="https://www.stonybrookchildrens.org/">Childrens Hospital</a></li>
-                                <li><a href="http://www.listateveteranshome.org/">Long Island State Veterans Home</a></li>
+                                <li><a href="http://www.listateveteranshome.org/">Veterans Home</a></li>
+                                <li><a href="https://southampton.stonybrookmedicine.edu/">Southampton Hospital</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="https://www.stonybrookmedicine.edu/patients-visitors">Visitor Resources</a>
                                     <div class="mp-level">
@@ -389,12 +390,13 @@
                                     <li><a href="https://www.stonybrookmedicine.edu/sbuh" tabindex="705">University Hospital</a></li>
                                     <li><a href="https://www.stonybrookchildrens.org/" tabindex="706">Childrens Hospital</a></li>
                                     <li><a href="http://www.listateveteranshome.org/" tabindex="707">Long Island State Veterans&nbsp;Home</a></li>
+                                    <li><a href="https://southampton.stonybrookmedicine.edu/" tabindex="708">Southampton Hospital</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Resources</h4></li>
-                                    <li><a href="https://www.stonybrookmedicine.edu/find-a-doctor" tabindex="110">Find A Doctor</a></li>
-                                    <li><a href="https://www.stonybrookmedicine.edu/patient-portal" tabindex="111">Patient Portal</a></li>
-                                    <li><a href="https://www.stonybrookmedicine.edu/patients-visitors" tabindex="112">Visitor Information</a></li>
+                                    <li><a href="https://www.stonybrookmedicine.edu/find-a-doctor" tabindex="709">Find A Doctor</a></li>
+                                    <li><a href="https://www.stonybrookmedicine.edu/patient-portal" tabindex="710">Patient Portal</a></li>
+                                    <li><a href="https://www.stonybrookmedicine.edu/patients-visitors" tabindex="711">Visitor Information</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
