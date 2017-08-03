@@ -28,7 +28,6 @@
 			$second_level    = 'site-directory';
 			$page_title_sub  = 'About';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
-			$keywords  		 = 'about stony brook, stonybrook, colleges long island, new york colleges, best university new york';
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
 		    $og_description  = 'Stony Brook University is one of America’s most dynamic public universities, a center of academic excellence and an internationally recognized research institution that is changing the world.';

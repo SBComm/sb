@@ -75,7 +75,7 @@
     $page_cat          = 'main';        //Options are main (for first and second level), sub (for sites)
     $page_title        = 'Stony Brook University, New York';
     $page_description  = 'Find out why Stony Brook University has become an internationally recognized research institution that is changing the world. Explore programs and degrees offered for endless career opportunities. Start your journey in education today!';
-    $keywords          = 'Stony Brook University, SUNY Stony Brook, SUNY-SB, SUNYSB, research university, summer session, University of Stony Brook, University at Stony Brook, Stonybrook, Undergraduate Admissions, New York Colleges'>
+    $keywords          = 'Stony Brook University, SUNY Stony Brook, SUNY-SB, SUNYSB, research university, summer session, University of Stony Brook, University at Stony Brook, Stonybrook, Undergraduate Admissions, New York Colleges';
     $page_title_sub    = '';
 
     $page_title_full   = $page_title . $page_title_sub;
