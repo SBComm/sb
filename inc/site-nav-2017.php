@@ -359,7 +359,7 @@
                                 <li><a href="http://library.stonybrook.edu/healthsciences/">Health Sciences Library</a></li>
                                 <li><a href="http://www.stonybrook.edu/commcms/hsstudents/">Health Sciences Student Services</a></li>
                                 <li><a href="https://www.stonybrookmedicine.edu/sbuh">University Hospital</a></li>
-                                <li><a href="https://www.stonybrookchildrens.org/">Childrens Hospital</a></li>
+                                <li><a href="https://www.stonybrookchildrens.org/">Children's Hospital</a></li>
                                 <li><a href="http://www.listateveteranshome.org/">Veterans Home</a></li>
                                 <li><a href="https://southampton.stonybrookmedicine.edu/">Southampton Hospital</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
@@ -388,7 +388,7 @@
                                 </ul>
                                 <ul>
                                     <li><a href="https://www.stonybrookmedicine.edu/sbuh" tabindex="705">University Hospital</a></li>
-                                    <li><a href="https://www.stonybrookchildrens.org/" tabindex="706">Childrens Hospital</a></li>
+                                    <li><a href="https://www.stonybrookchildrens.org/" tabindex="706">Children's Hospital</a></li>
                                     <li><a href="http://www.listateveteranshome.org/" tabindex="707">Long Island State Veterans&nbsp;Home</a></li>
                                     <li><a href="https://southampton.stonybrookmedicine.edu/" tabindex="708">Southampton Hospital</a></li>
                                 </ul>
