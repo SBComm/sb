@@ -74,7 +74,7 @@
                             <a href="http://www.stonybrook.edu/site-directory/" class="clearfix">A-Z Web Directory</a>
                         </li>
                         <li class="clearfix">
-                            <a href="#" class="clearfix">News &amp; Publications</a>
+                            <a href="http://www.stonybrook.edu/about/publications/" class="clearfix">Publications</a>
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/jobs/" class="clearfix">Jobs</a>
