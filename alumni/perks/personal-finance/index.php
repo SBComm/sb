@@ -118,7 +118,7 @@
 
 		                <!-- <alumni> -->
 							<?php 
-								$file = "alumni/get-perks/dining.php";
+								$file = "alumni/get-perks/personal-finance.php";
 								include($pathForContent . $content . $secLv . $file);
 							?>
 						<!-- </alumni> -->
