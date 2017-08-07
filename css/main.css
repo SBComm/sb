@@ -490,6 +490,11 @@ a[href$=".pptx"]:after {
     content: "\f1c4";
 }
 
+a[href$=".latex"]:after,
+.pdf-icon-after:after {
+    content: "\f0f6";
+}
+
 .no-overflow {
     overflow: hidden;
 }
