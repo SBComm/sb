@@ -1,4 +1,4 @@
-<footer class="sbu-footer" id="footer-navigation">
+ <footer class="sbu-footer" id="footer-navigation">
     <nav class="more-nav-v3 clearfix">
         <div class="wrapper">
             <div class="more-nav-v3-wrapper">
@@ -90,6 +90,9 @@
                         </li>
                         <li class="clearfix">
                             <a href="http://www.stonybrook.edu/visit/" class="clearfix">Visiting</a>
+                        </li>
+                        <li class="clearfix">
+                            <a href="http://www.stonybrook.edu/pres/" class="clearfix">Office of the President</a>
                         </li>
                     </ul>
                 </div>
