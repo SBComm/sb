@@ -451,7 +451,7 @@ a[href$=".doc"]:after,
 a[href$=".docx"]:after,
 a[href$=".ppt"]:after,
 a[href$=".pptx"]:after,
-a[href$=".latex"]:after,
+a[href$=".tex"]:after,
 .pdf-icon-after:after {
     display: inline-block;
     margin: 0 2px 0 5px;
@@ -491,7 +491,7 @@ a[href$=".pptx"]:after {
     content: "\f1c4";
 }
 
-a[href$=".latex"]:after,
+a[href$=".tex"]:after,
 .pdf-icon-after:after {
     content: "\f0f6";
 }
