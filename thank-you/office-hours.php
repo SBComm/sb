@@ -108,10 +108,10 @@
 
                                 $resp = $recaptcha->verify($gRecaptchaResponse, $remoteIp);
                                 if ($resp->isSuccess()) {
-                                	if($_POST['first-name']!='' && $_POST['last-name']!='' && $_POST['email']!='' && $_POST['date']!='' && $_POST['topic']!='' && $_POST['g-recaptcha-response']!='') {
+                                	if($_POST['first-name']!='' && $_POST['last-name']!='' && $_POST['email']!='' && $_POST['sbu-id']!='' && $_POST['date']!='' && $_POST['topic']!='' && $_POST['g-recaptcha-response']!='') {
 										echo('<div id="google-response" style="display: none;">');
 
-									    $url = 'https://docs.google.com/forms/d/e/1FAIpQLSeMvReaPL2bJwBeHBl4K97UzbklNeQI6F4zKOWXEFylh2EMnA/formResponse?entry.400857025='.htmlspecialchars($_POST['first-name']).'&entry.417680940='.htmlspecialchars($_POST['last-name']).'&entry.1523563919='.htmlspecialchars($_POST['email']).'&entry.1787604701='.htmlspecialchars($_POST['date']).'&entry.818029876='.htmlspecialchars($_POST['topic']).'&entry.1881785626='.htmlspecialchars($_POST['source-url']).'&submit=Submit';
+									    $url = 'https://docs.google.com/forms/d/e/1FAIpQLSeMvReaPL2bJwBeHBl4K97UzbklNeQI6F4zKOWXEFylh2EMnA/formResponse?entry.400857025='.htmlspecialchars($_POST['first-name']).'&entry.417680940='.htmlspecialchars($_POST['last-name']).'&entry.1523563919='.htmlspecialchars($_POST['email']).'entry.1244587735='.htmlspecialchars($_POST['sbu-id']).'&entry.1787604701='.htmlspecialchars($_POST['date']).'&entry.818029876='.htmlspecialchars($_POST['topic']).'&entry.1881785626='.htmlspecialchars($_POST['source-url']).'&submit=Submit';
 										$url = preg_replace('/\s+/', '%20', $url);
 									    $ch = curl_init($url);
 

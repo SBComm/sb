@@ -1,18 +1,22 @@
 <div id="basic-contact-form_pres-2017_wrapper" class="basic-contact-form_pres-2017">
     <form id="basic-contact-form_pres-2017" class="brand-form brand-form_label_above clearfix" action="http://www.stonybrook.edu/thank-you/office-hours.php" method="POST">
-        <div class="brand-form_container one-quarter">
+        <div class="brand-form_container one-half">
             <label class="brand-form_control-label" for="first-name">First Name</label>
-            <input id="input-first-name" class="" name="first-name" type="text" placeholder="Wolfie" required="required" value="<?php echo htmlspecialchars($_POST['first-name']); ?>" />
+            <input id="input-first-name" class="" name="first-name" type="text" placeholder="Wolfie" required="required" />
         </div>
-        <div class="brand-form_container one-quarter">
+        <div class="brand-form_container one-half">
             <label class="brand-form_control-label" for="last-name">Last Name</label>
-            <input id="input-last-name" class="" name="last-name" type="text" placeholder="Seawolf" required="required" value="<?php echo htmlspecialchars($_POST['last-name']); ?>" />
+            <input id="input-last-name" class="" name="last-name" type="text" placeholder="Seawolf" required="required" />
         </div>
-        <div class="brand-form_container one-quarter">
+        <div class="brand-form_container one-third">
             <label class="brand-form_control-label" for="email">Email Address</label>
-            <input id="input-email" class="" name="email" type="email" placeholder="your.name@stonybrook.edu" required="required" value="<?php echo htmlspecialchars($_POST['email']); ?>"  />
+            <input id="input-email" class="" name="email" type="email" placeholder="your.name@stonybrook.edu" required="required"  />
         </div>
-        <div class="brand-form_container one-quarter">
+        <div class="brand-form_container one-third">
+            <label class="brand-form_control-label" for="sbu-id">Stony Brook ID</label>
+            <input id="input-sbu-id" class="" name="sbu-id" type="sbu-id" placeholder="112234567" required="required"  />
+        </div>
+        <div class="brand-form_container one-third">
             <label class="brand-form_control-label" for="date">Date Requested</label>
             <select id="input-date" class="" name="date" placeholder="Date Requested" required="required" value="<?php echo htmlspecialchars($_POST['date']); ?>">
                 <option value="Date 1">Date 1</option>
