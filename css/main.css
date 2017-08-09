@@ -220,9 +220,29 @@ select.rounded-input {
     width: 92%;
 }
 
+.brand-form_container.one-half input,
+.brand-form_container.one-half select {
+    width: 95%;
+}
+
+.brand-form_container.three-quarter input,
+.brand-form_container.three-quarter select {
+    width: 97.25%;
+}
+
 .brand-form_container.one-fifth input,
 .brand-form_container.one-fifth select {
     width: 91%;
+}
+
+.brand-form_container.one-third input,
+.brand-form_container.one-third select {
+    width: 93.5%;
+}
+
+.brand-form_container.two-third input,
+.brand-form_container.two-third select {
+    width: 97%;
 }
 
 .brand-form_container.whole input,
