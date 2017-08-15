@@ -175,7 +175,6 @@
                                 <li><a href="http://www.stonybrook.edu/academics/colleges-and-schools/">Colleges &amp; Schools</a></li>
                                 <li><a href="http://www.stonybrook.edu/academics/majors-minors-and-programs#UndergraduatePrograms">Majors, Minors &amp; Programs</a></li>
                                 <li><a href="http://www.stonybrook.edu/registrar/calendars/academic_calendars">Academic Calendars</a></li>
-                                <li><a href="http://www.library.stonybrook.edu/">Libraries</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="http://www.stonybrook.edu/academics/resources/">Resources</a>
                                     <div class="mp-level">
@@ -184,6 +183,7 @@
                                         <ul>
                                             <li><a href="http://www.stonybrook.edu/academics/resources/">Academic Resources</a></li>
                                             <li><a href="http://www.stonybrook.edu/academics/additional-programs/">Additional Programs</a></li>
+                                            <li><a href="http://www.library.stonybrook.edu/">Libraries</a></li>
                                         </ul>
                                     </div>
                                 </li>
