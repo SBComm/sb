@@ -86,6 +86,13 @@ class CourseData{
 				
 				$department_name = (string) $class_detail->COURSE_CATEGORY;
 				$department_code = (string) $class_detail->SUBJECT;
+
+				//workaround for anthropology names
+				if($department_code=='ANP') {
+					$department_name = 'Anthropology (Biological)';
+				} elseif($department_code=='ANT') {
+					$department_name = 'Anthropology (Cultural & Archaeological)';
+				}
 				
 				if(!isset($departments[$department_code])){
 
