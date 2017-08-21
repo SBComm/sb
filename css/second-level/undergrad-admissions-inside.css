@@ -1056,7 +1056,6 @@ ul.three-col-list {
 /* cause concentration siblings to show */
 .three-col-list li li:not([display=none]) ~ li,
 .three-col-list li li:not([display=none]) {
-    color: blue !important;
     display: block !important;
 }
 
