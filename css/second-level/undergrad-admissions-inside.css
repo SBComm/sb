@@ -1053,6 +1053,13 @@ ul.three-col-list {
     color: #555
 }
 
+/* cause concentration siblings to show */
+.three-col-list li li:not([display=none]) ~ li,
+.three-col-list li li:not([display=none]) {
+    color: blue !important;
+    display: block !important;
+}
+
 .visit-content .tour-btn {
     margin-top: 30px;
     margin-bottom: 20px;
