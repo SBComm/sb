@@ -205,7 +205,7 @@
             <link href="http://www.stonybrook.edu/commcms/_resources/css/sb/accordion-nav/accordion-nav-v2.css?ver=1.1" rel="stylesheet" type="text/css"></link>
             <link href="http://www.stonybrook.edu/commcms/_resources/plugins/tooltipster/tooltipster.css?ver=1.1" rel="stylesheet"></link>
             <link href="http://www.stonybrook.edu/commcms/_resources/plugins/tooltipster/themes/tooltipster-light.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/nivo-lightbox.css?ver=1.1" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/nivo-lightbox.css?ver=1.11" rel="stylesheet"></link>
             <link href="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/themes/default/custom.css?ver=1.1" rel="stylesheet"></link>
         <?php } ?>
 
