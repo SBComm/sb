@@ -10,3 +10,12 @@ Disallow: /index.php
 Disallow: /top-stories-2015/index-dev.php
 Disallow: /mobile/
 Disallow: /request-assistance/
+Disallow: /faculty-directory/
+Disallow: /analytics/
+Disallow: /thank-you/
+Disallow: /tutorials/
+Disallow: /shared/
+Disallow: /resources/
+Disallow: /plugins/
+Disallow: /elements/
+Disallow: /tools/
