@@ -471,4 +471,4 @@
     </div><!-- /pusher -->
 
 </nav>
-<a href="#" id="main-site-content" class="hide-accessible"></a>
+<a href="#" id="main-site-content" class="hide-accessible"><span class="hide-accessible">Main Content</span></a>
