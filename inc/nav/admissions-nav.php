@@ -41,6 +41,7 @@
     	<div class="search-container <?php echo $search_style ?> clearfix border-box">
         	<?php if($search_type=='default') { ?>
         		<form name="site-search" class="search-wrapper" action="http://www.stonybrook.edu/search/?" method="get">
+        			<label for="search-form-query1" class="hide-accessible">Search Stony Brook Website</label>
             		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search...">
             		<button type="submit" class="btn btn-success" id="search-form-submit1" alt="Do search">
 		                <i class="icon fa fa-search"></i>
@@ -49,9 +50,10 @@
         	<?php } ?>
         	<?php if($search_type=='admissions') { ?>
             	<form name="ae" action="http://sunysb.askadmissions.net/ask.aspx?" method="get">
-					<input class="vasearch" name="quser" type="text" placeholder="Ask a Question..." size="30" maxlength="300">
+        			<label for="quser" class="hide-accessible">Search Admissions Website</label>
+					<input class="vasearch" id="quser" name="quser" type="text" placeholder="Ask a Question..." size="30" maxlength="300">
 					<button type="submit" class="btn btn-success" id="btnask" alt="Search Button">
-		                <i class="icon fa fa-question-circle"></i>
+		                <i class="icon fa fa-question-circle"></i><span class="hide-accessible">Search</span>
 		            </button>
 				</form>
         	<?php } ?>

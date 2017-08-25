@@ -1,6 +1,7 @@
 <?php if($second_level=='undergrad-admissions') { ?>
     <nav class="audience-nav clearfix">
 		<div class="dropdown-nav clearfix"<?php if($audience_nav_selected_tab>0) echo(' data-selected-tab="' . $audience_nav_selected_tab . '"') ?>>
+			<label for="cd-dropdown">Audience Navigation</label>
 			<select id="cd-dropdown" name="cd-dropdown" class="cd-select">
 				<option value="-1" selected>View information for...</option>
 				<option value="1" data-href="http://www.stonybrook.edu/commcms/admitted/">Admitted Students</option>
