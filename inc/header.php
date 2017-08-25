@@ -197,7 +197,7 @@
             <link href="http://www.stonybrook.edu/commcms/_resources/plugins/banner-buttons/banner-buttons.css?ver=1.1" rel="stylesheet"></link>
             <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.theme.css?ver=1.1" rel="stylesheet"></link>
             <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.transitions.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/slick/slick.css?ver=1.1" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/slick/slick.custom.css?ver=1.1" rel="stylesheet"></link>
             <link href="http://www.stonybrook.edu/commcms/_resources/plugins/slick/slick-theme.css?ver=1.1" rel="stylesheet"></link>
             <link href="http://www.stonybrook.edu/commcms/_resources/css/sb/filter/text-filter.css?ver=1.1" rel="stylesheet" type="text/css"></link>
             <link href="http://www.stonybrook.edu/commcms/_resources/plugins/faculty-list/faculty-list.css?ver=1.1" rel="stylesheet"></link>
