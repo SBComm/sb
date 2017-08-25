@@ -28,6 +28,7 @@
 	$programs = simplexml_load_file($academics_url);
 
 	$program_items = array();
+	$program_titles  = array();
 
 	echo('<ul class="flex-list-2 course-program-list" data-search-id="course-list">');
 
