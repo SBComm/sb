@@ -174,8 +174,8 @@
                                 <li><a href="http://www.stonybrook.edu/academics/">Overview</a></li>
                                 <li><a href="http://www.stonybrook.edu/academics/colleges-and-schools/">Colleges &amp; Schools</a></li>
                                 <li><a href="http://www.stonybrook.edu/academics/majors-minors-and-programs#UndergraduatePrograms">Majors, Minors &amp; Programs</a></li>
+                                <li><a href="http://www.stonybrook.edu/about/centers-and-institutes/">Centers &amp; Institutes</a></li>
                                 <li><a href="http://www.stonybrook.edu/registrar/calendars/academic_calendars">Academic Calendars</a></li>
-                                <li><a href="http://www.library.stonybrook.edu/">Libraries</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
                                     <a class="nav-icon nav-icon-map" href="http://www.stonybrook.edu/academics/resources/">Resources</a>
                                     <div class="mp-level">
@@ -184,6 +184,7 @@
                                         <ul>
                                             <li><a href="http://www.stonybrook.edu/academics/resources/">Academic Resources</a></li>
                                             <li><a href="http://www.stonybrook.edu/academics/additional-programs/">Additional Programs</a></li>
+                                            <li><a href="http://www.library.stonybrook.edu/">Libraries</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -206,18 +207,19 @@
                                     <li><a href="http://www.stonybrook.edu/academics/" tabindex="301">Overview</a></li>
                                     <li><a href="http://www.stonybrook.edu/academics/colleges-and-schools/" tabindex="302">Colleges &amp; Schools</a></li>
                                     <li><a href="http://www.stonybrook.edu/academics/majors-minors-and-programs#UndergraduatePrograms" tabindex="303">Majors, Minors &amp; Programs</a></li>
-                                    <li><a href="http://www.stonybrook.edu/registrar/calendars/academic_calendars" tabindex="304">Academic Calendars</a></li>
+                                    <li><a href="http://www.stonybrook.edu/about/centers-and-institutes/" tabindex="304">Centers &amp; Institutes</a></li>
+                                    <li><a href="http://www.stonybrook.edu/registrar/calendars/academic_calendars" tabindex="305">Academic Calendars</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="http://www.stonybrook.edu/academics/resources/" tabindex="305">Academic Resources</a></li>
-                                    <li><a href="http://www.stonybrook.edu/academics/additional-programs/" tabindex="306">Additional Programs</a></li>
-                                    <li><a href="http://www.library.stonybrook.edu/" tabindex="307">Libraries</a></li>
+                                    <li><a href="http://www.stonybrook.edu/academics/resources/" tabindex="306">Academic Resources</a></li>
+                                    <li><a href="http://www.stonybrook.edu/academics/additional-programs/" tabindex="307">Additional Programs</a></li>
+                                    <li><a href="http://www.library.stonybrook.edu/" tabindex="308">Libraries</a></li>
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h4>Bulletins</h4></li>
-                                    <li><a href="http://www.stonybrook.edu/ugbulletin" tabindex="308">Undergraduate</a></li>
-                                    <li><a href="http://www.stonybrook.edu/gradbulletin" tabindex="309">Graduate</a></li>
-                                    <li><a href="http://www.stonybrook.edu/hsstudents/bulletin" tabindex="310">Health Sciences</a></li>
+                                    <li><a href="http://www.stonybrook.edu/ugbulletin" tabindex="309">Undergraduate</a></li>
+                                    <li><a href="http://www.stonybrook.edu/gradbulletin" tabindex="310">Graduate</a></li>
+                                    <li><a href="http://www.stonybrook.edu/hsstudents/bulletin" tabindex="311">Health Sciences</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
@@ -471,4 +473,4 @@
     </div><!-- /pusher -->
 
 </nav>
-<a href="#" id="main-site-content" class="hide-accessible"><span class="hide-accessible">Main Content</span></a>
+<a href="#" id="main-site-content" class="hide-accessible"></a>
