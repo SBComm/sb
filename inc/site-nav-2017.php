@@ -92,10 +92,11 @@
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/jobs/" tabindex="180">Jobs</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/campus-safety/" tabindex="181">Safety</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/diversity/" tabindex="182">Diversity</a>
-                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/sustainability/" tabindex="183">Sustainability</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/calendars/" tabindex="180">Calendars</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/jobs/" tabindex="181">Jobs</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/campus-safety/" tabindex="182">Safety</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/diversity/" tabindex="183">Diversity</a>
+                                    <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/sustainability/" tabindex="184">Sustainability</a>
                                 </div>
                             </div>
                         </div>
