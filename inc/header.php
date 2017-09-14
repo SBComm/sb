@@ -182,31 +182,31 @@
         <?php } ?>
 
         <?php if($mega_nav_ou==true) { ?>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/main-v2.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/topnav-responsive-v2.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/banner-responsive-v2.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/search-responsive-v2.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/row2.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/sections-responsive-v2.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/cards.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/footer.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/print.css?ver=1.1" rel="stylesheet" type="text/css" media="print"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/responsive-v2.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.carousel.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.carousel.custom.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/banner-buttons/banner-buttons.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.theme.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.transitions.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/slick/slick.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/slick/slick-theme.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/sb/filter/text-filter.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/faculty-list/faculty-list.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/tablesaw/tablesaw.bare.css?ver=1.1" rel="stylesheet" type="text/css"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/css/sb/accordion-nav/accordion-nav-v2.css?ver=1.1" rel="stylesheet" type="text/css"></link> 
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/tooltipster/tooltipster.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/tooltipster/themes/tooltipster-light.css?ver=1.1" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/nivo-lightbox.css?ver=1.11" rel="stylesheet"></link>
-            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/themes/default/custom.css?ver=1.1" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/main-v2.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/topnav-responsive-v2.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/banner-responsive-v2.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/search-responsive-v2.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/row2.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/sections-responsive-v2.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/cards.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/footer.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/print.css?ver=1.2" rel="stylesheet" type="text/css" media="print"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/responsive-v2.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.carousel.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.carousel.custom.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/banner-buttons/banner-buttons.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.theme.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/owl-carousel/owl.transitions.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/slick-1.8/slick.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/slick-1.8/slick-theme.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/sb/filter/text-filter.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/faculty-list/faculty-list.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/tablesaw/tablesaw.bare.css?ver=1.2" rel="stylesheet" type="text/css"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/css/sb/accordion-nav/accordion-nav-v2.css?ver=1.2" rel="stylesheet" type="text/css"></link> 
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/tooltipster/tooltipster.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/tooltipster/themes/tooltipster-light.css?ver=1.2" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/nivo-lightbox.css?ver=1.21" rel="stylesheet"></link>
+            <link href="http://www.stonybrook.edu/commcms/_resources/plugins/nivo-lightbox/themes/default/custom.css?ver=1.2" rel="stylesheet"></link>
         <?php } ?>
 
         <!--BEGIN IE Specific CSS Includes and Polyfills-->
