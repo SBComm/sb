@@ -232,6 +232,7 @@ var initReady = function() {
 		var offset = $(this).attr('data-offset')=='true' ? true : false;
 		var offsetTop = parseInt($(this).attr('data-offset-top'));
 		var offsetBreakpointStart = $(this).attr('data-offset-breakpoint-start') ? parseInt($(this).attr('data-offset-breakpoint-start')) : 0;
+		var isScroll = ($(this).data('scroll') != 'false');
 		/*
 		console.log(isTrigger);
 		console.log(triggerRole);
@@ -241,7 +242,7 @@ var initReady = function() {
 		console.log(offsetBreakpointStart);
 		console.log($(window).width() >= offsetBreakpointStart);
 		*/
-		if($(target).length && target.length>1 && !isTrigger && !isGallery) {
+		if($(target).length && target.length>1 && !isTrigger && !isGallery && isScroll) {
 			event.preventDefault();
 		    var hash = target.substring(1); //strip off the #
 		    if(disableHistoryState != 'true') {

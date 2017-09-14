@@ -10,9 +10,9 @@
         </div>
     </div>
 
-    <a class="main-navigation-link" href="#main-nav" tabindex="2">Go to Main Navigation</a>
-    <a class="skip-navigation-link" href="#main-site-content" tabindex="3">Skip Navigation</a>
-    <a class="footer-navigation-link" href="#footer-links" tabindex="4">Go to more Navigation</a>
+    <a class="main-navigation-link" href="#main-nav" data-scroll="false"  tabindex="2">Go to Main Navigation</a>
+    <a class="skip-navigation-link" href="#main-site-content" data-scroll="false"  tabindex="3">Skip Navigation</a>
+    <a class="footer-navigation-link" href="#footer-links" data-scroll="false"  tabindex="4">Go to more Navigation</a>
 
     <div class="sbu-nav-bar clearfix">
         <div class="logo"><a href="//www.stonybrook.edu/"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University" /></a></div>
@@ -474,4 +474,4 @@
     </div><!-- /pusher -->
 
 </nav>
-<a href="#main-site-content" title="Skip to main content" id="main-site-content" class="hide-accessible"></a>
+<div id="main-site-content" class="hide-accessible" tabindex="0"></div>
