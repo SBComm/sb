@@ -3,36 +3,6 @@
 	z-index: 1;
 }
 
-.skip-navigation-link,
-.footer-navigation-link,
-.main-navigation-link {
-    color: #404040;
-    position: absolute;
-    display: inline-block;
-    left: -10000px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-.skip-navigation-link:focus,
-.skip-navigation-link:active,
-.footer-navigation-link:focus,
-.footer-navigation-link:active,
-.main-navigation-link:focus,
-.main-navigation-link:active {
-    color: #404040;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: auto;
-    overflow: visible;
-    text-decoration: underline;
-    top: 50px;
-    text-align: center;
-    outline: none;
-}
-
 .inmenu--desktop-only {
 	display: none !important;
 }
