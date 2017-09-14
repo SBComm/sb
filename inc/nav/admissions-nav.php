@@ -1,3 +1,4 @@
+<a class="skip-navigation-link" href="#main-site-content" tabindex="3">Skip Navigation</a>
 <nav class="sub-nav <?php echo $nav_type ?> border-box clearfix">
 	<div class="no-pad-wrapper clearfix">
     	<div class="menu-trigger border-box clearfix"><i class="icon fa fa-bars"></i></div>
@@ -241,3 +242,4 @@
         printBreadcrumbs(false);
     }
 ?>
+<div id="main-site-content" class="hide-accessible" tabindex="0"></div>
