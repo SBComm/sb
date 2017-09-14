@@ -232,7 +232,7 @@ var initReady = function() {
 		var offset = $(this).attr('data-offset')=='true' ? true : false;
 		var offsetTop = parseInt($(this).attr('data-offset-top'));
 		var offsetBreakpointStart = $(this).attr('data-offset-breakpoint-start') ? parseInt($(this).attr('data-offset-breakpoint-start')) : 0;
-		var isScroll = ($(this).data('scroll') != 'false');
+		var isScroll = ($(this).data('scroll') != false);
 		/*
 		console.log(isTrigger);
 		console.log(triggerRole);
