@@ -920,7 +920,7 @@ ul.three-col-list {
     display: block;
 }
 
-
+.new-brand .content-wrapper .grid-item .mag-articles_title h3,
 .grid-item .mag-articles_title h3 {
     position: absolute;
     top: 43%;
