@@ -622,6 +622,10 @@ ul.three-col-list {
     min-width: 18px;
 }
 
+.key-icons-wrapper--larger {
+    padding-top: 7px;
+}
+
 .key-icons-wrapper--larger .key-icons--icon {
     display: inline-block;
     padding: 6px 3px;
