@@ -677,6 +677,11 @@ ul.three-col-list {
     background: #660096;
 }
 
+.key-icons--icon_white {
+    color: #333;
+    background: #fff;
+}
+
 .key-icons--icon_circle {
     border-radius: 50%;
 }
