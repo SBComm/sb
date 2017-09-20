@@ -33,7 +33,7 @@
                         <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==2) echo(' active'); ?>" href="http://www.stonybrook.edu/about/" tabindex="100">About</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">About</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg)" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="Stony Brook bus showing the branded slogan Far Beyond on its side" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="http://www.stonybrook.edu/about/">Overview</a></li>
@@ -105,7 +105,7 @@
                         <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==3) echo(' active'); ?>" href="http://www.stonybrook.edu/admissions/" tabindex="200">Admissions</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Admissions</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg)" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="Three students walking through Stony Brook Campus on a beautiful sunny day" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="http://www.stonybrook.edu/admissions/">Overview</a></li>
@@ -169,7 +169,7 @@
                         <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==4) echo(' active'); ?>" href="http://www.stonybrook.edu/academics/" tabindex="300">Academics</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Academics</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg)" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg" alt="A group of happy Stony Brook graduates at Commencement ceremony" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="http://www.stonybrook.edu/academics/">Overview</a></li>
@@ -235,7 +235,7 @@
                         <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==5) echo(' active'); ?>" href="http://www.stonybrook.edu/campus-life/" tabindex="400">Campus Life</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Campus Life</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col-campus-life-2.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg)" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col-campus-life-2.jpg" alt="A student smiles as he works with a small group around a round table in the Student Activities Center" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="http://www.stonybrook.edu/campus-life/">Overview</a></li>
@@ -293,7 +293,7 @@
                         <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==6) echo(' active'); ?>" href="http://www.stonybrook.edu/research/?overview" tabindex="500">Research</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Research</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg)" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg" alt="A researcher holds a syringe as she performs a test" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="http://www.stonybrook.edu/research/?overview">Overview</a></li>
@@ -354,7 +354,7 @@
                         <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==8) echo(' active'); ?>" href="http://www.stonybrook.edu/medicine/?overview" tabindex="700">Medicine</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Medicine</h2>
-                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />
+                            <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="Three Stony Brook Medicine personnel walk through the Hospital as they talk amongst each other" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
                             <ul class="inmenu--mobile-only">
                                 <li><a href="http://www.stonybrook.edu/medicine/?overview">Overview</a></li>
@@ -414,6 +414,7 @@
                     <li class="inmenu--search">
                         <div class="search-container clearfix border-box">
                             <form class="search-wrapper" action="//stonybrook.edu/search">
+                                <label class="hide-accessible" for="search-form-query1">Search the site:</label>
                                 <input type="text" id="search-form-query1" name="q" title="Search stonybrook.edu" value="" class="populate" size="30" placeholder="Search" tabindex="41"><em class="fa fa-close inmenu--search_desktop-close"></em><button name="submit" type="submit" class="btn btn-success" id="search-form-submit1" alt="Search" aria-label="search"  tabindex="42">
                                     <i class="icon fa fa-search"></i>
                                 </button>
