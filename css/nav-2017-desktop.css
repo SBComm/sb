@@ -495,6 +495,10 @@
 		border-color: transparent !important;
 	}
 
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a:focus {
+		text-decoration: underline;
+	}
+
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a[target='_blank']:hover:after,
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li a.external:hover:after {
         content: "\f08e";
