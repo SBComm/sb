@@ -66,6 +66,7 @@
 
             $eventMonth = $eventDateTime->format('M');
             $eventMonthNum = $eventDateTime->format('n');
+            $eventMonthFull = $eventDate->format('F');
             $eventDay   = $eventDateTime->format('j');
             $eventYear  = $eventDateTime->format('Y');
 
@@ -96,7 +97,7 @@
 
                 $html .= '<li>';
                 $html .= '<a class="clearfix" href="'.$rss_url.'" title="'.$rss_title.'">';
-                $html .= '<div class="eventDate"><span class="eventDate_day">'.$eventDay.'</span><span class="eventDate_month">'.$eventMonth.'</span></div>';
+                $html .= '<div class="eventDate" aria-label="'.$eventMonthFull.' '.$eventDay.', '.$eventYear.'"><span class="eventDate_day">'.$eventDay.'</span><span class="eventDate_month">'.$eventMonth.'</span></div>';
                 $html .= '<span class="event-title '.$calendar_title_color.'"><span class="item">'.$rss_title.'</span></span>';
                 if($showTime) {
                     $html .= '<span class="event-time">'.$eventWeekday.', '.$eventMonthNum.'/'.$eventDay.' at '.$eventHour.':'.$eventMinute.' '.$eventAMPM.'</span>';
