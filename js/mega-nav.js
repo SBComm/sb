@@ -75,5 +75,21 @@ $(document).ready(function() {
         
     });
 
+    console.log('here');
+
+    $(document.body).on('focusin','.main-nav-list li a',function(){
+        // change this to let the element focus, then listen for enter and show the drop nav when event code = 13
+        //reevaluate the taborder of links, if this will work with current nav build
+
+        //if this link has a mega menu, show it
+            //if not, hide all mega menu
+            var id = $(this).attr('data-drop-nav-id');
+            console.log(id);
+
+            hideAllDropNav();
+            showDropNav(id);
+        
+    });
+
 
 });

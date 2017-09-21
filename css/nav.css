@@ -367,7 +367,8 @@
 	vertical-align: middle;
 }
 
-.drop-nav li a:hover {
+.drop-nav li a:hover,
+.drop-nav li a:focus {
 	border: 5px solid #186e79;
 }
 
@@ -1878,14 +1879,16 @@
 	}
 
 	.site-nav.big-n-bold a:hover,
-	.sub-nav.big-n-bold a:hover {
-		background: transparent;
+	.sub-nav.big-n-bold a:hover,
+	.site-nav.big-n-bold a:focus,
+	.sub-nav.big-n-bold a:focus {
+		background: #880000;
 	}
 
 	.site-nav.big-n-bold a span,
 	.sub-nav.big-n-bold a span {
 		padding: 7px 12px;
-		border: 1px solid #900;
+		border: 1px solid transparent;
 		-webkit-box-sizing: border-box;
 	    -moz-box-sizing: border-box;
 	    box-sizing: border-box;
