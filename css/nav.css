@@ -1518,13 +1518,17 @@
 
 	.quick-nav a:hover,
 	.quick-nav a.selected,
+	.quick-nav a:focus,
 	.quick-nav li.selected a,
 	.quick-nav .search-trigger:hover,
 	.quick-nav .search-trigger.selected,
+	.quick-nav .search-trigger:focus,
 	.quick-nav .more-trigger:hover,
 	.quick-nav .more-trigger.selected,
+	.quick-nav .more-trigger:focus,
 	.quick-nav .audience-trigger:hover,
-	.quick-nav .audience-trigger.selected {
+	.quick-nav .audience-trigger.selected,
+	.quick-nav .audience-trigger:focus {
 		color: #900;
 		background-color: transparent;
 	}

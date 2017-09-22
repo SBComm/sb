@@ -35,7 +35,7 @@
                             <h2 class="nav-icon nav-icon-arrow-right-2">About</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="Stony Brook bus showing the branded slogan Far Beyond on its side" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
-                            <ul class="inmenu--mobile-only">
+                            <ul class="inmenu--mobile-only" aria-hidden="true">
                                 <li><a href="http://www.stonybrook.edu/about/">Overview</a></li>
                                 <li><a href="http://www.stonybrook.edu/about/history/">History</a></li>
                                 <li><a href="http://www.stonybrook.edu/about/administration/">Administration</a></li>
@@ -107,7 +107,7 @@
                             <h2 class="nav-icon nav-icon-arrow-right-2">Admissions</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="Three students walking through Stony Brook Campus on a beautiful sunny day" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
-                            <ul class="inmenu--mobile-only">
+                            <ul class="inmenu--mobile-only" aria-hidden="true">
                                 <li><a href="http://www.stonybrook.edu/admissions/">Overview</a></li>
                                 <li><a href="http://www.stonybrook.edu/undergraduate-admissions/">Undergraduate Admissions</a></li>
                                 <li><a href="http://www.stonybrook.edu/graduate-admissions/">Graduate Admissions</a></li>
@@ -171,7 +171,7 @@
                             <h2 class="nav-icon nav-icon-arrow-right-2">Academics</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg" alt="A group of happy Stony Brook graduates at Commencement ceremony" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
-                            <ul class="inmenu--mobile-only">
+                            <ul class="inmenu--mobile-only" aria-hidden="true">
                                 <li><a href="http://www.stonybrook.edu/academics/">Overview</a></li>
                                 <li><a href="http://www.stonybrook.edu/academics/colleges-and-schools/">Colleges &amp; Schools</a></li>
                                 <li><a href="http://www.stonybrook.edu/academics/majors-minors-and-programs#UndergraduatePrograms">Majors, Minors &amp; Programs</a></li>
@@ -237,7 +237,7 @@
                             <h2 class="nav-icon nav-icon-arrow-right-2">Campus Life</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col-campus-life-2.jpg" alt="A student smiles as he works with a small group around a round table in the Student Activities Center" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
-                            <ul class="inmenu--mobile-only">
+                            <ul class="inmenu--mobile-only" aria-hidden="true">
                                 <li><a href="http://www.stonybrook.edu/campus-life/">Overview</a></li>
                                 <li><a href="http://studentaffairs.stonybrook.edu/res/">Living on Campus</a></li>
                                 <li><a href="http://www.stonybrook.edu/dining/">Eating on Campus</a></li>
@@ -295,7 +295,7 @@
                             <h2 class="nav-icon nav-icon-arrow-right-2">Research</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg" alt="A researcher holds a syringe as she performs a test" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
-                            <ul class="inmenu--mobile-only">
+                            <ul class="inmenu--mobile-only" aria-hidden="true">
                                 <li><a href="http://www.stonybrook.edu/research/?overview">Overview</a></li>
                                 <li><a href="http://research.stonybrook.edu/researchers">For Researchers</a></li>
                                 <li><a href="http://research.stonybrook.edu/offices">Research Offices</a></li>
@@ -356,7 +356,7 @@
                             <h2 class="nav-icon nav-icon-arrow-right-2">Medicine</h2>
                             <img class="inmenu--primary-nav--image" src="http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="Three Stony Brook Medicine personnel walk through the Hospital as they talk amongst each other" style="background: url(http://www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />
                             <a class="mp-back" href="#" aria-hidden="true">back</a>
-                            <ul class="inmenu--mobile-only">
+                            <ul class="inmenu--mobile-only" aria-hidden="true">
                                 <li><a href="http://www.stonybrook.edu/medicine/?overview">Overview</a></li>
                                 <li><a href="https://www.stonybrookmedicine.edu/education">Health Sciences Schools</a></li>
                                 <li><a href="http://library.stonybrook.edu/healthsciences/">Health Sciences Library</a></li>
