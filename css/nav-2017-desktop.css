@@ -521,12 +521,14 @@
 		padding-top: 3px;
 	}
 
+	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head h3, 
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head h4 {
 		font-size: 1.15em;
 		color: #828282;
 		font-weight: 500 !important;
 		margin: 0;
-    	padding: 0;
+		padding: 0;
+		text-transform: uppercase;
 	}
 
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head h4:after {

@@ -24,7 +24,7 @@
         <!-- mp-menu -->
         <nav id="mp-menu" class="mp-menu">
             <div class="mp-level">
-                <h2 class="inmenu-logo"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University" /></h2>
+                <h1 class="inmenu-logo"><img src="//www.stonybrook.edu/far-beyond/img/branding/logo/sbu/secondary/white/300/stony-brook-university-logo-horizontal-white-300.png" alt="Stony Brook University" /><span class="hide-accessible">Stony Brook University</span></h1>
                 <ul>
                     <li class="inmenu-homeicon inmenu--primary-nav">
                         <a id="main-nav" class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="http://www.stonybrook.edu" tabindex="60"><em class="fa fa-home"></em><span class="hide-accessible">Home</span></a>
@@ -86,7 +86,7 @@
                                     <li><a href="http://www.stonybrook.edu/southampton/" tabindex="109">Stony Brook Southampton</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>News &amp; Publications</h4></li>
+                                    <li class="inmenu--desktop-nav--head"><h3>News &amp; Publications</h3></li>
                                     <li><a href="http://www.stonybrook.edu/about/news-and-events/" tabindex="110">News &amp; Events</a></li>
                                     <li><a href="http://www.stonybrook.edu/about/publications/" tabindex="111">Publications</a></li>
                                 </ul>
@@ -152,7 +152,7 @@
                                     <li><a href="http://www.stonybrook.edu/studyabroad/" tabindex="208">Study Abroad</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Cost &amp; Aid</h4></li>
+                                    <li class="inmenu--desktop-nav--head"><h3>Cost &amp; Aid</h3></li>
                                     <li><a href="http://www.stonybrook.edu/finaid/" tabindex="209">Financial Aid</a></li>
                                     <li><a href="http://www.stonybrook.edu/bursar/" tabindex="210">Tuition &amp; Costs</a></li>
                                 </ul>
@@ -217,7 +217,7 @@
                                     <li><a href="http://www.library.stonybrook.edu/" tabindex="308">Libraries</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Bulletins</h4></li>
+                                    <li class="inmenu--desktop-nav--head"><h3>Bulletins</h3></li>
                                     <li><a href="http://www.stonybrook.edu/ugbulletin" tabindex="309">Undergraduate</a></li>
                                     <li><a href="http://www.stonybrook.edu/gradbulletin" tabindex="310">Graduate</a></li>
                                     <li><a href="http://www.stonybrook.edu/hsstudents/bulletin" tabindex="311">Health Sciences</a></li>
@@ -274,7 +274,7 @@
                                     <li><a href="http://studentaffairs.stonybrook.edu/studentlife/" tabindex="408">Student Life</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Things to Do</h4></li>
+                                    <li class="inmenu--desktop-nav--head"><h3>Things to Do</h3></li>
                                     <li><a href="http://studentaffairs.stonybrook.edu/sac/" tabindex="110">Activities &amp; Clubs</a></li>
                                     <li><a href="http://studentaffairs.stonybrook.edu/beyondthebrook/" tabindex="111">Beyond the Brook</a></li>
                                     <li><a href="http://www.stonybrook.edu/traditions/" tabindex="112">Spirit &amp; Tradition</a></li>
@@ -332,7 +332,7 @@
                                     <li><a href="http://research.stonybrook.edu/vpr/statistics.shtml" tabindex="507">Facts &amp; Figures</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Student Research</h4></li>
+                                    <li class="inmenu--desktop-nav--head"><h3>Student Research</h3></li>
                                     <li><a href="http://www.stonybrook.edu/admissions/high-school/" tabindex="508">High School</a></li>
                                     <li><a href="http://www.stonybrook.edu/ureca" tabindex="509">Undergraduate</a></li>
                                     <li><a href="http://grad.stonybrook.edu/" tabindex="510">Graduate</a></li>
@@ -396,7 +396,7 @@
                                     <li><a href="https://southampton.stonybrookmedicine.edu/" tabindex="708">Southampton Hospital</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h4>Resources</h4></li>
+                                    <li class="inmenu--desktop-nav--head"><h3>Resources</h3></li>
                                     <li><a href="https://www.stonybrookmedicine.edu/find-a-doctor" tabindex="709">Find A Doctor</a></li>
                                     <li><a href="https://www.stonybrookmedicine.edu/patient-portal" tabindex="710">Patient Portal</a></li>
                                     <li><a href="https://www.stonybrookmedicine.edu/patients-visitors" tabindex="711">Visitor Information</a></li>

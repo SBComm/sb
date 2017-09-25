@@ -372,6 +372,7 @@
 	float: left;
 }
 
+.mp-menu h1,
 .mp-menu h2 {
 	margin: 0;
 	padding: 22px 0 19px 32px;
@@ -384,7 +385,7 @@
 	width: 211px;
 }
 
-.mp-menu h2.inmenu-logo {
+.mp-menu h1.inmenu-logo {
 	padding: 0.55em 0.7em;
 	margin-bottom: 0;
 }
