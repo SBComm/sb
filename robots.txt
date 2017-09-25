@@ -19,3 +19,4 @@ Disallow: /resources/
 Disallow: /plugins/
 Disallow: /elements/
 Disallow: /tools/
+Disallow: /commcms/_
