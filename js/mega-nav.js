@@ -41,6 +41,7 @@ $(document).ready(function() {
     $('.main-nav-list li a').click(function(event) {
 
         dropNavId = $(this).data('drop-nav-id');
+        console.log(dropNavId);
 
         if(dropNavId>0) {
             event.preventDefault();
@@ -49,8 +50,8 @@ $(document).ready(function() {
             subNavLi = $(this).closest('li');
 
             if($(dropNav).hasClass('open')) {
-                $(subNavLi).removeClass('active');
-                hideDropNav(dropNavId);
+                //$(subNavLi).removeClass('active');
+                //hideDropNav(dropNavId);
             } else {
                 $('.main-nav-list li').removeClass('active');
                 hideAllDropNav();
@@ -63,6 +64,7 @@ $(document).ready(function() {
 
     $('.main-nav-list--show-on-hover li a').mouseenter(function(e) {
         dropNavId = $(this).data('drop-nav-id');
+            console.log(dropNavId);
 
         if(dropNavId>0 && $(window).width()>=1022) {
 
@@ -75,19 +77,20 @@ $(document).ready(function() {
         
     });
 
-    console.log('here');
-
     $(document.body).on('focusin','.main-nav-list li a',function(){
         // change this to let the element focus, then listen for enter and show the drop nav when event code = 13
         //reevaluate the taborder of links, if this will work with current nav build
 
         //if this link has a mega menu, show it
             //if not, hide all mega menu
-            var id = $(this).attr('data-drop-nav-id');
-            console.log(id);
+            var dropNavId = $(this).attr('data-drop-nav-id');
+            console.log(dropNavId);
 
-            hideAllDropNav();
-            showDropNav(id);
+            dropNav = $("nav.drop-nav[data-drop-nav-id='" + dropNavId + "']");
+
+            if($(dropNav).hasClass('hide-accessible')) {
+                $(this).trigger('click');
+            }
         
     });
 
