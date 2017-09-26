@@ -2,7 +2,7 @@
 <nav class="sub-nav <?php echo $nav_type ?> border-box clearfix">
 	<div class="no-pad-wrapper clearfix">
     	<div class="menu-trigger border-box clearfix"><i class="icon fa fa-bars"></i></div>
-		<ul class="main-nav-list border-box hide-accessible-mobile clearfix">
+		<ul class="main-nav-list main-nav-list--show-on-hover border-box hide-accessible-mobile clearfix">
 			<li class="clearfix no-dropdown desktop">
             	<a href="undergraduate-admissions" class="clearfix" tabindex="10">
             		<span class="label clearfix"><i class="icon fa fa-home"></i><span class="hide-accessible">Home</span></span>
@@ -150,13 +150,13 @@
 
 <nav class="drop-nav border-box clearfix hide-accessible" data-drop-nav-id="4">
 	<div class="drop-nav-heading clearfix">
-		<a href="undergraduate-admissions/visit" tabindex="40">Visit</a>
+		<a href="undergraduate-admissions/visit" tabindex="50">Visit</a>
 		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
 	</div>
 	<div class="no-pad-wrapper clearfix">
 		<ul class="drop-nav-list border-box clearfix">
 			<li class="<?php if($drop_nav_selected_tab==19) echo('selected'); ?>" data-li-order="01">
-				<a href="undergraduate-admissions/visit" class="clearfix" tabindex="41">
+				<a href="undergraduate-admissions/visit" class="clearfix" tabindex="51">
 					<span class="label clearfix">Campus<br />Tours</span>
 				</a>
 			</li>
@@ -166,22 +166,22 @@
   				</a>
   			</li> */ ?>
 			<li class="<?php if($drop_nav_selected_tab==20) echo('selected'); ?>" data-li-order="03">
-				<a href="undergraduate-admissions/visit/directions-and-parking" class="clearfix" tabindex="42">
+				<a href="undergraduate-admissions/visit/directions-and-parking" class="clearfix" tabindex="52">
 					<span class="label clearfix">Maps &amp; Directions</span>
 				</a>
 			</li>
 			<li>
-				<a href="visit#staying-here" class="clearfix" target="_blank" data-li-order="05" tabindex="43">
+				<a href="visit#staying-here" class="clearfix" target="_blank" data-li-order="05" tabindex="53">
 					<span class="label clearfix">Nearby<br />Hotels</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==22) echo('selected'); ?>" data-li-order="05">
-				<a href="undergraduate-admissions/visit/coming-to-you" class="clearfix" tabindex="44">
+				<a href="undergraduate-admissions/visit/coming-to-you" class="clearfix" tabindex="54">
 					<span class="label clearfix">Coming to<br />You</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="06" data-last-child="true" data-image="map">
-				<a href="undergraduate-admissions/visit" class="clearfix" tabindex="45">
+				<a href="undergraduate-admissions/visit" class="clearfix" tabindex="55">
 					<span class="label clearfix">Plan Your Visit</span>
 				</a>
 			</li>
@@ -194,38 +194,38 @@
 
 <nav class="drop-nav border-box clearfix hide-accessible" data-drop-nav-id="6">
 	<div class="drop-nav-heading clearfix">
-		<a href="undergraduate-admissions/contact" tabindex="50">Contact Us</a>
+		<a href="undergraduate-admissions/contact" tabindex="70">Contact Us</a>
 		<span class="icon fa fa-times drop-nav-close close-the-drop-nav"></span>
 	</div>
 	<div class="no-pad-wrapper clearfix">
 		<ul class="drop-nav-list border-box clearfix">
 			<li class="<?php if($drop_nav_selected_tab==31) echo('selected'); ?>" data-li-order="01">
-				<a href="undergraduate-admissions/contact" class="clearfix" tabindex="51">
+				<a href="undergraduate-admissions/contact" class="clearfix" tabindex="71">
 					<span class="label clearfix">Contact Info</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==32) echo('selected'); ?>" data-li-order="02">
-				<a href="undergraduate-admissions/contact/meet-your-counselor" class="clearfix" tabindex="52">
+				<a href="undergraduate-admissions/contact/meet-your-counselor" class="clearfix" tabindex="72">
 					<span class="label clearfix">Meet Your Counselor</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==33) echo('selected'); ?>" data-li-order="03">
-				<a href="https://sunysb.askadmissions.net/groupchat/LandingPage.aspx" class="clearfix" tabindex="53">
+				<a href="https://sunysb.askadmissions.net/groupchat/LandingPage.aspx" class="clearfix" tabindex="73">
 					<span class="label clearfix">Chat<br />With Us</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==34) echo('selected'); ?>" data-li-order="04">
-				<a href="undergraduate-admissions/contact/request-information" class="clearfix" tabindex="54">
+				<a href="undergraduate-admissions/contact/request-information" class="clearfix" tabindex="74">
 					<span class="label clearfix">Request<br />Info</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==35) echo('selected'); ?>" data-li-order="05">
-				<a href="undergraduate-admissions/contact/brochures" class="clearfix" tabindex="55">
+				<a href="undergraduate-admissions/contact/brochures" class="clearfix" tabindex="75">
 					<span class="label clearfix">Mobile<br />Apps</span>
 				</a>
 			</li>
 			<li class="<?php if($drop_nav_selected_tab==6) echo('selected'); ?>" data-li-order="06" data-last-child="true" data-image="iphone">
-				<a href="undergraduate-admissions/contact/request-information" class="clearfix" tabindex="56">
+				<a href="undergraduate-admissions/contact/request-information" class="clearfix" tabindex="76">
 					<span class="label clearfix">Receive Updates</span>
 				</a>
 			</li>
