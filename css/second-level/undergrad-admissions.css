@@ -1,9 +1,29 @@
+h2.video-hero_title {
+    font-family: 'Effra W01';
+    font-weight: 900;
+    margin-top: 15%;
+    font-size: 1.8em;
+    color: #fff;
+    text-align: center;
+}
+
+.video-hero_button {
+    width: 260px;
+}
+
 .big-n-bold .search-container.stay-in-nav input[type="text"] {
     width: 150px;
 }
 
 .owl-theme .owl-controls {
     display: none !important;
+}
+
+.site-carousel {
+    background: url("http://www.stonybrook.edu/commcms/_images/section-backgrounds/white-rays/SBU_RayBKG_white4_HORZ_RGB.jpg");
+    background: url("http://www.stonybrook.edu/commcms/_images/section-backgrounds/black-rays/SBU_RayBKG_black4_HORZ_RGB.jpg");
+    background: url("http://www.stonybrook.edu/commcms/_images/section-backgrounds/red-rays/red-rays-full-1.png");
+    background-size: cover;
 }
 
 .site-carousel .carousel-wrapper .item,
@@ -778,6 +798,12 @@ footer.site-footer {
 }
 
 @media only screen and (min-width: 480px) {
+
+    h2.video-hero_title {
+        margin-top: 10%;
+        font-size: 2.8em;
+    }
+
     .site-carousel .carousel-wrapper .item,
     .site-carousel .carousel-image {
         height: 358px;
@@ -861,6 +887,11 @@ footer.site-footer {
 }
 
 @media only screen and (min-width: 768px) {
+
+    h2.video-hero_title {
+        margin-top: 10%;
+        font-size: 3.8em;
+    }
 
     .site-carousel h1 {
         font-size: 3.3em;
@@ -1053,6 +1084,20 @@ footer.site-footer {
 }
 
 @media only screen and (min-width: 1024px) {
+
+    h2.video-hero_title {
+        margin-top: 12%;
+        font-size: 4.8em;
+        text-shadow: 0 0 22px rgba(0,10,0,.4), 2px 2px 0px rgba(0,10,0,.2);
+    }
+
+    .hero-text-wrapper {
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
 
     .quick-nav ul li:last-child {
         padding-right: 0;
