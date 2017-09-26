@@ -13,7 +13,7 @@
                         </section>
                         <div class="border-box no-pad-wrapper clearfix hero-text-wrapper">
                             <h2 class="clearfix video-hero_title">A Top-Tier Education, <br />and FAR BEYOND</h2>
-                            <a class="sbu-outline-button sbu-outline-button--red sbu-outline-button--on-red arrow-after video-hero_button" href="http://www.stonybrook.edu/undergraduate-admissions/academics/" title="View Majors &amp; Minors">Apply Now</a>
+                            <a class="sbu-outline-button sbu-outline-button--red sbu-outline-button--on-red arrow-after video-hero_button" href="http://www.stonybrook.edu/undergraduate-admissions/apply/" title="View Majors &amp; Minors">Apply Now</a>
                         </div>
                     </div>
                 </div>
