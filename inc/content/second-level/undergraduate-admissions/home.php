@@ -8,7 +8,7 @@
             <div class="carousel-wrapper">
                 <div id="the-carousel-1" class="owl-carousel carousel-style-03">
                     <div class="item">
-                        <section class="clearfix clouds-background no-overflow">
+                        <section class="clearfix no-overflow">
                             <video class="background-video" loop preload="none">
                                 <source src="video/campus/admissions.mp4" type="video/mp4" />
                                 <source src="video/campus/admissions.webm" type="video/webm" />
@@ -16,7 +16,8 @@
                             </video>
                         </section>
                         <div class="border-box no-pad-wrapper clearfix hero-text-wrapper">
-                            <h1 class="clearfix" style="font-family: 'Effra W01'; font-weight: 900; margin-top: 200px;">A Top-Tier Education, <br />And Far Beyond</h1>
+                            <h2 class="clearfix video-hero_title">A Top-Tier Education, <br />and FAR BEYOND</h2>
+                            <a class="sbu-outline-button sbu-outline-button--red sbu-outline-button--on-red arrow-after video-hero_button" href="#" title="View Majors &amp; Minors">View Majors &amp; Degrees</a>
                             <!--<p class="clearfix">President Stanley Speaks at G7 University Conference</p><a class="clearfix video-link gtm_read-the-story-button-click" href="http://www.stonybrook.edu/happenings/president/education-for-all-president-stanley-speaks-at-g7-university-conference/?spotlight=hero" title="Read the story about: President Stanley Speaks at G7 University Conference">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
                     </div>
