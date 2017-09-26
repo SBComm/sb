@@ -1,8 +1,4 @@
 <article>
-    <?php
-        $file = "undergraduate-admissions/widgets/hero-video-1.php";
-        //include($pathForContent . $content . $secLv . $file);
-    ?>
     <section class="clearfix site-carousel grey-background">
         <div class="border-box">
             <div class="carousel-wrapper">
@@ -17,8 +13,7 @@
                         </section>
                         <div class="border-box no-pad-wrapper clearfix hero-text-wrapper">
                             <h2 class="clearfix video-hero_title">A Top-Tier Education, <br />and FAR BEYOND</h2>
-                            <a class="sbu-outline-button sbu-outline-button--red sbu-outline-button--on-red arrow-after video-hero_button" href="#" title="View Majors &amp; Minors">View Majors &amp; Degrees</a>
-                            <!--<p class="clearfix">President Stanley Speaks at G7 University Conference</p><a class="clearfix video-link gtm_read-the-story-button-click" href="http://www.stonybrook.edu/happenings/president/education-for-all-president-stanley-speaks-at-g7-university-conference/?spotlight=hero" title="Read the story about: President Stanley Speaks at G7 University Conference">Read the Story&nbsp;<i class="fa fa-long-arrow-right"></i></a>-->
+                            <a class="sbu-outline-button sbu-outline-button--red sbu-outline-button--on-red arrow-after video-hero_button" href="http://www.stonybrook.edu/undergraduate-admissions/academics/" title="View Majors &amp; Minors">View Majors &amp; Degrees</a>
                         </div>
                     </div>
                 </div>
