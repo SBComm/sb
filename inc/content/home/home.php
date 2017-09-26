@@ -104,11 +104,12 @@
 				</li>
                 -->
                 */
-                $file  = "feed/active-data-calendar_v2.php";
-                $rss   = "http://calendar.activedatax.com/stonybrook/RSSSyndicator.aspx?type=N&category=43-0&ihc=y&sortorder=ASC";
-                $count = 4;
-                $end = 4;
-                include($path . $file);
+                $file  = "feed/active-calendar_2016_v2.php";
+				$rss   = "https://calendar.stonybrook.edu/page/rss/?id=68d28112-a82c-46f2-9d92-b0dabe1a661b";
+				$count = 4;
+				$end = 4;
+				$calendar_title_color  = "white";
+				include($path . $file);
             ?>
 		</ul>
 		<p class="jumpAwayLink"><a href="<?php echo $sbu_site_url['calendar_next_month']; ?>">See All Events&nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
