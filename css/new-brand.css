@@ -1205,10 +1205,22 @@ ul.three-col-list {
     .grid-8 .grid-item {
         width: 50%;
     }
+    .grid-square.grid-8 .grid-item {
+        height: 0;
+        /* padding-bottom: 100%;  ratio for 443/443 */
+        padding-bottom: 50%; /* ratio for 50% of 443/443 */
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 660px) {
     .grid-3 .grid-item {
+        width: 50%;
+    }
+    .grid-3.grid-square .grid-item {
+        height: 0;
+        /* padding-bottom: 100%;  ratio for 443/443 */
+        padding-bottom: 50%; /* ratio for 50% of 443/443 */
         width: 50%;
     }
     .grid-item {
@@ -1220,10 +1232,22 @@ ul.three-col-list {
     .grid-8 .grid-item {
         width: 33.333%;
     }
+    .grid-8.grid-square .grid-item {
+        height: 0;
+        /* padding-bottom: 100%;  ratio for 443/443 */
+        padding-bottom: 33.333%; /* ratio for 33.333% of 443/443 */
+        width: 33.333%;
+    }
 }
 
 @media only screen and (min-width: 1160px) {
     .grid-8 .grid-item {
+        width: 25%;
+    }
+    .grid-8.grid-square .grid-item {
+        height: 0;
+        /* padding-bottom: 100%;  ratio for 443/443 */
+        padding-bottom: 25%; /* ratio for 25% of 443/443 */
         width: 25%;
     }
 }
@@ -1231,6 +1255,12 @@ ul.three-col-list {
 @media only screen and (min-width: 1320px) {
     .grid-3 .grid-item {
         width: 33.333%;
+    }
+    .grid-3.grid-square .grid-item {
+        height: 0;
+        /* padding-bottom: 100%;  ratio for 443/443 */
+        padding-bottom: 25%; /* ratio for 25% of 443/443 */
+        width: 25%;
     }
     .grid-item .mag-articles_title button {
         font-size: .3em;
@@ -1242,16 +1272,34 @@ ul.three-col-list {
     .grid-3 .grid-item {
         width: 25%;
     }
+    .grid-3.grid-square .grid-item {
+        height: 0;
+        /* padding-bottom: 100%;  ratio for 443/443 */
+        padding-bottom: 25%; /* ratio for 25% of 443/443 */
+        width: 25%;
+    }
 }
 
 @media only screen and (min-width: 2640px) {
     .grid-3 .grid-item {
         width: 20%;
     }
+    .grid-3.grid-square .grid-item {
+        height: 0;
+        /* padding-bottom: 100%;  ratio for 443/443 */
+        padding-bottom: 20%; /* ratio for 20% of 443/443 */
+        width: 20%;
+    }
 }
 
 @media only screen and (min-width: 3300px) {
     .grid-3 .grid-item {
+        width: 16.66%;
+    }
+    .grid-3.grid-square .grid-item {
+        height: 0;
+        /* padding-bottom: 100%;  ratio for 443/443 */
+        padding-bottom: 16.66%; /* ratio for 16.66% of 443/443 */
         width: 16.66%;
     }
 }
