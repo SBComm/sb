@@ -2574,9 +2574,9 @@
 	.sbu-footer .social-footer-wrapper a {
 		width: 16%;
 		margin: 0px 2%;
-		border: 1px solid #828282;
+		border: 1px solid #545454;
 		border-radius: 50%;
-		color: #828282;
+		color: #545454;
 		background: #fcfcfc;
 		font-size: 1.2em;
 		padding: 7px 0;
@@ -2588,7 +2588,7 @@
 		background: #900 !important;
 	}
 	.sbu-footer .social-wall-link {
-		color: #828282;
+		color: #545454;
 		font-size: .9em;
 	}
 	.sbu-footer .social-wall-link:hover {
