@@ -363,6 +363,7 @@
 		text-transform: none;
 		margin: 0 32px 0 0;
 		font-weight: 400;
+		background: rgba(255,255,255,0);
 	}
 
 	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level li:last-child a {
@@ -524,7 +525,7 @@
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head h3, 
 	#mp-menu .inmenu--primary-nav > .mp-level > .inmenu--desktop-nav > ul > li.inmenu--desktop-nav--head h4 {
 		font-size: 1.15em;
-		color: #828282;
+		color: #767676;
 		font-weight: 500 !important;
 		margin: 0;
 		padding: 0;
@@ -559,6 +560,7 @@
 	.inmenu--desktop-nav_related-links_label {
 		margin: 0 0 0 0;
 		color: #757575;
+		background: rgba(255,255,255,0);
 		text-transform: uppercase;
 		cursor: default;
 	}

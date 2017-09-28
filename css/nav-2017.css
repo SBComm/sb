@@ -33,6 +33,11 @@ nav.primary-nav {
 	display: block;
 }
 
+.search-container label.hide-accessible {
+	color: #000;
+	background: #fff;
+}
+
 .mp-menu .search-container input[type="text"],
 .mp-menu .search-container input[type="text"] {
 	background: #fff;
