@@ -45,7 +45,7 @@
                     <label class="hide-accessible" for="search-form-query1">Search the site:</label>
             		<input type="text" id="search-form-query1" name="q" title="Search" value="" class="populate" size="30" placeholder="Search...">
             		<button type="submit" class="btn btn-success" id="search-form-submit1" alt="Do search">
-		                <i class="icon fa fa-search"></i>
+		                <i class="icon fa fa-search"></i><span class="hide-accessible">Search</span>
 		            </button>
 	            </form>
         	<?php } ?>
@@ -54,7 +54,7 @@
                     <label class="hide-accessible" for="vasearch">Ask a Question:</label>
 					<input id="vasearch" class="vasearch" name="quser" type="text" placeholder="Ask a Question..." size="30" maxlength="300">
 					<button type="submit" class="btn btn-success" id="btnask" alt="Search Button">
-		                <i class="icon fa fa-question-circle"></i>
+		                <i class="icon fa fa-question-circle"></i><span class="hide-accessible">Search</span>
 		            </button>
 				</form>
         	<?php } ?>
