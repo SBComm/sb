@@ -41,7 +41,6 @@ $(document).ready(function() {
     $('.main-nav-list li a').click(function(event) {
 
         dropNavId = $(this).data('drop-nav-id');
-        console.log(dropNavId);
 
         if(dropNavId>0) {
             event.preventDefault();
@@ -64,7 +63,6 @@ $(document).ready(function() {
 
     $('.main-nav-list--show-on-hover li a').mouseenter(function(e) {
         dropNavId = $(this).data('drop-nav-id');
-            console.log(dropNavId);
 
         if(dropNavId>0 && $(window).width()>=1022) {
 
@@ -84,7 +82,6 @@ $(document).ready(function() {
         //if this link has a mega menu, show it
             //if not, hide all mega menu
             var dropNavId = $(this).attr('data-drop-nav-id');
-            console.log(dropNavId);
 
             dropNav = $("nav.drop-nav[data-drop-nav-id='" + dropNavId + "']");
 
