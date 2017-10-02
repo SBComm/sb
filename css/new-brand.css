@@ -969,6 +969,14 @@ ul.three-col-list {
     top: 38%;
 }
 
+table.tablesaw.sb-isotope-list tr {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    height: 70px !important;
+    transition-duration: 0.001s !important;
+}
+
 
 @media only screen and (max-width: 399px) {
 
