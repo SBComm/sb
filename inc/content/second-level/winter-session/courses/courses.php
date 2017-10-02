@@ -39,6 +39,7 @@
         <h4 id="browse-departments" class="clearfix">Winter Courses by Department</h4>
 
         <div class="filter-wrapper border-box content clearfix sticky">
+            <label class="hide-accessible" for="live-filter-search">Search</label>
             <input id="live-filter-search" type="text" class="rounded-input text-filter" placeholder="Filter Departments" />
             <div class="filter-controls clearfix">
                 <div class="filter-status"></div>
