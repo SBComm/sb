@@ -969,7 +969,7 @@ ul.three-col-list {
     top: 38%;
 }
 
-.sb-isotope-list table.tablesaw tr {
+table.tablesaw.sb-isotope-list tr {
     position: relative !important;
     left: auto !important;
     top: auto !important;
