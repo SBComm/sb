@@ -2,6 +2,7 @@
     <div class="border-box wrapper clearfix">
         <h3>Graduate Programs</h3>
         <div class="content clearfix">
+            <label class="hide-accessible" for="live-filter-search-2">Search</label>
             <input id="live-filter-search-2" class="rounded-input" placeholder="Search programs, degrees, etc.">
             <div class="key-icons pad-top" data-filter-input-id="live-filter-search-2">
                 <div class="key-icons--item do-live-filter-search-term selected" data-live-filter-term=""><span class="key-icons--icon key-icons--icon_grey key-icons--icon_circle"><em class="fa fa-eye"></em></span> Show All</div>
