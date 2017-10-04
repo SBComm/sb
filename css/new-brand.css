@@ -1201,6 +1201,12 @@ table.tablesaw.sb-isotope-list tr {
     max-width: 230px
 }
 
+.grid-square.grid-8 .grid-item {
+    height: 0;
+    /* padding-bottom: 100%;  ratio for 443/443 */
+    padding-bottom: 100%; /* ratio for 50% of 443/443 */
+    width: 100%;
+}
 
 @media only screen and (min-width: 400px) {
     .grid-item--hover-image .mag-articles_title p:before,
