@@ -209,7 +209,10 @@ select.rounded-input {
 
 .brand-form input[type="text"]:focus,
 .brand-form input[type="email"]:focus,
-.brand-form select:focus {
+.brand-form select:focus,
+.brand-form input[type="text"].active,
+.brand-form input[type="email"].active,
+.brand-form select.active {
     border-color: #900;
     color: #900;
     background: #f8f8f8;
