@@ -7550,26 +7550,6 @@ footer.site-footer .social .small-button:after {
    ========================================================================== */
 
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-        font-size: 12px;
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
 
     /*
      * Don't show links for images, or javascript/internal links
@@ -7583,21 +7563,16 @@ footer.site-footer .social .small-button:after {
 
     pre,
     blockquote {
-        border: 1px solid #999;
         page-break-inside: avoid;
     }
 
     thead {
-        display: table-header-group; /* h5bp.com/t */
+        display: table-header-group;
     }
 
     tr,
     img {
         page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
     }
 
     @page {
