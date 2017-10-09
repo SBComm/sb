@@ -6,6 +6,7 @@ $app_secret = 'dfb5b4569fb74301a8487f7e3c5a14fb';
 // DO NOT EDIT BELOW THIS LINE
 ini_set('display_errors', '0');
 error_reporting(E_ALL | E_STRICT);
+header('Access-Control-Allow-Origin: *');
 
 $app_access_token = $app_id.'|'.$app_secret;
 $page_id = isset($_GET['id']) ? $_GET['id'] : '';
