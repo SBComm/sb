@@ -8,7 +8,7 @@ echo 'social_channel_id: '.$social_channel_id;
 if($social_feed_widget) { ?>
 	<script src="https://www.stonybrook.edu/js/social-v2/js/jquery.social.stream.wall.1.7.js"></script>
 	<script src="https://www.stonybrook.edu/js/social-v2/js/jquery.social.stream.1.6.js"></script>
-	<?php includeAsset('js','https://www.stonybrook.edu/js/social/preload-messages.js'); ?>
+	<script src="https://www.stonybrook.edu/js/social/preload-messages.js"></script>
 
 	<?php if($live_filter==true) { ?>
 		<?php includeAsset('js','https://www.stonybrook.edu/js/vendor/jquery.fastLiveFilter.js'); ?>
