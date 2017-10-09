@@ -1,6 +1,7 @@
 <?php
 ini_set('display_errors', '0');
 error_reporting(E_ALL | E_STRICT);
+header('Access-Control-Allow-Origin: *');
 
 header('Content-Type: application/json');
 $feed = new DOMDocument();
