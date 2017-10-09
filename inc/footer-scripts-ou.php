@@ -32,7 +32,7 @@ if($social_feed_widget) { ?>
 									search: '',
 									out: 'intro,thumb,text,share',
 									thumb: true,
-									url: '/social/v2/twitter.php'
+									url: 'https://www.stonybrook.edu/social/v2/twitter.php'
 								}
 							},
 							rotate: {
@@ -61,7 +61,7 @@ if($social_feed_widget) { ?>
 									search: '',
 									feed: 'posts',
 									text: 'contentSnippet',
-									url: '/social/v2/facebook.php'
+									url: 'https://www.stonybrook.edu/social/v2/facebook.php'
 								}
 							},
 							rotate: {
@@ -170,7 +170,7 @@ if($social_feed_widget) { ?>
 								rss: {
 									id: '<?=$social_feed_channel[$i]?>',
 									intro: '',
-									url: '/social/v2/rss.php'
+									url: 'https://www.stonybrook.edu/social/v2/rss.php'
 								},
 							},
 							rotate: {
