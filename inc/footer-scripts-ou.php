@@ -6,12 +6,12 @@ echo 'social_feed_widget: '.$social_feed_widget;
 echo 'social_channel_id: '.$social_channel_id;
 */
 if($social_feed_widget) { ?>
-	<script src="/js/social-v2/js/jquery.social.stream.wall.1.7.js"></script>
-	<script src="/js/social-v2/js/jquery.social.stream.1.6.js"></script>
-	<?php includeAsset('js','/js/social/preload-messages.js'); ?>
+	<script src="https://www.stonybroook.edu/js/social-v2/js/jquery.social.stream.wall.1.7.js"></script>
+	<script src="https://www.stonybroook.edu/js/social-v2/js/jquery.social.stream.1.6.js"></script>
+	<?php includeAsset('js','https://www.stonybroook.edu/js/social/preload-messages.js'); ?>
 
 	<?php if($live_filter==true) { ?>
-		<?php includeAsset('js','js/vendor/jquery.fastLiveFilter.js'); ?>
+		<?php includeAsset('js','https://www.stonybroook.edu/js/vendor/jquery.fastLiveFilter.js'); ?>
 		<script>
 			$('#live-filter-search').fastLiveFilter('#live-filter-list ul');
 		</script>
@@ -193,6 +193,6 @@ if($social_feed_widget) { ?>
 		}
 	?>
 	
-	<script type="text/javascript" src="/js/social/custom.js"></script>
+	<script type="text/javascript" src="https://www.stonybroook.edu/js/social/custom.js"></script>
 
 <?php } ?>
