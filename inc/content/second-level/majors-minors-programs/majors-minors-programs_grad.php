@@ -14,7 +14,7 @@
                     
                 <?php
                     //include($path . 'scripts/get-academics-programs_grad.php');
-                    include('/user/far-beyond/www/development/sb/inc/scripts/get-academics-programs_grad.php');
+                    include('/user/far-beyond/www/sb/inc/scripts/get-academics-programs_grad.php');
                 ?>
 
             </div>

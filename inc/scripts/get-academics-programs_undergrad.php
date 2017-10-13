@@ -42,13 +42,8 @@
 
 			foreach ($program->titles->title as $title) {
 			    switch((string) $title['type']) {
-				    case 'grad':
-				        $program_title = $title;
-				        break;
 				    case 'undergrad':
-				    	if($program_title == '') {
-				        	$program_title = $title;
-				    	}
+				        $program_title = $title;
 				        break;
 			    }
 			}
