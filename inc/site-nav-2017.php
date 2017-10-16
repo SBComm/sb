@@ -275,9 +275,9 @@
                                 </ul>
                                 <ul>
                                     <li class="inmenu--desktop-nav--head"><h3>Things to Do</h3></li>
-                                    <li><a href="http://studentaffairs.stonybrook.edu/sac/" tabindex="110">Activities &amp; Clubs</a></li>
-                                    <li><a href="http://studentaffairs.stonybrook.edu/beyondthebrook/" tabindex="111">Beyond the Brook</a></li>
-                                    <li><a href="http://www.stonybrook.edu/traditions/" tabindex="112">Spirit &amp; Tradition</a></li>
+                                    <li><a href="http://studentaffairs.stonybrook.edu/sac/" tabindex="409">Activities &amp; Clubs</a></li>
+                                    <li><a href="http://studentaffairs.stonybrook.edu/beyondthebrook/" tabindex="410">Beyond the Brook</a></li>
+                                    <li><a href="http://www.stonybrook.edu/traditions/" tabindex="411">Spirit &amp; Tradition</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
