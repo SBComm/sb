@@ -95,6 +95,7 @@
 </script>
 
 <?php if($page_type=='search') {
+    includeAsset('js','js/vendor/iframeResizer.min.js');
 	includeAsset('js','js/search/search.js');
 } ?>
 
