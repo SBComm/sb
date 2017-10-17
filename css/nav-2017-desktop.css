@@ -589,6 +589,25 @@
 		color: #900;
 	}
 
+	.inmenu--desktop-nav_extra-content {
+		display: block;
+		width: 100%;
+		padding: 36px 0 0 0;
+		float: left;
+	}
+
+	a.inmenu--desktop-nav_campaign {
+		display: block;
+		width: 69%;
+		padding: 0 0 5px;
+	}
+
+	.mp-level li a.inmenu--desktop-nav_campaign:hover {
+	    background: transparent !important;
+	    text-decoration: none;
+	    border-bottom: 3px solid #000 !important;
+    }
+
 
 	.inmenu--search {
 		position: absolute;
