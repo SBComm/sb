@@ -98,6 +98,9 @@
                                     <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/diversity/" tabindex="183">Diversity</a>
                                     <a class="inmenu--desktop-nav_related-links_link" href="http://www.stonybrook.edu/sustainability/" tabindex="184">Sustainability</a>
                                 </div>
+                                <div class="inmenu--desktop-nav_extra-content">
+                                    <a class="inmenu--desktop-nav_campaign" href="http://www.stonybrook.edu/campaign/"><img src="//www.stonybrook.edu/commcms/_resources/images/logos/campaign-one-line.png" alt="The Campaign for Stony Brook" /></a>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -424,7 +427,7 @@
 
                     <li class="inmenu--cta clearfix">
                         <a href="http://www.stonybrook.edu/undergraduate-admissions/apply/" tabindex="11">Apply</a>
-                        <a href="http://www.stonybrook.edu/advancement/" tabindex="12">Giving</a>
+                        <a href="http://www.stonybrook.edu/campaign/" tabindex="12">Giving</a>
                         <a href="http://www.stonybrook.edu/visit/" tabindex="13">Visit</a>
                     </li>
 
