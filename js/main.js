@@ -564,4 +564,15 @@ var initReady = function() {
 		}
 
 	});
+
+	/* Accessibility override for keyboard on lightboxes */
+	// on enter press, open the URL, don't use the lightbox
+	$(document.body).on('keydown',function(e) {
+		var $focusedEl = $(':focus');
+        console.log($focusedEl);
+        if( e.keyCode == 13 && $focusedEl.hasClass('nivo-lightbox') && $focusedEl.attr('data-lightbox-gallery')=='full-width-popup-gallery' ) {
+            var newURL = $focusedEl.attr('href');
+            window.open(newURL, '_self');
+        }
+	});
 };
