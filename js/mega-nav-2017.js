@@ -294,7 +294,7 @@ $(document).ready(function() {
                 if(megaMenuIsShowing()) {
                     hideActiveMegaMenu(false);
                 }
-            } else if (e.keyCode == 40 || e.keyCode == 13) { //down
+            } else if (e.keyCode == 40) { //down
                 e.preventDefault();
                 //console.log(megaMenuIsShowing());
                 //console.log(getMegaMenuIdFromEl($focusedEl));
@@ -304,7 +304,10 @@ $(document).ready(function() {
                     //select the first link
                     $('.active-megamenu .inmenu--desktop-only ul:first-child li:nth-child(1) a').focus();
                 }
-
+            } else if (e.keyCode == 13) { //down
+                var newURL = $focusedEl.attr('href');
+                console.log(newURL);
+                window.open(newURL, '_self');
             }
         } 
         else if( $focusedEl.closest('.inmenu--desktop-nav').length ) { //if focused within a mega menu
