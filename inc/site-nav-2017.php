@@ -30,7 +30,7 @@
                         <a id="main-nav" class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="http://www.stonybrook.edu" tabindex="60"><em class="fa fa-home"></em><span class="hide-accessible">Home</span></a>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--about">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==2) echo(' active'); ?>" href="http://www.stonybrook.edu/about/" tabindex="100">About</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==2) echo(' active'); ?>" href="http://www.stonybrook.edu/about/" aria-controls="mega-menu-2" tabindex="100">About</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">About</h2>
                             <img class="inmenu--primary-nav--image" src="//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="Stony Brook bus showing the branded slogan Far Beyond on its side" style="background: url(//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg)" />
@@ -71,7 +71,7 @@
                                 <li><a href="http://www.stonybrook.edu/about/centers-and-institutes/">Centers &amp; Institutes</a></li>
                             </ul>
 
-                            <div class="inmenu--desktop-only inmenu--desktop-nav">
+                            <div id="mega-menu-2" class="inmenu--desktop-only inmenu--desktop-nav">
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/about/" tabindex="101">Overview</a></li>
                                     <li><a href="http://www.stonybrook.edu/about/history/" tabindex="102">History</a></li>
@@ -200,7 +200,7 @@
                                         <ul>
                                             <li><a href="http://www.stonybrook.edu/ugbulletin">Undergraduate</a></li>
                                             <li><a href="http://www.stonybrook.edu/gradbulletin">Graduate</a></li>
-                                            <li><a href="http://www.stonybrook.edu/hsstudents/bulletin">Health Sciences</a></li>
+                                            <li><a href="http://www.stonybrook.edu/hsbulletin">Health Sciences</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -223,7 +223,7 @@
                                     <li class="inmenu--desktop-nav--head"><h3>Bulletins</h3></li>
                                     <li><a href="http://www.stonybrook.edu/ugbulletin" tabindex="309">Undergraduate</a></li>
                                     <li><a href="http://www.stonybrook.edu/gradbulletin" tabindex="310">Graduate</a></li>
-                                    <li><a href="http://www.stonybrook.edu/hsstudents/bulletin" tabindex="311">Health Sciences</a></li>
+                                    <li><a href="http://www.stonybrook.edu/hsbulletin" tabindex="311">Health Sciences</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
