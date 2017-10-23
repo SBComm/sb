@@ -1,3 +1,4 @@
+<?php if($second_level!='undergrad-admissions') { ?>
 <nav class="more-nav-v3 hide-accessible clearfix">
 	<div class="wrapper more-nav-v3-wrapper">
 		<div class="more-nav-v3-col">
@@ -118,3 +119,4 @@
         </div>
     </div>
 </nav>
+<?php } ?>

@@ -2,6 +2,7 @@
 
 function hideAllDropNav() {
     $("nav.drop-nav").removeClass('open').addClass('hide-accessible');
+    $('.main-nav-list li').removeClass('active');
 }
 
 function hideDropNav(id) {
@@ -76,6 +77,7 @@ $(document).ready(function() {
     });
 
     $(document.body).on('focusin','.main-nav-list li a',function(){
+        console.log($(this));
         // change this to let the element focus, then listen for enter and show the drop nav when event code = 13
         //reevaluate the taborder of links, if this will work with current nav build
 
@@ -87,8 +89,23 @@ $(document).ready(function() {
 
             if($(dropNav).hasClass('hide-accessible')) {
                 $(this).trigger('click');
+            } else {
+                hideAllDropNav();
             }
         
+    });
+
+    $(document.body).on('focusin','nav.drop-nav a',function(){
+
+        var dropNavId = $(this).closest('nav.drop-nav').attr('data-drop-nav-id');
+        console.log(dropNavId);
+
+        dropNav = $("nav.drop-nav[data-drop-nav-id='" + dropNavId + "']");
+        if($(dropNav).hasClass('hide-accessible')) {
+            hideAllDropNav();
+            showDropNav(dropNavId);
+        }
+
     });
 
 
