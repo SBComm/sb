@@ -374,6 +374,7 @@
 	#mp-menu .mp-level ul > li.inmenu--audiences .mp-level a:focus {
 		border-color: transparent !important;
 		color: #900;
+		text-decoration: underline;
 	}
 
 	.inmenu--primary-nav > .mp-level {
