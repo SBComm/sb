@@ -306,7 +306,6 @@ $(document).ready(function() {
                 }
             } else if (e.keyCode == 13) { //down
                 var newURL = $focusedEl.attr('href');
-                console.log(newURL);
                 window.open(newURL, '_self');
             }
         } 
