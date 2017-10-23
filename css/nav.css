@@ -1913,7 +1913,9 @@
     .site-nav.big-n-bold a:hover:after,
 	.sub-nav.big-n-bold a:hover:after,
 	.site-nav.big-n-bold .active a:after,
-	.sub-nav.big-n-bold .active a:after {
+	.sub-nav.big-n-bold .active a:after,
+	.site-nav.big-n-bold a:focus:after,
+	.sub-nav.big-n-bold a:focus:after {
         border-bottom-color: #2d2525;
         border-width: 10px;
         margin-left: -10px;
