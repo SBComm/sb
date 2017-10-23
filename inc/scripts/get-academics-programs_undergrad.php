@@ -96,7 +96,7 @@
 	                	}
 
 		                	$program_output .= "
-		                		<span class=\"key-icons--icon key-icons--icon_circle key-icons--icon_$degree_color tooltip tooltip--no-icon-after\" title=\"$degree_label\">$degree_abbr<span class=\"hide-accessible\">$degree_label</span></span>
+		                		<span class=\"key-icons--icon key-icons--icon_circle key-icons--icon_$degree_color tooltip tooltip--no-icon-after\" title=\"$degree_label\"><span aria-hidden=\"true\">$degree_abbr</span><span class=\"hide-accessible\">$degree_label</span></span>
 		                	";
 	                	
 					}
@@ -139,7 +139,7 @@
 	                	//remove $degree_type != 'bachelor' when ready to show
 	                	if($degree_level == 'undergrad' && $degree_type != 'bachelor') {
 		                	$program_output .= "
-		                		<span class=\"key-icons--icon key-icons--icon_$degree_color tooltip tooltip--no-icon-after\" title=\"$degree_label\">$degree_abbr<span class=\"hide-accessible\">$degree_type: $degree_label</span></span>
+		                		<span class=\"key-icons--icon key-icons--icon_$degree_color tooltip tooltip--no-icon-after\" title=\"$degree_label\"><span aria-hidden=\"true\">$degree_abbr</span><span class=\"hide-accessible\">$degree_type: $degree_label</span></span>
 		                	";
 	                	}
 					}
@@ -153,14 +153,14 @@
 	                		/* case 'grad':
 	                			if($non_degrees_value=='true') {
 				                	$program_output .= "
-				                		<span class=\"key-icons--icon key-icons--icon_black tooltip tooltip--no-icon-after\" title=\"Non-degree: Graduate\">ND<span class=\"hide-accessible\">Non-Degree: Graduate</span></span>
+				                		<span class=\"key-icons--icon key-icons--icon_black tooltip tooltip--no-icon-after\" title=\"Non-degree: Graduate\"><span aria-hidden=\"true\">ND</span><span class=\"hide-accessible\">Non-Degree: Graduate</span></span>
 				                	";
 	                			}
 	                			break; */
 	                		case 'undergrad':
 	                			if($non_degrees_value=='true') {
 				                	$program_output .= "
-				                		<span class=\"key-icons--icon key-icons--icon_black tooltip tooltip--no-icon-after\" title=\"Non-degree: Undergraduate\">ND<span class=\"hide-accessible\">Non-Degree: Undergraduate</span></span>
+				                		<span class=\"key-icons--icon key-icons--icon_black tooltip tooltip--no-icon-after\" title=\"Non-degree: Undergraduate\"><span aria-hidden=\"true\">ND</span><span class=\"hide-accessible\">Non-Degree: Undergraduate</span></span>
 				                	";
 	                			}
 	                			break;
