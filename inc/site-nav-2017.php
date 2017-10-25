@@ -71,7 +71,7 @@
                                 <li><a href="http://www.stonybrook.edu/about/centers-and-institutes/">Centers &amp; Institutes</a></li>
                             </ul>
 
-                            <div id="mega-menu-2" class="inmenu--desktop-only inmenu--desktop-nav">
+                            <div id="mega-menu-2" class="inmenu--desktop-only inmenu--desktop-nav" aria-hidden="true">
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/about/" tabindex="101">Overview</a></li>
                                     <li><a href="http://www.stonybrook.edu/about/history/" tabindex="102">History</a></li>
@@ -141,7 +141,7 @@
                                 </li>
                             </ul>
 
-                            <div id="mega-menu-3" class="inmenu--desktop-only inmenu--desktop-nav">
+                            <div id="mega-menu-3" class="inmenu--desktop-only inmenu--desktop-nav" aria-hidden="true">
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/admissions/" tabindex="201">Overview</a></li>
                                     <li><a href="http://www.stonybrook.edu/undergraduate-admissions/" tabindex="202">Undergraduate Admissions</a></li>
@@ -206,7 +206,7 @@
                                 </li>
                             </ul>
 
-                            <div id="mega-menu-4" class="inmenu--desktop-only inmenu--desktop-nav">
+                            <div id="mega-menu-4" class="inmenu--desktop-only inmenu--desktop-nav" aria-hidden="true">
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/academics/" tabindex="301">Overview</a></li>
                                     <li><a href="http://www.stonybrook.edu/academics/colleges-and-schools/" tabindex="302">Colleges &amp; Schools</a></li>
@@ -263,7 +263,7 @@
                                 </li>
                             </ul>
 
-                            <div id="mega-menu-5" class="inmenu--desktop-only inmenu--desktop-nav">
+                            <div id="mega-menu-5" class="inmenu--desktop-only inmenu--desktop-nav" aria-hidden="true">
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/campus-life/" tabindex="401">Overview</a></li>
                                     <li><a href="http://studentaffairs.stonybrook.edu/res/" tabindex="402">Living on Campus</a></li>
@@ -322,7 +322,7 @@
                                 </li>
                             </ul>
 
-                            <div id="mega-menu-6" class="inmenu--desktop-only inmenu--desktop-nav">
+                            <div id="mega-menu-6" class="inmenu--desktop-only inmenu--desktop-nav" aria-hidden="true">
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/research/?overview" tabindex="501">Overview</a></li>
                                     <li><a href="http://research.stonybrook.edu/researchers" tabindex="502">For Researchers</a></li>
@@ -385,7 +385,7 @@
                                 </li>
                             </ul>
 
-                            <div id="mega-menu-8" class="inmenu--desktop-only inmenu--desktop-nav">
+                            <div id="mega-menu-8" class="inmenu--desktop-only inmenu--desktop-nav" aria-hidden="true">
                                 <ul>
                                     <li><a href="http://www.stonybrook.edu/medicine/?overview" tabindex="701">Overview</a></li>
                                     <li><a href="https://www.stonybrookmedicine.edu/education" tabindex="702">Health Sciences Schools</a></li>
