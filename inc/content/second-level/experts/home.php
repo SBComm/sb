@@ -11,7 +11,8 @@
             <form class="search-list-page" action="experts/results/" method="get">
                 <div class="input-wrap">
                     <input type="hidden" name="view" value="grid" />
-                    <input type="text" placeholder="search name or topic" name="keyword" />
+                    <label class="hide-accessible" for="experts-keyword-search">Search</label>
+                    <input id="experts-keyword-search" type="text" placeholder="search name or topic" name="keyword" />
                     <button type="submit"><i class="fa-search"></i><span class="hide-accessible"> Search</span></button>
                 </div>
             </form>
