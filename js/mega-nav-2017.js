@@ -27,10 +27,10 @@ function showMegaMenu(megaIndex) {
     var $megaMenu = $("div[data-mega-menu-id='"+megaIndex+"']");
     //console.log($megaMenu.hasClass('hide-accessible-1160'));
 
-    $megaNav.addClass('selected');
+    $megaNav.addClass('selected').attr('aria-expanded','true');
 
     if($megaMenu.hasClass('hide-accessible-1160')) {
-        $megaMenu.removeClass('hide-accessible-1160').addClass('active-megamenu');
+        $megaMenu.removeClass('hide-accessible-1160').addClass('active-megamenu').find('.inmenu--desktop-nav').attr('aria-expanded','true');
     }
 
     switchNavFocus($megaNav,megaIndex);
@@ -42,8 +42,8 @@ function hideMegaMenu(megaIndex,boolClearFocus) {
     var $megaNav = $("a[data-mega-menu-id='"+megaIndex+"']");
     var $megaMenu = $("div[data-mega-menu-id='"+megaIndex+"']");
 
-    $megaNav.removeClass('selected');
-    $megaMenu.addClass('hide-accessible-1160');
+    $megaNav.removeClass('selected').attr('aria-expanded','false');
+    $megaMenu.addClass('hide-accessible-1160').find('.inmenu--desktop-nav').attr('aria-expanded','false');
     hideAllMegaMenu();
 
     clearActiveMegaMenuID();

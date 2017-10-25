@@ -3,10 +3,6 @@
 	z-index: 1;
 }
 
-.inmenu--desktop-only {
-	display: none !important;
-}
-
 nav.primary-nav {
 	background-image: url(../img/branding/rays/light-gray-rays-masthead-2200px.png);
     background-position: center;
@@ -137,4 +133,15 @@ li.inmenu--cta {
 		width: 230px;
 	}
 
+}
+
+@media only screen and (max-width: 1159px) {
+	.inmenu--desktop-only {
+		position: absolute;
+		left: -10000px;
+		top: auto;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+	}
 }
