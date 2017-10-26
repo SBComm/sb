@@ -243,11 +243,11 @@ var initReady = function() {
 		console.log($(window).width() >= offsetBreakpointStart);
 		*/
 		if($(target).length && target.length>1 && !isTrigger && !isGallery && isScroll) {
-			/*event.preventDefault();
+			event.preventDefault();
 		    var hash = target.substring(1); //strip off the #
 		    if(disableHistoryState != 'true') {
 		    	window.location.hash = "view-"+hash;
-		    }*/
+		    }
 
 		    if(triggerRole == 'show-content') {
 		    	$('#tabbed-nav-content li').removeClass('open');
@@ -257,7 +257,7 @@ var initReady = function() {
 	    		$('body').scrollTo($(target), 400, {
 			    	axis: 'y'
 			    });
-		    } /*else if(offset) {
+		    } else if(offset) {
 		    	if(offsetTop && ($(window).width() >= offsetBreakpointStart)) {
 		    		$('body').scrollTo($(target), 400, {
 				    	axis: 'y',
@@ -276,8 +276,9 @@ var initReady = function() {
 		    	$('body').scrollTo($(target), 400, {
 			    	axis: 'y'
 			    });
+			    console.log($(target));
 			    $(target).focus();
-		    }*/
+		    }
 
 		}
 	});
