@@ -30,7 +30,7 @@
                         <a id="main-nav" class="inmenu--desktop-nav-link inmenu--primary-nav--link" href="http://www.stonybrook.edu" tabindex="60"><em class="fa fa-home"></em><span class="hide-accessible">Home</span></a>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--about">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==2) echo(' active'); ?>" href="http://www.stonybrook.edu/about/" aria-controls="mega-menu-2" tabindex="100">About</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==2) echo(' active'); ?>" href="http://www.stonybrook.edu/about/" aria-controls="mega-menu-2" aria-expanded="false" tabindex="100">About</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">About</h2>
                             <img class="inmenu--primary-nav--image" src="//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg" alt="Stony Brook bus showing the branded slogan Far Beyond on its side" style="background: url(//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pic_3-col_about.jpg)" />
@@ -105,7 +105,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--admissions">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==3) echo(' active'); ?>" href="http://www.stonybrook.edu/admissions/" aria-controls="mega-menu-3" tabindex="200">Admissions</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==3) echo(' active'); ?>" href="http://www.stonybrook.edu/admissions/" aria-controls="mega-menu-3" aria-expanded="false" tabindex="200">Admissions</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Admissions</h2>
                             <img class="inmenu--primary-nav--image" src="//www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg" alt="Three students walking through Stony Brook Campus on a beautiful sunny day" style="background: url(//www.stonybrook.edu/far-beyond/img/nav/mega-menu-default.jpg)" />
@@ -169,7 +169,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--academics">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==4) echo(' active'); ?>" href="http://www.stonybrook.edu/academics/" aria-controls="mega-menu-4" tabindex="300">Academics</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==4) echo(' active'); ?>" href="http://www.stonybrook.edu/academics/" aria-controls="mega-menu-4" aria-expanded="false" tabindex="300">Academics</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Academics</h2>
                             <img class="inmenu--primary-nav--image" src="//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg" alt="A group of happy Stony Brook graduates at Commencement ceremony" style="background: url(//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_academics.jpg)" />
@@ -235,7 +235,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--campus-life">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==5) echo(' active'); ?>" href="http://www.stonybrook.edu/campus-life/" aria-controls="mega-menu-5" tabindex="400">Campus Life</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==5) echo(' active'); ?>" href="http://www.stonybrook.edu/campus-life/" aria-controls="mega-menu-5" aria-expanded="false" tabindex="400">Campus Life</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Campus Life</h2>
                             <img class="inmenu--primary-nav--image" src="//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col-campus-life-2.jpg" alt="A student smiles as he works with a small group around a round table in the Student Activities Center" style="background: url(//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_campus-life.jpg)" />
@@ -293,7 +293,7 @@
                         </div>
                     </li>
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--research">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==6) echo(' active'); ?>" href="http://www.stonybrook.edu/research/?overview" aria-controls="mega-menu-6" tabindex="500">Research</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==6) echo(' active'); ?>" href="http://www.stonybrook.edu/research/?overview" aria-controls="mega-menu-6" aria-expanded="false" tabindex="500">Research</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Research</h2>
                             <img class="inmenu--primary-nav--image" src="//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg" alt="A researcher holds a syringe as she performs a test" style="background: url(//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_research.jpg)" />
@@ -354,7 +354,7 @@
                     <li class="inmenu--primary-nav"><a class="inmenu--desktop-nav-link inmenu--primary-nav--link <?php if($main_nav_selected_tab==7) echo(' active'); ?>" href="http://www.stonybrook.edu/athletics/" tabindex="600">Athletics</a></li>
 
                     <li class="nav-icon nav-icon-arrow-left inmenu--primary-nav inmenu--primary-nav--medicine">
-                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==8) echo(' active'); ?>" href="http://www.stonybrook.edu/medicine/?overview" aria-controls="mega-menu-8" tabindex="700">Medicine</a>
+                        <a class="inmenu--desktop-nav-link inmenu--primary-nav--mega-trigger <?php if($main_nav_selected_tab==8) echo(' active'); ?>" href="http://www.stonybrook.edu/medicine/?overview" aria-controls="mega-menu-8" aria-expanded="false" tabindex="700">Medicine</a>
                         <div class="mp-level inmenu--primary-nav--mega-nav hide-accessible-1160">
                             <h2 class="nav-icon nav-icon-arrow-right-2">Medicine</h2>
                             <img class="inmenu--primary-nav--image" src="//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg" alt="Three Stony Brook Medicine personnel walk through the Hospital as they talk amongst each other" style="background: url(//www.stonybrook.edu/far-beyond/img/nav/mega-nav-pics_3-col_medicine.jpg)" />

@@ -11,10 +11,6 @@ function switchNavFocus($megaNav,megaIndex) {
     var $currentFocused = getFocusedMegaMenuLink();
     var currentFocusedIndex = getMegaMenuIdFromEl($currentFocused);
 
-    //console.log(currentFocusedIndex);
-    //console.log(megaIndex);
-
-
     if(currentFocusedIndex !== megaIndex) {
         //console.log($megaNav);
         //$megaNav.focus();
@@ -26,6 +22,10 @@ function showMegaMenu(megaIndex) {
     var $megaNav = $("a[data-mega-menu-id='"+megaIndex+"']");
     var $megaMenu = $("div[data-mega-menu-id='"+megaIndex+"']");
     //console.log($megaMenu.hasClass('hide-accessible-1160'));
+
+    //aria "close" the rest of the drop navs
+    $('a[data-mega-menu-id]').attr('aria-expanded','false');
+    $('div[data-mega-menu-id] .inmenu--desktop-nav').attr('aria-expanded','false').attr('aria-hidden','true');
 
     $megaNav.addClass('selected').attr('aria-expanded','true');
 
