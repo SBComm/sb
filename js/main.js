@@ -573,6 +573,8 @@ var initReady = function() {
         if( e.keyCode == 13 && $focusedEl.hasClass('nivo-lightbox') && $focusedEl.attr('data-lightbox-gallery')=='full-width-popup-gallery' ) {
             var newURL = $focusedEl.attr('href');
             window.open(newURL, '_self');
+        } else if ((e.keyCode == 13 || e.keyCode == 32) && $focusedEl.hasClass('do-live-filter-search-term')) {
+        	$focusedEl.trigger('click');
         }
 	});
 };

@@ -701,10 +701,12 @@ ul.three-col-list {
     color: #900;
 }
 
-.do-live-filter-search-term.selected {
+.do-live-filter-search-term.selected,
+.do-live-filter-search-term:focus {
     background-color: #e8e8e8;
     color: #900;
     border-radius: 2px;
+    outline: none;
 }
 
 @media only screen and (max-width: 1024px) {
