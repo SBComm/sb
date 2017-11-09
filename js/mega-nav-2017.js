@@ -4,7 +4,7 @@ function hideAllMegaMenu() {
     $(".inmenu--primary-nav--mega-trigger").removeClass('selected');
     $(".active-megamenu").addClass('hide-accessible-1160').removeClass('active-megamenu');
     $('.inmenu--desktop-nav-link').trigger('focusout');
-    clearActiveMegaMenuID()
+    clearActiveMegaMenuID();
 }
 
 function switchNavFocus($megaNav,megaIndex) {
@@ -66,6 +66,10 @@ function getActiveMegaMenuID() {
 
 function getActiveMegaMenuLink() {
     return $("a[data-mega-menu-id='"+getActiveMegaMenuID()+"']");
+}
+
+function getMegaMenuLinkByID(linkID) {
+    return $("a[data-mega-menu-id='"+linkID+"']");
 }
 
 function clearActiveMegaMenuID() {
@@ -249,7 +253,8 @@ $(document).ready(function() {
     });
 
     $(document.body).on('focusin','.inmenu--primary-nav--mega-trigger',function(){
-        showMegaMenuOnEnter($(this), 0);
+        //showMegaMenuOnEnter($(this), 0);
+        hideAllMegaMenu();
     });
 
     $(document.body).on('keydown',function(e) {
@@ -279,16 +284,22 @@ $(document).ready(function() {
 
         
         if( $focusedEl.hasClass('inmenu--desktop-nav-link') ) { //if focused on a main nav item
-            if (e.keyCode == 39) { //right
-                e.preventDefault();
-                var $nextLink = $focusedEl.closest('li.inmenu--primary-nav').next('li.inmenu--primary-nav').find('.inmenu--desktop-nav-link');
-                //console.log($nextLink);
-                $nextLink.focus();
-            } else if (e.keyCode == 37) { //left
+            if (e.keyCode == 37 || (e.shiftKey && e.keyCode == 9)) { //left
                 e.preventDefault();
                 var $prevLink = $focusedEl.closest('li.inmenu--primary-nav').prev('li.inmenu--primary-nav').find('.inmenu--desktop-nav-link');
                 //console.log($prevLink);
                 $prevLink.focus();
+            } else if (e.keyCode == 39 || e.keyCode == 9) { //right
+                e.preventDefault();
+                //console.log($focusedEl.closest('li').is('.inmenu--primary-nav:last'));
+                if(e.keyCode == 9 && $focusedEl.closest('li').is('.inmenu--primary-nav:last')) {
+                    var $nextLink = $('#view-main-site-content');
+                    window.location.hash = '#view-main-site-content';
+                    //console.log($nextLink);
+                } else {
+                    var $nextLink = $focusedEl.closest('li.inmenu--primary-nav').next('li.inmenu--primary-nav').find('.inmenu--desktop-nav-link');
+                    $nextLink.focus();
+                }
             } else if (e.keyCode == 38) { //up
                 e.preventDefault();
                 if(megaMenuIsShowing()) {
@@ -304,7 +315,7 @@ $(document).ready(function() {
                     //select the first link
                     $('.active-megamenu .inmenu--desktop-only ul:first-child li:nth-child(1) a').focus();
                 }
-            } else if (e.keyCode == 13) { //down
+            } else if (e.keyCode == 13) { //enter
                 var newURL = $focusedEl.attr('href');
                 window.open(newURL, '_self');
             }
@@ -345,6 +356,8 @@ $(document).ready(function() {
             } else if (e.keyCode == 40) { //down
                 e.preventDefault();
                 tabNextElement($focusedEl);
+            } else if (e.keyCode == 27) { //esc
+                getActiveMegaMenuLink().focus();
             }
 
         }

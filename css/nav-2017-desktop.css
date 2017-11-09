@@ -160,7 +160,8 @@
 		position: relative;
 	}
 	
-	#mp-menu .mp-level ul > li > a.selected:after {
+	#mp-menu .mp-level ul > li > a.selected:after,
+	#mp-menu .mp-level ul > li > a.inmenu--primary-nav--mega-trigger:focus:not(:hover):after {
 		content: "";
 		width: 0; 
 		height: 0; 

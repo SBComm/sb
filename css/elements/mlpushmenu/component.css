@@ -455,6 +455,16 @@
 	text-decoration: none;
 }
 
+.mp-menu ul li a:focus:not(:hover) {
+	background: rgba(76, 4, 4, 0.5);
+}
+
+.mp-menu ul li .inmenu--desktop-nav_related-links_link a:focus:not(:hover) {
+	color: #900;
+	background: transparent;
+	outline: 2px solid #900;
+}
+
 .mp-menu:hover ul li a.active {
 	background: transparent;
 }
