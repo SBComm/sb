@@ -212,6 +212,7 @@ h4 {
     -webkit-transition: none;
     -moz-transition: none;
     transition: none;
+    border-radius: 0;
 }
 
 .brand-button--hover-fill-white:hover {
