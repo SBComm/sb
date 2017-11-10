@@ -293,7 +293,8 @@ if($social_feed_widget) { ?>
 									search: '',
 									out: 'intro,thumb,text,share',
 									thumb: true,
-									url: '/social/v2/twitter.php'
+									url: '/social/v2/twitter.php',
+									retweets: true
 								}
 							},
 							rotate: {
