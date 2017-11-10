@@ -74,7 +74,7 @@
 
 	// Return the HTML output for the tab and section, using the provided labels
 	function outputSection($table,$tabLabels) {
-        return '<li class="tab"><span data-hash="'.$tabLabels['hash'].'" data-mce-mark="1" class="">'.$tabLabels['label'].'</span><section class="courses hide" style="top: 54px;">
+        return '<li class="tab"><span tabindex="0" data-hash="'.$tabLabels['hash'].'" data-mce-mark="1" class="">'.$tabLabels['label'].'</span><section class="courses hide" style="top: 54px;">
                                 <div class="clearfix">
                                     '. $table .'
                                 </div></section></li>
@@ -270,7 +270,7 @@
 							                    echo $record->PCI->BUILDING;
 
 							                	$fp_html .= '
-							                		<li class="tab"><span data-hash="'.$section_text.'" data-mce-mark="1" class="active">'.$section_text.'</span><section class="courses is-open" style="top: 54px;">
+							                		<li class="tab"><span tabindex="0" data-hash="'.$section_text.'" data-mce-mark="1" class="active">'.$section_text.'</span><section class="courses is-open" style="top: 54px;">
 			                                        <div class="clearfix">
 			                                            <p>Keli Xiao received his Ph.D. in Finance from Rutgers Business School in 2013, the Master</p>
 			                                        </div></section></li>
@@ -280,7 +280,7 @@
 
 					/* BIO */
 	                $fp_html .= '
-	                                        <li class="tab"><span data-hash="Biography" data-mce-mark="1" class="active">Biography</span><section class="courses is-open" style="top: 54px;">
+	                                        <li class="tab"><span tabindex="0" data-hash="Biography" data-mce-mark="1">Biography</span><section class="courses hide" style="top: 54px;">
 	                                        <h4>Biography of '.$fp_name.'</h4>
 	                                        <div class="clearfix">
 	                                            <p>'. $fp_bio .'</p>
@@ -574,7 +574,7 @@
 	                );
 	                $table = createTable($record,$node,$vars,$considerDisplay,$tabLabels['label']);
 	                $fp_html .= '
-	                                        <li class="tab"><span data-hash="Awards&amp;Honors" data-mce-mark="1" class="">Awards &amp; Honors</span><section class="courses hide" style="top: 54px;">
+	                                        <li class="tab"><span tabindex="0" data-hash="Awards&amp;Honors" data-mce-mark="1" class="">Awards &amp; Honors</span><section class="courses hide" style="top: 54px;">
 	                                        <div class="clearfix">
 	                                            '. $table .'
 	                                        </div></section></li>
