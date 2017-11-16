@@ -32,7 +32,8 @@ if($social_feed_widget) { ?>
 									search: '',
 									out: 'intro,thumb,text,share',
 									thumb: true,
-									url: 'https://www.stonybrook.edu/social/v2/twitter.php'
+									url: 'https://www.stonybrook.edu/social/v2/twitter.php',
+									retweets: true
 								}
 							},
 							rotate: {

@@ -320,8 +320,8 @@
 		<!-- BEGIN Page Specific Includes -->
 		<?php if($page_type=='social-hub') { ?>
 
-			<script src="js/social-v2/js/jquery.social.stream.wall.1.7.js"></script>
-			<script src="js/social-v2/js/jquery.social.stream.1.6.js"></script>
+			<script src="js/social-v2/js/jquery.social.stream.wall.1.7.8.js"></script>
+			<script src="js/social-v2/js/jquery.social.stream.1.6.2.js"></script>
 			<?php includeAsset('js','js/social/preload-messages.js'); ?>
 
 			<script type="text/javascript">
@@ -332,7 +332,8 @@
 								twitter: {
 									id: 'stonybrooku,sbubuzz,sbunewsdesk',
 									thumb: true,
-									url: 'social/v2/twitter.php'
+									url: 'social/v2/twitter.php',
+									retweets: true
 								},
 								rss: {
 									id: 'http://sb.cc.stonybrook.edu/news/_resources/rss/all.rss',
@@ -383,7 +384,8 @@
 							feeds: {
 								twitter: {
 									id: 'stonybrookalum',
-									thumb: true
+									thumb: true,
+									retweets: true
 								},
 								rss: {
 									id: '//sb.cc.stonybrook.edu/happenings/category/alumni/feed/'
@@ -448,7 +450,8 @@
 								intro: '',
 								search: '',
 								out: 'intro,thumb,text',
-								thumb: true
+								thumb: true,
+								retweets: true
 							}
 						},
 						rotate: {
@@ -542,7 +545,8 @@
 								intro: '',
 								search: '',
 								out: 'intro,thumb,text',
-								thumb: true
+								thumb: true,
+								retweets: true
 							}
 						},
 						rotate: {
@@ -626,7 +630,8 @@
 								intro: '',
 								search: '',
 								out: 'intro,thumb,text',
-								thumb: true
+								thumb: true,
+								retweets: true
 							}
 						},
 						rotate: {
