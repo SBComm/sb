@@ -87,6 +87,14 @@ p.small-text {
     right: auto;
 }
 
+.tablesaw th, .tablesaw td {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 11px;
+    max-width: 600px;
+}
+
 @media print {
     table.tablesaw {
         border: 1px solid #333;
@@ -130,6 +138,14 @@ p.small-text {
 
 @media only screen and (min-width: 740px) {
     
+}
+
+@media only screen and (min-width: 768px) {
+    .tablesaw-stack td, .tablesaw-stack th, .tablesaw-stack thead td, .tablesaw-stack thead th {
+        display: table-cell;
+        margin: 0;
+        word-wrap: break-word;
+    }
 }
 
 @media only screen and (min-width: 860px) {
