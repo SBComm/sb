@@ -1326,3 +1326,30 @@ footer.site-footer {
         height: 650px;
     }
 }
+
+/* Accessibility improvements */
+/* 2017-11-17 */
+:focus:not(:hover) {
+    border: 3px solid #900 !important;
+    box-shadow: 3px 3px 0 #000,-3px 3px 0 #000,3px -3px 0 #000,-3px -3px 0 #000,
+                6px 6px 0 #fff,-6px 6px 0 #fff,6px -6px 0 #fff,-6px -6px 0 #fff;
+}
+
+#main-container :focus:not(:hover) {
+    border-radius: 0 !important;
+}
+
+.site-nav.big-n-bold a:hover:not(:hover),
+.sub-nav.big-n-bold a:hover:not(:hover),
+.site-nav.big-n-bold a:focus:not(:hover),
+.sub-nav.big-n-bold a:focus:not(:hover) {
+    border: 0 none;
+    background: #a00
+}
+
+.site-nav.big-n-bold a:hover:not(:hover) .label,
+.sub-nav.big-n-bold a:hover:not(:hover) .label,
+.site-nav.big-n-bold a:focus:not(:hover) .label,
+.sub-nav.big-n-bold a:focus:not(:hover) .label {
+    background: #000;
+}

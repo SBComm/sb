@@ -108,5 +108,11 @@ $(document).ready(function() {
 
     });
 
+    $(document.body).on('focusin','.quick-nav a',function(){
+        if($("nav.drop-nav").hasClass('open')) {
+            hideAllDropNav();
+        }
+    });
+
 
 });

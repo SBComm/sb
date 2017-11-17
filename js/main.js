@@ -346,6 +346,12 @@ var initReady = function() {
 		}
 	});
 
+	$(document.body).on('keydown','.audience-trigger',function(e) {
+        if (e.keyCode == 13) { //enter
+        	$(this).trigger('click');
+        }
+    });
+
 	$('.menu-trigger').on('click',function(event){
 		$(this).toggleClass('selected');
 		var icon = $(this).find('.icon');
@@ -371,6 +377,12 @@ var initReady = function() {
 
 	});
 
+	$(document.body).on('keydown','.menu-trigger',function(e) {
+        if (e.keyCode == 13) { //enter
+        	$(this).trigger('click');
+        }
+    });
+
     // section subnav
 
     $('.section-nav-trigger a').on('click',function(event){
@@ -392,6 +404,12 @@ var initReady = function() {
             });
         }
 
+    });
+
+	$(document.body).on('keydown','.section-nav-trigger a',function(e) {
+        if (e.keyCode == 13) { //enter
+        	$(this).trigger('click');
+        }
     });
 
     // Get the text of the currently selected section nav and update the dropdown

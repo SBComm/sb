@@ -118,7 +118,7 @@
 		                        	</span>
 		                        </li>-->
 		                        <li class="desktop for-info">
-		                        	<span class="audience-trigger">
+		                        	<span class="audience-trigger" tabindex="0">
 		                        		<i class="icon fa fa-ellipsis-h clearfix"></i>
 		                        		<span class="label clearfix"><i class="icon fa fa-caret-right clearfix"></i>Info for</span>
 		                        	</span>
