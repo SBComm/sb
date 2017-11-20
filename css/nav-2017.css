@@ -4,6 +4,7 @@
 }
 
 nav.primary-nav {
+	background: #fff;
 	background-image: url(../img/branding/rays/light-gray-rays-masthead-2200px.png);
     background-position: center;
 	background-size: cover;
