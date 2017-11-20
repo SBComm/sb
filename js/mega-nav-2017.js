@@ -94,12 +94,14 @@ function getMegaMenuIdFromEl($linkEl) {
 
 function tabNextElement($currEl) {
     var currTab = parseInt($currEl.attr('tabindex'));
-    for(var i = currTab; i < 9999; i++) {
+    for(var i = currTab; i <= 9999; i++) {
         var nextIndex = i + 1;
-        //console.log($('a[tabindex="'+nextIndex+'"]'));
         var $nextTab = $('a[tabindex="'+nextIndex+'"]');
         if($nextTab.length) {
             $nextTab.focus();
+            break;
+        } else if(i == 9999) {
+            $('#main-site-content').focus();
             break;
         }
     }
@@ -284,17 +286,17 @@ $(document).ready(function() {
 
         
         if( $focusedEl.hasClass('inmenu--desktop-nav-link') ) { //if focused on a main nav item
-            if (e.keyCode == 37 || (e.shiftKey && e.keyCode == 9)) { //left
+            if (e.keyCode == 37 || (e.shiftKey && e.keyCode == 9)) { //left or shift+tab
                 e.preventDefault();
                 var $prevLink = $focusedEl.closest('li.inmenu--primary-nav').prev('li.inmenu--primary-nav').find('.inmenu--desktop-nav-link');
                 //console.log($prevLink);
                 $prevLink.focus();
-            } else if (e.keyCode == 39 || e.keyCode == 9) { //right
+            } else if (e.keyCode == 39 || e.keyCode == 9) { //right or tab
                 e.preventDefault();
                 //console.log($focusedEl.closest('li').is('.inmenu--primary-nav:last'));
                 if(e.keyCode == 9 && $focusedEl.closest('li').is('.inmenu--primary-nav:last')) {
-                    var $nextLink = $('#view-main-site-content');
-                    window.location.hash = '#view-main-site-content';
+                    var $lastLink = $focusedEl.closest('li').find('.inmenu--desktop-nav_related-links a:last-of-type');
+                    tabNextElement($lastLink);
                     //console.log($nextLink);
                 } else {
                     var $nextLink = $focusedEl.closest('li.inmenu--primary-nav').next('li.inmenu--primary-nav').find('.inmenu--desktop-nav-link');
@@ -359,7 +361,8 @@ $(document).ready(function() {
             } else if (e.keyCode == 27) { //esc
                 getActiveMegaMenuLink().focus();
             }
-
+        } else if (e.keyCode == 27) { //esc, fallback for entire page
+            hideAllMegaMenu();
         }
                 
 
