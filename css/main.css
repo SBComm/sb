@@ -7431,6 +7431,9 @@ footer.site-footer .social .small-button:after {
         width: 2000px;
         height: 2000px;
     }
+    .hidden-mobile {
+        display: none !important;
+    }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -7482,6 +7485,9 @@ footer.site-footer .social .small-button:after {
         left: -99999px !important;
         width: 2000px;
         height: 2000px;
+    }
+    .hidden-desktop {
+        display: none !important;
     }
 }
 
