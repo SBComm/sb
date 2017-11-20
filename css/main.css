@@ -20,6 +20,10 @@ body {
     background: #fff;
 }
 
+:focus:not(:hover) {
+    outline: 3px solid #1b87ff;
+}
+
 .sbu-wrapper {
     overflow: hidden;
 }
