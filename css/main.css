@@ -20,7 +20,7 @@ body {
     background: #fff;
 }
 
-:focus:not(:hover) {
+:focus:not(:hover):not(.inmenu--desktop-nav-link) {
     outline: 3px solid #1b87ff;
 }
 
