@@ -129,12 +129,14 @@ $(document).ready(function() {
 
     });
 
-    $('.site-input input').keypress(function(event){
+    $('.site-input input, #people-search-btn').keypress(function(event){
         var keycode = (event.keyCode ? event.keyCode : event.which);
         if(keycode == '13'){
-            doPeopleSearch($(this).val());
+            doPeopleSearch($('.site-input input').val());
         }
     });
+
+    $('#people-search-btn').attr('tabindex','0');
 
     $('#people-search-btn').click(function() {
         doPeopleSearch($('.site-input input').val());
