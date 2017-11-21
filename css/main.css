@@ -20,8 +20,20 @@ body {
     background: #fff;
 }
 
-:focus:not(:hover):not(.inmenu--desktop-nav-link) {
+:focus:not(:hover):not(.inmenu--desktop-nav-link):not(input):not(button) {
     outline: 3px solid #1b87ff;
+}
+
+input[type="text"]:focus:not(:hover),
+input[type="textarea"]:focus:not(:hover),
+input[type="checkbox"]:focus:not(:hover),
+select:focus:not(:hover),
+button:focus:not(:hover) {
+    outline: 3px solid #900;
+}
+
+.search-wrapper input[type="text"]:focus:not(:hover) {
+    outline: none;
 }
 
 .sbu-wrapper {
