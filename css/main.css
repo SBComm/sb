@@ -2388,11 +2388,10 @@ body {
 
     a.super-simple-promo-image-button:focus {
         box-shadow: 0 0 50px #fff;
-        text-decoration: underline;
     }
 
-    a.super-simple-promo-image-button:focus {
-        box-shadow: 0 0 50px #fff;
+    a.super-simple-promo-image-button:focus * {
+        text-decoration: underline;
     }
 
     a.super-simple-promo-image-button span {
