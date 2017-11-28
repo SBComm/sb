@@ -233,6 +233,7 @@ var initReady = function() {
 		var offsetTop = parseInt($(this).attr('data-offset-top'));
 		var offsetBreakpointStart = $(this).attr('data-offset-breakpoint-start') ? parseInt($(this).attr('data-offset-breakpoint-start')) : 0;
 		var isScroll = ($(this).data('scroll') != false);
+		var isSkipNav = target=='#main-site-content' ? true : false;
 		/*
 		console.log(isTrigger);
 		console.log(triggerRole);
@@ -242,7 +243,7 @@ var initReady = function() {
 		console.log(offsetBreakpointStart);
 		console.log($(window).width() >= offsetBreakpointStart);
 		*/
-		if($(target).length && target.length>1 && !isTrigger && !isGallery && isScroll) {
+		if($(target).length && target.length>1 && !isTrigger && !isGallery && isScroll && !isSkipNav) {
 			event.preventDefault();
 		    var hash = target.substring(1); //strip off the #
 		    if(disableHistoryState != 'true') {
@@ -276,7 +277,6 @@ var initReady = function() {
 		    	$('body').scrollTo($(target), 400, {
 			    	axis: 'y'
 			    });
-			    console.log($(target));
 			    $(target).focus();
 		    }
 

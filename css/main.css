@@ -24,6 +24,10 @@ body {
     outline: 3px solid #1b87ff;
 }
 
+#main-site-content:focus {
+    outline: none !important;
+}
+
 input[type="text"]:focus:not(:hover),
 input[type="textarea"]:focus:not(:hover),
 input[type="checkbox"]:focus:not(:hover),
