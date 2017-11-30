@@ -25,31 +25,22 @@
 	<!--site variables-->
 		<?php
 			$page_type       = 'social-hub';
-			$second_level    = 'social-guidelines';
 			$page_title_sub  = 'Social Media Guidelines';
 			$page_title_full = $page_title . (isset($page_title_sub) && $page_title_sub!='' ? ' | ' . $page_title_sub : '');
 
 		    $og_title        = 'Stony Brook ' . $page_title_sub;
-		    $og_description  = 'Stony Brook’s active and vibrant campus life is filled with co-curricular experiences to complement our academic curriculum and enhance the overall college experience. Hundreds of clubs and student organizations, intramural and Division I sports teams, art, music and cultural events throughout the year keep our diverse student body involved, active and entertained.';
-		    $og_url          = 'http://www.stonybrook.edu/campus-life';
+		    $og_description  = 'We are social at Stony Brook University. Connect with the latest in campus life and join in on the conversation!';
+		    $og_url          = 'http://www.stonybrook.edu/social/';
+
 		    $page_to_top_link = true;
 
 		    $page_footerbar   = true;
-		    $page_footer      = true;
 
-		    $carousel 		  = false;
+		    $page_scroll      = false;
+		    $page_scroll_el   = 'logo';     //Options are audience-nav, logo, main-nav, bottom
+		    $page_scroll_time = 0;     		//Time for scroll function in milliseconds
 
-		    $page_scroll        = false;
-		    $page_scroll_el     = 'logo';     //Options are audience-nav, logo, main-nav, bottom
-		    $page_scroll_time   = 150;      //Time for scroll function in milliseconds
-		    $page_scroll_mobile = false;  //Define whether the scroll-on-load occurs only on mobile. False by default, meaning scroll will happen on desktop and mobile.
-
-		    $html_dom_parser = true;
-
-		    $site_breadcrumbs = false;
-
-		    $mega_nav = true;
-		    $mega_nav_ou = true;
+		    $page_loader      = true;
 		?>
 
 	<head>
@@ -69,32 +60,50 @@
         <div class="sbu-wrapper clearfix">
         	<div class="sbu-sub-wrapper">
 
+		        <div class="header-container">
+		        	<div class="nav-elements-container">
+			        	<!-- <quick-nav> -->
+							<?php
+								include($path . $quick_nav);
+							?>
+						<!-- </quick-nav> -->
+			            <!-- <more-nav> -->
+							<?php 
+								include($path . $more_nav);
+							?>
+						<!-- </more-nav> -->
+			            <!-- <audience-nav> -->
+							<?php 
+								include($path . $audience_nav);
+							?>
+						<!-- </audience-nav> -->
+					</div>
+					<!-- <logo-container> -->
+						<?php 
+							include($path . $logo_container);
+						?>
+					<!-- </logo-container> -->
+		        </div>
 		        <div class="main-nav-container clearfix">
 		        	<!-- <site-nav> -->
 						<?php 
-							//include($path . $site_nav);
-							include($path . "site-nav-2017.php");
+							include($path . $site_nav);
 						?>
 					<!-- </site-nav> -->
 		        </div>
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <content> -->
+		                <!-- <social-main> -->
 							<?php 
-								$file = "{$second_level}/{$second_level}.php";
-								//include($pathForContent . $content . $secLv . $file);
-								include('/user/commcms/www/_second-level/social/guidelines.php');
+								$file = "social-guidelines.php";
+								include($pathForContent . $content . $social . $file);
 							?>
-						<!-- </content> -->
+						<!-- </social-main> -->
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
 		        <!-- <div.footer-container> -->
-		        	<?php if($page_footer) {
-						$file = "footers/sbu-footer.php";
-						include($path . $file);
-					} ?>
 					<?php if($page_footerbar) {
 						$file = "footerbar.php";
 						include($path . $file);
@@ -121,7 +130,7 @@
 
 	    <!-- <scripts> -->
 			<?php 
-				$file = "footer-scripts-ou-2017.php";
+				$file = "footer-scripts.php";
 				include($path . $file);
 			?>
 		<!-- </scripts> -->
@@ -129,7 +138,7 @@
 		<!-- <googleanalytics> -->
 			<?php 
 				$file = "site-analytics.php";
-				include($path . $file); 
+				include($path . $file);
 			?>
 		<!-- </googleanalytics> -->
     </body>
