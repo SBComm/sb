@@ -202,6 +202,9 @@ ul.stream {
 .stream li .clear {
 	clear: both;
 }
+.dcsns-li > .inner + .section-intro + a {
+	display: none;
+}
 
 /* Content blocks */
 
@@ -505,7 +508,16 @@ ul.stream {
 	margin: 0;
 	/*height: 24px;*/
 }
-.dcsns-toolbar .filter li .font-icon {
+.socicon {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.dcsns-toolbar .filter li .font-icon,
+.dcsns-toolbar .filter li .socicon {
 	margin: 0;
 	width: 27px;
 	height: 26px;
@@ -520,6 +532,28 @@ ul.stream {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+.socicon-facebook:before {
+    content: "\f09a";
+}
+.socicon-twitter:before {
+    content: "\f099";
+}
+.socicon-youtube:before {
+    content: "\f167";
+}
+.socicon-flickr:before {
+    content: "\f16e";
+}
+.socicon-pinterest:before {
+    content: "\f0d2";
+}
+.socicon-feed:before,
+.socicon-rss:before {
+    content: "\f09e";
+}
+.socicon-instagram:before {
+    content: "\f16d";
 }
 .dcsns-toolbar .filter li .font-icon:hover {
 	color: #fff !important;
