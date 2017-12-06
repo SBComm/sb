@@ -541,6 +541,7 @@ input.gsc-search-button {
 #cse-search-results .gsc-webResult.gsc-result.gsc-promotion {
   border: 1px solid #bbb;
   box-shadow: 0 7px 0px -3px #ddd;
+  display: none !important;
 }
 
 #cse-search-results .gs-title:hover {
