@@ -84,7 +84,7 @@
     $og_description    = $page_description;
     $og_type           = 'website';
     $og_url            = $http_protocol.'://www.stonybrook.edu/';
-    $og_image          = 'https://www.stonybrook.edu/commcms/_images/page-images/campus-images-2017/fj-gaylor/171011_SBU_0464-min.jpg';
+    $og_image          = 'http://www.stonybrook.edu/commcms/_images/page-images/campus-images-2017/fj-gaylor/171011_SBU_0464-min.jpg';
 
     $meta = true;
 
