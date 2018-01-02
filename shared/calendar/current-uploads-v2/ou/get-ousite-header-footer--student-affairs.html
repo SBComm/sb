@@ -1,0 +1,689 @@
+<!-- BEGIN local, comes from Active Data Template-->
+<script type="text/javascript" src="https://calendar.stonybrook.edu/scripts/jQuery/jquery-1.9.1.min.js"></script>
+<!-- END local, comes from Active Data Template-->
+
+<link href="//www.stonybrook.edu/css/vendor/normalize.min.css" rel="stylesheet">
+<link href="//www.stonybrook.edu/css/main.css" rel="stylesheet">
+<link href="//www.stonybrook.edu/css/nav.css" rel="stylesheet">
+<link href="//www.stonybrook.edu/css/shared/active-data-calendar-v2.css" rel="stylesheet">
+<link href="//www.stonybrook.edu/css/elements/cd-dropdown/cd-dropdown.css" rel="stylesheet">
+<link href="//www.stonybrook.edu/css/second-level.css" rel="stylesheet">
+<link href="//www.stonybrook.edu/css/second-level/calendars.css" rel="stylesheet">
+<link href="//www.stonybrook.edu/css/second-level/branded-second-level.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="//www.stonybrook.edu/css/elements/to-top-link/to-top.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css">
+<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/ee71ef3e-a7f1-47dd-8ae1-4ae6bec02b30.css"/>
+<script src="//www.stonybrook.edu/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="//www.stonybrook.edu/js/cd-dropdown/jquery.dropdown.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/jquery.sticky.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/jquery.scrollTo.min.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/jquery.easing.1.3.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/jquery.easing.compatibility.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/jquery.scrollTo.min.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/jquery.localScroll.min.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/jquery.ba-bbq.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/jquery.motio.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/jquery.tooltipster.min.js"></script>
+<script src="//www.stonybrook.edu/js/plugins.js"></script>
+<script src="//www.stonybrook.edu/js/main.js"></script>
+<script src="//www.stonybrook.edu/js/vendor/fastclick.js"></script>
+
+<!--CMS assets required-->
+<link href="https://www.stonybrook.edu/commcms/_resources/css/topnav-responsive-v2.css" rel="stylesheet">
+<link href="https://www.stonybrook.edu/commcms/_resources/css/responsive-v2.css" rel="stylesheet">
+<link href="https://www.stonybrook.edu/commcms/_resources/css/footer.css" rel="stylesheet" type="text/css">
+
+<!--DOM Parser polyfill-->
+<script>
+    /*
+     * DOMParser HTML extension
+     * 2012-09-04
+     * 
+     * By Eli Grey, http://eligrey.com
+     * Public domain.
+     * NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
+     */
+
+    /*! @source https://gist.github.com/1129031 */
+    /*global document, DOMParser*/
+
+    (function(DOMParser) {
+        "use strict";
+
+        var proto = DOMParser.prototype, 
+            nativeParse = proto.parseFromString;
+
+        // Firefox/Opera/IE throw errors on unsupported types
+        try {
+            // WebKit returns null on unsupported types
+            if ((new DOMParser()).parseFromString("", "text/html")) {
+                // text/html parsing is natively supported
+                return;
+            }
+        } catch (ex) {}
+
+        proto.parseFromString = function(markup, type) {
+            if (/^\s*text\/html\s*(?:;|$)/i.test(type)) {
+                var
+                  doc = document.implementation.createHTMLDocument("")
+                ;
+                    if (markup.toLowerCase().indexOf('<!doctype') > -1) {
+                        doc.documentElement.innerHTML = markup;
+                    }
+                    else {
+                        doc.body.innerHTML = markup;
+                    }
+                return doc;
+            } else {
+                return nativeParse.apply(this, arguments);
+            }
+        };
+    }(DOMParser));
+</script>
+
+<!--StartsWith polyfill-->
+<script>
+    /*! https://mths.be/startswith v0.2.0 by @mathias */
+    if (!String.prototype.startsWith) {
+        (function() {
+            'use strict'; // needed to support `apply`/`call` with `undefined`/`null`
+            var defineProperty = (function() {
+                // IE 8 only supports `Object.defineProperty` on DOM elements
+                try {
+                    var object = {};
+                    var $defineProperty = Object.defineProperty;
+                    var result = $defineProperty(object, object, object) && $defineProperty;
+                } catch(error) {}
+                return result;
+            }());
+            var toString = {}.toString;
+            var startsWith = function(search) {
+                if (this == null) {
+                    throw TypeError();
+                }
+                var string = String(this);
+                if (search && toString.call(search) == '[object RegExp]') {
+                    throw TypeError();
+                }
+                var stringLength = string.length;
+                var searchString = String(search);
+                var searchLength = searchString.length;
+                var position = arguments.length > 1 ? arguments[1] : undefined;
+                // `ToInteger`
+                var pos = position ? Number(position) : 0;
+                if (pos != pos) { // better `isNaN`
+                    pos = 0;
+                }
+                var start = Math.min(Math.max(pos, 0), stringLength);
+                // Avoid the `indexOf` call if no match is possible
+                if (searchLength + start > stringLength) {
+                    return false;
+                }
+                var index = -1;
+                while (++index < searchLength) {
+                    if (string.charCodeAt(start + index) != searchString.charCodeAt(index)) {
+                        return false;
+                    }
+                }
+                return true;
+            };
+            if (defineProperty) {
+                defineProperty(String.prototype, 'startsWith', {
+                    'value': startsWith,
+                    'configurable': true,
+                    'writable': true
+                });
+            } else {
+                String.prototype.startsWith = startsWith;
+            }
+        }());
+    }
+</script>
+
+<div id="main-wrapper">
+    <div id="main">
+        <div id="static-header-code" class="new-brand">
+            <a class="skip-navigation-link" data-scroll="false" href="#main-site-content" tabindex="0">Skip Navigation</a>
+            <div class="cms-site-search-wrapper clearfix">
+                <div class="cms-site-search search-bar clearfix hide-accessible">
+                    <div class="search">
+                        <form action="https://www.stonybrook.edu/search" class="form-search clearfix" id="seek1" method="get" name="seek1">
+                            <label class="hide-accessible" for="search-query">Search Text</label> <input class="search-txt" id="search-query" maxlength="100" name="q" placeholder="Enter search term" type="search" value=""> <input id="site-name" name="site" type="hidden" value=""> <input id="page-fade" name="pf" type="hidden" value="1"> <input class="search-btn" type="submit" value="Search">
+                        </form>
+                    </div>
+                    <form class="toggle-wrapper hidden">
+                        <div class="switch switch-red hidden">
+                            <span class="hidden">Select Search Scope</span>
+                            <fieldset>
+                                <legend>Search This Site</legend> <input aria-label="Search Just This Site" checked="checked" class="switch-input hidden" id="site-search" name="view" role="button" tabindex="0" type="radio" value="site-search"> <label class="switch-label switch-label-off hidden" for="search-site-toggle">Just This Site</label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Search SBU Website</legend> <input aria-label="Search all of Stony Brook University" class="switch-input hidden" id="sb-search" name="view" role="button" tabindex="0" type="radio" value="sb-search"> <label class="switch-label switch-label-on hidden" for="sb-search">SBU Website</label>
+                            </fieldset><span class="switch-selection hidden"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="searchWrap">
+                    <span aria-label="Search" class="search-sb" role="button" tabindex="3">Search</span>
+                </div>
+            </div>
+            <div class="nav-elements-container desktop-only">
+                <div class="cms-search">
+                    <nav class="quick-nav clearfix" data-search-style="default" id="header">
+                        <div class="quick-nav-wrapper clearfix">
+                            <ul class="no-pad-wrapper border-box quicknav_selected_3 clearfix"></ul>
+                            <div class="search-container default clearfix border-box">
+                                <form action="https://www.stonybrook.edu/search" class="search-wrapper" method="get">
+                                    <label class="hide-accessible" for="search-form-query1">Search Text</label> <input class="populate" id="search-form-query1" maxlength="100" name="q" placeholder="Search" size="30" title="Search" type="text" value=""> <button class="btn btn-success" id="search-form-submit1" name="submit" type="submit"><i class="icon fa fa-search"></i><span class="hide-accessible">Search</span></button> <label class="hidden" for="search-form-site">Site</label> <input class="hidden" id="search-form-site" name="site" type="hidden" value=""> <label class="hidden" for="page-fade">Site</label> <input class="hidden" id="page-fade" name="pf" type="hidden" value="1">
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="logo-container clearfix border-box">
+                <header class="header clearfix">
+                    <div class="logo-wrapper clearfix">
+                        <div class="logo">
+                            <a href="http://www.stonybrook.edu/"><img alt="Stony Brook University" height="68" src="https://stonybrook.edu/commcms/_resources/images/stony-brook-university-logo.jpg" width="357"></a>
+                        </div>
+                        <h1 class="site-name serif"><a class="" href="http://www.stonybrook.edu/stuaff">Division of Student Affairs</a></h1>
+                    </div>
+                </header>
+            </div>
+            <div class="navWrap sitenav clearfix">
+                <!-- ouc:editor csspath="/_resources/ou/editor/includes.css" cssmenu="/_resources/ou/editor/includes.txt" width="955"/ -->
+                <ul>
+                    <li class="home-icon">
+                        <a href="/commcms/studentaffairs/stu/index.php"><span class="hide-accessible">Home</span></a>
+                    </li>
+                    <li>
+                        <a href="/commcms/studentaffairs/stu/about/index.php">About Us</a>
+                        <ul>
+                            <li>
+                                <a href="/commcms/studentaffairs/stu/about/vp.php">Vice President</a>
+                            </li>
+                            <li>
+                                <a href="/commcms/studentaffairs/stu/about/directors.php">Organization &amp; Staff</a>
+                            </li>
+                            <li>
+                                <a href="/commcms/studentaffairs/stu/about/picture_gallery.php">Picture Gallery&nbsp;</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/commcms/studentaffairs/stu/story/index.php">Our Story<br></a>
+                        <ul>
+                            <li>
+                                <a href="/commcms/studentaffairs/stu/story/achievements_past.php">Achievements</a>
+                            </li>
+                            <li>
+                                <a href="/commcms/studentaffairs/stu/story/briefing_book.php">Briefing Book</a>
+                            </li>
+                            <li>
+                                <a href="/commcms/studentaffairs/stu/story/student_stories_acuhoi.php">Student Stories</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/commcms/studentaffairs/stu/departments.php">Departments</a>
+                    </li>
+                    <li>
+                        <a href="/commcms/studentaffairs/stu/initiatives.php">Initiatives</a>
+                    </li>
+                    <li>
+                        <a href="/commcms/studentaffairs/stu/student_life.php">Student Life</a>
+                    </li>
+                    <li>
+                        <a href="/commcms/studentaffairs/stu/policies.php">Policies</a>
+                    </li>
+                    <li>
+                        <a href="/commcms/studentaffairs/stu/contact.php">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var initSBListeners = function() {
+    
+        // Inject nav triggers
+        
+        var mainNavHTML = '<span class="main-nav-trigger" role="button" aria-label="Toggle main navigation" tabindex="0"><em class="fa fa-bars"></em></span>';
+        
+        $('.navWrap').prepend(mainNavHTML);
+        
+        var subNavHTML = '<span class="open-sub" role="button" tabindex="0" aria-label="Show sub navigation"><em class="fa fa-angle-down"></em></span>';
+        
+        $('.navWrap > ul li ul').each(function() {
+            $(this).siblings('a').append(subNavHTML);
+            $(this).addClass('hide-accessible-mobile-960');
+        });
+        
+        /* Nav Accessibility: on focus, show the sub nav dropdown */
+
+        $('.navWrap a').on('focus',function() {
+            $(this).parent('li').addClass('hover');
+            if($(this).parent().parent().parent('li').length) {
+                $(this).parent().parent().parent('li').addClass('hover');
+            }
+        });
+
+        $('.navWrap a').on('focusout',function() {
+            $(this).parent('li').removeClass('hover');
+            if($(this).parent().parent().parent('li').length) {
+                $(this).parent().parent().parent('li').removeClass('hover');
+            }
+        });
+
+        $(document.body).on('keydown',function(e) {
+            var $focusedEl = $(':focus');
+            if( $focusedEl.is('div.navWrap ul li ul li a') ) {
+                if (e.keyCode == 38) { //up
+                    e.preventDefault();
+                    if($focusedEl.closest('li').is(':first-child')) {
+                        $focusedEl.closest('li').closest('ul').closest('li').children('a').focus();
+                    } else {
+                        tabPrevNavLink($focusedEl);
+                    }
+                } else if(e.keyCode == 40) { //down
+                    e.preventDefault();
+                    tabNextNavLink($focusedEl);
+                } else if (e.keyCode == 27) { //esc
+                    e.preventDefault();
+                    $focusedEl.closest('li').closest('ul').closest('li').children('a').focus();
+                }
+            } else if( $focusedEl.is('div.navWrap ul > li > a') ) {
+                if(e.keyCode == 40) { //down
+                    e.preventDefault();
+                    $focusedEl.closest('li').children('ul').children('li:first-child').find('a').focus();
+                } else if (e.keyCode == 39) { //right
+                    $focusedEl.closest('li').next('li').children('a').focus();
+                } else if (e.keyCode == 37) { //left
+                    $focusedEl.closest('li').prev('li').children('a').focus();
+                }
+            }
+
+        });
+    
+        /* Make Space and Enter activate the click handler */
+        
+        $("[role='button']").keydown(function(event) {
+            if(event.which==13 || event.which==32) {
+                $(this).click();
+            }
+        });
+        
+        $("[aria-role='button']").keydown(function(event) {
+            if(event.which==13 || event.which==32) {
+                $(this).click();
+            }
+        }); 
+        
+        /* Path Location and Search Listeners */
+        
+        var $searchBar = $(".search-bar"),
+            $searchTrigger = $(".search-trigger");
+        
+        $($searchTrigger).on('click',function(event){
+            event.preventDefault();
+            $(this).toggleClass('active');
+            
+            if($searchBar.hasClass('open')) {
+                $searchBar.removeClass('open').slideUp('fast',function() {
+                    $searchBar.addClass('hide-accessible').fadeIn(0);
+                });
+            } else {
+                $searchBar.fadeOut(0,function(){
+                    $searchBar.removeClass('hide-accessible').addClass('open')
+                    .slideDown('fast');
+                });
+            }
+            
+        });
+    
+        var $searchInput        = $('.responsive-template #search-form-query1'),
+            $searchInputMobile  = $('.responsive-template .cms-site-search input.search-txt'),
+            $searchButton       = $('.responsive-template #search-form-submit1'),
+            $searchButtonMobile = $('.responsive-template .cms-site-search input.search-btn'),
+            $siteInput          = $('.responsive-template .cms-site-search input#site-name, #search-form-site'),
+            $siteSearchRadio    = $('.responsive-template .cms-site-search input#site-search'),
+            $sbSearchRadio      = $('.responsive-template .cms-site-search input#sb-search'),
+            $switchInput        = $('.responsive-template .cms-site-search .switch .switch-input');
+        
+        var currentPath = window.location.pathname;
+        var pathArray = currentPath.split( '/' );
+        var theSite, theSiteURL, searchQueryString, searchUrl, isSiteSearch, isCommcms;
+
+        var ouDirname = $('body').attr('data-ou-dirname');
+        var ouSiteURL = $('body').attr('data-ou-site-url');
+
+        theSiteURL = 'https://www.stonybrook.edu/commcms/studentaffairs/stu/';
+        $siteInput.val(theSiteURL);
+        
+        $switchInput.change(function(event) {
+            isSiteSearch = $siteSearchRadio.is(':checked');
+            if(!isSiteSearch) {
+                $siteInput.val('');
+            } else {
+                $siteInput.val(theSiteURL);
+            }
+        });
+        
+        $searchButton.on('click',function(event) {
+            if($searchInput.val().length == 0) {
+                event.preventDefault();
+                $searchButton.focus();
+            }
+        });
+        
+        $searchButtonMobile.on('click',function(event) {
+            if($searchInputMobile.val().length == 0) {
+                event.preventDefault();
+                $searchInputMobile.focus();
+            }
+        });
+
+        $searchInput.keypress(function(event) {
+            if (event.keyCode == 13) {
+                if($searchInput.val().length == 0) {
+                    event.preventDefault();
+                    $searchInput.focus();
+                }
+            }
+        });
+
+        $searchInputMobile.keypress(function(event) {
+            if (event.keyCode == 13) {
+                if($searchInputMobile.val().length == 0) {
+                    event.preventDefault();
+                    $searchInputMobile.focus();
+                }
+            }
+        });
+    
+        //Computed in XSL, but keeping here to ensure most current year in the case that a page is not published frequently
+        var theCurrentYear = new Date().getFullYear();
+        $('.the-current-year').html(theCurrentYear);
+
+        /* Replace relative sitenav links with absolute paths */
+
+        $('.sitenav a, #footer a').each(function() {
+            if($(this).attr('href').startsWith('/commcms/')) {
+                var newURL = 'https://www.stonybrook.edu' + $(this).attr('href');
+                $(this).attr('href',newURL);
+            }
+        });
+
+        /* Replace relative image src with absolute paths */
+
+        $('img').each(function() {
+            if($(this).attr('src').startsWith('/commcms/')) {
+                var newURL = 'https://www.stonybrook.edu' + $(this).attr('src');
+                $(this).attr('src',newURL);
+            }
+        });
+        
+        /* Sub Nav */
+        
+        //add class of hide-accessible-mobile-960 to hide on mobile by default
+        //if noscript, nav will just show on mobile automatically
+        $('.navWrap > ul li ul').addClass('hide-accessible-mobile-960');
+        var $subNav = '';
+        
+        $('div.navWrap .open-sub').click(function(event){
+            event.preventDefault();
+            
+            $subNav = $(this).closest('li').find('ul');
+
+            if($(this).hasClass('active')) {
+                  $subNav.removeClass('open');
+                  $subNav.addClass('hide-accessible-mobile-960').show();
+            } else {
+                  $subNav.removeClass('hide-accessible-mobile-960').addClass('open');
+            }
+            
+            $(this).toggleClass('active').find('em').toggleClass('is-open');
+
+        });
+    
+        /* Main Nav */
+        
+        //add class of hide-accessible-mobile-960 to hide on mobile by default
+        //if noscript, nav will just show on mobile automatically
+        $navMenu = $('.navWrap > ul');
+        $navMenu.addClass('hide-accessible-mobile-960');
+        
+        $('div.navWrap .main-nav-trigger').click(function(event){
+
+            if($(this).hasClass('active')) {
+                $navMenu.fadeIn(0,function(){
+                  $navMenu.removeClass('open')
+                    .slideUp('fast',function() {
+                        $navMenu.addClass('hide-accessible-mobile-960').show();
+                    });
+                });
+            } else {
+                $navMenu.fadeOut(0,function(){
+                  $navMenu.removeClass('hide-accessible-mobile-960').addClass('open').slideDown('fast');
+                });
+            }
+            
+            $(this).toggleClass('active').find('em').toggleClass('fa-bars').toggleClass('fa-close');
+
+        });
+    
+        /* Side Nav */
+        
+        var target, $menuItems;
+        
+        $('.sidenav').click(function(e) {
+            if($(window).width()<=960) {
+                target = $(e.target);
+                
+                if(target.is('a')) {
+
+                } else {
+                    if($('.contentRight').length) {
+                        $menuItems = $('.contentRight');
+                    }
+                    if($('.contentLeft').length) {
+                        $menuItems = $('.contentLeft');
+                    }
+
+                    if($menuItems.hasClass('active')) {
+                        $menuItems.fadeIn(0,function(){
+                            $menuItems.removeClass('active').slideUp('fast',function() {
+                                $menuItems.removeClass('show-accessible-mobile-nav').fadeIn(0);
+                            });
+                        });
+                    } else {
+                        $menuItems.fadeOut(0,function(){
+                            $menuItems.addClass('show-accessible-mobile-nav').addClass('active').slideDown('fast');
+                        });
+                    }
+                }
+            }
+        });
+    
+        /* drop-accordion */
+        var accordionContent;
+        $('.drop-accordion .tab').on('click',function() {
+            $accordionContent = $(this).closest('.item').find('.accordion-content');
+            $openTab = $(this).closest('.drop-accordion').find('.open').closest('.item').find('.tab').attr('aria-expanded','false');
+
+            if($accordionContent.hasClass('hide-accessible')) {
+                $(this).addClass('active').attr('aria-expanded','true');
+                $accordionContent.slideUp(0,function(){
+                    $accordionContent.removeClass('hide-accessible').addClass('open').attr('aria-expanded','true')
+                        .slideDown('fast');
+                    $openTab.click();
+                });
+
+            } else {
+                $(this).removeClass('active').attr('aria-expanded','false');
+                $accordionContent.slideUp('fast',function(){
+                    $accordionContent.addClass('hide-accessible').removeClass('open').attr('aria-expanded','false')
+                        .slideDown(0);
+                });
+
+            }
+        });
+    
+        $('.drop-accordion').on('keydown', '.tab', function (e) {
+            var arrows = [37, 38, 39, 40];
+            var which = e.which;
+            var target = e.target;
+            var $tab = $(this);
+            if (which === 13 || which === 32) { // ENTER |or| SPACE
+                e.preventDefault();
+                $(this).click();
+            } else if (which === 38) { // up
+                e.preventDefault();
+                var $prevTab = $tab.closest('.item').prev('.item').find('.tab');
+                if($prevTab.length) {
+                    $prevTab.focus();
+                }
+            } else if (which === 40) { // down
+                e.preventDefault();
+                var $nextTab = $tab.closest('.item').next('.item').find('.tab');
+                if($nextTab.length) {
+                    $nextTab.focus();
+                }
+            } else if (which === 9 && !$tab.hasClass('active')) { // tab key triggers accordion open
+                $tab.click();
+            }
+        });
+        
+        /* side-nav */
+        var sidenavItems;
+        $('.inside-side-nav .sidenav-folder').on('click',function(e) {
+            $sidenavItems = $(this).next('.sidenav-folder-items');
+            target = $(e.target);
+            if(target.is('a')) {
+                /* do nothing; go to link target */
+            } else if($sidenavItems.hasClass('hide-accessible')) {
+                $(this).addClass('active');
+                $sidenavItems.slideUp(0,function(){
+                    $sidenavItems.removeClass('hide-accessible').addClass('open')
+                        .slideDown('fast');
+                });
+
+            } else {
+                $(this).removeClass('active');
+                $sidenavItems.slideUp('fast',function(){
+                    $sidenavItems.addClass('hide-accessible').removeClass('open')
+                        .slideDown(0);
+                });
+
+            }
+        });
+    
+        /* read more button */
+        //Continue Reading Trigger
+        $('.continue-reading-trigger').on('click', function(e) {
+            e.preventDefault();
+            var dataTarget = $(this).attr('data-target');
+            var $text;
+            if(dataTarget=='' || typeof(dataTarget)==='undefined') {
+                $text = $(this).parent().find('.continue-reading-target');
+            } else {
+                $text = $(dataTarget);
+            }
+            $(this).remove();
+            toggleAccessible($text);
+        });
+    
+        //open sidenav section if active item exists
+        
+        if($('.sidenav-item.active').length) {
+            $('.sidenav-item.active').closest('.sidenav-folder-items').addClass('open').removeClass('hide-accessible').show().siblings('.sidenav-folder').addClass('active');
+        }
+        //highlight sidenav section if is index of that section
+        if($('.inside-side-nav .sidenav-folder-items .highlight-parent').length) {
+            $('.inside-side-nav .sidenav-folder-items .highlight-parent').closest('.sidenav-folder-items').siblings('.sidenav-folder').addClass('selected-section');
+        }
+    
+        /* to-top button */
+        
+        $('#totop').on('click',function(event) {
+            $('body').scrollTo( '0px', 500, {
+                easing:'easeOutQuad', 
+                axis: 'y'
+            } );
+        });
+
+    }; //end initSBListeners
+
+    var getSource = function() {
+        //header
+        var headerURL = 'http://www.stonybrook.edu/commcms/studentaffairs/stu/_includes/config.php';
+        $.ajax({
+            url: 'https://www.stonybrook.edu/far-beyond/shared/get-json.php?url='+encodeURIComponent(headerURL),
+            type: 'GET',
+            dataType: 'jsonp',
+            error: function(xhr, status, error) {
+                console.log(status + ": " + error);
+            },
+            success: function(header) {
+                var parser = new DOMParser();
+                var doc = parser.parseFromString(header, "text/html");
+                //gather the header HTML content
+                var $sectionSearch   = doc.getElementsByClassName('cms-site-search-wrapper');
+                var $quickNavigation = doc.getElementsByClassName('nav-elements-container');
+                var $logoContainer   = doc.getElementsByClassName('logo-container');
+                var $topNavigation   = doc.getElementsByClassName('navWrap');
+                //replace the static header with live version
+                $('#static-header-code').html('').append($sectionSearch, $quickNavigation, $logoContainer, $topNavigation);
+
+                //gather the footer HTML content
+                var $socialSidebar   = doc.getElementsByClassName('social-sidebar');
+                var $cmsFooter = doc.getElementById('footer');
+                var $toTop   = doc.getElementById('totop');
+                //replace the static header with live version
+                $('#frmPublicMaster').after($socialSidebar, $cmsFooter, $toTop);
+                // Replace the existing footer
+                $('#totop').on('click',function(event) {
+                    $('body').scrollTo('0px',800);
+                });
+
+                //add copyright login link
+                var copyLink = "<a title=\"Go to administrative login screen.\" href=\"https://calendar.stonybrook.edu/admin/site/studentaffairs/default.aspx\">&copy;</a>";
+                $('.site-copyright-info #cbw-edit').replaceWith(copyLink);
+
+                initSBListeners();
+            }
+        });
+    };
+
+</script>
+
+<script>
+    $(function() {
+        // jQuery code that affects both the event list and details pages- header, footer, etc here
+        // e.g. $( ‘footer’ ).remove();
+        getSource();
+    });
+
+    function eventListCallback() {
+        // only code that affects list, summary, and grid view elements.  This function is called automatically when the event list loads and each time the event list paging changes.
+        var clearLink = '<a class="custom-clear-trigger" href="#">Clear Search</a>';
+        $('#search_results_links').append(clearLink);
+        $('.my-button').click(function(e) {
+            e.preventDefault();
+            $('.custom-clear-trigger').trigger('click');
+        });
+
+    }
+
+    function eventDetailsCallback() {
+        // code that affects event details elements.  This function is called automatically when the event details load (once).
+        
+        //default open share icons
+        $('h3#share-it-accordion').trigger('click');
+    }
+</script>
