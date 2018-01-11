@@ -1171,12 +1171,10 @@ li {
 
 ul {
     list-style: disc;
-    list-style-position: inside;
 }
 
 ol {
     list-style: decimal;
-    list-style-position: inside;
 }
 
 dl,
