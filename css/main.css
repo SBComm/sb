@@ -5723,6 +5723,12 @@ body {
 
     /* bullets */
 
+    /* bullets */
+
+    .arrow-bullets {
+        list-style: none;
+    }
+
     .arrow-bullets li {
         text-indent: -15px;
         margin-left: 25px;
@@ -5746,27 +5752,28 @@ body {
         color: #00acc6;
     }
 
-    .default-bullets li {
-        margin-left: 20px;
-        text-indent: -15px;
+    .arrow-bullets .default-bullets,
+    .star-bullets .default-bullets,
+    .box-bullets .default-bullets,
+    .dash-bullets .default-bullets {
+        text-indent: 0;
+        margin-left: 0;
+    }
+    
+    .default-bullets .default-bullets li,
+    .arrow-bullets .default-bullets li,
+    .star-bullets .default-bullets li,
+    .box-bullets .default-bullets li,
+    .dash-bullets .default-bullets li {
+        text-indent: -22px;
     }
 
-    .default-bullets li:before {
-        display: inline-block;
-        content: "•";
-        margin: 0 0 0 0;
-        font-style: normal;
-        font-weight: normal;
-        font-family: arial;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        position: relative;
-        z-index: 1;
-        font-size: 1.2em;
-        width: 10px;
-        text-align: center;
-        color: #900;
+    .arrow-bullets .default-bullets li:before {
+        display: none;
+    }
+
+    .star-bullets {
+        list-style: none;
     }
 
     .star-bullets li {
@@ -5798,6 +5805,10 @@ body {
         color: #900;
     }
 
+    .box-bullets {
+        list-style: none;
+    }
+
     .box-bullets li {
         margin-left: 20px;
         text-indent: -15px;
@@ -5819,6 +5830,10 @@ body {
         width: 10px;
         text-align: center;
         color: #900;
+    }
+
+    .dash-bullets {
+        list-style: none;
     }
 
     .dash-bullets li {
