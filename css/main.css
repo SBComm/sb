@@ -5761,7 +5761,7 @@ body {
     .star-bullets .default-bullets li,
     .box-bullets .default-bullets li,
     .dash-bullets .default-bullets li {
-        text-indent: -22px;
+        text-indent: 0;
     }
 
     .arrow-bullets .default-bullets li:before {
