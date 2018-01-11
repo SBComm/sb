@@ -2818,6 +2818,8 @@ body {
     .major-minor-badges--wider-badges .course-program-list li a {
         display: inline-block;
         width: 65%;
+        padding: 0 !important;
+        border-bottom: none !important;
     }
 
     .course-program-list li .major,
