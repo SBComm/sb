@@ -5046,7 +5046,7 @@ body {
     a.sbu-outline-button--black--hover-transparent:hover {
         color: #fff !important;
         border-color: #fff !important;
-        background: transparent !important;
+        background: background: #000000 !important;
     }
 
     a.sbu-outline-button--black--hover-white:hover {
