@@ -1071,6 +1071,7 @@ section.program-details {
 .program-details .program-nav {
     margin: 0 0 30px;
     display: block;
+    list-style: none;
 }
 
 .program-details .program-nav a {
