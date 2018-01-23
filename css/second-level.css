@@ -548,3 +548,24 @@ h4 {
 .maps-and-directions .second-level-header .mag-articles {
     border-top: 1px solid #fff;
 }
+
+@media print {
+    html {
+        zoom: 75%;
+    }
+
+    body {
+        -webkit-print-color-adjust: exact;
+        zoom: 100%;
+    }
+
+    b.tablesaw-cell-label {
+        display: none !important;
+    }
+
+    .main-container .inside-header,
+    .site-footer,
+    #de {
+        display: none !important;
+    }
+}

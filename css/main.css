@@ -7612,6 +7612,10 @@ footer.site-footer .social .small-button:after {
 
 @media print {
 
+    body {
+        zoom: 80%;
+    }
+
     /*
      * Don't show links for images, or javascript/internal links
      */
