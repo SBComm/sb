@@ -5723,6 +5723,10 @@ body {
 
     /* bullets */
 
+    .default-bullets li {
+        margin: 0 0 0 18px;
+    }
+    
     .arrow-bullets {
         list-style: none;
     }
