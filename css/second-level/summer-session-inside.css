@@ -774,6 +774,12 @@ ul.course-list .tablesaw-cell-label {
         background-size: cover;
         background-position: 50% 100%;
     }
+    .coming-2018 {
+        background-image: url("../../img/student-life/coming-2018.jpg");
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
 
     .inside-header h3 {
         font-size: 3em;
