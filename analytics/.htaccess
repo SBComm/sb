@@ -17,5 +17,6 @@
  allow from 75.69.254.168
  allow from 192.168.1.
  allow from 130.245.183.40
+ allow from 130.245.189.0/25
  allow from ::1
 </Limit>
