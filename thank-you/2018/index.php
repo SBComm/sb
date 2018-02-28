@@ -111,7 +111,7 @@
                                 	if($_POST['first-name']!='' && $_POST['last-name']!='' && $_POST['email']!='' && $_POST['g-recaptcha-response']!='') {
 										echo('<div id="google-response" style="display: none;">');
 
-									    $url = 'https://docs.google.com/forms/d/e/1vGJ6N-yxNNjcaZuovuXwsf1V5JnitDNJ4FU68CRvcf0/formResponse?entry.400857025='.htmlspecialchars($_POST['first-name']).'&entry.417680940='.htmlspecialchars($_POST['last-name']).'&entry.1523563919='.htmlspecialchars($_POST['email']).'&entry.1787604701='.htmlspecialchars($_POST['term']).'&entry.818029876='.htmlspecialchars($_POST['type']).'&entry.1881785626='.htmlspecialchars($_POST['source-url']).'&submit=Submit';
+									    $url = 'https://docs.google.com/forms/d/e/1FAIpQLSeoKEAbrgFVJaMH6T8PXjhmiEvHb-cah9305yFmlH_E1lNxrw/formResponse?entry.400857025='.htmlspecialchars($_POST['first-name']).'&entry.417680940='.htmlspecialchars($_POST['last-name']).'&entry.1523563919='.htmlspecialchars($_POST['email']).'&entry.1787604701='.htmlspecialchars($_POST['term']).'&entry.818029876='.htmlspecialchars($_POST['type']).'&entry.1881785626='.htmlspecialchars($_POST['source-url']).'&submit=Submit';
 									    $ch = curl_init($url);
 
 									    curl_setopt($ch, CURLOPT_POST, 1);
