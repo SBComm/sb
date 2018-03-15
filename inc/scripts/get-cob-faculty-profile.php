@@ -228,7 +228,7 @@
 	                                   <div class="sbu-columns--column one-third 
 	                                    left-col-content ">
 	                                      
-	                                         <img class="" src="http://www.stonybrook.edu/commcms/business-1/_images/faculty/'.$dm_username.'.jpg" alt="Image of '.$fp_name.'" width="330" height="386">
+	                                         <img class="" src="https://www.stonybrook.edu/commcms/business-1/_images/faculty/'.$dm_username.'.jpg" alt="Image of '.$fp_name.'" width="330" height="386">
 	                                      
 	                                   </div>
 	                                   <div class="sbu-columns--column two-third">
