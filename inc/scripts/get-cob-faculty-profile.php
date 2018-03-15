@@ -300,7 +300,7 @@
 	                	"DTD_DATE" => "Day",
 	                	"DTY_DATE" => "Year",
 	                );
-	                $considerDisplay = false;
+	                $considerDisplay = true;
                 	$tabLabels = array(
                 		"hash" => "Awards&amp;Honors",
                 		"label" => "Awards &amp; Honors",
@@ -410,7 +410,7 @@
 						"DTM_LICENSE" => "Month",
 						"DTY_LICENSE" => "Year",
 	                );
-	                $considerDisplay = false;
+	                $considerDisplay = true;
                 	$tabLabels = array(
                 		"hash" => "IntellectualProperties",
                 		"label" => "Intellectual Properties",
@@ -434,7 +434,7 @@
 						"DTM_DATE" => "Month",
 						"DTY_DATE" => "Year",
 	                );
-	                $considerDisplay = false;
+	                $considerDisplay = true;
                 	$tabLabels = array(
                 		"hash" => "Presentations",
                 		"label" => "Presentations",
@@ -452,7 +452,7 @@
 						"RESEARCH_TYPE" => "Research Type",
 						"STATUS" => "Status",
 	                );
-	                $considerDisplay = false;
+	                $considerDisplay = true;
                 	$tabLabels = array(
                 		"hash" => "Research",
                 		"label" => "Current Research",
@@ -475,7 +475,7 @@
 						"DTY_START" => "Year",
 	                );
 	                $table = '';
-	                $considerDisplay = false;
+	                $considerDisplay = true;
                 	$tabLabels = array(
                 		"hash" => "Consulting",
                 		"label" => "Consulting",
@@ -497,7 +497,7 @@
 						"DTM_START" => "Month",
 						"DTY_START" => "Year",
 	                );
-	                $considerDisplay = false;
+	                $considerDisplay = true;
                 	$tabLabels = array(
                 		"hash" => "UniversityService",
                 		"label" => "University Service",
@@ -519,7 +519,7 @@
 						"DTM_START" => "Month",
 						"DTY_START" => "Year",
 	                );
-	                $considerDisplay = false;
+	                $considerDisplay = true;
                 	$tabLabels = array(
                 		"hash" => "ProfessionalService",
                 		"label" => "Professional Service",
@@ -541,7 +541,7 @@
 						"DTM_START" => "Month",
 						"DTY_START" => "Year",
 	                );
-	                $considerDisplay = false;
+	                $considerDisplay = true;
                 	$tabLabels = array(
                 		"hash" => "PublicService",
                 		"label" => "Public Service",
