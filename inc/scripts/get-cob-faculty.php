@@ -20,7 +20,7 @@
 				}
 				$dept_q .= 'DEPARTMENT:' . $value;
 			}
-			$api__users_info = $api_base_url . '/SchemaData/INDIVIDUAL-ACTIVITIES-Business/'.$dept_q.'/PCI,ADMIN';
+			$api__users_info = $api_base_url . '/SchemaData/INDIVIDUAL-ACTIVITIES-Business/'.$dept_q.',USER_ENABLED:ENABLED/PCI,ADMIN';
 		}
 	}
 
