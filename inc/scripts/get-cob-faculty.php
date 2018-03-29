@@ -7,7 +7,9 @@
 
 	$api__schema    = $api_base_url . '/SchemaIndex/INDIVIDUAL-ACTIVITIES-Business';
 	$api__all_users = $api_base_url . '/User/INDIVIDUAL-ACTIVITIES-Business';
+	$api__users_info = $api_base_url . '/SchemaData/INDIVIDUAL-ACTIVITIES-Business/USER_ENABLED:ENABLED/PCI,ADMIN';
 	$api__sections  = $api_base_url . '/SchemaEntity/INDIVIDUAL-ACTIVITIES-Business';
+	$api__profile    = $api_base_url . '/SchemaData/INDIVIDUAL-ACTIVITIES-Business/USERNAME:';
 
 	if(isset($_GET["department"])) {
 		$dept = $_GET["department"];
