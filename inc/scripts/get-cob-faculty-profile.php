@@ -160,11 +160,13 @@
 		                    $fp_website_html = '
 		                    	<p>
 		                        	<span style="font-size: 14pt;">
-		                            	<strong>Website:</strong> <a href="http://'.$fp_website.'" target="_blank">'.$fp_website.'</a>
+		                            	<strong>Website:</strong> <a href="'.$fp_website.'" target="_blank">'.$fp_website.'</a>
 		                        	</span>
 		                        </p>
 		                    ';
 	                    }
+
+	                    $fp_cv_html = '<p><a style="font-size: 14pt;" href="https://www.stonybrook.edu/commcms/business-1/_cv/faculty/'.$dm_username.'.pdf" title="CV for '.$fp_name.'" target="_blank">Download CV</a></p>';
 	                    
 	                    $fp_title = $record->ADMIN[0]->RANK;
 	                    
@@ -245,7 +247,7 @@
 	                                               <a href="mailto:'.$fp_email.'">'.$fp_email.'</a>
 	                                            </span>
 	                                         </p>'.
-	                                         $fp_website_html . $fp_research_interests_html . $fp_teaching_interests_html
+	                                         $fp_website_html . $fp_research_interests_html . $fp_teaching_interests_html . $fp_cv_html
 	                                         .'
 	                                         <p>&nbsp;</p>
 	                                      
