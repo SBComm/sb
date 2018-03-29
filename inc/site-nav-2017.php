@@ -308,7 +308,7 @@
                                 <li><a href="http://research.stonybrook.edu/vpr/statistics.shtml">Facts &amp; Figures</a></li>
                                 <li><a href="http://www.library.stonybrook.edu/">Libraries</a></li>
                                 <li class="nav-icon nav-icon-arrow-left">
-                                    <a class="nav-icon nav-icon-map" href="http://www.stonybrook.edu/ureca">Student Research</a>
+                                    <a class="nav-icon nav-icon-map" href="http://www.stonybrook.edu/ureca">Academic Research</a>
                                     <div class="mp-level">
                                         <h2 class="nav-icon nav-icon-arrow-right-2">Students</h2>
                                         <a class="mp-back" href="#" aria-hidden="true">back</a>
@@ -316,7 +316,7 @@
                                             <li><a href="http://www.stonybrook.edu/admissions/high-school/">High School</a></li>
                                             <li><a href="http://www.stonybrook.edu/ureca">Undergraduate</a></li>
                                             <li><a href="http://grad.stonybrook.edu/">Graduate</a></li>
-                                            <li><a href="http://www.stonybrook.edu/postdocs">Post-Docs</a></li>
+                                            <li><a href="http://www.stonybrook.edu/postdocs">Postdocs</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -335,11 +335,11 @@
                                     <li><a href="http://research.stonybrook.edu/vpr/statistics.shtml" tabindex="507">Facts &amp; Figures</a></li>
                                 </ul>
                                 <ul>
-                                    <li class="inmenu--desktop-nav--head"><h3>Student Research</h3></li>
+                                    <li class="inmenu--desktop-nav--head"><h3>Academic Research</h3></li>
                                     <li><a href="http://www.stonybrook.edu/admissions/high-school/" tabindex="508">High School</a></li>
                                     <li><a href="http://www.stonybrook.edu/ureca" tabindex="509">Undergraduate</a></li>
                                     <li><a href="http://grad.stonybrook.edu/" tabindex="510">Graduate</a></li>
-                                    <li><a href="http://www.stonybrook.edu/postdocs" tabindex="511">Post-Docs</a></li>
+                                    <li><a href="http://www.stonybrook.edu/postdocs" tabindex="511">Postdocs</a></li>
                                 </ul>
                                 <div class="inmenu--desktop-nav_related-links">
                                     <span class="inmenu--desktop-nav_related-links_label">Related Links:</span>
