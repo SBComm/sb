@@ -4,7 +4,7 @@
             <h3><em class="fa fa-line-chart"></em> Stony Brook Analytics Dashboard</h3>
             <div class="content col-2 col-2-left">
                 <h4>Get Your Data!</h4>
-                <p>With this reporting tool, you can easily view website activity for a site within the University's OU Campus Content Management System.</p>
+                <p>With this reporting tool, you can easily view website activity for your specific on-campus department website, as long as it is within the University’s OU Campus Content Management System.<a class="external-link" href="http://www.stonybrook.edu/commcms/_cms_2/support-center/xtra-analytics" target="_blank">Read more...</a></p>
                 <p>Available data metrics include the following:</p>
                 <div class="drop-accordion drop-accordion-1 clearfix">
                     <div class="item">
