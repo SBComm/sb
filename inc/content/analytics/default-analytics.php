@@ -14,7 +14,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>The number of times a page is accessed.</p>
-                                <p><strong>Example:</strong> if you arrive on the Stony Brook home page, then click into the admissions page, and click back to the homepage, the number of pageviews for the home page is 2, and the number of total pageviews is 3.</p>
+                                <p><strong>Example:</strong> <em>If you arrive on the Stony Brook home page, then click into the admissions page, and click back to the homepage, the number of pageviews for the home page is 2, and the number of total pageviews is 3.</em></p>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>Every time a page is viewed by a unique individual, a unique pageview is recorded. That is, only one unique pageview will be recorded for a certain viewer, even if he/she views the page multiple times.</p>
-                                <p><strong>Example:</strong> if you arrive on the Stony Brook home page and click into the admissions page, then click back to the homepage, the total number of unique pageviews for the home page is 1 and total unique pageviews 2.</p>
+                                <p><strong>Example:</strong> <em>If you arrive on the Stony Brook home page and click into the admissions page, then click back to the homepage, the total number of unique pageviews for the home page is 1 and total unique pageviews 2.</em></p>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>Time on page is measured by subtracting the time a visitor hit a page from the time they hit the next page. This is the average of all users' times.</p>
-                                <p><strong>Example:</strong> if you are on the Stony Brook home page for a total of 20 seconds before clicking to the admissions page, and then later you arrive at the home page and stay for 30 seconds, your average time on the home page is 25 seconds.</p>
+                                <p><strong>Example:</strong> <em>If you are on the Stony Brook home page for a total of 20 seconds before clicking to the admissions page, and then later you arrive at the home page and stay for 30 seconds, your average time on the home page is 25 seconds.</em></p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                         <div class="content clearfix hide-accessible">
                             <div class="content-wrap">
                                 <p>The percentage of visits with only one pageview. It doesn't matter how long the visitor was on the page or how they left. Technically, it's a visit with only one interaction.</p>
-                                <p><strong>Example:</strong> If you have a 20% bounce rate, that means that 20% of your entrances left your website on the same page they entered from.</p>
+                                <p><strong>Example:</strong> <em>If you have a 20% bounce rate, that means that 20% of your entrances left your website on the same page they entered from.</em></p>
                             </div>
                         </div>
                     </div>
