@@ -12,7 +12,7 @@
     		//get mag story
     		$story_slug =  $post->slug;
 			$story_url = 'magazine/'.$magazine_this_year.'/'.$story_slug;
-			$story_url_absolute = 'http://www.stonybrook.edu/magazine/'.$magazine_this_year.'/'.$story_slug;
+			$story_url_absolute = 'https://www.stonybrook.edu/magazine/'.$magazine_this_year.'/'.$story_slug;
 
 			$story_title = $post->title->rendered;
 			$story_grid_title = $post->acf->magazine_grid_title;
@@ -154,7 +154,7 @@
 						<div class="social-share-button-wrapper">
 							<div class="social-share-button-wrapper clearfix">
 								<button class="button social-share facebook-share facebook-share-trigger"><em class="fa fa-share"></em> Share on Facebook</button>
-								<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=http://stonybrook.edu/happenings" target="_new"><em class="fa fa-share"></em> Share on Twitter</a>
+								<a class="button social-share twitter-share twitter-share-trigger" href="http://twitter.com/share?text=Check out the lastest at Stony Brook!&amp;url=https://stonybrook.edu/happenings" target="_new"><em class="fa fa-share"></em> Share on Twitter</a>
 							</div>
 						</div>
 						<div class="social-bar">

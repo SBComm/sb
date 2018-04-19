@@ -9,10 +9,13 @@ function removeBOM($data) {
 function printBooks($path, $pathForContent, $content, $sbu_site_url) {
 	/* Obtains WP data from JSON and creates HTML */
 
-	$wp_posts_url = "http://www.stonybrook.edu/happenings/wp-json/wp/v2/posts?categories=163";
+	$wp_posts_url = "https://www.stonybrook.edu/happenings/wp-json/wp/v2/posts?categories=163";
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $wp_posts_url);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
+	curl_setopt($ch, CURLOPT_CAINFO, "/usr/local/ssl/certs/cacert.pem");
 	$wp_post_data = curl_exec($ch);
 	curl_close($ch);
 

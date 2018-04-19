@@ -1,10 +1,13 @@
 <?php
 
-	$wp_cats_url = "http://www.stonybrook.edu/happenings/wp-json/wp/v2/categories?parent=178&per_page=100";
+	$wp_cats_url = "https://www.stonybrook.edu/happenings/wp-json/wp/v2/categories?parent=178&per_page=100";
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $wp_cats_url);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($ch, CURLOPT_FRESH_CONNECT, 1);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
+	curl_setopt($ch, CURLOPT_CAINFO, "/usr/local/ssl/certs/cacert.pem");
 	$wp_cat_data = curl_exec($ch);
 	curl_close($ch);
 
