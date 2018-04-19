@@ -147,7 +147,7 @@
 						<p class="author">'.$author.$photog.'</p>
 					</div>
 					<div class="mag-article_content_wrapper clearfix">
-						'.$story_html.'
+						'.str_replace('src="http://','src="https://',$story_html).'
 						'.$gallery_trigger.'
 						'.$gallery_video_trigger.'
 						'.$gallery_illustration_trigger.'
