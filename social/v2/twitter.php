@@ -18,15 +18,15 @@ switch($_GET['url'])
 {
 	case 'timeline':
 	$rest = 'statuses/user_timeline' ;
-	$params = Array('count' => $count, 'include_rts' => $include_rts, 'exclude_replies' => $exclude_replies, 'screen_name' => $_GET['screen_name']);
+	$params = Array('count' => $count, 'include_rts' => $include_rts, 'exclude_replies' => $exclude_replies, 'screen_name' => $_GET['screen_name'], 'tweet_mode' => 'extended');
 	break;
 	case 'search':
 	$rest = "search/tweets";
-	$params = Array('q' => $_GET['q'], 'count' => $count, 'include_rts' => $include_rts);
+	$params = Array('q' => $_GET['q'], 'count' => $count, 'include_rts' => $include_rts, 'tweet_mode' => 'extended');
 	break;
 	case 'list':
 	$rest = "lists/statuses";
-	$params = Array('list_id' => $_GET['list_id'], 'count' => $count, 'include_rts' => $include_rts);
+	$params = Array('list_id' => $_GET['list_id'], 'count' => $count, 'include_rts' => $include_rts, 'tweet_mode' => 'extended');
 	break;
 	default:
 	$rest = 'statuses/user_timeline' ;
