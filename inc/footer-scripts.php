@@ -545,7 +545,7 @@
 								intro: '',
 								search: '',
 								out: 'intro,thumb,text',
-								url: '/social/twitter.php',
+								url: '/social/v2/twitter.php',
 								thumb: true,
 								retweets: true
 							}
