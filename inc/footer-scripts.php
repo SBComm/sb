@@ -336,7 +336,7 @@
 									retweets: true
 								},
 								rss: {
-									id: 'http://sb.cc.stonybrook.edu/news/_resources/rss/all.rss',
+									id: 'https://www.stonybrook.edu/newsroom/_resources/rss/all.rss',
 									url: 'social/v2/rss.php'
 								},
 								facebook: {
@@ -388,7 +388,7 @@
 									retweets: true
 								},
 								rss: {
-									id: '//sb.cc.stonybrook.edu/happenings/category/alumni/feed/'
+									id: 'https://www.stonybrook.edu/happenings/category/alumni/feed/'
 								},
 								facebook: {
 									id: '43925669753',
