@@ -543,6 +543,41 @@
     background-position: center;
 }
 
+.filter-buttons a.bme-circle {
+    background-image: url('../../img/circle-buttons/bme-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.chemistry-circle {
+    background-image: url('../../img/circle-buttons/chemistry-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.mid-media-circle {
+    background-image: url('../../img/circle-buttons/mid-media-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.arh-circle {
+    background-image: url('../../img/circle-buttons/arh-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-buttons a.digital-art-circle {
+    background-image: url('../../img/circle-buttons/digital-art-circle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media only screen and (min-width: 360px) {
     .filter-buttons p {
         font-size: 1.2em;
