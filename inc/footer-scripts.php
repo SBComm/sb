@@ -357,8 +357,8 @@
 									id: '37984249@N06,101383158@N02'
 								},
 								instagram: {
-									id: '!46695629,!320497946',
-									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
+									id: '!46695629',
+									accessToken: '46695629.992187b.a81928d05a7b4042955834386b5809ea',
 									clientId: '992187b36560494abe8ea63eebf2c9c3',
 									thumb: 'standard_resolution',
 									comments: 3,
