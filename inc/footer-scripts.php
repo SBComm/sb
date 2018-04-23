@@ -400,8 +400,8 @@
 								},
 								instagram: {
 									id: '!211449390',
-									accessToken: '46695629.992187b.160cb0d8518e4cb8ab72461002480d03',
-									clientId: '992187b36560494abe8ea63eebf2c9c3',
+									accessToken: '211449390.851894b.a15d6123535e499194da90792099dbd8',
+									clientId: '851894b3a0a8461ca9975558cdfaa928',
 									thumb: 'standard_resolution',
 									comments: 3,
 									likes: 10
