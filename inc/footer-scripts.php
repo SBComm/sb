@@ -534,7 +534,7 @@
 
 			<?php includeAsset('js','js/social/jquery.plugins.js'); ?>
 			<?php includeAsset('js','js/social/jquery.site.js'); ?>
-			<?php includeAsset('js','js/social/jquery.social.stream.1.5.4.js'); ?>
+			<?php includeAsset('js','js/social-v2/js/jquery.social.stream.1.6.2.js'); ?>
 			<?php includeAsset('js','js/social/preload-messages.js'); ?>
 			<script type="text/javascript">
 				jQuery(document).ready(function($){
@@ -545,6 +545,7 @@
 								intro: '',
 								search: '',
 								out: 'intro,thumb,text',
+								url: '/social/twitter.php',
 								thumb: true,
 								retweets: true
 							}
