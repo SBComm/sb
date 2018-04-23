@@ -19,7 +19,7 @@
     } else {
         if($is_dev !== false) { //$is_dev determined in each index.php
             $site          = 'sb/5questions';
-            $css_base_url  = 'http://www.stonybrook.edu/development/5questions/';
+            $css_base_url  = 'https://www.stonybrook.edu/development/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_proofing_environment = true;
@@ -27,7 +27,7 @@
             $is_local_environment = false; 
         } else {
             $site          = 'sb/5questions';
-            $css_base_url  = 'http://www.stonybrook.edu/5questions/';
+            $css_base_url  = 'https://www.stonybrook.edu/5questions/';
             $path  = $root . '/' . $site . '/' . $inc_loc . '/';
             $working_path_asset_dir = '';
             $is_production_environment = true;
