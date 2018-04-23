@@ -106,9 +106,9 @@
     <!--END IE Specific CSS Includes and Polyfills-->
 
     <!--BEGIN Fonts.com Include-->
-        <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Cookie' rel='stylesheet' type='text/css'>
-        <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
-        <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/ee71ef3e-a7f1-47dd-8ae1-4ae6bec02b30.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Great+Vibes|Cookie' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/8b09d344-baa0-42a8-bbac-175ff46c86d5.css"/>
+        <link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/ee71ef3e-a7f1-47dd-8ae1-4ae6bec02b30.css"/>
 		<!--<link href="fonts/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">-->
         <link rel="stylesheet" href="fonts/icomoon/style.css">
         <!--[if lt IE 8]>
