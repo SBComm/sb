@@ -385,15 +385,18 @@
 								twitter: {
 									id: 'stonybrookalum',
 									thumb: true,
+									url: 'social/v2/twitter.php',
 									retweets: true
 								},
 								rss: {
-									id: 'https://www.stonybrook.edu/happenings/category/alumni/feed/'
+									id: 'https://www.stonybrook.edu/happenings/category/alumni/feed/',
+									url: 'social/v2/rss.php'
 								},
 								facebook: {
 									id: '43925669753',
 									feed: 'posts',
-									text: 'contentSnippet'
+									text: 'contentSnippet',
+									url: 'social/v2/facebook.php'
 								},
 								flickr: {
 									id: '22402351@N03'
