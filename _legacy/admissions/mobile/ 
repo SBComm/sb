@@ -1,0 +1,102 @@
+body {margin:0px;}
+
+#wrapper {background-color:#000000; width:100%;}
+
+#container {background-color:#000000; width:100%; padding-bottom:40px;}
+
+#header {border-bottom:1px solid #fff; /*height:197px;*/}
+
+#topnav {background:url(images/bg-topnav.png); width:100%; height:46px; text-align:center;}
+
+#bannerpic {max-height:151px;}
+
+#back {position:relative; top:7px; left:10px; float:left;}
+
+#logo {background:url(images/logo.png) no-repeat left 9px; height:37px; width:258px; margin:0px auto; cursor:pointer; max-width:100%; max-height:auto;}
+
+#page-title {height:37px; width:258px; margin:0px auto; cursor:pointer; color:white; font-family:Arial, Helvetica, sans-serif; font-size:21px; font-weight:bold; padding-top:13px;}
+
+#content {border-bottom:1px solid #808080;}
+
+#vmenu {width:100%; background-color:#660000;}
+
+#content-plain > div{ padding:15px; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+
+#content-red{background-color:#990000;}
+#content-red > div{ padding:15px;}
+
+div.content-rounded-white {background-color:white;-webkit-border-bottom-right-radius: 15px;-moz-border-radius-bottomright: 15px; border-bottom-right-radius: 15px;-webkit-border-bottom-left-radius: 15px;-moz-border-radius-bottomleft: 15px; border-bottom-left-radius: 15px;-webkit-border-top-right-radius: 15px;-moz-border-radius-topright: 15px; border-top-right-radius: 15px;-webkit-border-top-left-radius: 15px;-moz-border-radius-topleft: 15px; border-top-left-radius: 15px;-moz-box-shadow: 2px 2px 15px #555;
+-webkit-box-shadow: 2px 2px 15px #555;box-shadow: 2px 2px 15px #555;}
+
+div.content-rounded-white > div {padding:15px;}
+div.content-rounded-white {font-family:Arial, Helvetica, sans-serif; color:#414243; font-size:15px;}
+div.content-rounded-white p:first-child {margin-top:0px;}
+div.content-rounded-white p:last-child {margin-bottom:0px;}
+
+div.content-rounded-white table {border:1px solid #414243; margin-left:0px; font-size:0.9em;}
+div.content-rounded-white table th {background-color:#330000; color:white;}
+div.content-rounded-white table.smallerfonttable {font-size:0.7em; max-width:100%; height:auto;}
+div.content-rounded-white ul {padding-left:20px;}
+
+div.content-second-nav {background-color:;
+-webkit-border-bottom-right-radius: 15px;-moz-border-radius-bottomright: 15px; border-bottom-right-radius: 15px;-webkit-border-bottom-left-radius: 15px;-moz-border-radius-bottomleft: 15px; border-bottom-left-radius: 15px;-webkit-border-top-right-radius: 15px;-moz-border-radius-topright: 15px; border-top-right-radius: 15px;
+-webkit-border-top-left-radius: 15px;-moz-border-radius-topleft: 15px; border-top-left-radius: 15px;-moz-box-shadow: 2px 2px 15px #555;
+-webkit-box-shadow: 2px 2px 15px #555;box-shadow: 2px 2px 15px #555;}
+
+#social div{padding:15px;}
+#social img{margin-right:15px;}
+
+#bottombar {background:url(images/bg-footerbar.png) repeat-x; height:52px; width:100%}
+#bottombar div{padding-left:15px; padding-top:18px;font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold;color:white;}
+
+/** Vertical Menu - Primary **/
+#vmenu ul{ list-style:none; margin:0px;padding:0px;}
+#vmenu ul li{margin:0px; width:100%; height:63px; padding:0px; font-size:16px; font-family:Arial, Helvetica, sans-serif;  font-weight:bold; overflow:hidden;}
+#vmenu ul li a{display:block; height:1em; padding:20px;}
+
+/** Vertical Menu - Secondary**/
+#vmenu-second ul{ list-style:none; margin:0px;padding:0px;}
+#vmenu-second ul li{margin:0px; width:100%; height:57px; padding:0px; font-size:16px; font-family:Arial, Helvetica, sans-serif;  font-weight:bold; overflow:hidden;}
+#vmenu-second ul li a{display:block; height:1em; padding:20px;}
+
+/** Red specific **/
+#vmenu ul.red li{background:url(images/bg-vmenu.png) repeat-x; color:white;}
+#vmenu ul.red li a{background:url(images/rarrow-white.png) no-repeat 95% 22px;}
+ul.red li.vmenu a, ul.red li.vmenu a:visited {color:white; text-decoration:none;}
+ul.red li.vmenu a:hover, ul.red li.vmenu a:visited:hover {color:white; text-decoration:none; text-shadow:#E4D19F 1px 1px 2px;}
+
+/** White specific **/
+#vmenu ul.white li{background-color:white; color:#2f3031; border-bottom:1px solid #ed0707;}
+#vmenu ul.white li a{background:url(images/rarrow-black.png) no-repeat 95% 22px;}
+ul.white li.vmenu a, ul.white li.vmenu a:visited {color:#2f3031; text-decoration:none;}
+ul.white li.vmenu a:hover, ul.white li.vmenu a:visited:hover {color:#2f3031; text-decoration:none; text-shadow:#999999 1px 1px 2px;}
+
+/** Gray specific **/
+#vmenu-second ul.gray li.vmenu-second{background:url(images/bg-vmenu-second.png) repeat-x; color:white;}
+#vmenu-second ul.gray li a{background:url(images/rarrow-white.png) no-repeat 95% 22px;}
+ul.gray li.vmenu-second a, ul.gray li.vmenu-second a:visited {color:white; text-decoration:none;}
+ul.gray li.vmenu-second a:hover, ul.gray li.vmenu-second a:visited:hover {color:white; text-decoration:none; text-shadow:#E4D19F 1px 1px 2px;}
+
+#vmenu-second ul.gray li:first-child {-webkit-border-top-right-radius: 15px;-moz-border-radius-topright: 15px; border-top-right-radius: 15px;-webkit-border-top-left-radius: 15px;-moz-border-radius-topleft: 15px; border-top-left-radius: 15px; }
+
+#vmenu-second ul.gray li:last-child {-webkit-border-bottom-right-radius: 15px;-moz-border-radius-bottomright: 15px; border-bottom-right-radius: 15px;-webkit-border-bottom-left-radius: 15px;-moz-border-radius-bottomleft: 15px; border-bottom-left-radius: 15px; }
+
+#vmenu-second ul.gray li.vmenu-header {background-color:#111; color:white;}
+#vmenu-second li.vmenu-header span {font-size:18px; position:relative;top:17px; left:20px;}
+
+/** Major Minor Secondary Programs Box **/
+
+div.degreetypes {position:relative;top:-45px;float:right;right: 7%;height: 27px;}
+div.major{float:right;height:27px;background-color:#363536;padding-top:8px;padding-left:10px;padding-right:10px;border:1px solid #444;margin-left:3px; margin-right:3px;color:white;font-weight:bold;}
+div.minor{float:right;height:27px;background-color:#39b554;padding-top:8px;padding-left:10px;padding-right:10px;border:1px solid #444;margin-left:3px; margin-right:3px;color:white;font-weight:bold;}
+div.secondary{float:right;height:27px;background-color:#a86b3f;padding-top:8px;padding-left:10px;padding-right:10px;border:1px solid #444;margin-left:3px; margin-right:3px;color:white;font-weight:bold;}
+
+/** Fonts **/
+.boldred {color:#ed0707; font-size:18px; font-weight:bold;}
+
+/** Spacers **/
+.spc25 {height:25px; width:100%;}
+.spc15 {height:15px; width:100%;}
+
+.clear{clear:both;}
+

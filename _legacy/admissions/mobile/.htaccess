@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^/program/([^/]+)$ program.php?p=$1
+RewriteRule ^/?program/([^/]+)$ program.php?p=$1
+#RewriteRule ^/?getprogram/([^/]+)$ program-ugadmissions.php?p=$1
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
