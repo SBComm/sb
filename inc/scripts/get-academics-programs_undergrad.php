@@ -23,7 +23,7 @@
 
 	include($path . 'debug/kint-master/Kint.class.php');
 */
-	$academics_url = 'http://www.stonybrook.edu/far-beyond/_data/academics/undergrad-programs.xml';
+	$academics_url = 'https://www.stonybrook.edu/far-beyond/_data/academics/undergrad-programs.xml';
 
 	$programs = simplexml_load_file($academics_url);
 

@@ -1,5 +1,5 @@
 <?php
-	$academics_url = 'http://www.stonybrook.edu/far-beyond/_data/academics/all-programs.xml';
+	$academics_url = 'https://www.stonybrook.edu/far-beyond/_data/academics/all-programs.xml';
 	$programs = simplexml_load_file($academics_url);
 	$program_code = $_GET["code"];
 	$program_type = $_GET["type"];
