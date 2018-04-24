@@ -31,7 +31,7 @@ function inactivate(){
 $(document).ready(function() {
     if(code!=''&&code!='null'){
         
-        $.getJSON('http://admissions.cc.stonybrook.edu/mobile/program-ugadmissions-sbc.php?p='+code+'&callback=?', function(data) {
+        $.getJSON('https://www.stonybrook.edu/far-beyond/_legacy/admissions/mobile/program-ugadmissions-sbc.php?p='+code+'&callback=?', function(data) {
             $("#programTemplate").tmpl(data).appendTo("#container");
             $("#loading").hide();
 
@@ -62,7 +62,7 @@ $(document).ready(function() {
                         return false;               
                     }
                     
-                    $.getJSON('http://admissions.cc.stonybrook.edu/mobile/program-ugadmissions-sbc.php?p='+code+'&require=1'+'&callback=?', function(data) {
+                    $.getJSON('https://www.stonybrook.edu/far-beyond/_legacy/admissions/mobile/program-ugadmissions-sbc.php?p='+code+'&require=1'+'&callback=?', function(data) {
                         
                         if( data.hasOwnProperty('is_error') ) {
                             $('div.degree').html(NA_MSG);
@@ -102,7 +102,7 @@ $(document).ready(function() {
                     
                     icon.removeClass("hide-accessible");
                     
-                    $.getJSON('http://admissions.cc.stonybrook.edu/mobile/program-ugadmissions-sbc.php?p='+code+'&schedule=1'+'&callback=?', function(data) {
+                    $.getJSON('https://www.stonybrook.edu/far-beyond/_legacy/admissions/mobile/program-ugadmissions-sbc.php?p='+code+'&schedule=1'+'&callback=?', function(data) {
                         
                         if( data.hasOwnProperty('is_error') ) {
                             $('div.schedule').html(NA_MSG);
@@ -142,7 +142,7 @@ $(document).ready(function() {
                     
                     icon.removeClass("hide-accessible");
                     
-                    $.getJSON('http://admissions.cc.stonybrook.edu/mobile/program-ugadmissions-sbc.php?p='+code+'&courses=1'+'&callback=?', function(data) {
+                    $.getJSON('https://www.stonybrook.edu/far-beyond/_legacy/admissions/mobile/program-ugadmissions-sbc.php?p='+code+'&courses=1'+'&callback=?', function(data) {
                         
                         if( data.hasOwnProperty('is_error') ) {
                             $('div.courses').html(NA_MSG);
