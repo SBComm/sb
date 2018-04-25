@@ -11,11 +11,15 @@ header('Access-Control-Allow-Origin: *');
 $app_access_token = $app_id.'|'.$app_secret;
 $page_id = isset($_GET['id']) ? $_GET['id'] : '';
 $limit = isset($_GET['limit']) ? $_GET['limit'] : 20;
-$limit = $limit > 250 ? 250 : $limit;
+$limit = $limit > 50 ? 50 : $limit;
 $feed = isset($_GET['feed']) ? $_GET['feed'] : 'feed';
+$api = 'v2.8';
 $fields = "id,message,picture,link,name,description,type,icon,created_time,from,object_id,likes,comments,attachments{media{image}}";
-$graphUrl = 'https://graph.facebook.com/v2.3/'.$page_id.'/'.$feed.'?key=value&access_token='.$app_access_token.'&fields='.$fields.'&limit='.$limit;
-$pageUrl = 'https://graph.facebook.com/v2.3/'.$page_id.'?key=value&access_token='.$app_access_token.'&fields=id,link,name';
+if($feed == "posts") {
+    $fields = "id,message,picture,link,name,description,type,icon,created_time,from,object_id,likes,attachments{media{image}}";
+}
+$graphUrl = 'https://graph.facebook.com/'.$api.'/'.$page_id.'/'.$feed.'?key=value&access_token='.$app_access_token.'&fields='.$fields.'&limit='.$limit;
+$pageUrl = 'https://graph.facebook.com/'.$api.'/'.$page_id.'?key=value&access_token='.$app_access_token.'&fields=id,link,name';
 
 // get page details
 $pageObject = file_get_contents($pageUrl);
@@ -26,7 +30,7 @@ if ( $pageObject === false )
 }
 
 $pageDetails  = json_decode($pageObject);
-$pageLink = isset($pageDetails->link) ? $pageDetails->link : '';
+$pageLink = isset($pageDetails->link) ? $pageDetails->link : 'https://web.facebook.com/groups/' . $page_id ;
 $pageName = isset($pageDetails->name) ? $pageDetails->name : '';
 
 // get page feed
@@ -67,6 +71,12 @@ if(is_array($pagefeed)) {
 		$link = isset($data->link) ? $data->link : '';
 		$image = isset($data->picture) ? $data->picture : null;
 		$type = isset($data->type) ? $data->type : '';
+		
+		if($link == ''){
+			$id = isset($data->id) ? $data->id : '';
+			$idArray = explode('_', $id);
+			$link = $pageLink . '/posts/' . $idArray[1];
+		}
 		
 		if($link_url == $link){
 		//	continue;

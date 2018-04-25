@@ -16,35 +16,35 @@ $exclude_replies = isset($_GET['exclude_replies']) ? $_GET['exclude_replies'] : 
 // DO NOT EDIT BELOW THIS LINE
 switch($_GET['url'])
 {
-	case 'timeline':
-	$rest = 'statuses/user_timeline' ;
-	$params = Array('count' => $count, 'include_rts' => $include_rts, 'exclude_replies' => $exclude_replies, 'screen_name' => $_GET['screen_name'], 'tweet_mode' => 'extended');
-	break;
-	case 'search':
-	$rest = "search/tweets";
-	$params = Array('q' => $_GET['q'], 'count' => $count, 'include_rts' => $include_rts, 'tweet_mode' => 'extended');
-	break;
-	case 'list':
-	$rest = "lists/statuses";
-	$params = Array('list_id' => $_GET['list_id'], 'count' => $count, 'include_rts' => $include_rts, 'tweet_mode' => 'extended');
-	break;
-	default:
-	$rest = 'statuses/user_timeline' ;
-	$params = Array('count' => '20');
-	break;
+  case 'timeline':
+  $rest = 'statuses/user_timeline' ;
+  $params = Array('count' => $count, 'include_rts' => $include_rts, 'exclude_replies' => $exclude_replies, 'screen_name' => $_GET['screen_name'], 'tweet_mode' => 'extended');
+  break;
+  case 'search':
+  $rest = "search/tweets";
+  $params = Array('q' => $_GET['q'], 'count' => $count, 'include_rts' => $include_rts, 'tweet_mode' => 'extended');
+  break;
+  case 'list':
+  $rest = "lists/statuses";
+  $params = Array('list_id' => $_GET['list_id'], 'count' => $count, 'include_rts' => $include_rts, 'tweet_mode' => 'extended');
+  break;
+  default:
+  $rest = 'statuses/user_timeline' ;
+  $params = Array('count' => '20');
+  break;
 }
 
 $auth = new TwitterOAuth($consumer_key,$consumer_secret,$oauth_access_token,$oauth_access_token_secret);
 $get = $auth->get( $rest, $params );
 
 if( ! $get ) {
-	echo 'An error occurs while reading the feed, please check your connection or settings';
+  echo 'An error occurs while reading the feed, please check your connection or settings';
 }
-		
+    
 if( isset( $get->errors ) ) {
-	foreach( $get->errors as $key => $val ) echo $val;
+  foreach( $get->errors as $key => $val ) echo $val;
 } else {
-	echo $get;
+  echo $get;
 }
 
 /*
@@ -702,7 +702,7 @@ class OAuthRequest {
    */
   public function to_header($realm=null) {
     $first = true;
-	if($realm) {
+  if($realm) {
       $out = 'Authorization: OAuth realm="' . OAuthUtil::urlencode_rfc3986($realm) . '"';
       $first = false;
     } else
