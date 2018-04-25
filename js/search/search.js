@@ -47,7 +47,7 @@ s.parentNode.insertBefore(gcse, s);
 /* people search */
 function doPeopleSearch(peopleInputVal) {
 
-    var peopleSrc      = 'http://adam.cc.sunysb.edu/acc/new-dirsearch.cgi';
+    var peopleSrc      = 'https://adam.cc.sunysb.edu:8443/acc/new-dirsearch.cgi';
     var peopleQuery, peopleFrame, peopleInputVal, peopleLink;
     var defaultMessage = $('.search-default-message');
     //console.log(peopleInputVal);
