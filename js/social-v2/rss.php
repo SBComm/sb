@@ -1,6 +1,7 @@
 <?php
 ini_set('display_errors', '0');
 error_reporting(E_ALL | E_STRICT);
+header('Access-Control-Allow-Origin: *');
 
 header('Content-Type: application/json');
 $feed = new DOMDocument();
@@ -23,6 +24,17 @@ if($type == 'pinterest')
 	$feed_url = 'http://' . $page_id;
 	
 }
+
+$opts = array(
+	"ssl"=>array(
+		"cafile" => "/usr/local/ssl/certs/cacert.pem",
+		"verify_peer"=> true,
+		"verify_peer_name"=> true,
+	)
+);
+
+$context = stream_context_create($opts);
+libxml_set_streams_context($context);
 
 $feed->load($feed_url);
 $count = 0;
@@ -49,7 +61,7 @@ foreach($items as $item) {
    
    
    $standardimage = $item->getElementsByTagName('standardimage')->item(0)->firstChild->nodeValue;
-   $link = $item->getElementsByTagName('guid')->item(0)->firstChild->nodeValue;  
+   $link = isset($item->getElementsByTagName('guid')->item(0)->firstChild->nodeValue) ? $item->getElementsByTagName('guid')->item(0)->firstChild->nodeValue : $item->getElementsByTagName('link')->item(0)->firstChild->nodeValue;
    $publishedDate = $item->getElementsByTagName('pubDate')->item(0)->firstChild->nodeValue;
    
    $json['item'][$count] = array("title"=>$title,"description"=>$description,"link"=>$link,"publishedDate"=>$publishedDate,"text"=>$clear,"feedTitle"=>$feed_title,"image"=>$image);
