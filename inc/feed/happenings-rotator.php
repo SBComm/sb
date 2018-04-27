@@ -19,7 +19,23 @@
 
     $no_items = true;
     
-    $rssFeed = simplexml_load_file($rss);
+    //$rssFeed = simplexml_load_file($rss);
+
+    $opts = array(
+            "http"=>array(   
+            "header"=>  "Accept: application/xml\r\n"
+        ),
+            "ssl"=>array(
+            "cafile" => "/usr/local/ssl/certs/cacert.pem",
+            "verify_peer"=> false,
+            "verify_peer_name"=> false,
+        )
+    );
+    $context = stream_context_create($opts);
+
+    $rss2 = file_get_contents($rss, false, $context);
+    $rssFeed = new SimpleXMLElement($rss2);
+    
     $html = '';
 
     $html .= '<div class="slick-content-wrapper slick-content-wrapper--one-up">';
