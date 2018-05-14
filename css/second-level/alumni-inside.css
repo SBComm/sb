@@ -651,7 +651,7 @@ section.full-width-banner-image {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .rounded-image-buttons a:hover .label {
