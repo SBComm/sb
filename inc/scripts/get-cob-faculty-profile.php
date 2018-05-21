@@ -127,7 +127,7 @@
 	                    $fp_phone_2  = $record->PCI->OPHONE3;
 	                    $fp_photo    = $record->PCI->UPLOAD_PHOTO;
 	                    $fp_website  = $record->PCI->WEBSITE;
-	                    $fp_dept     = $record->xpath('//dmd:IndexEntry/@text');
+	                    $fp_dept     = $record->xpath('//dmd:IndexEntry[@indexKey="DEPARTMENT"]/@text');
 	                    
 	                    $fp_bio = $record->PROFILE->BIO;
 	                    $fp_ti  = $record->PROFILE->TEACHING_INTERESTS;
