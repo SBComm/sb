@@ -36,6 +36,8 @@
 	        		//print_r($v);
 					if ($key == 'WEB_ADDRESS' && $v!='') {
 						$v = '<a href="'.$v.'" target="_blank">View <em class="fa fa-angle-right" aria-hidden="true"></em></a>';
+					} else if ($key == 'JOURNAL_NAME' && $v == 'Other') {
+						$v = $item->JOURNAL_NAME_OTHER;
 					}
 	        		$html .= '<td>'.$v.'</td>';
 	        	}
