@@ -7756,13 +7756,6 @@ span.department-news-story_ert {
     color: #4b4b4b;
 }
 
-img.department-news-story_featured_image {
-    max-width: 580px;
-    float: right;
-    display: inline-block;
-    padding: 0 0 10px 15px;
-}
-
 a.department-news-story_read-external {
     float: right;
     display: block;
@@ -7790,4 +7783,13 @@ a.department-news-story_read-external:after {
     -moz-osx-font-smoothing: grayscale;
     z-index: 1;
     padding: 0 0 0 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+    img.department-news-story_featured_image {
+        max-width: 580px;
+        float: right;
+        display: inline-block;
+        padding: 0 0 10px 15px;
+    }
 }
