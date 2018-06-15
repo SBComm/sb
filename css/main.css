@@ -7756,6 +7756,10 @@ span.department-news-story_ert {
     color: #4b4b4b;
 }
 
+img.department-news-story_featured_image {
+    padding-bottom: 20px;
+}
+
 a.department-news-story_read-external {
     float: right;
     display: block;
