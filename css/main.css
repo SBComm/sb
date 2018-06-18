@@ -7794,12 +7794,12 @@ a.department-news-story_read-external:after {
     padding: 0 0 0 5px;
 }
 
-#container .content .department-news-story img.alignright {
+#container .content .department-news-story .alignright {
     float: right;
     padding: 10px;
 }
 
-#container .content .department-news-story img.alignleft {
+#container .content .department-news-story .alignleft {
     float: left;
     padding: 10px;
 }
