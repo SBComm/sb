@@ -7804,6 +7804,16 @@ a.department-news-story_read-external:after {
     padding: 10px;
 }
 
+#container .content .department-news-story .wp-caption {
+    max-width: 100%;
+}
+
+#container .content .department-news-story p.wp-caption-text {
+    background: #eee;
+    padding: 15px;
+    margin: 0 0 5px;
+}
+
 @media only screen and (min-width: 1024px) {
     img.department-news-story_featured_image {
         max-width: 580px;
