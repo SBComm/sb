@@ -7794,6 +7794,16 @@ a.department-news-story_read-external:after {
     padding: 0 0 0 5px;
 }
 
+#container .content .department-news-story img.alignright {
+    float: right;
+    padding: 10px;
+}
+
+#container .content .department-news-story img.alignleft {
+    float: left;
+    padding: 10px;
+}
+
 @media only screen and (min-width: 1024px) {
     img.department-news-story_featured_image {
         max-width: 580px;
