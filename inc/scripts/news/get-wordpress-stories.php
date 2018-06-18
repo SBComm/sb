@@ -3,7 +3,7 @@
     include('inc/estimated-read-time.php');
 
 	// Get passed params
-	$page 		= $_GET["page"]=='' ? '1' : $_GET["page"];
+	$current_page 		= $_GET["page"]=='' ? '1' : $_GET["page"];
 	$per_page 	= $_GET["per_page"]=='' ? '25' : $_GET["per_page"];
 	$orderby 	= $_GET["orderby"]=='' ? 'date' : $_GET["orderby"];
 	$order 		= $_GET["order"]=='' ? 'desc' : $_GET["order"];
@@ -15,7 +15,7 @@
 	 */
 
 	// Get category slug
-    $api_url = "http://localhost/news/wp-json/wp/v2/categories?slug=".$categories;
+    $api_url = "https://www.stonybrook.edu/happenings/wp-json/wp/v2/categories?slug=".$categories;
 
 	//  Initiate curl
 	$ch = curl_init();
@@ -48,7 +48,7 @@
 	 */
 
 	// Get category slug
-    $api_url = "http://localhost/news/wp-json/wp/v2/tags?slug=".$tags;
+    $api_url = "https://www.stonybrook.edu/happenings/wp-json/wp/v2/tags?slug=".$tags;
 
 	//  Initiate curl
 	$ch = curl_init();
@@ -81,12 +81,12 @@
 	 */
 
 	$api_query_per_page 	= "per_page=".$per_page;
-	$api_query_page 		= "page=".$page;
+	$api_query_page 		= "page=".$current_page;
 	$api_query_orderby 		= "orderby=".$orderby;
 	$api_query_order 		= "order=".$order;
 	$api_query_cat_label 	= (count($categories)>0 ? "categories=".$categories : "");
 	$api_query_tag_label 	= (count($tags)>0 ? "tags=".$tags : "");
-    $api_url = "http://localhost/news/wp-json/wp/v2/posts?".$api_query_page.'&'.$api_query_per_page."&".$api_query_orderby."&".$api_query_order."&".$category_filter."&".$tag_filter;
+    $api_url = "https://www.stonybrook.edu/happenings/wp-json/wp/v2/posts?".$api_query_page.'&'.$api_query_per_page."&".$api_query_orderby."&".$api_query_order."&".$category_filter."&".$tag_filter;
 
     var_dump($api_url);
 
@@ -196,13 +196,24 @@
     ';
 
     $pagination_out = '<nav class="gridlove-pagination">';
-    for($i=1; $i<=$total_pages; $i++) {
-    	if($i == $page) {
+
+    $max_page = ($total_pages <= 8) ? $total_pages : (($total_pages - $current_page < 4) ? $total_pages : ($current_page + 4) );
+
+    $min_page = ($current_page <= 4) ? 1 : ($current_page - 4);
+
+    $next_page = ($current_page < $total_pages) ? ($current_page + 1) : 0;
+
+    for($i=$min_page; $i<=$max_page; $i++) {
+    	if($i == $current_page) {
 			$pagination_out .= '<span class="page-numbers current">'.$i.'</span>';
     	} else {
     		$pagination_out .= '<a class="page-numbers" href="?page='.$i.'&'.$api_query_per_page."&".$api_query_orderby."&".$api_query_order."&".$api_query_cat_label."&".$api_query_tag_label.'">'.$i.'</a>';
     	}
     }
+    if($next_page > 0) {
+    	$pagination_out .= '<a class="next page-numbers" href="?page='.$next_page.'&'.$api_query_per_page."&".$api_query_orderby."&".$api_query_order."&".$api_query_cat_label."&".$api_query_tag_label.'">Next</a>';
+    }
+
     $pagination_out .= '</nav">';
 
     $output .= $pagination_out;

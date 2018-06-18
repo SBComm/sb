@@ -7966,6 +7966,36 @@ a.department-news-story_read-external:after {
     color: #900 !important;
 }
 
-.department-news-stories .gridlove-pagination .next {
+.department-news-stories .gridlove-pagination a.next {
     margin-left: 20px;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.gridlove-infinite-scroll a, .gridlove-load-more a, .gridlove-pagination .gridlove-next a, .gridlove-pagination .gridlove-prev a, .gridlove-pagination .next, .gridlove-pagination .prev {
+    height: 50px;
+    min-width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.1), inset 0 0 0 transparent;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.1), inset 0 0 0 transparent;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 2px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 30px;
+    position: relative;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.gridlove-load-more a, .gridlove-pagination .gridlove-next a, .gridlove-pagination .gridlove-prev a, .gridlove-pagination .next, .gridlove-pagination .prev, .gridlove-infinite-scroll a, .double-bounce1, .double-bounce2, .gridlove-link-pages > span, .module-actions ul.page-numbers span.page-numbers {
+    color: #FFF;
+    background-color: #990000;
 }
