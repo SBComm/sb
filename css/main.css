@@ -7844,6 +7844,13 @@ a.department-news-story_read-external:after {
     }
 }
 
+.department-news-stories .row {
+    display: grid;
+    grid-gap: 20px 0;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    grid-auto-rows: 20px;
+}
+
 .department-news-stories .gridlove-posts .layout-simple {
     padding: 0 15px;
     display: inline-block;
