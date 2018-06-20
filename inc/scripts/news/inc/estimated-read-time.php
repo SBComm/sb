@@ -10,7 +10,7 @@
 		if ( 1 <= $minutes ) {
 		    $estimated_time = $minutes . ' minute' . ($minutes == 1 ? '' : 's');
 		} else if ( $seconds > 0 ) {
-		    $estimated_time = $seconds . ' second' . ($seconds == 1 ? '' : 's');
+		    $estimated_time = '1 minute';
 		} else {
 			$estimated_time = '';
 		}
