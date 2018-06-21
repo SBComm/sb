@@ -44,7 +44,7 @@
 		return $magazine_cat_id;
 	}
 
-	function jp_get_news_story_data() {
+	function jp_get_news_story_data($story_slug, $slug_exists = false) {
 		/*
 		 * GET MAGAZINE CATEGORY ID
 		 */
@@ -98,7 +98,66 @@
 			$news_story_data['slug']	= $story->{'slug'};
 			$news_story_data['title']	= $story->{'title'}->{'rendered'};
 			$news_story_data['content']	= $story->{'content'}->{'rendered'};
-		}
+
+			$news_story_data['dept_title']		= $story->{'acf'}->{'secondary_title'};
+			$news_story_data['dept_content']	= $story->{'acf'}->{'secondary_content'};
+
+			// Strip "Private: " from the title
+			$private_needle = 'Private: ';
+			if(substr($news_story_data['title'], 0, strlen($private_needle)) === $private_needle) {
+				$news_story_data['title'] = str_replace('Private: ','',$news_story_data['title']);
+			}
+
+			$news_story_data['image'] 		= $story->{'featured_image_url'};
+
+			$news_story_data['dept_image']	= $story->{'acf'}->{'secondary_featured_image'}->{'url'};
+			if($news_story_data['dept_image']=='') {
+				$news_story_data['dept_image'] = $news_story_data['image'];
+			}
+
+			$news_story_data['image_html'] = '';
+			if($news_story_data['dept_image']!='') {
+				$news_story_data['image_html'] = '<img class="department-news-story_featured_image" style="float: right;" src="'.$news_story_data['image'].'" alt="" />';
+			}
+
+			$news_story_data['dept_hide']	= $story->{'acf'}->{'hide_on_department_feeds'};
+
+			$news_story_data['words'] = str_word_count( strip_tags( $news_story_data['dept_content'] ) );
+			$news_story_data['minutes'] = floor( $news_story_data['words'] / 120 );
+			$news_story_data['seconds'] = floor( $news_story_data['words'] % 120 / ( 120 / 60 ) );
+			$news_story_data['ert'] = jp_estimated_reading_time($news_story_data['words'],$news_story_data['minutes'],$news_story_data['seconds']);
+
+			$news_story_data['output'] .= '
+			<div class="department-news-story">
+				<h1>'.$news_story_data['dept_title'].'</h1>
+				<div class="department-news-story_byline">
+					<p><span class="department-news-story_date">'.$news_story_data['date'].'</span> <span class="department-news-story_ert">'.$news_story_data['ert'].'</span></p>
+				</div>
+				<div class="department-news-story_content">
+					'.$news_story_data['image_html'].'
+					'.$news_story_data['dept_content'].'
+					<p class="clearfix"><a class="department-news-story_read-external" href="story.php?slug='.$news_story_data['slug'].'" target="_blank">Read story <span class="hide-accessible">'.$news_story_data['dept_title'].'</span> on SBU News</a></p>
+				</div>
+			</div>
+		';
+	    
+    } else {
+
+		$news_story_data['output'] .= '
+			<div class="department-news-story">
+				<h1>404: Story Not Found</h1>
+				
+				<div class="department-news-story_content">
+					
+					<p><br>Sorry, but it looks like that story can\'t be found right now. Go back and search, or visit SBU News to browse all news.</p>
+
+
+					<p class="clearfix"><a class="department-news-story_read-external" href="https://www.stonybrook.edu/happenings/" target="_blank">Browse SBU News</a></p>
+				</div>
+			</div>
+		';
+
+    }
 
 		return $news_story_data;
 	}
