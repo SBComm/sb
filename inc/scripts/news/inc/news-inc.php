@@ -142,25 +142,96 @@
 			</div>
 		';
 	    
-    } else {
+	    } else {
 
-		$news_story_data['output'] .= '
-			<div class="department-news-story">
-				<h1>404: Story Not Found</h1>
-				
-				<div class="department-news-story_content">
+			$news_story_data['output'] .= '
+				<div class="department-news-story">
+					<h1>404: Story Not Found</h1>
 					
-					<p><br>Sorry, but it looks like that story can\'t be found right now. Go back and search, or visit SBU News to browse all news.</p>
+					<div class="department-news-story_content">
+						
+						<p><br>Sorry, but it looks like that story can\'t be found right now. Go back and search, or visit SBU News to browse all news.</p>
 
 
-					<p class="clearfix"><a class="department-news-story_read-external" href="https://www.stonybrook.edu/happenings/" target="_blank">Browse SBU News</a></p>
+						<p class="clearfix"><a class="department-news-story_read-external" href="https://www.stonybrook.edu/happenings/" target="_blank">Browse SBU News</a></p>
+					</div>
 				</div>
-			</div>
-		';
+			';
 
-    }
+	    }
 
 		return $news_story_data;
+	}
+
+	/**
+	* Get the final redirect URL
+	* From: https://gist.github.com/davejamesmiller/dbefa0ff167cc5c08d6d
+	*
+	* @return string or boolean
+	*/
+	function get_redirect_final_target($url) {
+	    $ch = curl_init($url);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	    curl_setopt($ch, CURLOPT_NOBODY, 1);
+	    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1); // follow redirects
+	    curl_setopt($ch, CURLOPT_AUTOREFERER, 1); // set referer on redirect
+	    curl_exec($ch);
+	    $target = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+	    curl_close($ch);
+	    if ($target)
+	        return $target;
+	    return false;
+	}
+
+	/**
+	* Get the last dirname
+	* From: https://stackoverflow.com/questions/4733851/how-to-get-the-last-dir-from-a-path-in-a-string
+	*
+	* @return string or boolean
+	*/
+	function get_last_dir_from_url($url) {
+	    if ($url!='')
+	        return basename($url);
+	    return false;
+	}
+
+	/**
+	* Extract Keywords From A Text String With PHP
+	* From: https://www.hashbangcode.com/article/extract-keywords-text-string-php
+	*
+	* @return string or boolean
+	*/
+	function prepare_meta_keywords_from_string($string) {
+		$stopWords = array('i','a','about','an','and','are','as','at','be','by','com','de','en','for','from','how','in','is','it','la','of','on','or','that','the','this','to','was','what','when','where','who','will','with','und','the','www','stony','brook','brooks');
+
+		$string = preg_replace('/\s\s+/i', '', $string); // replace whitespace
+		$string = trim($string); // trim the string
+		$string = preg_replace('/[^a-zA-Z0-9 -]/', '', $string); // only take alphanumerical characters, but keep the spaces and dashes too...
+		$string = strtolower($string); // make it lowercase
+
+		preg_match_all('/\b.*?\b/i', $string, $matchWords);
+		$matchWords = $matchWords[0];
+
+		foreach ( $matchWords as $key=>$item ) {
+		  if ( $item == '' || in_array(strtolower($item), $stopWords) || strlen($item) <= 3 ) {
+		      unset($matchWords[$key]);
+		  }
+		}   
+		$wordCountArr = array();
+		if ( is_array($matchWords) ) {
+		  foreach ( $matchWords as $key => $val ) {
+		      $val = strtolower($val);
+		      if ( isset($wordCountArr[$val]) ) {
+		          $wordCountArr[$val]++;
+		      } else {
+		          $wordCountArr[$val] = 1;
+		      }
+		  }
+		}
+		arsort($wordCountArr);
+		$wordCountArr = array_slice($wordCountArr, 0, 10);
+		return $wordCountArr;
 	}
 
 ?>
