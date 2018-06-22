@@ -80,6 +80,7 @@
 	    $slug_exists = sizeof($stories)>0 ? true : false;
 
 	    $news_story_data = array();
+	    $news_story_data['output'] = '';
 
 	    if($slug_exists) {
 	    	$story = $stories[0];
