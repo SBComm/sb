@@ -109,10 +109,7 @@
 				$news_story_data['title'] = str_replace('Private: ','',$news_story_data['title']);
 			}
 
-			$news_story_data['image'] = $story->{'featured_image_url'};
-			if($news_story_data['image']=='') {
-		    		$news_story_data['image'] = 'https://www.stonybrook.edu/commcms/_images/section-backgrounds/red-rays/rays-vertical-1.jpg';
-		    	}
+			$news_story_data['image'] 		= $story->{'featured_image_url'};
 
 			$news_story_data['dept_image']	= $story->{'acf'}->{'secondary_featured_image'}->{'url'};
 			if($news_story_data['dept_image']=='') {
