@@ -49,12 +49,12 @@
 		 * GET MAGAZINE CATEGORY ID
 		 */
 		if($_SERVER['SERVER_NAME'] == 'localhost') {
-	    	$api_query_slug = "slug=".$story_slug."&status=publish,private";
+	    	$api_query_slug = "slug=".$story_slug."&status=publish,private,pending";
 		    $api_url 		= "http://localhost/news/wp-json/wp/v2/posts?".$api_query_slug;
 
 		    $api_access_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL25ld3MiLCJpYXQiOjE1Mjk0MTgxOTgsIm5iZiI6MTUyOTQxODE5OCwiZXhwIjoxNTMwMDIyOTk4LCJkYXRhIjp7InVzZXIiOnsiaWQiOiIxIn19fQ.m8dm1vr_Xh1bOM37vVZhd6aul80R_3wMEo_DpPJ5uDg";
 		} else {
-			$api_query_slug = "slug=".$story_slug."&status=publish,private";
+			$api_query_slug = "slug=".$story_slug."&status=publish,private,pending";
 		    $api_url 		= "https://www.stonybrook.edu/happenings/wp-json/wp/v2/posts?".$api_query_slug;
 
 		    $api_access_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnN0b255YnJvb2suZWR1XC9oYXBwZW5pbmdzIiwiaWF0IjoxNTI5NDMyODk2LCJuYmYiOjE1Mjk0MzI4OTYsImV4cCI6MTUzMDAzNzY5NiwiZGF0YSI6eyJ1c2VyIjp7ImlkIjoiMSJ9fX0.C6K8dVqxhmqh4anJvRMVUnyEL0HYeML3kEPmoUqBZsY";
@@ -90,10 +90,11 @@
 			$news_story_data['status']	= $story->{'status'};
 
 		    $news_story_data['date']	= strtotime($story->{'date'});
-			$news_story_data['day']    	= date('j',$story_date);
-			$news_story_data['month']  	= date('F',$story_date);
-			$news_story_data['year']   	= date('Y',$story_date);
-			$news_story_data['date']  	= date('F j, Y',$story_date);
+
+			$news_story_data['day']    	= date('j',$news_story_data['date']);
+			$news_story_data['month']  	= date('F',$news_story_data['date']);
+			$news_story_data['year']   	= date('Y',$news_story_data['date']);
+			$news_story_data['date']  	= date('F j, Y',$news_story_data['date']);
 
 			$news_story_data['link']	= $story->{'link'};
 			$news_story_data['slug']	= $story->{'slug'};
