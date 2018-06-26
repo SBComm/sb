@@ -110,7 +110,7 @@
 			$news_story_data['dept_content']	= $story->{'acf'}->{'secondary_content'};
 
 			if($news_story_data['status'] == 'publish') {
-				$news_story_data['dept_content'] .= '<p class="clearfix"><a class="department-news-story_read-external" href="'.$news_story_data['link'].'" target="_blank">Read story <span class="hide-accessible">'.$news_story_data['dept_title'].'</span> on SBU News</a></p>';
+				$news_story_data['dept_content'] .= '<p class="clearfix"><a class="department-news-story_read-external" href="'.$news_story_data['link'].'" target="_blank">Read story <span class="hide-accessible">"'.$news_story_data['dept_title'].'"</span> on SBU News</a></p>';
 			}
 
 			/*
