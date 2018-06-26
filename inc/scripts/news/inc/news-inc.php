@@ -12,7 +12,7 @@
 		} else if ( $seconds > 0 ) {
 		    $estimated_time = '1 minute';
 		} else {
-			$estimated_time = '';
+			$estimated_time = 'Less than a minute';
 		}
 
 		return $estimated_time;
