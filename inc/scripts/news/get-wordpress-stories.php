@@ -180,7 +180,7 @@
 		    	$story_title	= $story->{'title'}->{'rendered'};
 		    	$story_content	= $story->{'content'}->{'rendered'};
 
-		    	$story_dept_link = "get-wordpress-story.php?" . (($story_slug!='') ? "slug=".$story_slug : "id=".$story_id) ;
+		    	$story_dept_link = "get-wordpress-story.php?" . (($story_slug!='') ? "slug=".$story_slug : "id=".$story_id);
 
 		    	$story_dept_title	= $story->{'acf'}->{'secondary_title'};
 		    	$story_dept_content	= $story->{'acf'}->{'secondary_content'};
