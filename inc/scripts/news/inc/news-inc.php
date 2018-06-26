@@ -44,21 +44,21 @@
 		return $magazine_cat_id;
 	}
 
-	function jp_get_news_story_data($story_slug, $slug_exists = false) {
-		/*
-		 * GET MAGAZINE CATEGORY ID
-		 */
+	function jp_get_news_story_data($story_slug, $story_id, $slug_exists = false) {
+
+	    $api_query_slug = ($story_slug!='') ? "?slug=".$story_slug."&" : "/".$story_id."?";
+
 		if($_SERVER['SERVER_NAME'] == 'localhost') {
-	    	$api_query_slug = "slug=".$story_slug."&status=publish,private,pending";
-		    $api_url 		= "http://localhost/news/wp-json/wp/v2/posts?".$api_query_slug;
-
-		    $api_access_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL25ld3MiLCJpYXQiOjE1Mjk0MTgxOTgsIm5iZiI6MTUyOTQxODE5OCwiZXhwIjoxNTMwMDIyOTk4LCJkYXRhIjp7InVzZXIiOnsiaWQiOiIxIn19fQ.m8dm1vr_Xh1bOM37vVZhd6aul80R_3wMEo_DpPJ5uDg";
+		    $api_url 		= "http://localhost/news/wp-json/wp/v2/posts";
 		} else {
-			$api_query_slug = "slug=".$story_slug."&status=publish,private,pending";
-		    $api_url 		= "https://www.stonybrook.edu/happenings/wp-json/wp/v2/posts?".$api_query_slug;
-
-		    $api_access_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnN0b255YnJvb2suZWR1XC9oYXBwZW5pbmdzIiwiaWF0IjoxNTI5NDMyODk2LCJuYmYiOjE1Mjk0MzI4OTYsImV4cCI6MTUzMDAzNzY5NiwiZGF0YSI6eyJ1c2VyIjp7ImlkIjoiMSJ9fX0.C6K8dVqxhmqh4anJvRMVUnyEL0HYeML3kEPmoUqBZsY";
+		    $api_url 		= "https://www.stonybrook.edu/happenings/wp-json/wp/v2/posts";
 		}
+
+		$api_access_token = get_jwt_auth_token()->token;
+	    $api_query_slug .= "status=publish,private,pending";
+		$api_url 		.= $api_query_slug;
+
+		//var_dump($api_url);
 
 	    $api_headers = array(
 	    	'Content-length: 0',
@@ -83,7 +83,11 @@
 	    $news_story_data['output'] = '';
 
 	    if($slug_exists) {
-	    	$story = $stories[0];
+	    	if(gettype($stories) == 'object') {
+	    		$story = $stories;
+	    	} else if (gettype($stories) == 'array') {
+	    		$story = $stories[0];
+	    	}
 
 	    	$news_story_data['id']		= $story->{'id'};
 
@@ -103,6 +107,25 @@
 
 			$news_story_data['dept_title']		= $story->{'acf'}->{'secondary_title'};
 			$news_story_data['dept_content']	= $story->{'acf'}->{'secondary_content'};
+
+			if($news_story_data['status'] == 'publish') {
+				$news_story_data['dept_content'] .= '<p class="clearfix"><a class="department-news-story_read-external" href="'.$news_story_data['link'].'" target="_blank">Read story <span class="hide-accessible">'.$news_story_data['dept_title'].'</span> on SBU News</a></p>';
+			}
+
+			/*
+			$news_story_data['canonical'] = array();
+			if($news_story_data['status'] == 'publish') {
+				$news_story_data['canonical'][] = $news_story_data['link'];
+			}
+			if($story_slug!='') {
+				$news_story_data['rel_url'] = 'story.php?slug='.$news_story_data['slug'];
+				// $news_story_data['canonical'][] = "<xsl:value-of select="$domain" />"."<xsl:value-of select="$dirname" />".$news_story_data['id'];
+			} else {
+				$news_story_data['rel_url'] = 'story.php?id='.$news_story_data['id'];
+				// $news_story_data['canonical'][] = "<xsl:value-of select="$domain" />"."<xsl:value-of select="$dirname" />".$news_story_data['slug'];
+			}
+			// $news_story_data['canonical'][] = "<xsl:value-of select="$domain" />"."<xsl:value-of select="$dirname" />".$news_story_data['rel_url'];
+			*/
 
 			// Strip "Private: " from the title
 			$private_needle = 'Private: ';
@@ -138,7 +161,7 @@
 				<div class="department-news-story_content">
 					'.$news_story_data['image_html'].'
 					'.$news_story_data['dept_content'].'
-					<p class="clearfix"><a class="department-news-story_read-external" href="story.php?slug='.$news_story_data['slug'].'" target="_blank">Read story <span class="hide-accessible">'.$news_story_data['dept_title'].'</span> on SBU News</a></p>
+					
 				</div>
 			</div>
 		';

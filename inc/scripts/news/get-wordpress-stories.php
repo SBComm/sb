@@ -1,5 +1,6 @@
 <?php 
 
+    include('inc/auth.php');
     include('inc/news-inc.php');
 
 	// Get passed params
@@ -102,7 +103,7 @@
 	// Get header and pagination
     $api_url = "http://localhost/news/wp-json/wp/v2/posts?".$api_query_page.'&'.$api_query_per_page."&".$api_query_orderby."&".$api_query_order."&".$category_filter."&".$tag_filter."&".$status_filter."&".$exclude_cat_filter;
 
-    $api_access_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL25ld3MiLCJpYXQiOjE1Mjk0MTgxOTgsIm5iZiI6MTUyOTQxODE5OCwiZXhwIjoxNTMwMDIyOTk4LCJkYXRhIjp7InVzZXIiOnsiaWQiOiIxIn19fQ.m8dm1vr_Xh1bOM37vVZhd6aul80R_3wMEo_DpPJ5uDg";
+    $api_access_token = get_jwt_auth_token()->token;
 
     $api_headers = array(
     	'Content-length: 0',
@@ -179,6 +180,8 @@
 		    	$story_title	= $story->{'title'}->{'rendered'};
 		    	$story_content	= $story->{'content'}->{'rendered'};
 
+		    	$story_dept_link = "get-wordpress-story.php?" . (($story_slug!='') ? "slug=".$story_slug : "id=".$story_id) ;
+
 		    	$story_dept_title	= $story->{'acf'}->{'secondary_title'};
 		    	$story_dept_content	= $story->{'acf'}->{'secondary_content'};
 
@@ -207,12 +210,12 @@
 				        <div class="col-lg-4 col-md-6 col-sm-12 layout-simple">
 				            <article class="gridlove-post gridlove-post-a gridlove-box post-2430 post type-post status-publish format-standard hentry category-alumni tag-advancement tag-campaign-for-stony-brook tag-donations tag-wolfstock">
 				                <div class="entry-image">
-				                    <a href="get-wordpress-story.php?slug='.$story_slug.'" title="'.$story_dept_title.'"><img alt="'.$story_dept_title.'" src="'.$story_image.'"></a>
+				                    <a href="'.$story_slug.'" title="'.$story_dept_title.'"><img alt="'.$story_dept_title.'" src="'.$story_image.'"></a>
 				                </div>
 				                <div class="box-inner-p">
 				                    <div class="box-inner-ellipsis">
 				                        <div style="margin: 0px; padding: 0px; border: 0px;">
-				                            <h2 class="entry-title h3"><a href="get-wordpress-story.php?slug='.$story_slug.'">'.$story_dept_title.'</a></h2>
+				                            <h2 class="entry-title h3"><a href="'.$story_dept_link.'">'.$story_dept_title.'</a></h2>
 				                        </div>
 				                    </div>
 				                    <div class="entry-meta">
