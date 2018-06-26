@@ -77,17 +77,18 @@
 
 		$stories = json_decode($result, false);
 
-	    $slug_exists = sizeof($stories)>0 ? true : false;
+    	if(gettype($stories) == 'object') {
+    		$story = $stories;
+			$slug_exists = sizeof($stories)>0 ? true : false;
+    	} else if (gettype($stories) == 'array') {
+    		$story = $stories[0];
+    		$slug_exists = ($story_id == $story->{'id'} || $story_slug == $story->{'slug'}) ? true : false;;
+    	}
 
 	    $news_story_data = array();
 	    $news_story_data['output'] = '';
 
 	    if($slug_exists) {
-	    	if(gettype($stories) == 'object') {
-	    		$story = $stories;
-	    	} else if (gettype($stories) == 'array') {
-	    		$story = $stories[0];
-	    	}
 
 	    	$news_story_data['id']		= $story->{'id'};
 
@@ -161,7 +162,6 @@
 				<div class="department-news-story_content">
 					'.$news_story_data['image_html'].'
 					'.$news_story_data['dept_content'].'
-					
 				</div>
 			</div>
 		';
