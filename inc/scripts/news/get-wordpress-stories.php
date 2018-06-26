@@ -197,8 +197,8 @@
 		    	}
 
 		    	$story_dept_image	= $story->{'acf'}->{'secondary_featured_image'}->{'url'};
-		    	if($story_dept_image=='') {
-		    		$story_dept_image = $story_image;
+		    	if($story_dept_image!='') {
+		    		$story_image = $story_dept_image;
 		    	}
 
 				$story_words = str_word_count( strip_tags( $story_dept_content ) );
