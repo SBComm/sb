@@ -79,14 +79,14 @@
 
     	if(gettype($stories) == 'object') {
     		$story = $stories;
-			$slug_exists = sizeof($stories)>0 ? true : false;
     	} else if (gettype($stories) == 'array') {
     		$story = $stories[0];
-    		$slug_exists = ($story_id == $story->{'id'} || $story_slug == $story->{'slug'}) ? true : false;;
     	}
+    	$slug_exists = (($story_id === $story->{'id'} && $story_id != NULL) || ($story_slug === $story->{'slug'} && $story_slug != NULL)) ? true : false;
 
 	    $news_story_data = array();
 	    $news_story_data['output'] = '';
+	    $news_story_data['slug_exists']	= $slug_exists;
 
 	    if($slug_exists) {
 
