@@ -210,7 +210,7 @@
 				        <div class="col-lg-4 col-md-6 col-sm-12 layout-simple">
 				            <article class="gridlove-post gridlove-post-a gridlove-box post-2430 post type-post status-publish format-standard hentry category-alumni tag-advancement tag-campaign-for-stony-brook tag-donations tag-wolfstock">
 				                <div class="entry-image">
-				                    <a href="'.$story_slug.'" title="'.$story_dept_title.'"><img alt="'.$story_dept_title.'" src="'.$story_image.'"></a>
+				                    <a href="'.$story_dept_link.'" title="'.$story_dept_title.'"><img alt="'.$story_dept_title.'" src="'.$story_image.'"></a>
 				                </div>
 				                <div class="box-inner-p">
 				                    <div class="box-inner-ellipsis">
