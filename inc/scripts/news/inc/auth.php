@@ -17,10 +17,10 @@
 				'password' => 'H55^HxXZ62EHgDCNWu'
 			);
 	    } else {
-	    	$api_url = "https://www.stonybrook.edu/happenings/wp-json/jwt-auth/v1/token";
+	    	$api_url = "https://www.stonybrook.edu/far-beyond/news/wp-json/jwt-auth/v1/token";
 		    $fields = array(
-				'username' => 'admin',
-				'password' => 'Sbuhappenings'
+				'username' => 'jgpalmeri',
+				'password' => 'H55^HxXZ62EHgDCNWu'
 			);
 	    }
 
