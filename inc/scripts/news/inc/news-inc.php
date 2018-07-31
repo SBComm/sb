@@ -26,7 +26,7 @@
 		if($_SERVER['SERVER_NAME'] == 'localhost') {
 	    	$api_url = "http://localhost/news/wp-json/wp/v2/categories?slug=magazine";
 	    } else {
-	    	$api_url = "https://www.stonybrook.edu/far-beyond/news/wp-json/wp/v2/categories?slug=magazine";
+	    	$api_url = "https://news.stonybrook.edu/wp-json/wp/v2/categories?slug=magazine";
 	    }
 
 		//  Initiate curl
@@ -51,7 +51,7 @@
 		if($_SERVER['SERVER_NAME'] == 'localhost') {
 		    $api_url 		= "http://localhost/news/wp-json/wp/v2/posts";
 		} else {
-		    $api_url 		= "https://www.stonybrook.edu/far-beyond/news/wp-json/wp/v2/posts";
+		    $api_url 		= "https://news.stonybrook.edu/wp-json/wp/v2/posts";
 		}
 
 		$api_access_token = get_jwt_auth_token()->token;
