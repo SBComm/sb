@@ -55,9 +55,13 @@ h2, .changingWorld h3,
   margin: 0 auto; }
   @media (min-width: 1161px) {
     .wpb_wrapper {
-      width: 100%;
-      margin: 0px 50%;
+      width: 100%;      
       } }
+
+@media (min-width: 1161px) {
+  .changingWorld .wpb_wrapper {
+  margin: 0px 50%;
+  }}
 
 .hero-sb {
   position: relative;
