@@ -7861,6 +7861,8 @@ a.department-news-story_read-external:after {
 .department-news-stories h2.entry-title {
     font-family: 'Effra W01' !important;
     font-weight: 700 !important;
+    font-size: 22px !important;
+    line-height: 1.1em !important;
 }
 
 .department-news-stories h2.entry-title a {
@@ -7879,8 +7881,8 @@ a.department-news-story_read-external:after {
     font-size: 16px;
 }
 .department-news-stories .gridlove-box {
-    -webkit-box-shadow: 0 3px 5px 0 rgba(0,1,1,.1);
-    box-shadow: 0 3px 5px 0 rgba(0,1,1,.1);
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,1,1,.15);
+    box-shadow: 0 3px 5px 0 rgba(0,1,1,.15);
     background: #FFF;
 }
 .department-news-stories .gridlove-post {
@@ -7900,7 +7902,7 @@ a.department-news-story_read-external:after {
 }
 
 .department-news-stories .gridlove-post-a .entry-image img {
-    height: 200px !important;
+    height: 240px !important;
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
