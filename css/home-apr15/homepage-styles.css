@@ -55,7 +55,13 @@ h2, .changingWorld h3,
   margin: 0 auto; }
   @media (min-width: 1161px) {
     .wpb_wrapper {
-      width: 100%; } }
+      width: 100%;      
+      } }
+
+@media (min-width: 1161px) {
+  .changingWorld .wpb_wrapper {
+  margin: 0px 50%;
+  }}
 
 .hero-sb {
   position: relative;
@@ -992,7 +998,7 @@ h2, .changingWorld h3,
   padding: 0 0 0; }
 .changingWorld .pitch h3 {
   color: #fff;
-  margin: 0 0 3rem; 
+  margin: 0px 0 3rem;
   font-size: 2rem;
 }
 .changingWorld img {
@@ -1033,8 +1039,8 @@ h2, .changingWorld h3,
       float: left;
       width: 65%;
       display: inline-block;
-      clear: none;
-      padding-left: 5%;; 
+      /* clear: none; */
+      /* padding-left: 5%; */
     }
   }
   
@@ -1047,7 +1053,8 @@ h2, .changingWorld h3,
           font-size: 3rem; } }
       @media (min-width: 1160px) {
         .changingWorld .pitch h3 {
-          font-size: 4rem; } }
+          font-size: 2rem;
+          } }
     .changingWorld .pitch a {
       font-family: "Effra W01", Helvetica, sans-serif;
       font-weight: 900;
