@@ -1,6 +1,6 @@
 <?php
 
-	$wp_cats_url = "https://www.stonybrook.edu/happenings/wp-json/wp/v2/categories?parent=178&per_page=100";
+	$wp_cats_url = "https://news.stonybrook.edu/wp-json/wp/v2/categories?parent=145&per_page=100";
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $wp_cats_url);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
