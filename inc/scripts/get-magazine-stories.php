@@ -12,7 +12,7 @@
 	//for each post
 	foreach ($posts as $post) {
 		$gallery_config = $post->acf->magazine_main_gallery;
-		$hide_from_grid = $post->acf->magazine_hide_from_grid;
+		$hide_from_grid = $post->acf->magazine_hide_from_grid[0];
 		if(!$hide_from_grid=='hide') {
 			if(!$gallery_config) {
 				$story_slug = $post->slug;
