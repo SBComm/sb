@@ -9,7 +9,7 @@ function removeBOM($data) {
 function printBooks($path, $pathForContent, $content, $sbu_site_url) {
 	/* Obtains WP data from JSON and creates HTML */
 
-	$wp_posts_url = "https://www.stonybrook.edu/happenings/wp-json/wp/v2/posts?categories=163";
+	$wp_posts_url = "https://news.stonybrook.edu/wp-json/wp/v2/posts?categories=134";
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $wp_posts_url);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
