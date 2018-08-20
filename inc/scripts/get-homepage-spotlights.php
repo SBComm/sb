@@ -50,7 +50,7 @@ function printBooks($path, $pathForContent, $content, $sbu_site_url) {
 		$cat_link = $sbu_site_url['happenings'] . 'category/' . $spotlight_slug;
 
 		$post_link = $post->link . '?spotlight=' . $i;
-		$post_link = str_replace($post_link, '/stony-brook-matters/', '/alumni/');
+		$post_link = str_replace('/stony-brook-matters/', '/alumni/', $post_link);
 
 		$spotlight_image = preg_replace('/\s+/', '', $post->acf->homepage_spotlight_image);
 		$spotlight_image = makeHTTPS($spotlight_image);
