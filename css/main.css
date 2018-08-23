@@ -7994,21 +7994,32 @@ a.department-news-story_read-external:after {
 
 /* department-news-stories--list */
 
-.department-news-stories--list {
+@media (min-width: 600px) {
 
-}
+    .department-news-stories--list article.gridlove-post {
+        display: block;
+        float: left;
+        box-shadow: none;
+        margin-bottom: 0;
+        width: 100%;
+    }
 
-@media (min-width: 778px) {
-
-    .department-news-stories--list {
-
+    .department-news-stories--list .entry-image,
+    .department-news-stories--list .box-inner-p {
+        display: inline-block;
+        float: left;
+    }
+    .department-news-stories--list .entry-image {
+        width: 35%;
+    }
+    .department-news-stories--list .box-inner-p {
+        width: 65%;
+    }
+    .department-news-stories .gridlove-post-a .entry-image img {
+        height: 180px !important;
     }
 
 }
-
-
-
-
 
 .gridlove-infinite-scroll a, .gridlove-load-more a, .gridlove-pagination .gridlove-next a, .gridlove-pagination .gridlove-prev a, .gridlove-pagination .next, .gridlove-pagination .prev {
     height: 50px;
