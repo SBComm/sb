@@ -7999,7 +7999,7 @@ a.department-news-story_read-external:after {
     font-weight: 500;
 }
 
-.department-news-stories .gridlove-post-a .entry-image img {
+.department-news-stories--no-images .gridlove-post-a .entry-image img {
     height: 20px !important;
 }
 
