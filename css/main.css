@@ -7998,6 +7998,10 @@ a.department-news-story_read-external:after {
     width: 100%;
 }
 
+.col_content .department-news-stories .gridlove-posts .layout-simple {
+    padding: 0;
+}
+
 .department-news-stories h2.entry-title {
     font-family: 'Effra W01' !important;
     font-weight: 700 !important;
@@ -8033,6 +8037,7 @@ a.department-news-story_read-external:after {
 .department-news-stories .gridlove-post-a .box-inner-p {
     padding: 23px 30px 30px;
 }
+
 .department-news-stories .box-vm, .gridlove-post, .module-empty {
     margin-bottom: 30px;
 }
@@ -8170,6 +8175,9 @@ a.department-news-story_read-external:after {
         height: 180px !important;
     }
 
+    .department-news-stories--no-images .box-inner-p {
+        width: 98%;
+    }
     .department-news-stories--no-images .entry-image {
         width: 2%;
         bottom: 0;
@@ -8191,6 +8199,9 @@ a.department-news-story_read-external:after {
         width: 78%;
     }
 
+    .department-news-stories--no-images .box-inner-p {
+        width: 98.5%;
+    }
     .department-news-stories--no-images .entry-image {
         width: 1.5%;
     }
@@ -8200,6 +8211,32 @@ a.department-news-story_read-external:after {
         height: 140px !important;
     }
 
+}
+
+.department-news-stories--small .gridlove-post-a .box-inner-p {
+    padding: 0;
+}
+.department-news-stories--small .gridlove-box {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+}
+.department-news-stories--small .entry-image {
+    display: none !important;
+}
+.department-news-stories--small h2.entry-title.h3 {
+    font-size: 1.1em !important;
+    margin: 0 !important;
+    padding: 0 0 5px;
+}
+.department-news-stories--small .entry-meta {
+    font-size: 0.9em !important;
+    text-align: left;
+}
+.department-news-stories--small .layout-simple {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0 !important;
+    margin: 0 !important;
 }
 
 .gridlove-infinite-scroll a, .gridlove-load-more a, .gridlove-pagination .gridlove-next a, .gridlove-pagination .gridlove-prev a, .gridlove-pagination .next, .gridlove-pagination .prev {
