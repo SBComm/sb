@@ -8021,6 +8021,17 @@ a.department-news-story_read-external:after {
 
 }
 
+@media (min-width: 1024px) {
+
+    .department-news-stories--list .entry-image {
+        width: 22%;
+    }
+    .department-news-stories--list .box-inner-p {
+        width: 78%;
+    }
+
+}
+
 .gridlove-infinite-scroll a, .gridlove-load-more a, .gridlove-pagination .gridlove-next a, .gridlove-pagination .gridlove-prev a, .gridlove-pagination .next, .gridlove-pagination .prev {
     height: 50px;
     min-width: 150px;
