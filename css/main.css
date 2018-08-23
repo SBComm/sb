@@ -8010,7 +8010,7 @@ a.department-news-story_read-external:after {
     .department-news-stories--list article.gridlove-post {
         display: block;
         float: left;
-        box-shadow: none;
+        /* box-shadow: none; */
         margin-bottom: 0;
         width: 100%;
     }
@@ -8032,6 +8032,12 @@ a.department-news-story_read-external:after {
 
     .department-news-stories--no-images .entry-image {
         width: 2%;
+        bottom: 0;
+        position: absolute;
+        top: 0;
+    }
+    .department-news-stories--no-images .gridlove-post-a .entry-image img {
+        height: 100% !important;
     }
 
 }
@@ -8051,7 +8057,6 @@ a.department-news-story_read-external:after {
 
     .department-news-stories--no-images #container .content img {
         height: auto;
-        min-height: 50px;
         height: 140px !important;
     }
 
