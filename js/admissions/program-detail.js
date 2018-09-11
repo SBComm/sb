@@ -76,7 +76,7 @@ $(document).ready(function() {
                         $("div.degree").removeClass("hide-accessible").addClass("active");
                         
                         $('div.degree a[href^="/bulletin"]').click(function(event){
-                            window.open('http://sb.cc.stonybrook.edu'+$(this).attr('href'));
+                            window.open('https://www.stonybrook.edu/sb'+$(this).attr('href'));
                             return false;
                         });
 
@@ -116,7 +116,7 @@ $(document).ready(function() {
                         $("#scheduleloading").hide();   
                         
                         $('div.schedule a[href^="/bulletin"]').click(function(){
-                            window.open('http://sb.cc.stonybrook.edu'+$(this).attr('href'));
+                            window.open('https://www.stonybrook.edu/sb'+$(this).attr('href'));
                             return false;
                         });         
 
@@ -154,7 +154,7 @@ $(document).ready(function() {
                         $("a.courses").addClass("active");
                         
                         $('div.courses a[href^="/bulletin"]').click(function(){
-                            window.open('http://sb.cc.stonybrook.edu'+$(this).attr('href'));
+                            window.open('https://www.stonybrook.edu/sb'+$(this).attr('href'));
                             return false;
                         });
 
@@ -174,7 +174,7 @@ $(document).ready(function() {
 
             
             $('div.description a[href^="/bulletin"]').click(function(){
-                window.open('http://sb.cc.stonybrook.edu'+$(this).attr('href'));
+                window.open('https://www.stonybrook.edu/sb'+$(this).attr('href'));
                 return false;
             });
             
