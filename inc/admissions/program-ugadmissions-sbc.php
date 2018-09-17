@@ -2,7 +2,7 @@
 
 require_once "simple_html_dom.php";
 
-$url_prefix = "http://sb.cc.stonybrook.edu/bulletin/current/academicprograms/";
+$url_prefix = "https://www.stonybrook.edu/sb/bulletin/current/academicprograms/";
 $program_code = "";
 $callback = '';
 
