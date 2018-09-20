@@ -922,7 +922,8 @@ section.events h5 {
 }
 
 .reunions img,
-.wolfstock img {
+.wolfstock img,
+.daa img {
     display: none;
     position: absolute;
     bottom: 0;
@@ -1757,6 +1758,11 @@ section.explore-benefits h3 {
     section.golf {
         background-image: url("../../img/alumni/bkg/golf.jpg");
         background-position: 57% 50%;
+    }
+
+    section.daa {
+        padding-top: 140px;
+        padding-bottom: 200px;
     }
 
     section.daa .col-2 {
