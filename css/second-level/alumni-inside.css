@@ -421,6 +421,12 @@ section.full-width-banner-image {
     background-size: cover;
 }
 
+.rounded-image-buttons .distinguished-alumni-awards {
+    background-image: url("../../img/alumni/buttons/daa-nav-box.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
 .rounded-image-buttons .wolfstock-homecoming {
     background-image: url("../../img/alumni/buttons/wolfstock-nav-box.jpg");
     background-position: 50% 40%;
