@@ -99,12 +99,12 @@
             <h4>Distinguished Alumni Awards</h4>
         </div>
         <div class="border-box wrapper clearfix">
+            <img src="img/daa-section" alt="Distinguished Alumni Award" />
             <div class="content col-2">
                 <p>The Stony Brook Alumni Association proudly honors Stony Brook Alumni who demonstrate extraordinary commitment to the University and surrounding communities, and who are leaders in their profession with the Distinguished Alumni Award.</p>
                 <a class="sbu-outline-button sbu-outline-button--white arrow-after" href="https://www.stonybrook.edu/alumni/events-and-reunions/distinguished-alumni-awards/" target="_blank">Learn More</a>
             </div>
-        </div>
-        <img src="img/daa-section" alt="Distinguished Alumni Award" />
+        </div>        
     </section>
 
     <section id="wolfstock-homecoming" class="clearfix events wolfstock back-dark-red-crossed inside-content">
