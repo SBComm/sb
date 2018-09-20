@@ -1759,6 +1759,21 @@ section.explore-benefits h3 {
         background-position: 57% 50%;
     }
 
+    section.daa .col-2 {
+        padding-top: 10px;
+    }
+
+    .daa .col-2 {
+        padding-right: 120px;
+    }
+
+    .daa img {
+        display: block;
+        width: 53%;
+        max-width: 780px;
+        right: 7%;
+    }
+
     .wolfstock {
         min-height: 640px;
     }
