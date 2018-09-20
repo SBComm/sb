@@ -12,6 +12,6 @@
         width="100%"
         height="100%"
         frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJvzh05jM_6IkRhcy9aqUcTHM&amp;destination=Stony+Brook+University,+Stony+Brook,+NY,+United+States&amp;key=AIzaSyDw8uNAtzM6u1fCTcChppNYYR2m6jj5m30">
+        src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJvzh05jM_6IkRhcy9aqUcTHM&amp;destination=Stony+Brook+University,+Stony+Brook,+NY,+United+States&amp;key=AIzaSyDgtykitNyBPhZYhLriPLO6Q85xtybtiLM">
     </iframe>
 </div>
