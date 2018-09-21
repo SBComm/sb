@@ -1671,6 +1671,10 @@ section.explore-benefits h3 {
         margin: .75%;
     }
 
+    .get-connected .rounded-image-buttons a{
+        width: 18.5%;
+    }
+
     .rounded-image-buttons a .label {
         padding: 12px 5px;
         min-height: 52px;
