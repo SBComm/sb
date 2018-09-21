@@ -310,7 +310,8 @@ section.main-cta {
     background-image: url("../../img/misc/hand-phone.png");
 }
 
-.virtual-tour .button-wrapper:hover .converse {
+.virtual-tour .button-wrapper:hover .converse,
+.virtual-tour .button-wrapper:hover .hand-phone {
     background-size: 92%;
     background-position: 47px -25px;
 }
