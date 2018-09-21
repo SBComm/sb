@@ -1336,3 +1336,23 @@ footer.site-footer {
         height: 650px;
     }
 }
+
+p.academic-title{
+    font-family: "Museo Slab W01", "Museo Slab", Gerogia, serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: none;
+    color: #900;
+    float: left;
+    font-size: 38px;
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 1061px) {
+    p.academic-title {
+        padding-top: 0;
+    }
+    .ready-to-focus{
+        display: none;
+    }
+}
