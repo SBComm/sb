@@ -289,7 +289,8 @@ section.main-cta {
     color: #00ffff;
 }
 
-.virtual-tour .converse {
+.virtual-tour .converse,
+.virtual-tour .hand-phone {
     background-image: url("../../img/misc/converse.png");
     background-size: 90%;
     background-repeat: no-repeat;
@@ -303,6 +304,10 @@ section.main-cta {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+.virtual-tour .hand-phone{
+    background-image: url("../../img/misc/hand-phone.png");
 }
 
 .virtual-tour .button-wrapper:hover .converse {
