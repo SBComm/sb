@@ -1765,7 +1765,7 @@ section.explore-benefits h3 {
     }
 
     section.daa {
-        padding-top: 140px;
+        padding-top: 40px;
         padding-bottom: 200px;
     }
 
@@ -1780,9 +1780,9 @@ section.explore-benefits h3 {
     .daa img {
         display: block;
         width: 53%;
-        max-width: 560px;
+        max-width: 540px;
         right: 7%;
-        padding-bottom: 2%;
+        padding-bottom: 1%;
     }
 
     .wolfstock {
