@@ -1373,3 +1373,8 @@ p.academic-title{
         font-size: 2.8em;
     }
 }
+
+.site-footer .footer-viewbook{
+    line-height: 1.3;
+    width: 70%;
+}
