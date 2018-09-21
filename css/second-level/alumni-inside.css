@@ -930,6 +930,10 @@ section.events h5 {
     right: 0%;
 }
 
+.daa img {
+	bottom: 25px;
+}
+
 section.forty {
     background: url("../../img/alumni/bkg/3-people-40-under-40.png") 90% 10% no-repeat #000;
     padding: 0;
@@ -1738,7 +1742,7 @@ section.explore-benefits h3 {
         display: block;
         width: 53%;
         max-width: 780px;
-        right: 7%;
+        right: 7%;        
     }
 
     section.forty {
@@ -1782,7 +1786,7 @@ section.explore-benefits h3 {
         width: 53%;
         max-width: 540px;
         right: 7%;
-        padding-bottom: 1%;
+        border: #fff 2px solid;
     }
 
     .wolfstock {
