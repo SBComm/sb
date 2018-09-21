@@ -1357,3 +1357,19 @@ p.academic-title{
         display: none;
     }
 }
+
+@media only screen and (max-width: 1061px) {
+    p.academic-title {
+        padding-top: 20px;
+        font-size: 1.8em;
+    }
+    .ready-to-focus{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    p.academic-title {
+        font-size: 2.8em;
+    }
+}
