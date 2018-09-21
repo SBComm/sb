@@ -1344,13 +1344,14 @@ p.academic-title{
     text-transform: none;
     color: #900;
     float: left;
-    font-size: 38px;
+    font-size: 2.8em;
     padding-top: 100px;
 }
 
 @media only screen and (max-width: 1061px) {
     p.academic-title {
-        padding-top: 0;
+        padding-top: 20px;
+        font-size: 1.8em;
     }
     .ready-to-focus{
         display: none;
