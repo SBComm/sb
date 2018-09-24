@@ -6361,7 +6361,8 @@ body {
             display: block;
             margin: 0 auto;
         }
-        .campaign-banner__tagline {
+        .campaign-banner__tagline,
+        .campaign-banner__header {
             text-align: center;
         }
         a.campaign-banner__button {
