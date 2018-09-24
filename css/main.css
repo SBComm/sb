@@ -6322,6 +6322,16 @@ body {
             margin: 1em 0 1.6em;
         }
 
+        .campaign-banner__header {
+            display: block;
+            font-family: "Effra W01", "Effra W01 Heavy", Helvetica, sans-serif;
+            font-weight: 900;
+            color: #a69b90;
+            font-size: 38px;
+            text-transform: uppercase;
+            margin: 1em 0 1.5em;
+        }
+
         .campaign-banner--on-red .campaign-banner__tagline {
             color: #fff;
             border-color: #fff;
@@ -6385,6 +6395,21 @@ body {
             padding: 0 0 0 1em;
 
         }
+
+        .campaign-banner__header {
+            display: inline-block;
+            float: left;
+            margin: 10px 0 15px 1em;
+            line-height: 0.5;
+            padding: 0 0 0 1em;
+            font-family: "Effra W01", "Effra W01 Heavy", Helvetica, sans-serif;
+            font-weight: 900;
+            font-size: 38px;
+            text-transform: uppercase;
+        }
+
+
+
         a.campaign-banner__button {
             float: right;
             display: block;
