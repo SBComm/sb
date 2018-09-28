@@ -71,7 +71,7 @@
 
         <?php if($show_Online) { ?>
             <div class="content alert-message alert-message-green clearfix">
-                <p>What is required to be a successful online student? <a class="external-link" href="http://www.stonybrook.edu/commcms/onlineed/student" target="_blank">Read more...</a></p>
+                <p>What is required to be a successful online student? <a class="external-link" href="https://www.stonybrook.edu/commcms/online-education/how-it-works/" target="_blank">Read more...</a></p>
             </div>
         <?php } else if($show_MUS) { ?>
             <div class="content alert-message alert-message-green clearfix">
