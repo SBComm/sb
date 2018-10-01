@@ -56,6 +56,9 @@
 				    case 'absolute':
 				        $program_url_absolute = $url;
 				        break;
+				    case 'details':
+				        $program_url_details = $url;
+				        break;
 				    case 'undergrad_website':
 				        $program_url_undergrad_website = $url;
 				        break;
@@ -73,7 +76,7 @@
 
 			$program_output .= "
 				<li>
-	                <a href=\"$program_url_undergrad_bulletin\">$program_title</a>
+	                <a href=\"$program_url_details\"></a>
 	                <div class=\"wider-badges-wrapper\">";
 
 					foreach ($program->degree_levels->degree_level as $degree_level) {
