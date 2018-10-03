@@ -31,9 +31,9 @@
 
             <p>Winter Sessions courses are offered in a variety of formats: on-campus at Stony Brook, at Stony Brook Southampton, and online. There are also opportunities for study abroad, independent study, and academic internships.</p>
             <p>Please note that the university registration system (SOLAR) is the official repository of class information. Class notes in SOLAR are used to indicate additional requirements of courses.</p>
-            <div class="content application-details alert-message green clearfix">
+            <!--<div class="content application-details alert-message green clearfix">
                 <p><strong>Please Note</strong>: Winter 2019 courses will be available in October. Preview our offerings by reviewing Winter 2018 classes below.</p>
-            </div>
+            </div>-->
         </div>
 
         <h4 id="browse-departments" class="clearfix">Winter Courses by Department</h4>
