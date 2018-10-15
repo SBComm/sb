@@ -455,7 +455,7 @@
                 <a class="simple-button arrow-after" href="http://socialwelfare.stonybrookmedicine.edu/trainings_conf">Continuing Education</a>
             </div>
             <div class="btn-wrapper btn-wrapper-middle clearfix">
-                <a class="give-button" href="https://alumniandfriends.stonybrook.edu/online-giving">
+                <a class="give-button" href="https://alumniandfriends.stonybrook.edu/site/SPageNavigator/CustomDonationForm_Main.html">
                     <img src="img/buttons/medium-give-now.png" />
                     <div class="message">
                         <span class="first">Your Gift Matters</span>
