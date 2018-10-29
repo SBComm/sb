@@ -76,7 +76,7 @@
 
 			$program_output .= "
 				<li>
-	                <a href=\"$program_url_details\">$program_title</a>
+	                <a href=\"$program_url_grad_bulletin\">$program_title</a>
 	                <div class=\"wider-badges-wrapper\">";
 
 	                foreach ($program->degrees->degree as $degree) {
