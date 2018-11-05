@@ -2571,6 +2571,10 @@ body {
             width: 46%;
             margin: 0 2% 10px;
         }
+        .economic-impact-panel-bottom-padding{
+            padding-bottom: 325px !important;
+        }
+
     }
 
     @media only screen and (min-width: 1500px) {
