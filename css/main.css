@@ -2417,6 +2417,61 @@ body {
         line-height: 40px;
     }
 
+    /*Detailed Image Promo Button */
+     a.detailed-promo-image-button {
+         width: 100%;
+         display: block;
+         font-size: 50px;
+         font-family: 'Effra W01';
+         font-weight: 500;
+         color: #fff;
+         height: 380px;
+         position: relative;
+         border: 2px solid #fff;
+         background-size: cover;
+    }
+     a.detailed-promo-image-button:hover {
+         box-shadow: 0 0 50px #7b7b7b;
+    }
+     a.detailed-promo-image-button:focus {
+         box-shadow: 0 0 50px #fff;
+    }
+     a.detailed-promo-image-button:focus * {
+         text-decoration: underline;
+    }
+     a.detailed-promo-image-button span{
+         position: absolute;
+         bottom: 0;
+         display: block;
+         left: 0;
+         right: 0;
+         text-align: center;
+    }
+     a.detailed-promo-image-button span.detailed-promo-button-top-text {
+         /* padding: 0px 0px 150px; */
+         top: 40%;
+    }
+     a.detailed-promo-image-button span.detailed-promo-button-bottom-text {
+         box-shadow: 0 -80px 70px -40px rgba(0,0,0,.7)inset;
+         padding: 0px 10px 50px;
+         line-height: 30px;
+         font-weight: 500;
+         font-size:25px;
+         top: 65%;
+    }
+     a.detailed-promo-image-button span.detailed-promo-button-top-text:after {
+         position: absolute;
+         content: '';
+         height: 1px;
+         bottom: 65%;
+         margin: 0 auto;
+         left: 0;
+         right: 0;
+         width: 33.3%;
+         background: #fff;
+    }
+
+
     /* rays-promo-box-with-hover-text */
 
     .new-brand .content-wrapper .rays-promo-box-with-hover-text {
