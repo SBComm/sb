@@ -75,7 +75,8 @@ $site_status = array(
     'site-directory'            => 'in_CMS',
     'summer-session'            => 'in_CMS',
     'undergrad-admissions'      => 'in_CMS',
-    'visit'                     => 'in_CMS'
+    'visit'                     => 'in_CMS',
+    'winter-session'            => 'in_CMS'
 );
 
 // Define considerations; Comma-separated value for multiple considerations
