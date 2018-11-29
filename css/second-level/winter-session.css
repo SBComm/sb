@@ -1,1 +1,12 @@
 @import url('summer-session.css');
+
+.site-nav.big-n-bold a,
+.sub-nav.big-n-bold a {
+	font-size: 17px;
+	font-family: 'Effra W01 Bold', 'Arial', sans-serif;
+}
+
+.site-nav.big-n-bold .selected a span,
+.sub-nav.big-n-bold .selected a span {
+	background: none;
+}
