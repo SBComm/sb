@@ -38,3 +38,14 @@
 .page-cat-sub.logo-container h1.site-name {
 	font-weight: 500;
 }
+
+@media only screen and (min-width: 1024px) {
+	.site-nav .search-container.default,
+	.sub-nav .search-container.default,
+	.cms-search .search-container.default {
+		top: -148px !important;
+	}
+	.page-cat-sub.logo-container {
+		padding: 24px 10px 24px;
+	}
+}
