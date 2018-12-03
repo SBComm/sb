@@ -17,22 +17,22 @@
 }
 
 .quick-nav ul {
-	border-radius: none !important;
-	border: none !important;
+	border-radius: none;
+	border: none;
 }
 
 .quick-nav ul li {
-	background: none !important;
+	background: none;
 }
 
 .quick-nav ul li:last-child {
-	border-right: none !important;
-	border-radius: none !important;
+	border-right: none;
+	border-radius: none;
 }
 
 .quick-nav ul li .label {
-	color: #4b4b4b !important;
-	border-right: none !important;
+	color: #4b4b4b;
+	border-right: none;
 }
 
 .page-cat-sub.logo-container h1.site-name {
