@@ -10,3 +10,31 @@
 .sub-nav.big-n-bold .selected a span {
 	background: none;
 }
+
+/* Imitating sbcms Quick Nav */
+.quick-nav {
+	background: url(https://www.stonybrook.edu/commcms/_resources/images/branding/rays/white-rays-top-nav.jpg);
+}
+
+.quick-nav ul {
+	border-radius: none !important;
+	border: none !important;
+}
+
+.quick-nav ul li {
+	background: none !important;
+}
+
+.quick-nav ul li:last-child {
+	border-right: none !important;
+	border-radius: none !important;
+}
+
+.quick-nav ul li .label {
+	color: #4b4b4b !important;
+	border-right: none !important;
+}
+
+.page-cat-sub.logo-container h1.site-name {
+	font-weight: 500;
+}
