@@ -2449,7 +2449,8 @@ body {
     }
      a.detailed-promo-image-button span.detailed-promo-button-top-text {
          /* padding: 0px 0px 150px; */
-         top: 40%;
+         top: 50%;
+         text-shadow: 4px 4px 6px rgba(0,0,0,0.8);
     }
      a.detailed-promo-image-button span.detailed-promo-button-bottom-text {
          box-shadow: 0 -80px 70px -40px rgba(0,0,0,.7)inset;
@@ -2457,13 +2458,14 @@ body {
          line-height: 30px;
          font-weight: 500;
          font-size:25px;
-         top: 60%;
+         top: 70%;
+         text-shadow: 4px 4px 6px rgba(0,0,0,0.8);
     }
      a.detailed-promo-image-button span.detailed-promo-button-top-text:after {
          position: absolute;
          content: '';
          height: 1px;
-         bottom: 70%;
+         bottom: 65%;
          margin: 0 auto;
          left: 0;
          right: 0;
