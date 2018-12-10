@@ -2473,6 +2473,17 @@ body {
          background: #fff;
     }
 
+    @media only screen and (max-width: 410px) {
+	a.detailed-promo-image-button span.detailed-promo-button-bottom-text {
+		top: 60%;
+	}
+	a.detailed-promo-image-button span.detailed-promo-button-top-text {
+		top: 40%;
+	}
+	a.detailed-promo-image-button span.detailed-promo-button-top-text:after {
+		bottom: 70%;
+	}
+}
 
     /* rays-promo-box-with-hover-text */
 
