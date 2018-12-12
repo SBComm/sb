@@ -799,3 +799,54 @@
         padding: 80px 560px;
     }
 }
+
+/* Rebranded to match v2 */
+.site-nav.big-n-bold a,
+.sub-nav.big-n-bold a {
+    font-size: 17px;
+    font-family: 'Effra W01 Bold', 'Arial', sans-serif;
+}
+
+.site-nav.big-n-bold .selected a span,
+.sub-nav.big-n-bold .selected a span {
+    background: none;
+}
+
+/* Imitating sbcms Quick Nav */
+.quick-nav {
+    background: url(https://www.stonybrook.edu/commcms/_resources/images/branding/rays/white-rays-top-nav.jpg);
+}
+
+.quick-nav ul {
+    border-radius: none;
+    border: none;
+}
+
+.quick-nav ul li {
+    background: none;
+}
+
+.quick-nav ul li:last-child {
+    border-right: none;
+    border-radius: none;
+}
+
+.quick-nav ul li .label {
+    color: #4b4b4b;
+    border-right: none;
+}
+
+.page-cat-sub.logo-container h1.site-name {
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 1024px) {
+    .site-nav .search-container.default,
+    .sub-nav .search-container.default,
+    .cms-search .search-container.default {
+        top: -148px !important;
+    }
+    .page-cat-sub.logo-container {
+        padding: 24px 10px 24px;
+    }
+}
