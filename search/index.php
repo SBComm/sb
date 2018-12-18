@@ -76,58 +76,7 @@
 		        <div class="main-container">
 		            <div class="main clearfix">
 
-		                <!-- <search-results> -->
-							<article class="clearfix second-level-header">
-							    <section class="header-title-image-wang page-title">
-							        <div class="wrapper border-box">
-							            <h1 style="font-size: 52px;"><a href="search/">Search</a></h1>
-							        </div>
-							    </section>
-							    <section class="search-wrapper pad-top">
-							        <div class="site-input-wrapper wrapper border-box pad-top">
-
-							            <div id="cse-search-input">
-							            	<!-- Added script for CSE 12/18/18 -->
-							            	<script>
-							                    /* Google Custom Search init */
-							                    (function() {
-							                    var cx = '005124310102344715141:3nlcacoyxzc';
-							                    var gcse = document.createElement('script');
-							                    gcse.type = 'text/javascript';
-							                    gcse.async = true;
-							                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-							                    var s = document.getElementsByTagName('script')[0];
-							                    s.parentNode.insertBefore(gcse, s);
-							                    })();
-							                </script>
-							                <!-- Added script for CSE 12/18/18 -->
-							                <gcse:searchbox></gcse:searchbox>
-							            </div>
-
-							            <div id="site-search-message">
-							                
-							            </div>
-
-							            <ul id="tabbed-nav">
-							                <li class="selected search-pages-link"><a href="http://www.stonybrook.edu/search/">Website Results</a></li>
-							                <li class="search-people-link"><a href="http://www.stonybrook.edu/search/people/">People Results</a></li>
-							                <li class="tabbed-nav-no-border"><a href="http://www.stonybrook.edu/site-directory/">Site Directory</a></li>
-							            </ul>
-
-							        </div>
-
-							        <div class="cse-wrapper border-box">
-
-							            <div id="cse-search-results" class="wrapper">
-							            	<div class="search-default-message">To search the website, enter a term above.</div>
-							                <gcse:searchresults></gcse:searchresults>
-							            </div>
-
-							        </div>
-
-							    </section>
-							</article>
-						<!-- </search-results> -->
+		                
 
 		            </div> <!-- .main -->
 		        </div> <!-- .main-container -->
