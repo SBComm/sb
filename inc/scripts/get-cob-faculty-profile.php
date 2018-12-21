@@ -96,8 +96,8 @@
 	} else {
 	    libxml_use_internal_errors(true);
 	    $profile_data = simplexml_load_string($response_xml_data);
-	    $profile_data->registerXPathNamespace('dm', 'http://www.digitalmeasures.com/schema/data');
-	    $profile_data->registerXPathNamespace('dmd', 'http://www.digitalmeasures.com/schema/data-metadata');
+	    $profile_data->registerXPathNamespace('dm', 'http://webservices.digitalmeasures.com/schema/data');
+	    $profile_data->registerXPathNamespace('dmd', 'http://webservices.digitalmeasures.com/schema/data-metadata');
 	    if (!$profile_data) {
 	        echo "Error loading XML\n";
 	        foreach (libxml_get_errors() as $error) {
@@ -110,8 +110,8 @@
 	        } else {
 	            libxml_use_internal_errors(true);
 	            $schema_data = simplexml_load_string($response_xml_data);
-	            $schema_data->registerXPathNamespace('dm', 'http://www.digitalmeasures.com/schema/data');
-	            $schema_data->registerXPathNamespace('dmd', 'http://www.digitalmeasures.com/schema/data-metadata');
+	            $schema_data->registerXPathNamespace('dm', 'http://webservices.digitalmeasures.com/schema/data');
+	            $schema_data->registerXPathNamespace('dmd', 'http://webservices.digitalmeasures.com/schema/data-metadata');
 	            if (!$schema_data) {
 	                echo "Error loading XML\n";
 	                foreach (libxml_get_errors() as $error) {
