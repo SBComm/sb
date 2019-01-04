@@ -8363,3 +8363,50 @@ a.department-news-story_read-external:after {
     color: #FFF;
     background-color: #990000;
 }
+
+/* For Students */
+.for-students-activities-links {
+    display: block;
+    width: 100%;
+    padding: 14px 25px 18px 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #47c2c8 !important;
+    text-align: center;
+    max-width: 260px;
+    margin: 10px auto;
+    background: url("../../img/bkg/transparent-black-50.png") repeat scroll 0 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+.for-students-activities-links a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 4px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.for-students-activities-links a:hover {
+    color: #47c2c8;
+}
+
+.for-students-activities-links a:before {
+    content: "\f005";
+    margin: 0 10px 0 0;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+    font-size: .9em;
+    width: 10px;
+    text-align: center;
+    color: #900;
+}
