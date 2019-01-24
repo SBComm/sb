@@ -8416,3 +8416,7 @@ a.department-news-story_read-external:after {
     text-align: center;
     color: #900;
 }
+
+#de {
+    display: none;
+}
