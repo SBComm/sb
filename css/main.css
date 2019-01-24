@@ -1663,9 +1663,10 @@ body {
     }
 
     .second-level-2017 .economic-impact_report-button{
-        width: 100% !important;
+        width: 100%;
         border: 2px #fff solid !important;
-        padding: 30px 0 !important;
+        padding: 40px 0 !important;
+        font-weight: 800;
     }
 
     .second-level-2017 .three-button-columns .layout-col {
