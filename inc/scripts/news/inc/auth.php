@@ -13,13 +13,13 @@
 		if($_SERVER['SERVER_NAME'] == 'localhost') {
 	    	$api_url = "http://localhost/news/wp-json/jwt-auth/v1/token";
 		    $fields = array(
-				'username' => 'lzawie',
+				'username' => 'jgpalmeri',
 				'password' => 'H55^HxXZ62EHgDCNWu'
 			);
 	    } else {
 	    	$api_url = "https://news.stonybrook.edu/wp-json/jwt-auth/v1/token";
 		    $fields = array(
-				'username' => 'lzawie',
+				'username' => 'jgpalmeri',
 				'password' => 'H55^HxXZ62EHgDCNWu'
 			);
 	    }
