@@ -2425,6 +2425,12 @@ body {
         line-height: 40px;
     }
 
+    a.super-simple-promo-image-button p{
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0;   
+    }
+
     /*Detailed Image Promo Button */
      a.detailed-promo-image-button {
          width: 100%;
