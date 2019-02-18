@@ -2434,7 +2434,6 @@ body {
     /* Super Simple Image Promo Button Opacity */
 
     a.super-simple-promo-image-button-opacity {
-        width: 85%;
         height: 360px;
         margin: 0 auto;
         width: 100%;
@@ -2463,10 +2462,19 @@ body {
         align-items: center;
     }
 
-    a.super-simple-promo-image-button-opacity p{
-        font-size: 30px;
+    a.super-simple-promo-image-button-opacity p {
+        font-size: 25px;
         line-height: 30px;
         margin: 0;
+    }
+
+    @media only screen and (min-width: 960px) {
+        a.super-simple-promo-image-button-opacity {
+            width: 85%;
+        }
+        a.super-simple-promo-image-button-opacity p {
+            font-size: 30px;
+        }
     }
 
     /*Detailed Image Promo Button */
