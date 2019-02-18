@@ -2431,6 +2431,44 @@ body {
         margin: 0;   
     }
 
+    /* Super Simple Image Promo Button Opacity */
+
+    a.super-simple-promo-image-button-opacity {
+        width: 85%;
+        height: 360px;
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+        font-weight: 900;
+        color: #fff;
+        position: relative;
+        border: 3px solid #fff;
+        background-size: cover;
+    }
+
+    a.super-simple-promo-image-button-opacity span {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        left: 0;
+        right: 0;
+        text-align: center;
+        box-shadow: none;
+        padding: 20px 15px;
+        line-height: 40px;
+        background-color: rgba(0,0,0,.75);
+        border-top: 3px solid #fff;
+        height: 130px;
+        display: grid;
+        align-items: center;
+    }
+
+    a.super-simple-promo-image-button-opacity p{
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0;
+    }
+
     /*Detailed Image Promo Button */
      a.detailed-promo-image-button {
          width: 100%;
