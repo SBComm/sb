@@ -11,6 +11,23 @@ h2.video-hero_title {
     text-align: center;
 }
 
+h2.video-hero_title-thank-you {
+    font-family: 'Effra W01';
+    font-weight: 700;
+    margin-top: 15%;
+    font-size: 1.8em;
+    color: #fff;
+    text-align: center;
+}
+
+h3.video-hero_title-thank-you {
+    font-family: 'Effra W01';
+    font-weight: 400;
+    font-size: 1.8em;
+    color: #fff;
+    text-align: center;
+}
+
 .video-hero_button {
     width: 160px;
 }
@@ -1100,6 +1117,12 @@ footer.site-footer {
 @media only screen and (min-width: 1024px) {
 
     h2.video-hero_title {
+        margin-top: 12%;
+        font-size: 4.8em;
+        text-shadow: 0 0 22px rgba(0,10,0,.4), 2px 2px 0px rgba(0,10,0,.2);
+    }
+
+    h2.video-hero_title-thank-you {
         margin-top: 12%;
         font-size: 4.8em;
         text-shadow: 0 0 22px rgba(0,10,0,.4), 2px 2px 0px rgba(0,10,0,.2);
