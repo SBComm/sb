@@ -835,6 +835,15 @@ footer.site-footer {
         font-size: 2.8em;
     }
 
+    h2.video-hero_title-thank-you {
+        margin-top: 10%;
+        font-size: 2.8em;
+    }
+
+    h3.video-hero_title-thank-you {
+        font-size: 1.4em;
+    }
+
     .site-carousel .carousel-wrapper .item,
     .site-carousel .carousel-image {
         height: 358px;
@@ -922,6 +931,15 @@ footer.site-footer {
     h2.video-hero_title {
         margin-top: 10%;
         font-size: 3.8em;
+    }
+
+   h2.video-hero_title-thank-you {
+        margin-top: 5%;
+        font-size: 3.4em;
+    }
+
+    h3.video-hero_title-thank-you {        
+        font-size: 1.8em;
     }
 
     .site-carousel h1 {
