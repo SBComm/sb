@@ -60,7 +60,7 @@ function printBooks($path, $pathForContent, $content, $sbu_site_url) {
 				<a href="'.$post_link.'" class="boldMovesBox-title gtm_read-story-link-click" title="Read '.$post->acf->homepage_spotlight_title.'">
 					<h3 class="gtm_read-story-link-click">'.$post->acf->homepage_spotlight_title.' <i class="fa fa-angle-right"></i></h3>
 				</a>
-				<a href="'.$post_link.'" class="boldMovesBox-story gtm_read-story-link-click" title="Learn about how '.$post->acf->homepage_spotlight_sub.'">
+				<a href="'.$post_link.'" class="boldMovesBox-story gtm_read-story-link-click" title="'.$post->acf->homepage_spotlight_sub.'">
 					<p class="gtm_read-story-link-click">'.$post->acf->homepage_spotlight_sub.'</p>
 					<span class="boldMovesBox-fullStory gtm_read-story-link-click">Read Story</span>
 					<span href="javascript:void(0);" class="close-boldMovesBox"><span class="close-boldMovesBox-x">Back to story</span></span>
