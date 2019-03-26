@@ -19,8 +19,8 @@
 	    } else {
 	    	$api_url = "https://news.stonybrook.edu/wp-json/jwt-auth/v1/token";
 		    $fields = array(
-				'username' => 'gbhowmick',
-				'password' => 'Ilovejadav2018ny'
+				'username' => 'jgpalmeri',
+				'password' => 'H55^HxXZ62EHgDCNWu'
 			);
 	    }
 
