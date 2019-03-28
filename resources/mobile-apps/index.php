@@ -83,8 +83,8 @@
 		                <!-- <for-students> -->
 							<?php 
 								$file = "{$second_level}/mobile-apps.php";
-								include($pathForContent . $content . $secLv . $file);
-								// include('/user/commcms/www/_second-level/mobile-apps/index.php');
+								// include($pathForContent . $content . $secLv . $file);
+								include('/user/commcms/www/_second-level/mobile-apps/index.php');
 							?>
 						<!-- </for-students> -->
 
