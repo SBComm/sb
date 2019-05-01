@@ -137,7 +137,7 @@ h2, .changingWorld h3,
       margin: 0 0 0 4px
     }
 
-    @media (max-width:960) {
+    @media (max-width:960px) {
         .hero-sb .hero-sb_text a {
             font-weight: 700;
             font-size: 1.0rem;
