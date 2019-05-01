@@ -93,13 +93,13 @@ h2, .changingWorld h3,
     right: 0;
     padding: 0.25rem 5% 0;
     z-index: 20;
-    background: -moz-linear-gradientt(to right, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
-    background: -webkit-linear-gradientt(to right, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
+    background: -moz-linear-gradientt(to right, rgba(0, 0, 0, 0.55) 0%, transparent 100%);
+    background: -webkit-linear-gradientt(to right, rgba(0, 0, 0, 0.55) 0%, transparent 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, transparent 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); }
     .hero-sb .hero-sb_text h1 {
       color: #fff;
-      font-size: 38px;
+      font-size: 34px;
       line-height: 0.85em;
       width: 100%;
       text-shadow: 0 0 10px rgba(0,0,0,.4);
@@ -108,23 +108,26 @@ h2, .changingWorld h3,
     .hero-sb .hero-sb_text p, .hero-sb .hero-sb_text span a {
       color: #fff; }
     .hero-sb .hero-sb_text p {
-      font-size: 1.1rem;
+      font-size: 1.0rem;
       margin-bottom: 2rem;
       line-height: 1.4rem;
-      text-shadow: 0 0 10px rgba(0,0,0,.4); }
+      text-shadow: 0 0 10px rgba(0,0,0,.4); 
+      margin-top: -10px;
+    }
     .hero-sb .hero-sb_text a {
   font-family: "Effra W01", Helvetica, sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   background: #800000;
   color: #fff;
-  font-size: 1.1rem;
-  padding: 0.6rem 2rem;
+  font-size: 1.0rem;
+  padding: 0.3rem 1rem;
   border: 2px solid #800000;
   display: inline-block;
-  margin: 0 16px 16px 0; }
+  margin: -10px 16px 16px 0; 
+}
       .hero-sb .hero-sb_text a:hover {
         background: transparent;
         border-color: #fff; }
