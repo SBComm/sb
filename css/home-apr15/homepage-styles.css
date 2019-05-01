@@ -116,17 +116,17 @@ h2, .changingWorld h3,
     }
     .hero-sb .hero-sb_text a {
   font-family: "Effra W01", Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   background: #800000;
   color: #fff;
-  font-size: 1.0rem;
-  padding: 0.3rem 1rem;
+  font-size: 1.1rem;
+  padding: 0.6rem 2rem;
   border: 2px solid #800000;
   display: inline-block;
-  margin: -10px 16px 16px 0; 
+  margin: 0px 16px 16px 0; 
 }
       .hero-sb .hero-sb_text a:hover {
         background: transparent;
@@ -135,6 +135,15 @@ h2, .changingWorld h3,
     .hero-sb .hero-sb_text a .fa {
       display: none;
       margin: 0 0 0 4px
+    }
+
+    @media (max-width:960) {
+        .hero-sb .hero-sb_text a {
+            font-weight: 700;
+            font-size: 1.0rem;
+            padding: 0.3rem 1rem;
+            margin: -10px 16px 16px 0; 
+      }
     }
 
     @media (min-width: 481px) {
