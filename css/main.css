@@ -2644,6 +2644,8 @@ body {
         margin: 0 0 30px;
     }
 
+    .red-rays-promo-box_full-width
+
     @media only screen and (max-width: 1023px), (any-hover: none) {
         .new-brand .content-wrapper .rays-promo-box-with-hover-text,
         .new-brand .content-wrapper .rays-promo-box-with-hover-text:hover {
@@ -2720,7 +2722,12 @@ body {
         width: 24%;
         margin: 0 0.5% 0 !important;
     }
+}
 
+    @media only screen and (min-width: 1160px) {
+    .red-rays-promo-box_full-width > .wrapper{
+        width: 100% !important;
+    }
 }
 
     /* Tables */
