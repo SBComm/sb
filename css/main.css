@@ -2604,6 +2604,9 @@ body {
         width: 100%;
         height: 100px;
     }
+    .content-wrapper h3.rays-promo-box-with-hover-text_title-v2{
+        font-size: 2em !important;
+    }
 
     .content-wrapper h3.rays-promo-box-with-hover-text_title span,
     .new-brand .content-wrapper h3.rays-promo-box-with-hover-text_title span {
@@ -2625,6 +2628,10 @@ body {
         width: 88%;
         box-sizing: border-box;
         float: left;
+    }
+
+    .content-wrapper .rays-promo-box-with-hover-text_text-v2{
+        font-size: 1.1em;
     }
 
     .content-wrapper .rays-promo-box-with-hover-text_button {
