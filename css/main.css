@@ -2706,19 +2706,19 @@ body {
     }
 
     @media only screen and (min-width: 960px) {
-    .rays-promo-box-with-hover-text-v2 .one-third{
+    .rays-promo-box-with-hover-text-v2 .one-third {
         width: 31.333%;
         margin: 0 1% 0 !important;
     }
 
-    .rays-promo-box-with-hover-text-v2 .one-half{
+    .rays-promo-box-with-hover-text-v2 .one-half {
         width: 48%;
         margin: 0 1% 0 !important;
     }
 
-    .rays-promo-box-with-hover-text-v2 .one-quarter{
-        width: 23%;
-        margin: 0 1% 0 !important;
+    .rays-promo-box-with-hover-text-v2 .one-quarter {
+        width: 24%;
+        margin: 0 0.5% 0 !important;
     }
 
 }
