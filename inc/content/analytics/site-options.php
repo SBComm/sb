@@ -30,9 +30,9 @@
     //var_dump($siteList);
     $k = 0;
     $folders = array();
-    foreach ($siteList->list as $item){
-    	foreach ($item->sbcms as $sbcms){
-	    	foreach ($sbcms->directory as $dir){
+    foreach ($siteList->sbcms as $sbcms){
+    	foreach ($sbcms->list as $list){
+	    	foreach ($list->directory as $dir){
 	        	$dirString = (string)$dir;
 	        	if(validateFolderName($dirString)) {
 	            	$folders[$k] = $dirString;
@@ -41,18 +41,20 @@
 	        	}
 	    	}
 	   	}
-	   	foreach ($item->sbroot as $sbroot){
-	    	foreach ($sbroot->directory as $dir){
+	}
+	
+	 foreach ($siteList->sbroot as $sbroot){
+    	foreach ($sbroot->list as $list){
+	    	foreach ($list->directory as $dir){
 	        	$dirString = (string)$dir;
 	        	if(validateFolderName($dirString)) {
 	            	$folders[$k] = $dirString;
-	            	// echo('<option id="/'.$folders[$k].'">'.$folders[$k].'</option>');
+	            	// echo('<option id="commcms\/'.$folders[$k].'">'.$folders[$k].'</option>');
 	            	$k++;
 	        	}
 	    	}
 	   	}
-	   	
-    }
+	}
     asort($folders);
     // foreach ($folders as $sbcms){
         
