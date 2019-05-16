@@ -32,12 +32,12 @@
     $folders = array();
     foreach ($siteList->list as $item){
     	foreach ($item->directory as $dir){
-        $dirString = (string)$dir;
-        if(validateFolderName($dirString)) {
-            $folders[$k] = $dirString;
-            $k++;
-        }
-    }
+        	$dirString = (string)$dir;
+        	if(validateFolderName($dirString)) {
+            	$folders[$k] = $dirString;
+            	$k++;
+        	}
+    	}
     }
     asort($folders);
     foreach ($folders as $item){
