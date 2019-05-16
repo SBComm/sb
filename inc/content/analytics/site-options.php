@@ -36,7 +36,7 @@
 	        	$dirString = (string)$dir;
 	        	if(validateFolderName($dirString)) {
 	            	$folders[$k] = $dirString;
-	            	echo('<option id="commcms\/'.$folders[$k].'">'.$folders[$k].'</option>');
+	            	// echo('<option id="commcms\/'.$folders[$k].'">'.$folders[$k].'</option>');
 	            	$k++;
 	        	}
 	    	}
@@ -46,7 +46,7 @@
 	        	$dirString = (string)$dir;
 	        	if(validateFolderName($dirString)) {
 	            	$folders[$k] = $dirString;
-	            	echo('<option id="/'.$folders[$k].'">'.$folders[$k].'</option>');
+	            	// echo('<option id="/'.$folders[$k].'">'.$folders[$k].'</option>');
 	            	$k++;
 	        	}
 	    	}
