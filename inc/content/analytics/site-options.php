@@ -31,11 +31,13 @@
     $k = 0;
     $folders = array();
     foreach ($siteList->list as $item){
-        $itemString = (string)$item;
-        if(validateFolderName($itemString)) {
-            $folders[$k] = $itemString;
+    	foreach ($item->directory as $dir){
+        $dirString = (string)$dir;
+        if(validateFolderName($dirString)) {
+            $folders[$k] = $dirString;
             $k++;
         }
+    }
     }
     asort($folders);
     foreach ($folders as $item){
