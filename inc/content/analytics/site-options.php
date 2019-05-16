@@ -26,6 +26,7 @@
 
     $directoryXML = 'http://www.stonybrook.edu/commcms/_data/folderListing.xml';
     $siteList = simplexml_load_file($directoryXML);
+    echo $siteList;
     //var_dump($siteList);
     $k = 0;
     $folders = array();
