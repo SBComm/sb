@@ -57,7 +57,7 @@
     // foreach ($folders as $sbcms){
         
     // }
-    // foreach ($folders as $sbroot){
-    //     echo('<option id="/'.$item.'">'.$item.'</option>');
-    // }
+    foreach ($folders as $item){
+        echo('<option id="commcms\/'.$item.'">'.$item.'</option>');
+    }
 ?>
