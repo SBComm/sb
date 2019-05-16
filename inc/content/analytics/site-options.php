@@ -26,11 +26,11 @@
 
     $directoryXML = 'http://www.stonybrook.edu/commcms/_data/folderListing.xml';
     $siteList = simplexml_load_file($directoryXML);
-   
+    
     //var_dump($siteList);
     $k = 0;
     $folders = array();
-    foreach ($siteList->list->directory as $item){
+    foreach ($siteList->list as $item){
         $itemString = (string)$item;
         if(validateFolderName($itemString)) {
             $folders[$k] = $itemString;
