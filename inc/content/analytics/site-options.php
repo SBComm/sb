@@ -31,16 +31,33 @@
     $k = 0;
     $folders = array();
     foreach ($siteList->list as $item){
-    	foreach ($item->directory as $dir){
-        	$dirString = (string)$dir;
-        	if(validateFolderName($dirString)) {
-            	$folders[$k] = $dirString;
-            	$k++;
-        	}
-    	}
+    	foreach ($item->sbcms as $sbcms){
+	    	foreach ($sbcms->directory as $dir){
+	        	$dirString = (string)$dir;
+	        	if(validateFolderName($dirString)) {
+	            	$folders[$k] = $dirString;
+	            	echo('<option id="commcms\/'.$folders[$k].'">'.$folders[$k].'</option>');
+	            	$k++;
+	        	}
+	    	}
+	   	}
+	   	foreach ($item->sbroot as $sbroot){
+	    	foreach ($sbroot->directory as $dir){
+	        	$dirString = (string)$dir;
+	        	if(validateFolderName($dirString)) {
+	            	$folders[$k] = $dirString;
+	            	echo('<option id="/'.$folders[$k].'">'.$folders[$k].'</option>');
+	            	$k++;
+	        	}
+	    	}
+	   	}
+	   	
     }
     asort($folders);
-    foreach ($folders as $item){
-        echo('<option id="commcms\/'.$item.'">'.$item.'</option>');
-    }
+    // foreach ($folders as $sbcms){
+        
+    // }
+    // foreach ($folders as $sbroot){
+    //     echo('<option id="/'.$item.'">'.$item.'</option>');
+    // }
 ?>
