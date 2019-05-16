@@ -36,7 +36,7 @@
 	        	$dirString = (string)$dir;
 	        	if(validateFolderName($dirString)) {
 	            	$folders[$k] = $dirString;
-	            	// echo('<option id="commcms\/'.$folders[$k].'">'.$folders[$k].'</option>');
+	            	echo('<option id="commcms\/'.$folders[$k].'">'.$folders[$k].'</option>');
 	            	$k++;
 	        	}
 	    	}
@@ -49,7 +49,7 @@
 	        	$dirString = (string)$dir;
 	        	if(validateFolderName($dirString)) {
 	            	$folders[$k] = $dirString;
-	            	// echo('<option id="commcms\/'.$folders[$k].'">'.$folders[$k].'</option>');
+	            	echo('<option id="commcms\/'.$folders[$k].'">'.$folders[$k].'</option>');
 	            	$k++;
 	        	}
 	    	}
@@ -59,7 +59,7 @@
     // foreach ($folders as $sbcms){
         
     // }
-    foreach ($folders as $item){
-        echo('<option id="commcms\/'.$item.'">'.$item.'</option>');
-    }
+    // foreach ($folders as $item){
+    //     echo('<option id="commcms\/'.$item.'">'.$item.'</option>');
+    // }
 ?>
