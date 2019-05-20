@@ -54,24 +54,24 @@
 		    $api_url 		= "https://news.stonybrook.edu/wp-json/wp/v2/posts";
 		}
 
-		$api_access_token = get_jwt_auth_token()->token;
-	    $api_query_slug .= "status=publish,private,pending";
-		$api_url 		.= $api_query_slug;
+		// $api_access_token = get_jwt_auth_token()->token;
+	 //    $api_query_slug .= "status=publish,private,pending";
+		// $api_url 		.= $api_query_slug;
 
-		//var_dump($api_url);
+		// //var_dump($api_url);
 
-	    $api_headers = array(
-	    	'Content-length: 0',
-			'Content-Type: application/json',
-			sprintf('Authorization: Bearer %s', $api_access_token)
-		);
+	 //    $api_headers = array(
+	 //    	'Content-length: 0',
+		// 	'Content-Type: application/json',
+		// 	sprintf('Authorization: Bearer %s', $api_access_token)
+		// );
 
 		// Get stories
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_URL,$api_url);
-		curl_setopt($ch, CURLOPT_HTTPHEADER, $api_headers);
+		//curl_setopt($ch, CURLOPT_HTTPHEADER, $api_headers);
 		$result = curl_exec($ch);
 		curl_close($ch);
 
