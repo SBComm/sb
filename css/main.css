@@ -2644,7 +2644,7 @@ body {
         margin: 0 0 30px;
     }
 
-    .red-rays-promo-box_full-width
+    /*.red-rays-promo-box_full-width*/
 
     @media only screen and (max-width: 1023px), (any-hover: none) {
         .new-brand .content-wrapper .rays-promo-box-with-hover-text,
