@@ -31,14 +31,17 @@ $siteList     = simplexml_load_file($directoryXML);
 //var_dump($siteList);
 $k       = 0;
 $folders = array();
+
+
 foreach ($siteList->sbcms as $sbcms) {
     foreach ($sbcms->list as $list) {
         foreach ($list->directory as $dir) {
             $dirString = (string) $dir;
             if (validateFolderName($dirString)) {
-                $folders[$k] = $dirString;
-                echo ('<option id="commcms\/' . $folders[$k] . '">' . $folders[$k] . '</option>');
+               $folders[$k] = '<option id="commcms\/' . $dirString . '">' . $dirString . '</option>';              
+               //echo ('<option id="commcms\/' . $folders[$k] . '">' . $folders[$k] . '</option>');
                 $k++;
+
             }
         }
     }
@@ -49,8 +52,8 @@ foreach ($siteList->sbroot as $sbroot) {
         foreach ($list->directory as $dir) {
             $dirString = (string) $dir;
             if (validateFolderName($dirString)) {
-                $folders[$k] = $dirString;
-                echo ('<option id="\/' . $folders[$k] . '">' . $folders[$k] . '</option>');
+                $folders[$k] = '<option id="\/' . $dirString . '">' . $dirString . '</option>';
+                //echo ('<option id="\/' . $folders[$k] . '">' . $folders[$k] . '</option>');
                 $k++;
             }
         }
@@ -62,8 +65,8 @@ foreach ($siteList->sbumaster as $sbumaster) {
         foreach ($list->directory as $dir) {
             $dirString = (string) $dir;
             if (validateFolderName($dirString)) {
-                $folders[$k] = $dirString;
-                echo ('<option id="\/' . $folders[$k] . '">' . $folders[$k] . '</option>');
+                $folders[$k] = '<option id="\/' . $dirString . '">' . $dirString . '</option>';
+                //echo ('<option id="\/' . $folders[$k] . '">' . $folders[$k] . '</option>');
                 $k++;
             }
         }
@@ -73,11 +76,10 @@ foreach ($siteList->sbumaster as $sbumaster) {
 asort($folders);
 
 
+foreach ($folders as $item){
+    echo($item);
+    //echo('<option id="commcms\/'.$item.'">'.$item.'</option>');
+}
 
 
-
-
-// foreach ($folders as $item){
-//     echo('<option id="commcms\/'.$item.'">'.$item.'</option>');
-// }
 ?>
