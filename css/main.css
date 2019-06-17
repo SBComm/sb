@@ -3579,6 +3579,10 @@ body {
             top: 60%;
         }
 
+        .photo-boxes-popup-grid-youtube .item .text{
+            top: 60%;
+        }
+
         .photo-boxes .item:hover:after {
             opacity: .7;
         }
