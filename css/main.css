@@ -3348,6 +3348,12 @@ body {
         box-sizing: border-box;
     }
 
+    @media only screen and (max-width: 960px) {
+        .photo-boxes-popup-grid-youtube.photo-boxes-third .item{
+            width:100%;
+        }
+    }
+
     .photo-boxes .item {
         position: relative;
         opacity: 1;
@@ -3576,6 +3582,10 @@ body {
         }
 
         .photo-boxes .item:hover .text {
+            top: 60%;
+        }
+
+        .photo-boxes-popup-grid-youtube .item .text{
             top: 60%;
         }
 
