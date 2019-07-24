@@ -358,8 +358,8 @@
 								},
 								instagram: {
 									id: '!46695629',
-									accessToken: '46695629.992187b.a81928d05a7b4042955834386b5809ea',
-									clientId: '992187b36560494abe8ea63eebf2c9c3',
+									accessToken: '46695629.6ccead5.92098c92d77048aabcb82219cfe1306f',
+									clientId: '6ccead572e6c41eba3b095c6e69b90f4',
 									thumb: 'standard_resolution',
 									comments: 3,
 									likes: 10
