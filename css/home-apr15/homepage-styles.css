@@ -1085,3 +1085,14 @@ h2, .changingWorld h3,
   @media (min-width: 901px) {
     .changingWorld {
       padding: 6rem 0; } }
+
+
+@media (max-width:480px) {
+  .hero-sb .hero-sb_text {
+    
+    background: -moz-linear-gradientt(to right, rgba(0, 0, 0, 0) 0%, transparent 100%);
+    background: -webkit-linear-gradientt(to right, rgba(0, 0, 0, 0) 0%, transparent 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, transparent 100%);
+    
+  }
+}      
