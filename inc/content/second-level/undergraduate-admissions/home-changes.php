@@ -226,6 +226,7 @@
     </section>
 
     <?php 
+    echo '$path';
         $file = "widgets/view-social-wall.php";
         include($path . $file);
     ?>
