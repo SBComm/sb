@@ -1,6 +1,4 @@
-<?php 
-echo '$path';
-?>
+
 
 <article>
     <section class="clearfix site-carousel grey-background">
@@ -233,6 +231,7 @@ echo '$path';
 
         $file = "widgets/view-social-wall.php";
         include($path . $file);
+        echo 'gargi'.$path.'middle'.$file.'end';
     ?>
 
 </article>
