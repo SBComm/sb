@@ -1,3 +1,7 @@
+<?php 
+echo '$path';
+?>
+
 <article>
     <section class="clearfix site-carousel grey-background">
         <div class="border-box">
@@ -226,7 +230,7 @@
     </section>
 
     <?php 
-    echo '$path';
+
         $file = "widgets/view-social-wall.php";
         include($path . $file);
     ?>
