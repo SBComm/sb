@@ -2,8 +2,8 @@
         <base href="<?php echo $css_base_url; ?>"><!--[if IE]></base><![endif]-->
 
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-       
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+        <meta http-equiv="Content-Security-Policy" content="default-src https:">
 
         <title><?php echo $page_title_full; ?></title>
 
