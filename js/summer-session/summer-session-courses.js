@@ -9,10 +9,13 @@ function checkField(fieldname)
 if (/[^0-9a-bA-B\s]/gi.test(fieldname.value))
 {
 //alert ("Only alphanumeric characters and spaces are valid in this field");
-console.log("Alphanumeric chars allowed");
+alert("You entered a valid course");
 //fieldname.value = "";
 fieldname.focus();
 return false;
+}
+else{
+	alert("Only Alphanumeric allowed");
 }
 }
 
