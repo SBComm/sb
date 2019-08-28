@@ -1,8 +1,21 @@
 $('#live-filter-search').keypress(function(event) {
 	if (event.keyCode == 13) {
+
 		$('body').scrollTo( $('#live-filter-list'), 0, {axis: 'y', offset: -200} );
 	}
 });
+function checkField(fieldname)
+{
+if (/[^0-9a-bA-B\s]/gi.test(fieldname.value))
+{
+//alert ("Only alphanumeric characters and spaces are valid in this field");
+console.log("Alphanumeric chars allowed");
+//fieldname.value = "";
+fieldname.focus();
+return false;
+}
+}
+
 
 $('.clear-filter').click(function() {
 	$('body').scrollTo( $('#live-filter-list'), 0, {axis: 'y', offset: -200} );
