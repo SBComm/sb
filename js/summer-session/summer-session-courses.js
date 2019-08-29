@@ -1,8 +1,11 @@
 $('#live-filter-search').keypress(function(event) {
 	if (event.keyCode == 13) {
+
 		$('body').scrollTo( $('#live-filter-list'), 0, {axis: 'y', offset: -200} );
 	}
 });
+
+
 
 $('.clear-filter').click(function() {
 	$('body').scrollTo( $('#live-filter-list'), 0, {axis: 'y', offset: -200} );
