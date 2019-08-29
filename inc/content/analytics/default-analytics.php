@@ -120,7 +120,7 @@
                                         </select>
                                         <span id="areaHelp" class="help-inline"></span>
                                     </div>
-                                    <p class="small-text">Need help? <a class="external-link" href="mailto:sydney.yarnell@stonybrook.edu?subject=Help Request for Analytics" target="_blank">Contact us</a>.</p>
+                                    <p class="small-text">Need help? <a class="external-link" href="https://www.stonybrook.edu/commcms/_cms_2/contact-us.php#SupportTicket" target="_blank">Contact us</a>.</p>
                                 </div>
                                 <div id="filterInputDiv" class="control-group one-half">
                                     <label class="control-label tooltip" title="You can specify a sub-directory within your site (optional). A sub-directory is folder path within your main site folder." for="filter">Sub-Directory</label>
