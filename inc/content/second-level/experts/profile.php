@@ -17,7 +17,8 @@
         <?php
             $nameValue = $_GET["name"];
             $validNameValue = htmlspecialchars($nameValue, ENT_QUOTES, 'UTF-8');
-            
+            echo "Testing".$validNameValue."END HERE";
+
             if(!@include($root . "/" . $site . "/faculty-directory/people/".$validNameValue.".php")) {
                 $file = "experts/default-profile.php";
                 include($pathForContent . $content . $secLv . $file);
