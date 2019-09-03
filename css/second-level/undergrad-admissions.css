@@ -828,8 +828,9 @@ footer.site-footer {
     background-color: #990000;
     padding: 15px 20px 15px 20px; 
     border: 1px solid #FFF;
-    margin-top: 75px;
-    width: 40%;
+    margin-top: 60px;
+    margin-left: -40px;
+    width: 10%;
     min-height: 40px;
     z-index: 1;
     position: absolute;
@@ -840,8 +841,9 @@ footer.site-footer {
     background-color: #990000;
     padding: 15px 20px 15px 20px; 
     border: 1px solid #FFF;
-    margin-top: 75px;
-    width: 40%;
+    margin-top: 60px;
+    margin-left: -40px;
+    width: 10%;
     min-height: 40px;
     z-index: 1;
     position: absolute;
@@ -857,10 +859,14 @@ footer.site-footer {
 
 .outer-box-1 {
     float:left;
+    margin-top: 40px;
+    margin-left: 100px;
 }
 
 .outer-box-2 {
     float:left;
+    margin-top: 40px;
+    margin-left: 100px;
 } 
 
 .vt-bckgrnd-img-walking   {
@@ -868,13 +874,15 @@ footer.site-footer {
     border: 1px solid #FFF;
     width: 261px;
     height: 176px;
+    z-index: -1;
 }
 
 .vt-bckgrnd-img-hand-phone {
     background-image: url("../../img/misc/photo-link-box-2.jpg");
     border: 1px solid #FFF;
-    width: 261px;
-    height: 176px;
+    width: 180px;
+    height: auto;
+    z-index: -1;
 }
 
 /*Styles for Changes for undergrad admissions page ENDS HERE*/
