@@ -825,16 +825,33 @@ footer.site-footer {
 /*Styles for Changes for undergrad admissions page STARTS HERE*/
 
 .virtual-tour-new {
-    background-color:  #990000;    
-    padding: 20px;
+    background-color: #990000;
+    padding: 15px 20px 15px 20px; 
     border: 1px solid #FFF;
-    margin: 70px;
-    width: 8%;
+    margin-top: 75px;
+    width: 40%;
     min-height: 40px;
+    z-index: 1;
+    position: absolute;
 
 }
 
+.custom-viewbook-new {
+    background-color: #990000;
+    padding: 15px 20px 15px 20px; 
+    border: 1px solid #FFF;
+    margin-top: 75px;
+    width: 40%;
+    min-height: 40px;
+    z-index: 1;
+    position: absolute;
+}
+
 .virtual-tour-new a {
+    color: #FFF;
+}
+
+.custom-viewbook-new a {
     color: #FFF;
 }
 
