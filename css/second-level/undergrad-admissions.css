@@ -826,6 +826,7 @@ footer.site-footer {
 
 .virtual-tour-new {
     background-color:  #990000;
+    float:left;
     padding: 20px;
     border: 1px solid #FFF;
 
