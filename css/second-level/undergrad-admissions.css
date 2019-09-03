@@ -829,17 +829,24 @@ footer.site-footer {
     float:left;
     padding: 20px;
     border: 1px solid #FFF;
+    margin: 70px;
+    width: 8%;
+    min-height: 40px;
 
 }
 
 .vt-bckgrnd-img-walking   {
     background-image: url("../../img/misc/photo-link-box-1.jpg");
     border: 1px solid #FFF;
+    width: 261px;
+    height: 176px;
 }
 
 .vt-bckgrnd-img-hand-phone {
     background-image: url("../../img/misc/photo-link-box-2.jpg");
     border: 1px solid #FFF;
+    width: 261px;
+    height: 176px;
 }
 
 /*Styles for Changes for undergrad admissions page ENDS HERE*/
