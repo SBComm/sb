@@ -946,6 +946,14 @@ footer.site-footer {
         background-color: #f7f7f7;
     }
 
+    .outer-box-1 {
+        margin-left: 50px;
+    }
+
+    .outer-box-2 {
+        margin-left: 50px;
+    } 
+
 }
 
 @media only screen and (min-width: 560px) {
