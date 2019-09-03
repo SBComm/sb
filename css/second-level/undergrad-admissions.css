@@ -825,8 +825,7 @@ footer.site-footer {
 /*Styles for Changes for undergrad admissions page STARTS HERE*/
 
 .virtual-tour-new {
-    background-color:  #990000;
-    float:left;
+    background-color:  #990000;    
     padding: 20px;
     border: 1px solid #FFF;
     margin: 70px;
@@ -834,6 +833,14 @@ footer.site-footer {
     min-height: 40px;
 
 }
+
+.outer-box-1 {
+    float:left;
+}
+
+.outer-box-2 {
+    float:left;
+} 
 
 .vt-bckgrnd-img-walking   {
     background-image: url("../../img/misc/photo-link-box-1.jpg");
