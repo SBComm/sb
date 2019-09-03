@@ -897,6 +897,17 @@ footer.site-footer {
 /*Styles for Changes for undergrad admissions page ENDS HERE*/
 
 
+@media only screen and (max-width:480px){
+
+    .outer-box-1 {
+        margin-left: 50px;
+    }
+
+    .outer-box-2 {
+        margin-left: 50px;
+    } 
+}
+
 @media only screen and (min-width: 360px) {
 
     .side-title-links-wrapper {
@@ -946,13 +957,7 @@ footer.site-footer {
         background-color: #f7f7f7;
     }
 
-    .outer-box-1 {
-        margin-left: 50px;
-    }
-
-    .outer-box-2 {
-        margin-left: 50px;
-    } 
+    
 
 }
 
