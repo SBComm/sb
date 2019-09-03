@@ -834,6 +834,10 @@ footer.site-footer {
 
 }
 
+.virtual-tour-new a {
+    color: #FFF;
+}
+
 .outer-box-1 {
     float:left;
 }
