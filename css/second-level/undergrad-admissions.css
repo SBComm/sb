@@ -883,7 +883,15 @@ footer.site-footer {
     width: 261px;
     height: 176px;
     z-index: -1;
-    
+
+}
+
+.red-rays-bkg {
+    background-image: url("../../img/misc/rays-background.png");
+    background-size: 100%;
+    background-size: cover;
+   /* background-position: 0 0;
+    background-attachment: fixed;*/
 }
 
 /*Styles for Changes for undergrad admissions page ENDS HERE*/
