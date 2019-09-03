@@ -830,7 +830,7 @@ footer.site-footer {
     border: 1px solid #FFF;
     margin-top: 60px;
     margin-left: -40px;
-    width: 10%;
+    width: 120px;
     min-height: 40px;
     z-index: 1;
     position: absolute;
@@ -843,7 +843,7 @@ footer.site-footer {
     border: 1px solid #FFF;
     margin-top: 60px;
     margin-left: -40px;
-    width: 10%;
+    width: 120px;
     min-height: 40px;
     z-index: 1;
     position: absolute;
@@ -859,13 +859,13 @@ footer.site-footer {
 
 .outer-box-1 {
     float:left;
-    margin-top: 40px;
+    margin-top: 27px;
     margin-left: 100px;
 }
 
 .outer-box-2 {
     float:left;
-    margin-top: 40px;
+    margin-top: 27px;
     margin-left: 100px;
 } 
 
