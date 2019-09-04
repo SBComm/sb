@@ -855,11 +855,13 @@ footer.site-footer {
 .virtual-tour-new a {
     color: #FFF;
     font-family: "Effra W01", Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 .custom-viewbook-new a {
     color: #FFF;
     font-family: "Effra W01", Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 .outer-box-1 {
