@@ -733,6 +733,7 @@ section.student-body {
     text-align: center;
     font-size: 2em;
     margin: 5px 0 20px;
+    font-weight:bold;
 }
 
 .student-body img {
