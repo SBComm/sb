@@ -724,8 +724,9 @@ section.student-body {
 }
 
 .student-body h2 {
-    font-family:'Trade Gothic Next W01';
-    text-transform: none;
+    /*font-family:'Trade Gothic Next W01';*/
+    font-family: "Effra W01", Helvetica, sans-serif;
+    text-transform: uppercase; 
     color: #900;
     width: 100%;
     display: block;
@@ -1378,7 +1379,7 @@ footer.site-footer {
 
     .student-body h2 {
         font-size: 2.8em;
-        text-align: left;
+        text-align: center;
     }
 
     .student-body ul {
