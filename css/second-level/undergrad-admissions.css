@@ -1237,6 +1237,10 @@ footer.site-footer {
     .outer-box-2 {
         margin-left:100px!important;
     }
+
+    .side-title-links-wrapper .links-wrapper {
+        padding-left:3px!important;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
