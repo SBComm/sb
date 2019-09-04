@@ -1177,7 +1177,7 @@ footer.site-footer {
     .virtual-tour,
     .cost-calculator {
         float: left;
-        width: 24.933%;
+        /*width: 24.933%;*/
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -1239,7 +1239,7 @@ footer.site-footer {
     }
 
     .side-title-links-wrapper .links-wrapper {
-        padding-left:3px!important;
+        padding-left:10px!important;
     }
 }
 
