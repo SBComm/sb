@@ -155,7 +155,7 @@ section.main-cta {
 .side-title-links-wrapper {
     color: #fff;
     height: 230px;
-    font-family: 'Trade Gothic W01 Light';
+    font-family: "Effra W01", Helvetica, sans-serif;
     padding: 20px 0;
 }
 
@@ -226,7 +226,7 @@ section.main-cta {
 }
 
 .side-title-links-wrapper .links-wrapper a .after-text {
-    font-family: 'CenturySchoolbookW01-It 927458';
+    font-family: "Effra W01", Helvetica, sans-serif;
     font-size: .9em;
     display: inline-block;
     margin: 0 0 0 12px;
@@ -563,7 +563,7 @@ section.cta-items {
     border-radius: 10px;
     padding: 20px;
     font-size: 1.6em;
-    font-family:'Trade Gothic W01 Light';
+    font-family: "Effra W01", Helvetica, sans-serif;
     color: #fff;
     letter-spacing: .02em;
     border: 3px solid #fff;
@@ -750,7 +750,7 @@ section.student-body {
 .student-body ul li {
     display: block;
     width: 100%;
-    font-family:'Trade Gothic Next W01';
+    font-family: "Effra W01", Helvetica, sans-serif;
     font-size: 1.3em;
     line-height: 1.7em;
     clear: both;
@@ -775,8 +775,8 @@ section.student-body {
 
 .student-body ul li span {
     display: inline-block;
-    font-family: 'Trade Gothic W01 Bold 2';
-    color: #000;
+    font-family: "Effra W01", Helvetica, sans-serif;
+    color: #990000;
     margin-right: 0px;
     float: left;
     max-width: 30%;
@@ -796,6 +796,7 @@ section.student-body {
     display: inline;
     float: right;
     font-style: normal;
+    font-weight: bold;
     max-width: 70%;
     text-align: right;
     padding: 5px 10px 5px 5px;
@@ -853,10 +854,12 @@ footer.site-footer {
 
 .virtual-tour-new a {
     color: #FFF;
+    font-family: "Effra W01", Helvetica, sans-serif;
 }
 
 .custom-viewbook-new a {
     color: #FFF;
+    font-family: "Effra W01", Helvetica, sans-serif;
 }
 
 .outer-box-1 {
@@ -1410,7 +1413,7 @@ footer.site-footer {
     .student-body ul li:before {
         width: 12px;
         height: 12px;
-        background: #900;
+        background: #00e8e8;
         display: inline-block;
         margin: 0 12px 2px 0
     }
