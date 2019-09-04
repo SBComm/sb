@@ -1731,7 +1731,8 @@
 		border-radius: 0;
 		width: 100%;
 		box-shadow: none;
-		font-family:'CenturySchlbkW15-Italic' !important;
+		/*font-family:'CenturySchlbkW15-Italic' !important;*/
+		font-family: "Effra W01", Helvetica, sans-serif;;
 		-webkit-box-sizing: border-box;
 	    -moz-box-sizing: border-box;
 	    box-sizing: border-box;
