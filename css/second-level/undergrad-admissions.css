@@ -173,7 +173,7 @@ section.main-cta {
     white-space: nowrap;
     letter-spacing: .05em;
     color: #00ffff;
-    padding: 104px 0 0 0;
+    padding: 93px 0 0 0;
 }
 
 .side-title-links-wrapper .side-title span {
@@ -207,9 +207,9 @@ section.main-cta {
     color: #fff;
     text-decoration: none;
     display: block;
-    height: 20%;
+    height: 23%;
     width: 100%;
-    padding: 12px 0 0 5px;
+    /*padding: 12px 0 0 5px;*/
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
