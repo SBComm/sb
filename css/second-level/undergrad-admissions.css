@@ -776,6 +776,7 @@ section.student-body {
 .student-body ul li span {
     display: inline-block;
     font-family: "Effra W01", Helvetica, sans-serif;
+    font-weight: bold;
     color: #990000;
     margin-right: 0px;
     float: left;
@@ -1226,6 +1227,16 @@ footer.site-footer {
         margin: 14px 0 28px;
     }
 
+}
+
+@media only screen and (min-width: 960px) and (max-width:1159px) {
+    .outer-box-1 {
+        margin-left:100px!important;
+    }
+
+    .outer-box-2 {
+        margin-left:100px!important;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
