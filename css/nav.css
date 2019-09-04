@@ -716,7 +716,8 @@
 }
 
 .sub-nav.big-n-bold a {
-	font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';
+	/*font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';*/
+	font-family: "Effra W01", Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: normal;
 	font-size: 16px;
@@ -1868,10 +1869,11 @@
 	.site-nav.big-n-bold a,
 	.sub-nav.big-n-bold a {
 		font-size: 1.6em;
-		font-family:'TradeGothicNextW02-Bold 694368';
-		font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';
+		/*font-family:'TradeGothicNextW02-Bold 694368';*/
+		/*font-family: 'TradeGothicW01-BoldCn20 675334','Oswald';*/
+		font-family: "Effra W01", Helvetica, sans-serif;
 		text-transform: uppercase;
-		font-weight: normal;
+		font-weight: bold;
 		height: 65px;
 		-webkit-box-sizing: border-box;
 	    -moz-box-sizing: border-box;
