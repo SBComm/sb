@@ -358,7 +358,7 @@
 								},
 								instagram: {
 									id: '!46695629',
-									accessToken: '46695629.6ccead5.92098c92d77048aabcb82219cfe1306f',
+									accessToken: '46695629.6ccead5.608389caa4634947ad2d3b8292e73933',
 									clientId: '6ccead572e6c41eba3b095c6e69b90f4',
 									thumb: 'standard_resolution',
 									comments: 3,
