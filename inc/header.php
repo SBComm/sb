@@ -7,7 +7,9 @@
         <!-- <meta http-equiv="Content-Security-Policy-Report-Only" 
               content="default-src 'none' form-action 'none' frame-ancestors 'none' report-uri https://stonybrook.report-uri.com/r/d/csp/reportOnly" />  
  -->
-        <?php header("Content-Security-Policy-Report-Only: default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://stonybrook.report-uri.com/r/d/csp/wizard");  ?> 
+        <!--?php header("Content-Security-Policy-Report-Only: default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://stonybrook.report-uri.com/r/d/csp/wizard  
+            
+        ");  ?--> 
          
 
         <title><?php echo $page_title_full; ?></title>
