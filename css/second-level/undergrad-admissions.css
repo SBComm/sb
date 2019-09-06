@@ -1249,7 +1249,7 @@ footer.site-footer {
         margin-top: 12%;
         margin-bottom: 25px;
         font-size: 4.8em;
-        text-shadow: 0 0 22px rgba(0,10,0,.4), 2px 2px 0px rgba(0,10,0,.2);
+        text-shadow: 0 0 22px rgba(0,10,0,.4), 2px 2px 3px rgba(0,10,0,.2);
         position: relative;
         top: 150px;
     }
