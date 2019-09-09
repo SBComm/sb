@@ -5,7 +5,7 @@
 h2.video-hero_title {
     font-family: 'Effra W01';
     font-weight: 900;
-    margin-top: 15%;
+    margin-top: 30%;
     font-size: 1.8em;
     color: #fff;
     text-align: center;
@@ -931,6 +931,13 @@ footer.site-footer {
     h2.video-hero_title {
         margin-top: 10%;
         font-size: 2.8em;
+        position: relative;
+        top: 150px;
+    }
+
+    .hero-text-wrapper a.sbu-outline-button {
+        position: relative;
+        top: 150px;
     }
 
     h2.video-hero_title-thank-you {
