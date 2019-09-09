@@ -1595,13 +1595,45 @@ p.academic-title{
   left:16px;
 }
 
+.backgrnd-pic1 {
+    background: url("/undergraduate-admissions/images/apply-photos-1.jpg");
+    /*background-size: cover;*/
+
+}
+
+.backgrnd-pic2 {
+    background: url("/undergraduate-admissions/images/apply-photos-2.jpg");
+    /*background-size: cover;*/
+
+}
+
+.backgrnd-pic3 {
+    background: url("/undergraduate-admissions/images/apply-photos-3.jpg");
+    /*background-size: cover;*/
+
+}
+
+.backgrnd-pic4 {
+    background: url("/undergraduate-admissions/images/apply-photos-4.jpg");
+    /*background-size: cover;*/
+
+}
+
+.backgrnd-pic5 {
+    background: url("/undergraduate-admissions/images/apply-photos-5.jpg");
+    /*background-size: cover;*/
+
+}
+
+
+
 
 
 @media screen and (max-width: 767px) {
   .box {
   
-      height: 100%;
-      width: 100%;
+    height: 100%;
+    width: 100%;
     float: none;
       
   }
@@ -1612,6 +1644,13 @@ p.academic-title{
       width: 100%;
       
   }
+
+  .bckgrnd-pic {
+   width: 100%;
+   background-size: cover;
+  }
+
+
     
 }
 
