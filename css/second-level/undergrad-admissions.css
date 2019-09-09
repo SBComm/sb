@@ -1639,7 +1639,7 @@ p.academic-title{
 
 @media screen and (max-width: 1159px) {
     .backgrnd-pic1, .backgrnd-pic2, .backgrnd-pic3, .backgrnd-pic4, .backgrnd-pic5{
-        margin-top:20px;
+    margin-top:20px;
     }
 
     .header {
@@ -1650,7 +1650,7 @@ p.academic-title{
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .box {
   
     /*height: 100%;
@@ -1666,12 +1666,43 @@ p.academic-title{
       
   }
 
-  .backgrnd-pic2, .backgrnd-pic3, .backgrnd-pic4, .backgrnd-pic5 {
-   
+  .backgrnd-pic1 {
+    background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-mobile-1.jpg");
+    width: 416px;
+    height:306px;
+    
 
-  }
+}
 
+.backgrnd-pic2 {
+    background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-mobile-2.jpg");
+    width: 416px;
+    height:306px;
+    
+}
 
+.backgrnd-pic3 {
+    background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-mobile-3.jpg");
+    width: 416px;
+    height:306px;
+    
+}
+
+.backgrnd-pic4 {
+    background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-mobile-4.jpg");
+    width: 416px;
+    height:306px;
+    
+}
+
+.backgrnd-pic5 {
+    background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-mobile-5.jpg");
+    width: 416px;
+    height:306px;
+    
+}
+
+  
     
 }
 
