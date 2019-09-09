@@ -1247,8 +1247,16 @@ footer.site-footer {
 
     h2.video-hero_title {
         margin-top: 12%;
+        margin-bottom: 25px;
         font-size: 4.8em;
-        text-shadow: 0 0 22px rgba(0,10,0,.4), 2px 2px 0px rgba(0,10,0,.2);
+        text-shadow: 0 0 22px rgba(0,10,0,.4), 2px 2px 3px rgba(0,10,0,.2);
+        position: relative;
+        top: 150px;
+    }
+
+    .hero-text-wrapper a.sbu-outline-button {
+        position: relative;
+        top: 150px;
     }
 
     h2.video-hero_title-thank-you {
