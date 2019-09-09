@@ -1600,7 +1600,7 @@ p.academic-title{
     /*background-size: cover;*/
     width: 218px;
     height:306px;
-    margin-top: 20px;
+    
 
 }
 
@@ -1609,8 +1609,7 @@ p.academic-title{
     /*background-size: cover;*/
     width: 218px;
     height:306px;
-    margin-top: 20px;
-
+    
 }
 
 .backgrnd-pic3 {
@@ -1618,8 +1617,7 @@ p.academic-title{
     /*background-size: cover;*/
     width: 218px;
     height:306px;
-    margin-top: 20px;
-
+    
 }
 
 .backgrnd-pic4 {
@@ -1627,8 +1625,7 @@ p.academic-title{
     /*background-size: cover;*/
     width: 218px;
     height:306px;
-    margin-top: 20px;
-
+    
 }
 
 .backgrnd-pic5 {
@@ -1636,11 +1633,15 @@ p.academic-title{
     /*background-size: cover;*/
     width: 218px;
     height:306px;
-    margin-top: 20px;
-
+    
 }
 
 
+@media screen and (max-width: 1159px) {
+    .backgrnd-pic1, .backgrnd-pic2, .backgrnd-pic3, .backgrnd-pic4, .backgrnd-pic5{
+        margin-top:20px;
+    }
+}
 
 
 
@@ -1665,7 +1666,7 @@ p.academic-title{
    background-size: cover;
    width:100%;
    height:auto;
-
+   margin-top: 20px;
 
   }
 
