@@ -1553,7 +1553,7 @@ p.academic-title{
 /*Undergrad admissions apply page STYLES START HERE*/
 
 .container {
- 
+ margin: 0 auto;
 }
 
 .row {
