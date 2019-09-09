@@ -1636,10 +1636,12 @@ p.academic-title{
     
 }
 
-.textheader {
-    display: block;
-    width: 90%;
-    float: right;
+@media screen and (min-width: 507px){
+    .textheader {
+        display: block;
+        width: 90%;
+        float: right;
+    }
 }
 
 
