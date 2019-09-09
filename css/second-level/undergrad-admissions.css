@@ -1571,7 +1571,7 @@ p.academic-title{
 
 .textheader a {
   font-size: 20px; 
-  color: #FFF;   
+  color: #FFF!important;   
   font-family:"Effra W01", Helvetica, sans-serif;;    
 }
 
