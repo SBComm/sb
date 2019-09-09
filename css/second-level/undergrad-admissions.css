@@ -1598,30 +1598,40 @@ p.academic-title{
 .backgrnd-pic1 {
     background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-1.jpg");
     /*background-size: cover;*/
+    width: 218px;
+    height:306px;
 
 }
 
 .backgrnd-pic2 {
     background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-2.jpg");
     /*background-size: cover;*/
+    width: 218px;
+    height:306px;
 
 }
 
 .backgrnd-pic3 {
     background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-3.jpg");
     /*background-size: cover;*/
+    width: 218px;
+    height:306px;
 
 }
 
 .backgrnd-pic4 {
     background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-4.jpg");
     /*background-size: cover;*/
+    width: 218px;
+    height:306px;
 
 }
 
 .backgrnd-pic5 {
     background: url("https://www.stonybrook.edu/undergraduate-admissions/images/apply-photos-5.jpg");
     /*background-size: cover;*/
+    width: 218px;
+    height:306px;
 
 }
 
@@ -1648,6 +1658,8 @@ p.academic-title{
   .bckgrnd-pic {
    width: 100%;
    background-size: cover;
+   width:100%;
+   height:auto;
   }
 
 
