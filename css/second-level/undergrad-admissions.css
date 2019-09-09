@@ -1636,6 +1636,12 @@ p.academic-title{
     
 }
 
+.textheader {
+    display: block;
+    width: 90%;
+    float: right;
+}
+
 
 @media screen and (max-width: 1159px) {
     .backgrnd-pic1, .backgrnd-pic2, .backgrnd-pic3, .backgrnd-pic4, .backgrnd-pic5{
