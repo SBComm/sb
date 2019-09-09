@@ -1570,19 +1570,20 @@ p.academic-title{
 .box {
   float: left;
   /*width: 66.66666%;  */
-  margin-left: 20px;
+  margin-left: 10px;
   position: relative;
 }
 
 
-.textheader {
+
+.textheader a {
   font-size: 20px; 
-  color: #FFF;   
+  color: #FFF!important;   
   font-family:"Effra W01", Helvetica, sans-serif;;    
 }
 
 .header i {
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   color: #FFF; 
   font-size: 24px;
 
