@@ -1565,14 +1565,14 @@ p.academic-title{
 }
 
 
-.textheader {
+.textheader a {
   font-size: 20px; 
   color: #FFF;   
   font-family:"Effra W01", Helvetica, sans-serif;;    
 }
 
 .header i {
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   color: #FFF; 
   font-size: 24px;
 
