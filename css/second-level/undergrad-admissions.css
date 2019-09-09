@@ -1536,3 +1536,64 @@ p.academic-title{
         margin: 0 auto;
     }
 }
+
+
+
+/*Undergrad admissions apply page STYLES START HERE*/
+
+.container {
+ 
+}
+
+.row {
+   
+}
+
+.box {
+  float: left;
+  /*width: 66.66666%;  */
+  margin-left: 20px;
+  position: relative;
+}
+
+
+.textheader {
+  font-size: 20px; 
+  color: #FFF;   
+  font-family:"Effra W01", Helvetica, sans-serif;;    
+}
+
+.header i {
+  border: 1px solid green;
+  color: #FFF; 
+  font-size: 24px;
+
+}
+
+.header {
+  position: absolute;
+  top:18px;
+  left:16px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .box {
+  
+      height: 100%;
+      width: 100%;
+    float: none;
+      
+  }
+
+  .row {
+  
+      height: 100%;
+      width: 100%;
+      
+  }
+    
+}
+
+/*Undergrad admissions apply page STYLES ENDS HERE*/
