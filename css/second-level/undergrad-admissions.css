@@ -51,7 +51,8 @@ h3.video-hero_title-thank-you {
 
 @media only screen and (max-width: 1023px) {
 	.site-carousel {
-		background: url("https://www.stonybrook.edu/commcms/_images/section-backgrounds/students/students-zebra-path.jpg");
+		background: url("https://www.stonybrook.edu/commcms/_images/section-backgrounds/students/190710_Students-on-Mall_624.JPG");
+		background-position: left;
 	}
 }
 
