@@ -53,6 +53,7 @@ h3.video-hero_title-thank-you {
 	.site-carousel {
 		background: url("https://www.stonybrook.edu/commcms/_images/section-backgrounds/students/190710_Students-on-Mall_624.JPG");
 		background-position: left;
+		background-size: cover;
 	}
 }
 
