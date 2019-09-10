@@ -44,10 +44,15 @@ h3.video-hero_title-thank-you {
 .site-carousel {
     background: url("https://www.stonybrook.edu/commcms/_images/section-backgrounds/white-rays/SBU_RayBKG_white4_HORZ_RGB.jpg");
     background: url("https://www.stonybrook.edu/commcms/_images/section-backgrounds/black-rays/SBU_RayBKG_black4_HORZ_RGB.jpg");
-    background: url("https://www.stonybrook.edu/commcms/_images/section-backgrounds/red-rays/red-rays-full-1.png");
-    background: url("https://www.stonybrook.edu/commcms/_images/section-backgrounds/students/students-zebra-path.jpg");
+    background: url("https://www.stonybrook.edu/commcms/_images/section-backgrounds/red-rays/red-rays-full-1.png");    
     background-position: center;
     background-size: cover;
+}
+
+@media only screen and (max-width: 1023px) {
+	.site-carousel {
+		background: url("https://www.stonybrook.edu/commcms/_images/section-backgrounds/students/students-zebra-path.jpg");
+	}
 }
 
 .site-carousel .carousel-wrapper .item,
