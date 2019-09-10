@@ -1574,6 +1574,10 @@ p.academic-title{
   position: relative;
 }
 
+.box:hover {
+    box-shadow: 0px 0px 5px 10px #ef2222;
+}
+
 
 
 .textheader {
