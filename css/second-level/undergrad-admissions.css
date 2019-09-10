@@ -850,6 +850,10 @@ footer.site-footer {
 
 }
 
+.virtual-tour-new:hover {
+    background-color: #660000;
+}
+
 .custom-viewbook-new {
     background-color: #990000;
     padding: 15px 20px 15px 20px; 
@@ -860,6 +864,10 @@ footer.site-footer {
     min-height: 40px;
     z-index: 1;
     position: absolute;
+}
+
+.custom-viewbook-new:hover {
+    background-color: #660000;
 }
 
 .virtual-tour-new a {
