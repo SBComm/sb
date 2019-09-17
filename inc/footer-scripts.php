@@ -346,7 +346,7 @@
 									url: 'social/v2/facebook.php'
 								},
 								youtube: {
-									id: 'sbcomm , UCbOzIblxmg-Ing9NSEms8Tw',
+									id: 'sbcomm , UC3NxYhOtlHEqzI10SsCaxqw',
 									thumb: 'default'
 								},
 								pinterest: {
