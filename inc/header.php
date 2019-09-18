@@ -27,7 +27,7 @@
         <meta property="og:type" content="<?php echo $og_type; ?>" />
         <meta property="og:url" content="<?php echo $og_url; ?>" />
         <meta property="og:image" content="<?php echo $og_image; ?>" />
-        <meta property="fb:app_id" content="1111836582191622" />
+        <!-- <meta property="fb:app_id" content="1111836582191622" /> -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@stonybrooku">
         <meta name="twitter:creator" content="@stonybrooku">

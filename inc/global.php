@@ -192,9 +192,9 @@ if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_overr
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '1111836582191622',
+      appId      : '1740688096184427',
       xfbml      : true,
-      version    : 'v2.6'
+      version    : 'v4.0'
     });
   };
 
