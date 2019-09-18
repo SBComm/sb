@@ -29,6 +29,22 @@ h3.video-hero_title-thank-you {
     text-align: center;
 }
 
+.hero-text-wrapper a.sbu-outline-button {
+    background: #81C0F6 !important;
+    border-color: #81C0F6 !important;
+    color: #000 !important;
+    transition: all .2s ease-in-out;
+}
+
+.hero-text-wrapper a.sbu-outline-button:hover {
+    border-color: #afd8fb !important;
+    background-color: #afd8fb !important;
+}
+
+.site-carousel div.hero-text-wrapper {
+    background-image: linear-gradient(to top, #000000aa 0%, #ffffff00 40%);
+}
+
 .video-hero_button {
     width: 160px;
 }
@@ -1276,12 +1292,12 @@ footer.site-footer {
         font-size: 4.8em;
         text-shadow: 0 0 22px rgba(0,10,0,.4), 2px 2px 3px rgba(0,10,0,.2);
         position: relative;
-        top: 150px;
+        top: 35%;
     }
 
     .hero-text-wrapper a.sbu-outline-button {
         position: relative;
-        top: 150px;
+        top: 33%;
     }
 
     h2.video-hero_title-thank-you {
