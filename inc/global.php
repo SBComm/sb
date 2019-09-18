@@ -189,7 +189,7 @@ if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_overr
 <?php } ?>
 
 <!--Facebook SDK-->
-<script>
+<!-- <script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1111836582191622',
@@ -205,7 +205,7 @@ if($site_status[$second_level]=='' && !$in_CMS_override && !$in_transition_overr
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
-</script>
+</script> -->
 
 <!--[if lt IE 8]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience. Thanks!</p>
