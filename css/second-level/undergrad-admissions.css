@@ -960,6 +960,7 @@ footer.site-footer {
         font-size: 2.8em;
         position: relative;
         top: 150px;
+        line-height: 1;
     }
 
     .hero-text-wrapper a.sbu-outline-button {
