@@ -10,6 +10,7 @@ h2.video-hero_title {
     color: #fff;
     text-align: center;
     margin-bottom: 25px;
+    text-shadow: 0 0 22px rgba(0,10,0,.4), 2px 2px 3px rgba(0,10,0,.2);
 }
 
 h2.video-hero_title-thank-you {
@@ -39,10 +40,6 @@ h3.video-hero_title-thank-you {
 .hero-text-wrapper a.sbu-outline-button:hover {
     border-color: #afd8fb !important;
     background-color: #afd8fb !important;
-}
-
-.site-carousel div.hero-text-wrapper {
-    background-image: linear-gradient(to top, #000000aa 0%, #ffffff00 40%);
 }
 
 .video-hero_button {
@@ -964,6 +961,7 @@ footer.site-footer {
         font-size: 2.8em;
         position: relative;
         top: 150px;
+        line-height: 1;
     }
 
     .hero-text-wrapper a.sbu-outline-button {
@@ -1298,6 +1296,10 @@ footer.site-footer {
     .hero-text-wrapper a.sbu-outline-button {
         position: relative;
         top: 33%;
+    }
+
+    .site-carousel div.hero-text-wrapper {
+       background-image: linear-gradient(to top, #000000cc 0%, #ffffff00 40%);
     }
 
     h2.video-hero_title-thank-you {
