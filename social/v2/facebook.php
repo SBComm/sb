@@ -13,13 +13,16 @@ $page_id = isset($_GET['id']) ? $_GET['id'] : '';
 $limit = isset($_GET['limit']) ? $_GET['limit'] : 20;
 $limit = $limit > 50 ? 50 : $limit;
 $feed = isset($_GET['feed']) ? $_GET['feed'] : 'feed';
-$api = 'v2.8';
+$api = 'v4.0';
 $fields = "id,message,picture,link,name,description,type,icon,created_time,from,object_id,likes,comments,attachments{media{image}}";
 if($feed == "posts") {
     $fields = "id,message,picture,link,name,description,type,icon,created_time,from,object_id,likes,attachments{media{image}}";
 }
 $graphUrl = 'https://graph.facebook.com/'.$api.'/'.$page_id.'/'.$feed.'?key=value&access_token='.$app_access_token.'&fields='.$fields.'&limit='.$limit;
 $pageUrl = 'https://graph.facebook.com/'.$api.'/'.$page_id.'?key=value&access_token='.$app_access_token.'&fields=id,link,name';
+
+echo'Test1'.$graphUrl."ENDS HERE";
+echo'Test2'.$pageUrl."ENDS HERE"; 
 
 // get page details
 $pageObject = file_get_contents($pageUrl);
