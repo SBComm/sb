@@ -8,18 +8,19 @@ ini_set('display_errors', '0');
 error_reporting(E_ALL | E_STRICT);
 header('Access-Control-Allow-Origin: *');
 
-$app_access_token = '1740688096184427|Xsnd2dcRYkwbo0lfdRES-Z2nVHg';//$app_id.'|'.$app_secret;
+$app_access_token = 'EAAYvJYejSGsBABx3iqWk4OAExEHybL7NcZBwcs0LX1Vis9m8ucomqZBz1uRnMCKxkJs8UnN4X9jEsW14u7yXtnC7nvXEXe1g0v5kPDwssnkdNB6eGsYY3FyeV2c3pmSvVsIiebI5524bP0iGmCOJb3lk7pWqqDicJ6NVY4ui1x1G8bkZCZBsRHPkZBwoGxiAASojVbKmxnjZAlFwcjlqcZC';
+//'1740688096184427|Xsnd2dcRYkwbo0lfdRES-Z2nVHg';//$app_id.'|'.$app_secret;
 $page_id = isset($_GET['id']) ? $_GET['id'] : '';
 $limit = isset($_GET['limit']) ? $_GET['limit'] : 20;
 $limit = $limit > 50 ? 50 : $limit;
 $feed = isset($_GET['feed']) ? $_GET['feed'] : 'feed';
 $api = 'v4.0';
-$fields = "id,message,picture,link,name,description,type,icon,created_time,from,object_id,likes,comments,attachments{media{image}}";
+$fields = "id,message,picture,created_time,from,likes,comments,attachments{media{image}}";
 if($feed == "posts") {
-    $fields = "id,message,picture,link,name,description,type,icon,created_time,from,object_id,likes,attachments{media{image}}";
+    $fields = "id,message,picture,created_time,from,likes,attachments{media{image}}";
 }
 $graphUrl = 'https://graph.facebook.com/'.$api.'/'.$page_id.'/'.$feed.'?key=value&access_token='.$app_access_token.'&fields='.$fields.'&limit='.$limit;
-$pageUrl = 'https://graph.facebook.com/'.$api.'/'.$page_id.'?key=value&access_token='.$app_access_token.'&fields=id,link,name';
+$pageUrl = 'https://graph.facebook.com/'.$api.'/'.$page_id.'?key=value&access_token='.$app_access_token.'&fields=id';
 
 echo'Test1'.$graphUrl."ENDS HERE";
 echo'Test2'.$pageUrl."ENDS HERE"; 
@@ -71,9 +72,9 @@ if(is_array($pagefeed)) {
 			$message .= ' ' . $data->description;
 		}
 		
-		$link = isset($data->link) ? $data->link : '';
+		$link = '';
 		$image = isset($data->picture) ? $data->picture : null;
-		$type = isset($data->type) ? $data->type : '';
+		$type = ;
 		
 		if($link == ''){
 			$id = isset($data->id) ? $data->id : '';
@@ -99,17 +100,17 @@ if(is_array($pagefeed)) {
 	//		$link = 'https://facebook.com' . $link;
 	//	}
 
-		if(!isset($data->object_id) && $type != 'video') {
+		if($type != 'video') {
 			$pic_id = explode("_", $image);	
 			if(isset($pic_id[1])){
 				$data->object_id = $pic_id[1];
 			}
 		}
 		
-		if(isset($data->object_id)){
+		{
 		
-			if(strpos($image, 'safe_image.php') === false && is_numeric($data->object_id)) {
-				$image = 'https://graph.facebook.com/'.$data->object_id.'/picture?type=normal';
+			if(strpos($image, 'safe_image.php') === false ) {
+				$image = 'https://graph.facebook.com/picture?type=normal';
 			}
 		
 		}
