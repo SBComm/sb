@@ -317,6 +317,7 @@
 			includeAsset('js','js/elements/filter/text-filter.js');
 		} ?>
 
+
 		<!-- BEGIN Page Specific Includes -->
 		<?php if($page_type=='social-hub') { ?>
 
@@ -340,7 +341,7 @@
 									url: 'social/v2/rss.php'
 								},
 								facebook: {
-									id: '30450493231,218862101583940',
+									id: '30450493231',  
 									text: 'contentSnippet',
 									feed: 'posts',
 									url: 'social/v2/facebook.php'
