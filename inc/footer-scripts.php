@@ -344,7 +344,7 @@
 									id: '30450493231',  
 									text: 'contentSnippet',
 									feed: 'posts',
-									url: 'social/v2/facebook.php'
+									url: 'https://www.stonybrook.edu/social/v2/facebook.php'
 								},
 								youtube: {
 									id: 'sbcomm , UC3NxYhOtlHEqzI10SsCaxqw',
