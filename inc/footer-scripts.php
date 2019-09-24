@@ -341,7 +341,7 @@
 									url: 'social/v2/rss.php'
 								},
 								facebook: {
-									id: '30450493231',  
+									id: '30450493231',  	
 									text: 'contentSnippet',
 									feed: 'posts',
 									url: 'https://www.stonybrook.edu/social/v2/facebook.php'
