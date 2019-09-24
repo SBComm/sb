@@ -1,6 +1,6 @@
 <?php
 
-echo'Gargi testing inc ';
+
 
 // SET YOUR FACEBOOK API DETAILS HERE
 $app_id 	= '1740688096184427';
