@@ -1008,6 +1008,13 @@ footer.site-footer {
     
 
 }
+@media only screen and (max-width: 960px) {
+
+    .outer-box-1 {
+        width:100%;
+    }
+
+}
 
 @media only screen and (min-width: 560px) {
 
