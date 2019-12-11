@@ -62,7 +62,7 @@ if($social_feed_widget) { ?>
 									search: '',
 									feed: 'posts',
 									text: 'contentSnippet',
-									url: 'https://www.stonybrook.edu/social/v2/facebook.php'
+									url: 'https://www.stonybrook.edu/social/codeforsnippet/facebookcode.php'
 								}
 							},
 							rotate: {

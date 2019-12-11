@@ -323,7 +323,7 @@ if($social_feed_widget) { ?>
 									search: '',
 									feed: 'posts',
 									text: 'contentSnippet',
-									url: 'https://www.stonybrook.edu/social/codeforsnippet/facebookcode.php'
+									url: '/social/v2/facebook.php'
 								}
 							},
 							rotate: {
