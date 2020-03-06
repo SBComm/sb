@@ -1070,7 +1070,8 @@ a.mag-article_gallery-trigger em {
 	color: #900;
 	font-size: 3.4em;
 	margin: 0;
-	line-height: 78%;
+	/*line-height: 78%;*/
+	line-height:90%;
 }
 
 .intro-effect-sidefixed .title p {
