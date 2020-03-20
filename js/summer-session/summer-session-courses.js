@@ -50,20 +50,30 @@ $(document).ready(function() {
 		}
 	});
 
-	$('.hover_bkgr_fricc').click(function(){
+	
+
+	  // $(".trigger_popup_fricc").click(function(event){
+	  // 	var id = $(this).attr('id');
+	  // 	var idtotarget = '#'+id+' .hover_bkgr_fricc';
+   //     	$(idtotarget).show();
+   //  });
+
+
+ 	$("a[id^="notesforclass"]").click(function(event){
+	  	var id = $(this).attr('id');
+	  	var idtotarget = '#'+id+' .hover_bkgr_fricc';
+       	$(idtotarget).show();
+    });
+	  
+
+	  $('.hover_bkgr_fricc').click(function(){
         $('.hover_bkgr_fricc').hide();
     });
     $('.popupCloseButton').click(function(){
         $('.hover_bkgr_fricc').hide();
     });
+   
 
-	  $(".trigger_popup_fricc").click(function(event){
-	  	var id = $(this).attr('id');
-	  	var idtotarget = '#'+id+' .hover_bkgr_fricc';
-       	$(idtotarget).show();
-    });
-   
-   
 });
 
 
