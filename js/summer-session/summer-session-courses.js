@@ -62,8 +62,8 @@ $(document).ready(function() {
 	  	var idtotarget = '#'+id+' .hover_bkgr_fricc';
        	$(idtotarget).show();
     });
-    
-
-
-
+   
+   
 });
+
+
