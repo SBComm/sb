@@ -63,8 +63,11 @@ $(document).ready(function() {
 
  	$("a[id^='notesforclass']").click(function(event){
 
- 		if(coming_from_closebutton)
+ 		if(coming_from_closebutton){
+ 			coming_from_closebutton = false;
  			return;
+ 		}
+ 		
  		else{
  			var id = $(this).attr('id');
 	  		var idtotarget = '#'+id+' .hover_bkgr_fricc';
