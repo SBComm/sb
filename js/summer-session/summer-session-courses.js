@@ -59,7 +59,7 @@ $(document).ready(function() {
    //  });
 
 
- 	$("a[id^="notesforclass"]").click(function(event){
+ 	$("a[id^='notesforclass']").click(function(event){
 	  	var id = $(this).attr('id');
 	  	var idtotarget = '#'+id+' .hover_bkgr_fricc';
        	$(idtotarget).show();
