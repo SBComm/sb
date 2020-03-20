@@ -58,11 +58,20 @@ $(document).ready(function() {
    //     	$(idtotarget).show();
    //  });
 
+   	var coming_from_closebutton = false;
+
 
  	$("a[id^='notesforclass']").click(function(event){
-	  	var id = $(this).attr('id');
-	  	var idtotarget = '#'+id+' .hover_bkgr_fricc';
-       	$(idtotarget).show();
+
+ 		if(coming_from_closebutton)
+ 			return;
+ 		else{
+ 			var id = $(this).attr('id');
+	  		var idtotarget = '#'+id+' .hover_bkgr_fricc';
+       		$(idtotarget).show();
+       		coming_from_closebutton = false;
+ 		}
+	  	
     });
 	  
 
@@ -70,6 +79,7 @@ $(document).ready(function() {
         $('.hover_bkgr_fricc').hide();
     });
     $('.popupCloseButton').click(function(){
+    	coming_from_closebutton= true;
         $('.hover_bkgr_fricc').hide();
     });
    
