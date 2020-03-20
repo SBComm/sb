@@ -1050,7 +1050,7 @@ ul.course-list .tablesaw-cell-label {
     max-width: 551px;
     min-height: 100px;
     vertical-align: middle;
-    width: 60%;
+    width: 100%;
     position: relative;
     border-radius: 8px;
     padding: 15px 5%;
@@ -1081,6 +1081,11 @@ ul.course-list .tablesaw-cell-label {
     margin: 20px;
     display: inline-block;
     font-weight: bold;
+}
+
+.hover_bkgr_fricc p {
+    color: #000!important;
+    font-weight: 300!important;
 }
 /* Popup box BEGIN */
 
