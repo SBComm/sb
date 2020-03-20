@@ -50,8 +50,9 @@ $(document).ready(function() {
 		}
 	});
 
-	  $(".trigger_popup_fricc").click(function(){
-       $('.hover_bkgr_fricc').show();
+	  $(".trigger_popup_fricc").click(function(event){
+	  	var idtotarget = '#'+event.target.id+'.hover_bkgr_fricc';
+       	$(idtotarget).show();
     });
     $('.hover_bkgr_fricc').click(function(){
         $('.hover_bkgr_fricc').hide();
@@ -59,5 +60,7 @@ $(document).ready(function() {
     $('.popupCloseButton').click(function(){
         $('.hover_bkgr_fricc').hide();
     });
+
+
 
 });

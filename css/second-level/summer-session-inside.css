@@ -1027,14 +1027,14 @@ ul.course-list .tablesaw-cell-label {
 
 /* Popup box BEGIN */
 .hover_bkgr_fricc{
-    background:rgba(0,0,0,.4);
+    /*background:rgba(0,0,0,.4);*/
     cursor:pointer;
     display:none;
     height:100%;
     position:fixed;
     text-align:center;
     top:0;
-    width:100%;
+    /*width:100%;*/
     z-index:10000;
 }
 .hover_bkgr_fricc .helper{
