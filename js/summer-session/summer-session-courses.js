@@ -51,7 +51,8 @@ $(document).ready(function() {
 	});
 
 	  $(".trigger_popup_fricc").click(function(event){
-	  	var idtotarget = '#'+event.target.id+' .hover_bkgr_fricc';
+	  	var id = $(this).attr('id');
+	  	var idtotarget = '#'+id+' .hover_bkgr_fricc';
        	$(idtotarget).show();
     });
     $('.hover_bkgr_fricc').click(function(){
