@@ -1088,6 +1088,19 @@ ul.course-list .tablesaw-cell-label {
     color: #000!important;
     font-weight: 300!important;
 }
+
+
+@media only screen and (max-width: 767px) {
+
+    .hover_bkgr_fricc > div {
+                width: 75%;
+
+    }
+
+    .hover_bkgr_fricc {
+        left: 5%;
+    }
+}
 /* Popup box BEGIN */
 
 /*Summer session Adding notes popup and prereqs ENDS HERE*/
