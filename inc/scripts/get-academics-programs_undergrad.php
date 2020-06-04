@@ -25,16 +25,16 @@
 */
 	$academics_url = 'https://www.stonybrook.edu/far-beyond/_data/academics/undergrad-programs.xml';
 
-	ini_set('display_errors', 1);
-			$arrContextOptions=array(
-				"ssl"=>array(
-					"verify_peer"=>false,
-					"verify_peer_name"=>false,
-				),
-			);  
+	// ini_set('display_errors', 1);
+	// 		$arrContextOptions=array(
+	// 			"ssl"=>array(
+	// 				"verify_peer"=>false,
+	// 				"verify_peer_name"=>false,
+	// 			),
+	// 		);  
 
-	$context = stream_context_create($arrContextOptions);		
-	libxml_set_streams_context($context);
+	// $context = stream_context_create($arrContextOptions);		
+	// libxml_set_streams_context($context);
 
 	$programs = simplexml_load_file($academics_url);
 
