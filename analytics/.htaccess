@@ -20,5 +20,4 @@
  allow from 130.245.189.0/25
  allow from 129.49.212.209
  allow from ::1
- allow from 108.41.194.181
 </Limit>
